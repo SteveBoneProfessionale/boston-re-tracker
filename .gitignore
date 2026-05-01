@@ -8,8 +8,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Database
-data/boston_re.db
+# Database WAL/journal temp files (db itself is tracked)
 data/boston_re.db-journal
 data/boston_re.db-wal
 data/boston_re.db-shm
