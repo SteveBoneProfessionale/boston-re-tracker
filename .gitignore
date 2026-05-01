@@ -1,0 +1,32 @@
+# Environment
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+data/boston_re.db
+data/boston_re.db-journal
+data/boston_re.db-wal
+data/boston_re.db-shm
+
+# Large data files
+data/pdfs/
+data/cache/
+
+# Logs
+*.log
+logs/
+data/*.log
+data/*.jsonl
+
+# Claude config
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
