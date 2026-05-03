@@ -220,7 +220,7 @@ T.forEach(t=>{{
         _section("STATUS BREAKDOWN", mt=18)
         status_df = df["status"].value_counts().reset_index()
         status_df.columns = ["status", "count"]
-        total_s = status_df["count"].sum()
+        total_s = int(status_df["count"].sum())
         fig_status = go.Figure()
         for _, row in status_df.iterrows():
             color = STATUS_COLORS.get(row["status"], _MUTED)
@@ -230,29 +230,38 @@ T.forEach(t=>{{
                 marker_color=color,
                 marker_line_width=0,
                 name=row["status"],
-                text=f'{row["count"]}',
-                textposition="inside",
-                constraintext="inside",
-                insidetextanchor="middle",
-                textfont=dict(family=_MONO, size=9, color="#000"),
-                hovertemplate=f'{row["status"]}: {row["count"]} ({row["count"]/total_s*100:.0f}%)<extra></extra>',
+                hovertemplate=f'{row["status"]}: {int(row["count"])} ({int(row["count"])/total_s*100:.0f}%)<extra></extra>',
             ))
         fig_status.update_layout(
-            **_chart_base(44),
+            **_chart_base(36),
             barmode="stack",
             margin=dict(l=0, r=0, t=0, b=0),
-            showlegend=True,
+            showlegend=False,
             xaxis=dict(visible=False),
             yaxis=dict(visible=False),
-            legend=dict(
-                font=dict(family=_MONO, size=8, color=_MUTED),
-                bgcolor="rgba(0,0,0,0)",
-                orientation="h",
-                yanchor="top", y=-0.15,
-                xanchor="left", x=0,
-            ),
         )
         st.plotly_chart(fig_status, use_container_width=True, config={"displayModeBar": False})
+
+        # Custom legend — 2-column grid, uniform spacing
+        status_order = ["Under Review", "Board Approved", "Under Construction", "Letter of Intent"]
+        legend_items = ""
+        for s in status_order:
+            cnt_arr = status_df[status_df["status"] == s]["count"].values
+            cnt = int(cnt_arr[0]) if len(cnt_arr) else 0
+            color = STATUS_COLORS.get(s, _MUTED)
+            legend_items += (
+                f'<div style="display:flex;align-items:center;gap:7px">'
+                f'<span style="width:8px;height:8px;border-radius:50%;background:{color};flex-shrink:0"></span>'
+                f'<span style="color:#e2e8f0;font-weight:700;min-width:22px">{cnt}</span>'
+                f'<span style="color:{_MUTED}">{s.upper()}</span>'
+                f'</div>'
+            )
+        st.markdown(
+            f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:5px 12px;'
+            f'margin-top:6px;font-family:{_MONO};font-size:9px;letter-spacing:0.06em">'
+            f'{legend_items}</div>',
+            unsafe_allow_html=True,
+        )
 
         _section("REVIEW SCALE")
         scale_df = df["project_scale"].value_counts().reset_index()
@@ -293,7 +302,7 @@ T.forEach(t=>{{
                 dev_df.groupby("developer_canonical").size()
                 .reset_index(name="n")
                 .sort_values("n", ascending=True)
-                .tail(12)
+                .tail(10)
             )
             bar_c = [_MUTED] * len(dev_counts)
             if len(bar_c) >= 1:
@@ -308,18 +317,21 @@ T.forEach(t=>{{
                 marker_line_width=0,
                 text=dev_counts["n"],
                 textposition="outside",
+                cliponaxis=False,
                 textfont=dict(family=_MONO, size=9, color=_MUTED),
                 hovertemplate="%{y}: %{x} projects<extra></extra>",
             ))
             fig_dev.update_layout(
-                **_chart_base(300),
-                margin=dict(l=0, r=28, t=4, b=4),
+                **_chart_base(290),
+                margin=dict(l=8, r=32, t=4, b=4),
                 showlegend=False,
-                xaxis=dict(visible=False, showgrid=False),
+                xaxis=dict(visible=False, showgrid=False, fixedrange=True),
                 yaxis=dict(
                     showgrid=False,
+                    automargin=True,
                     tickfont=dict(family=_MONO, size=9, color=_MUTED),
                     linecolor=_BORDER, tickcolor=_BORDER,
+                    fixedrange=True,
                 ),
             )
             st.plotly_chart(fig_dev, use_container_width=True, config={"displayModeBar": False})
