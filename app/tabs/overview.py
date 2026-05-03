@@ -52,7 +52,7 @@ def render(df: pd.DataFrame, stats: dict):
         ("PIPELINE SF",       stats["total_gsf"],          "#ffffff", True),
     ]
     tiles_json = json.dumps([
-        {"label": t[0], "raw": t[1], "color": t[2], "big": t[3]}
+        {"label": t[0], "raw": int(t[1]), "color": t[2], "big": t[3]}
         for t in tiles
     ])
 
