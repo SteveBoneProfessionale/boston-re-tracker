@@ -29,14 +29,12 @@ def _section(label: str, mt: int = 20):
     )
 
 
-def _chart_base(h: int = 320, r: int = 28) -> dict:
+def _chart_base(h: int = 320) -> dict:
     return dict(
         height=h,
-        margin=dict(l=0, r=r, t=4, b=4),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family=_MONO, size=10, color=_MUTED),
-        showlegend=False,
     )
 
 
@@ -162,13 +160,14 @@ T.forEach(t=>{{
         fig_nbhd.update_layout(
             **_chart_base(380),
             barmode="stack",
+            margin=dict(l=0, r=0, t=28, b=4),
+            showlegend=True,
             xaxis=dict(visible=False, showgrid=False),
             yaxis=dict(
                 showgrid=False,
                 tickfont=dict(family=_MONO, size=10, color=_MUTED),
                 linecolor=_BORDER, tickcolor=_BORDER,
             ),
-            showlegend=True,
             legend=dict(
                 font=dict(family=_MONO, size=9, color=_MUTED),
                 bgcolor="rgba(0,0,0,0)",
@@ -177,7 +176,6 @@ T.forEach(t=>{{
                 xanchor="left", x=0,
                 itemwidth=30,
             ),
-            margin=dict(l=0, r=0, t=28, b=4),
         )
         st.plotly_chart(fig_nbhd, use_container_width=True, config={"displayModeBar": False})
 
@@ -206,7 +204,9 @@ T.forEach(t=>{{
                 hovertemplate="%{y}: %{x:.1f}M SF<extra></extra>",
             ))
             fig_ac.update_layout(
-                **_chart_base(200, r=50),
+                **_chart_base(200),
+                margin=dict(l=0, r=50, t=4, b=4),
+                showlegend=False,
                 xaxis=dict(visible=False, showgrid=False),
                 yaxis=dict(
                     showgrid=False,
@@ -240,10 +240,10 @@ T.forEach(t=>{{
         fig_status.update_layout(
             **_chart_base(44),
             barmode="stack",
-            xaxis=dict(visible=False),
-            yaxis=dict(visible=False),
             margin=dict(l=0, r=0, t=0, b=0),
             showlegend=True,
+            xaxis=dict(visible=False),
+            yaxis=dict(visible=False),
             legend=dict(
                 font=dict(family=_MONO, size=8, color=_MUTED),
                 bgcolor="rgba(0,0,0,0)",
@@ -276,9 +276,10 @@ T.forEach(t=>{{
         fig_scale.update_layout(
             **_chart_base(44),
             barmode="stack",
+            margin=dict(l=0, r=0, t=0, b=0),
+            showlegend=False,
             xaxis=dict(visible=False),
             yaxis=dict(visible=False),
-            margin=dict(l=0, r=0, t=0, b=0),
         )
         st.plotly_chart(fig_scale, use_container_width=True, config={"displayModeBar": False})
 
@@ -311,7 +312,9 @@ T.forEach(t=>{{
                 hovertemplate="%{y}: %{x} projects<extra></extra>",
             ))
             fig_dev.update_layout(
-                **_chart_base(300, r=28),
+                **_chart_base(300),
+                margin=dict(l=0, r=28, t=4, b=4),
+                showlegend=False,
                 xaxis=dict(visible=False, showgrid=False),
                 yaxis=dict(
                     showgrid=False,
