@@ -6,53 +6,41 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 
-# Neighborhood centroids for Boston
+_ORANGE = "#F5821E"
+_MUTED  = "#8A9BB0"
+_BORDER = "#1E2530"
+_MONO   = "'JetBrains Mono', monospace"
+
 NEIGHBORHOOD_COORDS = {
-    "Allston": (42.3534, -71.1326),
-    "Back Bay": (42.3503, -71.0810),
-    "Brighton": (42.3490, -71.1567),
-    "Charlestown": (42.3780, -71.0602),
-    "Chinatown": (42.3517, -71.0622),
-    "Dorchester": (42.3010, -71.0674),
-    "Downtown": (42.3554, -71.0603),
-    "East Boston": (42.3744, -71.0398),
-    "Fenway": (42.3442, -71.0990),
-    "Hyde Park": (42.2552, -71.1245),
-    "Jamaica Plain": (42.3101, -71.1132),
-    "Longwood Medical Area": (42.3368, -71.1058),
-    "Mattapan": (42.2738, -71.0927),
-    "Mission Hill": (42.3281, -71.1053),
-    "North End": (42.3647, -71.0542),
-    "Roslindale": (42.2847, -71.1263),
-    "Roxbury": (42.3133, -71.0892),
-    "South Boston": (42.3355, -71.0481),
-    "South Boston Waterfront": (42.3470, -71.0432),
-    "South End": (42.3396, -71.0786),
-    "West End": (42.3638, -71.0670),
-    "West Roxbury": (42.2806, -71.1601),
+    "Allston":                  (42.3534, -71.1326),
+    "Back Bay":                 (42.3503, -71.0810),
+    "Brighton":                 (42.3490, -71.1567),
+    "Charlestown":              (42.3780, -71.0602),
+    "Chinatown":                (42.3517, -71.0622),
+    "Dorchester":               (42.3010, -71.0674),
+    "Downtown":                 (42.3554, -71.0603),
+    "East Boston":              (42.3744, -71.0398),
+    "Fenway":                   (42.3442, -71.0990),
+    "Hyde Park":                (42.2552, -71.1245),
+    "Jamaica Plain":            (42.3101, -71.1132),
+    "Longwood Medical Area":    (42.3368, -71.1058),
+    "Mattapan":                 (42.2738, -71.0927),
+    "Mission Hill":             (42.3281, -71.1053),
+    "North End":                (42.3647, -71.0542),
+    "Roslindale":               (42.2847, -71.1263),
+    "Roxbury":                  (42.3133, -71.0892),
+    "South Boston":             (42.3355, -71.0481),
+    "South Boston Waterfront":  (42.3470, -71.0432),
+    "South End":                (42.3396, -71.0786),
+    "West End":                 (42.3638, -71.0670),
+    "West Roxbury":             (42.2806, -71.1601),
 }
 
 STATUS_COLORS = {
-    "Under Review": "orange",
-    "Board Approved": "green",
-    "Letter of Intent": "blue",
-    "Under Construction": "red",
-}
-
-# Folium named colors → hex, for rendering in HTML legend
-_FOLIUM_HEX = {
-    "orange":   "#f97316",
-    "green":    "#22c55e",
-    "blue":     "#3b82f6",
-    "red":      "#ef4444",
-    "gray":     "#9ca3af",
-    "purple":   "#a855f7",
-    "darkred":  "#991b1b",
-    "darkblue": "#1d4ed8",
-    "darkgreen":"#15803d",
-    "pink":     "#ec4899",
-    "white":    "#f1f5f9",
-    "black":    "#1e293b",
+    "Under Review":       _ORANGE,
+    "Board Approved":     "#22c55e",
+    "Letter of Intent":   "#64748b",
+    "Under Construction": "#ef4444",
 }
 
 _FILTER_KEYS = [
@@ -62,86 +50,62 @@ _FILTER_KEYS = [
 
 
 def _delivery_year(val: str) -> str:
-    """Extract 4-digit year from expected_delivery, return 'Unknown' if absent."""
     if not val:
         return "Unknown"
     m = re.search(r"\b(20\d{2})\b", str(val))
     return m.group(1) if m else "Unknown"
 
 
-def render(df: pd.DataFrame):
-    st.header("Project Map")
+def _section(label: str):
+    st.markdown(
+        f'<p style="font-family:{_MONO};font-size:9px;font-weight:700;'
+        f'letter-spacing:0.18em;color:{_MUTED};text-transform:uppercase;'
+        f'margin:16px 0 8px 0">{label}</p>',
+        unsafe_allow_html=True,
+    )
 
-    # Augment with delivery_year column for filtering
+
+def render(df: pd.DataFrame):
     df = df.copy()
     df["_delivery_year"] = df["expected_delivery"].apply(_delivery_year)
 
-    # ── Filter option lists (dynamic) ──────────────────────────────────────
-    statuses = ["All"] + sorted(df["status"].replace("", pd.NA).dropna().unique().tolist())
-    scales = ["All", "Large Project", "Small Project"]
-    developers = ["All"] + sorted(
-        df["developer_canonical"].replace("", pd.NA).dropna().unique().tolist()
-    )
-    asset_classes = ["All"] + sorted(
-        df["asset_class"].replace("", pd.NA).dropna().unique().tolist()
-    )
-    neighborhoods = ["All"] + sorted(
-        df["neighborhood"].replace("", pd.NA).dropna().unique().tolist()
-    )
-    cities = ["All"] + sorted(
-        df["city"].replace("", pd.NA).dropna().unique().tolist()
-    )
-    equity_partners = ["All"] + sorted(
-        df["equity_partner"].replace("", pd.NA).dropna().unique().tolist()
-    )
-
-    # Fixed delivery year options — buckets
-    all_years = sorted(
-        {y for y in df["_delivery_year"] if y != "Unknown" and y >= "2025"}
-    )
+    statuses     = ["All"] + sorted(df["status"].replace("", pd.NA).dropna().unique().tolist())
+    scales       = ["All", "Large Project", "Small Project"]
+    developers   = ["All"] + sorted(df["developer_canonical"].replace("", pd.NA).dropna().unique().tolist())
+    asset_classes= ["All"] + sorted(df["asset_class"].replace("", pd.NA).dropna().unique().tolist())
+    neighborhoods= ["All"] + sorted(df["neighborhood"].replace("", pd.NA).dropna().unique().tolist())
+    cities       = ["All"] + sorted(df["city"].replace("", pd.NA).dropna().unique().tolist())
+    equity_partners = ["All"] + sorted(df["equity_partner"].replace("", pd.NA).dropna().unique().tolist())
     year_buckets = ["All", "2025", "2026", "2027", "2028", "2029+", "Unknown"]
 
-    # ── Clear All button ───────────────────────────────────────────────────
-    if st.button("Clear All Filters", key="map_clear"):
+    _section("FILTERS")
+
+    c1, c2, c3, c4 = st.columns(4)
+    status_f      = c1.selectbox("STATUS",        statuses,      key="map_status")
+    scale_f       = c2.selectbox("SCALE",         scales,        key="map_scale")
+    city_f        = c3.selectbox("CITY",          cities,        key="map_city")
+    neighborhood_f= c4.selectbox("NEIGHBORHOOD",  neighborhoods, key="map_neighborhood")
+
+    c5, c6, c7, c8 = st.columns(4)
+    asset_class_f = c5.selectbox("ASSET CLASS",   asset_classes, key="map_asset_class")
+    delivery_f    = c6.selectbox("DELIVERY YEAR", year_buckets,  key="map_delivery_year")
+    developer_f   = c7.selectbox("DEVELOPER",     developers,    key="map_developer")
+    equity_f      = c8.selectbox("EQUITY PARTNER",equity_partners, key="map_equity_partner")
+
+    if st.button("✕  CLEAR ALL FILTERS", key="map_clear"):
         for k in _FILTER_KEYS:
-            if k in st.session_state:
-                del st.session_state[k]
+            st.session_state.pop(k, None)
         st.rerun()
 
-    # ── Filter row 1: Status, Scale, City ─────────────────────────────────
-    c1, c2, c3 = st.columns(3)
-    status_f = c1.selectbox("Status", statuses, key="map_status")
-    scale_f = c2.selectbox("Scale", scales, key="map_scale")
-    city_f = c3.selectbox("City", cities, key="map_city")
-
-    # ── Filter row 2: Neighborhood, Asset Class, Delivery Year ────────────
-    c4, c5, c6 = st.columns(3)
-    neighborhood_f = c4.selectbox("Neighborhood", neighborhoods, key="map_neighborhood")
-    asset_class_f = c5.selectbox("Asset Class", asset_classes, key="map_asset_class")
-    delivery_f = c6.selectbox("Delivery Year", year_buckets, key="map_delivery_year")
-
-    # ── Filter row 3: Developer, Equity Partner ───────────────────────────
-    c7, c8 = st.columns(2)
-    developer_f = c7.selectbox("Developer", developers, key="map_developer")
-    equity_f = c8.selectbox("Equity Partner", equity_partners, key="map_equity_partner")
-
-    # ── Apply filters ──────────────────────────────────────────────────────
+    # Apply filters
     filtered = df.copy()
-
-    if status_f != "All":
-        filtered = filtered[filtered["status"] == status_f]
-    if scale_f != "All":
-        filtered = filtered[filtered["project_scale"] == scale_f]
-    if city_f != "All":
-        filtered = filtered[filtered["city"] == city_f]
-    if neighborhood_f != "All":
-        filtered = filtered[filtered["neighborhood"] == neighborhood_f]
-    if asset_class_f != "All":
-        filtered = filtered[filtered["asset_class"] == asset_class_f]
-    if developer_f != "All":
-        filtered = filtered[filtered["developer_canonical"] == developer_f]
-    if equity_f != "All":
-        filtered = filtered[filtered["equity_partner"] == equity_f]
+    if status_f       != "All": filtered = filtered[filtered["status"]             == status_f]
+    if scale_f        != "All": filtered = filtered[filtered["project_scale"]      == scale_f]
+    if city_f         != "All": filtered = filtered[filtered["city"]               == city_f]
+    if neighborhood_f != "All": filtered = filtered[filtered["neighborhood"]       == neighborhood_f]
+    if asset_class_f  != "All": filtered = filtered[filtered["asset_class"]        == asset_class_f]
+    if developer_f    != "All": filtered = filtered[filtered["developer_canonical"]== developer_f]
+    if equity_f       != "All": filtered = filtered[filtered["equity_partner"]     == equity_f]
 
     if delivery_f != "All":
         if delivery_f == "Unknown":
@@ -154,10 +118,19 @@ def render(df: pd.DataFrame):
         else:
             filtered = filtered[filtered["_delivery_year"] == delivery_f]
 
-    st.caption(f"Showing {len(filtered):,} of {len(df):,} projects")
+    st.markdown(
+        f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 10px">'
+        f'<span style="color:#e2e8f0;font-weight:700">{len(filtered):,}</span> OF '
+        f'{len(df):,} PROJECTS MAPPED</p>',
+        unsafe_allow_html=True,
+    )
 
-    # ── Build map ──────────────────────────────────────────────────────────
-    m = folium.Map(location=[42.3277, -71.0700], zoom_start=12, tiles="CartoDB positron")
+    # ── Map ────────────────────────────────────────────────────────
+    m = folium.Map(
+        location=[42.3277, -71.0700],
+        zoom_start=12,
+        tiles="CartoDB dark_matter",
+    )
 
     added = 0
     for _, row in filtered.iterrows():
@@ -171,71 +144,78 @@ def render(df: pd.DataFrame):
             lat = coords[0] + random.uniform(-0.003, 0.003)
             lon = coords[1] + random.uniform(-0.003, 0.003)
 
-        color = STATUS_COLORS.get(row["status"], "gray")
-        icon_symbol = "building" if row["project_scale"] == "Large Project" else "home"
+        color = STATUS_COLORS.get(row["status"], _MUTED)
 
-        gsf_str = f"{int(row['total_gsf']):,} GSF" if pd.notna(row.get("total_gsf")) and row.get("total_gsf") else ""
-        units_str = f"{int(row['residential_units']):,} units" if pd.notna(row.get("residential_units")) and row.get("residential_units") else ""
-        dev = row.get("developer_canonical") or row.get("developer") or ""
-        dev_str = f"<b>Developer:</b> {dev}<br>" if dev else ""
-        eq = row.get("equity_partner") or ""
-        eq_str = f"<b>Equity Partner:</b> {eq}<br>" if eq else ""
-        city_str = f" &middot; {row['city']}" if row.get("city") and row["city"] != "Boston" else ""
+        gsf_str   = f"{int(row['total_gsf']):,} SF" if pd.notna(row.get("total_gsf")) and row.get("total_gsf") else ""
+        units_str = f"{int(row['residential_units']):,} UNITS" if pd.notna(row.get("residential_units")) and row.get("residential_units") else ""
+        dev       = row.get("developer_canonical") or row.get("developer") or ""
+        eq        = row.get("equity_partner") or ""
+        city_s    = f" · {row['city']}" if row.get("city") and row["city"] != "Boston" else ""
 
         bpda_link = ""
         url = row.get("bpda_url", "")
         if url and not url.startswith("manual:"):
-            bpda_link = f"<br><a href='{url}' target='_blank'>BPDA Page ↗</a>"
+            bpda_link = f"<br><a href='{url}' target='_blank' style='color:{_ORANGE}'>BPDA PAGE ↗</a>"
 
         popup_html = f"""
-        <div style='min-width:200px'>
-          <b>{row['name']}</b><br>
-          {row['address']}{city_str}<br>
-          {dev_str}{eq_str}
-          <b>Status:</b> {row['status']}<br>
-          <b>Asset Class:</b> {row['asset_class'] or '—'}<br>
-          {gsf_str}{' · ' if gsf_str and units_str else ''}{units_str}
-          {'<br><b>Delivery:</b> ' + row['expected_delivery'] if row.get('expected_delivery') else ''}
+        <div style='min-width:220px;background:#141720;padding:12px 14px;
+                    font-family:monospace;border-left:3px solid {color}'>
+          <div style='font-size:12px;font-weight:700;color:#fff;margin-bottom:6px;
+                      line-height:1.3'>{row['name']}</div>
+          <div style='font-size:10px;color:{_MUTED};margin-bottom:4px'>{row['address']}{city_s}</div>
+          {"<div style='font-size:10px;color:#e2e8f0;margin-bottom:2px'>" + dev + "</div>" if dev else ""}
+          {"<div style='font-size:10px;color:" + _MUTED + ";margin-bottom:2px'>EQ: " + eq + "</div>" if eq else ""}
+          <div style='margin-top:8px;display:flex;gap:8px;flex-wrap:wrap'>
+            <span style='font-size:9px;font-weight:700;letter-spacing:0.1em;
+                         color:{color};border:1px solid {color};padding:2px 6px'>
+              {row['status'].upper()}</span>
+            {"<span style='font-size:9px;color:" + _MUTED + "'>" + row['asset_class'] + "</span>" if row.get('asset_class') else ""}
+          </div>
+          {"<div style='font-size:10px;color:" + _MUTED + ";margin-top:6px'>" + gsf_str + (" · " if gsf_str and units_str else "") + units_str + "</div>" if gsf_str or units_str else ""}
+          {"<div style='font-size:10px;color:" + _MUTED + ";margin-top:2px'>DELIVERY: " + row['expected_delivery'] + "</div>" if row.get('expected_delivery') else ""}
           {bpda_link}
         </div>"""
 
-        folium.Marker(
+        folium.CircleMarker(
             location=[lat, lon],
-            popup=folium.Popup(popup_html, max_width=300),
-            tooltip=row["name"],
-            icon=folium.Icon(color=color, icon=icon_symbol, prefix="fa"),
+            radius=7,
+            color=color,
+            fill=True,
+            fill_color=color,
+            fill_opacity=0.85,
+            weight=1.5,
+            popup=folium.Popup(popup_html, max_width=280),
+            tooltip=f'<span style="font-family:monospace;font-size:11px">{row["name"]}</span>',
         ).add_to(m)
         added += 1
 
-    # Build legend rows directly from STATUS_COLORS so they always match pin logic.
-    # Also add a gray "Other" row for any unmapped statuses.
-    legend_entries = list(STATUS_COLORS.items()) + [("Other / Unknown", "gray")]
-    rows = "".join(
-        f"<div style='display:flex;align-items:center;gap:7px;margin:3px 0'>"
-        f"<span style='color:{_FOLIUM_HEX.get(color,'#9ca3af')};font-size:16px;line-height:1'>&#9679;</span>"
-        f"<span style='color:#e2e8f0'>{label}</span>"
-        f"</div>"
-        for label, color in legend_entries
+    # Terminal legend
+    legend_rows = "".join(
+        f'<div style="display:flex;align-items:center;gap:8px;margin:4px 0">'
+        f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;'
+        f'background:{color}"></span>'
+        f'<span style="font-family:monospace;font-size:10px;letter-spacing:0.08em;'
+        f'color:#e2e8f0;text-transform:uppercase">{label}</span>'
+        f'</div>'
+        for label, color in list(STATUS_COLORS.items()) + [("Other / Unknown", _MUTED)]
     )
     legend_html = (
         "<div style='"
-        "position:fixed;bottom:20px;left:20px;"
-        "background:rgba(15,23,42,0.88);"
+        "position:fixed;bottom:24px;left:20px;"
+        f"background:rgba(13,15,18,0.92);"
+        f"border:1px solid {_BORDER};"
         "padding:10px 14px;"
-        "border-radius:8px;"
-        "border:1px solid rgba(255,255,255,0.15);"
-        "font-size:12px;"
         "z-index:9999;"
-        "box-shadow:0 2px 8px rgba(0,0,0,0.5);"
-        "min-width:160px;"
+        "box-shadow:0 4px 20px rgba(0,0,0,0.7);"
         "'>"
-        f"<div style='font-weight:700;margin-bottom:6px;color:#ffffff;font-size:12px'>Status</div>"
-        f"{rows}"
+        f"<div style='font-family:monospace;font-size:9px;font-weight:700;letter-spacing:0.18em;"
+        f"color:{_MUTED};text-transform:uppercase;margin-bottom:8px'>STATUS</div>"
+        f"{legend_rows}"
         "</div>"
     )
     m.get_root().html.add_child(folium.Element(legend_html))
 
-    st_folium(m, width="100%", height=600, returned_objects=[])
+    st_folium(m, width="100%", height=580, returned_objects=[])
 
     if added < len(filtered):
-        st.caption(f"Note: {len(filtered) - added} projects could not be mapped (no coordinates).")
+        st.caption(f"{len(filtered) - added} PROJECTS COULD NOT BE MAPPED (NO COORDINATES)")

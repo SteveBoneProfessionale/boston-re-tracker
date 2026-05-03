@@ -6,25 +6,23 @@ import streamlit.components.v1 as components
 from app.data import load_news, backfill_topics
 
 SOURCE_LABELS = {
-    "boston_gov": "Boston.gov",
-    "banker_tradesman": "Banker & Tradesman",
-    "the_real_deal": "The Real Deal",
-    "curbed": "Curbed",
-    "boston_com": "Boston.com",
-    "boston_re_times": "Boston Re Times",
-    "bisnow_boston": "Bisnow Boston",
+    "boston_gov":        "BOSTON.GOV",
+    "banker_tradesman":  "BANKER & T",
+    "the_real_deal":     "REAL DEAL",
+    "curbed":            "CURBED",
+    "boston_com":        "BOSTON.COM",
+    "boston_re_times":   "BRE TIMES",
+    "bisnow_boston":     "BISNOW",
 }
-
 SOURCE_COLORS = {
-    "boston_gov": "#3b82f6",
-    "banker_tradesman": "#f59e0b",
-    "the_real_deal": "#ef4444",
-    "curbed": "#8b5cf6",
-    "boston_com": "#10b981",
-    "boston_re_times": "#06b6d4",
-    "bisnow_boston": "#ea580c",
+    "boston_gov":        "#8A9BB0",
+    "banker_tradesman":  "#F5821E",
+    "the_real_deal":     "#ef4444",
+    "curbed":            "#a78bfa",
+    "boston_com":        "#22c55e",
+    "boston_re_times":   "#06b6d4",
+    "bisnow_boston":     "#F5821E",
 }
-
 TOPICS = [
     "Events", "Architecture", "Construction", "Development",
     "Engineering", "Financing", "Investments", "Leasing", "Retail",
@@ -36,12 +34,6 @@ def render():
         backfill_topics()
         st.session_state["_topics_backfilled"] = True
         st.cache_data.clear()
-
-    st.markdown("## Boston Real Estate News")
-    st.caption(
-        "Aggregated from Banker & Tradesman, The Real Deal, Curbed, Boston.gov, and Boston.com"
-        " — articles auto-linked to tracked projects"
-    )
 
     df = load_news(500)
     if df.empty:
@@ -57,542 +49,461 @@ def render():
             except Exception:
                 pass
         articles.append({
-            "title": str(row.get("title") or ""),
-            "url": str(row.get("url") or "#"),
-            "source": str(row.get("source") or ""),
-            "date": pub,
-            "summary": str(row.get("summary") or "")[:400],
+            "title":   str(row.get("title") or ""),
+            "url":     str(row.get("url") or "#"),
+            "source":  str(row.get("source") or ""),
+            "date":    pub,
+            "summary": str(row.get("summary") or "")[:500],
             "project": str(row.get("linked_project_name") or ""),
-            "linked": bool(row.get("linked_project_id")),
-            "topics": str(row.get("topics") or ""),
+            "linked":  bool(row.get("linked_project_id")),
+            "topics":  str(row.get("topics") or ""),
         })
 
-    articles_json = json.dumps(articles, ensure_ascii=False)
+    articles_json      = json.dumps(articles, ensure_ascii=False)
     source_labels_json = json.dumps(SOURCE_LABELS)
     source_colors_json = json.dumps(SOURCE_COLORS)
-    topics_json = json.dumps(TOPICS)
+    topics_json        = json.dumps(TOPICS)
 
     html = f"""<!DOCTYPE html>
-<html>
-<head>
+<html><head>
 <meta charset="utf-8">
 <style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{
-  background:#0e1117;
-  color:#f1f5f9;
-  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
-  height:100vh;
-  overflow:hidden;
-  display:flex;
-  flex-direction:column;
-  padding:2px 2px 4px 2px;
+  background:#0d0f12;
+  color:#e2e8f0;
+  font-family:'Inter',-apple-system,sans-serif;
+  height:100vh;overflow:hidden;display:flex;flex-direction:column;
+  padding:2px 2px 4px;
 }}
 #app{{display:flex;flex-direction:column;height:100%;overflow:hidden}}
 
-/* ── Filter bar ── */
-#filter-bar-wrap{{
-  background:#161827;
-  border:1px solid #2a2d3e;
-  border-radius:10px;
-  padding:14px 16px 16px;
-  margin-bottom:10px;
+/* ── Toolbar ── */
+#toolbar{{
+  background:#0d0f12;
+  border:1px solid #1E2530;
+  padding:10px 14px;
+  margin-bottom:8px;
   flex-shrink:0;
-  position:relative;
-  z-index:100;
+  display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end;
+  position:relative;z-index:100;
 }}
-.filter-row{{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end}}
-.filter-group{{display:flex;flex-direction:column;gap:5px}}
-.filter-label{{
-  font-size:0.62rem;font-weight:700;color:#64748b;
-  text-transform:uppercase;letter-spacing:0.09em;
+.fg{{display:flex;flex-direction:column;gap:4px}}
+.fl{{font-family:'JetBrains Mono',monospace;font-size:8.5px;font-weight:700;
+     letter-spacing:0.14em;color:#8A9BB0;text-transform:uppercase}}
+.fb{{
+  background:#141720;border:1px solid #1E2530;color:#e2e8f0;
+  padding:0 10px;height:32px;font-family:'JetBrains Mono',monospace;
+  font-size:11px;cursor:pointer;display:flex;align-items:center;gap:6px;
+  min-width:120px;justify-content:space-between;white-space:nowrap;
+  transition:border-color 0.1s;
 }}
-.filter-btn{{
-  background:#1c1f2e;
-  border:1px solid #2a2d3e;
-  border-radius:6px;
-  color:#cbd5e1;
-  padding:8px 10px;
-  cursor:pointer;
-  display:flex;
-  align-items:center;
-  gap:6px;
-  font-size:0.82rem;
-  min-width:130px;
-  justify-content:space-between;
-  white-space:nowrap;
-  height:36px;
-  transition:border-color 0.12s ease,background 0.12s ease;
+.fb:hover{{border-color:#F5821E}}
+.fb.on{{border-color:#F5821E;color:#F5821E}}
+.fbl{{display:flex;align-items:center;gap:5px}}
+.fbadge{{
+  background:#F5821E;color:#000;font-size:8px;font-weight:700;
+  padding:1px 4px;display:none;
 }}
-.filter-btn:hover{{border-color:#3b82f6}}
-.filter-btn.active{{border-color:#3b82f6;background:rgba(59,130,246,0.08);color:#93c5fd}}
-.btn-left{{display:flex;align-items:center;gap:6px}}
-.badge{{
-  background:#3b82f6;color:#fff;font-size:0.62rem;
-  font-weight:700;padding:1px 5px;border-radius:10px;display:none;
-}}
-.chevron{{font-size:0.65rem;color:#475569;transition:transform 0.15s ease}}
-.chevron.open{{transform:rotate(180deg)}}
+.chev{{font-size:9px;color:#475569;transition:transform 0.12s}}
+.chev.open{{transform:rotate(180deg)}}
 
-/* ── Dropdown panel ── */
-.dropdown-wrap{{position:relative}}
-.dropdown-panel{{
-  position:absolute;
-  top:calc(100% + 5px);
-  left:0;
-  background:#1c1f2e;
-  border:1px solid #2a2d3e;
-  border-radius:8px;
-  min-width:190px;
-  max-height:280px;
-  overflow-y:auto;
-  z-index:9999;
-  box-shadow:0 8px 28px rgba(0,0,0,0.6);
-  opacity:0;
-  transform:translateY(-6px);
-  transition:opacity 0.15s ease,transform 0.15s ease;
-  pointer-events:none;
+.dp{{
+  position:absolute;top:calc(100% + 4px);left:0;
+  background:#141720;border:1px solid #1E2530;
+  min-width:180px;max-height:260px;overflow-y:auto;
+  z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.7);
+  opacity:0;transform:translateY(-4px);
+  transition:opacity 0.12s,transform 0.12s;pointer-events:none;
 }}
-.dropdown-panel.open{{opacity:1;transform:translateY(0);pointer-events:all}}
-.dropdown-panel::-webkit-scrollbar{{width:3px}}
-.dropdown-panel::-webkit-scrollbar-thumb{{background:#2a2d3e;border-radius:2px}}
-.panel-header{{
+.dp.open{{opacity:1;transform:translateY(0);pointer-events:all}}
+.dp::-webkit-scrollbar{{width:3px}}
+.dp::-webkit-scrollbar-thumb{{background:#1E2530}}
+.dp-head{{
   display:flex;justify-content:space-between;align-items:center;
-  padding:8px 12px 7px;border-bottom:1px solid #2a2d3e;position:sticky;top:0;
-  background:#1c1f2e;
+  padding:7px 11px 6px;border-bottom:1px solid #1E2530;
+  position:sticky;top:0;background:#141720;
 }}
-.panel-title{{font-size:0.65rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:0.08em}}
-.clear-link{{font-size:0.72rem;color:#3b82f6;cursor:pointer;font-weight:600;border:none;background:none;padding:0}}
-.clear-link:hover{{color:#60a5fa}}
-.check-item{{
-  display:flex;align-items:center;gap:9px;padding:8px 12px;
-  cursor:pointer;font-size:0.82rem;color:#cbd5e1;user-select:none;
+.dp-title{{font-family:'JetBrains Mono',monospace;font-size:8px;font-weight:700;
+           letter-spacing:0.1em;color:#8A9BB0;text-transform:uppercase}}
+.dp-clear{{font-family:'JetBrains Mono',monospace;font-size:10px;color:#F5821E;
+           cursor:pointer;border:none;background:none;padding:0;font-weight:600}}
+.dp-clear:hover{{color:#ffb06e}}
+.ci{{
+  display:flex;align-items:center;gap:8px;padding:7px 11px;
+  cursor:pointer;font-size:11px;color:#cbd5e1;user-select:none;
+  font-family:'JetBrains Mono',monospace;
 }}
-.check-item:hover{{background:rgba(255,255,255,0.045)}}
-.check-item input[type=checkbox]{{accent-color:#3b82f6;width:14px;height:14px;cursor:pointer;flex-shrink:0}}
-.mini-dot{{width:8px;height:8px;border-radius:50%;flex-shrink:0}}
-.link-option{{
-  padding:9px 12px;cursor:pointer;font-size:0.84rem;color:#cbd5e1;
-  transition:background 0.1s ease;
+.ci:hover{{background:rgba(245,130,30,0.06)}}
+.ci input[type=checkbox]{{accent-color:#F5821E;width:13px;height:13px;cursor:pointer;flex-shrink:0}}
+.mdot{{width:7px;height:7px;border-radius:50%;flex-shrink:0}}
+.lo{{
+  padding:8px 11px;cursor:pointer;font-size:11px;color:#cbd5e1;
+  font-family:'JetBrains Mono',monospace;
 }}
-.link-option:hover{{background:rgba(255,255,255,0.045)}}
-.link-option.selected{{color:#60a5fa;font-weight:600;background:rgba(59,130,246,0.08)}}
-.link-option.selected::before{{content:"✓ ";font-size:0.75rem}}
+.lo:hover{{background:rgba(245,130,30,0.06)}}
+.lo.sel{{color:#F5821E;font-weight:700}}
 
-/* ── Date / Search inputs ── */
-.date-input,.search-input{{
-  background:#1c1f2e;
-  border:1px solid #2a2d3e;
-  border-radius:6px;
-  color:#e2e8f0;
-  padding:0 10px;
-  font-size:0.82rem;
-  outline:none;
-  height:36px;
-  width:100%;
-  transition:border-color 0.12s ease;
+.si{{
+  background:#141720;border:1px solid #1E2530;color:#e2e8f0;
+  padding:0 10px;height:32px;font-family:'JetBrains Mono',monospace;
+  font-size:11px;outline:none;flex:1;min-width:160px;
+  transition:border-color 0.1s;
 }}
-.date-input:focus,.search-input:focus{{border-color:#3b82f6}}
-.date-input{{min-width:130px;max-width:150px}}
-.date-input::-webkit-calendar-picker-indicator{{filter:invert(0.5);cursor:pointer}}
-.search-group{{flex:1;min-width:180px}}
+.si:focus{{border-color:#F5821E}}
+.di{{
+  background:#141720;border:1px solid #1E2530;color:#e2e8f0;
+  padding:0 10px;height:32px;font-family:'JetBrains Mono',monospace;
+  font-size:11px;outline:none;width:130px;
+  transition:border-color 0.1s;
+}}
+.di:focus{{border-color:#F5821E}}
+.di::-webkit-calendar-picker-indicator{{filter:invert(0.4);cursor:pointer}}
+.sg{{flex:1;min-width:180px}}
 
 /* ── Stats row ── */
-#stats-row{{
-  display:flex;gap:18px;align-items:center;
-  padding:2px 0 10px;
-  border-bottom:1px solid #2a2d3e;
-  margin-bottom:14px;
-  flex-shrink:0;
-  flex-wrap:wrap;
+#srow{{
+  display:flex;gap:20px;align-items:center;
+  padding:0 0 8px;
+  border-bottom:1px solid #1E2530;
+  margin-bottom:0;flex-shrink:0;flex-wrap:wrap;
 }}
-.stat{{font-size:0.78rem;color:#94a3b8}}
-.stat strong{{color:#e2e8f0;font-weight:600;margin-right:3px}}
-#clear-all{{
-  margin-left:auto;font-size:0.76rem;color:#3b82f6;
-  cursor:pointer;font-weight:600;border:none;background:none;
-  padding:0;display:none;
+.st{{font-family:'JetBrains Mono',monospace;font-size:10px;color:#8A9BB0;letter-spacing:0.04em}}
+.st strong{{color:#e2e8f0;font-weight:700;margin-right:4px}}
+#ca{{
+  margin-left:auto;font-family:'JetBrains Mono',monospace;
+  font-size:10px;color:#F5821E;cursor:pointer;
+  border:none;background:none;padding:0;display:none;letter-spacing:0.06em;
 }}
-#clear-all:hover{{color:#60a5fa}}
+#ca:hover{{color:#ffb06e}}
 
-/* ── Articles ── */
-#articles{{flex:1;overflow-y:auto;padding-right:2px}}
-#articles::-webkit-scrollbar{{width:4px}}
-#articles::-webkit-scrollbar-track{{background:transparent}}
-#articles::-webkit-scrollbar-thumb{{background:#2a2d3e;border-radius:2px}}
-.card{{
-  background:#1c1f2e;
-  border-radius:8px;
-  padding:16px 20px 14px;
-  margin-bottom:10px;
-  border-left:3px solid #3b82f6;
-  transition:transform 0.12s ease,box-shadow 0.12s ease;
+/* ── Wire ── */
+#wire{{flex:1;overflow-y:auto;margin-top:0}}
+#wire::-webkit-scrollbar{{width:4px}}
+#wire::-webkit-scrollbar-track{{background:transparent}}
+#wire::-webkit-scrollbar-thumb{{background:#1E2530}}
+
+.row{{
+  display:flex;flex-direction:column;
+  border-bottom:1px solid #1E2530;
+  cursor:pointer;
+  transition:background 0.08s;
 }}
-.card:hover{{transform:translateY(-1px);box-shadow:0 4px 18px rgba(0,0,0,0.45)}}
-.card:hover .card-title{{color:#60a5fa}}
-.card-meta{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}}
-.card-title{{
-  font-size:1.05rem;font-weight:600;color:#f1f5f9;
-  text-decoration:none;display:block;margin-bottom:6px;
-  line-height:1.4;transition:color 0.12s ease;
+.row:hover{{background:rgba(245,130,30,0.03)}}
+.rhead{{
+  display:flex;align-items:center;gap:0;
+  padding:9px 12px;min-height:40px;
 }}
-.card-excerpt{{
-  font-size:0.88rem;color:#94a3b8;line-height:1.55;
-  overflow:hidden;display:-webkit-box;
-  -webkit-line-clamp:2;-webkit-box-orient:vertical;
+.ts{{
+  font-family:'JetBrains Mono',monospace;font-size:10px;
+  color:#475569;white-space:nowrap;width:84px;flex-shrink:0;
+  letter-spacing:0.02em;
 }}
-.source-badge{{
-  font-size:0.62rem;font-weight:700;padding:2px 6px;border-radius:3px;
-  color:#fff;text-transform:uppercase;letter-spacing:0.06em;white-space:nowrap;
+.sep{{color:#1E2530;margin:0 8px;font-size:12px;flex-shrink:0}}
+.sbadge{{
+  font-family:'JetBrains Mono',monospace;
+  font-size:8.5px;font-weight:700;padding:2px 6px;
+  color:#000;letter-spacing:0.08em;white-space:nowrap;
+  flex-shrink:0;width:76px;text-align:center;overflow:hidden;
+  text-overflow:ellipsis;
 }}
-.date-tag{{font-size:0.7rem;color:#64748b;white-space:nowrap}}
-.proj-tag{{
-  font-size:0.68rem;font-weight:600;padding:2px 7px;border-radius:3px;
-  background:rgba(59,130,246,0.12);color:#60a5fa;
-  border:1px solid rgba(59,130,246,0.25);white-space:nowrap;
+.hl{{
+  font-family:'Inter',sans-serif;font-size:13px;font-weight:500;
+  color:#e2e8f0;flex:1;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap;padding:0 12px;line-height:1.3;
 }}
-.empty-msg{{color:#94a3b8;padding:48px 0;text-align:center;font-size:0.92rem}}
+.ptag{{
+  font-family:'JetBrains Mono',monospace;font-size:8.5px;font-weight:700;
+  padding:2px 7px;background:rgba(245,130,30,0.1);color:#F5821E;
+  border:1px solid rgba(245,130,30,0.25);white-space:nowrap;
+  flex-shrink:0;max-width:180px;overflow:hidden;text-overflow:ellipsis;
+}}
+.arrow{{
+  font-family:'JetBrains Mono',monospace;font-size:9px;color:#1E2530;
+  margin-left:8px;flex-shrink:0;transition:transform 0.12s,color 0.12s;
+}}
+.row.open .arrow{{transform:rotate(90deg);color:#F5821E}}
+
+.rbody{{
+  display:none;
+  padding:0 12px 12px 168px;
+  border-top:1px solid #1E2530;
+  background:#141720;
+}}
+.row.open .rbody{{display:block}}
+.excerpt{{
+  font-family:'Inter',sans-serif;font-size:12px;color:#8A9BB0;
+  line-height:1.6;margin:10px 0 10px;
+}}
+.topics-wrap{{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}}
+.topic-badge{{
+  font-family:'JetBrains Mono',monospace;font-size:8px;font-weight:700;
+  letter-spacing:0.1em;padding:2px 7px;
+  background:rgba(255,255,255,0.04);color:#8A9BB0;
+  border:1px solid #1E2530;text-transform:uppercase;
+}}
+.readlink{{
+  font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;
+  letter-spacing:0.1em;color:#F5821E;text-decoration:none;
+  border:1px solid rgba(245,130,30,0.4);padding:4px 12px;
+  display:inline-block;transition:background 0.1s;
+}}
+.readlink:hover{{background:rgba(245,130,30,0.1)}}
+.empty{{color:#8A9BB0;padding:48px 0;text-align:center;
+        font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.1em}}
 </style>
 </head>
 <body>
 <div id="app">
 
-  <!-- Filter bar -->
-  <div id="filter-bar-wrap">
-    <div class="filter-row">
+<!-- toolbar -->
+<div id="toolbar">
 
-      <!-- Topic -->
-      <div class="filter-group">
-        <div class="filter-label">Topic</div>
-        <div class="dropdown-wrap">
-          <button class="filter-btn" id="topic-btn" onclick="toggleDD('topic-panel','topic-chevron')">
-            <span class="btn-left">
-              <span id="topic-label">All Topics</span>
-              <span class="badge" id="topic-badge"></span>
-            </span>
-            <span class="chevron" id="topic-chevron">▾</span>
-          </button>
-          <div class="dropdown-panel" id="topic-panel">
-            <div class="panel-header">
-              <span class="panel-title">Topics</span>
-              <button class="clear-link" onclick="clearTopics()">Clear</button>
-            </div>
-            <div id="topic-checks"></div>
-          </div>
-        </div>
+  <!-- Topic -->
+  <div class="fg">
+    <div class="fl">TOPIC</div>
+    <div style="position:relative">
+      <button class="fb" id="tb" onclick="tgl('tp','tc')">
+        <span class="fbl"><span id="tl">ALL TOPICS</span><span class="fbadge" id="tbadge"></span></span>
+        <span class="chev" id="tc">▾</span>
+      </button>
+      <div class="dp" id="tp">
+        <div class="dp-head"><span class="dp-title">TOPICS</span><button class="dp-clear" onclick="clrT()">CLEAR</button></div>
+        <div id="tchecks"></div>
       </div>
-
-      <!-- Source -->
-      <div class="filter-group">
-        <div class="filter-label">Source</div>
-        <div class="dropdown-wrap">
-          <button class="filter-btn" id="src-btn" onclick="toggleDD('src-panel','src-chevron')">
-            <span class="btn-left">
-              <span id="src-label">All Sources</span>
-              <span class="badge" id="src-badge"></span>
-            </span>
-            <span class="chevron" id="src-chevron">▾</span>
-          </button>
-          <div class="dropdown-panel" id="src-panel">
-            <div class="panel-header">
-              <span class="panel-title">Sources</span>
-              <button class="clear-link" onclick="clearSources()">Clear</button>
-            </div>
-            <div id="src-checks"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project Link -->
-      <div class="filter-group">
-        <div class="filter-label">Project Link</div>
-        <div class="dropdown-wrap">
-          <button class="filter-btn" id="link-btn" onclick="toggleDD('link-panel','link-chevron')">
-            <span class="btn-left"><span id="link-label">All Articles</span></span>
-            <span class="chevron" id="link-chevron">▾</span>
-          </button>
-          <div class="dropdown-panel" id="link-panel" style="min-width:150px">
-            <div class="link-option selected" data-val="all" onclick="setLink('all')">All Articles</div>
-            <div class="link-option" data-val="linked" onclick="setLink('linked')">Linked to Project</div>
-            <div class="link-option" data-val="unlinked" onclick="setLink('unlinked')">Not Linked</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- From -->
-      <div class="filter-group">
-        <div class="filter-label">From</div>
-        <input type="date" id="date-from" class="date-input"
-               onchange="state.dateFrom=this.value;update()">
-      </div>
-
-      <!-- To -->
-      <div class="filter-group">
-        <div class="filter-label">To</div>
-        <input type="date" id="date-to" class="date-input"
-               onchange="state.dateTo=this.value;update()">
-      </div>
-
-      <!-- Search -->
-      <div class="filter-group search-group">
-        <div class="filter-label">Search</div>
-        <input type="text" id="search-input" class="search-input"
-               placeholder="Search headlines &amp; summaries…"
-               oninput="state.search=this.value;update()">
-      </div>
-
     </div>
   </div>
 
-  <!-- Stats row -->
-  <div id="stats-row">
-    <div class="stat"><strong id="stats-total">0</strong>Total Articles</div>
-    <div class="stat"><strong id="stats-showing">0</strong>Showing</div>
-    <div class="stat"><strong id="stats-linked">0</strong>Linked to Projects</div>
-    <div class="stat"><strong id="stats-sources">0</strong>Sources</div>
-    <button id="clear-all" onclick="clearAll()">✕ Clear all filters</button>
+  <!-- Source -->
+  <div class="fg">
+    <div class="fl">SOURCE</div>
+    <div style="position:relative">
+      <button class="fb" id="sb" onclick="tgl('sp','sc')">
+        <span class="fbl"><span id="sl">ALL SOURCES</span><span class="fbadge" id="sbadge"></span></span>
+        <span class="chev" id="sc">▾</span>
+      </button>
+      <div class="dp" id="sp">
+        <div class="dp-head"><span class="dp-title">SOURCES</span><button class="dp-clear" onclick="clrS()">CLEAR</button></div>
+        <div id="schecks"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- Articles -->
-  <div id="articles"></div>
+  <!-- Link filter -->
+  <div class="fg">
+    <div class="fl">PROJECT LINK</div>
+    <div style="position:relative">
+      <button class="fb" id="lb" onclick="tgl('lp','lc')">
+        <span class="fbl"><span id="ll">ALL ARTICLES</span></span>
+        <span class="chev" id="lc">▾</span>
+      </button>
+      <div class="dp" id="lp" style="min-width:160px">
+        <div class="lo sel" data-v="all"     onclick="setL('all')">ALL ARTICLES</div>
+        <div class="lo"     data-v="linked"  onclick="setL('linked')">LINKED TO PROJECT</div>
+        <div class="lo"     data-v="unlinked"onclick="setL('unlinked')">NOT LINKED</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- From / To -->
+  <div class="fg">
+    <div class="fl">FROM</div>
+    <input type="date" class="di" id="df" onchange="S.df=this.value;upd()">
+  </div>
+  <div class="fg">
+    <div class="fl">TO</div>
+    <input type="date" class="di" id="dt" onchange="S.dt=this.value;upd()">
+  </div>
+
+  <!-- Search -->
+  <div class="fg sg">
+    <div class="fl">SEARCH</div>
+    <input type="text" class="si" id="q" placeholder="Search headlines &amp; summaries…"
+           oninput="S.q=this.value;upd()">
+  </div>
+
+</div>
+
+<!-- stats row -->
+<div id="srow">
+  <div class="st"><strong id="n0">0</strong>TOTAL</div>
+  <div class="st"><strong id="n1">0</strong>SHOWING</div>
+  <div class="st"><strong id="n2">0</strong>LINKED</div>
+  <div class="st"><strong id="n3">0</strong>SOURCES</div>
+  <button id="ca" onclick="clrAll()">✕ CLEAR ALL</button>
+</div>
+
+<!-- wire -->
+<div id="wire"></div>
 
 </div>
 
 <script>
-const ARTICLES = {articles_json};
-const SOURCE_LABELS = {source_labels_json};
-const SOURCE_COLORS = {source_colors_json};
-const TOPICS = {topics_json};
+const A={articles_json};
+const SL={source_labels_json};
+const SC={source_colors_json};
+const TP={topics_json};
+const S={{topics:[],sources:[],link:'all',df:'',dt:'',q:''}};
+let openP=null;
 
-const state = {{
-  topics: [],
-  sources: [],
-  linkFilter: 'all',
-  dateFrom: '',
-  dateTo: '',
-  search: '',
-}};
-
-let openPanel = null;
-
-// ── Dropdown toggle ────────────────────────────────────────────────────────
-function toggleDD(panelId, chevronId) {{
-  const panel = document.getElementById(panelId);
-  const chevron = document.getElementById(chevronId);
-  if (openPanel && openPanel !== panel) {{
-    openPanel.classList.remove('open');
-    openPanel._chevron && openPanel._chevron.classList.remove('open');
+function tgl(pid,cid){{
+  const p=document.getElementById(pid);
+  const c=document.getElementById(cid);
+  if(openP&&openP!==p){{
+    openP.classList.remove('open');
+    openP._c&&openP._c.classList.remove('open');
   }}
-  const isOpen = panel.classList.toggle('open');
-  chevron.classList.toggle('open', isOpen);
-  panel._chevron = chevron;
-  openPanel = isOpen ? panel : null;
+  const o=p.classList.toggle('open');
+  c.classList.toggle('open',o);
+  p._c=c;
+  openP=o?p:null;
+}}
+document.addEventListener('click',function(e){{
+  if(!openP)return;
+  const w=openP.closest('[style*="position:relative"]');
+  if(w&&w.contains(e.target))return;
+  openP.classList.remove('open');
+  openP._c&&openP._c.classList.remove('open');
+  openP=null;
+}},true);
+
+function togT(t){{const i=S.topics.indexOf(t);if(i<0)S.topics.push(t);else S.topics.splice(i,1);upd();}}
+function clrT(){{S.topics=[];document.querySelectorAll('.tcb').forEach(c=>c.checked=false);upd();}}
+function togS(s){{const i=S.sources.indexOf(s);if(i<0)S.sources.push(s);else S.sources.splice(i,1);upd();}}
+function clrS(){{S.sources=[];document.querySelectorAll('.scb').forEach(c=>c.checked=false);upd();}}
+function setL(v){{
+  S.link=v;
+  document.querySelectorAll('.lo').forEach(e=>e.classList.toggle('sel',e.dataset.v===v));
+  const m={{all:'ALL ARTICLES',linked:'LINKED TO PROJECT',unlinked:'NOT LINKED'}};
+  document.getElementById('ll').textContent=m[v];
+  document.getElementById('lb').classList.toggle('on',v!=='all');
+  document.getElementById('lp').classList.remove('open');
+  document.getElementById('lc').classList.remove('open');
+  openP=null;upd();
+}}
+function clrAll(){{
+  S.topics=[];S.sources=[];S.link='all';S.df='';S.dt='';S.q='';
+  document.querySelectorAll('.tcb,.scb').forEach(c=>c.checked=false);
+  document.querySelectorAll('.lo').forEach(e=>e.classList.toggle('sel',e.dataset.v==='all'));
+  document.getElementById('ll').textContent='ALL ARTICLES';
+  document.getElementById('lb').classList.remove('on');
+  document.getElementById('df').value='';
+  document.getElementById('dt').value='';
+  document.getElementById('q').value='';
+  upd();
 }}
 
-document.addEventListener('click', function(e) {{
-  if (!openPanel) return;
-  const wrap = openPanel.closest('.dropdown-wrap');
-  if (wrap && wrap.contains(e.target)) return;
-  openPanel.classList.remove('open');
-  openPanel._chevron && openPanel._chevron.classList.remove('open');
-  openPanel = null;
-}}, true);
-
-// ── Topic ──────────────────────────────────────────────────────────────────
-function toggleTopic(t) {{
-  const i = state.topics.indexOf(t);
-  if (i === -1) state.topics.push(t); else state.topics.splice(i, 1);
-  update();
-}}
-function clearTopics() {{
-  state.topics = [];
-  document.querySelectorAll('.topic-cb').forEach(cb => cb.checked = false);
-  update();
-}}
-
-// ── Source ─────────────────────────────────────────────────────────────────
-function toggleSource(s) {{
-  const i = state.sources.indexOf(s);
-  if (i === -1) state.sources.push(s); else state.sources.splice(i, 1);
-  update();
-}}
-function clearSources() {{
-  state.sources = [];
-  document.querySelectorAll('.src-cb').forEach(cb => cb.checked = false);
-  update();
-}}
-
-// ── Link filter ────────────────────────────────────────────────────────────
-function setLink(val) {{
-  state.linkFilter = val;
-  document.querySelectorAll('.link-option').forEach(el => {{
-    el.classList.toggle('selected', el.dataset.val === val);
-  }});
-  const labels = {{all:'All Articles', linked:'Linked to Project', unlinked:'Not Linked'}};
-  document.getElementById('link-label').textContent = labels[val];
-  document.getElementById('link-btn').classList.toggle('active', val !== 'all');
-  const panel = document.getElementById('link-panel');
-  panel.classList.remove('open');
-  document.getElementById('link-chevron').classList.remove('open');
-  openPanel = null;
-  update();
-}}
-
-// ── Clear all ──────────────────────────────────────────────────────────────
-function clearAll() {{
-  state.topics = [];
-  state.sources = [];
-  state.linkFilter = 'all';
-  state.dateFrom = '';
-  state.dateTo = '';
-  state.search = '';
-  document.querySelectorAll('.topic-cb,.src-cb').forEach(cb => cb.checked = false);
-  document.querySelectorAll('.link-option').forEach(el => {{
-    el.classList.toggle('selected', el.dataset.val === 'all');
-  }});
-  document.getElementById('link-label').textContent = 'All Articles';
-  document.getElementById('date-from').value = '';
-  document.getElementById('date-to').value = '';
-  document.getElementById('search-input').value = '';
-  document.getElementById('link-btn').classList.remove('active');
-  update();
-}}
-
-// ── Filter logic ───────────────────────────────────────────────────────────
-function getFiltered() {{
-  return ARTICLES.filter(a => {{
-    if (state.topics.length > 0) {{
-      const t = (a.topics || '').split(',').map(x => x.trim()).filter(Boolean);
-      if (!state.topics.some(x => t.includes(x))) return false;
+function filt(){{
+  return A.filter(a=>{{
+    if(S.topics.length){{
+      const t=(a.topics||'').split(',').map(x=>x.trim()).filter(Boolean);
+      if(!S.topics.some(x=>t.includes(x)))return false;
     }}
-    if (state.sources.length > 0 && !state.sources.includes(a.source)) return false;
-    if (state.linkFilter === 'linked' && !a.linked) return false;
-    if (state.linkFilter === 'unlinked' && a.linked) return false;
-    if (state.dateFrom && a.date && a.date < state.dateFrom) return false;
-    if (state.dateTo && a.date && a.date > state.dateTo) return false;
-    if (state.search) {{
-      const q = state.search.toLowerCase();
-      if (!a.title.toLowerCase().includes(q) && !(a.summary||'').toLowerCase().includes(q)) return false;
-    }}
+    if(S.sources.length&&!S.sources.includes(a.source))return false;
+    if(S.link==='linked'&&!a.linked)return false;
+    if(S.link==='unlinked'&&a.linked)return false;
+    if(S.df&&a.date&&a.date<S.df)return false;
+    if(S.dt&&a.date&&a.date>S.dt)return false;
+    if(S.q){{const q=S.q.toLowerCase();if(!a.title.toLowerCase().includes(q)&&!(a.summary||'').toLowerCase().includes(q))return false;}}
     return true;
   }});
 }}
 
-// ── Render ─────────────────────────────────────────────────────────────────
-function esc(s) {{
-  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}}
-function fmtDate(d) {{
-  if (!d) return '';
-  try {{
-    const dt = new Date(d + 'T12:00:00');
-    return dt.toLocaleDateString('en-US',{{month:'short',day:'numeric',year:'numeric'}});
-  }} catch(e) {{ return d; }}
+function e(s){{return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}}
+function fd(d){{
+  if(!d)return'';
+  try{{const dt=new Date(d+'T12:00:00');return dt.toLocaleDateString('en-US',{{month:'short',day:'2-digit'}});}}catch(x){{return d.slice(5);}}
 }}
 
-function renderArticles(arr) {{
-  const el = document.getElementById('articles');
-  if (!arr.length) {{
-    el.innerHTML = '<div class="empty-msg">No articles match your filters.</div>';
-    return;
-  }}
-  el.innerHTML = arr.map(a => {{
-    const color = SOURCE_COLORS[a.source] || '#6b7280';
-    const label = SOURCE_LABELS[a.source] || a.source;
-    const datePart = a.date ? `<span class="date-tag">${{fmtDate(a.date)}}</span>` : '';
-    const projPart = a.project ? `<span class="proj-tag">${{esc(a.project)}}</span>` : '';
-    const excerpt = a.summary.length > 150 ? a.summary.slice(0,150)+'…' : a.summary;
-    return `<div class="card" style="border-left-color:${{color}}">
-      <div class="card-meta">
-        <span class="source-badge" style="background:${{color}}">${{esc(label)}}</span>
-        ${{datePart}}${{projPart}}
+function draw(arr){{
+  const w=document.getElementById('wire');
+  if(!arr.length){{w.innerHTML='<div class="empty">NO ARTICLES MATCH YOUR FILTERS</div>';return;}}
+  w.innerHTML=arr.map((a,i)=>{{
+    const col=SC[a.source]||'#8A9BB0';
+    const lbl=SL[a.source]||a.source.toUpperCase().slice(0,9);
+    const ts=fd(a.date);
+    const proj=a.project?`<span class="ptag">${{e(a.project)}}</span>`:'';
+    const topics=a.topics?a.topics.split(',').filter(Boolean).map(t=>`<span class="topic-badge">${{e(t.trim())}}</span>`).join(''):'';
+    return `<div class="row" id="r${{i}}" onclick="tog(${{i}})">
+      <div class="rhead">
+        <span class="ts">${{e(ts)}}</span>
+        <span class="sep">|</span>
+        <span class="sbadge" style="background:${{col}}">${{e(lbl)}}</span>
+        <span class="sep">|</span>
+        <span class="hl">${{e(a.title)}}</span>
+        ${{proj}}
+        <span class="arrow">▶</span>
       </div>
-      <a href="${{esc(a.url)}}" target="_blank" rel="noopener" class="card-title">${{esc(a.title)}}</a>
-      <p class="card-excerpt">${{esc(excerpt)}}</p>
+      <div class="rbody">
+        ${{a.summary?`<p class="excerpt">${{e(a.summary)}}</p>`:''}}
+        ${{topics?`<div class="topics-wrap">${{topics}}</div>`:''}}
+        <a href="${{e(a.url)}}" target="_blank" rel="noopener" class="readlink">READ ARTICLE ↗</a>
+      </div>
     </div>`;
   }}).join('');
 }}
 
-function updateStats(filtered) {{
-  const linked = filtered.filter(a => a.linked).length;
-  const srcCount = new Set(filtered.map(a => a.source)).size;
-  document.getElementById('stats-total').textContent = ARTICLES.length;
-  document.getElementById('stats-showing').textContent = filtered.length;
-  document.getElementById('stats-linked').textContent = linked;
-  document.getElementById('stats-sources').textContent = srcCount;
-  const hasFilters = state.topics.length || state.sources.length ||
-    state.linkFilter !== 'all' || state.dateFrom || state.dateTo || state.search;
-  document.getElementById('clear-all').style.display = hasFilters ? 'inline' : 'none';
+function tog(i){{
+  const r=document.getElementById('r'+i);
+  r.classList.toggle('open');
 }}
 
-function updateBtns() {{
-  const tb = document.getElementById('topic-badge');
-  const tl = document.getElementById('topic-label');
-  if (state.topics.length) {{
-    tb.textContent = state.topics.length; tb.style.display='inline';
-    tl.textContent = state.topics.length === 1 ? state.topics[0] : state.topics.length + ' topics';
-    document.getElementById('topic-btn').classList.add('active');
-  }} else {{
-    tb.style.display='none'; tl.textContent='All Topics';
-    document.getElementById('topic-btn').classList.remove('active');
-  }}
-  const sb = document.getElementById('src-badge');
-  const sl = document.getElementById('src-label');
-  if (state.sources.length) {{
-    sb.textContent = state.sources.length; sb.style.display='inline';
-    sl.textContent = state.sources.length === 1
-      ? (SOURCE_LABELS[state.sources[0]] || state.sources[0])
-      : state.sources.length + ' sources';
-    document.getElementById('src-btn').classList.add('active');
-  }} else {{
-    sb.style.display='none'; sl.textContent='All Sources';
-    document.getElementById('src-btn').classList.remove('active');
-  }}
+function updStats(arr){{
+  const linked=arr.filter(a=>a.linked).length;
+  const srcs=new Set(arr.map(a=>a.source)).size;
+  document.getElementById('n0').textContent=A.length;
+  document.getElementById('n1').textContent=arr.length;
+  document.getElementById('n2').textContent=linked;
+  document.getElementById('n3').textContent=srcs;
+  const has=S.topics.length||S.sources.length||S.link!=='all'||S.df||S.dt||S.q;
+  document.getElementById('ca').style.display=has?'inline':'none';
 }}
 
-function update() {{
-  const filtered = getFiltered();
-  renderArticles(filtered);
-  updateStats(filtered);
-  updateBtns();
+function updBtns(){{
+  const tb=document.getElementById('tbadge'),tl=document.getElementById('tl');
+  if(S.topics.length){{tb.textContent=S.topics.length;tb.style.display='inline';
+    tl.textContent=S.topics.length===1?S.topics[0].toUpperCase():S.topics.length+' TOPICS';
+    document.getElementById('tb').classList.add('on');}}
+  else{{tb.style.display='none';tl.textContent='ALL TOPICS';document.getElementById('tb').classList.remove('on');}}
+  const sb=document.getElementById('sbadge'),sl=document.getElementById('sl');
+  if(S.sources.length){{sb.textContent=S.sources.length;sb.style.display='inline';
+    sl.textContent=S.sources.length===1?(SL[S.sources[0]]||S.sources[0]):S.sources.length+' SOURCES';
+    document.getElementById('sb').classList.add('on');}}
+  else{{sb.style.display='none';sl.textContent='ALL SOURCES';document.getElementById('sb').classList.remove('on');}}
 }}
 
-// ── Init dropdowns ─────────────────────────────────────────────────────────
-function initDropdowns() {{
-  const topicChecks = document.getElementById('topic-checks');
-  TOPICS.forEach(t => {{
-    const label = document.createElement('label');
-    label.className = 'check-item';
-    label.innerHTML = `<input type="checkbox" class="topic-cb" value="${{t}}" onchange="toggleTopic('${{t}}')">${{esc(t)}}`;
-    topicChecks.appendChild(label);
+function upd(){{const f=filt();draw(f);updStats(f);updBtns();}}
+
+// Init
+(function init(){{
+  const tc=document.getElementById('tchecks');
+  TP.forEach(t=>{{
+    const l=document.createElement('label');l.className='ci';
+    l.innerHTML=`<input type="checkbox" class="tcb" value="${{t}}" onchange="togT('${{t}}')">${{e(t)}}`;
+    tc.appendChild(l);
   }});
-
-  const availSources = [...new Set(ARTICLES.map(a => a.source))].filter(Boolean)
-    .sort((a,b) => (SOURCE_LABELS[a]||a).localeCompare(SOURCE_LABELS[b]||b));
-  const srcChecks = document.getElementById('src-checks');
-  availSources.forEach(src => {{
-    const lbl = SOURCE_LABELS[src] || src;
-    const col = SOURCE_COLORS[src] || '#6b7280';
-    const label = document.createElement('label');
-    label.className = 'check-item';
-    label.innerHTML = `<input type="checkbox" class="src-cb" value="${{src}}" onchange="toggleSource('${{src}}')">`
-      + `<span class="mini-dot" style="background:${{col}}"></span>${{esc(lbl)}}`;
-    srcChecks.appendChild(label);
+  const avs=[...new Set(A.map(a=>a.source))].filter(Boolean)
+    .sort((a,b)=>(SL[a]||a).localeCompare(SL[b]||b));
+  const sc=document.getElementById('schecks');
+  avs.forEach(s=>{{
+    const col=SC[s]||'#8A9BB0';
+    const lbl=SL[s]||s;
+    const l=document.createElement('label');l.className='ci';
+    l.innerHTML=`<input type="checkbox" class="scb" value="${{s}}" onchange="togS('${{s}}')">`
+      +`<span class="mdot" style="background:${{col}}"></span>${{e(lbl)}}`;
+    sc.appendChild(l);
   }});
-
-  const dates = ARTICLES.map(a => a.date).filter(Boolean).sort();
-  if (dates.length) {{
-    document.getElementById('date-from').min = dates[0];
-    document.getElementById('date-from').max = dates[dates.length-1];
-    document.getElementById('date-to').min = dates[0];
-    document.getElementById('date-to').max = dates[dates.length-1];
+  const dates=A.map(a=>a.date).filter(Boolean).sort();
+  if(dates.length){{
+    ['df','dt'].forEach(id=>{{
+      const el=document.getElementById(id);
+      el.min=dates[0];el.max=dates[dates.length-1];
+    }});
   }}
-}}
-
-initDropdowns();
-update();
+  upd();
+}})();
 </script>
-</body>
-</html>"""
+</body></html>"""
 
     components.html(html, height=960, scrolling=False)
