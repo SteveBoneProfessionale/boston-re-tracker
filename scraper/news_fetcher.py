@@ -13,6 +13,7 @@ Sources:
 Run on demand or on a schedule. Idempotent — skips already-seen URLs.
 """
 
+import json
 import re
 import sys
 import time
@@ -25,6 +26,24 @@ import httpx
 from bs4 import BeautifulSoup
 from rapidfuzz import fuzz
 from scraper.classifier import classify_topics
+
+_SCRAPE_LOG = Path(__file__).parent.parent / "data" / "scrape_log.json"
+
+
+def _write_run_log(run_time: datetime, source_results: list[dict]) -> None:
+    """Append one run record to data/scrape_log.json, keeping last 100 runs."""
+    try:
+        existing = json.loads(_SCRAPE_LOG.read_text()) if _SCRAPE_LOG.exists() else []
+    except Exception:
+        existing = []
+    existing.append({
+        "run_time": run_time.isoformat(),
+        "sources": source_results,
+    })
+    try:
+        _SCRAPE_LOG.write_text(json.dumps(existing[-100:], indent=2))
+    except Exception as exc:
+        log.warning("Could not write scrape log: %s", exc)
 
 # Generic location/structure words that appear in nearly every article and
 # must not be counted as meaningful project-name signals.
@@ -79,7 +98,7 @@ FEEDS = [
     },
     {
         "name": "Boston.com Real Estate",
-        "url": "https://www.boston.com/tag/real-estate/feed/",
+        "url": "https://www.boston.com/news/real-estate/feed/",
         "source": "boston_com",
     },
     {
@@ -204,6 +223,8 @@ def _scrape_bre_times(resp: httpx.Response) -> list[dict]:
 def fetch_news():
     init_db()
     session = get_session()
+    run_time = datetime.now(timezone.utc)
+    source_results: list[dict] = []
 
     try:
         projects = session.query(Project).all()
@@ -216,106 +237,128 @@ def fetch_news():
         # ── RSS feeds ────────────────────────────────────────────────────────
         for feed_def in FEEDS:
             log.info("Fetching: %s", feed_def["name"])
+            error_msg = None
+            fetched = 0
+            new_count = 0
             try:
                 resp = httpx.get(feed_def["url"], headers=headers, timeout=15, follow_redirects=True)
                 parsed = feedparser.parse(resp.content)
+                entries = parsed.get("entries", [])
+                fetched = len(entries)
+                log.info("  %d entries", fetched)
+
+                for entry in entries:
+                    url = entry.get("link", "")
+                    if not url:
+                        continue
+                    if session.query(NewsItem).filter_by(url=url).first():
+                        continue
+
+                    title = entry.get("title", "").strip()
+                    summary = _summary(entry)
+                    pub_date = _parse_date(entry)
+                    proj_id, score = _best_project_match(title, summary, projects)
+
+                    session.add(NewsItem(
+                        title=title,
+                        url=url,
+                        published_date=pub_date,
+                        source=feed_def["source"],
+                        summary=summary,
+                        linked_project_id=proj_id,
+                        match_score=score if proj_id else None,
+                        topics=classify_topics(title, summary),
+                    ))
+                    new_count += 1
+                    if proj_id:
+                        total_linked += 1
+
+                try:
+                    session.commit()
+                except Exception as exc:
+                    session.rollback()
+                    log.warning("  DB error: %s", exc)
+                    error_msg = str(exc)
+
             except Exception as exc:
                 log.warning("  Failed to fetch %s: %s", feed_def["name"], exc)
-                continue
-
-            entries = parsed.get("entries", [])
-            log.info("  %d entries", len(entries))
-            new_count = 0
-
-            for entry in entries:
-                url = entry.get("link", "")
-                if not url:
-                    continue
-                if session.query(NewsItem).filter_by(url=url).first():
-                    continue
-
-                title = entry.get("title", "").strip()
-                summary = _summary(entry)
-                pub_date = _parse_date(entry)
-                proj_id, score = _best_project_match(title, summary, projects)
-
-                session.add(NewsItem(
-                    title=title,
-                    url=url,
-                    published_date=pub_date,
-                    source=feed_def["source"],
-                    summary=summary,
-                    linked_project_id=proj_id,
-                    match_score=score if proj_id else None,
-                    topics=classify_topics(title, summary),
-                ))
-                new_count += 1
-                if proj_id:
-                    total_linked += 1
-
-            try:
-                session.commit()
-            except Exception as exc:
-                session.rollback()
-                log.warning("  DB error: %s", exc)
+                error_msg = str(exc)
 
             total_new += new_count
             log.info("  Added %d new articles", new_count)
+            source_results.append({
+                "name": feed_def["name"],
+                "source": feed_def["source"],
+                "fetched": fetched,
+                "new": new_count,
+                "error": error_msg,
+            })
             time.sleep(1)
 
         # ── HTML scrapers ────────────────────────────────────────────────────
         for scraper_def in HTML_SCRAPERS:
             log.info("Scraping: %s", scraper_def["name"])
+            error_msg = None
+            fetched = 0
+            new_count = 0
             try:
                 resp = httpx.get(scraper_def["url"], headers=headers, timeout=15, follow_redirects=True)
                 articles = _scrape_bre_times(resp)
+                fetched = len(articles)
+                log.info("  %d articles found", fetched)
+
+                for art in articles:
+                    if not art["url"] or not art["title"]:
+                        continue
+                    if session.query(NewsItem).filter_by(url=art["url"]).first():
+                        continue
+
+                    proj_id, score = _best_project_match(art["title"], art["summary"], projects)
+
+                    session.add(NewsItem(
+                        title=art["title"],
+                        url=art["url"],
+                        published_date=art["pub_date"],
+                        source=scraper_def["source"],
+                        summary=art["summary"],
+                        linked_project_id=proj_id,
+                        match_score=score if proj_id else None,
+                        topics=classify_topics(art["title"], art["summary"]),
+                    ))
+                    new_count += 1
+                    if proj_id:
+                        total_linked += 1
+
+                try:
+                    session.commit()
+                except Exception as exc:
+                    session.rollback()
+                    log.warning("  DB error: %s", exc)
+                    error_msg = str(exc)
+
             except Exception as exc:
                 log.warning("  Failed to scrape %s: %s", scraper_def["name"], exc)
-                continue
-
-            log.info("  %d articles found", len(articles))
-            new_count = 0
-
-            for art in articles:
-                if not art["url"] or not art["title"]:
-                    continue
-                if session.query(NewsItem).filter_by(url=art["url"]).first():
-                    continue
-
-                proj_id, score = _best_project_match(art["title"], art["summary"], projects)
-
-                session.add(NewsItem(
-                    title=art["title"],
-                    url=art["url"],
-                    published_date=art["pub_date"],
-                    source=scraper_def["source"],
-                    summary=art["summary"],
-                    linked_project_id=proj_id,
-                    match_score=score if proj_id else None,
-                    topics=classify_topics(art["title"], art["summary"]),
-                ))
-                new_count += 1
-                if proj_id:
-                    total_linked += 1
-
-            try:
-                session.commit()
-            except Exception as exc:
-                session.rollback()
-                log.warning("  DB error: %s", exc)
+                error_msg = str(exc)
 
             total_new += new_count
             log.info("  Added %d new articles", new_count)
+            source_results.append({
+                "name": scraper_def["name"],
+                "source": scraper_def["source"],
+                "fetched": fetched,
+                "new": new_count,
+                "error": error_msg,
+            })
             time.sleep(1)
 
-        log.info("News fetch complete: %d new articles, %d linked to projects", total_new, total_linked)
-
+        log.info("News fetch complete: %d new, %d linked to projects", total_new, total_linked)
         total = session.query(NewsItem).count()
         linked = session.query(NewsItem).filter(NewsItem.linked_project_id.isnot(None)).count()
         log.info("DB totals: %d articles, %d project-linked", total, linked)
 
     finally:
         session.close()
+        _write_run_log(run_time, source_results)
 
 
 if __name__ == "__main__":

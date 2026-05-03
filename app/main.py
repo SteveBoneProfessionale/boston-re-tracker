@@ -1,4 +1,6 @@
+import logging
 import sys
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
@@ -10,6 +12,39 @@ from app.data import load_projects, load_news, summary_stats
 from app.tabs import overview, project_table, map_view, news
 
 init_db()
+
+
+@st.cache_resource
+def _start_news_scheduler():
+    """Start a background scheduler that runs fetch_news() every 3 hours.
+    @st.cache_resource ensures this runs exactly once per app instance."""
+    from apscheduler.schedulers.background import BackgroundScheduler
+    from scraper.news_fetcher import fetch_news
+
+    _log = logging.getLogger("news_scheduler")
+
+    def _safe_fetch():
+        try:
+            _log.info("Scheduled news fetch starting")
+            fetch_news()
+            _log.info("Scheduled news fetch complete")
+        except Exception as exc:
+            _log.error("Scheduled news fetch failed: %s", exc)
+
+    sched = BackgroundScheduler(daemon=True, timezone="UTC")
+    sched.add_job(
+        _safe_fetch,
+        "interval",
+        hours=3,
+        id="news_fetch",
+        next_run_time=datetime.now(timezone.utc) + timedelta(seconds=30),
+        misfire_grace_time=600,
+        coalesce=True,
+        max_instances=1,
+    )
+    sched.start()
+    _log.info("News scheduler started — runs every 3h")
+    return sched
 
 st.set_page_config(
     page_title="BOS CRE TERMINAL",
@@ -257,6 +292,8 @@ tick();setInterval(tick,1000);
 def main():
     st.markdown(_CSS, unsafe_allow_html=True)
 
+    _start_news_scheduler()   # no-op after first call; idempotent via cache_resource
+
     df = load_projects()
     stats = summary_stats(df)
 
@@ -297,7 +334,37 @@ def main():
             load_projects.clear()
             load_news.clear()
             st.rerun()
-        st.caption("CACHE TTL: 5 MIN · RUN SCRAPERS LOCALLY")
+        st.caption("CACHE TTL: 5 MIN · NEWS SCRAPES EVERY 3H")
+        st.divider()
+        # Scrape run log
+        import json
+        _log_path = Path(__file__).parent.parent / "data" / "scrape_log.json"
+        if _log_path.exists():
+            try:
+                runs = json.loads(_log_path.read_text())
+                if runs:
+                    last = runs[-1]
+                    ts = last["run_time"][:16].replace("T", " ")
+                    st.markdown(
+                        f'<p style="font-family:\'JetBrains Mono\',monospace;font-size:9px;'
+                        f'letter-spacing:0.1em;color:#8A9BB0;text-transform:uppercase;margin-bottom:6px">'
+                        f'LAST SCRAPE: {ts} UTC</p>',
+                        unsafe_allow_html=True,
+                    )
+                    for src in last.get("sources", []):
+                        status = "✓" if not src.get("error") else "✗"
+                        color = "#22c55e" if not src.get("error") else "#ef4444"
+                        st.markdown(
+                            f'<div style="font-family:\'JetBrains Mono\',monospace;font-size:9px;'
+                            f'display:flex;justify-content:space-between;padding:2px 0;'
+                            f'border-bottom:1px solid #1E2530;color:#8A9BB0">'
+                            f'<span>{src["name"][:18]}</span>'
+                            f'<span style="color:{color}">{status} +{src["new"]}</span>'
+                            f'</div>',
+                            unsafe_allow_html=True,
+                        )
+            except Exception:
+                pass
 
 
 if __name__ == "__main__":
