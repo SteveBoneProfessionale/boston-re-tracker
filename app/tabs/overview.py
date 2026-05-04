@@ -176,103 +176,7 @@ T.forEach(t=>{{
         unsafe_allow_html=True,
     )
 
-    # ── Status Breakdown + Review Scale — full width ─────────────────
     from scraper.normalize_developer import is_real_company
-
-    _section("STATUS BREAKDOWN", mt=14)
-    status_df = df["status"].value_counts().reset_index()
-    status_df.columns = ["status", "count"]
-    total_s = int(status_df["count"].sum())
-    fig_status = go.Figure()
-    for _, row in status_df.iterrows():
-        color = STATUS_COLORS.get(row["status"], _MUTED)
-        fig_status.add_trace(go.Bar(
-            x=[row["count"]], y=[""],
-            orientation="h",
-            marker_color=color,
-            marker_line_width=0,
-            name=row["status"],
-            hovertemplate=(
-                f'{row["status"]}: {int(row["count"])} '
-                f'({int(row["count"])/total_s*100:.0f}%)<extra></extra>'
-            ),
-        ))
-    fig_status.update_layout(
-        **_chart_base(54),
-        barmode="stack",
-        margin=_M_THIN,
-        showlegend=False,
-        xaxis=dict(visible=False),
-        yaxis=dict(visible=False),
-    )
-    st.plotly_chart(fig_status, use_container_width=True, config={"displayModeBar": False})
-
-    # Status counts legend
-    status_order = ["Under Review", "Board Approved", "Under Construction", "Letter of Intent"]
-    legend_html = ""
-    for s in status_order:
-        cnt_arr = status_df[status_df["status"] == s]["count"].values
-        cnt = int(cnt_arr[0]) if len(cnt_arr) else 0
-        color = STATUS_COLORS.get(s, _MUTED)
-        legend_html += (
-            f'<div style="display:flex;align-items:center;gap:7px">'
-            f'<span style="width:8px;height:8px;border-radius:50%;'
-            f'background:{color};flex-shrink:0"></span>'
-            f'<span style="color:#e2e8f0;font-weight:700;min-width:22px">{cnt}</span>'
-            f'<span style="color:{_MUTED}">{s.upper()}</span>'
-            f'</div>'
-        )
-    st.markdown(
-        f'<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:4px 12px;'
-        f'margin:2px 0 0;font-family:{_MONO};font-size:9px;letter-spacing:0.06em">'
-        f'{legend_html}</div>',
-        unsafe_allow_html=True,
-    )
-
-    _section("REVIEW SCALE", mt=14)
-    scale_df = df["project_scale"].value_counts().reset_index()
-    scale_df.columns = ["scale", "count"]
-    scale_colors_map = {"Large Project": _ORANGE, "Small Project": _TEAL}
-    fig_scale = go.Figure()
-    for _, row in scale_df.iterrows():
-        fig_scale.add_trace(go.Bar(
-            x=[row["count"]], y=[""],
-            orientation="h",
-            marker_color=scale_colors_map.get(row["scale"], _MUTED),
-            marker_line_width=0,
-            name=row["scale"],
-            text=row["scale"].replace(" Project", "").upper() + f"  {row['count']}",
-            textposition="inside",
-            constraintext="inside",
-            insidetextanchor="start",
-            textfont=dict(family=_MONO, size=9, color="#fff"),
-            hovertemplate=f'{row["scale"]}: {row["count"]}<extra></extra>',
-        ))
-    fig_scale.update_layout(
-        **_chart_base(44),
-        barmode="stack",
-        margin=_M_THIN,
-        showlegend=False,
-        xaxis=dict(visible=False),
-        yaxis=dict(visible=False),
-    )
-    st.plotly_chart(fig_scale, use_container_width=True, config={"displayModeBar": False})
-
-    # Scale inline legend
-    st.markdown(
-        f'<div style="display:flex;gap:14px;margin:0 0 2px;'
-        f'font-family:{_MONO};font-size:9px;letter-spacing:0.06em">'
-        f'<div style="display:flex;align-items:center;gap:5px">'
-        f'<span style="display:inline-block;width:8px;height:8px;background:{_ORANGE}"></span>'
-        f'<span style="color:{_MUTED}">LARGE</span>'
-        f'</div>'
-        f'<div style="display:flex;align-items:center;gap:5px">'
-        f'<span style="display:inline-block;width:8px;height:8px;background:{_TEAL}"></span>'
-        f'<span style="color:{_MUTED}">SMALL</span>'
-        f'</div>'
-        f'</div>',
-        unsafe_allow_html=True,
-    )
 
     # ── Row 1: Neighborhood | Most Active Developers ──────────────────
     col_a, col_b = st.columns(2)
@@ -444,6 +348,84 @@ T.forEach(t=>{{
                 yaxis=_yaxis(),
             )
             st.plotly_chart(fig_dev_sf, use_container_width=True, config={"displayModeBar": False})
+
+    # ── Row 3: Status Breakdown | Review Scale ────────────────────────
+    col_e, col_f = st.columns(2)
+
+    with col_e:
+        _section("STATUS BREAKDOWN", mt=14)
+        status_counts = (
+            df.groupby("status").size()
+            .reset_index(name="count")
+            .sort_values("count", ascending=True)
+        )
+        status_counts["color"] = status_counts["status"].map(STATUS_COLORS).fillna(_MUTED)
+        x_max_st = status_counts["count"].max() * 1.45
+        fig_status = go.Figure(go.Bar(
+            x=status_counts["count"],
+            y=status_counts["status"],
+            orientation="h",
+            marker_color=status_counts["color"].tolist(),
+            marker_line_width=0,
+            cliponaxis=False,
+            text=status_counts["count"],
+            textposition="outside",
+            textfont=dict(family=_MONO, size=9, color=_MUTED),
+            hovertemplate="%{y}: %{x}<extra></extra>",
+        ))
+        fig_status.update_layout(
+            **_chart_base(200),
+            margin=_M_AXIS,
+            showlegend=False,
+            xaxis=_xaxis("NUMBER OF PROJECTS", dtick=1, x_range=[0, x_max_st]),
+            yaxis=_yaxis(),
+        )
+        st.plotly_chart(fig_status, use_container_width=True, config={"displayModeBar": False})
+
+    with col_f:
+        _section("REVIEW SCALE", mt=14)
+        scale_counts = (
+            df["project_scale"].replace("", pd.NA).dropna()
+            .value_counts().reset_index()
+        )
+        scale_counts.columns = ["scale", "count"]
+        scale_counts = scale_counts.sort_values("count", ascending=True)
+        scale_color_map = {"Large Project": _ORANGE, "Small Project": _TEAL}
+        scale_counts["color"] = scale_counts["scale"].map(scale_color_map).fillna(_MUTED)
+        x_max_scale = scale_counts["count"].max() * 1.45
+        fig_scale = go.Figure(go.Bar(
+            x=scale_counts["count"],
+            y=scale_counts["scale"],
+            orientation="h",
+            marker_color=scale_counts["color"].tolist(),
+            marker_line_width=0,
+            cliponaxis=False,
+            text=scale_counts["count"],
+            textposition="outside",
+            textfont=dict(family=_MONO, size=9, color=_MUTED),
+            hovertemplate="%{y}: %{x}<extra></extra>",
+        ))
+        fig_scale.update_layout(
+            **_chart_base(200),
+            margin=_M_AXIS,
+            showlegend=False,
+            xaxis=_xaxis("NUMBER OF PROJECTS", dtick=1, x_range=[0, x_max_scale]),
+            yaxis=_yaxis(),
+        )
+        st.plotly_chart(fig_scale, use_container_width=True, config={"displayModeBar": False})
+        scale_legend = "".join(
+            f'<div style="display:flex;align-items:center;gap:5px">'
+            f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;'
+            f'background:{color};flex-shrink:0"></span>'
+            f'<span style="color:{_MUTED};text-transform:uppercase;letter-spacing:0.08em">{label}</span>'
+            f'</div>'
+            for label, color in [("Large Project", _ORANGE), ("Small Project", _TEAL)]
+        )
+        st.markdown(
+            f'<div style="display:flex;align-items:center;gap:20px;padding:4px 0 8px;'
+            f'font-family:{_MONO};font-size:9px">{scale_legend}</div>',
+            unsafe_allow_html=True,
+        )
 
     # ── Largest projects table — full width below both columns ───────
     extracted = df[df["extraction_done"] & df["total_gsf"].notna()]
