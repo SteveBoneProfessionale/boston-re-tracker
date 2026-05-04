@@ -379,8 +379,6 @@ T.forEach(t=>{{
             showlegend=False,
             xaxis=dict(
                 **_xaxis("NUMBER OF PROJECTS", grid=False, dtick=1, x_range=[0, x_max_st]),
-                showgrid=False,
-                zeroline=False,
                 ticks="",
                 showline=False,
                 rangeslider=dict(visible=False),
@@ -419,8 +417,6 @@ T.forEach(t=>{{
             showlegend=False,
             xaxis=dict(
                 **_xaxis("NUMBER OF PROJECTS", grid=False, dtick=1, x_range=[0, x_max_scale]),
-                showgrid=False,
-                zeroline=False,
                 ticks="",
                 showline=False,
                 rangeslider=dict(visible=False),
