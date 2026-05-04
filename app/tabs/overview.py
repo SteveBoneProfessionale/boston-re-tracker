@@ -379,12 +379,15 @@ T.forEach(t=>{{
             showlegend=False,
             xaxis=dict(
                 **_xaxis("NUMBER OF PROJECTS", grid=False, dtick=1, x_range=[0, x_max_st]),
+                showgrid=False,
+                zeroline=False,
                 ticks="",
                 showline=False,
                 rangeslider=dict(visible=False),
             ),
             yaxis=dict(**_yaxis(), ticks="", showline=False),
         )
+        fig_status.update_xaxes(rangeslider_visible=False)
         st.plotly_chart(fig_status, use_container_width=True, config={"displayModeBar": False})
 
     with col_f:
@@ -416,12 +419,15 @@ T.forEach(t=>{{
             showlegend=False,
             xaxis=dict(
                 **_xaxis("NUMBER OF PROJECTS", grid=False, dtick=1, x_range=[0, x_max_scale]),
+                showgrid=False,
+                zeroline=False,
                 ticks="",
                 showline=False,
                 rangeslider=dict(visible=False),
             ),
             yaxis=dict(**_yaxis(), ticks="", showline=False),
         )
+        fig_scale.update_xaxes(rangeslider_visible=False)
         st.plotly_chart(fig_scale, use_container_width=True, config={"displayModeBar": False})
         scale_legend = "".join(
             f'<div style="display:flex;align-items:center;gap:5px">'
