@@ -406,7 +406,7 @@ T.forEach(t=>{{
                 hovertemplate="<b>%{y}</b><br>%{x:.2f}M SF<extra></extra>",
             ))
             fig_ac.update_layout(
-                **_chart_base(450),
+                **_chart_base(320),
                 margin=_M_AXIS,
                 showlegend=False,
                 xaxis=_xaxis("SQUARE FOOTAGE (MILLIONS)", x_range=[0, x_max_ac]),
@@ -445,7 +445,7 @@ T.forEach(t=>{{
                 ),
             ))
             fig_dev_sf.update_layout(
-                **_chart_base(450),
+                **_chart_base(320),
                 margin=_M_AXIS,
                 showlegend=False,
                 xaxis=_xaxis("SQUARE FOOTAGE (MILLIONS)", x_range=[0, x_max_sf]),
