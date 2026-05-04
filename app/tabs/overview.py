@@ -377,8 +377,13 @@ T.forEach(t=>{{
             **_chart_base(200),
             margin=_M_AXIS,
             showlegend=False,
-            xaxis=_xaxis("NUMBER OF PROJECTS", dtick=1, x_range=[0, x_max_st]),
-            yaxis=_yaxis(),
+            xaxis=dict(
+                **_xaxis("NUMBER OF PROJECTS", grid=False, dtick=1, x_range=[0, x_max_st]),
+                ticks="",
+                showline=False,
+                rangeslider=dict(visible=False),
+            ),
+            yaxis=dict(**_yaxis(), ticks="", showline=False),
         )
         st.plotly_chart(fig_status, use_container_width=True, config={"displayModeBar": False})
 
@@ -409,8 +414,13 @@ T.forEach(t=>{{
             **_chart_base(200),
             margin=_M_AXIS,
             showlegend=False,
-            xaxis=_xaxis("NUMBER OF PROJECTS", dtick=1, x_range=[0, x_max_scale]),
-            yaxis=_yaxis(),
+            xaxis=dict(
+                **_xaxis("NUMBER OF PROJECTS", grid=False, dtick=1, x_range=[0, x_max_scale]),
+                ticks="",
+                showline=False,
+                rangeslider=dict(visible=False),
+            ),
+            yaxis=dict(**_yaxis(), ticks="", showline=False),
         )
         st.plotly_chart(fig_scale, use_container_width=True, config={"displayModeBar": False})
         scale_legend = "".join(
