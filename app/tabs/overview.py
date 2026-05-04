@@ -406,6 +406,72 @@ T.forEach(t=>{{
             )
             st.plotly_chart(fig_dev, use_container_width=True, config={"displayModeBar": False})
 
+        # Developer market share by SF
+        dev_sf_df = df[
+            df["extraction_done"] &
+            df["total_gsf"].notna() &
+            df["developer_canonical"].apply(lambda x: bool(x) and is_real_company(str(x)))
+        ].copy()
+        if len(dev_sf_df) >= 3:
+            _section("DEVELOPER MARKET SHARE BY SF", mt=10)
+            dev_sf = (
+                dev_sf_df.groupby("developer_canonical")
+                .agg(total_sf=("total_gsf", "sum"), n_projects=("id", "count"))
+                .reset_index()
+                .sort_values("total_sf", ascending=False)
+                .head(10)
+                .sort_values("total_sf", ascending=True)  # ascending so largest is at top
+            )
+            dev_sf["sf_m"] = dev_sf["total_sf"] / 1e6
+            x_max_sf = dev_sf["sf_m"].max() * 1.32
+            dev_h = max(200, 38 * len(dev_sf))
+            fig_dev_sf = go.Figure(go.Bar(
+                x=dev_sf["sf_m"],
+                y=dev_sf["developer_canonical"],
+                orientation="h",
+                marker_color=_ORANGE,
+                marker_line_width=0,
+                cliponaxis=False,
+                text=dev_sf["sf_m"].apply(lambda v: f"{v:.1f}M"),
+                textposition="outside",
+                textfont=dict(family=_MONO, size=9, color="#e2e8f0"),
+                customdata=dev_sf["n_projects"],
+                hovertemplate=(
+                    "<b>%{y}</b><br>"
+                    "%{x:.2f}M SF<br>"
+                    "%{customdata} project(s)<extra></extra>"
+                ),
+            ))
+            fig_dev_sf.update_layout(
+                **_chart_base(dev_h),
+                margin=dict(l=8, r=4, t=4, b=36),
+                showlegend=False,
+                xaxis=dict(
+                    visible=True,
+                    range=[0, x_max_sf],
+                    showgrid=True,
+                    gridcolor=_BORDER,
+                    tickfont=dict(family=_MONO, size=8, color=_MUTED),
+                    title=dict(
+                        text="SQUARE FOOTAGE (MILLIONS)",
+                        font=dict(family=_MONO, size=8, color=_MUTED),
+                        standoff=6,
+                    ),
+                    tickcolor=_BORDER,
+                    linecolor=_BORDER,
+                    zeroline=False,
+                    fixedrange=True,
+                ),
+                yaxis=dict(
+                    showgrid=False,
+                    automargin=True,
+                    tickfont=dict(family=_MONO, size=9, color=_MUTED),
+                    linecolor=_BORDER, tickcolor=_BORDER,
+                    fixedrange=True,
+                ),
+            )
+            st.plotly_chart(fig_dev_sf, use_container_width=True, config={"displayModeBar": False})
+
     # ── Top projects table ─────────────────────────────────────────
     extracted = df[df["extraction_done"] & df["total_gsf"].notna()]
     if len(extracted) >= 5:
