@@ -13,6 +13,10 @@ _MUTED   = "#8A9BB0"
 _TEAL    = "#0ea5e9"
 _MONO    = "'JetBrains Mono', 'IBM Plex Mono', monospace"
 
+# Consistent chart margins
+_M_AXIS  = dict(l=0, r=4, t=6, b=40)   # charts with x-axis label
+_M_THIN  = dict(l=0, r=0, t=2, b=0)    # thin bar charts (no axis)
+
 STATUS_COLORS = {
     "Under Review":       _ORANGE,
     "Board Approved":     "#22c55e",
@@ -21,7 +25,7 @@ STATUS_COLORS = {
 }
 
 
-def _section(label: str, mt: int = 12):
+def _section(label: str, mt: int = 14):
     st.markdown(
         f'<p style="font-family:{_MONO};font-size:9px;font-weight:700;'
         f'letter-spacing:0.18em;color:{_MUTED};text-transform:uppercase;'
@@ -30,12 +34,42 @@ def _section(label: str, mt: int = 12):
     )
 
 
-def _chart_base(h: int = 320) -> dict:
+def _chart_base(h: int = 300) -> dict:
     return dict(
         height=h,
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family=_MONO, size=10, color=_MUTED),
+    )
+
+
+def _xaxis(title: str, grid: bool = True, dtick=None, x_range=None) -> dict:
+    d = dict(
+        visible=True,
+        showgrid=grid,
+        gridcolor=_BORDER,
+        tickfont=dict(family=_MONO, size=9, color=_MUTED),
+        title=dict(text=title, font=dict(family=_MONO, size=9, color=_MUTED), standoff=8),
+        tickcolor=_BORDER,
+        linecolor=_BORDER,
+        zeroline=False,
+        fixedrange=True,
+    )
+    if dtick is not None:
+        d["dtick"] = dtick
+    if x_range is not None:
+        d["range"] = x_range
+    return d
+
+
+def _yaxis(automargin: bool = True) -> dict:
+    return dict(
+        showgrid=False,
+        automargin=automargin,
+        tickfont=dict(family=_MONO, size=9, color=_MUTED),
+        linecolor=_BORDER,
+        tickcolor=_BORDER,
+        fixedrange=True,
     )
 
 
@@ -126,25 +160,30 @@ T.forEach(t=>{{
 
     components.html(tiles_html, height=94)
 
-    # ── Status color legend ──────────────────────────────────────────
+    # ── Status color legend — full width, above both columns ─────────
     legend_items = "".join(
         f'<div style="display:flex;align-items:center;gap:5px">'
-        f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:{color};flex-shrink:0"></span>'
+        f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;'
+        f'background:{color};flex-shrink:0"></span>'
         f'<span style="color:{_MUTED};text-transform:uppercase;letter-spacing:0.08em">{label}</span>'
         f'</div>'
         for label, color in STATUS_COLORS.items()
     )
     st.markdown(
-        f'<div style="display:flex;align-items:center;gap:18px;padding:6px 0 2px;'
-        f'font-family:{_MONO};font-size:9px">{legend_items}</div>',
+        f'<div style="display:flex;align-items:center;gap:20px;padding:8px 0 4px;'
+        f'font-family:{_MONO};font-size:9px;border-bottom:1px solid {_BORDER};'
+        f'margin-bottom:2px">{legend_items}</div>',
         unsafe_allow_html=True,
     )
 
-    # ── Main charts ─────────────────────────────────────────────────
-    col_a, col_b = st.columns([3, 2])
+    # ── Two equal columns ────────────────────────────────────────────
+    col_a, col_b = st.columns(2)
 
+    # ════════════════════════════════════════════════════════════════
+    # LEFT COLUMN — neighborhood counts + pipeline SF by asset class
+    # ════════════════════════════════════════════════════════════════
     with col_a:
-        _section("PROJECTS BY NEIGHBORHOOD", mt=10)
+        _section("PROJECTS BY NEIGHBORHOOD", mt=14)
         nbhd_status = (
             df[df["neighborhood"].astype(bool)]
             .groupby(["neighborhood", "status"])
@@ -175,43 +214,31 @@ T.forEach(t=>{{
         fig_nbhd.update_layout(
             **_chart_base(370),
             barmode="stack",
-            margin=dict(l=0, r=0, t=28, b=44),
+            margin=dict(l=0, r=4, t=6, b=40),
             showlegend=False,
-            xaxis=dict(
-                visible=True,
-                showgrid=True,
-                gridcolor=_BORDER,
-                tickfont=dict(family=_MONO, size=9, color=_MUTED),
-                title=dict(
-                    text="NUMBER OF PROJECTS",
-                    font=dict(family=_MONO, size=9, color=_MUTED),
-                    standoff=8,
-                ),
-                tickcolor=_BORDER,
-                linecolor=_BORDER,
-            ),
+            xaxis=_xaxis("NUMBER OF PROJECTS"),
             yaxis=dict(
                 showgrid=False,
+                automargin=True,
                 tickfont=dict(family=_MONO, size=10, color=_MUTED),
                 linecolor=_BORDER, tickcolor=_BORDER,
+                fixedrange=True,
             ),
         )
         st.plotly_chart(fig_nbhd, use_container_width=True, config={"displayModeBar": False})
 
         # GSF by asset class
-        extracted = df[df["extraction_done"] & (df["asset_class"] != "")]
-        if len(extracted) >= 5:
-            _section("GROSS SF BY ASSET CLASS", mt=8)
+        extracted_ac = df[df["extraction_done"] & (df["asset_class"] != "")]
+        if len(extracted_ac) >= 5:
+            _section("GROSS SF BY ASSET CLASS", mt=14)
             ac = (
-                extracted.groupby("asset_class")["total_gsf"]
+                extracted_ac.groupby("asset_class")["total_gsf"]
                 .sum()
                 .reset_index()
                 .sort_values("total_gsf", ascending=True)
             )
             ac["gsf_m"] = ac["total_gsf"] / 1e6
-            # Extend x-range 30% past max so outside text labels never clip
-            x_max = ac["gsf_m"].max() * 1.30
-            bar_h = max(180, 38 * len(ac))
+            x_max_ac = ac["gsf_m"].max() * 1.30
             fig_ac = go.Figure(go.Bar(
                 x=ac["gsf_m"], y=ac["asset_class"],
                 orientation="h",
@@ -224,35 +251,20 @@ T.forEach(t=>{{
                 hovertemplate="<b>%{y}</b><br>%{x:.2f}M SF<extra></extra>",
             ))
             fig_ac.update_layout(
-                **_chart_base(bar_h),
-                margin=dict(l=0, r=4, t=4, b=36),
+                **_chart_base(240),
+                margin=_M_AXIS,
                 showlegend=False,
-                xaxis=dict(
-                    visible=True,
-                    range=[0, x_max],
-                    showgrid=True,
-                    gridcolor=_BORDER,
-                    tickfont=dict(family=_MONO, size=9, color=_MUTED),
-                    title=dict(
-                        text="SQUARE FOOTAGE (MILLIONS)",
-                        font=dict(family=_MONO, size=9, color=_MUTED),
-                        standoff=8,
-                    ),
-                    tickcolor=_BORDER,
-                    linecolor=_BORDER,
-                    zeroline=False,
-                ),
-                yaxis=dict(
-                    showgrid=False,
-                    automargin=True,
-                    tickfont=dict(family=_MONO, size=10, color=_MUTED),
-                    linecolor=_BORDER, tickcolor=_BORDER,
-                ),
+                xaxis=_xaxis("SQUARE FOOTAGE (MILLIONS)", x_range=[0, x_max_ac]),
+                yaxis=_yaxis(),
             )
             st.plotly_chart(fig_ac, use_container_width=True, config={"displayModeBar": False})
 
+    # ════════════════════════════════════════════════════════════════
+    # RIGHT COLUMN — status, scale, developer charts
+    # ════════════════════════════════════════════════════════════════
     with col_b:
-        _section("STATUS BREAKDOWN", mt=10)
+        # Status Breakdown — thin stacked bar
+        _section("STATUS BREAKDOWN", mt=14)
         status_df = df["status"].value_counts().reset_index()
         status_df.columns = ["status", "count"]
         total_s = int(status_df["count"].sum())
@@ -265,40 +277,45 @@ T.forEach(t=>{{
                 marker_color=color,
                 marker_line_width=0,
                 name=row["status"],
-                hovertemplate=f'{row["status"]}: {int(row["count"])} ({int(row["count"])/total_s*100:.0f}%)<extra></extra>',
+                hovertemplate=(
+                    f'{row["status"]}: {int(row["count"])} '
+                    f'({int(row["count"])/total_s*100:.0f}%)<extra></extra>'
+                ),
             ))
         fig_status.update_layout(
-            **_chart_base(50),
+            **_chart_base(54),
             barmode="stack",
-            margin=dict(l=0, r=0, t=2, b=0),
+            margin=_M_THIN,
             showlegend=False,
             xaxis=dict(visible=False),
             yaxis=dict(visible=False),
         )
         st.plotly_chart(fig_status, use_container_width=True, config={"displayModeBar": False})
 
-        # Custom legend — 2-column grid, uniform spacing
+        # Status counts legend
         status_order = ["Under Review", "Board Approved", "Under Construction", "Letter of Intent"]
-        legend_items = ""
+        legend_html = ""
         for s in status_order:
             cnt_arr = status_df[status_df["status"] == s]["count"].values
             cnt = int(cnt_arr[0]) if len(cnt_arr) else 0
             color = STATUS_COLORS.get(s, _MUTED)
-            legend_items += (
+            legend_html += (
                 f'<div style="display:flex;align-items:center;gap:7px">'
-                f'<span style="width:8px;height:8px;border-radius:50%;background:{color};flex-shrink:0"></span>'
+                f'<span style="width:8px;height:8px;border-radius:50%;'
+                f'background:{color};flex-shrink:0"></span>'
                 f'<span style="color:#e2e8f0;font-weight:700;min-width:22px">{cnt}</span>'
                 f'<span style="color:{_MUTED}">{s.upper()}</span>'
                 f'</div>'
             )
         st.markdown(
             f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;'
-            f'margin-top:4px;font-family:{_MONO};font-size:9px;letter-spacing:0.06em">'
-            f'{legend_items}</div>',
+            f'margin:2px 0 0;font-family:{_MONO};font-size:9px;letter-spacing:0.06em">'
+            f'{legend_html}</div>',
             unsafe_allow_html=True,
         )
 
-        _section("REVIEW SCALE", mt=10)
+        # Review Scale
+        _section("REVIEW SCALE", mt=14)
         scale_df = df["project_scale"].value_counts().reset_index()
         scale_df.columns = ["scale", "count"]
         scale_colors_map = {"Large Project": _ORANGE, "Small Project": _TEAL}
@@ -320,16 +337,16 @@ T.forEach(t=>{{
         fig_scale.update_layout(
             **_chart_base(44),
             barmode="stack",
-            margin=dict(l=0, r=0, t=0, b=0),
+            margin=_M_THIN,
             showlegend=False,
             xaxis=dict(visible=False),
             yaxis=dict(visible=False),
         )
         st.plotly_chart(fig_scale, use_container_width=True, config={"displayModeBar": False})
 
-        # Inline legend for Review Scale
+        # Scale inline legend
         st.markdown(
-            f'<div style="display:flex;gap:14px;margin:-4px 0 0;'
+            f'<div style="display:flex;gap:14px;margin:0 0 2px;'
             f'font-family:{_MONO};font-size:9px;letter-spacing:0.06em">'
             f'<div style="display:flex;align-items:center;gap:5px">'
             f'<span style="display:inline-block;width:8px;height:8px;background:{_ORANGE}"></span>'
@@ -343,7 +360,8 @@ T.forEach(t=>{{
             unsafe_allow_html=True,
         )
 
-        _section("MOST ACTIVE DEVELOPERS", mt=10)
+        # Most Active Developers (by project count)
+        _section("MOST ACTIVE DEVELOPERS", mt=14)
         from scraper.normalize_developer import is_real_company
         dev_df = df[df["developer_canonical"].apply(
             lambda x: bool(x) and is_real_company(str(x))
@@ -355,11 +373,11 @@ T.forEach(t=>{{
                 .sort_values("n", ascending=True)
                 .tail(10)
             )
-            # Truncate long names with ellipsis
             dev_counts = dev_counts.copy()
             dev_counts["developer_canonical"] = dev_counts["developer_canonical"].apply(
                 lambda x: (x[:21] + "…") if len(x) > 23 else x
             )
+            x_max_n = dev_counts["n"].max() * 1.45
             bar_c = [_MUTED] * len(dev_counts)
             if len(bar_c) >= 1:
                 bar_c[-1] = _ORANGE
@@ -371,60 +389,39 @@ T.forEach(t=>{{
                 orientation="h",
                 marker_color=bar_c,
                 marker_line_width=0,
+                cliponaxis=False,
                 text=dev_counts["n"],
                 textposition="outside",
-                cliponaxis=False,
                 textfont=dict(family=_MONO, size=9, color=_MUTED),
                 hovertemplate="%{y}: %{x} projects<extra></extra>",
             ))
             fig_dev.update_layout(
-                **_chart_base(280),
-                margin=dict(l=8, r=36, t=4, b=36),
+                **_chart_base(270),
+                margin=_M_AXIS,
                 showlegend=False,
-                xaxis=dict(
-                    visible=True,
-                    showgrid=True,
-                    gridcolor=_BORDER,
-                    tickfont=dict(family=_MONO, size=8, color=_MUTED),
-                    title=dict(
-                        text="NUMBER OF PROJECTS",
-                        font=dict(family=_MONO, size=8, color=_MUTED),
-                        standoff=4,
-                    ),
-                    tickcolor=_BORDER,
-                    linecolor=_BORDER,
-                    dtick=1,
-                    fixedrange=True,
-                ),
-                yaxis=dict(
-                    showgrid=False,
-                    automargin=True,
-                    tickfont=dict(family=_MONO, size=9, color=_MUTED),
-                    linecolor=_BORDER, tickcolor=_BORDER,
-                    fixedrange=True,
-                ),
+                xaxis=_xaxis("NUMBER OF PROJECTS", dtick=1, x_range=[0, x_max_n]),
+                yaxis=_yaxis(),
             )
             st.plotly_chart(fig_dev, use_container_width=True, config={"displayModeBar": False})
 
-        # Developer market share by SF
+        # Developer Market Share by SF
         dev_sf_df = df[
             df["extraction_done"] &
             df["total_gsf"].notna() &
             df["developer_canonical"].apply(lambda x: bool(x) and is_real_company(str(x)))
         ].copy()
         if len(dev_sf_df) >= 3:
-            _section("DEVELOPER MARKET SHARE BY SF", mt=10)
+            _section("DEVELOPER MARKET SHARE BY SF", mt=14)
             dev_sf = (
                 dev_sf_df.groupby("developer_canonical")
                 .agg(total_sf=("total_gsf", "sum"), n_projects=("id", "count"))
                 .reset_index()
                 .sort_values("total_sf", ascending=False)
                 .head(10)
-                .sort_values("total_sf", ascending=True)  # ascending so largest is at top
+                .sort_values("total_sf", ascending=True)
             )
             dev_sf["sf_m"] = dev_sf["total_sf"] / 1e6
             x_max_sf = dev_sf["sf_m"].max() * 1.32
-            dev_h = max(200, 38 * len(dev_sf))
             fig_dev_sf = go.Figure(go.Bar(
                 x=dev_sf["sf_m"],
                 y=dev_sf["developer_canonical"],
@@ -443,39 +440,18 @@ T.forEach(t=>{{
                 ),
             ))
             fig_dev_sf.update_layout(
-                **_chart_base(dev_h),
-                margin=dict(l=8, r=4, t=4, b=36),
+                **_chart_base(270),
+                margin=_M_AXIS,
                 showlegend=False,
-                xaxis=dict(
-                    visible=True,
-                    range=[0, x_max_sf],
-                    showgrid=True,
-                    gridcolor=_BORDER,
-                    tickfont=dict(family=_MONO, size=8, color=_MUTED),
-                    title=dict(
-                        text="SQUARE FOOTAGE (MILLIONS)",
-                        font=dict(family=_MONO, size=8, color=_MUTED),
-                        standoff=6,
-                    ),
-                    tickcolor=_BORDER,
-                    linecolor=_BORDER,
-                    zeroline=False,
-                    fixedrange=True,
-                ),
-                yaxis=dict(
-                    showgrid=False,
-                    automargin=True,
-                    tickfont=dict(family=_MONO, size=9, color=_MUTED),
-                    linecolor=_BORDER, tickcolor=_BORDER,
-                    fixedrange=True,
-                ),
+                xaxis=_xaxis("SQUARE FOOTAGE (MILLIONS)", x_range=[0, x_max_sf]),
+                yaxis=_yaxis(),
             )
             st.plotly_chart(fig_dev_sf, use_container_width=True, config={"displayModeBar": False})
 
-    # ── Top projects table ─────────────────────────────────────────
+    # ── Largest projects table — full width below both columns ───────
     extracted = df[df["extraction_done"] & df["total_gsf"].notna()]
     if len(extracted) >= 5:
-        _section("LARGEST PROJECTS BY SF", mt=8)
+        _section("LARGEST PROJECTS BY SF", mt=14)
         top = extracted.nlargest(10, "total_gsf").copy()
         top["dev"] = top["developer_canonical"].where(
             top["developer_canonical"].astype(bool), top["developer"]
