@@ -227,37 +227,6 @@ T.forEach(t=>{{
         )
         st.plotly_chart(fig_nbhd, use_container_width=True, config={"displayModeBar": False})
 
-        # GSF by asset class
-        extracted_ac = df[df["extraction_done"] & (df["asset_class"] != "")]
-        if len(extracted_ac) >= 5:
-            _section("GROSS SF BY ASSET CLASS", mt=14)
-            ac = (
-                extracted_ac.groupby("asset_class")["total_gsf"]
-                .sum()
-                .reset_index()
-                .sort_values("total_gsf", ascending=True)
-            )
-            ac["gsf_m"] = ac["total_gsf"] / 1e6
-            x_max_ac = ac["gsf_m"].max() * 1.30
-            fig_ac = go.Figure(go.Bar(
-                x=ac["gsf_m"], y=ac["asset_class"],
-                orientation="h",
-                marker_color=_ORANGE,
-                marker_line_width=0,
-                cliponaxis=False,
-                text=ac["gsf_m"].apply(lambda v: f"{v:.1f}M"),
-                textposition="outside",
-                textfont=dict(family=_MONO, size=10, color="#e2e8f0"),
-                hovertemplate="<b>%{y}</b><br>%{x:.2f}M SF<extra></extra>",
-            ))
-            fig_ac.update_layout(
-                **_chart_base(240),
-                margin=_M_AXIS,
-                showlegend=False,
-                xaxis=_xaxis("SQUARE FOOTAGE (MILLIONS)", x_range=[0, x_max_ac]),
-                yaxis=_yaxis(),
-            )
-            st.plotly_chart(fig_ac, use_container_width=True, config={"displayModeBar": False})
 
     # ════════════════════════════════════════════════════════════════
     # RIGHT COLUMN — status, scale, developer charts
@@ -404,12 +373,48 @@ T.forEach(t=>{{
             )
             st.plotly_chart(fig_dev, use_container_width=True, config={"displayModeBar": False})
 
-        # Developer Market Share by SF
-        dev_sf_df = df[
-            df["extraction_done"] &
-            df["total_gsf"].notna() &
-            df["developer_canonical"].apply(lambda x: bool(x) and is_real_company(str(x)))
-        ].copy()
+    # ── SF charts row — Gross SF and Developer Market Share side by side
+    col_c, col_d = st.columns(2)
+
+    extracted_ac = df[df["extraction_done"] & (df["asset_class"] != "")]
+    dev_sf_df = df[
+        df["extraction_done"] &
+        df["total_gsf"].notna() &
+        df["developer_canonical"].apply(lambda x: bool(x) and is_real_company(str(x)))
+    ].copy()
+
+    with col_c:
+        if len(extracted_ac) >= 5:
+            _section("GROSS SF BY ASSET CLASS", mt=14)
+            ac = (
+                extracted_ac.groupby("asset_class")["total_gsf"]
+                .sum()
+                .reset_index()
+                .sort_values("total_gsf", ascending=True)
+            )
+            ac["gsf_m"] = ac["total_gsf"] / 1e6
+            x_max_ac = ac["gsf_m"].max() * 1.30
+            fig_ac = go.Figure(go.Bar(
+                x=ac["gsf_m"], y=ac["asset_class"],
+                orientation="h",
+                marker_color=_ORANGE,
+                marker_line_width=0,
+                cliponaxis=False,
+                text=ac["gsf_m"].apply(lambda v: f"{v:.1f}M"),
+                textposition="outside",
+                textfont=dict(family=_MONO, size=10, color="#e2e8f0"),
+                hovertemplate="<b>%{y}</b><br>%{x:.2f}M SF<extra></extra>",
+            ))
+            fig_ac.update_layout(
+                **_chart_base(450),
+                margin=_M_AXIS,
+                showlegend=False,
+                xaxis=_xaxis("SQUARE FOOTAGE (MILLIONS)", x_range=[0, x_max_ac]),
+                yaxis=_yaxis(),
+            )
+            st.plotly_chart(fig_ac, use_container_width=True, config={"displayModeBar": False})
+
+    with col_d:
         if len(dev_sf_df) >= 3:
             _section("DEVELOPER MARKET SHARE BY SF", mt=14)
             dev_sf = (
@@ -440,7 +445,7 @@ T.forEach(t=>{{
                 ),
             ))
             fig_dev_sf.update_layout(
-                **_chart_base(270),
+                **_chart_base(450),
                 margin=_M_AXIS,
                 showlegend=False,
                 xaxis=_xaxis("SQUARE FOOTAGE (MILLIONS)", x_range=[0, x_max_sf]),
