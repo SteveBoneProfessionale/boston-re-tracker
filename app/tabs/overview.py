@@ -212,7 +212,7 @@ T.forEach(t=>{{
         )
         fig_nbhd.update_traces(marker_line_width=0)
         fig_nbhd.update_layout(
-            **_chart_base(370),
+            **_chart_base(500),
             barmode="stack",
             margin=dict(l=0, r=4, t=6, b=40),
             showlegend=False,
@@ -251,7 +251,7 @@ T.forEach(t=>{{
                 hovertemplate="<b>%{y}</b><br>%{x:.2f}M SF<extra></extra>",
             ))
             fig_ac.update_layout(
-                **_chart_base(240),
+                **_chart_base(500),
                 margin=_M_AXIS,
                 showlegend=False,
                 xaxis=_xaxis("SQUARE FOOTAGE (MILLIONS)", x_range=[0, x_max_ac]),
@@ -396,7 +396,7 @@ T.forEach(t=>{{
                 hovertemplate="%{y}: %{x} projects<extra></extra>",
             ))
             fig_dev.update_layout(
-                **_chart_base(270),
+                **_chart_base(500),
                 margin=_M_AXIS,
                 showlegend=False,
                 xaxis=_xaxis("NUMBER OF PROJECTS", dtick=1, x_range=[0, x_max_n]),
@@ -440,7 +440,7 @@ T.forEach(t=>{{
                 ),
             ))
             fig_dev_sf.update_layout(
-                **_chart_base(270),
+                **_chart_base(500),
                 margin=_M_AXIS,
                 showlegend=False,
                 xaxis=_xaxis("SQUARE FOOTAGE (MILLIONS)", x_range=[0, x_max_sf]),
