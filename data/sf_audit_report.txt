@@ -1,0 +1,175 @@
+SF / UNITS AUDIT REPORT — 2026-05-03
+======================================
+
+CORRECTED RECORDS (14 field changes across 9 projects)
+-------------------------------------------------------
+
+1. Mildred Hailey Development Buildings 2 and 3  (id=188)
+   Field:     residential_units
+   Old value: 4,499
+   New value: 125  (Building 2: 65 units + Building 3: 60 units)
+   Source:    https://www.bostonplans.org/projects/development-projects/mildred-hailey-development-buildings-2-and-3
+   Reason:    AI extracted the total unit count for the entire Mildred Hailey complex
+              instead of just Buildings 2 and 3. 151,537 SF cannot physically contain
+              4,499 units (~33 SF/unit). Correct count is 125 per BPDA project page.
+
+2. Seaport Square - Block L3 & L6  (id=275)
+   Field:     total_gsf
+   Old value: 7,723,110
+   New value: 780,000
+   Source:    https://www.bostonplans.org/projects/development-projects/seaport-square-block-l3-l6
+   Reason:    7.7M SF is the Seaport Square master plan total, misattributed to this
+              single block entry. BPDA page shows 780,000 SF for L3+L6 combined.
+
+   Field:     residential_units
+   Old value: 2,511
+   New value: NULL
+   Source:    Same BPDA page
+   Reason:    Unit count not specified on BPDA page; 2,511 was a master plan aggregate.
+
+3. Seaport Square - Block F  (id=277)
+   Field:     total_gsf
+   Old value: 7,723,110
+   New value: 14,000
+   Source:    https://www.bostonplans.org/projects/development-projects/seaport-square-block-f
+   Reason:    Block F is District Hall (12,000 SF, completed 2013) plus the Massachusetts
+              Fallen Heroes Memorial site — a civic/commercial block, not a residential
+              development. 7.7M SF was the same master plan total copied to this block.
+
+   Field:     residential_units
+   Old value: 2,511
+   New value: NULL
+   Source:    Same BPDA page
+   Reason:    Block F has no residential component; commercial/civic only.
+
+4. Dover Station Condos  (id=309)
+   Field:     residential_units
+   Old value: 3,531
+   New value: 37  (7 1BR + 23 2BR + 7 3BR)
+   Source:    https://www.bostonplans.org/projects/development-projects/dover-station-condos-bartlett-place-lot-f4
+   Reason:    42,240 SF cannot contain 3,531 units (~12 SF/unit — physically impossible).
+              BPDA page confirms 37 condos. Likely a digit transposition or complete
+              extraction failure.
+
+5. 80 West Broadway  (id=336)
+   Field:     residential_units
+   Old value: 3,686
+   New value: NULL
+   Source:    https://www.bostonplans.org/projects/development-projects/80-west-broadway
+   Reason:    This is a commercial office/R&D building with ground-floor retail.
+              BPDA page makes no mention of residential units. 75,500 SF cannot
+              contain 3,686 units regardless (~20 SF/unit). GSF of 75,500 is confirmed correct.
+
+6. Back Bay/South End Gateway Project  (id=366)
+   Field:     total_gsf
+   Old value: 1,260,000
+   New value: 1,371,480
+   Source:    https://www.bostonplans.org/projects/development-projects/back-bay-south-end-gateway-project
+   Reason:    BPDA project page lists approved Gross Floor Area as 1,371,480 sq ft.
+              Stored value likely extracted from an earlier draft filing.
+
+7. Tremont Crossing (P-3)  (id=372)
+   Field:     total_gsf
+   Old value: 1,285,900
+   New value: 1,746,908
+   Source:    https://www.bostonplans.org/projects/development-projects/tremont-crossing-(p-3)
+   Reason:    BPDA project page lists 1,746,908 sq ft. The prior figure came from a
+              Feldco Development-era filing; Feldco was subsequently removed by the BPDA
+              and the project redesigned. Current approved specs supersede the old filing.
+
+8. Bunker Hill Housing Redevelopment  (id=391)
+   Field:     total_gsf
+   Old value: 2,800,000
+   New value: 3,094,891
+   Source:    https://www.bostonplans.org/projects/development-projects/bunker-hill-housing-redevelopment
+   Reason:    BPDA project page lists Gross Floor Area as 3,094,891 sq ft.
+              Units count of 2,699 is confirmed correct by BPDA and multiple sources.
+
+9. 1234-1240 Soldiers Field Road  (id=243)
+   Field:     total_gsf
+   Old value: 723,000
+   New value: 655,000
+   Source:    https://www.bostonplans.org/projects/development-projects/1234-1240-soldiers-field-road
+   Reason:    BPDA page shows 655,000 SF. Stored value likely included parking or
+              ancillary SF from an earlier draft filing.
+
+   Field:     residential_units
+   Old value: 655
+   New value: 543  (450 rental + 93 condo)
+   Source:    BPDA page + Allston Brighton CDC confirmation
+   Reason:    Two independent sources confirm 543 total units. Stored 655 likely
+              included hotel rooms (195-room Studio Allston hotel) counted as units.
+
+10. Austin Street Lots Redevelopment  (id=69)
+    Field:     total_gsf
+    Old value: 800,290
+    New value: 790,000
+    Source:    https://www.bostonplans.org/projects/development-projects/austin-street-lots-redevelopment
+    Reason:    BPDA page states "up to 790,000 SF"; minor extraction variance from
+               earlier draft figure.
+
+    Field:     residential_units
+    Old value: 700
+    New value: 705
+    Source:    Same BPDA page
+    Reason:    BPDA page states "up to 705 new dwelling units".
+
+
+CONFIRMED CORRECT — NO CHANGES NEEDED (2 projects)
+----------------------------------------------------
+
+Cambridge Crossing  (id=384)  |  4,500,000 SF  |  2,700 units
+  Source:  cambridgecrossing.com; multiple trade press sources
+  Note:    These figures represent the full master plan (manually entered). The
+           4.5M SF and 2,700 units are consistently reported across all sources
+           for the complete Cambridge Crossing development.
+
+Beachmont Square at Suffolk Downs  (id=382)  |  1,700,000 SF  |  1,400 units
+  Source:  atsuffolkdowns.com; blacklinere.com; multiple trade press sources
+  Note:    Both figures confirmed by developer materials and press coverage.
+           Amaya (475 units) + Portico (473 units) + remaining phases = 1,400+.
+
+
+UNVERIFIED — NEEDS MANUAL REVIEW (4 records, is_flagged=True set, FlaggedExtraction created)
+---------------------------------------------------------------------------------------------
+
+1. Suffolk Downs Phase 4  (id=332)
+   Field:       residential_units
+   Stored:      3,662
+   GSF:         3,183,000  (confirmed correct on BPDA page)
+   Why flagged: Units for Phase 4 (3,662) are nearly identical to Phase 2 (3,660).
+                The Suffolk Downs total master plan is ~10,000 units across all phases.
+                Both figures likely reflect the same master plan aggregate being extracted
+                into multiple phase records. No public source breaks down units per phase.
+   Action:      Request per-phase unit breakdown directly from HYM Investment Group
+                or obtain the Phase 4 Article 80 filing from BPDA records library.
+
+2. Suffolk Downs Phase 2  (id=335)
+   Field:       residential_units
+   Stored:      3,660
+   GSF:         1,731,000  (confirmed correct on BPDA page)
+   Why flagged: See Phase 4 above. Phase 2 and Phase 4 showing near-identical unit
+                counts (3,660 vs 3,662) is a strong signal that the AI extracted a
+                master plan total for both rather than per-phase figures.
+   Action:      Same as Phase 4 — obtain per-phase breakdown from HYM or BPDA filing.
+
+3. Back Bay/South End Gateway Project  (id=366)
+   Field:       residential_units
+   Stored:      600
+   GSF:         1,371,480  (corrected from 1,260,000)
+   Why flagged: BPDA project page confirms two residential buildings but does not
+                specify unit count. 600 units cannot be verified or denied from
+                available public sources.
+   Action:      Check Article 80 DPIR filing from BPDA records library for unit count.
+
+4. Tremont Crossing (P-3)  (id=372)
+   Field:       residential_units
+   Stored:      694
+   GSF:         1,746,908  (corrected from 1,285,900)
+   Why flagged: BPDA project page does not list unit count. One secondary source
+                cited 727 units for the residential component (655,000 SF at market
+                rate), but that source described a project version different from
+                what the current BPDA page reflects. Project was redesigned after
+                original developer (Feldco) was removed.
+   Action:      Obtain current developer's RFP response or Article 80 re-filing
+                from BPDA records library.
