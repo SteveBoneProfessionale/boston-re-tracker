@@ -232,57 +232,42 @@ hr { border-color: #1E2530 !important; margin: 12px 0 !important; }
 """
 
 
-def _render_header(stats: dict):
-    pct = stats["extracted"] / max(stats["total"], 1) * 100
-    html = f"""<!DOCTYPE html><html><head>
+def _render_header():
+    html = """<!DOCTYPE html><html><head>
 <meta charset="utf-8">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&display=swap');
-*{{margin:0;padding:0;box-sizing:border-box}}
-body{{
+*{margin:0;padding:0;box-sizing:border-box}
+body{
   background:#0d0f12;
   font-family:'JetBrains Mono',monospace;
   padding:15px 0 12px;
   border-bottom:1px solid #1E2530;
   overflow:hidden;
-}}
-.wrap{{display:flex;align-items:center;justify-content:space-between}}
-.logo{{font-size:12px;font-weight:700;letter-spacing:0.22em;color:#fff;text-transform:uppercase}}
-.logo em{{color:#F5821E;font-style:normal}}
-.right{{display:flex;align-items:center;gap:28px}}
-.prog{{display:flex;align-items:center;gap:8px}}
-.lbl{{font-size:9px;color:#8A9BB0;letter-spacing:0.14em;text-transform:uppercase}}
-.track{{width:90px;height:2px;background:#1E2530}}
-.fill{{height:2px;background:#F5821E;width:{pct:.1f}%}}
-.pct{{font-size:10px;color:#F5821E;font-weight:700;min-width:28px;letter-spacing:0.04em}}
-.clock{{display:flex;align-items:center;gap:10px;font-size:11px}}
-.cdate{{color:#8A9BB0}}
-.ctime{{color:#e2e8f0;font-weight:600;letter-spacing:0.06em;min-width:80px}}
+}
+.wrap{display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:12px;font-weight:700;letter-spacing:0.22em;color:#fff;text-transform:uppercase}
+.logo em{color:#F5821E;font-style:normal}
+.clock{display:flex;align-items:center;gap:10px;font-size:11px}
+.cdate{color:#8A9BB0}
+.ctime{color:#e2e8f0;font-weight:600;letter-spacing:0.06em;min-width:80px}
 </style>
 </head><body>
 <div class="wrap">
   <div class="logo">BOS <em>▪</em> CRE TERMINAL</div>
-  <div class="right">
-    <div class="prog">
-      <div class="lbl">AI EXTRACT</div>
-      <div class="track"><div class="fill"></div></div>
-      <div class="pct">{pct:.0f}%</div>
-      <div class="lbl">{stats['extracted']}/{stats['total']}</div>
-    </div>
-    <div class="clock">
-      <span class="cdate" id="d"></span>
-      <span class="ctime" id="t">--:--:--</span>
-    </div>
+  <div class="clock">
+    <span class="cdate" id="d"></span>
+    <span class="ctime" id="t">--:--:--</span>
   </div>
 </div>
 <script>
-function tick(){{
+function tick(){
   const n=new Date();
   document.getElementById('d').textContent=
-    n.toLocaleDateString('en-US',{{month:'short',day:'2-digit',year:'numeric'}}).toUpperCase();
+    n.toLocaleDateString('en-US',{month:'short',day:'2-digit',year:'numeric'}).toUpperCase();
   document.getElementById('t').textContent=
-    n.toLocaleTimeString('en-US',{{hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}});
-}}
+    n.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});
+}
 tick();setInterval(tick,1000);
 </script>
 </body></html>"""
@@ -297,7 +282,7 @@ def main():
     df = load_projects()
     stats = summary_stats(df)
 
-    _render_header(stats)
+    _render_header()
 
     tab1, tab2, tab3, tab4 = st.tabs(["OVERVIEW", "PROJECTS", "MAP", "NEWS"])
 
@@ -319,8 +304,6 @@ def main():
         )
         st.divider()
         st.metric("PROJECTS", stats["total"])
-        st.metric("AI EXTRACTED", f"{stats['extracted']}/{stats['total']}")
-        st.progress(stats["extracted"] / max(stats["total"], 1))
         st.divider()
         st.metric("UNITS", f"{stats['total_units']:,}")
         st.metric("PIPELINE SF", f"{stats['total_gsf']/1e6:.1f}M")

@@ -10,21 +10,22 @@ _BG2     = "#141720"
 _BORDER  = "#1E2530"
 _ORANGE  = "#F5821E"
 _MUTED   = "#8A9BB0"
+_TEAL    = "#0ea5e9"
 _MONO    = "'JetBrains Mono', 'IBM Plex Mono', monospace"
 
 STATUS_COLORS = {
     "Under Review":       _ORANGE,
     "Board Approved":     "#22c55e",
-    "Letter of Intent":   "#475569",
+    "Letter of Intent":   "#64748b",
     "Under Construction": "#ef4444",
 }
 
 
-def _section(label: str, mt: int = 20):
+def _section(label: str, mt: int = 12):
     st.markdown(
         f'<p style="font-family:{_MONO};font-size:9px;font-weight:700;'
         f'letter-spacing:0.18em;color:{_MUTED};text-transform:uppercase;'
-        f'margin:{mt}px 0 6px 0">{label}</p>',
+        f'margin:{mt}px 0 4px 0">{label}</p>',
         unsafe_allow_html=True,
     )
 
@@ -44,7 +45,7 @@ def render(df: pd.DataFrame, stats: dict):
         ("TOTAL PROJECTS",    stats["total"],              "#ffffff", False),
         ("UNDER REVIEW",      stats["under_review"],       _ORANGE,   False),
         ("BOARD APPROVED",    stats["board_approved"],     "#22c55e", False),
-        ("LOI",               stats["loi"],                _MUTED,    False),
+        ("LOI",               stats["loi"],                "#64748b", False),
         ("UNDER CONST.",      stats["under_construction"], "#ef4444", False),
         ("RESI UNITS",        stats["total_units"],        "#ffffff", False),
         ("PIPELINE SF",       stats["total_gsf"],          "#ffffff", True),
@@ -125,11 +126,25 @@ T.forEach(t=>{{
 
     components.html(tiles_html, height=94)
 
+    # ── Status color legend ──────────────────────────────────────────
+    legend_items = "".join(
+        f'<div style="display:flex;align-items:center;gap:5px">'
+        f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:{color};flex-shrink:0"></span>'
+        f'<span style="color:{_MUTED};text-transform:uppercase;letter-spacing:0.08em">{label}</span>'
+        f'</div>'
+        for label, color in STATUS_COLORS.items()
+    )
+    st.markdown(
+        f'<div style="display:flex;align-items:center;gap:18px;padding:6px 0 2px;'
+        f'font-family:{_MONO};font-size:9px">{legend_items}</div>',
+        unsafe_allow_html=True,
+    )
+
     # ── Main charts ─────────────────────────────────────────────────
     col_a, col_b = st.columns([3, 2])
 
     with col_a:
-        _section("PROJECTS BY NEIGHBORHOOD", mt=18)
+        _section("PROJECTS BY NEIGHBORHOOD", mt=10)
         nbhd_status = (
             df[df["neighborhood"].astype(bool)]
             .groupby(["neighborhood", "status"])
@@ -158,23 +173,27 @@ T.forEach(t=>{{
         )
         fig_nbhd.update_traces(marker_line_width=0)
         fig_nbhd.update_layout(
-            **_chart_base(380),
+            **_chart_base(370),
             barmode="stack",
-            margin=dict(l=0, r=0, t=28, b=4),
-            showlegend=True,
-            xaxis=dict(visible=False, showgrid=False),
+            margin=dict(l=0, r=0, t=28, b=44),
+            showlegend=False,
+            xaxis=dict(
+                visible=True,
+                showgrid=True,
+                gridcolor=_BORDER,
+                tickfont=dict(family=_MONO, size=9, color=_MUTED),
+                title=dict(
+                    text="NUMBER OF PROJECTS",
+                    font=dict(family=_MONO, size=9, color=_MUTED),
+                    standoff=8,
+                ),
+                tickcolor=_BORDER,
+                linecolor=_BORDER,
+            ),
             yaxis=dict(
                 showgrid=False,
                 tickfont=dict(family=_MONO, size=10, color=_MUTED),
                 linecolor=_BORDER, tickcolor=_BORDER,
-            ),
-            legend=dict(
-                font=dict(family=_MONO, size=9, color=_MUTED),
-                bgcolor="rgba(0,0,0,0)",
-                orientation="h",
-                yanchor="bottom", y=1.01,
-                xanchor="left", x=0,
-                itemwidth=30,
             ),
         )
         st.plotly_chart(fig_nbhd, use_container_width=True, config={"displayModeBar": False})
@@ -182,7 +201,7 @@ T.forEach(t=>{{
         # GSF by asset class
         extracted = df[df["extraction_done"] & (df["asset_class"] != "")]
         if len(extracted) >= 5:
-            _section("GROSS SF BY ASSET CLASS")
+            _section("GROSS SF BY ASSET CLASS", mt=8)
             ac = (
                 extracted.groupby("asset_class")["total_gsf"]
                 .sum()
@@ -198,14 +217,14 @@ T.forEach(t=>{{
                 orientation="h",
                 marker_color=bar_colors,
                 marker_line_width=0,
-                text=ac["gsf_m"].apply(lambda v: f" {v:.1f}M"),
+                text=ac["gsf_m"].apply(lambda v: f"{v:.1f}M"),
                 textposition="outside",
                 textfont=dict(family=_MONO, size=10, color=_MUTED),
                 hovertemplate="%{y}: %{x:.1f}M SF<extra></extra>",
             ))
             fig_ac.update_layout(
                 **_chart_base(200),
-                margin=dict(l=0, r=50, t=4, b=4),
+                margin=dict(l=0, r=60, t=4, b=4),
                 showlegend=False,
                 xaxis=dict(visible=False, showgrid=False),
                 yaxis=dict(
@@ -217,7 +236,7 @@ T.forEach(t=>{{
             st.plotly_chart(fig_ac, use_container_width=True, config={"displayModeBar": False})
 
     with col_b:
-        _section("STATUS BREAKDOWN", mt=18)
+        _section("STATUS BREAKDOWN", mt=10)
         status_df = df["status"].value_counts().reset_index()
         status_df.columns = ["status", "count"]
         total_s = int(status_df["count"].sum())
@@ -233,9 +252,9 @@ T.forEach(t=>{{
                 hovertemplate=f'{row["status"]}: {int(row["count"])} ({int(row["count"])/total_s*100:.0f}%)<extra></extra>',
             ))
         fig_status.update_layout(
-            **_chart_base(36),
+            **_chart_base(50),
             barmode="stack",
-            margin=dict(l=0, r=0, t=0, b=0),
+            margin=dict(l=0, r=0, t=2, b=0),
             showlegend=False,
             xaxis=dict(visible=False),
             yaxis=dict(visible=False),
@@ -257,16 +276,16 @@ T.forEach(t=>{{
                 f'</div>'
             )
         st.markdown(
-            f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:5px 12px;'
-            f'margin-top:6px;font-family:{_MONO};font-size:9px;letter-spacing:0.06em">'
+            f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;'
+            f'margin-top:4px;font-family:{_MONO};font-size:9px;letter-spacing:0.06em">'
             f'{legend_items}</div>',
             unsafe_allow_html=True,
         )
 
-        _section("REVIEW SCALE")
+        _section("REVIEW SCALE", mt=10)
         scale_df = df["project_scale"].value_counts().reset_index()
         scale_df.columns = ["scale", "count"]
-        scale_colors_map = {"Large Project": _ORANGE, "Small Project": "#334155"}
+        scale_colors_map = {"Large Project": _ORANGE, "Small Project": _TEAL}
         fig_scale = go.Figure()
         for _, row in scale_df.iterrows():
             fig_scale.add_trace(go.Bar(
@@ -292,7 +311,23 @@ T.forEach(t=>{{
         )
         st.plotly_chart(fig_scale, use_container_width=True, config={"displayModeBar": False})
 
-        _section("MOST ACTIVE DEVELOPERS")
+        # Inline legend for Review Scale
+        st.markdown(
+            f'<div style="display:flex;gap:14px;margin:-4px 0 0;'
+            f'font-family:{_MONO};font-size:9px;letter-spacing:0.06em">'
+            f'<div style="display:flex;align-items:center;gap:5px">'
+            f'<span style="display:inline-block;width:8px;height:8px;background:{_ORANGE}"></span>'
+            f'<span style="color:{_MUTED}">LARGE</span>'
+            f'</div>'
+            f'<div style="display:flex;align-items:center;gap:5px">'
+            f'<span style="display:inline-block;width:8px;height:8px;background:{_TEAL}"></span>'
+            f'<span style="color:{_MUTED}">SMALL</span>'
+            f'</div>'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
+
+        _section("MOST ACTIVE DEVELOPERS", mt=10)
         from scraper.normalize_developer import is_real_company
         dev_df = df[df["developer_canonical"].apply(
             lambda x: bool(x) and is_real_company(str(x))
@@ -303,6 +338,11 @@ T.forEach(t=>{{
                 .reset_index(name="n")
                 .sort_values("n", ascending=True)
                 .tail(10)
+            )
+            # Truncate long names with ellipsis
+            dev_counts = dev_counts.copy()
+            dev_counts["developer_canonical"] = dev_counts["developer_canonical"].apply(
+                lambda x: (x[:21] + "…") if len(x) > 23 else x
             )
             bar_c = [_MUTED] * len(dev_counts)
             if len(bar_c) >= 1:
@@ -322,10 +362,24 @@ T.forEach(t=>{{
                 hovertemplate="%{y}: %{x} projects<extra></extra>",
             ))
             fig_dev.update_layout(
-                **_chart_base(290),
-                margin=dict(l=8, r=32, t=4, b=4),
+                **_chart_base(280),
+                margin=dict(l=8, r=36, t=4, b=36),
                 showlegend=False,
-                xaxis=dict(visible=False, showgrid=False, fixedrange=True),
+                xaxis=dict(
+                    visible=True,
+                    showgrid=True,
+                    gridcolor=_BORDER,
+                    tickfont=dict(family=_MONO, size=8, color=_MUTED),
+                    title=dict(
+                        text="NUMBER OF PROJECTS",
+                        font=dict(family=_MONO, size=8, color=_MUTED),
+                        standoff=4,
+                    ),
+                    tickcolor=_BORDER,
+                    linecolor=_BORDER,
+                    dtick=1,
+                    fixedrange=True,
+                ),
                 yaxis=dict(
                     showgrid=False,
                     automargin=True,
@@ -339,7 +393,7 @@ T.forEach(t=>{{
     # ── Top projects table ─────────────────────────────────────────
     extracted = df[df["extraction_done"] & df["total_gsf"].notna()]
     if len(extracted) >= 5:
-        _section("LARGEST PROJECTS BY SF")
+        _section("LARGEST PROJECTS BY SF", mt=8)
         top = extracted.nlargest(10, "total_gsf").copy()
         top["dev"] = top["developer_canonical"].where(
             top["developer_canonical"].astype(bool), top["developer"]
