@@ -1,3 +1,4 @@
+import math
 import random
 import re
 
@@ -46,6 +47,7 @@ STATUS_COLORS = {
 _FILTER_KEYS = [
     "map_status", "map_scale", "map_developer", "map_asset_class",
     "map_neighborhood", "map_city", "map_delivery_year", "map_equity_partner",
+    "map_min_sf", "map_include_unknown_sf",
 ]
 
 
@@ -97,6 +99,49 @@ def render(df: pd.DataFrame):
             st.session_state.pop(k, None)
         st.rerun()
 
+    # ── Minimum SF threshold slider ───────────────────────────────────
+    st.markdown("""
+    <style>
+    div[data-testid="stSlider"] div[role="slider"] {
+        background: #F5821E !important;
+        border-color: #F5821E !important;
+        box-shadow: 0 0 0 3px rgba(245,130,30,0.18) !important;
+    }
+    div[data-testid="stSlider"] div[data-baseweb="slider"] > div > div:nth-child(2) {
+        background: #1E2530 !important;
+    }
+    div[data-testid="stSlider"] div[data-baseweb="slider"] > div > div:nth-child(3) {
+        background: #F5821E !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    sf_vals = df["total_gsf"].dropna()
+    sf_max = int(math.ceil(sf_vals.max() / 100_000) * 100_000) if len(sf_vals) > 0 else 1_000_000
+
+    cur_min_sf = st.session_state.get("map_min_sf", 0)
+    sf_readout = "ALL SIZES" if cur_min_sf == 0 else f"MIN SIZE: {cur_min_sf // 1000}K SF"
+
+    _section("MINIMUM PROJECT SIZE")
+    st.markdown(
+        f'<p style="font-family:{_MONO};font-size:11px;font-weight:700;'
+        f'letter-spacing:0.08em;color:#e2e8f0;margin:0 0 2px 0">{sf_readout}</p>',
+        unsafe_allow_html=True,
+    )
+    min_sf = st.slider(
+        "min_sf_slider",
+        min_value=0,
+        max_value=sf_max,
+        step=5_000,
+        key="map_min_sf",
+        label_visibility="collapsed",
+    )
+    include_unknown_sf = st.checkbox(
+        "Include projects with unknown size",
+        value=True,
+        key="map_include_unknown_sf",
+    )
+
     # Apply filters
     filtered = df.copy()
     if status_f       != "All": filtered = filtered[filtered["status"]             == status_f]
@@ -117,6 +162,17 @@ def render(df: pd.DataFrame):
             ]
         else:
             filtered = filtered[filtered["_delivery_year"] == delivery_f]
+
+    # SF minimum threshold
+    has_sf = filtered["total_gsf"].notna()
+    if min_sf > 0:
+        meets_threshold = has_sf & (filtered["total_gsf"] >= min_sf)
+        if include_unknown_sf:
+            filtered = filtered[meets_threshold | ~has_sf]
+        else:
+            filtered = filtered[meets_threshold]
+    elif not include_unknown_sf:
+        filtered = filtered[has_sf]
 
     st.markdown(
         f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 10px">'
