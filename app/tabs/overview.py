@@ -375,17 +375,17 @@ T.forEach(t=>{{
         ))
         fig_status.update_layout(
             **_chart_base(200),
-            margin=_M_AXIS,
+            margin=dict(l=0, r=4, t=6, b=4),
             showlegend=False,
-            xaxis=dict(
-                **_xaxis("NUMBER OF PROJECTS", grid=False, dtick=1, x_range=[0, x_max_st]),
-                ticks="",
-                showline=False,
-                rangeslider=dict(visible=False),
-            ),
             yaxis=dict(**_yaxis(), ticks="", showline=False),
         )
-        fig_status.update_xaxes(rangeslider_visible=False)
+        fig_status.update_xaxes(
+            visible=False,
+            showticklabels=False,
+            showgrid=False,
+            zeroline=False,
+            rangeslider=dict(visible=False),
+        )
         st.plotly_chart(fig_status, use_container_width=True, config={"displayModeBar": False})
 
     with col_f:
@@ -413,17 +413,17 @@ T.forEach(t=>{{
         ))
         fig_scale.update_layout(
             **_chart_base(200),
-            margin=_M_AXIS,
+            margin=dict(l=0, r=4, t=6, b=4),
             showlegend=False,
-            xaxis=dict(
-                **_xaxis("NUMBER OF PROJECTS", grid=False, dtick=1, x_range=[0, x_max_scale]),
-                ticks="",
-                showline=False,
-                rangeslider=dict(visible=False),
-            ),
             yaxis=dict(**_yaxis(), ticks="", showline=False),
         )
-        fig_scale.update_xaxes(rangeslider_visible=False)
+        fig_scale.update_xaxes(
+            visible=False,
+            showticklabels=False,
+            showgrid=False,
+            zeroline=False,
+            rangeslider=dict(visible=False),
+        )
         st.plotly_chart(fig_scale, use_container_width=True, config={"displayModeBar": False})
         scale_legend = "".join(
             f'<div style="display:flex;align-items:center;gap:5px">'
