@@ -114,13 +114,47 @@ def render(df: pd.DataFrame):
         background: #F5821E !important;
     }
     </style>
+    <script>
+    (function() {
+      function fmtSF(n) {
+        if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M SF';
+        if (n >= 1e3) return Math.round(n / 1e3) + 'K SF';
+        return n > 0 ? n + ' SF' : '0';
+      }
+      function patch() {
+        // Thumb value tooltip inside the slider container
+        document.querySelectorAll(
+          '[data-testid="stSlider"] div, [data-testid="stSlider"] span'
+        ).forEach(function(el) {
+          if (el.children.length) return;
+          var t = el.textContent.trim().replace(/,/g, '');
+          var n = Number(t);
+          if (Number.isInteger(n) && n > 999) el.textContent = fmtSF(n);
+        });
+        // BaseWeb tooltip portal (floats outside the slider div)
+        document.querySelectorAll('[data-baseweb="tooltip"] div').forEach(function(el) {
+          if (el.children.length) return;
+          var t = el.textContent.trim().replace(/,/g, '');
+          var n = Number(t);
+          if (Number.isInteger(n) && n > 999) el.textContent = fmtSF(n);
+        });
+      }
+      new MutationObserver(patch).observe(document.body, {subtree: true, childList: true, characterData: true});
+      patch();
+    })();
+    </script>
     """, unsafe_allow_html=True)
 
     sf_vals = df["total_gsf"].dropna()
     sf_max = int(math.ceil(sf_vals.max() / 100_000) * 100_000) if len(sf_vals) > 0 else 1_000_000
 
     cur_min_sf = st.session_state.get("map_min_sf", 0)
-    sf_readout = "ALL SIZES" if cur_min_sf == 0 else f"MIN SIZE: {cur_min_sf // 1000}K SF"
+    if cur_min_sf == 0:
+        sf_readout = "ALL SIZES"
+    elif cur_min_sf >= 1_000_000:
+        sf_readout = f"MIN SIZE: {cur_min_sf / 1_000_000:.1f}M SF"
+    else:
+        sf_readout = f"MIN SIZE: {cur_min_sf // 1_000}K SF"
 
     _section("MINIMUM PROJECT SIZE")
     st.markdown(
