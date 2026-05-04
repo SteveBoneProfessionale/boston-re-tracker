@@ -209,26 +209,42 @@ T.forEach(t=>{{
                 .sort_values("total_gsf", ascending=True)
             )
             ac["gsf_m"] = ac["total_gsf"] / 1e6
-            bar_colors = [_MUTED] * len(ac)
-            if len(ac):
-                bar_colors[-1] = _ORANGE
+            # Extend x-range 30% past max so outside text labels never clip
+            x_max = ac["gsf_m"].max() * 1.30
+            bar_h = max(180, 38 * len(ac))
             fig_ac = go.Figure(go.Bar(
                 x=ac["gsf_m"], y=ac["asset_class"],
                 orientation="h",
-                marker_color=bar_colors,
+                marker_color=_ORANGE,
                 marker_line_width=0,
+                cliponaxis=False,
                 text=ac["gsf_m"].apply(lambda v: f"{v:.1f}M"),
                 textposition="outside",
-                textfont=dict(family=_MONO, size=10, color=_MUTED),
-                hovertemplate="%{y}: %{x:.1f}M SF<extra></extra>",
+                textfont=dict(family=_MONO, size=10, color="#e2e8f0"),
+                hovertemplate="<b>%{y}</b><br>%{x:.2f}M SF<extra></extra>",
             ))
             fig_ac.update_layout(
-                **_chart_base(200),
-                margin=dict(l=0, r=60, t=4, b=4),
+                **_chart_base(bar_h),
+                margin=dict(l=0, r=4, t=4, b=36),
                 showlegend=False,
-                xaxis=dict(visible=False, showgrid=False),
+                xaxis=dict(
+                    visible=True,
+                    range=[0, x_max],
+                    showgrid=True,
+                    gridcolor=_BORDER,
+                    tickfont=dict(family=_MONO, size=9, color=_MUTED),
+                    title=dict(
+                        text="SQUARE FOOTAGE (MILLIONS)",
+                        font=dict(family=_MONO, size=9, color=_MUTED),
+                        standoff=8,
+                    ),
+                    tickcolor=_BORDER,
+                    linecolor=_BORDER,
+                    zeroline=False,
+                ),
                 yaxis=dict(
                     showgrid=False,
+                    automargin=True,
                     tickfont=dict(family=_MONO, size=10, color=_MUTED),
                     linecolor=_BORDER, tickcolor=_BORDER,
                 ),
