@@ -25,6 +25,8 @@ import feedparser
 import httpx
 from bs4 import BeautifulSoup
 from rapidfuzz import fuzz
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from scraper.classifier import classify_topics
 
 _SCRAPE_LOG = Path(__file__).parent.parent / "data" / "scrape_log.json"
@@ -139,8 +141,6 @@ _MATCH_STOP = frozenset({
 def _name_key_tokens(name: str) -> list[str]:
     """Return significant tokens (5+ chars, not generic) from a project name."""
     return [t for t in re.findall(r'\b[a-z]{5,}\b', name.lower()) if t not in _MATCH_STOP]
-
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from db.database import init_db, get_session
 from db.models import NewsItem, Project

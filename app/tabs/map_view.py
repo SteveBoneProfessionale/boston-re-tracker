@@ -7,6 +7,8 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 
+from app.data import STAGE_COLORS
+
 _ORANGE = "#F5821E"
 _MUTED  = "#8A9BB0"
 _BORDER = "#1E2530"
@@ -35,13 +37,6 @@ NEIGHBORHOOD_COORDS = {
     "South End":                (42.3396, -71.0786),
     "West End":                 (42.3638, -71.0670),
     "West Roxbury":             (42.2806, -71.1601),
-}
-
-STATUS_COLORS = {
-    "Under Review":       _ORANGE,
-    "Board Approved":     "#22c55e",
-    "Letter of Intent":   "#64748b",
-    "Under Construction": "#ef4444",
 }
 
 _FILTER_KEYS = [
@@ -223,6 +218,7 @@ def render(df: pd.DataFrame):
     )
 
     added = 0
+    bounds = []
     for _, row in filtered.iterrows():
         if pd.notna(row.get("latitude")) and pd.notna(row.get("longitude")):
             lat, lon = float(row["latitude"]), float(row["longitude"])
@@ -234,25 +230,37 @@ def render(df: pd.DataFrame):
             lat = coords[0] + random.uniform(-0.003, 0.003)
             lon = coords[1] + random.uniform(-0.003, 0.003)
 
-        color = STATUS_COLORS.get(row["status"], _MUTED)
+        # Color by normalized cross-city stage rather than raw status --
+        # Boston's 4-value status vocab and Cambridge's 7-value one share no
+        # values, so coloring by raw status would leave every Cambridge pin
+        # in the fallback "other" color.
+        color = STAGE_COLORS.get(row.get("stage"), _MUTED)
+        is_cambridge = row.get("city") == "Cambridge"
+        approximate = bool(row.get("coords_approximate"))
 
         gsf_str   = f"{int(row['total_gsf']):,} SF" if pd.notna(row.get("total_gsf")) and row.get("total_gsf") else ""
         units_str = f"{int(row['residential_units']):,} UNITS" if pd.notna(row.get("residential_units")) and row.get("residential_units") else ""
         dev       = row.get("developer_canonical") or row.get("developer") or ""
         eq        = row.get("equity_partner") or ""
         city_s    = f" · {row['city']}" if row.get("city") and row["city"] != "Boston" else ""
+        approx_s  = " (approximate location)" if approximate else ""
 
         bpda_link = ""
         url = row.get("bpda_url", "")
         if url and not url.startswith("manual:"):
             bpda_link = f"<br><a href='{url}' target='_blank' style='color:{_ORANGE}'>BPDA PAGE ↗</a>"
+        elif is_cambridge:
+            bpda_link = (
+                f"<br><a href='https://www.cambridgema.gov/specialpermits' target='_blank' "
+                f"style='color:{_ORANGE}'>SEARCH SPECIAL PERMITS ↗</a>"
+            )
 
         popup_html = f"""
         <div style='min-width:220px;background:#141720;padding:12px 14px;
                     font-family:monospace;border-left:3px solid {color}'>
           <div style='font-size:12px;font-weight:700;color:#fff;margin-bottom:6px;
                       line-height:1.3'>{row['name']}</div>
-          <div style='font-size:10px;color:{_MUTED};margin-bottom:4px'>{row['address']}{city_s}</div>
+          <div style='font-size:10px;color:{_MUTED};margin-bottom:4px'>{row['address']}{city_s}{approx_s}</div>
           {"<div style='font-size:10px;color:#e2e8f0;margin-bottom:2px'>" + dev + "</div>" if dev else ""}
           {"<div style='font-size:10px;color:" + _MUTED + ";margin-bottom:2px'>EQ: " + eq + "</div>" if eq else ""}
           <div style='margin-top:8px;display:flex;gap:8px;flex-wrap:wrap'>
@@ -266,20 +274,45 @@ def render(df: pd.DataFrame):
           {bpda_link}
         </div>"""
 
-        folium.CircleMarker(
-            location=[lat, lon],
-            radius=7,
-            color=color,
-            fill=True,
-            fill_color=color,
-            fill_opacity=0.85,
-            weight=1.5,
-            popup=folium.Popup(popup_html, max_width=280),
-            tooltip=f'<span style="font-family:monospace;font-size:11px">{row["name"]}</span>',
-        ).add_to(m)
+        tooltip_html = f'<span style="font-family:monospace;font-size:11px">{row["name"]}{approx_s}</span>'
+
+        if is_cambridge:
+            # Square marker (vs. Boston's circle) so the two cities are
+            # visually distinguishable at a glance without relying on color
+            # alone (color already encodes stage, not city).
+            size = 12
+            dash = "stroke-dasharray:2,2;" if approximate else ""
+            icon_html = (
+                f'<div style="width:{size}px;height:{size}px;background:{color};'
+                f'opacity:{0.55 if approximate else 0.9};border:1.5px solid #0d0f12;'
+                f'transform:rotate(45deg);{dash}"></div>'
+            )
+            folium.Marker(
+                location=[lat, lon],
+                icon=folium.DivIcon(html=icon_html, icon_size=(size, size), icon_anchor=(size // 2, size // 2)),
+                popup=folium.Popup(popup_html, max_width=280),
+                tooltip=tooltip_html,
+            ).add_to(m)
+        else:
+            folium.CircleMarker(
+                location=[lat, lon],
+                radius=7,
+                color=color,
+                fill=True,
+                fill_color=color,
+                fill_opacity=0.85,
+                weight=1.5,
+                popup=folium.Popup(popup_html, max_width=280),
+                tooltip=tooltip_html,
+            ).add_to(m)
+        bounds.append([lat, lon])
         added += 1
 
-    # Terminal legend
+    if bounds:
+        m.fit_bounds(bounds, padding=(30, 30))
+
+    # Terminal legend -- stage colors apply to both cities; shape callout
+    # explains the circle/diamond distinction added for Cambridge.
     legend_rows = "".join(
         f'<div style="display:flex;align-items:center;gap:8px;margin:4px 0">'
         f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;'
@@ -287,7 +320,7 @@ def render(df: pd.DataFrame):
         f'<span style="font-family:monospace;font-size:10px;letter-spacing:0.08em;'
         f'color:#e2e8f0;text-transform:uppercase">{label}</span>'
         f'</div>'
-        for label, color in list(STATUS_COLORS.items()) + [("Other / Unknown", _MUTED)]
+        for label, color in list(STAGE_COLORS.items()) + [("Other / Unknown", _MUTED)]
     )
     legend_html = (
         "<div style='"
@@ -299,8 +332,11 @@ def render(df: pd.DataFrame):
         "box-shadow:0 4px 20px rgba(0,0,0,0.7);"
         "'>"
         f"<div style='font-family:monospace;font-size:9px;font-weight:700;letter-spacing:0.18em;"
-        f"color:{_MUTED};text-transform:uppercase;margin-bottom:8px'>STATUS</div>"
+        f"color:{_MUTED};text-transform:uppercase;margin-bottom:8px'>STAGE</div>"
         f"{legend_rows}"
+        f"<div style='font-family:monospace;font-size:9px;color:{_MUTED};margin-top:10px;"
+        f"padding-top:8px;border-top:1px solid {_BORDER}'>"
+        f"● BOSTON &nbsp;&nbsp; ◆ CAMBRIDGE<br>DASHED = APPROXIMATE LOCATION</div>"
         "</div>"
     )
     m.get_root().html.add_child(folium.Element(legend_html))

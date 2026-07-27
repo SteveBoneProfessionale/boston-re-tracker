@@ -5,7 +5,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 import pandas as pd
 import streamlit as st
 
-from app.data import load_filings
+from app.data import load_filings, load_cambridge_permits, STAGE_COLORS
 from scraper.normalize_developer import is_real_company
 
 _BG     = "#0d0f12"
@@ -66,12 +66,19 @@ def render(df: pd.DataFrame):
     # ── Filter toolbar ─────────────────────────────────────────────
     _section("FILTER")
 
-    fc1, fc2, fc3, fc4, fc5 = st.columns(5)
+    fc0, fc1, fc2, fc3, fc4, fc5 = st.columns([1, 2, 2, 1.4, 2, 2])
 
-    neighborhoods = ["All"] + sorted([n for n in df["neighborhood"].unique() if n])
+    cities = ["All"] + sorted([c for c in df["city"].unique() if c])
+    city = fc0.selectbox("CITY", cities, key="tbl_city")
+
+    # Status vocab is city-specific (Boston's 4 values vs Cambridge's 7 don't
+    # overlap), so scope the status options to whatever city is selected --
+    # otherwise "All" would show all 11 values mixed together.
+    status_scope = df if city == "All" else df[df["city"] == city]
+    neighborhoods = ["All"] + sorted([n for n in status_scope["neighborhood"].unique() if n])
     nbhd = fc1.selectbox("NEIGHBORHOOD", neighborhoods, key="tbl_nbhd")
 
-    statuses = ["All"] + sorted([s for s in df["status"].unique() if s])
+    statuses = ["All"] + sorted([s for s in status_scope["status"].unique() if s])
     status = fc2.selectbox("STATUS", statuses, key="tbl_status")
 
     scale = fc3.selectbox("SCALE", ["All", "Large Project", "Small Project"], key="tbl_scale")
@@ -97,6 +104,8 @@ def render(df: pd.DataFrame):
 
     # Apply filters
     filtered = df.copy()
+    if city != "All":
+        filtered = filtered[filtered["city"] == city]
     if nbhd != "All":
         filtered = filtered[filtered["neighborhood"] == nbhd]
     if status != "All":
@@ -130,29 +139,36 @@ def render(df: pd.DataFrame):
     _section("SCREENER")
 
     display = filtered[[
-        "name", "developer_canonical", "developer", "neighborhood",
-        "asset_class", "status", "total_gsf", "residential_units",
+        "name", "developer_canonical", "developer", "neighborhood", "city",
+        "asset_class", "status", "stage", "total_gsf", "residential_units",
         "building_height_ft", "expected_delivery",
     ]].copy()
 
     display["developer_canonical"] = display.apply(_dev_display, axis=1)
     display.drop(columns=["developer"], inplace=True)
 
-    display["status_fmt"] = display["status"].apply(
-        lambda s: f"{STATUS_DOT.get(s, '○')} {STATUS_SHORT.get(s, s)}" if s else "—"
-    )
+    def _status_fmt(row):
+        if not row["status"]:
+            return "—"
+        if row["status"] in STATUS_DOT:
+            return f"{STATUS_DOT[row['status']]} {STATUS_SHORT[row['status']]}"
+        # Cambridge (or any city outside the Boston vocab): dot colored by
+        # normalized stage, label is the native status text.
+        return f"● {row['status']}"
+
+    display["status_fmt"] = display.apply(_status_fmt, axis=1)
 
     display["total_gsf"] = pd.to_numeric(display["total_gsf"], errors="coerce")
     display["residential_units"] = pd.to_numeric(display["residential_units"], errors="coerce")
     display["building_height_ft"] = pd.to_numeric(display["building_height_ft"], errors="coerce")
 
     display = display[[
-        "name", "developer_canonical", "neighborhood",
+        "name", "developer_canonical", "neighborhood", "city",
         "asset_class", "status_fmt", "total_gsf",
         "residential_units", "building_height_ft", "expected_delivery",
     ]]
     display.columns = [
-        "PROJECT", "DEVELOPER", "NEIGHBORHOOD",
+        "PROJECT", "DEVELOPER", "NEIGHBORHOOD", "CITY",
         "TYPE", "STATUS", "SF",
         "UNITS", "HEIGHT", "DELIVERY",
     ]
@@ -174,7 +190,7 @@ def render(df: pd.DataFrame):
     # ── Detail panel ──────────────────────────────────────────────
     if selection and selection.selection.rows:
         idx = selection.selection.rows[0]
-        _detail_panel(filtered.iloc[idx])
+        _detail_panel(filtered.iloc[idx], df)
 
 
 def _lifecycle_bar(status: str) -> str:
@@ -227,10 +243,11 @@ def _kv(label: str, value) -> str:
     )
 
 
-def _detail_panel(p: pd.Series):
+def _detail_panel(p: pd.Series, df: pd.DataFrame):
     st.markdown('<div style="height:6px"></div>', unsafe_allow_html=True)
 
-    status_color = STATUS_COLORS.get(p["status"], _MUTED)
+    is_cambridge = p.get("city") == "Cambridge"
+    status_color = STATUS_COLORS.get(p["status"]) or STAGE_COLORS.get(p.get("stage"), _MUTED)
     status_short = STATUS_SHORT.get(p["status"], p["status"])
 
     # Header
@@ -255,8 +272,42 @@ def _detail_panel(p: pd.Series):
         unsafe_allow_html=True,
     )
 
-    # Lifecycle bar
-    st.markdown(_lifecycle_bar(p["status"]), unsafe_allow_html=True)
+    if p.get("conditional_alternative"):
+        st.markdown(
+            f'<div style="border:1px solid #f59e0b;background:rgba(245,158,11,0.08);'
+            f'padding:10px 16px;margin:10px 0;font-family:{_MONO};font-size:11px;'
+            f'color:#f59e0b;line-height:1.5">'
+            f'⚠ COMPETING PLAN — this project shares a special permit base number with '
+            f'other current-edition entries under different amendments. It represents one '
+            f'of two or more alternative build-outs for the same site; the developer has not '
+            f'finalized which will proceed. Excluded from aggregate totals by default.</div>',
+            unsafe_allow_html=True,
+        )
+    if p.get("spans_municipalities"):
+        st.markdown(
+            f'<div style="border:1px solid {_MUTED};background:rgba(138,155,176,0.06);'
+            f'padding:8px 16px;margin:6px 0;font-family:{_MONO};font-size:10px;'
+            f'color:{_MUTED}">↔ Spans more than one municipality — see description/notes.</div>',
+            unsafe_allow_html=True,
+        )
+
+    # Lifecycle bar (Boston's Article 80 phase sequence -- doesn't apply to
+    # Cambridge's different permitting tracks, so show the normalized stage instead)
+    if is_cambridge:
+        stage = p.get("stage") or "—"
+        stage_color = STAGE_COLORS.get(stage, _MUTED)
+        st.markdown(
+            f'<div style="margin:12px 0 16px;padding:10px 16px;background:{_BG2};'
+            f'border:1px solid {_BORDER};font-family:{_MONO};font-size:10px;'
+            f'display:flex;align-items:center;gap:10px">'
+            f'<span style="color:{_MUTED};letter-spacing:0.1em">STAGE</span>'
+            f'<span style="color:{stage_color};font-weight:700;letter-spacing:0.08em">{stage.upper()}</span>'
+            f'<span style="color:{_MUTED}">(native status: {p["status"]})</span>'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
+    else:
+        st.markdown(_lifecycle_bar(p["status"]), unsafe_allow_html=True)
 
     # Description
     if p.get("description"):
@@ -264,6 +315,29 @@ def _detail_panel(p: pd.Series):
             f'<div style="font-family:Inter,sans-serif;font-size:13px;color:{_MUTED};'
             f'line-height:1.6;padding:12px 16px;background:{_BG2};border:1px solid {_BORDER};'
             f'margin-bottom:14px">{p["description"]}</div>',
+            unsafe_allow_html=True,
+        )
+
+    # Cambridge Notes / Parking Notes (distinct from Description -- these are
+    # the CDD's own free-text caveats: amendment history, stale-figure flags,
+    # shared-parking arrangements, etc.)
+    if is_cambridge and (p.get("notes") or p.get("parking_notes")):
+        notes_html = ""
+        if p.get("notes"):
+            notes_html += (
+                f'<div style="margin-bottom:8px"><span style="color:{_MUTED};'
+                f'font-weight:700;letter-spacing:0.1em">NOTES: </span>{p["notes"]}</div>'
+            )
+        if p.get("parking_notes"):
+            notes_html += (
+                f'<div><span style="color:{_MUTED};font-weight:700;letter-spacing:0.1em">'
+                f'PARKING NOTES: </span>{p["parking_notes"]}</div>'
+            )
+        st.markdown(
+            f'<div style="font-family:Inter,sans-serif;font-size:12px;color:#e2e8f0;'
+            f'line-height:1.6;padding:12px 16px;background:{_BG2};border-left:3px solid {_MUTED};'
+            f'border-top:1px solid {_BORDER};border-right:1px solid {_BORDER};'
+            f'border-bottom:1px solid {_BORDER};margin-bottom:14px">{notes_html}</div>',
             unsafe_allow_html=True,
         )
 
@@ -310,10 +384,73 @@ def _detail_panel(p: pd.Series):
             unsafe_allow_html=True,
         )
 
+    # Cambridge Development Log fields
+    if is_cambridge:
+        far_str = None
+        if pd.notna(p.get("far")) and p.get("far"):
+            scope_note = " (whole PUD)" if p.get("far_scope") == "pud" else ""
+            far_str = f'{p["far"]:.2f}{scope_note}'
+        lot_area_str = f'{int(p["lot_area"]):,} SF' if pd.notna(p.get("lot_area")) and p.get("lot_area") else None
+        affordable_str = "TBD" if p.get("affordable_units_tbd") else (
+            f'{int(p["affordable_units"]):,}' if pd.notna(p.get("affordable_units")) and p.get("affordable_units") else None
+        )
+        hotel_str = f'{int(p["hotel_rooms"]):,}' if pd.notna(p.get("hotel_rooms")) and p.get("hotel_rooms") else None
+
+        st.markdown('<div style="height:4px"></div>', unsafe_allow_html=True)
+        cc1, cc2, cc3 = st.columns(3)
+        with cc1:
+            st.markdown(
+                _kv("PERMIT TYPE",  p.get("permit_type")) +
+                _kv("PROJECT TYPE", p.get("project_type")) +
+                _kv("ZONING",       p.get("zoning_raw")),
+                unsafe_allow_html=True,
+            )
+        with cc2:
+            st.markdown(
+                _kv("LOT AREA", lot_area_str) +
+                _kv("FAR",      far_str) +
+                _kv("AFFORDABLE UNITS", affordable_str),
+                unsafe_allow_html=True,
+            )
+        with cc3:
+            permits = load_cambridge_permits(int(p["id"]))
+            special_str = ", ".join(
+                f'{s["base"]} {s["amendment"]}' if s["amendment"] else s["base"]
+                for s in permits["special_permits"]
+            ) or None
+            building_str = ", ".join(
+                f'{b["number"]} ({b["label"]})' if b["label"] else b["number"]
+                for b in permits["building_permits"]
+            ) or None
+            st.markdown(
+                _kv("HOTEL ROOMS",     hotel_str) +
+                _kv("SPECIAL PERMIT",  special_str) +
+                _kv("BUILDING PERMIT", building_str),
+                unsafe_allow_html=True,
+            )
+
+        if permits["aliases"]:
+            st.markdown(
+                _kv("FORMERLY", " → ".join(permits["aliases"] + [p["name"]])),
+                unsafe_allow_html=True,
+            )
+
+        if p.get("parent_project_id"):
+            parent_rows = df[df["id"] == p["parent_project_id"]]
+            if not parent_rows.empty:
+                st.markdown(
+                    _kv("PART OF", f'{p.get("phase_group") or ""} — {parent_rows.iloc[0]["name"]}'),
+                    unsafe_allow_html=True,
+                )
+        elif p.get("phase_group"):
+            st.markdown(_kv("PHASE GROUP", p["phase_group"]), unsafe_allow_html=True)
+
     # Links
     lc1, lc2, _ = st.columns([1, 1, 4])
-    if p.get("bpda_url"):
+    if p.get("bpda_url") and not str(p["bpda_url"]).startswith("manual:"):
         lc1.link_button("BPDA PAGE ↗", p["bpda_url"])
+    elif is_cambridge:
+        lc1.link_button("SEARCH SPECIAL PERMITS ↗", "https://www.cambridgema.gov/specialpermits")
     if p.get("processed_filing_url"):
         lc2.link_button(f"SOURCE {(p.get('processed_filing_type') or 'PDF').upper()} ↗",
                         p["processed_filing_url"])

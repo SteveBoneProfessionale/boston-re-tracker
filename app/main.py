@@ -304,6 +304,7 @@ def main():
         )
         st.divider()
         st.metric("PROJECTS", stats["total"])
+        st.caption(f"BOSTON {stats['total_boston']:,}  ·  CAMBRIDGE {stats['total_cambridge']:,}")
         st.divider()
         st.metric("UNITS", f"{stats['total_units']:,}")
         st.metric("PIPELINE SF", f"{stats['total_gsf']/1e6:.1f}M")

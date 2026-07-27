@@ -5,6 +5,8 @@ import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
 
+from app.data import summary_stats, STAGE_COLORS, STAGE_ORDER
+
 _BG      = "#0d0f12"
 _BG2     = "#141720"
 _BORDER  = "#1E2530"
@@ -17,6 +19,9 @@ _MONO    = "'JetBrains Mono', 'IBM Plex Mono', monospace"
 _M_AXIS  = dict(l=0, r=4, t=6, b=40)   # charts with x-axis label
 _M_THIN  = dict(l=0, r=0, t=2, b=0)    # thin bar charts (no axis)
 
+# Kept for backward compat with any external reference; charts below color by
+# the normalized cross-city `stage` field (STAGE_COLORS) instead, since
+# Boston's 4-value status vocab and Cambridge's 7-value one share no values.
 STATUS_COLORS = {
     "Under Review":       _ORANGE,
     "Board Approved":     "#22c55e",
@@ -74,16 +79,53 @@ def _yaxis(automargin: bool = True) -> dict:
 
 
 def render(df: pd.DataFrame, stats: dict):
+    # ── City / conditional-alternative filters ───────────────────────
+    fc1, fc2, _ = st.columns([1.2, 2.5, 4])
+    cities = ["All"] + sorted([c for c in df["city"].unique() if c])
+    city_f = fc1.selectbox("CITY", cities, key="ov_city")
+    include_conditional = fc2.checkbox(
+        "Include competing/conditional plans in totals",
+        value=False, key="ov_include_conditional",
+        help="Some Cambridge projects (e.g. the MXD Infill PB315 case) have more than one "
+             "unbuilt alternative plan on file for the same site. Off by default to avoid "
+             "double-counting GFA/units for a site that will only be built once.",
+    )
+    if city_f != "All":
+        df = df[df["city"] == city_f]
+    stats = summary_stats(df, include_conditional=include_conditional)
+
+    if stats["conditional_alternative_count"] and not include_conditional:
+        st.caption(
+            f'{stats["conditional_alternative_count"]} project(s) with competing alternative '
+            f'plans on the same site are excluded from the totals and charts below. '
+            f'Check "Include competing/conditional plans" above to include them.'
+        )
+    st.caption(f'BOSTON {stats["total_boston"]:,}  ·  CAMBRIDGE {stats["total_cambridge"]:,}')
+
+    # Apply the same exclusion to every chart below, not just the KPI tiles --
+    # summary_stats() computed its own totals from a local copy before this
+    # point, so this is safe to do now for the rest of the function.
+    if not include_conditional and "conditional_alternative" in df.columns:
+        df = df[~df["conditional_alternative"]]
+    if not stats["stage_reconciles"]:
+        st.warning(
+            "Stage-card counts don't reconcile to Total Projects — some project(s) have no "
+            "recognized stage. Check for a status value outside the known Boston/Cambridge "
+            "vocabularies.",
+            icon="⚠",
+        )
+
     # ── Bloomberg stat tiles with count-up ──────────────────────────
-    tiles = [
-        ("TOTAL PROJECTS",    stats["total"],              "#ffffff", False),
-        ("UNDER REVIEW",      stats["under_review"],       _ORANGE,   False),
-        ("BOARD APPROVED",    stats["board_approved"],     "#22c55e", False),
-        ("LOI",               stats["loi"],                "#64748b", False),
-        ("UNDER CONST.",      stats["under_construction"], "#ef4444", False),
-        ("RESI UNITS",        stats["total_units"],        "#ffffff", False),
-        ("PIPELINE SF",       stats["total_gsf"],          "#ffffff", True),
-    ]
+    # Cards are driven by the normalized `stage` field (shared across cities),
+    # not a market-native status string, and labeled with the stage names
+    # directly -- Boston-specific labels ("LOI", "Board Approved") over
+    # Cambridge data would be wrong even if the counts were right.
+    tiles = [("TOTAL PROJECTS", stats["total"], "#ffffff", False)]
+    for stage in STAGE_ORDER:
+        tiles.append((stage.upper(), stats["stage_counts"][stage], STAGE_COLORS[stage], False))
+    tiles.append(("RESI UNITS", stats["total_units"], "#ffffff", False))
+    tiles.append(("PIPELINE SF", stats["total_gsf"], "#ffffff", True))
+
     tiles_json = json.dumps([
         {"label": t[0], "raw": int(t[1]), "color": t[2], "big": t[3]}
         for t in tiles
@@ -97,7 +139,7 @@ def render(df: pd.DataFrame, stats: dict):
 body{{background:{_BG};overflow:hidden}}
 .grid{{
   display:grid;
-  grid-template-columns:repeat(7,1fr);
+  grid-template-columns:repeat(8,1fr);
   gap:1px;
   background:{_BORDER};
   border:1px solid {_BORDER};
@@ -160,14 +202,15 @@ T.forEach(t=>{{
 
     components.html(tiles_html, height=94)
 
-    # ── Status color legend — full width, above both columns ─────────
+    # ── Stage color legend — full width, above both columns ──────────
+    # Normalized stage (not raw status) since it's shared across both cities.
     legend_items = "".join(
         f'<div style="display:flex;align-items:center;gap:5px">'
         f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;'
         f'background:{color};flex-shrink:0"></span>'
         f'<span style="color:{_MUTED};text-transform:uppercase;letter-spacing:0.08em">{label}</span>'
         f'</div>'
-        for label, color in STATUS_COLORS.items()
+        for label, color in STAGE_COLORS.items()
     )
     st.markdown(
         f'<div style="display:flex;align-items:center;gap:20px;padding:8px 0 4px;'
@@ -185,7 +228,7 @@ T.forEach(t=>{{
         _section("PROJECTS BY NEIGHBORHOOD", mt=14)
         nbhd_status = (
             df[df["neighborhood"].astype(bool)]
-            .groupby(["neighborhood", "status"])
+            .groupby(["neighborhood", "stage"])
             .size()
             .reset_index(name="count")
         )
@@ -201,13 +244,13 @@ T.forEach(t=>{{
         fig_nbhd = px.bar(
             nbhd_status,
             x="count", y="neighborhood",
-            color="status",
+            color="stage",
             orientation="h",
             category_orders={
                 "neighborhood": nbhd_order,
-                "status": list(STATUS_COLORS.keys()),
+                "stage": STAGE_ORDER,
             },
-            color_discrete_map=STATUS_COLORS,
+            color_discrete_map=STAGE_COLORS,
         )
         fig_nbhd.update_traces(marker_line_width=0)
         fig_nbhd.update_layout(
@@ -228,9 +271,9 @@ T.forEach(t=>{{
 
     with col_b:
         _section("MOST ACTIVE DEVELOPERS", mt=14)
-        dev_df = df[df["developer_canonical"].apply(
-            lambda x: bool(x) and is_real_company(str(x))
-        )].copy()
+        has_real_dev = df["developer_canonical"].apply(lambda x: bool(x) and is_real_company(str(x)))
+        dev_df = df[has_real_dev].copy()
+        n_no_dev = int((~has_real_dev).sum())
         if len(dev_df) >= 3:
             dev_counts = (
                 dev_df.groupby("developer_canonical").size()
@@ -268,13 +311,27 @@ T.forEach(t=>{{
                 yaxis=_yaxis(),
             )
             st.plotly_chart(fig_dev, use_container_width=True, config={"displayModeBar": False})
+        else:
+            st.caption("No developer data for this selection.")
+        if n_no_dev:
+            st.caption(f"{n_no_dev} project(s) in this selection have no developer on record — excluded above.")
 
     # ── SF charts row — Gross SF and Developer Market Share side by side
     col_c, col_d = st.columns(2)
 
-    extracted_ac = df[df["extraction_done"] & (df["asset_class"] != "")]
+    # See load_projects() -- true once a row's financial fields are ready to
+    # chart, regardless of which market/pipeline it came from.
+    has_financials = df["has_financials"]
+
+    # total_gsf is None (not 0) for any row whose source GFA was the literal
+    # string "TBD" -- guarded at ingestion time (cambridge_devlog.py's
+    # to_int()), never coerced to 0. `.notna()` here excludes those rows from
+    # the SF ranking rather than understating anyone's total.
+    n_tbd_gfa = int(df["total_gfa_tbd"].sum()) if "total_gfa_tbd" in df.columns else 0
+
+    extracted_ac = df[has_financials & (df["asset_class"] != "")]
     dev_sf_df = df[
-        df["extraction_done"] &
+        has_financials &
         df["total_gsf"].notna() &
         df["developer_canonical"].apply(lambda x: bool(x) and is_real_company(str(x)))
     ].copy()
@@ -309,6 +366,8 @@ T.forEach(t=>{{
                 yaxis=_yaxis(),
             )
             st.plotly_chart(fig_ac, use_container_width=True, config={"displayModeBar": False})
+        else:
+            st.caption("No asset-class SF data for this selection.")
 
     with col_d:
         if len(dev_sf_df) >= 3:
@@ -348,22 +407,30 @@ T.forEach(t=>{{
                 yaxis=_yaxis(),
             )
             st.plotly_chart(fig_dev_sf, use_container_width=True, config={"displayModeBar": False})
+        else:
+            st.caption("No developer SF data for this selection.")
+        if n_tbd_gfa:
+            st.caption(f"{n_tbd_gfa} project(s) with GFA marked TBD by the source are excluded from SF rankings.")
 
     # ── Row 3: Status Breakdown | Review Scale ────────────────────────
     col_e, col_f = st.columns(2)
 
     with col_e:
-        _section("STATUS BREAKDOWN", mt=14)
+        # Grouped by normalized stage, not raw status -- Boston's and
+        # Cambridge's status vocabularies share no values, so this is the
+        # only breakdown that means the same thing across both cities.
+        # Native status per project is still shown on its detail view.
+        _section("STAGE BREAKDOWN", mt=14)
         status_counts = (
-            df.groupby("status").size()
+            df[df["stage"] != ""].groupby("stage").size()
             .reset_index(name="count")
             .sort_values("count", ascending=True)
         )
-        status_counts["color"] = status_counts["status"].map(STATUS_COLORS).fillna(_MUTED)
-        x_max_st = status_counts["count"].max() * 1.45
+        status_counts["color"] = status_counts["stage"].map(STAGE_COLORS).fillna(_MUTED)
+        x_max_st = status_counts["count"].max() * 1.45 if len(status_counts) else 1
         fig_status = go.Figure(go.Bar(
             x=status_counts["count"],
-            y=status_counts["status"],
+            y=status_counts["stage"],
             orientation="h",
             marker_color=status_counts["color"].tolist(),
             marker_line_width=0,
@@ -440,7 +507,7 @@ T.forEach(t=>{{
         )
 
     # ── Largest projects table — full width below both columns ───────
-    extracted = df[df["extraction_done"] & df["total_gsf"].notna()]
+    extracted = df[has_financials & df["total_gsf"].notna()]
     if len(extracted) >= 5:
         _section("LARGEST PROJECTS BY SF", mt=14)
         top = extracted.nlargest(10, "total_gsf").copy()
@@ -451,3 +518,5 @@ T.forEach(t=>{{
         disp["total_gsf"] = disp["total_gsf"].apply(lambda x: f"{int(x):,}")
         disp.columns = ["PROJECT", "NEIGHBORHOOD", "DEVELOPER", "GSF", "STATUS", "TYPE"]
         st.dataframe(disp, use_container_width=True, hide_index=True, height=322)
+    elif len(df):
+        st.caption("Not enough SF data in this selection to rank largest projects.")

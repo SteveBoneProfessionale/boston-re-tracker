@@ -48,6 +48,10 @@ class Project(Base):
     extraction_model = Column(String)
     extraction_timestamp = Column(DateTime)
     extraction_superseded = Column(Boolean, default=False)
+    requires_extraction = Column(Boolean, default=True)  # False for markets ingested from
+                                                           # structured data (e.g. Cambridge) --
+                                                           # lets chart code check "has financial
+                                                           # data ready" without checking city name
 
     # SIRE / Salesforce
     sire_id = Column(String)                    # Salesforce Plan__c / Project__c ID
@@ -65,6 +69,37 @@ class Project(Base):
     last_checked_date = Column(DateTime)
     is_flagged = Column(Boolean, default=False)
 
+    # --- Cambridge Development Log fields (city == "Cambridge") ---
+    # bpda_url stays NOT NULL/UNIQUE as originally defined; Cambridge rows get a
+    # synthetic "cambridge://{project_id}" value there so that constraint holds
+    # without an in-place SQLite column-constraint rewrite. cambridge_project_id
+    # below is the real upsert key for Cambridge ingestion.
+    cambridge_project_id = Column(String, unique=True)    # Socrata project_id, e.g. "821"
+    permit_type = Column(String)                # Planning Board Special Permit / BZA / AHO / etc.
+    project_type = Column(String)                # raw compound value, e.g. "Alteration/Change of Use"
+    lot_area = Column(Integer)
+    far = Column(Float)
+    far_scope = Column(String)                   # "building" | "pud" -- FAR is often reported for a whole PUD
+    affordable_units = Column(Integer)
+    affordable_units_tbd = Column(Boolean, default=False)
+    total_gfa_tbd = Column(Boolean, default=False)
+    hotel_rooms = Column(Integer)
+    neighborhood_id = Column(Integer)             # 1-13, normalized off the leading number
+    neighborhood_raw = Column(String)             # source string before normalization
+    zoning_raw = Column(String)
+    zoning_components = Column(String)            # comma-joined parsed zoning tokens
+    notes = Column(Text)
+    parking_notes = Column(Text)
+    parent_project_id = Column(Integer, ForeignKey("projects.id"), nullable=True)
+    phase_group = Column(String)                  # text before " - " in "Parent - Component" names, e.g.
+                                                    # "Kendall Common", "Alewife Park" -- for UI grouping even
+                                                    # when no literal parent row exists to FK against
+    conditional_alternative = Column(Boolean, default=False)   # e.g. PB315 MA2 vs MA3 competing plans
+    spans_municipalities = Column(Boolean, default=False)      # e.g. Cambridge Crossing also in Somerville/Boston
+    coords_approximate = Column(Boolean, default=False)
+    special_permit_raw = Column(String)           # e.g. "PB315 MA2"
+    building_permit_raw = Column(String)          # e.g. "195497, 195498 (Bldg A)"
+
     # Relationships
     filings = relationship("ProjectFiling", back_populates="project",
                            cascade="all, delete-orphan")
@@ -73,6 +108,15 @@ class Project(Base):
     news_items = relationship("NewsItem", back_populates="project")
     flags = relationship("FlaggedExtraction", back_populates="project",
                          cascade="all, delete-orphan")
+    parent = relationship("Project", remote_side=[id], foreign_keys=[parent_project_id])
+    cambridge_uses = relationship("CambridgeProjectUse", back_populates="project",
+                                  cascade="all, delete-orphan")
+    cambridge_building_permits = relationship("CambridgeBuildingPermit", back_populates="project",
+                                              cascade="all, delete-orphan")
+    cambridge_special_permits = relationship("CambridgeSpecialPermit", back_populates="project",
+                                             cascade="all, delete-orphan")
+    cambridge_aliases = relationship("CambridgeProjectAlias", back_populates="project",
+                                     cascade="all, delete-orphan")
 
 
 class ProjectFiling(Base):
@@ -146,3 +190,67 @@ class FlaggedExtraction(Base):
     source_pdf_url = Column(String)
 
     project = relationship("Project", back_populates="flags")
+
+
+class CambridgeProjectUse(Base):
+    """One row per use category within a Cambridge project (project can have multiple)."""
+    __tablename__ = "cambridge_project_uses"
+
+    id = Column(Integer, primary_key=True)
+    project_id = Column(Integer, ForeignKey("projects.id"), nullable=False)
+    use_category = Column(String)                # normalized: Office/R&D, Lab/R&D, Residential, Retail, Hotel,
+                                                   # Institutional, Educational, Mixed Use, Community Center,
+                                                   # Fire Department, Parking Garage, Other
+    use_category_raw = Column(String)
+    gfa = Column(Integer)
+    gfa_tbd = Column(Boolean, default=False)
+    is_fallback = Column(Boolean, default=False)  # True when derived from primary_use+total_gfa rather than
+                                                   # a real per-use breakdown from the (currently stale) use table
+
+    project = relationship("Project", back_populates="cambridge_uses")
+
+
+class CambridgeBuildingPermit(Base):
+    __tablename__ = "cambridge_building_permits"
+
+    id = Column(Integer, primary_key=True)
+    project_id = Column(Integer, ForeignKey("projects.id"), nullable=False)
+    permit_number = Column(String)
+    label = Column(String)                        # e.g. "Bldg A", or None
+
+    project = relationship("Project", back_populates="cambridge_building_permits")
+
+
+class CambridgeSpecialPermit(Base):
+    __tablename__ = "cambridge_special_permits"
+
+    id = Column(Integer, primary_key=True)
+    project_id = Column(Integer, ForeignKey("projects.id"), nullable=False)
+    base_permit = Column(String)                  # e.g. "PB315"
+    amendment_raw = Column(String)                # e.g. "MA2", "Amend 7", "Amd 7", or None
+    full_raw = Column(String)                      # original full string, e.g. "PB315 MA2"
+
+    project = relationship("Project", back_populates="cambridge_special_permits")
+
+
+class CambridgeProjectAlias(Base):
+    __tablename__ = "cambridge_project_aliases"
+
+    id = Column(Integer, primary_key=True)
+    project_id = Column(Integer, ForeignKey("projects.id"), nullable=False)
+    former_name = Column(String)
+    date_observed = Column(DateTime, default=datetime.utcnow)
+
+    project = relationship("Project", back_populates="cambridge_aliases")
+
+
+class CambridgeQuarterlySnapshot(Base):
+    """Full raw row captured before normalization, so nothing is lost to a parsing bug."""
+    __tablename__ = "cambridge_quarterly_snapshots"
+
+    id = Column(Integer, primary_key=True)
+    cambridge_project_id = Column(String, nullable=False)   # Socrata project_id, independent of internal FK
+    project_id = Column(Integer, ForeignKey("projects.id"), nullable=True)
+    edition = Column(String)                       # e.g. "2026 Q1"
+    full_row_json = Column(Text)
+    ingested_at = Column(DateTime, default=datetime.utcnow)

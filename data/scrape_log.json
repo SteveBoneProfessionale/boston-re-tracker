@@ -113,5 +113,493 @@
         "error": null
       }
     ]
+  },
+  {
+    "run_time": "2026-07-10T21:38:59.319065+00:00",
+    "sources": [
+      {
+        "name": "Boston.gov News",
+        "source": "boston_gov",
+        "fetched": 10,
+        "new": 7,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Banker & Tradesman",
+        "source": "banker_tradesman",
+        "fetched": 10,
+        "new": 6,
+        "skipped": 4,
+        "error": null
+      },
+      {
+        "name": "The Real Deal Boston",
+        "source": "the_real_deal",
+        "fetched": 10,
+        "new": 7,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Curbed",
+        "source": "curbed",
+        "fetched": 20,
+        "new": 0,
+        "skipped": 20,
+        "error": null
+      },
+      {
+        "name": "Boston.com Real Estate",
+        "source": "boston_com",
+        "fetched": 10,
+        "new": 1,
+        "skipped": 6,
+        "error": null
+      },
+      {
+        "name": "Bisnow Boston",
+        "source": "bisnow_boston",
+        "fetched": 30,
+        "new": 22,
+        "skipped": 8,
+        "error": null
+      },
+      {
+        "name": "Boston Real Estate Times",
+        "source": "boston_re_times",
+        "fetched": 50,
+        "new": 24,
+        "skipped": 24,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run_time": "2026-07-10T21:40:29.571976+00:00",
+    "sources": [
+      {
+        "name": "Boston.gov News",
+        "source": "boston_gov",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Banker & Tradesman",
+        "source": "banker_tradesman",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 4,
+        "error": null
+      },
+      {
+        "name": "The Real Deal Boston",
+        "source": "the_real_deal",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Curbed",
+        "source": "curbed",
+        "fetched": 20,
+        "new": 0,
+        "skipped": 20,
+        "error": null
+      },
+      {
+        "name": "Boston.com Real Estate",
+        "source": "boston_com",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 6,
+        "error": null
+      },
+      {
+        "name": "Bisnow Boston",
+        "source": "bisnow_boston",
+        "fetched": 30,
+        "new": 0,
+        "skipped": 8,
+        "error": null
+      },
+      {
+        "name": "Boston Real Estate Times",
+        "source": "boston_re_times",
+        "fetched": 50,
+        "new": 0,
+        "skipped": 24,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run_time": "2026-07-10T21:50:42.360315+00:00",
+    "sources": [
+      {
+        "name": "Boston.gov News",
+        "source": "boston_gov",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Banker & Tradesman",
+        "source": "banker_tradesman",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 4,
+        "error": null
+      },
+      {
+        "name": "The Real Deal Boston",
+        "source": "the_real_deal",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Curbed",
+        "source": "curbed",
+        "fetched": 20,
+        "new": 0,
+        "skipped": 20,
+        "error": null
+      },
+      {
+        "name": "Boston.com Real Estate",
+        "source": "boston_com",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 6,
+        "error": null
+      },
+      {
+        "name": "Bisnow Boston",
+        "source": "bisnow_boston",
+        "fetched": 30,
+        "new": 0,
+        "skipped": 8,
+        "error": null
+      },
+      {
+        "name": "Boston Real Estate Times",
+        "source": "boston_re_times",
+        "fetched": 50,
+        "new": 0,
+        "skipped": 24,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run_time": "2026-07-23T18:25:39.440780+00:00",
+    "sources": [
+      {
+        "name": "Boston.gov News",
+        "source": "boston_gov",
+        "fetched": 10,
+        "new": 7,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Banker & Tradesman",
+        "source": "banker_tradesman",
+        "fetched": 10,
+        "new": 7,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "The Real Deal Boston",
+        "source": "the_real_deal",
+        "fetched": 10,
+        "new": 1,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Curbed",
+        "source": "curbed",
+        "fetched": 20,
+        "new": 0,
+        "skipped": 20,
+        "error": null
+      },
+      {
+        "name": "Boston.com Real Estate",
+        "source": "boston_com",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 6,
+        "error": null
+      },
+      {
+        "name": "Bisnow Boston",
+        "source": "bisnow_boston",
+        "fetched": 30,
+        "new": 4,
+        "skipped": 9,
+        "error": null
+      },
+      {
+        "name": "Boston Real Estate Times",
+        "source": "boston_re_times",
+        "fetched": 47,
+        "new": 15,
+        "skipped": 21,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run_time": "2026-07-23T18:52:11.715333+00:00",
+    "sources": [
+      {
+        "name": "Boston.gov News",
+        "source": "boston_gov",
+        "fetched": 0,
+        "new": 0,
+        "skipped": 0,
+        "error": "The read operation timed out"
+      },
+      {
+        "name": "Banker & Tradesman",
+        "source": "banker_tradesman",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "The Real Deal Boston",
+        "source": "the_real_deal",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Curbed",
+        "source": "curbed",
+        "fetched": 20,
+        "new": 0,
+        "skipped": 20,
+        "error": null
+      },
+      {
+        "name": "Boston.com Real Estate",
+        "source": "boston_com",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 6,
+        "error": null
+      },
+      {
+        "name": "Bisnow Boston",
+        "source": "bisnow_boston",
+        "fetched": 30,
+        "new": 0,
+        "skipped": 9,
+        "error": null
+      },
+      {
+        "name": "Boston Real Estate Times",
+        "source": "boston_re_times",
+        "fetched": 47,
+        "new": 0,
+        "skipped": 21,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run_time": "2026-07-23T19:13:56.516123+00:00",
+    "sources": [
+      {
+        "name": "Boston.gov News",
+        "source": "boston_gov",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Banker & Tradesman",
+        "source": "banker_tradesman",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "The Real Deal Boston",
+        "source": "the_real_deal",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Curbed",
+        "source": "curbed",
+        "fetched": 20,
+        "new": 0,
+        "skipped": 20,
+        "error": null
+      },
+      {
+        "name": "Boston.com Real Estate",
+        "source": "boston_com",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 6,
+        "error": null
+      },
+      {
+        "name": "Bisnow Boston",
+        "source": "bisnow_boston",
+        "fetched": 30,
+        "new": 0,
+        "skipped": 9,
+        "error": null
+      },
+      {
+        "name": "Boston Real Estate Times",
+        "source": "boston_re_times",
+        "fetched": 47,
+        "new": 0,
+        "skipped": 21,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run_time": "2026-07-23T19:37:05.704849+00:00",
+    "sources": [
+      {
+        "name": "Boston.gov News",
+        "source": "boston_gov",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Banker & Tradesman",
+        "source": "banker_tradesman",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "The Real Deal Boston",
+        "source": "the_real_deal",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Curbed",
+        "source": "curbed",
+        "fetched": 20,
+        "new": 0,
+        "skipped": 20,
+        "error": null
+      },
+      {
+        "name": "Boston.com Real Estate",
+        "source": "boston_com",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 6,
+        "error": null
+      },
+      {
+        "name": "Bisnow Boston",
+        "source": "bisnow_boston",
+        "fetched": 30,
+        "new": 0,
+        "skipped": 9,
+        "error": null
+      },
+      {
+        "name": "Boston Real Estate Times",
+        "source": "boston_re_times",
+        "fetched": 47,
+        "new": 0,
+        "skipped": 21,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run_time": "2026-07-24T16:37:05.853982+00:00",
+    "sources": [
+      {
+        "name": "Boston.gov News",
+        "source": "boston_gov",
+        "fetched": 10,
+        "new": 10,
+        "skipped": 0,
+        "error": null
+      },
+      {
+        "name": "Banker & Tradesman",
+        "source": "banker_tradesman",
+        "fetched": 10,
+        "new": 5,
+        "skipped": 2,
+        "error": null
+      },
+      {
+        "name": "The Real Deal Boston",
+        "source": "the_real_deal",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Curbed",
+        "source": "curbed",
+        "fetched": 20,
+        "new": 0,
+        "skipped": 20,
+        "error": null
+      },
+      {
+        "name": "Boston.com Real Estate",
+        "source": "boston_com",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 6,
+        "error": null
+      },
+      {
+        "name": "Bisnow Boston",
+        "source": "bisnow_boston",
+        "fetched": 30,
+        "new": 1,
+        "skipped": 8,
+        "error": null
+      },
+      {
+        "name": "Boston Real Estate Times",
+        "source": "boston_re_times",
+        "fetched": 46,
+        "new": 2,
+        "skipped": 20,
+        "error": null
+      }
+    ]
   }
 ]
