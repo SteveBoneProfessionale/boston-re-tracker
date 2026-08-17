@@ -34,6 +34,38 @@ STAGE_MAP_CAMBRIDGE = {
     "Building Permit Granted":                            "Under Construction",
     "Complete":                                           "Complete",
 }
+# How a developer name was arrived at, and how it renders. Verified and
+# inferred names must never look identical in a chart.
+RESOLUTION_METHODS = {
+    "registry_confirmed": {
+        "label": "Registry confirmed",
+        "verified": True,
+        "pattern": "",           # solid
+        "note": "sole operating company in the applicant's RI Corporate Database address cluster",
+    },
+    "web_corroborated": {
+        "label": "Web corroborated",
+        "verified": False,
+        "pattern": "/",          # hatched — visibly inferred
+        "note": "named by 2+ independent sources reporting on this specific address",
+    },
+    "human_set": {
+        "label": "Set by hand",
+        "verified": True,
+        "pattern": ".",
+        "note": "entered or corrected manually",
+    },
+}
+# Boston and Cambridge developers predate this field. Their names came from
+# filings and a curated audit, so they are treated as verified rather than
+# being lumped in with inferred names purely for having a blank column.
+LEGACY_METHOD = "registry_confirmed"
+
+
+def resolution_method(raw: str) -> str:
+    return raw if raw in RESOLUTION_METHODS else LEGACY_METHOD
+
+
 STAGE_COLORS = {
     "Planning":            "#64748b",
     "Permitting":          "#F5821E",
@@ -282,6 +314,11 @@ def load_projects() -> pd.DataFrame:
                 # Extracted
                 "developer": p.developer or "",
                 "developer_canonical": p.developer_canonical or "",
+                # Provenance of the developer name. Charts distinguish an
+                # inferred name from a verified one rather than presenting
+                # both as equally solid.
+                "developer_resolution_method": p.developer_resolution_method or "",
+                "developer_sources": p.developer_sources or "",
                 "asset_class": p.asset_class or "",
                 "asset_class_raw": p.asset_class_raw or "",
                 "total_gsf": p.total_gsf or p.bpda_gsf,

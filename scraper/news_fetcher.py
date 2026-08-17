@@ -183,6 +183,31 @@ FEEDS = [
         "url": "https://www.bisnow.com/rss/boston",
         "source": "bisnow_boston",
     },
+    # ── Rhode Island trade press ────────────────────────────────────────
+    # Added for the RI market. This corpus is the FIRST stop for developer
+    # resolution (scraper/ri_developer_web.py) before any open web search:
+    # it is curated, locally reported, and free of the aggregator and
+    # listing sites that resolution rules exclude.
+    #
+    # Two RI outlets were tested and rejected rather than silently dropped:
+    # GoLocalProv's RSS returns 403, and the Providence Journal's Arc
+    # outbound feed 404s. Banker & Tradesman (above) already covers New
+    # England including Rhode Island.
+    {
+        "name": "Providence Business News",
+        "url": "https://pbn.com/feed/",
+        "source": "pbn",
+    },
+    {
+        "name": "Providence Business News — Real Estate",
+        "url": "https://pbn.com/tag/real-estate/feed/",
+        "source": "pbn_real_estate",
+    },
+    {
+        "name": "Rhode Island Current",
+        "url": "https://rhodeislandcurrent.com/feed/",
+        "source": "ri_current",
+    },
 ]
 
 # Sources scraped via HTML (no RSS available)

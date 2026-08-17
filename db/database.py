@@ -60,6 +60,9 @@ def init_db():
     # Two-field status: stage heard on an agenda vs stage confirmed in minutes
     _add_column_if_missing("projects", "stage_heard", "VARCHAR")
     _add_column_if_missing("projects", "stage_confirmed", "VARCHAR")
+    # Developer provenance: how the name was resolved, and every source URL
+    _add_column_if_missing("projects", "developer_resolution_method", "VARCHAR")
+    _add_column_if_missing("projects", "developer_sources", "TEXT")
     print(f"Database ready at {DB_PATH}")
 
 

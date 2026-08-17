@@ -1,0 +1,53 @@
+{
+ "525 BROADWAY LLC|525 BROADWAY, NEWPORT, RI": {
+  "developer": null,
+  "method": null,
+  "sources": [],
+  "rejected": [
+   {
+    "url": "https://www.newportthisweek.com/articles/newport-planning-postpones-broadway-application/",
+    "domain": "newportthisweek.com",
+    "publisher": "Newport This Week",
+    "quote": "Applicant Conor Melville was hoping to build 44 units of multi-family and workforce housing on the 40,000-square-foot vacant lot.",
+    "preferred": false,
+    "via": "web_search",
+    "dropped": "quote does not name this street number and street",
+    "developer": "Conor Melville (principal of 525 Broadway LLC / BCM Realty Partners)"
+   },
+   {
+    "url": "https://www.thenewportbuzz.com/newport-broadway-workforce-housing-approval/57321",
+    "domain": "thenewportbuzz.com",
+    "publisher": "Newport Buzz",
+    "quote": "said the team representing local developer Conor Melville",
+    "preferred": false,
+    "via": "web_search",
+    "dropped": "quote does not name this street number and street",
+    "developer": "Conor Melville (principal of 525 Broadway LLC / BCM Realty Partners)"
+   }
+  ],
+  "candidates_considered": {
+   "BCM Realty Partners LLC": {
+    "independent_domains": 1,
+    "domains": [
+     "newportthisweek.com"
+    ],
+    "urls": [
+     "https://www.newportthisweek.com/articles/newport-approves-previously-denied-broadway-housing-proposal/"
+    ]
+   },
+   "Conor Melville (principal of 525 Broadway LLC / BCM Realty Partners)": {
+    "independent_domains": 1,
+    "domains": [
+     "granicus.com"
+    ],
+    "urls": [
+     "https://cityofnewport.granicus.com/MetaViewer.php?view_id=1&clip_id=922&meta_id=71292"
+    ]
+   }
+  },
+  "reason": "no developer reached 2 independent sources for this address (best was 1)",
+  "applicant": "525 Broadway LLC",
+  "address": "525 Broadway, Newport, RI",
+  "notes": "PROJECT DESCRIPTION MISMATCH \u2014 this is the most important finding. No source found describes 525 Broadway, Newport, RI as an adaptive reuse or hotel project. Every source tying a developer to this address describes NEW CONSTRUCTION WORKFORCE HOUSING on a vacant ~1.07-acre lot at the Newport/Middletown border: originally 44 units (partly in Middletown, denied by Middletown Planning Board June 11, 2025), reworked to 38 one-bedroom units entirely on the Newport side and approved by the Newport Planning Board (initial approval Sept. 8; unanimous 8-0 final vote). If your subject project is genuinely a hotel/adaptive reuse, it is a DIFFERENT project and these sources should not be used for it. The two candidates listed are NOT competing attributions: Conor Melville is identified in the City of Newport's own record as the principal of the applicant entity 525 Broadway LLC, and Newport This Week identifies BCM Realty Partners (a Newport-based development firm of which Melville is principal) as applicant/owner. No source names any other development company for this address. Excluded as non-qualifying: LoopNet, Redfin, Residential Properties Ltd., The Newport Group, commonmoves.com and similar listing/aggregator pages (no developer named); citizenportal.ai (AI-generated meeting summaries, names no developer); ZoomInfo/BBB/BuildZoom/Facebook/Instagram business-directory pages for BCM Realty Partners (they profile the company but do not tie it to this address); BLDUP (aggregator, and its Newport hotel entry is 105 Broadway, a different parcel); kbanyc.com '525 Broadway adaptive reuse' (that is 525 Broadway, New York, NY \u2014 same street number, wrong city). A Newport This Week article about the former Coggeshall School property links Melville and BCM Realty Partners, but that is a different address and is therefore not evidence about 525 Broadway. Middletown, RI posts a 525 Broadway planning packet (middletownri.gov/504/Planning-Board-Meeting-Packets) confirming '525 Broadway, LLC' as applicant on the Middletown-side portion, but the indexed documents do not name a development company beyond the LLC. Primary documents (deed, financing/permit records) were not directly retrievable in this environment; a title/land-evidence check in Newport City Hall would independently confirm the ownership chain."
+ }
+}

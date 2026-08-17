@@ -48,6 +48,18 @@ class Project(Base):
     # Extracted fields (populated after PDF processing)
     developer = Column(String)
     developer_canonical = Column(String)          # normalized parent company name
+
+    # How the developer name was arrived at. Charts must distinguish an
+    # inferred name from a verified one, so this is never left implicit:
+    #   registry_confirmed  sole operating company in the applicant's RI
+    #                       Corporate Database address cluster
+    #   web_corroborated    named by >=2 independent sources for THIS address
+    #   human_set           entered or corrected by hand
+    #   None                unresolved -- developer must also be null
+    developer_resolution_method = Column(String)
+    # JSON list of every corroborating source URL, not just the first, so a
+    # web-corroborated name can be clicked through and checked.
+    developer_sources = Column(Text)
     asset_class = Column(String)                  # canonical value only -- see app/data.py::ASSET_CLASSES
     asset_class_raw = Column(String)              # verbatim source classification before canonicalization,
                                                     # so a fold (e.g. Cambridge's "Fire Department" ->

@@ -8,6 +8,7 @@ import streamlit.components.v1 as components
 from app.data import (
     summary_stats, STAGE_COLORS, STAGE_ORDER,
     REVIEW_SCALE_COLORS, review_scale_vocab,
+    RESOLUTION_METHODS, resolution_method,
 )
 
 _BG      = "#0d0f12"
@@ -289,31 +290,57 @@ T.forEach(t=>{{
                 lambda x: (x[:21] + "…") if len(x) > 23 else x
             )
             x_max_n = dev_counts["n"].max() * 1.45
-            bar_c = [_MUTED] * len(dev_counts)
-            if len(bar_c) >= 1:
-                bar_c[-1] = _ORANGE
-            if len(bar_c) >= 2:
-                bar_c[-2] = "#c46010"
-            fig_dev = go.Figure(go.Bar(
-                x=dev_counts["n"],
-                y=dev_counts["developer_canonical"],
-                orientation="h",
-                marker_color=bar_c,
-                marker_line_width=0,
-                cliponaxis=False,
-                text=dev_counts["n"],
-                textposition="outside",
-                textfont=dict(family=_MONO, size=9, color=_MUTED),
-                hovertemplate="%{y}: %{x} projects<extra></extra>",
-            ))
+            order = dev_counts["developer_canonical"].tolist()
+
+            # Split each developer's bar by how the name was resolved, so an
+            # inferred name never looks like a verified one. Hatched segments
+            # are web-corroborated; solid are registry-confirmed.
+            dev_df = dev_df.copy()
+            dev_df["_method"] = dev_df["developer_resolution_method"].apply(resolution_method)
+            dev_df["_label"] = dev_df["developer_canonical"].apply(
+                lambda x: (x[:21] + "…") if len(x) > 23 else x
+            )
+            by_method = (
+                dev_df[dev_df["_label"].isin(order)]
+                .groupby(["_label", "_method"]).size().reset_index(name="n")
+            )
+
+            fig_dev = go.Figure()
+            for method in ("registry_confirmed", "human_set", "web_corroborated"):
+                seg = by_method[by_method["_method"] == method]
+                if seg.empty:
+                    continue
+                meta = RESOLUTION_METHODS[method]
+                fig_dev.add_trace(go.Bar(
+                    x=seg["n"], y=seg["_label"],
+                    orientation="h",
+                    name=meta["label"],
+                    marker=dict(
+                        color=_ORANGE if meta["verified"] else "#8A6A3F",
+                        line_width=0,
+                        pattern=dict(shape=meta["pattern"], fgcolor="#1b1e26", size=5),
+                    ),
+                    cliponaxis=False,
+                    hovertemplate="%{y}: %{x} project(s) — " + meta["label"] + "<extra></extra>",
+                ))
+            n_inferred = int((dev_df["_method"] == "web_corroborated").sum())
             fig_dev.update_layout(
                 **_chart_base(450),
                 margin=_M_AXIS,
-                showlegend=False,
+                barmode="stack",
+                showlegend=bool(n_inferred),
+                legend=dict(orientation="h", yanchor="bottom", y=1.0, x=0,
+                            font=dict(family=_MONO, size=9, color=_MUTED)),
                 xaxis=_xaxis("NUMBER OF PROJECTS", dtick=1, x_range=[0, x_max_n]),
-                yaxis=_yaxis(),
+                yaxis=dict(**_yaxis(), categoryorder="array", categoryarray=order),
             )
             st.plotly_chart(fig_dev, use_container_width=True, config={"displayModeBar": False})
+            if n_inferred:
+                st.caption(
+                    f"{n_inferred} project(s) have a developer inferred from press coverage "
+                    f"(hatched) rather than confirmed against the corporate registry (solid). "
+                    f"Source links are on each project's detail view."
+                )
         else:
             st.caption("No developer data for this selection.")
         if n_no_dev:
