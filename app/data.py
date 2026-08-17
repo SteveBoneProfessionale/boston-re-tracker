@@ -47,7 +47,16 @@ RESOLUTION_METHODS = {
         "label": "Web corroborated",
         "verified": False,
         "pattern": "/",          # hatched — visibly inferred
-        "note": "named by 2+ independent sources reporting on this specific address",
+        "note": "named by 2+ independent sources reporting on this specific address, "
+                "at least one of them local trade press or a government record",
+    },
+    "web_low_confidence": {
+        "label": "Web — low confidence",
+        "verified": False,
+        "pattern": "x",          # cross-hatched — weakest tier
+        "note": "cleared 2 independent sources, but the sources are weaker or the "
+                "developer link is indirect (established via a named principal). "
+                "Populated, but flagged for review.",
     },
     "human_set": {
         "label": "Set by hand",
@@ -64,6 +73,11 @@ LEGACY_METHOD = "registry_confirmed"
 
 def resolution_method(raw: str) -> str:
     return raw if raw in RESOLUTION_METHODS else LEGACY_METHOD
+
+
+def is_inferred(raw: str) -> bool:
+    """True when the developer name was inferred rather than verified."""
+    return not RESOLUTION_METHODS[resolution_method(raw)]["verified"]
 
 
 STAGE_COLORS = {

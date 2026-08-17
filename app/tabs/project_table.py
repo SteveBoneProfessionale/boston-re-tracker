@@ -2,11 +2,13 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
+import json
 import pandas as pd
 import streamlit as st
 
 from app.data import (
     load_filings, load_cambridge_permits, STAGE_COLORS, review_scale_vocab,
+    RESOLUTION_METHODS, resolution_method,
 )
 from scraper.normalize_developer import is_real_company
 
@@ -108,6 +110,18 @@ def render(df: pd.DataFrame):
     )
     developer = fd2.selectbox("DEVELOPER", ["All"] + matching_devs, key="tbl_developer")
 
+    # Filter to inferred developer names for review. web_low_confidence is
+    # separately selectable because those are the ones most worth auditing.
+    fd3, _ = st.columns([2, 5])
+    method_f = fd3.selectbox(
+        "DEVELOPER SOURCE",
+        ["All", "Registry confirmed", "Web corroborated", "Web — low confidence",
+         "Any inferred (web)"],
+        key="tbl_dev_method",
+        help="How the developer name was established. 'Any inferred' selects every "
+             "name derived from press coverage rather than the corporate registry.",
+    )
+
     # Apply filters
     filtered = df.copy()
     if city != "All":
@@ -122,6 +136,14 @@ def render(df: pd.DataFrame):
         filtered = filtered[filtered["asset_class"] == asset]
     if developer != "All":
         filtered = filtered[filtered["developer_canonical"] == developer]
+    if method_f != "All":
+        _m = filtered["developer_resolution_method"].apply(resolution_method)
+        if method_f == "Any inferred (web)":
+            filtered = filtered[_m.isin(["web_corroborated", "web_low_confidence"])]
+        else:
+            wanted = next(k for k, v in RESOLUTION_METHODS.items()
+                          if v["label"] == method_f)
+            filtered = filtered[_m == wanted]
     if search:
         q = search.lower()
         mask = (
@@ -151,7 +173,16 @@ def render(df: pd.DataFrame):
     ]].copy()
 
     display["developer_canonical"] = display.apply(_dev_display, axis=1)
-    display.drop(columns=["developer"], inplace=True)
+
+    # Mark inferred developer names in the table too, not just the charts --
+    # the name has to carry its provenance everywhere it appears.
+    _METHOD_MARK = {"web_corroborated": "◐", "web_low_confidence": "◔", "human_set": "✎"}
+    display["_method"] = filtered["developer_resolution_method"].apply(resolution_method)
+    display["developer_canonical"] = [
+        f'{mark} {name}' if (mark := _METHOD_MARK.get(m)) and name != "—" else name
+        for name, m in zip(display["developer_canonical"], display["_method"])
+    ]
+    display.drop(columns=["developer", "_method"], inplace=True)
 
     def _status_fmt(row):
         if not row["status"]:
@@ -380,10 +411,19 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
     parking = p.get("parking_spaces")
     parking_str = f"{int(parking):,}" if pd.notna(parking) and parking else None
 
+    # Developer with its provenance, and every corroborating source, so an
+    # inferred name can be clicked through and checked from the detail view.
+    _dev_name = p.get("developer_canonical") or p.get("developer")
+    _method = resolution_method(p.get("developer_resolution_method", ""))
+    if _dev_name and _method != "registry_confirmed":
+        _meta = RESOLUTION_METHODS[_method]
+        _dev_name = (f'{_dev_name}<br><span style="color:#f59e0b;font-size:9px;'
+                     f'letter-spacing:0.08em">{_meta["label"].upper()}</span>')
+
     with col1:
         st.markdown(
             _kv("ADDRESS",          p.get("address")) +
-            _kv("DEVELOPER",        p.get("developer_canonical") or p.get("developer")) +
+            _kv("DEVELOPER",        _dev_name) +
             _kv("EQUITY PARTNER",   p.get("equity_partner")) +
             _kv("ARCHITECT",        p.get("architect")) +
             _kv("CIVIL ENGINEER",   p.get("civil_engineer")),
@@ -482,6 +522,24 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
                 )
         elif p.get("phase_group"):
             st.markdown(_kv("PHASE GROUP", p["phase_group"]), unsafe_allow_html=True)
+
+    # Corroborating sources for an inferred developer name. Stored in full,
+    # not just the first, so the attribution can actually be audited.
+    if _dev_name and _method in ("web_corroborated", "web_low_confidence"):
+        try:
+            _srcs = json.loads(p.get("developer_sources") or "[]")
+        except (ValueError, TypeError):
+            _srcs = []
+        if _srcs:
+            with st.expander(f"DEVELOPER SOURCES  ({len(_srcs)})"):
+                st.caption(RESOLUTION_METHODS[_method]["note"])
+                for s in _srcs:
+                    pub = s.get("publisher") or s.get("domain", "")
+                    url = s.get("url", "")
+                    st.markdown(f"**{pub}** — [{url}]({url})")
+                    st.markdown(f"*Address:* {s.get('address_sentence', '—')}")
+                    st.markdown(f"*Developer:* {s.get('developer_sentence', '—')}")
+                    st.divider()
 
     # Links
     lc1, lc2, _ = st.columns([1, 1, 4])

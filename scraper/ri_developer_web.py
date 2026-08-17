@@ -69,6 +69,7 @@ _EXCLUDED_HOSTS = re.compile(
     r"(loopnet|crexi|costar\.com|zillow|realtor\.com|redfin|trulia|apartments\.com|"
     r"rentcafe|yelp|bizapedia|opencorporates|dnb\.com|bloomberg\.com/profile|"
     r"buzzfile|manta|corporationwiki|zoominfo|crunchbase|globenewswire|prnewswire|"
+    r"bldup|buildzoom|citizenportal|commonmoves|"
     r"businesswire|einpresswire|accesswire|patch\.com|wikipedia|facebook|linkedin|"
     r"twitter|x\.com|reddit|medium\.com|substack)", re.I)
 
@@ -110,14 +111,36 @@ choose between them and do not prefer the one mentioned more often.
 specific address, say so. Reporting nothing is the correct answer for an \
 obscure project, and is much better than a plausible guess.
 
+6. Report TWO separate sentences per source, quoted verbatim from the article: \
+the sentence that establishes WHICH ADDRESS the article is about, and the \
+sentence that NAMES THE DEVELOPER. They are often different sentences. The \
+address sentence must establish the address as the subject of the article, not \
+mention it in passing.
+
+7. If the article names a PERSON rather than a company, and the article's own \
+text explicitly states that person's relationship to a company (e.g. "Conor \
+Melville, principal of BCM Realty Partners"), report the company as the \
+developer, the person separately, and quote the sentence that states the \
+relationship. Do NOT supply the company from your own knowledge or from a \
+different source -- if the article names only a person and does not state the \
+company, report the person with company omitted.
+
+8. Report the municipality and state the article is about. A same-numbered \
+street in another city is a different address entirely.
+
 Return your findings as JSON with this shape:
 
 {
   "candidates": [
-    {"developer": "<company name>",
+    {"developer": "<company name, or omit if only a person is named>",
+     "person": "<named individual, if any>",
+     "relationship_quote": "<verbatim sentence stating person-to-company link>",
+     "relationship_source_url": "<url of the source that stated it>",
      "sources": [{"url": "<url>", "publisher": "<publisher>",
-                  "quote": "<sentence tying developer to this address>",
-                  "address_confirmed": true|false}]}
+                  "address_sentence": "<verbatim sentence establishing the address>",
+                  "developer_sentence": "<verbatim sentence naming the developer>",
+                  "municipality": "<city the article is about>",
+                  "state": "<state the article is about>"}]}
   ],
   "notes": "<anything the reviewer should know>"
 }
@@ -156,15 +179,46 @@ def _address_tokens(address: str) -> tuple[str, list[str]]:
     return number, words[:3]
 
 
-def address_is_confirmed(address: str, quote: str) -> bool:
-    """True when the quoted evidence actually names this parcel.
+RI_MUNICIPALITIES = {"providence", "cranston", "pawtucket", "newport", "warwick",
+                     "central falls", "middletown", "smithfield", "east providence"}
 
-    Requires the street number AND a distinctive street-name word. The model's
-    own address_confirmed flag is advisory; this is the check that counts.
+
+def wrong_city(address: str, src: dict) -> str | None:
+    """Reject a source that is about the same street in a different city.
+
+    This guard caught a "525 Broadway adaptive reuse" page that was 525
+    Broadway, NEW YORK -- right street number, wrong state. Street numbers
+    repeat across cities constantly, so this is checked in code rather than
+    left to the model's judgment.
+    """
+    state = (src.get("state") or "").strip().lower()
+    muni = (src.get("municipality") or "").strip().lower()
+    if state and state not in {"ri", "rhode island"}:
+        return f"article is about {muni or '?'}, {state} — not Rhode Island"
+    # The address we are resolving carries its own municipality; if the article
+    # names a different RI municipality, it is a different parcel.
+    addr_l = (address or "").lower()
+    addr_muni = next((m for m in RI_MUNICIPALITIES if m in addr_l), "")
+    if addr_muni and muni and muni not in addr_muni and addr_muni not in muni:
+        return f"article is about {muni}, but this parcel is in {addr_muni}"
+    return None
+
+
+def address_is_confirmed(address: str, src: dict) -> bool:
+    """True when the ARTICLE establishes this parcel as its subject.
+
+    Confirmation moved from sentence level to article level: requiring the
+    street number and street name inside the developer-naming sentence rejected
+    valid corroboration like "said the team representing local developer Conor
+    Melville", which appears in an article entirely about this address. The
+    address must still be established explicitly -- in the article's own
+    address-establishing sentence -- not merely mentioned in passing.
     """
     number, words = _address_tokens(address)
-    hay = (quote or "").lower()
-    if not number or number not in hay:
+    if not number:
+        return False
+    hay = f"{src.get('address_sentence','')} {src.get('developer_sentence','')}".lower()
+    if number not in hay:
         return False
     return any(w.lower() in hay for w in words) if words else False
 
@@ -184,7 +238,9 @@ def _search_local_news(address: str, applicant: str) -> list[dict]:
             blob = f"{item.title or ''} {item.summary or ''}"
             if number in blob and any(w.lower() in blob.lower() for w in words):
                 hits.append({"url": item.url, "publisher": item.source,
-                             "quote": blob[:400], "address_confirmed": True,
+                             "address_sentence": blob[:300],
+                             "developer_sentence": blob[:300],
+                             "municipality": "", "state": "RI",
                              "via": "local_news_corpus"})
         return hits
     finally:
@@ -230,25 +286,55 @@ def adjudicate(address: str, candidates: list[dict]) -> dict:
               "rejected": [], "candidates_considered": {}, "reason": None}
 
     per_dev: dict[str, list[dict]] = defaultdict(list)
+    indirect: dict[str, dict] = {}       # developer -> person-link evidence
+
     for cand in candidates or []:
         dev = (cand.get("developer") or "").strip()
+        person = (cand.get("person") or "").strip()
+        rel_quote = (cand.get("relationship_quote") or "").strip()
+        rel_url = (cand.get("relationship_source_url") or "").strip()
+
+        # A person may stand in for the company ONLY when a source states the
+        # relationship in its own text. Inferring the company from our own
+        # knowledge, or stitching it from a different source, is not allowed.
+        if not dev and person:
+            if rel_quote and person.split()[-1].lower() in rel_quote.lower():
+                # The model reported a relationship but no company name; without
+                # a company there is nothing to attribute a project to.
+                pass
+            result["rejected"].append({
+                "developer": person, "dropped":
+                "source names an individual with no company stated in its own text"})
+            continue
         if not dev:
             continue
+        if person and rel_quote:
+            indirect[dev] = {"person": person, "quote": rel_quote[:300], "url": rel_url}
+
         for src in cand.get("sources") or []:
             url = (src.get("url") or "").strip()
             if not url:
                 continue
             dom = registrable_domain(url)
-            quote = src.get("quote") or ""
-            rec = {"url": url, "domain": dom, "publisher": src.get("publisher") or dom,
-                   "quote": quote[:300], "preferred": bool(_PREFERRED_HOSTS.search(url)),
-                   "via": src.get("via", "web_search")}
+            rec = {
+                "url": url, "domain": dom, "publisher": src.get("publisher") or dom,
+                "address_sentence": (src.get("address_sentence") or "")[:300],
+                "developer_sentence": (src.get("developer_sentence") or src.get("quote") or "")[:300],
+                "municipality": src.get("municipality", ""), "state": src.get("state", ""),
+                "preferred": bool(_PREFERRED_HOSTS.search(url)),
+                "via": src.get("via", "web_search"),
+            }
             if _EXCLUDED_HOSTS.search(url):
                 rec["dropped"] = "aggregator / listing / wire — excluded before counting"
                 result["rejected"].append({**rec, "developer": dev})
                 continue
-            if not address_is_confirmed(address, quote):
-                rec["dropped"] = "quote does not name this street number and street"
+            bad_city = wrong_city(address, src)
+            if bad_city:
+                rec["dropped"] = f"wrong city — {bad_city}"
+                result["rejected"].append({**rec, "developer": dev})
+                continue
+            if not address_is_confirmed(address, src):
+                rec["dropped"] = "article does not establish this street number and street"
                 result["rejected"].append({**rec, "developer": dev})
                 continue
             per_dev[dev].append(rec)
@@ -278,12 +364,30 @@ def adjudicate(address: str, candidates: list[dict]) -> dict:
         return result
 
     dev, v = next(iter(qualified.items()))
+    has_preferred = any(s["preferred"] for s in v["sources"])
+    link = indirect.get(dev)
+
+    # Two web tiers. The lower one still populates, but is separated visually
+    # and filterable, because either the sources are weaker (no local trade
+    # press or government record among them) or the developer link is indirect
+    # (established through a named principal rather than the company itself).
+    weak_reasons = []
+    if not has_preferred:
+        weak_reasons.append("no local trade press or government record among the sources")
+    if link:
+        weak_reasons.append(
+            f"link is indirect — established via {link['person']} as a named principal")
+
     result["developer"] = dev
-    result["method"] = "web_corroborated"
+    result["method"] = "web_low_confidence" if weak_reasons else "web_corroborated"
     result["sources"] = v["sources"]
-    result["reason"] = (
-        f"corroborated by {len(v['domains'])} independent sources "
-        f"({', '.join(v['domains'])}), each naming this address")
+    if link:
+        result["person"] = link["person"]
+        result["relationship_quote"] = link["quote"]
+        result["relationship_source"] = link["url"]
+    base = (f"corroborated by {len(v['domains'])} independent sources "
+            f"({', '.join(v['domains'])}), each establishing this address")
+    result["reason"] = base + ("; " + "; ".join(weak_reasons) if weak_reasons else "")
     return result
 
 
