@@ -63,6 +63,17 @@ def init_db():
     # Developer provenance: how the name was resolved, and every source URL
     _add_column_if_missing("projects", "developer_resolution_method", "VARCHAR")
     _add_column_if_missing("projects", "developer_sources", "TEXT")
+    # Rhode Island parcel identity and extraction fields
+    _add_column_if_missing("projects", "assessor_plat", "VARCHAR")
+    _add_column_if_missing("projects", "assessor_lots", "VARCHAR")
+    _add_column_if_missing("projects", "plat_lots_raw", "VARCHAR")
+    _add_column_if_missing("projects", "zoning_district_raw", "VARCHAR")
+    _add_column_if_missing("projects", "site_acreage", "FLOAT")
+    _add_column_if_missing("projects", "adaptive_reuse", "BOOLEAN")
+    _add_column_if_missing("projects", "applicant_entity", "VARCHAR")
+    _add_column_if_missing("projects", "case_number", "VARCHAR")
+    _add_column_if_missing("projects", "building_count", "INTEGER")
+    _add_column_if_missing("projects", "dedupe_review", "BOOLEAN")
     print(f"Database ready at {DB_PATH}")
 
 
