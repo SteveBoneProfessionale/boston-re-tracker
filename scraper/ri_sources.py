@@ -16,6 +16,12 @@ Portal mechanics worth knowing before using anything here:
   * Meeting tables cap at 100 rows. For a monthly board that is roughly eight
     years of history, which comfortably covers active pipeline, but it is NOT
     complete history and must not be described as such.
+  * CURRENT COVERAGE IS SHALLOWER THAN THAT CAP. The harvested corpus holds
+    roughly the most recent 18 meetings per board -- about 1.5 years for a
+    monthly board -- not the ~100 the portal will serve. This is a deliberate
+    first-pass depth, not the ceiling. Any count, total, or chart derived from
+    the corpus describes recent activity only, and must not be presented as
+    the full available history. See HARVEST_DEPTH below.
   * Meeting dates come from <div id="hdnDateSeq">, not from a text prefix.
   * Document paths come from the DownloadMeetingFiles('...') onclick argument,
     never constructed. The folder number is not the EntityID (Pawtucket Board
@@ -39,6 +45,20 @@ TIERS
 
 # Municipalities in the Rhode Island market.
 RI_MUNICIPALITIES = ["Providence", "Cranston", "Pawtucket", "Newport", "Warwick"]
+
+# How deep the harvest currently goes, versus how deep it could go. Recorded so
+# that nobody reads a corpus-derived figure as complete history.
+HARVEST_DEPTH = {
+    "current_meetings_per_board": 18,
+    "portal_cap_per_board": 100,
+    "current_span_estimate": "~1.5 years for a monthly board",
+    "cap_span_estimate": "~8 years for a monthly board",
+    "note": (
+        "First-pass depth, chosen to get a clean ingestion and see the shape of "
+        "the data before committing to a long backfill run. Deepening is a "
+        "separate decision -- see the sizing estimate in the project notes."
+    ),
+}
 
 
 def _b(entity_id, municipality, name, tier, active, note=""):

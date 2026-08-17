@@ -1,0 +1,1759 @@
+{
+ "addresses": {
+  "1140 RESERVOIR AVE": [
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 2A CRANSTON, RI  02920  USA",
+    "fein": "001696749",
+    "inactive": "",
+    "naics": "721110",
+    "name": "100 Sabin Hotel Beverage, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001731951",
+    "inactive": "",
+    "naics": "531311",
+    "name": "151 Narragansett Apartment Manager, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE CRANSTON, RI  02920  USA",
+    "fein": "001728309",
+    "inactive": "",
+    "naics": "531110",
+    "name": "151 Narragansett, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001798723",
+    "inactive": "",
+    "naics": "531210",
+    "name": "181 BELLEVUE BEVERAGE MANAGER, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001753539",
+    "inactive": "",
+    "naics": "531310",
+    "name": "181 Bellevue Center, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001675927",
+    "inactive": "",
+    "naics": "531390",
+    "name": "1910 Airport Post Road, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001697358",
+    "inactive": "",
+    "naics": "531120",
+    "name": "1975 Post Road, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001775394",
+    "inactive": "",
+    "naics": "721110",
+    "name": "49 Newport Beverage, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001774692",
+    "inactive": "",
+    "naics": "721110",
+    "name": "49 Newport Hotel Manager, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001774781",
+    "inactive": "",
+    "naics": "721110",
+    "name": "49 Newport Hotel, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001801756",
+    "inactive": "",
+    "naics": "",
+    "name": "604 Thames Street, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001728209",
+    "inactive": "",
+    "naics": "531390",
+    "name": "Alhambra Properties, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001774085",
+    "inactive": "",
+    "naics": "531390",
+    "name": "Carrington Street RE Holdings, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001748151",
+    "inactive": "",
+    "naics": "531190",
+    "name": "Casino Terrace Newport, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000742462",
+    "inactive": "",
+    "naics": "711110",
+    "name": "COPA CUBANA, INC."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 201 CRANSTON, RI  02920  USA",
+    "fein": "000693331",
+    "inactive": "",
+    "naics": "445220",
+    "name": "CUISINE DEL MAR, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001739570",
+    "inactive": "",
+    "naics": "531390",
+    "name": "Dutch Harbor Beverage, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000090658",
+    "inactive": "",
+    "naics": "531110",
+    "name": "EHI Gano Holdings, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000086165",
+    "inactive": "",
+    "naics": "531110",
+    "name": "EHI Holdings, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000090662",
+    "inactive": "",
+    "naics": "531110",
+    "name": "EHI SK Holdings, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001679584",
+    "inactive": "",
+    "naics": "531390",
+    "name": "Emerald Capital II, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001698280",
+    "inactive": "",
+    "naics": "531390",
+    "name": "Emerald Capital Lending III, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001024177",
+    "inactive": "",
+    "naics": "001698",
+    "name": "EMERALD CAPITAL, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000073281",
+    "inactive": "",
+    "naics": "531110",
+    "name": "Emerald Hotels, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE 485E US HIGHWAY 1 S, 3RD FLOOR CRANSTON, RI  02920  USA",
+    "fein": "001683691",
+    "inactive": "",
+    "naics": "551112",
+    "name": "Emerald REO, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000090659",
+    "inactive": "",
+    "naics": "531110",
+    "name": "ETJ Gano Holdings, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001661984",
+    "inactive": "",
+    "naics": "531390",
+    "name": "FD Providence Holdings, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000082142",
+    "inactive": "",
+    "naics": "722511",
+    "name": "First Providence Beverage & Lounge Services, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000074196",
+    "inactive": "",
+    "naics": "551112",
+    "name": "FIRST PROVIDENCE HOTEL INVESTORS, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000086192",
+    "inactive": "",
+    "naics": "722511",
+    "name": "First Warwick Beverage & Lounge Services, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000085507",
+    "inactive": "",
+    "naics": "551112",
+    "name": "FIRST WARWICK HOTEL INVESTORS, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000087935",
+    "inactive": "",
+    "naics": "531110",
+    "name": "FPHI Holdings, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 201 CRANSTON, RI  02920  USA",
+    "fein": "001689863",
+    "inactive": "",
+    "naics": "531110",
+    "name": "Freeborn Enterprises, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000086145",
+    "inactive": "",
+    "naics": "531110",
+    "name": "FWHI Holdings, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000089993",
+    "inactive": "",
+    "naics": "721110",
+    "name": "GANO HOLDINGS, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001704972",
+    "inactive": "",
+    "naics": "721110",
+    "name": "Gano Hotel Manager, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001715433",
+    "inactive": "",
+    "naics": "721110",
+    "name": "Great Salt Pond Marina Manager, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001716480",
+    "inactive": "",
+    "naics": "721110",
+    "name": "Great Salt Pond Marina Property, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001657709",
+    "inactive": "",
+    "naics": "721110",
+    "name": "HP HOTEL MANAGER, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE STE 207 CRANSTON, RI  02920  USA",
+    "fein": "000072208",
+    "inactive": "",
+    "naics": "531312",
+    "name": "HUNT CLUB, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000104948",
+    "inactive": "",
+    "naics": "722511",
+    "name": "INP Beverage Services, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000104944",
+    "inactive": "",
+    "naics": "531312",
+    "name": "INP, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001766869",
+    "inactive": "",
+    "naics": "541613",
+    "name": "Ionic Digital and Marketing, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001737262",
+    "inactive": "",
+    "naics": "531390",
+    "name": "Jamestown Marina Beverage Operations, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001725505",
+    "inactive": "",
+    "naics": "713930",
+    "name": "Jamestown Marina Manager, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000520160",
+    "inactive": "",
+    "naics": "551114",
+    "name": "JJJL HOLDINGS, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000072066",
+    "inactive": "",
+    "naics": "531110",
+    "name": "Kuehn Road Associates, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000072161",
+    "inactive": "",
+    "naics": "531312",
+    "name": "LAKESIDE RESIDENTIAL PARTNERS, L.L.C."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 201 CRANSTON, RI  02920  USA",
+    "fein": "000972387",
+    "inactive": "",
+    "naics": "812910",
+    "name": "Law Offices of Tara R. Cancel LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 201 CRANSTON, RI  02920  USA",
+    "fein": "001704379",
+    "inactive": "",
+    "naics": "531110",
+    "name": "LouisParas, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000072124",
+    "inactive": "",
+    "naics": "531110",
+    "name": "Martel Development Company"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001737978",
+    "inactive": "",
+    "naics": "531390",
+    "name": "MOMENTUM REALTY LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001747175",
+    "inactive": "",
+    "naics": "551112",
+    "name": "Neon Employee Management, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001711010",
+    "inactive": "",
+    "naics": "531312",
+    "name": "Neon Marketplace Employer, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 700 CRANSTON, RI  02920  USA",
+    "fein": "001706139",
+    "inactive": "",
+    "naics": "531312",
+    "name": "NEON Marketplace Operating I, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001741079",
+    "inactive": "Revocation Notice",
+    "naics": "541000",
+    "name": "Neuroplex Industries, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001776595",
+    "inactive": "",
+    "naics": "315000",
+    "name": "Next Wave Apparel, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001684204",
+    "inactive": "",
+    "naics": "531390",
+    "name": "OGN, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000158929",
+    "inactive": "",
+    "naics": "531312",
+    "name": "PBH REALTY II, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000326158",
+    "inactive": "",
+    "naics": "531312",
+    "name": "PBH REALTY III, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 200 CRANSTON, RI  02920  USA",
+    "fein": "000152186",
+    "inactive": "",
+    "naics": "531312",
+    "name": "PBH REALTY, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000792424",
+    "inactive": "",
+    "naics": "531312",
+    "name": "PBH VINEYARDS, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001705378",
+    "inactive": "",
+    "naics": "721110",
+    "name": "PHR GANO OPCO SUB, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000147113",
+    "inactive": "",
+    "naics": "721110",
+    "name": "PRI I, L.P."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000130119",
+    "inactive": "",
+    "naics": "531312",
+    "name": "PRI VI, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000145614",
+    "inactive": "",
+    "naics": "721110",
+    "name": "PRI X BEVERAGE SERVICES, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000145635",
+    "inactive": "",
+    "naics": "721110",
+    "name": "PRI X, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000150273",
+    "inactive": "",
+    "naics": "531310",
+    "name": "PRI XIV, L.P."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000164103",
+    "inactive": "",
+    "naics": "531312",
+    "name": "PRI XIX GP, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000157372",
+    "inactive": "",
+    "naics": "531310",
+    "name": "PRI XIX, L.P."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000145806",
+    "inactive": "",
+    "naics": "721110",
+    "name": "PRI XVIII, L.P."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000087238",
+    "inactive": "",
+    "naics": "531110",
+    "name": "Primary Properties, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000155552",
+    "inactive": "",
+    "naics": "721110",
+    "name": "PROCACCIANTI COMPANIES, INC."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000487977",
+    "inactive": "",
+    "naics": "551114",
+    "name": "PROCACCIANTI HOSPITALITY ADVISORS XIV, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001811425",
+    "inactive": "",
+    "naics": "",
+    "name": "Reform Pilates Wickford, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000084452",
+    "inactive": "",
+    "naics": "531312",
+    "name": "RESERVOIR INVESTMENT PARTNERS, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001718091",
+    "inactive": "",
+    "naics": "531190",
+    "name": "RIMA 1149 Division Street, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001714082",
+    "inactive": "",
+    "naics": "029201",
+    "name": "RIMA 1776 Post Road, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. SUITE 1400 CRANSTON, RI  02920  USA",
+    "fein": "001740284",
+    "inactive": "",
+    "naics": "531190",
+    "name": "RIMA 1874 Mineral Spring, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001702052",
+    "inactive": "",
+    "naics": "531390",
+    "name": "RIMA 3302 East Main Road, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001699190",
+    "inactive": "",
+    "naics": "531120",
+    "name": "RIMA 533 East Main Road, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001740621",
+    "inactive": "",
+    "naics": "531390",
+    "name": "RIMA Marketplace Operating II, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001710022",
+    "inactive": "",
+    "naics": "531120",
+    "name": "RINHM, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000084650",
+    "inactive": "",
+    "naics": "531110",
+    "name": "RIP Management Company, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 500 CRANSTON, RI  02920  USA",
+    "fein": "000940992",
+    "inactive": "",
+    "naics": "721110",
+    "name": "RP HOTEL MANAGER, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000795041",
+    "inactive": "",
+    "naics": "721110",
+    "name": "RP PROVIDENCE BEVERAGE SERVICES, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000795043",
+    "inactive": "",
+    "naics": "721110",
+    "name": "RP PROVIDENCE HR LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000794753",
+    "inactive": "",
+    "naics": "721110",
+    "name": "RP PROVIDENCE, L.L.C."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 201 CRANSTON, RI  02920  USA",
+    "fein": "000694051",
+    "inactive": "",
+    "naics": "999999",
+    "name": "S. Audino & Associates, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 1200 CRANSTON, RI  02920  USA",
+    "fein": "001679109",
+    "inactive": "",
+    "naics": "721110",
+    "name": "Sabin Hotel Manager, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE, CRANSTON, RI  02920  USA",
+    "fein": "000070346",
+    "inactive": "",
+    "naics": "721110",
+    "name": "SOUTH KINGSTOWN HOTEL ASSOCIATES, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001672516",
+    "inactive": "",
+    "naics": "531390",
+    "name": "TH Investment Holdings II Investors, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001672494",
+    "inactive": "",
+    "naics": "531390",
+    "name": "TH Investment Holdings II, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000796361",
+    "inactive": "",
+    "naics": "624410",
+    "name": "The Farmhouse Preschool Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000165076",
+    "inactive": "",
+    "naics": "624410",
+    "name": "The Gingerbread House Preschool, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001329906",
+    "inactive": "",
+    "naics": "624410",
+    "name": "The Greenhouse Preschool, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000799802",
+    "inactive": "",
+    "naics": "624410",
+    "name": "The Lighthouse Preschool, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000146922",
+    "inactive": "",
+    "naics": "813219",
+    "name": "The Procaccianti Family Foundation"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000099348",
+    "inactive": "",
+    "naics": "551114",
+    "name": "THE PROCACCIANTI GROUP, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001672728",
+    "inactive": "",
+    "naics": "624410",
+    "name": "The Schoolhouse Preschool, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001797398",
+    "inactive": "",
+    "naics": "624410",
+    "name": "The Treehouse Preschool, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 201 C/O ROBERT PERETTI, ESQ. CRANSTON, RI  02920  USA",
+    "fein": "001679901",
+    "inactive": "",
+    "naics": "531120",
+    "name": "Tiffany Plaza LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001679536",
+    "inactive": "",
+    "naics": "551112",
+    "name": "TPG 100 Sabin Hotel TIFF Lender, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001671794",
+    "inactive": "",
+    "naics": "721110",
+    "name": "TPG 100 Sabin Hotel, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. FLOOR 33 CRANSTON, RI  02920  USA",
+    "fein": "001761529",
+    "inactive": "",
+    "naics": "531310",
+    "name": "TPG Berkley Development Group, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001739290",
+    "inactive": "",
+    "naics": "531110",
+    "name": "TPG Block Island EH, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000799151",
+    "inactive": "",
+    "naics": "531210",
+    "name": "TPG BROKERAGE, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000161458",
+    "inactive": "",
+    "naics": "238990",
+    "name": "TPG CONSTRUCTION, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001100132",
+    "inactive": "",
+    "naics": "551114",
+    "name": "TPG DP INVESTORS, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE 485E US HIGHWAY 1 S, 3RD FLOOR CRANSTON, RI  02920  USA",
+    "fein": "000565926",
+    "inactive": "",
+    "naics": "721110",
+    "name": "TPG HOSPITALITY MANAGEMENT SERVICES, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000086193",
+    "inactive": "",
+    "naics": "531110",
+    "name": "TPG Hotels & Resorts, Inc."
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE SUITE 103 CRANSTON, RI  02920  USA",
+    "fein": "000565928",
+    "inactive": "",
+    "naics": "531312",
+    "name": "TPG HR, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001726918",
+    "inactive": "",
+    "naics": "713930",
+    "name": "TPG Marinas Conanicut, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001723736",
+    "inactive": "",
+    "naics": "713930",
+    "name": "TPG Marinas Dutch Harbor, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001769494",
+    "inactive": "",
+    "naics": "713930",
+    "name": "TPG Marinas Overhead, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE., CRANSTON, RI  02920  USA",
+    "fein": "001794077",
+    "inactive": "",
+    "naics": "441222",
+    "name": "TPG Marinas Yacht Brokerage, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "001771795",
+    "inactive": "",
+    "naics": "722310",
+    "name": "TPG Middletown Beverage, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001753727",
+    "inactive": "",
+    "naics": "721110",
+    "name": "TPG Middletown Hotel Manager, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+    "fein": "000565925",
+    "inactive": "",
+    "naics": "561114",
+    "name": "TPG RISK SERVICES, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001770233",
+    "inactive": "",
+    "naics": "551112",
+    "name": "TPG Strategic Ventures, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVENUE FLOOR 33 CRANSTON, RI  02920  USA",
+    "fein": "001670495",
+    "inactive": "",
+    "naics": "531311",
+    "name": "TPG Warwick Hotel Manager, LLC"
+   },
+   {
+    "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+    "fein": "001753541",
+    "inactive": "",
+    "naics": "721110",
+    "name": "Wave Pond Hotel, LLC"
+   }
+  ],
+  "39 AGAR STREET": [
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "000486795",
+    "inactive": "",
+    "naics": "722410",
+    "name": "@ The Deck, LLC"
+   },
+   {
+    "address": "39 AGAR STREET APT 239 YONKERS, NY  10701  USA",
+    "fein": "001663698",
+    "inactive": "",
+    "naics": "531120",
+    "name": "20 WEST EXTENSION LLC"
+   },
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "000130735",
+    "inactive": "",
+    "naics": "481211",
+    "name": "AIR NEWPORT, LLC"
+   },
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "000084925",
+    "inactive": "",
+    "naics": "722410",
+    "name": "DOCKSIDE NORTH, LLC."
+   },
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "000081624",
+    "inactive": "",
+    "naics": "531120",
+    "name": "HARBOUR REALTY, LLC"
+   },
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "000486291",
+    "inactive": "",
+    "naics": "531120",
+    "name": "LA TAMILL, LLC"
+   },
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "001673513",
+    "inactive": "",
+    "naics": "481211",
+    "name": "NEWPORT AVIATION HOLDING, LLC"
+   },
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "000153606",
+    "inactive": "",
+    "naics": "531120",
+    "name": "Tomorl LLC"
+   },
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "000099398",
+    "inactive": "",
+    "naics": "722410",
+    "name": "Waite's Wharf Grille, LLC"
+   },
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "000104093",
+    "inactive": "",
+    "naics": "531120",
+    "name": "Waite's Wharf Realty Associates, LLC"
+   },
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "000084457",
+    "inactive": "",
+    "naics": "531190",
+    "name": "WEST WIND MARINA, LLC"
+   },
+   {
+    "address": "39 AGAR STREET YONKERS, NY  10701  USA",
+    "fein": "001036330",
+    "inactive": "",
+    "naics": "999999",
+    "name": "West Wind Wings, LLC"
+   }
+  ],
+  "39 THURSTON AVENUE": [
+   {
+    "address": "39 THURSTON AVENUE NEWPORT, RI  02840  USA",
+    "fein": "001785429",
+    "inactive": "",
+    "naics": "531110",
+    "name": "525 Broadway LLC"
+   },
+   {
+    "address": "39 THURSTON AVENUE NEWPORT, RI  02840  USA",
+    "fein": "001791382",
+    "inactive": "",
+    "naics": "531110",
+    "name": "61 Gibbs LLC"
+   },
+   {
+    "address": "39 THURSTON AVENUE NEWPORT, RI  02840  USA",
+    "fein": "001723405",
+    "inactive": "Revoked Entity",
+    "naics": "531390",
+    "name": "BCM Eastnor Partners, LLC"
+   },
+   {
+    "address": "39 THURSTON AVENUE NEWPORT, RI  02840  USA",
+    "fein": "001665539",
+    "inactive": "",
+    "naics": "236117",
+    "name": "BCM REALTY PARTNERS LLC"
+   }
+  ],
+  "8 WEST FARM RD": [
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001780276",
+    "inactive": "",
+    "naics": "531390",
+    "name": "126 Atlantic Ave LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001787023",
+    "inactive": "",
+    "naics": "531190",
+    "name": "141 POWER RD LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001774876",
+    "inactive": "",
+    "naics": "531311",
+    "name": "180 WEEDEN ST LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001794894",
+    "inactive": "",
+    "naics": "531190",
+    "name": "239 OAK ST LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001814422",
+    "inactive": "",
+    "naics": "",
+    "name": "256 PRIVILEGE STREET LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001812643",
+    "inactive": "",
+    "naics": "",
+    "name": "42 TRANSIT ST LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001802718",
+    "inactive": "",
+    "naics": "",
+    "name": "43 JENKINS STREET LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001783682",
+    "inactive": "",
+    "naics": "531190",
+    "name": "446 ATLANTIC AVE LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001770007",
+    "inactive": "",
+    "naics": "531390",
+    "name": "64 MILL ST LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001790402",
+    "inactive": "",
+    "naics": "531190",
+    "name": "7 DIKE STREET LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001794906",
+    "inactive": "",
+    "naics": "531190",
+    "name": "92 PLEASANT ST LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001795648",
+    "inactive": "",
+    "naics": "236115",
+    "name": "DUO DEVELOPMENT CORP"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001759467",
+    "inactive": "",
+    "naics": "531110",
+    "name": "J INVESTMENTS LLC"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001711713",
+    "inactive": "",
+    "naics": "531311",
+    "name": "Jacavone Investment Corp"
+   },
+   {
+    "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
+    "fein": "001669697",
+    "inactive": "",
+    "naics": "561521",
+    "name": "SAFE AND SOUND SECURITY, LLC"
+   }
+  ],
+  "8 WEST FARM RD SMITHFIELD": [],
+  "83 TELLIER WAY": [
+   {
+    "address": "83 TELLIER WAY DRACUT, MA  01826  USA",
+    "fein": "001805433",
+    "inactive": "",
+    "naics": "",
+    "name": "194 Coggeshall Avenue LLC"
+   },
+   {
+    "address": "83 TELLIER WAY DRACUT, MA  01826  USA",
+    "fein": "001794225",
+    "inactive": "",
+    "naics": "236118",
+    "name": "40 ATLANTIC STREET, LLC"
+   },
+   {
+    "address": "83 TELLIER WAY DRACUT, MA  01826  USA",
+    "fein": "001785642",
+    "inactive": "",
+    "naics": "236110",
+    "name": "ADoos Properties and Holdings LLC"
+   },
+   {
+    "address": "83 TELLIER WAY DRACUT, MA  01826  US",
+    "fein": "001811998",
+    "inactive": "",
+    "naics": "",
+    "name": "Estate Hills Real Estate & Construction LLC"
+   }
+  ]
+ },
+ "entities": {
+  "194 COGGESHALL AVENUE, LLC": {
+   "address": "83 TELLIER WAY DRACUT, MA  01826  USA",
+   "fein": "001805433",
+   "inactive": "",
+   "match": "exact",
+   "naics": "",
+   "name": "194 Coggeshall Avenue LLC",
+   "status_searched": "rdbActive"
+  },
+  "20 WEST EXTENSION, LLC": {
+   "address": "39 AGAR STREET APT 239 YONKERS, NY  10701  USA",
+   "fein": "001663698",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531120",
+   "name": "20 WEST EXTENSION LLC",
+   "status_searched": "rdbActive"
+  },
+  "49 NEWPORT HOTEL, LLC": {
+   "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+   "fein": "001774781",
+   "inactive": "",
+   "match": "exact",
+   "naics": "721110",
+   "name": "49 Newport Hotel, LLC",
+   "status_searched": "rdbActive"
+  },
+  "525 BROADWAY LLC": {
+   "address": "39 THURSTON AVENUE NEWPORT, RI  02840  USA",
+   "fein": "001785429",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531110",
+   "name": "525 Broadway LLC",
+   "status_searched": "rdbActive"
+  },
+  "AGM HOLDINGS LLC": {
+   "address": "243 JEFFERSON BLVD WARWICK, RI  02888  USA",
+   "fein": "000788461",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531120",
+   "name": "AGM HOLDINGS, LLC",
+   "status_searched": "rdbActive"
+  },
+  "BCM REALTY PARTNERS, LLC": {
+   "address": "39 THURSTON AVENUE NEWPORT, RI  02840  USA",
+   "fein": "001665539",
+   "inactive": "",
+   "match": "exact",
+   "naics": "236117",
+   "name": "BCM REALTY PARTNERS LLC",
+   "status_searched": "rdbActive"
+  },
+  "CELTIC-ROMAN GROUP, LLC": {
+   "address": "P.O. BOX 10476 CRANSTON, RI  02910  USA",
+   "fein": "000531033",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531110",
+   "name": "CELTIC ROMAN GROUP, LLC",
+   "status_searched": "rdbActive"
+  },
+  "CHAMPLIN HEIGHTS II, LLC": null,
+  "FAIRLAWN PROPERTIES LLC": {
+   "address": "404 SMITHFIELD AVE SUITE 1 PAWTUCKET, RI  02860  USA",
+   "fein": "001670784",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531390",
+   "name": "Fairlawn Properties, LLC",
+   "status_searched": "rdbActive"
+  },
+  "HARRINGTON REALTY, LLC": {
+   "address": "39 DEES CIRCLE WARWICK, RI  02889  USA",
+   "fein": "000846763",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531390",
+   "name": "HARRINGTON REALTY, LLC",
+   "status_searched": "rdbActive"
+  },
+  "JC131 REALTY LLC": {
+   "address": "169 BAY STREET PROVIDENCE, RI  02905  USA",
+   "fein": "001789880",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531110",
+   "name": "JC131 Realty, LLC",
+   "status_searched": "rdbActive"
+  },
+  "JPMW, LLC": {
+   "address": "154 SHADOW BROOK DRIVE WARWICK, RI  02886  USA",
+   "fein": "001679768",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531120",
+   "name": "JPMW, LLC",
+   "status_searched": "rdbActive"
+  },
+  "LEGO BATMAN PROPERTIES, LLC": {
+   "address": "1624 WARWICK AVENUE WARWICK, RI  02889  USA",
+   "fein": "001721363",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531312",
+   "name": "Lego Batman Properties LLC",
+   "status_searched": "rdbActive"
+  },
+  "OCEAN STATE BUILDERS LLC": {
+   "address": "144 METRO CENTER BOULEVARD UNIT F WARWICK, RI  02886  USA",
+   "fein": "000920060",
+   "inactive": "",
+   "match": "exact",
+   "naics": "236117",
+   "name": "OCEAN STATE BUILDERS, LLC",
+   "status_searched": "rdbActive"
+  },
+  "PMP GROUP LLC": {
+   "address": "103 LEO AVENUE PROVIDENCE, RI  02904  USA",
+   "fein": "001770161",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531390",
+   "name": "PMP Group LLC",
+   "status_searched": "rdbActive"
+  },
+  "PROVIDENCE STUDENT LIVING CAPITAL LLC": {
+   "address": "244 WEYBOSSET STREET PROVIDENCE, RI  02903  USA",
+   "fein": "001666011",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531110",
+   "name": "Providence Student Living Capital LLC",
+   "status_searched": "rdbActive"
+  },
+  "RI CUSTOM BUILDERS, LLC": null,
+  "SEAVIEW REALTY, LLC": {
+   "address": "62 SEAVIEW AVENUE CRANSTON, RI  02905  USA",
+   "fein": "000009971",
+   "inactive": "Revoked Entity",
+   "match": "exact",
+   "naics": "",
+   "name": "SEAVIEW REALTY CORP.",
+   "status_searched": "rdbInactive"
+  },
+  "SHM COWESETT, LLC": {
+   "address": "14785 PRESTON ROAD, SUITE 975 DALLAS, TX  75254  USA",
+   "fein": "001670608",
+   "inactive": "",
+   "match": "exact",
+   "naics": "713930",
+   "name": "SHM Cowesett, LLC",
+   "status_searched": "rdbActive"
+  },
+  "SOUTHEASTERN HOLDING, LLC": {
+   "address": "329 SOUTH STREET SOMERSET, MA  02726  USA",
+   "fein": "001800301",
+   "inactive": "",
+   "match": "exact",
+   "naics": "237210",
+   "name": "Southeastern Holding LLC",
+   "status_searched": "rdbActive"
+  }
+ },
+ "resolutions": {
+  "194 COGGESHALL AVENUE, LLC": {
+   "applicant": "194 Coggeshall Avenue, LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "cluster_address": "83 TELLIER WAY",
+    "cluster_size": 4,
+    "entity": {
+     "address": "83 TELLIER WAY DRACUT, MA  01826  USA",
+     "id": "001805433",
+     "match": "exact",
+     "naics": "",
+     "name": "194 Coggeshall Avenue LLC"
+    },
+    "named_entities": [
+     "ADoos Properties and Holdings LLC",
+     "Estate Hills Real Estate & Construction LLC"
+    ],
+    "operating_candidates": [
+     "ADoos Properties and Holdings LLC",
+     "Estate Hills Real Estate & Construction LLC"
+    ],
+    "shells": [
+     "194 Coggeshall Avenue LLC",
+     "40 ATLANTIC STREET, LLC"
+    ]
+   },
+   "reason": "ambiguous \u2014 2 operating companies share 83 TELLIER WAY (ADoos Properties and Holdings LLC, Estate Hills Real Estate & Construction LLC); choosing between them would be a guess",
+   "source": {
+    "board": "Newport Planning Board",
+    "context": "ure Demolition Application App. No. 2026-Demo-03 194 Coggeshall Avenue; TAP 37, Lot 81 Application of 194 Coggeshall Avenue, LLC, applicant and owner, to demolish a twostory single-family residential structure (constructed circa",
+    "date": "2026-08-03",
+    "municipality": "Newport",
+    "seen": 1
+   }
+  },
+  "20 WEST EXTENSION, LLC": {
+   "applicant": "20 West Extension, LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "cluster_address": "39 AGAR STREET",
+    "cluster_size": 12,
+    "entity": {
+     "address": "39 AGAR STREET APT 239 YONKERS, NY  10701  USA",
+     "id": "001663698",
+     "match": "exact",
+     "naics": "531120",
+     "name": "20 WEST EXTENSION LLC"
+    },
+    "named_entities": [
+     "@ The Deck, LLC",
+     "AIR NEWPORT, LLC",
+     "DOCKSIDE NORTH, LLC.",
+     "HARBOUR REALTY, LLC",
+     "LA TAMILL, LLC",
+     "NEWPORT AVIATION HOLDING, LLC",
+     "Tomorl LLC",
+     "Waite's Wharf Grille, LLC",
+     "Waite's Wharf Realty Associates, LLC",
+     "WEST WIND MARINA, LLC",
+     "West Wind Wings, LLC"
+    ],
+    "operating_candidates": [
+     "HARBOUR REALTY, LLC",
+     "NEWPORT AVIATION HOLDING, LLC",
+     "Waite's Wharf Realty Associates, LLC"
+    ],
+    "shells": [
+     "20 WEST EXTENSION LLC"
+    ]
+   },
+   "reason": "ambiguous \u2014 3 operating companies share 39 AGAR STREET (HARBOUR REALTY, LLC, NEWPORT AVIATION HOLDING, LLC, Waite's Wharf Realty Associates, LLC); choosing between them would be a guess",
+   "source": {
+    "board": "Newport Planning Board",
+    "context": "rfront Business Application of Harbour Realty, LLC, applicant, and Harbour Realty, LLC, and 20 West Extension, LLC, owners, to construct two new structures to the north of Waites Wharf \u2013 a hotel building with 54",
+    "date": "2025-05-15",
+    "municipality": "Newport",
+    "seen": 2
+   }
+  },
+  "49 NEWPORT HOTEL, LLC": {
+   "applicant": "49 Newport Hotel, LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "cluster_address": "1140 RESERVOIR AVE",
+    "cluster_size": 122,
+    "entity": {
+     "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
+     "id": "001774781",
+     "match": "exact",
+     "naics": "721110",
+     "name": "49 Newport Hotel, LLC"
+    }
+   },
+   "reason": "principal address is shared by 122 entities \u2014 reads as a service provider's office, not one sponsor's portfolio",
+   "source": {
+    "board": "Newport Planning Board",
+    "context": "lan App. No. 2024-DPR-02 (The Treadway Hotel) 49 America\u2019s Cup Avenue, TAP 24, Lot 178 Application of 49 Newport Hotel, LLC, applicant and owner, for the expansion of the existing transient guest facility, increasing the nu",
+    "date": "2025-10-06",
+    "municipality": "Newport",
+    "seen": 4
+   }
+  },
+  "525 BROADWAY LLC": {
+   "applicant": "525 Broadway LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "cluster_address": "39 THURSTON AVENUE",
+    "cluster_size": 4,
+    "entity": {
+     "address": "39 THURSTON AVENUE NEWPORT, RI  02840  USA",
+     "id": "001785429",
+     "match": "exact",
+     "naics": "531110",
+     "name": "525 Broadway LLC"
+    },
+    "named_entities": [
+     "BCM Eastnor Partners, LLC",
+     "BCM REALTY PARTNERS LLC"
+    ],
+    "operating_candidates": [
+     "BCM Eastnor Partners, LLC",
+     "BCM REALTY PARTNERS LLC"
+    ],
+    "shells": [
+     "525 Broadway LLC",
+     "61 Gibbs LLC"
+    ]
+   },
+   "reason": "ambiguous \u2014 2 operating companies share 39 THURSTON AVENUE (BCM Eastnor Partners, LLC, BCM REALTY PARTNERS LLC); choosing between them would be a guess",
+   "source": {
+    "board": "Newport Planning Board",
+    "context": "on \u2013 Final Plan App. No. 2025-DPR-04 0 (525) Broadway, TAP 6, Lot 1, R-10 Residential Application of 525 Broadway LLC, owner and applicant, to construct two multi-family residential buildings with a combined total",
+    "date": "2026-05-11",
+    "municipality": "Newport",
+    "seen": 13
+   }
+  },
+  "AGM HOLDINGS LLC": {
+   "applicant": "AGM Holdings LLC",
+   "confidence": "direct",
+   "developer": "AGM Holdings, LLC",
+   "evidence": {
+    "entity": {
+     "address": "243 JEFFERSON BLVD WARWICK, RI  02888  USA",
+     "id": "000788461",
+     "match": "exact",
+     "naics": "531120",
+     "name": "AGM HOLDINGS, LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Providence City Plan Commission",
+    "context": "r South Providence) CITY COUNCIL REFERRAL 2. Referral no 3613 \u2013 149 Governor Street Petitioner: AGM Holdings LLC The petitioner is requesting a rezoning of the subject lot from R-3 to R-P \u2013 for vote (",
+    "date": "2026-04-28",
+    "municipality": "Providence",
+    "seen": 2
+   }
+  },
+  "BCM REALTY PARTNERS, LLC": {
+   "applicant": "BCM Realty Partners, LLC",
+   "confidence": "direct",
+   "developer": "BCM Realty Partners LLC",
+   "evidence": {
+    "entity": {
+     "address": "39 THURSTON AVENUE NEWPORT, RI  02840  USA",
+     "id": "001665539",
+     "match": "exact",
+     "naics": "236117",
+     "name": "BCM REALTY PARTNERS LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Newport Planning Board",
+    "context": "Van Zandt Avenue & 0 Evarts Street (nearest intersection is Van Zandt Ave & Malbone Rd) Application of BCM Realty Partners, LLC, applicant and owner (under purchase & sales agreement with the City of Newport) for ada",
+    "date": "2026-06-01",
+    "municipality": "Newport",
+    "seen": 2
+   }
+  },
+  "CELTIC-ROMAN GROUP, LLC": {
+   "applicant": "Celtic-Roman Group, LLC",
+   "confidence": "direct",
+   "developer": "Celtic Roman Group, LLC",
+   "evidence": {
+    "entity": {
+     "address": "P.O. BOX 10476 CRANSTON, RI  02910  USA",
+     "id": "000531033",
+     "match": "exact",
+     "naics": "531110",
+     "name": "CELTIC ROMAN GROUP, LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Warwick Planning Board",
+    "context": "sessor\u2019s Plat: 346 Assessor\u2019s Lot: 248 Applicant: Celtic-Roman Group, LLC/Brooks Almonte Zoning: A-7 Numb",
+    "date": "2026-07-08",
+    "municipality": "Warwick",
+    "seen": 1
+   }
+  },
+  "CHAMPLIN HEIGHTS II, LLC": {
+   "applicant": "Champlin Heights II, LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database",
+   "source": {
+    "board": "Cranston Planning Commission",
+    "context": "l: Construction of 152 multifamily units with accessory uses Zoning District: B-2 Owner/Applicant: Champlin Heights II, LLC AP 20/4, Lot 2128 and AP 12/6, Lot 3108 \u25aa \u201cLegion Bowl\u201d (vote taken) MASTER PLAN -",
+    "date": "2026-06-02",
+    "municipality": "Cranston",
+    "seen": 4
+   }
+  },
+  "FAIRLAWN PROPERTIES LLC": {
+   "applicant": "Fairlawn Properties LLC",
+   "confidence": "direct",
+   "developer": "Fairlawn Properties, LLC",
+   "evidence": {
+    "entity": {
+     "address": "404 SMITHFIELD AVE SUITE 1 PAWTUCKET, RI  02860  USA",
+     "id": "001670784",
+     "match": "exact",
+     "naics": "531390",
+     "name": "Fairlawn Properties, LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Pawtucket City Planning Commission",
+    "context": "shall be moved by the affirmative vote of a majority of all the Commission\u2019s members. Hasan Iqbal applicant and Fairlawn Properties LLC owner of the property at 404 Smithfield Avenue further identified as Tax Assessors Plat 50 Lot",
+    "date": "2026-04-21",
+    "municipality": "Pawtucket",
+    "seen": 4
+   }
+  },
+  "HARRINGTON REALTY, LLC": {
+   "applicant": "Harrington Realty, LLC",
+   "confidence": "direct",
+   "developer": "Harrington Realty, LLC",
+   "evidence": {
+    "entity": {
+     "address": "39 DEES CIRCLE WARWICK, RI  02889  USA",
+     "id": "000846763",
+     "match": "exact",
+     "naics": "531390",
+     "name": "HARRINGTON REALTY, LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Warwick Planning Board",
+    "context": "ssessor\u2019s Plat: 379 Assessor\u2019s Lot: 62 Applicant: Harrington Realty, LLC Zoning: Residence A-10 District N",
+    "date": "2026-08-12",
+    "municipality": "Warwick",
+    "seen": 6
+   }
+  },
+  "JC131 REALTY LLC": {
+   "applicant": "JC131 Realty LLC",
+   "confidence": "direct",
+   "developer": "JC131 Realty, LLC",
+   "evidence": {
+    "entity": {
+     "address": "169 BAY STREET PROVIDENCE, RI  02905  USA",
+     "id": "001789880",
+     "match": "exact",
+     "naics": "531110",
+     "name": "JC131 Realty, LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Providence City Plan Commission",
+    "context": "RRAL 1. Referral no 3612 \u2013 Eddy St, Bay St, O\u2019Connell St and Sherburne Street rezoning Petitioner: JC131 Realty LLC c/o Jeffrey Audet The petitioner is requesting a rezoning of the subject lots from M-MU",
+    "date": "2026-04-28",
+    "municipality": "Providence",
+    "seen": 2
+   }
+  },
+  "JPMW, LLC": {
+   "applicant": "JPMW, LLC",
+   "confidence": "direct",
+   "developer": "JPMW, LLC",
+   "evidence": {
+    "entity": {
+     "address": "154 SHADOW BROOK DRIVE WARWICK, RI  02886  USA",
+     "id": "001679768",
+     "match": "exact",
+     "naics": "531120",
+     "name": "JPMW, LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Warwick Planning Board",
+    "context": "\u2019s Plat: 365 Assessor\u2019s Lots: 56-59 & 65-67 Applicant: JPMW, LLC. Zoned: Residential A-7 & A-40 Number of proposed lots",
+    "date": "2026-05-13",
+    "municipality": "Warwick",
+    "seen": 3
+   }
+  },
+  "LEGO BATMAN PROPERTIES, LLC": {
+   "applicant": "Lego Batman Properties, LLC",
+   "confidence": "direct",
+   "developer": "Lego Batman Properties LLC",
+   "evidence": {
+    "entity": {
+     "address": "1624 WARWICK AVENUE WARWICK, RI  02889  USA",
+     "id": "001721363",
+     "match": "exact",
+     "naics": "531312",
+     "name": "Lego Batman Properties LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Warwick Planning Board",
+    "context": "rwick Ave Assessor\u2019s Plat: 319 Assessor\u2019s Lots: 68 Applicant: Lego Batman Properties, LLC Zoned: General Business Area: ",
+    "date": "2026-05-13",
+    "municipality": "Warwick",
+    "seen": 1
+   }
+  },
+  "OCEAN STATE BUILDERS LLC": {
+   "applicant": "Ocean State Builders LLC",
+   "confidence": "direct",
+   "developer": "Ocean State Builders, LLC",
+   "evidence": {
+    "entity": {
+     "address": "144 METRO CENTER BOULEVARD UNIT F WARWICK, RI  02886  USA",
+     "id": "000920060",
+     "match": "exact",
+     "naics": "236117",
+     "name": "OCEAN STATE BUILDERS, LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Warwick Planning Board",
+    "context": "e and Canfield Avenue Assessor\u2019s Plat: 361 Assessor\u2019s Lot(s): 394, 395, 438 and 439 Applicant: Ocean State Builders LLC. Zoned: A7 Land Area: 12,800 sq ft. Ward: 6 Designer: Ocean State Planners",
+    "date": "2026-05-13",
+    "municipality": "Warwick",
+    "seen": 1
+   }
+  },
+  "PMP GROUP LLC": {
+   "applicant": "PMP Group LLC",
+   "confidence": "direct",
+   "developer": "PMP Group LLC",
+   "evidence": {
+    "entity": {
+     "address": "103 LEO AVENUE PROVIDENCE, RI  02904  USA",
+     "id": "001770161",
+     "match": "exact",
+     "naics": "531390",
+     "name": "PMP Group LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Providence City Plan Commission",
+    "context": "hington Park) MINOR LAND DEVELOPMENT PROJECT 2. Case no 26-047MIL \u2013 203 Douglas Ave Owner: PMP Group LLC \u2013 continued to the August 18 meeting at the applicant\u2019s request The applicant is propos",
+    "date": "2026-07-28",
+    "municipality": "Providence",
+    "seen": 2
+   }
+  },
+  "PROVIDENCE STUDENT LIVING CAPITAL LLC": {
+   "applicant": "Providence Student Living Capital LLC",
+   "confidence": "direct",
+   "developer": "Providence Student Living Capital LLC",
+   "evidence": {
+    "entity": {
+     "address": "244 WEYBOSSET STREET PROVIDENCE, RI  02903  USA",
+     "id": "001666011",
+     "match": "exact",
+     "naics": "531110",
+     "name": "Providence Student Living Capital LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Providence City Plan Commission",
+    "context": "AND DEVELOPMENT PROJECT \u2013 REQUEST FOR EXTENSION 1. Case no 25-009MIL \u2013 386 Ives Street Owner: Providence Student Living Capital LLC The petitioner is requesting a one year extension of the validity of the preliminary pl",
+    "date": "2026-05-19",
+    "municipality": "Providence",
+    "seen": 2
+   }
+  },
+  "RI CUSTOM BUILDERS, LLC": {
+   "applicant": "RI Custom Builders, LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database",
+   "source": {
+    "board": "Warwick Planning Board",
+    "context": "Ave) Assessor\u2019s Plat: 251 Assessor\u2019s Lots: 11 & 12 Applicant: RI Custom Builders, LLC. Zoned: A7/PDR Number of Lots: 2 Prop",
+    "date": "2026-06-10",
+    "municipality": "Warwick",
+    "seen": 3
+   }
+  },
+  "SEAVIEW REALTY, LLC": {
+   "applicant": "Seaview Realty, LLC",
+   "confidence": "direct",
+   "developer": "Seaview Realty Corp.",
+   "evidence": {
+    "entity": {
+     "address": "62 SEAVIEW AVENUE CRANSTON, RI  02905  USA",
+     "id": "000009971",
+     "match": "exact",
+     "naics": "",
+     "name": "SEAVIEW REALTY CORP."
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Warwick Planning Board",
+    "context": " 300 Assessor\u2019s Lot: 110, 128, 247, 295, 296 & 331 Applicant: Seaview Realty, LLC. Zoning: Residence A-10 District Number of Lots: ",
+    "date": "2026-06-10",
+    "municipality": "Warwick",
+    "seen": 4
+   }
+  },
+  "SHM COWESETT, LLC": {
+   "applicant": "SHM Cowesett, LLC",
+   "confidence": "direct",
+   "developer": "SHM Cowesett, LLC",
+   "evidence": {
+    "entity": {
+     "address": "14785 PRESTON ROAD, SUITE 975 DALLAS, TX  75254  USA",
+     "id": "001670608",
+     "match": "exact",
+     "naics": "713930",
+     "name": "SHM Cowesett, LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Warwick Planning Board",
+    "context": "ue Assessor\u2019s Plat: 365 Assessor\u2019s Lots: 172 & 167 Applicant: SHM Cowesett, LLC. Zoned: Waterfront Business Number of Lots: ",
+    "date": "2026-06-10",
+    "municipality": "Warwick",
+    "seen": 1
+   }
+  },
+  "SOUTHEASTERN HOLDING, LLC": {
+   "applicant": "Southeastern Holding, LLC",
+   "confidence": "direct",
+   "developer": "Southeastern Holding LLC",
+   "evidence": {
+    "entity": {
+     "address": "329 SOUTH STREET SOMERSET, MA  02726  USA",
+     "id": "001800301",
+     "match": "exact",
+     "naics": "237210",
+     "name": "Southeastern Holding LLC"
+    }
+   },
+   "reason": "applicant is already a named operating company, not a shell",
+   "source": {
+    "board": "Newport Planning Board",
+    "context": "ure Demolition Application App. No. 2026-Demo-04 46 East Bowery Street; TAP 34, Lot 13 Application of Southeastern Holding, LLC, applicant and owner, to demolish a oneand- a-half-story single-family residential struct",
+    "date": "2026-08-03",
+    "municipality": "Newport",
+    "seen": 2
+   }
+  }
+ }
+}
