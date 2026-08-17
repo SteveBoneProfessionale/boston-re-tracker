@@ -117,6 +117,22 @@ def is_single_purpose_shell(name: str) -> bool:
     return bool(_STREET_WORDS.search(n) or _LEGAL_SUFFIX.search(n))
 
 
+# Abbreviations that differ between an agenda and the registry record for the
+# same company. "RI Custom Builders, LLC" on a Warwick agenda is registered as
+# "Rhode Island Custom Builders" -- without expansion the exact-match rule
+# rejects it and the company is reported as absent from the database.
+_ABBREV = [
+    (r"\bRI\b", "RHODE ISLAND"),
+    (r"\bMA\b", "MASSACHUSETTS"),
+    (r"\bNE\b", "NEW ENGLAND"),
+    (r"\bINTL\b", "INTERNATIONAL"),
+    (r"\bDEV\b", "DEVELOPMENT"),
+    (r"\bPROPS\b", "PROPERTIES"),
+    (r"\bMGMT\b", "MANAGEMENT"),
+    (r"\bASSOC\b", "ASSOCIATES"),
+]
+
+
 def _norm_name(name: str) -> str:
     """Comparison key: drop punctuation, legal suffix and spacing."""
     # Hyphens and ampersands are styling, not identity: "Celtic-Roman Group"
@@ -124,6 +140,8 @@ def _norm_name(name: str) -> str:
     n = re.sub(r"[.,&'\-/]", " ", (name or "").upper())
     n = _LEGAL_SUFFIX.sub("", n)
     n = re.sub(r"\b(LLC|INC|CORP|CO|LP|LTD|LLP|COMPANY|TRUST)\b", " ", n)
+    for pat, full in _ABBREV:
+        n = re.sub(pat, full, n)
     return re.sub(r"\s+", " ", n).strip()
 
 

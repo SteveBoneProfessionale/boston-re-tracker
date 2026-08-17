@@ -50,6 +50,11 @@ PATTERNS = [
 ]
 
 # Boilerplate that trips the suffix pattern but is not an applicant.
+_PROJECT_ADDRESS = re.compile(
+    r"\b(\d{1,5}[A-Za-z]?\s+[\w'\-]+(?:\s+[\w'\-]+){0,3}\s+"
+    r"(?:Street|St|Avenue|Ave|Road|Rd|Drive|Dr|Lane|Ln|Boulevard|Blvd|Place|Pl|"
+    r"Court|Ct|Terrace|Ter|Way|Highway|Hwy|Square|Sq))\b", re.I)
+
 _NOISE = re.compile(
     r"\b(city of|town of|department|commission|board|authority|university|"
     r"college|school|church|housing authority|redevelopment agency)\b", re.I)
@@ -99,10 +104,19 @@ def extract_applicants() -> "OrderedDict[str, dict]":
                     if key in found:
                         found[key]["seen"] += 1
                         continue
+                    # Capture the PROJECT address from the agenda. The entity's
+                    # registry address is its corporate principal office, which
+                    # for a shell is a back-office: 49 Newport Hotel LLC lists
+                    # 1140 Reservoir Ave, while the project is 49 America's Cup
+                    # Avenue. Researching the registry address searches the
+                    # wrong parcel entirely.
+                    window = text[max(0, m.start() - 260): m.end() + 260]
+                    am = _PROJECT_ADDRESS.search(window)
                     found[key] = {
                         "name": name, "seen": 1,
                         "municipality": meeting["municipality"],
                         "board": meeting["board"], "date": meeting["date"],
+                        "project_address": (am.group(1).strip() if am else ""),
                         "context": re.sub(r"\s+", " ", text[max(0, m.start() - 90): m.end() + 90]),
                     }
     return found
@@ -128,7 +142,8 @@ def main(limit: int):
             for i, a in enumerate(sample, 1):
                 log.info("[%2d/%d] %s", i, len(sample), a["name"])
                 rec = resolve(client, a["name"], cache)
-                rec["source"] = {k: a[k] for k in ("municipality", "board", "date", "seen", "context")}
+                rec["source"] = {k: a[k] for k in ("municipality", "board", "date", "seen",
+                                                   "context", "project_address")}
                 results.append(rec)
                 log.info("        -> %s", rec["developer"] or f"NULL — {rec['reason']}")
     finally:

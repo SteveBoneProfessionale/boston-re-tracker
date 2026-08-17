@@ -436,7 +436,12 @@ if __name__ == "__main__":
             targets = [r for r in rows if not r["developer"]]
             log.info("Unresolved from registry tier: %d\n", len(targets))
             for r in targets:
-                addr = r["evidence"].get("entity", {}).get("address") or r["applicant"]
+                # Project address from the agenda, NOT the registry principal
+                # address -- for a shell the latter is a back-office and
+                # researching it searches the wrong parcel.
+                addr = (r["source"].get("project_address")
+                        or r["evidence"].get("entity", {}).get("address")
+                        or r["applicant"])
                 res = resolve_web(client, r["applicant"], addr,
                                   r["source"].get("context", ""), cache)
                 log.info("%-30s -> %s", r["applicant"],
