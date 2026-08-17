@@ -1,0 +1,170 @@
+{
+ "1091666_1.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 39,
+  "usage": {
+   "in": 1773,
+   "out": 13,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "Providence City Plan Commission",
+  "date": "2026-07-28",
+  "kind": "agenda"
+ },
+ "1091666_3.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 8406,
+  "usage": {
+   "in": 6398,
+   "out": 2134,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "Providence City Plan Commission",
+  "date": "2026-07-28",
+  "kind": "minutes"
+ },
+ "1089855_1.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 22251,
+  "usage": {
+   "in": 20366,
+   "out": 5154,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "I-195 Redevelopment District Commission",
+  "date": "2026-06-03",
+  "kind": "minutes"
+ },
+ "1089305_1.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 5031,
+  "usage": {
+   "in": 4846,
+   "out": 1356,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "Providence City Plan Commission",
+  "date": "2026-05-19",
+  "kind": "minutes"
+ },
+ "1088760_1.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 36,
+  "usage": {
+   "in": 1776,
+   "out": 16,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "Providence City Plan Commission",
+  "date": "2026-05-07",
+  "kind": "agenda"
+ },
+ "1088760_2.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 5593,
+  "usage": {
+   "in": 4846,
+   "out": 1351,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "Providence City Plan Commission",
+  "date": "2026-05-07",
+  "kind": "minutes"
+ },
+ "1088206_1.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 7574,
+  "usage": {
+   "in": 6398,
+   "out": 2005,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "Providence City Plan Commission",
+  "date": "2026-04-28",
+  "kind": "minutes"
+ },
+ "1087888_1.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 14431,
+  "usage": {
+   "in": 14158,
+   "out": 3718,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "I-195 Redevelopment District Commission",
+  "date": "2026-04-15",
+  "kind": "minutes"
+ },
+ "1086853_1.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 43,
+  "usage": {
+   "in": 1777,
+   "out": 17,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "Providence City Plan Commission",
+  "date": "2026-03-31",
+  "kind": "agenda"
+ },
+ "1086853_3.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 8937,
+  "usage": {
+   "in": 6398,
+   "out": 2446,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "Providence City Plan Commission",
+  "date": "2026-03-31",
+  "kind": "minutes"
+ },
+ "1085900_1.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 101,
+  "usage": {
+   "in": 1785,
+   "out": 25,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "Providence City Plan Commission",
+  "date": "2026-03-03",
+  "kind": "agenda"
+ },
+ "1085900_2.txt": {
+  "model": "claude-haiku-4-5",
+  "chars": 12740,
+  "usage": {
+   "in": 7950,
+   "out": 3109,
+   "cache_read": 0,
+   "truncated": false
+  },
+  "municipality": "Providence",
+  "board": "Providence City Plan Commission",
+  "date": "2026-03-03",
+  "kind": "minutes"
+ }
+}

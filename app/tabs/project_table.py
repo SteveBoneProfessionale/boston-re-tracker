@@ -278,6 +278,23 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
         unsafe_allow_html=True,
     )
 
+    # A stage derived from an agenda alone means the project was SCHEDULED at
+    # that stage, not that the outcome was recorded. Surfacing this is the whole
+    # point of the two-field split -- without it, "heard at Final Plan" and
+    # "Final Plan approved" would look identical on the detail view.
+    if p.get("stage_provisional"):
+        heard = p.get("stage_heard") or p.get("stage") or "—"
+        st.markdown(
+            f'<div style="border:1px solid #f59e0b;background:rgba(245,158,11,0.08);'
+            f'padding:10px 16px;margin:10px 0;font-family:{_MONO};font-size:11px;'
+            f'color:#f59e0b;line-height:1.5">'
+            f'⚠ STAGE NOT CONFIRMED — this project was heard at <b>{heard}</b> per the '
+            f'meeting agenda, but no minutes recording the outcome are available, so the '
+            f'vote result is unknown. The stage shown reflects the furthest stage reached '
+            f'on an agenda, not an approval.</div>',
+            unsafe_allow_html=True,
+        )
+
     if p.get("conditional_alternative"):
         st.markdown(
             f'<div style="border:1px solid #f59e0b;background:rgba(245,158,11,0.08);'

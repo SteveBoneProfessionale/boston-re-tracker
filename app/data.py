@@ -43,6 +43,44 @@ STAGE_COLORS = {
 }
 STAGE_ORDER = ["Planning", "Permitting", "Approved", "Under Construction", "Complete"]
 
+# Rhode Island review-stage vocabulary -> canonical stage. Derived empirically
+# from 240 development items across all five municipalities' Tier 1 boards
+# (see scraper/ri_vocab_analysis.py), not from the statute alone.
+#
+# Two entries are additions to the original proposal:
+#   "Development Plan Review" -- absent from the starting mapping but the
+#     dominant vocabulary outside Providence (18 of 20 Newport items, 18 of 31
+#     Warwick, 26 of 58 Cranston). Under RIGL 45-23 it runs administratively
+#     (one stage) or formally (preliminary + final), so bare DPR is Permitting
+#     and "DPR - Final Plan" is Approved.
+#   "Rezoning" -- City Council referrals appearing on CPC agendas. Earliest
+#     pipeline signal, so Planning. Per the Tier 3 decision on Providence
+#     Zoning Commission, these link to a parcel and never create a record.
+RI_STAGE_MAP = {
+    "Pre-application Conference":        "Planning",
+    "Informational / No Vote":           "Planning",
+    "Master Plan":                       "Planning",
+    "Conceptual":                        "Planning",
+    "Rezoning":                          "Planning",
+    "Preliminary Plan":                  "Permitting",
+    "Development Plan Review":           "Permitting",
+    "Unified Development Review":        "Permitting",
+    "Special Use Permit":                "Permitting",
+    "Combined Master and Preliminary":   "Permitting",
+    "Final Plan":                        "Approved",
+    "Development Plan Review - Final":   "Approved",
+    "Administrative Review":             "Approved",
+    "Plan Recorded":                     "Approved",
+}
+
+# Events that are recorded in stage history but must NEVER move the current
+# stage: an extension does not advance a project, a continuance is a non-event,
+# and a waiver or modification is an attribute of a filing.
+RI_NON_ADVANCING = {
+    "Extension", "Modification", "Continued", "Waiver", "Dimensional Variance",
+    "Use Variance",
+}
+
 # ── Market registry ─────────────────────────────────────────────────────
 # One entry per municipality. Everything that varies by market lives here,
 # so chart and filter components stay city-agnostic: they look values up in
@@ -74,6 +112,22 @@ MARKETS: dict[str, dict] = {
     "Revere": {"market": "Massachusetts", "stage_map": STAGE_MAP_BOSTON, "review_scale_vocab": None},
     "Woburn": {"market": "Massachusetts", "stage_map": STAGE_MAP_BOSTON, "review_scale_vocab": None},
 }
+
+# Rhode Island municipalities share one vocabulary and one constraint.
+#
+# reachable_stages makes Under Construction and Complete STRUCTURALLY
+# unreachable rather than merely unlikely: across 240 development items those
+# two stages had exactly zero occurrences, because agendas and minutes never
+# report groundbreaking or occupancy. Enforcing it here means no future parser
+# change or extraction bug can quietly start populating them -- a project that
+# is approved stays Approved until a source that actually knows says otherwise.
+for _ri_city in ("Providence", "Cranston", "Pawtucket", "Newport", "Warwick"):
+    MARKETS[_ri_city] = {
+        "market": "Rhode Island",
+        "stage_map": RI_STAGE_MAP,
+        "review_scale_vocab": ["Major", "Minor", "Administrative"],   # RIGL 45-23
+        "reachable_stages": ["Planning", "Permitting", "Approved"],
+    }
 
 # Unregistered cities behave exactly as they did before the registry existed:
 # Boston's stage vocabulary, no scale classification.
@@ -142,7 +196,54 @@ def market_of(city: str) -> str:
 
 
 def normalize_stage(status: str, city: str) -> str:
-    return MARKETS.get(city, _DEFAULT_MARKET)["stage_map"].get(status, "")
+    entry = MARKETS.get(city, _DEFAULT_MARKET)
+    stage = entry["stage_map"].get(status, "")
+    return _enforce_reachable(stage, entry)
+
+
+def _enforce_reachable(stage: str, entry: dict) -> str:
+    """Drop a stage a market cannot legitimately reach.
+
+    Returns "" rather than silently downgrading, so the reconciliation warning
+    on the Overview tab surfaces it instead of it passing as a real value.
+    """
+    allowed = entry.get("reachable_stages")
+    if stage and allowed and stage not in allowed:
+        return ""
+    return stage
+
+
+def resolve_stage(city: str, status: str, heard: str | None,
+                  confirmed: str | None) -> tuple[str, bool]:
+    """The stage to chart, and whether it is provisional.
+
+    Markets whose source records an outcome (Boston, Cambridge) keep driving
+    stage off their native status. Rhode Island carries two fields instead:
+    `confirmed` comes from minutes and is authoritative; `heard` comes from the
+    agenda and means only "this project was scheduled at this stage".
+
+    Provisional (True) means the stage came from an agenda with no minutes to
+    confirm it. The UI must surface that -- a project must never read as
+    Approved on the strength of having been scheduled for a vote.
+    """
+    entry = MARKETS.get(city, _DEFAULT_MARKET)
+    if confirmed:
+        return _enforce_reachable(_as_stage(confirmed, entry), entry), False
+    if heard:
+        return _enforce_reachable(_as_stage(heard, entry), entry), True
+    return normalize_stage(status or "", city), False
+
+
+def _as_stage(value: str, entry: dict) -> str:
+    """Accept either a canonical stage or a market's native review-stage label.
+
+    Ingestion reads a review-stage label off an agenda ("Preliminary Plan");
+    storing the canonical stage is preferred, but accepting both means a stored
+    label is mapped rather than silently discarded as unrecognized.
+    """
+    if value in STAGE_ORDER:
+        return value
+    return entry["stage_map"].get(value, "")
 
 
 def review_scale_vocab(cities) -> list[str]:
@@ -203,7 +304,8 @@ def load_projects() -> pd.DataFrame:
                 "city": p.city or "Boston",
                 "market": market_of(p.city or "Boston"),
                 "equity_partner": p.equity_partner or "",
-                "stage": normalize_stage(p.status or "", p.city or "Boston"),
+                "stage_heard": p.stage_heard or "",
+                "stage_confirmed": p.stage_confirmed or "",
                 # Cambridge Development Log fields (blank for Boston rows)
                 "cambridge_project_id": p.cambridge_project_id or "",
                 "permit_type": p.permit_type or "",
@@ -229,6 +331,15 @@ def load_projects() -> pd.DataFrame:
             })
         df = pd.DataFrame(rows)
         if not df.empty:
+            # Charted stage plus whether it is agenda-only. Computed here so
+            # every consumer sees the same resolution and no component has to
+            # know which markets carry two-field status.
+            resolved = [
+                resolve_stage(r["city"], r["status"], r["stage_heard"], r["stage_confirmed"])
+                for r in rows
+            ]
+            df["stage"] = [s for s, _ in resolved]
+            df["stage_provisional"] = [p for _, p in resolved]
             # A row's financial fields (total_gsf, residential_units, etc.) are ready to
             # chart once extraction has run, OR immediately if the row came from a
             # structured-data pipeline that never needed extraction in the first place.

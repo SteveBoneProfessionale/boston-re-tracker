@@ -57,6 +57,9 @@ def init_db():
     _add_column_if_missing("projects", "review_scale_raw", "VARCHAR")
     # Verbatim source asset classification, preserved across canonical folds
     _add_column_if_missing("projects", "asset_class_raw", "VARCHAR")
+    # Two-field status: stage heard on an agenda vs stage confirmed in minutes
+    _add_column_if_missing("projects", "stage_heard", "VARCHAR")
+    _add_column_if_missing("projects", "stage_confirmed", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 

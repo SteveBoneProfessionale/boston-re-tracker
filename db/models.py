@@ -33,6 +33,18 @@ class Project(Base):
     review_scale = Column(String)
     review_scale_raw = Column(String)
 
+    # Two-field status. Agendas are published BEFORE a meeting and state only
+    # that an item is scheduled ("for vote"), never the outcome -- outcomes live
+    # in minutes. Conflating the two would let a project read as Approved when
+    # all that is known is that it was scheduled for a vote.
+    #   stage_heard      furthest stage the project has been HEARD at (agendas)
+    #   stage_confirmed  outcome actually recorded in minutes (null until then)
+    # The stage shown on charts is confirmed where it exists, else heard; see
+    # app/data.py::resolve_stage. Boston and Cambridge leave both null and keep
+    # driving `stage` off their native status, unchanged.
+    stage_heard = Column(String)
+    stage_confirmed = Column(String)
+
     # Extracted fields (populated after PDF processing)
     developer = Column(String)
     developer_canonical = Column(String)          # normalized parent company name
