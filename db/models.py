@@ -23,10 +23,24 @@ class Project(Base):
     project_scale = Column(String)             # "Large Project" | "Small Project" | None (from BPDA tags)
     skip_reason = Column(String)               # why this project was excluded from PDF processing
 
+    # Normalized review scale. `review_scale` is the value the Review Scale chart
+    # reads -- one column for every market, so the chart never branches on city.
+    # Each market's permitted values are declared in app/data.py::MARKETS
+    # ("review_scale_vocab"); a market whose statute has no scale classification
+    # (Cambridge) declares None, which the UI renders as "not applicable" rather
+    # than as an empty chart. `review_scale_raw` keeps the source's verbatim
+    # wording for the detail view, same split as stage vs. status.
+    review_scale = Column(String)
+    review_scale_raw = Column(String)
+
     # Extracted fields (populated after PDF processing)
     developer = Column(String)
     developer_canonical = Column(String)          # normalized parent company name
-    asset_class = Column(String)
+    asset_class = Column(String)                  # canonical value only -- see app/data.py::ASSET_CLASSES
+    asset_class_raw = Column(String)              # verbatim source classification before canonicalization,
+                                                    # so a fold (e.g. Cambridge's "Fire Department" ->
+                                                    # "Institutional") stays recoverable. Same split as
+                                                    # review_scale vs review_scale_raw.
     total_gsf = Column(Integer)
     residential_units = Column(Integer)
     commercial_gsf = Column(Integer)

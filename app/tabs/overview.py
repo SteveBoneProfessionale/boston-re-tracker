@@ -5,7 +5,10 @@ import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
 
-from app.data import summary_stats, STAGE_COLORS, STAGE_ORDER
+from app.data import (
+    summary_stats, STAGE_COLORS, STAGE_ORDER,
+    REVIEW_SCALE_COLORS, review_scale_vocab,
+)
 
 _BG      = "#0d0f12"
 _BG2     = "#141720"
@@ -457,54 +460,76 @@ T.forEach(t=>{{
 
     with col_f:
         _section("REVIEW SCALE", mt=14)
-        scale_counts = (
-            df["project_scale"].replace("", pd.NA).dropna()
-            .value_counts().reset_index()
-        )
-        scale_counts.columns = ["scale", "count"]
-        scale_counts = scale_counts.sort_values("count", ascending=True)
-        scale_color_map = {"Large Project": _ORANGE, "Small Project": _TEAL}
-        scale_counts["color"] = scale_counts["scale"].map(scale_color_map).fillna(_MUTED)
-        x_max_scale = scale_counts["count"].max() * 1.45
-        fig_scale = go.Figure(go.Bar(
-            x=scale_counts["count"],
-            y=scale_counts["scale"],
-            orientation="h",
-            marker_color=scale_counts["color"].tolist(),
-            marker_line_width=0,
-            cliponaxis=False,
-            text=scale_counts["count"],
-            textposition="outside",
-            textfont=dict(family=_MONO, size=9, color=_MUTED),
-            hovertemplate="%{y}: %{x}<extra></extra>",
-        ))
-        fig_scale.update_layout(
-            **_chart_base(200),
-            margin=dict(l=0, r=4, t=6, b=4),
-            showlegend=False,
-            yaxis=dict(**_yaxis(), ticks="", showline=False),
-        )
-        fig_scale.update_xaxes(
-            visible=False,
-            showticklabels=False,
-            showgrid=False,
-            zeroline=False,
-            rangeslider=dict(visible=False),
-        )
-        st.plotly_chart(fig_scale, use_container_width=True, config={"displayModeBar": False})
-        scale_legend = "".join(
-            f'<div style="display:flex;align-items:center;gap:5px">'
-            f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;'
-            f'background:{color};flex-shrink:0"></span>'
-            f'<span style="color:{_MUTED};text-transform:uppercase;letter-spacing:0.08em">{label}</span>'
-            f'</div>'
-            for label, color in [("Large Project", _ORANGE), ("Small Project", _TEAL)]
-        )
-        st.markdown(
-            f'<div style="display:flex;align-items:center;gap:20px;padding:4px 0 8px;'
-            f'font-family:{_MONO};font-size:9px">{scale_legend}</div>',
-            unsafe_allow_html=True,
-        )
+        # Reads only the normalized `review_scale` column -- no market branches
+        # here. Which values are possible, and whether the concept applies at
+        # all, come from the market registry (app/data.py::MARKETS), so a new
+        # market is a registry entry rather than a change to this chart.
+        vocab = review_scale_vocab(df["city"].unique())
+        if not vocab:
+            # Distinct from "no data": these markets have no statutory scale
+            # classification, so an empty chart would misread as missing data.
+            cities_here = sorted({c for c in df["city"].unique() if c})
+            who = cities_here[0] if len(cities_here) == 1 else "The selected market(s)"
+            st.markdown(
+                f'<div style="border:1px solid {_BORDER};background:{_BG2};padding:22px 16px;'
+                f'font-family:{_MONO};font-size:11px;color:{_MUTED};line-height:1.6;height:200px;'
+                f'display:flex;align-items:center;justify-content:center;text-align:center">'
+                f'NOT APPLICABLE — {who} {"does" if len(cities_here) == 1 else "do"} not '
+                f'classify projects by review scale.</div>',
+                unsafe_allow_html=True,
+            )
+            st.markdown('<div style="height:26px"></div>', unsafe_allow_html=True)
+        else:
+            scale_counts = (
+                df["review_scale"].replace("", pd.NA).dropna()
+                .value_counts().reset_index()
+            )
+            scale_counts.columns = ["scale", "count"]
+            scale_counts = scale_counts.sort_values("count", ascending=True)
+            scale_counts["color"] = scale_counts["scale"].map(REVIEW_SCALE_COLORS).fillna(_MUTED)
+            x_max_scale = scale_counts["count"].max() * 1.45 if len(scale_counts) else 1
+            fig_scale = go.Figure(go.Bar(
+                x=scale_counts["count"],
+                y=scale_counts["scale"],
+                orientation="h",
+                marker_color=scale_counts["color"].tolist(),
+                marker_line_width=0,
+                cliponaxis=False,
+                text=scale_counts["count"],
+                textposition="outside",
+                textfont=dict(family=_MONO, size=9, color=_MUTED),
+                hovertemplate="%{y}: %{x}<extra></extra>",
+            ))
+            fig_scale.update_layout(
+                **_chart_base(200),
+                margin=dict(l=0, r=4, t=6, b=4),
+                showlegend=False,
+                yaxis=dict(**_yaxis(), ticks="", showline=False),
+            )
+            fig_scale.update_xaxes(
+                visible=False,
+                showticklabels=False,
+                showgrid=False,
+                zeroline=False,
+                rangeslider=dict(visible=False),
+            )
+            st.plotly_chart(fig_scale, use_container_width=True, config={"displayModeBar": False})
+            # Legend covers the full vocabulary of the markets in scope, not
+            # just the values that happen to be present, so a tier with zero
+            # projects still reads as a tier rather than as a missing category.
+            scale_legend = "".join(
+                f'<div style="display:flex;align-items:center;gap:5px">'
+                f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;'
+                f'background:{REVIEW_SCALE_COLORS.get(label, _MUTED)};flex-shrink:0"></span>'
+                f'<span style="color:{_MUTED};text-transform:uppercase;letter-spacing:0.08em">{label}</span>'
+                f'</div>'
+                for label in vocab
+            )
+            st.markdown(
+                f'<div style="display:flex;align-items:center;gap:20px;padding:4px 0 8px;'
+                f'font-family:{_MONO};font-size:9px;flex-wrap:wrap">{scale_legend}</div>',
+                unsafe_allow_html=True,
+            )
 
     # ── Largest projects table — full width below both columns ───────
     extracted = df[has_financials & df["total_gsf"].notna()]

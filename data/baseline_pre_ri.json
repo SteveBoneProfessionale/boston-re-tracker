@@ -1,0 +1,130 @@
+{
+ "Boston": {
+  "projects": 403,
+  "stage_counts": {
+   "Planning": 11,
+   "Permitting": 70,
+   "Approved": 316,
+   "Under Construction": 6,
+   "Complete": 0
+  },
+  "total_gsf": 87116067,
+  "total_units": 40901,
+  "scale": {
+   "Large Project": 206,
+   "Small Project": 187,
+   "": 10
+  },
+  "asset_class_gsf": {
+   "Hotel": 1376526,
+   "Industrial": 574376,
+   "Institutional": 863478,
+   "Lab/Research": 2634795,
+   "Mixed-Use": 65408447,
+   "Office": 1322045,
+   "Other": 330036,
+   "Parking": 321255,
+   "Residential": 12456348,
+   "Retail": 10600
+  },
+  "top_devs": {
+   "HYM Investment Group": 7,
+   "WS Development": 7,
+   "City Realty": 6,
+   "Core Investments": 5,
+   "New England Development": 5,
+   "Cedarwood Development": 4,
+   "Madison Park Development Corporation": 4,
+   "DND Homes": 4,
+   "Planning Office for Urban Affairs": 4,
+   "Related Beal": 4
+  },
+  "nbhd_counts": {
+   "Dorchester": 55,
+   "South Boston": 37,
+   "Allston": 32,
+   "Roxbury": 32,
+   "Brighton": 31,
+   "East Boston": 27,
+   "South Boston Waterfront": 22,
+   "Jamaica Plain": 19,
+   "Downtown": 18,
+   "Fenway": 17,
+   "Mission Hill": 16,
+   "Roslindale": 14,
+   "Hyde Park": 13,
+   "Charlestown": 12,
+   "South End": 10,
+   "Back Bay": 10,
+   "Mattapan": 10,
+   "West Roxbury": 8,
+   "West End": 8,
+   "Chinatown": 4,
+   "Leather District": 3,
+   "North End": 2,
+   "Beacon Hill": 1,
+   "Longwood Medical Area": 1,
+   "Financial District": 1
+  },
+  "null_dev": 67,
+  "geocoded": 390,
+  "conditional": 0
+ },
+ "Cambridge": {
+  "projects": 67,
+  "stage_counts": {
+   "Planning": 11,
+   "Permitting": 4,
+   "Approved": 20,
+   "Under Construction": 29,
+   "Complete": 1
+  },
+  "total_gsf": 16188867,
+  "total_units": 7212,
+  "scale": {
+   "": 67
+  },
+  "asset_class_gsf": {
+   "Educational": 299954,
+   "Fire Department": 33325,
+   "Hotel": 69729,
+   "Institutional": 302545,
+   "Lab/R&D": 1452305,
+   "Office/R&D": 9284129,
+   "Parking Garage": 0,
+   "Residential": 4418680,
+   "Retail": 328200
+  },
+  "top_devs": {
+   "Just-A-Start": 7,
+   "Boston Properties": 4,
+   "New England Development": 4,
+   "IQHQ": 3,
+   "MITIMCO": 3,
+   "MIT": 3,
+   "DivcoWest": 3,
+   "Homeowner's Rehab, Inc (HRI)": 2,
+   "DND Homes": 2,
+   "BioMed Realty": 2
+  },
+  "nbhd_counts": {
+   "East Cambridge": 21,
+   "North Cambridge": 11,
+   "Neighborhood Nine": 6,
+   "West Cambridge": 5,
+   "Mid-Cambridge": 5,
+   "The Port/Area Four": 4,
+   "Cambridgeport": 4,
+   "Area 2/MIT": 3,
+   "Cambridge Highlands": 2,
+   "Baldwin": 2,
+   "Wellington Harrington": 2,
+   "Riverside": 1,
+   "Strawberry Hill": 1
+  },
+  "null_dev": 8,
+  "geocoded": 67,
+  "conditional": 2
+ },
+ "_all_projects": 473
+}

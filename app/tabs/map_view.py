@@ -7,7 +7,7 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 
-from app.data import STAGE_COLORS
+from app.data import STAGE_COLORS, review_scale_vocab
 
 _ORANGE = "#F5821E"
 _MUTED  = "#8A9BB0"
@@ -67,7 +67,8 @@ def render(df: pd.DataFrame):
     df["_delivery_year"] = df["expected_delivery"].apply(_delivery_year)
 
     statuses     = ["All"] + sorted(df["status"].replace("", pd.NA).dropna().unique().tolist())
-    scales       = ["All", "Large Project", "Small Project"]
+    # Registry-driven rather than hardcoded to Article 80's two tiers.
+    scales       = ["All"] + review_scale_vocab(df["city"].unique())
     developers   = ["All"] + sorted(df["developer_canonical"].replace("", pd.NA).dropna().unique().tolist())
     asset_classes= ["All"] + sorted(df["asset_class"].replace("", pd.NA).dropna().unique().tolist())
     neighborhoods= ["All"] + sorted(df["neighborhood"].replace("", pd.NA).dropna().unique().tolist())
@@ -174,7 +175,7 @@ def render(df: pd.DataFrame):
     # Apply filters
     filtered = df.copy()
     if status_f       != "All": filtered = filtered[filtered["status"]             == status_f]
-    if scale_f        != "All": filtered = filtered[filtered["project_scale"]      == scale_f]
+    if scale_f        != "All": filtered = filtered[filtered["review_scale"]       == scale_f]
     if city_f         != "All": filtered = filtered[filtered["city"]               == city_f]
     if neighborhood_f != "All": filtered = filtered[filtered["neighborhood"]       == neighborhood_f]
     if asset_class_f  != "All": filtered = filtered[filtered["asset_class"]        == asset_class_f]

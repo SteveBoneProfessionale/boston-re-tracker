@@ -52,6 +52,11 @@ def init_db():
     _add_column_if_missing("projects", "special_permit_raw", "VARCHAR")
     _add_column_if_missing("projects", "building_permit_raw", "VARCHAR")
     _add_column_if_missing("projects", "requires_extraction", "BOOLEAN DEFAULT 1")
+    # Normalized review scale (replaces the Boston-only project_scale in charts)
+    _add_column_if_missing("projects", "review_scale", "VARCHAR")
+    _add_column_if_missing("projects", "review_scale_raw", "VARCHAR")
+    # Verbatim source asset classification, preserved across canonical folds
+    _add_column_if_missing("projects", "asset_class_raw", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 

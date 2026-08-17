@@ -5,7 +5,9 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 import pandas as pd
 import streamlit as st
 
-from app.data import load_filings, load_cambridge_permits, STAGE_COLORS
+from app.data import (
+    load_filings, load_cambridge_permits, STAGE_COLORS, review_scale_vocab,
+)
 from scraper.normalize_developer import is_real_company
 
 _BG     = "#0d0f12"
@@ -81,7 +83,11 @@ def render(df: pd.DataFrame):
     statuses = ["All"] + sorted([s for s in status_scope["status"].unique() if s])
     status = fc2.selectbox("STATUS", statuses, key="tbl_status")
 
-    scale = fc3.selectbox("SCALE", ["All", "Large Project", "Small Project"], key="tbl_scale")
+    # Scale vocabulary is market-specific (Article 80's two tiers vs. RIGL's
+    # three), so scope the options to the selected city via the registry rather
+    # than hardcoding one market's values.
+    scale_opts = review_scale_vocab([city] if city != "All" else df["city"].unique())
+    scale = fc3.selectbox("SCALE", ["All"] + scale_opts, key="tbl_scale")
 
     classes = ["All"] + sorted([a for a in df["asset_class"].unique() if a])
     asset = fc4.selectbox("ASSET CLASS", classes, key="tbl_asset")
@@ -111,7 +117,7 @@ def render(df: pd.DataFrame):
     if status != "All":
         filtered = filtered[filtered["status"] == status]
     if scale != "All":
-        filtered = filtered[filtered["project_scale"] == scale]
+        filtered = filtered[filtered["review_scale"] == scale]
     if asset != "All":
         filtered = filtered[filtered["asset_class"] == asset]
     if developer != "All":
@@ -366,19 +372,34 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
             _kv("CIVIL ENGINEER",   p.get("civil_engineer")),
             unsafe_allow_html=True,
         )
+    # Canonical class, with the source's own classification alongside it when
+    # it was folded (e.g. Cambridge's "Fire Department" -> "Institutional").
+    ac_str = p.get("asset_class") or None
+    raw_ac = p.get("asset_class_raw")
+    if ac_str and raw_ac and raw_ac != ac_str:
+        ac_str = f'{ac_str} <span style="color:{_MUTED}">({raw_ac})</span>'
+
     with col2:
         st.markdown(
-            _kv("ASSET CLASS",      p.get("asset_class")) +
+            _kv("ASSET CLASS",      ac_str) +
             _kv("TOTAL SF",         gsf_str) +
             _kv("RESIDENTIAL UNITS", units_str) +
             _kv("COMMERCIAL SF",    cgsf_str) +
             _kv("PARKING SPACES",   parking_str),
             unsafe_allow_html=True,
         )
+    # Normalized scale, with the source's verbatim wording alongside it when it
+    # differs -- same split as stage vs. native status.
+    scale_str = p.get("review_scale") or None
+    raw_scale = p.get("review_scale_raw")
+    if scale_str and raw_scale and raw_scale != scale_str:
+        scale_str = f'{scale_str} <span style="color:{_MUTED}">({raw_scale})</span>'
+
     with col3:
         st.markdown(
             _kv("HEIGHT",           ht_str) +
             _kv("STORIES",          stories_str) +
+            _kv("REVIEW SCALE",     scale_str) +
             _kv("EXPECTED DELIVERY", p.get("expected_delivery")) +
             _kv("FILING TYPE",      (p.get("processed_filing_type") or "").upper() or None),
             unsafe_allow_html=True,

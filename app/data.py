@@ -43,10 +43,121 @@ STAGE_COLORS = {
 }
 STAGE_ORDER = ["Planning", "Permitting", "Approved", "Under Construction", "Complete"]
 
+# ── Market registry ─────────────────────────────────────────────────────
+# One entry per municipality. Everything that varies by market lives here,
+# so chart and filter components stay city-agnostic: they look values up in
+# this table instead of branching on a city name. Adding a municipality is
+# a registry entry, not an `if city == ...` in a component.
+#
+#   market              -- grouping label for the market-level City filter
+#   stage_map           -- native status vocabulary -> canonical STAGE_ORDER
+#   review_scale_vocab  -- ordered permitted values for `review_scale`, most
+#                          intensive review first. None means this market's
+#                          statute has no scale classification at all, which
+#                          the Review Scale chart renders as "not applicable"
+#                          rather than as an empty chart or a zero.
+MARKETS: dict[str, dict] = {
+    "Boston": {
+        "market": "Massachusetts",
+        "stage_map": STAGE_MAP_BOSTON,
+        "review_scale_vocab": ["Large Project", "Small Project"],   # Article 80
+    },
+    "Cambridge": {
+        "market": "Massachusetts",
+        "stage_map": STAGE_MAP_CAMBRIDGE,
+        "review_scale_vocab": None,          # no Article 80 equivalent
+    },
+    # Manually-entered MA municipalities outside BPDA/CDD jurisdiction. They
+    # carried Boston-vocabulary statuses before this registry existed, so they
+    # keep the Boston stage map; none of them carry a scale classification.
+    "Hudson": {"market": "Massachusetts", "stage_map": STAGE_MAP_BOSTON, "review_scale_vocab": None},
+    "Revere": {"market": "Massachusetts", "stage_map": STAGE_MAP_BOSTON, "review_scale_vocab": None},
+    "Woburn": {"market": "Massachusetts", "stage_map": STAGE_MAP_BOSTON, "review_scale_vocab": None},
+}
+
+# Unregistered cities behave exactly as they did before the registry existed:
+# Boston's stage vocabulary, no scale classification.
+_DEFAULT_MARKET = {
+    "market": "Massachusetts",
+    "stage_map": STAGE_MAP_BOSTON,
+    "review_scale_vocab": None,
+}
+
+# Review-scale colors are assigned by tier position within each market's
+# vocabulary, not by matching a literal string -- so a market's most-intensive
+# review tier is always orange, its second teal, and so on, and a new market
+# gets consistent colors without touching the chart. First registration of a
+# label wins, keeping a shared label stable across markets.
+_SCALE_RAMP = ["#F5821E", "#0ea5e9", "#64748b", "#8A9BB0"]
+REVIEW_SCALE_COLORS: dict[str, str] = {}
+for _entry in MARKETS.values():
+    for _i, _label in enumerate(_entry["review_scale_vocab"] or []):
+        REVIEW_SCALE_COLORS.setdefault(_label, _SCALE_RAMP[min(_i, len(_SCALE_RAMP) - 1)])
+
+
+# ── Canonical asset classes ─────────────────────────────────────────────
+# The only values `asset_class` may hold. Every market writes to this set and
+# nothing else, so ingesting a new market can't widen the vocabulary. The
+# source's own wording is kept verbatim in `asset_class_raw`, so a fold stays
+# recoverable and the detail view can still show what the filing actually said.
+ASSET_CLASSES = [
+    "Residential", "Mixed-Use", "Office", "Lab/Research", "Retail",
+    "Hotel", "Industrial", "Institutional", "Parking", "Other",
+]
+
+# Non-canonical values seen in existing data -> canonical. Applied at ingestion
+# for every market, and by scraper/fold_asset_class.py to existing records.
+#
+# Office/R&D and Lab/R&D are deliberately NOT listed: folding them moves 20
+# rows and ~10.7M SF between bars on the Gross SF by Asset Class chart, which
+# is a separate task requiring its own before/after diff.
+ASSET_CLASS_FOLDS = {
+    "Fire Department": "Institutional",
+    "Educational":     "Institutional",
+}
+
+
+def canonical_asset_class(raw: str | None) -> str | None:
+    """Map a source classification onto the canonical set.
+
+    Returns None for an unrecognized value rather than guessing -- a blank
+    asset class is correct, an invented one is not.
+
+    For classifying NEW records at ingestion only. Do not run it over existing
+    rows: the deferred values (Office/R&D, Lab/R&D, Parking Garage) are not in
+    ASSET_CLASS_FOLDS yet, so this would null 21 Cambridge rows rather than
+    fold them. scraper/fold_asset_class.py is the safe path for existing data
+    -- it leaves anything it doesn't recognize untouched and reports it.
+    """
+    if not raw or not str(raw).strip():
+        return None
+    v = str(raw).strip()
+    v = ASSET_CLASS_FOLDS.get(v, v)
+    return v if v in ASSET_CLASSES else None
+
+
+def market_of(city: str) -> str:
+    """Market (state-level grouping) a municipality belongs to."""
+    return MARKETS.get(city, _DEFAULT_MARKET)["market"]
+
 
 def normalize_stage(status: str, city: str) -> str:
-    m = STAGE_MAP_CAMBRIDGE if city == "Cambridge" else STAGE_MAP_BOSTON
-    return m.get(status, "")
+    return MARKETS.get(city, _DEFAULT_MARKET)["stage_map"].get(status, "")
+
+
+def review_scale_vocab(cities) -> list[str]:
+    """Ordered union of review-scale vocabularies across the given cities.
+
+    Empty means no market in the selection classifies projects by review
+    scale, which is a meaningfully different statement from "no data yet"
+    and is rendered as such.
+    """
+    out: list[str] = []
+    for city in cities:
+        for label in MARKETS.get(city, _DEFAULT_MARKET)["review_scale_vocab"] or []:
+            if label not in out:
+                out.append(label)
+    return out
 
 
 @st.cache_data(ttl=300)
@@ -63,12 +174,15 @@ def load_projects() -> pd.DataFrame:
                 "neighborhood": p.neighborhood or "",
                 "status": p.status or "",
                 "project_scale": p.project_scale or "",
+                "review_scale": p.review_scale or "",
+                "review_scale_raw": p.review_scale_raw or "",
                 "bpda_gsf": p.bpda_gsf,
                 "bpda_url": p.bpda_url or "",
                 # Extracted
                 "developer": p.developer or "",
                 "developer_canonical": p.developer_canonical or "",
                 "asset_class": p.asset_class or "",
+                "asset_class_raw": p.asset_class_raw or "",
                 "total_gsf": p.total_gsf or p.bpda_gsf,
                 "residential_units": p.residential_units,
                 "commercial_gsf": p.commercial_gsf,
@@ -87,6 +201,7 @@ def load_projects() -> pd.DataFrame:
                 "latitude": p.latitude,
                 "longitude": p.longitude,
                 "city": p.city or "Boston",
+                "market": market_of(p.city or "Boston"),
                 "equity_partner": p.equity_partner or "",
                 "stage": normalize_stage(p.status or "", p.city or "Boston"),
                 # Cambridge Development Log fields (blank for Boston rows)
