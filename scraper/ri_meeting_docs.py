@@ -20,6 +20,7 @@ parameter is built from that parsed argument verbatim.
 
 import re
 import sys
+import time
 import logging
 from pathlib import Path
 from urllib.parse import urljoin
@@ -53,9 +54,31 @@ HEADERS = {
 CACHE_DIR = Path(__file__).parent.parent / "data" / "ri_pdfs"
 
 
+def polite_get(client: httpx.Client, url: str, timeout: int = 60,
+               attempts: int = 5) -> httpx.Response:
+    """GET with exponential backoff on 429 / 5xx.
+
+    The portal rate-limits and returns 429 under sustained scraping. Backing
+    off rather than failing keeps a long harvest from silently losing whole
+    boards -- a 429 mid-run previously dropped four of six Tier 1 boards.
+    """
+    delay = 5.0
+    last = None
+    for i in range(attempts):
+        r = client.get(url, timeout=timeout)
+        if r.status_code not in (429, 500, 502, 503, 504):
+            return r
+        last = r
+        log.warning("  HTTP %d — backing off %.0fs (attempt %d/%d)",
+                    r.status_code, delay, i + 1, attempts)
+        time.sleep(delay)
+        delay *= 2
+    return last
+
+
 def meeting_documents(client: httpx.Client, meeting_id: int) -> dict:
     """Board name, meeting metadata and every document link for one meeting."""
-    r = client.get(MEETING.format(mid=meeting_id), timeout=60)
+    r = polite_get(client, MEETING.format(mid=meeting_id))
     r.raise_for_status()
     s = BeautifulSoup(r.text, "html.parser")
 

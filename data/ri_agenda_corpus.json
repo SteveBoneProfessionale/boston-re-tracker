@@ -1,0 +1,4374 @@
+{
+ "2767:1091666": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1091666",
+  "date": "2026-07-28",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 24 2026, 02:27PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\562498.pdf",
+    "path": "\\Notices\\4752\\2026\\562498.pdf",
+    "chars": 5159,
+    "text_file": "1091666_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 24 2026, 02:27PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\562499.pdf",
+    "path": "\\Notices\\4752\\2026\\562499.pdf",
+    "chars": 39,
+    "text_file": "1091666_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 21 2026, 03:31PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\562243.pdf",
+    "path": "\\Notices\\4752\\2026\\562243.pdf",
+    "chars": 5095,
+    "text_file": "1091666_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Jul 29 2026, 12:21PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\562703.pdf",
+    "path": "\\Minutes\\4752\\2026\\562703.pdf",
+    "chars": 3,
+    "text_file": "1091666_3.txt"
+   }
+  ]
+ },
+ "2767:1090361": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1090361",
+  "date": "2026-06-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 10 2026, 04:17PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\559356.pdf",
+    "path": "\\Notices\\4752\\2026\\559356.pdf",
+    "chars": 4854,
+    "text_file": "1090361_0.txt"
+   }
+  ]
+ },
+ "2767:1089305": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1089305",
+  "date": "2026-05-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 15 2026, 10:34AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\557183.pdf",
+    "path": "\\Notices\\4752\\2026\\557183.pdf",
+    "chars": 3644,
+    "text_file": "1089305_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Jun 17 2026, 05:26PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\560103.pdf",
+    "path": "\\Minutes\\4752\\2026\\560103.pdf",
+    "chars": 2,
+    "text_file": "1089305_1.txt"
+   }
+  ]
+ },
+ "2767:1088760": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1088760",
+  "date": "2026-05-07",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May  5 2026, 03:20PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\556079.pdf",
+    "path": "\\Notices\\4752\\2026\\556079.pdf",
+    "chars": 2977,
+    "text_file": "1088760_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May  5 2026, 03:20PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\556080.pdf",
+    "path": "\\Notices\\4752\\2026\\556080.pdf",
+    "chars": 36,
+    "text_file": "1088760_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on May 20 2026, 12:08PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\557567.pdf",
+    "path": "\\Minutes\\4752\\2026\\557567.pdf",
+    "chars": 2,
+    "text_file": "1088760_2.txt"
+   }
+  ]
+ },
+ "2767:1088206": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1088206",
+  "date": "2026-04-28",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr 21 2026, 12:09PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\554906.pdf",
+    "path": "\\Notices\\4752\\2026\\554906.pdf",
+    "chars": 4698,
+    "text_file": "1088206_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on May 20 2026, 12:08PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\557566.pdf",
+    "path": "\\Minutes\\4752\\2026\\557566.pdf",
+    "chars": 3,
+    "text_file": "1088206_1.txt"
+   }
+  ]
+ },
+ "2767:1086853": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1086853",
+  "date": "2026-03-31",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar 24 2026, 10:33AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\552370.pdf",
+    "path": "\\Notices\\4752\\2026\\552370.pdf",
+    "chars": 4978,
+    "text_file": "1086853_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar 24 2026, 10:33AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\552371.pdf",
+    "path": "\\Notices\\4752\\2026\\552371.pdf",
+    "chars": 43,
+    "text_file": "1086853_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar 19 2026, 10:44AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\551849.pdf",
+    "path": "\\Notices\\4752\\2026\\551849.pdf",
+    "chars": 4844,
+    "text_file": "1086853_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Apr 29 2026, 12:53PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\555573.pdf",
+    "path": "\\Minutes\\4752\\2026\\555573.pdf",
+    "chars": 3,
+    "text_file": "1086853_3.txt"
+   }
+  ]
+ },
+ "2767:1085900": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1085900",
+  "date": "2026-03-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 27 2026, 09:30AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\549947.pdf",
+    "path": "\\Notices\\4752\\2026\\549947.pdf",
+    "chars": 4884,
+    "text_file": "1085900_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 27 2026, 09:30AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\549948.pdf",
+    "path": "\\Notices\\4752\\2026\\549948.pdf",
+    "chars": 101,
+    "text_file": "1085900_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Apr  1 2026, 12:32PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\553065.pdf",
+    "path": "\\Minutes\\4752\\2026\\553065.pdf",
+    "chars": 4,
+    "text_file": "1085900_2.txt"
+   }
+  ]
+ },
+ "2767:1085484": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1085484",
+  "date": "2026-02-24",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 18 2026, 03:38PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\549184.pdf",
+    "path": "\\Notices\\4752\\2026\\549184.pdf",
+    "chars": 4769,
+    "text_file": "1085484_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Apr  1 2026, 12:35PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\553066.pdf",
+    "path": "\\Minutes\\4752\\2026\\553066.pdf",
+    "chars": 4,
+    "text_file": "1085484_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Apr  1 2026, 12:35PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\553067.pdf",
+    "path": "\\Minutes\\4752\\2026\\553067.pdf",
+    "chars": 49,
+    "text_file": "1085484_2.txt"
+   }
+  ]
+ },
+ "2767:1083861": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1083861",
+  "date": "2026-01-20",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan 14 2026, 09:34AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\546007.pdf",
+    "path": "\\Notices\\4752\\2026\\546007.pdf",
+    "chars": 5139,
+    "text_file": "1083861_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan 13 2026, 03:41PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\545957.pdf",
+    "path": "\\Notices\\4752\\2026\\545957.pdf",
+    "chars": 5141,
+    "text_file": "1083861_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Apr  1 2026, 12:31PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\553063.pdf",
+    "path": "\\Minutes\\4752\\2026\\553063.pdf",
+    "chars": 4,
+    "text_file": "1083861_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Jan 21 2026, 11:33AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\546677.pdf",
+    "path": "\\Minutes\\4752\\2026\\546677.pdf",
+    "chars": 12932,
+    "text_file": "1083861_3.txt"
+   }
+  ]
+ },
+ "2767:1083280": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1083280",
+  "date": "2026-01-05",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan  5 2026, 09:45AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\544980.pdf",
+    "path": "\\Notices\\4752\\2026\\544980.pdf",
+    "chars": 1896,
+    "text_file": "1083280_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan  5 2026, 09:45AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2026\\544981.pdf",
+    "path": "\\Notices\\4752\\2026\\544981.pdf",
+    "chars": 64,
+    "text_file": "1083280_1.txt"
+   }
+  ]
+ },
+ "2767:1082390": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1082390",
+  "date": "2025-12-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec  9 2025, 04:10PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\543186.pdf",
+    "path": "\\Notices\\4752\\2025\\543186.pdf",
+    "chars": 3917,
+    "text_file": "1082390_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Jan 21 2026, 11:35AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2026\\546678.pdf",
+    "path": "\\Minutes\\4752\\2026\\546678.pdf",
+    "chars": 12932,
+    "text_file": "1082390_1.txt"
+   }
+  ]
+ },
+ "2767:1081161": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1081161",
+  "date": "2025-11-18",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 12 2025, 04:10PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\540791.pdf",
+    "path": "\\Notices\\4752\\2025\\540791.pdf",
+    "chars": 4454,
+    "text_file": "1081161_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Dec 17 2025, 10:57AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2025\\544153.pdf",
+    "path": "\\Minutes\\4752\\2025\\544153.pdf",
+    "chars": 4,
+    "text_file": "1081161_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Nov 19 2025, 10:48AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2025\\541569.pdf",
+    "path": "\\Minutes\\4752\\2025\\541569.pdf",
+    "chars": 6,
+    "text_file": "1081161_2.txt"
+   }
+  ]
+ },
+ "2767:1080064": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1080064",
+  "date": "2025-10-21",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct 16 2025, 11:57AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\538424.pdf",
+    "path": "\\Notices\\4752\\2025\\538424.pdf",
+    "chars": 4200,
+    "text_file": "1080064_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct 16 2025, 11:57AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\538425.pdf",
+    "path": "\\Notices\\4752\\2025\\538425.pdf",
+    "chars": 35,
+    "text_file": "1080064_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct 15 2025, 03:11PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\538320.pdf",
+    "path": "\\Notices\\4752\\2025\\538320.pdf",
+    "chars": 4238,
+    "text_file": "1080064_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Nov 19 2025, 10:54AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2025\\541572.pdf",
+    "path": "\\Minutes\\4752\\2025\\541572.pdf",
+    "chars": 6,
+    "text_file": "1080064_3.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Nov 19 2025, 10:54AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2025\\541573.pdf",
+    "path": "\\Minutes\\4752\\2025\\541573.pdf",
+    "chars": 30,
+    "text_file": "1080064_4.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Oct 22 2025, 11:28AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2025\\539080.pdf",
+    "path": "\\Minutes\\4752\\2025\\539080.pdf",
+    "chars": 6,
+    "text_file": "1080064_5.txt"
+   }
+  ]
+ },
+ "2767:1078680": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1078680",
+  "date": "2025-09-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 12 2025, 03:14PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\535764.pdf",
+    "path": "\\Notices\\4752\\2025\\535764.pdf",
+    "chars": 6059,
+    "text_file": "1078680_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 11 2025, 04:06PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\535588.pdf",
+    "path": "\\Notices\\4752\\2025\\535588.pdf",
+    "chars": 6088,
+    "text_file": "1078680_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 11 2025, 04:06PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\535589.pdf",
+    "path": "\\Notices\\4752\\2025\\535589.pdf",
+    "chars": 15,
+    "text_file": "1078680_2.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 10 2025, 12:21PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\535407.pdf",
+    "path": "\\Notices\\4752\\2025\\535407.pdf",
+    "chars": 5894,
+    "text_file": "1078680_3.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 10 2025, 12:21PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\535408.pdf",
+    "path": "\\Notices\\4752\\2025\\535408.pdf",
+    "chars": 65,
+    "text_file": "1078680_4.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Nov 19 2025, 10:48AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2025\\541570.pdf",
+    "path": "\\Minutes\\4752\\2025\\541570.pdf",
+    "chars": 6,
+    "text_file": "1078680_5.txt"
+   }
+  ]
+ },
+ "2767:1077673": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1077673",
+  "date": "2025-08-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug 13 2025, 02:24PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\533329.pdf",
+    "path": "\\Notices\\4752\\2025\\533329.pdf",
+    "chars": 4615,
+    "text_file": "1077673_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Sep 17 2025, 11:11AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2025\\536098.pdf",
+    "path": "\\Minutes\\4752\\2025\\536098.pdf",
+    "chars": 11555,
+    "text_file": "1077673_1.txt"
+   }
+  ]
+ },
+ "2767:1076570": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1076570",
+  "date": "2025-07-15",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul  9 2025, 09:30AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\530923.pdf",
+    "path": "\\Notices\\4752\\2025\\530923.pdf",
+    "chars": 4605,
+    "text_file": "1076570_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul  9 2025, 09:30AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\530924.pdf",
+    "path": "\\Notices\\4752\\2025\\530924.pdf",
+    "chars": 52,
+    "text_file": "1076570_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul  8 2025, 03:18PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\530874.pdf",
+    "path": "\\Notices\\4752\\2025\\530874.pdf",
+    "chars": 4617,
+    "text_file": "1076570_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Aug 20 2025, 10:59AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2025\\533858.pdf",
+    "path": "\\Minutes\\4752\\2025\\533858.pdf",
+    "chars": 4,
+    "text_file": "1076570_3.txt"
+   }
+  ]
+ },
+ "2767:1075697": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1075697",
+  "date": "2025-06-17",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 10 2025, 05:36PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\528869.pdf",
+    "path": "\\Notices\\4752\\2025\\528869.pdf",
+    "chars": 3319,
+    "text_file": "1075697_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Jul 16 2025, 11:29AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2025\\531590.pdf",
+    "path": "\\Minutes\\4752\\2025\\531590.pdf",
+    "chars": 2,
+    "text_file": "1075697_1.txt"
+   }
+  ]
+ },
+ "2767:1074416": {
+  "entity_id": 2767,
+  "board": "Providence City Plan Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1074416",
+  "date": "2025-05-20",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 13 2025, 02:31PM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4752\\2025\\526256.pdf",
+    "path": "\\Notices\\4752\\2025\\526256.pdf",
+    "chars": 3866,
+    "text_file": "1074416_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "APPROVED, Minutes filed on Jun 18 2025, 10:02AM by Choyon  Manjrekar",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4752\\2025\\529570.pdf",
+    "path": "\\Minutes\\4752\\2025\\529570.pdf",
+    "chars": 4,
+    "text_file": "1074416_1.txt"
+   }
+  ]
+ },
+ "2807:1091830": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1091830",
+  "date": "2026-08-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 28 2026, 03:28PM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2026\\562635.pdf",
+    "path": "\\Notices\\4753\\2026\\562635.pdf",
+    "chars": 458,
+    "text_file": "1091830_0.txt"
+   }
+  ]
+ },
+ "2807:1091170": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1091170",
+  "date": "2026-07-13",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul  6 2026, 02:08PM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2026\\561168.pdf",
+    "path": "\\Notices\\4753\\2026\\561168.pdf",
+    "chars": 451,
+    "text_file": "1091170_0.txt"
+   }
+  ]
+ },
+ "2807:1089879": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1089879",
+  "date": "2026-06-08",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun  1 2026, 09:33AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2026\\558385.pdf",
+    "path": "\\Notices\\4753\\2026\\558385.pdf",
+    "chars": 448,
+    "text_file": "1089879_0.txt"
+   }
+  ]
+ },
+ "2807:1088616": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1088616",
+  "date": "2026-05-11",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May  1 2026, 10:54AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2026\\555789.pdf",
+    "path": "\\Notices\\4753\\2026\\555789.pdf",
+    "chars": 447,
+    "text_file": "1088616_0.txt"
+   }
+  ]
+ },
+ "2807:1087568": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1087568",
+  "date": "2026-04-13",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr  6 2026, 01:52PM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2026\\553472.pdf",
+    "path": "\\Notices\\4753\\2026\\553472.pdf",
+    "chars": 451,
+    "text_file": "1087568_0.txt"
+   }
+  ]
+ },
+ "2807:1085985": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1085985",
+  "date": "2026-03-09",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar  2 2026, 11:11AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2026\\550117.pdf",
+    "path": "\\Notices\\4753\\2026\\550117.pdf",
+    "chars": 452,
+    "text_file": "1085985_0.txt"
+   }
+  ]
+ },
+ "2807:1084718": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1084718",
+  "date": "2026-02-09",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb  2 2026, 11:12AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2026\\547636.pdf",
+    "path": "\\Notices\\4753\\2026\\547636.pdf",
+    "chars": 456,
+    "text_file": "1084718_0.txt"
+   }
+  ]
+ },
+ "2807:1083319": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1083319",
+  "date": "2026-01-12",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan  5 2026, 02:05PM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2026\\545035.pdf",
+    "path": "\\Notices\\4753\\2026\\545035.pdf",
+    "chars": 459,
+    "text_file": "1083319_0.txt"
+   }
+  ]
+ },
+ "2807:1082302": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1082302",
+  "date": "2026-01-01",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec  8 2025, 01:26PM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2025\\543020.pdf",
+    "path": "\\Notices\\4753\\2025\\543020.pdf",
+    "chars": 1948,
+    "text_file": "1082302_0.txt"
+   }
+  ]
+ },
+ "2807:1081912": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1081912",
+  "date": "2025-12-08",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec  1 2025, 10:57AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2025\\542315.pdf",
+    "path": "\\Notices\\4753\\2025\\542315.pdf",
+    "chars": 460,
+    "text_file": "1081912_0.txt"
+   }
+  ]
+ },
+ "2807:1080746": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1080746",
+  "date": "2025-11-10",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov  3 2025, 10:48AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2025\\539907.pdf",
+    "path": "\\Notices\\4753\\2025\\539907.pdf",
+    "chars": 462,
+    "text_file": "1080746_0.txt"
+   }
+  ]
+ },
+ "2807:1079340": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1079340",
+  "date": "2025-10-06",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 29 2025, 10:15AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2025\\536867.pdf",
+    "path": "\\Notices\\4753\\2025\\536867.pdf",
+    "chars": 1785,
+    "text_file": "1079340_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "draft , Minutes filed on Oct 24 2025, 02:51PM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4753\\2025\\539342.pdf",
+    "path": "\\Minutes\\4753\\2025\\539342.pdf",
+    "chars": 2996,
+    "text_file": "1079340_1.txt"
+   }
+  ]
+ },
+ "2807:1078134": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1078134",
+  "date": "2025-09-08",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug 27 2025, 11:36AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2025\\534334.pdf",
+    "path": "\\Notices\\4753\\2025\\534334.pdf",
+    "chars": 461,
+    "text_file": "1078134_0.txt"
+   }
+  ]
+ },
+ "2807:1077190": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1077190",
+  "date": "2025-08-04",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 28 2025, 09:34AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2025\\532295.pdf",
+    "path": "\\Notices\\4753\\2025\\532295.pdf",
+    "chars": 457,
+    "text_file": "1077190_0.txt"
+   }
+  ]
+ },
+ "2807:1076590": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1076590",
+  "date": "2025-07-14",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul  9 2025, 09:50AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2025\\530926.pdf",
+    "path": "\\Notices\\4753\\2025\\530926.pdf",
+    "chars": 451,
+    "text_file": "1076590_0.txt"
+   }
+  ]
+ },
+ "2807:1075240": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1075240",
+  "date": "2025-06-09",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun  2 2025, 11:05AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2025\\527972.pdf",
+    "path": "\\Notices\\4753\\2025\\527972.pdf",
+    "chars": 1962,
+    "text_file": "1075240_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "approved, Minutes filed on Oct  7 2025, 09:56AM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4753\\2025\\537604.pdf",
+    "path": "\\Minutes\\4753\\2025\\537604.pdf",
+    "chars": 0,
+    "text_file": "1075240_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "draft , Minutes filed on Jul 31 2025, 02:20PM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4753\\2025\\532593.pdf",
+    "path": "\\Minutes\\4753\\2025\\532593.pdf",
+    "chars": 3066,
+    "text_file": "1075240_2.txt"
+   }
+  ]
+ },
+ "2807:1072896": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1072896",
+  "date": "2025-04-14",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr  7 2025, 03:53PM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2025\\523061.pdf",
+    "path": "\\Notices\\4753\\2025\\523061.pdf",
+    "chars": 3049,
+    "text_file": "1072896_0.txt"
+   }
+  ]
+ },
+ "2807:1071266": {
+  "entity_id": 2807,
+  "board": "Providence Downtown Design Review Committee",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1071266",
+  "date": "2025-03-10",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar  3 2025, 01:28PM by Christopher Ise",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4753\\2025\\519689.pdf",
+    "path": "\\Notices\\4753\\2025\\519689.pdf",
+    "chars": 453,
+    "text_file": "1071266_0.txt"
+   }
+  ]
+ },
+ "1531:1091421": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1091421",
+  "date": "2026-07-15",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 13 2026, 03:46PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2026\\561689.pdf",
+    "path": "\\Notices\\5943\\2026\\561689.pdf",
+    "chars": 2591,
+    "text_file": "1091421_0.txt"
+   }
+  ]
+ },
+ "1531:1090445": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1090445",
+  "date": "2026-06-11",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 11 2026, 04:19PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2026\\559516.pdf",
+    "path": "\\Notices\\5943\\2026\\559516.pdf",
+    "chars": 1389,
+    "text_file": "1090445_0.txt"
+   }
+  ]
+ },
+ "1531:1089855": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1089855",
+  "date": "2026-06-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 29 2026, 02:52PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2026\\558321.pdf",
+    "path": "\\Notices\\5943\\2026\\558321.pdf",
+    "chars": 3224,
+    "text_file": "1089855_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on Jul 16 2026, 12:34PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2026\\561935.pdf",
+    "path": "\\Minutes\\5943\\2026\\561935.pdf",
+    "chars": 12,
+    "text_file": "1089855_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Draft, Minutes filed on Jul  7 2026, 11:48AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2026\\561229.pdf",
+    "path": "\\Minutes\\5943\\2026\\561229.pdf",
+    "chars": 22366,
+    "text_file": "1089855_2.txt"
+   }
+  ]
+ },
+ "1531:1087888": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1087888",
+  "date": "2026-04-15",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr 10 2026, 03:06PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2026\\554139.pdf",
+    "path": "\\Notices\\5943\\2026\\554139.pdf",
+    "chars": 1880,
+    "text_file": "1087888_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on Jun  4 2026, 03:20PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2026\\558820.pdf",
+    "path": "\\Minutes\\5943\\2026\\558820.pdf",
+    "chars": 8,
+    "text_file": "1087888_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Draft, Minutes filed on May 29 2026, 02:53PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2026\\558322.pdf",
+    "path": "\\Minutes\\5943\\2026\\558322.pdf",
+    "chars": 14223,
+    "text_file": "1087888_2.txt"
+   }
+  ]
+ },
+ "1531:1086884": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1086884",
+  "date": "2026-03-25",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar 19 2026, 01:39PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2026\\551913.pdf",
+    "path": "\\Notices\\5943\\2026\\551913.pdf",
+    "chars": 441,
+    "text_file": "1086884_0.txt"
+   }
+  ]
+ },
+ "1531:1086180": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1086180",
+  "date": "2026-03-11",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar  5 2026, 01:54PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2026\\550523.pdf",
+    "path": "\\Notices\\5943\\2026\\550523.pdf",
+    "chars": 691,
+    "text_file": "1086180_0.txt"
+   }
+  ]
+ },
+ "1531:1086179": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1086179",
+  "date": "2026-03-05",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar  5 2026, 01:53PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2026\\550521.pdf",
+    "path": "\\Notices\\5943\\2026\\550521.pdf",
+    "chars": 1357,
+    "text_file": "1086179_0.txt"
+   }
+  ]
+ },
+ "1531:1085242": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1085242",
+  "date": "2026-02-18",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 12 2026, 09:40AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2026\\548695.pdf",
+    "path": "\\Notices\\5943\\2026\\548695.pdf",
+    "chars": 447,
+    "text_file": "1085242_0.txt"
+   }
+  ]
+ },
+ "1531:1084606": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1084606",
+  "date": "2026-02-02",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan 29 2026, 03:06PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2026\\547433.pdf",
+    "path": "\\Notices\\5943\\2026\\547433.pdf",
+    "chars": 4004,
+    "text_file": "1084606_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on Apr 16 2026, 11:48AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2026\\554569.pdf",
+    "path": "\\Minutes\\5943\\2026\\554569.pdf",
+    "chars": 32,
+    "text_file": "1084606_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Draft, Minutes filed on Mar  9 2026, 12:54PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2026\\550828.pdf",
+    "path": "\\Minutes\\5943\\2026\\550828.pdf",
+    "chars": 22346,
+    "text_file": "1084606_2.txt"
+   }
+  ]
+ },
+ "1531:1083671": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1083671",
+  "date": "2026-01-14",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan  9 2026, 10:36AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2026\\545626.pdf",
+    "path": "\\Notices\\5943\\2026\\545626.pdf",
+    "chars": 1022,
+    "text_file": "1083671_0.txt"
+   }
+  ]
+ },
+ "1531:1082652": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1082652",
+  "date": "2026-01-01",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec 12 2025, 02:41PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2025\\543803.pdf",
+    "path": "\\Notices\\5943\\2025\\543803.pdf",
+    "chars": 1261,
+    "text_file": "1082652_0.txt"
+   }
+  ]
+ },
+ "1531:1082430": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1082430",
+  "date": "2025-12-17",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec 10 2025, 11:58AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2025\\543346.pdf",
+    "path": "\\Notices\\5943\\2025\\543346.pdf",
+    "chars": 448,
+    "text_file": "1082430_0.txt"
+   }
+  ]
+ },
+ "1531:1081363": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1081363",
+  "date": "2025-11-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 14 2025, 01:47PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2025\\541147.pdf",
+    "path": "\\Notices\\5943\\2025\\541147.pdf",
+    "chars": 1744,
+    "text_file": "1081363_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on Feb  3 2026, 12:11PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2026\\547764.pdf",
+    "path": "\\Minutes\\5943\\2026\\547764.pdf",
+    "chars": 6,
+    "text_file": "1081363_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Dec 23 2025, 11:59AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2025\\544480.pdf",
+    "path": "\\Minutes\\5943\\2025\\544480.pdf",
+    "chars": 15797,
+    "text_file": "1081363_2.txt"
+   }
+  ]
+ },
+ "1531:1079815": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1079815",
+  "date": "2025-10-15",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct  9 2025, 11:56AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2025\\537855.pdf",
+    "path": "\\Notices\\5943\\2025\\537855.pdf",
+    "chars": 445,
+    "text_file": "1079815_0.txt"
+   }
+  ]
+ },
+ "1531:1078848": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1078848",
+  "date": "2025-09-17",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 12 2025, 03:11PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2025\\535763.pdf",
+    "path": "\\Notices\\5943\\2025\\535763.pdf",
+    "chars": 1471,
+    "text_file": "1078848_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on Nov 20 2025, 02:05PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2025\\541729.pdf",
+    "path": "\\Minutes\\5943\\2025\\541729.pdf",
+    "chars": 3,
+    "text_file": "1078848_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Draft, Minutes filed on Oct 17 2025, 10:42AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2025\\538662.pdf",
+    "path": "\\Minutes\\5943\\2025\\538662.pdf",
+    "chars": 4989,
+    "text_file": "1078848_2.txt"
+   }
+  ]
+ },
+ "1531:1077521": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1077521",
+  "date": "2025-08-20",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug  7 2025, 03:04PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2025\\533065.pdf",
+    "path": "\\Notices\\5943\\2025\\533065.pdf",
+    "chars": 442,
+    "text_file": "1077521_0.txt"
+   }
+  ]
+ },
+ "1531:1076728": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1076728",
+  "date": "2025-07-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 11 2025, 03:21PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2025\\531308.pdf",
+    "path": "\\Notices\\5943\\2025\\531308.pdf",
+    "chars": 2443,
+    "text_file": "1076728_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on Sep 18 2025, 10:08AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2025\\536183.pdf",
+    "path": "\\Minutes\\5943\\2025\\536183.pdf",
+    "chars": 15,
+    "text_file": "1076728_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Aug 21 2025, 04:25PM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2025\\534008.pdf",
+    "path": "\\Minutes\\5943\\2025\\534008.pdf",
+    "chars": 27464,
+    "text_file": "1076728_2.txt"
+   }
+  ]
+ },
+ "1531:1075169": {
+  "entity_id": 1531,
+  "board": "I-195 Redevelopment District Commission",
+  "municipality": "Providence",
+  "tier": 1,
+  "meeting_id": "1075169",
+  "date": "2025-06-04",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 30 2025, 10:59AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5943\\2025\\527854.pdf",
+    "path": "\\Notices\\5943\\2025\\527854.pdf",
+    "chars": 1893,
+    "text_file": "1075169_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on Jul 17 2025, 11:20AM by Amber Ilcisko",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5943\\2025\\531667.pdf",
+    "path": "\\Minutes\\5943\\2025\\531667.pdf",
+    "chars": 6,
+    "text_file": "1075169_1.txt"
+   }
+  ]
+ },
+ "732:1091851": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1091851",
+  "date": "2026-08-04",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug  4 2026, 08:56AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\563033.pdf",
+    "path": "\\Notices\\4194\\2026\\563033.pdf",
+    "chars": 7012,
+    "text_file": "1091851_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 29 2026, 10:46AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\562696.pdf",
+    "path": "\\Notices\\4194\\2026\\562696.pdf",
+    "chars": 7017,
+    "text_file": "1091851_1.txt"
+   }
+  ]
+ },
+ "732:1091001": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1091001",
+  "date": "2026-07-07",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul  2 2026, 04:20PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\561054.pdf",
+    "path": "\\Notices\\4194\\2026\\561054.pdf",
+    "chars": 5669,
+    "text_file": "1091001_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul  2 2026, 11:48AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\560980.pdf",
+    "path": "\\Notices\\4194\\2026\\560980.pdf",
+    "chars": 6656,
+    "text_file": "1091001_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 30 2026, 02:22PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\560822.pdf",
+    "path": "\\Notices\\4194\\2026\\560822.pdf",
+    "chars": 6174,
+    "text_file": "1091001_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Aug  5 2026, 04:27PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\563287.pdf",
+    "path": "\\Minutes\\4194\\2026\\563287.pdf",
+    "chars": 16686,
+    "text_file": "1091001_3.txt"
+   }
+  ]
+ },
+ "732:1089749": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1089749",
+  "date": "2026-06-02",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 28 2026, 10:38AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\558160.pdf",
+    "path": "\\Notices\\4194\\2026\\558160.pdf",
+    "chars": 7664,
+    "text_file": "1089749_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 27 2026, 04:37PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\558121.pdf",
+    "path": "\\Notices\\4194\\2026\\558121.pdf",
+    "chars": 7349,
+    "text_file": "1089749_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jul  9 2026, 09:28AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\561394.pdf",
+    "path": "\\Minutes\\4194\\2026\\561394.pdf",
+    "chars": 39919,
+    "text_file": "1089749_2.txt"
+   }
+  ]
+ },
+ "732:1088963": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1088963",
+  "date": "2026-05-12",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May  8 2026, 11:58AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\556493.pdf",
+    "path": "\\Notices\\4194\\2026\\556493.pdf",
+    "chars": 2943,
+    "text_file": "1088963_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jun 17 2026, 11:59AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\560018.pdf",
+    "path": "\\Minutes\\4194\\2026\\560018.pdf",
+    "chars": 11233,
+    "text_file": "1088963_1.txt"
+   }
+  ]
+ },
+ "732:1088467": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1088467",
+  "date": "2026-05-05",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr 28 2026, 02:21PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\555483.pdf",
+    "path": "\\Notices\\4194\\2026\\555483.pdf",
+    "chars": 5505,
+    "text_file": "1088467_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr 28 2026, 12:08PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\555454.pdf",
+    "path": "\\Notices\\4194\\2026\\555454.pdf",
+    "chars": 4945,
+    "text_file": "1088467_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jun 17 2026, 11:59AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\560017.pdf",
+    "path": "\\Minutes\\4194\\2026\\560017.pdf",
+    "chars": 23449,
+    "text_file": "1088467_2.txt"
+   }
+  ]
+ },
+ "732:1087365": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1087365",
+  "date": "2026-04-07",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr  1 2026, 04:13PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\553100.pdf",
+    "path": "\\Notices\\4194\\2026\\553100.pdf",
+    "chars": 8085,
+    "text_file": "1087365_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on May 20 2026, 10:51AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\557555.pdf",
+    "path": "\\Minutes\\4194\\2026\\557555.pdf",
+    "chars": 25993,
+    "text_file": "1087365_1.txt"
+   }
+  ]
+ },
+ "732:1085740": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1085740",
+  "date": "2026-03-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar  2 2026, 10:41AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\550114.pdf",
+    "path": "\\Notices\\4194\\2026\\550114.pdf",
+    "chars": 7033,
+    "text_file": "1085740_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 27 2026, 02:54PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\550047.pdf",
+    "path": "\\Notices\\4194\\2026\\550047.pdf",
+    "chars": 7037,
+    "text_file": "1085740_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 27 2026, 12:49PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\550004.pdf",
+    "path": "\\Notices\\4194\\2026\\550004.pdf",
+    "chars": 6474,
+    "text_file": "1085740_2.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 25 2026, 08:56AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\549672.pdf",
+    "path": "\\Notices\\4194\\2026\\549672.pdf",
+    "chars": 6479,
+    "text_file": "1085740_3.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Apr  8 2026, 11:43AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\553755.pdf",
+    "path": "\\Minutes\\4194\\2026\\553755.pdf",
+    "chars": 28835,
+    "text_file": "1085740_4.txt"
+   }
+  ]
+ },
+ "732:1084515": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1084515",
+  "date": "2026-02-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan 28 2026, 11:41AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\547267.pdf",
+    "path": "\\Notices\\4194\\2026\\547267.pdf",
+    "chars": 3613,
+    "text_file": "1084515_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar  5 2026, 03:18PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\550547.pdf",
+    "path": "\\Minutes\\4194\\2026\\550547.pdf",
+    "chars": 18516,
+    "text_file": "1084515_1.txt"
+   }
+  ]
+ },
+ "732:1083151": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1083151",
+  "date": "2026-01-06",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan  2 2026, 03:56PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\544937.pdf",
+    "path": "\\Notices\\4194\\2026\\544937.pdf",
+    "chars": 5471,
+    "text_file": "1083151_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec 31 2025, 04:25PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\544834.pdf",
+    "path": "\\Notices\\4194\\2025\\544834.pdf",
+    "chars": 5795,
+    "text_file": "1083151_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec 31 2025, 12:23PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\544780.pdf",
+    "path": "\\Notices\\4194\\2025\\544780.pdf",
+    "chars": 5409,
+    "text_file": "1083151_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar  5 2026, 03:17PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\550546.pdf",
+    "path": "\\Minutes\\4194\\2026\\550546.pdf",
+    "chars": 25201,
+    "text_file": "1083151_3.txt"
+   }
+  ]
+ },
+ "732:1082413": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1082413",
+  "date": "2026-01-01",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec 10 2025, 10:29AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\543289.pdf",
+    "path": "\\Notices\\4194\\2025\\543289.pdf",
+    "chars": 801,
+    "text_file": "1082413_0.txt"
+   }
+  ]
+ },
+ "732:1081559": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1081559",
+  "date": "2025-12-09",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec  3 2025, 04:04PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\542613.pdf",
+    "path": "\\Notices\\4194\\2025\\542613.pdf",
+    "chars": 2950,
+    "text_file": "1081559_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec  2 2025, 01:19PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\542435.pdf",
+    "path": "\\Notices\\4194\\2025\\542435.pdf",
+    "chars": 3024,
+    "text_file": "1081559_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 19 2025, 08:46AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\541527.pdf",
+    "path": "\\Notices\\4194\\2025\\541527.pdf",
+    "chars": 2680,
+    "text_file": "1081559_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Feb  4 2026, 10:05AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\547871.pdf",
+    "path": "\\Minutes\\4194\\2026\\547871.pdf",
+    "chars": 13703,
+    "text_file": "1081559_3.txt"
+   }
+  ]
+ },
+ "732:1081579": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1081579",
+  "date": "2025-12-02",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 26 2025, 02:56PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\542209.pdf",
+    "path": "\\Notices\\4194\\2025\\542209.pdf",
+    "chars": 4652,
+    "text_file": "1081579_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 25 2025, 04:30PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\542086.pdf",
+    "path": "\\Notices\\4194\\2025\\542086.pdf",
+    "chars": 4901,
+    "text_file": "1081579_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 21 2025, 04:19PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\541877.pdf",
+    "path": "\\Notices\\4194\\2025\\541877.pdf",
+    "chars": 4785,
+    "text_file": "1081579_2.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 19 2025, 11:41AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\541585.pdf",
+    "path": "\\Notices\\4194\\2025\\541585.pdf",
+    "chars": 4480,
+    "text_file": "1081579_3.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Feb  4 2026, 10:04AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\547870.pdf",
+    "path": "\\Minutes\\4194\\2026\\547870.pdf",
+    "chars": 16937,
+    "text_file": "1081579_4.txt"
+   }
+  ]
+ },
+ "732:1080526": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1080526",
+  "date": "2025-11-04",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct 28 2025, 08:39AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\539461.pdf",
+    "path": "\\Notices\\4194\\2025\\539461.pdf",
+    "chars": 5876,
+    "text_file": "1080526_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Dec  3 2025, 04:06PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2025\\542614.pdf",
+    "path": "\\Minutes\\4194\\2025\\542614.pdf",
+    "chars": 26682,
+    "text_file": "1080526_1.txt"
+   }
+  ]
+ },
+ "732:1079215": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1079215",
+  "date": "2025-10-07",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct  3 2025, 04:59PM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\537443.pdf",
+    "path": "\\Notices\\4194\\2025\\537443.pdf",
+    "chars": 5670,
+    "text_file": "1079215_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 30 2025, 04:06PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\537081.pdf",
+    "path": "\\Notices\\4194\\2025\\537081.pdf",
+    "chars": 5413,
+    "text_file": "1079215_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 24 2025, 10:05AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\536585.pdf",
+    "path": "\\Notices\\4194\\2025\\536585.pdf",
+    "chars": 5575,
+    "text_file": "1079215_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Nov 14 2025, 09:54AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2025\\541065.pdf",
+    "path": "\\Minutes\\4194\\2025\\541065.pdf",
+    "chars": 15484,
+    "text_file": "1079215_3.txt"
+   }
+  ]
+ },
+ "732:1078144": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1078144",
+  "date": "2025-09-02",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug 27 2025, 02:21PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\534354.pdf",
+    "path": "\\Notices\\4194\\2025\\534354.pdf",
+    "chars": 5010,
+    "text_file": "1078144_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Oct 15 2025, 04:27PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2025\\538341.pdf",
+    "path": "\\Minutes\\4194\\2025\\538341.pdf",
+    "chars": 24505,
+    "text_file": "1078144_1.txt"
+   }
+  ]
+ },
+ "732:1077775": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1077775",
+  "date": "2025-08-26",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug 15 2025, 08:56AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\533533.pdf",
+    "path": "\\Notices\\4194\\2025\\533533.pdf",
+    "chars": 3341,
+    "text_file": "1077775_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Oct 15 2025, 04:27PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2025\\538340.pdf",
+    "path": "\\Minutes\\4194\\2025\\538340.pdf",
+    "chars": 12250,
+    "text_file": "1077775_1.txt"
+   }
+  ]
+ },
+ "732:1077272": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1077272",
+  "date": "2025-08-05",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug  1 2025, 02:33PM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\532693.pdf",
+    "path": "\\Notices\\4194\\2025\\532693.pdf",
+    "chars": 4266,
+    "text_file": "1077272_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 30 2025, 04:24PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\532520.pdf",
+    "path": "\\Notices\\4194\\2025\\532520.pdf",
+    "chars": 4232,
+    "text_file": "1077272_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Sep  3 2025, 02:44PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2025\\534742.pdf",
+    "path": "\\Minutes\\4194\\2025\\534742.pdf",
+    "chars": 22351,
+    "text_file": "1077272_2.txt"
+   }
+  ]
+ },
+ "732:1076559": {
+  "entity_id": 732,
+  "board": "Cranston Planning Commission",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1076559",
+  "date": "2025-07-17",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul  8 2025, 12:46PM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2025\\530841.pdf",
+    "path": "\\Notices\\4194\\2025\\530841.pdf",
+    "chars": 2245,
+    "text_file": "1076559_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Aug  6 2025, 04:01PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2025\\532958.pdf",
+    "path": "\\Minutes\\4194\\2025\\532958.pdf",
+    "chars": 10298,
+    "text_file": "1076559_1.txt"
+   }
+  ]
+ },
+ "743:1090531": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1090531",
+  "date": "2026-06-17",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 15 2026, 08:39AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2026\\559696.pdf",
+    "path": "\\Notices\\5353\\2026\\559696.pdf",
+    "chars": 1632,
+    "text_file": "1090531_0.txt"
+   }
+  ]
+ },
+ "743:1089862": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1089862",
+  "date": "2026-06-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 29 2026, 04:05PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2026\\558343.pdf",
+    "path": "\\Notices\\5353\\2026\\558343.pdf",
+    "chars": 2241,
+    "text_file": "1089862_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jun 17 2026, 11:58AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2026\\560015.pdf",
+    "path": "\\Minutes\\5353\\2026\\560015.pdf",
+    "chars": 9930,
+    "text_file": "1089862_1.txt"
+   }
+  ]
+ },
+ "743:1089499": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1089499",
+  "date": "2026-05-27",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 20 2026, 03:42PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2026\\557612.pdf",
+    "path": "\\Notices\\5353\\2026\\557612.pdf",
+    "chars": 2525,
+    "text_file": "1089499_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jun  8 2026, 03:14PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2026\\559097.pdf",
+    "path": "\\Minutes\\5353\\2026\\559097.pdf",
+    "chars": 12742,
+    "text_file": "1089499_1.txt"
+   }
+  ]
+ },
+ "743:1089095": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1089095",
+  "date": "2026-05-20",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 12 2026, 11:09AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2026\\556750.pdf",
+    "path": "\\Notices\\5353\\2026\\556750.pdf",
+    "chars": 1345,
+    "text_file": "1089095_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jun  8 2026, 03:14PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2026\\559096.pdf",
+    "path": "\\Minutes\\5353\\2026\\559096.pdf",
+    "chars": 7799,
+    "text_file": "1089095_1.txt"
+   }
+  ]
+ },
+ "743:1088654": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1088654",
+  "date": "2026-05-06",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May  4 2026, 09:26AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2026\\555883.pdf",
+    "path": "\\Notices\\5353\\2026\\555883.pdf",
+    "chars": 1230,
+    "text_file": "1088654_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May  1 2026, 04:40PM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2026\\555858.pdf",
+    "path": "\\Notices\\5353\\2026\\555858.pdf",
+    "chars": 1194,
+    "text_file": "1088654_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on May 29 2026, 04:06PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2026\\558344.pdf",
+    "path": "\\Minutes\\5353\\2026\\558344.pdf",
+    "chars": 5198,
+    "text_file": "1088654_2.txt"
+   }
+  ]
+ },
+ "743:1086788": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1086788",
+  "date": "2026-04-01",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar 25 2026, 10:24AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2026\\552479.pdf",
+    "path": "\\Notices\\5353\\2026\\552479.pdf",
+    "chars": 3119,
+    "text_file": "1086788_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar 18 2026, 03:11PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2026\\551789.pdf",
+    "path": "\\Notices\\5353\\2026\\551789.pdf",
+    "chars": 2790,
+    "text_file": "1086788_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar 17 2026, 03:31PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2026\\551695.pdf",
+    "path": "\\Notices\\5353\\2026\\551695.pdf",
+    "chars": 2399,
+    "text_file": "1086788_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on May 20 2026, 10:54AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2026\\557557.pdf",
+    "path": "\\Minutes\\5353\\2026\\557557.pdf",
+    "chars": 19392,
+    "text_file": "1086788_3.txt"
+   }
+  ]
+ },
+ "743:1084005": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1084005",
+  "date": "2026-01-21",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan 15 2026, 03:27PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2026\\546263.pdf",
+    "path": "\\Notices\\5353\\2026\\546263.pdf",
+    "chars": 2033,
+    "text_file": "1084005_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on May 20 2026, 10:54AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2026\\557556.pdf",
+    "path": "\\Minutes\\5353\\2026\\557556.pdf",
+    "chars": 4814,
+    "text_file": "1084005_1.txt"
+   }
+  ]
+ },
+ "743:1081411": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1081411",
+  "date": "2025-11-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 17 2025, 08:43AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\541251.pdf",
+    "path": "\\Notices\\5353\\2025\\541251.pdf",
+    "chars": 1455,
+    "text_file": "1081411_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jan 22 2026, 09:37AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2026\\546784.pdf",
+    "path": "\\Minutes\\5353\\2026\\546784.pdf",
+    "chars": 4621,
+    "text_file": "1081411_1.txt"
+   }
+  ]
+ },
+ "743:1080525": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1080525",
+  "date": "2025-11-05",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct 28 2025, 08:39AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\539460.pdf",
+    "path": "\\Notices\\5353\\2025\\539460.pdf",
+    "chars": 1696,
+    "text_file": "1080525_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Nov 19 2025, 11:43AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2025\\541587.pdf",
+    "path": "\\Minutes\\5353\\2025\\541587.pdf",
+    "chars": 4289,
+    "text_file": "1080525_1.txt"
+   }
+  ]
+ },
+ "743:1079785": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1079785",
+  "date": "2025-10-15",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct  8 2025, 03:52PM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\537784.pdf",
+    "path": "\\Notices\\5353\\2025\\537784.pdf",
+    "chars": 1914,
+    "text_file": "1079785_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Nov 14 2025, 10:15AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2025\\541072.pdf",
+    "path": "\\Minutes\\5353\\2025\\541072.pdf",
+    "chars": 7009,
+    "text_file": "1079785_1.txt"
+   }
+  ]
+ },
+ "743:1078605": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1078605",
+  "date": "2025-09-17",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep  9 2025, 08:49AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\535196.pdf",
+    "path": "\\Notices\\5353\\2025\\535196.pdf",
+    "chars": 1958,
+    "text_file": "1078605_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Oct 15 2025, 04:26PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2025\\538338.pdf",
+    "path": "\\Minutes\\5353\\2025\\538338.pdf",
+    "chars": 8773,
+    "text_file": "1078605_1.txt"
+   }
+  ]
+ },
+ "743:1078076": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1078076",
+  "date": "2025-09-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug 25 2025, 12:33PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\534163.pdf",
+    "path": "\\Notices\\5353\\2025\\534163.pdf",
+    "chars": 1902,
+    "text_file": "1078076_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Sep 17 2025, 03:24PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2025\\536140.pdf",
+    "path": "\\Minutes\\5353\\2025\\536140.pdf",
+    "chars": 6063,
+    "text_file": "1078076_1.txt"
+   }
+  ]
+ },
+ "743:1077776": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1077776",
+  "date": "2025-08-20",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug 15 2025, 08:57AM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\533534.pdf",
+    "path": "\\Notices\\5353\\2025\\533534.pdf",
+    "chars": 1663,
+    "text_file": "1077776_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Sep 17 2025, 03:24PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2025\\536139.pdf",
+    "path": "\\Minutes\\5353\\2025\\536139.pdf",
+    "chars": 8586,
+    "text_file": "1077776_1.txt"
+   }
+  ]
+ },
+ "743:1076279": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1076279",
+  "date": "2025-07-02",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 26 2025, 01:03PM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\530233.pdf",
+    "path": "\\Notices\\5353\\2025\\530233.pdf",
+    "chars": 1421,
+    "text_file": "1076279_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Sep 17 2025, 03:23PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2025\\536138.pdf",
+    "path": "\\Minutes\\5353\\2025\\536138.pdf",
+    "chars": 12293,
+    "text_file": "1076279_1.txt"
+   }
+  ]
+ },
+ "743:1075757": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1075757",
+  "date": "2025-06-18",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 12 2025, 11:47AM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\529059.pdf",
+    "path": "\\Notices\\5353\\2025\\529059.pdf",
+    "chars": 1705,
+    "text_file": "1075757_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 12 2025, 09:28AM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\529006.pdf",
+    "path": "\\Notices\\5353\\2025\\529006.pdf",
+    "chars": 1722,
+    "text_file": "1075757_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Sep 17 2025, 03:23PM by James Ray",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2025\\536137.pdf",
+    "path": "\\Minutes\\5353\\2025\\536137.pdf",
+    "chars": 10329,
+    "text_file": "1075757_2.txt"
+   }
+  ]
+ },
+ "743:1074674": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1074674",
+  "date": "2025-05-21",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 16 2025, 04:22PM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\526749.pdf",
+    "path": "\\Notices\\5353\\2025\\526749.pdf",
+    "chars": 1556,
+    "text_file": "1074674_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jun 18 2025, 11:09AM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2025\\529584.pdf",
+    "path": "\\Minutes\\5353\\2025\\529584.pdf",
+    "chars": 10326,
+    "text_file": "1074674_1.txt"
+   }
+  ]
+ },
+ "743:1070507": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1070507",
+  "date": "2025-02-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 13 2025, 12:15PM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\518143.pdf",
+    "path": "\\Notices\\5353\\2025\\518143.pdf",
+    "chars": 2144,
+    "text_file": "1070507_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 13 2025, 11:45AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\518133.pdf",
+    "path": "\\Notices\\5353\\2025\\518133.pdf",
+    "chars": 1762,
+    "text_file": "1070507_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 13 2025, 10:13AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\518109.pdf",
+    "path": "\\Notices\\5353\\2025\\518109.pdf",
+    "chars": 2144,
+    "text_file": "1070507_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jun 18 2025, 11:09AM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2025\\529583.pdf",
+    "path": "\\Minutes\\5353\\2025\\529583.pdf",
+    "chars": 8852,
+    "text_file": "1070507_3.txt"
+   }
+  ]
+ },
+ "743:1069018": {
+  "entity_id": 743,
+  "board": "Cranston Development Plan Review Committee (DPRC)",
+  "municipality": "Cranston",
+  "tier": 1,
+  "meeting_id": "1069018",
+  "date": "2025-01-15",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan 10 2025, 04:25PM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\5353\\2025\\515023.pdf",
+    "path": "\\Notices\\5353\\2025\\515023.pdf",
+    "chars": 1665,
+    "text_file": "1069018_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jun 12 2025, 09:29AM by Jonas Bruggemann",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\5353\\2025\\529007.pdf",
+    "path": "\\Minutes\\5353\\2025\\529007.pdf",
+    "chars": 5663,
+    "text_file": "1069018_1.txt"
+   }
+  ]
+ },
+ "2516:1089966": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1089966",
+  "date": "2026-06-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun  3 2026, 09:36AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\558604.pdf",
+    "path": "\\Notices\\4017\\2026\\558604.pdf",
+    "chars": 3261,
+    "text_file": "1089966_0.txt"
+   }
+  ]
+ },
+ "2516:1089718": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1089718",
+  "date": "2026-06-02",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 27 2026, 09:01AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\558047.pdf",
+    "path": "\\Notices\\4017\\2026\\558047.pdf",
+    "chars": 2488,
+    "text_file": "1089718_0.txt"
+   }
+  ]
+ },
+ "2516:1089233": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1089233",
+  "date": "2026-05-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 18 2026, 11:36AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\557335.pdf",
+    "path": "\\Notices\\4017\\2026\\557335.pdf",
+    "chars": 3019,
+    "text_file": "1089233_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 18 2026, 09:30AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\557300.pdf",
+    "path": "\\Notices\\4017\\2026\\557300.pdf",
+    "chars": 2193,
+    "text_file": "1089233_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 15 2026, 10:29AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\557182.pdf",
+    "path": "\\Notices\\4017\\2026\\557182.pdf",
+    "chars": 2181,
+    "text_file": "1089233_2.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 14 2026, 01:41PM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\557047.pdf",
+    "path": "\\Notices\\4017\\2026\\557047.pdf",
+    "chars": 2932,
+    "text_file": "1089233_3.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on May 28 2026, 09:52AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\558151.pdf",
+    "path": "\\Minutes\\4017\\2026\\558151.pdf",
+    "chars": 13490,
+    "text_file": "1089233_4.txt"
+   }
+  ]
+ },
+ "2516:1088429": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1088429",
+  "date": "2026-04-29",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr 27 2026, 12:07PM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\555361.pdf",
+    "path": "\\Notices\\4017\\2026\\555361.pdf",
+    "chars": 3991,
+    "text_file": "1088429_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on May 12 2026, 04:26PM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\556836.pdf",
+    "path": "\\Minutes\\4017\\2026\\556836.pdf",
+    "chars": 5904,
+    "text_file": "1088429_1.txt"
+   }
+  ]
+ },
+ "2516:1087920": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1087920",
+  "date": "2026-04-21",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr 17 2026, 11:07AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\554690.pdf",
+    "path": "\\Notices\\4017\\2026\\554690.pdf",
+    "chars": 4027,
+    "text_file": "1087920_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr 13 2026, 12:20PM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\554215.pdf",
+    "path": "\\Notices\\4017\\2026\\554215.pdf",
+    "chars": 3931,
+    "text_file": "1087920_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on May 12 2026, 04:11PM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\556831.pdf",
+    "path": "\\Minutes\\4017\\2026\\556831.pdf",
+    "chars": 15618,
+    "text_file": "1087920_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on May 11 2026, 03:34PM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\556693.pdf",
+    "path": "\\Minutes\\4017\\2026\\556693.pdf",
+    "chars": 15670,
+    "text_file": "1087920_3.txt"
+   }
+  ]
+ },
+ "2516:1086504": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1086504",
+  "date": "2026-03-17",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar 12 2026, 08:35AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\551122.pdf",
+    "path": "\\Notices\\4017\\2026\\551122.pdf",
+    "chars": 7613,
+    "text_file": "1086504_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Apr 22 2026, 08:47AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\554963.pdf",
+    "path": "\\Minutes\\4017\\2026\\554963.pdf",
+    "chars": 24990,
+    "text_file": "1086504_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Apr 21 2026, 09:02AM by Grace Brownell",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\554867.pdf",
+    "path": "\\Minutes\\4017\\2026\\554867.pdf",
+    "chars": 24953,
+    "text_file": "1086504_2.txt"
+   }
+  ]
+ },
+ "2516:1085266": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1085266",
+  "date": "2026-02-17",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 12 2026, 02:03PM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\548756.pdf",
+    "path": "\\Notices\\4017\\2026\\548756.pdf",
+    "chars": 7526,
+    "text_file": "1085266_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 19 2026, 01:51PM by Mary Bourdeau",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\551919.pdf",
+    "path": "\\Minutes\\4017\\2026\\551919.pdf",
+    "chars": 13527,
+    "text_file": "1085266_1.txt"
+   }
+  ]
+ },
+ "2516:1083328": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1083328",
+  "date": "2026-01-20",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan  5 2026, 02:18PM by Mary Bourdeau",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\545045.pdf",
+    "path": "\\Notices\\4017\\2026\\545045.pdf",
+    "chars": 354,
+    "text_file": "1083328_0.txt"
+   }
+  ]
+ },
+ "2516:1084012": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1084012",
+  "date": "2026-01-20",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan 15 2026, 04:24PM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\546273.pdf",
+    "path": "\\Notices\\4017\\2026\\546273.pdf",
+    "chars": 4643,
+    "text_file": "1084012_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 20 2026, 09:56AM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\552007.pdf",
+    "path": "\\Minutes\\4017\\2026\\552007.pdf",
+    "chars": 11631,
+    "text_file": "1084012_1.txt"
+   }
+  ]
+ },
+ "2516:1083213": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1083213",
+  "date": "2026-01-06",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan  2 2026, 08:28AM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2026\\544865.pdf",
+    "path": "\\Notices\\4017\\2026\\544865.pdf",
+    "chars": 5433,
+    "text_file": "1083213_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 20 2026, 09:54AM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\552006.pdf",
+    "path": "\\Minutes\\4017\\2026\\552006.pdf",
+    "chars": 24181,
+    "text_file": "1083213_1.txt"
+   }
+  ]
+ },
+ "2516:1082595": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1082595",
+  "date": "2025-12-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec 15 2025, 03:43PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\543950.pdf",
+    "path": "\\Notices\\4017\\2025\\543950.pdf",
+    "chars": 1059,
+    "text_file": "1082595_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec 12 2025, 08:54AM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\543683.pdf",
+    "path": "\\Notices\\4017\\2025\\543683.pdf",
+    "chars": 5435,
+    "text_file": "1082595_1.txt"
+   }
+  ]
+ },
+ "2516:1081863": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1081863",
+  "date": "2025-12-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec  1 2025, 03:56PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\542358.pdf",
+    "path": "\\Notices\\4017\\2025\\542358.pdf",
+    "chars": 5105,
+    "text_file": "1081863_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 26 2025, 03:49PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\542223.pdf",
+    "path": "\\Notices\\4017\\2025\\542223.pdf",
+    "chars": 4423,
+    "text_file": "1081863_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 20 2026, 09:51AM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\552003.pdf",
+    "path": "\\Minutes\\4017\\2026\\552003.pdf",
+    "chars": 22699,
+    "text_file": "1081863_2.txt"
+   }
+  ]
+ },
+ "2516:1081332": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1081332",
+  "date": "2025-11-18",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 14 2025, 11:22AM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\541095.pdf",
+    "path": "\\Notices\\4017\\2025\\541095.pdf",
+    "chars": 4218,
+    "text_file": "1081332_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 20 2026, 09:46AM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2026\\552001.pdf",
+    "path": "\\Minutes\\4017\\2026\\552001.pdf",
+    "chars": 22247,
+    "text_file": "1081332_1.txt"
+   }
+  ]
+ },
+ "2516:1080178": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1080178",
+  "date": "2025-10-21",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct 17 2025, 08:09AM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\538623.pdf",
+    "path": "\\Notices\\4017\\2025\\538623.pdf",
+    "chars": 4404,
+    "text_file": "1080178_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Nov 13 2025, 03:10PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2025\\540959.pdf",
+    "path": "\\Minutes\\4017\\2025\\540959.pdf",
+    "chars": 15188,
+    "text_file": "1080178_1.txt"
+   }
+  ]
+ },
+ "2516:1078820": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1078820",
+  "date": "2025-09-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 12 2025, 11:49AM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\535714.pdf",
+    "path": "\\Notices\\4017\\2025\\535714.pdf",
+    "chars": 5069,
+    "text_file": "1078820_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Nov 17 2025, 03:36PM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2025\\541353.pdf",
+    "path": "\\Minutes\\4017\\2025\\541353.pdf",
+    "chars": 15595,
+    "text_file": "1078820_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Oct 16 2025, 10:57AM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2025\\538408.pdf",
+    "path": "\\Minutes\\4017\\2025\\538408.pdf",
+    "chars": 15419,
+    "text_file": "1078820_2.txt"
+   }
+  ]
+ },
+ "2516:1077713": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1077713",
+  "date": "2025-08-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug 15 2025, 12:18PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\533576.pdf",
+    "path": "\\Notices\\4017\\2025\\533576.pdf",
+    "chars": 5469,
+    "text_file": "1077713_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug 14 2025, 12:55PM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\533424.pdf",
+    "path": "\\Notices\\4017\\2025\\533424.pdf",
+    "chars": 4943,
+    "text_file": "1077713_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Sep 12 2025, 11:58AM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2025\\535720.pdf",
+    "path": "\\Minutes\\4017\\2025\\535720.pdf",
+    "chars": 16183,
+    "text_file": "1077713_2.txt"
+   }
+  ]
+ },
+ "2516:1076677": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1076677",
+  "date": "2025-07-15",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 10 2025, 04:43PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\531171.pdf",
+    "path": "\\Notices\\4017\\2025\\531171.pdf",
+    "chars": 7626,
+    "text_file": "1076677_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Aug 19 2025, 08:18AM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2025\\533721.pdf",
+    "path": "\\Minutes\\4017\\2025\\533721.pdf",
+    "chars": 29618,
+    "text_file": "1076677_1.txt"
+   }
+  ]
+ },
+ "2516:1075824": {
+  "entity_id": 2516,
+  "board": "Pawtucket City Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1075824",
+  "date": "2025-06-17",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 12 2025, 03:53PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4017\\2025\\529144.pdf",
+    "path": "\\Notices\\4017\\2025\\529144.pdf",
+    "chars": 1614,
+    "text_file": "1075824_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jul 23 2025, 08:31AM by Mary Bourdeau",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4017\\2025\\532056.pdf",
+    "path": "\\Minutes\\4017\\2025\\532056.pdf",
+    "chars": 6855,
+    "text_file": "1075824_1.txt"
+   }
+  ]
+ },
+ "2513:1081864": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1081864",
+  "date": "2025-12-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec  1 2025, 03:56PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2025\\542359.pdf",
+    "path": "\\Notices\\6663\\2025\\542359.pdf",
+    "chars": 5105,
+    "text_file": "1081864_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 26 2025, 03:50PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2025\\542224.pdf",
+    "path": "\\Notices\\6663\\2025\\542224.pdf",
+    "chars": 4423,
+    "text_file": "1081864_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 20 2026, 10:21AM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2026\\552014.pdf",
+    "path": "\\Minutes\\6663\\2026\\552014.pdf",
+    "chars": 22699,
+    "text_file": "1081864_2.txt"
+   }
+  ]
+ },
+ "2513:1078821": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1078821",
+  "date": "2025-09-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 12 2025, 11:51AM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2025\\535716.pdf",
+    "path": "\\Notices\\6663\\2025\\535716.pdf",
+    "chars": 5069,
+    "text_file": "1078821_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Nov 17 2025, 03:37PM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2025\\541354.pdf",
+    "path": "\\Minutes\\6663\\2025\\541354.pdf",
+    "chars": 15595,
+    "text_file": "1078821_1.txt"
+   }
+  ]
+ },
+ "2513:1077715": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1077715",
+  "date": "2025-08-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug 15 2025, 12:18PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2025\\533577.pdf",
+    "path": "\\Notices\\6663\\2025\\533577.pdf",
+    "chars": 5469,
+    "text_file": "1077715_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug 14 2025, 12:56PM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2025\\533426.pdf",
+    "path": "\\Notices\\6663\\2025\\533426.pdf",
+    "chars": 4943,
+    "text_file": "1077715_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 20 2026, 10:27AM by Curtis Dufour",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2026\\552015.pdf",
+    "path": "\\Minutes\\6663\\2026\\552015.pdf",
+    "chars": 16183,
+    "text_file": "1077715_2.txt"
+   }
+  ]
+ },
+ "2513:1076678": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1076678",
+  "date": "2025-07-15",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 10 2025, 04:45PM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2025\\531173.pdf",
+    "path": "\\Notices\\6663\\2025\\531173.pdf",
+    "chars": 7626,
+    "text_file": "1076678_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 19 2026, 02:20PM by Mary Bourdeau",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2026\\551931.pdf",
+    "path": "\\Minutes\\6663\\2026\\551931.pdf",
+    "chars": 29618,
+    "text_file": "1076678_1.txt"
+   }
+  ]
+ },
+ "2513:1070499": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1070499",
+  "date": "2025-02-18",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 18 2025, 10:17AM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2025\\518465.pdf",
+    "path": "\\Notices\\6663\\2025\\518465.pdf",
+    "chars": 611,
+    "text_file": "1070499_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb 13 2025, 09:06AM by Jason Pettinato",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2025\\518097.pdf",
+    "path": "\\Notices\\6663\\2025\\518097.pdf",
+    "chars": 2612,
+    "text_file": "1070499_1.txt"
+   }
+  ]
+ },
+ "2513:1065772": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1065772",
+  "date": "2024-11-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 15 2024, 05:07PM by Jim Vandermillen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2024\\510105.pdf",
+    "path": "\\Notices\\6663\\2024\\510105.pdf",
+    "chars": 1388,
+    "text_file": "1065772_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Nov 25 2024, 11:26AM by Nathaniel Bailey",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2024\\510800.pdf",
+    "path": "\\Minutes\\6663\\2024\\510800.pdf",
+    "chars": 11405,
+    "text_file": "1065772_1.txt"
+   }
+  ]
+ },
+ "2513:1065698": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1065698",
+  "date": "2024-11-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 15 2024, 08:04AM by Nathaniel Bailey",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2024\\509949.pdf",
+    "path": "\\Notices\\6663\\2024\\509949.pdf",
+    "chars": 1388,
+    "text_file": "1065698_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 19 2026, 02:18PM by Mary Bourdeau",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2026\\551930.pdf",
+    "path": "\\Minutes\\6663\\2026\\551930.pdf",
+    "chars": 26,
+    "text_file": "1065698_1.txt"
+   }
+  ]
+ },
+ "2513:1059925": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1059925",
+  "date": "2024-06-18",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 11 2024, 01:22PM by Sandra Perez",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2024\\495496.pdf",
+    "path": "\\Notices\\6663\\2024\\495496.pdf",
+    "chars": 2261,
+    "text_file": "1059925_0.txt"
+   }
+  ]
+ },
+ "2513:1050614": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1050614",
+  "date": "2023-11-21",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 17 2023, 04:44PM by Jim Vandermillen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2023\\476758.pdf",
+    "path": "\\Notices\\6663\\2023\\476758.pdf",
+    "chars": 1411,
+    "text_file": "1050614_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 19 2026, 02:16PM by Mary Bourdeau",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2026\\551929.pdf",
+    "path": "\\Minutes\\6663\\2026\\551929.pdf",
+    "chars": 6105,
+    "text_file": "1050614_1.txt"
+   }
+  ]
+ },
+ "2513:1035264": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1035264",
+  "date": "2023-01-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec 30 2022, 06:46PM by Jim Vandermillen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2022\\447795.pdf",
+    "path": "\\Notices\\6663\\2022\\447795.pdf",
+    "chars": 845,
+    "text_file": "1035264_0.txt"
+   }
+  ]
+ },
+ "2513:1033520": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1033520",
+  "date": "2022-11-21",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 17 2022, 03:58PM by Jim Vandermillen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2022\\444374.pdf",
+    "path": "\\Notices\\6663\\2022\\444374.pdf",
+    "chars": 1336,
+    "text_file": "1033520_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Dec 21 2022, 12:34PM by Michelle Hardy",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2022\\447319.pdf",
+    "path": "\\Minutes\\6663\\2022\\447319.pdf",
+    "chars": 1259,
+    "text_file": "1033520_1.txt"
+   }
+  ]
+ },
+ "2513:1030748": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1030748",
+  "date": "2022-09-20",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep 15 2022, 11:04AM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2022\\438446.pdf",
+    "path": "\\Notices\\6663\\2022\\438446.pdf",
+    "chars": 1526,
+    "text_file": "1030748_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Mar 19 2026, 02:15PM by Mary Bourdeau",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2026\\551928.pdf",
+    "path": "\\Minutes\\6663\\2026\\551928.pdf",
+    "chars": 13330,
+    "text_file": "1030748_1.txt"
+   }
+  ]
+ },
+ "2513:1023961": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1023961",
+  "date": "2022-04-19",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr 15 2022, 11:07AM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2022\\425983.pdf",
+    "path": "\\Notices\\6663\\2022\\425983.pdf",
+    "chars": 1944,
+    "text_file": "1023961_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Sep 15 2022, 11:07AM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2022\\438448.pdf",
+    "path": "\\Minutes\\6663\\2022\\438448.pdf",
+    "chars": 1944,
+    "text_file": "1023961_1.txt"
+   }
+  ]
+ },
+ "2513:1016875": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1016875",
+  "date": "2021-11-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 10 2021, 05:08PM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2021\\410869.pdf",
+    "path": "\\Notices\\6663\\2021\\410869.pdf",
+    "chars": 1951,
+    "text_file": "1016875_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Sep 15 2022, 11:06AM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2022\\438447.pdf",
+    "path": "\\Minutes\\6663\\2022\\438447.pdf",
+    "chars": 1951,
+    "text_file": "1016875_1.txt"
+   }
+  ]
+ },
+ "2513:1002786": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "1002786",
+  "date": "2021-01-12",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan  5 2021, 04:23PM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2021\\382736.pdf",
+    "path": "\\Notices\\6663\\2021\\382736.pdf",
+    "chars": 1314,
+    "text_file": "1002786_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Feb  4 2021, 04:02PM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2021\\385728.pdf",
+    "path": "\\Minutes\\6663\\2021\\385728.pdf",
+    "chars": 10010,
+    "text_file": "1002786_1.txt"
+   }
+  ]
+ },
+ "2513:985016": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "985016",
+  "date": "2019-10-22",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct 17 2019, 07:46PM by Jim Vandermillen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2019\\346780.pdf",
+    "path": "\\Notices\\6663\\2019\\346780.pdf",
+    "chars": 1148,
+    "text_file": "985016_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jan 23 2020, 11:12AM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2020\\355453.pdf",
+    "path": "\\Minutes\\6663\\2020\\355453.pdf",
+    "chars": 7943,
+    "text_file": "985016_1.txt"
+   }
+  ]
+ },
+ "2513:985007": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "985007",
+  "date": "2019-10-22",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct 17 2019, 04:10PM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\6663\\2019\\346764.pdf",
+    "path": "\\Notices\\6663\\2019\\346764.pdf",
+    "chars": 1148,
+    "text_file": "985007_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Feb  4 2021, 04:03PM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2021\\385729.pdf",
+    "path": "\\Minutes\\6663\\2021\\385729.pdf",
+    "chars": 7943,
+    "text_file": "985007_1.txt"
+   }
+  ]
+ },
+ "2513:968677": {
+  "entity_id": 2513,
+  "board": "Pawtucket Central Falls District Joint Planning Commission",
+  "municipality": "Pawtucket",
+  "tier": 1,
+  "meeting_id": "968677",
+  "date": "2018-10-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct 12 2018, 11:53AM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\2513\\2018\\312044.pdf",
+    "path": "\\Notices\\2513\\2018\\312044.pdf",
+    "chars": 1026,
+    "text_file": "968677_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jun 13 2019, 09:56AM by Jay Rosa",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\6663\\2019\\336638.pdf",
+    "path": "\\Minutes\\6663\\2019\\336638.pdf",
+    "chars": 27293,
+    "text_file": "968677_1.txt"
+   }
+  ]
+ },
+ "2204:1091816": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1091816",
+  "date": "2026-08-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 28 2026, 09:54AM by Rebeccah Trefethen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2026\\562602.pdf",
+    "path": "\\Notices\\4856\\2026\\562602.pdf",
+    "chars": 3944,
+    "text_file": "1091816_0.txt"
+   }
+  ]
+ },
+ "2204:1091452": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1091452",
+  "date": "2026-07-20",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 14 2026, 02:25PM by Rebeccah Trefethen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2026\\561754.pdf",
+    "path": "\\Notices\\4856\\2026\\561754.pdf",
+    "chars": 538,
+    "text_file": "1091452_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 14 2026, 02:25PM by Rebeccah Trefethen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2026\\561755.pdf",
+    "path": "\\Notices\\4856\\2026\\561755.pdf",
+    "chars": 23381,
+    "text_file": "1091452_1.txt"
+   }
+  ]
+ },
+ "2204:1089703": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1089703",
+  "date": "2026-06-01",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 26 2026, 04:17PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2026\\558023.pdf",
+    "path": "\\Notices\\4856\\2026\\558023.pdf",
+    "chars": 4270,
+    "text_file": "1089703_0.txt"
+   }
+  ]
+ },
+ "2204:1089382": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1089382",
+  "date": "2026-05-18",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 18 2026, 11:33AM by Rebeccah Trefethen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2026\\557332.pdf",
+    "path": "\\Notices\\4856\\2026\\557332.pdf",
+    "chars": 1521,
+    "text_file": "1089382_0.txt"
+   }
+  ]
+ },
+ "2204:1088853": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1088853",
+  "date": "2026-05-11",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May  7 2026, 01:40PM by Rebeccah Trefethen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2026\\556349.pdf",
+    "path": "\\Notices\\4856\\2026\\556349.pdf",
+    "chars": 3342,
+    "text_file": "1088853_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May  7 2026, 10:22AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2026\\556273.pdf",
+    "path": "\\Notices\\4856\\2026\\556273.pdf",
+    "chars": 3257,
+    "text_file": "1088853_1.txt"
+   }
+  ]
+ },
+ "2204:1087620": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1087620",
+  "date": "2026-04-07",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr  7 2026, 12:08PM by Rebeccah Trefethen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2026\\553590.pdf",
+    "path": "\\Notices\\4856\\2026\\553590.pdf",
+    "chars": 2649,
+    "text_file": "1087620_0.txt"
+   }
+  ]
+ },
+ "2204:1087386": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1087386",
+  "date": "2026-04-06",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr  2 2026, 09:41AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2026\\553136.pdf",
+    "path": "\\Notices\\4856\\2026\\553136.pdf",
+    "chars": 4828,
+    "text_file": "1087386_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on May 26 2026, 04:18PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4856\\2026\\558024.pdf",
+    "path": "\\Minutes\\4856\\2026\\558024.pdf",
+    "chars": 5066,
+    "text_file": "1087386_1.txt"
+   }
+  ]
+ },
+ "2204:1084617": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1084617",
+  "date": "2026-02-02",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan 29 2026, 03:45PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2026\\547445.pdf",
+    "path": "\\Notices\\4856\\2026\\547445.pdf",
+    "chars": 7045,
+    "text_file": "1084617_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved Meeting Minutes, Minutes filed on Apr  7 2026, 11:49AM by Rebeccah Trefethen",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4856\\2026\\553584.pdf",
+    "path": "\\Minutes\\4856\\2026\\553584.pdf",
+    "chars": 8564,
+    "text_file": "1084617_1.txt"
+   }
+  ]
+ },
+ "2204:1082361": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1082361",
+  "date": "2026-01-02",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec  9 2025, 11:15AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\543117.pdf",
+    "path": "\\Notices\\4856\\2025\\543117.pdf",
+    "chars": 2653,
+    "text_file": "1082361_0.txt"
+   }
+  ]
+ },
+ "2204:1081442": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1081442",
+  "date": "2025-12-02",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 17 2025, 11:59AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\541302.pdf",
+    "path": "\\Notices\\4856\\2025\\541302.pdf",
+    "chars": 862,
+    "text_file": "1081442_0.txt"
+   }
+  ]
+ },
+ "2204:1081745": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1081745",
+  "date": "2025-12-01",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov 25 2025, 11:13AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\542008.pdf",
+    "path": "\\Notices\\4856\\2025\\542008.pdf",
+    "chars": 8939,
+    "text_file": "1081745_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Feb  3 2026, 09:41AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4856\\2026\\547718.pdf",
+    "path": "\\Minutes\\4856\\2026\\547718.pdf",
+    "chars": 15062,
+    "text_file": "1081745_1.txt"
+   }
+  ]
+ },
+ "2204:1080514": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1080514",
+  "date": "2025-11-03",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct 27 2025, 03:30PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\539433.pdf",
+    "path": "\\Notices\\4856\\2025\\539433.pdf",
+    "chars": 5945,
+    "text_file": "1080514_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Dec  9 2025, 11:30AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4856\\2025\\543123.pdf",
+    "path": "\\Minutes\\4856\\2025\\543123.pdf",
+    "chars": 14743,
+    "text_file": "1080514_1.txt"
+   }
+  ]
+ },
+ "2204:1079435": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1079435",
+  "date": "2025-10-06",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct  1 2025, 10:01AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\537118.pdf",
+    "path": "\\Notices\\4856\\2025\\537118.pdf",
+    "chars": 9363,
+    "text_file": "1079435_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Nov 10 2025, 02:45PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4856\\2025\\540635.pdf",
+    "path": "\\Minutes\\4856\\2025\\540635.pdf",
+    "chars": 16471,
+    "text_file": "1079435_1.txt"
+   }
+  ]
+ },
+ "2204:1078301": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1078301",
+  "date": "2025-09-08",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep  3 2025, 09:04AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\534677.pdf",
+    "path": "\\Notices\\4856\\2025\\534677.pdf",
+    "chars": 7854,
+    "text_file": "1078301_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Oct 10 2025, 11:44AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4856\\2025\\538009.pdf",
+    "path": "\\Minutes\\4856\\2025\\538009.pdf",
+    "chars": 14831,
+    "text_file": "1078301_1.txt"
+   }
+  ]
+ },
+ "2204:1077287": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1077287",
+  "date": "2025-08-04",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 31 2025, 11:43AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\532566.pdf",
+    "path": "\\Notices\\4856\\2025\\532566.pdf",
+    "chars": 11999,
+    "text_file": "1077287_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul 31 2025, 10:46AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\532559.pdf",
+    "path": "\\Notices\\4856\\2025\\532559.pdf",
+    "chars": 11914,
+    "text_file": "1077287_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Sep  9 2025, 12:15PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4856\\2025\\535255.pdf",
+    "path": "\\Minutes\\4856\\2025\\535255.pdf",
+    "chars": 22575,
+    "text_file": "1077287_2.txt"
+   }
+  ]
+ },
+ "2204:1075669": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1075669",
+  "date": "2025-06-16",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun 10 2025, 02:43PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\528825.pdf",
+    "path": "\\Notices\\4856\\2025\\528825.pdf",
+    "chars": 7254,
+    "text_file": "1075669_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Aug  5 2025, 12:59PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4856\\2025\\532824.pdf",
+    "path": "\\Minutes\\4856\\2025\\532824.pdf",
+    "chars": 11586,
+    "text_file": "1075669_1.txt"
+   }
+  ]
+ },
+ "2204:1075117": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1075117",
+  "date": "2025-06-02",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 29 2025, 04:34PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\527790.pdf",
+    "path": "\\Notices\\4856\\2025\\527790.pdf",
+    "chars": 10364,
+    "text_file": "1075117_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 29 2025, 02:39PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\527729.pdf",
+    "path": "\\Notices\\4856\\2025\\527729.pdf",
+    "chars": 10227,
+    "text_file": "1075117_1.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 29 2025, 02:22PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\527723.pdf",
+    "path": "\\Notices\\4856\\2025\\527723.pdf",
+    "chars": 10026,
+    "text_file": "1075117_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Aug  5 2025, 12:59PM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4856\\2025\\532823.pdf",
+    "path": "\\Minutes\\4856\\2025\\532823.pdf",
+    "chars": 54709,
+    "text_file": "1075117_3.txt"
+   }
+  ]
+ },
+ "2204:1074377": {
+  "entity_id": 2204,
+  "board": "Newport Planning Board",
+  "municipality": "Newport",
+  "tier": 1,
+  "meeting_id": "1074377",
+  "date": "2025-05-15",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 13 2025, 09:11AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4856\\2025\\526179.pdf",
+    "path": "\\Notices\\4856\\2025\\526179.pdf",
+    "chars": 4856,
+    "text_file": "1074377_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jun 18 2025, 11:44AM by Hayden McDermott",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4856\\2025\\529590.pdf",
+    "path": "\\Minutes\\4856\\2025\\529590.pdf",
+    "chars": 9034,
+    "text_file": "1074377_1.txt"
+   }
+  ]
+ },
+ "3765:1092063": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1092063",
+  "date": "2026-08-12",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Aug  5 2026, 09:21AM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2026\\563198.pdf",
+    "path": "\\Notices\\4383\\2026\\563198.pdf",
+    "chars": 3018,
+    "text_file": "1092063_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved July 8, 2026 minutes, Minutes filed on Aug 14 2026, 02:31PM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2026\\563941.pdf",
+    "path": "\\Minutes\\4383\\2026\\563941.pdf",
+    "chars": 1716,
+    "text_file": "1092063_1.txt"
+   }
+  ]
+ },
+ "3765:1091031": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1091031",
+  "date": "2026-07-08",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul  1 2026, 11:48AM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2026\\560886.pdf",
+    "path": "\\Notices\\4383\\2026\\560886.pdf",
+    "chars": 2750,
+    "text_file": "1091031_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved June 10, 2026 minutes, Minutes filed on Jul  9 2026, 10:36AM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2026\\561412.pdf",
+    "path": "\\Minutes\\4383\\2026\\561412.pdf",
+    "chars": 4580,
+    "text_file": "1091031_1.txt"
+   }
+  ]
+ },
+ "3765:1090043": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1090043",
+  "date": "2026-06-10",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun  4 2026, 11:33AM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2026\\558745.pdf",
+    "path": "\\Notices\\4383\\2026\\558745.pdf",
+    "chars": 5484,
+    "text_file": "1090043_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "draft July minutes, Minutes filed on Jul  9 2026, 11:14AM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2026\\561427.pdf",
+    "path": "\\Minutes\\4383\\2026\\561427.pdf",
+    "chars": 1713,
+    "text_file": "1090043_1.txt"
+   }
+  ]
+ },
+ "3765:1088875": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1088875",
+  "date": "2026-05-13",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May  7 2026, 01:15PM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2026\\556337.pdf",
+    "path": "\\Notices\\4383\\2026\\556337.pdf",
+    "chars": 7669,
+    "text_file": "1088875_0.txt"
+   }
+  ]
+ },
+ "3765:1087381": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1087381",
+  "date": "2026-04-08",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr  2 2026, 09:14AM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2026\\553129.pdf",
+    "path": "\\Notices\\4383\\2026\\553129.pdf",
+    "chars": 8961,
+    "text_file": "1087381_0.txt"
+   }
+  ]
+ },
+ "3765:1086121": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1086121",
+  "date": "2026-03-11",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar  4 2026, 03:24PM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2026\\550388.pdf",
+    "path": "\\Notices\\4383\\2026\\550388.pdf",
+    "chars": 6797,
+    "text_file": "1086121_0.txt"
+   }
+  ]
+ },
+ "3765:1084795": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1084795",
+  "date": "2026-02-11",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb  5 2026, 02:45PM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2026\\548083.pdf",
+    "path": "\\Notices\\4383\\2026\\548083.pdf",
+    "chars": 5286,
+    "text_file": "1084795_0.txt"
+   },
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Feb  3 2026, 03:13PM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2026\\547816.pdf",
+    "path": "\\Notices\\4383\\2026\\547816.pdf",
+    "chars": 5061,
+    "text_file": "1084795_1.txt"
+   }
+  ]
+ },
+ "3765:1083523": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1083523",
+  "date": "2026-01-14",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jan  7 2026, 03:20PM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2026\\545376.pdf",
+    "path": "\\Notices\\4383\\2026\\545376.pdf",
+    "chars": 3276,
+    "text_file": "1083523_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Feb 17 2026, 12:37PM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2026\\549045.pdf",
+    "path": "\\Minutes\\4383\\2026\\549045.pdf",
+    "chars": 2076,
+    "text_file": "1083523_1.txt"
+   }
+  ]
+ },
+ "3765:1082020": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1082020",
+  "date": "2025-12-10",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec  3 2025, 09:37AM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\542526.pdf",
+    "path": "\\Notices\\4383\\2025\\542526.pdf",
+    "chars": 3942,
+    "text_file": "1082020_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Jan 15 2026, 11:58AM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2026\\546195.pdf",
+    "path": "\\Minutes\\4383\\2026\\546195.pdf",
+    "chars": 2037,
+    "text_file": "1082020_1.txt"
+   }
+  ]
+ },
+ "3765:1082021": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1082021",
+  "date": "2025-12-10",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Dec  3 2025, 09:40AM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\542527.pdf",
+    "path": "\\Notices\\4383\\2025\\542527.pdf",
+    "chars": 677,
+    "text_file": "1082021_0.txt"
+   }
+  ]
+ },
+ "3765:1080838": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1080838",
+  "date": "2025-11-12",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Nov  5 2025, 10:38AM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\540174.pdf",
+    "path": "\\Notices\\4383\\2025\\540174.pdf",
+    "chars": 4920,
+    "text_file": "1080838_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved , Minutes filed on Dec 11 2025, 10:05AM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\543482.pdf",
+    "path": "\\Minutes\\4383\\2025\\543482.pdf",
+    "chars": 1962,
+    "text_file": "1080838_1.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Minutes filed on Dec 11 2025, 09:40AM by Ashley Smith",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\543474.pdf",
+    "path": "\\Minutes\\4383\\2025\\543474.pdf",
+    "chars": 1944,
+    "text_file": "1080838_2.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved October 8, 2025 minutes, Minutes filed on Nov 13 2025, 09:10AM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\540815.pdf",
+    "path": "\\Minutes\\4383\\2025\\540815.pdf",
+    "chars": 3422,
+    "text_file": "1080838_3.txt"
+   }
+  ]
+ },
+ "3765:1079513": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1079513",
+  "date": "2025-10-08",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Oct  2 2025, 12:08PM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\537258.pdf",
+    "path": "\\Notices\\4383\\2025\\537258.pdf",
+    "chars": 3855,
+    "text_file": "1079513_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved 9-10-2025 Minutes, Minutes filed on Oct  9 2025, 10:30AM by Thomas Kravitz",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\537840.pdf",
+    "path": "\\Minutes\\4383\\2025\\537840.pdf",
+    "chars": 2946,
+    "text_file": "1079513_1.txt"
+   }
+  ]
+ },
+ "3765:1078430": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1078430",
+  "date": "2025-09-10",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Sep  4 2025, 03:49PM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\534897.pdf",
+    "path": "\\Notices\\4383\\2025\\534897.pdf",
+    "chars": 6082,
+    "text_file": "1078430_0.txt"
+   }
+  ]
+ },
+ "3765:1076380": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1076380",
+  "date": "2025-07-09",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jul  2 2025, 09:05AM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\530503.pdf",
+    "path": "\\Notices\\4383\\2025\\530503.pdf",
+    "chars": 3106,
+    "text_file": "1076380_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "DRAFT, Minutes filed on Aug 22 2025, 10:45AM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\534053.pdf",
+    "path": "\\Minutes\\4383\\2025\\534053.pdf",
+    "chars": 1521,
+    "text_file": "1076380_1.txt"
+   }
+  ]
+ },
+ "3765:1075543": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1075543",
+  "date": "2025-06-11",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Jun  6 2025, 02:39PM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\528561.pdf",
+    "path": "\\Notices\\4383\\2025\\528561.pdf",
+    "chars": 6155,
+    "text_file": "1075543_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on Aug 22 2025, 10:43AM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\534049.pdf",
+    "path": "\\Minutes\\4383\\2025\\534049.pdf",
+    "chars": 4015,
+    "text_file": "1075543_1.txt"
+   }
+  ]
+ },
+ "3765:1074325": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1074325",
+  "date": "2025-05-14",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on May 12 2025, 10:00AM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\526076.pdf",
+    "path": "\\Notices\\4383\\2025\\526076.pdf",
+    "chars": 4460,
+    "text_file": "1074325_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on Jun 13 2025, 12:06PM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\529257.pdf",
+    "path": "\\Minutes\\4383\\2025\\529257.pdf",
+    "chars": 2823,
+    "text_file": "1074325_1.txt"
+   }
+  ]
+ },
+ "3765:1072839": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1072839",
+  "date": "2025-04-09",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Apr  4 2025, 03:53PM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\522931.pdf",
+    "path": "\\Notices\\4383\\2025\\522931.pdf",
+    "chars": 3150,
+    "text_file": "1072839_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on May 21 2025, 05:27PM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\527113.pdf",
+    "path": "\\Minutes\\4383\\2025\\527113.pdf",
+    "chars": 2359,
+    "text_file": "1072839_1.txt"
+   }
+  ]
+ },
+ "3765:1071478": {
+  "entity_id": 3765,
+  "board": "Warwick Planning Board",
+  "municipality": "Warwick",
+  "tier": 1,
+  "meeting_id": "1071478",
+  "date": "2025-03-12",
+  "documents": [
+   {
+    "kind": "agenda",
+    "label": "Agenda filed on Mar  6 2025, 03:52PM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\520120.pdf",
+    "path": "\\Notices\\4383\\2025\\520120.pdf",
+    "chars": 3204,
+    "text_file": "1071478_0.txt"
+   },
+   {
+    "kind": "minutes",
+    "label": "Approved, Minutes filed on May 12 2025, 10:01AM by Lidia Cruz-Abreu",
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\526077.pdf",
+    "path": "\\Minutes\\4383\\2025\\526077.pdf",
+    "chars": 2744,
+    "text_file": "1071478_1.txt"
+   }
+  ]
+ }
+}
