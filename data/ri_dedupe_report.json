@@ -1,0 +1,273 @@
+{
+ "per_municipality": {
+  "Cranston": {
+   "raw_items": 316,
+   "projects": 75,
+   "collapse_pct": 76.3,
+   "flagged_for_review": 10,
+   "address_primary": false
+  },
+  "Newport": {
+   "raw_items": 132,
+   "projects": 33,
+   "collapse_pct": 75.0,
+   "flagged_for_review": 3,
+   "address_primary": false
+  },
+  "Pawtucket": {
+   "raw_items": 352,
+   "projects": 89,
+   "collapse_pct": 74.7,
+   "flagged_for_review": 2,
+   "address_primary": false
+  },
+  "Providence": {
+   "raw_items": 268,
+   "projects": 127,
+   "collapse_pct": 52.6,
+   "flagged_for_review": 9,
+   "address_primary": false
+  },
+  "Warwick": {
+   "raw_items": 32,
+   "projects": 20,
+   "collapse_pct": 37.5,
+   "flagged_for_review": 7,
+   "address_primary": true
+  }
+ },
+ "sample": [
+  {
+   "municipality": "Warwick",
+   "needs_review": true,
+   "reasons": [
+    "plat 291 with lot overlap ['31', '32']",
+    "plat 291 with lot overlap ['31']"
+   ],
+   "items": [
+    {
+     "date": "2025-05-14",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "Plat 291, lots 31 and 32",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\526076.pdf"
+    },
+    {
+     "date": "2025-05-14",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "ap 291, Lots 31 and 32",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\526076.pdf"
+    },
+    {
+     "date": "2025-05-14",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "Plat 291, Lots 31",
+     "address": "9 Post",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\529257.pdf"
+    }
+   ]
+  },
+  {
+   "municipality": "Warwick",
+   "needs_review": true,
+   "reasons": [
+    "plat 215 with lot overlap ['33']",
+    "plat 215 with lot overlap ['33']"
+   ],
+   "items": [
+    {
+     "date": "2025-05-14",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "Plat 215, lot 33",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\526076.pdf"
+    },
+    {
+     "date": "2025-05-14",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "ap 215, Lot 33",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\526076.pdf"
+    },
+    {
+     "date": "2025-05-14",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "Plat 215, lot 33",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\529257.pdf"
+    }
+   ]
+  },
+  {
+   "municipality": "Warwick",
+   "needs_review": true,
+   "reasons": [
+    "plat 311 with lot overlap ['191']",
+    "plat 311 with lot overlap ['191']"
+   ],
+   "items": [
+    {
+     "date": "2025-05-14",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "Plat 311, Lot 191",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\526076.pdf"
+    },
+    {
+     "date": "2025-05-14",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "ap 311, Lot 191",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\526076.pdf"
+    },
+    {
+     "date": "2025-05-14",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "Plat 311, Lot 191",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\529257.pdf"
+    }
+   ]
+  },
+  {
+   "municipality": "Warwick",
+   "needs_review": true,
+   "reasons": [
+    "address match, plat corroborates"
+   ],
+   "items": [
+    {
+     "date": "2025-04-09",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "Plat 322, Lot 336), within the Gateway Zoning District",
+     "address": "1880 Post",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4383\\2025\\522931.pdf"
+    },
+    {
+     "date": "2025-04-09",
+     "board": "Warwick Planning Board",
+     "plat_lot_text": "Plat 322, Lot 336), within the Gateway Zoning District",
+     "address": "1880 Post",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4383\\2025\\527113.pdf"
+    }
+   ]
+  },
+  {
+   "municipality": "Cranston",
+   "needs_review": true,
+   "reasons": [
+    "plat 7, lots identical ['1263', '1264']",
+    "plat 7, lots overlap ['1264']",
+    "plat 7, lots overlap ['1264']",
+    "plat 7, lots overlap ['1264']"
+   ],
+   "items": [
+    {
+     "date": "2026-08-04",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "AP 7, Lots 1263, 1264, and 1262",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\563033.pdf"
+    },
+    {
+     "date": "2026-08-04",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "AP 7, Lots 1263, 1264, and 1262",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\562696.pdf"
+    },
+    {
+     "date": "2026-05-05",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "AP 7 Lot 1264",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\555483.pdf"
+    },
+    {
+     "date": "2026-05-05",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "AP 7 Lot 1264",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\555454.pdf"
+    },
+    {
+     "date": "2026-05-05",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "AP 7 Lot 1264",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Minutes\\4194\\2026\\560017.pdf"
+    }
+   ]
+  },
+  {
+   "municipality": "Cranston",
+   "needs_review": false,
+   "reasons": [
+    "plat 28, lots identical ['125', '127']"
+   ],
+   "items": [
+    {
+     "date": "2026-08-04",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "AP 28, Lots 125, 127",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\563033.pdf"
+    },
+    {
+     "date": "2026-08-04",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "AP 28, Lots 125, 127",
+     "address": "",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\562696.pdf"
+    }
+   ]
+  },
+  {
+   "municipality": "Cranston",
+   "needs_review": false,
+   "reasons": [
+    "plat 5, lots identical ['124']"
+   ],
+   "items": [
+    {
+     "date": "2026-08-04",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "ap 5 lot 124",
+     "address": "89 Auburn Street",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\563033.pdf"
+    },
+    {
+     "date": "2026-08-04",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "ap 5 lot 124",
+     "address": "89 Auburn Street",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\562696.pdf"
+    }
+   ]
+  },
+  {
+   "municipality": "Cranston",
+   "needs_review": false,
+   "reasons": [
+    "plat 5, lots identical ['125']"
+   ],
+   "items": [
+    {
+     "date": "2026-08-04",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "ap 5 lot 125",
+     "address": "0 Auburn Street",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\563033.pdf"
+    },
+    {
+     "date": "2026-08-04",
+     "board": "Cranston Planning Commission",
+     "plat_lot_text": "ap 5 lot 125",
+     "address": "0 Auburn Street",
+     "source_url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=\\Notices\\4194\\2026\\562696.pdf"
+    }
+   ]
+  }
+ ]
+}

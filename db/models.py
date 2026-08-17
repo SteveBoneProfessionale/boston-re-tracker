@@ -33,6 +33,24 @@ class Project(Base):
     review_scale = Column(String)
     review_scale_raw = Column(String)
 
+    # --- Rhode Island parcel identity ---
+    # Project identity is keyed on normalized Assessor's Plat + Lot(s) plus
+    # municipality, because address strings vary too much between filings to be
+    # the primary key: AP 89 Lots 380/381/383 appears as both "165 Alger Ave"
+    # and "99 Dixon Street" (a corner parcel with two frontages).
+    # plat_lots_raw keeps the verbatim agenda wording, including multi-lot forms
+    # like "AP 62 Lots 291 & 309".
+    assessor_plat = Column(String)
+    assessor_lots = Column(String)                 # comma-joined, sorted
+    plat_lots_raw = Column(String)
+    zoning_district_raw = Column(String)           # local codes, e.g. "CT", "RD3"
+    site_acreage = Column(Float)
+    adaptive_reuse = Column(Boolean, default=False)
+    applicant_entity = Column(String)              # verbatim from the filing
+    case_number = Column(String)                   # e.g. "26-047MIL"
+    building_count = Column(Integer)
+    dedupe_review = Column(Boolean, default=False)  # flagged for manual check
+
     # Two-field status. Agendas are published BEFORE a meeting and state only
     # that an item is scheduled ("for vote"), never the outcome -- outcomes live
     # in minutes. Conflating the two would let a project read as Approved when
@@ -141,6 +159,9 @@ class Project(Base):
     # Relationships
     filings = relationship("ProjectFiling", back_populates="project",
                            cascade="all, delete-orphan")
+    stage_events = relationship("ProjectStageEvent", back_populates="project",
+                                cascade="all, delete-orphan",
+                                order_by="ProjectStageEvent.meeting_date")
     extraction_sources = relationship("ExtractionSource", back_populates="project",
                                       cascade="all, delete-orphan")
     news_items = relationship("NewsItem", back_populates="project")
@@ -155,6 +176,36 @@ class Project(Base):
                                              cascade="all, delete-orphan")
     cambridge_aliases = relationship("CambridgeProjectAlias", back_populates="project",
                                      cascade="all, delete-orphan")
+
+
+class ProjectStageEvent(Base):
+    """One appearance of a project before a board.
+
+    A Rhode Island project comes before a board repeatedly -- Master Plan one
+    year, Preliminary the next, then extensions, then Final. Creating a project
+    row per appearance would multiply the pipeline count and inflate total SF by
+    the same factor, so appearances are recorded here and the project keeps one
+    current stage.
+
+    `advances_stage` is False for extensions, modifications, continuances and
+    waivers: they are part of the history but must never move the current stage.
+    """
+    __tablename__ = "project_stage_events"
+
+    id = Column(Integer, primary_key=True)
+    project_id = Column(Integer, ForeignKey("projects.id"), nullable=False)
+    meeting_date = Column(String)                 # ISO date of the hearing
+    reviewing_body = Column(String)               # board name
+    entity_id = Column(Integer)                   # SOS portal EntityID
+    review_stage_raw = Column(String)             # verbatim agenda wording
+    stage = Column(String)                        # canonical stage, or None
+    advances_stage = Column(Boolean, default=True)
+    vote_taken = Column(Boolean)                  # agendas mark this explicitly
+    outcome = Column(String)                      # from minutes, when readable
+    source_url = Column(String)                   # the agenda/minutes PDF
+    page_number = Column(Integer)
+
+    project = relationship("Project", back_populates="stage_events")
 
 
 class ProjectFiling(Base):
