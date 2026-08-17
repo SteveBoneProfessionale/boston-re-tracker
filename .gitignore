@@ -16,6 +16,7 @@ data/boston_re.db-shm
 # Large data files
 data/pdfs/
 data/cache/
+data/ri_pdfs/
 
 # Logs
 *.log
