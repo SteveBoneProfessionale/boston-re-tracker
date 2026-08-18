@@ -1,0 +1,432 @@
+[
+ {
+  "id": 493,
+  "city": "Providence",
+  "address": "195 Nelson Street",
+  "case_number": "25-075MA",
+  "units": null,
+  "gsf": 69989,
+  "verdict": "HOLDS",
+  "evidence": "an at the preliminary plan stage – for vote (AP 85 Lot 195, Elmhurst) MAJOR LAND DEVELOPMENT PROJECT PUBLIC HEARING Case no. 25-075MA– 195 Nelson Street (RFK School) Applicant: City of"
+ },
+ {
+  "id": 495,
+  "city": "Providence",
+  "address": "1655 Westminster Street",
+  "case_number": "25-059MA",
+  "units": null,
+  "gsf": 224653,
+  "verdict": "HOLDS",
+  "evidence": "e – for vote (AP 35 Lots 91, 94, 95, 96, 97,98 and 322, Federal Hill) MAJOR LAND DEVELOPMENT PROJECT PUBLIC HEARING Case no. 25-059MA– 1655 Westminster Street Applicant: City of Provid"
+ },
+ {
+  "id": 515,
+  "city": "Cranston",
+  "address": "",
+  "case_number": null,
+  "units": 152,
+  "gsf": null,
+  "verdict": "UNSUPPORTED",
+  "evidence": "the only Major wording is text shared verbatim with other projects -- agenda boilerplate: nd AP 12/6, Lot 3108 ▪ “Legion Bowl” (vote taken) MASTER PLAN - Major Land Development w/o street extension Request: Two-year extension to J"
+ },
+ {
+  "id": 516,
+  "city": "Cranston",
+  "address": "661 Park Avenue",
+  "case_number": null,
+  "units": 69,
+  "gsf": null,
+  "verdict": "UNSUPPORTED",
+  "evidence": "no explicit label, no validated suffix, nothing either way"
+ },
+ {
+  "id": 520,
+  "city": "Cranston",
+  "address": "1390 Cranston Street",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "UNSUPPORTED",
+  "evidence": "no explicit label, no validated suffix, nothing either way"
+ },
+ {
+  "id": 522,
+  "city": "Cranston",
+  "address": "1128 Narragansett Boulevard",
+  "case_number": null,
+  "units": 24,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "“Narragansett Blvd Condos” PUBLIC INFORMATIONAL (no vote taken) Major Land Development – Pre-Application Construction of a 19-unit multifamily townhouse development. Zoning: B-"
+ },
+ {
+  "id": 529,
+  "city": "Cranston",
+  "address": "0 Plainfield Pike",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "UNSUPPORTED",
+  "evidence": "no explicit label, no validated suffix, nothing either way"
+ },
+ {
+  "id": 532,
+  "city": "Cranston",
+  "address": "",
+  "case_number": null,
+  "units": 192,
+  "gsf": null,
+  "verdict": "UNSUPPORTED",
+  "evidence": "the only Major wording is text shared verbatim with other projects -- agenda boilerplate: nd AP 12/6, Lot 3108 ▪ “Legion Bowl” (vote taken) MASTER PLAN - Major Land Development w/o street extension Request: Two-year extension to J"
+ },
+ {
+  "id": 542,
+  "city": "Pawtucket",
+  "address": "30 Beecher Street",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "| Nulco Lofts LLC seeks unified development review (master plan) of a major land development project to allow for the construction of a 120 -unit multifamily structure on a 342,7 80 +/- sqft"
+ },
+ {
+  "id": 547,
+  "city": "Pawtucket",
+  "address": "2 Columbus Avenue",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development Project, Preliminary Plan Review | 2 Columbus Avenue (AP 26 Lot 630) – Unified High School | Pawt"
+ },
+ {
+  "id": 550,
+  "city": "Pawtucket",
+  "address": "258 Pine Street",
+  "case_number": null,
+  "units": 190,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Amendment to an Approved Plan of a Major Land Development Project | 258 Pine Street (AP 53 Lots 567 & 568) | Rise Above All Properties, LLC seeks approval"
+ },
+ {
+  "id": 551,
+  "city": "Pawtucket",
+  "address": "180 Weeden Street",
+  "case_number": null,
+  "units": 29,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development Project, Master Plan Review | 180 Weeden Street (AP 44 Lot 561) | 180 Weeden St LLC seeks Master"
+ },
+ {
+  "id": 552,
+  "city": "Pawtucket",
+  "address": "282 East Avenue",
+  "case_number": null,
+  "units": 32,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "rigal Properties LLC (282 East Ave.) seeks master plan approval for a major land development project in order to construct a mixe d-use multifamily structure on a 24, 005 +/- sq ft (.55 +/ -"
+ },
+ {
+  "id": 553,
+  "city": "Pawtucket",
+  "address": "334 East Avenue",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "| 310 East LLC (310 & 334 East Ave.) seek master plan approval for a major land development project in order to construct a mixed-use multifamily structure on a 38,060 +/- sq ft (1.46 +/- a"
+ },
+ {
+  "id": 555,
+  "city": "Pawtucket",
+  "address": "177 School Street",
+  "case_number": null,
+  "units": 72,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development Project, Combined Review (Master & Preliminary Plan) | 177 School Street (AP 23 Lot 672) – Pennro"
+ },
+ {
+  "id": 556,
+  "city": "Pawtucket",
+  "address": "160 Beechwood Avenue",
+  "case_number": null,
+  "units": 15,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development Project, Master & Preliminary Plan Review | 160 Beechwood Avenue (AP 35 Lot 360) | Pawtucket Cent"
+ },
+ {
+  "id": 575,
+  "city": "Warwick",
+  "address": "445 Palmer Ave",
+  "case_number": null,
+  "units": 14,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "REQUESTED FOR CONTUNANCE TO MARCH MEETING - Major Land Development/ Unified Development Review –- Master Plan Application - Public Hearing The Applicant is"
+ },
+ {
+  "id": 578,
+  "city": "Warwick",
+  "address": "1515 Centerville Road",
+  "case_number": null,
+  "units": 14,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development/ Subdivision –- Preliminary Application - Public Hearing Applicant seeks to construct a 1"
+ },
+ {
+  "id": 583,
+  "city": "Warwick",
+  "address": "1880 Post Road",
+  "case_number": null,
+  "units": 177,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development, Preliminary Application to construct 177 residential units in two (2) buildings at 1880"
+ },
+ {
+  "id": 584,
+  "city": "Warwick",
+  "address": "3033 Post Rd",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development/ Unified Development Review – Master Plan Application - Public Hearing The Applicant is p"
+ },
+ {
+  "id": 585,
+  "city": "Warwick",
+  "address": "2281 and 2279 West Shore Rd",
+  "case_number": null,
+  "units": 11,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development/Unified Development Review –- Master Application - Public Hearing The applicant seeks to"
+ },
+ {
+  "id": 586,
+  "city": "Warwick",
+  "address": "255, 265, and 281 Centerville Rd",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development/Unified Development Review –- Master Application - Public Hearing Applicant is proposing"
+ },
+ {
+  "id": 590,
+  "city": "Warwick",
+  "address": "1187 Post Rd",
+  "case_number": null,
+  "units": 11,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development/ Subdivision – Preliminary Application - Public Hearing Applicant seeks to demolish an ex"
+ },
+ {
+  "id": 591,
+  "city": "Warwick",
+  "address": "4332 Post Road",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development Master Plan application stage – Informational Meeting Master Plan application for a 7-uni"
+ },
+ {
+  "id": 593,
+  "city": "Warwick",
+  "address": "112 Old Warwick Avenue",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development-Preliminary application stage – Public Hearing 112 Old Warwick Ave - Preliminary Plan App"
+ },
+ {
+  "id": 594,
+  "city": "Warwick",
+  "address": "446, 480, and 482 Post Road, Warwick Ave",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development Preliminary application stage 1. 446, 480, and 482 Post Road, Warwick Avenue Plan seeks t"
+ },
+ {
+  "id": 595,
+  "city": "Warwick",
+  "address": "327 Jefferson Blvd. and 0 Bay State Aven",
+  "case_number": null,
+  "units": null,
+  "gsf": 8800,
+  "verdict": "HOLDS",
+  "evidence": "Combined Master-Plan/Preliminary Major Land Development 1. 327 Jefferson Blvd. and 0 Bay State Avenue Applicant is proposing to construct an 8,80"
+ },
+ {
+  "id": 596,
+  "city": "Warwick",
+  "address": "211 Commonwealth Avenue",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Public Hearing-Major Land Development/Subdivision-Preliminary Approval 1. 211 Commonwealth Avenue & College Hill Road The Appli"
+ },
+ {
+  "id": 598,
+  "city": "Warwick",
+  "address": "1112 West Shore Rd",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Public Informational Meeting-Major Land Development 1. Conditional Master Plan Approval, 1112 West Shore Road The Applicant is before the Boa"
+ },
+ {
+  "id": 600,
+  "city": "Warwick",
+  "address": "9 Post Road",
+  "case_number": null,
+  "units": 6,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "9 Post Road – Plat 291, lots 31 and 32. Major Land Development, Master Plan Application, in accordance with PUD Overlay Zone Section 309, to construct a"
+ },
+ {
+  "id": 602,
+  "city": "Warwick",
+  "address": "0 Maple Street",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "Major Land Development, Combined Master & Preliminary Application in accordance with Unified Development Review,"
+ },
+ {
+  "id": 616,
+  "city": "Providence",
+  "address": "11 W Friendship Street",
+  "case_number": "24-051MI",
+  "units": 26,
+  "gsf": 2043,
+  "verdict": "HOLDS",
+  "evidence": "required but 14 will be provided – for vote (AP 30 Lot 720, Elmwood) MAJOR LAND DEVELOPMENT PROJECT – UNIFIED DEVELOPMENT REVIEW PUBLIC HEARING Case no. 24-051MI – 11 W Friendship Street A"
+ },
+ {
+  "id": 625,
+  "city": "Providence",
+  "address": "35 Merino Street",
+  "case_number": "22-022MA",
+  "units": null,
+  "gsf": 79447,
+  "verdict": "HOLDS",
+  "evidence": "parking requirement – for action (AP 107 lots 595 and 111, Hartford) MAJOR LAND DEVELOPMENT PROJECT PUBLIC INFORMATIONAL MEETING /PUBLIC HEARING Case No. 22-022UDR – 35 Merino Street Applic"
+ },
+ {
+  "id": 626,
+  "city": "Providence",
+  "address": "60 Camden Ave",
+  "case_number": "24-004MA",
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "eliminary plan stage. – for vote (AP 69 Lots 215 and 186, Smith Hill) MAJOR LAND DEVELOPMENT PROJECT PUBLIC HEARING Case no. 24-004MA– 60 Camden Ave Applicant: City of Providence The applica"
+ },
+ {
+  "id": 641,
+  "city": "Providence",
+  "address": "320 Angell Street",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "NOT_APPLICABLE",
+  "evidence": "the filing is a rezoning petition and carries no land development case number: Referral No. 3554 – Rezoning of 320 Angell Street Petitioner: Curtis Point Realty LLC T"
+ },
+ {
+  "id": 656,
+  "city": "Providence",
+  "address": "50 Branch Ave",
+  "case_number": "22-067MA",
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "is seeking master plan approval – for action (AP 74 Lot 98, Mt Hope) MAJOR LAND DEVELOPMENT PROJECT PUBLIC HEARING – UNIFIED DEVELOPMENT REVIEW Case No. 22-067MA – 50 Branch Ave Applicant:"
+ },
+ {
+  "id": 657,
+  "city": "Providence",
+  "address": "371 Pine St",
+  "case_number": "23-029MA",
+  "units": 35,
+  "gsf": null,
+  "verdict": "UNSUPPORTED",
+  "evidence": "no explicit label, no validated suffix, nothing either way"
+ },
+ {
+  "id": 674,
+  "city": "Providence",
+  "address": "250 Lloyd Ave",
+  "case_number": "2022-11",
+  "units": null,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "lation of lighting – for action (AP 11 lots 48 and 132, College Hill) MAJOR LAND DEVELOPMENT PROJECT FINAL PLAN REVIEW Case No. 2022-11 DPR – 250 Lloyd Ave Applicant: Moses Brown School The"
+ },
+ {
+  "id": 704,
+  "city": "Providence",
+  "address": "96-108 PINE STREET",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "NOT_APPLICABLE",
+  "evidence": "the filing is a variance or special use permit and carries no land development case number: Application for USE VARIANCE seeking relief from Table 12-1 for continuation of use as a Parking L"
+ },
+ {
+  "id": 707,
+  "city": "Providence",
+  "address": "45-47 America St",
+  "case_number": null,
+  "units": 6,
+  "gsf": null,
+  "verdict": "NOT_APPLICABLE",
+  "evidence": "the filing is a variance or special use permit and carries no land development case number: Application for USE and DIMENS IONAL VARIANCES seeking relief from Section 2001.B. + C. for intensification of a no"
+ },
+ {
+  "id": 744,
+  "city": "Providence",
+  "address": "1292 WESTMINSTER STREET",
+  "case_number": "17-034MA",
+  "units": 35,
+  "gsf": null,
+  "verdict": "HOLDS",
+  "evidence": "TY PLAN COMMISSION OF DECISION GRANTING PRELIMINARY PLAN APPROVAL FOR MAJOR LAND DEVELOPMENT PROJECT AT 1292 WESTMINSTER STREET (AP 32, LOT 233). II. CONTINUED MATTERS Case No. 17-034MA – 12"
+ },
+ {
+  "id": 856,
+  "city": "Providence",
+  "address": "201 Arlington Ave",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "NOT_APPLICABLE",
+  "evidence": "the filing is a variance or special use permit and carries no land development case number: Application for a DIMENSIONAL VARIANCE seeking relief from the requirement that an attached garage be set ba"
+ },
+ {
+  "id": 883,
+  "city": "Warwick",
+  "address": "2055 Warwick Avenue",
+  "case_number": null,
+  "units": null,
+  "gsf": null,
+  "verdict": "NOT_APPLICABLE",
+  "evidence": "heard only by Warwick Zoning Board of Review"
+ }
+]
