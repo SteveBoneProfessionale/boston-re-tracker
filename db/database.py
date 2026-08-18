@@ -87,6 +87,10 @@ def init_db():
     # figure the filing stated are not the same kind of fact and must not
     # render alike.
     _add_column_if_missing("projects", "total_gsf_source", "VARCHAR")
+    # development | rezoning. A rezoning petition with no programme yet is
+    # the FRONT of the pipeline, an earlier signal than a planning filing,
+    # and should not read as a project with a defined programme.
+    _add_column_if_missing("projects", "entry_type", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 

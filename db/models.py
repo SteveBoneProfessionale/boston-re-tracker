@@ -61,6 +61,10 @@ class Project(Base):
     # filing | web | corrected -- see app/data.py::SF_SOURCES. A reporter's
     # figure and a filing's figure are different kinds of fact.
     total_gsf_source = Column(String)
+    # development | rezoning. A rezoning with no programme yet is the front
+    # of the pipeline; if a development filing later lands on the same
+    # parcel the two merge, with the rezoning as the first stage event.
+    entry_type = Column(String)
 
     # Two-field status. Agendas are published BEFORE a meeting and state only
     # that an item is scheduled ("for vote"), never the outcome -- outcomes live

@@ -1,0 +1,110 @@
+{
+ "developer": {
+  "by_tier": {
+   "Major": 95,
+   "Minor": 89,
+   "Administrative": 100,
+   "(unclassified)": 86
+  },
+  "all": 88
+ },
+ "residential_units": {
+  "by_tier": {
+   "Major": 44,
+   "Minor": 38,
+   "Administrative": 40,
+   "(unclassified)": 31
+  },
+  "all": 34
+ },
+ "total_gsf": {
+  "by_tier": {
+   "Major": 9,
+   "Minor": 24,
+   "Administrative": 0,
+   "(unclassified)": 18
+  },
+  "all": 18
+ },
+ "asset_class": {
+  "by_tier": {
+   "Major": 84,
+   "Minor": 44,
+   "Administrative": 100,
+   "(unclassified)": 78
+  },
+  "all": 72
+ },
+ "stage_heard": {
+  "by_tier": {
+   "Major": 98,
+   "Minor": 92,
+   "Administrative": 100,
+   "(unclassified)": 71
+  },
+  "all": 79
+ },
+ "latitude": {
+  "by_tier": {
+   "Major": 95,
+   "Minor": 98,
+   "Administrative": 100,
+   "(unclassified)": 96
+  },
+  "all": 96
+ },
+ "applicant_entity": {
+  "by_tier": {
+   "Major": 84,
+   "Minor": 86,
+   "Administrative": 100,
+   "(unclassified)": 71
+  },
+  "all": 76
+ },
+ "case_number": {
+  "by_tier": {
+   "Major": 21,
+   "Minor": 48,
+   "Administrative": 40,
+   "(unclassified)": 31
+  },
+  "all": 33
+ },
+ "zoning_district_raw": {
+  "by_tier": {
+   "Major": 72,
+   "Minor": 61,
+   "Administrative": 20,
+   "(unclassified)": 34
+  },
+  "all": 44
+ },
+ "site_acreage": {
+  "by_tier": {
+   "Major": 47,
+   "Minor": 9,
+   "Administrative": 0,
+   "(unclassified)": 9
+  },
+  "all": 14
+ },
+ "parking_spaces": {
+  "by_tier": {
+   "Major": 14,
+   "Minor": 6,
+   "Administrative": 20,
+   "(unclassified)": 10
+  },
+  "all": 10
+ },
+ "num_stories": {
+  "by_tier": {
+   "Major": 5,
+   "Minor": 0,
+   "Administrative": 0,
+   "(unclassified)": 8
+  },
+  "all": 6
+ }
+}
