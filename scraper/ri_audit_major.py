@@ -42,7 +42,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from db.database import get_session
 from db.models import Project
-from scraper.ri_sf_extract import text_index, project_text, RI
+from scraper.ri_sf_extract import text_index, project_text, _full_text, RI
 from scraper.ri_classify_review_scale import (
     EXPLICIT, SUFFIX_SCALE, SUFFIX_RE, NON_4523_BODY, bodies_for,
 )
@@ -76,6 +76,142 @@ ORDINANCE_FILING = re.compile(
 LDP_CASE = re.compile(r"\b\d{2,4}\s*-\s*\d{1,4}\s*[A-Za-z]{1,4}\b")
 
 
+def anchors_for(p):
+    """Tokens that identify THIS project and no other on the same agenda.
+
+    Cranston never states a street address for these schemes -- it identifies
+    them by assessor plat and lot, and by project name. So the plat/lot string
+    matters as much as the address does.
+    """
+    # IDENTITY fields only. developer and applicant_entity are themselves
+    # extracted values and can be wrong: 532's developer was mis-extracted as
+    # "Champlin Heights II, LLC" from a neighbouring item, and using it as an
+    # anchor made the project match the very block it was wrongly copied from.
+    out = set()
+    for v in (p.plat_lots_raw, p.case_number):
+        if v and len(str(v).strip()) > 3:
+            out.add(re.sub(r"\s+", " ", str(v).strip()).lower())
+    addr = re.sub(r"\s+", " ", (p.address or "").strip()).lower()
+    if len(addr) > 5:
+        out.add(addr)
+        # "282 East Avenue" also appears as "282 East Ave."
+        m = re.match(r"(\d+[\w-]*)\s+(.+?)\s+(street|st|avenue|ave|road|rd|drive|dr|"
+                     r"boulevard|blvd|lane|ln|way|place|pl|court|ct)\b", addr)
+        if m:
+            out.add("%s %s" % (m.group(1), m.group(2)))
+    if p.name and len(p.name) > 4:
+        out.add(re.sub(r"\s+", " ", p.name.strip()).lower())
+    return out
+
+
+# Where one agenda item ends and the next begins. Three window heuristics were
+# tried before this and each fixed one project by breaking another: a label
+# belongs to an ITEM, and only segmentation says which item you are in.
+#   Cranston  bullets a named project:  # "Champlin Heights" (vote taken)
+#   Providence numbers it:              Case no. 25-075MA - 195 Nelson Street
+#   Pawtucket  pipes its fields:        Master Plan Review | 282 East Avenue
+ITEM_SPLIT = re.compile(
+    r"(?=[▪●•■◦])"
+    r"|(?=\bCase\s+(?:no|No|NO)\.?\s*\d)"
+    r"|(?=\bReferral\s+(?:no|No|NO)\.?\s*\d)"
+    r"|(?=\bAGENDA\s+ITEM\b)")
+
+
+def item_blocks(text):
+    return [b for b in ITEM_SPLIT.split(text) if b and b.strip()]
+
+
+def full_text_for(p, idx):
+    """Every planning document for this project, UNSCOPED.
+
+    The scope window exists to stop one item's figures being read as another's,
+    but it cuts the other way for labels: Cranston prints the label in the item
+    heading and the plat two lines below, and 515's own "Champlin Heights Major
+    Land Development" heading sat upstream of the window entirely. Segmentation
+    plus an identity anchor does the job the window was doing, without the
+    window's blind spot.
+    """
+    from scraper.ri_identity import normalize_address
+    parts = []
+    for it in idx.get((p.city.lower(), normalize_address(p.address or "")), []):
+        if it.get("document"):
+            ft = _full_text(it["document"])
+            if ft:
+                parts.append(ft)
+    return "\n".join(dict.fromkeys(parts))
+
+
+def blocks_for(text, anchors):
+    """Every agenda item block that names this project.
+
+    More than one can name it: project_text prepends the stored description,
+    which forms its own block alongside the real agenda item. Checking only
+    the first found the description and missed the item carrying the label.
+    """
+    return [b for b in item_blocks(text) if names_project(b, anchors)]
+
+
+def major_evidences(text, window=260):
+    """Every distinct Major-labelled passage in the text, in order.
+
+    An agenda window holds several items. Taking only the first match ties a
+    project to whichever item happened to appear first, which is how a real
+    152-unit Major scheme came to rest on a bowling alley's label. The window
+    runs well past the match because a Providence or Cranston item states its
+    label first and its plat, lot or case number a couple of lines later.
+    """
+    out, seen = [], set()
+    for lab, rx in EXPLICIT:
+        if lab != "Major":
+            continue
+        for m in rx.finditer(text):
+            ev = re.sub(r"\s+", " ",
+                        text[max(0, m.start() - window):m.end() + window]).strip()
+            if ev[:90] not in seen:
+                seen.add(ev[:90])
+                out.append(ev)
+    return out
+
+
+def names_project(ev, anchors):
+    low = ev.lower()
+    return any(a in low for a in anchors)
+
+
+def best_evidence(block, anchors, max_gap=700):
+    """The Major passage nearest an occurrence of this project's identifier.
+
+    Segmentation alone is not enough in both directions. Cranston bullets its
+    items, so a block is a clean item; Pawtucket marks nothing, so its whole
+    agenda is one block and the first label in it wins regardless of whose it
+    is. Proximity settles both: within a block, the label that belongs to this
+    project is the one sitting next to the project's own plat, lot, case number
+    or address. A label further than max_gap from any of them is another
+    item's and is not used.
+    """
+    low = block.lower()
+    apos = []
+    for a in anchors:
+        i = low.find(a)
+        while i >= 0:
+            apos.append(i)
+            i = low.find(a, i + 1)
+    if not apos:
+        return None
+    best, bestd = None, None
+    for lab, rx in EXPLICIT:
+        if lab != "Major":
+            continue
+        for m in rx.finditer(block):
+            d = min(abs(m.start() - a) for a in apos)
+            if bestd is None or d < bestd:
+                bestd, best = d, m
+    if best is None or bestd > max_gap:
+        return None
+    return re.sub(r"\s+", " ",
+                  block[max(0, best.start() - 90):best.end() + 260]).strip()
+
+
 def audit(p, text, bodies, shared=frozenset()):
     """(verdict, evidence).
 
@@ -104,15 +240,41 @@ def audit(p, text, bodies, shared=frozenset()):
 
     labels = {lab for lab, rx in EXPLICIT if rx.search(text)}
     if labels == {"Major"}:
-        rx = next(r for l, r in EXPLICIT if l == "Major" and r.search(text))
-        m = rx.search(text)
-        ev = re.sub(r"\s+", " ", text[max(0, m.start() - 70):m.end() + 90]).strip()
-        # Boilerplate appearing verbatim under several projects proves nothing
-        # about any one of them.
-        if ev[:90] in shared:
-            return "UNSUPPORTED", ("the only Major wording is text shared verbatim with "
-                                   "other projects -- agenda boilerplate: %s" % ev[:140])
-        return "HOLDS", ev
+        # EVERY Major match is considered, not just the first, and the one that
+        # NAMES this project wins. Window boundaries proved the wrong tool:
+        # Champlin Heights lost its own label to a neighbouring bowling alley,
+        # while 282 East Avenue's own item text was dismissed as boilerplate
+        # merely because a neighbour's window overlapped it.
+        anchors = anchors_for(p)
+        # The label must sit inside THIS project's own agenda item. Champlin
+        # Heights sits directly above a "Legion Bowl" item that is itself a
+        # Major Land Development, and every window-based attempt handed
+        # Champlin the bowling alley's label -- or handed it to a third project
+        # whose only connection was a mis-extracted developer name.
+        # Full text, segmented, and within a block the label NEAREST this
+        # project's own identifier. Ordering scoped-vs-full could not settle
+        # it: scoped-first gave Champlin Heights the neighbouring bowling
+        # alley's label, full-first gave 282 East Avenue a label belonging to
+        # 258 Pine Street. Proximity to the project's own plat or address
+        # settles both without preferring one city's agenda style.
+        wide = blocks_for(full_text_for(p, IDX) or text, anchors)
+        blks = blocks_for(text, anchors)
+        for b in wide + blks:
+            ev = best_evidence(b, anchors)
+            if ev:
+                return "HOLDS", ev
+        if blks or wide:
+            return "UNSUPPORTED", ("this project's own agenda item carries no Major "
+                                   "label; the labels in the surrounding text belong "
+                                   "to other items: %s"
+                                   % re.sub(r"\s+", " ", (blks or wide)[0])[:150])
+        evs = major_evidences(text)
+        own = [e for e in evs if e[:90] not in shared]
+        if own:
+            return "HOLDS", own[0]
+        return "UNSUPPORTED", ("no Major wording names this project; the label found "
+                               "belongs to another item on the same agenda: %s"
+                               % evs[0][:150])
     if len(labels) > 1:
         return "UNSUPPORTED", "text carries more than one scale label: %s" % sorted(labels)
     if labels:
@@ -130,13 +292,20 @@ def audit(p, text, bodies, shared=frozenset()):
     return "UNSUPPORTED", "no explicit label, no validated suffix, nothing either way"
 
 
+IDX = {}
+
+
 def main(apply=False):
-    idx = text_index()
+    global IDX
+    idx = IDX = text_index()
     session = get_session()
     rows = [p for p in session.query(Project).filter(Project.city.in_(RI)).all()
             if not p.excluded]
+    # Re-runnable: the audit rewrites basis as it goes, so it must also select
+    # the values it itself writes, or a second run sees an empty set.
+    AUDITABLE = ("source", "source_unverified", "explicit_language")
     maj = [p for p in rows if p.review_scale == "Major"
-           and p.review_scale_basis == "source"]
+           and p.review_scale_basis in AUDITABLE]
 
     from scraper.ri_ingest_llm import load_items, collapse
     from scraper.ri_identity import normalize_address
@@ -151,8 +320,7 @@ def main(apply=False):
     # Pass one: which Major wording is shared between projects, i.e. boilerplate.
     seen = Counter()
     for p in maj:
-        v, ev = audit(p, texts[p.id], bodies_for(p, byk))
-        if v == "HOLDS":
+        for ev in major_evidences(texts[p.id]):
             seen[ev[:90]] += 1
     shared = {k for k, n in seen.items() if n > 1}
     log.info("Boilerplate Major wording shared between projects: %d distinct string(s)",
