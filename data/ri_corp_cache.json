@@ -3251,6 +3251,15 @@
    "status_searched": "rdbActive"
   },
   "MICHAEL MCVICKER AND IAN SLATER": null,
+  "MINERAL ENTERPRISES, INC.": {
+   "address": "383 SMITHFIELD AVENUE PAWTUCKET, RI  02860  USA",
+   "fein": "000011231",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531120",
+   "name": "Mineral Enterprises, Inc.",
+   "status_searched": "rdbActive"
+  },
   "MINERAL ENTERPRISES, INC. (APP) RLF IV TERMINALS SPE, LLC (OWN)": null,
   "MONACO INVESTMENTS LLC": null,
   "MONTESSORI COMMUNITY SCHOOL OF RHODE ISLAND": {
@@ -5421,6 +5430,21 @@
    "developer": null,
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
+  },
+  "MINERAL ENTERPRISES, INC.": {
+   "applicant": "Mineral Enterprises, Inc.",
+   "confidence": "self",
+   "developer": "Mineral Enterprises, Inc.",
+   "evidence": {
+    "entity": {
+     "address": "383 SMITHFIELD AVENUE PAWTUCKET, RI  02860  USA",
+     "id": "000011231",
+     "match": "exact",
+     "naics": "531120",
+     "name": "Mineral Enterprises, Inc."
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "MONACO INVESTMENTS LLC": {
    "applicant": "Monaco Investments LLC",

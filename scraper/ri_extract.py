@@ -75,8 +75,48 @@ _UNITS = re.compile(
 _PARKING = re.compile(
     r"(?:\((\d{1,4})\)|\b(\d{1,4}))\s*(?:off-?street\s+|surface\s+|structured\s+)?"
     r"parking\s+spaces?\b", re.I)
-_SF = re.compile(
-    r"([\d,]{3,})\s*(?:\+/-\s*)?(?:square\s*(?:feet|foot)|sq\.?\s*ft\.?|s\.?f\.?)\b", re.I)
+# BUILDING gross floor area, distinguished from LAND area.
+#
+# RI agendas state both in the same sentence and in the same units:
+#   "a 23,500 +/- SF commercial building"                  <- building
+#   "on a 43,560+ sq ft (1+ acre) site"                    <- land
+#   "30,009 +/- sqft (0.69 +/- acre) tract of land"        <- land
+#
+# A bare number-plus-SF pattern cannot tell them apart, and 341 of 685 items
+# with a square-footage value were actually reporting lot size. Writing land
+# area into total_gsf makes the building-size column untrustworthy, so a figure
+# is only accepted as GSF when something in the sentence says "building", and
+# is rejected outright when the trailing context says land.
+_SF_ANY = re.compile(
+    r"([\d,]{3,})\s*(?:\+/-\s*)?(?:square[\s\-]*(?:feet|foot)|sq\.?\s*ft\.?|s\.?f\.?|gsf)\b",
+    re.I)
+_LAND_CTX = re.compile(
+    r"^\W{0,12}(?:\(\s*[\d.]+\s*\+?/?-?\s*acres?\s*\)\s*)?"
+    r"(?:of\s+)?(?:\+/-\s*)?(?:tract|lot|lots|site|parcel|land|acre)", re.I)
+# Up to three adjectives may sit between the figure and the noun:
+# "23,500 +/- SF commercial building", "9,000 sq ft two-story structure".
+_BLDG_CTX_AFTER = re.compile(
+    r"^\W{0,12}(?:(?!tract|lot|site|parcel|land|acre)[\w\-]+\s+){0,3}"
+    r"(?:building|structure|facility|floor\s+area|addition|development|project|"
+    r"(?:retail|office|commercial|industrial|residential|lab)[\w/\- ]{0,20}space)", re.I)
+# "gross floor area of 128,733 square feet" -- the noun can be a few words back.
+_BLDG_CTX_BEFORE = re.compile(
+    r"(?:building|structure|facility|gross\s+floor\s+area|GFA|addition|footprint|construct(?:ing|ion)?)(?:\s+[\w\-]+){0,3}\W{0,12}$", re.I)
+
+
+def building_sf(text: str):
+    """Gross floor area of a BUILDING, or None when the figure is land area."""
+    for m in _SF_ANY.finditer(text or ""):
+        after = text[m.end():m.end() + 60]
+        before = text[max(0, m.start() - 60):m.start()]
+        if _LAND_CTX.match(after):
+            continue                       # "... sq ft tract of land"
+        if _BLDG_CTX_AFTER.match(after) or _BLDG_CTX_BEFORE.search(before):
+            return m
+    return None
+
+
+_SF = _SF_ANY          # kept for callers that want any square-footage figure
 _ACRES = re.compile(r"([\d.]+)\s*(?:\+/-\s*)?-?\s*acres?\b", re.I)
 _STORIES = re.compile(r"(?:\((\d{1,3})\)|\b(\d{1,3}))\s*(?:-)?\s*(?:stor(?:y|ies)|floors?)\b", re.I)
 _TOWNHOUSES = re.compile(r"(?:\((\d{1,4})\)|\b(\d{1,4}))\s*townhouses?\b", re.I)
@@ -179,6 +219,27 @@ def _num(m) -> int | None:
     return None
 
 
+# Self-storage is measured in "units" too, and a 605-unit storage building is
+# not 605 apartments. residential_units must mean dwellings.
+_STORAGE_CTX = re.compile(
+    r"self[- ]?storage|storage\s+(?:facility|building|units?|complex)|"
+    r"mini[- ]?storage|climate[- ]controlled", re.I)
+
+
+def residential_units(text: str):
+    """Dwelling count. Returns None when the units are storage units."""
+    m = _UNITS.search(text or "")
+    if not m:
+        return None
+    if _STORAGE_CTX.search(text or ""):
+        # Only a dwelling word in the same phrase rescues it.
+        span = text[max(0, m.start() - 40):m.end() + 40]
+        if not re.search(r"dwelling|apartment|residential|condominium|"
+                         r"townhous|bedroom", span, re.I):
+            return None
+    return m
+
+
 def review_stages(text: str) -> list[str]:
     out = []
     for pat, label in _STAGE_PATTERNS:
@@ -239,9 +300,9 @@ def extract_item(block: str) -> dict:
         "review_stage_raw": ", ".join(stages) or None,
         "classification": classification(block),
         "zoning_district_raw": zoning(block),
-        "residential_units": _num(_UNITS.search(block)),
+        "residential_units": _num(residential_units(block)),
         "parking_spaces": _num(_PARKING.search(block)),
-        "total_gsf": _num(_SF.search(block)),
+        "total_gsf": _num(building_sf(block)),
         "site_acreage": None,
         "num_stories": _num(_STORIES.search(block)),
         "townhouses": _num(_TOWNHOUSES.search(block)),

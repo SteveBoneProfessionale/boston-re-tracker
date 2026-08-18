@@ -348,6 +348,13 @@ def build_item(muni: str, seg: dict, meta: dict) -> dict:
                  or base.get("applicant_entity"))
     if applicant and re.match(r"^(the\s+)?applicant\b", applicant, re.I):
         applicant = None            # "Applicant: The applicant proposes..." is not a name
+    if applicant:
+        # Cranston writes two parties on one line: "Mineral Enterprises, Inc.
+        # (APP) RLF IV Terminals SPE, LLC". Keep the FIRST named entity rather
+        # than gluing both into one name that matches no registry record and
+        # reads as a single company that does not exist.
+        applicant = re.split(r"\s*\((?:APP|OWN|OWNER|APPLICANT)[^)]*\)\s*",
+                             applicant, maxsplit=1)[0].strip(" ,;/") or None
     zoning = lab.get("zoning_district") or base.get("zoning_district_raw")
 
     stages = base.get("review_stages") or []

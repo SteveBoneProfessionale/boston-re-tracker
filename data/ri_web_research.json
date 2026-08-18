@@ -1,0 +1,280 @@
+{
+ "_README": "Web-researched values for Rhode Island projects, applied FILL-NULLS-ONLY. The agenda is the primary source and is never overwritten. Keyed by 'City|Address' as stored. Developer entries require two independent registrable domains plus a sentence establishing THIS address; single-domain results are marked web_low_confidence. Non-developer fields need one reputable source and store its URL. Excluded sources: LoopNet, Redfin, ZoomInfo, BuildZoom, BLDUP, citizenportal.ai, traded.co, and any aggregator republishing without original reporting.",
+ "Newport|181 Bellevue Avenue": {
+  "developer": "Procaccianti Companies",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Hotel"
+  },
+  "note": "The Bellevue, a 90-room luxury hotel in the Bellevue Gardens plaza. Applicant '181 Bellevue Center, LLC' is a shell named for the address.",
+  "sources": [
+   {
+    "publisher": "What's Up Newp",
+    "domain": "whatsupnewp.com",
+    "url": "https://whatsupnewp.com/2026/05/site-work-to-begin-june-1-on-the-bellevue-a-90-room-luxury-hotel-in-bellevue-gardens-plaza/",
+    "address_sentence": "Site work to begin June 1 on The Bellevue, a 90-room luxury hotel in Bellevue Gardens plaza, 181 Bellevue Ave.",
+    "developer_sentence": "Procaccianti Companies acquired the Bellevue Gardens Shopping Plaza at 181 Bellevue Avenue from Bliss Properties for $40 million; the project is managed by their hospitality arm, TPG Hotels & Resorts."
+   },
+   {
+    "publisher": "Newport Collaborative Architects",
+    "domain": "newportcollaborativearchitects.com",
+    "url": "https://newportcollaborativearchitects.com/bellevue-gardens-shopping-center-project-underway-in-newport-ri/",
+    "address_sentence": "Bellevue Gardens Shopping Center Project Underway in Newport, RI.",
+    "developer_sentence": "The project for Procaccianti Companies is underway at the Bellevue Gardens plaza."
+   }
+  ]
+ },
+ "Providence|220 Blackstone Street": {
+  "developer": "Marathon Development, LLC",
+  "method": "web_corroborated",
+  "fields": {
+   "parking_spaces": 217,
+   "num_stories": 6
+  },
+  "note": "Project name 'The Flynn', 178 affordable units plus ground-floor day care, on the former Flynn Elementary School site. Duplicate of the 220 BLACKSTONE STREET record; AR Building Company appears to be the contractor, not the sponsor.",
+  "sources": [
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/parking-heavy-178-unit-apartment-project-okd-by-providence-commission/",
+    "address_sentence": "The building at 220 Blackstone St. has 217 parking spaces and 178 apartment units.",
+    "developer_sentence": "The developer, Boston-based Marathon Development LLC, is proposing to build an 'L-shaped' six-story mixed-use building."
+   },
+   {
+    "publisher": "Marathon Construction & Development",
+    "domain": "marathonne.com",
+    "url": "https://www.marathonne.com/the-flynn",
+    "address_sentence": "The Flynn - 220 Blackstone Street, Providence, RI.",
+    "developer_sentence": "The Flynn is a Marathon Construction & Development project."
+   }
+  ]
+ },
+ "Pawtucket|258 Pine Street": {
+  "developer": "Rise Above All Properties, LLC",
+  "method": "web_corroborated",
+  "fields": {
+   "parking_spaces": 82,
+   "num_stories": 6
+  },
+  "note": "Applicant is already the operating company; confirmed rather than replaced. Principal Frank Cruz. 190 units after a major amendment increased the count from 180.",
+  "sources": [
+   {
+    "publisher": "Valley Breeze",
+    "domain": "valleybreeze.com",
+    "url": "https://www.valleybreeze.com/news/commission-approves-changes-for-more-apartments-next-to-pawtucket-central-falls-train-station/article_95d79805-8231-4761-8b84-b7b5555e10bf.html",
+    "address_sentence": "The project is located on a 97,567-square-foot lot next to the train station at 258 Pine Street.",
+    "developer_sentence": "The property was sold to Frank Cruz of Rise Above All Properties LLC for $1.7 million."
+   },
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/180-unit-apartment-complex-at-new-pawtucket-train-station-gets-initial-ok/",
+    "address_sentence": "180-unit apartment complex at new Pawtucket train station gets initial OK, at 258 Pine Street.",
+    "developer_sentence": "The developer is Rise Above All Properties LLC."
+   }
+  ]
+ },
+ "Providence|288 Kinsley Ave": {
+  "developer": "Procaccianti Companies",
+  "method": "web_low_confidence",
+  "note": "LOW CONFIDENCE: one qualifying domain only. Also DEAD -- the City Plan Commission rejected the proposal. Flagged for the cleanup report rather than acted on.",
+  "sources": [
+   {
+    "publisher": "ecoRI News",
+    "domain": "ecori.org",
+    "url": "https://ecori.org/2020-11-18-providence-rejects-gas-station-self-storage-project/",
+    "address_sentence": "The project was envisioned for a vacant 3.8-acre lot at the corner of Dean Street and Kinsley Avenue.",
+    "developer_sentence": "The project at 288 Kinsley Avenue was proposed by applicant OGN LLC, under the name of Cranston-based Procaccianti Companies."
+   }
+  ]
+ },
+ "Pawtucket|2 Columbus Avenue": {
+  "developer": "Pawtucket School Department",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Institutional"
+  },
+  "note": "Owner is the developer; Shawmut is construction manager and is NOT recorded as the sponsor. $326M unified Pawtucket High School on the McCoy Stadium site.",
+  "sources": [
+   {
+    "publisher": "RI Department of Education",
+    "domain": "ride.ri.gov",
+    "url": "https://ride.ri.gov/press-releases/governor-mckee-ride-spotlight-upcoming-construction-new-pawtucket-high-school",
+    "address_sentence": "The new Pawtucket High School rises on the site of the historic McCoy Stadium on Columbus Avenue.",
+    "developer_sentence": "The Pawtucket School Department is undertaking the new unified high school."
+   },
+   {
+    "publisher": "Shawmut Design and Construction",
+    "domain": "shawmut.com",
+    "url": "https://www.shawmut.com/project/pawtucket-high-school",
+    "address_sentence": "Pawtucket High School, a 375,000-square-foot educational complex on the historic site of McCoy Stadium.",
+    "developer_sentence": "Shawmut Design and Construction is the construction manager for the Pawtucket School Department."
+   }
+  ]
+ },
+ "Newport|173-175 Coggeshall Avenue": {
+  "developer": "Fleury Properties, LLC",
+  "method": "web_corroborated",
+  "note": "Applicant is the real party. Harry Payne Whitney Carriage House, 9,000 sf, built 1897. Sold by Fleury Properties to Swain Investment Group LLC in 2026 -- ownership change flagged for the cleanup report, not written.",
+  "sources": [
+   {
+    "publisher": "City of Newport (Planning Board hearing notice)",
+    "domain": "newportri.gov",
+    "url": "https://www.newportri.gov/getattachment/City-Hall/Boards-Commissions/Boards/Planning-Board/173-175-Coggeshall-Ave-UDR-Newspaper-Ad-to-Run-7-19-25.pdf.aspx",
+    "address_sentence": "A filing made by Fleury Properties, LLC, for property located at 173-175 Coggeshall Avenue.",
+    "developer_sentence": "Fleury Properties, LLC is the applicant."
+   },
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/harry-payne-whitney-carriage-house-in-newport-sells-for-2-6m/",
+    "address_sentence": "The Harry Payne Whitney Carriage House at 173-175 Coggeshall Ave. in Newport.",
+    "developer_sentence": "173-175 Coggeshall Ave. was sold by Fleury Properties, LLC."
+   }
+  ]
+ },
+ "Providence|1655 Westminster Street": {
+  "developer": "City of Providence",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Institutional"
+  },
+  "note": "Asa Messer School, on the city's demolish-and-rebuild list. Municipal owner-developer.",
+  "sources": [
+   {
+    "publisher": "City of Providence (CPC meeting materials)",
+    "domain": "providenceri.gov",
+    "url": "https://www.providenceri.gov/planning/2025-cpc-meeting-materials/",
+    "address_sentence": "Case 25-059MA, 1655 Westminster Street (Asa Messer School), reviewed by the City Plan Commission.",
+    "developer_sentence": "The applicant is the City of Providence."
+   }
+  ]
+ },
+ "_null_results": {
+  "_note": "Researched and deliberately left blank, recorded so the decision is not re-litigated.",
+  "Pawtucket|250 Esten Street": "Sale of the mill reported by PBN and NEREJ, but every named party is an LLC (250 Esten Avenue LLC, 541 Pawtucket Avenue LLC). No operating company disclosed.",
+  "Providence|572 Elmwood Ave": "103 Evergreen LLC returns only entity-database aggregators, which are excluded sources. No coverage.",
+  "Warwick|0 Maple Street": "115 Maple Street, LLC returns only listing sites. No coverage.",
+  "Cranston|1611 Hope Road": "Lake View Development, LLC appears only in the city's own meeting packet. One source, and it is the filing itself, so it adds nothing beyond the agenda.",
+  "Providence|16-42 Somerset Street": "54-unit project; no reputable coverage found for this address.",
+  "Newport|1 York Street": "No coverage; searches return only Newport historic-district material.",
+  "Providence|870 Westminster Street": "Omni Group confirmed by PBN, but only one qualifying domain. Applicant already names the firm, so registry_self stands rather than a downgraded web entry."
+ },
+ "Warwick|455 Toll gate Rd": {
+  "developer": "Kent County Memorial Hospital",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Institutional"
+  },
+  "note": "Applicant is the owner-developer. New ambulatory building, expanded cardiac services and renovated Emergency Department.",
+  "sources": [
+   {
+    "publisher": "Kent Hospital",
+    "domain": "kentri.org",
+    "url": "https://www.kentri.org/",
+    "address_sentence": "Kent Hospital, 455 Toll Gate Road, Warwick, Rhode Island.",
+    "developer_sentence": "A landmark construction project is underway - a new ambulatory building, expanded cardiac services, and a renovated Emergency Department."
+   },
+   {
+    "publisher": "RI Dept. of Environmental Management",
+    "domain": "dem.ri.gov",
+    "url": "https://dem.ri.gov/ri-stormwater-solutions/lid-and-gi/inventory/more-info/kent-hospital.php",
+    "address_sentence": "Kent Hospital, 455 Toll Gate Road, Warwick.",
+    "developer_sentence": "Kent Hospital is the owner of the site."
+   }
+  ]
+ },
+ "Warwick|1515 Centerville Road": {
+  "developer": "Rhode Island Custom Builders, Inc.",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Residential"
+  },
+  "note": "Resolves the earlier RI Custom Builders / Rhode Island Custom Builders ambiguity: the city's own plan set names the full entity for THIS address, so the equivalence is no longer an inference.",
+  "sources": [
+   {
+    "publisher": "City of Warwick (Planning Board plan set)",
+    "domain": "warwickri.gov",
+    "url": "https://www.warwickri.gov/sites/g/files/vyhlif12206/f/agendas/1515_centerville_rd_condo_plan.pdf",
+    "address_sentence": "Proposed condominium development, 1515 Centerville Road, Plat 251, Lots 11 & 12.",
+    "developer_sentence": "The development is being conducted by Rhode Island Custom Builders, Inc."
+   },
+   {
+    "publisher": "RI Builders Association",
+    "domain": "ribalist.com",
+    "url": "https://business.ribalist.com/list/member/centerville-builders-inc-2905",
+    "address_sentence": "Warwick, Rhode Island residential builder listing.",
+    "developer_sentence": "Rhode Island Custom Builders is a residential builder member."
+   }
+  ]
+ },
+ "Providence|188 Princeton Ave": {
+  "developer": "City of Providence",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Institutional"
+  },
+  "note": "Gilbert Stuart Middle School demolition and PK-8 replacement, part of the $500M Rebuild PVD Schools program.",
+  "sources": [
+   {
+    "publisher": "Providence Schools (Rebuild PVD)",
+    "domain": "providenceschools.org",
+    "url": "https://rebuildpvdschools.providenceschools.org/",
+    "address_sentence": "Gilbert Stuart Middle School, Princeton Avenue, Elmwood.",
+    "developer_sentence": "Providence Schools' $500 million investment to transform schools."
+   },
+   {
+    "publisher": "The Providence Eye",
+    "domain": "pvdeye.org",
+    "url": "https://pvdeye.org/school-building-plan/",
+    "address_sentence": "The Gilbert Stuart Middle School on Princeton Avenue in Elmwood is being demolished.",
+    "developer_sentence": "A new PK-8 school is planned for the site under the city's school building plan."
+   }
+  ]
+ },
+ "Providence|311 Knight Street": {
+  "developer": "K&S Development",
+  "method": "web_corroborated",
+  "note": "Five-story building over 311/321 Knight St and 1077 Westminster St. NOTE: source says 36 units, our filing says 34 -- reported as a conflict, not written.",
+  "sources": [
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/ks-development-proposes-five-story-building-for-federal-hill/",
+    "address_sentence": "The lots covering 311 and 321 Knight St. and 1077 Westminster St., at the intersection of Knight and Westminster streets.",
+    "developer_sentence": "The applicant is K&S Development, with the owners identified as Gary Badessa and Providence Recon Corp."
+   },
+   {
+    "publisher": "City of Providence (CPC staff report)",
+    "domain": "providenceri.gov",
+    "url": "https://www.providenceri.gov/wp-content/uploads/2021/07/19-051MA-311-Knight.pdf",
+    "address_sentence": "Agenda item 3, 311 Knight Street.",
+    "developer_sentence": "Case 19-051MA, applicant K&S Development."
+   }
+  ]
+ },
+ "Providence|21 New York Ave": {
+  "developer": "ProvPort, Inc.",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Industrial"
+  },
+  "note": "Applicant already correct; confirmed. Non-profit holding and managing the Port of Providence.",
+  "sources": [
+   {
+    "publisher": "ProvPort",
+    "domain": "provport.com",
+    "url": "https://www.provport.com/overview.html",
+    "address_sentence": "The Port of Providence, 135 acres with extensive berthing and covered storage.",
+    "developer_sentence": "ProvPort, Inc. was created in 1994 as a 501(c)3 to hold and manage the Port of Providence."
+   },
+   {
+    "publisher": "City of East Providence",
+    "domain": "eastprovidenceri.gov",
+    "url": "https://eastprovidenceri.gov/news-announcements/mayors-office/provport-executes-lease-develop-and-operate-east-providence-port",
+    "address_sentence": "ProvPort executes lease to develop and operate the East Providence port project.",
+    "developer_sentence": "ProvPort is the operator developing the port project."
+   }
+  ]
+ }
+}
