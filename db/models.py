@@ -61,6 +61,15 @@ class Project(Base):
     # filing | web | corrected -- see app/data.py::SF_SOURCES. A reporter's
     # figure and a filing's figure are different kinds of fact.
     total_gsf_source = Column(String)
+    permit_gsf = Column(Integer)          # "NB Total Sq Ft" on a building permit
+    permit_living_sf = Column(Integer)    # "Living Space (square feet)"
+    permit_units = Column(Integer)
+    permit_stories = Column(Integer)
+    permit_number = Column(String)
+    permit_issued_date = Column(String)
+    permit_url = Column(String)
+    permit_cost = Column(Integer)
+    general_contractor = Column(String)
     # development | rezoning. A rezoning with no programme yet is the front
     # of the pipeline; if a development filing later lands on the same
     # parcel the two merge, with the rezoning as the first stage event.

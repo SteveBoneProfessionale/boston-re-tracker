@@ -87,6 +87,19 @@ def init_db():
     # figure the filing stated are not the same kind of fact and must not
     # render alike.
     _add_column_if_missing("projects", "total_gsf_source", "VARCHAR")
+    # PERMIT-LEVEL figures, kept apart from the proposed programme on purpose.
+    # A building permit states what is being BUILT; an agenda or plan set states
+    # what was PROPOSED. They diverge, and merging them into total_gsf would
+    # quietly overwrite a reviewed proposal with a construction figure.
+    _add_column_if_missing("projects", "permit_gsf", "INTEGER")
+    _add_column_if_missing("projects", "permit_living_sf", "INTEGER")
+    _add_column_if_missing("projects", "permit_units", "INTEGER")
+    _add_column_if_missing("projects", "permit_stories", "INTEGER")
+    _add_column_if_missing("projects", "permit_number", "VARCHAR")
+    _add_column_if_missing("projects", "permit_issued_date", "VARCHAR")
+    _add_column_if_missing("projects", "permit_url", "VARCHAR")
+    _add_column_if_missing("projects", "permit_cost", "INTEGER")
+    _add_column_if_missing("projects", "general_contractor", "VARCHAR")
     # development | rezoning. A rezoning petition with no programme yet is
     # the FRONT of the pipeline, an earlier signal than a planning filing,
     # and should not read as a project with a defined programme.
