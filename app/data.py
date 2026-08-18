@@ -43,6 +43,14 @@ RESOLUTION_METHODS = {
         "pattern": "",           # solid
         "note": "sole operating company in the applicant's RI Corporate Database address cluster",
     },
+    "registry_self": {
+        "label": "Registry — applicant is the company",
+        "verified": True,
+        "pattern": "-",          # dashed — verified, but weaker evidence
+        "note": "the applicant is itself a registered operating company and is not "
+                "shell-shaped, so it is reported as its own sponsor. The registry "
+                "named no separate parent — this is NOT an address-cluster finding.",
+    },
     "web_corroborated": {
         "label": "Web corroborated",
         "verified": False,
@@ -69,6 +77,21 @@ RESOLUTION_METHODS = {
 # filings and a curated audit, so they are treated as verified rather than
 # being lumped in with inferred names purely for having a blank column.
 LEGACY_METHOD = "registry_confirmed"
+
+# Strongest evidence first. Charts and legends iterate this rather than a
+# literal tuple, so adding a tier stays a one-line change here instead of a
+# hunt through the view code.
+METHOD_ORDER = ["registry_confirmed", "human_set", "registry_self",
+                "web_corroborated", "web_low_confidence"]
+
+
+def shows_provenance_badge(method: str) -> bool:
+    """Whether a resolved name needs its provenance stated alongside it.
+
+    The solid tier is the baseline and needs no badge; every tier carrying a
+    fill pattern is weaker or inferred and must say so wherever it appears.
+    """
+    return bool(RESOLUTION_METHODS[resolution_method(method)]["pattern"])
 
 
 def resolution_method(raw: str) -> str:

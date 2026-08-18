@@ -59,7 +59,7 @@ def run(dry_run: bool = False) -> dict:
     reviewed = load_reviewed()
     cache = load_cache()
     session = get_session()
-    stats = {"registry_confirmed": 0, "web_corroborated": 0,
+    stats = {"registry_confirmed": 0, "registry_self": 0, "web_corroborated": 0,
              "web_low_confidence": 0, "null": 0, "no_applicant": 0}
     try:
         projects = (session.query(Project)
@@ -88,10 +88,16 @@ def run(dry_run: bool = False) -> dict:
                 rec = resolve(client, applicant, cache)
                 dev = rec.get("developer")
                 if dev:
+                    # Only an address-cluster finding is "registry_confirmed".
+                    # The self path merely confirms the applicant exists and is
+                    # not shell-shaped; labelling it confirmed would claim
+                    # cluster evidence that was never gathered.
+                    method = ("registry_self" if rec.get("confidence") == "self"
+                              else "registry_confirmed")
                     if not dry_run:
                         p.developer = dev
                         p.developer_canonical = dev
-                        p.developer_resolution_method = "registry_confirmed"
+                        p.developer_resolution_method = method
                         ev = rec.get("evidence", {}).get("entity", {})
                         p.developer_sources = json.dumps([{
                             "publisher": "RI Corporate Database",
@@ -100,8 +106,16 @@ def run(dry_run: bool = False) -> dict:
                             "address_sentence": ev.get("address", ""),
                             "developer_sentence": rec.get("reason", ""),
                         }])
-                    stats["registry_confirmed"] += 1
+                    stats[method] += 1
                 else:
+                    # A null verdict must CLEAR any previously written name.
+                    # Leaving the old value in place would silently preserve a
+                    # resolution this run has just decided is unsupported.
+                    if not dry_run and p.developer:
+                        p.developer = None
+                        p.developer_canonical = None
+                        p.developer_resolution_method = None
+                        p.developer_sources = None
                     stats["null"] += 1
 
                 if i % 25 == 0:

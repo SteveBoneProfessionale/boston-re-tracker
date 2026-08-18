@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 from app.data import (
     summary_stats, STAGE_COLORS, STAGE_ORDER,
     REVIEW_SCALE_COLORS, review_scale_vocab,
-    RESOLUTION_METHODS, resolution_method,
+    RESOLUTION_METHODS, resolution_method, METHOD_ORDER,
 )
 
 _BG      = "#0d0f12"
@@ -306,7 +306,7 @@ T.forEach(t=>{{
             )
 
             fig_dev = go.Figure()
-            for method in ("registry_confirmed", "human_set", "web_corroborated"):
+            for method in METHOD_ORDER:
                 seg = by_method[by_method["_method"] == method]
                 if seg.empty:
                     continue

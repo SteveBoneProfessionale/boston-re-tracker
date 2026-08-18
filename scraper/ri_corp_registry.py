@@ -133,6 +133,35 @@ _ABBREV = [
 ]
 
 
+# An LLC and an Inc. sharing a base name are DIFFERENT legal entities, and
+# _norm_name deliberately strips the suffix so the base names compare equal.
+# That made "JK Equities LLC" match "JK Equities, Inc." and "Seaview Realty,
+# LLC" match "Seaview Realty Corp." as exact hits -- the same substitution
+# class as the "Jan Co Inc" / "JAN CO. CENTRAL, INC." error. The suffix is
+# compared separately so those abstain instead.
+_SUFFIX_KIND = [
+    ("LLC",     r"\b(?:LLC|L\.?L\.?C\.?|LIMITED LIABILITY (?:CO|COMPANY))\b"),
+    ("CORP",    r"\b(?:INC|INCORPORATED|CORP|CORPORATION)\b"),
+    ("LP",      r"\b(?:LP|L\.?P\.?|LLP|LIMITED PARTNERSHIP)\b"),
+    ("TRUST",   r"\bTRUST\b"),
+]
+
+
+def legal_suffix(name: str) -> str | None:
+    """Which kind of legal entity the name declares itself to be, if any."""
+    n = re.sub(r"[.,'\-/]", " ", (name or "").upper())
+    for kind, pat in _SUFFIX_KIND:
+        if re.search(pat, n):
+            return kind
+    return None
+
+
+def suffix_conflict(a: str, b: str) -> bool:
+    """True when two names declare different, incompatible entity types."""
+    sa, sb = legal_suffix(a), legal_suffix(b)
+    return bool(sa and sb and sa != sb)
+
+
 def _norm_name(name: str) -> str:
     """Comparison key: drop punctuation, legal suffix and spacing."""
     # Hyphens and ampersands are styling, not identity: "Celtic-Roman Group"
@@ -403,11 +432,26 @@ def resolve(client: httpx.Client, applicant: str, cache: dict) -> dict:
         cache["resolutions"][key] = rec
         return rec
 
+    # A different legal entity type is a different entity, whatever the base
+    # name says. Abstain rather than substitute one for the other.
+    if suffix_conflict(applicant, ent["name"]):
+        rec["reason"] = (
+            f"registry match {ent['name']} is a "
+            f"{legal_suffix(ent['name'])} but the applicant is a "
+            f"{legal_suffix(applicant)} — a different legal entity, not a match")
+        cache["resolutions"][key] = rec
+        return rec
+
     # An applicant that is already a named operating company needs no resolving.
+    # This is NOT the address-cluster finding: the registry has confirmed the
+    # entity exists and is not shell-shaped, but has named no separate sponsor.
+    # It carries its own confidence tier so it never renders as cluster
+    # evidence it does not have.
     if not is_single_purpose_shell(ent["name"]):
         rec["developer"] = display_name(ent["name"])
-        rec["confidence"] = "direct"
-        rec["reason"] = "applicant is already a named operating company, not a shell"
+        rec["confidence"] = "self"
+        rec["reason"] = ("applicant is itself a registered operating company; "
+                         "the registry names no separate sponsor")
         cache["resolutions"][key] = rec
         return rec
 

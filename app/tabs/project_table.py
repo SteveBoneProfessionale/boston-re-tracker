@@ -8,7 +8,7 @@ import streamlit as st
 
 from app.data import (
     load_filings, load_cambridge_permits, STAGE_COLORS, review_scale_vocab,
-    RESOLUTION_METHODS, resolution_method,
+    RESOLUTION_METHODS, resolution_method, shows_provenance_badge, METHOD_ORDER,
 )
 from scraper.normalize_developer import is_real_company
 
@@ -115,8 +115,8 @@ def render(df: pd.DataFrame):
     fd3, _ = st.columns([2, 5])
     method_f = fd3.selectbox(
         "DEVELOPER SOURCE",
-        ["All", "Registry confirmed", "Web corroborated", "Web — low confidence",
-         "Any inferred (web)"],
+        ["All"] + [RESOLUTION_METHODS[m]["label"] for m in METHOD_ORDER]
+                + ["Any inferred (web)"],
         key="tbl_dev_method",
         help="How the developer name was established. 'Any inferred' selects every "
              "name derived from press coverage rather than the corporate registry.",
@@ -176,7 +176,8 @@ def render(df: pd.DataFrame):
 
     # Mark inferred developer names in the table too, not just the charts --
     # the name has to carry its provenance everywhere it appears.
-    _METHOD_MARK = {"web_corroborated": "◐", "web_low_confidence": "◔", "human_set": "✎"}
+    _METHOD_MARK = {"web_corroborated": "◐", "web_low_confidence": "◔",
+                    "human_set": "✎", "registry_self": "◑"}
     display["_method"] = filtered["developer_resolution_method"].apply(resolution_method)
     display["developer_canonical"] = [
         f'{mark} {name}' if (mark := _METHOD_MARK.get(m)) and name != "—" else name
@@ -415,7 +416,7 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
     # inferred name can be clicked through and checked from the detail view.
     _dev_name = p.get("developer_canonical") or p.get("developer")
     _method = resolution_method(p.get("developer_resolution_method", ""))
-    if _dev_name and _method != "registry_confirmed":
+    if _dev_name and shows_provenance_badge(_method):
         _meta = RESOLUTION_METHODS[_method]
         _dev_name = (f'{_dev_name}<br><span style="color:#f59e0b;font-size:9px;'
                      f'letter-spacing:0.08em">{_meta["label"].upper()}</span>')

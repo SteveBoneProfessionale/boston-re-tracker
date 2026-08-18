@@ -30,3 +30,4 @@ data/*.jsonl
 # OS
 .DS_Store
 Thumbs.db
+data/boston_re.db.bak-*
