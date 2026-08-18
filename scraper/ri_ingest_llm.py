@@ -36,6 +36,7 @@ from db.models import Project, ProjectStageEvent
 from scraper.ri_identity import parcel_id, same_project, normalize_address
 from scraper.ri_citations import record_extraction
 from app.data import RI_STAGE_MAP
+from scraper.ri_commercial import classify as commercial_classify, is_variance_body
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(message)s", datefmt="%H:%M:%S")
 log = logging.getLogger(__name__)
@@ -129,7 +130,7 @@ def build(group: dict) -> dict:
                       _STAGE_ORDER.get(s, -1) > _STAGE_ORDER.get(heard, -1)):
                 heard = s
 
-    return {
+    out = {
         "municipality": group["municipality"],
         "address": _pick(items, "address") or "",
         "assessor_plat": pid.plat,
@@ -152,6 +153,16 @@ def build(group: dict) -> dict:
         "needs_review": group["needs_review"],
         "items": items,
     }
+    bodies = {it.get("reviewing_body") for it in items if it.get("reviewing_body")}
+    verdict, why = commercial_classify(
+        out["description"], out["residential_units"], None, out["review_scale"])
+    if verdict is None and bodies and all(is_variance_body(b) for b in bodies):
+        # A record seen only by a variance docket, with no use stated, is
+        # homeowner relief rather than commercial pipeline.
+        verdict, why = False, "variance docket only, no use stated"
+    out["is_commercial"] = verdict
+    out["commercial_reason"] = why
+    return out
 
 
 def run(dry_run: bool = False) -> dict:
@@ -162,6 +173,21 @@ def run(dry_run: bool = False) -> dict:
         return {}
     groups = collapse(raw)
     projects = [build(g) for g in groups]
+
+    # Scope: COMMERCIAL development only, matching Boston and Cambridge.
+    # Homeowner variances, single-family lots and paper parcel actions are not
+    # pipeline and are dropped here rather than filtered in the view, so every
+    # count downstream -- charts, totals, developer resolution -- is scoped the
+    # same way. Records with no use stated are excluded too, and reported, so
+    # the exclusion is visible rather than silent.
+    from collections import Counter as _C
+    reasons = _C((p["is_commercial"], p["commercial_reason"]) for p in projects)
+    kept = [p for p in projects if p["is_commercial"] is True]
+    log.info("Commercial scope: %d of %d groups kept", len(kept), len(projects))
+    for (v, why), n in reasons.most_common():
+        if v is not True:
+            log.info("    excluded %-52s %4d", why[:52], n)
+    projects = kept
     log.info("Items: %d  ->  projects: %d (%.1f%% collapse)",
              len(raw), len(projects), (1 - len(projects) / len(raw)) * 100)
 
