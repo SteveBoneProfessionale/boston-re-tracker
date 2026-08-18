@@ -65,6 +65,11 @@ class Project(Base):
     # of the pipeline; if a development filing later lands on the same
     # parcel the two merge, with the rezoning as the first stage event.
     entry_type = Column(String)
+    # explicit | case_suffix | threshold | source | not_applicable | unknown.
+    # not_applicable means the filing was heard by a body that does not
+    # administer RIGL 45-23 at all (a zoning board, a design review
+    # committee), so there is no scale to be missing.
+    review_scale_basis = Column(String)
 
     # Two-field status. Agendas are published BEFORE a meeting and state only
     # that an item is scheduled ("for vote"), never the outcome -- outcomes live

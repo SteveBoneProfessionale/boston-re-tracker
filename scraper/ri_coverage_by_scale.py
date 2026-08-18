@@ -46,7 +46,11 @@ FIELDS = [
     ("num_stories", "storeys"),
 ]
 
-TIERS = ["Major", "Minor", "Administrative", "(unclassified)"]
+# Five buckets, not four. "Not applicable" is a different fact from
+# "unknown": a zoning-board variance has no RIGL 45-23 scale to be
+# missing, and lumping it in with genuine gaps made the tracker look far
+# less complete than it is.
+TIERS = ["Major", "Minor", "Administrative", "n/a (not 45-23)", "unknown"]
 
 
 def main():
@@ -55,7 +59,10 @@ def main():
             if not p.excluded]
 
     def tier(p):
-        return p.review_scale if p.review_scale in TIERS[:3] else "(unclassified)"
+        if p.review_scale in TIERS[:3]:
+            return p.review_scale
+        return ("n/a (not 45-23)" if p.review_scale_basis == "not_applicable"
+                else "unknown")
 
     buckets = {t: [p for p in rows if tier(p) == t] for t in TIERS}
 
@@ -69,8 +76,8 @@ def main():
     log.info("\n  entry type: %s", dict(ent))
 
     log.info("\nFIELD COVERAGE BY REVIEW SCALE")
-    log.info("  %-18s %8s %8s %8s %8s %8s",
-             "FIELD", "Major", "Minor", "Admin", "unclass", "ALL")
+    log.info("  %-18s %8s %8s %8s %8s %8s %8s",
+             "FIELD", "Major", "Minor", "Admin", "n/a", "unknown", "ALL")
     report = {}
     for col, label in FIELDS:
         line = []
@@ -80,8 +87,8 @@ def main():
             line.append(100 * n / len(b) if b else 0)
         allpct = 100 * sum(1 for p in rows
                            if getattr(p, col, None) not in (None, "", False)) / len(rows)
-        log.info("  %-18s %7.0f%% %7.0f%% %7.0f%% %7.0f%% %7.0f%%",
-                 label, line[0], line[1], line[2], line[3], allpct)
+        log.info("  %-18s %7.0f%% %7.0f%% %7.0f%% %7.0f%% %7.0f%% %7.0f%%",
+                 label, line[0], line[1], line[2], line[3], line[4], allpct)
         report[col] = {"by_tier": dict(zip(TIERS, [round(x) for x in line])),
                        "all": round(allpct)}
 

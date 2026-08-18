@@ -1,0 +1,1844 @@
+{
+ "resolved": [
+  {
+   "id": 476,
+   "city": "Providence",
+   "address": "203 Douglas Ave",
+   "case_number": "26-047MIL",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 26-047MIL, suffix MIL"
+  },
+  {
+   "id": 480,
+   "city": "Providence",
+   "address": "1107 Westminster Street",
+   "case_number": "25-019MI",
+   "scale": "Minor",
+   "tier": "1_explicit_language",
+   "evidence": "The applicant is requesting a one year extension of the preliminary plan for the subject minor land development project – for vote ( Case no 25-019MIL – 1107 Westminster Street Applicant: 1107 Westminster Street LLC The applica"
+  },
+  {
+   "id": 490,
+   "city": "Providence",
+   "address": "27 E River Street",
+   "case_number": "24-041MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 24-041MI, suffix MI"
+  },
+  {
+   "id": 497,
+   "city": "Providence",
+   "address": "128 Wayland Ave",
+   "case_number": "24-024MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 24-024MI, suffix MI"
+  },
+  {
+   "id": 498,
+   "city": "Providence",
+   "address": "885 Westminster Street",
+   "case_number": "24-053MIL",
+   "scale": "Minor",
+   "tier": "1_explicit_language",
+   "evidence": "ws: Aye: C. Lipschitz, C.McKenna, M. Quezada, N. Sanchez, R. Dotson, M. Gazdacko --- ## MINOR LAND DEVELOPMENT PROJECT ### Case no. 24-053MIL – 885 Westminster Street Applicant: WW Holdings LLC The applicant is requesting p"
+  },
+  {
+   "id": 499,
+   "city": "Providence",
+   "address": "45 Parade Street",
+   "case_number": "23-050UDR",
+   "scale": "Minor",
+   "tier": "1_explicit_language",
+   "evidence": "ion of the validity of the preliminary plan approval – for vote (AP 35 Lot 596, West End) MINOR LAND DEVELOPMENT PROJECT – UNIFIED DEVELOPMENT REVIEW PUBLIC HEARING Case no. 23-050UDR – 45 Parade Street Applicant: 45 Parade LLC T"
+  },
+  {
+   "id": 582,
+   "city": "Warwick",
+   "address": "1624 Warwick Ave",
+   "case_number": null,
+   "scale": "Administrative",
+   "tier": "1_explicit_language",
+   "evidence": "Site Plan Review Authorization for Administrative Review per Zoning Ordinance Section 502.7 for – Commerical Office Use Location: 1624 Warwick Ave Assessor’s Plat: 31"
+  },
+  {
+   "id": 605,
+   "city": "Providence",
+   "address": "220 BLACKSTONE STREET",
+   "case_number": "21-047MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 21-047MI, suffix MI"
+  },
+  {
+   "id": 607,
+   "city": "Providence",
+   "address": "269 Wickenden Street",
+   "case_number": "23-021MA",
+   "scale": "Major",
+   "tier": "1_explicit_language",
+   "evidence": "f the November 9, 2023 Providence City Plan Commission granting Master Plan Approval for Major Land Development Project 23-012 MA. APPELLANT: Jack Lindenfeld PROPERTY OWNER: Fox Point Capital, LLC SUBJECT PROPERTY: 269 Wicke"
+  },
+  {
+   "id": 633,
+   "city": "Providence",
+   "address": "106 Reservoir",
+   "case_number": "23-064MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 23-064MI, suffix MI"
+  },
+  {
+   "id": 652,
+   "city": "Providence",
+   "address": "547 Chalkstone Ave",
+   "case_number": "23-036MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 23-036MI, suffix MI"
+  },
+  {
+   "id": 653,
+   "city": "Providence",
+   "address": "18 Marcello",
+   "case_number": "21-018MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 21-018MI, suffix MI"
+  },
+  {
+   "id": 658,
+   "city": "Providence",
+   "address": "740 Plainfield Street",
+   "case_number": "23-007UDR",
+   "scale": "Minor",
+   "tier": "1_explicit_language",
+   "evidence": "s withdrawn the application – for action (AP 110 Lots 143, 148 and 156, Silver Lake) MINOR SUBDIVISION 2. Case No. 23-007UDR – 740 Plainfield Street Applicant: Excel Academy The applicant has withdrawn t"
+  },
+  {
+   "id": 663,
+   "city": "Providence",
+   "address": "781 Manton Ave",
+   "case_number": "23-016MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 23-016MI, suffix MI"
+  },
+  {
+   "id": 669,
+   "city": "Providence",
+   "address": "230 Waterman Street",
+   "case_number": "21-020MA",
+   "scale": "Major",
+   "tier": "1_explicit_language",
+   "evidence": "the November 17, 2021 Providence City Plan Commission granting Master Plan Approval for Major Land Development Project 21 -020MA, proposing a five -story commercial and residential mixed-use building. APPELLANTS: Rebecca and"
+  },
+  {
+   "id": 673,
+   "city": "Providence",
+   "address": "153-165 Gano Street",
+   "case_number": "22-008MI",
+   "scale": "Minor",
+   "tier": "1_explicit_language",
+   "evidence": "the July 14, 2022 Providence City Plan Commission granting Preliminary Plan Approval for Minor Land Development Project 22-008MI, proposing 4 multi-family residential buildings. APPELLANTS: Robert Clark, Mary Casale & Fili Inv"
+  },
+  {
+   "id": 678,
+   "city": "Providence",
+   "address": "113 Ives Street",
+   "case_number": "21-037MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 21-037MI, suffix MI"
+  },
+  {
+   "id": 679,
+   "city": "Providence",
+   "address": "220 Broad Street",
+   "case_number": "22-040MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 22-040MI, suffix MI"
+  },
+  {
+   "id": 691,
+   "city": "Providence",
+   "address": "94 Summer Street",
+   "case_number": "22-016MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 22-016MI, suffix MI"
+  },
+  {
+   "id": 697,
+   "city": "Providence",
+   "address": "49 Westfield Street",
+   "case_number": "21-017MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 21-017MI, suffix MI"
+  },
+  {
+   "id": 699,
+   "city": "Providence",
+   "address": "18 Eighth St",
+   "case_number": "21-034MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 21-034MI, suffix MI"
+  },
+  {
+   "id": 711,
+   "city": "Providence",
+   "address": "35 Hemlock Street",
+   "case_number": "21-008MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 21-008MI, suffix MI"
+  },
+  {
+   "id": 723,
+   "city": "Providence",
+   "address": "100 Niantic Ave",
+   "case_number": "20-043MI",
+   "scale": "Minor",
+   "tier": "1_explicit_language",
+   "evidence": "s ensued with the CPC hearing from the applicants, their experts and the public. ACTION – Minor Subdivision Upon a motion by Commissioner Gazdacko seconded by Commissioner Quezada, the CPC unanimously voted to approve"
+  },
+  {
+   "id": 726,
+   "city": "Providence",
+   "address": "17 Marcello Street",
+   "case_number": "20-036MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 20-036MI, suffix MI"
+  },
+  {
+   "id": 729,
+   "city": "Providence",
+   "address": "47 Matilda Street",
+   "case_number": "20-022MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 20-022MI, suffix MI"
+  },
+  {
+   "id": 733,
+   "city": "Providence",
+   "address": "466-468 West Fountain Street",
+   "case_number": "19-043MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 19-043MI, suffix MI"
+  },
+  {
+   "id": 747,
+   "city": "Providence",
+   "address": "219 Waterman Street",
+   "case_number": "20-014MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 20-014MI, suffix MI"
+  },
+  {
+   "id": 748,
+   "city": "Providence",
+   "address": "99-101 Gano Street",
+   "case_number": "19-066MI",
+   "scale": "Minor",
+   "tier": "2_case_suffix",
+   "evidence": "case number 19-066MI, suffix MI"
+  },
+  {
+   "id": 893,
+   "city": "Warwick",
+   "address": "2055 Warwick Ave",
+   "case_number": null,
+   "scale": "Major",
+   "tier": "1_explicit_language",
+   "evidence": "Board dated March 11, 2022 approving the application for Preliminary Plan Approval of a Major Subdivision/Land Development Project heard by the Warwick Planning Board at the regularly scheduled meeting held on Marc"
+  }
+ ],
+ "not_applicable": [
+  {
+   "id": 481,
+   "city": "Providence",
+   "address": "149 Governor Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 506,
+   "city": "Providence",
+   "address": "90 Westminster Street",
+   "case_number": "2025-20",
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 507,
+   "city": "Providence",
+   "address": "200 Dyer Street",
+   "case_number": "2024-19",
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 677,
+   "city": "Providence",
+   "address": "75 EAST ST",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 756,
+   "city": "Providence",
+   "address": "189 WATERMAN STREET",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 762,
+   "city": "Providence",
+   "address": "198-200 Dyer Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 763,
+   "city": "Providence",
+   "address": "75 Clifford Street",
+   "case_number": "2024-21",
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 766,
+   "city": "Providence",
+   "address": "21 Atwells Avenue",
+   "case_number": "2024-08",
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 767,
+   "city": "Providence",
+   "address": "33 Bassett Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 768,
+   "city": "Providence",
+   "address": "151-155 Chestnut Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 769,
+   "city": "Providence",
+   "address": "233-261 Richmond Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 770,
+   "city": "Providence",
+   "address": "71-73 Richmond Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee, Providence Zoning Board of Review"
+  },
+  {
+   "id": 771,
+   "city": "Providence",
+   "address": "186 Fountain Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 772,
+   "city": "Providence",
+   "address": "126 Washington Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 775,
+   "city": "Providence",
+   "address": "31 Aborn Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 777,
+   "city": "Providence",
+   "address": "229 Dyer Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 778,
+   "city": "Providence",
+   "address": "135 Wickenden Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 779,
+   "city": "Providence",
+   "address": "125 Clifford Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 780,
+   "city": "Providence",
+   "address": "250 Dyer Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 781,
+   "city": "Providence",
+   "address": "203 Westminster Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Downtown Design Review Committee"
+  },
+  {
+   "id": 782,
+   "city": "Providence",
+   "address": "579 Atwells Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 783,
+   "city": "Providence",
+   "address": "583 Elmwood Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 784,
+   "city": "Providence",
+   "address": "68 Pleasant Valley Parkway",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 786,
+   "city": "Providence",
+   "address": "275 Elmwood Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 787,
+   "city": "Providence",
+   "address": "30 Barbara St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 788,
+   "city": "Providence",
+   "address": "78 FOUNTAIN STREET",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 789,
+   "city": "Providence",
+   "address": "255 Weybosset St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 790,
+   "city": "Providence",
+   "address": "1088 North Main St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 791,
+   "city": "Providence",
+   "address": "680 Admiral St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 792,
+   "city": "Providence",
+   "address": "221 Academy Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 795,
+   "city": "Providence",
+   "address": "963 North Main St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 796,
+   "city": "Providence",
+   "address": "134 Ives St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 798,
+   "city": "Providence",
+   "address": "372 Plainfield St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 799,
+   "city": "Providence",
+   "address": "100 Randall Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 800,
+   "city": "Providence",
+   "address": "425 Washington St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 801,
+   "city": "Providence",
+   "address": "5 Marvin St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 802,
+   "city": "Providence",
+   "address": "77 Union Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 803,
+   "city": "Providence",
+   "address": "712 Admiral St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 804,
+   "city": "Providence",
+   "address": "55 Courtland St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 806,
+   "city": "Providence",
+   "address": "30 Princeton Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 808,
+   "city": "Providence",
+   "address": "516 Plainfield Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 809,
+   "city": "Providence",
+   "address": "393-399 Westminster St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 812,
+   "city": "Providence",
+   "address": "265 Union Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 813,
+   "city": "Providence",
+   "address": "362 Ives St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 814,
+   "city": "Providence",
+   "address": "679 Valley St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 815,
+   "city": "Providence",
+   "address": "896 Atwells Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 816,
+   "city": "Providence",
+   "address": "1481 Broad St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 817,
+   "city": "Providence",
+   "address": "20 Dike Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 818,
+   "city": "Providence",
+   "address": "235 West Park St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 819,
+   "city": "Providence",
+   "address": "91 Hope St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 820,
+   "city": "Providence",
+   "address": "518 Lloyd Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 821,
+   "city": "Providence",
+   "address": "126 Adelaide Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 822,
+   "city": "Providence",
+   "address": "265 Manton Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 826,
+   "city": "Providence",
+   "address": "215 BROADWAY",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 827,
+   "city": "Providence",
+   "address": "381 Angell St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 828,
+   "city": "Providence",
+   "address": "60 Gano St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 829,
+   "city": "Providence",
+   "address": "145 Manton Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 831,
+   "city": "Providence",
+   "address": "70 Virginia Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 832,
+   "city": "Providence",
+   "address": "369 Broadway",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 833,
+   "city": "Providence",
+   "address": "165 Dexter St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 834,
+   "city": "Providence",
+   "address": "338 Allens Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 835,
+   "city": "Providence",
+   "address": "280 Melrose St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 836,
+   "city": "Providence",
+   "address": "508 Prairie Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 837,
+   "city": "Providence",
+   "address": "418 Broad St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 839,
+   "city": "Providence",
+   "address": "107 Hope St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 840,
+   "city": "Providence",
+   "address": "62 Hartford Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 841,
+   "city": "Providence",
+   "address": "41 Central St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 842,
+   "city": "Providence",
+   "address": "245 Carpenter St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 843,
+   "city": "Providence",
+   "address": "1 Fields Point Dr",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 844,
+   "city": "Providence",
+   "address": "200 Exchange Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 845,
+   "city": "Providence",
+   "address": "445 Promenade St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 846,
+   "city": "Providence",
+   "address": "280 VALLET STREET",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 848,
+   "city": "Providence",
+   "address": "225 Broadway",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 849,
+   "city": "Providence",
+   "address": "321 South Main St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 850,
+   "city": "Providence",
+   "address": "10 Dorrance Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 851,
+   "city": "Providence",
+   "address": "593 Hartford Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 852,
+   "city": "Providence",
+   "address": "436 West Fountain St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 853,
+   "city": "Providence",
+   "address": "382 Thayer St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 855,
+   "city": "Providence",
+   "address": "642 CRANSTON ST",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 857,
+   "city": "Providence",
+   "address": "136 Silver Lake Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 858,
+   "city": "Providence",
+   "address": "88 Union Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 859,
+   "city": "Providence",
+   "address": "209 Fountain St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 861,
+   "city": "Providence",
+   "address": "292 Pocasset Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 862,
+   "city": "Providence",
+   "address": "54 South St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 863,
+   "city": "Providence",
+   "address": "7 Mount Hope Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 864,
+   "city": "Providence",
+   "address": "434 -450 Brook St",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 865,
+   "city": "Providence",
+   "address": "650 Hartford Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 866,
+   "city": "Providence",
+   "address": "551 Union Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Zoning Board of Review"
+  },
+  {
+   "id": 867,
+   "city": "Cranston",
+   "address": "547 Park Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Cranston Zoning Board of Review"
+  },
+  {
+   "id": 868,
+   "city": "Cranston",
+   "address": "6 Zone",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Cranston Zoning Board of Review"
+  },
+  {
+   "id": 869,
+   "city": "Cranston",
+   "address": "74 Rolfe Square",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Cranston Zoning Board of Review"
+  },
+  {
+   "id": 872,
+   "city": "Cranston",
+   "address": "175 Farmington Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Cranston Zoning Board of Review"
+  },
+  {
+   "id": 874,
+   "city": "Cranston",
+   "address": "27 Hemlock Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Cranston Zoning Board of Review"
+  },
+  {
+   "id": 875,
+   "city": "Cranston",
+   "address": "11 Dart Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Cranston Zoning Board of Review"
+  },
+  {
+   "id": 878,
+   "city": "Cranston",
+   "address": "320 Scituate Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Cranston Zoning Board of Review"
+  },
+  {
+   "id": 879,
+   "city": "Cranston",
+   "address": "41 Heath Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Cranston Zoning Board of Review"
+  },
+  {
+   "id": 880,
+   "city": "Warwick",
+   "address": "425 West Shore Rd",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 881,
+   "city": "Warwick",
+   "address": "240 Shawomet Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 882,
+   "city": "Warwick",
+   "address": "1689 Post Rd",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 884,
+   "city": "Warwick",
+   "address": "175 Hollis Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 885,
+   "city": "Warwick",
+   "address": "57 units. The main point",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 886,
+   "city": "Warwick",
+   "address": "39 Dees Circle",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 887,
+   "city": "Warwick",
+   "address": "2 Commerce Dr",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 888,
+   "city": "Warwick",
+   "address": "6 Oakland Beach Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 889,
+   "city": "Warwick",
+   "address": "4654 Post Rd",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 890,
+   "city": "Warwick",
+   "address": "800 Toll Gate Rd",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 891,
+   "city": "Warwick",
+   "address": "54 Eton Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 892,
+   "city": "Warwick",
+   "address": "2021 Page",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 894,
+   "city": "Warwick",
+   "address": "555 Greenwich Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 895,
+   "city": "Warwick",
+   "address": "641 Bald Hill Rd",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 897,
+   "city": "Warwick",
+   "address": "30 Jefferson Blvd",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 898,
+   "city": "Warwick",
+   "address": "30 Randall Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Warwick Zoning Board of Review"
+  },
+  {
+   "id": 902,
+   "city": "Providence",
+   "address": "105 BROADWAY",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "not a RIGL 45-23 land development review: heard only by Providence Historic District Commission"
+  }
+ ],
+ "unresolved": [
+  {
+   "id": 478,
+   "city": "Providence",
+   "address": "14 Cargill Street",
+   "case_number": "26-046UDR",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix UDR is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 482,
+   "city": "Providence",
+   "address": "859 Broad Street",
+   "case_number": "2026-02",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 486,
+   "city": "Providence",
+   "address": "309 Dexter Street",
+   "case_number": "26-022",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 494,
+   "city": "Providence",
+   "address": "188 Princeton Ave",
+   "case_number": "25-081MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 500,
+   "city": "Providence",
+   "address": "298 Public Street",
+   "case_number": "25-044UDR",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix UDR is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 505,
+   "city": "Providence",
+   "address": "21 New York Ave",
+   "case_number": "25-036MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 508,
+   "city": "Providence",
+   "address": "580 South",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 509,
+   "city": "Providence",
+   "address": "580 South Water Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 510,
+   "city": "Providence",
+   "address": "150 Richmond",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 511,
+   "city": "Providence",
+   "address": "115 Kingston Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 517,
+   "city": "Cranston",
+   "address": "1016 Park Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 535,
+   "city": "Cranston",
+   "address": "5 Aborn Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 536,
+   "city": "Cranston",
+   "address": "599 Reservoir Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 538,
+   "city": "Cranston",
+   "address": "1499 Hillside Road",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 539,
+   "city": "Cranston",
+   "address": "538 Main Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 541,
+   "city": "Pawtucket",
+   "address": "13 Davis Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 543,
+   "city": "Pawtucket",
+   "address": "175 Main Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 545,
+   "city": "Pawtucket",
+   "address": "250 Esten Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 546,
+   "city": "Pawtucket",
+   "address": "404 Smithfield Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 548,
+   "city": "Pawtucket",
+   "address": "546 Smithfield Avenue",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 558,
+   "city": "Newport",
+   "address": "0 Van Zandt Avenue",
+   "case_number": "PLN-26-2",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 563,
+   "city": "Newport",
+   "address": "105 Broadway",
+   "case_number": "PLN-25-5",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 567,
+   "city": "Newport",
+   "address": "49 America’s Cup Avenue",
+   "case_number": "2024-DPR-02",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 570,
+   "city": "Newport",
+   "address": "181 Bellevue Avenue",
+   "case_number": "2025-AS-04",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 571,
+   "city": "Newport",
+   "address": "138 Carroll Avenue",
+   "case_number": "2025-AS-06",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 572,
+   "city": "Newport",
+   "address": "160 Carroll Avenue",
+   "case_number": "2024-DPR-03",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 573,
+   "city": "Newport",
+   "address": "25 Waites Wharf",
+   "case_number": "2024-DPR-01",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 574,
+   "city": "Newport",
+   "address": "16 Waites Wharf",
+   "case_number": "2024-DPR-02",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 576,
+   "city": "Warwick",
+   "address": "",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "agenda text carries more than one scale label: ['Major', 'Minor']"
+  },
+  {
+   "id": 577,
+   "city": "Warwick",
+   "address": "3275 POST ROAD",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "agenda text carries more than one scale label: ['Major', 'Minor']"
+  },
+  {
+   "id": 579,
+   "city": "Warwick",
+   "address": "192 Toll Gate Rd",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 581,
+   "city": "Warwick",
+   "address": "771 Post Road",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 601,
+   "city": "Warwick",
+   "address": "145 Commerce Drive",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 613,
+   "city": "Providence",
+   "address": "400 Elmwood Ave",
+   "case_number": "24-050MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 615,
+   "city": "Providence",
+   "address": "279 Thayer Street",
+   "case_number": "22-023MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 617,
+   "city": "Providence",
+   "address": "199 Oxford Street",
+   "case_number": "24-021MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 623,
+   "city": "Providence",
+   "address": "108 – 110 Waterman Street",
+   "case_number": "23-030MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 627,
+   "city": "Providence",
+   "address": "220 Blackstone Street",
+   "case_number": "24-011MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 644,
+   "city": "Providence",
+   "address": "661-665 Plainfield Street",
+   "case_number": "23-039UDR",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix UDR is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 650,
+   "city": "Providence",
+   "address": "78 Stanwood Street",
+   "case_number": "2023-07",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 665,
+   "city": "Providence",
+   "address": "116 Waterman Street",
+   "case_number": "22-033MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 666,
+   "city": "Providence",
+   "address": "541 Hartford Ave",
+   "case_number": "22-069MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 670,
+   "city": "Providence",
+   "address": "228 Broad Street",
+   "case_number": "22-041MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 676,
+   "city": "Providence",
+   "address": "386 Atwells Ave",
+   "case_number": "22-049MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 683,
+   "city": "Providence",
+   "address": "22-26 Ringgold Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 686,
+   "city": "Providence",
+   "address": "",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 695,
+   "city": "Providence",
+   "address": "20 feet of a main street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 700,
+   "city": "Providence",
+   "address": "144 Benefit Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 702,
+   "city": "Providence",
+   "address": "288 Kinsley Ave",
+   "case_number": "19-058",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 705,
+   "city": "Providence",
+   "address": "1326 Westminster Street",
+   "case_number": "19-027MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 708,
+   "city": "Providence",
+   "address": "371 Pine Street",
+   "case_number": "16-048",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 714,
+   "city": "Providence",
+   "address": "528 Charles Street",
+   "case_number": "2021-03",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 715,
+   "city": "Providence",
+   "address": "3488 – 845 Allens Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 716,
+   "city": "Providence",
+   "address": "3486 – 22 Rye Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 717,
+   "city": "Providence",
+   "address": "3487 – 50 Sims Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 721,
+   "city": "Providence",
+   "address": "21 Peace Street",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 745,
+   "city": "Providence",
+   "address": "3475 – 40 Candace Street",
+   "case_number": "2020-12",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 746,
+   "city": "Providence",
+   "address": "217 Angell Street",
+   "case_number": "20-010",
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  },
+  {
+   "id": 751,
+   "city": "Providence",
+   "address": "1117 Eddy Street",
+   "case_number": "19-048MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "150,000 sf but the filing reads as an expansion or reuse, where the 50% limb has no ceiling"
+  },
+  {
+   "id": 752,
+   "city": "Providence",
+   "address": "7 Harborside Boulevard",
+   "case_number": "20-005MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 760,
+   "city": "Providence",
+   "address": "481 Allens Ave",
+   "case_number": "19-081MA",
+   "scale": null,
+   "tier": null,
+   "evidence": "case suffix MA is not a reliable scale signal (MA is Major only 62% of the time)"
+  },
+  {
+   "id": 824,
+   "city": "Providence",
+   "address": "288 Kinsley Ave",
+   "case_number": null,
+   "scale": null,
+   "tier": null,
+   "evidence": "no explicit label, no validated suffix, no qualifying size"
+  }
+ ]
+}

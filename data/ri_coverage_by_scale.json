@@ -1,109 +1,121 @@
 {
  "developer": {
   "by_tier": {
-   "Major": 95,
-   "Minor": 89,
+   "Major": 96,
+   "Minor": 92,
    "Administrative": 100,
-   "(unclassified)": 86
+   "n/a (not 45-23)": 83,
+   "unknown": 89
   },
-  "all": 88
+  "all": 89
  },
  "residential_units": {
   "by_tier": {
-   "Major": 44,
-   "Minor": 38,
-   "Administrative": 40,
-   "(unclassified)": 31
+   "Major": 46,
+   "Minor": 50,
+   "Administrative": 33,
+   "n/a (not 45-23)": 19,
+   "unknown": 35
   },
-  "all": 34
+  "all": 35
  },
  "total_gsf": {
   "by_tier": {
-   "Major": 9,
-   "Minor": 24,
+   "Major": 13,
+   "Minor": 30,
    "Administrative": 0,
-   "(unclassified)": 18
+   "n/a (not 45-23)": 4,
+   "unknown": 31
   },
   "all": 18
  },
  "asset_class": {
   "by_tier": {
-   "Major": 84,
-   "Minor": 44,
+   "Major": 85,
+   "Minor": 52,
    "Administrative": 100,
-   "(unclassified)": 78
+   "n/a (not 45-23)": 77,
+   "unknown": 85
   },
-  "all": 72
+  "all": 73
  },
  "stage_heard": {
   "by_tier": {
    "Major": 98,
-   "Minor": 92,
+   "Minor": 90,
    "Administrative": 100,
-   "(unclassified)": 71
+   "n/a (not 45-23)": 59,
+   "unknown": 90
   },
-  "all": 79
+  "all": 80
  },
  "latitude": {
   "by_tier": {
-   "Major": 95,
-   "Minor": 98,
+   "Major": 96,
+   "Minor": 99,
    "Administrative": 100,
-   "(unclassified)": 96
+   "n/a (not 45-23)": 98,
+   "unknown": 92
   },
-  "all": 96
+  "all": 97
  },
  "applicant_entity": {
   "by_tier": {
-   "Major": 84,
-   "Minor": 86,
+   "Major": 83,
+   "Minor": 90,
    "Administrative": 100,
-   "(unclassified)": 71
+   "n/a (not 45-23)": 65,
+   "unknown": 74
   },
-  "all": 76
+  "all": 77
  },
  "case_number": {
   "by_tier": {
-   "Major": 21,
-   "Minor": 48,
-   "Administrative": 40,
-   "(unclassified)": 31
+   "Major": 24,
+   "Minor": 62,
+   "Administrative": 33,
+   "n/a (not 45-23)": 4,
+   "unknown": 55
   },
-  "all": 33
+  "all": 34
  },
  "zoning_district_raw": {
   "by_tier": {
-   "Major": 72,
-   "Minor": 61,
-   "Administrative": 20,
-   "(unclassified)": 34
+   "Major": 74,
+   "Minor": 66,
+   "Administrative": 17,
+   "n/a (not 45-23)": 12,
+   "unknown": 53
   },
   "all": 44
  },
  "site_acreage": {
   "by_tier": {
-   "Major": 47,
-   "Minor": 9,
+   "Major": 43,
+   "Minor": 10,
    "Administrative": 0,
-   "(unclassified)": 9
+   "n/a (not 45-23)": 2,
+   "unknown": 21
   },
   "all": 14
  },
  "parking_spaces": {
   "by_tier": {
-   "Major": 14,
-   "Minor": 6,
-   "Administrative": 20,
-   "(unclassified)": 10
+   "Major": 15,
+   "Minor": 11,
+   "Administrative": 17,
+   "n/a (not 45-23)": 4,
+   "unknown": 16
   },
   "all": 10
  },
  "num_stories": {
   "by_tier": {
-   "Major": 5,
-   "Minor": 0,
+   "Major": 7,
+   "Minor": 4,
    "Administrative": 0,
-   "(unclassified)": 8
+   "n/a (not 45-23)": 7,
+   "unknown": 5
   },
   "all": 6
  }

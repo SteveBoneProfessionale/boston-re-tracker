@@ -91,6 +91,10 @@ def init_db():
     # the FRONT of the pipeline, an earlier signal than a planning filing,
     # and should not read as a project with a defined programme.
     _add_column_if_missing("projects", "entry_type", "VARCHAR")
+    # How review_scale was established, and -- importantly -- whether it is
+    # even applicable. A zoning-board variance is not a RIGL 45-23 land
+    # development review, so it has no scale to be missing.
+    _add_column_if_missing("projects", "review_scale_basis", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 

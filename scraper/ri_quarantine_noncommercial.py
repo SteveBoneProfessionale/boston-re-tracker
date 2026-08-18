@@ -65,6 +65,27 @@ EXCLUDE = {
     # name of Cranston's comprehensive plan and the text is a speaker's views
     # on density at a plan hearing.
     534: "not a project: discussion of Cranston's 2030 comprehensive plan",
+    # Reviewed by hand out of the ambiguous pile: these carried construction
+    # or programme words but describe no construction that creates space.
+    774: "public art: 'Proposal by Four Star Realty LLC to paint a mural on the "
+         "rear elevation of the building that currently contains graffiti'",
+    899: "change of use, no construction: 'requests a dimensional variance to "
+         "convert the existing non-conforming structure (previously a restaurant) "
+         "to a kennel/grooming/boarding facility'",
+    900: "change of use, no construction: 'proposing to convert the existing "
+         "commercial structure previously occupied as a restaurant to a dog "
+         "kennel/grooming/boarding facility'. Also one of the corrupt Warwick rows.",
+    901: "a transaction, not a building: 'MOTION TO AUTHORIZE THE EXECUTIVE "
+         "DIRECTOR TO EXECUTE AN OPTION AGREEMENT WITH THE PAUL CUFFEE SCHOOL "
+         "FOR THE SALE OF 544 ELMWOOD AVENUE'",
+    749: "procedural: '1197 BROAD ST - $315.00 BILLS TO BE RATIFIED'",
+    773: "code-required repair, creates no space: 'Proposal by Philip Marrelly to "
+         "reconstruct 2nd floor egress, side elevation (as required by the code)'",
+    854: "meeting-notice boilerplate, no filing content: 'THIS MEETING IS "
+         "ACCESSIBLE TO ALL PERSONS. INDIVIDUALS REQUESTING INTERPRETER SERVICES "
+         "MUST NOTIFY THE OFFICE OF NEIGHBORHOOD SERVICES'",
+    896: "corrupt record: the address is '2019 Page', an OCR fragment of the "
+         "minutes; every field on it was already nulled as untrustworthy",
 }
 
 # Reviewed and deliberately NOT excluded.
