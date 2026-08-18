@@ -140,6 +140,18 @@ RI_STAGE_MAP = {
     "Development Plan Review - Final":   "Approved",
     "Administrative Review":             "Approved",
     "Plan Recorded":                     "Approved",
+    # Added after reading the verbatim language on projects that had no stage.
+    # These are phrasings the five municipalities actually use; each maps to
+    # the stage the filing names, not to one inferred from context.
+    "Preliminary Application":           "Permitting",   # Warwick's wording
+    "Site Plan Review":                  "Permitting",
+    "Design Waiver":                     "Permitting",
+    "Comprehensive Plan Amendment":      "Planning",
+    "Advisory Opinion":                  "Planning",     # RIGL 45-24-51/52
+    "City Council Referral":             "Planning",
+    "Zoning Board Recommendation":       "Planning",
+    "Demolition":                        "Permitting",
+    "Lot Merger":                        "Permitting",
 }
 
 # Events that are recorded in stage history but must NEVER move the current

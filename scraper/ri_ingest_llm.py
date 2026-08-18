@@ -45,9 +45,12 @@ ITEMS = Path(__file__).parent.parent / "data" / "ri_llm_items.json"
 # Stage ordering for "furthest stage heard". Non-advancing events (extensions,
 # modifications, continuances, waivers) never participate.
 _STAGE_ORDER = {s: i for i, s in enumerate([
-    "Pre-application Conference", "Conceptual", "Master Plan",
-    "Combined Master and Preliminary", "Preliminary Plan",
-    "Development Plan Review", "Unified Development Review",
+    "Pre-application Conference", "Conceptual", "Advisory Opinion",
+    "City Council Referral", "Zoning Board Recommendation",
+    "Comprehensive Plan Amendment", "Master Plan",
+    "Combined Master and Preliminary", "Preliminary Application",
+    "Preliminary Plan", "Site Plan Review", "Design Waiver", "Demolition",
+    "Lot Merger", "Development Plan Review", "Unified Development Review",
     "Special Use Permit", "Administrative Review", "Final Plan", "Rezoning",
 ])}
 
@@ -99,6 +102,13 @@ def _pick(items: list[dict], field: str):
 def build(group: dict) -> dict:
     items = sorted(group["items"], key=lambda x: x.get("meeting_date") or "")
     pid = next((p for p in group["parcels"] if p.has_parcel), group["parcels"][0])
+    # Lots stated across a project's appearances are unioned within the chosen
+    # plat. Taking them from one appearance alone reported "AP 30, Lots 83, 84,
+    # 85 & 258" as lots 4/83/84/85, mixing two filings' citations.
+    all_lots = set(pid.lots or [])
+    for q in group["parcels"]:
+        if q.plat == pid.plat and q.lots:
+            all_lots |= set(q.lots)
 
     heard = None
     for it in items:
@@ -108,11 +118,22 @@ def build(group: dict) -> dict:
         if s and (heard is None or _STAGE_ORDER.get(s, -1) > _STAGE_ORDER.get(heard, -1)):
             heard = s
 
+    # If EVERY appearance was non-advancing, fall back to the stage those
+    # events name. A "Preliminary Plan extension request" is not an advance,
+    # but it does state that the project reached Preliminary Plan -- reading
+    # that off the filing is not an inference, and null loses real information.
+    if heard is None:
+        for it in items:
+            s = it.get("review_stage")
+            if s and (heard is None or
+                      _STAGE_ORDER.get(s, -1) > _STAGE_ORDER.get(heard, -1)):
+                heard = s
+
     return {
         "municipality": group["municipality"],
         "address": _pick(items, "address") or "",
         "assessor_plat": pid.plat,
-        "assessor_lots": ",".join(sorted(pid.lots, key=int)) if pid.lots else None,
+        "assessor_lots": ",".join(sorted(all_lots, key=int)) if all_lots else None,
         "plat_lots_raw": (_pick(items, "plat_lot_raw") or "")[:200],
         "applicant_entity": _pick(items, "applicant_entity"),
         "case_number": _pick(items, "case_number"),

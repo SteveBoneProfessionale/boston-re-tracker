@@ -118,11 +118,120 @@ _PLAT_LOT = re.compile(
 
 # A street address stated inline: "180 Weeden Street", "0 (525) Broadway"
 _ADDR = re.compile(
+    # A number following Lot/Plat/AP is a PARCEL number, not a house number:
+    # "Plat 241 Lot 2 Centerville Road" is not 2 Centerville Road.
+    r"(?<!Lot )(?<!Lots )(?<!Plat )(?<!AP )"
     r"\b(\d{1,6}(?:\s*\(\d{1,6}\))?(?:\s*[-–]\s*\d{1,6})?\s+"
-    r"[A-Z][A-Za-z'\.]*(?:\s+[A-Z][A-Za-z'\.]*){0,3}\s+"
+    r"[A-Z][A-Za-z'’\.]*(?:\s+[A-Z][A-Za-z'’\.]*){0,3}\s+"
     r"(?:Street|St|Avenue|Ave|Road|Rd|Drive|Dr|Boulevard|Blvd|Lane|Ln|Way|"
     r"Place|Pl|Court|Ct|Terrace|Ter|Highway|Hwy|Parkway|Pkwy|Circle|Cir|Row|"
-    r"Square|Sq|Pike|Trail|Path|Extension|Ext))\b\.?", re.I)
+    r"Square|Sq|Pike|Trail|Path|Extension|Ext|"
+    # Newport's waterfront addresses end in Wharf, which carried no street
+    # type in this list -- so "0, 1, & 16 Waites Wharf" was skipped and the
+    # extractor took "160 Carroll Avenue" from the next item instead.
+    r"Wharf|Wharves|Quay|Landing|Neck|Point|Pt|Green|Common|Mall))\b\.?", re.I)
+
+# Many RI addresses carry NO street-type word at all -- "105 Broadway",
+# "0 (525) Broadway" -- and a type-anchored pattern cannot see them. The E-911
+# gazetteer (4,051 street names for the five municipalities) resolves them:
+# a number followed by a known street name IS an address.
+# Fractional house numbers ("42 & 42 1/2 Harrison Avenue") are normalised to
+# the whole number rather than being allowed to break the match.
+_NUM_THEN_WORDS = re.compile(
+    r"(?<![\w½])(?<!Lot )(?<!Lots )(?<!Plat )(?<!AP )(?<!A\.P\. )"
+    r"\b(\d{1,6})(?:\s*[½¼¾]|\s*1/2)?(?:\s*(?:&|and|,|-|–)\s*\d{1,6}(?:\s*[½¼¾])?)*\s+"
+    r"((?:[A-Z][A-Za-z'’\.\-]*\s*){1,4})")
+
+
+def address_from_gazetteer(block: str) -> str | None:
+    """A house number followed by a name the E-911 gazetteer knows."""
+    from scraper.ri_shell import STREETS, _STREET_TYPE
+    if not STREETS:
+        return None
+    for m in _NUM_THEN_WORDS.finditer(block or ""):
+        num, tail = m.group(1), m.group(2).strip()
+        words = tail.split()
+        # Longest run of words that is a known street name wins.
+        for n in range(min(4, len(words)), 0, -1):
+            cand = " ".join(words[:n])
+            core = re.sub(r"\s+", " ", _STREET_TYPE.sub("", cand)).strip().upper()
+            if core and core in STREETS:
+                return f"{num} {cand}".strip(" ,.")
+    return None
+
+# ── items that are not projects ────────────────────────────────────────────
+# Cranston publishes MINUTES, which record public comment verbatim:
+#
+#   "Michael Luciano (26 Turner Avenue) Mr. Luciano opposed the application."
+#
+# The speaker's own home address is a valid-looking address, so each objecting
+# neighbour was becoming a project. Attendance rolls, adjournments and the
+# meeting's own location did the same. These are not filings and must never
+# reach the pipeline -- the same treatment given Providence's lot-line
+# administrative approvals.
+_SPEAKER = re.compile(
+    r"\b(?:Mr\.|Ms\.|Mrs\.|Dr\.)\s*[A-Z][a-z]+|"
+    r"\b[A-Z][a-z]+\s+[A-Z][a-z]+\s*\([^)]*\b(?:Street|Avenue|Road|Drive|Lane|"
+    r"Terrace|Boulevard|Way|Court|Place)\b[^)]*\)", re.I)
+_COMMENT_VERB = re.compile(
+    r"\b(?:opposed|objected|expressed concern|voiced concern|questioned|"
+    r"appeared representing|submitted a petition|submitted photographs|"
+    r"echoed these concerns|spoke in (?:favor|opposition)|stated (?:that|she|he)|"
+    r"asked whether|inquired|raised concerns|noted that she|noted that he)\b", re.I)
+# HARD: meeting mechanics that disqualify a block whatever else it contains.
+# An attendance roll that happens to mention a plat is still an attendance
+# roll -- gating these behind "has no filing evidence" let them through.
+_NOT_A_FILING_HARD = re.compile(
+    r"\b(?:were not (?:present|in attendance)|The following Commissioners|"
+    r"Also present|call(?:ed)? the meeting to order|ADJOURNMENT|"
+    r"Next Meeting\s*\||EXECUTIVE DIRECTOR'?S REPORT|"
+    r"provided an update on projects under construction)\b", re.I)
+
+# SOFT: language that appears INSIDE real items in minutes (the motion, the
+# vote, the public testimony). Only disqualifying when the block shows no
+# filing evidence of its own.
+_NOT_A_FILING = re.compile(
+    r"\b(?:APPROVAL OF MINUTES|Motion to (?:approve|adjourn) the|"
+    r"PUBLIC COMMENT(?:\s+PERIOD)?|Roll Call)\b", re.I)
+
+
+# Positive evidence that a block IS a filing, whatever else surrounds it.
+# Minutes record the vote, the motion and the public testimony INSIDE the item
+# they belong to, so administrative language is not evidence against an item
+# that also carries a case number, a named applicant or a parcel citation.
+# Without this gate the filter discarded real CPC items -- 14 Cargill Street,
+# 859 Broad Street, 309 Dexter Street -- for containing their own vote record.
+_IS_FILING = re.compile(
+    r"Case\s*(?:no|number)\.?\s*[\d\-]|Referral\s*no\.?\s*\d|"
+    r"App\.?\s*No\.?\s*[\w\-]+|"
+    r"^\s*(?:Owner|Applicant|Petitioner|Proponent|Owner\s*/\s*Applicant)\s*:|"
+    r"\b(?:T?A\.?P\.?|Assessor['’]?s?\s+Plat)\s*\.?\s*\d|"
+    r"\b(?:master plan|preliminary plan|final plan|development plan review|"
+    r"unified development review|special use permit|land development project|"
+    r"pre-?application (?:review|conference)|subdivision review|zoning referral)\b",
+    re.I | re.M)
+
+
+def is_not_a_project(block: str) -> str | None:
+    """Why this block is not a development filing, or None if it is one."""
+    b = block or ""
+    # A block that BEGINS with meeting mechanics is meeting mechanics. One that
+    # merely ends with them is a real item carrying trailing boilerplate --
+    # Pawtucket's last agenda item runs to end-of-document and absorbs the
+    # adjournment, and matching anywhere deleted eight real projects.
+    hard = _NOT_A_FILING_HARD.search(b)
+    if hard and hard.start() < 200:
+        return "meeting administration, not a filing"
+    if _IS_FILING.search(b):
+        return None                      # a filing, whatever surrounds it
+    if _NOT_A_FILING.search(b):
+        return "meeting administration, not a filing"
+    # Public comment: a named speaker plus commentary language. Both are
+    # required -- an applicant's own name near the word "stated" is not
+    # enough to discard a real item.
+    if _COMMENT_VERB.search(b) and _SPEAKER.search(b):
+        return "public comment by a named speaker"
+    return None
 
 # Named-quotation project titles: Cranston writes  "30 Pomham Street"
 _QUOTED = re.compile(r"[\"“”']([^\"“”']{4,70})[\"“”']")
@@ -166,6 +275,28 @@ def parcel_from(block: str) -> tuple[str | None, str | None]:
     return m.group(0).strip(), m.group(1)
 
 
+def _is_real_address(a: str | None) -> bool:
+    """Whether a string names a street. NOT used as a filter -- see below.
+
+    The intent was to reject fragments like "2030 Plan", "1 Meeting" and
+    "580 South". The gazetteer cannot support that: Meeting Street and South
+    Street are real Providence streets, so the fragments validate exactly as
+    "105 Broadway" does. E-911 stores St_Name without its type, so there is no
+    field distinguishing a genuinely typeless street (Broadway) from a
+    truncated one (Meeting). Kept for reference; the affected records are left
+    unplaced and reported instead of being filtered on a check that does not
+    discriminate.
+    """
+    if not a:
+        return False
+    from scraper.ri_shell import STREETS, _STREET_TYPE
+    if _STREET_TYPE.search(a):
+        return True
+    core = re.sub(r"^\s*\d[\d\s½&,\-–()]*", "", a)
+    core = re.sub(r"\s+", " ", core).strip().upper()
+    return bool(core and core in STREETS)
+
+
 def address_from(block: str, lab: dict) -> str | None:
     """Street address, preferring a labelled location line."""
     if lab.get("address"):
@@ -175,6 +306,9 @@ def address_from(block: str, lab: dict) -> str | None:
     m = _ADDR.search(block)
     if m:
         return re.sub(r"\s+", " ", m.group(1)).strip()
+    g = address_from_gazetteer(block)
+    if g:
+        return g
     q = _QUOTED.search(block)
     if q and re.match(r"\s*\d", q.group(1)):
         return q.group(1).strip()
@@ -268,6 +402,8 @@ def run() -> dict:
     items: list[dict] = []
     admin_count = 0
     per_doc = Counter()
+    dropped = Counter()
+    dropped_rows: list[tuple] = []
 
     for v in corpus.values():
         muni = v["municipality"]
@@ -287,6 +423,12 @@ def run() -> dict:
                 "document": d["text_file"],
             }
             for seg in segment(muni, text, eid):
+                why = is_not_a_project(seg["text"])
+                if why:
+                    dropped[why] += 1
+                    dropped_rows.append((muni, why,
+                                         re.sub(r"\s+", " ", seg["text"])[:110]))
+                    continue
                 items.append(build_item(muni, seg, meta))
             per_doc[muni] += 1
 
@@ -336,6 +478,10 @@ def run() -> dict:
     log.info("Documents read: %d   items segmented: %d   with identity: %d   "
              "(admin-flagged: %d)", sum(per_doc.values()), len(items), len(keyed),
              admin_count)
+    if dropped:
+        log.info("Dropped as not-a-filing: %d", sum(dropped.values()))
+        for why, n in dropped.most_common():
+            log.info("    %-42s %d", why, n)
     munis = sorted(tot)
     log.info("")
     log.info("%-22s%s", "ITEM COVERAGE", "".join(f"{m[:9]:>11}" for m in munis))

@@ -1,0 +1,555 @@
+[
+ {
+  "city": "Providence",
+  "applicant": "Lindsey Morel",
+  "address": "1331 Eddy Street",
+  "shell_rule": null,
+  "plat": "58"
+ },
+ {
+  "city": "Providence",
+  "applicant": "PMP Group LLC \u2013 continued to the August 18 meeting at the applicant\u2019s request",
+  "address": "203 Douglas Ave",
+  "shell_rule": null,
+  "plat": "68"
+ },
+ {
+  "city": "Providence",
+  "applicant": "Monaco Investments LLC",
+  "address": "75 Laban Street",
+  "shell_rule": null,
+  "plat": "105"
+ },
+ {
+  "city": "Providence",
+  "applicant": "16 Grove LLC",
+  "address": "16-22 Grove Street",
+  "shell_rule": "leading_number",
+  "plat": "28"
+ },
+ {
+  "city": "Providence",
+  "applicant": "163-167 N Main Street LLC",
+  "address": "163-167 North Main Street",
+  "shell_rule": "leading_number",
+  "plat": "10"
+ },
+ {
+  "city": "Providence",
+  "applicant": "1145 Main Associates LP 888 Eddy LLC et al",
+  "address": "1145 Main",
+  "shell_rule": null,
+  "plat": null
+ },
+ {
+  "city": "Providence",
+  "applicant": "1107 Westminster LLC",
+  "address": "1107 Westminster Street",
+  "shell_rule": "leading_number",
+  "plat": "32"
+ },
+ {
+  "city": "Providence",
+  "applicant": "JC131 Realty LLC c/o Jeffrey Audet",
+  "address": "",
+  "shell_rule": null,
+  "plat": "46"
+ },
+ {
+  "city": "Providence",
+  "applicant": "AGM Holdings LLC",
+  "address": "3613 \u2013 149 Governor Street",
+  "shell_rule": "bare_holding",
+  "plat": "14"
+ },
+ {
+  "city": "Providence",
+  "applicant": "State of Rhode Island",
+  "address": "859 Broad Street",
+  "shell_rule": null,
+  "plat": "52"
+ },
+ {
+  "city": "Providence",
+  "applicant": "Gustavo Perez",
+  "address": "3611 \u2013 349 Killingly Street",
+  "shell_rule": null,
+  "plat": "115"
+ },
+ {
+  "city": "Providence",
+  "applicant": "297 Dexter Holdings LLC",
+  "address": "309 Dexter Street",
+  "shell_rule": "leading_number",
+  "plat": "31"
+ },
+ {
+  "city": "Providence",
+  "applicant": "Providence Growth 2019 Fund Holdings LLC",
+  "address": "64 America Street",
+  "shell_rule": "bare_holding",
+  "plat": "28"
+ },
+ {
+  "city": "Providence",
+  "applicant": "329 Development LLC",
+  "address": "450 Charles Street",
+  "shell_rule": "leading_number",
+  "plat": "76"
+ },
+ {
+  "city": "Providence",
+  "applicant": "64 Angell Street LLC",
+  "address": "64 Angell Street",
+  "shell_rule": "leading_number",
+  "plat": "10"
+ },
+ {
+  "city": "Providence",
+  "applicant": "International Property Investment and Management LLC",
+  "address": "1101 Elmwood Ave",
+  "shell_rule": null,
+  "plat": "88"
+ },
+ {
+  "city": "Providence",
+  "applicant": "27 E River LLC",
+  "address": "27 East River Street",
+  "shell_rule": "leading_number",
+  "plat": "15"
+ },
+ {
+  "city": "Providence",
+  "applicant": "City of Providence",
+  "address": "195 Nelson Street",
+  "shell_rule": null,
+  "plat": "85"
+ },
+ {
+  "city": "Providence",
+  "applicant": "City of Providence",
+  "address": "188 Princeton Ave",
+  "shell_rule": null,
+  "plat": "44"
+ },
+ {
+  "city": "Providence",
+  "applicant": "City of Providence",
+  "address": "1655 Westminster Street",
+  "shell_rule": null,
+  "plat": "35"
+ },
+ {
+  "city": "Providence",
+  "applicant": "City of Providence",
+  "address": "434 Mt Pleasant Ave",
+  "shell_rule": null,
+  "plat": "128"
+ },
+ {
+  "city": "Providence",
+  "applicant": "AE128 Wayland LLC",
+  "address": "128 Wayland Ave",
+  "shell_rule": "address_matched",
+  "plat": "14"
+ },
+ {
+  "city": "Providence",
+  "applicant": "WW Holdings LLC",
+  "address": "885 Westminster Street",
+  "shell_rule": "bare_holding",
+  "plat": "29"
+ },
+ {
+  "city": "Providence",
+  "applicant": "45 Parade LLC",
+  "address": "45 Parade Street",
+  "shell_rule": "leading_number",
+  "plat": "35"
+ },
+ {
+  "city": "Providence",
+  "applicant": "SWAP Inc",
+  "address": "298 Public Street",
+  "shell_rule": null,
+  "plat": "48"
+ },
+ {
+  "city": "Providence",
+  "applicant": "Walter Bronhard",
+  "address": "150 Pitman Street",
+  "shell_rule": null,
+  "plat": "15"
+ },
+ {
+  "city": "Providence",
+  "applicant": "Tobey Street LLC",
+  "address": "125 Tobey Street",
+  "shell_rule": "street_named",
+  "plat": "35"
+ },
+ {
+  "city": "Providence",
+  "applicant": "Walter Bronhard",
+  "address": "116 Waterman Street",
+  "shell_rule": null,
+  "plat": "12"
+ },
+ {
+  "city": "Providence",
+  "applicant": "1 Charles LLC",
+  "address": "3601 \u2013 1 Charles Street",
+  "shell_rule": "leading_number",
+  "plat": "3"
+ },
+ {
+  "city": "Providence",
+  "applicant": "Riccardo Ortiz",
+  "address": "268 Carpenter Street",
+  "shell_rule": null,
+  "plat": "32"
+ },
+ {
+  "city": "Providence",
+  "applicant": "Gilberto Ciprian",
+  "address": "118 Silver Lake Ave",
+  "shell_rule": null,
+  "plat": "110"
+ },
+ {
+  "city": "Providence",
+  "applicant": "Pabel Fernandez",
+  "address": "83 Ethan Street",
+  "shell_rule": null,
+  "plat": "110"
+ },
+ {
+  "city": "Cranston",
+  "applicant": "Champlin Heights II, LLC",
+  "address": "",
+  "shell_rule": "series_marker",
+  "plat": "20"
+ },
+ {
+  "city": "Cranston",
+  "applicant": "She",
+  "address": "1016 Park Avenue",
+  "shell_rule": null,
+  "plat": "9"
+ },
+ {
+  "city": "Cranston",
+  "applicant": "N.E Development Fund, 1 LLC",
+  "address": "1390 Cranston Street",
+  "shell_rule": null,
+  "plat": "8"
+ },
+ {
+  "city": "Cranston",
+  "applicant": "Mineral Enterprises, Inc. (APP) RLF IV Terminals SPE, LLC (OWN)",
+  "address": "2110 Plainfield Pike",
+  "shell_rule": "spe_marker",
+  "plat": "6"
+ },
+ {
+  "city": "Cranston",
+  "applicant": "RLF IV Terminals SPE, LLC",
+  "address": "0 Plainfield Pike",
+  "shell_rule": "spe_marker",
+  "plat": "36"
+ },
+ {
+  "city": "Cranston",
+  "applicant": "Scott Aceto and Richard Baccari II",
+  "address": "1746 Cranston St",
+  "shell_rule": "series_marker",
+  "plat": "11"
+ },
+ {
+  "city": "Pawtucket",
+  "applicant": "Shelia Depina",
+  "address": "13 Davis Street",
+  "shell_rule": null,
+  "plat": "52"
+ },
+ {
+  "city": "Pawtucket",
+  "applicant": "Wood Partners",
+  "address": "175 Main Street",
+  "shell_rule": null,
+  "plat": "23"
+ },
+ {
+  "city": "Pawtucket",
+  "applicant": "CLRI East Street LLC",
+  "address": "65 East Street",
+  "shell_rule": "address_matched",
+  "plat": "6"
+ },
+ {
+  "city": "Pawtucket",
+  "applicant": "250 Esten LLC",
+  "address": "250 Esten Street",
+  "shell_rule": "leading_number",
+  "plat": "62"
+ },
+ {
+  "city": "Pawtucket",
+  "applicant": "Amit Anand",
+  "address": "37 Webb Avenue",
+  "shell_rule": null,
+  "plat": "52"
+ },
+ {
+  "city": "Pawtucket",
+  "applicant": "Ronald M. Mikucki",
+  "address": "",
+  "shell_rule": null,
+  "plat": "28"
+ },
+ {
+  "city": "Pawtucket",
+  "applicant": "Pawtucket School Department",
+  "address": "2 Columbus Avenue",
+  "shell_rule": null,
+  "plat": "26"
+ },
+ {
+  "city": "Pawtucket",
+  "applicant": "180 Weeden St LLC",
+  "address": "180 Weeden Street",
+  "shell_rule": "leading_number",
+  "plat": "44"
+ },
+ {
+  "city": "Pawtucket",
+  "applicant": "Pawtucket Central Falls Development",
+  "address": "160 Beechwood Avenue",
+  "shell_rule": null,
+  "plat": "35"
+ },
+ {
+  "city": "Pawtucket",
+  "applicant": "JK Equities LLC",
+  "address": "94 Moshassuck Street",
+  "shell_rule": null,
+  "plat": "62"
+ },
+ {
+  "city": "Newport",
+  "applicant": "Southeastern Holding, LLC",
+  "address": "46 East Bowery Street",
+  "shell_rule": "bare_holding",
+  "plat": "34"
+ },
+ {
+  "city": "Newport",
+  "applicant": "194 Coggeshall Avenue, LLC",
+  "address": "194 Coggeshall Avenue",
+  "shell_rule": "leading_number",
+  "plat": "37"
+ },
+ {
+  "city": "Newport",
+  "applicant": "JRL Holdings LLC",
+  "address": "173 Ruggles Avenue",
+  "shell_rule": "bare_holding",
+  "plat": "36"
+ },
+ {
+  "city": "Newport",
+  "applicant": "181 Bellevue Center, LLC",
+  "address": "181 Bellevue Avenue",
+  "shell_rule": "leading_number",
+  "plat": "41"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Celtic-Roman Group, LLC/Brooks Almonte",
+  "address": "44 Tourtelott Ave",
+  "shell_rule": null,
+  "plat": "346"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Seaview Realty, LLC",
+  "address": "3275 POST ROAD",
+  "shell_rule": null,
+  "plat": "300"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Louis G. Roy, 6 Plum Tree Lane, Coventry, RI 02816",
+  "address": "192 Toll Gate Rd",
+  "shell_rule": null,
+  "plat": "246"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Carolyn & Bartolmie Scire",
+  "address": "113 Vohlander St",
+  "shell_rule": null,
+  "plat": "333"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "City of Warwick",
+  "address": "771 Post Road",
+  "shell_rule": null,
+  "plat": "288"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Jan Co Inc., 35 Sockanosset Cross Rd, Cranston, RI 02920",
+  "address": "1880 Post Road",
+  "shell_rule": null,
+  "plat": "322"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Ms. Giana Valelli of MJV Enterprises, LLC",
+  "address": "2281 and 2279 West Shore Rd",
+  "shell_rule": null,
+  "plat": "350"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "A.L.A. Sons Construction",
+  "address": "39 Stewart Street",
+  "shell_rule": null,
+  "plat": "359"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "A.L.A. Sons Construction",
+  "address": "1084 & 1090 Toll Gate Rd",
+  "shell_rule": null,
+  "plat": "253"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Colbea Enterprises, L.L.C",
+  "address": "255, 265, and 281 Centerville Rd",
+  "shell_rule": null,
+  "plat": "246"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Kevin Murphy",
+  "address": "298 Sandy Lane",
+  "shell_rule": null,
+  "plat": "351"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Steven Cohen and Washville Car Wash",
+  "address": "2595 West Shore Rd",
+  "shell_rule": null,
+  "plat": "349"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Winward Veterinary Hospital, LLC",
+  "address": "1282 & 1288 Greenwich Ave",
+  "shell_rule": null,
+  "plat": "245"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "4332 Post Road, LLC c/o Susan Rowles & Paul Zarrella",
+  "address": "4332 Post Road",
+  "shell_rule": "leading_number",
+  "plat": "221"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Zarrella Development Corporation",
+  "address": "164 John Street",
+  "shell_rule": null,
+  "plat": "360"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Allen\u2019s Farm, LLC 144 Metro Ctr blvd, Unit F",
+  "address": "144 Metro Ctr blvd",
+  "shell_rule": "address_matched",
+  "plat": "241"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Sprague Covington, LLC, 505 Red Chimney Dr, Warwick, RI",
+  "address": "112 Old Warwick Avenue",
+  "shell_rule": null,
+  "plat": null
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Same",
+  "address": "690 Oakland Beach Ave",
+  "shell_rule": null,
+  "plat": "376"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Kobeissi Realty Corp",
+  "address": "446, 480, and 482 Post Road, Warwick Avenue",
+  "shell_rule": null,
+  "plat": "293"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Alexander Miller Bucci and Courtney Bucci",
+  "address": "85 Toll Gate Road",
+  "shell_rule": null,
+  "plat": "246"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "ZRF Realty, RIGP",
+  "address": "19 Wood Street",
+  "shell_rule": null,
+  "plat": "360"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Nicholas Varras",
+  "address": "",
+  "shell_rule": null,
+  "plat": "328"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Gerald Zarrella",
+  "address": "73 Pinehurst Avenue",
+  "shell_rule": null,
+  "plat": "360"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "Bridge Group, LLC, 2204 Broad Street, Cranston, RI 02905",
+  "address": "9 Post Road",
+  "shell_rule": null,
+  "plat": "291"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "KKDC, 2116 Hawkins Street, Suite 101, Charlotte, NC 28203",
+  "address": "1200 Quaker Lane",
+  "shell_rule": null,
+  "plat": "215"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "3315 N OAK TRFY KANSAS CITY, MO 64116",
+  "address": "145 Commerce Drive",
+  "shell_rule": null,
+  "plat": "311"
+ },
+ {
+  "city": "Warwick",
+  "applicant": "115 Maple Street, LLC, Warwick, RI 02888",
+  "address": "0 Maple Street",
+  "shell_rule": "leading_number",
+  "plat": "284"
+ }
+]

@@ -33,6 +33,7 @@ from db.models import Project
 from scraper.ri_corp_registry import (
     resolve, load_cache, save_cache, HEADERS, is_single_purpose_shell, display_name,
 )
+from scraper.ri_shell import shell_verdict, RULE_NOTE
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(message)s", datefmt="%H:%M:%S")
 logging.getLogger("httpx").setLevel(logging.WARNING)
@@ -60,7 +61,8 @@ def run(dry_run: bool = False) -> dict:
     cache = load_cache()
     session = get_session()
     stats = {"registry_confirmed": 0, "registry_self": 0, "web_corroborated": 0,
-             "web_low_confidence": 0, "null": 0, "no_applicant": 0}
+             "web_low_confidence": 0, "shell_to_web": 0, "null": 0, "no_applicant": 0}
+    shell_queue: list[tuple] = []
     try:
         projects = (session.query(Project)
                     .filter(Project.bpda_url.like("manual:ri-%")).all())
@@ -83,6 +85,21 @@ def run(dry_run: bool = False) -> dict:
                             "method", "web_corroborated")
                         p.developer_sources = json.dumps(rv.get("sources", []))
                     stats[rv.get("method", "web_corroborated")] += 1
+                    continue
+
+                # A single-purpose entity never populates the developer column
+                # from the registry, however the registry describes it. It
+                # routes to the web tier instead: registry first, web second,
+                # null third, confidence rules unchanged.
+                is_shell, shell_rule = shell_verdict(applicant, p.address)
+                if is_shell:
+                    if not dry_run and p.developer:
+                        p.developer = None
+                        p.developer_canonical = None
+                        p.developer_resolution_method = None
+                        p.developer_sources = None
+                    stats["shell_to_web"] += 1
+                    shell_queue.append((p.city, applicant, p.address, shell_rule))
                     continue
 
                 rec = resolve(client, applicant, cache)

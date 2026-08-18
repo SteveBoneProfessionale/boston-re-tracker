@@ -95,6 +95,19 @@ _STAGE_PATTERNS = [
     (r"administrative\s+(?:review|subdivision|land development)", "Administrative Review"),
     (r"rezon|zoning\s+map\s+amendment|zone\s+change", "Rezoning"),
     (r"concept", "Conceptual"),
+    # Phrasings found by reading the verbatim language on projects that came
+    # out with no stage. Ordered after the canonical ones so an agenda that
+    # says "Preliminary Plan" still maps there rather than to the looser
+    # "preliminary application" wording Warwick and Cranston use.
+    (r"preliminary\s+application", "Preliminary Application"),
+    (r"site\s+plan\s+review", "Site Plan Review"),
+    (r"design\s+waiver", "Design Waiver"),
+    (r"comprehensive\s+plan\s+amendment", "Comprehensive Plan Amendment"),
+    (r"advisory\s+opinion|45-24-51", "Advisory Opinion"),
+    (r"city\s+council\s+referral", "City Council Referral"),
+    (r"recommendations?\s+to\s+the\s+zoning\s+board", "Zoning Board Recommendation"),
+    (r"\bto\s+demolish\b|\bdemolition\b", "Demolition"),
+    (r"\bto\s+merge\b|\blot\s+merger\b", "Lot Merger"),
 ]
 # Events recorded in history that must never advance the current stage.
 _NON_ADVANCING = re.compile(

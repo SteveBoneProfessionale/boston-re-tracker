@@ -2364,6 +2364,7 @@
    "name": "1145 Main Associates, LP",
    "status_searched": "rdbActive"
   },
+  "1145 MAIN ASSOCIATES LP 888 EDDY LLC ET AL": null,
   "115 MAPLE STREET, LLC, WARWICK, RI 02888": null,
   "16 GROVE LLC": {
    "address": "469 ANGELL STREET SUITE 202 PROVIDENCE, RI  02906  USA",
@@ -3031,303 +3032,115 @@
   "ZARRELLA DEVELOPMENT CORPORATION": null,
   "ZRF REALTY, RIGP": null
  },
+ "formation": {
+  "000000568": {
+   "formed": "1959-03-23",
+   "other_filings": 10
+  },
+  "000031486": {
+   "formed": "1946-04-25",
+   "other_filings": 10
+  },
+  "000080973": {
+   "formed": "1994-08-16",
+   "other_filings": 10
+  },
+  "000081624": {
+   "formed": "1994-10-18",
+   "other_filings": 10
+  },
+  "000406831": {
+   "formed": "2008-05-27",
+   "other_filings": 10
+  },
+  "000788302": {
+   "formed": "2012-02-29",
+   "other_filings": 10
+  },
+  "000846763": {
+   "formed": "2013-10-11",
+   "other_filings": 10
+  },
+  "001328647": {
+   "formed": "2015-05-04",
+   "other_filings": 10
+  },
+  "001665539": {
+   "formed": "2016-08-01",
+   "other_filings": 10
+  },
+  "001666011": {
+   "formed": "2016-08-17",
+   "other_filings": 10
+  },
+  "001670608": {
+   "formed": "2017-02-01",
+   "other_filings": 9
+  },
+  "001679768": {
+   "formed": "2017-12-20",
+   "other_filings": 10
+  },
+  "001695814": {
+   "formed": "2019-05-06",
+   "other_filings": 10
+  },
+  "001708542": {
+   "formed": "2020-06-08",
+   "other_filings": 10
+  },
+  "001711388": {
+   "formed": "2020-08-12",
+   "other_filings": 10
+  },
+  "001721363": {
+   "formed": "2021-03-27",
+   "other_filings": 10
+  },
+  "001725568": {
+   "formed": "2021-06-16",
+   "other_filings": 10
+  },
+  "001731773": {
+   "formed": "2021-11-09",
+   "other_filings": 10
+  },
+  "001741918": {
+   "formed": "2022-06-13",
+   "other_filings": 10
+  },
+  "001742600": {
+   "formed": "2022-06-27",
+   "other_filings": 10
+  },
+  "001746662": {
+   "formed": "2022-09-28",
+   "other_filings": 9
+  },
+  "001746773": {
+   "formed": "2022-09-30",
+   "other_filings": 10
+  },
+  "001757677": {
+   "formed": "2023-05-17",
+   "other_filings": 9
+  },
+  "001784401": {
+   "formed": "2025-01-18",
+   "other_filings": 10
+  },
+  "001790378": {
+   "formed": "2025-05-14",
+   "other_filings": 9
+  }
+ },
  "resolutions": {
-  "1 CHARLES LLC": {
-   "applicant": "1 Charles LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "cluster_address": "22 OREGON STREET",
-    "cluster_size": 18,
-    "entity": {
-     "address": "22 OREGON STREET PROVIDENCE, RI  02908  USA",
-     "id": "001738976",
-     "match": "exact",
-     "naics": "531110",
-     "name": "1 Charles, LLC"
-    },
-    "named_entities": [
-     "CADE, LLC",
-     "JCV INVESTMENTS, LLC",
-     "Jennifer's RI Rentals, LLC",
-     "JIC PROPERTIES, LLC",
-     "JIC2 Properties, LLC",
-     "OS Properties, LLC",
-     "Three Eight Seven, LLC",
-     "V4 Management Inc."
-    ],
-    "operating_candidates": [
-     "JCV INVESTMENTS, LLC",
-     "JIC PROPERTIES, LLC",
-     "JIC2 Properties, LLC",
-     "OS Properties, LLC",
-     "V4 Management Inc."
-    ],
-    "shells": [
-     "1 Charles, LLC",
-     "148 Doyle, LLC",
-     "226-230 Dean, LLC",
-     "234 Brown, LLC",
-     "335 Angell, LLC",
-     "75 Governor, LLC",
-     "76 Camp, LLC",
-     "76 Derry, LLC",
-     "93 First, LLC",
-     "99 First, LLC"
-    ]
-   },
-   "reason": "ambiguous \u2014 5 operating companies share 22 OREGON STREET (JCV INVESTMENTS, LLC, JIC PROPERTIES, LLC, JIC2 Properties, LLC, OS Properties, LLC); choosing between them would be a guess"
-  },
-  "1107 WESTMINSTER LLC": {
-   "applicant": "1107 Westminster LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "cluster_address": "40 SPRAGUE ST",
-    "cluster_size": 7,
-    "entity": {
-     "address": "40 SPRAGUE ST STE 1E PROVIDENCE, RI  02907  USA",
-     "id": "001787631",
-     "match": "exact",
-     "naics": "531110",
-     "name": "1107 Westminster LLC"
-    },
-    "named_entities": [
-     "Brandyn Morelli LLC",
-     "Peace & Plenty LLC",
-     "Warren & Wilson Renewal LLC"
-    ],
-    "operating_candidates": [],
-    "shells": [
-     "1107 Westminster LLC",
-     "49 Westfield LLC",
-     "49 Westfield Manager LLC",
-     "49 Westfield State LLC"
-    ]
-   },
-   "reason": "no named operating company among 7 entities at 40 SPRAGUE ST"
-  },
-  "115 MAPLE STREET, LLC, WARWICK, RI 02888": {
-   "applicant": "115 Maple Street, LLC, Warwick, RI 02888",
+  "1145 MAIN ASSOCIATES LP 888 EDDY LLC ET AL": {
+   "applicant": "1145 Main Associates LP 888 Eddy LLC et al",
    "confidence": null,
    "developer": null,
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
-  },
-  "16 GROVE LLC": {
-   "applicant": "16 Grove LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "cluster_address": "469 ANGELL STREET",
-    "cluster_size": 19,
-    "entity": {
-     "address": "469 ANGELL STREET SUITE 202 PROVIDENCE, RI  02906  USA",
-     "id": "001710469",
-     "match": "exact",
-     "naics": "531390",
-     "name": "16 GROVE, LLC"
-    },
-    "named_entities": [
-     "AVRAM & LEVI, LLC",
-     "BLUEPRINT CAPITAL GROUP LLC",
-     "BRISTOL LIGHTHOUSE LLC",
-     "Cove Metal Co.",
-     "D. Roos Consulting LLC",
-     "DUE CINQUE SETTE, LLC",
-     "GREEN LIGHTNING, LLC",
-     "GREEN RHODE, LLC",
-     "HISHTADLUS REALTY LLC",
-     "JDM VENTURES LLC",
-     "JOINT VENTURE, INC.",
-     "PNB, LLC",
-     "PPB, LLC",
-     "The Providence Word & Thought Company, Inc.",
-     "VETERANS PRIDE CONSTRUCTION COMPANY, LLC",
-     "VINDU FOODS LLC"
-    ],
-    "operating_candidates": [
-     "BLUEPRINT CAPITAL GROUP LLC",
-     "HISHTADLUS REALTY LLC",
-     "VETERANS PRIDE CONSTRUCTION COMPANY, LLC"
-    ],
-    "shells": [
-     "16 GROVE, LLC"
-    ]
-   },
-   "reason": "ambiguous \u2014 3 operating companies share 469 ANGELL STREET (BLUEPRINT CAPITAL GROUP LLC, HISHTADLUS REALTY LLC, VETERANS PRIDE CONSTRUCTION COMPANY, LLC); choosing between them would be a guess"
-  },
-  "163-167 N MAIN STREET LLC": {
-   "applicant": "163-167 N Main Street LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "cluster_address": "PO BOX 462 SHARON",
-    "cluster_size": 0,
-    "entity": {
-     "address": "PO BOX 462 SHARON, MA  02067  USA",
-     "id": "001806613",
-     "match": "exact",
-     "naics": "",
-     "name": "163-167 N Main Street LLC"
-    },
-    "named_entities": [],
-    "operating_candidates": [],
-    "shells": []
-   },
-   "reason": "no named operating company among 0 entities at PO BOX 462 SHARON"
-  },
-  "180 WEEDEN ST LLC": {
-   "applicant": "180 Weeden St LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "cluster_address": "8 WEST FARM RD",
-    "cluster_size": 15,
-    "entity": {
-     "address": "8 WEST FARM RD SMITHFIELD, RI  02917  USA",
-     "id": "001774876",
-     "match": "exact",
-     "naics": "531311",
-     "name": "180 WEEDEN ST LLC"
-    },
-    "named_entities": [
-     "DUO DEVELOPMENT CORP",
-     "J INVESTMENTS LLC",
-     "Jacavone Investment Corp"
-    ],
-    "operating_candidates": [
-     "DUO DEVELOPMENT CORP",
-     "J INVESTMENTS LLC",
-     "Jacavone Investment Corp"
-    ],
-    "shells": [
-     "126 Atlantic Ave LLC",
-     "141 POWER RD LLC",
-     "180 WEEDEN ST LLC",
-     "239 OAK ST LLC",
-     "256 PRIVILEGE STREET LLC",
-     "42 TRANSIT ST LLC",
-     "43 JENKINS STREET LLC",
-     "446 ATLANTIC AVE LLC",
-     "64 MILL ST LLC",
-     "7 DIKE STREET LLC",
-     "92 PLEASANT ST LLC"
-    ]
-   },
-   "reason": "ambiguous \u2014 3 operating companies share 8 WEST FARM RD (DUO DEVELOPMENT CORP, J INVESTMENTS LLC, Jacavone Investment Corp); choosing between them would be a guess"
-  },
-  "181 BELLEVUE CENTER, LLC": {
-   "applicant": "181 Bellevue Center, LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "cluster_address": "1140 RESERVOIR AVE",
-    "cluster_size": 122,
-    "entity": {
-     "address": "1140 RESERVOIR AVE. CRANSTON, RI  02920  USA",
-     "id": "001753539",
-     "match": "exact",
-     "naics": "531310",
-     "name": "181 Bellevue Center, LLC"
-    }
-   },
-   "reason": "principal address is shared by 122 entities \u2014 reads as a service provider's office, not one sponsor's portfolio"
-  },
-  "194 COGGESHALL AVENUE, LLC": {
-   "applicant": "194 Coggeshall Avenue, LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "cluster_address": "83 TELLIER WAY",
-    "cluster_size": 4,
-    "entity": {
-     "address": "83 TELLIER WAY DRACUT, MA  01826  USA",
-     "id": "001805433",
-     "match": "exact",
-     "naics": "",
-     "name": "194 Coggeshall Avenue LLC"
-    },
-    "named_entities": [
-     "ADoos Properties and Holdings LLC",
-     "Estate Hills Real Estate & Construction LLC"
-    ],
-    "operating_candidates": [
-     "ADoos Properties and Holdings LLC",
-     "Estate Hills Real Estate & Construction LLC"
-    ],
-    "shells": [
-     "194 Coggeshall Avenue LLC",
-     "40 ATLANTIC STREET, LLC"
-    ]
-   },
-   "reason": "ambiguous \u2014 2 operating companies share 83 TELLIER WAY (ADoos Properties and Holdings LLC, Estate Hills Real Estate & Construction LLC); choosing between them would be a guess"
-  },
-  "250 ESTEN LLC": {
-   "applicant": "250 Esten LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "entity": {
-     "address": "564 SOUTH WATER STREET PROVIDENCE, RI  02903  USA",
-     "id": "001735841",
-     "match": "near-miss",
-     "naics": "531110",
-     "name": "250 Esten Avenue, LLC"
-    }
-   },
-   "reason": "no exact name match in the registry (closest: 250 Esten Avenue, LLC) \u2014 attributing to a similarly-named entity would be a guess"
-  },
-  "27 E RIVER LLC": {
-   "applicant": "27 E River LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {},
-   "reason": "not found in the RI Corporate Database"
-  },
-  "297 DEXTER HOLDINGS LLC": {
-   "applicant": "297 Dexter Holdings LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {},
-   "reason": "not found in the RI Corporate Database"
-  },
-  "329 DEVELOPMENT LLC": {
-   "applicant": "329 Development LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "cluster_address": "350 SOUTH MAIN STREET",
-    "cluster_size": 11,
-    "entity": {
-     "address": "350 SOUTH MAIN STREET PROVIDENCE, RI  02903  USA",
-     "id": "000130848",
-     "match": "exact",
-     "naics": "531190",
-     "name": "329 DEVELOPMENT, LLC."
-    },
-    "named_entities": [
-     "Charda Properties, LLC.",
-     "JOHNSTON EQUITIES ASSOCIATES",
-     "MSI HOLDINGS, LLC.",
-     "R.I. SEEKONK HOLDINGS, LLC",
-     "South Beach Construction, Inc.",
-     "TAPALIAN & TADROS, P.C.",
-     "UNIVERSITY EMPLOYMENT, INC."
-    ],
-    "operating_candidates": [
-     "Charda Properties, LLC.",
-     "MSI HOLDINGS, LLC.",
-     "R.I. SEEKONK HOLDINGS, LLC",
-     "South Beach Construction, Inc."
-    ],
-    "shells": [
-     "329 DEVELOPMENT, LLC.",
-     "350 SOUTH MAIN STREET, LLC",
-     "6 ADELAIDE, LLC"
-    ]
-   },
-   "reason": "ambiguous \u2014 4 operating companies share 350 SOUTH MAIN STREET (Charda Properties, LLC., MSI HOLDINGS, LLC., R.I. SEEKONK HOLDINGS, LLC, South Beach Construction, Inc.); choosing between them would be a guess"
   },
   "3315 N OAK TRFY KANSAS CITY, MO 64116": {
    "applicant": "3315 N OAK TRFY KANSAS CITY, MO 64116",
@@ -3335,97 +3148,6 @@
    "developer": null,
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
-  },
-  "4332 POST ROAD, LLC C/O SUSAN ROWLES & PAUL ZARRELLA": {
-   "applicant": "4332 Post Road, LLC c/o Susan Rowles & Paul Zarrella",
-   "confidence": null,
-   "developer": null,
-   "evidence": {},
-   "reason": "not found in the RI Corporate Database"
-  },
-  "45 PARADE LLC": {
-   "applicant": "45 Parade LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "entity": {
-     "address": "334 BROADWAY PROVIDENCE, RI  02909  USA",
-     "id": "001758625",
-     "match": "near-miss",
-     "naics": "531390",
-     "name": "45 Parade Street LLC"
-    }
-   },
-   "reason": "no exact name match in the registry (closest: 45 Parade Street LLC) \u2014 attributing to a similarly-named entity would be a guess"
-  },
-  "64 ANGELL STREET LLC": {
-   "applicant": "64 Angell Street LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "cluster_address": "244 WEYBOSSET STREET",
-    "cluster_size": 36,
-    "entity": {
-     "address": "244 WEYBOSSET STREET PROVIDENCE, RI  02903  USA",
-     "id": "001762867",
-     "match": "exact",
-     "naics": "236117",
-     "name": "64 Angell Street LLC"
-    },
-    "named_entities": [
-     "Blackstone Boulevard III LLC",
-     "College Hill LLC",
-     "DEM PARTNERS LLC",
-     "DEMA PARTNERS LLC",
-     "DEZ Properties, LLC",
-     "FEDERAL HILL RESIDENCES LLC",
-     "FOX POINT CAPITAL, LLC",
-     "Ionous LLC",
-     "KNOWLEDGE PARTNERS LLC",
-     "Meadowbrook Holding Company LLC",
-     "P&O LLC",
-     "Providence Architecture and Building Company LLC",
-     "Providence Growth 2019 Fund Holdings, LLC",
-     "Providence Growth 2019 Fund LLC",
-     "PROVIDENCE REALTY ADVISORS LLC",
-     "Providence Student Living Capital LLC",
-     "PROVIDENCE STUDENT LIVING LLC",
-     "PVD LLC",
-     "Rochambeau RE Fund, LLC",
-     "TOBEY STREET LLC",
-     "Trenton Street Capital LLC",
-     "WEYBOSSET LLC"
-    ],
-    "operating_candidates": [
-     "DEM PARTNERS LLC",
-     "DEMA PARTNERS LLC",
-     "DEZ Properties, LLC",
-     "FOX POINT CAPITAL, LLC",
-     "KNOWLEDGE PARTNERS LLC",
-     "Meadowbrook Holding Company LLC",
-     "Providence Growth 2019 Fund Holdings, LLC",
-     "PROVIDENCE REALTY ADVISORS LLC",
-     "Providence Student Living Capital LLC",
-     "Trenton Street Capital LLC"
-    ],
-    "shells": [
-     "101 Richmond LLC",
-     "103 Evergreen LLC",
-     "113 Ives LLC",
-     "138 Friendship LLC",
-     "14 Vinton LLC",
-     "161 Ridge LLC",
-     "182 Benefit Street LLC",
-     "244 Weybosset LLC",
-     "251 Slater LLC",
-     "262 Blackstone LLC",
-     "285 Governor LLC",
-     "6 Mutual LLC",
-     "615 Pawtucket LLC",
-     "64 Angell Street LLC"
-    ]
-   },
-   "reason": "ambiguous \u2014 10 operating companies share 244 WEYBOSSET STREET (DEM PARTNERS LLC, DEMA PARTNERS LLC, DEZ Properties, LLC, FOX POINT CAPITAL, LLC); choosing between them would be a guess"
   },
   "A.L.A. SONS CONSTRUCTION": {
    "applicant": "A.L.A. Sons Construction",
@@ -3441,36 +3163,6 @@
     }
    },
    "reason": "no exact name match in the registry (closest: ALA AND SONS CONSTRUCTION INC.) \u2014 attributing to a similarly-named entity would be a guess"
-  },
-  "AE128 WAYLAND LLC": {
-   "applicant": "AE128 Wayland LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {
-    "entity": {
-     "address": "125 CARLSBAD ST CRANSTON, RI  02920  USA",
-     "id": "001764613",
-     "match": "near-miss",
-     "naics": "531110",
-     "name": "AE128Wayland Investors, LLC"
-    }
-   },
-   "reason": "no exact name match in the registry (closest: AE128Wayland Investors, LLC) \u2014 attributing to a similarly-named entity would be a guess"
-  },
-  "AGM HOLDINGS LLC": {
-   "applicant": "AGM Holdings LLC",
-   "confidence": "self",
-   "developer": "AGM Holdings, LLC",
-   "evidence": {
-    "entity": {
-     "address": "243 JEFFERSON BLVD WARWICK, RI  02888  USA",
-     "id": "000788461",
-     "match": "exact",
-     "naics": "531120",
-     "name": "AGM HOLDINGS, LLC"
-    }
-   },
-   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "ALAN-BRIAN REALTY CO": {
    "applicant": "Alan-Brian Realty Co",
@@ -3489,13 +3181,6 @@
   },
   "ALEXANDER MILLER BUCCI AND COURTNEY BUCCI": {
    "applicant": "Alexander Miller Bucci and Courtney Bucci",
-   "confidence": null,
-   "developer": null,
-   "evidence": {},
-   "reason": "not found in the RI Corporate Database"
-  },
-  "ALLEN\u2019S FARM, LLC 144 METRO CTR BLVD, UNIT F": {
-   "applicant": "Allen\u2019s Farm, LLC 144 Metro Ctr blvd, Unit F",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -3544,13 +3229,6 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
-  "CHAMPLIN HEIGHTS II, LLC": {
-   "applicant": "Champlin Heights II, LLC",
-   "confidence": null,
-   "developer": null,
-   "evidence": {},
-   "reason": "not found in the RI Corporate Database"
-  },
   "CITY OF PROVIDENCE": {
    "applicant": "City of Providence",
    "confidence": null,
@@ -3576,21 +3254,6 @@
      "match": "exact",
      "naics": "236116",
      "name": "CLEARVIEW INC."
-    }
-   },
-   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
-  },
-  "CLRI EAST STREET LLC": {
-   "applicant": "CLRI East Street LLC",
-   "confidence": "self",
-   "developer": "CLRI  EAST Street, LLC",
-   "evidence": {
-    "entity": {
-     "address": "360 FAUNCE CORNER  RD N. DARTMOUTH, MA  02747  USA",
-     "id": "001757340",
-     "match": "exact",
-     "naics": "531120",
-     "name": "CLRI  EAST STREET, LLC"
     }
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
@@ -3795,21 +3458,6 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
-  "JRL HOLDINGS LLC": {
-   "applicant": "JRL Holdings LLC",
-   "confidence": "self",
-   "developer": "JRL Holdings, LLC",
-   "evidence": {
-    "entity": {
-     "address": "99 MEADOWLARK LANE PORTSMOUTH, RI  02871  USA",
-     "id": "001697872",
-     "match": "exact",
-     "naics": "531390",
-     "name": "JRL Holdings, LLC"
-    }
-   },
-   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
-  },
   "K & MB INVESTMENTS LLC": {
    "applicant": "K & MB Investments LLC",
    "confidence": "self",
@@ -3900,13 +3548,6 @@
   },
   "LOUIS G. ROY, 6 PLUM TREE LANE, COVENTRY, RI 02816": {
    "applicant": "Louis G. Roy, 6 Plum Tree Lane, Coventry, RI 02816",
-   "confidence": null,
-   "developer": null,
-   "evidence": {},
-   "reason": "not found in the RI Corporate Database"
-  },
-  "MINERAL ENTERPRISES, INC. (APP) RLF IV TERMINALS SPE, LLC (OWN)": {
-   "applicant": "Mineral Enterprises, Inc. (APP) RLF IV Terminals SPE, LLC (OWN)",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -4036,21 +3677,6 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
-  "PROVIDENCE GROWTH 2019 FUND HOLDINGS LLC": {
-   "applicant": "Providence Growth 2019 Fund Holdings LLC",
-   "confidence": "self",
-   "developer": "Providence Growth 2019 Fund Holdings, LLC",
-   "evidence": {
-    "entity": {
-     "address": "244 WEYBOSSET STREET PROVIDENCE, RI  02903  USA",
-     "id": "001702666",
-     "match": "exact",
-     "naics": "531390",
-     "name": "Providence Growth 2019 Fund Holdings, LLC"
-    }
-   },
-   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
-  },
   "PROVIDENCE STUDENT LIVING CAPITAL LLC": {
    "applicant": "Providence Student Living Capital LLC",
    "confidence": "self",
@@ -4133,21 +3759,6 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
-  "RLF IV TERMINALS SPE, LLC": {
-   "applicant": "RLF IV Terminals SPE, LLC",
-   "confidence": "self",
-   "developer": "RLF IV Terminals SPE, LLC",
-   "evidence": {
-    "entity": {
-     "address": "201 WEST STREET ANNAPOLIS, MD  21401  USA",
-     "id": "001767609",
-     "match": "exact",
-     "naics": "531190",
-     "name": "RLF IV Terminals SPE, LLC"
-    }
-   },
-   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
-  },
   "RONALD M. MIKUCKI": {
    "applicant": "Ronald M. Mikucki",
    "confidence": null,
@@ -4169,13 +3780,6 @@
     }
    },
    "reason": "no exact name match in the registry (closest: Same Day Roofs) \u2014 attributing to a similarly-named entity would be a guess"
-  },
-  "SCOTT ACETO AND RICHARD BACCARI II": {
-   "applicant": "Scott Aceto and Richard Baccari II",
-   "confidence": null,
-   "developer": null,
-   "evidence": {},
-   "reason": "not found in the RI Corporate Database"
   },
   "SEAVIEW REALTY, LLC": {
    "applicant": "Seaview Realty, LLC",
@@ -4229,21 +3833,6 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
-  "SOUTHEASTERN HOLDING, LLC": {
-   "applicant": "Southeastern Holding, LLC",
-   "confidence": "self",
-   "developer": "Southeastern Holding LLC",
-   "evidence": {
-    "entity": {
-     "address": "329 SOUTH STREET SOMERSET, MA  02726  USA",
-     "id": "001800301",
-     "match": "exact",
-     "naics": "237210",
-     "name": "Southeastern Holding LLC"
-    }
-   },
-   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
-  },
   "SPRAGUE COVINGTON, LLC, 505 RED CHIMNEY DR, WARWICK, RI": {
    "applicant": "Sprague Covington, LLC, 505 Red Chimney Dr, Warwick, RI",
    "confidence": null,
@@ -4288,21 +3877,6 @@
    },
    "reason": "no exact name match in the registry (closest: S & W Appliance Repair, Inc.) \u2014 attributing to a similarly-named entity would be a guess"
   },
-  "TOBEY STREET LLC": {
-   "applicant": "Tobey Street LLC",
-   "confidence": "self",
-   "developer": "Tobey Street LLC",
-   "evidence": {
-    "entity": {
-     "address": "244 WEYBOSSET STREET PROVIDENCE, RI  02903  USA",
-     "id": "001667288",
-     "match": "exact",
-     "naics": "531390",
-     "name": "TOBEY STREET LLC"
-    }
-   },
-   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
-  },
   "TOSBINE LLC": {
    "applicant": "Tosbine LLC",
    "confidence": "self",
@@ -4338,21 +3912,6 @@
    "developer": null,
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
-  },
-  "WW HOLDINGS LLC": {
-   "applicant": "WW Holdings LLC",
-   "confidence": "self",
-   "developer": "WW Holdings LLC",
-   "evidence": {
-    "entity": {
-     "address": "201 WAYLAND AVENUE UNIT 2 PROVIDENCE, RI  02906  USA",
-     "id": "001755869",
-     "match": "exact",
-     "naics": "531390",
-     "name": "WW Holdings LLC"
-    }
-   },
-   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "ZARRELLA DEVELOPMENT CORPORATION": {
    "applicant": "Zarrella Development Corporation",

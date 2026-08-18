@@ -216,3 +216,24 @@ if __name__ == "__main__":
     for e in EXCLUDED:
         print(f"  {str(e['entity_id'] or '—'):<6} {e['name']}")
     print(f"\nTier 1: {len(by_tier(1))}   Tier 2: {len(by_tier(2))}   Tier 3: {len(by_tier(3))}")
+
+# EXTRACTION METHOD (recorded so the code's shape is legible later)
+# ---------------------------------------------------------------
+# Field extraction is DETERMINISTIC and PER-CITY (scraper/ri_segment.py +
+# scraper/ri_extract_items.py), not model-read. The Boston pipeline reads
+# filings with an LLM; Rhode Island does not, because the Console API credit
+# was unavailable when this was built. The documents were read by hand and
+# each municipality's real item structure encoded as a segmenter:
+#
+#   Providence  numbered items under section headers, plus a separately
+#               parsed administrative-approvals run-on
+#   I-195       inline numbered items citing District parcels, not plats
+#   Pawtucket   stage line with a vote marker, then address, then narrative
+#   Newport     application number, then parcel/zoning line
+#   Warwick     lettered items with a labelled key/value block
+#   Cranston    bulleted items with a labelled key/value block
+#
+# If API credit becomes available, the segmenters are the part to replace:
+# hand the model the whole agenda and let it return item boundaries. The
+# extraction, identity, dedup and citation layers downstream are independent
+# of how segmentation happens and would not need to change.
