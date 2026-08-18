@@ -9,6 +9,8 @@ import streamlit as st
 from app.data import (
     load_filings, load_cambridge_permits, STAGE_COLORS, review_scale_vocab,
     RESOLUTION_METHODS, resolution_method, shows_provenance_badge, METHOD_ORDER,
+    DEVELOPER_CONFIDENCE, developer_confidence,
+    load_field_citations,
 )
 from scraper.normalize_developer import is_real_company
 
@@ -70,15 +72,22 @@ def render(df: pd.DataFrame):
     # ── Filter toolbar ─────────────────────────────────────────────
     _section("FILTER")
 
-    fc0, fc1, fc2, fc3, fc4, fc5 = st.columns([1, 2, 2, 1.4, 2, 2])
+    fcm, fc0, fc1, fc2, fc3, fc4, fc5 = st.columns([1.1, 1, 1.7, 1.7, 1.2, 1.7, 1.7])
 
-    cities = ["All"] + sorted([c for c in df["city"].unique() if c])
+    # Market groups the cities so the two states can be compared without
+    # selecting five municipalities one at a time. The city list is scoped to
+    # the chosen market rather than listing all eleven regardless.
+    markets = ["All"] + sorted([m for m in df["market"].unique() if m])
+    market = fcm.selectbox("MARKET", markets, key="tbl_market")
+    city_scope = df if market == "All" else df[df["market"] == market]
+
+    cities = ["All"] + sorted([c for c in city_scope["city"].unique() if c])
     city = fc0.selectbox("CITY", cities, key="tbl_city")
 
     # Status vocab is city-specific (Boston's 4 values vs Cambridge's 7 don't
     # overlap), so scope the status options to whatever city is selected --
     # otherwise "All" would show all 11 values mixed together.
-    status_scope = df if city == "All" else df[df["city"] == city]
+    status_scope = city_scope if city == "All" else city_scope[city_scope["city"] == city]
     neighborhoods = ["All"] + sorted([n for n in status_scope["neighborhood"].unique() if n])
     nbhd = fc1.selectbox("NEIGHBORHOOD", neighborhoods, key="tbl_nbhd")
 
@@ -112,7 +121,20 @@ def render(df: pd.DataFrame):
 
     # Filter to inferred developer names for review. web_low_confidence is
     # separately selectable because those are the ones most worth auditing.
-    fd3, _ = st.columns([2, 5])
+    fd3, fd4 = st.columns([2, 2])
+    # The four confidence states, as their own filter. Most Rhode Island
+    # developers are document_only, so being able to select exactly those for
+    # review is the point rather than a convenience.
+    conf_opts = ["All"] + [DEVELOPER_CONFIDENCE[k]["label"] for k in
+                           ("confirmed", "document_only", "conflicted",
+                            "human_set", "unattributed")]
+    conf_f = fd4.selectbox(
+        "DEVELOPER CONFIDENCE", conf_opts, key="tbl_dev_conf",
+        help="Confirmed = outside coverage names the same party. Document only = "
+             "the planning filing alone. Conflicted = two names on record. "
+             "Set by hand = a person entered it and the rederive pass will not "
+             "touch it.",
+    )
     method_f = fd3.selectbox(
         "DEVELOPER SOURCE",
         ["All"] + [RESOLUTION_METHODS[m]["label"] for m in METHOD_ORDER]
@@ -124,6 +146,8 @@ def render(df: pd.DataFrame):
 
     # Apply filters
     filtered = df.copy()
+    if market != "All":
+        filtered = filtered[filtered["market"] == market]
     if city != "All":
         filtered = filtered[filtered["city"] == city]
     if nbhd != "All":
@@ -136,6 +160,9 @@ def render(df: pd.DataFrame):
         filtered = filtered[filtered["asset_class"] == asset]
     if developer != "All":
         filtered = filtered[filtered["developer_canonical"] == developer]
+    if conf_f != "All":
+        _want = next(k for k, v in DEVELOPER_CONFIDENCE.items() if v["label"] == conf_f)
+        filtered = filtered[filtered["developer_confidence"] == _want]
     if method_f != "All":
         _m = filtered["developer_resolution_method"].apply(resolution_method)
         if method_f == "Any inferred (web)":
@@ -157,7 +184,13 @@ def render(df: pd.DataFrame):
     cnt_col.markdown(
         f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 8px">'
         f'<span style="color:#e2e8f0;font-weight:700">{len(filtered)}</span> PROJECTS'
-        f'&nbsp;&nbsp;·&nbsp;&nbsp;{len(df)} TOTAL</p>',
+        f'&nbsp;&nbsp;·&nbsp;&nbsp;{len(df)} TOTAL'
+        + "".join(
+            f'&nbsp;&nbsp;·&nbsp;&nbsp;<span style="color:{v["color"]}">{v["mark"]}</span>'
+            f'&nbsp;{v["label"].upper()}'
+            for k, v in DEVELOPER_CONFIDENCE.items()
+        )
+        + '</p>',
         unsafe_allow_html=True,
     )
     csv = filtered.to_csv(index=False).encode()
@@ -174,16 +207,17 @@ def render(df: pd.DataFrame):
 
     display["developer_canonical"] = display.apply(_dev_display, axis=1)
 
-    # Mark inferred developer names in the table too, not just the charts --
-    # the name has to carry its provenance everywhere it appears.
-    _METHOD_MARK = {"web_corroborated": "◐", "web_low_confidence": "◔",
-                    "human_set": "✎", "registry_self": "◑"}
-    display["_method"] = filtered["developer_resolution_method"].apply(resolution_method)
+    # Every developer name carries its confidence wherever it appears. This
+    # used to mark only the INFERRED names, which left confirmed and
+    # document-only looking identical -- and document_only is the majority of
+    # the Rhode Island data, so an unmarked name read as verified.
+    display["_conf"] = filtered["developer_confidence"]
     display["developer_canonical"] = [
-        f'{mark} {name}' if (mark := _METHOD_MARK.get(m)) and name != "—" else name
-        for name, m in zip(display["developer_canonical"], display["_method"])
+        f'{DEVELOPER_CONFIDENCE[c]["mark"]} {name}'
+        if c in DEVELOPER_CONFIDENCE and name != "—" else name
+        for name, c in zip(display["developer_canonical"], display["_conf"])
     ]
-    display.drop(columns=["developer", "_method"], inplace=True)
+    display.drop(columns=["developer", "_conf"], inplace=True)
 
     def _status_fmt(row):
         if not row["status"]:
@@ -416,15 +450,26 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
     # inferred name can be clicked through and checked from the detail view.
     _dev_name = p.get("developer_canonical") or p.get("developer")
     _method = resolution_method(p.get("developer_resolution_method", ""))
-    if _dev_name and shows_provenance_badge(_method):
-        _meta = RESOLUTION_METHODS[_method]
-        _dev_name = (f'{_dev_name}<br><span style="color:#f59e0b;font-size:9px;'
-                     f'letter-spacing:0.08em">{_meta["label"].upper()}</span>')
+    # Confidence is shown for ALL four states, not only the inferred ones. A
+    # document-only name with no badge reads as verified, and document-only is
+    # most of the Rhode Island data.
+    _conf = p.get("developer_confidence") or developer_confidence(
+        p.get("developer_resolution_method", ""), _dev_name or "")
+    if _dev_name and _conf in DEVELOPER_CONFIDENCE:
+        _cm = DEVELOPER_CONFIDENCE[_conf]
+        _raw = p.get("developer_resolution_method") or ""
+        _detail = f" · {_raw}" if _raw and _raw != _conf else ""
+        _dev_name = (f'{_cm["mark"]} {_dev_name}<br>'
+                     f'<span style="color:{_cm["color"]};font-size:9px;'
+                     f'letter-spacing:0.08em">{_cm["label"].upper()}{_detail.upper()}</span>')
 
     with col1:
         st.markdown(
             _kv("ADDRESS",          p.get("address")) +
             _kv("DEVELOPER",        _dev_name) +
+            # Shown only when the applicant is not the party executing the
+            # work -- a public agency or passive landowner.
+            _kv("OWNER / AGENCY",   p.get("owner_or_agency")) +
             _kv("EQUITY PARTNER",   p.get("equity_partner")) +
             _kv("ARCHITECT",        p.get("architect")) +
             _kv("CIVIL ENGINEER",   p.get("civil_engineer")),
@@ -541,6 +586,25 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
                     st.markdown(f"*Address:* {s.get('address_sentence', '—')}")
                     st.markdown(f"*Developer:* {s.get('developer_sentence', '—')}")
                     st.divider()
+
+    # Per-field citations. Every extracted value says which filing it came
+    # from, so a figure can be traced without leaving the row.
+    _cites = load_field_citations(int(p["id"]))
+    if _cites:
+        with st.expander(f"FIELD SOURCES  ({len(_cites)})"):
+            st.caption("Where each extracted value came from. A field with no row here "
+                       "was not stated in the filing.")
+            st.dataframe(
+                pd.DataFrame([{
+                    "FIELD": c["field"],
+                    "VALUE": c["value"],
+                    "SOURCE": c["filing"],
+                    "DATE": c["date"],
+                    "URL": c["url"],
+                } for c in _cites]),
+                use_container_width=True, hide_index=True,
+                column_config={"URL": st.column_config.LinkColumn("URL", display_text="open ↗")},
+            )
 
     # Links
     lc1, lc2, _ = st.columns([1, 1, 4])

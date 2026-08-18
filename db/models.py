@@ -50,6 +50,14 @@ class Project(Base):
     case_number = Column(String)                   # e.g. "26-047MIL"
     building_count = Column(Integer)
     dedupe_review = Column(Boolean, default=False)  # flagged for manual check
+    # The named applicant is not always the party executing the development.
+    # A public agency, redevelopment authority or passive landowner belongs
+    # here, not in developer -- see the standing convention in app/data.py.
+    owner_or_agency = Column(String)
+    # Quarantine, not deletion. Excluded rows are filtered out of every
+    # count and chart by load_projects() but remain in the table.
+    excluded = Column(Boolean, default=False)
+    excluded_reason = Column(String)
 
     # Two-field status. Agendas are published BEFORE a meeting and state only
     # that an item is scheduled ("for vote"), never the outcome -- outcomes live

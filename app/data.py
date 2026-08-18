@@ -218,6 +218,45 @@ _DEFAULT_MARKET = {
     "review_scale_vocab": None,
 }
 
+# Developer-name confidence, as ONE definition every consumer reads.
+#
+# 204 of 370 Rhode Island developers rest on the planning document alone, so
+# this is the majority of the data and not an edge case -- a name has to render
+# with its confidence attached wherever it appears, or the table quietly
+# presents a filing-only name as if outside reporting had confirmed it.
+#
+# The legacy resolution methods fold into the same four states rather than
+# forming a parallel vocabulary. developer_resolution_method keeps the raw
+# value for the detail view.
+DEVELOPER_CONFIDENCE = {
+    "human_set":     {"label": "Set by hand",   "color": "#F5821E", "mark": "✎"},
+    "confirmed":     {"label": "Confirmed",     "color": "#22c55e", "mark": "✓"},
+    "document_only": {"label": "Document only", "color": "#eab308", "mark": "◐"},
+    "conflicted":    {"label": "Conflicted",    "color": "#ef4444", "mark": "!"},
+    # A name carried over from a pipeline that recorded no method at all --
+    # every Boston and Cambridge row. Shown as its own state rather than being
+    # silently folded into one of the four.
+    "unattributed":  {"label": "Unattributed",  "color": "#64748b", "mark": "–"},
+}
+
+_CONFIDENCE_OF_METHOD = {
+    "human_set": "human_set",
+    "confirmed": "confirmed",
+    "web_corroborated": "confirmed",
+    "document_only": "document_only",
+    "registry_self": "document_only",
+    "web_low_confidence": "document_only",
+    "conflicted": "conflicted",
+}
+
+
+def developer_confidence(method: str, developer: str) -> str:
+    """The canonical confidence state for one developer name."""
+    if not developer:
+        return ""
+    return _CONFIDENCE_OF_METHOD.get(method or "", "unattributed")
+
+
 # Review-scale colors are assigned by tier position within each market's
 # vocabulary, not by matching a literal string -- so a market's most-intensive
 # review tier is always orange, its second teal, and so on, and a new market
@@ -343,10 +382,18 @@ def review_scale_vocab(cities) -> list[str]:
 
 
 @st.cache_data(ttl=300)
-def load_projects() -> pd.DataFrame:
+def load_projects(include_excluded: bool = False) -> pd.DataFrame:
     session = get_session()
     try:
-        projects = session.query(Project).all()
+        # QUARANTINE. Excluded rows are non-commercial items -- deed
+        # corrections, lot line adjustments, fences, murals -- kept in the
+        # table but dropped here so they cannot reach any count or chart.
+        # include_excluded exists for the review tab, which must still see
+        # them to un-exclude one.
+        q = session.query(Project)
+        if not include_excluded:
+            q = q.filter((Project.excluded.is_(None)) | (Project.excluded == False))  # noqa: E712
+        projects = q.all()
         rows = []
         for p in projects:
             rows.append({
@@ -390,6 +437,11 @@ def load_projects() -> pd.DataFrame:
                 "city": p.city or "Boston",
                 "market": market_of(p.city or "Boston"),
                 "equity_partner": p.equity_partner or "",
+                # The party that OWNS or sponsors, when it is not the party
+                # executing the work -- a public agency or passive landowner.
+                "owner_or_agency": p.owner_or_agency or "",
+                "excluded": bool(p.excluded),
+                "excluded_reason": p.excluded_reason or "",
                 "stage_heard": p.stage_heard or "",
                 "stage_confirmed": p.stage_confirmed or "",
                 # Cambridge Development Log fields (blank for Boston rows)
@@ -430,7 +482,39 @@ def load_projects() -> pd.DataFrame:
             # chart once extraction has run, OR immediately if the row came from a
             # structured-data pipeline that never needed extraction in the first place.
             df["has_financials"] = df["extraction_done"] | ~df["requires_extraction"]
+            # One confidence state per row, folded from the raw method, so no
+            # component has to know the legacy vocabulary.
+            df["developer_confidence"] = [
+                developer_confidence(r["developer_resolution_method"], r["developer"])
+                for r in rows
+            ]
         return df
+    finally:
+        session.close()
+
+
+@st.cache_data(ttl=300)
+def load_field_citations(project_id: int) -> list[dict]:
+    """Per-field source citations for one project, newest field order first.
+
+    extraction_sources has been populated since the Rhode Island ingest but was
+    never read by the UI, so every citation written was invisible. A citation
+    that nothing displays is not provenance.
+    """
+    from db.models import ExtractionSource
+    session = get_session()
+    try:
+        rows = (session.query(ExtractionSource)
+                .filter_by(project_id=project_id)
+                .order_by(ExtractionSource.field_name).all())
+        return [{
+            "field": r.field_name,
+            "value": r.field_value,
+            "filing": r.filing_name or "",
+            "date": r.filing_date or "",
+            "url": r.pdf_url or "",
+            "page": r.page_number,
+        } for r in rows]
     finally:
         session.close()
 

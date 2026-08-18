@@ -74,6 +74,11 @@ def main(dry_run=False):
             p = session.get(Project, int(pid))
             if p is None:
                 continue
+            # A name entered by a person outranks anything this pass would
+            # compute. Without this the review tab's edits would be reverted
+            # the next time the step-1 rules changed.
+            if p.developer_resolution_method == "human_set":
+                continue
             cs = rank(candidates_from(project_text(p, idx)))
             new = cs[0]["name"] if cs else None
             if new == rec.get("developer"):

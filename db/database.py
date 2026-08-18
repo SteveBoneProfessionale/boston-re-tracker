@@ -75,6 +75,14 @@ def init_db():
     _add_column_if_missing("projects", "case_number", "VARCHAR")
     _add_column_if_missing("projects", "building_count", "INTEGER")
     _add_column_if_missing("projects", "dedupe_review", "BOOLEAN")
+    # The named applicant is not always the party executing the development.
+    # A public agency, redevelopment authority or passive landowner is stored
+    # here instead of in developer, rather than being discarded.
+    _add_column_if_missing("projects", "owner_or_agency", "VARCHAR")
+    # Quarantine rather than deletion: excluded rows drop out of every count
+    # and chart but stay in the table and stay recoverable.
+    _add_column_if_missing("projects", "excluded", "BOOLEAN DEFAULT 0")
+    _add_column_if_missing("projects", "excluded_reason", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 

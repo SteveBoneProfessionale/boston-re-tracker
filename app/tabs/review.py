@@ -21,7 +21,8 @@ import streamlit as st
 
 from db.database import get_session
 from db.models import Project, ProjectStageEvent, ProjectFiling, NewsItem, FlaggedExtraction
-from app.data import load_projects
+from scraper.ri_citations import record_field
+from app.data import load_projects, DEVELOPER_CONFIDENCE, developer_confidence
 
 _BORDER = "#1E2530"
 _ORANGE = "#F5821E"
@@ -87,7 +88,13 @@ def merge_projects(session, keep_id: int, absorb_id: int, note: str) -> dict:
                   "asset_class", "total_gsf", "residential_units", "commercial_gsf",
                   "parking_spaces", "site_acreage", "zoning_district_raw",
                   "assessor_plat", "assessor_lots", "plat_lots_raw",
-                  "applicant_entity", "case_number", "latitude", "longitude"):
+                  "applicant_entity", "case_number", "latitude", "longitude",
+                  # Added with the developer-provenance and quarantine columns:
+                  # without these a merge silently dropped the survivor's
+                  # resolution method and its sources.
+                  "owner_or_agency", "developer_resolution_method",
+                  "developer_sources", "stage_heard", "stage_confirmed",
+                  "description", "notes", "building_count", "adaptive_reuse"):
         if getattr(keep, field, None) in (None, "") and getattr(absorb, field, None) not in (None, ""):
             setattr(keep, field, getattr(absorb, field))
 
@@ -141,6 +148,61 @@ def split_project(session, project_id: int, event_ids: list[int], note: str) -> 
     src.dedupe_review = False
     session.commit()
     return {"ok": True, "new_project": new.id, "moved_events": len(event_ids)}
+
+
+def set_developer_by_hand(session, project_id: int, developer: str,
+                          owner_or_agency: str, note: str) -> dict:
+    """Set a developer by hand and mark it so nothing overwrites it.
+
+    human_set is the one resolution method the automated passes must never
+    touch. ri_rederive_settled.py recomputes document_only names after every
+    step-1 parser change; without this marker a hand-corrected name would be
+    silently reverted the next time the parser moved.
+    """
+    p = session.get(Project, project_id)
+    if p is None:
+        return {"ok": False, "error": "no such project"}
+    name = (developer or "").strip()
+    agency = (owner_or_agency or "").strip()
+    if not name and not agency:
+        return {"ok": False, "error": "enter a developer or an owner/agency"}
+
+    before = p.developer or "—"
+    p.developer = name or None
+    p.developer_canonical = name or None
+    p.owner_or_agency = agency or None
+    p.developer_resolution_method = "human_set" if name else p.developer_resolution_method
+    # A hand-set name supersedes the conflict that prompted it.
+    p.is_flagged = False
+
+    record_field(session, p.id, "developer",
+                 f"{name}" + (f"  [owner/agency: {agency}]" if agency else ""),
+                 source_url="", filing_name="SET BY HAND" + (f" — {note}" if note else ""),
+                 filing_date="")
+    session.add(FlaggedExtraction(
+        project_id=p.id, field_name="__developer__", status="resolved",
+        current_value=f"{before}  ->  {name or '(cleared)'}"
+                      + (f"  [owner/agency: {agency}]" if agency else ""),
+        user_note=note or "set by hand",
+    ))
+    session.commit()
+    return {"ok": True, "developer": name, "owner_or_agency": agency}
+
+
+def set_excluded(session, project_id: int, excluded: bool, reason: str) -> dict:
+    """Quarantine a row, or bring one back. Never deletes."""
+    p = session.get(Project, project_id)
+    if p is None:
+        return {"ok": False, "error": "no such project"}
+    p.excluded = bool(excluded)
+    p.excluded_reason = (reason or "").strip() or None if excluded else None
+    session.add(FlaggedExtraction(
+        project_id=p.id, field_name="__excluded__", status="resolved",
+        current_value=("excluded: " + (reason or "")) if excluded else "restored to the pipeline",
+        user_note=reason or "",
+    ))
+    session.commit()
+    return {"ok": True}
 
 
 def render(df: pd.DataFrame):
@@ -220,10 +282,62 @@ def render(df: pd.DataFrame):
                     else:
                         st.error(res["error"])
 
+        # ── Developer by hand ────────────────────────────────────────
+        _section("SET DEVELOPER BY HAND")
+        st.caption("Marks the name human_set. The rederive pass, which recomputes "
+                   "document-only names whenever the extraction rules change, skips "
+                   "human_set rows entirely — so a name entered here stays entered.")
+        dev_l = st.selectbox("PROJECT", ["—"] + list(opts), key="rv_dev_pick")
+        if dev_l != "—":
+            dp = session.get(Project, opts[dev_l])
+            cur_conf = developer_confidence(dp.developer_resolution_method, dp.developer or "")
+            st.caption(
+                f"Currently: **{dp.developer or '—'}**"
+                + (f"  ·  owner/agency **{dp.owner_or_agency}**" if dp.owner_or_agency else "")
+                + (f"  ·  {DEVELOPER_CONFIDENCE[cur_conf]['label']}" if cur_conf else "")
+            )
+            d1, d2 = st.columns(2)
+            new_dev = d1.text_input("DEVELOPER — the party executing the work",
+                                    value=dp.developer or "", key="rv_dev_name")
+            new_agency = d2.text_input("OWNER / AGENCY — if the applicant is not the developer",
+                                       value=dp.owner_or_agency or "", key="rv_dev_agency")
+            note_d = st.text_input("NOTE", key="rv_dev_note",
+                                   placeholder="what established this")
+            if st.button("SAVE DEVELOPER", key="rv_do_dev"):
+                res = set_developer_by_hand(session, dp.id, new_dev, new_agency, note_d)
+                if res["ok"]:
+                    load_projects.clear()
+                    st.success(f"Set to {res['developer'] or '(cleared)'} and marked human_set.")
+                else:
+                    st.error(res["error"])
+
+        # ── Quarantine ───────────────────────────────────────────────
+        _section("QUARANTINE — non-commercial records")
+        st.caption("Excluded rows drop out of every count and chart but stay in the "
+                   "table. Nothing here is deleted.")
+        excl = (session.query(Project).filter(Project.excluded == True)  # noqa: E712
+                .order_by(Project.city, Project.id).all())
+        if excl:
+            st.dataframe(pd.DataFrame([{
+                "ID": e.id, "CITY": e.city, "ADDRESS": e.address or "—",
+                "REASON": e.excluded_reason or "—",
+            } for e in excl]), use_container_width=True, hide_index=True, height=220)
+            back = st.selectbox("RESTORE TO THE PIPELINE", ["—"] + [
+                f"{e.id} · {e.city} · {(e.address or '')[:40]}" for e in excl],
+                key="rv_unexclude")
+            if back != "—" and st.button("RESTORE", key="rv_do_unexclude"):
+                res = set_excluded(session, int(back.split(" · ")[0]), False, "")
+                if res["ok"]:
+                    load_projects.clear()
+                    st.success("Restored. It will reappear in counts and charts.")
+        else:
+            st.caption("Nothing quarantined.")
+
         # ── Audit trail ──────────────────────────────────────────────
         _section("RECENT IDENTITY CHANGES")
         hist = (session.query(FlaggedExtraction)
-                .filter(FlaggedExtraction.field_name.in_(["__merge__", "__split__"]))
+                .filter(FlaggedExtraction.field_name.in_(
+                    ["__merge__", "__split__", "__developer__", "__excluded__"]))
                 .order_by(FlaggedExtraction.flagged_at.desc()).limit(25).all())
         if hist:
             st.dataframe(pd.DataFrame([{

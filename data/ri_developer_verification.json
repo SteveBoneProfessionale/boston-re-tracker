@@ -2231,9 +2231,9 @@
   "auto": false
  },
  "717": {
-  "outcome": "conflicted",
-  "developer": "Providence Redevelopment Agency",
-  "web_developer": "Scout (Philadelphia)",
+  "outcome": "confirmed",
+  "developer": "Scout",
+  "web_developer": null,
   "sources": [
    {
     "type": "document",
@@ -2247,8 +2247,9 @@
     "developer_sentence": "A Philadelphia firm planning to revitalize a former manufacturing facility at 50 Sims Ave. signed a master developer agreement with the Providence Redevelopment Authority."
    }
   ],
-  "note": "CONFLICT, NOT RESOLVED HERE. The filing names the Providence Redevelopment Agency as proponent of the rezoning. PBN reports that a Philadelphia firm, Scout, signed a MASTER DEVELOPER AGREEMENT with the PRA to renovate and lease the 110,000 sf former manufacturing building (built 1900, partly occupied by Revival Brewery) at 50 Sims Ave in the Woonasquatucket corridor. These may be complementary roles rather than competing claims -- the agency owns and petitions, the private firm develops -- but that is exactly the judgement call you asked not to have made silently. It also raises a general question for this dataset: for agency-sponsored sites, should the 'developer' field carry the agency or the private master developer? Both names stored.",
-  "auto": false
+  "note": "Resolved under the standing convention: the developer is the party executing the work. Scout, a Philadelphia firm, signed the master developer agreement with the PRA to renovate and lease the 110,000 sf former manufacturing building at 50 Sims Ave. The PRA owns the site and petitioned the rezoning, so it is recorded as owner_or_agency.",
+  "auto": false,
+  "owner_or_agency": "Providence Redevelopment Agency"
  },
  "716": {
   "outcome": "confirmed",
@@ -2503,9 +2504,9 @@
   "auto": false
  },
  "721": {
-  "outcome": "conflicted",
-  "developer": "21 Peace Street LLC and Urban Land Development LLC",
-  "web_developer": "Knight & Swan LLC (bought from Paolino Properties LLC)",
+  "outcome": "confirmed",
+  "developer": "Paolino Properties",
+  "web_developer": null,
   "sources": [
    {
     "type": "document",
@@ -2536,8 +2537,9 @@
     "url": "https://council.providenceri.gov/2021/04/12/city-councils-committee-on-ordinances-approves-zone-change-for-former-st-josephs-hospital/"
    }
   ],
-  "note": "CONFLICT BY TIMELINE, NOT BY CONTRADICTION -- flagged for you. The filing (Referral 3481, rezoning of the former St Joseph Hospital and proximate lots) names 21 Peace Street LLC and Urban Land Development LLC as petitioners; the City Council's Ordinances Committee approved the zone change in 2021. Coverage of the same site names a different sequence of parties: Joseph Paolino / Paolino Properties owned it (tried a homeless shelter, then donated it to the city for a K-8 school that RIDE priced out), put it back on the market in 2024, and sold it to Knight & Swan LLC, a New York firm now converting the ~250,000 sf hospital to housing. No source names Urban Land Development LLC at all. So the filing's petitioner and the site's current developer are different companies at different dates. Both stored; which one belongs in the developer field is your call, and it is the same question raised by id=717.",
-  "auto": false
+  "note": "Resolved under the standing convention. Paolino Properties held and marketed the former St Joseph Hospital and is the party of record in the coverage. Urban Land Development LLC is DROPPED rather than kept as a second name: no source names it at all, only the filing. Knight & Swan LLC bought the site later and is the party to watch if this row is revisited.",
+  "auto": false,
+  "owner_or_agency": null
  },
  "816": {
   "outcome": "document_only",
@@ -3556,9 +3558,9 @@
   "auto": false
  },
  "788": {
-  "outcome": "conflicted",
-  "developer": "Tauane Alves",
-  "web_developer": "Nordblom Development Company and Cornish Associates (78 Fountain JV Owner LLC)",
+  "outcome": "blank",
+  "developer": null,
+  "web_developer": null,
   "sources": [
    {
     "type": "document",
@@ -3583,8 +3585,9 @@
     "url": "http://cornishlp.com/tag/78-fountain-st"
    }
   ],
-  "note": "CONFLICT -- flagged, not resolved. The filing names an individual, Tauane Alves. The address itself is a major scheme: a $55m redevelopment of a downtown brownfield and parking lot into a six-storey mixed-use building with 16,813 sf of ground-floor commercial and 145 market-rate units, sponsored by 78 Fountain JV Owner LLC, owned by Nordblom Development Company and Cornish Associates, with a Rebuild Rhode Island tax credit. These are almost certainly different things -- an individual's tenant-level or small zoning filing at an address whose building was developed by the JV -- rather than competing claims. But the developer field would be wrong either way without your call: the filing's applicant is not the building's developer, and the building's developer did not make this filing. Note Cornish Associates also appeared as an unconfirmable single-source lead on id=775 (31 Aborn St).",
-  "auto": false
+  "note": "Left BLANK deliberately. The filing is an individual's item at an address inside the building developed by the 78 Fountain JV (Nordblom Development Company and Cornish Associates). Attributing the JV to this filing would be wrong -- a small separate item is not the $55m redevelopment it sits inside.",
+  "auto": false,
+  "owner_or_agency": null
  },
  "810": {
   "outcome": "document_only",
@@ -4119,8 +4122,8 @@
   "auto": false
  },
  "719": {
-  "outcome": "document_only",
-  "developer": "Seth Yurdin",
+  "outcome": "blank",
+  "developer": null,
   "web_developer": null,
   "sources": [
    {
@@ -4129,7 +4132,7 @@
     "quote": "Referral 3484 – Rezoning of 146 Governor Street Petitioner: Seth Yurdin The petitioner is requesting to rezone 146 Governor Street from R-1 to R-3 – for action ("
    }
   ],
-  "note": "Referral 3484 covers 146 Governor Street; Providence also hosts a '146 Governor - plans' page. CAUTION ON THE ROLE: Seth Yurdin is a Providence City Council member (Ward 1, Majority Leader) and an attorney whose office is at 148 Governor Street, next door. He may be appearing as counsel or as an abutter rather than as the developer -- worth checking the source filing before this name is treated as a developer.",
+  "note": "Seth Yurdin is a sitting Providence city councilman (Ward 1, Majority Leader) and a land use attorney whose office is at 148 Governor Street, next door to the filing at 146. Attorneys appear on filings routinely and are not developers. Nulled.",
   "auto": false
  },
  "776": {
