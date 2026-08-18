@@ -120,8 +120,9 @@ def main(apply=False):
             pass
 
     session = get_session()
+    everything = "--all" in sys.argv
     maj = [p for p in session.query(Project).filter(Project.city.in_(RI)).all()
-           if not p.excluded and p.review_scale == "Major"]
+           if not p.excluded and (everything or p.review_scale == "Major")]
 
     hits = defaultdict(list)
     for r in recs:

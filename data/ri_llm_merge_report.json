@@ -1,10 +1,460 @@
 {
  "filled": [
   {
+   "id": 476,
+   "address": "203 Douglas Ave",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2026-07-28",
+   "doc": "1091666_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 476,
+   "address": "203 Douglas Ave",
+   "field": "owner_or_agency",
+   "value": "PMP Group LLC",
+   "date": "2026-07-28",
+   "doc": "1091666_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 478,
+   "address": "14 Cargill Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2026-06-16",
+   "doc": "1090361_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 478,
+   "address": "14 Cargill Street",
+   "field": "asset_class",
+   "value": "institutional",
+   "date": "2026-06-16",
+   "doc": "1090361_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 478,
+   "address": "14 Cargill Street",
+   "field": "owner_or_agency",
+   "value": "Rhode Island Public Health Institute",
+   "date": "2026-06-16",
+   "doc": "1090361_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 480,
+   "address": "1107 Westminster Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2025-05-20",
+   "doc": "1074416_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 481,
+   "address": "149 Governor Street",
+   "field": "owner_or_agency",
+   "value": "AGM HOLDINGS, LLC",
+   "date": "2026-01-14",
+   "doc": "1083623_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 482,
+   "address": "859 Broad Street",
+   "field": "asset_class",
+   "value": "institutional",
+   "date": "2026-04-28",
+   "doc": "1088206_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 482,
+   "address": "859 Broad Street",
+   "field": "owner_or_agency",
+   "value": "State of Rhode Island",
+   "date": "2026-04-28",
+   "doc": "1088206_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 487,
+   "address": "3569 – 64 America Street",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2024-01-16",
+   "doc": "1052666_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 487,
+   "address": "3569 – 64 America Street",
+   "field": "architect",
+   "value": "Kevin Diamond",
+   "date": "2024-01-16",
+   "doc": "1052666_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 490,
+   "field": "parking_spaces",
+   "value": null,
+   "note": "sources disagree: ['163', '281']"
+  },
+  {
+   "id": 490,
+   "address": "27 E River Street",
+   "field": "architect",
+   "value": "Kevin Diamond",
+   "date": "2026-01-20",
+   "doc": "1083861_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 490,
+   "address": "27 E River Street",
+   "field": "civil_engineer",
+   "value": "Ryan Daponte",
+   "date": "2026-01-20",
+   "doc": "1083861_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 491,
+   "address": "3568 – 20 America Street",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2024-01-16",
+   "doc": "1052666_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 491,
+   "address": "3568 – 20 America Street",
+   "field": "architect",
+   "value": "Kevin Diamond",
+   "date": "2024-01-16",
+   "doc": "1052666_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 492,
+   "address": "3535 – 322 Washington Street",
+   "field": "num_stories",
+   "value": 6,
+   "date": "2022-12-13",
+   "doc": "1034059_5.txt",
+   "evidence": ""
+  },
+  {
+   "id": 492,
+   "address": "3535 – 322 Washington Street",
+   "field": "parking_spaces",
+   "value": 43,
+   "date": "2022-12-13",
+   "doc": "1034059_5.txt",
+   "evidence": ""
+  },
+  {
+   "id": 492,
+   "address": "3535 – 322 Washington Street",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2022-12-13",
+   "doc": "1034059_5.txt",
+   "evidence": ""
+  },
+  {
+   "id": 492,
+   "address": "3535 – 322 Washington Street",
+   "field": "owner_or_agency",
+   "value": "Providence Redevelopment Agency",
+   "date": "2026-05-06",
+   "doc": "1088656_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 492,
+   "address": "3535 – 322 Washington Street",
+   "field": "lot_area",
+   "value": 20394,
+   "date": "2022-12-13",
+   "doc": "1034059_5.txt",
+   "evidence": ""
+  },
+  {
+   "id": 494,
+   "address": "188 Princeton Ave",
+   "field": "num_stories",
+   "value": 3,
+   "date": "2025-11-18",
+   "doc": "1081161_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 494,
+   "address": "188 Princeton Ave",
+   "field": "owner_or_agency",
+   "value": "City of Providence",
+   "date": "2025-11-18",
+   "doc": "1081161_0.txt",
+   "evidence": ""
+  },
+  {
    "id": 495,
    "field": "owner_or_agency",
    "value": null,
    "note": "sources disagree: ['city of providence', 'providence public buildings authority']"
+  },
+  {
+   "id": 496,
+   "address": "434 Mt Pleasant Ave",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2025-10-21",
+   "doc": "1080064_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 496,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['city of providence', 'providence public buildings authority']"
+  },
+  {
+   "id": 497,
+   "address": "128 Wayland Ave",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2025-09-16",
+   "doc": "1078680_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 498,
+   "address": "885 Westminster Street",
+   "field": "num_stories",
+   "value": 6,
+   "date": "2025-09-16",
+   "doc": "1078680_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 499,
+   "field": "num_stories",
+   "value": null,
+   "note": "sources disagree: ['1', '4']"
+  },
+  {
+   "id": 499,
+   "address": "45 Parade Street",
+   "field": "parking_spaces",
+   "value": 22,
+   "date": "2023-10-17",
+   "doc": "1048403_6.txt",
+   "evidence": ""
+  },
+  {
+   "id": 499,
+   "address": "45 Parade Street",
+   "field": "architect",
+   "value": "Jack Ryan",
+   "date": "2023-10-17",
+   "doc": "1048403_8.txt",
+   "evidence": ""
+  },
+  {
+   "id": 500,
+   "address": "298 Public Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2025-09-16",
+   "doc": "1078680_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 500,
+   "address": "298 Public Street",
+   "field": "parking_spaces",
+   "value": 20,
+   "date": "2025-09-16",
+   "doc": "1078680_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 501,
+   "field": "num_stories",
+   "value": null,
+   "note": "sources disagree: ['4', '5']"
+  },
+  {
+   "id": 501,
+   "address": "150 Pitman Street",
+   "field": "architect",
+   "value": "Michael Bisbano",
+   "date": "2025-08-19",
+   "doc": "1077673_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 502,
+   "address": "3516 – 125 Tobey Street",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2024-01-16",
+   "doc": "1052666_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 502,
+   "address": "3516 – 125 Tobey Street",
+   "field": "architect",
+   "value": "Kevin Diamond",
+   "date": "2024-01-16",
+   "doc": "1052666_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 505,
+   "address": "21 New York Ave",
+   "field": "owner_or_agency",
+   "value": "Provport",
+   "date": "2025-07-15",
+   "doc": "1076570_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 506,
+   "address": "90 Westminster Street",
+   "field": "architect",
+   "value": "ZDS Architects",
+   "date": "2025-10-06",
+   "doc": "1079340_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 507,
+   "field": "num_stories",
+   "value": null,
+   "note": "sources disagree: ['11', '12']"
+  },
+  {
+   "id": 507,
+   "address": "200 Dyer Street",
+   "field": "architect",
+   "value": "Spagnolo Gisness Associates",
+   "date": "2025-02-10",
+   "doc": "1069986_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 508,
+   "address": "580 South",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2019-06-10",
+   "doc": "979677_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 508,
+   "address": "580 South",
+   "field": "parking_spaces",
+   "value": 62,
+   "date": "2019-05-13",
+   "doc": "978348_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 508,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['eric zuena and julie bartlett', 'julie bartlett']"
+  },
+  {
+   "id": 509,
+   "address": "580 South Water Street",
+   "field": "parking_spaces",
+   "value": 62,
+   "date": "2019-05-13",
+   "doc": "978348_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 509,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['eric zuena and julie bartlett', 'julie bartlett']"
+  },
+  {
+   "id": 517,
+   "field": "asset_class",
+   "value": null,
+   "note": "sources disagree: ['other', 'retail']"
+  },
+  {
+   "id": 517,
+   "address": "1016 Park Avenue",
+   "field": "owner_or_agency",
+   "value": "SAMERDY PRAING",
+   "date": "2025-10-08",
+   "doc": "1078937_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 517,
+   "address": "1016 Park Avenue",
+   "field": "lot_area",
+   "value": 9700,
+   "date": "2025-10-08",
+   "doc": "1078937_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 521,
+   "address": "35 Lake Street",
+   "field": "residential_units",
+   "value": 2,
+   "date": "2026-04-07",
+   "doc": "1087365_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 521,
+   "address": "35 Lake Street",
+   "field": "num_stories",
+   "value": 3,
+   "date": "2026-04-07",
+   "doc": "1087365_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 521,
+   "address": "35 Lake Street",
+   "field": "asset_class",
+   "value": "other",
+   "date": "2026-04-07",
+   "doc": "1087365_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 521,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['3200', '4800', '9600']"
+  },
+  {
+   "id": 521,
+   "address": "35 Lake Street",
+   "field": "developer",
+   "value": "Sadiq Davies",
+   "date": "2026-02-03",
+   "doc": "1084515_1.txt",
+   "evidence": ""
   },
   {
    "id": 522,
@@ -17,6 +467,39 @@
    "field": "civil_engineer",
    "value": null,
    "note": "sources disagree: ['joe casali engineering', 'william lavery']"
+  },
+  {
+   "id": 526,
+   "address": "AP 22, Lot 108",
+   "field": "residential_units",
+   "value": 1,
+   "date": "2026-03-03",
+   "doc": "1085740_1.txt",
+   "evidence": "one (1) single-family dwelling"
+  },
+  {
+   "id": 526,
+   "address": "AP 22, Lot 108",
+   "field": "civil_engineer",
+   "value": "DiPrete Engineering",
+   "date": "2026-03-03",
+   "doc": "1085740_4.txt",
+   "evidence": ""
+  },
+  {
+   "id": 528,
+   "field": "asset_class",
+   "value": null,
+   "note": "sources disagree: ['mixed-use', 'retail']"
+  },
+  {
+   "id": 528,
+   "address": "2110 Plainfield Pike",
+   "field": "owner_or_agency",
+   "value": "RLF IV Terminals SPE, LLC",
+   "date": "2026-01-06",
+   "doc": "1083151_2.txt",
+   "evidence": ""
   },
   {
    "id": 529,
@@ -37,31 +520,220 @@
    "note": "sources disagree: ['69696', '72638']"
   },
   {
-   "id": 532,
-   "address": "1890 Plainfield Pike",
-   "field": "site_acreage",
-   "value": 10.95,
-   "date": "2018-03-14",
-   "doc": "814041_1.txt",
+   "id": 535,
+   "field": "asset_class",
+   "value": null,
+   "note": "sources disagree: ['mixed-use', 'multifamily']"
+  },
+  {
+   "id": 535,
+   "address": "5 Aborn Street",
+   "field": "civil_engineer",
+   "value": "Waterman Engineering",
+   "date": "2026-05-20",
+   "doc": "1089095_1.txt",
    "evidence": ""
   },
   {
-   "id": 547,
-   "address": "2 Columbus Avenue",
+   "id": 535,
+   "address": "5 Aborn Street",
+   "field": "owner_or_agency",
+   "value": "Bridge Group, LLC",
+   "date": "2023-12-13",
+   "doc": "1050519_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 535,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['5217', '5278']"
+  },
+  {
+   "id": 535,
+   "address": "5 Aborn Street",
+   "field": "developer",
+   "value": "Anthony Albanese Jr.",
+   "date": "2026-05-20",
+   "doc": "1089095_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 538,
+   "address": "1499 Hillside Road",
+   "field": "num_stories",
+   "value": 1,
+   "date": "2025-09-17",
+   "doc": "1078605_1.txt",
+   "evidence": "one-story building"
+  },
+  {
+   "id": 538,
+   "address": "1499 Hillside Road",
+   "field": "asset_class",
+   "value": "mixed-use",
+   "date": "2025-09-17",
+   "doc": "1078605_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 538,
+   "address": "1499 Hillside Road",
+   "field": "civil_engineer",
+   "value": "Sheryl Guglielmo",
+   "date": "2025-09-17",
+   "doc": "1078605_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 538,
+   "address": "1499 Hillside Road",
+   "field": "developer",
+   "value": "WS Development",
+   "date": "2025-09-17",
+   "doc": "1078605_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 539,
+   "address": "538 Main Street",
+   "field": "residential_units",
+   "value": 44,
+   "date": "2026-06-02",
+   "doc": "1089749_1.txt",
+   "evidence": "forty-four (44) lots for residential single-family"
+  },
+  {
+   "id": 539,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['diprete engineering', 'jenna shea']"
+  },
+  {
+   "id": 539,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: ['diprete engineering', 'jenna shea', 'meghan buchanan']"
+  },
+  {
+   "id": 539,
+   "address": "538 Main Street",
+   "field": "owner_or_agency",
+   "value": "777 Main Street LLC",
+   "date": "2025-08-05",
+   "doc": "1077272_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 541,
+   "address": "13 Davis Street",
+   "field": "residential_units",
+   "value": 1,
+   "date": "2026-06-16",
+   "doc": "1089966_0.txt",
+   "evidence": "accessory dwelling unit (ADU)"
+  },
+  {
+   "id": 541,
+   "address": "13 Davis Street",
+   "field": "num_stories",
+   "value": 20,
+   "date": "2025-10-27",
+   "doc": "1079663_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 541,
+   "address": "13 Davis Street",
+   "field": "owner_or_agency",
+   "value": "Sheila Depina",
+   "date": "2025-10-27",
+   "doc": "1079663_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 541,
+   "address": "13 Davis Street",
+   "field": "lot_area",
+   "value": 6200,
+   "date": "2026-06-16",
+   "doc": "1089966_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 543,
+   "address": "175 Main Street",
+   "field": "owner_or_agency",
+   "value": "City of Pawtucket",
+   "date": "2026-04-29",
+   "doc": "1088429_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 544,
+   "address": "65 East Street",
+   "field": "civil_engineer",
+   "value": "Maxwell Viana of Millstone LLC",
+   "date": "2026-05-19",
+   "doc": "1089233_4.txt",
+   "evidence": ""
+  },
+  {
+   "id": 544,
+   "address": "65 East Street",
+   "field": "lot_area",
+   "value": 30009,
+   "date": "2026-05-19",
+   "doc": "1089233_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 545,
+   "address": "250 Esten Street",
    "field": "residential_units",
    "value": 2,
-   "date": "2021-12-06",
-   "doc": "1015513_1.txt",
-   "evidence": "two-family dwelling"
+   "date": "2026-04-21",
+   "doc": "1087920_1.txt",
+   "evidence": "two (2) resultant lots"
+  },
+  {
+   "id": 545,
+   "address": "250 Esten Street",
+   "field": "owner_or_agency",
+   "value": "Gordon Chartier, Trustee",
+   "date": "2026-04-21",
+   "doc": "1087920_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 545,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['112384', '16500']"
+  },
+  {
+   "id": 546,
+   "address": "404 Smithfield Avenue",
+   "field": "owner_or_agency",
+   "value": "Fairlawn Properties LLC",
+   "date": "2026-04-27",
+   "doc": "1087772_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 546,
+   "address": "404 Smithfield Avenue",
+   "field": "lot_area",
+   "value": 3320,
+   "date": "2026-04-27",
+   "doc": "1087772_1.txt",
+   "evidence": ""
   },
   {
    "id": 547,
-   "address": "2 Columbus Avenue",
-   "field": "parking_spaces",
-   "value": 4,
-   "date": "2021-12-06",
-   "doc": "1015513_1.txt",
-   "evidence": ""
+   "field": "residential_units",
+   "value": null,
+   "note": "sources disagree: ['2', '3', '4']"
   },
   {
    "id": 547,
@@ -76,6 +748,30 @@
    "note": "sources disagree: ['colliers engineering', 'shawmut design and construction']"
   },
   {
+   "id": 548,
+   "address": "546 Smithfield Avenue",
+   "field": "residential_units",
+   "value": 1,
+   "date": "2026-01-20",
+   "doc": "1084012_0.txt",
+   "evidence": "addition of a third residential unit"
+  },
+  {
+   "id": 549,
+   "address": "486 Mineral Spring Avenue",
+   "field": "residential_units",
+   "value": 2,
+   "date": "2025-12-16",
+   "doc": "1082595_1.txt",
+   "evidence": "two-family residential structure"
+  },
+  {
+   "id": 549,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['16731', '16846', '5000']"
+  },
+  {
    "id": 553,
    "field": "owner_or_agency",
    "value": null,
@@ -88,39 +784,684 @@
    "note": "sources disagree: ['38060', '63637']"
   },
   {
-   "id": 556,
-   "address": "160 Beechwood Avenue",
+   "id": 558,
+   "address": "0 Van Zandt Avenue",
    "field": "owner_or_agency",
-   "value": "Pawtucket Central Falls Development",
-   "date": "2023-08-28",
-   "doc": "1046299_1.txt",
+   "value": "City of Newport",
+   "date": "2026-06-01",
+   "doc": "1089703_0.txt",
    "evidence": ""
   },
   {
-   "id": 575,
-   "address": "445 Palmer Ave",
-   "field": "num_stories",
-   "value": 2,
-   "date": "2023-04-11",
-   "doc": "1041345_0.txt",
-   "evidence": ""
+   "id": 559,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['jeffrey moniz', 'jeffrey moniz of 2hands studio']"
   },
   {
-   "id": 575,
-   "address": "445 Palmer Ave",
+   "id": 559,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: ['lyn small', 'lyn small of northeast engineers']"
+  },
+  {
+   "id": 559,
    "field": "owner_or_agency",
-   "value": "North End Realty Retirement Plan",
-   "date": "2023-06-13",
-   "doc": "1043980_0.txt",
+   "value": null,
+   "note": "sources disagree: ['525 broadway llc', \"st. peter's lutheran evangelical church\"]"
+  },
+  {
+   "id": 563,
+   "address": "105 Broadway",
+   "field": "parking_spaces",
+   "value": 23,
+   "date": "2026-02-02",
+   "doc": "1084617_0.txt",
    "evidence": ""
   },
   {
-   "id": 585,
-   "address": "2281 and 2279 West Shore Rd",
-   "field": "site_acreage",
-   "value": 2.4,
+   "id": 563,
+   "address": "105 Broadway",
+   "field": "civil_engineer",
+   "value": "Molly Titus",
+   "date": "2022-11-28",
+   "doc": "1033705_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 563,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['carpe noctem real property, llc', 'k & mb investments llc']"
+  },
+  {
+   "id": 564,
+   "address": "102-108 Girard Avenue",
+   "field": "owner_or_agency",
+   "value": "NRI 104-108 GIRARD PARTNERSHIP",
+   "date": "2024-09-16",
+   "doc": "1063137_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 567,
+   "address": "49 America’s Cup Avenue",
+   "field": "residential_units",
+   "value": 7,
+   "date": "2025-06-02",
+   "doc": "1075117_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 567,
+   "address": "49 America’s Cup Avenue",
+   "field": "architect",
+   "value": "Justin Hedde of Centerbrook Architects",
+   "date": "2025-10-06",
+   "doc": "1079435_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 567,
+   "address": "49 America’s Cup Avenue",
+   "field": "civil_engineer",
+   "value": "Philip Henry of Civil Design Group, LLC",
+   "date": "2025-10-06",
+   "doc": "1079435_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 567,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['49 newport hotel, llc', 'harbour realty, llc, waites wharf realty association, llc, tomorl, llc, and thomas abruzese']"
+  },
+  {
+   "id": 570,
+   "address": "181 Bellevue Avenue",
+   "field": "owner_or_agency",
+   "value": "181 Bellevue Center, LLC",
+   "date": "2025-05-19",
+   "doc": "1074588_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 570,
+   "address": "181 Bellevue Avenue",
+   "field": "lot_area",
+   "value": 12773,
+   "date": "2025-08-04",
+   "doc": "1077287_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 571,
+   "address": "138 Carroll Avenue",
+   "field": "lot_area",
+   "value": 16571,
+   "date": "2025-08-04",
+   "doc": "1077287_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 572,
+   "address": "160 Carroll Avenue",
+   "field": "residential_units",
+   "value": 1,
+   "date": "2023-03-27",
+   "doc": "1041052_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 572,
+   "address": "160 Carroll Avenue",
+   "field": "parking_spaces",
+   "value": 10,
+   "date": "2025-06-16",
+   "doc": "1075669_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 572,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['christina carlson', 'christina carlson, union studio']"
+  },
+  {
+   "id": 572,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['girl scouts of ri, inc.', 'girl scouts of southeastern new england', 'spruce homes, llc']"
+  },
+  {
+   "id": 572,
+   "address": "160 Carroll Avenue",
+   "field": "lot_area",
+   "value": 5015,
+   "date": "2023-08-21",
+   "doc": "1046717_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 573,
+   "field": "residential_units",
+   "value": null,
+   "note": "sources disagree: ['1', '150', '7']"
+  },
+  {
+   "id": 573,
+   "field": "parking_spaces",
+   "value": null,
+   "note": "sources disagree: ['0', '266']"
+  },
+  {
+   "id": 573,
+   "address": "25 Waites Wharf",
+   "field": "civil_engineer",
+   "value": "Todd Braden",
+   "date": "2024-02-12",
+   "doc": "1054375_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 573,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['harbour realty, llc', 'harbour realty, llc and 20 west extension, llc', 'harbour realty, llc, and 20 west extension, llc', 'harbour realty, llc, tomorl, llc, 20 west extension, llc, waites wharf realty association, llc, and thomas b. abruzese', 'harbour realty, llc, tomorl, llc, 20 west extension, llc, waites wharf realty association, llc, thomas b. abruzese', 'harbour realty, llc., tomorl, llc., 20 west extension, llc., waites wharf realty association, llc., and thomas b. abruzese', 'harbour realty, llc., tomorol, llc., 20 west extension, llc., waites wharf realty association, llc., and thomas b. abruzese', 'william and lisa collins']"
+  },
+  {
+   "id": 574,
+   "address": "16 Waites Wharf",
+   "field": "parking_spaces",
+   "value": 168,
+   "date": "2025-10-06",
+   "doc": "1079435_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 574,
+   "address": "16 Waites Wharf",
+   "field": "architect",
+   "value": "Justin Hedde of Centerbrook Architects",
+   "date": "2025-10-06",
+   "doc": "1079435_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 574,
+   "address": "16 Waites Wharf",
+   "field": "civil_engineer",
+   "value": "Philip Henry of Civil Design Group, LLC",
+   "date": "2025-10-06",
+   "doc": "1079435_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 574,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['49 newport hotel, llc', 'harbour realty, llc, waites wharf realty association, llc, tomorl, llc, and thomas abruzese']"
+  },
+  {
+   "id": 577,
+   "address": "3275 POST ROAD",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2026-02-11",
+   "doc": "1084795_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 577,
+   "address": "3275 POST ROAD",
+   "field": "architect",
+   "value": "Stonefield Engineering & Design",
+   "date": "2026-02-11",
+   "doc": "1084795_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 577,
+   "address": "3275 POST ROAD",
+   "field": "civil_engineer",
+   "value": "Stonefield Engineering & Design",
+   "date": "2026-06-10",
+   "doc": "1090043_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 579,
+   "address": "192 Toll Gate Rd",
+   "field": "civil_engineer",
+   "value": "Millstone, LLC, 250 Centerville Rd",
+   "date": "2026-06-10",
+   "doc": "1090043_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 580,
+   "address": "1577 West Shore Rd",
+   "field": "residential_units",
+   "value": 3,
    "date": "2021-06-08",
    "doc": "1009584_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 580,
+   "field": "site_acreage",
+   "value": null,
+   "note": "sources disagree: ['0.49', '2.4']"
+  },
+  {
+   "id": 581,
+   "address": "771 Post Road",
+   "field": "owner_or_agency",
+   "value": "City of Warwick",
+   "date": "2026-05-13",
+   "doc": "1088875_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 582,
+   "address": "1624 Warwick Ave",
+   "field": "architect",
+   "value": "Joseph T. Cardella Architect, 194 Schoolhouse Rd, Warren",
+   "date": "2026-05-13",
+   "doc": "1088875_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 582,
+   "address": "1624 Warwick Ave",
+   "field": "lot_area",
+   "value": 20000,
+   "date": "2026-05-13",
+   "doc": "1088875_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 587,
+   "address": "455 Toll gate Rd",
+   "field": "num_stories",
+   "value": 3,
+   "date": "2026-03-11",
+   "doc": "1086121_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 588,
+   "address": "2595 West Shore Rd",
+   "field": "residential_units",
+   "value": 3,
+   "date": "2021-06-08",
+   "doc": "1009584_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 588,
+   "address": "2595 West Shore Rd",
+   "field": "parking_spaces",
+   "value": 4,
+   "date": "2026-02-11",
+   "doc": "1084795_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 588,
+   "field": "asset_class",
+   "value": null,
+   "note": "sources disagree: ['other', 'retail']"
+  },
+  {
+   "id": 588,
+   "address": "2595 West Shore Rd",
+   "field": "civil_engineer",
+   "value": "Hover Architecture and GPI Engineers",
+   "date": "2026-02-11",
+   "doc": "1084795_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 589,
+   "address": "1282 & 1288 Greenwich Ave",
+   "field": "civil_engineer",
+   "value": "DiPrete Engineering",
+   "date": "2026-02-11",
+   "doc": "1084795_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 589,
+   "address": "1282 & 1288 Greenwich Ave",
+   "field": "lot_area",
+   "value": 6000,
+   "date": "2026-02-11",
+   "doc": "1084795_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 597,
+   "field": "residential_units",
+   "value": null,
+   "note": "sources disagree: ['2', '4']"
+  },
+  {
+   "id": 597,
+   "address": "19 Wood Street",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2025-10-08",
+   "doc": "1079513_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 597,
+   "address": "19 Wood Street",
+   "field": "lot_area",
+   "value": 15107,
+   "date": "2025-09-10",
+   "doc": "1078430_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 599,
+   "address": "73 Pinehurst Avenue",
+   "field": "residential_units",
+   "value": 2,
+   "date": "2025-06-11",
+   "doc": "1075543_1.txt",
+   "evidence": "reconfigure (2) two lots to create (2) two lots"
+  },
+  {
+   "id": 599,
+   "address": "73 Pinehurst Avenue",
+   "field": "civil_engineer",
+   "value": "Alpha Associates, LTD",
+   "date": "2025-06-11",
+   "doc": "1075543_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 599,
+   "address": "73 Pinehurst Avenue",
+   "field": "lot_area",
+   "value": 16000,
+   "date": "2025-06-11",
+   "doc": "1075543_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 601,
+   "address": "145 Commerce Drive",
+   "field": "parking_spaces",
+   "value": 3,
+   "date": "2025-05-14",
+   "doc": "1074325_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 601,
+   "address": "145 Commerce Drive",
+   "field": "civil_engineer",
+   "value": "VHB",
+   "date": "2025-05-14",
+   "doc": "1074325_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 604,
+   "field": "affordable_units",
+   "value": null,
+   "note": "sources disagree: ['30', '42']"
+  },
+  {
+   "id": 604,
+   "field": "num_stories",
+   "value": null,
+   "note": "sources disagree: ['4', '5', '6']"
+  },
+  {
+   "id": 604,
+   "field": "asset_class",
+   "value": null,
+   "note": "sources disagree: ['mixed-use', 'multifamily']"
+  },
+  {
+   "id": 604,
+   "address": "327 ELMWOOD AVENUE",
+   "field": "owner_or_agency",
+   "value": "Providence Redevelopment Agency",
+   "date": "2025-04-15",
+   "doc": "1072997_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 604,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['9200', '9583']"
+  },
+  {
+   "id": 605,
+   "address": "220 BLACKSTONE STREET",
+   "field": "affordable_units",
+   "value": 178,
+   "date": "2024-09-04",
+   "doc": "1062529_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 605,
+   "address": "220 BLACKSTONE STREET",
+   "field": "num_stories",
+   "value": 6,
+   "date": "2025-03-18",
+   "doc": "1071309_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 605,
+   "field": "asset_class",
+   "value": null,
+   "note": "sources disagree: ['mixed-use', 'multifamily']"
+  },
+  {
+   "id": 605,
+   "address": "220 BLACKSTONE STREET",
+   "field": "architect",
+   "value": "Virginia Branch",
+   "date": "2025-03-18",
+   "doc": "1071309_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 605,
+   "address": "220 BLACKSTONE STREET",
+   "field": "civil_engineer",
+   "value": "Sam Hemenway",
+   "date": "2025-03-18",
+   "doc": "1071309_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 605,
+   "address": "220 BLACKSTONE STREET",
+   "field": "owner_or_agency",
+   "value": "Providence Redevelopment Agency",
+   "date": "2024-09-04",
+   "doc": "1062529_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 609,
+   "field": "num_stories",
+   "value": null,
+   "note": "sources disagree: ['4', '5']"
+  },
+  {
+   "id": 609,
+   "address": "150-158 Pitman Street",
+   "field": "architect",
+   "value": "Michael Bisbano",
+   "date": "2025-08-19",
+   "doc": "1077673_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 611,
+   "address": "551 Chalkstone Ave",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2024-11-19",
+   "doc": "1065512_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 612,
+   "address": "659 – 663 Admiral Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2024-11-19",
+   "doc": "1065512_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 612,
+   "field": "parking_spaces",
+   "value": null,
+   "note": "sources disagree: ['27', '31']"
+  },
+  {
+   "id": 612,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['eric engle', 'eric zuena']"
+  },
+  {
+   "id": 612,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['citadel properties llc', 'strive realty']"
+  },
+  {
+   "id": 613,
+   "address": "400 Elmwood Ave",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2024-10-15",
+   "doc": "1064126_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 613,
+   "address": "400 Elmwood Ave",
+   "field": "parking_spaces",
+   "value": 30,
+   "date": "2024-10-15",
+   "doc": "1064126_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 613,
+   "address": "400 Elmwood Ave",
+   "field": "architect",
+   "value": "Jeffrey Lykins",
+   "date": "2024-10-15",
+   "doc": "1064126_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 615,
+   "field": "num_stories",
+   "value": null,
+   "note": "sources disagree: ['4', '5']"
+  },
+  {
+   "id": 615,
+   "address": "279 Thayer Street",
+   "field": "architect",
+   "value": "Matt Silva",
+   "date": "2024-10-15",
+   "doc": "1064126_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 615,
+   "address": "279 Thayer Street",
+   "field": "civil_engineer",
+   "value": "Bill Lavery",
+   "date": "2024-10-15",
+   "doc": "1064126_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 615,
+   "address": "279 Thayer Street",
+   "field": "lot_area",
+   "value": 4900,
+   "date": "2022-05-17",
+   "doc": "1024355_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 617,
+   "address": "199 Oxford Street",
+   "field": "num_stories",
+   "value": 3,
+   "date": "2024-08-20",
+   "doc": "1061802_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 617,
+   "address": "199 Oxford Street",
+   "field": "architect",
+   "value": "Luis Torrado",
+   "date": "2024-05-21",
+   "doc": "1058780_4.txt",
+   "evidence": ""
+  },
+  {
+   "id": 617,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: [\"david d'amico\", \"david d'amico, derek hough\"]"
+  },
+  {
+   "id": 617,
+   "address": "199 Oxford Street",
+   "field": "owner_or_agency",
+   "value": "City of Providence",
+   "date": "2024-08-20",
+   "doc": "1061802_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 623,
+   "address": "108 – 110 Waterman Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2024-07-16",
+   "doc": "1060836_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 623,
+   "address": "108 – 110 Waterman Street",
+   "field": "architect",
+   "value": "Oscar Ramirez",
+   "date": "2023-07-18",
+   "doc": "1045533_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 623,
+   "address": "108 – 110 Waterman Street",
+   "field": "civil_engineer",
+   "value": "Joseph Casale",
+   "date": "2023-07-18",
+   "doc": "1045533_1.txt",
    "evidence": ""
   },
   {
@@ -128,9 +1469,2830 @@
    "field": "owner_or_agency",
    "value": null,
    "note": "sources disagree: ['city of providence', 'providence public buildings authority']"
+  },
+  {
+   "id": 627,
+   "address": "220 Blackstone Street",
+   "field": "affordable_units",
+   "value": 178,
+   "date": "2024-09-04",
+   "doc": "1062529_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 627,
+   "address": "220 Blackstone Street",
+   "field": "architect",
+   "value": "Virginia Branch",
+   "date": "2025-03-18",
+   "doc": "1071309_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 627,
+   "address": "220 Blackstone Street",
+   "field": "civil_engineer",
+   "value": "Sam Hemenway",
+   "date": "2025-03-18",
+   "doc": "1071309_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 627,
+   "address": "220 Blackstone Street",
+   "field": "owner_or_agency",
+   "value": "Providence Redevelopment Agency",
+   "date": "2024-09-04",
+   "doc": "1062529_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 628,
+   "address": "3575 – 176 Gano Street",
+   "field": "architect",
+   "value": "Kevin Diamond",
+   "date": "2024-04-16",
+   "doc": "1057141_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 633,
+   "address": "106 Reservoir",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2024-02-20",
+   "doc": "1054564_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 635,
+   "address": "56 Pratt Street",
+   "field": "asset_class",
+   "value": "residential",
+   "date": "2026-07-27",
+   "doc": "1091609_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 635,
+   "address": "56 Pratt Street",
+   "field": "owner_or_agency",
+   "value": "Anthony Andrade",
+   "date": "2022-01-18",
+   "doc": "1019176_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 635,
+   "address": "56 Pratt Street",
+   "field": "lot_area",
+   "value": 11000,
+   "date": "2022-01-18",
+   "doc": "1019176_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 643,
+   "address": "515 Prairie Ave",
+   "field": "num_stories",
+   "value": 3,
+   "date": "2023-07-18",
+   "doc": "1045533_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 643,
+   "address": "515 Prairie Ave",
+   "field": "lot_area",
+   "value": 13440,
+   "date": "2023-08-15",
+   "doc": "1046297_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 644,
+   "address": "661-665 Plainfield Street",
+   "field": "architect",
+   "value": "Jeffrey Lykins",
+   "date": "2023-02-21",
+   "doc": "1037408_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 644,
+   "address": "661-665 Plainfield Street",
+   "field": "lot_area",
+   "value": 18125,
+   "date": "2023-02-21",
+   "doc": "1037408_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 652,
+   "address": "547 Chalkstone Ave",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2023-06-27",
+   "doc": "1044890_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 653,
+   "address": "18 Marcello",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2023-05-16",
+   "doc": "1042841_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 653,
+   "address": "18 Marcello",
+   "field": "architect",
+   "value": "Eric Zuena",
+   "date": "2021-06-15",
+   "doc": "1009966_5.txt",
+   "evidence": ""
+  },
+  {
+   "id": 654,
+   "address": "1051-1061 Chalkstone Ave",
+   "field": "owner_or_agency",
+   "value": "Richard Grasso",
+   "date": "2023-05-16",
+   "doc": "1042841_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 658,
+   "address": "740 Plainfield Street",
+   "field": "asset_class",
+   "value": "institutional",
+   "date": "2023-02-21",
+   "doc": "1037408_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 660,
+   "address": "697 Douglas Ave",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2023-04-18",
+   "doc": "1041876_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 662,
+   "address": "55 George M Cohan Boulevard",
+   "field": "owner_or_agency",
+   "value": "I-195 Redevelopment District",
+   "date": "2023-03-21",
+   "doc": "1040398_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 662,
+   "address": "55 George M Cohan Boulevard",
+   "field": "lot_area",
+   "value": 45886,
+   "date": "2023-03-21",
+   "doc": "1040398_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 663,
+   "address": "781 Manton Ave",
+   "field": "lot_area",
+   "value": 49475,
+   "date": "2023-03-21",
+   "doc": "1040398_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 665,
+   "address": "116 Waterman Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2023-02-21",
+   "doc": "1037408_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 665,
+   "address": "116 Waterman Street",
+   "field": "architect",
+   "value": "Oscar Ramirez",
+   "date": "2023-02-21",
+   "doc": "1037408_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 665,
+   "address": "116 Waterman Street",
+   "field": "civil_engineer",
+   "value": "Dan Decesaris",
+   "date": "2023-02-21",
+   "doc": "1037408_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 666,
+   "address": "541 Hartford Ave",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2023-01-24",
+   "doc": "1036074_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 667,
+   "address": "300 Valley Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2022-12-13",
+   "doc": "1034059_5.txt",
+   "evidence": ""
+  },
+  {
+   "id": 670,
+   "address": "228 Broad Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2022-11-15",
+   "doc": "1032722_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 673,
+   "address": "153-165 Gano Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2022-06-28",
+   "doc": "1027861_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 673,
+   "address": "153-165 Gano Street",
+   "field": "owner_or_agency",
+   "value": "Power 250, LLC",
+   "date": "2022-09-28",
+   "doc": "1030992_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 675,
+   "field": "num_stories",
+   "value": null,
+   "note": "sources disagree: ['4', '5']"
+  },
+  {
+   "id": 675,
+   "address": "311 Knight Street",
+   "field": "architect",
+   "value": "Eric Zuena",
+   "date": "2022-10-11",
+   "doc": "1031473_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 675,
+   "address": "311 Knight Street",
+   "field": "owner_or_agency",
+   "value": "Gary Richard Badessa and Recon Corp.",
+   "date": "2020-03-11",
+   "doc": "990998_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 676,
+   "address": "386 Atwells Ave",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2022-10-11",
+   "doc": "1031473_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 676,
+   "address": "386 Atwells Ave",
+   "field": "architect",
+   "value": "Eric Zuena",
+   "date": "2022-10-11",
+   "doc": "1031473_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 676,
+   "address": "386 Atwells Ave",
+   "field": "civil_engineer",
+   "value": "Joe Casali",
+   "date": "2022-10-11",
+   "doc": "1031473_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 677,
+   "address": "75 EAST ST",
+   "field": "architect",
+   "value": "Kevin Diamond",
+   "date": "2022-04-27",
+   "doc": "1024079_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 677,
+   "address": "75 EAST ST",
+   "field": "owner_or_agency",
+   "value": "75 East St, LLC",
+   "date": "2022-10-12",
+   "doc": "1031261_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 678,
+   "address": "113 Ives Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2021-11-16",
+   "doc": "1016741_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 678,
+   "address": "113 Ives Street",
+   "field": "architect",
+   "value": "Kevin Diamond",
+   "date": "2021-11-16",
+   "doc": "1016741_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 678,
+   "address": "113 Ives Street",
+   "field": "owner_or_agency",
+   "value": "Dustin Dezube",
+   "date": "2021-11-16",
+   "doc": "1016741_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 678,
+   "address": "113 Ives Street",
+   "field": "lot_area",
+   "value": 2500,
+   "date": "2021-11-16",
+   "doc": "1016741_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 679,
+   "address": "220 Broad Street",
+   "field": "affordable_units",
+   "value": 44,
+   "date": "2022-09-20",
+   "doc": "1030655_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 679,
+   "address": "220 Broad Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2022-09-20",
+   "doc": "1030655_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 679,
+   "address": "220 Broad Street",
+   "field": "architect",
+   "value": "Virginia Branch",
+   "date": "2022-09-20",
+   "doc": "1030655_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 679,
+   "address": "220 Broad Street",
+   "field": "civil_engineer",
+   "value": "Sam Hemenway",
+   "date": "2022-09-20",
+   "doc": "1030655_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 679,
+   "address": "220 Broad Street",
+   "field": "lot_area",
+   "value": 12421,
+   "date": "2022-09-20",
+   "doc": "1030655_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 680,
+   "address": "3526 – 550 Veazie Street",
+   "field": "asset_class",
+   "value": "self-storage",
+   "date": "2022-09-20",
+   "doc": "1030655_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 680,
+   "address": "3526 – 550 Veazie Street",
+   "field": "owner_or_agency",
+   "value": "Norm Cotash",
+   "date": "2022-09-20",
+   "doc": "1030655_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 683,
+   "address": "22-26 Ringgold Street",
+   "field": "residential_units",
+   "value": 9,
+   "date": "2022-09-20",
+   "doc": "1030655_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 683,
+   "address": "22-26 Ringgold Street",
+   "field": "affordable_units",
+   "value": 6,
+   "date": "2022-09-20",
+   "doc": "1030655_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 683,
+   "address": "22-26 Ringgold Street",
+   "field": "architect",
+   "value": "Kevin Diamond",
+   "date": "2022-09-20",
+   "doc": "1030655_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 685,
+   "address": "135 Prairie Ave",
+   "field": "architect",
+   "value": "Kathy Bartels",
+   "date": "2022-08-30",
+   "doc": "1029535_4.txt",
+   "evidence": ""
+  },
+  {
+   "id": 685,
+   "address": "135 Prairie Ave",
+   "field": "civil_engineer",
+   "value": "Mark Hollis",
+   "date": "2022-08-30",
+   "doc": "1029535_4.txt",
+   "evidence": ""
+  },
+  {
+   "id": 688,
+   "address": "850 Manton Ave",
+   "field": "civil_engineer",
+   "value": "Joe Casali, Bill Lavery",
+   "date": "2021-10-19",
+   "doc": "1014509_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 688,
+   "address": "850 Manton Ave",
+   "field": "owner_or_agency",
+   "value": "Calvi Realty Co Inc",
+   "date": "2022-03-15",
+   "doc": "1022173_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 688,
+   "address": "850 Manton Ave",
+   "field": "lot_area",
+   "value": 978843,
+   "date": "2022-03-15",
+   "doc": "1022173_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 690,
+   "address": "18 Marcello Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2023-05-16",
+   "doc": "1042841_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 690,
+   "address": "18 Marcello Street",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2023-05-16",
+   "doc": "1042841_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 690,
+   "address": "18 Marcello Street",
+   "field": "architect",
+   "value": "Eric Zuena",
+   "date": "2021-06-15",
+   "doc": "1009966_5.txt",
+   "evidence": ""
+  },
+  {
+   "id": 691,
+   "address": "94 Summer Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2022-04-19",
+   "doc": "1023963_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 691,
+   "address": "94 Summer Street",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2022-04-19",
+   "doc": "1023963_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 691,
+   "address": "94 Summer Street",
+   "field": "civil_engineer",
+   "value": "Neal Hingorany, Eric Cordis",
+   "date": "2022-04-19",
+   "doc": "1023963_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 691,
+   "address": "94 Summer Street",
+   "field": "lot_area",
+   "value": 50853,
+   "date": "2022-04-19",
+   "doc": "1023963_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 699,
+   "address": "18 Eighth St",
+   "field": "architect",
+   "value": "Jack Ryan",
+   "date": "2021-10-19",
+   "doc": "1014509_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 699,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['8th investment, llc', '8th investment, llc.']"
+  },
+  {
+   "id": 702,
+   "address": "288 Kinsley Ave",
+   "field": "civil_engineer",
+   "value": "Dana Nisbet, Paul Bannon",
+   "date": "2021-12-14",
+   "doc": "1017780_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 702,
+   "address": "288 Kinsley Ave",
+   "field": "owner_or_agency",
+   "value": "OGN, LLC",
+   "date": "2022-10-12",
+   "doc": "1031261_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 704,
+   "address": "96-108 PINE STREET",
+   "field": "asset_class",
+   "value": "other",
+   "date": "2019-01-02",
+   "doc": "971585_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 704,
+   "address": "96-108 PINE STREET",
+   "field": "owner_or_agency",
+   "value": "96-108 PINE STREET, LLC",
+   "date": "2019-01-02",
+   "doc": "971585_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 705,
+   "address": "1326 Westminster Street",
+   "field": "lot_area",
+   "value": 11033,
+   "date": "2021-09-28",
+   "doc": "1013642_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 707,
+   "address": "45-47 America St",
+   "field": "owner_or_agency",
+   "value": "DNC Acquisitions, LLC",
+   "date": "2019-04-10",
+   "doc": "976440_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 708,
+   "address": "371 Pine Street",
+   "field": "residential_units",
+   "value": 35,
+   "date": "2025-04-02",
+   "doc": "1072407_1.txt",
+   "evidence": "35 new construction units for very low-income tenants"
+  },
+  {
+   "id": 708,
+   "address": "371 Pine Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2023-05-16",
+   "doc": "1042841_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 708,
+   "address": "371 Pine Street",
+   "field": "architect",
+   "value": "Christine West",
+   "date": "2023-05-16",
+   "doc": "1042841_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 708,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['hotel associates llc', 'providence redevelopment agency']"
+  },
+  {
+   "id": 710,
+   "address": "434 Atwells Ave",
+   "field": "residential_units",
+   "value": 85,
+   "date": "2024-04-03",
+   "doc": "1056687_1.txt",
+   "evidence": "39 new construction units and 46 preservation units"
+  },
+  {
+   "id": 710,
+   "address": "434 Atwells Ave",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2024-04-03",
+   "doc": "1056687_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 710,
+   "address": "434 Atwells Ave",
+   "field": "owner_or_agency",
+   "value": "Providence Redevelopment Agency",
+   "date": "2024-04-03",
+   "doc": "1056687_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 711,
+   "address": "35 Hemlock Street",
+   "field": "asset_class",
+   "value": "other",
+   "date": "2022-10-12",
+   "doc": "1031740_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 711,
+   "address": "35 Hemlock Street",
+   "field": "civil_engineer",
+   "value": "Waterman Engineers",
+   "date": "2021-05-17",
+   "doc": "1008896_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 711,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['narragansett bay commission', 'providence redevelopment agency', 'providence redevelopment agency (pra)']"
+  },
+  {
+   "id": 711,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['169156', '185011']"
+  },
+  {
+   "id": 716,
+   "address": "3486 – 22 Rye Street",
+   "field": "residential_units",
+   "value": 16,
+   "date": "2021-07-08",
+   "doc": "1010943_1.txt",
+   "evidence": "R4 would allow for 16 units of housing"
+  },
+  {
+   "id": 716,
+   "address": "3486 – 22 Rye Street",
+   "field": "affordable_units",
+   "value": 16,
+   "date": "2021-07-08",
+   "doc": "1010943_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 716,
+   "address": "3486 – 22 Rye Street",
+   "field": "architect",
+   "value": "Virginia Branch",
+   "date": "2021-07-08",
+   "doc": "1010943_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 716,
+   "address": "3486 – 22 Rye Street",
+   "field": "civil_engineer",
+   "value": "INSITE",
+   "date": "2021-09-13",
+   "doc": "1013173_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 716,
+   "address": "3486 – 22 Rye Street",
+   "field": "owner_or_agency",
+   "value": "Providence Redevelopment Agency",
+   "date": "2026-05-06",
+   "doc": "1088656_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 716,
+   "address": "3486 – 22 Rye Street",
+   "field": "lot_area",
+   "value": 20000,
+   "date": "2020-07-16",
+   "doc": "995756_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 723,
+   "address": "100 Niantic Ave",
+   "field": "num_stories",
+   "value": 3,
+   "date": "2020-12-15",
+   "doc": "1001242_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 723,
+   "address": "100 Niantic Ave",
+   "field": "parking_spaces",
+   "value": 605,
+   "date": "2020-12-15",
+   "doc": "1001242_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 723,
+   "address": "100 Niantic Ave",
+   "field": "asset_class",
+   "value": "self-storage",
+   "date": "2020-12-15",
+   "doc": "1001242_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 723,
+   "address": "100 Niantic Ave",
+   "field": "civil_engineer",
+   "value": "Brian Kortz, Sean Martin",
+   "date": "2020-12-15",
+   "doc": "1001242_6.txt",
+   "evidence": ""
+  },
+  {
+   "id": 723,
+   "address": "100 Niantic Ave",
+   "field": "lot_area",
+   "value": 284265,
+   "date": "2020-12-15",
+   "doc": "1001242_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 724,
+   "address": "5 Iona Street",
+   "field": "lot_area",
+   "value": 6400,
+   "date": "2020-12-15",
+   "doc": "1001242_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 726,
+   "address": "17 Marcello Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2020-11-17",
+   "doc": "1000417_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 727,
+   "field": "num_stories",
+   "value": null,
+   "note": "sources disagree: ['1', '4']"
+  },
+  {
+   "id": 727,
+   "address": "31 – 45 Parade Street",
+   "field": "parking_spaces",
+   "value": 22,
+   "date": "2023-10-17",
+   "doc": "1048403_6.txt",
+   "evidence": ""
+  },
+  {
+   "id": 727,
+   "address": "31 – 45 Parade Street",
+   "field": "architect",
+   "value": "Jack Ryan",
+   "date": "2023-10-17",
+   "doc": "1048403_8.txt",
+   "evidence": ""
+  },
+  {
+   "id": 729,
+   "address": "47 Matilda Street",
+   "field": "residential_units",
+   "value": 18,
+   "date": "2020-11-05",
+   "doc": "999903_2.txt",
+   "evidence": "seven unit rowhouse development and a four story building with eleven units"
+  },
+  {
+   "id": 729,
+   "address": "47 Matilda Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2020-11-05",
+   "doc": "999903_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 729,
+   "address": "47 Matilda Street",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2020-07-21",
+   "doc": "995833_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 729,
+   "address": "47 Matilda Street",
+   "field": "architect",
+   "value": "Jack Ryan",
+   "date": "2020-11-05",
+   "doc": "999903_5.txt",
+   "evidence": ""
+  },
+  {
+   "id": 729,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['matilda pine llc', 'matilda pines llc']"
+  },
+  {
+   "id": 732,
+   "address": "121 Stamford Ave",
+   "field": "num_stories",
+   "value": 3,
+   "date": "2020-10-20",
+   "doc": "999095_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 732,
+   "address": "121 Stamford Ave",
+   "field": "architect",
+   "value": "Joseph Brennan",
+   "date": "2020-01-21",
+   "doc": "988985_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 732,
+   "address": "121 Stamford Ave",
+   "field": "civil_engineer",
+   "value": "Eric Wishart",
+   "date": "2020-10-20",
+   "doc": "999095_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 733,
+   "address": "466-468 West Fountain Street",
+   "field": "affordable_units",
+   "value": 7,
+   "date": "2020-10-20",
+   "doc": "999095_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 733,
+   "address": "466-468 West Fountain Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2020-10-20",
+   "doc": "999095_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 733,
+   "address": "466-468 West Fountain Street",
+   "field": "architect",
+   "value": "Ron Stevenson",
+   "date": "2020-10-20",
+   "doc": "999095_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 734,
+   "address": "16-42 Somerset Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2020-10-20",
+   "doc": "999095_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 734,
+   "address": "16-42 Somerset Street",
+   "field": "architect",
+   "value": "Virginia Branch",
+   "date": "2020-10-20",
+   "doc": "999095_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 734,
+   "address": "16-42 Somerset Street",
+   "field": "civil_engineer",
+   "value": "John Ford",
+   "date": "2020-10-20",
+   "doc": "999095_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 734,
+   "address": "16-42 Somerset Street",
+   "field": "lot_area",
+   "value": 53582,
+   "date": "2020-10-20",
+   "doc": "999095_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 738,
+   "address": "6-42 Somerset Street",
+   "field": "residential_units",
+   "value": 54,
+   "date": "2020-10-20",
+   "doc": "999095_0.txt",
+   "evidence": "54 unit, four story multifamily dwelling"
+  },
+  {
+   "id": 738,
+   "address": "6-42 Somerset Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2020-10-20",
+   "doc": "999095_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 738,
+   "address": "6-42 Somerset Street",
+   "field": "asset_class",
+   "value": "multifamily",
+   "date": "2020-10-20",
+   "doc": "999095_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 738,
+   "address": "6-42 Somerset Street",
+   "field": "architect",
+   "value": "Virginia Branch",
+   "date": "2020-10-20",
+   "doc": "999095_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 738,
+   "address": "6-42 Somerset Street",
+   "field": "civil_engineer",
+   "value": "John Ford",
+   "date": "2020-10-20",
+   "doc": "999095_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 738,
+   "address": "6-42 Somerset Street",
+   "field": "lot_area",
+   "value": 53582,
+   "date": "2020-10-20",
+   "doc": "999095_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 741,
+   "address": "200 Gordon Ave",
+   "field": "num_stories",
+   "value": 3,
+   "date": "2020-09-15",
+   "doc": "997632_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 742,
+   "address": "473 Washington Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2022-12-13",
+   "doc": "1034059_5.txt",
+   "evidence": ""
+  },
+  {
+   "id": 742,
+   "address": "473 Washington Street",
+   "field": "architect",
+   "value": "Eric Zuena",
+   "date": "2020-08-18",
+   "doc": "996719_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 743,
+   "address": "946-1000 Westminster Street",
+   "field": "num_stories",
+   "value": 3,
+   "date": "2020-08-18",
+   "doc": "996719_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 743,
+   "address": "946-1000 Westminster Street",
+   "field": "owner_or_agency",
+   "value": "IA CFG Portfolio LLC",
+   "date": "2020-03-11",
+   "doc": "990998_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 746,
+   "address": "217 Angell Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2025-03-18",
+   "doc": "1071309_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 746,
+   "address": "217 Angell Street",
+   "field": "architect",
+   "value": "Christine West",
+   "date": "2025-03-18",
+   "doc": "1071309_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 746,
+   "address": "217 Angell Street",
+   "field": "civil_engineer",
+   "value": "Joe Casali and William Lavery",
+   "date": "2025-03-18",
+   "doc": "1071309_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 746,
+   "address": "217 Angell Street",
+   "field": "owner_or_agency",
+   "value": "217 Angell Investments LLC",
+   "date": "2020-08-20",
+   "doc": "996434_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 746,
+   "address": "217 Angell Street",
+   "field": "lot_area",
+   "value": 19514,
+   "date": "2020-06-16",
+   "doc": "994496_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 747,
+   "address": "219 Waterman Street",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2020-05-19",
+   "doc": "993402_4.txt",
+   "evidence": ""
+  },
+  {
+   "id": 751,
+   "address": "1117 Eddy Street",
+   "field": "num_stories",
+   "value": 5,
+   "date": "2020-04-21",
+   "doc": "992527_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 751,
+   "address": "1117 Eddy Street",
+   "field": "parking_spaces",
+   "value": 13,
+   "date": "2020-04-21",
+   "doc": "992527_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 751,
+   "address": "1117 Eddy Street",
+   "field": "asset_class",
+   "value": "self-storage",
+   "date": "2020-04-21",
+   "doc": "992527_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 753,
+   "address": "AP 47 Lots 153, 542, 543, 548, 809, \n810, 814 and 833",
+   "field": "architect",
+   "value": "Mark Sacoccio",
+   "date": "2020-02-18",
+   "doc": "990300_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 756,
+   "address": "189 WATERMAN STREET",
+   "field": "civil_engineer",
+   "value": "Ramzi Loqa, PE",
+   "date": "2019-12-11",
+   "doc": "986712_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 756,
+   "address": "189 WATERMAN STREET",
+   "field": "owner_or_agency",
+   "value": "189 WATERMAN STREET, LLC",
+   "date": "2019-12-11",
+   "doc": "986712_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 757,
+   "address": "21 Euclid Ave",
+   "field": "num_stories",
+   "value": 4,
+   "date": "2020-01-21",
+   "doc": "988985_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 757,
+   "address": "21 Euclid Ave",
+   "field": "architect",
+   "value": "Mark Rapp",
+   "date": "2020-01-21",
+   "doc": "988985_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 760,
+   "address": "481 Allens Ave",
+   "field": "asset_class",
+   "value": "industrial",
+   "date": "2020-01-21",
+   "doc": "988985_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 762,
+   "field": "residential_units",
+   "value": null,
+   "note": "sources disagree: ['183', '198', '214', '216']"
+  },
+  {
+   "id": 762,
+   "address": "198-200 Dyer Street",
+   "field": "architect",
+   "value": "Spagnolo Gisness Associates",
+   "date": "2025-02-10",
+   "doc": "1069986_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 767,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['eric zuena, scot woodin', 'scot woodin']"
+  },
+  {
+   "id": 768,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['randolph gerner', 'randy gerner']"
+  },
+  {
+   "id": 768,
+   "address": "151-155 Chestnut Street",
+   "field": "civil_engineer",
+   "value": "Robert Clinton",
+   "date": "2019-11-04",
+   "doc": "985330_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 768,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['providence chestnut 1, llc', 'providence chestnut i, llc', 'providence redevelopment agency']"
+  },
+  {
+   "id": 769,
+   "address": "233-261 Richmond Street",
+   "field": "architect",
+   "value": "Noah Biklen",
+   "date": "2023-10-16",
+   "doc": "1048745_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 769,
+   "address": "233-261 Richmond Street",
+   "field": "owner_or_agency",
+   "value": "Brown University",
+   "date": "2023-12-11",
+   "doc": "1051157_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 770,
+   "field": "residential_units",
+   "value": null,
+   "note": "sources disagree: ['0', '11', '6']"
+  },
+  {
+   "id": 770,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['monika kraemer', 'peter case']"
+  },
+  {
+   "id": 770,
+   "address": "71-73 Richmond Street",
+   "field": "owner_or_agency",
+   "value": "ELI SCHWARTZ",
+   "date": "2026-04-08",
+   "doc": "1087091_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 772,
+   "address": "126 Washington Street",
+   "field": "architect",
+   "value": "Joseph McPhee",
+   "date": "2022-05-09",
+   "doc": "1024623_1.txt",
+   "evidence": "Joseph McPhee, architect, appeared to discuss the proposal"
+  },
+  {
+   "id": 775,
+   "field": "asset_class",
+   "value": null,
+   "note": "sources disagree: ['other', 'retail']"
+  },
+  {
+   "id": 775,
+   "address": "31 Aborn Street",
+   "field": "owner_or_agency",
+   "value": "Providence Redevelopment Agency",
+   "date": "2019-03-14",
+   "doc": "975704_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 777,
+   "address": "229 Dyer Street",
+   "field": "owner_or_agency",
+   "value": "Providence Innovation District Phase I Owner, LLC",
+   "date": "2019-10-07",
+   "doc": "984083_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 780,
+   "address": "250 Dyer Street",
+   "field": "residential_units",
+   "value": 448,
+   "date": "2019-03-11",
+   "doc": "975287_0.txt",
+   "evidence": "approximately 448 residential units"
+  },
+  {
+   "id": 780,
+   "address": "250 Dyer Street",
+   "field": "architect",
+   "value": "Gianni Ria",
+   "date": "2019-04-08",
+   "doc": "976695_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 781,
+   "address": "203 Westminster Street",
+   "field": "architect",
+   "value": "ZDS, Inc.",
+   "date": "2018-12-10",
+   "doc": "970753_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 782,
+   "address": "579 Atwells Ave",
+   "field": "owner_or_agency",
+   "value": "The New England Expedition - Providence Retail, LLC",
+   "date": "2026-08-12",
+   "doc": "1091850_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 783,
+   "address": "583 Elmwood Ave",
+   "field": "owner_or_agency",
+   "value": "DERLYN LOPEZ",
+   "date": "2026-07-08",
+   "doc": "1090873_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 784,
+   "address": "68 Pleasant Valley Parkway",
+   "field": "civil_engineer",
+   "value": "Kelly Saleeba, Crossman Engineering",
+   "date": "2025-11-12",
+   "doc": "1068200_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 784,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['aim realty providence, llc', 'johnson & wales university']"
+  },
+  {
+   "id": 786,
+   "address": "275 Elmwood Ave",
+   "field": "architect",
+   "value": "Adam Anderson",
+   "date": "2026-06-03",
+   "doc": "1089451_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 786,
+   "address": "275 Elmwood Ave",
+   "field": "owner_or_agency",
+   "value": "PROVIDENCE PUBLIC LIBRARY",
+   "date": "2026-06-03",
+   "doc": "1089451_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 787,
+   "address": "30 Barbara St",
+   "field": "residential_units",
+   "value": 5,
+   "date": "2026-05-13",
+   "doc": "1088511_1.txt",
+   "evidence": "add a 5th dwelling unit to the existing 4-unit multi-family dwelling"
+  },
+  {
+   "id": 787,
+   "address": "30 Barbara St",
+   "field": "owner_or_agency",
+   "value": "Claire Montecalvo",
+   "date": "2026-05-13",
+   "doc": "1088511_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 787,
+   "address": "30 Barbara St",
+   "field": "lot_area",
+   "value": 8000,
+   "date": "2026-05-13",
+   "doc": "1088511_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 788,
+   "address": "78 FOUNTAIN STREET",
+   "field": "asset_class",
+   "value": "retail",
+   "date": "2026-05-13",
+   "doc": "1088511_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 788,
+   "address": "78 FOUNTAIN STREET",
+   "field": "owner_or_agency",
+   "value": "78 Fountain Street BAC, LLC",
+   "date": "2026-05-13",
+   "doc": "1088511_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 789,
+   "address": "255 Weybosset St",
+   "field": "owner_or_agency",
+   "value": "Snow Street Properties, LLC",
+   "date": "2026-05-13",
+   "doc": "1088511_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 790,
+   "address": "1088 North Main St",
+   "field": "asset_class",
+   "value": "retail",
+   "date": "2026-02-11",
+   "doc": "1084483_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 790,
+   "address": "1088 North Main St",
+   "field": "architect",
+   "value": "Edward Pimentel, AICP",
+   "date": "2026-02-11",
+   "doc": "1084483_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 790,
+   "address": "1088 North Main St",
+   "field": "owner_or_agency",
+   "value": "1100 NORTH MAIN, LLC",
+   "date": "2026-02-11",
+   "doc": "1084483_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 791,
+   "address": "680 Admiral St",
+   "field": "asset_class",
+   "value": "retail",
+   "date": "2026-02-11",
+   "doc": "1084483_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 791,
+   "address": "680 Admiral St",
+   "field": "owner_or_agency",
+   "value": "RAYMOND KEOUGH",
+   "date": "2026-02-11",
+   "doc": "1084483_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 792,
+   "address": "221 Academy Ave",
+   "field": "architect",
+   "value": "Jeffrey Lykins",
+   "date": "2022-05-11",
+   "doc": "1024367_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 792,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['r a realty', 'ra realty']"
+  },
+  {
+   "id": 795,
+   "address": "963 North Main St",
+   "field": "asset_class",
+   "value": "retail",
+   "date": "2025-06-04",
+   "doc": "1068195_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 795,
+   "address": "963 North Main St",
+   "field": "civil_engineer",
+   "value": "Nick Kelling, EIT",
+   "date": "2025-06-04",
+   "doc": "1068195_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 795,
+   "address": "963 North Main St",
+   "field": "owner_or_agency",
+   "value": "RAB PROPERTIES, LLC",
+   "date": "2025-06-04",
+   "doc": "1068195_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 796,
+   "address": "134 Ives St",
+   "field": "asset_class",
+   "value": "retail",
+   "date": "2024-10-30",
+   "doc": "1052248_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 796,
+   "address": "134 Ives St",
+   "field": "owner_or_agency",
+   "value": "NO SMALL FEAT, LLC",
+   "date": "2025-05-14",
+   "doc": "1068194_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 798,
+   "address": "372 Plainfield St",
+   "field": "architect",
+   "value": "Bryan Michie & Antonio Timarchi",
+   "date": "2024-10-30",
+   "doc": "1052248_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 798,
+   "address": "372 Plainfield St",
+   "field": "owner_or_agency",
+   "value": "DIONICIO VALERIO NUNEZ",
+   "date": "2024-12-11",
+   "doc": "1052250_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 799,
+   "address": "100 Randall Street",
+   "field": "owner_or_agency",
+   "value": "Charlesgate Nursing Center",
+   "date": "2024-11-13",
+   "doc": "1052249_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 800,
+   "address": "425 Washington St",
+   "field": "asset_class",
+   "value": "other",
+   "date": "2024-10-30",
+   "doc": "1052248_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 800,
+   "address": "425 Washington St",
+   "field": "owner_or_agency",
+   "value": "Edward E Voccola Revocable Intervivos Trust",
+   "date": "2024-10-30",
+   "doc": "1052248_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 801,
+   "address": "5 Marvin St",
+   "field": "architect",
+   "value": "Haley Hardwick-Whitman",
+   "date": "2024-02-14",
+   "doc": "1052240_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 801,
+   "address": "5 Marvin St",
+   "field": "owner_or_agency",
+   "value": "Shawn Gilheeney",
+   "date": "2024-08-14",
+   "doc": "1052246_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 802,
+   "address": "77 Union Ave",
+   "field": "owner_or_agency",
+   "value": "Duran's Enterprise LLC",
+   "date": "2024-07-10",
+   "doc": "1052245_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 803,
+   "address": "712 Admiral St",
+   "field": "owner_or_agency",
+   "value": "LA BRASA REALTY, LLC",
+   "date": "2024-06-05",
+   "doc": "1052244_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 804,
+   "address": "55 Courtland St",
+   "field": "owner_or_agency",
+   "value": "JASON SHECHTMAN & OFF BROADWAY PROPERTIES, LLC",
+   "date": "2024-06-05",
+   "doc": "1052244_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 808,
+   "address": "516 Plainfield Street",
+   "field": "owner_or_agency",
+   "value": "Maria Giron",
+   "date": "2024-04-10",
+   "doc": "1052242_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 809,
+   "address": "393-399 Westminster St",
+   "field": "owner_or_agency",
+   "value": "EMPIRE FINANCIAL GROUP, LLC",
+   "date": "2023-11-08",
+   "doc": "1049462_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 811,
+   "address": "124 Webster Ave",
+   "field": "civil_engineer",
+   "value": "Ramzi Loqa, PE",
+   "date": "2023-06-07",
+   "doc": "1043755_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 811,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['1017 broad llc', '1070 broad llc']"
+  },
+  {
+   "id": 812,
+   "address": "265 Union Avenue",
+   "field": "owner_or_agency",
+   "value": "WILBER PENA",
+   "date": "2023-06-07",
+   "doc": "1043755_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 813,
+   "address": "362 Ives St",
+   "field": "asset_class",
+   "value": "mixed-use",
+   "date": "2023-03-08",
+   "doc": "1037665_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 813,
+   "address": "362 Ives St",
+   "field": "civil_engineer",
+   "value": "Paul Carlson",
+   "date": "2023-03-08",
+   "doc": "1037665_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 813,
+   "address": "362 Ives St",
+   "field": "owner_or_agency",
+   "value": "WATERMAN AND IVES REALTY, LLC",
+   "date": "2023-03-08",
+   "doc": "1037665_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 814,
+   "address": "679 Valley St",
+   "field": "owner_or_agency",
+   "value": "TEATRO GROUP, LLC",
+   "date": "2023-02-08",
+   "doc": "1036438_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 815,
+   "address": "896 Atwells Avenue",
+   "field": "owner_or_agency",
+   "value": "ANA CRISTINA PEREZ",
+   "date": "2023-02-08",
+   "doc": "1036438_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 816,
+   "address": "1481 Broad St",
+   "field": "asset_class",
+   "value": "retail",
+   "date": "2022-06-08",
+   "doc": "1025638_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 816,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: ['bohler engineering', 'eric dubrule, bohler engineering', 'jeff bord, bohler engineering']"
+  },
+  {
+   "id": 816,
+   "address": "1481 Broad St",
+   "field": "owner_or_agency",
+   "value": "MCDONALD'S USA, LLC",
+   "date": "2023-02-08",
+   "doc": "1036438_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 817,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['25 bough, llc', 'cathedral of life christian assembly']"
+  },
+  {
+   "id": 818,
+   "address": "235 West Park St",
+   "field": "owner_or_agency",
+   "value": "Monty Gold",
+   "date": "2023-01-18",
+   "doc": "1035139_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 819,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['cheryl j. dumont trustee', 'lge realty llc']"
+  },
+  {
+   "id": 820,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['david sisson', 'matthew clemence']"
+  },
+  {
+   "id": 820,
+   "address": "518 Lloyd Ave",
+   "field": "civil_engineer",
+   "value": "David Bray, PE",
+   "date": "2023-01-11",
+   "doc": "1035018_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 820,
+   "address": "518 Lloyd Ave",
+   "field": "owner_or_agency",
+   "value": "MONTESSORI CHILDREN'S HOUSE, INC.",
+   "date": "2023-01-11",
+   "doc": "1035018_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 821,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['david sisson', 'eric zuena', 'eric zuena & ron stevenson']"
+  },
+  {
+   "id": 821,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['blue dog capital partners, llc', 'one custom house street', 'touchdown realty group, llc']"
+  },
+  {
+   "id": 822,
+   "address": "265 Manton Avenue",
+   "field": "architect",
+   "value": "Miriam Spear",
+   "date": "2022-11-09",
+   "doc": "1032449_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 822,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: ['kurt stenberg, pe', 'paul marks']"
+  },
+  {
+   "id": 822,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['manton development partners, llc', 'providence redevelopment agency', 'providence redevelopment authority']"
+  },
+  {
+   "id": 823,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['michael salvatore & michael salvatore/valley realty holding co.', 'michael salvatore/valley realty holding co.']"
+  },
+  {
+   "id": 824,
+   "address": "288 Kinsley Ave",
+   "field": "civil_engineer",
+   "value": "Dana Nisbet, Paul Bannon",
+   "date": "2021-12-14",
+   "doc": "1017780_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 824,
+   "address": "288 Kinsley Ave",
+   "field": "owner_or_agency",
+   "value": "OGN, LLC",
+   "date": "2022-10-12",
+   "doc": "1031261_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 826,
+   "address": "215 BROADWAY",
+   "field": "asset_class",
+   "value": "mixed-use",
+   "date": "2021-06-09",
+   "doc": "1009408_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 826,
+   "address": "215 BROADWAY",
+   "field": "architect",
+   "value": "Peter Casale",
+   "date": "2021-06-09",
+   "doc": "1009408_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 826,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['215 broadway llc', 'aref shehadeh']"
+  },
+  {
+   "id": 826,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['9045', '9200']"
+  },
+  {
+   "id": 827,
+   "address": "381 Angell St",
+   "field": "civil_engineer",
+   "value": "Ramzi Loqa",
+   "date": "2021-05-12",
+   "doc": "1008080_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 827,
+   "address": "381 Angell St",
+   "field": "owner_or_agency",
+   "value": "Borna Properties",
+   "date": "2022-08-10",
+   "doc": "1028763_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 827,
+   "address": "381 Angell St",
+   "field": "lot_area",
+   "value": 5725,
+   "date": "2022-08-10",
+   "doc": "1028763_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 828,
+   "address": "60 Gano St",
+   "field": "owner_or_agency",
+   "value": "FOX POINT REAL ESTATE, LLC",
+   "date": "2022-05-11",
+   "doc": "1024367_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 829,
+   "address": "145 Manton Ave",
+   "field": "asset_class",
+   "value": "retail",
+   "date": "2021-11-17",
+   "doc": "1013658_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 829,
+   "address": "145 Manton Ave",
+   "field": "owner_or_agency",
+   "value": "Navarrete Tire Shop & Repair, LLC",
+   "date": "2021-11-17",
+   "doc": "1013658_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 830,
+   "address": "607-575 Potters Ave",
+   "field": "architect",
+   "value": "Martin Ezeama",
+   "date": "2022-02-02",
+   "doc": "1019582_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 830,
+   "address": "607-575 Potters Ave",
+   "field": "owner_or_agency",
+   "value": "Salem Gospel Mission International",
+   "date": "2022-02-02",
+   "doc": "1019582_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 831,
+   "address": "70 Virginia Ave",
+   "field": "owner_or_agency",
+   "value": "The Narragansett Electric Company",
+   "date": "2021-11-17",
+   "doc": "1013658_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 832,
+   "address": "369 Broadway",
+   "field": "residential_units",
+   "value": 1,
+   "date": "2021-04-14",
+   "doc": "1006794_1.txt",
+   "evidence": "multifamily family structure"
+  },
+  {
+   "id": 832,
+   "address": "369 Broadway",
+   "field": "architect",
+   "value": "Kevin Diamond",
+   "date": "2021-10-13",
+   "doc": "1013657_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 832,
+   "address": "369 Broadway",
+   "field": "owner_or_agency",
+   "value": "DUSTIN DEZUBE",
+   "date": "2021-10-13",
+   "doc": "1013657_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 833,
+   "field": "asset_class",
+   "value": null,
+   "note": "sources disagree: ['industrial', 'other']"
+  },
+  {
+   "id": 833,
+   "address": "165 Dexter St",
+   "field": "owner_or_agency",
+   "value": "JOSE GALAVIZ",
+   "date": "2021-10-13",
+   "doc": "1013657_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 834,
+   "address": "338 Allens Ave",
+   "field": "owner_or_agency",
+   "value": "Cumberland Farms, Inc.",
+   "date": "2021-10-13",
+   "doc": "1013657_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 835,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: ['sophia narkiewicz, pe', 'sophia narkiewicz, pe, gza']"
+  },
+  {
+   "id": 835,
+   "address": "280 Melrose St",
+   "field": "owner_or_agency",
+   "value": "The Narragansett Electric Company",
+   "date": "2021-07-14",
+   "doc": "1010785_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 836,
+   "address": "508 Prairie Ave",
+   "field": "owner_or_agency",
+   "value": "Anibal Tillett",
+   "date": "2021-06-09",
+   "doc": "1009408_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 837,
+   "address": "418 Broad St",
+   "field": "asset_class",
+   "value": "retail",
+   "date": "2021-04-14",
+   "doc": "1006794_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 837,
+   "address": "418 Broad St",
+   "field": "civil_engineer",
+   "value": "Huseyin Sevincgil, PE",
+   "date": "2021-04-14",
+   "doc": "1006794_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 837,
+   "address": "418 Broad St",
+   "field": "owner_or_agency",
+   "value": "D.E. Foods, Inc.",
+   "date": "2021-04-14",
+   "doc": "1006794_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 838,
+   "address": "189 Ontario St",
+   "field": "owner_or_agency",
+   "value": "Larissa Sayig",
+   "date": "2021-03-10",
+   "doc": "1005207_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 839,
+   "address": "107 Hope St",
+   "field": "owner_or_agency",
+   "value": "Kenneth Sabbagh",
+   "date": "2021-02-10",
+   "doc": "1003843_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 840,
+   "address": "62 Hartford Ave",
+   "field": "asset_class",
+   "value": "retail",
+   "date": "2021-02-10",
+   "doc": "1003843_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 840,
+   "address": "62 Hartford Ave",
+   "field": "owner_or_agency",
+   "value": "Jan Co Central Inc",
+   "date": "2021-02-10",
+   "doc": "1003843_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 841,
+   "address": "41 Central St",
+   "field": "owner_or_agency",
+   "value": "Yet Another LLC",
+   "date": "2021-02-10",
+   "doc": "1003843_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 842,
+   "address": "245 Carpenter St",
+   "field": "architect",
+   "value": "Peter Casale",
+   "date": "2021-01-13",
+   "doc": "1002397_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 842,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['llc timpano', 'timpano llc']"
+  },
+  {
+   "id": 843,
+   "address": "1 Fields Point Dr",
+   "field": "num_stories",
+   "value": 364,
+   "date": "2018-11-14",
+   "doc": "969281_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 843,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: ['kevin morin', 'kevin morin, pe']"
+  },
+  {
+   "id": 843,
+   "address": "1 Fields Point Dr",
+   "field": "owner_or_agency",
+   "value": "PROVPORT, INC",
+   "date": "2020-11-18",
+   "doc": "1000133_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 844,
+   "address": "200 Exchange Street",
+   "field": "owner_or_agency",
+   "value": "Jacky Ko",
+   "date": "2020-10-14",
+   "doc": "998637_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 845,
+   "address": "445 Promenade St",
+   "field": "civil_engineer",
+   "value": "Todd Markevicz, PE",
+   "date": "2020-09-09",
+   "doc": "997292_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 845,
+   "address": "445 Promenade St",
+   "field": "owner_or_agency",
+   "value": "Jan Co Central Inc",
+   "date": "2020-09-09",
+   "doc": "997292_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 846,
+   "field": "asset_class",
+   "value": null,
+   "note": "sources disagree: ['office', 'retail']"
+  },
+  {
+   "id": 846,
+   "address": "280 VALLET STREET",
+   "field": "civil_engineer",
+   "value": "Alan Roscoe, PE, Core States Group",
+   "date": "2020-06-10",
+   "doc": "993965_4.txt",
+   "evidence": ""
+  },
+  {
+   "id": 846,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['280 vallet street, llc', '280 valley street, llc']"
+  },
+  {
+   "id": 848,
+   "address": "225 Broadway",
+   "field": "owner_or_agency",
+   "value": "ARTA ON BROADWAY LLC",
+   "date": "2020-02-12",
+   "doc": "989562_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 849,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['paul hauser, vision 3 architects', 'vision 3 architects']"
+  },
+  {
+   "id": 849,
+   "address": "321 South Main St",
+   "field": "owner_or_agency",
+   "value": "321 SMS PARTNERS LLC",
+   "date": "2020-01-16",
+   "doc": "987986_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 850,
+   "address": "10 Dorrance Street",
+   "field": "owner_or_agency",
+   "value": "ROBERT DAY, LLC",
+   "date": "2019-11-13",
+   "doc": "985349_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 851,
+   "address": "593 Hartford Ave",
+   "field": "owner_or_agency",
+   "value": "CARMINE R. VALLANTE",
+   "date": "2019-11-13",
+   "doc": "985349_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 852,
+   "address": "436 West Fountain St",
+   "field": "asset_class",
+   "value": "other",
+   "date": "2019-10-16",
+   "doc": "984191_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 852,
+   "address": "436 West Fountain St",
+   "field": "owner_or_agency",
+   "value": "RCG Cobblestone LLC",
+   "date": "2019-10-16",
+   "doc": "984191_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 853,
+   "address": "382 Thayer St",
+   "field": "owner_or_agency",
+   "value": "NINA'S REALTY ASSOCIATES",
+   "date": "2019-08-14",
+   "doc": "981772_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 855,
+   "address": "642 CRANSTON ST",
+   "field": "asset_class",
+   "value": "other",
+   "date": "2019-06-12",
+   "doc": "979415_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 855,
+   "address": "642 CRANSTON ST",
+   "field": "owner_or_agency",
+   "value": "642 Cranston St, LLC",
+   "date": "2019-06-12",
+   "doc": "979415_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 856,
+   "address": "201 Arlington Ave",
+   "field": "owner_or_agency",
+   "value": "Michael R. Olivia and Michael Booth",
+   "date": "2019-05-08",
+   "doc": "977778_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 857,
+   "address": "136 Silver Lake Ave",
+   "field": "asset_class",
+   "value": "other",
+   "date": "2019-03-13",
+   "doc": "974965_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 857,
+   "address": "136 Silver Lake Ave",
+   "field": "owner_or_agency",
+   "value": "Silver Lake Properties",
+   "date": "2019-03-13",
+   "doc": "974965_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 858,
+   "address": "88 Union Ave",
+   "field": "architect",
+   "value": "Joseph McPhee",
+   "date": "2019-03-13",
+   "doc": "974965_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 858,
+   "address": "88 Union Ave",
+   "field": "owner_or_agency",
+   "value": "IRIS LECLERC",
+   "date": "2019-03-13",
+   "doc": "974965_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 859,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['pri xiv, lp', 'pri xiv, lp.']"
+  },
+  {
+   "id": 861,
+   "address": "292 Pocasset Ave",
+   "field": "owner_or_agency",
+   "value": "YANET SUERO",
+   "date": "2018-10-10",
+   "doc": "845083_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 862,
+   "address": "54 South St",
+   "field": "owner_or_agency",
+   "value": "SS KYLTIFF, LLC",
+   "date": "2018-10-10",
+   "doc": "845083_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 863,
+   "address": "7 Mount Hope Ave",
+   "field": "owner_or_agency",
+   "value": "IMPERIAL INVESTMENTS, INC",
+   "date": "2018-09-17",
+   "doc": "843641_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 864,
+   "address": "434 -450 Brook St",
+   "field": "asset_class",
+   "value": "other",
+   "date": "2018-07-11",
+   "doc": "840942_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 864,
+   "address": "434 -450 Brook St",
+   "field": "owner_or_agency",
+   "value": "Farview, Inc.",
+   "date": "2018-07-11",
+   "doc": "840942_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 865,
+   "address": "650 Hartford Ave",
+   "field": "asset_class",
+   "value": "other",
+   "date": "2018-06-13",
+   "doc": "833324_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 865,
+   "address": "650 Hartford Ave",
+   "field": "owner_or_agency",
+   "value": "Orlando Correia",
+   "date": "2018-07-11",
+   "doc": "840942_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 866,
+   "address": "551 Union Ave",
+   "field": "asset_class",
+   "value": "other",
+   "date": "2018-06-13",
+   "doc": "833324_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 866,
+   "address": "551 Union Ave",
+   "field": "owner_or_agency",
+   "value": "Ybelehiny Tavarez",
+   "date": "2018-06-13",
+   "doc": "833324_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 867,
+   "address": "547 Park Avenue",
+   "field": "owner_or_agency",
+   "value": "YOLANDA ROSA",
+   "date": "2026-08-12",
+   "doc": "1091479_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 867,
+   "address": "547 Park Avenue",
+   "field": "lot_area",
+   "value": 5989,
+   "date": "2026-08-12",
+   "doc": "1091479_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 869,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['force realty llc.', 'force realty, llc']"
+  },
+  {
+   "id": 869,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['12886', '2992']"
+  },
+  {
+   "id": 872,
+   "address": "175 Farmington Avenue",
+   "field": "residential_units",
+   "value": 1,
+   "date": "2025-03-12",
+   "doc": "1071050_0.txt",
+   "evidence": "construct a single-family dwelling"
+  },
+  {
+   "id": 872,
+   "address": "175 Farmington Avenue",
+   "field": "owner_or_agency",
+   "value": "Heidy C. Paz",
+   "date": "2025-04-09",
+   "doc": "1072049_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 872,
+   "address": "175 Farmington Avenue",
+   "field": "lot_area",
+   "value": 4500,
+   "date": "2025-04-09",
+   "doc": "1072049_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 874,
+   "address": "27 Hemlock Avenue",
+   "field": "residential_units",
+   "value": 1,
+   "date": "2025-02-12",
+   "doc": "1069465_0.txt",
+   "evidence": "leave an existing single-family dwelling"
+  },
+  {
+   "id": 874,
+   "address": "27 Hemlock Avenue",
+   "field": "owner_or_agency",
+   "value": "COBBLE HILL DEVELOPMENT, LLC",
+   "date": "2025-02-12",
+   "doc": "1069465_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 874,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['15719', '19319']"
+  },
+  {
+   "id": 875,
+   "address": "11 Dart Street",
+   "field": "owner_or_agency",
+   "value": "Imperial Apartments, LLC",
+   "date": "2025-01-30",
+   "doc": "1069521_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 875,
+   "address": "11 Dart Street",
+   "field": "lot_area",
+   "value": 17554,
+   "date": "2025-01-30",
+   "doc": "1069521_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 878,
+   "address": "320 Scituate Ave",
+   "field": "parking_spaces",
+   "value": 47,
+   "date": "2018-04-11",
+   "doc": "828781_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 878,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['carpionato properties, inc. and alfred carpionato', 'carpionato properties, inc; alfred carpionato c/o carol deangelis; west bay, llc', 'carpionato properties, inc; alfred carpionato; west bay, llc']"
+  },
+  {
+   "id": 878,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['30322', '304747', '375877']"
+  },
+  {
+   "id": 879,
+   "address": "41 Heath Avenue",
+   "field": "residential_units",
+   "value": 4,
+   "date": "2023-02-08",
+   "doc": "1036124_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 879,
+   "address": "41 Heath Avenue",
+   "field": "owner_or_agency",
+   "value": "The City of Cranston",
+   "date": "2023-02-08",
+   "doc": "1036124_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 879,
+   "address": "41 Heath Avenue",
+   "field": "lot_area",
+   "value": 5640,
+   "date": "2023-02-08",
+   "doc": "1036124_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 880,
+   "address": "425 West Shore Rd",
+   "field": "residential_units",
+   "value": 3,
+   "date": "2021-06-08",
+   "doc": "1009584_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 880,
+   "address": "425 West Shore Rd",
+   "field": "site_acreage",
+   "value": 2.4,
+   "date": "2021-06-08",
+   "doc": "1009584_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 881,
+   "address": "240 Shawomet Ave",
+   "field": "residential_units",
+   "value": 1,
+   "date": "2023-10-10",
+   "doc": "1048117_0.txt",
+   "evidence": "accessory dwelling unit (ADU)"
+  },
+  {
+   "id": 882,
+   "address": "1689 Post Rd",
+   "field": "parking_spaces",
+   "value": 128,
+   "date": "2023-11-14",
+   "doc": "1049589_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 882,
+   "address": "1689 Post Rd",
+   "field": "architect",
+   "value": "John Carter, Registered Landscape Architect",
+   "date": "2022-08-09",
+   "doc": "1029154_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 882,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: ['dana nisbet', 'dennis diprette']"
+  },
+  {
+   "id": 883,
+   "address": "2055 Warwick Avenue",
+   "field": "parking_spaces",
+   "value": 31,
+   "date": "2021-08-31",
+   "doc": "1012119_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 883,
+   "address": "2055 Warwick Avenue",
+   "field": "asset_class",
+   "value": "retail",
+   "date": "2022-05-19",
+   "doc": "1025038_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 883,
+   "address": "2055 Warwick Avenue",
+   "field": "architect",
+   "value": "John Carter",
+   "date": "2021-08-31",
+   "doc": "1012119_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 883,
+   "address": "2055 Warwick Avenue",
+   "field": "civil_engineer",
+   "value": "DiPrete Engineering",
+   "date": "2021-08-31",
+   "doc": "1012119_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 883,
+   "address": "2055 Warwick Avenue",
+   "field": "owner_or_agency",
+   "value": "Colbea Enterprises, LLC",
+   "date": "2022-05-10",
+   "doc": "1024705_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 888,
+   "address": "6 Oakland Beach Ave",
+   "field": "num_stories",
+   "value": 2,
+   "date": "2021-12-14",
+   "doc": "1017417_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 890,
+   "address": "800 Toll Gate Rd",
+   "field": "developer",
+   "value": "Warwick Family Dental Group LLC & MSS Twelve Realty, LLC",
+   "date": "2021-11-09",
+   "doc": "1015094_3.txt",
+   "evidence": ""
+  },
+  {
+   "id": 893,
+   "address": "2055 Warwick Ave",
+   "field": "parking_spaces",
+   "value": 31,
+   "date": "2021-08-31",
+   "doc": "1012119_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 893,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['john carter', 'john carter, registered landscape architect']"
+  },
+  {
+   "id": 893,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: ['diprete engineering', 'leonard r. bradley, diprete engineering']"
+  },
+  {
+   "id": 893,
+   "address": "2055 Warwick Ave",
+   "field": "owner_or_agency",
+   "value": "Colbea Enterprises, LLC",
+   "date": "2022-05-10",
+   "doc": "1024705_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 895,
+   "address": "641 Bald Hill Rd",
+   "field": "architect",
+   "value": "David Sisson",
+   "date": "2022-09-13",
+   "doc": "1030289_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 895,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['kenneth persechino', 'kenneth persechino & lakewood realty trust']"
+  },
+  {
+   "id": 897,
+   "address": "30 Jefferson Blvd",
+   "field": "civil_engineer",
+   "value": "Steven Cabral",
+   "date": "2019-08-13",
+   "doc": "982248_2.txt",
+   "evidence": ""
+  },
+  {
+   "id": 898,
+   "address": "30 Randall Ave",
+   "field": "residential_units",
+   "value": 1,
+   "date": "2019-08-13",
+   "doc": "982248_0.txt",
+   "evidence": ""
   }
  ],
  "withdrawn": [
+  {
+   "id": 481,
+   "address": "149 Governor Street",
+   "outcome": null,
+   "date": "2026-01-14",
+   "doc": "1083623_0.txt",
+   "evidence": "MATTER WITHDRAWN"
+  },
+  {
+   "id": 481,
+   "address": "149 Governor Street",
+   "outcome": null,
+   "date": "2026-01-14",
+   "doc": "1083623_3.txt",
+   "evidence": "MATTER WITHDRAWN PRIOR TO HEARING"
+  },
+  {
+   "id": 481,
+   "address": "149 Governor Street",
+   "outcome": null,
+   "date": "2026-01-14",
+   "doc": "1083623_2.txt",
+   "evidence": "MATTER WITHDRAWN PRIOR TO HEARING"
+  },
+  {
+   "id": 517,
+   "address": "1016 Park Avenue",
+   "outcome": "withdrawn",
+   "date": "2025-10-08",
+   "doc": "1078937_2.txt",
+   "evidence": "THIS APPLICATION WAS WITHDRAWN BY THE APPLICANT."
+  },
+  {
+   "id": 521,
+   "address": "35 Lake Street",
+   "outcome": "denied",
+   "date": "2026-04-07",
+   "doc": "1087365_1.txt",
+   "evidence": "denied"
+  },
   {
    "id": 529,
    "address": "0 Plainfield Pike",
@@ -146,6 +4308,118 @@
    "date": "2018-03-14",
    "doc": "814041_1.txt",
    "evidence": "denied"
+  },
+  {
+   "id": 535,
+   "address": "5 Aborn Street",
+   "outcome": "denied",
+   "date": "2022-03-09",
+   "doc": "1021278_1.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 539,
+   "address": "538 Main Street",
+   "outcome": "withdrawn",
+   "date": "2025-10-07",
+   "doc": "1079215_3.txt",
+   "evidence": "applicant is requesting to withdraw the application"
+  },
+  {
+   "id": 539,
+   "address": "538 Main Street",
+   "outcome": "withdrawn",
+   "date": "2025-10-07",
+   "doc": "1079215_0.txt",
+   "evidence": "WITHDRAWAL REQUEST"
+  },
+  {
+   "id": 539,
+   "address": "538 Main Street",
+   "outcome": "withdrawn",
+   "date": "2025-10-07",
+   "doc": "1079215_1.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 548,
+   "address": "546 Smithfield Avenue",
+   "outcome": "withdrawn",
+   "date": "2026-01-20",
+   "doc": "1084012_1.txt",
+   "evidence": "THE APPLICANT HAS REQUESTED TO WITHDRAW THIS APPLICATION WITHOUT PREJUDICE AS OF 1/12/25"
+  },
+  {
+   "id": 548,
+   "address": "546 Smithfield Avenue",
+   "outcome": "withdrawn",
+   "date": "2026-01-20",
+   "doc": "1084012_0.txt",
+   "evidence": "THE APPLICANT HAS REQUESTED TO WITHDRAW THIS APPLICATION WITHOUT PREJUDICE AS OF 1/12/25"
+  },
+  {
+   "id": 572,
+   "address": "160 Carroll Avenue",
+   "outcome": "withdrawn",
+   "date": "2023-08-21",
+   "doc": "1046717_1.txt",
+   "evidence": "withdrawal request was considered and accepted"
+  },
+  {
+   "id": 572,
+   "address": "160 Carroll Avenue",
+   "outcome": null,
+   "date": "2023-08-21",
+   "doc": "1046717_0.txt",
+   "evidence": "Request to Withdraw"
+  },
+  {
+   "id": 573,
+   "address": "25 Waites Wharf",
+   "outcome": "denied",
+   "date": "2023-12-18",
+   "doc": "1051781_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 577,
+   "address": "3275 POST ROAD",
+   "outcome": null,
+   "date": "2026-06-10",
+   "doc": "1090043_0.txt",
+   "evidence": "APPLICATION TO BE WITHDRAWN INDEFINITELY WITHOUT PRE JUDICE"
+  },
+  {
+   "id": 612,
+   "address": "659 – 663 Admiral Street",
+   "outcome": null,
+   "date": "2022-06-21",
+   "doc": "1026428_2.txt",
+   "evidence": "the item would not be heard due to a noticing error"
+  },
+  {
+   "id": 612,
+   "address": "659 – 663 Admiral Street",
+   "outcome": null,
+   "date": "2022-06-21",
+   "doc": "1026428_0.txt",
+   "evidence": "The item was noticed but will not be heard at the meeting."
+  },
+  {
+   "id": 658,
+   "address": "740 Plainfield Street",
+   "outcome": "withdrawn",
+   "date": "2023-04-18",
+   "doc": "1041876_1.txt",
+   "evidence": "The applicant has withdrawn the application"
+  },
+  {
+   "id": 658,
+   "address": "740 Plainfield Street",
+   "outcome": null,
+   "date": "2023-04-18",
+   "doc": "1041876_0.txt",
+   "evidence": "The applicant has withdrawn the application"
   },
   {
    "id": 669,
@@ -170,13 +4444,399 @@
    "date": "2022-09-14",
    "doc": "1030030_1.txt",
    "evidence": "withdrawn"
+  },
+  {
+   "id": 699,
+   "address": "18 Eighth St",
+   "outcome": "withdrawn",
+   "date": "2018-09-17",
+   "doc": "843641_3.txt",
+   "evidence": "WITHDRAWN WITHOUT PREJUDICE VIA LETTER TO THE ZONING BOARD DATED 08.01.2018"
+  },
+  {
+   "id": 699,
+   "address": "18 Eighth St",
+   "outcome": "withdrawn",
+   "date": "2018-09-17",
+   "doc": "843641_2.txt",
+   "evidence": "WITHDRAWN WITHOUT PREJUDICE VIA LETTER TO THE ZONING BOARD DATED 08.01.2018"
+  },
+  {
+   "id": 699,
+   "address": "18 Eighth St",
+   "outcome": "withdrawn",
+   "date": "2018-09-17",
+   "doc": "843641_1.txt",
+   "evidence": "WITHDRAWN WITHOUT PREJUDICE VIA LETTER TO THE ZONING BOARD DATED 08.01.2018"
+  },
+  {
+   "id": 702,
+   "address": "288 Kinsley Ave",
+   "outcome": "denied",
+   "date": "2022-10-12",
+   "doc": "1031261_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 702,
+   "address": "288 Kinsley Ave",
+   "outcome": "denied",
+   "date": "2022-10-12",
+   "doc": "1031261_1.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 707,
+   "address": "45-47 America St",
+   "outcome": "denied",
+   "date": "2019-04-10",
+   "doc": "976440_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 707,
+   "address": "45-47 America St",
+   "outcome": "denied",
+   "date": "2019-04-10",
+   "doc": "976440_1.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 743,
+   "address": "946-1000 Westminster Street",
+   "outcome": "denied",
+   "date": "2020-03-11",
+   "doc": "990998_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 756,
+   "address": "189 WATERMAN STREET",
+   "outcome": "denied",
+   "date": "2019-12-11",
+   "doc": "986712_3.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 756,
+   "address": "189 WATERMAN STREET",
+   "outcome": "denied",
+   "date": "2019-12-11",
+   "doc": "986712_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 768,
+   "address": "151-155 Chestnut Street",
+   "outcome": "denied",
+   "date": "2020-01-16",
+   "doc": "987986_3.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 768,
+   "address": "151-155 Chestnut Street",
+   "outcome": "denied",
+   "date": "2020-01-16",
+   "doc": "987986_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 768,
+   "address": "151-155 Chestnut Street",
+   "outcome": null,
+   "date": "2024-01-24",
+   "doc": "1052239_0.txt",
+   "evidence": "WITHDRAWN"
+  },
+  {
+   "id": 780,
+   "address": "250 Dyer Street",
+   "outcome": "denied",
+   "date": "2019-04-08",
+   "doc": "976695_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 780,
+   "address": "250 Dyer Street",
+   "outcome": "denied",
+   "date": "2019-04-08",
+   "doc": "976695_1.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 791,
+   "address": "680 Admiral St",
+   "outcome": "denied",
+   "date": "2026-02-11",
+   "doc": "1084483_3.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 791,
+   "address": "680 Admiral St",
+   "outcome": "denied",
+   "date": "2026-02-11",
+   "doc": "1084483_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 798,
+   "address": "372 Plainfield St",
+   "outcome": null,
+   "date": "2024-12-11",
+   "doc": "1052250_3.txt",
+   "evidence": "THIS MATTER HAS BEEN WITHDRAWN BY THE APPLICANT"
+  },
+  {
+   "id": 798,
+   "address": "372 Plainfield St",
+   "outcome": "withdrawn",
+   "date": "2024-12-11",
+   "doc": "1052250_2.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 816,
+   "address": "1481 Broad St",
+   "outcome": "denied",
+   "date": "2023-02-08",
+   "doc": "1036438_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 816,
+   "address": "1481 Broad St",
+   "outcome": "denied",
+   "date": "2023-02-08",
+   "doc": "1036438_1.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 818,
+   "address": "235 West Park St",
+   "outcome": "withdrawn",
+   "date": "2023-01-18",
+   "doc": "1035139_2.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 818,
+   "address": "235 West Park St",
+   "outcome": "withdrawn",
+   "date": "2023-01-18",
+   "doc": "1035139_1.txt",
+   "evidence": "MATTER WITHDRAWN BY THE OWNER IN WRITING ON 01.12.2023"
+  },
+  {
+   "id": 819,
+   "address": "91 Hope St",
+   "outcome": "withdrawn",
+   "date": "2024-05-08",
+   "doc": "1052243_3.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 819,
+   "address": "91 Hope St",
+   "outcome": "withdrawn",
+   "date": "2024-05-08",
+   "doc": "1052243_2.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 824,
+   "address": "288 Kinsley Ave",
+   "outcome": "denied",
+   "date": "2022-10-12",
+   "doc": "1031261_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 824,
+   "address": "288 Kinsley Ave",
+   "outcome": "denied",
+   "date": "2022-10-12",
+   "doc": "1031261_1.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 826,
+   "address": "215 BROADWAY",
+   "outcome": "withdrawn",
+   "date": "2021-04-14",
+   "doc": "1006794_3.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 826,
+   "address": "215 BROADWAY",
+   "outcome": "withdrawn",
+   "date": "2021-04-14",
+   "doc": "1006794_2.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 826,
+   "address": "215 BROADWAY",
+   "outcome": "denied",
+   "date": "2021-06-09",
+   "doc": "1009408_3.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 826,
+   "address": "215 BROADWAY",
+   "outcome": "denied",
+   "date": "2021-06-09",
+   "doc": "1009408_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 834,
+   "address": "338 Allens Ave",
+   "outcome": "denied",
+   "date": "2021-10-13",
+   "doc": "1013657_3.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 834,
+   "address": "338 Allens Ave",
+   "outcome": "denied",
+   "date": "2021-10-13",
+   "doc": "1013657_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 853,
+   "address": "382 Thayer St",
+   "outcome": "withdrawn",
+   "date": "2019-08-14",
+   "doc": "981772_2.txt",
+   "evidence": "A MOTION WAS MADE BY THE APPLICANT TO WITHDRAWN THE APPLICATION WITHOUT PREJUDICE"
+  },
+  {
+   "id": 853,
+   "address": "382 Thayer St",
+   "outcome": "withdrawn",
+   "date": "2019-08-14",
+   "doc": "981772_1.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 857,
+   "address": "136 Silver Lake Ave",
+   "outcome": "withdrawn",
+   "date": "2019-03-13",
+   "doc": "974965_3.txt",
+   "evidence": "THIS APPLICATION WILL BE WITHDRAWN"
+  },
+  {
+   "id": 857,
+   "address": "136 Silver Lake Ave",
+   "outcome": "withdrawn",
+   "date": "2019-03-13",
+   "doc": "974965_2.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 865,
+   "address": "650 Hartford Ave",
+   "outcome": "withdrawn",
+   "date": "2018-07-11",
+   "doc": "840942_2.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 865,
+   "address": "650 Hartford Ave",
+   "outcome": "withdrawn",
+   "date": "2018-07-11",
+   "doc": "840942_1.txt",
+   "evidence": "withdrawn"
+  },
+  {
+   "id": 872,
+   "address": "175 Farmington Avenue",
+   "outcome": "denied",
+   "date": "2025-04-09",
+   "doc": "1072049_2.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 883,
+   "address": "2055 Warwick Avenue",
+   "outcome": "denied",
+   "date": "2022-05-19",
+   "doc": "1025038_3.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 893,
+   "address": "2055 Warwick Ave",
+   "outcome": "denied",
+   "date": "2022-05-19",
+   "doc": "1025038_3.txt",
+   "evidence": "denied"
   }
  ],
  "unmatched": [
   {
+   "id": 511,
+   "address": "115 Kingston Street",
+   "name": "115 Kingston Street"
+  },
+  {
    "id": 515,
    "address": "",
    "name": "Champlin Heights / Meridian Pointe (Phase II)"
+  },
+  {
+   "id": 576,
+   "address": "",
+   "name": "Plat 288, lot 485"
+  },
+  {
+   "id": 686,
+   "address": "",
+   "name": "AP 99 Lots 180, 192, 194, 237 and 238"
+  },
+  {
+   "id": 695,
+   "address": "20 feet of a main street",
+   "name": "20 feet of a main street"
+  },
+  {
+   "id": 721,
+   "address": "21 Peace Street",
+   "name": "21 Peace Street"
+  },
+  {
+   "id": 868,
+   "address": "6 Zone",
+   "name": "6 Zone"
+  },
+  {
+   "id": 885,
+   "address": "57 units. The main point",
+   "name": "57 units. The main point"
+  },
+  {
+   "id": 886,
+   "address": "39 Dees Circle",
+   "name": "39 Dees Circle"
+  },
+  {
+   "id": 892,
+   "address": "2021 Page",
+   "name": "2021 Page"
+  },
+  {
+   "id": 902,
+   "address": "105 BROADWAY",
+   "name": "105 BROADWAY"
   }
  ]
 }
