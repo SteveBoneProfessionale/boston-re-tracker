@@ -1,7 +1,31 @@
 [
  {
+  "id": 607,
+  "label": "269 Wickenden St",
+  "sf": null,
+  "reason": "no building-area figure stated in any plan set"
+ },
+ {
+  "id": 657,
+  "label": "371 Pine St",
+  "sf": null,
+  "reason": "no building-area figure stated in any plan set"
+ },
+ {
   "id": 626,
-  "label": "60 Camden Ave (Kizirian)",
+  "label": "60 Camden Ave",
+  "sf": null,
+  "reason": "no building-area figure stated in any plan set"
+ },
+ {
+  "id": 656,
+  "label": "50 Branch Ave",
+  "sf": null,
+  "reason": "no building-area figure stated in any plan set"
+ },
+ {
+  "id": 674,
+  "label": "250 Lloyd Ave",
   "sf": null,
   "reason": "no building-area figure stated in any plan set"
  }

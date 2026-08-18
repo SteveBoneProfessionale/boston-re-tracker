@@ -131,6 +131,24 @@ LAND_AFTER = re.compile(r"^\s*(?:\+/-\s*)?(?:of\s+)?(?:lot|lots|parcel|of\s+land
 EXISTING_CONDITIONS = re.compile(
     r"\bN/F\s*:|now\s+or\s+formerly|existing\s+(?:building|structure|conditions)[^.;]{0,60}$|existing\s+conditions\s+plan", re.I)
 
+# A consultant's report argues from OTHER buildings. A parking study for 50
+# Branch Ave offered "45 Moody Street in Waltham ... a 117,500 square foot
+# building with 1015 storage units" -- a comparable in another state, one step
+# from being written as this project's floor area.
+COMPARABLE = re.compile(
+    r"\b(?:comparable|similar(?:ly)?|for\s+example|such\s+as|precedent|"
+    r"case\s+stud(?:y|ies)|elsewhere|by\s+comparison|other\s+(?:facilit|site|"
+    r"propert|project))|"
+    r",\s*(?:MA|CT|NY|Massachusetts|Connecticut|New\s+York)\b|"
+    r"\bin\s+(?:Waltham|Newton|Boston|Cambridge|Attleboro|Seekonk)\b", re.I)
+
+# A floor-plan sheet labels each level's area. "RESIDENTIAL 8819 SF" beside
+# stair calls is one storey of a 62-unit building, not the building.
+DRAWING_LABEL = re.compile(
+    r"(?:\b(?:UP|DN)\b[^A-Za-z]{0,6}){2,}|"
+    r"\bvs\.|\blevel\s+\d|\b(?:first|second|third|fourth|ground|garden|typical)\s+"
+    r"floor\s+plan\b", re.I)
+
 WINDOW_BEFORE = 120
 WINDOW_AFTER = 70
 
@@ -156,6 +174,10 @@ def classify(text, m):
     # and on plan sets those figures sit right beside the proposed ones.
     if EXISTING_CONDITIONS.search(before):
         return "EXISTING", "an existing-conditions figure, not the proposed programme", val
+    if COMPARABLE.search(before) or COMPARABLE.search(after):
+        return "COMPARABLE", "a different building cited for comparison, not this project", val
+    if DRAWING_LABEL.search(before) or DRAWING_LABEL.search(after):
+        return "DRAWING", "a per-floor label on a drawing sheet, not a building total", val
     # Trailing context only: these qualify the number directly.
     tail = before[-40:]
     if THRESHOLD.search(tail):

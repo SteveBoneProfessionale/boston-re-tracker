@@ -51,6 +51,21 @@ REV_DATE = re.compile(
     r"(\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|[A-Z][a-z]+\s+\d{1,2},?\s+\d{4})", re.I)
 
 
+
+# Consultant studies argue from OTHER buildings. 50 Branch Avenue's parking
+# analysis offered a 113,187 sq ft facility in Newtonville and a 117,500 sq ft
+# one in Waltham -- neither in Rhode Island, both one step from being written
+# as this project's floor area. No whitelist of town names can win that; the
+# document type is the reliable signal.
+SKIP_DOC = re.compile(
+    r"parking[-_ ]?(?:analysis|study)|traffic|trip[-_ ]?generation|"
+    r"peer[-_ ]?review|drainage|stormwater|utility|environmental", re.I)
+
+# A floor-by-floor schedule that states its own scope is not a building total.
+PARTIAL_TOTAL = re.compile(
+    r"based\s+on\s+[^.]{0,40}\s+only|residential\s+floor\s+space\s+only|"
+    r"excludes?\s+", re.I)
+
 def fetch(url):
     """Download once, cache on disk. Returns the local path or None."""
     name = re.sub(r"[^A-Za-z0-9._-]", "_", url.rsplit("/", 1)[-1])[:120]
@@ -93,6 +108,8 @@ def scan(path, url):
         if not t.strip():
             continue
         alltext.append(t)
+        if PARTIAL_TOTAL.search(t):
+            continue
         sf, ev = building_sf(candidates_for(t))
         if sf:
             hits.append({"sf": sf, "page": i, "quote": ev[0]["quote"][:240]})
@@ -119,6 +136,10 @@ def run(targets, dry_run=False):
         log.info("  id=%-4d %s", t["id"], t["label"])
         per_doc = []
         for d in t["docs"]:
+            if SKIP_DOC.search(d["url"].rsplit("/", 1)[-1]):
+                log.info("      %-58s SKIPPED: consultant study, cites other buildings",
+                         d["url"].rsplit("/", 1)[-1][:58])
+                continue
             path = fetch(d["url"])
             if not path:
                 continue
