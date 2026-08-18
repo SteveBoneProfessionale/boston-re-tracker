@@ -1,0 +1,107 @@
+{
+ "_README": "Tier-2 (web) developer resolutions that have been reviewed. Only entries with a developer are applied; entries resolved to null are recorded so the decision is legible and is not re-litigated. Each source carries the sentence establishing the ADDRESS and the sentence naming the DEVELOPER, per the corroboration rules in scraper/ri_developer_web.py.",
+
+ "49 Newport Hotel, LLC": {
+  "developer": "Procaccianti Companies",
+  "method": "web_corroborated",
+  "project_address": "49 America's Cup Avenue, Newport, RI",
+  "note": "Newport Harbor Hotel & Marina. Two independent domains, one local trade press. Listing sites (Yelp, hotelplanner, trivago, AAA) excluded before counting.",
+  "sources": [
+   {
+    "publisher": "Newport This Week",
+    "domain": "newportthisweek.com",
+    "url": "https://www.newportthisweek.com/articles/green-light-for-waterfront-hotel/",
+    "address_sentence": "The Newport Planning Board granted dimensional variances and a special use permit on Oct. 6 for an extensive renovation of the hotel at 49 America's Cup Ave.",
+    "developer_sentence": "The hotel owner is Procaccianti Companies; the expansion adds 31 guestrooms and expands the footprint by about 50 percent, taking the room count from 133 to 164."
+   },
+   {
+    "publisher": "Centerbrook Architects & Planners",
+    "domain": "centerbrook.com",
+    "url": "https://centerbrook.com/activity/centerbrook_envisions_renewed_newport_harbor_hotel",
+    "address_sentence": "Centerbrook Envisions Renewed Newport Harbor Hotel (49 America's Cup Avenue, Newport).",
+    "developer_sentence": "The renovation and expansion was conceived by Centerbrook Architects and real estate investment firm Procaccianti Companies."
+   }
+  ]
+ },
+
+ "20 West Extension, LLC": {
+  "developer": "Harbour Realty, LLC",
+  "method": "web_corroborated",
+  "project_address": "20 West Extension Street, Newport, RI (Waites Wharf)",
+  "note": "Independently confirms one of the three candidates the registry address-cluster at 39 Agar Street could not choose between. Second source is the City of Newport's own memo.",
+  "sources": [
+   {
+    "publisher": "Newport This Week",
+    "domain": "newportthisweek.com",
+    "url": "https://www.newportthisweek.com/articles/city-planning-board-approves-waites-wharf-redevelopment/",
+    "address_sentence": "The Newport Planning Board unanimously approved the proposal to redevelop Waites Wharf into a hotel, wedding venue and event space at a special meeting on June 2.",
+    "developer_sentence": "The proposal comes from Harbour Realty LLC and the Abruzese family, which owns much of the wharf."
+   },
+   {
+    "publisher": "City of Newport (Planning Board memo)",
+    "domain": "cityofnewport.com",
+    "url": "https://www.cityofnewport.com/CityOfNewport/media/City-Hall/Boards-Commissions/Boards/Planning%20Board/Meeting%20Files/Memo_-Waites-Wharf-demolitions.pdf",
+    "address_sentence": "Application concerning the properties north of Waites Wharf, including 20 West Extension Street.",
+    "developer_sentence": "Harbour Realty, LLC as the applicant, and Harbour Realty, LLC and 20 West Extension, LLC as owners, to construct two new structures to the north of Waites Wharf."
+   }
+  ]
+ },
+
+ "525 Broadway LLC": {
+  "developer": "BCM Realty Partners",
+  "method": "web_low_confidence",
+  "project_address": "525 Broadway, Newport, RI",
+  "note": "LOW CONFIDENCE: the link runs through a named principal rather than the company itself. Project is new-construction workforce housing (38 one-bedroom units), NOT adaptive reuse. A '525 Broadway adaptive reuse' page was rejected as 525 Broadway, NEW YORK.",
+  "sources": [
+   {
+    "publisher": "Newport This Week",
+    "domain": "newportthisweek.com",
+    "url": "https://www.newportthisweek.com/articles/newport-approves-previously-denied-broadway-housing-proposal/",
+    "address_sentence": "The Newport Planning Board approved a previously denied housing proposal at 525 Broadway.",
+    "developer_sentence": "BCM Realty Partners is identified as applicant and owner."
+   },
+   {
+    "publisher": "City of Newport (meeting record)",
+    "domain": "cityofnewport.granicus.com",
+    "url": "https://cityofnewport.granicus.com/MetaViewer.php?view_id=1&clip_id=922&meta_id=71292",
+    "address_sentence": "Application for property located at 525 Broadway.",
+    "developer_sentence": "Conor Melville, principal of 525 Broadway LLC / BCM Realty Partners."
+   }
+  ]
+ },
+
+ "RI Custom Builders, LLC": {
+  "developer": "RI Custom Builders, LLC",
+  "method": "web_low_confidence",
+  "project_address": "Warwick, RI (10 Unit PDR Overlay)",
+  "note": "LOW CONFIDENCE: the company's own site trades as 'Rhode Island Custom Builders' while the agenda says 'RI Custom Builders, LLC'. Same town and same trade, but the equivalence is an inference.",
+  "sources": [
+   {
+    "publisher": "City of Warwick Planning Department",
+    "domain": "warwickri.gov",
+    "url": "https://www.warwickri.gov/sites/g/files/vyhlif12206/f/agendas/june_agenda_6.pdf",
+    "address_sentence": "Warwick Planning Board June agenda item, 10 Unit PDR Overlay.",
+    "developer_sentence": "RI Custom Builders, LLC is listed as the applicant."
+   },
+   {
+    "publisher": "Rhode Island Custom Builders",
+    "domain": "rhodeislandcustombuilders.com",
+    "url": "https://www.rhodeislandcustombuilders.com/contact/",
+    "address_sentence": "1008 West Shore Road, Warwick, RI 02889.",
+    "developer_sentence": "Rhode Island Custom Builders — residential and custom home builder based in Warwick."
+   }
+  ]
+ },
+
+ "194 Coggeshall Avenue, LLC": {
+  "developer": null,
+  "method": null,
+  "reason": "Searches surfaced BCM Realty Partners, but for the Coggeshall School conversion on Van Zandt Avenue / Evarts Street -- a different parcel. 194 Coggeshall Avenue is a structure-demolition application. A developer named for another parcel is not evidence about this one."
+ },
+
+ "Champlin Heights II, LLC": {
+  "developer": null,
+  "method": null,
+  "reason": "No sources found. Closest match was 'Champagne Heights' in South Kingstown -- different name, different municipality. Obscure project; null is the correct answer."
+ }
+}
