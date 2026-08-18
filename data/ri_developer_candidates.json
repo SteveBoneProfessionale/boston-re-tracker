@@ -1,0 +1,3361 @@
+[
+ {
+  "id": 511,
+  "city": "Providence",
+  "address": "115 Kingston Street",
+  "units": 291,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 890,
+  "city": "Warwick",
+  "address": "800 Toll Gate Rd",
+  "units": 203,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 892,
+  "city": "Warwick",
+  "address": "2021 Page",
+  "units": 181,
+  "gsf": null,
+  "asset_class": "Hotel",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 9,
+  "text_chars": 10808,
+  "candidates": [
+   {
+    "name": "WarwickFamilyDentalGroup LLC",
+    "found_as": "legal_suffix",
+    "quote": "hepetitionbe GRANTED WITH STIPULATIONS. Petition#10746 Ward8 800 TollGateRd The petitionofWarwickFamilyDentalGroup LLC & MSS",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 677,
+  "city": "Providence",
+  "address": "75 EAST ST",
+  "units": 71,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Final Plan",
+  "applicant_entity": "180 GMC LLC",
+  "source_items": 11,
+  "text_chars": 8350,
+  "candidates": [
+   {
+    "name": "180 GMC LLC",
+    "found_as": "labeled",
+    "quote": "athompson@providenceri.gov. Submissions will be entered into the record and discussed at Applicant: 180 GMC LLC 180 GMC, LLC (Applicant) and 75 EAST ST, LLC (Owner): 180 G eorge M. Cohan Blvd, Plat 17,",
+    "is_shell": true,
+    "shell_rule": "leading_number",
+    "has_legal_suffix": true
+   },
+   {
+    "name": "Dimensional Variances",
+    "found_as": "shouted",
+    "quote": "n Blvd, Plat 17, Lot 650, located in an R-2 Residential District. Application for USE and DIMENSIONAL VARIANCES seeking relief from the use limitations of Table 12-1 and the parking requirements of Tab",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Date Certain Of April",
+    "found_as": "shouted",
+    "quote": "C COMMENTORS: None EXHIBITS: None ACTION: Motion to continue approved, 5-0 CONTINUED TO A DATE CERTAIN OF APRIL 27, 2022 AT 5:30 PM Motion to continue the matter to a date certain by: Wolf Seconded By:",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "GMC LLC 180 GMC, LLC",
+    "found_as": "legal_suffix",
+    "quote": "denceri.gov. Submissions will be entered into the record and discussed at Applicant: 180 GMC LLC 180 GMC, LLC (Applicant) and 75 EAST ST, LLC (Owner): 180 G eorge M. Cohan Blvd, Plat 17, Lot 650, loc",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "EAST ST, LLC",
+    "found_as": "legal_suffix",
+    "quote": "180 GMC, LLC (Applicant) and 75 EAST ST, LLC (Owner): 180 George M. Cohan Blvd, Plat 17, Lot 650, located in an R-2 Residential Distri",
+    "is_shell": true,
+    "shell_rule": "street_named",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 538,
+  "city": "Cranston",
+  "address": "1499 Hillside Road",
+  "units": null,
+  "gsf": 23500,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 143,
+  "candidates": []
+ },
+ {
+  "id": 885,
+  "city": "Warwick",
+  "address": "57 units. The main point",
+  "units": 57,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": null,
+  "applicant_entity": "Attorney Shekarchi",
+  "source_items": 1,
+  "text_chars": 1230,
+  "candidates": [
+   {
+    "name": "Shekarchi",
+    "found_as": "labeled",
+    "quote": "Post Road Apartments, as Petitioner\u2019s Exhibit #1. The Chairman asked if there was anyone Applicant: Attorney Shekarchi",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 886,
+  "city": "Warwick",
+  "address": "39 Dees Circle",
+  "units": 57,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 874,
+  "city": "Cranston",
+  "address": "27 Hemlock Avenue",
+  "units": null,
+  "gsf": 19319,
+  "asset_class": "Mixed-Use",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 537,
+  "city": "Cranston",
+  "address": "31 Calder Street",
+  "units": 12,
+  "gsf": 14400,
+  "asset_class": "Mixed-Use",
+  "stage": "Pre-application Conference",
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 741,
+  "city": "Providence",
+  "address": "200 Gordon Ave",
+  "units": 30,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Preliminary Plan",
+  "applicant_entity": "Partnership c/o Preservation of Affordable Housing",
+  "source_items": 2,
+  "text_chars": 1786,
+  "candidates": [
+   {
+    "name": "OGN LLC",
+    "found_as": "legal_suffix",
+    "quote": ".-ueuc HEARING l. Case No. 19-0SIUOR - 211 Kinsley Ave. and I 53 Hanis Ave. Af>r>'icant: OGN LLC IIUUt.T APPEARANCES: ACTION: Exhibits introduced at heartnc~ ({) (Ir() V. \\ 1 Motion toAp",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 522,
+  "city": "Cranston",
+  "address": "1128 Narragansett Boulevard",
+  "units": 24,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": "Pre-application Conference",
+  "applicant_entity": null,
+  "source_items": 3,
+  "text_chars": 2698,
+  "candidates": []
+ },
+ {
+  "id": 867,
+  "city": "Cranston",
+  "address": "547 Park Avenue",
+  "units": 5,
+  "gsf": 5989,
+  "asset_class": "Mixed-Use",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 877,
+  "city": "Cranston",
+  "address": "3 Sefton Drive",
+  "units": null,
+  "gsf": 7912,
+  "asset_class": "Industrial",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 872,
+  "city": "Cranston",
+  "address": "175 Farmington Avenue",
+  "units": null,
+  "gsf": 6000,
+  "asset_class": "Industrial",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 513,
+  "city": "Cranston",
+  "address": "199 Gladstone Avenue",
+  "units": null,
+  "gsf": 5000,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 3,
+  "text_chars": 89,
+  "candidates": []
+ },
+ {
+  "id": 535,
+  "city": "Cranston",
+  "address": "5 Aborn Street",
+  "units": 2,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 86,
+  "candidates": []
+ },
+ {
+  "id": 512,
+  "city": "Cranston",
+  "address": "40 Cindy Lane",
+  "units": 1,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 94,
+  "candidates": []
+ },
+ {
+  "id": 518,
+  "city": "Cranston",
+  "address": "44 Village Avenue",
+  "units": 1,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 3,
+  "text_chars": 47,
+  "candidates": []
+ },
+ {
+  "id": 475,
+  "city": "Providence",
+  "address": "1331 Eddy Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Rezoning",
+  "applicant_entity": "Lindsey Morel",
+  "source_items": 2,
+  "text_chars": 249,
+  "candidates": [
+   {
+    "name": "Lindsey Morel",
+    "found_as": "labeled",
+    "quote": "Referral no 3618 \u2013 Rezoning of 1331 Eddy Street Petitioner: Lindsey Morel The petitioner is requesting a rezoning of 1331 Eddy Street from R-3 to R-P \u2013 for vote (A",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 478,
+  "city": "Providence",
+  "address": "14 Cargill Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Combined Master and Preliminary",
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 1854,
+  "candidates": [
+   {
+    "name": "Rhode Island Public Health Institute",
+    "found_as": "labeled",
+    "quote": "Case no. 26-046UDR \u2013 14 Cargill Street Applicant and Owner: Rhode Island Public Health Institute The applicant is proposing to construct of a four story, approximately 52\u2019 tall medical s",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 484,
+  "city": "Providence",
+  "address": "3611 \u2013 349 Killingly Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": "Gustavo Perez",
+  "source_items": 3,
+  "text_chars": 1461,
+  "candidates": [
+   {
+    "name": "Gustavo Perez",
+    "found_as": "labeled",
+    "quote": "Referral no 3611 \u2013 349 Killingly Street Petitioner: Gustavo Perez The petitioner is requesting a rezoning of 349 Killingly Street from R-1 to R-3 \u2013 for vot",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 485,
+  "city": "Providence",
+  "address": "55 Grosvenor Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": null,
+  "source_items": 3,
+  "text_chars": 1690,
+  "candidates": [
+   {
+    "name": "Esperanza and Hugo Veliz",
+    "found_as": "labeled",
+    "quote": "Case no 26-007 UDR \u2013 55 Grosvenor Street Applicants: Esperanza and Hugo Veliz The applicant is requesting to subdivide a lot measuring approximately 7,504 SF in the R-",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 489,
+  "city": "Providence",
+  "address": "1101 Elmwood Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Design Waiver",
+  "applicant_entity": "International Property Investment and Management LLC",
+  "source_items": 3,
+  "text_chars": 1438,
+  "candidates": [
+   {
+    "name": "International Property Investment and Management LLC",
+    "found_as": "labeled",
+    "quote": "Case no. 2025-13 DPR \u2013 1101 Elmwood Ave Applicant: International Property Investment and Management LLC The applicant is requesting a design waiver from section 503.A.8 of the ordinance to allo",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 504,
+  "city": "Providence",
+  "address": "3601 \u2013 1 Charles Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": "1 Charles LLC",
+  "source_items": 3,
+  "text_chars": 1390,
+  "candidates": [
+   {
+    "name": "1 Charles LLC",
+    "found_as": "labeled",
+    "quote": "Referral no 3601 \u2013 1 Charles Street Petitioner: 1 Charles LLC The petitioner is requesting a rezoning of the subject lot from R-4 to D1-45 \u2013 for vote (",
+    "is_shell": true,
+    "shell_rule": "leading_number",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 514,
+  "city": "Cranston",
+  "address": "21 Turner Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 4,
+  "text_chars": 92,
+  "candidates": []
+ },
+ {
+  "id": 517,
+  "city": "Cranston",
+  "address": "1016 Park Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": "She",
+  "source_items": 9,
+  "text_chars": 3203,
+  "candidates": [
+   {
+    "name": "Marc Spirito",
+    "found_as": "shouted",
+    "quote": "5 1016 Park Avenue ZONING BOARD OF REVIEW \u2013 PLAN COMMISSION RECOMMENDATIONS (votes taken) MARC SPIRITO(OWN) AND CALISE DEVELOPMENT, LLC(APP) have applied to the Board for permission to leave a",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "CALISE DEVELOPMENT, LLC",
+    "found_as": "legal_suffix",
+    "quote": "ZONING BOARD OF REVIEW \u2013 PLAN COMMISSION RECOMMENDATIONS (votes taken) MARC SPIRITO(OWN) AND CALISE DEVELOPMENT, LLC(APP) have applied to the Board for permission to leave an existing single-family dwelling",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "GARY FLETCH, LLC",
+    "found_as": "legal_suffix",
+    "quote": "ion 17.20.090 Specific Requirements; 17.88.010 Substandard lots of record and lot mergers GARY FLETCH, LLC (OWN/APP) has applied to the Board for permission to utilize a vacant lot with restricted",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 520,
+  "city": "Cranston",
+  "address": "1390 Cranston Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": "Master Plan",
+  "applicant_entity": "N.E Development Fund, 1 LLC",
+  "source_items": 2,
+  "text_chars": 128,
+  "candidates": [
+   {
+    "name": "N.E Development Fund, 1 LLC",
+    "found_as": "labeled",
+    "quote": "The redevelopment of the existing church building, and the construction of four (4) large Applicant: N.E Development Fund, 1 LLC",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 521,
+  "city": "Cranston",
+  "address": "35 Lake Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 12,
+  "text_chars": 91,
+  "candidates": []
+ },
+ {
+  "id": 523,
+  "city": "Cranston",
+  "address": "40 Norfolk Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 92,
+  "candidates": []
+ },
+ {
+  "id": 524,
+  "city": "Cranston",
+  "address": "118 Warwick Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 95,
+  "candidates": []
+ },
+ {
+  "id": 525,
+  "city": "Cranston",
+  "address": "42 Sunset Terrace",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": "Zoning Board Recommendation",
+  "applicant_entity": "PRAISE TABERNACLE CHURCH",
+  "source_items": 1,
+  "text_chars": 1236,
+  "candidates": [
+   {
+    "name": "PRAISE TABERNACLE CHURCH",
+    "found_as": "labeled",
+    "quote": "install a freestanding double-sided LED message sign within the corner setback at 330 Par Applicant: PRAISE TABERNACLE CHURCH",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 526,
+  "city": "Cranston",
+  "address": "",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 10,
+  "text_chars": 268,
+  "candidates": [
+   {
+    "name": "Champlin Heights II, LLC",
+    "found_as": "labeled",
+    "quote": "sting 61-acre lot into two (2) lots. The proposed lot One-year extension to June 30, 2027 Applicant: Champlin Heights II, LLC Construction of a ground mounted 8.1 megawatt solar array Potential proposal of 192 units",
+    "is_shell": true,
+    "shell_rule": "series_marker",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 527,
+  "city": "Cranston",
+  "address": "0 Hope Road",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 4,
+  "text_chars": 91,
+  "candidates": []
+ },
+ {
+  "id": 530,
+  "city": "Cranston",
+  "address": "102 Old Oak Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 5,
+  "text_chars": 90,
+  "candidates": []
+ },
+ {
+  "id": 533,
+  "city": "Cranston",
+  "address": "1489 Pippin Orchard Road",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Pre-application Conference",
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 90,
+  "candidates": []
+ },
+ {
+  "id": 534,
+  "city": "Cranston",
+  "address": "2030 Plan",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 587,
+  "candidates": []
+ },
+ {
+  "id": 536,
+  "city": "Cranston",
+  "address": "599 Reservoir Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": "Final Plan",
+  "applicant_entity": null,
+  "source_items": 7,
+  "text_chars": 160,
+  "candidates": []
+ },
+ {
+  "id": 539,
+  "city": "Cranston",
+  "address": "538 Main Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Industrial",
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 17,
+  "text_chars": 1596,
+  "candidates": []
+ },
+ {
+  "id": 549,
+  "city": "Pawtucket",
+  "address": "486 Mineral Spring Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 983,
+  "candidates": []
+ },
+ {
+  "id": 554,
+  "city": "Pawtucket",
+  "address": "11 Meadow Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 590,
+  "candidates": []
+ },
+ {
+  "id": 557,
+  "city": "Pawtucket",
+  "address": "94 Moshassuck Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Parking",
+  "stage": "Preliminary Plan",
+  "applicant_entity": "JK Equities LLC",
+  "source_items": 2,
+  "text_chars": 668,
+  "candidates": [
+   {
+    "name": "JK Equities LLC",
+    "found_as": "labeled",
+    "quote": "Pawtucket City Planning Commission meeting. E. New Business INFORMATIONAL PUBLIC MEETING Applicant: JK Equities LLC",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 562,
+  "city": "Newport",
+  "address": "173 Ruggles Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": "Development Plan Review",
+  "applicant_entity": "JRL Holdings LLC",
+  "source_items": 2,
+  "text_chars": 1681,
+  "candidates": [
+   {
+    "name": "R-10A Residential Application of JRL Holdings LLC",
+    "found_as": "legal_suffix",
+    "quote": ". Approved by the T Applicant: JRL Holdings LLC 171 & 173 Ruggles Avenue, TAP 36, Lot 56, R-10A Residential Application of JRL Holdings LLC, applicant, and Charles Clay Roberts III, owner, to demolish a two-and-a-half-story multi",
+    "is_shell": true,
+    "shell_rule": "bare_holding",
+    "has_legal_suffix": true
+   },
+   {
+    "name": "Hall 43 Broadway Application of JRL Holdings LLC",
+    "found_as": "legal_suffix",
+    "quote": "nning Board Posted January 29, 2026 Monday February 2, 2026 Council Chambers Newport City Hall 43 Broadway Application of JRL Holdings LLC, applicant, and Charles Clay Roberts III, owner, to demolish a two-and-a-half-story multi",
+    "is_shell": true,
+    "shell_rule": "bare_holding",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 565,
+  "city": "Newport",
+  "address": "100 Harrison Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Demolition",
+  "applicant_entity": null,
+  "source_items": 5,
+  "text_chars": 3748,
+  "candidates": [
+   {
+    "name": "David Elwell & Richard Lee Berkowitz",
+    "found_as": "narrative",
+    "quote": "96 & 100 Harrison Avenue, TAP 41, Lot 413 & 10-4 Application of David Elwell & Richard Lee Berkowitz to reconfigure the lot line between two existing lots, transferring a 39,948 sq. ft. parcel",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Individuals Requiri",
+    "found_as": "shouted",
+    "quote": "ll & Newport Public Library in addition to the City Website & Secretary of State Website. INDIVIDUALS REQUIRI 96 & 100 Harrison Avenue, TAP 41, Lots 413 & 10-4 Application of David Elwell & Richard L",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 571,
+  "city": "Newport",
+  "address": "138 Carroll Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 3,
+  "text_chars": 3258,
+  "candidates": [
+   {
+    "name": "Brian Connolly",
+    "found_as": "narrative",
+    "quote": "138 & 138 \u00bd Carroll Avenue; TAP 40, Lots 462 & 476 Application of Brian Connolly, and John & Mary Kane Life Estates to adjust the lot line between two existing lots, resu",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Permit Set",
+    "found_as": "shouted",
+    "quote": "ment The meeting was adjourned at 10:36 pm. DATE: JOB NO.: DRAWING NO.: TITLE: REVISIONS: PERMIT SET 08/04/2025 2416 A-700 525 BROADWAY NEWPORT, RI 3-D No. Description Date Applicant's Exhib",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Newport",
+    "found_as": "shouted",
+    "quote": "36 pm. DATE: JOB NO.: DRAWING NO.: TITLE: REVISIONS: PERMIT SET 08/04/2025 2416 A-700 525 BROADWAY NEWPORT, RI 3-D No. Description Date Applicant's Exhibit A - Updated Renderings Exhibit from Staf",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 572,
+  "city": "Newport",
+  "address": "160 Carroll Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Special Use Permit",
+  "applicant_entity": null,
+  "source_items": 6,
+  "text_chars": 5791,
+  "candidates": []
+ },
+ {
+  "id": 576,
+  "city": "Warwick",
+  "address": "",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": "Advisory Opinion",
+  "applicant_entity": null,
+  "source_items": 3,
+  "text_chars": 2098,
+  "candidates": [
+   {
+    "name": "RI Custom Builders, LLC",
+    "found_as": "labeled",
+    "quote": "ty. Location: Centerville Road (Legris Ave) Assessor\u2019s Plat: 251 Assessor\u2019s Lots: 11 & 12 Applicant: RI Custom Builders, LLC. Zoned: A7/PDR Number of Lots: 2 Proposed Number of Lots: 1 Area: 62,555 sq ft Ward: 8 Ap",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "Nicholas Varras",
+    "found_as": "labeled",
+    "quote": "and Road Assessor\u2019s Plat: 328 Assessor\u2019s Lots: 43-46, 264, & 326-328 Applicant: Nicholas Applicant: Nicholas Varras",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Unified Development",
+    "found_as": "developer_word",
+    "quote": "before the Board for a Public Hearing seeking Preliminary Approval of a Minor Subdivision/Unified Development. The Applicant proposes to reconfigure (8) eight lots to create (5) five lots for develop",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 581,
+  "city": "Warwick",
+  "address": "771 Post Road",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": "Rezoning",
+  "applicant_entity": "City of Warwick",
+  "source_items": 1,
+  "text_chars": 338,
+  "candidates": [
+   {
+    "name": "City of Warwick Zoned: A-7 Residential Area",
+    "found_as": "labeled",
+    "quote": "conforming subdivision. Location: 771 Post Road Assessor\u2019s Plat: 288 Assessor\u2019s Lots: 59 Applicant: City of Warwick Zoned: A-7 Residential Area: 11.98 acres Ward: 2 Engineer: NA Applicant: City of Warwick",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 588,
+  "city": "Warwick",
+  "address": "2595 West Shore Rd",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Special Use Permit",
+  "applicant_entity": "Steven Cohen and Washville Car Wash",
+  "source_items": 1,
+  "text_chars": 600,
+  "candidates": [
+   {
+    "name": "Steven Cohen and Washville Car Wash",
+    "found_as": "labeled",
+    "quote": "G DEPARTMENT \u25cf THOMAS KRAVITZ, DIRECTOR 3275 POST ROAD \u25cf WARWICK, RI 02886 \u25cf 401-738-2009 Applicant: Steven Cohen and Washville Car Wash",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Steve Cohen of Franklin Development",
+    "found_as": "developer_word",
+    "quote": "it. Location: 2595 West Shore Rd. Assessor\u2019s Plat: 349 Assessor\u2019s Lots: 209 Applicant(s): Steve Cohen of Franklin Development and Washville Car Wash Zoning: General Business GB Land Area: 1.3 acres Ward: 6 Surveyor(",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Greenman Pedersen, Inc",
+    "found_as": "legal_suffix",
+    "quote": "Washville Car Wash Zoning: General Business GB Land Area: 1.3 acres Ward: 6 Surveyor(s): Greenman Pedersen, Inc., Salem, NH. PLANNING DEPARTMENT \u25cf THOMAS KRAVITZ, DIRECTOR 3275 POST ROAD \u25cf WARWICK, RI",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 589,
+  "city": "Warwick",
+  "address": "1282 & 1288 Greenwich Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": "Preliminary Application",
+  "applicant_entity": "Winward Veterinary Hospital, LLC",
+  "source_items": 1,
+  "text_chars": 530,
+  "candidates": [
+   {
+    "name": "Winward Veterinary Hospital, LLC",
+    "found_as": "labeled",
+    "quote": "ital. Location: 1282 & 1288 Greenwich Ave Assessor\u2019s Plat: 245 Assessor\u2019s Lots: 111 & 112 Applicant: Winward Veterinary Hospital, LLC. Zoned: Residential & Business Number of lots: 2 Proposed Number of lots: 1 Area: 6,000 s",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 591,
+  "city": "Warwick",
+  "address": "4332 Post Road",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": "Master Plan",
+  "applicant_entity": "4332 Post Road, LLC c/o Susan Rowles & Paul Zarrella",
+  "source_items": 1,
+  "text_chars": 846,
+  "candidates": [
+   {
+    "name": "Post Road, LLC",
+    "found_as": "legal_suffix",
+    "quote": "WARWICK, RI 02886 \u25cf 401-738-2009 Assessor\u2019s Plat: 221 Assessor\u2019s Lot: 26 Applicant: 4332 Post Road, LLC c/o Susan Rowles & Paul Zarrella Zoning: O - Office Land Area: .85 acres Ward: 4 & 7 (war",
+    "is_shell": true,
+    "shell_rule": "street_named",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 592,
+  "city": "Warwick",
+  "address": "164 John Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Pre-application Conference",
+  "applicant_entity": "Zarrella Development Corporation",
+  "source_items": 1,
+  "text_chars": 672,
+  "candidates": [
+   {
+    "name": "Zarrella Development Corporation",
+    "found_as": "labeled",
+    "quote": "wo) Area: 5.028 sq. ft. Ward: 6 Engineer: Alpha Associates, Ltd, East Greenwich, RI 02818 Applicant: Zarrella Development Corporation",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "Lauretta Moranto, 199 Wood Street, Warwick",
+    "found_as": "labeled",
+    "quote": "028 provided. Location: 164 John Street Assessor\u2019s Plat: 360 Assessor\u2019s Lots: 101 and 103 Owners: Lauretta Moranto, 199 Wood Street, Warwick. Applicant: Zarrella Development Corporation Zoned: A7 Number of lots: 1 (one) Proposed N",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Alpha Associates, Ltd",
+    "found_as": "legal_suffix",
+    "quote": "r of lots: 1 (one) Proposed Number of lots: 2 (two) Area: 5.028 sq. ft. Ward: 6 Engineer: Alpha Associates, Ltd, East Greenwich, RI 02818 Applicant: Zarrella Development Corporation",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 597,
+  "city": "Warwick",
+  "address": "19 Wood Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": "ZRF Realty, RIGP",
+  "source_items": 1,
+  "text_chars": 1228,
+  "candidates": [
+   {
+    "name": "ZRF Realty, RIGP",
+    "found_as": "labeled",
+    "quote": "Z, DIRECTOR 3275 POST ROAD \u25cf WARWICK, RI 02886 \u25cf 401-738-2009 Location: 19 Wood Street As Applicant: ZRF Realty, RIGP",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 603,
+  "city": "Providence",
+  "address": "3593 \u2013 14 Braman Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Rezoning",
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 248,
+  "candidates": [
+   {
+    "name": "Bess Mer Realty Corp and Paper Crown Preschool LLC",
+    "found_as": "labeled",
+    "quote": "Referral no 3593 \u2013 14 Braman Street Petitioners: Bess Mer Realty Corp and Paper Crown Preschool LLC The petitioner is requesting a rezoning of the subject property from R-3 to C-2 \u2013 for act",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 608,
+  "city": "Providence",
+  "address": "161 Steele Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 243,
+  "candidates": [
+   {
+    "name": "161 Steele Street LLC",
+    "found_as": "labeled",
+    "quote": "Referral No. 3591 \u2013 Abandonment of Steele Street Petitioners: 161 Steele Street LLC The petitioners are requesting an abandonment of a portion of Steele Street \u2013 for vote (M",
+    "is_shell": true,
+    "shell_rule": "leading_number",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 620,
+  "city": "Providence",
+  "address": "204 Hartford Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": "City Council Referral",
+  "applicant_entity": "John Garrahy",
+  "source_items": 1,
+  "text_chars": 1224,
+  "candidates": [
+   {
+    "name": "John Garrahy",
+    "found_as": "labeled",
+    "quote": "ibited. A discussion on the effects of self storage facilities ensued. On a motion by Com Applicant: John Garrahy",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 629,
+  "city": "Providence",
+  "address": "3573 \u2013 239 Cranston Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": "Providence Community Health Centers",
+  "source_items": 1,
+  "text_chars": 313,
+  "candidates": [
+   {
+    "name": "Providence Community Health Centers",
+    "found_as": "labeled",
+    "quote": "Referral no. 3573 \u2013 239 Cranston Street Petitioner: Providence Community Health Centers The petitioner is requesting a rezoning of the subject property from R-3 to C-2 \u2013 for vot",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 634,
+  "city": "Providence",
+  "address": "3564 \u2013 355 Thurbers Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Rezoning",
+  "applicant_entity": "355 Thurbers Ave LLC",
+  "source_items": 1,
+  "text_chars": 254,
+  "candidates": [
+   {
+    "name": "355 Thurbers Ave LLC",
+    "found_as": "labeled",
+    "quote": "Referral No. 3564 \u2013 355 Thurbers Ave Petitioner: 355 Thurbers Ave LLC The petitioner is requesting to rezone the subject lot from C-2 to C-3 \u2013 for vote (AP 53",
+    "is_shell": true,
+    "shell_rule": "leading_number",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 637,
+  "city": "Providence",
+  "address": "116 Benevolent Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "City Council Referral",
+  "applicant_entity": "Whisper Investments LLC",
+  "source_items": 1,
+  "text_chars": 331,
+  "candidates": [
+   {
+    "name": "Whisper Investments LLC",
+    "found_as": "labeled",
+    "quote": "Case No. 23-053MI \u2013 116 Benevolent Street Applicant: Whisper Investments LLC The applicant is proposing to subdivide the subject vacant lot in the R-1 zone which meas",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 638,
+  "city": "Providence",
+  "address": "105 Dedham Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": "Vitality Land Holdings LLC and GFM Realty LLC",
+  "source_items": 1,
+  "text_chars": 349,
+  "candidates": [
+   {
+    "name": "Vitality Land Holdings LLC and GFM Realty LLC",
+    "found_as": "labeled",
+    "quote": "Referral No. 3557\u2013 95, 101 and 105 Dedham Ave Petitioner: Vitality Land Holdings LLC and GFM Realty LLC The applicant is requesting a rezoning of the subject lots from R-1 to R-2 \u2013 for vote (AP",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 646,
+  "city": "Providence",
+  "address": "45 Liege Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": null,
+  "applicant_entity": "Greenlight Investments LLC",
+  "source_items": 1,
+  "text_chars": 260,
+  "candidates": [
+   {
+    "name": "Greenlight Investments LLC",
+    "found_as": "labeled",
+    "quote": "Case No. 23-040MI \u2013 45 Liege Street Applicant: Greenlight Investments LLC The applicant is requesting to subdivide a lot measuring 10,000 SF into two lots of 5,000",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 647,
+  "city": "Providence",
+  "address": "175 Congress Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "City Council Referral",
+  "applicant_entity": "Christopher Norris Leblanc and John P Duffin",
+  "source_items": 1,
+  "text_chars": 312,
+  "candidates": [
+   {
+    "name": "Christopher Norris Leblanc and John P Duffin",
+    "found_as": "labeled",
+    "quote": "Case No. 23-041MI \u2013 175 Congress Ave Applicant: Christopher Norris Leblanc and John P Duffin The applicant is requesting to subdivide a lot measuring 14,742 SF into two lots of 7,580",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 648,
+  "city": "Providence",
+  "address": "66 Baltimore Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Rezoning",
+  "applicant_entity": "Kathleen Jacotin",
+  "source_items": 2,
+  "text_chars": 536,
+  "candidates": [
+   {
+    "name": "Kathleen Jacotin",
+    "found_as": "labeled",
+    "quote": "Referral No. 3553 \u2013 Rezoning of 66 Baltimore Street Petitioner: Kathleen Jacotin The petitioner is requesting a rezoning of the subject property from R-1 to R-2 \u2013 for vot",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 654,
+  "city": "Providence",
+  "address": "1051-1061 Chalkstone Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Rezoning",
+  "applicant_entity": "Richard R Grasso and RDR Realty Associates",
+  "source_items": 4,
+  "text_chars": 1675,
+  "candidates": [
+   {
+    "name": "Richard R Grasso and RDR Realty Associates",
+    "found_as": "labeled",
+    "quote": "Referral No. 3545 \u2013 Rezoning of 1051-1061 Chalkstone Ave Petitioner: Richard R Grasso and RDR Realty Associates The petitioner is requesting a rezoning of the subject property from C-1 to C-2 \u2013 for act",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Institutional Master Plan Amendment",
+    "found_as": "shouted",
+    "quote": "2. The Commission voted as follows: Aye: M. Quezada, N. Sanchez, W. Sherry, M. Gazdacko 3 INSTITUTIONAL MASTER PLAN AMENDMENT",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 655,
+  "city": "Providence",
+  "address": "21 Westmore Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": "Maricela Hernandez",
+  "source_items": 4,
+  "text_chars": 1528,
+  "candidates": [
+   {
+    "name": "Maricela Hernandez",
+    "found_as": "labeled",
+    "quote": "Case No. 23-027MI \u2013 21 Westmore Street Applicant: Maricela Hernandez The applicants are proposing to subdivide the subject lot which measures approximately 10",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Institutional Master Plan Amendment",
+    "found_as": "shouted",
+    "quote": "wo lots of 5,012 SF and 5,187 SF in the R-1 zone \u2013 for action (AP 126 Lot 444, Reservoir) INSTITUTIONAL MASTER PLAN AMENDMENT Applicant: Maricela Hernandez Case No. 23-027MI \u2013 21 Westmore Street Applicant: Maricela",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 659,
+  "city": "Providence",
+  "address": "69 Depinedo Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": "Adrian Dalomba and Kyle Bell",
+  "source_items": 2,
+  "text_chars": 1316,
+  "candidates": [
+   {
+    "name": "Adrian Dalomba and Kyle Bell",
+    "found_as": "labeled",
+    "quote": "Case No. 23-024MI \u2013 69 Depinedo Street Applicant: Adrian Dalomba and Kyle Bell The applicants are proposing to subdivide the subject lot which measures approximately 13",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 663,
+  "city": "Providence",
+  "address": "781 Manton Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": null,
+  "applicant_entity": "Roddy Rodriguez",
+  "source_items": 1,
+  "text_chars": 331,
+  "candidates": [
+   {
+    "name": "Roddy Rodriguez",
+    "found_as": "labeled",
+    "quote": "Case No. 23-016MI \u2013 781 Manton Ave Applicant: Roddy Rodriguez The applicant is proposing to subdivide the subject lot which measures approximately 49,4",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 671,
+  "city": "Providence",
+  "address": "3533 \u2013 115 Harris Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Rezoning",
+  "applicant_entity": "115 Harris LLC",
+  "source_items": 3,
+  "text_chars": 459,
+  "candidates": [
+   {
+    "name": "115 Harris LLC",
+    "found_as": "labeled",
+    "quote": "Referral no. 3533 \u2013 115 Harris Ave Petitioner: 115 Harris LLC The petitioner is requesting a rezoning of the subject property from M-1 to M-MU 90 \u2013 for",
+    "is_shell": true,
+    "shell_rule": "leading_number",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 672,
+  "city": "Providence",
+  "address": "730 Douglas Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": "Rezoning",
+  "applicant_entity": "Jubril Bamgbala",
+  "source_items": 1,
+  "text_chars": 1227,
+  "candidates": [
+   {
+    "name": "Jubril Bamgbala",
+    "found_as": "labeled",
+    "quote": "Referral No. 3532 \u2013 722 and 730 Douglas Ave Petitioner: Jubril Bamgbala The petitioner is requesting to rezone the subject lots from R-2 to C-1\u2013 for action (AP 1",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 683,
+  "city": "Providence",
+  "address": "22-26 Ringgold Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Rezoning",
+  "applicant_entity": "Kalisbek K Malikov",
+  "source_items": 3,
+  "text_chars": 1554,
+  "candidates": [
+   {
+    "name": "Kalisbek K Malikov",
+    "found_as": "labeled",
+    "quote": "Referral no. 3515 \u2013 22-26 Ringgold Street Applicant: Kalisbek K Malikov The petitioner is requesting to rezone the subject lots from R-3 to C-1 with uses limited",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 684,
+  "city": "Providence",
+  "address": "175-177 Webster Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Development Plan Review",
+  "applicant_entity": "Kenol Cadet",
+  "source_items": 3,
+  "text_chars": 1112,
+  "candidates": [
+   {
+    "name": "Kenol Cadet",
+    "found_as": "labeled",
+    "quote": "Case no. 22-039MI \u2013 175-177 Webster Ave Applicant: Kenol Cadet The applicant is proposing to subdivide the 10,000 SF lot, which is zoned R-3, into two l",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 689,
+  "city": "Providence",
+  "address": "14 Lawrence Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Unified Development Review",
+  "applicant_entity": "Francisco Cruz",
+  "source_items": 1,
+  "text_chars": 593,
+  "candidates": [
+   {
+    "name": "Francisco Cruz",
+    "found_as": "labeled",
+    "quote": "Case No. 22-013UDR \u2013 14 Lawrence Street Applicant: Francisco Cruz The subject lot measures 12,070 SF and is occupied by a three family dwelling and zoned R",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 693,
+  "city": "Providence",
+  "address": "3510 \u2013 828 Charles Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Rezoning",
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 1412,
+  "candidates": [
+   {
+    "name": "Bethany Martone, Daniel Navedo",
+    "found_as": "labeled",
+    "quote": "Referral No. 3510 \u2013 828 Charles Street Petitioners: Bethany Martone, Daniel Navedo The petitioners are requesting to rezone the subject lot from R-2 to C-3 \u2013 for action (AP",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 695,
+  "city": "Providence",
+  "address": "20 feet of a main street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 182,
+  "candidates": []
+ },
+ {
+  "id": 701,
+  "city": "Providence",
+  "address": "54-56 Sutton Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Rezoning",
+  "applicant_entity": "Sutton Place",
+  "source_items": 1,
+  "text_chars": 294,
+  "candidates": []
+ },
+ {
+  "id": 703,
+  "city": "Providence",
+  "address": "167-171 Hudson Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Unified Development Review",
+  "applicant_entity": "478-6C LLC",
+  "source_items": 2,
+  "text_chars": 1868,
+  "candidates": [
+   {
+    "name": "478-6C LLC",
+    "found_as": "labeled",
+    "quote": "Case No. 21-025UDR \u2013 167-171 Hudson Street Applicant: 478-6C LLC The applicant is proposing to subdivide the subject 4,969 SF lot and occupied by two dwel",
+    "is_shell": true,
+    "shell_rule": "leading_number",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 709,
+  "city": "Providence",
+  "address": "40 Seamans Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": "Joseph Colaluca c/o Admiral Properties LLC",
+  "source_items": 4,
+  "text_chars": 1379,
+  "candidates": [
+   {
+    "name": "Admiral Properties LLC",
+    "found_as": "legal_suffix",
+    "quote": "Case No. 21-007 UDR \u2013 40 Seamans Street Applicant: Joseph Colaluca c/o Admiral Properties LLC The applicant is requesting to subdivide a lot measuring 8,000 SF into two lots of approx",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 712,
+  "city": "Providence",
+  "address": "3490 \u2013 9 Mendon Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": "Mario Capaldi",
+  "source_items": 2,
+  "text_chars": 592,
+  "candidates": [
+   {
+    "name": "Mario Capaldi",
+    "found_as": "labeled",
+    "quote": "Referral 3490 \u2013 9 Mendon Street Petitioner: Mario Capaldi The petitioner is requesting to abandon the portion of Mendon Street that is directly adj",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 714,
+  "city": "Providence",
+  "address": "528 Charles Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Design Waiver",
+  "applicant_entity": "Duran Real Estate Investments LLC",
+  "source_items": 2,
+  "text_chars": 444,
+  "candidates": [
+   {
+    "name": "Duran Real Estate Investments LLC",
+    "found_as": "labeled",
+    "quote": "Case No. 2021-03 DPR \u2013 528 Charles Street Applicant: Duran Real Estate Investments LLC The applicant is seeking a design waiver from section 503.A.8 which prohibits residential",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 715,
+  "city": "Providence",
+  "address": "3488 \u2013 845 Allens Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Industrial",
+  "stage": "Rezoning",
+  "applicant_entity": "845 Allens Ave LLC",
+  "source_items": 2,
+  "text_chars": 270,
+  "candidates": [
+   {
+    "name": "845 Allens Ave LLC",
+    "found_as": "labeled",
+    "quote": "Referral 3488 \u2013 845 Allens Ave Petitioner: 845 Allens Ave LLC The petitioner is requesting to rezone the subject lot from C-1 to M-1 in order to use th",
+    "is_shell": true,
+    "shell_rule": "leading_number",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 718,
+  "city": "Providence",
+  "address": "32 Opper Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Rezoning",
+  "applicant_entity": "Salvatore Magnone",
+  "source_items": 3,
+  "text_chars": 1298,
+  "candidates": [
+   {
+    "name": "Salvatore Magnone",
+    "found_as": "labeled",
+    "quote": "Referral 3485 \u2013 Rezoning of 32 Opper Street Petitioner: Salvatore Magnone The petitioner is requesting to rezone approximately 5,084 SF of the subject lot from R-2",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 719,
+  "city": "Providence",
+  "address": "146 Governor Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Rezoning",
+  "applicant_entity": "Seth Yurdin",
+  "source_items": 1,
+  "text_chars": 230,
+  "candidates": [
+   {
+    "name": "Seth Yurdin",
+    "found_as": "labeled",
+    "quote": "Referral 3484 \u2013 Rezoning of 146 Governor Street Petitioner: Seth Yurdin The petitioner is requesting to rezone 146 Governor Street from R-1 to R-3 \u2013 for action (",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 720,
+  "city": "Providence",
+  "address": "7 Edison Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": null,
+  "applicant_entity": "David and Sharon Cutts",
+  "source_items": 2,
+  "text_chars": 599,
+  "candidates": [
+   {
+    "name": "David and Sharon Cutts",
+    "found_as": "labeled",
+    "quote": "Case no. 20-051MI \u2013 7 Edison Ave Applicant: David and Sharon Cutts The applicant is proposing to subdivide the subject lot which is zoned R-1, and measures",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 722,
+  "city": "Providence",
+  "address": "846 Charles Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": "Sal Compagnone",
+  "source_items": 4,
+  "text_chars": 2359,
+  "candidates": [
+   {
+    "name": "Sal Compagnone",
+    "found_as": "labeled",
+    "quote": "Referral 3482 \u2013 Rezoning of 846 Charles Street Petitioner: Sal Compagnone The petitioner is requesting to rezone the subject lot from R-2 to C-3 \u2013 for action (AP 9",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 724,
+  "city": "Providence",
+  "address": "5 Iona Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": null,
+  "applicant_entity": "Maria Hiciano",
+  "source_items": 1,
+  "text_chars": 389,
+  "candidates": [
+   {
+    "name": "Maria Hiciano",
+    "found_as": "labeled",
+    "quote": "-\\.,------------- Members Voting Against: Recuse: Conditions, if ony: 5 MINOR SUBDIVISION Applicant: Maria Hiciano",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 729,
+  "city": "Providence",
+  "address": "47 Matilda Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": "Matilda Pines LLC",
+  "source_items": 4,
+  "text_chars": 2959,
+  "candidates": [
+   {
+    "name": "Matilda Pines LLC",
+    "found_as": "labeled",
+    "quote": "Case No. 20-022MI \u2013 47 Matilda Street (Preliminary Plan) Owner: Matilda Pines LLC The applicant is proposing to construct two buildings; a seven unit rowhouse development",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 730,
+  "city": "Providence",
+  "address": "9 Stimson Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": "Master Plan",
+  "applicant_entity": "Wheeler School",
+  "source_items": 3,
+  "text_chars": 1487,
+  "candidates": [
+   {
+    "name": "Wheeler School",
+    "found_as": "labeled",
+    "quote": "Case No. 2020-DPR \u2013 Wheeler School Master Plan Applicant: Wheeler School The applicant will present an update to their campus master plan which includes the acqui",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 731,
+  "city": "Providence",
+  "address": "400 Wut Fountain Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": "Red Fox 11t. .. 1ty LLC",
+  "source_items": 1,
+  "text_chars": 1019,
+  "candidates": [
+   {
+    "name": "Red Fox 11t",
+    "found_as": "labeled",
+    "quote": "C- No. 19-073 HI - 400 Wut Fountain Street Applicant : Red Fox 11t. .. 1ty LLC RfSULT APPEARANCES: rs; Gtvwt ~ , ACTION. Exhibits Introduce d at hear ing: ~",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 736,
+  "city": "Providence",
+  "address": "299-303 Pocasset Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": "Donna Sebastianelli",
+  "source_items": 3,
+  "text_chars": 1246,
+  "candidates": [
+   {
+    "name": "Donna Sebastianelli",
+    "found_as": "labeled",
+    "quote": "Case No. 20-035MI \u2013 299-303 Pocasset Ave Applicant: Donna Sebastianelli The applicant is proposing to subdivide a lot in the C-1 zone measuring 7,158 SF into two",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Institutional Master Plan",
+    "found_as": "shouted",
+    "quote": "7,158 SF into two lots of 3,330 SF and 3,761 SF \u2013 for action (AP 109 Lot 85, Silver Lake) INSTITUTIONAL MASTER PLAN Applicant: Donna Sebastianelli Case No. 20-035MI \u2013 299-303 Pocasset Ave Applicant: Donna",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 737,
+  "city": "Providence",
+  "address": "3479 \u2013 50 Ashburton Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": null,
+  "source_items": 3,
+  "text_chars": 1473,
+  "candidates": [
+   {
+    "name": "Goulding Properties and EJS Investments Inc",
+    "found_as": "labeled",
+    "quote": "Referral 3479 \u2013 50 Ashburton Street Petitioners: Goulding Properties and EJS Investments Inc The petitioner is requesting to rezone 50 Ashburton Street from M-1 to M-MU 75 \u2013 for acti",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 738,
+  "city": "Providence",
+  "address": "6-42 Somerset Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 712,
+  "candidates": [
+   {
+    "name": "Omni Development Corporation",
+    "found_as": "legal_suffix",
+    "quote": "3480 - I 6-42 Somerset Street, 17-27 Portland Street and 34 Hayward Street Petitioners : Omni Development Corporation and Wingate Companies ~Ti \\~~~W\u00bcn Lt . APPEARANCES: ACTION: Exhibits introduced at hearin",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 739,
+  "city": "Providence",
+  "address": "50 Ashburton Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Unified Development Review",
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 668,
+  "candidates": [
+   {
+    "name": "Goulding Properties and EJS Investments Inc",
+    "found_as": "legal_suffix",
+    "quote": "Referral - 50 Ashburton Street Petitioners : Goulding Properties and EJS Investments Inc RESULT APPEARANCES: j . ACTION: Exhibits introduced at hearing: Motion to Approve by: Sec",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 750,
+  "city": "Providence",
+  "address": "197-199 Wendell Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Final Plan",
+  "applicant_entity": "Sean Harrington",
+  "source_items": 1,
+  "text_chars": 525,
+  "candidates": [
+   {
+    "name": "Sean Harrington",
+    "found_as": "labeled",
+    "quote": "Case No. 20-008MI \u2013 197-199 Wendell Street Applicant: Sean Harrington The applicant is proposing to subdivide a lot measuring 9,000 SF into two lots measuring",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 754,
+  "city": "Providence",
+  "address": "284 President Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": "Stephen and Cheryl Provazza",
+  "source_items": 3,
+  "text_chars": 1536,
+  "candidates": [
+   {
+    "name": "Stephen and Cheryl Provazza",
+    "found_as": "labeled",
+    "quote": "Case No. 20-001 MI \u2013 284 President Ave Applicant: Stephen and Cheryl Provazza The applicant is proposing to subdivide the subject lot which measures approximately 29,0",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 755,
+  "city": "Providence",
+  "address": "535 Broadway",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "City Council Referral",
+  "applicant_entity": "Michael McVicker and Ian Slater",
+  "source_items": 3,
+  "text_chars": 1567,
+  "candidates": [
+   {
+    "name": "Michael McVicker and Ian Slater",
+    "found_as": "labeled",
+    "quote": "Case No. 20-002 MI \u2013 535 Broadway Applicant: Michael McVicker and Ian Slater The applicant is proposing to subdivide the subject lot which measures12,802 SF into two",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 759,
+  "city": "Providence",
+  "address": "134 Waterman Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Demolition",
+  "applicant_entity": "Walter Bronhard",
+  "source_items": 2,
+  "text_chars": 1551,
+  "candidates": [
+   {
+    "name": "Walter Bronhard",
+    "found_as": "labeled",
+    "quote": "Case No. 19-080 MI \u2013 134 Waterman Street Applicant: Walter Bronhard The applicant is proposing to subdivide the subject lot, which is zoned R-4, and measures",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 761,
+  "city": "Providence",
+  "address": "759 Potters Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Rezoning",
+  "applicant_entity": "Rithy Thay",
+  "source_items": 5,
+  "text_chars": 1254,
+  "candidates": [
+   {
+    "name": "Rithy Thay",
+    "found_as": "labeled",
+    "quote": "Referral No. 3466 \u2013 Rezoning of 759 Potters Ave, 44 and 46 Benedict Ave Petitioner: Rithy Thay The petitioner is requesting to rezone the subject property from R-3 to C-1 \u2013 for action",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 763,
+  "city": "Providence",
+  "address": "75 Clifford Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Parking",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 518,
+  "candidates": []
+ },
+ {
+  "id": 764,
+  "city": "Providence",
+  "address": "335 Westminster Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Final Plan",
+  "applicant_entity": "Respectfully",
+  "source_items": 2,
+  "text_chars": 1481,
+  "candidates": [
+   {
+    "name": "Avenue Concept",
+    "found_as": "narrative",
+    "quote": "Case No. 2024-17 DD-DPR: 335 Westminster Street (Commercial Building) Proposal by The Avenue Concept to apply paint to an unpainted exterior masonry wall on the rear elevation of the building for a permanent",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 765,
+  "city": "Providence",
+  "address": "76 Westminster Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 192,
+  "candidates": []
+ },
+ {
+  "id": 770,
+  "city": "Providence",
+  "address": "71-73 Richmond Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Special Use Permit",
+  "applicant_entity": null,
+  "source_items": 10,
+  "text_chars": 7619,
+  "candidates": [
+   {
+    "name": "Seventy One Richmond LLC",
+    "found_as": "narrative",
+    "quote": "l Building, ca. 1924-1926) and 81-85 Richmond Street (Commercial Building, ca. 1889-1899) Proposal by Seventy One Richmond LLC to construct a new, 6-story residential addition at the rear of the buildings, which extends partially",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "Jermaine Winfield",
+    "found_as": "shouted",
+    "quote": "Street. Continued from the September 13, 2021 DDRC meeting. ADJOURNMENT Posted 11/1/2021 JERMAINE WINFIELD (Applicant) and ELI SCHWARTZ (Owner): 71 Richmond Street, Plat 24, Lot 515, located in a",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Eli Schwartz",
+    "found_as": "shouted",
+    "quote": "ber 13, 2021 DDRC meeting. ADJOURNMENT Posted 11/1/2021 JERMAINE WINFIELD (Applicant) and ELI SCHWARTZ (Owner): 71 Richmond Street, Plat 24, Lot 515, located in a D- 1-120 Downtown District an",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Seventy-One Richmond, LLC",
+    "found_as": "legal_suffix",
+    "quote": "Richmond Street (Commercial Building, ca. 1889-1899) Continued review of the proposal by Seventy-One Richmond, LLC to construct a new, 6-story residential addition behind the two buildings, which partiall",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 771,
+  "city": "Providence",
+  "address": "186 Fountain Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 445,
+  "candidates": []
+ },
+ {
+  "id": 772,
+  "city": "Providence",
+  "address": "126 Washington Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 354,
+  "candidates": [
+   {
+    "name": "Cho Realty Investments",
+    "found_as": "narrative",
+    "quote": "DRC Application No. 22.07: 126 Washington Street (Arnold Building) Proposal by Cho Realty Investments to replace an existing mid-20 th century storefront with a new storefront system with operable windows;",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 773,
+  "city": "Providence",
+  "address": "49 Peck Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Pre-application Conference",
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 374,
+  "candidates": [
+   {
+    "name": "Philip Marrelly",
+    "found_as": "narrative",
+    "quote": "DRC Application No. 21.06: 49 Peck Street (Commercial Building) Proposal by Philip Marrelly to reconstruct 2nd floor egress, side elevation (as required by the Fire Department), to replace existing windows",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 774,
+  "city": "Providence",
+  "address": "55 Pine Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Pre-application Conference",
+  "applicant_entity": "Respectfully",
+  "source_items": 3,
+  "text_chars": 2826,
+  "candidates": [
+   {
+    "name": "Four Star Realty LLC",
+    "found_as": "narrative",
+    "quote": "55 Pine Street (Commercial Building) Proposal by Four Star Realty LLC to paint a mural on the rear elevation of the building that currently contains graffiti. This item",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 775,
+  "city": "Providence",
+  "address": "31 Aborn Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 289,
+  "candidates": []
+ },
+ {
+  "id": 776,
+  "city": "Providence",
+  "address": "91 Clemence Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 154,
+  "candidates": [
+   {
+    "name": "AS220",
+    "found_as": "narrative",
+    "quote": "DRC Application No. 19.37: 91 Clemence Street (commercial building) Proposal by AS220 to install a permanent mural on the north elevation of the building.",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 783,
+  "city": "Providence",
+  "address": "583 Elmwood Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Special Use Permit",
+  "applicant_entity": "DERLYN LOPEZ",
+  "source_items": 4,
+  "text_chars": 3380,
+  "candidates": [
+   {
+    "name": "DERLYN LOPEZ",
+    "found_as": "labeled",
+    "quote": "thompson@providenceri.gov, if you have any questions regarding this meeting, or submissio Applicant: DERLYN LOPEZ DERLYN LOPEZ (Solicitante/Propietario): 583 Elmwood Ave, Plano 52, Lote 333, ubicado en u",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 787,
+  "city": "Providence",
+  "address": "30 Barbara St",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Special Use Permit",
+  "applicant_entity": "CLAIRE MONTECALVO",
+  "source_items": 8,
+  "text_chars": 5004,
+  "candidates": [
+   {
+    "name": "CLAIRE MONTECALVO",
+    "found_as": "labeled",
+    "quote": "has been previously granted to allow for 1,600sf of lot area per principal dwelling unit Applicant: CLAIRE MONTECALVO CLAIRE MONTECALVO (Applicant/Owner): 30 Barbara St, Plat 113, Lot 389, located in an R -3",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 788,
+  "city": "Providence",
+  "address": "78 FOUNTAIN STREET",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Special Use Permit",
+  "applicant_entity": "TAUANE ALVES",
+  "source_items": 4,
+  "text_chars": 2716,
+  "candidates": [
+   {
+    "name": "TAUANE ALVES",
+    "found_as": "labeled",
+    "quote": "nimal Care Facility zoning use) in a first-floor commercial unit on the subject property. Applicant: TAUANE ALVES TAUANE ALVES (Solicitante ) y 78 FOUNTAIN STREET BAC, LLC (Propietario): 78 Fountain St,",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Fountain Street Bac",
+    "found_as": "shouted",
+    "quote": "TAUANE ALVES (Applicant) and 78 FOUNTAIN STREET BAC, LLC (Owner): 78 Fountain St, Plat 25, Lot 465, located in a D-1-120 Downtown District an",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "BAC, LLC",
+    "found_as": "legal_suffix",
+    "quote": "TAUANE ALVES (Applicant) and 78 FOUNTAIN STREET BAC, LLC (Owner): 78 Fountain St, Plat 25, Lot 465, located in a D-1-120 Downtown District and DD",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 801,
+  "city": "Providence",
+  "address": "5 Marvin St",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Residential",
+  "stage": "Special Use Permit",
+  "applicant_entity": "SHAWN GILHEENEY",
+  "source_items": 6,
+  "text_chars": 2964,
+  "candidates": [
+   {
+    "name": "SHAWN GILHEENEY",
+    "found_as": "labeled",
+    "quote": "stablishment (Arts Studio) on the first floor of the existing structure. III. NEW MATTERS Applicant: SHAWN GILHEENEY SHAWN GILHEENEY (Solicitante/Propietario): 5 Marvin St, Plat 37, Lot 207, ubicado en un D",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 807,
+  "city": "Providence",
+  "address": "370 Cranston Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": null,
+  "applicant_entity": "ADRIENNE GAGNON",
+  "source_items": 4,
+  "text_chars": 2173,
+  "candidates": [
+   {
+    "name": "ADRIENNE GAGNON",
+    "found_as": "labeled",
+    "quote": "n 8-foot fence along a portion of the westerly lot line to enclose an internal courtyard. Applicant: ADRIENNE GAGNON ADRIENNE GAGNON (Solicitante) y DOWNCITY DESIGN (Propietario): 370 Cranston Street, Plat",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Downcity Design",
+    "found_as": "shouted",
+    "quote": "ADRIENNE GAGNON (Applicant) and DOWNCITY DESIGN ( Owner): 370 Cranston Street, Plat 31, Lot 198, located in a C-2 General Commercial Dist",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 808,
+  "city": "Providence",
+  "address": "516 Plainfield Street",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": "Special Use Permit",
+  "applicant_entity": "MARIA GIRON",
+  "source_items": 4,
+  "text_chars": 2337,
+  "candidates": [
+   {
+    "name": "MARIA GIRON",
+    "found_as": "labeled",
+    "quote": "staurant) in an existing non -residential unit that was formerly a Salon use by variance. Applicant: MARIA GIRON MARIA GIRON (Solicitante/Propietario): 516 Plainfield Street, Plat 108, Lote 96, ubicado",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 809,
+  "city": "Providence",
+  "address": "393-399 Westminster St",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": "Special Use Permit",
+  "applicant_entity": "AYODEJI TADE",
+  "source_items": 2,
+  "text_chars": 1224,
+  "candidates": [
+   {
+    "name": "AYODEJI TADE",
+    "found_as": "labeled",
+    "quote": "ng Against: Ryan, Maniotes, Greenfield (MOTION FAILED) Motion to continue to a date certa Applicant: AYODEJI TADE",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Brooks Acoustic Group",
+    "found_as": "developer_word",
+    "quote": "dent EXHIBITS: Ex.A. - VibraScience Inc. recommendations for acoustic treatment; Ex. B. \u2013 Brooks Acoustic Group CVs - Brooks and Mattos ACTION: Motion to continue to a date certain of February 14, 2024",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Conrad Building and Paolino Properties",
+    "found_as": "legal_suffix",
+    "quote": "ncial Group LLC, manager COMMENTORS: Nicholas Hemond, Esq. on behalf of the owners of the Conrad Building and Paolino Properties; Bennett Brooks, Acoustic Engineer; Frank Meglio, Conrad Building Association President;",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "EMPIRE FINANCIAL GROUP, LLC",
+    "found_as": "legal_suffix",
+    "quote": "AYODEJI TADE (Applicant) and EMPIRE FINANCIAL GROUP, LLC (Owner): 393-399 Westminster St (Unit 73 Empire Street), Plat 25, Lot 310, located in a D",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "Empire Financial Group LLC",
+    "found_as": "legal_suffix",
+    "quote": "1 pm \u2013 7:13pm APPEARANCES: J. Dixen Acosta, Esq., Ayodeji Tade, applicant; Anthony Nota \u2013 Empire Financial Group LLC, manager COMMENTORS: Nicholas Hemond, Esq. on behalf of the owners of the Conrad Building",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "VibraScience Inc",
+    "found_as": "legal_suffix",
+    "quote": "ing Association President; Constance Beverley, Conrad Building resident EXHIBITS: Ex.A. - VibraScience Inc. recommendations for acoustic treatment; Ex. B. \u2013 Brooks Acoustic Group CVs - Brooks and",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 810,
+  "city": "Providence",
+  "address": "161 DOUGLAS AVENUE",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Special Use Permit",
+  "applicant_entity": "DOUGLAS AVENUE, LLC",
+  "source_items": 4,
+  "text_chars": 1236,
+  "candidates": [
+   {
+    "name": "DOUGLAS AVENUE, LLC",
+    "found_as": "labeled",
+    "quote": ".V. of the City of Providence Zoning Ordinance, to establish a principal use parking lot. Applicant: DOUGLAS AVENUE, LLC 161 DOUGLAS AVENUE, LLC (Solicitante/Propietario): 155 Douglas Ave, Plat 68, Lote 202, ub",
+    "is_shell": true,
+    "shell_rule": "street_named",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 815,
+  "city": "Providence",
+  "address": "896 Atwells Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": "Special Use Permit",
+  "applicant_entity": "ANA CRISTINA PEREZ",
+  "source_items": 4,
+  "text_chars": 1644,
+  "candidates": [
+   {
+    "name": "ANA CRISTINA PEREZ",
+    "found_as": "labeled",
+    "quote": "an existing non-residential structure that was formerly a manufacturing use by variance. Applicant: ANA CRISTINA PEREZ ANA CRISTINA PEREZ (Solicitante/Propietaria): 896 Atwells Avenue, Plat 63, Lot 169, ubica",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 820,
+  "city": "Providence",
+  "address": "518 Lloyd Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": null,
+  "applicant_entity": "S HOUSE, INC",
+  "source_items": 4,
+  "text_chars": 3941,
+  "candidates": [
+   {
+    "name": "S HOUSE, INC",
+    "found_as": "labeled",
+    "quote": "nconforming plane that currently encroaches 1.82 feet into the 25-foot rear yard setback. Applicant: S HOUSE, INC MONTESSORI CHILDREN\u2019S HOUSE, INC. (Solicitante/Propietario): 518 Lloyd Ave, Plat 39, Lote",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "Montessori Children",
+    "found_as": "shouted",
+    "quote": "MONTESSORI CHILDREN\u2019S HOUSE, INC. (Applicant/Owner): 518 Lloyd Ave, Plat 39, Lot 170, located in an R-1 Resid",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 825,
+  "city": "Providence",
+  "address": "50 Plainfield St",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": null,
+  "applicant_entity": "S USA, LLC",
+  "source_items": 4,
+  "text_chars": 2557,
+  "candidates": [
+   {
+    "name": "MCDONALD'S USA, LLC",
+    "found_as": "legal_suffix",
+    "quote": "20 square feet are the permitted maximum in a C-2 zoning district. Applicant: S USA, LLC MCDONALD'S USA, LLC (Solicitante) y MCDONALD'S CORPORATION (Propietario): 50 Plainfield St, Plat 105, Lot 500",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 833,
+  "city": "Providence",
+  "address": "165 Dexter St",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Special Use Permit",
+  "applicant_entity": "JOSE GALAVIZ",
+  "source_items": 6,
+  "text_chars": 3191,
+  "candidates": [
+   {
+    "name": "JOSE GALAVIZ",
+    "found_as": "labeled",
+    "quote": "addition for two garage bays onto an existing structure used for Vehicle Repair/Service. Applicant: JOSE GALAVIZ JOSE GALAVIZ (Solicitante / Propietario): 165 Dexter St, Plat 31, Lote 52, ubicado en el",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 836,
+  "city": "Providence",
+  "address": "508 Prairie Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": "Special Use Permit",
+  "applicant_entity": "DENORAH REYNOSO",
+  "source_items": 6,
+  "text_chars": 2234,
+  "candidates": [
+   {
+    "name": "DENORAH REYNOSO",
+    "found_as": "labeled",
+    "quote": "isting non -residential structure that was formerly a Barbershop established by variance. Applicant: DENORAH REYNOSO DENORAH REYNOSO (Solicitante) y ANIBAL TILLETT (Propietario): 508 Prairie Ave, Plat 54, L",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Anibal Tillett",
+    "found_as": "shouted",
+    "quote": "DENORAH REYNOSO (Applicant) and ANIBAL TILLETT (Owner): 508 Prairie Ave, Plat 54, Lot 80, located in an R -3 Residential District. Appli",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 842,
+  "city": "Providence",
+  "address": "245 Carpenter St",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": "Special Use Permit",
+  "applicant_entity": "PETER KAMMERER",
+  "source_items": 4,
+  "text_chars": 4797,
+  "candidates": [
+   {
+    "name": "PETER KAMMERER",
+    "found_as": "labeled",
+    "quote": "eeting. \u2022 Contact Alexis Thompson, Secretary to the Zoning Board of Review , at 401-680-5 Applicant: PETER KAMMERER PETER KAMMERER (Solicitante) y TIMPANO LLC (Propietario): 245 Carpenter St, Plat 28, Lote",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "TIMPANO LLC",
+    "found_as": "legal_suffix",
+    "quote": "PETER KAMMERER (Applicant) and TIMPANO LLC (Owner): 245 Carpenter St, Plat 28, Lot 933, located in an R -3 Residential District. App",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 846,
+  "city": "Providence",
+  "address": "280 VALLET STREET",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Special Use Permit",
+  "applicant_entity": "JP MORGAN CHASE BANK",
+  "source_items": 4,
+  "text_chars": 939,
+  "candidates": [
+   {
+    "name": "JP MORGAN CHASE BANK",
+    "found_as": "labeled",
+    "quote": "le 12 -1, in the development of the site for a bank with a drive-through stand-alone ATM. Applicant: JP MORGAN CHASE BANK JP MORGAN CHASE BANK (Applicant) and 280 VALLET STREET, LLC (Owner): 280-284 Valley St, P",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Dimensional Variances",
+    "found_as": "shouted",
+    "quote": "ted in a C -2 General Commercial District and R -3 Residentia l District. Application for DIMENSIONAL VARIANCES seeking relief from setback requirements of Table 5 -1 and Build -To Percentages of Secti",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "VALLET STREET, LLC",
+    "found_as": "legal_suffix",
+    "quote": "JP MORGAN CHASE BANK (Applicant) and 280 VALLET STREET, LLC (Owner): 280-284 Valley St, Plat 65, Lot 991, located in a C -2 General Commercial Distri",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 849,
+  "city": "Providence",
+  "address": "321 South Main St",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": null,
+  "applicant_entity": "SMS PARTNERS LLC",
+  "source_items": 2,
+  "text_chars": 1513,
+  "candidates": [
+   {
+    "name": "White Columns Properties, LLC",
+    "found_as": "legal_suffix",
+    "quote": "a fa\u00e7ade where 1 is permitted. III. ZONING BOARD OF APPEALS APPELLANTS: Dr. Warren Purvis/White Columns Properties, LLC PROPERTY OWNER: Providence Chestnut 1, LLC SUBJECT PROPERTY: 151-155 Chestnut St, Plat: 2",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "Providence Chestnut 1, LLC",
+    "found_as": "legal_suffix",
+    "quote": "RD OF APPEALS APPELLANTS: Dr. Warren Purvis/White Columns Properties, LLC PROPERTY OWNER: Providence Chestnut 1, LLC SUBJECT PROPERTY: 151-155 Chestnut St, Plat: 21, Lots: 85 & 86 ZONING DISTRICT: D-1-100 D",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "SMS PARTNERS LLC 321",
+    "found_as": "legal_suffix",
+    "quote": "tricts APPELLEES: Downtown Design Review Committee, Providence Chestnut 1, LLC Applicant: SMS PARTNERS LLC 321 SMS PARTNERS LLC (Applicant/Owner): 321 South Main St, Plat 16, Lot 33, located in a C -2 General Commerci",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 855,
+  "city": "Providence",
+  "address": "642 CRANSTON ST",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Special Use Permit",
+  "applicant_entity": "CRANSTON ST, LLC",
+  "source_items": 1,
+  "text_chars": 247,
+  "candidates": [
+   {
+    "name": "CRANSTON ST, LLC",
+    "found_as": "labeled",
+    "quote": "lication for SPECIAL USE PERMIT per Table 12 -1 for use as a Parking Lot (Principal Use). Applicant: CRANSTON ST, LLC",
+    "is_shell": true,
+    "shell_rule": "street_named",
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 856,
+  "city": "Providence",
+  "address": "201 Arlington Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": "Master Plan",
+  "applicant_entity": "MICHAEL R. OLIVIA",
+  "source_items": 1,
+  "text_chars": 1229,
+  "candidates": [
+   {
+    "name": "MICHAEL R",
+    "found_as": "labeled",
+    "quote": "VANCE OF THE HEARING DATE. ESTA REUNION PUEDE SER CONTINUADA EN CUALQUIER MOMENTO BAJO LA Applicant: MICHAEL R. OLIVIA",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Cualquier Momento Bajo",
+    "found_as": "shouted",
+    "quote": ") 421-2489, 48 HOURS IN ADVANCE OF THE HEARING DATE. ESTA REUNION PUEDE SER CONTINUADA EN CUALQUIER MOMENTO BAJO LA Applicant: MICHAEL R. OLIVIA",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Property Owner",
+    "found_as": "shouted",
+    "quote": "PPELLANTS: Dr. Matthew Turner, Ms. Virginia Brett, Dr. Roman Hayda, and Ms. Kathryn Hayda PROPERTY OWNER: Nicholson 2018 LLC, c/o Thomas Nicholson SUBJECT PROPERTY: 288 Blackstone Blvd., 315 & 3",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Michael Booth",
+    "found_as": "shouted",
+    "quote": "MICHAEL R. OLIVIA (Applicant) and MICHAEL R. OLIVIA and MICHAEL BOOTH (Owners): 201 Arlington Ave, Plat 86, Lot 258, located in an R -1 Residential District. A",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Day And Time",
+    "found_as": "shouted",
+    "quote": "r Plan Approval for Major Subdivision 18-028MA. THIS MEETING MAY BE CONTINUED FROM DAY TO DAY AND TIME TO TIME AT THE DISCRETION OF THE ZONING BOARD OF REVIEW. THIS MEETING IS ACCESSIBLE TO AL",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Individuals",
+    "found_as": "shouted",
+    "quote": "ME TO TIME AT THE DISCRETION OF THE ZONING BOARD OF REVIEW. THIS MEETING IS ACCESSIBLE TO ALL PERSONS. INDIVIDUALS REQUESTING INTERPRETER SERVICES MUST NOTIFY THE OFFICE OF NEIGHBORHOOD SERVICES AT (401) 421-2489, 48 HOURS IN A",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Esta",
+    "found_as": "shouted",
+    "quote": "R SERVICES MUST NOTIFY THE OFFICE OF NEIGHBORHOOD SERVICES AT (401) 421-2489, 48 HOURS IN ADVANCE OF THE HEARING DATE. ESTA REUNION PUEDE SER CONTINUADA EN CUALQUIER MOMENTO BAJO LA Applicant: MICHAEL R. OLIVIA",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Nicholson 2018 LLC",
+    "found_as": "legal_suffix",
+    "quote": "atthew Turner, Ms. Virginia Brett, Dr. Roman Hayda, and Ms. Kathryn Hayda PROPERTY OWNER: Nicholson 2018 LLC, c/o Thomas Nicholson SUBJECT PROPERTY: 288 Blackstone Blvd., 315 & 325 Slater Ave, Plat:",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 860,
+  "city": "Providence",
+  "address": "150 Bridgham St",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Mixed-Use",
+  "stage": null,
+  "applicant_entity": "PETER FRIEDRICHS",
+  "source_items": 3,
+  "text_chars": 3615,
+  "candidates": [
+   {
+    "name": "PETER FRIEDRICHS",
+    "found_as": "labeled",
+    "quote": "hompson@providenceri.gov FREE PARKING AVAILABLE AT BUILDING ACCESSIBLE FROM GREENE STREET Applicant: PETER FRIEDRICHS Pursuant to R.I.G.L. Sections 45-24-57(1)(i) and 45-24-64, and Section 1918(B) of the Zon",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Individuos Que Requieran Servicios",
+    "found_as": "shouted",
+    "quote": "ISIONES DE ZONA. LA INFORMACION DE ESTA REUNION ESTA DISPONIBLE PARA TODAS LAS PERSONAS E INDIVIDUOS QUE REQUIERAN SERVICIOS DE INTERPRETE, LLAME A LA OFICINA DE SERVICIOS VECINDALES AL (401) 421-2489, POR LO MEMOS",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Cualquier Momento Bajo",
+    "found_as": "shouted",
+    "quote": ") 421-2489, 48 HOURS IN ADVANCE OF THE HEARING DATE. ESTA REUNION PUEDE SER CONTINUADA EN CUALQUIER MOMENTO BAJO LA DISCRECTION DE LA JUNTA DE REVISIONES DE ZONA. LA INFORMACION DE ESTA REUNION ESTA DIS",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Free Parking Available",
+    "found_as": "shouted",
+    "quote": "hompson Secretary to the Zoning Board of Review (401) 680-5376 athompson@providenceri.gov FREE PARKING AVAILABLE AT BUILDING ACCESSIBLE FROM GREENE STREET Applicant: PETER FRIEDRICHS Pursuant to R.I.G.L",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Dimensional Variances",
+    "found_as": "shouted",
+    "quote": ", located in an R -3 Residential District and Historic Overlay District . Application for DIMENSIONAL VARIANCES seeking relief from Section 1305.I.2.a. for a solid 8 ft. high fence, where 3 ft. are per",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Servicios Vecindales",
+    "found_as": "shouted",
+    "quote": "AS LAS PERSONAS E INDIVIDUOS QUE REQUIERAN SERVICIOS DE INTERPRETE, LLAME A LA OFICINA DE SERVICIOS VECINDALES AL (401) 421-2489, POR LO MEMOS 48 HORAS ANTES DE SU FECHA DE JUICIO. Alexis J. Thompson",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Building Accessible",
+    "found_as": "shouted",
+    "quote": "oning Board of Review (401) 680-5376 athompson@providenceri.gov FREE PARKING AVAILABLE AT BUILDING ACCESSIBLE FROM GREENE STREET Applicant: PETER FRIEDRICHS Pursuant to R.I.G.L. Sections 45-24-57(1)(i) and 45-24-64, an",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Hdc Decision Upheld",
+    "found_as": "shouted",
+    "quote": "pm APPEARANCES: for appellant- Michael Marcello, Esq. for appellee- Lisa Dinerman ACTION: HDC DECISION UPHELD/APPEAL DENIED 5-0 Page 3 of 3 Motion to uphold/overturn HDC Decision by: Baldwin Seconded",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Todas Las Personas",
+    "found_as": "shouted",
+    "quote": "ON DE LA JUNTA DE REVISIONES DE ZONA. LA INFORMACION DE ESTA REUNION ESTA DISPONIBLE PARA TODAS LAS PERSONAS E INDIVIDUOS QUE REQUIERAN SERVICIOS DE INTERPRETE, LLAME A LA OFICINA DE SERVICIOS VECIN",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Property Owner",
+    "found_as": "shouted",
+    "quote": "t foot tall board fence along the boundaries of the property. APPELLANT: Peter Friedrichs PROPERTY OWNER: Peter Friedrichs SUBJECT PROPERTY: 150 Bridgham St, Plat 32, Lot 318 Zoning District: R-",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Day And Time",
+    "found_as": "shouted",
+    "quote": "ne, and 6 ft. are permitted in all other areas. THIS MEETING MAY BE CONTINUED FROM DAY TO DAY AND TIME TO TIME AT THE DISCRETION OF THE ZONING BOARD OF REVIEW. THIS MEETING IS ACCESSIBLE TO AL",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Individuals",
+    "found_as": "shouted",
+    "quote": "ME TO TIME AT THE DISCRETION OF THE ZONING BOARD OF REVIEW. THIS MEETING IS ACCESSIBLE TO ALL PERSONS. INDIVIDUALS REQUESTING INTERPRETER SERVICES MUST NOTIFY THE OFFICE OF NEIGHBORHOOD SERVICES AT (401) 421-2489, 48 HOURS IN A",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Horas Antes",
+    "found_as": "shouted",
+    "quote": "INTERPRETE, LLAME A LA OFICINA DE SERVICIOS VECINDALES AL (401) 421-2489, POR LO MEMOS 48 HORAS ANTES DE SU FECHA DE JUICIO. Alexis J. Thompson Secretary to the Zoning Board of Review (401) 6",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Esta",
+    "found_as": "shouted",
+    "quote": "R SERVICES MUST NOTIFY THE OFFICE OF NEIGHBORHOOD SERVICES AT (401) 421-2489, 48 HOURS IN ADVANCE OF THE HEARING DATE. ESTA REUNION PUEDE SER CONTINUADA EN CUALQUIER MOMENTO BAJO LA DISCRECTION DE LA JUNTA DE REVI",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 861,
+  "city": "Providence",
+  "address": "292 Pocasset Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": "Special Use Permit",
+  "applicant_entity": "YANET SUERO",
+  "source_items": 3,
+  "text_chars": 850,
+  "candidates": [
+   {
+    "name": "YANET SUERO",
+    "found_as": "labeled",
+    "quote": "f a second floor addition that will result in a restaurant greater than 3,500 sq.ft. GFA. Applicant: YANET SUERO YANET SUERO (Applicant/Owner): 292 Pocasset Ave, Plat 109, Lot 627, located in a C -1 Nei",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Owner Did Not Appear Objectors",
+    "found_as": "shouted",
+    "quote": "t in a restaurant greater than 3,500 sq.ft. GFA. _____pm \u2013 _____pm APPEARANCES: APPLICANT/OWNER DID NOT APPEAR OBJECTORS: n/a ACTION: n/a Exhibits introduced at hearing: n/a Motion to approve by: n/a Seconded B",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 862,
+  "city": "Providence",
+  "address": "54 South St",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": "Special Use Permit",
+  "applicant_entity": "AT SOUTH STREET, LLC",
+  "source_items": 3,
+  "text_chars": 1198,
+  "candidates": [
+   {
+    "name": "Outh Street",
+    "found_as": "shouted",
+    "quote": "ncillary Use in an existing restaurant and bar. Applicant: AT SOUTH STREET, LLC CAF\u00c9 AT S OUTH STREET, LLC (Applicant) and SS KYLTIFF, LLC ( Owner): 54 South St, Plat 21, Lot 302, located in",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "SS KYLTIFF, LLC",
+    "found_as": "legal_suffix",
+    "quote": "CAF\u00c9 AT SOUTH STREET, LLC (Applicant) and SS KYLTIFF, LLC ( Owner): 54 South St, Plat 21, Lot 302, located in a D-1-100 Downtown District, and I-3E",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 865,
+  "city": "Providence",
+  "address": "650 Hartford Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Special Use Permit",
+  "applicant_entity": "ORLANDO CORREIA",
+  "source_items": 3,
+  "text_chars": 1437,
+  "candidates": [
+   {
+    "name": "ORLANDO CORREIA",
+    "found_as": "labeled",
+    "quote": "k. The proposed front yard setback is 46 ft., where the required Build-To Zone is 0-5 ft. Applicant: ORLANDO CORREIA ORLANDO CORREIA (Applicant/Owner): 650 Hartford Ave, Plat 115, Lot 238, located in a C -2",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Individuos Que Requieran Servicios",
+    "found_as": "shouted",
+    "quote": "ISIONES DE ZONA. LA INFORMACION DE ESTA REUNION ESTA DISPONIBLE PARA TODAS LAS PERSONAS E INDIVIDUOS QUE REQUIERAN SERVICIOS DE INTERPRETE, LLAME A LA OFICINA DE SERVICIOS VECINDALES AL (401) 421 -2489, POR LO MEMO",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Cualquier Momento Bajo",
+    "found_as": "shouted",
+    "quote": "421 -2489, 48 HOURS IN ADVANCE OF THE HEARING DATE. ESTA REUNION PUEDE SER CONTINUADA EN CUALQUIER MOMENTO BAJO LA DISCRE CTION DE LA JUNTA DE REVISIONES DE ZONA. LA INFORMACION DE ESTA REUNION ESTA DI",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Free Parking Available",
+    "found_as": "shouted",
+    "quote": "hompson Secretary to the Zoning Board of Review (401) 680-5376 athompson@providenceri.gov FREE PARKING AVAILABLE AT BUILDING ACCESSIBLE FROM GREENE STREET",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Servicios Vecindales",
+    "found_as": "shouted",
+    "quote": "AS LAS PERSONAS E INDIVIDUOS QUE REQUIERAN SERVICIOS DE INTERPRETE, LLAME A LA OFICINA DE SERVICIOS VECINDALES AL (401) 421 -2489, POR LO MEMOS 48 HORAS ANTES DE SU FECHA DE JUICIO. Alexis J. Thompson",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Building Accessible",
+    "found_as": "shouted",
+    "quote": "oning Board of Review (401) 680-5376 athompson@providenceri.gov FREE PARKING AVAILABLE AT BUILDING ACCESSIBLE FROM GREENE STREET",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Todas Las Personas",
+    "found_as": "shouted",
+    "quote": "ON DE LA JUNTA DE REVISIONES DE ZONA. LA INFORMACION DE ESTA REUNION ESTA DISPONIBLE PARA TODAS LAS PERSONAS E INDIVIDUOS QUE REQUIERAN SERVICIOS DE INTERPRETE, LLAME A LA OFICINA DE SERVICIOS VECIN",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Day And Time",
+    "found_as": "shouted",
+    "quote": "king relief from Table 5-1: Front Yard Setback. THIS MEETING MAY BE CONTINUED FROM DAY TO DAY AND TIME TO TIME AT THE DISCRETION OF THE ZONING BOARD OF REVIEW. THIS MEETING IS ACCESSIBLE TO AL",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Discre Ction",
+    "found_as": "shouted",
+    "quote": "VANCE OF THE HEARING DATE. ESTA REUNION PUEDE SER CONTINUADA EN CUALQUIER MOMENTO BAJO LA DISCRE CTION DE LA JUNTA DE REVISIONES DE ZONA. LA INFORMACION DE ESTA REUNION ESTA DISPONIBLE PARA TO",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Individuals",
+    "found_as": "shouted",
+    "quote": "ME TO TIME AT THE DISCRETION OF THE ZONING BOARD OF REVIEW. THIS MEETING IS ACCESSIBLE TO ALL PERSONS. INDIVIDUALS REQUESTING INTERPRETER SERVICES MUST NOTIFY THE OFFICE OF NEIGHBORHOOD SERVICES AT (401) 421 -2489, 48 HOURS IN",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Horas Antes",
+    "found_as": "shouted",
+    "quote": "NTERPRETE, LLAME A LA OFICINA DE SERVICIOS VECINDALES AL (401) 421 -2489, POR LO MEMOS 48 HORAS ANTES DE SU FECHA DE JUICIO. Alexis J. Thompson Secretary to the Zoning Board of Review (401) 6",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Esta",
+    "found_as": "shouted",
+    "quote": "SERVICES MUST NOTIFY THE OFFICE OF NEIGHBORHOOD SERVICES AT (401) 421 -2489, 48 HOURS IN ADVANCE OF THE HEARING DATE. ESTA REUNION PUEDE SER CONTINUADA EN CUALQUIER MOMENTO BAJO LA DISCRE CTION DE LA JUNTA DE REV",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 868,
+  "city": "Cranston",
+  "address": "6 Zone",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1128,
+  "candidates": []
+ },
+ {
+  "id": 879,
+  "city": "Cranston",
+  "address": "41 Heath Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 608,
+  "candidates": []
+ },
+ {
+  "id": 881,
+  "city": "Warwick",
+  "address": "240 Shawomet Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": "Special Use Permit",
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 883,
+  "city": "Warwick",
+  "address": "2055 Warwick Avenue",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Preliminary Plan",
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 2222,
+  "candidates": [
+   {
+    "name": "Eugenia L. Illiano Revocable Trust",
+    "found_as": "legal_suffix",
+    "quote": "Ave. The petition of Colbea Enterprises, LLC, 2050 Plainfield Pike, Cranston, RI, and the Eugenia L. Illiano Revocable Trust, 1 Meadowbrook Rd., No. Providence, RI, requests a special use under Table 1 Use Regulati",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   },
+   {
+    "name": "Colbea Enterprises, LLC",
+    "found_as": "legal_suffix",
+    "quote": "02, zoned General Business (GB). Petition #10730 Ward 3 2055 Warwick Ave. The petition of Colbea Enterprises, LLC, 2050 Plainfield Pike, Cranston, RI, and the Eugenia L. Illiano Revocable Trust, 1 Meadow",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": true
+   }
+  ]
+ },
+ {
+  "id": 884,
+  "city": "Warwick",
+  "address": "175 Hollis Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Office",
+  "stage": "Special Use Permit",
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 896,
+  "city": "Warwick",
+  "address": "2019 Page",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Office",
+  "stage": "Rezoning",
+  "applicant_entity": null,
+  "source_items": 2,
+  "text_chars": 2401,
+  "candidates": []
+ },
+ {
+  "id": 897,
+  "city": "Warwick",
+  "address": "30 Jefferson Blvd",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": [
+   {
+    "name": "Springdale Enterprises",
+    "found_as": "developer_word",
+    "quote": "30 Jefferson Blvd. The petition of 30 Jefferson, LLC, 434 Smith St., Providence, RI, and Springdale Enterprises, P.O. Box 1143, Darien, CT, requests a dimensional variance to convert the existing non-c",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 898,
+  "city": "Warwick",
+  "address": "30 Randall Ave",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 899,
+  "city": "Warwick",
+  "address": "434 Smith St",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": [
+   {
+    "name": "Spnngdale Enterprises",
+    "found_as": "developer_word",
+    "quote": "rd2 30 JeffersonBlvd. $The petitionof30 Jefferson,LLC, 434 Smith St , Prov~ilence,RI, and Spnngdale Enterprises,P 0 Box 1143, Darien,CT, requestsa d i1~%nsi~al variancetoconvert theexistmgnon-conformin",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 900,
+  "city": "Warwick",
+  "address": "10616 Ward",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Retail",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 1200,
+  "candidates": []
+ },
+ {
+  "id": 901,
+  "city": "Providence",
+  "address": "544 ELMWOOD AVENUE",
+  "units": null,
+  "gsf": null,
+  "asset_class": "Institutional",
+  "stage": null,
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 637,
+  "candidates": [
+   {
+    "name": "Lease Of Real Property",
+    "found_as": "shouted",
+    "quote": "SECTION 42-46- 5(A)(5) FOR DISCUSSIONS OR C ONSIDERATIONS RELATE D TO THE ACQUISITION OR LEASE OF REAL PROPERTY FOR PUBLIC PURPOSES, OR OF THE DISPOSITIO N OF PUBLICLY HELD PROPERTY WHEREIN ADV ANCED PUBLIC INFOR",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Onsiderations Relate",
+    "found_as": "shouted",
+    "quote": "ENERAL LAWS: 1. FOR THE PURPOSES SET FORTH IN SECTION 42-46- 5(A)(5) FOR DISCUSSIONS OR C ONSIDERATIONS RELATE D TO THE ACQUISITION OR LEASE OF REAL PROPERTY FOR PUBLIC PURPOSES, OR OF THE DISPOSITIO",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Interest Of The Publ",
+    "found_as": "shouted",
+    "quote": "OF PUBLICLY HELD PROPERTY WHEREIN ADV ANCED PUBLIC INFORMA TION WOULD BE DETRIM ENTAL TO THE INTEREST OF THE PUBL IC AND POSSIBLE ACTI ON RELATING THERETO .",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Executive Session",
+    "found_as": "shouted",
+    "quote": ". 544 ELMWOOD AVENUE b. A PORTION OF 35 HEMLOCK EXECUTIVE SESSION MOTION TO CONVENE INT O EXECUTIVE SESSION PURSUANT TO S ECTION 42-46-4 OF THE RHODE ISLAND GENERAL LAWS: 1. FOR THE PURPOSES SET FORTH IN SE",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Option Agreement",
+    "found_as": "shouted",
+    "quote": "MOTION TO AUTHORIZE THE EXECUTIVE DIRECTOR TO EXECUTE A N OPTION AGREEMENT WITH THE PAUL CUFFEE SCHOOL FOR THE SALE OF: a. 544 ELMWOOD AVENUE b. A PORTION OF 35 HEMLOCK EXECUTIVE SESSIO",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Relating Thereto",
+    "found_as": "shouted",
+    "quote": "IC INFORMA TION WOULD BE DETRIM ENTAL TO THE INTEREST OF THE PUBL IC AND POSSIBLE ACTI ON RELATING THERETO .",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Detrim Ental",
+    "found_as": "shouted",
+    "quote": "THE DISPOSITIO N OF PUBLICLY HELD PROPERTY WHEREIN ADV ANCED PUBLIC INFORMA TION WOULD BE DETRIM ENTAL TO THE INTEREST OF THE PUBL IC AND POSSIBLE ACTI ON RELATING THERETO .",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Convene Int",
+    "found_as": "shouted",
+    "quote": "THE SALE OF: a. 544 ELMWOOD AVENUE b. A PORTION OF 35 HEMLOCK EXECUTIVE SESSION MOTION TO CONVENE INT O EXECUTIVE SESSION PURSUANT TO S ECTION 42-46-4 OF THE RHODE ISLAND GENERAL LAWS: 1. FOR",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Acquisition",
+    "found_as": "shouted",
+    "quote": "RPOSES SET FORTH IN SECTION 42-46- 5(A)(5) FOR DISCUSSIONS OR C ONSIDERATIONS RELATE D TO THE ACQUISITION OR LEASE OF REAL PROPERTY FOR PUBLIC PURPOSES, OR OF THE DISPOSITIO N OF PUBLICLY HELD PR",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "Dispositio",
+    "found_as": "shouted",
+    "quote": "ERATIONS RELATE D TO THE ACQUISITION OR LEASE OF REAL PROPERTY FOR PUBLIC PURPOSES, OR OF THE DISPOSITIO N OF PUBLICLY HELD PROPERTY WHEREIN ADV ANCED PUBLIC INFORMA TION WOULD BE DETRIM ENTAL T",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   },
+   {
+    "name": "School",
+    "found_as": "shouted",
+    "quote": "TO AUTHORIZE THE EXECUTIVE DIRECTOR TO EXECUTE A N OPTION AGREEMENT WITH THE PAUL CUFFEE SCHOOL FOR THE SALE OF: a. 544 ELMWOOD AVENUE b. A PORTION OF 35 HEMLOCK EXECUTIVE SESSION MOTION TO CONVENE",
+    "is_shell": false,
+    "shell_rule": null,
+    "has_legal_suffix": false
+   }
+  ]
+ },
+ {
+  "id": 902,
+  "city": "Providence",
+  "address": "105 BROADWAY",
+  "units": null,
+  "gsf": null,
+  "asset_class": null,
+  "stage": "Demolition",
+  "applicant_entity": null,
+  "source_items": 1,
+  "text_chars": 159,
+  "candidates": []
+ }
+]
