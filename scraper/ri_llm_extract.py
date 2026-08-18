@@ -257,11 +257,16 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--max-usd", type=float, default=15.0)
     ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--docs-file", default="",
+                    help="newline-separated text_file names to process first")
     a = ap.parse_args()
 
     docs = load_docs()
     have = done_keys()
     todo = [d for d in docs if d["text_file"] not in have]
+    if a.docs_file:
+        want = {x.strip() for x in Path(a.docs_file).read_text().splitlines() if x.strip()}
+        todo = [d for d in todo if d["text_file"] in want]
     if a.limit:
         todo = todo[:a.limit]
 

@@ -86,7 +86,15 @@ Hall, 2nd Floor, 3275 Post Road, Warwick, RI 02886, (401) 738-2006. I have **not
 verified an email for either office and have deliberately left the To: line blank
 rather than guess at a format.
 
-**To:** [VERIFY — Planning Department (401) 738-2009 opt. 1, or City Clerk (401) 738-2006]
+**To:** [VERIFY email] — **Thomas J. Kravitz, Planning Director**, Warwick Planning
+Department, Sawtooth Annex Building, 65 Centerville Road, Warwick, RI 02886,
+(401) 738-2009 option 1.
+
+*Name and title verified 18 Aug 2026 from a DiPrete Engineering project narrative
+dated 25 Feb 2025 addressed to him as Planning Director, hosted on warwickri.gov.
+No email address is published for him; the city directory lists none. Confirm the
+address by phone before sending, or send to the City Clerk as APRA officer,
+(401) 738-2006.*
 
 **Subject:** APRA request — application materials, fifteen Major Land Development projects
 

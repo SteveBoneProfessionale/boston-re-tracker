@@ -1,0 +1,182 @@
+{
+ "filled": [
+  {
+   "id": 495,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['city of providence', 'providence public buildings authority']"
+  },
+  {
+   "id": 522,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['julie bartlett', 'zds']"
+  },
+  {
+   "id": 522,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: ['joe casali engineering', 'william lavery']"
+  },
+  {
+   "id": 529,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['colbea enterprises', 'colbea enterprises, llc', 'jg holding company, llc', 'rlf iv terminals spe, llc', 'willow properties 14 llc']"
+  },
+  {
+   "id": 529,
+   "field": "site_acreage",
+   "value": null,
+   "note": "sources disagree: ['1.36', '1.6', '10.95', '3.44']"
+  },
+  {
+   "id": 529,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['69696', '72638']"
+  },
+  {
+   "id": 532,
+   "address": "1890 Plainfield Pike",
+   "field": "site_acreage",
+   "value": 10.95,
+   "date": "2018-03-14",
+   "doc": "814041_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 547,
+   "address": "2 Columbus Avenue",
+   "field": "residential_units",
+   "value": 2,
+   "date": "2021-12-06",
+   "doc": "1015513_1.txt",
+   "evidence": "two-family dwelling"
+  },
+  {
+   "id": 547,
+   "address": "2 Columbus Avenue",
+   "field": "parking_spaces",
+   "value": 4,
+   "date": "2021-12-06",
+   "doc": "1015513_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 547,
+   "field": "architect",
+   "value": null,
+   "note": "sources disagree: ['jonathan levi', 'jonathan levi architects']"
+  },
+  {
+   "id": 547,
+   "field": "civil_engineer",
+   "value": null,
+   "note": "sources disagree: ['colliers engineering', 'shawmut design and construction']"
+  },
+  {
+   "id": 553,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['310 east llc', 'dridrigal properties llc and 310 east llc']"
+  },
+  {
+   "id": 553,
+   "field": "lot_area",
+   "value": null,
+   "note": "sources disagree: ['38060', '63637']"
+  },
+  {
+   "id": 556,
+   "address": "160 Beechwood Avenue",
+   "field": "owner_or_agency",
+   "value": "Pawtucket Central Falls Development",
+   "date": "2023-08-28",
+   "doc": "1046299_1.txt",
+   "evidence": ""
+  },
+  {
+   "id": 575,
+   "address": "445 Palmer Ave",
+   "field": "num_stories",
+   "value": 2,
+   "date": "2023-04-11",
+   "doc": "1041345_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 575,
+   "address": "445 Palmer Ave",
+   "field": "owner_or_agency",
+   "value": "North End Realty Retirement Plan",
+   "date": "2023-06-13",
+   "doc": "1043980_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 585,
+   "address": "2281 and 2279 West Shore Rd",
+   "field": "site_acreage",
+   "value": 2.4,
+   "date": "2021-06-08",
+   "doc": "1009584_0.txt",
+   "evidence": ""
+  },
+  {
+   "id": 625,
+   "field": "owner_or_agency",
+   "value": null,
+   "note": "sources disagree: ['city of providence', 'providence public buildings authority']"
+  }
+ ],
+ "withdrawn": [
+  {
+   "id": 529,
+   "address": "0 Plainfield Pike",
+   "outcome": "denied",
+   "date": "2018-03-14",
+   "doc": "814041_1.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 532,
+   "address": "1890 Plainfield Pike",
+   "outcome": "denied",
+   "date": "2018-03-14",
+   "doc": "814041_1.txt",
+   "evidence": "denied"
+  },
+  {
+   "id": 669,
+   "address": "230 Waterman Street",
+   "outcome": null,
+   "date": "2022-09-14",
+   "doc": "1030030_0.txt",
+   "evidence": "WITHDRAWN"
+  },
+  {
+   "id": 669,
+   "address": "230 Waterman Street",
+   "outcome": null,
+   "date": "2022-09-14",
+   "doc": "1030030_2.txt",
+   "evidence": "THE MATTER HAS BEEN WITHDRAWN FROM CITY PLAN COMMISSION CONSIDERATION"
+  },
+  {
+   "id": 669,
+   "address": "230 Waterman Street",
+   "outcome": "withdrawn",
+   "date": "2022-09-14",
+   "doc": "1030030_1.txt",
+   "evidence": "withdrawn"
+  }
+ ],
+ "unmatched": [
+  {
+   "id": 515,
+   "address": "",
+   "name": "Champlin Heights / Meridian Pointe (Phase II)"
+  }
+ ]
+}
