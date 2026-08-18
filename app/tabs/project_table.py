@@ -9,7 +9,7 @@ import streamlit as st
 from app.data import (
     load_filings, load_cambridge_permits, STAGE_COLORS, review_scale_vocab,
     RESOLUTION_METHODS, resolution_method, shows_provenance_badge, METHOD_ORDER,
-    DEVELOPER_CONFIDENCE, developer_confidence,
+    DEVELOPER_CONFIDENCE, developer_confidence, SF_SOURCES,
     load_field_citations,
 )
 from scraper.normalize_developer import is_real_company
@@ -230,13 +230,22 @@ def render(df: pd.DataFrame):
 
     display["status_fmt"] = display.apply(_status_fmt, axis=1)
 
+    # SF carries its provenance, for the same reason developer names do: a
+    # web-sourced figure and a filing-stated one must not read alike.
+    display["_sf_src"] = filtered["total_gsf_source"]
     display["total_gsf"] = pd.to_numeric(display["total_gsf"], errors="coerce")
     display["residential_units"] = pd.to_numeric(display["residential_units"], errors="coerce")
     display["building_height_ft"] = pd.to_numeric(display["building_height_ft"], errors="coerce")
 
+    display["total_sf_fmt"] = [
+        "—" if pd.isna(v) else
+        f'{SF_SOURCES[src]["mark"]} {int(v):,}'.strip() if src in SF_SOURCES
+        else f"{int(v):,}"
+        for v, src in zip(display["total_gsf"], display["_sf_src"])
+    ]
     display = display[[
         "name", "developer_canonical", "neighborhood", "city",
-        "asset_class", "status_fmt", "total_gsf",
+        "asset_class", "status_fmt", "total_sf_fmt",
         "residential_units", "building_height_ft", "expected_delivery",
     ]]
     display.columns = [
@@ -253,7 +262,11 @@ def render(df: pd.DataFrame):
         on_select="rerun",
         selection_mode="single-row",
         column_config={
-            "SF":     st.column_config.NumberColumn(format="%d", help="Gross square feet"),
+            # Text, not a number: the value carries a provenance mark. A
+            # diamond means the figure came from a reporter, not the filing.
+            "SF":     st.column_config.TextColumn(
+                help="Gross square feet. ◈ = web-sourced, ✲ = corrected "
+                     "from a lot area. Unmarked = stated in the planning filing."),
             "UNITS":  st.column_config.NumberColumn(format="%d"),
             "HEIGHT": st.column_config.NumberColumn(format="%d ft"),
         },
@@ -435,6 +448,13 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
 
     gsf = p.get("total_gsf")
     gsf_str = f"{int(gsf):,} SF" if pd.notna(gsf) and gsf else None
+    # Provenance on the figure itself. A square footage a reporter published
+    # and one the filing stated are different kinds of fact.
+    _sf_src = p.get("total_gsf_source") or ""
+    if gsf_str and _sf_src in SF_SOURCES and _sf_src != "filing":
+        _sm = SF_SOURCES[_sf_src]
+        gsf_str = (f'{_sm["mark"]} {gsf_str}<br><span style="color:{_sm["color"]};'
+                   f'font-size:9px;letter-spacing:0.08em">{_sm["label"].upper()}</span>')
     units = p.get("residential_units")
     units_str = f"{int(units):,}" if pd.notna(units) and units else None
     cgsf = p.get("commercial_gsf")

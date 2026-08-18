@@ -218,6 +218,17 @@ _DEFAULT_MARKET = {
     "review_scale_vocab": None,
 }
 
+# Where a square footage came from. A figure a reporter published and a figure
+# the filing stated are not the same kind of fact, and the audit that preceded
+# this found the column's worst problem was figures that LOOKED reported and
+# were actually lot areas. So provenance renders on the number itself.
+SF_SOURCES = {
+    "filing":    {"label": "Filing-stated", "color": "#e2e8f0", "mark": ""},
+    "web":       {"label": "Web-sourced",   "color": "#38bdf8", "mark": "◈"},
+    "corrected": {"label": "Corrected",     "color": "#F5821E", "mark": "✲"},
+}
+
+
 # Developer-name confidence, as ONE definition every consumer reads.
 #
 # 204 of 370 Rhode Island developers rest on the planning document alone, so
@@ -442,6 +453,7 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 "owner_or_agency": p.owner_or_agency or "",
                 "excluded": bool(p.excluded),
                 "excluded_reason": p.excluded_reason or "",
+                "total_gsf_source": p.total_gsf_source or "",
                 "stage_heard": p.stage_heard or "",
                 "stage_confirmed": p.stage_confirmed or "",
                 # Cambridge Development Log fields (blank for Boston rows)

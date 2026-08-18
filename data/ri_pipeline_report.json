@@ -39,8 +39,8 @@
  "pipeline_size": [
   {
    "city": "Providence",
-   "total_sf": 3298769,
-   "with_sf": 76,
+   "total_sf": 2296107,
+   "with_sf": 48,
    "units": 4170,
    "with_units": 82
   },
@@ -53,15 +53,15 @@
   },
   {
    "city": "Cranston",
-   "total_sf": 95785,
-   "with_sf": 11,
+   "total_sf": 54637,
+   "with_sf": 5,
    "units": 588,
    "with_units": 11
   },
   {
    "city": "Pawtucket",
-   "total_sf": 605,
-   "with_sf": 2,
+   "total_sf": 0,
+   "with_sf": 0,
    "units": 663,
    "with_units": 6
   },
@@ -399,8 +399,8 @@
   },
   {
    "field": "total_gsf",
-   "n": 95,
-   "pct": 23.7
+   "n": 59,
+   "pct": 14.7
   },
   {
    "field": "commercial_gsf",

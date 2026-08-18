@@ -83,6 +83,10 @@ def init_db():
     # and chart but stay in the table and stay recoverable.
     _add_column_if_missing("projects", "excluded", "BOOLEAN DEFAULT 0")
     _add_column_if_missing("projects", "excluded_reason", "VARCHAR")
+    # Where a square footage came from. A figure a reporter published and a
+    # figure the filing stated are not the same kind of fact and must not
+    # render alike.
+    _add_column_if_missing("projects", "total_gsf_source", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 

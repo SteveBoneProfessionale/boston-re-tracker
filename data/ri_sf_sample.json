@@ -1,0 +1,1213 @@
+{
+ "audit": {
+  "ok": [
+   {
+    "id": 505,
+    "city": "Providence",
+    "address": "21 New York Ave",
+    "stored": 50260,
+    "reclassified_as": "BUILDING",
+    "building_says": 50260,
+    "quote": "preliminary plan approval for construction of a metal framed fabric, storage building with a footprint of approximately 50,260 SF and associated improvements in the W-3 zone. The project site will oc"
+   },
+   {
+    "id": 538,
+    "city": "Cranston",
+    "address": "1499 Hillside Road",
+    "stored": 23500,
+    "reclassified_as": "BUILDING",
+    "building_says": 23500,
+    "quote": "To construct a 23,500 +/- SF commercial building for multiple Construction of a 10.000 +/- square"
+   },
+   {
+    "id": 541,
+    "city": "Pawtucket",
+    "address": "13 Davis Street",
+    "stored": 600,
+    "reclassified_as": "BUILDING",
+    "building_says": 600,
+    "quote": "ified development review (preliminary plan) of a development plan review project to allow for the construction of a +/- 600 sf. accessory dwelling unit (ADU) on a parcel of land totaling +/- 6,200"
+   },
+   {
+    "id": 564,
+    "city": "Newport",
+    "address": "102-108 Girard Avenue",
+    "stored": 1400,
+    "reclassified_as": "BUILDING",
+    "building_says": 1400,
+    "quote": "102-108 Girard Avenue, TAP 3, Lot 11 Application of NRI 104-108 Girard Partnership to construct a 1,400 sq. ft. building addition containing 4 dwelling units to the westernmost bui"
+   },
+   {
+    "id": 587,
+    "city": "Warwick",
+    "address": "455 Toll gate Rd",
+    "stored": 72482,
+    "reclassified_as": "BUILDING",
+    "building_says": 72482,
+    "quote": "Minor Land Development- Site Plan Review Proposed construction of a 72,482 square foot, three-story medical office building for primary care and specialty s"
+   },
+   {
+    "id": 595,
+    "city": "Warwick",
+    "address": "327 Jefferson Blvd. and 0 Bay State Avenue",
+    "stored": 8800,
+    "reclassified_as": "BUILDING",
+    "building_says": 8800,
+    "quote": "Preliminary Major Land Development 1. 327 Jefferson Blvd. and 0 Bay State Avenue Applicant is proposing to construct an 8,800 square foot commercial garage along with a two story 3,000 square foot office bui"
+   },
+   {
+    "id": 636,
+    "city": "Providence",
+    "address": "870 Westminster Street",
+    "stored": 8333,
+    "reclassified_as": "BUILDING",
+    "building_says": 8843,
+    "quote": "PUBLIC HEARING Case No. 22-015MI – 870 Westminster Street Applicant: Omni 870W LLC The applicant is proposing to add a 8,333 SF third story addition to an annex building of a bank, creating 11 dwel"
+   },
+   {
+    "id": 658,
+    "city": "Providence",
+    "address": "740 Plainfield Street",
+    "stored": 41000,
+    "reclassified_as": "BUILDING",
+    "building_says": 41000,
+    "quote": "ility for grades K-8 on the site of a former market with vacant lots zoned C-2. The building will provide approximately 41,000 SF of space, and will maintain a height of 43’ and 3 stories. The applic"
+   },
+   {
+    "id": 685,
+    "city": "Providence",
+    "address": "135 Prairie Ave",
+    "stored": 11159,
+    "reclassified_as": "BUILDING",
+    "building_says": 11159,
+    "quote": "l The applicant is proposing to amend the campus master plan for construction of a new building providing approximately 11,159 SF which will contain a gymnasium with a support stage, office and restr"
+   },
+   {
+    "id": 697,
+    "city": "Providence",
+    "address": "49 Westfield Street",
+    "stored": 10690,
+    "reclassified_as": "BUILDING",
+    "building_says": 10690,
+    "quote": "r industrial building that will be redeveloped as a mixed-use building. The addition will have an area of approximately 10,690 SF and yield 12 dwelling units. Parking will be provided in adjacent lot"
+   },
+   {
+    "id": 705,
+    "city": "Providence",
+    "address": "1326 Westminster Street",
+    "stored": 11033,
+    "reclassified_as": "BUILDING",
+    "building_says": 22000,
+    "quote": "music education with classrooms, performance and commercial space. The subject lot is vacant and measures approximately 11,033 SF, with the building proposed to provide approximately 22,000 SF of gro"
+   },
+   {
+    "id": 734,
+    "city": "Providence",
+    "address": "16-42 Somerset Street",
+    "stored": 53582,
+    "reclassified_as": "BUILDING",
+    "building_says": 70784,
+    "quote": "ent is composed of 11 lots occupied by 10 buildings that will demolished, and the lots merged. The new lot will measure 53,582 SF with the building providing 70,784 SF of area. The subject lots are z"
+   },
+   {
+    "id": 792,
+    "city": "Providence",
+    "address": "221 Academy Ave",
+    "stored": 1725,
+    "reclassified_as": "BUILDING",
+    "building_says": 1725,
+    "quote": "of an existing Neighborhood Commercial Establishment (Retail – grocery store) within an existing structure and build a 1,725 square foot cooler/freezer addition for that use at the rear of the building. JES"
+   },
+   {
+    "id": 802,
+    "city": "Providence",
+    "address": "77 Union Ave",
+    "stored": 317,
+    "reclassified_as": "BUILDING",
+    "building_says": 317,
+    "quote": "a proposed increase from 49.6% to 55.25%, to expand the existing Neighborhood Commercial Establishment (Retail) with a 317 square foot addition. IMPORTANT INFORMATION: • Documents for new matters can be a"
+   },
+   {
+    "id": 893,
+    "city": "Warwick",
+    "address": "2055 Warwick Ave",
+    "stored": 5907,
+    "reclassified_as": "BUILDING",
+    "building_says": 5907,
+    "quote": "Greenwich, RI, requests a dimensional variance to construct a new 5,907 sq. ft. fast food restaurant (Dunkin Donuts) with a drive-thru window (3,656"
+   },
+   {
+    "id": 894,
+    "city": "Warwick",
+    "address": "555 Greenwich Ave",
+    "stored": 5500,
+    "reclassified_as": "BUILDING",
+    "building_says": 5500,
+    "quote": "the petitioners are seeking a special use permit to demolish the existing commercial structure, and to construct a new 5,500 sq. ft. retail gas station with a convenience store, and a fast-food restaur"
+   }
+  ],
+  "wrong": [
+   {
+    "id": 477,
+    "city": "Providence",
+    "address": "16-22 Grove Street",
+    "stored": 3817,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "lot which measures approximately 7,638 SF and is occupied by two three-family dwellings, into two lots of 3,820 SF and 3,817 SF with one building on each lot. Pursuant to unified development review"
+   },
+   {
+    "id": 483,
+    "city": "Providence",
+    "address": "665 Plainfield Street",
+    "stored": 5794,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "osing to subdivide the subject lot which is zoned C-2 and measures 18,125 SF, into three lots of 7,245 SF, 5,088 SF and 5,794 SF– for action (AP 112 Lot 418, Hartford) CITY COUNCIL REFERRAL Case No."
+   },
+   {
+    "id": 519,
+    "city": "Cranston",
+    "address": "235 Beckwith Street",
+    "stored": 4000,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "quirements of single- and two-family structures from 6,000sf for single- family lots and 8,000sf for two-family lots to 4,000 sf for both development types, and align lot size requirement for multif"
+   },
+   {
+    "id": 537,
+    "city": "Cranston",
+    "address": "31 Calder Street",
+    "stored": 14400,
+    "reclassified_as": "LAND",
+    "building_says": 1200,
+    "quote": "Commercial Condominiums” PUBLIC INFORMATIONAL (no vote taken) Minor Land Development – Pre-Application Construction of 14,400 sf (12 units) of industrial/commercial flex space. Zoning: M-1 (Restrict"
+   },
+   {
+    "id": 552,
+    "city": "Pawtucket",
+    "address": "282 East Avenue",
+    "stored": 5,
+    "reclassified_as": "UNKNOWN",
+    "building_says": null,
+    "quote": "er plan approval for a major land development project in order to construct a mixe d-use multifamily structure on a 24, 005 +/- sq ft (.55 +/ - acre) tract of land, owned by Dridrigal Properties LLC, zon"
+   },
+   {
+    "id": 610,
+    "city": "Providence",
+    "address": "58 Prudence Ave",
+    "stored": 10388,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "– 58 Prudence Ave Applicant: Carlos Chicas The applicant is proposing to subdivide the lot which measures approximately 10,388 SF into two lots of 5,934 SF and 4,454 SF each with widths of 40’. Pursu"
+   },
+   {
+    "id": 614,
+    "city": "Providence",
+    "address": "33 Murray Street",
+    "stored": 7000,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "Case no. 24-040MI – 33 Murray Street Applicant: KCLS Group LLC The applicant is proposing to subdivide the 7,000 SF lot in the R-3 zone into two lots of 3,500 SF, with widths of 40’. Th"
+   },
+   {
+    "id": 618,
+    "city": "Providence",
+    "address": "118-120 Hawkins Street",
+    "stored": 2446,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "subdivide the lot which measures approximately 7,114 SF and is occupied by two buildings, into two lots of 4,668 SF and 2,446 SF resulting in one building on each lot. Pursuant to unified developmen"
+   },
+   {
+    "id": 619,
+    "city": "Providence",
+    "address": "35 Meader Street",
+    "stored": 9600,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "t: Dan Hornby c/o 133 Courtland Street LLC The applicant is proposing to subdivide the lot which measures approximately 9,600 SF into two lots of 4,800 SF each. Pursuant to unified development revie"
+   },
+   {
+    "id": 621,
+    "city": "Providence",
+    "address": "35 Meader Street",
+    "stored": 9600,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "t: Dan Hornby c/o 133 Courtland Street LLC The applicant is proposing to subdivide the lot which measures approximately 9,600 SF into two lots of 4,800 SF each. Pursuant to unified development revie"
+   },
+   {
+    "id": 622,
+    "city": "Providence",
+    "address": "136 Windmill Street",
+    "stored": 5000,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "o The applicant is proposing to subdivide the lot which measures approximately 15,320 SF into two lots of 10,329 SF and 5,000 SF. Pursuant to unified development review, the applicant is seeking rel"
+   },
+   {
+    "id": 624,
+    "city": "Providence",
+    "address": "53 Pomona Ave",
+    "stored": 4682,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "is proposing to subdivide the lot which measures approximately 9,682 SF and is zoned R-2, into two lots of 5,000 SF and 4,682 SF. Pursuant to unified development review, the applicant is seeking rel"
+   },
+   {
+    "id": 631,
+    "city": "Providence",
+    "address": "2 Ware Ct",
+    "stored": 6200,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "are Ct Applicant: Rossco Contracting Group The applicant is proposing to subdivide the lot which measures approximately 6,200 SF and is occupied by three buildings, into two lots of 2,171 SF and 4,0"
+   },
+   {
+    "id": 635,
+    "city": "Providence",
+    "address": "56 Pratt Street",
+    "stored": 11000,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "Owner: Anthony Andrade The applicant is proposing to subdivide the subject lot in the R-2 zone measuring approximately 11,000 SF into two lots of approximately 5,837 SF and 5,050 SF – for action (AP"
+   },
+   {
+    "id": 639,
+    "city": "Providence",
+    "address": "770 Manton Ave",
+    "stored": 8564,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "osing to subdivide the subject lot which measures approximately 16,315 SF, and zoned R-2, into two lots of 7,750 SF and 8,564 SF. Pursuant to unified development review, the applicant is requesting"
+   },
+   {
+    "id": 642,
+    "city": "Providence",
+    "address": "70 Job Street",
+    "stored": 10567,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "Case No. 23-048UDR – 70 Job Street Applicant: Linda Monello Subdivision of a lot measuring approximately 10,567 SF into two lots of 5,215 SF and 5,352 SF in the R-1 zone. Pursuant to U"
+   },
+   {
+    "id": 651,
+    "city": "Providence",
+    "address": "25 Sybaris Street",
+    "stored": 10760,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "e No. 23-035MI – 25 Sybaris Street Applicant: Kyle Bell The applicant is requesting to subdivide the lot which measures 10,760 SF into two lots of 5,656 SF and 5,104 SF. The lot is zoned R-2 – for ac"
+   },
+   {
+    "id": 661,
+    "city": "Providence",
+    "address": "56 Bridgham Street",
+    "stored": 12200,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "et Applicant: Historic West End II LP Subdivision of a through lot with frontage on Bridgham and Arch Streets measuring 12,200 SF into two lots measuring approximately 7,142 SF and 5,257 SF in the R-"
+   },
+   {
+    "id": 664,
+    "city": "Providence",
+    "address": "665 Plainfield Street",
+    "stored": 5794,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "osing to subdivide the subject lot which is zoned C-2 and measures 18,125 SF, into three lots of 7,245 SF, 5,088 SF and 5,794 SF– for action (AP 112 Lot 418, Hartford) CITY COUNCIL REFERRAL Case no"
+   },
+   {
+    "id": 675,
+    "city": "Providence",
+    "address": "311 Knight Street",
+    "stored": 40000,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "additional waivers/adjustments at the meeting. One off-street loading space is required for multi-family dwellings over 40,000 SF. Pursuant to unified development review, the applica Case no. 19-015M"
+   },
+   {
+    "id": 678,
+    "city": "Providence",
+    "address": "113 Ives Street",
+    "stored": 2500,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "Azar introduced the item, a proposal to build a four story, 16 unit development on a lot that measured 3 approximately 2,500 SF in the C-1 zone, which does not restrict the number of dwelling units"
+   },
+   {
+    "id": 679,
+    "city": "Providence",
+    "address": "220 Broad Street",
+    "stored": 12421,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "OUNCIL REFERRAL Case No. 22-040MI – 220 Broad Street Applicant: Marathon Development LLC The lot measures approximately 12,421 SF and is located in the C-2 zone under the TOD overlay. The applicant i"
+   },
+   {
+    "id": 681,
+    "city": "Providence",
+    "address": "511 Hope Street",
+    "stored": 4719,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "LLC The applicant is proposing to subdivide the lot which measures approximately 9,467 SF into two lots of 4,748 SF and 4,719 SF. Pursuant to unified development review, the applicant is seeking rel"
+   },
+   {
+    "id": 682,
+    "city": "Providence",
+    "address": "157 Jewett Street",
+    "stored": 5320,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "ian The applicant is proposing to subdivide the lot which measures approximately 9,747 SF into two lots of 4,471 SF and 5,320 SF. Pursuant to unified development review, the applicant is seeking rel"
+   },
+   {
+    "id": 688,
+    "city": "Providence",
+    "address": "850 Manton Ave",
+    "stored": 978843,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": ": Blue Dog Realty LLC Owner: Calvi Realty Co Inc The applicant is requesting to subdivide a lot measuring approximately 978,843 SF (22.4 acres) into three lots of 511,203 SF (11.73 acres), 287,349 SF"
+   },
+   {
+    "id": 694,
+    "city": "Providence",
+    "address": "177 Verndale Ave",
+    "stored": 11081,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "Case No. 22-014MI – 177 Verndale Ave Applicant: Maritza Gomez The applicant is proposing to subdivide a lot measuring 11,081 SF into two lots of 5,878 SF and 5,202 SF with respective widths of 55’"
+   },
+   {
+    "id": 696,
+    "city": "Providence",
+    "address": "229 Sterling Ave",
+    "stored": 10000,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "se No. 22-006UDR – 229 Sterling Ave Applicant: Robert Oliveira The applicant is requesting to subdivide a lot measuring 10,000 SF into two lots of 5,000 SF in the R-3 zone. Pursuant to Unified Develo"
+   },
+   {
+    "id": 711,
+    "city": "Providence",
+    "address": "35 Hemlock Street",
+    "stored": 169156,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "ansett Bay Commission The applicant is requesting to subdivide a lot measuring 185,011 SF (4.24 acres) into two lots of 169,156 SF and 16,287 SF in the M-1 zone – for action (AP 27 Lot 87, Valley) CIT"
+   },
+   {
+    "id": 758,
+    "city": "Providence",
+    "address": "10 Edendale Ave",
+    "stored": 6704,
+    "reclassified_as": "LAND",
+    "building_says": null,
+    "quote": "res 36,294 SF, which the applicant is proposing to subdivide into four lots measuring 5,986 SF, 12,900 SF, 8,041 SF and 6,704 SF. Pursuant to Unified Development Review, the applicant is seeking rel"
+   },
+   {
+    "id": 895,
+    "city": "Warwick",
+    "address": "641 Bald Hill Rd",
+    "stored": 3295,
+    "reclassified_as": "UNKNOWN",
+    "building_says": null,
+    "quote": "Mr. Shekarchi stated the petitioner is proposing to demolish the existing commercial structure and will construct a new 3,295 sq. ft. Chase Manhattan bank with a drive-up ATM. The petitioners agreed to"
+   }
+  ],
+  "unverifiable": [
+   {
+    "id": 480,
+    "city": "Providence",
+    "address": "1107 Westminster Street",
+    "stored": 6332,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 482,
+    "city": "Providence",
+    "address": "859 Broad Street",
+    "stored": 16984,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 486,
+    "city": "Providence",
+    "address": "309 Dexter Street",
+    "stored": 2538,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 487,
+    "city": "Providence",
+    "address": "3569 – 64 America Street",
+    "stored": 8381,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 490,
+    "city": "Providence",
+    "address": "27 E River Street",
+    "stored": 88000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 493,
+    "city": "Providence",
+    "address": "195 Nelson Street",
+    "stored": 69989,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 494,
+    "city": "Providence",
+    "address": "188 Princeton Ave",
+    "stored": 140000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 495,
+    "city": "Providence",
+    "address": "1655 Westminster Street",
+    "stored": 224653,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 496,
+    "city": "Providence",
+    "address": "434 Mt Pleasant Ave",
+    "stored": 41712,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 497,
+    "city": "Providence",
+    "address": "128 Wayland Ave",
+    "stored": 4500,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 498,
+    "city": "Providence",
+    "address": "885 Westminster Street",
+    "stored": 17704,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 500,
+    "city": "Providence",
+    "address": "298 Public Street",
+    "stored": 21115,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 502,
+    "city": "Providence",
+    "address": "3516 – 125 Tobey Street",
+    "stored": 8456,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 508,
+    "city": "Providence",
+    "address": "580 South",
+    "stored": 113000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 513,
+    "city": "Cranston",
+    "address": "199 Gladstone Avenue",
+    "stored": 5000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 604,
+    "city": "Providence",
+    "address": "327 ELMWOOD AVENUE",
+    "stored": 9474,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 605,
+    "city": "Providence",
+    "address": "220 BLACKSTONE STREET",
+    "stored": 155074,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 607,
+    "city": "Providence",
+    "address": "269 Wickenden Street",
+    "stored": 10000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 609,
+    "city": "Providence",
+    "address": "150-158 Pitman Street",
+    "stored": 9210,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 611,
+    "city": "Providence",
+    "address": "551 Chalkstone Ave",
+    "stored": 4100,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 612,
+    "city": "Providence",
+    "address": "659 – 663 Admiral Street",
+    "stored": 21026,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 613,
+    "city": "Providence",
+    "address": "400 Elmwood Ave",
+    "stored": 5350,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 615,
+    "city": "Providence",
+    "address": "279 Thayer Street",
+    "stored": 12000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 616,
+    "city": "Providence",
+    "address": "11 W Friendship Street",
+    "stored": 2043,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 617,
+    "city": "Providence",
+    "address": "199 Oxford Street",
+    "stored": 101785,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 623,
+    "city": "Providence",
+    "address": "108 – 110 Waterman Street",
+    "stored": 9862,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 627,
+    "city": "Providence",
+    "address": "220 Blackstone Street",
+    "stored": 128733,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 632,
+    "city": "Providence",
+    "address": "3572 – 103 Evergreen Street",
+    "stored": 8216,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 633,
+    "city": "Providence",
+    "address": "106 Reservoir",
+    "stored": 3172,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 643,
+    "city": "Providence",
+    "address": "515 Prairie Ave",
+    "stored": 12000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 644,
+    "city": "Providence",
+    "address": "661-665 Plainfield Street",
+    "stored": 5794,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 652,
+    "city": "Providence",
+    "address": "547 Chalkstone Ave",
+    "stored": 3956,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 666,
+    "city": "Providence",
+    "address": "541 Hartford Ave",
+    "stored": 17021,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 667,
+    "city": "Providence",
+    "address": "300 Valley Street",
+    "stored": 22560,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 669,
+    "city": "Providence",
+    "address": "230 Waterman Street",
+    "stored": 13712,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 673,
+    "city": "Providence",
+    "address": "153-165 Gano Street",
+    "stored": 10000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 702,
+    "city": "Providence",
+    "address": "288 Kinsley Ave",
+    "stored": 175416,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 746,
+    "city": "Providence",
+    "address": "217 Angell Street",
+    "stored": 19513,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 747,
+    "city": "Providence",
+    "address": "219 Waterman Street",
+    "stored": 5249,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 748,
+    "city": "Providence",
+    "address": "99-101 Gano Street",
+    "stored": 32468,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 760,
+    "city": "Providence",
+    "address": "481 Allens Ave",
+    "stored": 10000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 824,
+    "city": "Providence",
+    "address": "288 Kinsley Ave",
+    "stored": 175416,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 867,
+    "city": "Cranston",
+    "address": "547 Park Avenue",
+    "stored": 5989,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 871,
+    "city": "Cranston",
+    "address": "14 Oneida Street",
+    "stored": 825,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 872,
+    "city": "Cranston",
+    "address": "175 Farmington Avenue",
+    "stored": 6000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 874,
+    "city": "Cranston",
+    "address": "27 Hemlock Avenue",
+    "stored": 19319,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 875,
+    "city": "Cranston",
+    "address": "11 Dart Street",
+    "stored": 8000,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 876,
+    "city": "Cranston",
+    "address": "1728 Cranston Street",
+    "stored": 840,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   },
+   {
+    "id": 877,
+    "city": "Cranston",
+    "address": "3 Sefton Drive",
+    "stored": 7912,
+    "reclassified_as": null,
+    "building_says": null,
+    "quote": ""
+   }
+  ]
+ },
+ "tier1": [
+  {
+   "id": 543,
+   "tier": "A  100+ units",
+   "city": "Pawtucket",
+   "address": "175 Main Street",
+   "units": 325,
+   "documents": 1,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 779,
+   "tier": "A  100+ units",
+   "city": "Providence",
+   "address": "125 Clifford Street",
+   "units": 249,
+   "documents": 3,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 890,
+   "tier": "A  100+ units",
+   "city": "Warwick",
+   "address": "800 Toll Gate Rd",
+   "units": 203,
+   "documents": 1,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 767,
+   "tier": "A  100+ units",
+   "city": "Providence",
+   "address": "33 Bassett Street",
+   "units": 191,
+   "documents": 3,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 507,
+   "tier": "A  100+ units",
+   "city": "Providence",
+   "address": "200 Dyer Street",
+   "units": 183,
+   "documents": 5,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 691,
+   "tier": "A  100+ units",
+   "city": "Providence",
+   "address": "94 Summer Street",
+   "units": 176,
+   "documents": 3,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 2
+  },
+  {
+   "id": 878,
+   "tier": "B  20-99 units",
+   "city": "Cranston",
+   "address": "320 Scituate Ave",
+   "units": 90,
+   "documents": 1,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 555,
+   "tier": "B  20-99 units",
+   "city": "Pawtucket",
+   "address": "177 School Street",
+   "units": 72,
+   "documents": 1,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 778,
+   "tier": "B  20-99 units",
+   "city": "Providence",
+   "address": "135 Wickenden Street",
+   "units": 49,
+   "documents": 3,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 733,
+   "tier": "B  20-99 units",
+   "city": "Providence",
+   "address": "466-468 West Fountain Street",
+   "units": 31,
+   "documents": 4,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 499,
+   "tier": "B  20-99 units",
+   "city": "Providence",
+   "address": "45 Parade Street",
+   "units": 26,
+   "documents": 13,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 522,
+   "tier": "B  20-99 units",
+   "city": "Cranston",
+   "address": "1128 Narragansett Boulevard",
+   "units": 24,
+   "documents": 3,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 491,
+   "tier": "C  4-19 units",
+   "city": "Providence",
+   "address": "3568 – 20 America Street",
+   "units": 19,
+   "documents": 2,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 821,
+   "tier": "C  4-19 units",
+   "city": "Providence",
+   "address": "126 Adelaide Ave",
+   "units": 18,
+   "documents": 25,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 575,
+   "tier": "C  4-19 units",
+   "city": "Warwick",
+   "address": "445 Palmer Ave",
+   "units": 14,
+   "documents": 6,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 727,
+   "tier": "C  4-19 units",
+   "city": "Providence",
+   "address": "31 – 45 Parade Street",
+   "units": 12,
+   "documents": 3,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 628,
+   "tier": "C  4-19 units",
+   "city": "Providence",
+   "address": "3575 – 176 Gano Street",
+   "units": 10,
+   "documents": 2,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 806,
+   "tier": "C  4-19 units",
+   "city": "Providence",
+   "address": "30 Princeton Ave",
+   "units": 6,
+   "documents": 4,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 827,
+   "tier": "D  1-3 units",
+   "city": "Providence",
+   "address": "381 Angell St",
+   "units": 3,
+   "documents": 14,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 10
+  },
+  {
+   "id": 535,
+   "tier": "D  1-3 units",
+   "city": "Cranston",
+   "address": "5 Aborn Street",
+   "units": 2,
+   "documents": 2,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 853,
+   "tier": "D  1-3 units",
+   "city": "Providence",
+   "address": "382 Thayer St",
+   "units": 2,
+   "documents": 1,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 858,
+   "tier": "D  1-3 units",
+   "city": "Providence",
+   "address": "88 Union Ave",
+   "units": 2,
+   "documents": 2,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 518,
+   "tier": "D  1-3 units",
+   "city": "Cranston",
+   "address": "44 Village Avenue",
+   "units": 1,
+   "documents": 3,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 475,
+   "tier": "E  no units stated",
+   "city": "Providence",
+   "address": "1331 Eddy Street",
+   "units": null,
+   "documents": 2,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 572,
+   "tier": "E  no units stated",
+   "city": "Newport",
+   "address": "160 Carroll Avenue",
+   "units": null,
+   "documents": 6,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 656,
+   "tier": "E  no units stated",
+   "city": "Providence",
+   "address": "50 Branch Ave",
+   "units": null,
+   "documents": 6,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 736,
+   "tier": "E  no units stated",
+   "city": "Providence",
+   "address": "299-303 Pocasset Ave",
+   "units": null,
+   "documents": 3,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 6
+  },
+  {
+   "id": 793,
+   "tier": "E  no units stated",
+   "city": "Providence",
+   "address": "28 WOLCOTT STREET",
+   "units": null,
+   "documents": 4,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  },
+  {
+   "id": 843,
+   "tier": "E  no units stated",
+   "city": "Providence",
+   "address": "1 Fields Point Dr",
+   "units": null,
+   "documents": 18,
+   "sf": null,
+   "evidence": [],
+   "land_figures": 0
+  }
+ ],
+ "by_tier": {
+  "A  100+ units": {
+   "sampled": 6,
+   "recovered": 0,
+   "land_only": 1
+  },
+  "B  20-99 units": {
+   "sampled": 6,
+   "recovered": 0,
+   "land_only": 0
+  },
+  "C  4-19 units": {
+   "sampled": 6,
+   "recovered": 0,
+   "land_only": 0
+  },
+  "D  1-3 units": {
+   "sampled": 5,
+   "recovered": 0,
+   "land_only": 1
+  },
+  "E  no units stated": {
+   "sampled": 6,
+   "recovered": 0,
+   "land_only": 1
+  }
+ }
+}

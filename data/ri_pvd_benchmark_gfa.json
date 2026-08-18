@@ -1,0 +1,1922 @@
+[
+ {
+  "address": "0 Harborside Blvd",
+  "owner": "Johnson & Wales",
+  "gfa": 202101
+ },
+ {
+  "address": "1 AT&T Plaza",
+  "owner": "Inland Diversified Prov Lasalle Square LLC",
+  "gfa": 140581
+ },
+ {
+  "address": "1 Chestnut St",
+  "owner": "Beneficent House",
+  "gfa": 163332
+ },
+ {
+  "address": "1 Cunningham Sq",
+  "owner": "Providence College",
+  "gfa": 52690
+ },
+ {
+  "address": "1 Davol Sq",
+  "owner": "LS Davol Square LLC",
+  "gfa": 63035
+ },
+ {
+  "address": "1 Davol Sq",
+  "owner": "LS Davol Square LLC",
+  "gfa": 76690
+ },
+ {
+  "address": "1 Financial Plaza",
+  "owner": "Providence Financial Plaza LLC",
+  "gfa": 412844
+ },
+ {
+  "address": "1 Fulton St",
+  "owner": "Smith/Keen LP",
+  "gfa": 57144
+ },
+ {
+  "address": "1 Greene St",
+  "owner": "A T & T Communications of New England Inc",
+  "gfa": 164264
+ },
+ {
+  "address": "1 Hoppin St",
+  "owner": "RI Hospital",
+  "gfa": 160629
+ },
+ {
+  "address": "1 Park Row West",
+  "owner": "261, LLC",
+  "gfa": 134182
+ },
+ {
+  "address": "1 Point St",
+  "owner": "River House Holdings I LLC",
+  "gfa": 149663
+ },
+ {
+  "address": "1 Providence Pl",
+  "owner": "Providence Place Group LP",
+  "gfa": 255162
+ },
+ {
+  "address": "1 Providence Pl",
+  "owner": "Providence Place Group LP",
+  "gfa": 717349
+ },
+ {
+  "address": "1 Providence Pl",
+  "owner": "Providence Place Group LP",
+  "gfa": 1336949
+ },
+ {
+  "address": "1 Regency Plaza/123 Regency Plaxa",
+  "owner": "Regency Plaza I LLC",
+  "gfa": 147576
+ },
+ {
+  "address": "1 Regency Plaza/123 Regency Plaxa",
+  "owner": "Regency Plaza I LLC",
+  "gfa": 157080
+ },
+ {
+  "address": "1 Regency Plaza/123 Regency Plaxa",
+  "owner": "Regency Plaza I LLC",
+  "gfa": 201096
+ },
+ {
+  "address": "1 West Exchange St, Unit Apartments",
+  "owner": "Robert Joseph Zammito III",
+  "gfa": 476645
+ },
+ {
+  "address": "1 West Exchange St, Unit Hotel",
+  "owner": "Omni Rhode Island LLC",
+  "gfa": 345658
+ },
+ {
+  "address": "10 Charles St/39 Smith St",
+  "owner": "Altus Realty Co",
+  "gfa": 72552
+ },
+ {
+  "address": "10 Dorrance St",
+  "owner": "10 Dorrance Street LLC",
+  "gfa": 222617
+ },
+ {
+  "address": "10 Memorial Blvd",
+  "owner": "TFG Providence Center Property LLC",
+  "gfa": 202461
+ },
+ {
+  "address": "10 Orms St",
+  "owner": "First Circle Realty Inc",
+  "gfa": 62978
+ },
+ {
+  "address": "10 Park Row West",
+  "owner": "261, LLC",
+  "gfa": 273737
+ },
+ {
+  "address": "10 Prospect St/22 George St",
+  "owner": "Brown University",
+  "gfa": 146772
+ },
+ {
+  "address": "10 Sims Ave",
+  "owner": "Providence Redevelopment Agency",
+  "gfa": 61076
+ },
+ {
+  "address": "10 Weybosset St",
+  "owner": "One Financial Center Plaza LLC",
+  "gfa": 172137
+ },
+ {
+  "address": "100 Atwells Ave",
+  "owner": "Housing Authority",
+  "gfa": 149111
+ },
+ {
+  "address": "100 Borden St",
+  "owner": "Steere House",
+  "gfa": 69824
+ },
+ {
+  "address": "100 Broad St",
+  "owner": "Housing Authority Of The",
+  "gfa": 218167
+ },
+ {
+  "address": "100 Dupont Dr",
+  "owner": "Little Bay Realty Company Llc",
+  "gfa": 161692
+ },
+ {
+  "address": "100 Manton Ave",
+  "owner": "100 Manton Avenue LLC",
+  "gfa": 126126
+ },
+ {
+  "address": "100 Niantic Ave",
+  "owner": "JLJ Realty Co",
+  "gfa": 81776
+ },
+ {
+  "address": "100 Weybosset St",
+  "owner": "Providence Capital LLC",
+  "gfa": 53086
+ },
+ {
+  "address": "1000 Eddy St",
+  "owner": "Meeting Street",
+  "gfa": 125896
+ },
+ {
+  "address": "1000 Providence Pl, Unit 444",
+  "owner": "Lidya Tjitra",
+  "gfa": 314604
+ },
+ {
+  "address": "101 Dudley St",
+  "owner": "Women And Infants Hospital Of Ri",
+  "gfa": 429818
+ },
+ {
+  "address": "101 Highland Ave",
+  "owner": "Highland East, LLC",
+  "gfa": 53122
+ },
+ {
+  "address": "101 Pine St",
+  "owner": "Johnson & Wales",
+  "gfa": 114500
+ },
+ {
+  "address": "101 Power St",
+  "owner": "Brown University",
+  "gfa": 94320
+ },
+ {
+  "address": "101 Sabin St",
+  "owner": "RI Convention Center Authority",
+  "gfa": 174093
+ },
+ {
+  "address": "101 Thayer St",
+  "owner": "Brown University",
+  "gfa": 51061
+ },
+ {
+  "address": "101 Thayer St",
+  "owner": "Brown University",
+  "gfa": 92820
+ },
+ {
+  "address": "104 South Water St",
+  "owner": "Brown University",
+  "gfa": 128820
+ },
+ {
+  "address": "105 Plain St",
+  "owner": "101 Plain LLC",
+  "gfa": 82488
+ },
+ {
+  "address": "1096 Broad St",
+  "owner": "New England Telephone And Telegraph Co",
+  "gfa": 50469
+ },
+ {
+  "address": "11 Dorrance St",
+  "owner": "Owner LLC Biltmore Providence",
+  "gfa": 298672
+ },
+ {
+  "address": "110 Lockwood St",
+  "owner": "Hospital Properties Inc",
+  "gfa": 56289
+ },
+ {
+  "address": "110 Paul St",
+  "owner": "City of Providence/Children's Friend",
+  "gfa": 123288
+ },
+ {
+  "address": "111 Dorrance St",
+  "owner": "Johnson & Wales",
+  "gfa": 83801
+ },
+ {
+  "address": "111 Thayer St/59 Charlesfield St",
+  "owner": "Brown University",
+  "gfa": 54272
+ },
+ {
+  "address": "111 Thayer St/59 Charlesfield St",
+  "owner": "Brown University",
+  "gfa": 98366
+ },
+ {
+  "address": "1117 Eddy St",
+  "owner": "Cogent 1117 Eddy Owner LLC",
+  "gfa": 193200
+ },
+ {
+  "address": "112 Point St",
+  "owner": "1145 Main Associates",
+  "gfa": 59695
+ },
+ {
+  "address": "1139 Eddy St",
+  "owner": "Federal Products Corp",
+  "gfa": 127947
+ },
+ {
+  "address": "1144 Eddy St",
+  "owner": "1144 Eddy Street LLC",
+  "gfa": 52184
+ },
+ {
+  "address": "115 Dupont Dr",
+  "owner": "Pvd LLC Cf Ocelot",
+  "gfa": 76661
+ },
+ {
+  "address": "115 Waterman St",
+  "owner": "Brown University",
+  "gfa": 117869
+ },
+ {
+  "address": "115 West Exchange St",
+  "owner": "RI Convention Center Authority",
+  "gfa": 548944
+ },
+ {
+  "address": "120 Blackstone St",
+  "owner": "RI Hospital",
+  "gfa": 118664
+ },
+ {
+  "address": "120 Manton Ave, Unit Rear",
+  "owner": "Brynes LLC Howard And Eleanor",
+  "gfa": 348746
+ },
+ {
+  "address": "122 West Exchange St",
+  "owner": "Convention Center Authority",
+  "gfa": 75373
+ },
+ {
+  "address": "122 West Exchange St",
+  "owner": "Convention Center Authority",
+  "gfa": 423929
+ },
+ {
+  "address": "122 West Exchange St",
+  "owner": "Convention Center Authority",
+  "gfa": 423929
+ },
+ {
+  "address": "123 Dexter St/118 Parade St",
+  "owner": "State of Rhode Island",
+  "gfa": 165373
+ },
+ {
+  "address": "125 Dupont Dr",
+  "owner": "Providence Water Board",
+  "gfa": 180893
+ },
+ {
+  "address": "125 Smith St",
+  "owner": "State Of RI Department Of Adminstration",
+  "gfa": 89072
+ },
+ {
+  "address": "125 Smith St",
+  "owner": "State Of RI Department Of Adminstration",
+  "gfa": 115968
+ },
+ {
+  "address": "125 Smith St",
+  "owner": "State Of RI Department Of Adminstration",
+  "gfa": 196897
+ },
+ {
+  "address": "1292 Westminster St",
+  "owner": "1290 Westminster LLC",
+  "gfa": 50508
+ },
+ {
+  "address": "130 Ernest St",
+  "owner": "Ferguson Perforating Wire Co",
+  "gfa": 74841
+ },
+ {
+  "address": "130 Smith St",
+  "owner": "State of Rhode Island",
+  "gfa": 169930
+ },
+ {
+  "address": "133 Fountain St/100 Sabin St",
+  "owner": "100 Sabin Hotel LLC",
+  "gfa": 124200
+ },
+ {
+  "address": "134 Thurbers Ave",
+  "owner": "J And H Realty LLC",
+  "gfa": 71762
+ },
+ {
+  "address": "135 Prairie Ave",
+  "owner": "Community Preparatory Inc",
+  "gfa": 58208
+ },
+ {
+  "address": "1355 Eddy St",
+  "owner": "City of Providence/Children's Friend",
+  "gfa": 76098
+ },
+ {
+  "address": "137 George St",
+  "owner": "Brown University",
+  "gfa": 88834
+ },
+ {
+  "address": "140 Pine St",
+  "owner": "Provident Property LLC",
+  "gfa": 120298
+ },
+ {
+  "address": "140 Summit Ave",
+  "owner": "Miriam Hospital",
+  "gfa": 81258
+ },
+ {
+  "address": "141 Dodge St",
+  "owner": "Realty Associates LLC Bannister",
+  "gfa": 79654
+ },
+ {
+  "address": "141 Hartford Ave",
+  "owner": "RCFLL LLC",
+  "gfa": 110924
+ },
+ {
+  "address": "141 Thayer St",
+  "owner": "Brown University",
+  "gfa": 53246
+ },
+ {
+  "address": "144 Angell St",
+  "owner": "Brown University",
+  "gfa": 280000
+ },
+ {
+  "address": "145 Beaufort St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 122238
+ },
+ {
+  "address": "148 R West River St, Unit R",
+  "owner": "EGMP 146-148 West River LLC",
+  "gfa": 150860
+ },
+ {
+  "address": "15 Charlesfield St",
+  "owner": "Brown University",
+  "gfa": 171570
+ },
+ {
+  "address": "15 Vineyard St",
+  "owner": "Adelante Inc",
+  "gfa": 52047
+ },
+ {
+  "address": "15 Westminster St",
+  "owner": "RI School of Design",
+  "gfa": 396000
+ },
+ {
+  "address": "15 Westminster St, Unit 1",
+  "owner": "RI School of Design",
+  "gfa": 59330
+ },
+ {
+  "address": "150 Chestnut St, Unit P",
+  "owner": "Michael Afshene Sardaryzadeh",
+  "gfa": 63860
+ },
+ {
+  "address": "150 Narragansett Ave",
+  "owner": "FAP Properties XXXIII LLC",
+  "gfa": 52105
+ },
+ {
+  "address": "150 Toronto Ave",
+  "owner": "Allens Avenue Realty Llc",
+  "gfa": 69621
+ },
+ {
+  "address": "150 Washington St / 132 Washington St",
+  "owner": "150 Washington Street LLC",
+  "gfa": 74774
+ },
+ {
+  "address": "154 Angell St",
+  "owner": "Brown University",
+  "gfa": 68816
+ },
+ {
+  "address": "155 Longfellow St",
+  "owner": "RI Public Transit Authority",
+  "gfa": 82024
+ },
+ {
+  "address": "155 South Main St",
+  "owner": "Brown University",
+  "gfa": 65780
+ },
+ {
+  "address": "156/161 Benedict St",
+  "owner": "Housing Authority Of The",
+  "gfa": 65520
+ },
+ {
+  "address": "16 Somerset St",
+  "owner": "Joseph Caffey Apartments LLC",
+  "gfa": 71616
+ },
+ {
+  "address": "160 Bucklin St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 227990
+ },
+ {
+  "address": "161 South Main St",
+  "owner": "RI School of Design",
+  "gfa": 51824
+ },
+ {
+  "address": "162 Clifford St",
+  "owner": "RI Hospital",
+  "gfa": 64562
+ },
+ {
+  "address": "164 Angell St",
+  "owner": "Brown University",
+  "gfa": 60634
+ },
+ {
+  "address": "164 Summit Ave",
+  "owner": "Miriam Hospital",
+  "gfa": 175020
+ },
+ {
+  "address": "164 Summit Ave",
+  "owner": "Miriam Hospital",
+  "gfa": 303912
+ },
+ {
+  "address": "165 Eaton St",
+  "owner": "Providence College",
+  "gfa": 59955
+ },
+ {
+  "address": "165 Eaton St",
+  "owner": "Providence College",
+  "gfa": 72066
+ },
+ {
+  "address": "165 Eaton St",
+  "owner": "Providence College",
+  "gfa": 72218
+ },
+ {
+  "address": "165 Eaton St",
+  "owner": "Providence College",
+  "gfa": 114514
+ },
+ {
+  "address": "165 Eaton St",
+  "owner": "Providence College",
+  "gfa": 117924
+ },
+ {
+  "address": "165 Eaton St",
+  "owner": "Providence College",
+  "gfa": 120818
+ },
+ {
+  "address": "165 Eaton St",
+  "owner": "Providence College",
+  "gfa": 138430
+ },
+ {
+  "address": "1655 Westminster St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 130060
+ },
+ {
+  "address": "166 Valley St, Unit 166",
+  "owner": "166 Valley Street LLC",
+  "gfa": 196572
+ },
+ {
+  "address": "166 Valley St, Unit 188",
+  "owner": "FLT Rising Sun Mills LLC",
+  "gfa": 104106
+ },
+ {
+  "address": "167 Point St",
+  "owner": "RI Hospital",
+  "gfa": 149520
+ },
+ {
+  "address": "167 Thayer St",
+  "owner": "Brown University",
+  "gfa": 74666
+ },
+ {
+  "address": "167 Thayer St",
+  "owner": "Brown University",
+  "gfa": 94503
+ },
+ {
+  "address": "17 Canal Walk",
+  "owner": "RI School of Design",
+  "gfa": 57180
+ },
+ {
+  "address": "170 Benedict St",
+  "owner": "Huntington Tower Apartments LLC",
+  "gfa": 65910
+ },
+ {
+  "address": "170 Hope St",
+  "owner": "Brown University",
+  "gfa": 240510
+ },
+ {
+  "address": "170 Niantic Ave",
+  "owner": "Rhode Island Community Food Bank",
+  "gfa": 66663
+ },
+ {
+  "address": "170 Silver Lake Ave",
+  "owner": "Ortega Alvaro E",
+  "gfa": 50330
+ },
+ {
+  "address": "170 Warrington St",
+  "owner": "City Of Providence",
+  "gfa": 50846
+ },
+ {
+  "address": "172 Meeting St",
+  "owner": "Brown University",
+  "gfa": 110416
+ },
+ {
+  "address": "172 Meeting St",
+  "owner": "Brown University",
+  "gfa": 144916
+ },
+ {
+  "address": "175 Dupont Dr",
+  "owner": "Dupont Realty Associates LLC",
+  "gfa": 52671
+ },
+ {
+  "address": "175 Terminal Rd",
+  "owner": "Univar USA INC.",
+  "gfa": 65840
+ },
+ {
+  "address": "177 Eaton St",
+  "owner": "Providence College",
+  "gfa": 95052
+ },
+ {
+  "address": "178 Lexington Ave",
+  "owner": "St Elizabeth Assisted Living LP",
+  "gfa": 72968
+ },
+ {
+  "address": "180 Friendship St",
+  "owner": "CC WCM-MP PO LLC",
+  "gfa": 100980
+ },
+ {
+  "address": "180 Westminster St",
+  "owner": "77 Dorrance St",
+  "gfa": 55645
+ },
+ {
+  "address": "181 Dorrance St",
+  "owner": "State Of Rhode Island & Prov Plantations",
+  "gfa": 215664
+ },
+ {
+  "address": "182 Thurbers Ave",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 99500
+ },
+ {
+  "address": "182 Thurbers Ave",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 99500
+ },
+ {
+  "address": "185 Meeting St",
+  "owner": "Brown University",
+  "gfa": 153570
+ },
+ {
+  "address": "185 Meeting St",
+  "owner": "Brown University",
+  "gfa": 164076
+ },
+ {
+  "address": "185 Westminster St",
+  "owner": "Providence Capital Holdings LLC",
+  "gfa": 65964
+ },
+ {
+  "address": "19 Foster St",
+  "owner": "Johnson & Wales",
+  "gfa": 56324
+ },
+ {
+  "address": "191 Dorrance St",
+  "owner": "Aloft LLC Bac Cvp",
+  "gfa": 111103
+ },
+ {
+  "address": "191 Washington St",
+  "owner": "Civic Center Parking Associates Llc",
+  "gfa": 160656
+ },
+ {
+  "address": "195 Grove St",
+  "owner": "Housing Authority",
+  "gfa": 122960
+ },
+ {
+  "address": "197 Thayer St",
+  "owner": "Brown University",
+  "gfa": 95064
+ },
+ {
+  "address": "2 Corliss St",
+  "owner": "United States Postal Service",
+  "gfa": 410076
+ },
+ {
+  "address": "2 Dudley St",
+  "owner": "RI Hospital",
+  "gfa": 233468
+ },
+ {
+  "address": "2 Exchange St",
+  "owner": "State of Rhode Island",
+  "gfa": 82920
+ },
+ {
+  "address": "2 Exchange Ter",
+  "owner": "State of Rhode Island",
+  "gfa": 104592
+ },
+ {
+  "address": "2 Washington Ave",
+  "owner": "Johnson & Wales",
+  "gfa": 60704
+ },
+ {
+  "address": "20 Kelley St",
+  "owner": "Pocasset Preservation Association",
+  "gfa": 71753
+ },
+ {
+  "address": "20 North Main St",
+  "owner": "RI School of Design",
+  "gfa": 68160
+ },
+ {
+  "address": "20 North Main St",
+  "owner": "RI School of Design",
+  "gfa": 77005
+ },
+ {
+  "address": "20 North Main St",
+  "owner": "RI School of Design",
+  "gfa": 96096
+ },
+ {
+  "address": "20 Washington Pl",
+  "owner": "RI School of Design",
+  "gfa": 69660
+ },
+ {
+  "address": "200 Gordon Ave",
+  "owner": "Oxford Preservation Associates LP",
+  "gfa": 59680
+ },
+ {
+  "address": "201 Bullock Ave, Unit R",
+  "owner": "State of Rhode Island",
+  "gfa": 84930
+ },
+ {
+  "address": "201 Pitman St",
+  "owner": "Salvation Army Of RI",
+  "gfa": 153507
+ },
+ {
+  "address": "204 Hartford Ave",
+  "owner": "Storage LLC Patriot State",
+  "gfa": 59570
+ },
+ {
+  "address": "21 Peace St",
+  "owner": "Street LLC 21 Peace",
+  "gfa": 294975
+ },
+ {
+  "address": "21 Prospect St",
+  "owner": "Brown University",
+  "gfa": 54295
+ },
+ {
+  "address": "21 Prospect St",
+  "owner": "Brown University",
+  "gfa": 54630
+ },
+ {
+  "address": "211 Veazie St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 122212
+ },
+ {
+  "address": "211 Veazie St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 122596
+ },
+ {
+  "address": "221 Broad St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 84989
+ },
+ {
+  "address": "222 Richmond Street",
+  "owner": "Brown University",
+  "gfa": 150701
+ },
+ {
+  "address": "222 Richmond Street",
+  "owner": "Brown University",
+  "gfa": 150701
+ },
+ {
+  "address": "225 Carolina Ave",
+  "owner": "225 Providence LLC",
+  "gfa": 62388
+ },
+ {
+  "address": "225 Chapman St",
+  "owner": "BRG Providence 2 LLC",
+  "gfa": 58980
+ },
+ {
+  "address": "225 Dyer St",
+  "owner": "Providence Innovation District Phase I Owner, LLC",
+  "gfa": 250817
+ },
+ {
+  "address": "225 Hope St",
+  "owner": "Brown University",
+  "gfa": 51936
+ },
+ {
+  "address": "225 Hope St",
+  "owner": "Brown University",
+  "gfa": 55448
+ },
+ {
+  "address": "225 Hope St",
+  "owner": "Brown University",
+  "gfa": 61512
+ },
+ {
+  "address": "225 Hope St",
+  "owner": "Brown University",
+  "gfa": 88884
+ },
+ {
+  "address": "225 Hope St",
+  "owner": "Brown University",
+  "gfa": 93604
+ },
+ {
+  "address": "228 Broad St",
+  "owner": "Copley Chambers II & III LLC",
+  "gfa": 73920
+ },
+ {
+  "address": "229 Waterman St",
+  "owner": "229 Waterman Realty LLC",
+  "gfa": 53717
+ },
+ {
+  "address": "231 South Main St",
+  "owner": "RI School of Design",
+  "gfa": 53292
+ },
+ {
+  "address": "231 Weybosset St",
+  "owner": "Parking Garage Associates LLC",
+  "gfa": 67608
+ },
+ {
+  "address": "234 Washington St",
+  "owner": "New England Telephone And Telegraph Co",
+  "gfa": 195631
+ },
+ {
+  "address": "235 Eaton St",
+  "owner": "Providence College",
+  "gfa": 64119
+ },
+ {
+  "address": "235 Eaton St",
+  "owner": "Providence College",
+  "gfa": 69304
+ },
+ {
+  "address": "235 Eaton St",
+  "owner": "Providence College",
+  "gfa": 69844
+ },
+ {
+  "address": "235 Eaton St",
+  "owner": "Providence College",
+  "gfa": 120434
+ },
+ {
+  "address": "235 Eaton St",
+  "owner": "Providence College",
+  "gfa": 164984
+ },
+ {
+  "address": "235 Eaton St",
+  "owner": "Providence College",
+  "gfa": 188664
+ },
+ {
+  "address": "235 Eaton St, Unit R",
+  "owner": "Providence College",
+  "gfa": 67281
+ },
+ {
+  "address": "236 Westminster St",
+  "owner": "Alice Building LLC",
+  "gfa": 70044
+ },
+ {
+  "address": "24 Althea St",
+  "owner": "Sage Realty LLC",
+  "gfa": 61072
+ },
+ {
+  "address": "24 Diman Pl",
+  "owner": "Central Congregational Church",
+  "gfa": 53356
+ },
+ {
+  "address": "243 Smith St",
+  "owner": "Housing Authority",
+  "gfa": 118488
+ },
+ {
+  "address": "25 Dorrance St",
+  "owner": "City of Providence",
+  "gfa": 120744
+ },
+ {
+  "address": "25 Holden St",
+  "owner": "Promenade Street Owner LLC",
+  "gfa": 162006
+ },
+ {
+  "address": "25 Hoppin St",
+  "owner": "RI Hospital",
+  "gfa": 268198
+ },
+ {
+  "address": "25 Kennedy Plz",
+  "owner": "United States of America",
+  "gfa": 115500
+ },
+ {
+  "address": "25 Manton Ave",
+  "owner": "Twenty Five Manton Ave Assoc LLC",
+  "gfa": 91616
+ },
+ {
+  "address": "25 Reservoir Ave",
+  "owner": "LJS Realty LLC",
+  "gfa": 60744
+ },
+ {
+  "address": "250 Benefit St",
+  "owner": "State Of Rhode Island & Prov Plantations",
+  "gfa": 205551
+ },
+ {
+  "address": "250 Brook St",
+  "owner": "Brown University",
+  "gfa": 64770
+ },
+ {
+  "address": "254 Washington St",
+  "owner": "Washington L.P. Omni",
+  "gfa": 57409
+ },
+ {
+  "address": "255 Promenade St",
+  "owner": "Promenade Street Owner LLC",
+  "gfa": 288162
+ },
+ {
+  "address": "257 Thayer St",
+  "owner": "GD Thayer LLC",
+  "gfa": 142600
+ },
+ {
+  "address": "259 Brook St",
+  "owner": "Brown University",
+  "gfa": 60049
+ },
+ {
+  "address": "259 Westminster St",
+  "owner": "State Of RI Department Of Adminstration",
+  "gfa": 262942
+ },
+ {
+  "address": "265 Harborside Blvd",
+  "owner": "Johnson & Wales",
+  "gfa": 77631
+ },
+ {
+  "address": "27 Atwells Ave",
+  "owner": "PRI I LP",
+  "gfa": 69222
+ },
+ {
+  "address": "27 Atwells Ave, Unit 2",
+  "owner": "PRI I LP",
+  "gfa": 160653
+ },
+ {
+  "address": "27 Dryden Ln",
+  "owner": "LLC Cgri Dryden",
+  "gfa": 79119
+ },
+ {
+  "address": "275 Promenade St",
+  "owner": "Foundry Portfolio Associates LLC",
+  "gfa": 61945
+ },
+ {
+  "address": "278 Thurbers Ave",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 164800
+ },
+ {
+  "address": "28 Bassett St, Unit B51A",
+  "owner": "Tower III LLC",
+  "gfa": 51743
+ },
+ {
+  "address": "280 Washington St",
+  "owner": "Grace Preservation Associates LP",
+  "gfa": 90380
+ },
+ {
+  "address": "282 Niantic Ave",
+  "owner": "ProPartners in Parking LLC",
+  "gfa": 67168
+ },
+ {
+  "address": "286 Charles St",
+  "owner": "296 Charles Street Properties",
+  "gfa": 72092
+ },
+ {
+  "address": "287 Butler Ave",
+  "owner": "NE Yearly Meeting Of Friends",
+  "gfa": 59482
+ },
+ {
+  "address": "29 Bainbridge Ave",
+  "owner": "City of Providence/Children's Friend",
+  "gfa": 64411
+ },
+ {
+  "address": "29 Medway St",
+  "owner": "Constantine M Dafermos",
+  "gfa": 70047
+ },
+ {
+  "address": "291 Westminster St",
+  "owner": "Johnson & Wales",
+  "gfa": 65160
+ },
+ {
+  "address": "295 Carpenter St",
+  "owner": "Mill LLC Grant",
+  "gfa": 119501
+ },
+ {
+  "address": "295 Harris Ave",
+  "owner": "Ajay Land Co",
+  "gfa": 72000
+ },
+ {
+  "address": "297 Promenade St",
+  "owner": "Foundry Parcel Six Associates Llc",
+  "gfa": 102630
+ },
+ {
+  "address": "3 Avenue Of The Arts",
+  "owner": "L.L.C. RP Providence Owner",
+  "gfa": 278011
+ },
+ {
+  "address": "3 Ferncrest Blvd",
+  "owner": "State of Rhode Island",
+  "gfa": 120765
+ },
+ {
+  "address": "30 Chestnut St",
+  "owner": "Johnson & Wales",
+  "gfa": 75948
+ },
+ {
+  "address": "30 Fields Point Dr",
+  "owner": "Provport Inc",
+  "gfa": 54920
+ },
+ {
+  "address": "30 Hagan St",
+  "owner": "Hagan Apartments LP",
+  "gfa": 72128
+ },
+ {
+  "address": "30 Waterman St",
+  "owner": "RI School of Design",
+  "gfa": 50929
+ },
+ {
+  "address": "300 Westminster St",
+  "owner": "Grace Church",
+  "gfa": 71964
+ },
+ {
+  "address": "301 Silver Spring St/110 Royal Little Dr",
+  "owner": "AAA Northeast",
+  "gfa": 96946
+ },
+ {
+  "address": "304 Pearl St",
+  "owner": "RCG Armory Pearl LLC",
+  "gfa": 71817
+ },
+ {
+  "address": "305 Shipyard St",
+  "owner": "Johnson & Wales",
+  "gfa": 77663
+ },
+ {
+  "address": "305 Shipyard St",
+  "owner": "Johnson & Wales",
+  "gfa": 96760
+ },
+ {
+  "address": "315 Cranston St",
+  "owner": "Cherry Briggs Preservation Associates",
+  "gfa": 70936
+ },
+ {
+  "address": "315 Elmwood Ave",
+  "owner": "Stephens Hall Development Associates LP",
+  "gfa": 51240
+ },
+ {
+  "address": "315 Park Ave",
+  "owner": "Park Avenue RIH LLC",
+  "gfa": 61157
+ },
+ {
+  "address": "317 Hartford Ave",
+  "owner": "Housing Authority",
+  "gfa": 75969
+ },
+ {
+  "address": "321 South Main St",
+  "owner": "Partners LLC 321 SMS",
+  "gfa": 63117
+ },
+ {
+  "address": "324 Daboll St",
+  "owner": "City of Providence",
+  "gfa": 61250
+ },
+ {
+  "address": "324 Daboll St",
+  "owner": "City of Providence",
+  "gfa": 125473
+ },
+ {
+  "address": "324 Hope St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 260399
+ },
+ {
+  "address": "325 Valley St, Unit 1",
+  "owner": "SRRI Grocery Owners LLC",
+  "gfa": 63354
+ },
+ {
+  "address": "325 Washington St",
+  "owner": "Providence Redevelopment Agency",
+  "gfa": 96639
+ },
+ {
+  "address": "330 Eddy St",
+  "owner": "CV SSL Garage LLC",
+  "gfa": 240160
+ },
+ {
+  "address": "331 Waterman St",
+  "owner": "RS Acquisitions LLC",
+  "gfa": 83026
+ },
+ {
+  "address": "333 West River St",
+  "owner": "NL Grocery II Exchange LLC",
+  "gfa": 66419
+ },
+ {
+  "address": "334 Westminster St",
+  "owner": "Downcity Revitilization Fund I LLC",
+  "gfa": 55552
+ },
+ {
+  "address": "335 Prairie Ave, Unit R",
+  "owner": "The Providence Comm Health Centers, Inc",
+  "gfa": 53841
+ },
+ {
+  "address": "345 Harris Ave",
+  "owner": "Harris LLC 345",
+  "gfa": 65125
+ },
+ {
+  "address": "346 Elmgrove Ave",
+  "owner": "Brown University",
+  "gfa": 70654
+ },
+ {
+  "address": "349 West Fountain St",
+  "owner": "Providence Redevelopment Agency",
+  "gfa": 152448
+ },
+ {
+  "address": "35 Camp St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 91939
+ },
+ {
+  "address": "35 Holden St",
+  "owner": "Sharpe Building Associates LLC",
+  "gfa": 51360
+ },
+ {
+  "address": "35 Merino St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 75166
+ },
+ {
+  "address": "35 Merino St",
+  "owner": "City of Providence",
+  "gfa": 75166
+ },
+ {
+  "address": "35 Richmond St",
+  "owner": "Johnson & Wales",
+  "gfa": 236976
+ },
+ {
+  "address": "350 Eddy St",
+  "owner": "CV South Street Landing LLC",
+  "gfa": 131216
+ },
+ {
+  "address": "350 Eddy St",
+  "owner": "Brown University",
+  "gfa": 136072
+ },
+ {
+  "address": "350 Kinsley Ave",
+  "owner": "Jacob Licht Inc",
+  "gfa": 99360
+ },
+ {
+  "address": "353 Blackstone Blvd",
+  "owner": "Epoch Sl I Inc",
+  "gfa": 79154
+ },
+ {
+  "address": "355 Blackstone Blvd",
+  "owner": "Laurelmead Cooperative",
+  "gfa": 308797
+ },
+ {
+  "address": "359 Carpenter St",
+  "owner": "Bridgman Associates LP",
+  "gfa": 155134
+ },
+ {
+  "address": "36 Pine St",
+  "owner": "Freeway Parking LLC",
+  "gfa": 61020
+ },
+ {
+  "address": "36 Prospect St",
+  "owner": "Brown University",
+  "gfa": 50528
+ },
+ {
+  "address": "360 Elmgrove Ave",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 187692
+ },
+ {
+  "address": "361 Brook St",
+  "owner": "Brown University",
+  "gfa": 59301
+ },
+ {
+  "address": "37 Acorn St",
+  "owner": "Acorn Realty Inc",
+  "gfa": 104936
+ },
+ {
+  "address": "375 Adelaide Ave",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 89005
+ },
+ {
+  "address": "380 Hartford Ave",
+  "owner": "City of Providence/Children's Friend",
+  "gfa": 228070
+ },
+ {
+  "address": "380 Westminster St",
+  "owner": "Paolino Westminster TIC LLC",
+  "gfa": 188750
+ },
+ {
+  "address": "381 Charles St",
+  "owner": "Home Depot USA Inc.",
+  "gfa": 115519
+ },
+ {
+  "address": "39 New York Ave",
+  "owner": "McInnis USA Inc",
+  "gfa": 112185
+ },
+ {
+  "address": "4 Pine St",
+  "owner": "HALO Investments LLC",
+  "gfa": 50635
+ },
+ {
+  "address": "40 Borden St",
+  "owner": "RI Hospital",
+  "gfa": 101732
+ },
+ {
+  "address": "40 Tockwotten St",
+  "owner": "40 Tockwotton LLC",
+  "gfa": 85789
+ },
+ {
+  "address": "40 Westminster St",
+  "owner": "Textron Realty Corporation",
+  "gfa": 290720
+ },
+ {
+  "address": "400 Cathedral Sq",
+  "owner": "St Peters And Paul Church",
+  "gfa": 56596
+ },
+ {
+  "address": "405 Promenade St",
+  "owner": "Center Inc New York Blood",
+  "gfa": 67570
+ },
+ {
+  "address": "40-60 Ernest Street",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 73446
+ },
+ {
+  "address": "41 Fricker St",
+  "owner": "City of Providence",
+  "gfa": 81276
+ },
+ {
+  "address": "41 Fricker St",
+  "owner": "City of Providence",
+  "gfa": 211977
+ },
+ {
+  "address": "425 Dexter St",
+  "owner": "Four Twenty Five Dexter Associates",
+  "gfa": 96545
+ },
+ {
+  "address": "429 Valley St",
+  "owner": "Locomotive Works",
+  "gfa": 138097
+ },
+ {
+  "address": "43 Franklin St/43 Dave Gavitt Way",
+  "owner": "Roman Catholic Bishop Of Providence",
+  "gfa": 57554
+ },
+ {
+  "address": "431 Harris Ave",
+  "owner": "Freedom City Properties LLC",
+  "gfa": 75917
+ },
+ {
+  "address": "434 Mount Pleasant Ave",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 316118
+ },
+ {
+  "address": "439 Dexter St",
+  "owner": "Narragansett Electric Co",
+  "gfa": 105853
+ },
+ {
+  "address": "44 Greene St",
+  "owner": "CS Apartments LP",
+  "gfa": 91354
+ },
+ {
+  "address": "44 Hooker St",
+  "owner": "State of Rhode Island",
+  "gfa": 72877
+ },
+ {
+  "address": "444 Westminster St",
+  "owner": "444 Westminster Partners I LLC",
+  "gfa": 83016
+ },
+ {
+  "address": "45 Orms St",
+  "owner": "CJUF III MJH Providence LLC",
+  "gfa": 52785
+ },
+ {
+  "address": "450 Brook St",
+  "owner": "Brown University",
+  "gfa": 88711
+ },
+ {
+  "address": "455 Wickenden St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 72317
+ },
+ {
+  "address": "460 Charles St",
+  "owner": "Standard CP Ventures LP",
+  "gfa": 120430
+ },
+ {
+  "address": "466 West Fountain St",
+  "owner": "468 West Fountain LLC",
+  "gfa": 69004
+ },
+ {
+  "address": "48 Orms St",
+  "owner": "State of Rhode Island",
+  "gfa": 53300
+ },
+ {
+  "address": "480 Charles St",
+  "owner": "City of Providence",
+  "gfa": 90528
+ },
+ {
+  "address": "49 Westfield St",
+  "owner": "49 Westfield LLC",
+  "gfa": 119810
+ },
+ {
+  "address": "490 Angell St",
+  "owner": "Stephen Lewinstein (Tr)",
+  "gfa": 50740
+ },
+ {
+  "address": "491 Westminster St",
+  "owner": "Greene Street Associates II LP",
+  "gfa": 79569
+ },
+ {
+  "address": "494 Admiral St",
+  "owner": "Providence College",
+  "gfa": 102875
+ },
+ {
+  "address": "5 Exchange St",
+  "owner": "Steeple Street LLC",
+  "gfa": 99804
+ },
+ {
+  "address": "5 Memorial Blvd",
+  "owner": "Providence LLC ARC Hospitality",
+  "gfa": 120280
+ },
+ {
+  "address": "50 Kennedy Plz",
+  "owner": "100 Westminster Partners LLC",
+  "gfa": 398613
+ },
+ {
+  "address": "50 Niantic Ave",
+  "owner": "Ocean State Property Management Llc",
+  "gfa": 65780
+ },
+ {
+  "address": "50 Obediah Brown Rd",
+  "owner": "Providence Schools",
+  "gfa": 66631
+ },
+ {
+  "address": "50 Park Row West",
+  "owner": "HGIT 50 Park Row West LLC",
+  "gfa": 304085
+ },
+ {
+  "address": "50 Pine St, Unit 1A",
+  "owner": "50 Pine Street LLC",
+  "gfa": 56282
+ },
+ {
+  "address": "50 Sandringham Ave",
+  "owner": "Providence College",
+  "gfa": 56452
+ },
+ {
+  "address": "50 Sandringham Ave",
+  "owner": "Providence College",
+  "gfa": 91632
+ },
+ {
+  "address": "500 Exchange St, Unit BCBS",
+  "owner": "Blue Cross & Blue Shield",
+  "gfa": 314273
+ },
+ {
+  "address": "51 Lexington Ave",
+  "owner": "Alternative Housing Assoc",
+  "gfa": 59400
+ },
+ {
+  "address": "51 Washington St/29 Eddy St",
+  "owner": "Orchard Garage LLC",
+  "gfa": 114860
+ },
+ {
+  "address": "520 Davis Blvd",
+  "owner": "Providence Center Inc",
+  "gfa": 99925
+ },
+ {
+  "address": "532 Kinsley Ave, Unit 106",
+  "owner": "Meredith Younger",
+  "gfa": 51428
+ },
+ {
+  "address": "55 Cromwell St",
+  "owner": "Cromwell Ventures LLC",
+  "gfa": 56954
+ },
+ {
+  "address": "55 Dupont Dr",
+  "owner": "Foxrock 55 Dupont Realty LLC",
+  "gfa": 81872
+ },
+ {
+  "address": "55 Kennedy Plz",
+  "owner": "High Rock Westminster Street",
+  "gfa": 389977
+ },
+ {
+  "address": "55 Staniford St",
+  "owner": "RI Health And Educational Bldg Corp",
+  "gfa": 126703
+ },
+ {
+  "address": "556 Atwells Ave",
+  "owner": "556 Atwells LLC",
+  "gfa": 74578
+ },
+ {
+  "address": "57 Broad St",
+  "owner": "Gilbane Building Company",
+  "gfa": 92650
+ },
+ {
+  "address": "589 Atwells Ave",
+  "owner": "New England Expedition-Providence Retail",
+  "gfa": 53095
+ },
+ {
+  "address": "593 Eddy St",
+  "owner": "RI Hospital",
+  "gfa": 51852
+ },
+ {
+  "address": "593 Eddy St",
+  "owner": "RI Hospital",
+  "gfa": 62358
+ },
+ {
+  "address": "593 Eddy St",
+  "owner": "RI Hospital",
+  "gfa": 66001
+ },
+ {
+  "address": "593 Eddy St",
+  "owner": "RI Hospital",
+  "gfa": 94090
+ },
+ {
+  "address": "593 Eddy St",
+  "owner": "RI Hospital",
+  "gfa": 141075
+ },
+ {
+  "address": "593 Eddy St",
+  "owner": "RI Hospital",
+  "gfa": 328217
+ },
+ {
+  "address": "60 Broad St",
+  "owner": "Johnson & Wales",
+  "gfa": 64706
+ },
+ {
+  "address": "60 Camden Ave",
+  "owner": "City Of Providence",
+  "gfa": 59274
+ },
+ {
+  "address": "60 King St",
+  "owner": "Trinity 60 King Limited Partnership",
+  "gfa": 83916
+ },
+ {
+  "address": "60 Kossuth St",
+  "owner": "City of Providence",
+  "gfa": 67213
+ },
+ {
+  "address": "60 Valley St",
+  "owner": "Riverfront Capital LLC",
+  "gfa": 80561
+ },
+ {
+  "address": "618 Hartford Ave",
+  "owner": "City Of Providence",
+  "gfa": 65170
+ },
+ {
+  "address": "618 Hartford Ave",
+  "owner": "City Of Providence",
+  "gfa": 150718
+ },
+ {
+  "address": "62 Dudley St",
+  "owner": "RI Hospital",
+  "gfa": 174352
+ },
+ {
+  "address": "624 Valley St",
+  "owner": "United States of America",
+  "gfa": 167532
+ },
+ {
+  "address": "624 Valley St",
+  "owner": "United States of America",
+  "gfa": 419763
+ },
+ {
+  "address": "64 Richardson St",
+  "owner": "City of Providence",
+  "gfa": 79301
+ },
+ {
+  "address": "649 Davis Blvd",
+  "owner": "University Marketplace LLC",
+  "gfa": 90869
+ },
+ {
+  "address": "65 Park Row West",
+  "owner": "Capital Properties Inc",
+  "gfa": 156922
+ },
+ {
+  "address": "66 Weybosset St",
+  "owner": "GP Arcade Garage LLC",
+  "gfa": 208278
+ },
+ {
+  "address": "669 Elmwood Ave",
+  "owner": "Wildcat Equities Inc",
+  "gfa": 72489
+ },
+ {
+  "address": "670 North Main St",
+  "owner": "Charlesgate North Apartments LP",
+  "gfa": 170433
+ },
+ {
+  "address": "675 Elmwood Ave",
+  "owner": "Stratford House Associates",
+  "gfa": 60279
+ },
+ {
+  "address": "68 Hemlock St",
+  "owner": "Foundry Alco Members LLC",
+  "gfa": 67452
+ },
+ {
+  "address": "68 Hemlock St",
+  "owner": "Foundry Alco Members LLC",
+  "gfa": 139743
+ },
+ {
+  "address": "69 Gordon Ave",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 70122
+ },
+ {
+  "address": "69 Tingley St",
+  "owner": "Vamlam LLC",
+  "gfa": 55239
+ },
+ {
+  "address": "699 Hartford Ave",
+  "owner": "KGM Partners LLC",
+  "gfa": 108382
+ },
+ {
+  "address": "70 Fricker St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 137562
+ },
+ {
+  "address": "70 Powell St",
+  "owner": "OSJ of Providence LLC",
+  "gfa": 84645
+ },
+ {
+  "address": "70 Ship St",
+  "owner": "Brown University",
+  "gfa": 184197
+ },
+ {
+  "address": "711 Branch Ave",
+  "owner": "Amsdell Storage Ventures XXVII LLC",
+  "gfa": 106166
+ },
+ {
+  "address": "721 Chalkstone Ave",
+  "owner": "City of Providence/Children's Friend",
+  "gfa": 187719
+ },
+ {
+  "address": "75 Chestnut St",
+  "owner": "Johnson & Wales",
+  "gfa": 68640
+ },
+ {
+  "address": "75 Eagle St, Unit H23K",
+  "owner": "Thomas A Amrhein",
+  "gfa": 210479
+ },
+ {
+  "address": "75 Fountain St",
+  "owner": "Fountainview Owner LLC",
+  "gfa": 170692
+ },
+ {
+  "address": "75 Oxford St",
+  "owner": "Roland Realty Inc",
+  "gfa": 50616
+ },
+ {
+  "address": "750 Elmwood Ave",
+  "owner": "RI Public Transit Authority",
+  "gfa": 71156
+ },
+ {
+  "address": "750 Elmwood Ave",
+  "owner": "RI Public Transit Authority",
+  "gfa": 118098
+ },
+ {
+  "address": "756 Carpenter St/75 Carpenter St",
+  "owner": "Fund for UCAP Realty Company",
+  "gfa": 70058
+ },
+ {
+  "address": "76 Westminster St",
+  "owner": "76 Westminster Street LLC",
+  "gfa": 198774
+ },
+ {
+  "address": "765 Branch Ave",
+  "owner": "Branch Holdings LLC",
+  "gfa": 295637
+ },
+ {
+  "address": "77 Reservoir Ave",
+  "owner": "Mashpaug Partners LLC",
+  "gfa": 69976
+ },
+ {
+  "address": "770 Westminster St",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 154558
+ },
+ {
+  "address": "78 Fountain St",
+  "owner": "78 Fountain Street BAC LLC",
+  "gfa": 171960
+ },
+ {
+  "address": "797 Westminster St",
+  "owner": "City of Providence",
+  "gfa": 52959
+ },
+ {
+  "address": "80 Dupont Dr",
+  "owner": "96 Dupont Drive LLC",
+  "gfa": 90270
+ },
+ {
+  "address": "807 Broad St",
+  "owner": "RI Indian Council Inc",
+  "gfa": 57224
+ },
+ {
+  "address": "82 Weybosset St",
+  "owner": "Studley Bldg Enterprises Llc-51%",
+  "gfa": 52302
+ },
+ {
+  "address": "825 Chalkstone Ave",
+  "owner": "Prospect Chartercare RWMC, LLC",
+  "gfa": 376929
+ },
+ {
+  "address": "83 Doyle Ave",
+  "owner": "East Side Apartments LLC",
+  "gfa": 62742
+ },
+ {
+  "address": "840 Manton Ave",
+  "owner": "BCP 401 MSS LLC",
+  "gfa": 92600
+ },
+ {
+  "address": "85 Laurel Hill Ave",
+  "owner": "Providence Public Buildings Authority",
+  "gfa": 70188
+ },
+ {
+  "address": "850 Manton Ave",
+  "owner": "Calvi Realty Co Inc",
+  "gfa": 74930
+ },
+ {
+  "address": "9 Silver Spring St",
+  "owner": "Wal Mart Real Estate Business Trust",
+  "gfa": 136407
+ },
+ {
+  "address": "91 Hartford Ave",
+  "owner": "Romano Joseph",
+  "gfa": 125961
+ },
+ {
+  "address": "94 Summer St",
+  "owner": "Summer Street Housing Partners I LP",
+  "gfa": 140960
+ },
+ {
+  "address": "95 Chestnut St",
+  "owner": "Holdings I LLC CBWC",
+  "gfa": 68590
+ },
+ {
+  "address": "95 Pleasant Valley Pkwy",
+  "owner": "The Coca-Cola Bottling Co. Of Northern NE Inc",
+  "gfa": 67998
+ },
+ {
+  "address": "99 Hillside Ave",
+  "owner": "Summit RI Landlord LLC",
+  "gfa": 101152
+ },
+ {
+  "address": "99 Kenyon St",
+  "owner": "City of Providence/Children's Friend",
+  "gfa": 144310
+ },
+ {
+  "address": "99 Pleasant Valley Pkwy",
+  "owner": "The Coca-Cola Bottling Co. Of Northern NE Inc",
+  "gfa": 67200
+ },
+ {
+  "address": "99 Roger Wwilliams Green",
+  "owner": "Fairfield University Heights LP",
+  "gfa": 50382
+ },
+ {
+  "address": "99 Taft Ave",
+  "owner": "Temple Emanuel",
+  "gfa": 52267
+ },
+ {
+  "address": "Manton Ave",
+  "owner": "99 Hartford Ave LLC",
+  "gfa": 54918
+ }
+]

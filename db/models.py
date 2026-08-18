@@ -58,6 +58,9 @@ class Project(Base):
     # count and chart by load_projects() but remain in the table.
     excluded = Column(Boolean, default=False)
     excluded_reason = Column(String)
+    # filing | web | corrected -- see app/data.py::SF_SOURCES. A reporter's
+    # figure and a filing's figure are different kinds of fact.
+    total_gsf_source = Column(String)
 
     # Two-field status. Agendas are published BEFORE a meeting and state only
     # that an item is scheduled ("for vote"), never the outcome -- outcomes live
