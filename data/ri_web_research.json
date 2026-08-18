@@ -162,7 +162,12 @@
   "Providence|21 Atwells Avenue": "Coverage found is for 386 and 434 Atwells Ave, different addresses. Rejected rather than attached.",
   "Warwick|800 Toll Gate Rd": "The 214-unit Warwick project found is at 2119 Post Road, a different address. Rejected.",
   "Cranston|31 Calder Street": "Only brokerage listings (Century21, RILiving, LoopNet) -- excluded sources.",
-  "Cranston|1499 Hillside Road": "Only commercial listing aggregators. No development coverage."
+  "Cranston|1499 Hillside Road": "Only commercial listing aggregators. No development coverage.",
+  "Providence|300 Valley Street": "Rising Sun Mills is 166 Valley St, a different address. Rejected.",
+  "Providence|541 Hartford Ave": "Only BLDUP and listing sites -- excluded sources.",
+  "Providence|56 Bridgham Street": "A 41-unit West End affordable project exists but no source ties it to 56 Bridgham. Applicant Historic West End II LP is already a real entity.",
+  "Providence|99-101 Gano Street": "99 Gano St is H.V. Collins' own headquarters. No apartment project confirmed there; the 61 units on our record is questionable and flagged.",
+  "Providence|298 Public Street": "SWAP Inc is confirmed as a real non-profit developer, but the only Public Street project found is a 2-unit home, against 39 units on our record. Not corroborated."
  },
  "Warwick|455 Toll gate Rd": {
   "developer": "Kent County Memorial Hospital",
@@ -437,6 +442,72 @@
     "url": "https://www.valleybreeze.com/news/commission-approves-major-mixed-use-project-on-pawtucket-s-east-avenue/article_3448c03f-325b-4368-899c-8bc0947cea3d.html",
     "address_sentence": "The building at 282 East Avenue covers about 57,970 square feet with 32 residential units and 56 proposed parking spaces.",
     "developer_sentence": "Applicants Jack Galvao of Dridrigal Properties LLC and John Docouto of Empire Builders filed for a major land development."
+   }
+  ]
+ },
+ "Providence|850 Manton Ave": {
+  "developer": "Bluedog Capital Partners, LLC",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Industrial"
+  },
+  "note": "401 Storage - three self-storage buildings with Calvi Realty Co Inc as property owner. Sources say 94,200 sf; our record says 978,843 sf. Conflict, not written.",
+  "sources": [
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/tag/bluedog-capital-partners-llc/",
+    "address_sentence": "Three self-storage buildings totaling 94,200 square feet at 850 Manton Ave in Providence.",
+    "developer_sentence": "Property owner Calvi Realty Co Inc. and Bluedog Capital Partners LLC are planning the project."
+   },
+   {
+    "publisher": "Bluedog Capital Partners",
+    "domain": "bluedogcap.com",
+    "url": "https://www.bluedogcap.com/development",
+    "address_sentence": "401 Storage - Providence, RI, on Manton Avenue.",
+    "developer_sentence": "Bluedog Capital Partners, LLC develops the 401 Storage project."
+   }
+  ]
+ },
+ "Providence|230 Waterman Street": {
+  "developer": "Myles Standish Associates",
+  "method": "web_corroborated",
+  "note": "'Wayland Residences' -- five-story mixed-use replacing the former Monahan Drabble Sherman Funeral Home. Sources say 12 residences; our record says 38 units. Conflict, not written. Building reportedly still standing as of the last coverage.",
+  "sources": [
+   {
+    "publisher": "City of Providence (CPC master plan presentation)",
+    "domain": "providenceri.gov",
+    "url": "https://www.providenceri.gov/wp-content/uploads/2021/11/230Waterman-CPCMasterPlanPresentation.pdf",
+    "address_sentence": "Wayland Residences, 230 Waterman Street, Providence RI 02906.",
+    "developer_sentence": "Master plan presentation submitted by Myles Standish Associates."
+   },
+   {
+    "publisher": "ArtInRuins",
+    "domain": "artinruins.com",
+    "url": "https://artinruins.com/property/230-waterman-st-pvd/",
+    "address_sentence": "230 Waterman Street, at the corner of Waterman and Wayland.",
+    "developer_sentence": "Myles Standish Associates brought plans to the City Plan Commission to demolish the former funeral home in favor of new construction."
+   }
+  ]
+ },
+ "Providence|217 Angell Street": {
+  "developer": null,
+  "method": null,
+  "note": "DELIBERATE NULL. The applicant on our record, SMART Princeton Hotel Group LLC (Smart Hotels LLC with Ed Bishop), belongs to a 118-room hotel proposal that was SCRAPPED after neighborhood opposition. Our 32 units belongs to the SUCCESSOR proposal, a five-story multifamily building whose sponsor is not named in the coverage. Attributing the dead hotel's developer to the live residential project would be wrong, so this stays blank and goes to the cleanup report instead.",
+  "sources": [
+   {
+    "publisher": "Brown Daily Herald",
+    "domain": "browndailyherald.com",
+    "url": "https://www.browndailyherald.com/article/2022/11/path-forward-for-angell-street-hotel-student-housing-ordinance-still-murky",
+    "address_sentence": "The project would demolish three historic houses at 209-217 Angell St.",
+    "developer_sentence": "SMART Princeton Hotel Group, LLC was the petitioner; the hotel was continued indefinitely."
+   },
+   {
+    "publisher": "GoLocalProv",
+    "domain": "golocalprov.com",
+    "url": "https://www.golocalprov.com/business/new-college-condo-project-proposed-for-college-hill",
+    "address_sentence": "A new proposal for the vacant parcels at the corner of Angell and Brook Streets.",
+    "developer_sentence": "A five-story multifamily residential building with 32 units, each with three bedrooms."
    }
   ]
  }

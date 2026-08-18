@@ -2554,6 +2554,15 @@
   },
   "ALBANESE IRREVOCABLE TRUST": null,
   "ALEXANDER MILLER BUCCI AND COURTNEY BUCCI": null,
+  "ALEXANDRIA REALTY, LLC": {
+   "address": "87 CENTER OF NEW ENGLAND BOULEVARD BOX 9 COVENTRY, RI  02816  USA",
+   "fein": "001713208",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531390",
+   "name": "ALEXANDRIA REALTY, LLC",
+   "status_searched": "rdbActive"
+  },
   "ALFRED SLINEY": null,
   "ALLEN\u2019S FARM, LLC 144 METRO CTR BLVD, UNIT F": null,
   "ALPHAOMEGA PROPERTIES LLC": {
@@ -2566,6 +2575,8 @@
    "status_searched": "rdbActive"
   },
   "AMIT ANAND": null,
+  "ANA CRISTINA PEREZ": null,
+  "AND CALISE DEVELOPMENT, LLC": null,
   "AR BUILDING COMPANY": {
    "address": "310 SEVEN FIELDS BOULEVARD, SUITE 350 SEVEN FIELDS, PA  16046  USA",
    "fein": "001785187",
@@ -2575,6 +2586,7 @@
    "name": "A. R. BUILDING COMPANY, INC. (A/K/A A. R. BUILDING COMPANY)",
    "status_searched": "rdbActive"
   },
+  "AREF SHEHADEH": null,
   "ASIAN PROPERTIES LLC": {
    "address": "129 VALLETTE STREET CRANSTON, RI  02920  USA",
    "fein": "000109237",
@@ -2586,6 +2598,7 @@
   },
   "ATTORNEY MCGREEN": null,
   "ATTORNEY SHEKARCHI": null,
+  "AYODEJI TADE": null,
   "AYOUB REALTY LLC": {
    "address": "358 ELMWOOD AVENUE PROVIDENCE, RI  02907  USA",
    "fein": "001726304",
@@ -2616,6 +2629,16 @@
    "name": "BFG MA RI LLC",
    "status_searched": "rdbActive"
   },
+  "BISHOP JEFFREY WILLIAMS": null,
+  "BLUE DOG CAPITAL PARTNERS, LLC": {
+   "address": "1 CUSTOM HOUSE STREET SUITE 4 PROVIDENCE, RI  02903  USA",
+   "fein": "000119350",
+   "inactive": "",
+   "match": "near-miss",
+   "naics": "531390",
+   "name": "BLUEDOG CAPITAL PARTNERS, LLC",
+   "status_searched": "rdbActive"
+  },
   "BLUE MOON PROPERTIES LLC": {
    "address": "42 PHENIX AVENUE CRANSTON, RI  02920  USA",
    "fein": "001736555",
@@ -2632,6 +2655,15 @@
    "match": "near-miss",
    "naics": "531390",
    "name": "BLUEDOG CAPITAL PARTNERS, LLC",
+   "status_searched": "rdbActive"
+  },
+  "BOSSET, LLC": {
+   "address": "124 SNOW STREET PROVIDENCE, RI  02903  USA",
+   "fein": "001787381",
+   "inactive": "",
+   "match": "exact",
+   "naics": "722511",
+   "name": "BOSSET LLC",
    "status_searched": "rdbActive"
   },
   "BOYSIE FORTEZ": null,
@@ -2667,10 +2699,29 @@
    "status_searched": "rdbActive"
   },
   "CELTIC-ROMAN GROUP, LLC/BROOKS ALMONTE": null,
+  "CENTRO DE LIBERACION Y AVIVAMIENTO": {
+   "address": "9 PORTLAND STREET PROVIDENCE, RI  02907  USA",
+   "fein": "000795332",
+   "inactive": "Revocation Notice",
+   "match": "exact",
+   "naics": "813110",
+   "name": "Centro de Liberacion y Avivamiento",
+   "status_searched": "rdbActive"
+  },
   "CHAMPLIN HEIGHTS II, LLC": null,
+  "CHARLESGATE NURSING CENTER": {
+   "address": "C/O DAVENPORT ASSOCIATES, LTD. 50 RANDALL STREET PROVIDENCE, RI  02904  USA",
+   "fein": "000049120",
+   "inactive": "",
+   "match": "exact",
+   "naics": "623000",
+   "name": "CHARLESGATE NURSING CENTER",
+   "status_searched": "rdbActive"
+  },
   "CHRISTOPHER NORRIS LEBLANC AND JOHN P DUFFIN": null,
   "CITY OF PROVIDENCE": null,
   "CITY OF WARWICK": null,
+  "CLAIRE MONTECALVO": null,
   "CLEARVIEW INC": {
    "address": "327 HILLSDALE RD RICHMOND, RI  02892  USA",
    "fein": "001742600",
@@ -2782,7 +2833,9 @@
    "name": "DAVID BASKIN",
    "status_searched": "rdbActive"
   },
+  "DENORAH REYNOSO": null,
   "DEONTE RASHAD DUNN": null,
+  "DERLYN LOPEZ": null,
   "DESMAR REAL ESTATE VENTURES LLC": {
    "address": "5 OAK VALLEY LANE HARRISVILLE, RI  02830  USA",
    "fein": "000406831",
@@ -2802,7 +2855,26 @@
    "status_searched": "rdbActive"
   },
   "DONNA SEBASTIANELLI": null,
+  "DRIDRIGAL PROPERTIES LLC": {
+   "address": "643 MAIN STREET PAWTUCKET, RI  02860  USA",
+   "fein": "000790018",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531110",
+   "name": "DRIDRIGAL PROPERTIES, LLC",
+   "status_searched": "rdbActive"
+  },
+  "DUNKIN DONUTS": {
+   "address": "2665 S BAYSHORE DRIVE SUITE 101 MIAMI, FL  33133  USA",
+   "fein": "001762040",
+   "inactive": "",
+   "match": "near-miss",
+   "naics": "722511",
+   "name": "Dunkin Donuts Express",
+   "status_searched": "rdbActive"
+  },
   "DURAN REAL ESTATE INVESTMENTS LLC": null,
+  "DUSTIN DEZUBE": null,
   "DWTDT LLC, C/O JOSHUA MILLER": null,
   "E2000 LLC": {
    "address": "221 BROADWAY PROVIDENCE, RI  02903  USA",
@@ -2813,7 +2885,17 @@
    "name": "E2000 REALTY, LLC",
    "status_searched": "rdbActive"
   },
+  "EDUCATIONAL CENTER OF ARTS & SCIENCE, INC": {
+   "address": "679 VALLEY STREET PROVIDENCE, RI  02908  USA",
+   "fein": "000095444",
+   "inactive": "",
+   "match": "near-miss",
+   "naics": "711111",
+   "name": "Educational Center of Arts and Sciences (E.C.A.S.)",
+   "status_searched": "rdbActive"
+  },
   "ELEVATOR PROPERTIES INC AND SLIM INVESTMENTS LLC": null,
+  "ELIO OLIVERO": null,
   "EXCEL ACADEMY": {
    "address": "622 WOONASQUATUCKET AVE ATTN: ARTHUR KAYNOR/NETWORK TEAM NORTH PROVIDENCE, RI  02911  USA",
    "fein": "001713293",
@@ -2821,6 +2903,15 @@
    "match": "near-miss",
    "naics": "611110",
    "name": "Excel Academy Rhode Island",
+   "status_searched": "rdbActive"
+  },
+  "EXETER PROPERTY GROUP": {
+   "address": "363 MAIN STREET SUITE 3 WAKEFIELD, RI  02879  USA",
+   "fein": "000769034",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531110",
+   "name": "EXETER PROPERTY GROUP, LLC",
    "status_searched": "rdbActive"
   },
   "EXPO REALTY LLC": {
@@ -2860,6 +2951,15 @@
    "name": "Fleury Properties, LLC",
    "status_searched": "rdbActive"
   },
+  "FORCE REALTY, LLC": {
+   "address": "419 ALBION ROAD UNIT 19 LINCOLN, RI  02865  USA",
+   "fein": "000096023",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531312",
+   "name": "FORCE REALTY, LLC",
+   "status_searched": "rdbActive"
+  },
   "FOUNDATION FOR REPERTORY THEATRE OF RI INC": null,
   "FOX POINT CAPITAL LLC": {
    "address": "244 WEYBOSSET STREET PROVIDENCE, RI  02903  USA",
@@ -2870,11 +2970,13 @@
    "name": "FOX POINT CAPITAL, LLC",
    "status_searched": "rdbActive"
   },
+  "FRANCISCA POLANCO NAVEDO": null,
   "FRANCISCO CRUZ": null,
   "GERALD ZARRELLA": null,
   "GERTRUDIS QUILES": null,
   "GHASSAN DAOU": null,
   "GILBERTO CIPRIAN": null,
+  "GILKANIA BENITEZ": null,
   "GILS REAL ESTATE INVESTMENT LLC": {
    "address": "31 CONGRESS STREET PAWTUCKET, RI  02860  USA",
    "fein": "001688810",
@@ -2882,6 +2984,24 @@
    "match": "near-miss",
    "naics": "531390",
    "name": "Gil's Real Estate Investment, LLC",
+   "status_searched": "rdbActive"
+  },
+  "GREEN DEVELOPMENT, LLC": {
+   "address": "2000 CHAPEL VIEW BLVD. SUITE 500 CRANSTON, RI  02920  USA",
+   "fein": "000575201",
+   "inactive": "",
+   "match": "exact",
+   "naics": "221115",
+   "name": "Green Development Company, LLC",
+   "status_searched": "rdbActive"
+  },
+  "GREEN RHODE, LLC": {
+   "address": "469 ANGELL STREET SUITE 202 PROVIDENCE, RI  02906  USA",
+   "fein": "001801203",
+   "inactive": "",
+   "match": "exact",
+   "naics": "459991",
+   "name": "GREEN RHODE, LLC",
    "status_searched": "rdbActive"
   },
   "GREENLIGHT INVESTMENTS LLC": {
@@ -2984,6 +3104,15 @@
    "name": "IMPERIAL APARTMENTS, LLC",
    "status_searched": "rdbActive"
   },
+  "IMPERIAL INVESTMENTS, INC": {
+   "address": "5 DRUMMOND DRIVE LINCOLN, RI  02865  USA",
+   "fein": "000487821",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531390",
+   "name": "IMPERIAL INVESTMENTS, INC.",
+   "status_searched": "rdbActive"
+  },
   "INTERNATIONAL PROPERTY INVESTMENT AND MANAGEMENT LLC": {
    "address": "16192 COASTAL HIGHWAY LEWES, DE  19958  USA",
    "fein": "001336269",
@@ -3024,6 +3153,7 @@
    "status_searched": "rdbActive"
   },
   "JC131 REALTY LLC C/O JEFFREY AUDET": null,
+  "JESUS R. ACOSTA": null,
   "JITENDER BEHL": null,
   "JK EQUITIES LLC": {
    "address": "34 RHODES STREET PLAINVILLE, MA  02762  USA",
@@ -3037,9 +3167,11 @@
   "JOHN CAPRIO": null,
   "JOHN EDWARD QUATTROCHI": null,
   "JOHN GARRAHY": null,
+  "JOSE AMADO DURAM CASTILLO": null,
   "JOSE SANCHEZ": null,
   "JOSEPH COLALUCA": null,
   "JOSEPH COLALUCA C/O ADMIRAL PROPERTIES LLC": null,
+  "JP MORGAN CHASE BANK": null,
   "JPMW, LLC": {
    "address": "154 SHADOW BROOK DRIVE WARWICK, RI  02886  USA",
    "fein": "001679768",
@@ -3056,6 +3188,15 @@
    "match": "exact",
    "naics": "531390",
    "name": "JRL Holdings, LLC",
+   "status_searched": "rdbActive"
+  },
+  "JSC MANAGEMENT GROUP": {
+   "address": "16 LYNWOOD DRIVE LYNDONVILLE, NY  14098  USA",
+   "fein": "001705683",
+   "inactive": "",
+   "match": "exact",
+   "naics": "722513",
+   "name": "JSC Management Group, LLC",
    "status_searched": "rdbActive"
   },
   "JUBRIL BAMGBALA": null,
@@ -3116,6 +3257,7 @@
    "name": "Keough Construction Management",
    "status_searched": "rdbActive"
   },
+  "KEVIN HAWES": null,
   "KEVIN MURPHY": null,
   "KKDC, 2116 HAWKINS STREET, SUITE 101, CHARLOTTE, NC 28203": null,
   "KOBEISSI REALTY CORP": null,
@@ -3148,6 +3290,7 @@
    "name": "LAKE VIEW DEVELOPMENT, LLC.",
    "status_searched": "rdbActive"
   },
+  "LARISSA SAYIG": null,
   "LAWRENCE AND ANITA DELBONIS": null,
   "LEGO BATMAN PROPERTIES, LLC": {
    "address": "1624 WARWICK AVENUE WARWICK, RI  02889  USA",
@@ -3176,6 +3319,15 @@
    "match": "exact",
    "naics": "236118",
    "name": "Lofty Ambitions LLC",
+   "status_searched": "rdbActive"
+  },
+  "LOS ANDES BRASAS, LLC": {
+   "address": "712 ADMIRAL STREET PROVIDENCE, RI  02908  USA",
+   "fein": "001734096",
+   "inactive": "",
+   "match": "exact",
+   "naics": "722513",
+   "name": "LOS ANDES BRASAS LLC",
    "status_searched": "rdbActive"
   },
   "LOUIS G. ROY, 6 PLUM TREE LANE, COVENTRY, RI 02816": null,
@@ -3209,6 +3361,7 @@
    "name": "Marathon Development, LLC",
    "status_searched": "rdbActive"
   },
+  "MARIA GIRON": null,
   "MARIA HICIANO": null,
   "MARICELA HERNANDEZ": null,
   "MARIO CAPALDI": null,
@@ -3251,6 +3404,7 @@
    "status_searched": "rdbActive"
   },
   "MICHAEL MCVICKER AND IAN SLATER": null,
+  "MICHAEL SALVATORE": null,
   "MINERAL ENTERPRISES, INC.": {
    "address": "383 SMITHFIELD AVENUE PAWTUCKET, RI  02860  USA",
    "fein": "000011231",
@@ -3262,6 +3416,15 @@
   },
   "MINERAL ENTERPRISES, INC. (APP) RLF IV TERMINALS SPE, LLC (OWN)": null,
   "MONACO INVESTMENTS LLC": null,
+  "MONIKER BREWING, LLC": {
+   "address": "432 WEST FOUNTAIN STREET PROVIDENCE, RI  02903  USA",
+   "fein": "001693854",
+   "inactive": "",
+   "match": "exact",
+   "naics": "722410",
+   "name": "MONIKER BREWING, LLC",
+   "status_searched": "rdbActive"
+  },
   "MONTESSORI COMMUNITY SCHOOL OF RHODE ISLAND": {
    "address": "73 STANWOOD STREET PROVIDENCE, RI  02907  USA",
    "fein": "000792214",
@@ -3301,6 +3464,16 @@
    "name": "NATIONAL DEVELOPMENT GROUP, INC.",
    "status_searched": "rdbActive"
   },
+  "NAVARRETE TIRE SHOP & REPAIR, LLC": {
+   "address": "151 MANTON AVE PROVIDENCE, RI  02909  USA",
+   "fein": "000788552",
+   "inactive": "",
+   "match": "exact",
+   "naics": "326212",
+   "name": "NAVARRETE TIRE SHOP & REPAIR, LLC",
+   "status_searched": "rdbActive"
+  },
+  "NELLIE FRANCIS": null,
   "NICHOLAS VARRAS": null,
   "NKC INVESTMENTS LLC": {
    "address": "121 TERRE MAR DRIVE NORTH KINGSTOWN, RI  02852  USA",
@@ -3318,6 +3491,15 @@
    "match": "exact",
    "naics": "221115",
    "name": "North East Offshore, LLC",
+   "status_searched": "rdbActive"
+  },
+  "NORTH MERIDIAN, LLC": {
+   "address": "680 ADMIRAL STREET PROVIDENCE, RI  02908  USA",
+   "fein": "001801010",
+   "inactive": "",
+   "match": "exact",
+   "naics": "445298",
+   "name": "North Meridian LLC",
    "status_searched": "rdbActive"
   },
   "NULCO LOFTS LLC": {
@@ -3365,8 +3547,19 @@
    "name": "The Omni Group",
    "status_searched": "rdbActive"
   },
+  "ORLANDO CORREIA": null,
+  "OZREN T. BURTAK": null,
   "P&P REALTY AND HSM INVESTMENTS LLC": null,
   "PABEL FERNANDEZ": null,
+  "PALLIATECH RI, LLC": {
+   "address": "301 EDGEWATER PLACE, SUITE 405 WAKEFIELD, MA  01880  USA",
+   "fein": "001672729",
+   "inactive": "Revoked Entity",
+   "match": "exact",
+   "naics": "453998",
+   "name": "PalliaTech RI, LLC",
+   "status_searched": "rdbInactive"
+  },
   "PARTNERSHIP C/O PRESERVATION OF AFFORDABLE HOUSING": null,
   "PATRICIA MARTINEZ": null,
   "PATRIOT STATE STORAGE LLC": {
@@ -3425,6 +3618,15 @@
    "name": "Prestige Realty, LLC",
    "status_searched": "rdbActive"
   },
+  "PRI XIV, LP": {
+   "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+   "fein": "000150273",
+   "inactive": "",
+   "match": "near-miss",
+   "naics": "531310",
+   "name": "PRI XIV, L.P.",
+   "status_searched": "rdbActive"
+  },
   "PROVIDENCE COMMUNITY HEALTH CENTERS": {
    "address": "375 ALLENS AVENUE PROVIDENCE, RI  02905  USA",
    "fein": "000028183",
@@ -3445,6 +3647,15 @@
    "status_searched": "rdbActive"
   },
   "PROVIDENCE PUBLIC BUILDINGS AUTHORITY": null,
+  "PROVIDENCE PUBLIC LIBRARY": {
+   "address": "150 EMPIRE STREET PROVIDENCE, RI  02903  USA",
+   "fein": "000028685",
+   "inactive": "",
+   "match": "exact",
+   "naics": "519120",
+   "name": "Providence Public Library",
+   "status_searched": "rdbActive"
+  },
   "PROVIDENCE REDEVELOPMENT AGENCY": {
    "address": ",     USA",
    "fein": "000078538",
@@ -3574,7 +3785,29 @@
   },
   "RT8 REALTY TRUST": null,
   "RUSSELL BROCCOLI": null,
+  "S FAMILY RESTAURANT, LLC": null,
+  "S HOUSE, INC": null,
+  "S OPTICAL": null,
+  "S REALTY ASSOCIATES": null,
+  "S USA, LLC": {
+   "address": "15303 VENTURA BLVD. SUITE 850 SHERMAN OAKS, CA  91403  USA",
+   "fein": "001750749",
+   "inactive": "",
+   "match": "near-miss",
+   "naics": "522390",
+   "name": "SUSA Holdings, LLC",
+   "status_searched": "rdbActive"
+  },
   "SAL COMPAGNONE": null,
+  "SALEM GOSPEL MISSION INTERNATIONAL": {
+   "address": "PO BOX 72788 PROVIDENCE, RI  02907  USA",
+   "fein": "000027268",
+   "inactive": "",
+   "match": "exact",
+   "naics": "813110",
+   "name": "SALEM GOSPEL MISSION INTERNATIONAL",
+   "status_searched": "rdbActive"
+  },
   "SALVATORE MAGNONE": null,
   "SAME": {
    "address": "218 KENYON AVENUE SOUTH KINGSTOWN, RI  02879  USA",
@@ -3586,6 +3819,7 @@
    "status_searched": "rdbActive"
   },
   "SCOTT ACETO AND RICHARD BACCARI II": null,
+  "SCRUBADUB AUTO CAR WASH CENTERS": null,
   "SEAN HARRINGTON": null,
   "SEAVIEW REALTY, LLC": {
    "address": "62 SEAVIEW AVENUE CRANSTON, RI  02905  USA",
@@ -3606,6 +3840,7 @@
    "name": "Shanti Hospitality, Inc.",
    "status_searched": "rdbActive"
   },
+  "SHAWN GILHEENEY": null,
   "SHE": {
    "address": "P.O. BOX 354 BLOCK ISLAND, RI  02807  USA",
    "fein": "000137482",
@@ -3628,6 +3863,7 @@
   "SIMER SODHI": null,
   "SMART PRINCETON HOTEL GROUP LLC": null,
   "SMART PRINCETON HOTEL GROUP LLC - \"F ~ ~ (MPF\\ '~ 'T)__": null,
+  "SMS PARTNERS LLC": null,
   "SOLOMON MORADJIAN": null,
   "SOUTHEASTERN HOLDING, LLC": {
    "address": "329 SOUTH STREET SOMERSET, MA  02726  USA",
@@ -3695,6 +3931,7 @@
    "name": "S & W Appliance Repair, Inc.",
    "status_searched": "rdbActive"
   },
+  "TAUANE ALVES": null,
   "TEATRO GROUP LLC": {
    "address": "679 VALLEY STREET PROVIDENCE, RI  02908  USA",
    "fein": "001725870",
@@ -3714,7 +3951,25 @@
    "status_searched": "rdbActive"
   },
   "THE KINGDOM TRUST COMPANY": null,
+  "THE NARRAGANSETT ELECTRIC COMPANY": {
+   "address": "280 MELROSE STREET PROVIDENCE, RI  02907  USA",
+   "fein": "000078582",
+   "inactive": "",
+   "match": "exact",
+   "naics": "",
+   "name": "The Narragansett Electric Company",
+   "status_searched": "rdbActive"
+  },
   "THE RUSSO FAMILY IRREVOCABLE TRUST": null,
+  "THE THOMAS BECKET FOUNDATION": {
+   "address": "51 PROSPECT ST. PROVIDENCE, RI  02906  USA",
+   "fein": "000027151",
+   "inactive": "",
+   "match": "near-miss",
+   "naics": "813110",
+   "name": "Thomas Becket Foundation",
+   "status_searched": "rdbActive"
+  },
   "THOMAS MORGAN": null,
   "TOBEY STREET LLC": {
    "address": "244 WEYBOSSET STREET PROVIDENCE, RI  02903  USA",
@@ -3746,6 +4001,15 @@
    "name": "Two Cousins LLC",
    "status_searched": "rdbActive"
   },
+  "UNISON WEST FOUNTAIN LLC": {
+   "address": "101 ACCORD PARK DRIVE SUITE 205 NORWELL, MA  02061  USA",
+   "fein": "001746094",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531390",
+   "name": "Unison West Fountain, LLC",
+   "status_searched": "rdbActive"
+  },
   "VICIOSO HOMES LLC": {
    "address": "99 DE PASQUALE AVENUE PROVIDENCE, RI  02903  USA",
    "fein": "001703589",
@@ -3756,6 +4020,7 @@
    "status_searched": "rdbActive"
   },
   "VITALITY LAND HOLDINGS LLC AND GFM REALTY LLC": null,
+  "WALDEMAR URIZAR": null,
   "WALTER BRONHARD": null,
   "WEST BAY, LLC": {
    "address": "1414 ATWOOD AVENUE JOHNSTON, RI  02919  USA",
@@ -3775,6 +4040,15 @@
    "name": "West Broadway Neighborhood Association",
    "status_searched": "rdbInactive"
   },
+  "WEST SHORE COFFEE BAR": {
+   "address": "2291 WEST SHORE ROAD WARWICK, RI  02889  USA",
+   "fein": "001674700",
+   "inactive": "Revoked Entity",
+   "match": "exact",
+   "naics": "722410",
+   "name": "West Shore Coffee Bar LLC",
+   "status_searched": "rdbInactive"
+  },
   "WHEELER SCHOOL": {
    "address": "216 HOPE STREET PROVIDENCE, RI  02906  USA",
    "fein": "000030155",
@@ -3786,6 +4060,7 @@
   },
   "WHISPER INVESTMENTS LLC": null,
   "WILBEL ABREU": null,
+  "WILBER PENA": null,
   "WINWARD VETERINARY HOSPITAL, LLC": null,
   "WOOD PARTNERS": null,
   "WW HOLDINGS LLC": {
@@ -3797,6 +4072,7 @@
    "name": "WW Holdings LLC",
    "status_searched": "rdbActive"
   },
+  "YANET SUERO": null,
   "YWCA RHODE ISLAND": {
    "address": "514 BLACKSTONE STREET WOONSOCKET, RI  02895  USA",
    "fein": "000030749",
@@ -4001,6 +4277,21 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "ALEXANDRIA REALTY, LLC": {
+   "applicant": "ALEXANDRIA REALTY, LLC",
+   "confidence": "self",
+   "developer": "Alexandria Realty, LLC",
+   "evidence": {
+    "entity": {
+     "address": "87 CENTER OF NEW ENGLAND BOULEVARD BOX 9 COVENTRY, RI  02816  USA",
+     "id": "001713208",
+     "match": "exact",
+     "naics": "531390",
+     "name": "ALEXANDRIA REALTY, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
   "ALFRED SLINEY": {
    "applicant": "Alfred Sliney",
    "confidence": null,
@@ -4030,6 +4321,20 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "ANA CRISTINA PEREZ": {
+   "applicant": "ANA CRISTINA PEREZ",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "AND CALISE DEVELOPMENT, LLC": {
+   "applicant": "AND CALISE DEVELOPMENT, LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "AR BUILDING COMPANY": {
    "applicant": "AR Building Company",
    "confidence": null,
@@ -4044,6 +4349,13 @@
     }
    },
    "reason": "no exact name match in the registry (closest: A. R. BUILDING COMPANY, INC. (A/K/A A. R. BUILDING COMPANY)) \u2014 attributing to a similarly-named entity would be a guess"
+  },
+  "AREF SHEHADEH": {
+   "applicant": "AREF SHEHADEH",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
   },
   "ASIAN PROPERTIES LLC": {
    "applicant": "Asian Properties LLC",
@@ -4069,6 +4381,13 @@
   },
   "ATTORNEY SHEKARCHI": {
    "applicant": "Attorney Shekarchi",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "AYODEJI TADE": {
+   "applicant": "AYODEJI TADE",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -4140,6 +4459,28 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "BISHOP JEFFREY WILLIAMS": {
+   "applicant": "BISHOP JEFFREY WILLIAMS",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "BLUE DOG CAPITAL PARTNERS, LLC": {
+   "applicant": "BLUE DOG CAPITAL PARTNERS, LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "entity": {
+     "address": "1 CUSTOM HOUSE STREET SUITE 4 PROVIDENCE, RI  02903  USA",
+     "id": "000119350",
+     "match": "near-miss",
+     "naics": "531390",
+     "name": "BLUEDOG CAPITAL PARTNERS, LLC"
+    }
+   },
+   "reason": "no exact name match in the registry (closest: BLUEDOG CAPITAL PARTNERS, LLC) \u2014 attributing to a similarly-named entity would be a guess"
+  },
   "BLUE MOON PROPERTIES LLC": {
    "applicant": "Blue Moon Properties LLC",
    "confidence": "self",
@@ -4169,6 +4510,21 @@
     }
    },
    "reason": "no exact name match in the registry (closest: BLUEDOG CAPITAL PARTNERS, LLC) \u2014 attributing to a similarly-named entity would be a guess"
+  },
+  "BOSSET, LLC": {
+   "applicant": "BOSSET, LLC",
+   "confidence": "self",
+   "developer": "Bosset LLC",
+   "evidence": {
+    "entity": {
+     "address": "124 SNOW STREET PROVIDENCE, RI  02903  USA",
+     "id": "001787381",
+     "match": "exact",
+     "naics": "722511",
+     "name": "BOSSET LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "BOYSIE FORTEZ": {
    "applicant": "Boysie Fortez",
@@ -4242,6 +4598,36 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "CENTRO DE LIBERACION Y AVIVAMIENTO": {
+   "applicant": "CENTRO DE LIBERACION Y AVIVAMIENTO",
+   "confidence": "self",
+   "developer": "Centro de Liberacion y Avivamiento",
+   "evidence": {
+    "entity": {
+     "address": "9 PORTLAND STREET PROVIDENCE, RI  02907  USA",
+     "id": "000795332",
+     "match": "exact",
+     "naics": "813110",
+     "name": "Centro de Liberacion y Avivamiento"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "CHARLESGATE NURSING CENTER": {
+   "applicant": "CHARLESGATE NURSING CENTER",
+   "confidence": "self",
+   "developer": "Charlesgate Nursing Center",
+   "evidence": {
+    "entity": {
+     "address": "C/O DAVENPORT ASSOCIATES, LTD. 50 RANDALL STREET PROVIDENCE, RI  02904  USA",
+     "id": "000049120",
+     "match": "exact",
+     "naics": "623000",
+     "name": "CHARLESGATE NURSING CENTER"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
   "CHRISTOPHER NORRIS LEBLANC AND JOHN P DUFFIN": {
    "applicant": "Christopher Norris Leblanc and John P Duffin",
    "confidence": null,
@@ -4258,6 +4644,13 @@
   },
   "CITY OF WARWICK": {
    "applicant": "City of Warwick",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "CLAIRE MONTECALVO": {
+   "applicant": "CLAIRE MONTECALVO",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -4449,8 +4842,22 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "DENORAH REYNOSO": {
+   "applicant": "DENORAH REYNOSO",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "DEONTE RASHAD DUNN": {
    "applicant": "Deonte Rashad Dunn",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "DERLYN LOPEZ": {
+   "applicant": "DERLYN LOPEZ",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -4493,8 +4900,45 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "DRIDRIGAL PROPERTIES LLC": {
+   "applicant": "Dridrigal Properties LLC",
+   "confidence": "self",
+   "developer": "Dridrigal Properties, LLC",
+   "evidence": {
+    "entity": {
+     "address": "643 MAIN STREET PAWTUCKET, RI  02860  USA",
+     "id": "000790018",
+     "match": "exact",
+     "naics": "531110",
+     "name": "DRIDRIGAL PROPERTIES, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "DUNKIN DONUTS": {
+   "applicant": "DUNKIN DONUTS",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "entity": {
+     "address": "2665 S BAYSHORE DRIVE SUITE 101 MIAMI, FL  33133  USA",
+     "id": "001762040",
+     "match": "near-miss",
+     "naics": "722511",
+     "name": "Dunkin Donuts Express"
+    }
+   },
+   "reason": "no exact name match in the registry (closest: Dunkin Donuts Express) \u2014 attributing to a similarly-named entity would be a guess"
+  },
   "DURAN REAL ESTATE INVESTMENTS LLC": {
    "applicant": "Duran Real Estate Investments LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "DUSTIN DEZUBE": {
+   "applicant": "DUSTIN DEZUBE",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -4522,8 +4966,30 @@
    },
    "reason": "no exact name match in the registry (closest: E2000 REALTY, LLC) \u2014 attributing to a similarly-named entity would be a guess"
   },
+  "EDUCATIONAL CENTER OF ARTS & SCIENCE, INC": {
+   "applicant": "EDUCATIONAL CENTER OF ARTS & SCIENCE, INC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "entity": {
+     "address": "679 VALLEY STREET PROVIDENCE, RI  02908  USA",
+     "id": "000095444",
+     "match": "near-miss",
+     "naics": "711111",
+     "name": "Educational Center of Arts and Sciences (E.C.A.S.)"
+    }
+   },
+   "reason": "no exact name match in the registry (closest: Educational Center of Arts and Sciences (E.C.A.S.)) \u2014 attributing to a similarly-named entity would be a guess"
+  },
   "ELEVATOR PROPERTIES INC AND SLIM INVESTMENTS LLC": {
    "applicant": "Elevator Properties Inc and Slim Investments LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "ELIO OLIVERO": {
+   "applicant": "ELIO OLIVERO",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -4543,6 +5009,21 @@
     }
    },
    "reason": "no exact name match in the registry (closest: Excel Academy Rhode Island) \u2014 attributing to a similarly-named entity would be a guess"
+  },
+  "EXETER PROPERTY GROUP": {
+   "applicant": "Exeter Property Group",
+   "confidence": "self",
+   "developer": "Exeter Property Group, LLC",
+   "evidence": {
+    "entity": {
+     "address": "363 MAIN STREET SUITE 3 WAKEFIELD, RI  02879  USA",
+     "id": "000769034",
+     "match": "exact",
+     "naics": "531110",
+     "name": "EXETER PROPERTY GROUP, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "EXPO REALTY LLC": {
    "applicant": "Expo Realty LLC",
@@ -4596,6 +5077,21 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "FORCE REALTY, LLC": {
+   "applicant": "FORCE REALTY, LLC",
+   "confidence": "self",
+   "developer": "Force Realty, LLC",
+   "evidence": {
+    "entity": {
+     "address": "419 ALBION ROAD UNIT 19 LINCOLN, RI  02865  USA",
+     "id": "000096023",
+     "match": "exact",
+     "naics": "531312",
+     "name": "FORCE REALTY, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
   "FOUNDATION FOR REPERTORY THEATRE OF RI INC": {
    "applicant": "Foundation for Repertory Theatre of RI Inc",
    "confidence": null,
@@ -4617,6 +5113,13 @@
     }
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "FRANCISCA POLANCO NAVEDO": {
+   "applicant": "FRANCISCA POLANCO NAVEDO",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
   },
   "FRANCISCO CRUZ": {
    "applicant": "Francisco Cruz",
@@ -4653,6 +5156,13 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "GILKANIA BENITEZ": {
+   "applicant": "GILKANIA BENITEZ",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "GILS REAL ESTATE INVESTMENT LLC": {
    "applicant": "Gils Real Estate Investment LLC",
    "confidence": null,
@@ -4667,6 +5177,36 @@
     }
    },
    "reason": "no exact name match in the registry (closest: Gil's Real Estate Investment, LLC) \u2014 attributing to a similarly-named entity would be a guess"
+  },
+  "GREEN DEVELOPMENT, LLC": {
+   "applicant": "GREEN DEVELOPMENT, LLC",
+   "confidence": "self",
+   "developer": "Green Development Company, LLC",
+   "evidence": {
+    "entity": {
+     "address": "2000 CHAPEL VIEW BLVD. SUITE 500 CRANSTON, RI  02920  USA",
+     "id": "000575201",
+     "match": "exact",
+     "naics": "221115",
+     "name": "Green Development Company, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "GREEN RHODE, LLC": {
+   "applicant": "GREEN RHODE, LLC",
+   "confidence": "self",
+   "developer": "Green Rhode, LLC",
+   "evidence": {
+    "entity": {
+     "address": "469 ANGELL STREET SUITE 202 PROVIDENCE, RI  02906  USA",
+     "id": "001801203",
+     "match": "exact",
+     "naics": "459991",
+     "name": "GREEN RHODE, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "GREENLIGHT INVESTMENTS LLC": {
    "applicant": "Greenlight Investments LLC",
@@ -4840,6 +5380,21 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "IMPERIAL INVESTMENTS, INC": {
+   "applicant": "IMPERIAL INVESTMENTS, INC",
+   "confidence": "self",
+   "developer": "Imperial Investments, Inc.",
+   "evidence": {
+    "entity": {
+     "address": "5 DRUMMOND DRIVE LINCOLN, RI  02865  USA",
+     "id": "000487821",
+     "match": "exact",
+     "naics": "531390",
+     "name": "IMPERIAL INVESTMENTS, INC."
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
   "INTERNATIONAL PROPERTY INVESTMENT AND MANAGEMENT LLC": {
    "applicant": "International Property Investment and Management LLC",
    "confidence": null,
@@ -4913,6 +5468,13 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "JESUS R. ACOSTA": {
+   "applicant": "JESUS R. ACOSTA",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "JITENDER BEHL": {
    "applicant": "Jitender Behl",
    "confidence": null,
@@ -4956,6 +5518,13 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "JOSE AMADO DURAM CASTILLO": {
+   "applicant": "JOSE AMADO DURAM CASTILLO",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "JOSE SANCHEZ": {
    "applicant": "Jose Sanchez",
    "confidence": null,
@@ -4977,6 +5546,13 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "JP MORGAN CHASE BANK": {
+   "applicant": "JP MORGAN CHASE BANK",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "JPMW, LLC": {
    "applicant": "JPMW, LLC",
    "confidence": "self",
@@ -4988,6 +5564,21 @@
      "match": "exact",
      "naics": "531120",
      "name": "JPMW, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "JSC MANAGEMENT GROUP": {
+   "applicant": "JSC MANAGEMENT GROUP",
+   "confidence": "self",
+   "developer": "JSC Management Group, LLC",
+   "evidence": {
+    "entity": {
+     "address": "16 LYNWOOD DRIVE LYNDONVILLE, NY  14098  USA",
+     "id": "001705683",
+     "match": "exact",
+     "naics": "722513",
+     "name": "JSC Management Group, LLC"
     }
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
@@ -5110,6 +5701,13 @@
    },
    "reason": "no exact name match in the registry (closest: Keough Construction Management) \u2014 attributing to a similarly-named entity would be a guess"
   },
+  "KEVIN HAWES": {
+   "applicant": "KEVIN HAWES",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "KEVIN MURPHY": {
    "applicant": "Kevin Murphy",
    "confidence": null,
@@ -5190,6 +5788,13 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "LARISSA SAYIG": {
+   "applicant": "LARISSA SAYIG",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "LAWRENCE AND ANITA DELBONIS": {
    "applicant": "Lawrence and Anita Delbonis",
    "confidence": null,
@@ -5252,6 +5857,21 @@
      "match": "exact",
      "naics": "236118",
      "name": "Lofty Ambitions LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "LOS ANDES BRASAS, LLC": {
+   "applicant": "LOS ANDES BRASAS, LLC",
+   "confidence": "self",
+   "developer": "LOS Andes Brasas LLC",
+   "evidence": {
+    "entity": {
+     "address": "712 ADMIRAL STREET PROVIDENCE, RI  02908  USA",
+     "id": "001734096",
+     "match": "exact",
+     "naics": "722513",
+     "name": "LOS ANDES BRASAS LLC"
     }
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
@@ -5328,6 +5948,13 @@
     }
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "MARIA GIRON": {
+   "applicant": "MARIA GIRON",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
   },
   "MARIA HICIANO": {
    "applicant": "Maria Hiciano",
@@ -5431,6 +6058,13 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "MICHAEL SALVATORE": {
+   "applicant": "MICHAEL SALVATORE",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "MINERAL ENTERPRISES, INC.": {
    "applicant": "Mineral Enterprises, Inc.",
    "confidence": "self",
@@ -5452,6 +6086,21 @@
    "developer": null,
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
+  },
+  "MONIKER BREWING, LLC": {
+   "applicant": "MONIKER BREWING, LLC",
+   "confidence": "self",
+   "developer": "Moniker Brewing, LLC",
+   "evidence": {
+    "entity": {
+     "address": "432 WEST FOUNTAIN STREET PROVIDENCE, RI  02903  USA",
+     "id": "001693854",
+     "match": "exact",
+     "naics": "722410",
+     "name": "MONIKER BREWING, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "MONTESSORI COMMUNITY SCHOOL OF RHODE ISLAND": {
    "applicant": "Montessori Community School of Rhode Island",
@@ -5534,6 +6183,28 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "NAVARRETE TIRE SHOP & REPAIR, LLC": {
+   "applicant": "NAVARRETE TIRE SHOP & REPAIR, LLC",
+   "confidence": "self",
+   "developer": "Navarrete TIRE SHOP & Repair, LLC",
+   "evidence": {
+    "entity": {
+     "address": "151 MANTON AVE PROVIDENCE, RI  02909  USA",
+     "id": "000788552",
+     "match": "exact",
+     "naics": "326212",
+     "name": "NAVARRETE TIRE SHOP & REPAIR, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "NELLIE FRANCIS": {
+   "applicant": "NELLIE FRANCIS",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "NICHOLAS VARRAS": {
    "applicant": "Nicholas Varras",
    "confidence": null,
@@ -5567,6 +6238,21 @@
      "match": "exact",
      "naics": "221115",
      "name": "North East Offshore, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "NORTH MERIDIAN, LLC": {
+   "applicant": "NORTH MERIDIAN, LLC",
+   "confidence": "self",
+   "developer": "North Meridian LLC",
+   "evidence": {
+    "entity": {
+     "address": "680 ADMIRAL STREET PROVIDENCE, RI  02908  USA",
+     "id": "001801010",
+     "match": "exact",
+     "naics": "445298",
+     "name": "North Meridian LLC"
     }
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
@@ -5631,6 +6317,20 @@
    },
    "reason": "no exact name match in the registry (closest: The Omni Group) \u2014 attributing to a similarly-named entity would be a guess"
   },
+  "ORLANDO CORREIA": {
+   "applicant": "ORLANDO CORREIA",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "OZREN T. BURTAK": {
+   "applicant": "OZREN T. BURTAK",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "P&P REALTY AND HSM INVESTMENTS LLC": {
    "applicant": "P&P Realty and HSM Investments LLC",
    "confidence": null,
@@ -5644,6 +6344,21 @@
    "developer": null,
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
+  },
+  "PALLIATECH RI, LLC": {
+   "applicant": "PALLIATECH RI, LLC",
+   "confidence": "self",
+   "developer": "PalliaTech RI, LLC",
+   "evidence": {
+    "entity": {
+     "address": "301 EDGEWATER PLACE, SUITE 405 WAKEFIELD, MA  01880  USA",
+     "id": "001672729",
+     "match": "exact",
+     "naics": "453998",
+     "name": "PalliaTech RI, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "PARTNERSHIP C/O PRESERVATION OF AFFORDABLE HOUSING": {
    "applicant": "Partnership c/o Preservation of Affordable Housing",
@@ -5748,6 +6463,21 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "PRI XIV, LP": {
+   "applicant": "PRI XIV, LP",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "entity": {
+     "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+     "id": "000150273",
+     "match": "near-miss",
+     "naics": "531310",
+     "name": "PRI XIV, L.P."
+    }
+   },
+   "reason": "no exact name match in the registry (closest: PRI XIV, L.P.) \u2014 attributing to a similarly-named entity would be a guess"
+  },
   "PROVIDENCE COMMUNITY HEALTH CENTERS": {
    "applicant": "Providence Community Health Centers",
    "confidence": null,
@@ -5776,6 +6506,21 @@
    "developer": null,
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
+  },
+  "PROVIDENCE PUBLIC LIBRARY": {
+   "applicant": "PROVIDENCE PUBLIC LIBRARY",
+   "confidence": "self",
+   "developer": "Providence Public Library",
+   "evidence": {
+    "entity": {
+     "address": "150 EMPIRE STREET PROVIDENCE, RI  02903  USA",
+     "id": "000028685",
+     "match": "exact",
+     "naics": "519120",
+     "name": "Providence Public Library"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "PROVIDENCE REDEVELOPMENT AGENCY": {
    "applicant": "Providence Redevelopment Agency",
@@ -6019,12 +6764,70 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "S FAMILY RESTAURANT, LLC": {
+   "applicant": "S FAMILY RESTAURANT, LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "S HOUSE, INC": {
+   "applicant": "S HOUSE, INC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "S OPTICAL": {
+   "applicant": "S OPTICAL",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "S REALTY ASSOCIATES": {
+   "applicant": "S REALTY ASSOCIATES",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "S USA, LLC": {
+   "applicant": "S USA, LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "entity": {
+     "address": "15303 VENTURA BLVD. SUITE 850 SHERMAN OAKS, CA  91403  USA",
+     "id": "001750749",
+     "match": "near-miss",
+     "naics": "522390",
+     "name": "SUSA Holdings, LLC"
+    }
+   },
+   "reason": "no exact name match in the registry (closest: SUSA Holdings, LLC) \u2014 attributing to a similarly-named entity would be a guess"
+  },
   "SAL COMPAGNONE": {
    "applicant": "Sal Compagnone",
    "confidence": null,
    "developer": null,
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
+  },
+  "SALEM GOSPEL MISSION INTERNATIONAL": {
+   "applicant": "SALEM GOSPEL MISSION INTERNATIONAL",
+   "confidence": "self",
+   "developer": "Salem Gospel Mission International",
+   "evidence": {
+    "entity": {
+     "address": "PO BOX 72788 PROVIDENCE, RI  02907  USA",
+     "id": "000027268",
+     "match": "exact",
+     "naics": "813110",
+     "name": "SALEM GOSPEL MISSION INTERNATIONAL"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "SALVATORE MAGNONE": {
    "applicant": "Salvatore Magnone",
@@ -6047,6 +6850,13 @@
     }
    },
    "reason": "no exact name match in the registry (closest: Same Day Roofs) \u2014 attributing to a similarly-named entity would be a guess"
+  },
+  "SCRUBADUB AUTO CAR WASH CENTERS": {
+   "applicant": "SCRUBADUB AUTO CAR WASH CENTERS",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
   },
   "SEAN HARRINGTON": {
    "applicant": "Sean Harrington",
@@ -6091,6 +6901,13 @@
     }
    },
    "reason": "registry match Shanti Hospitality, Inc. is a CORP but the applicant is a LLC \u2014 a different legal entity, not a match"
+  },
+  "SHAWN GILHEENEY": {
+   "applicant": "SHAWN GILHEENEY",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
   },
   "SHE": {
    "applicant": "She",
@@ -6145,6 +6962,13 @@
   },
   "SMART PRINCETON HOTEL GROUP LLC - \"F ~ ~ (MPF\\ '~ 'T)__": {
    "applicant": "Smart Princeton Hotel Group LLC - \"f ~ ~ (Mpf\\ '~ 't)__",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "SMS PARTNERS LLC": {
+   "applicant": "SMS PARTNERS LLC",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -6253,6 +7077,13 @@
    },
    "reason": "no exact name match in the registry (closest: S & W Appliance Repair, Inc.) \u2014 attributing to a similarly-named entity would be a guess"
   },
+  "TAUANE ALVES": {
+   "applicant": "TAUANE ALVES",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "TEATRO GROUP LLC": {
    "applicant": "Teatro Group LLC",
    "confidence": "self",
@@ -6290,12 +7121,42 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "THE NARRAGANSETT ELECTRIC COMPANY": {
+   "applicant": "THE NARRAGANSETT ELECTRIC COMPANY",
+   "confidence": "self",
+   "developer": "The Narragansett Electric Company",
+   "evidence": {
+    "entity": {
+     "address": "280 MELROSE STREET PROVIDENCE, RI  02907  USA",
+     "id": "000078582",
+     "match": "exact",
+     "naics": "",
+     "name": "The Narragansett Electric Company"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
   "THE RUSSO FAMILY IRREVOCABLE TRUST": {
    "applicant": "The Russo Family Irrevocable Trust",
    "confidence": null,
    "developer": null,
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
+  },
+  "THE THOMAS BECKET FOUNDATION": {
+   "applicant": "THE THOMAS BECKET FOUNDATION",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "entity": {
+     "address": "51 PROSPECT ST. PROVIDENCE, RI  02906  USA",
+     "id": "000027151",
+     "match": "near-miss",
+     "naics": "813110",
+     "name": "Thomas Becket Foundation"
+    }
+   },
+   "reason": "no exact name match in the registry (closest: Thomas Becket Foundation) \u2014 attributing to a similarly-named entity would be a guess"
   },
   "THOMAS MORGAN": {
    "applicant": "Thomas Morgan",
@@ -6355,6 +7216,21 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "UNISON WEST FOUNTAIN LLC": {
+   "applicant": "UNISON WEST FOUNTAIN LLC",
+   "confidence": "self",
+   "developer": "Unison West Fountain, LLC",
+   "evidence": {
+    "entity": {
+     "address": "101 ACCORD PARK DRIVE SUITE 205 NORWELL, MA  02061  USA",
+     "id": "001746094",
+     "match": "exact",
+     "naics": "531390",
+     "name": "Unison West Fountain, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
   "VICIOSO HOMES LLC": {
    "applicant": "Vicioso Homes LLC",
    "confidence": "self",
@@ -6372,6 +7248,13 @@
   },
   "VITALITY LAND HOLDINGS LLC AND GFM REALTY LLC": {
    "applicant": "Vitality Land Holdings LLC and GFM Realty LLC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "WALDEMAR URIZAR": {
+   "applicant": "WALDEMAR URIZAR",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -6395,6 +7278,21 @@
      "match": "exact",
      "naics": "",
      "name": "West Broadway Neighborhood Association"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "WEST SHORE COFFEE BAR": {
+   "applicant": "WEST SHORE COFFEE BAR",
+   "confidence": "self",
+   "developer": "West Shore Coffee Bar LLC",
+   "evidence": {
+    "entity": {
+     "address": "2291 WEST SHORE ROAD WARWICK, RI  02889  USA",
+     "id": "001674700",
+     "match": "exact",
+     "naics": "722410",
+     "name": "West Shore Coffee Bar LLC"
     }
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
@@ -6428,6 +7326,13 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "WILBER PENA": {
+   "applicant": "WILBER PENA",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "WINWARD VETERINARY HOSPITAL, LLC": {
    "applicant": "Winward Veterinary Hospital, LLC",
    "confidence": null,
@@ -6437,6 +7342,13 @@
   },
   "WOOD PARTNERS": {
    "applicant": "Wood Partners",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "YANET SUERO": {
+   "applicant": "YANET SUERO",
    "confidence": null,
    "developer": null,
    "evidence": {},

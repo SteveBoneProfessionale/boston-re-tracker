@@ -14,6 +14,10 @@ Rules enforced in code, not just in the data file:
 Conflicts (source disagrees with the filing) are collected and returned for
 the cleanup report rather than written.
 
+ORDER MATTERS: run this AFTER scraper/ri_apply_developers.py. The registry
+pass clears a developer whose applicant it cannot resolve, so running it second
+would wipe every web-researched name written here.
+
     python scraper/ri_apply_web_research.py --dry-run
 """
 
