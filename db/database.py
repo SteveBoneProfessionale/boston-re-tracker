@@ -62,6 +62,7 @@ def init_db():
     _add_column_if_missing("projects", "stage_confirmed", "VARCHAR")
     # Developer provenance: how the name was resolved, and every source URL
     _add_column_if_missing("projects", "developer_resolution_method", "VARCHAR")
+    _add_column_if_missing("projects", "applicant_source", "VARCHAR")
     _add_column_if_missing("projects", "developer_sources", "TEXT")
     # Rhode Island parcel identity and extraction fields
     _add_column_if_missing("projects", "assessor_plat", "VARCHAR")

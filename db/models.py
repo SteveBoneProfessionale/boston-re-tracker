@@ -75,6 +75,9 @@ class Project(Base):
     #   human_set           entered or corrected by hand
     #   None                unresolved -- developer must also be null
     developer_resolution_method = Column(String)
+    # 'web' when the applicant name came from research rather than the filing,
+    # so a recovered name never reads as though the agenda stated it.
+    applicant_source = Column(String)
     # JSON list of every corroborating source URL, not just the first, so a
     # web-corroborated name can be clicked through and checked.
     developer_sources = Column(Text)

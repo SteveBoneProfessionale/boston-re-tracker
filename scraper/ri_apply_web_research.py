@@ -56,7 +56,7 @@ def run(dry_run: bool = False) -> dict:
     init_db()
     data = load()
     session = get_session()
-    stats = {"dev_set": 0, "dev_downgraded": 0, "fields_set": 0,
+    stats = {"dev_set": 0, "dev_downgraded": 0, "fields_set": 0, "applicant_set": 0,
              "conflicts": 0, "not_found": 0}
     conflicts = []
     try:
@@ -89,6 +89,17 @@ def run(dry_run: bool = False) -> dict:
                     p.developer_resolution_method = method
                     p.developer_sources = json.dumps(rec.get("sources", []))
                 stats["dev_set"] += 1
+
+            # ── applicant recovered from the web ──
+            # Only when the agenda named nobody. A web-sourced applicant is
+            # still a null-fill, and it is marked so it never reads as though
+            # the filing stated it.
+            appl = rec.get("applicant_entity")
+            if appl and not (p.applicant_entity or "").strip():
+                if not dry_run:
+                    p.applicant_entity = appl
+                    p.applicant_source = "web"
+                stats["applicant_set"] += 1
 
             # ── other fields, nulls only ──
             for f, v in (rec.get("fields") or {}).items():

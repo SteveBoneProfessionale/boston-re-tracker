@@ -1,0 +1,222 @@
+[
+ {
+  "id": 711,
+  "city": "Providence",
+  "addr": "16-42 Somerset Street",
+  "gsf": 53582,
+  "u": 54,
+  "stage": "Rezoning",
+  "asset": "Residential",
+  "last": "2020-10-20",
+  "desc": "Referral 3480 \u2013 16-42 Somerset Street, 17-27 Portland Street and 34 Hayward Street Petitioners: Omni Development Corporation and Wingate Companies The"
+ },
+ {
+  "id": 527,
+  "city": "Cranston",
+  "addr": "1499 Hillside Road",
+  "gsf": 23500,
+  "u": null,
+  "stage": "Preliminary Plan",
+  "asset": null,
+  "last": "2025-11-19",
+  "desc": "To construct a 23,500 +/- SF commercial building for multiple"
+ },
+ {
+  "id": 833,
+  "city": "Cranston",
+  "addr": "27 Hemlock Avenue",
+  "gsf": 19319,
+  "u": 64,
+  "stage": null,
+  "asset": "Mixed-Use",
+  "last": "2025-02-12",
+  "desc": "The Board that the following goals, policies, and action items outlined in the Comprehensive Plan pertaining to commercial (re)development support the"
+ },
+ {
+  "id": 526,
+  "city": "Cranston",
+  "addr": "31 Calder Street",
+  "gsf": 14400,
+  "u": 12,
+  "stage": "Pre-application Conference",
+  "asset": "Mixed-Use",
+  "last": "2026-04-01",
+  "desc": "\u201cCalder Street Commercial Condominiums\u201d PUBLIC INFORMATIONAL (no vote taken) Minor Land Development \u2013 Pre-Application Construction of 14,400 sf (12 un"
+ },
+ {
+  "id": 510,
+  "city": "Cranston",
+  "addr": "44 Village Avenue",
+  "gsf": 12000,
+  "u": 1,
+  "stage": "Preliminary Plan",
+  "asset": null,
+  "last": "2026-06-02",
+  "desc": "Preliminary Plan Approval and Variance Approval"
+ },
+ {
+  "id": 850,
+  "city": "Warwick",
+  "addr": "555 Greenwich Ave",
+  "gsf": 5500,
+  "u": null,
+  "stage": "Special Use Permit",
+  "asset": "Mixed-Use",
+  "last": "2021-06-08",
+  "desc": "Joseph Shekarchi, Esq. was present and representing the petitioners. Daniel Geagan from the Planning Department read the recommendations into the reco"
+ },
+ {
+  "id": 764,
+  "city": "Providence",
+  "addr": "221 Academy Ave",
+  "gsf": 1725,
+  "u": null,
+  "stage": "Special Use Permit",
+  "asset": "Mixed-Use",
+  "last": "2025-10-08",
+  "desc": "JESUS R. ACOSTA (Applicant/Lessee) and R A REALTY (Owner): 221 Academy Ave, Plat 65, Lot 446, located in a C-1 Neighborhood Commercial and R-3 Residen"
+ },
+ {
+  "id": 549,
+  "city": "Newport",
+  "addr": "102-108 Girard Avenue",
+  "gsf": 1400,
+  "u": 4,
+  "stage": "Special Use Permit",
+  "asset": "Residential",
+  "last": "2025-12-01",
+  "desc": "102-108 Girard Avenue, TAP 3, Lot 11 Application of NRI 104-108 Girard Partnership to construct a 1,400 sq. ft. building addition containing 4 dwellin"
+ },
+ {
+  "id": 844,
+  "city": "Warwick",
+  "addr": "1850 Post Road",
+  "gsf": 1100,
+  "u": 238,
+  "stage": "Demolition",
+  "asset": "Residential",
+  "last": "2022-04-12",
+  "desc": "Joseph Shekarchi, Esq. was present and representing the petitioners. Attorney Shekarchi stated the petitioners are proposing to demolish the existing "
+ },
+ {
+  "id": 770,
+  "city": "Providence",
+  "addr": "77 Union Ave",
+  "gsf": 317,
+  "u": null,
+  "stage": "Special Use Permit",
+  "asset": "Mixed-Use",
+  "last": "2024-07-10",
+  "desc": "JOSE AMADO DURAM CASTILLO (Applicant)and DURAN\u2019S ENTERPRISE LLC (Owner): 77 Union Ave, Plat 37, Lot 479, located in an R-3 Residential District. Appli"
+ },
+ {
+  "id": 538,
+  "city": "Pawtucket",
+  "addr": "282 East Avenue",
+  "gsf": 5,
+  "u": null,
+  "stage": "Master Plan",
+  "asset": "Residential",
+  "last": "2025-12-03",
+  "desc": "Unified Development Review, Master Plan Review | 282 East Avenue (AP 54 Lots 885) | Dridrigal Properties LLC (282 East Ave.) seeks master plan approva"
+ },
+ {
+  "id": 751,
+  "city": "Providence",
+  "addr": "125 Clifford Street",
+  "gsf": null,
+  "u": 249,
+  "stage": "Pre-application Conference",
+  "asset": "Mixed-Use",
+  "last": "2019-10-07",
+  "desc": "DRC Application No. 19.32: 125 Clifford Street (I-195 Redevelopment District Parcel 28) Proposal by EM 28 Providence, LLC to construct a new building "
+ },
+ {
+  "id": 741,
+  "city": "Providence",
+  "addr": "21 Atwells Avenue",
+  "gsf": null,
+  "u": 216,
+  "stage": "Demolition",
+  "asset": "Mixed-Use",
+  "last": "2024-05-13",
+  "desc": "Case No. 2024-08 DD-DPR: 21 Atwells Avenue - Public Hearing The subject of the hearing will be an application by PRI I, LP, Delaware Limited Partnersh"
+ },
+ {
+  "id": 848,
+  "city": "Warwick",
+  "addr": "800 Toll Gate Rd",
+  "gsf": null,
+  "u": 203,
+  "stage": null,
+  "asset": "Mixed-Use",
+  "last": "2021-11-09",
+  "desc": "Joseph Shekarchi, Esq. was present and representing the petitioners. Regular hearing of November 9, 2021 Page 2 Daniel Geagan from the Planning Depart"
+ },
+ {
+  "id": 849,
+  "city": "Warwick",
+  "addr": "2021 Page",
+  "gsf": null,
+  "u": 181,
+  "stage": null,
+  "asset": "Hotel",
+  "last": "2021-11-09",
+  "desc": "Joseph Shekarchi,Esq. was presentand representingthepetitioners. RegularhearingofNovember9, 2021 Page 2 DanielGeagan fromthePlanningDepartmentreadther"
+ },
+ {
+  "id": 504,
+  "city": "Providence",
+  "addr": "580 South Water Street",
+  "gsf": null,
+  "u": 79,
+  "stage": "Final Plan",
+  "asset": "Residential",
+  "last": "2026-06-03",
+  "desc": "DRC Application No. 19.11: 580 South Water Street (parking lot), East Side I-195 Overlay District \u2013 Public Hearing and Conceptual Design Review Propos"
+ },
+ {
+  "id": 819,
+  "city": "Providence",
+  "addr": "7 Mount Hope Ave",
+  "gsf": null,
+  "u": 24,
+  "stage": null,
+  "asset": "Institutional",
+  "last": "2018-09-17",
+  "desc": "IMPERIAL INVESTMENTS, INC (Applicant/Owner): 7 Mount Hope Ave, Plat 6, Lot 615, located in an R -2 Residential District. Application for USE & DIMENSI"
+ },
+ {
+  "id": 743,
+  "city": "Providence",
+  "addr": "151-155 Chestnut Street",
+  "gsf": null,
+  "u": 21,
+  "stage": "Demolition",
+  "asset": "Mixed-Use",
+  "last": "2023-12-11",
+  "desc": "DRC Application No. 19.36: 151-155 Chestnut Street \u2013 Public Hearing and Conceptual Design Review The subject of the hearing will be an application by "
+ },
+ {
+  "id": 533,
+  "city": "Pawtucket",
+  "addr": "404 Smithfield Avenue",
+  "gsf": null,
+  "u": null,
+  "stage": "Master Plan",
+  "asset": "Mixed-Use",
+  "last": "2026-04-21",
+  "desc": "Recommendations to the Zoning Board of Review | At this time, the Planning Commission will take a single vote to either approve or deny all Zoning | B"
+ },
+ {
+  "id": 550,
+  "city": "Newport",
+  "addr": "1 York Street",
+  "gsf": null,
+  "u": null,
+  "stage": null,
+  "asset": "Institutional",
+  "last": "2025-12-01",
+  "desc": "1 York Street & 115 Girard Avenue; TAP 5, Lots 99 & 100 Application of the Newport Housing Authority and the State of Rhode Island, Department of Educ"
+ }
+]

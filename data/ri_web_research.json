@@ -158,7 +158,11 @@
   "Cranston|1611 Hope Road": "Lake View Development, LLC appears only in the city's own meeting packet. One source, and it is the filing itself, so it adds nothing beyond the agenda.",
   "Providence|16-42 Somerset Street": "54-unit project; no reputable coverage found for this address.",
   "Newport|1 York Street": "No coverage; searches return only Newport historic-district material.",
-  "Providence|870 Westminster Street": "Omni Group confirmed by PBN, but only one qualifying domain. Applicant already names the firm, so registry_self stands rather than a downgraded web entry."
+  "Providence|870 Westminster Street": "Omni Group confirmed by PBN, but only one qualifying domain. Applicant already names the firm, so registry_self stands rather than a downgraded web entry.",
+  "Providence|21 Atwells Avenue": "Coverage found is for 386 and 434 Atwells Ave, different addresses. Rejected rather than attached.",
+  "Warwick|800 Toll Gate Rd": "The 214-unit Warwick project found is at 2119 Post Road, a different address. Rejected.",
+  "Cranston|31 Calder Street": "Only brokerage listings (Century21, RILiving, LoopNet) -- excluded sources.",
+  "Cranston|1499 Hillside Road": "Only commercial listing aggregators. No development coverage."
  },
  "Warwick|455 Toll gate Rd": {
   "developer": "Kent County Memorial Hospital",
@@ -274,6 +278,165 @@
     "url": "https://eastprovidenceri.gov/news-announcements/mayors-office/provport-executes-lease-develop-and-operate-east-providence-port",
     "address_sentence": "ProvPort executes lease to develop and operate the East Providence port project.",
     "developer_sentence": "ProvPort is the operator developing the port project."
+   }
+  ]
+ },
+ "Providence|125 Clifford Street": {
+  "developer": "EQT Exeter",
+  "method": "web_corroborated",
+  "applicant_entity": "Exeter Property Group",
+  "fields": {
+   "asset_class": "Mixed-Use"
+  },
+  "note": "Emblem 125, I-195 Parcel 28. 249 units plus 19,458 sf ground-floor retail. Our 249 units matches exactly. Completed 2022 -- stale-stage item, not written.",
+  "sources": [
+   {
+    "publisher": "I-195 Redevelopment District",
+    "domain": "195district.com",
+    "url": "https://www.195district.com/projects/emblem-125/",
+    "address_sentence": "Emblem 125 (Parcel 28) at 125 Clifford Street, a 249-unit residential building with ground-floor retail.",
+    "developer_sentence": "The developer is EQT Exeter."
+   },
+   {
+    "publisher": "Shawmut Design and Construction",
+    "domain": "shawmut.com",
+    "url": "https://www.shawmut.com/project/exeter-property-group-emblem-125",
+    "address_sentence": "Emblem 125, 125 Clifford Street, Providence.",
+    "developer_sentence": "Exeter Property Group - Emblem 125."
+   }
+  ]
+ },
+ "Providence|580 South Water Street": {
+  "developer": "Churchill & Banks",
+  "method": "web_corroborated",
+  "applicant_entity": "40 Tockwotton LLC",
+  "note": "Richard Baccari II. Our record shows 79 units; sources describe 44 proposed in 2018 and 69 as built. Unit count is a conflict, not written.",
+  "sources": [
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/five-story-building-proposed-for-fox-point-neighborhood/",
+    "address_sentence": "A building proposed for a surface parking lot near I-195 and South Water Street in Fox Point.",
+    "developer_sentence": "The project was presented by Churchill & Banks developer Richard Baccari II."
+   },
+   {
+    "publisher": "Greater City Providence",
+    "domain": "gcpvd.org",
+    "url": "http://www.gcpvd.org/2018/05/17/5-story-building-proposed-for-vacant-lot-near-the-hurricane-barrier-by-churchill-banks/",
+    "address_sentence": "5-story building proposed for vacant lot near the Hurricane Barrier at 580 South Water Street.",
+    "developer_sentence": "Proposed by Churchill & Banks, doing business as 40 Tockwotton LLC."
+   }
+  ]
+ },
+ "Providence|151-155 Chestnut Street": {
+  "developer": "Pebb Capital",
+  "method": "web_corroborated",
+  "applicant_entity": "Providence Chestnut 1, LLC",
+  "note": "Revised 5-story, 21-unit scheme. Our 21 units matches the CURRENT proposal; the 2019 12-story/131-unit version was scrapped in 2022, so the date check matters here.",
+  "sources": [
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/new-apartment-building-proposed-in-jewelry-district-of-providence/",
+    "address_sentence": "New apartment building proposed at 151-155 Chestnut Street in the Jewelry District.",
+    "developer_sentence": "Pebb Capital proposed a revised smaller development for the parcels."
+   },
+   {
+    "publisher": "GoLocalProv",
+    "domain": "golocalprov.com",
+    "url": "https://www.golocalprov.com/news/providences-newest-building-battle-heats-up-in-the-jewelry-district",
+    "address_sentence": "The building battle in the Jewelry District concerns 151-155 Chestnut Street.",
+    "developer_sentence": "Mike Corso with Providence Chestnut 1, LLC submitted the application; the developer is Pebb Capital."
+   }
+  ]
+ },
+ "Newport|102-108 Girard Avenue": {
+  "developer": "NRI 104-108 Girard Partnership",
+  "method": "web_corroborated",
+  "applicant_entity": "NRI 104-108 Girard Partnership",
+  "note": "Program matches our record exactly: a 1,400 sf addition containing 4 dwelling units. Applicant recovered from the city's own records.",
+  "sources": [
+   {
+    "publisher": "City of Newport (Zoning Board agenda)",
+    "domain": "newportri.gov",
+    "url": "https://www.newportri.gov/CityOfNewport/media/City-Hall/Boards-Commissions/Boards/Zoning%20Board%20of%20Review/Agenda%20Materials/Agenda_zbr_10-23-23.pdf",
+    "address_sentence": "102-108 Girard Avenue, Newport, R-10 Zone.",
+    "developer_sentence": "NRI 104-108 GIRARD PARTNERSHIP applied for a modification to a special use permit."
+   },
+   {
+    "publisher": "City of Newport (Planning Board minutes)",
+    "domain": "cityofnewport.granicus.com",
+    "url": "https://cityofnewport.granicus.com/MetaViewer.php?view_id=1&event_id=810&meta_id=73419",
+    "address_sentence": "102-108 Girard Avenue application before the Planning Board.",
+    "developer_sentence": "NRI 104-108 Girard Partnership applied to construct a 1,400 sq. ft. building addition containing 4 dwelling units."
+   }
+  ]
+ },
+ "Warwick|1850 Post Road": {
+  "developer": "GoodHomes Communities",
+  "method": "web_corroborated",
+  "applicant_entity": "1850 Post Road Owner LLC",
+  "fields": {
+   "asset_class": "Residential"
+  },
+  "note": "The Presley -- adaptive reuse of the former Sheraton Providence Airport hotel. Sources say 181-190 units; our record says 238. Conflict, not written.",
+  "sources": [
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/former-warwick-hotel-next-to-airport-to-be-turned-into-181-apartments/",
+    "address_sentence": "Former Warwick hotel next to the airport, 1850 Post Road, to be turned into apartments.",
+    "developer_sentence": "The conversion is being carried out by GoodHomes."
+   },
+   {
+    "publisher": "GoodHomes Communities",
+    "domain": "goodhomesco.com",
+    "url": "https://www.goodhomesco.com/featuredprojects/thepresley",
+    "address_sentence": "The Presley is a 190-unit apartment community at 1850 Post Road, Warwick, RI.",
+    "developer_sentence": "Originally built as a 207-room Sheraton, GoodHomes combined units to create studios and one-bedrooms."
+   }
+  ]
+ },
+ "Providence|16-42 Somerset Street": {
+  "developer": "Omni Development Corporation",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Residential"
+  },
+  "note": "Joseph Caffey Apartments / Jordan Caffey Townhomes, with Wingate Capital Partners. Our 54 units matches the apartment building component; the full development is 79 (54 apartments plus 25 townhomes). Built 2023 -- stale-stage item.",
+  "sources": [
+   {
+    "publisher": "RIHousing",
+    "domain": "rihousing.com",
+    "url": "https://www.rihousing.com/project/joseph-caffey-apartments-jordan-providence-caffey-townhomes/",
+    "address_sentence": "Joseph Caffey Apartments and Jordan Caffey Townhomes, 16 Somerset Street, Providence.",
+    "developer_sentence": "Developed by Omni Development Corporation and Wingate Capital Partners."
+   },
+   {
+    "publisher": "Omni Development Corporation",
+    "domain": "omnidevelopmentcorporation.org",
+    "url": "https://omnidevelopmentcorporation.org/community/joseph-caffey-apartments/",
+    "address_sentence": "Joseph Caffey Apartments, Somerset Street, Upper South Providence.",
+    "developer_sentence": "Joseph Caffey Apartments is an Omni Development Corporation community."
+   }
+  ]
+ },
+ "Pawtucket|282 East Avenue": {
+  "developer": "Dridrigal Properties LLC",
+  "method": "web_low_confidence",
+  "applicant_entity": "Dridrigal Properties LLC",
+  "fields": {
+   "residential_units": 32,
+   "parking_spaces": 56
+  },
+  "note": "LOW CONFIDENCE: one qualifying domain. Jack Galvao of Dridrigal Properties with John Docouto of Empire Builders. Our stored GSF of 5 is a bad extraction -- flagged.",
+  "sources": [
+   {
+    "publisher": "Valley Breeze",
+    "domain": "valleybreeze.com",
+    "url": "https://www.valleybreeze.com/news/commission-approves-major-mixed-use-project-on-pawtucket-s-east-avenue/article_3448c03f-325b-4368-899c-8bc0947cea3d.html",
+    "address_sentence": "The building at 282 East Avenue covers about 57,970 square feet with 32 residential units and 56 proposed parking spaces.",
+    "developer_sentence": "Applicants Jack Galvao of Dridrigal Properties LLC and John Docouto of Empire Builders filed for a major land development."
    }
   ]
  }
