@@ -226,6 +226,10 @@ SF_SOURCES = {
     "filing":    {"label": "Filing-stated", "color": "#e2e8f0", "mark": ""},
     "web":       {"label": "Web-sourced",   "color": "#38bdf8", "mark": "◈"},
     "corrected": {"label": "Corrected",     "color": "#F5821E", "mark": "✲"},
+    # A figure the commission's own staff report or plan set states. Stronger
+    # than an agenda line -- the agenda summarises, the staff report describes
+    # the programme -- so it renders as its own thing rather than as "filing".
+    "plan_set":  {"label": "Plan set",      "color": "#4ade80", "mark": "▣"},
 }
 
 

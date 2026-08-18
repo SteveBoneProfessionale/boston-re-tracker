@@ -52,7 +52,10 @@ RI = ("Providence", "Warwick", "Cranston", "Pawtucket", "Newport")
 # rejected: "10.89 units per acre" produced a phantom 89 once already.
 NUM_SF = re.compile(
     r"(?P<num>\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*"
-    r"(?:\+/-\s*)?"
+    # A plus/minus sign in a CAD title block extracts as '?' or a private-use
+    # glyph, so "5,597?SQ.FT." was not matching at all and a stated BUILDING
+    # AREA went unseen.
+    r"(?:\+/-|\+/\u2013|[\?\u00b1\uf0b1\u2248~])?\s*"
     r"(?P<unit>square\s*(?:feet|foot|ft)|sq\.?\s*ft\.?|sqft|s\.?f\.?|SF)\b",
     re.I)
 
@@ -92,7 +95,7 @@ AREA_FIELD = re.compile(r"\b(?:land\s+)?area\s*:\s*$", re.I)
 THRESHOLD = re.compile(
     r"\b(?:less|greater|more|fewer|larger|smaller)\s+than\s*$|"
     r"\b(?:no|not)\s+(?:more|less)\s+than\s*$|"
-    r"\b(?:exceed(?:ing|s)?|in\s+excess\s+of|up\s+to|at\s+least|"
+    r"\b(?:exceed(?:ing|s)?|in\s+excess\s+of|up\s+to|at\s+least|over|under|"
     r"minimum\s+of|maximum\s+of|threshold\s+of)\s*$", re.I)
 
 # A change in floor area is not the floor area. "add 400 square feet of GFA"
@@ -125,6 +128,9 @@ STRONG_AFTER = re.compile(
 LAND_BEFORE = re.compile(r"(?:lot|lots|parcel|land|acres?|site|tract)\b[^.;]{0,18}$", re.I)
 LAND_AFTER = re.compile(r"^\s*(?:\+/-\s*)?(?:of\s+)?(?:lot|lots|parcel|of\s+land|acres?|tract|site)\b", re.I)
 
+EXISTING_CONDITIONS = re.compile(
+    r"\bN/F\s*:|now\s+or\s+formerly|existing\s+(?:building|structure|conditions)[^.;]{0,60}$|existing\s+conditions\s+plan", re.I)
+
 WINDOW_BEFORE = 120
 WINDOW_AFTER = 70
 
@@ -145,6 +151,11 @@ def classify(text, m):
 
     if AREA_FIELD.search(before):
         return "LAND", "Warwick 'Area:' agenda field -- land area", val
+    # A survey sheet states the building STANDING THERE, not the one proposed.
+    # "N/F" (now or formerly) and "existing building" mark existing conditions,
+    # and on plan sets those figures sit right beside the proposed ones.
+    if EXISTING_CONDITIONS.search(before):
+        return "EXISTING", "an existing-conditions figure, not the proposed programme", val
     # Trailing context only: these qualify the number directly.
     tail = before[-40:]
     if THRESHOLD.search(tail):
