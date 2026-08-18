@@ -167,7 +167,13 @@
   "Providence|541 Hartford Ave": "Only BLDUP and listing sites -- excluded sources.",
   "Providence|56 Bridgham Street": "A 41-unit West End affordable project exists but no source ties it to 56 Bridgham. Applicant Historic West End II LP is already a real entity.",
   "Providence|99-101 Gano Street": "99 Gano St is H.V. Collins' own headquarters. No apartment project confirmed there; the 61 units on our record is questionable and flagged.",
-  "Providence|298 Public Street": "SWAP Inc is confirmed as a real non-profit developer, but the only Public Street project found is a 2-unit home, against 39 units on our record. Not corroborated."
+  "Providence|298 Public Street": "SWAP Inc is confirmed as a real non-profit developer, but the only Public Street project found is a 2-unit home, against 39 units on our record. Not corroborated.",
+  "Providence|740 Plainfield Street": "Excel Academy RI is at 622 Woonasquatucket Ave, North Providence -- a different municipality. No project confirmed at 740 Plainfield. Applicant may be a misextraction; flagged.",
+  "Providence|515 Prairie Ave": "No development coverage. The Prairie Ave project in the news is 246 Prairie Ave (Providence Redevelopment Agency), a different address.",
+  "Providence|49 Westfield Street": "Stedman Lofts confirmed by the city staff report (63 units, 17,200 sf commercial), but only one qualifying domain and the applicant string already names K&S Development. Our 12 units conflicts with the 63 proposed; flagged.",
+  "Providence|1107 Westminster Street": "City CPC documents describe the apartments and parking but name no sponsor beyond the shell 1107 Westminster LLC.",
+  "Providence|3569 \u2013 64 America Street": "No development coverage for this address.",
+  "Providence|3516 \u2013 125 Tobey Street": "A rezoning petition exists on the city site but names no sponsor beyond the shell Tobey Street LLC."
  },
  "Warwick|455 Toll gate Rd": {
   "developer": "Kent County Memorial Hospital",
@@ -508,6 +514,134 @@
     "url": "https://www.golocalprov.com/business/new-college-condo-project-proposed-for-college-hill",
     "address_sentence": "A new proposal for the vacant parcels at the corner of Angell and Brook Streets.",
     "developer_sentence": "A five-story multifamily residential building with 32 units, each with three bedrooms."
+   }
+  ]
+ },
+ "Providence|199 Oxford Street": {
+  "developer": "City of Providence",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Institutional"
+  },
+  "note": "Mary E. Fogarty Elementary School rebuild. Municipal owner-developer.",
+  "sources": [
+   {
+    "publisher": "City of Providence (RFP)",
+    "domain": "providenceri.gov",
+    "url": "https://www.providenceri.gov/pvd23-25-public-property-rfp-architect-engineering-design-services-for-the-mary-e-fogarty-elementary-school-199-oxford-street-providence-ri-mt40155/",
+    "address_sentence": "Architect & Engineering Design Services for the Mary E. Fogarty Elementary School, 199 Oxford Street, Providence, RI.",
+    "developer_sentence": "The City of Providence issued the RFP for the school building project."
+   },
+   {
+    "publisher": "Providence Schools",
+    "domain": "providenceschools.org",
+    "url": "https://fogarty.providenceschools.org/about-fogarty/contact-fogarty",
+    "address_sentence": "Mary E. Fogarty Elementary School, 199 Oxford Street, Providence.",
+    "developer_sentence": "Fogarty is a Providence Public School District school."
+   }
+  ]
+ },
+ "Providence|434 Mt Pleasant Ave": {
+  "developer": "City of Providence",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Institutional"
+  },
+  "note": "Mount Pleasant High School, $110M modernisation into the Mount Pleasant Early College & Career Academy, completion summer 2027. Part of Rebuild PVD Schools.",
+  "sources": [
+   {
+    "publisher": "Providence Schools (Rebuild PVD)",
+    "domain": "providenceschools.org",
+    "url": "https://rebuildpvdschools.providenceschools.org/projects/mount-pleasant-high-school",
+    "address_sentence": "Mount Pleasant High School, 434 Mt. Pleasant Avenue, Providence.",
+    "developer_sentence": "A $110 million investment will modernize and upgrade the 85-year-old facility."
+   },
+   {
+    "publisher": "RI Department of Education",
+    "domain": "ride.ri.gov",
+    "url": "https://datacenter.ride.ri.gov/Directory/SchoolDetail?orgid=943",
+    "address_sentence": "Mount Pleasant High School, 434 Mt Pleasant Ave, Providence RI 02908.",
+    "developer_sentence": "Operated by the Providence Public School District."
+   }
+  ]
+ },
+ "Providence|1326 Westminster Street": {
+  "developer": "Community MusicWorks",
+  "method": "web_corroborated",
+  "fields": {
+   "asset_class": "Institutional"
+  },
+  "note": "The CMW Center -- a 24,000 sf, $15M mass-timber music centre by 3SIX0 Architecture on a 10,000 sf lot CMW bought in 2017. Non-profit owner-developer. Our stored GSF of 11,033 does not match either the lot or the building; flagged.",
+  "sources": [
+   {
+    "publisher": "ecoRI News",
+    "domain": "ecori.org",
+    "url": "https://ecori.org/community-musicworks-new-building-in-providence-opens-its-doors-wide/",
+    "address_sentence": "Community MusicWorks' new building at 1326 Westminster Street in the West End.",
+    "developer_sentence": "CMW purchased the empty lot at 1326 Westminster Street to create a hub for community performance."
+   },
+   {
+    "publisher": "Community MusicWorks",
+    "domain": "communitymusicworks.org",
+    "url": "https://communitymusicworks.org/the-community-musicworks-center/",
+    "address_sentence": "The CMW Center, 1326 Westminster Street, Providence.",
+    "developer_sentence": "Community MusicWorks built the centre, designed by 3SIX0 Architecture."
+   }
+  ]
+ },
+ "Providence|108 \u2013 110 Waterman Street": {
+  "developer": "Walter L. Bronhard",
+  "method": "web_corroborated",
+  "note": "Applicant confirmed as the real party. Five-story mixed-use replacing an 1877 building; 26 units matches our record exactly.",
+  "sources": [
+   {
+    "publisher": "The Boston Globe",
+    "domain": "bostonglobe.com",
+    "url": "https://www.bostonglobe.com/2023/07/19/metro/providence-developer-wants-raze-1877-building-mixed-use-college-hill-project/",
+    "address_sentence": "Plans to redevelop 108-110 Waterman St. in Providence into a mixed-use property.",
+    "developer_sentence": "Fall River-based developer Walter L. Bronhard has proposed the plans."
+   },
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/city-plan-commission-to-consider-updated-plans-for-mixed-use-development-in-college-hill/",
+    "address_sentence": "Updated plans for the mixed-use development on College Hill at 108-110 Waterman Street.",
+    "developer_sentence": "Walter L. Bronhard submitted updated plans to the Providence City Plan Commission."
+   }
+  ]
+ },
+ "Providence|481 Allens Ave": {
+  "developer": "Allens Providence Recycling LLC",
+  "method": "web_corroborated",
+  "note": "DEAD PROJECT. Ohio-based applicant proposed a 2,500-ton-per-day solid waste transfer station. City planning staff recommended DENIAL and the mayor publicly opposed it. Recorded because the sponsor is corroborated; the dead status goes to the cleanup report rather than being written to stage.",
+  "sources": [
+   {
+    "publisher": "City of Providence (CPC staff report)",
+    "domain": "providenceri.gov",
+    "url": "https://www.providenceri.gov/wp-content/uploads/2020/03/19-081-MA-481-Allens-Ave-Staff-Report.pdf",
+    "address_sentence": "Staff report for 481 Allens Ave, master plan application 19-081-MA.",
+    "developer_sentence": "The applicant is Allens Providence Recycling LLC; staff recommended denial."
+   },
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/elorza-opposes-proposed-allens-ave-transfer-station/",
+    "address_sentence": "The proposed Allens Ave. transfer station.",
+    "developer_sentence": "Ohio-based Allens Providence Recycling LLC proposed the facility; Mayor Elorza opposed it."
+   }
+  ]
+ },
+ "Providence|3572 \u2013 103 Evergreen Street": {
+  "developer": "Providence Architecture and Building Company",
+  "method": "web_low_confidence",
+  "note": "LOW CONFIDENCE: one qualifying domain (the AOL result republishes the Providence Journal without original reporting and was not counted). Kevin Diamond and Dustin Dezube. Program matches our record exactly: 58 units on an ~8,000 sf lot. This OVERTURNS the earlier null for '103 Evergreen LLC', which searched the entity name and found only registry aggregators.",
+  "sources": [
+   {
+    "publisher": "WPRI 12",
+    "domain": "wpri.com",
+    "url": "https://www.wpri.com/news/local-news/providence/providence-developer-looks-to-build-affordable-apartment-complex-on-evergreen-street-lot/",
+    "address_sentence": "A developer purchased an 8,000-square-foot lot on Evergreen Street and is looking to build 58 apartment units.",
+    "developer_sentence": "The project is proposed by Kevin Diamond and Dustin Dezube, principals in Providence Architecture and Building Company."
    }
   ]
  }

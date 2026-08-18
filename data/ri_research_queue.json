@@ -1,0 +1,1934 @@
+[
+ {
+  "city": "Providence",
+  "addr": "220 BLACKSTONE STREET",
+  "app": "AR Building Company",
+  "gsf": 155074,
+  "u": 178
+ },
+ {
+  "city": "Providence",
+  "addr": "199 Oxford Street",
+  "app": "City of Providence",
+  "gsf": 101785,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "2050 Plainfield Pike",
+  "app": "Colbea Enterprises, LLC",
+  "gsf": 72638,
+  "u": 89
+ },
+ {
+  "city": "Providence",
+  "addr": "434 Mt Pleasant Ave",
+  "app": "City of Providence",
+  "gsf": 41712,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "740 Plainfield Street",
+  "app": "Excel Academy",
+  "gsf": 41000,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "99-101 Gano Street",
+  "app": "HV Collins Company",
+  "gsf": 32468,
+  "u": 61
+ },
+ {
+  "city": "Cranston",
+  "addr": "1499 Hillside Road",
+  "app": null,
+  "gsf": 23500,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "300 Valley Street",
+  "app": "The Kingdom Trust Company",
+  "gsf": 22560,
+  "u": 52
+ },
+ {
+  "city": "Providence",
+  "addr": "298 Public Street",
+  "app": "SWAP Inc",
+  "gsf": 21115,
+  "u": 39
+ },
+ {
+  "city": "Providence",
+  "addr": "217 Angell Street",
+  "app": "Smart Princeton Hotel Group LLC",
+  "gsf": 19513,
+  "u": 32
+ },
+ {
+  "city": "Cranston",
+  "addr": "27 Hemlock Avenue",
+  "app": null,
+  "gsf": 19319,
+  "u": 64
+ },
+ {
+  "city": "Providence",
+  "addr": "541 Hartford Ave",
+  "app": "E2000 LLC",
+  "gsf": 17021,
+  "u": 30
+ },
+ {
+  "city": "Providence",
+  "addr": "859 Broad Street",
+  "app": "State of Rhode Island",
+  "gsf": 16984,
+  "u": 16
+ },
+ {
+  "city": "Cranston",
+  "addr": "31 Calder Street",
+  "app": null,
+  "gsf": 14400,
+  "u": 12
+ },
+ {
+  "city": "Providence",
+  "addr": "56 Bridgham Street",
+  "app": "Historic West End II LP",
+  "gsf": 12200,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "515 Prairie Ave",
+  "app": "Kyltiff Investments and Consulting LLC",
+  "gsf": 12000,
+  "u": 15
+ },
+ {
+  "city": "Cranston",
+  "addr": "44 Village Avenue",
+  "app": null,
+  "gsf": 12000,
+  "u": 1
+ },
+ {
+  "city": "Providence",
+  "addr": "177 Verndale Ave",
+  "app": "Maritza Gomez",
+  "gsf": 11081,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "1326 Westminster Street",
+  "app": "Community Music Works",
+  "gsf": 11033,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "56 Pratt Street",
+  "app": "Alfred Sliney",
+  "gsf": 11000,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "25 Sybaris Street",
+  "app": "Kyle Bell",
+  "gsf": 10760,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "49 Westfield Street",
+  "app": "49 Westfield LLC c/o K&S Development LLC",
+  "gsf": 10690,
+  "u": 12
+ },
+ {
+  "city": "Providence",
+  "addr": "70 Job Street",
+  "app": "Linda Monello",
+  "gsf": 10567,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "58 Prudence Ave",
+  "app": "Carlos Chicas",
+  "gsf": 10388,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "229 Sterling Ave",
+  "app": "Robert Oliveira",
+  "gsf": 10000,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "481 Allens Ave",
+  "app": "487 Allens LLC c/o Christopher Koehler",
+  "gsf": 10000,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "108 \u2013 110 Waterman Street",
+  "app": "Walter Bronhard",
+  "gsf": 9862,
+  "u": 26
+ },
+ {
+  "city": "Providence",
+  "addr": "35 Meader Street",
+  "app": "Dan Hornby c/o 133 Courtland Street LLC",
+  "gsf": 9600,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "35 Meader Street",
+  "app": "Dan Hornby c/o 133 Courtland Street LLC",
+  "gsf": 9600,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "150-158 Pitman Street",
+  "app": "Walter Bronhard",
+  "gsf": 9210,
+  "u": 16
+ },
+ {
+  "city": "Providence",
+  "addr": "3516 \u2013 125 Tobey Street",
+  "app": "Tobey Street LLC",
+  "gsf": 8456,
+  "u": 17
+ },
+ {
+  "city": "Providence",
+  "addr": "3569 \u2013 64 America Street",
+  "app": "Providence Growth 2019 Fund Holdings LLC",
+  "gsf": 8381,
+  "u": 26
+ },
+ {
+  "city": "Providence",
+  "addr": "870 Westminster Street",
+  "app": "Omni Group",
+  "gsf": 8333,
+  "u": 19
+ },
+ {
+  "city": "Providence",
+  "addr": "3572 \u2013 103 Evergreen Street",
+  "app": "103 Evergreen LLC",
+  "gsf": 8216,
+  "u": 58
+ },
+ {
+  "city": "Cranston",
+  "addr": "3 Sefton Drive",
+  "app": null,
+  "gsf": 7912,
+  "u": 89
+ },
+ {
+  "city": "Providence",
+  "addr": "10 Edendale Ave",
+  "app": "Keough Construction",
+  "gsf": 6704,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "1107 Westminster Street",
+  "app": "1107 Westminster LLC",
+  "gsf": 6332,
+  "u": 17
+ },
+ {
+  "city": "Providence",
+  "addr": "5 Bell Street",
+  "app": "Bell Street Chapel Trustees",
+  "gsf": 6240,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "175 Farmington Avenue",
+  "app": null,
+  "gsf": 6000,
+  "u": 89
+ },
+ {
+  "city": "Cranston",
+  "addr": "547 Park Avenue",
+  "app": null,
+  "gsf": 5989,
+  "u": 39
+ },
+ {
+  "city": "Providence",
+  "addr": "661-665 Plainfield Street",
+  "app": "Irfan Saeed",
+  "gsf": 5794,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "665 Plainfield Street",
+  "app": "Jitender Behl",
+  "gsf": 5794,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "555 Greenwich Ave",
+  "app": null,
+  "gsf": 5500,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "157 Jewett Street",
+  "app": "Solomon Moradjian",
+  "gsf": 5320,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "219 Waterman Street",
+  "app": "Bahman Jalili",
+  "gsf": 5249,
+  "u": 16
+ },
+ {
+  "city": "Cranston",
+  "addr": "199 Gladstone Avenue",
+  "app": null,
+  "gsf": 5000,
+  "u": 89
+ },
+ {
+  "city": "Providence",
+  "addr": "136 Windmill Street",
+  "app": "Luis Vicioso",
+  "gsf": 5000,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "128 Wayland Ave",
+  "app": "Elevator Properties Inc and Slim Investments LLC",
+  "gsf": 4500,
+  "u": 22
+ },
+ {
+  "city": "Providence",
+  "addr": "551 Chalkstone Ave",
+  "app": "Simer Sodhi",
+  "gsf": 4100,
+  "u": 23
+ },
+ {
+  "city": "Cranston",
+  "addr": "235 Beckwith Street",
+  "app": null,
+  "gsf": 4000,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "547 Chalkstone Ave",
+  "app": "Wilbel Abreu",
+  "gsf": 3956,
+  "u": 12
+ },
+ {
+  "city": "Providence",
+  "addr": "16-22 Grove Street",
+  "app": "16 Grove LLC",
+  "gsf": 3817,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "30 Pomham Street",
+  "app": "CALISE DEVELOPMENT, LLC",
+  "gsf": 3200,
+  "u": 61
+ },
+ {
+  "city": "Providence",
+  "addr": "106 Reservoir",
+  "app": "KC Holdings LLC",
+  "gsf": 3172,
+  "u": 21
+ },
+ {
+  "city": "Providence",
+  "addr": "309 Dexter Street",
+  "app": "297 Dexter Holdings LLC",
+  "gsf": 2538,
+  "u": 48
+ },
+ {
+  "city": "Providence",
+  "addr": "113 Ives Street",
+  "app": "113 Ives LLC",
+  "gsf": 2500,
+  "u": 16
+ },
+ {
+  "city": "Providence",
+  "addr": "118-120 Hawkins Street",
+  "app": "Carlos Rodrigues",
+  "gsf": 2446,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "11 W Friendship Street",
+  "app": "Patricia Martinez",
+  "gsf": 2043,
+  "u": 26
+ },
+ {
+  "city": "Providence",
+  "addr": "221 Academy Ave",
+  "app": "JESUS R. ACOSTA",
+  "gsf": 1725,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "217 Angell Street",
+  "app": "Smart Princeton Hotel Group LLC - \"f ~ ~ (Mpf\\ '~ 't)__",
+  "gsf": 1000,
+  "u": 32
+ },
+ {
+  "city": "Cranston",
+  "addr": "14 Oneida Street",
+  "app": "Gils Real Estate Investment LLC",
+  "gsf": 825,
+  "u": 89
+ },
+ {
+  "city": "Providence",
+  "addr": "77 Union Ave",
+  "app": "JOSE AMADO DURAM CASTILLO",
+  "gsf": 317,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "116 Shaw Avenue",
+  "app": null,
+  "gsf": 258,
+  "u": 24
+ },
+ {
+  "city": "Pawtucket",
+  "addr": "175 Main Street",
+  "app": "Wood Partners",
+  "gsf": null,
+  "u": 325
+ },
+ {
+  "city": "Providence",
+  "addr": "21 Atwells Avenue",
+  "app": null,
+  "gsf": null,
+  "u": 216
+ },
+ {
+  "city": "Warwick",
+  "addr": "800 Toll Gate Rd",
+  "app": null,
+  "gsf": null,
+  "u": 203
+ },
+ {
+  "city": "Cranston",
+  "addr": "",
+  "app": null,
+  "gsf": null,
+  "u": 192
+ },
+ {
+  "city": "Providence",
+  "addr": "33 Bassett Street",
+  "app": "Respectfully",
+  "gsf": null,
+  "u": 191
+ },
+ {
+  "city": "Providence",
+  "addr": "200 Dyer Street",
+  "app": "Respectfully",
+  "gsf": null,
+  "u": 183
+ },
+ {
+  "city": "Warwick",
+  "addr": "2021 Page",
+  "app": null,
+  "gsf": null,
+  "u": 181
+ },
+ {
+  "city": "Warwick",
+  "addr": "1880 Post Road",
+  "app": "Jan Co Inc., 35 Sockanosset Cross Rd, Cranston, RI 02920",
+  "gsf": null,
+  "u": 177
+ },
+ {
+  "city": "Cranston",
+  "addr": "",
+  "app": "Champlin Heights II, LLC",
+  "gsf": null,
+  "u": 152
+ },
+ {
+  "city": "Cranston",
+  "addr": "110 Pond Street",
+  "app": null,
+  "gsf": null,
+  "u": 89
+ },
+ {
+  "city": "Cranston",
+  "addr": "3 Plan",
+  "app": null,
+  "gsf": null,
+  "u": 89
+ },
+ {
+  "city": "Cranston",
+  "addr": "118 Warwick Avenue",
+  "app": null,
+  "gsf": null,
+  "u": 76
+ },
+ {
+  "city": "Providence",
+  "addr": "75 EAST ST",
+  "app": "180 GMC LLC",
+  "gsf": null,
+  "u": 71
+ },
+ {
+  "city": "Cranston",
+  "addr": "661 Park Avenue",
+  "app": null,
+  "gsf": null,
+  "u": 69
+ },
+ {
+  "city": "Cranston",
+  "addr": "64 Unit",
+  "app": null,
+  "gsf": null,
+  "u": 64
+ },
+ {
+  "city": "Warwick",
+  "addr": "57 units. The main point",
+  "app": "Attorney Shekarchi",
+  "gsf": null,
+  "u": 57
+ },
+ {
+  "city": "Providence",
+  "addr": "1292 WESTMINSTER STREET",
+  "app": "1290 Westminster Street LLC",
+  "gsf": null,
+  "u": 35
+ },
+ {
+  "city": "Providence",
+  "addr": "466-468 West Fountain Street",
+  "app": "468 West Fountain Street LLC",
+  "gsf": null,
+  "u": 31
+ },
+ {
+  "city": "Providence",
+  "addr": "200 Gordon Ave",
+  "app": "Partnership c/o Preservation of Affordable Housing",
+  "gsf": null,
+  "u": 30
+ },
+ {
+  "city": "Pawtucket",
+  "addr": "180 Weeden Street",
+  "app": "180 Weeden St LLC",
+  "gsf": null,
+  "u": 29
+ },
+ {
+  "city": "Providence",
+  "addr": "17 Marcello Street",
+  "app": "John Caprio",
+  "gsf": null,
+  "u": 29
+ },
+ {
+  "city": "Providence",
+  "addr": "473 Washington Street",
+  "app": "Batwitwash UC",
+  "gsf": null,
+  "u": 27
+ },
+ {
+  "city": "Providence",
+  "addr": "45 Parade Street",
+  "app": "45 Parade LLC",
+  "gsf": null,
+  "u": 26
+ },
+ {
+  "city": "Providence",
+  "addr": "116 Waterman Street",
+  "app": "Walter Bronhard",
+  "gsf": null,
+  "u": 25
+ },
+ {
+  "city": "Providence",
+  "addr": "116 Waterman Street",
+  "app": "Walter Bronhard and Brook Holding LLC",
+  "gsf": null,
+  "u": 25
+ },
+ {
+  "city": "Providence",
+  "addr": "121 Stamford Ave",
+  "app": "121 Stamford Ave LLC",
+  "gsf": null,
+  "u": 23
+ },
+ {
+  "city": "Providence",
+  "addr": "203 Douglas Ave",
+  "app": "PMP Group LLC \u2013 continued to the August 18 meeting at the applicant\u2019s request",
+  "gsf": null,
+  "u": 21
+ },
+ {
+  "city": "Providence",
+  "addr": "386 Atwells Ave",
+  "app": "8 Hewitt Street LLC",
+  "gsf": null,
+  "u": 21
+ },
+ {
+  "city": "Providence",
+  "addr": "473 Washington Street",
+  "app": "Batwitwash LLC",
+  "gsf": null,
+  "u": 21
+ },
+ {
+  "city": "Providence",
+  "addr": "18 Eighth St",
+  "app": "Ghassan Daou",
+  "gsf": null,
+  "u": 19
+ },
+ {
+  "city": "Providence",
+  "addr": "126 Adelaide Ave",
+  "app": "BLUE DOG CAPITAL PARTNERS, LLC",
+  "gsf": null,
+  "u": 18
+ },
+ {
+  "city": "Providence",
+  "addr": "150 Pitman Street",
+  "app": "Walter Bronhard",
+  "gsf": null,
+  "u": 16
+ },
+ {
+  "city": "Providence",
+  "addr": "946-1000 Westminster Street",
+  "app": "Omni Group",
+  "gsf": null,
+  "u": 16
+ },
+ {
+  "city": "Cranston",
+  "addr": "2030 Plan",
+  "app": null,
+  "gsf": null,
+  "u": 15
+ },
+ {
+  "city": "Pawtucket",
+  "addr": "160 Beechwood Avenue",
+  "app": "Pawtucket Central Falls Development",
+  "gsf": null,
+  "u": 15
+ },
+ {
+  "city": "Warwick",
+  "addr": "3275 POST ROAD",
+  "app": "Seaview Realty, LLC",
+  "gsf": null,
+  "u": 14
+ },
+ {
+  "city": "Warwick",
+  "addr": "",
+  "app": null,
+  "gsf": null,
+  "u": 12
+ },
+ {
+  "city": "Providence",
+  "addr": "144 Benefit Street",
+  "app": "144 Benefit Street Associates",
+  "gsf": null,
+  "u": 12
+ },
+ {
+  "city": "Warwick",
+  "addr": "192 Toll Gate Rd",
+  "app": "Louis G. Roy, 6 Plum Tree Lane, Coventry, RI 02816",
+  "gsf": null,
+  "u": 10
+ },
+ {
+  "city": "Providence",
+  "addr": "3575 \u2013 176 Gano Street",
+  "app": "John Edward Quattrochi",
+  "gsf": null,
+  "u": 10
+ },
+ {
+  "city": "Providence",
+  "addr": "215 BROADWAY",
+  "app": null,
+  "gsf": null,
+  "u": 7
+ },
+ {
+  "city": "Warwick",
+  "addr": "9 Post Road",
+  "app": "Bridge Group, LLC, 2204 Broad Street, Cranston, RI 02905",
+  "gsf": null,
+  "u": 6
+ },
+ {
+  "city": "Providence",
+  "addr": "30 Princeton Ave",
+  "app": "PRINCETON RESIDENTIAL LLC",
+  "gsf": null,
+  "u": 6
+ },
+ {
+  "city": "Providence",
+  "addr": "189 Ontario St",
+  "app": "LARISSA SAYIG",
+  "gsf": null,
+  "u": 5
+ },
+ {
+  "city": "Providence",
+  "addr": "225 Broadway",
+  "app": "AREF SHEHADEH",
+  "gsf": null,
+  "u": 5
+ },
+ {
+  "city": "Providence",
+  "addr": "372 Plainfield St",
+  "app": "ELIO OLIVERO",
+  "gsf": null,
+  "u": 4
+ },
+ {
+  "city": "Providence",
+  "addr": "381 Angell St",
+  "app": "OZREN T. BURTAK",
+  "gsf": null,
+  "u": 3
+ },
+ {
+  "city": "Providence",
+  "addr": "382 Thayer St",
+  "app": "S REALTY ASSOCIATES",
+  "gsf": null,
+  "u": 2
+ },
+ {
+  "city": "Providence",
+  "addr": "1331 Eddy Street",
+  "app": "Lindsey Morel",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "14 Cargill Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "149 Governor Street",
+  "app": "AGM Holdings LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3611 \u2013 349 Killingly Street",
+  "app": "Gustavo Perez",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "55 Grosvenor Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "34 Temple Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "1101 Elmwood Ave",
+  "app": "International Property Investment and Management LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3601 \u2013 1 Charles Street",
+  "app": "1 Charles LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "1016 Park Avenue",
+  "app": "She",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "1390 Cranston Street",
+  "app": "N.E Development Fund, 1 LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "35 Lake Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "40 Norfolk Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "0 Hope Road",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "0 Plainfield Pike",
+  "app": "RLF IV Terminals SPE, LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "102 Old Oak Avenue",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "1489 Pippin Orchard Road",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "599 Reservoir Avenue",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "538 Main Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "846 Oaklawn Avenue",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Pawtucket",
+  "addr": "250 Esten Street",
+  "app": "250 Esten LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Pawtucket",
+  "addr": "404 Smithfield Avenue",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Pawtucket",
+  "addr": "334 East Avenue",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Pawtucket",
+  "addr": "11 Meadow Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Pawtucket",
+  "addr": "94 Moshassuck Street",
+  "app": "JK Equities LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Newport",
+  "addr": "46 East Bowery Street",
+  "app": "Southeastern Holding, LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Newport",
+  "addr": "173 Ruggles Avenue",
+  "app": "JRL Holdings LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Newport",
+  "addr": "1 York Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Newport",
+  "addr": "10 Red Cross Terrace",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Newport",
+  "addr": "221 Third Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Newport",
+  "addr": "138 Carroll Avenue",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Newport",
+  "addr": "160 Carroll Avenue",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "771 Post Road",
+  "app": "City of Warwick",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "2595 West Shore Rd",
+  "app": "Steven Cohen and Washville Car Wash",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "1282 & 1288 Greenwich Ave",
+  "app": "Winward Veterinary Hospital, LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "4332 Post Road",
+  "app": "4332 Post Road, LLC c/o Susan Rowles & Paul Zarrella",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "164 John Street",
+  "app": "Zarrella Development Corporation",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "112 Old Warwick Avenue",
+  "app": "Sprague Covington, LLC, 505 Red Chimney Dr, Warwick, RI",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "19 Wood Street",
+  "app": "ZRF Realty, RIGP",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "1112 West Shore Rd",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "145 Commerce Drive",
+  "app": "3315 N OAK TRFY KANSAS CITY, MO 64116",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "0 Maple Street",
+  "app": "115 Maple Street, LLC, Warwick, RI 02888",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3593 \u2013 14 Braman Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "161 Steele Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "204 Hartford Ave",
+  "app": "John Garrahy",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "35 Merino Street",
+  "app": "Providence Public Buildings Authority",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "60 Camden Ave",
+  "app": "City of Providence",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3573 \u2013 239 Cranston Street",
+  "app": "Providence Community Health Centers",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3564 \u2013 355 Thurbers Ave",
+  "app": "355 Thurbers Ave LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "116 Benevolent Street",
+  "app": "Whisper Investments LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "105 Dedham Ave",
+  "app": "Vitality Land Holdings LLC and GFM Realty LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "45 Liege Street",
+  "app": "Greenlight Investments LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "175 Congress Ave",
+  "app": "Christopher Norris Leblanc and John P Duffin",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "66 Baltimore Street",
+  "app": "Kathleen Jacotin",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "572 Elmwood Ave",
+  "app": "103 Evergreen LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "1051-1061 Chalkstone Ave",
+  "app": "Richard R Grasso and RDR Realty Associates",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "21 Westmore Street",
+  "app": "Maricela Hernandez",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "50 Branch Ave",
+  "app": "Trunk Space LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "69 Depinedo Street",
+  "app": "Adrian Dalomba and Kyle Bell",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "781 Manton Ave",
+  "app": "Roddy Rodriguez",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3533 \u2013 115 Harris Ave",
+  "app": "115 Harris LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "730 Douglas Ave",
+  "app": "Jubril Bamgbala",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "22-26 Ringgold Street",
+  "app": "Kalisbek K Malikov",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "175-177 Webster Ave",
+  "app": "Kenol Cadet",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "14 Lawrence Street",
+  "app": "Francisco Cruz",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "338 Killingly Street",
+  "app": "Lawrence and Anita Delbonis",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3510 \u2013 828 Charles Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "20 feet of a main street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "54-56 Sutton Street",
+  "app": "Sutton Place",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "167-171 Hudson Street",
+  "app": "478-6C LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "96-108 PINE STREET",
+  "app": "96-108 Pine Street LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "40 Seamans Street",
+  "app": "Joseph Colaluca c/o Admiral Properties LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "434 Atwells Ave",
+  "app": "434 Atwells Realty LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3490 \u2013 9 Mendon Street",
+  "app": "Mario Capaldi",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "528 Charles Street",
+  "app": "Duran Real Estate Investments LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3488 \u2013 845 Allens Ave",
+  "app": "845 Allens Ave LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3486 \u2013 22 Rye Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3487 \u2013 50 Sims Ave",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "32 Opper Street",
+  "app": "Salvatore Magnone",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "146 Governor Street",
+  "app": "Seth Yurdin",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "7 Edison Ave",
+  "app": "David and Sharon Cutts",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "21 Peace Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "846 Charles Street",
+  "app": "Sal Compagnone",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "100 Niantic Ave",
+  "app": "True Storage Dupont LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "5 Iona Street",
+  "app": "Maria Hiciano",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "00 Niantic Ave",
+  "app": "True Storage Dupont LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "47 Matilda Street",
+  "app": "Matilda Pines LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "9 Stimson Ave",
+  "app": "Wheeler School",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "400 Wut Fountain Street",
+  "app": "Red Fox 11t. .. 1ty LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "299-303 Pocasset Ave",
+  "app": "Donna Sebastianelli",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3479 \u2013 50 Ashburton Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "6-42 Somerset Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "50 Ashburton Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "3475 \u2013 40 Candace Street",
+  "app": "Providence Community Health Centers (PCHC)",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "197-199 Wendell Street",
+  "app": "Sean Harrington",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "1117 Eddy Street",
+  "app": "Cogent Capital LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "284 President Ave",
+  "app": "Stephen and Cheryl Provazza",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "535 Broadway",
+  "app": "Michael McVicker and Ian Slater",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "189 WATERMAN STREET",
+  "app": "189 Waterman LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "134 Waterman Street",
+  "app": "Walter Bronhard",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "759 Potters Ave",
+  "app": "Rithy Thay",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "198-200 Dyer Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "335 Westminster Street",
+  "app": "Respectfully",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "233-261 Richmond Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "71-73 Richmond Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "126 Washington Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "49 Peck Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "55 Pine Street",
+  "app": "Respectfully",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "91 Clemence Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "229 Dyer Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "250 Dyer Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "203 Westminster Street",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "579 Atwells Ave",
+  "app": "DUNKIN DONUTS",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "583 Elmwood Ave",
+  "app": "DERLYN LOPEZ",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "68 Pleasant Valley Parkway",
+  "app": "SCRUBADUB AUTO CAR WASH CENTERS",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "30 Barbara St",
+  "app": "CLAIRE MONTECALVO",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "78 FOUNTAIN STREET",
+  "app": "TAUANE ALVES",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "425 Washington St",
+  "app": "RICHARD BACCARI II",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "5 Marvin St",
+  "app": "SHAWN GILHEENEY",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "1917 WESTMINSTER STREET",
+  "app": "WESTMINSTER STREET, LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "516 Plainfield Street",
+  "app": "MARIA GIRON",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "393-399 Westminster St",
+  "app": "AYODEJI TADE",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "161 DOUGLAS AVENUE",
+  "app": "DOUGLAS AVENUE, LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "124 Webster Ave",
+  "app": "BROAD LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "265 Union Avenue",
+  "app": "WILBER PENA",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "679 Valley St",
+  "app": "EDUCATIONAL CENTER OF ARTS & SCIENCE, INC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "896 Atwells Avenue",
+  "app": "ANA CRISTINA PEREZ",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "1481 Broad St",
+  "app": "S USA, LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "20 Dike Street",
+  "app": "BISHOP JEFFREY WILLIAMS",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "235 West Park St",
+  "app": "GILKANIA BENITEZ",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "91 Hope St",
+  "app": "S OPTICAL",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "518 Lloyd Ave",
+  "app": "S HOUSE, INC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "17-21 Harold St",
+  "app": "MICHAEL SALVATORE",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "369 Broadway",
+  "app": "DUSTIN DEZUBE",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "338 Allens Ave",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "508 Prairie Ave",
+  "app": "DENORAH REYNOSO",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "107 Hope St",
+  "app": "KEVIN HAWES",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "41 Central St",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "200 Exchange Street",
+  "app": "FRANCISCA POLANCO NAVEDO",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "280 VALLET STREET",
+  "app": "JP MORGAN CHASE BANK",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "51 Prospect St",
+  "app": "THOMAS BECKET FOUNDATION",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "321 South Main St",
+  "app": "SMS PARTNERS LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "10 Dorrance Street",
+  "app": "S FAMILY RESTAURANT, LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "593 Hartford Ave",
+  "app": "WALDEMAR URIZAR",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "10 Miller Ave",
+  "app": "NELLIE FRANCIS",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "642 CRANSTON ST",
+  "app": "CRANSTON ST, LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "209 Fountain St",
+  "app": "PRI XIV, LP",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "292 Pocasset Ave",
+  "app": "YANET SUERO",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "54 South St",
+  "app": "AT SOUTH STREET, LLC",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "650 Hartford Ave",
+  "app": "ORLANDO CORREIA",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "6 Zone",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "1290 Elmwood Avenue",
+  "app": "Ferrucci Family Trust",
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Cranston",
+  "addr": "41 Heath Avenue",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "425 West Shore Rd",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "43 Nakomis Dr",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "240 Shawomet Ave",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "1689 Post Rd",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "2055 Warwick Avenue",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "175 Hollis Ave",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "6 Oakland Beach Ave",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "4654 Post Rd",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "2019 Page",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Warwick",
+  "addr": "434 Smith St",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "544 ELMWOOD AVENUE",
+  "app": null,
+  "gsf": null,
+  "u": null
+ },
+ {
+  "city": "Providence",
+  "addr": "105 BROADWAY",
+  "app": null,
+  "gsf": null,
+  "u": null
+ }
+]
