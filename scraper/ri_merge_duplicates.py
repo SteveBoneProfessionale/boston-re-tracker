@@ -47,7 +47,23 @@ MERGES = [
                "carried the referral number inside the address field."),
     (723, 725, "100 Niantic Ave. Absorbed row's address was truncated to "
                "'00 Niantic Ave'."),
+    # Found by the pipeline report, not the earlier pass: the OCR'd row reads
+    # "400 Wut Fountain Street" and "Red Fox 11t. .. 1ty LLC", but it carries
+    # the same case number (19-073MI) and the same applicant.
+    (728, 731, "400 West Fountain St, Case 19-073MI, applicant Red Fox Realty LLC. "
+               "The absorbed row is the OCR'd version: 'Wut' for 'West'."),
 ]
+
+# Pairs that LOOK like duplicates but are not being merged, because merging
+# them would be a guess. Flagged for the review tab instead.
+FLAG_FOR_REVIEW = {
+    508: "Possible duplicate of id=509 (both Churchill & Banks at 580 South Water). "
+         "NOT merged: this row is 100 units / 113,000 sf against 509's 79 units, so "
+         "they may be separate phases rather than one project. The address here is "
+         "truncated to '580 South', which is why they never collapsed.",
+    509: "Possible duplicate of id=508 -- see the note there. Same developer and "
+         "street, different programme.",
+}
 
 
 def main(dry_run=False):
@@ -67,6 +83,15 @@ def main(dry_run=False):
                 log.error("    FAILED: %s", res.get("error"))
             else:
                 log.info("    moved %s", res["moved"])
+        for pid, why in FLAG_FOR_REVIEW.items():
+            pr = session.get(Project, pid)
+            if pr is None:
+                continue
+            pr.dedupe_review = True
+            pr.notes = ((pr.notes + " | ") if pr.notes else "") + why
+            log.info("  flag %-4d for review: possible duplicate, not merged", pid)
+        if not dry_run:
+            session.commit()
         if dry_run:
             log.info("DRY RUN -- nothing written")
     finally:

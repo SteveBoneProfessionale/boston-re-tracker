@@ -1,0 +1,476 @@
+{
+ "per_municipality": [
+  {
+   "city": "Providence",
+   "active": 287,
+   "excluded": 10,
+   "raw_items": 2336,
+   "collapse": "88%"
+  },
+  {
+   "city": "Warwick",
+   "active": 49,
+   "excluded": 0,
+   "raw_items": 146,
+   "collapse": "66%"
+  },
+  {
+   "city": "Cranston",
+   "active": 37,
+   "excluded": 5,
+   "raw_items": 288,
+   "collapse": "87%"
+  },
+  {
+   "city": "Pawtucket",
+   "active": 17,
+   "excluded": 0,
+   "raw_items": 91,
+   "collapse": "81%"
+  },
+  {
+   "city": "Newport",
+   "active": 11,
+   "excluded": 6,
+   "raw_items": 102,
+   "collapse": "89%"
+  }
+ ],
+ "pipeline_size": [
+  {
+   "city": "Providence",
+   "total_sf": 3298769,
+   "with_sf": 76,
+   "units": 4170,
+   "with_units": 82
+  },
+  {
+   "city": "Warwick",
+   "total_sf": 95984,
+   "with_sf": 5,
+   "units": 517,
+   "with_units": 10
+  },
+  {
+   "city": "Cranston",
+   "total_sf": 95785,
+   "with_sf": 11,
+   "units": 588,
+   "with_units": 11
+  },
+  {
+   "city": "Pawtucket",
+   "total_sf": 605,
+   "with_sf": 2,
+   "units": 663,
+   "with_units": 6
+  },
+  {
+   "city": "Newport",
+   "total_sf": 1400,
+   "with_sf": 1,
+   "units": 167,
+   "with_units": 4
+  }
+ ],
+ "stages": {
+  "Rezoning": 37,
+  "City Council Referral": 8,
+  "Unified Development Review": 39,
+  "Combined Master and Preliminary": 22,
+  "Preliminary Plan": 71,
+  "Development Plan Review": 6,
+  "Final Plan": 17,
+  "Design Waiver": 5,
+  "Demolition": 9,
+  "(none)": 78,
+  "Master Plan": 21,
+  "Pre-application Conference": 11,
+  "Zoning Board Recommendation": 1,
+  "Special Use Permit": 66,
+  "Advisory Opinion": 1,
+  "Administrative Review": 2,
+  "Preliminary Application": 3,
+  "Site Plan Review": 1,
+  "Conceptual": 2,
+  "Lot Merger": 1
+ },
+ "unresolved_developers": {
+  "count": 47,
+  "by_city": {
+   "Providence": 15,
+   "Cranston": 20,
+   "Pawtucket": 2,
+   "Warwick": 10
+  },
+  "methods": {
+   "document_only": 193,
+   "confirmed": 43,
+   "registry_self": 85,
+   "web_corroborated": 25,
+   "web_low_confidence": 6,
+   "conflicted": 2
+  }
+ },
+ "failed_geocodes": [
+  {
+   "id": 508,
+   "city": "Providence",
+   "address": "580 South"
+  },
+  {
+   "id": 509,
+   "city": "Providence",
+   "address": "580 South Water Street"
+  },
+  {
+   "id": 515,
+   "city": "Cranston",
+   "address": ""
+  },
+  {
+   "id": 526,
+   "city": "Cranston",
+   "address": ""
+  },
+  {
+   "id": 532,
+   "city": "Cranston",
+   "address": ""
+  },
+  {
+   "id": 576,
+   "city": "Warwick",
+   "address": ""
+  },
+  {
+   "id": 686,
+   "city": "Providence",
+   "address": ""
+  },
+  {
+   "id": 695,
+   "city": "Providence",
+   "address": "20 feet of a main street"
+  },
+  {
+   "id": 728,
+   "city": "Providence",
+   "address": "400 West Fountain Street"
+  },
+  {
+   "id": 885,
+   "city": "Warwick",
+   "address": "57 units. The main point"
+  },
+  {
+   "id": 892,
+   "city": "Warwick",
+   "address": "2021 Page"
+  },
+  {
+   "id": 896,
+   "city": "Warwick",
+   "address": "2019 Page"
+  },
+  {
+   "id": 900,
+   "city": "Warwick",
+   "address": "10616 Ward"
+  }
+ ],
+ "dedupe_sample": [
+  {
+   "id": 821,
+   "city": "Providence",
+   "address": "126 Adelaide Ave",
+   "appearances": 26,
+   "plat": "52",
+   "lots": "351"
+  },
+  {
+   "id": 492,
+   "city": "Providence",
+   "address": "3535 – 322 Washington Street",
+   "appearances": 21,
+   "plat": "25",
+   "lots": "464"
+  },
+  {
+   "id": 843,
+   "city": "Providence",
+   "address": "1 Fields Point Dr",
+   "appearances": 18,
+   "plat": "56",
+   "lots": "322"
+  },
+  {
+   "id": 607,
+   "city": "Providence",
+   "address": "269 Wickenden Street",
+   "appearances": 17,
+   "plat": "18",
+   "lots": "190,192"
+  },
+  {
+   "id": 510,
+   "city": "Providence",
+   "address": "150 Richmond",
+   "appearances": 16,
+   "plat": null,
+   "lots": null
+  },
+  {
+   "id": 636,
+   "city": "Providence",
+   "address": "870 Westminster Street",
+   "appearances": 16,
+   "plat": "29",
+   "lots": "185"
+  },
+  {
+   "id": 669,
+   "city": "Providence",
+   "address": "230 Waterman Street",
+   "appearances": 16,
+   "plat": "15",
+   "lots": "495"
+  },
+  {
+   "id": 559,
+   "city": "Newport",
+   "address": "525 Broadway",
+   "appearances": 15,
+   "plat": "6",
+   "lots": "1,352"
+  },
+  {
+   "id": 826,
+   "city": "Providence",
+   "address": "215 BROADWAY",
+   "appearances": 15,
+   "plat": "28",
+   "lots": "260"
+  },
+  {
+   "id": 604,
+   "city": "Providence",
+   "address": "327 ELMWOOD AVENUE",
+   "appearances": 14,
+   "plat": "49",
+   "lots": "603"
+  },
+  {
+   "id": 827,
+   "city": "Providence",
+   "address": "381 Angell St",
+   "appearances": 14,
+   "plat": "14",
+   "lots": "531"
+  },
+  {
+   "id": 859,
+   "city": "Providence",
+   "address": "209 Fountain St",
+   "appearances": 14,
+   "plat": "25",
+   "lots": "116,436"
+  },
+  {
+   "id": 499,
+   "city": "Providence",
+   "address": "45 Parade Street",
+   "appearances": 13,
+   "plat": "35",
+   "lots": "596"
+  },
+  {
+   "id": 612,
+   "city": "Providence",
+   "address": "659 – 663 Admiral Street",
+   "appearances": 13,
+   "plat": "123",
+   "lots": "165,166,171"
+  },
+  {
+   "id": 677,
+   "city": "Providence",
+   "address": "75 EAST ST",
+   "appearances": 13,
+   "plat": "17",
+   "lots": "650"
+  },
+  {
+   "id": 521,
+   "city": "Cranston",
+   "address": "35 Lake Street",
+   "appearances": 12,
+   "plat": null,
+   "lots": null
+  },
+  {
+   "id": 673,
+   "city": "Providence",
+   "address": "153-165 Gano Street",
+   "appearances": 12,
+   "plat": "14",
+   "lots": "601,602,603,604"
+  },
+  {
+   "id": 519,
+   "city": "Cranston",
+   "address": "235 Beckwith Street",
+   "appearances": 11,
+   "plat": "6",
+   "lots": "329,332"
+  },
+  {
+   "id": 675,
+   "city": "Providence",
+   "address": "311 Knight Street",
+   "appearances": 11,
+   "plat": "32",
+   "lots": "49,420,472"
+  },
+  {
+   "id": 728,
+   "city": "Providence",
+   "address": "400 West Fountain Street",
+   "appearances": 11,
+   "plat": "29",
+   "lots": "524"
+  }
+ ],
+ "field_coverage": [
+  {
+   "field": "address",
+   "n": 395,
+   "pct": 98.5
+  },
+  {
+   "field": "description",
+   "n": 401,
+   "pct": 100.0
+  },
+  {
+   "field": "latitude",
+   "n": 388,
+   "pct": 96.8
+  },
+  {
+   "field": "applicant_entity",
+   "n": 310,
+   "pct": 77.3
+  },
+  {
+   "field": "developer",
+   "n": 354,
+   "pct": 88.3
+  },
+  {
+   "field": "asset_class",
+   "n": 258,
+   "pct": 64.3
+  },
+  {
+   "field": "stage_heard",
+   "n": 323,
+   "pct": 80.5
+  },
+  {
+   "field": "stage_confirmed",
+   "n": 0,
+   "pct": 0.0
+  },
+  {
+   "field": "case_number",
+   "n": 156,
+   "pct": 38.9
+  },
+  {
+   "field": "zoning_district_raw",
+   "n": 186,
+   "pct": 46.4
+  },
+  {
+   "field": "residential_units",
+   "n": 113,
+   "pct": 28.2
+  },
+  {
+   "field": "total_gsf",
+   "n": 95,
+   "pct": 23.7
+  },
+  {
+   "field": "commercial_gsf",
+   "n": 0,
+   "pct": 0.0
+  },
+  {
+   "field": "site_acreage",
+   "n": 44,
+   "pct": 11.0
+  },
+  {
+   "field": "parking_spaces",
+   "n": 35,
+   "pct": 8.7
+  },
+  {
+   "field": "num_stories",
+   "n": 18,
+   "pct": 4.5
+  },
+  {
+   "field": "building_height_ft",
+   "n": 0,
+   "pct": 0.0
+  },
+  {
+   "field": "building_count",
+   "n": 8,
+   "pct": 2.0
+  },
+  {
+   "field": "assessor_plat",
+   "n": 359,
+   "pct": 89.5
+  },
+  {
+   "field": "assessor_lots",
+   "n": 359,
+   "pct": 89.5
+  },
+  {
+   "field": "review_scale",
+   "n": 283,
+   "pct": 70.6
+  },
+  {
+   "field": "adaptive_reuse",
+   "n": 6,
+   "pct": 1.5
+  },
+  {
+   "field": "expected_delivery",
+   "n": 0,
+   "pct": 0.0
+  },
+  {
+   "field": "architect",
+   "n": 0,
+   "pct": 0.0
+  },
+  {
+   "field": "neighborhood",
+   "n": 335,
+   "pct": 83.5
+  },
+  {
+   "field": "owner_or_agency",
+   "n": 1,
+   "pct": 0.2
+  }
+ ]
+}

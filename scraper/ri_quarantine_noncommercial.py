@@ -61,6 +61,10 @@ EXCLUDE = {
     807: "dimensional variance for an 8ft fence enclosing an internal courtyard",
     847: "single-family dwelling, R-1 residential and historic district",
     860: "homeowner's fence height variance, R-3 residential and historic overlay",
+    # Found by the pipeline report: not a filing at all. The "address" is the
+    # name of Cranston's comprehensive plan and the text is a speaker's views
+    # on density at a plan hearing.
+    534: "not a project: discussion of Cranston's 2030 comprehensive plan",
 }
 
 # Reviewed and deliberately NOT excluded.

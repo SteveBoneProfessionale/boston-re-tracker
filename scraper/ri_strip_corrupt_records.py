@@ -36,6 +36,10 @@ CORRUPT = {
     885: "address is the prose fragment '57 units. The main point'",
     892: "address is '2021 Page', cut from 'Regular hearing of November 9, 2021 Page 2'",
     896: "address is '2019 Page', the same OCR'd-minutes failure",
+    # Found by the pipeline report. Same principle: the address is a sentence
+    # fragment, so nothing extracted alongside it can be trusted.
+    695: "address is the prose fragment '20 feet of a main street', cut from an ordinance sentence",
+    900: "address is '10616 Ward', a docket or ward number rather than a street address",
 }
 
 # Everything derived from the mis-segmented text. Address, description,
