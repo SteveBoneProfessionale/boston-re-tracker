@@ -57,9 +57,21 @@ log = logging.getLogger(__name__)
 
 # "twenty-nine (29) proposed residential units" -> 29. The parenthesised
 # numeral is authoritative; the spelled-out form is ignored.
+# The noun is not always "unit": agendas write "22 apartments", "14 new
+# condominium units", "23 unit apartment building". Requiring the literal
+# word "units" missed roughly half the projects whose count IS stated.
+# LOTS are deliberately excluded -- "44 lots for single-family residential
+# use" is a subdivision count, not a unit count, and conflating the two would
+# overstate the pipeline.
+_UNIT_ADJ = (r"(?:new|proposed|additional|affordable|residential|rental|total|"
+             r"market[- ]rate|multi-?family|one[- ]bedroom|two[- ]bedroom|"
+             r"three[- ]bedroom|senior|workforce)")
+_UNIT_NOUN = (r"(?:dwelling\s+units?|residential\s+units?|apartment\s+units?|"
+              r"condominium\s+units?|units?|apartments?|condominiums?|"
+              r"townhous(?:es|e)|dwellings?|residences?)")
 _UNITS = re.compile(
-    r"(?:\((\d{1,4})\)|\b(\d{1,4}))\s*(?:proposed\s+)?"
-    r"(?:residential|dwelling|apartment|multi-?family)?\s*units?\b", re.I)
+    r"(?:\((\d{1,4})\)|\b(\d{1,4}))\s*(?:" + _UNIT_ADJ + r"\s+){0,3}" + _UNIT_NOUN + r"\b",
+    re.I)
 _PARKING = re.compile(
     r"(?:\((\d{1,4})\)|\b(\d{1,4}))\s*(?:off-?street\s+|surface\s+|structured\s+)?"
     r"parking\s+spaces?\b", re.I)
@@ -73,10 +85,18 @@ _BUILDINGS = re.compile(r"(?:\((\d{1,3})\)|\b(\d{1,3}))\s*(?:new\s+)?buildings?\
 _ADAPTIVE = re.compile(r"adaptive\s+reuse|conversion of the existing|"
                        r"redevelopment of the existing building|former mill", re.I)
 # "zoned Conant Thread (CT)" / "in the C-2 zone" / "R-10 Residential"
+# Zoning is stated in several shapes across the five cities:
+#   "zoned Riverfront Mixed-Use (RD3)"   "in the R-10 zone"
+#   "located within the Riverfront Tidewater (RTW) zoning district"
+#   "TAP 6, Lot 1, R-10 Residential"     "Zoning District: B-2"   "zoned A-80"
+# Only three of those shapes were matched, which is why zoning sat at 42%.
 _ZONING = re.compile(
-    r"zoned\s+([A-Z][\w\s\-/]{1,34}?\([A-Z0-9\-]{1,6}\))"
+    r"zoned\s+([A-Za-z][\w\s\-/]{1,34}?\([A-Z0-9\-]{1,6}\))"
+    r"|(?:located\s+)?with?in\s+the\s+([A-Za-z][\w\s\-/]{1,30}?\([A-Z0-9\-]{1,6}\))\s*zon"
     r"|in\s+the\s+([A-Z]{1,3}-?\d{0,2})\s+zone\b"
-    r"|,\s*([A-Z]{1,3}-\d{1,2})\s+(?:Residential|Commercial|Industrial|Business)\b", re.I)
+    r"|zoning\s+district\s*[:\-]?\s*([A-Z]{1,3}-?\d{1,3})\b"
+    r"|,\s*([A-Z]{1,3}-\d{1,2})\s+(?:Residential|Commercial|Industrial|Business)\b"
+    r"|\bzoned\s+([A-Z]{1,3}-\d{1,3})\b", re.I)
 
 _VOTE_TAKEN = re.compile(r"\(\s*VOTE\s+TAKEN\s*\)", re.I)
 _NO_VOTE = re.compile(r"\(\s*NO\s+VOTE(?:\s+TAKEN)?\s*\)|informational|discussion only", re.I)
