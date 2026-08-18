@@ -2524,6 +2524,7 @@
    "status_searched": "rdbActive"
   },
   "ADRIAN DALOMBA AND KYLE BELL": null,
+  "ADRIENNE GAGNON": null,
   "AE128 WAYLAND LLC": {
    "address": "125 CARLSBAD ST CRANSTON, RI  02920  USA",
    "fein": "001764613",
@@ -2777,6 +2778,15 @@
    "name": "COLLEGE HILL DEVELOPMENT, LLC",
    "status_searched": "rdbActive"
   },
+  "COMMUNITY LIBRARIES OF PROVIDENCE": {
+   "address": "P.O. BOX 9267 PROVIDENCE, RI  02940  USA",
+   "fein": "000487017",
+   "inactive": "",
+   "match": "exact",
+   "naics": "519120",
+   "name": "Community Libraries of Providence",
+   "status_searched": "rdbActive"
+  },
   "COMMUNITY MUSIC WORKS": {
    "address": "1326 WESTMINSTER STREET PROVIDENCE, RI  02909  USA",
    "fein": "000108091",
@@ -2820,6 +2830,15 @@
    "match": "exact",
    "naics": "531110",
    "name": "Curtis Point Realty, LLC",
+   "status_searched": "rdbActive"
+  },
+  "D.E. FOODS, INC": {
+   "address": "101 ACCORD PARK DRIVE SUITE 104 NORWELL, MA  02061  USA",
+   "fein": "001731120",
+   "inactive": "",
+   "match": "exact",
+   "naics": "722513",
+   "name": "D. E. FOODS, LLC",
    "status_searched": "rdbActive"
   },
   "DAN HORNBY C/O 133 COURTLAND STREET LLC": null,
@@ -2883,6 +2902,15 @@
    "match": "near-miss",
    "naics": "531390",
    "name": "E2000 REALTY, LLC",
+   "status_searched": "rdbActive"
+  },
+  "EASTERN PLUMBING LLC": {
+   "address": "395 EXETER ROAD NORTH KINGSTOWN, RI  02852  USA",
+   "fein": "000088775",
+   "inactive": "",
+   "match": "exact",
+   "naics": "221122",
+   "name": "EASTERN PLUMBING COMPANY",
    "status_searched": "rdbActive"
   },
   "EDUCATIONAL CENTER OF ARTS & SCIENCE, INC": {
@@ -3168,6 +3196,7 @@
   "JOHN EDWARD QUATTROCHI": null,
   "JOHN GARRAHY": null,
   "JOSE AMADO DURAM CASTILLO": null,
+  "JOSE GALAVIZ": null,
   "JOSE SANCHEZ": null,
   "JOSEPH COLALUCA": null,
   "JOSEPH COLALUCA C/O ADMIRAL PROPERTIES LLC": null,
@@ -3404,6 +3433,7 @@
    "status_searched": "rdbActive"
   },
   "MICHAEL MCVICKER AND IAN SLATER": null,
+  "MICHAEL R. OLIVIA": null,
   "MICHAEL SALVATORE": null,
   "MINERAL ENTERPRISES, INC.": {
    "address": "383 SMITHFIELD AVENUE PAWTUCKET, RI  02860  USA",
@@ -3455,6 +3485,15 @@
    "name": "Narragansett Bay Commission",
    "status_searched": "rdbActive"
   },
+  "NARRAGANSETT ELECTRIC COMPANY": {
+   "address": "280 MELROSE STREET PROVIDENCE, RI  02907  USA",
+   "fein": "000078582",
+   "inactive": "",
+   "match": "near-miss",
+   "naics": "",
+   "name": "The Narragansett Electric Company",
+   "status_searched": "rdbActive"
+  },
   "NATIONAL DEVELOPMENT GROUP INC": {
    "address": "528 SMITHFIELD ROAD, UNIT 310 NORTH PROVIDENCE, RI  02904  USA",
    "fein": "000007222",
@@ -3483,6 +3522,15 @@
    "naics": "236118",
    "name": "NKC Investments, LLC",
    "status_searched": "rdbActive"
+  },
+  "NO SMALL FEAT, LLC": {
+   "address": "134 IVES STREET PROVIDENCE, RI  02906  USA",
+   "fein": "001728161",
+   "inactive": "Dissolved",
+   "match": "exact",
+   "naics": "531120",
+   "name": "No Small Feat LLC",
+   "status_searched": "rdbInactive"
   },
   "NORTH EAST OFFSHORE LLC": {
    "address": "399 BOYLSTON STREET, 12TH FLOOR BOSTON, MA  02116  USA",
@@ -3530,6 +3578,15 @@
    "status_searched": "rdbActive"
   },
   "OGN LLC": {
+   "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+   "fein": "001684204",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531390",
+   "name": "OGN, LLC",
+   "status_searched": "rdbActive"
+  },
+  "OGN, LLC": {
    "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
    "fein": "001684204",
    "inactive": "",
@@ -3590,6 +3647,8 @@
    "name": "Pennrose, LLC",
    "status_searched": "rdbActive"
   },
+  "PETER FRIEDRICHS": null,
+  "PETER KAMMERER": null,
   "PIEDMONT PROPERTIES LLC": {
    "address": "99 HINES FARM ROAD CRANSTON, RI  02921  USA",
    "fein": "001657006",
@@ -3609,6 +3668,7 @@
    "status_searched": "rdbActive"
   },
   "PMP GROUP LLC \u2013 CONTINUED TO THE AUGUST 18 MEETING AT THE APPLICANT\u2019S REQUEST": null,
+  "PRAISE TABERNACLE CHURCH": null,
   "PRESTIGE REALTY LLC": {
    "address": "72 TOMAHAWK TRAIL CRANSTON, RI  02921  USA",
    "fein": "001784401",
@@ -3683,6 +3743,15 @@
    "name": "ProvPort, Inc.",
    "status_searched": "rdbActive"
   },
+  "PSS DEVELOPMENT, LLC": {
+   "address": "7 COLUMBIA TERRACE, UNIT 2. BROOKLINE, MA 02446, # BROOKLINE, MA  02446  USA",
+   "fein": "001698441",
+   "inactive": "Revoked Entity",
+   "match": "exact",
+   "naics": "",
+   "name": "PSS Development, LLC",
+   "status_searched": "rdbInactive"
+  },
   "PVD LLC": {
    "address": "244 WEYBOSSET STREET PROVIDENCE, RI  02903  USA",
    "fein": "001725568",
@@ -3690,6 +3759,15 @@
    "match": "exact",
    "naics": "531311",
    "name": "PVD LLC",
+   "status_searched": "rdbActive"
+  },
+  "RAB PROPERTIES, LLC": {
+   "address": "1052 N MAIN STREET PROVIDENCE, RI  02904  USA",
+   "fein": "000160895",
+   "inactive": "",
+   "match": "exact",
+   "naics": "531311",
+   "name": "RAB PROPERTIES, LLC",
    "status_searched": "rdbActive"
   },
   "RED FOX 11T. .. 1TY LLC": null,
@@ -3970,6 +4048,15 @@
    "name": "Thomas Becket Foundation",
    "status_searched": "rdbActive"
   },
+  "THOMAS BECKET FOUNDATION": {
+   "address": "51 PROSPECT ST. PROVIDENCE, RI  02906  USA",
+   "fein": "000027151",
+   "inactive": "",
+   "match": "exact",
+   "naics": "813110",
+   "name": "Thomas Becket Foundation",
+   "status_searched": "rdbActive"
+  },
   "THOMAS MORGAN": null,
   "TOBEY STREET LLC": {
    "address": "244 WEYBOSSET STREET PROVIDENCE, RI  02903  USA",
@@ -4073,6 +4160,7 @@
    "status_searched": "rdbActive"
   },
   "YANET SUERO": null,
+  "YORDY LECLERC": null,
   "YWCA RHODE ISLAND": {
    "address": "514 BLACKSTONE STREET WOONSOCKET, RI  02895  USA",
    "fein": "000030749",
@@ -4243,6 +4331,13 @@
   },
   "ADRIAN DALOMBA AND KYLE BELL": {
    "applicant": "Adrian Dalomba and Kyle Bell",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "ADRIENNE GAGNON": {
+   "applicant": "ADRIENNE GAGNON",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -4738,6 +4833,21 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "COMMUNITY LIBRARIES OF PROVIDENCE": {
+   "applicant": "COMMUNITY LIBRARIES OF PROVIDENCE",
+   "confidence": "self",
+   "developer": "Community Libraries of Providence",
+   "evidence": {
+    "entity": {
+     "address": "P.O. BOX 9267 PROVIDENCE, RI  02940  USA",
+     "id": "000487017",
+     "match": "exact",
+     "naics": "519120",
+     "name": "Community Libraries of Providence"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
   "COMMUNITY MUSIC WORKS": {
    "applicant": "Community Music Works",
    "confidence": null,
@@ -4812,6 +4922,21 @@
     }
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "D.E. FOODS, INC": {
+   "applicant": "D.E. FOODS, INC",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "entity": {
+     "address": "101 ACCORD PARK DRIVE SUITE 104 NORWELL, MA  02061  USA",
+     "id": "001731120",
+     "match": "exact",
+     "naics": "722513",
+     "name": "D. E. FOODS, LLC"
+    }
+   },
+   "reason": "registry match D. E. FOODS, LLC is a LLC but the applicant is a CORP \u2014 a different legal entity, not a match"
   },
   "DAN HORNBY C/O 133 COURTLAND STREET LLC": {
    "applicant": "Dan Hornby c/o 133 Courtland Street LLC",
@@ -4965,6 +5090,21 @@
     }
    },
    "reason": "no exact name match in the registry (closest: E2000 REALTY, LLC) \u2014 attributing to a similarly-named entity would be a guess"
+  },
+  "EASTERN PLUMBING LLC": {
+   "applicant": "EASTERN PLUMBING LLC",
+   "confidence": "self",
+   "developer": "Eastern Plumbing Company",
+   "evidence": {
+    "entity": {
+     "address": "395 EXETER ROAD NORTH KINGSTOWN, RI  02852  USA",
+     "id": "000088775",
+     "match": "exact",
+     "naics": "221122",
+     "name": "EASTERN PLUMBING COMPANY"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
   "EDUCATIONAL CENTER OF ARTS & SCIENCE, INC": {
    "applicant": "EDUCATIONAL CENTER OF ARTS & SCIENCE, INC",
@@ -5525,6 +5665,13 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "JOSE GALAVIZ": {
+   "applicant": "JOSE GALAVIZ",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "JOSE SANCHEZ": {
    "applicant": "Jose Sanchez",
    "confidence": null,
@@ -6058,6 +6205,13 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "MICHAEL R. OLIVIA": {
+   "applicant": "MICHAEL R. OLIVIA",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "MICHAEL SALVATORE": {
    "applicant": "MICHAEL SALVATORE",
    "confidence": null,
@@ -6168,6 +6322,21 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "NARRAGANSETT ELECTRIC COMPANY": {
+   "applicant": "NARRAGANSETT ELECTRIC COMPANY",
+   "confidence": null,
+   "developer": null,
+   "evidence": {
+    "entity": {
+     "address": "280 MELROSE STREET PROVIDENCE, RI  02907  USA",
+     "id": "000078582",
+     "match": "near-miss",
+     "naics": "",
+     "name": "The Narragansett Electric Company"
+    }
+   },
+   "reason": "no exact name match in the registry (closest: The Narragansett Electric Company) \u2014 attributing to a similarly-named entity would be a guess"
+  },
   "NATIONAL DEVELOPMENT GROUP INC": {
    "applicant": "National Development Group Inc",
    "confidence": "self",
@@ -6223,6 +6392,21 @@
      "match": "exact",
      "naics": "236118",
      "name": "NKC Investments, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "NO SMALL FEAT, LLC": {
+   "applicant": "NO SMALL FEAT, LLC",
+   "confidence": "self",
+   "developer": "No Small Feat LLC",
+   "evidence": {
+    "entity": {
+     "address": "134 IVES STREET PROVIDENCE, RI  02906  USA",
+     "id": "001728161",
+     "match": "exact",
+     "naics": "531120",
+     "name": "No Small Feat LLC"
     }
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
@@ -6289,6 +6473,21 @@
   },
   "OGN LLC": {
    "applicant": "OGN LLC",
+   "confidence": "self",
+   "developer": "OGN, LLC",
+   "evidence": {
+    "entity": {
+     "address": "1140 RESERVOIR AVENUE CRANSTON, RI  02920  USA",
+     "id": "001684204",
+     "match": "exact",
+     "naics": "531390",
+     "name": "OGN, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "OGN, LLC": {
+   "applicant": "OGN, LLC",
    "confidence": "self",
    "developer": "OGN, LLC",
    "evidence": {
@@ -6426,6 +6625,20 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "PETER FRIEDRICHS": {
+   "applicant": "PETER FRIEDRICHS",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "PETER KAMMERER": {
+   "applicant": "PETER KAMMERER",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
   "PIEDMONT PROPERTIES LLC": {
    "applicant": "Piedmont Properties LLC",
    "confidence": "self",
@@ -6443,6 +6656,13 @@
   },
   "PMP GROUP LLC \u2013 CONTINUED TO THE AUGUST 18 MEETING AT THE APPLICANT\u2019S REQUEST": {
    "applicant": "PMP Group LLC \u2013 continued to the August 18 meeting at the applicant\u2019s request",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "PRAISE TABERNACLE CHURCH": {
+   "applicant": "PRAISE TABERNACLE CHURCH",
    "confidence": null,
    "developer": null,
    "evidence": {},
@@ -6567,6 +6787,21 @@
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
   },
+  "PSS DEVELOPMENT, LLC": {
+   "applicant": "PSS DEVELOPMENT, LLC",
+   "confidence": "self",
+   "developer": "PSS Development, LLC",
+   "evidence": {
+    "entity": {
+     "address": "7 COLUMBIA TERRACE, UNIT 2. BROOKLINE, MA 02446, # BROOKLINE, MA  02446  USA",
+     "id": "001698441",
+     "match": "exact",
+     "naics": "",
+     "name": "PSS Development, LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
   "PVD LLC": {
    "applicant": "PVD LLC",
    "confidence": "self",
@@ -6578,6 +6813,21 @@
      "match": "exact",
      "naics": "531311",
      "name": "PVD LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
+  "RAB PROPERTIES, LLC": {
+   "applicant": "RAB PROPERTIES, LLC",
+   "confidence": "self",
+   "developer": "RAB Properties, LLC",
+   "evidence": {
+    "entity": {
+     "address": "1052 N MAIN STREET PROVIDENCE, RI  02904  USA",
+     "id": "000160895",
+     "match": "exact",
+     "naics": "531311",
+     "name": "RAB PROPERTIES, LLC"
     }
    },
    "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
@@ -7158,6 +7408,21 @@
    },
    "reason": "no exact name match in the registry (closest: Thomas Becket Foundation) \u2014 attributing to a similarly-named entity would be a guess"
   },
+  "THOMAS BECKET FOUNDATION": {
+   "applicant": "THOMAS BECKET FOUNDATION",
+   "confidence": "self",
+   "developer": "Thomas Becket Foundation",
+   "evidence": {
+    "entity": {
+     "address": "51 PROSPECT ST. PROVIDENCE, RI  02906  USA",
+     "id": "000027151",
+     "match": "exact",
+     "naics": "813110",
+     "name": "Thomas Becket Foundation"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
   "THOMAS MORGAN": {
    "applicant": "Thomas Morgan",
    "confidence": null,
@@ -7267,6 +7532,21 @@
    "evidence": {},
    "reason": "not found in the RI Corporate Database"
   },
+  "WEST BAY, LLC": {
+   "applicant": "WEST BAY, LLC",
+   "confidence": "self",
+   "developer": "WEST BAY LLC",
+   "evidence": {
+    "entity": {
+     "address": "1414 ATWOOD AVENUE JOHNSTON, RI  02919  USA",
+     "id": "000731573",
+     "match": "exact",
+     "naics": "531110",
+     "name": "WEST BAY LLC"
+    }
+   },
+   "reason": "applicant is itself a registered operating company; the registry names no separate sponsor"
+  },
   "WEST BROADWAY NEIGHBORHOOD ASSOCIATION": {
    "applicant": "West Broadway Neighborhood Association",
    "confidence": "self",
@@ -7349,6 +7629,13 @@
   },
   "YANET SUERO": {
    "applicant": "YANET SUERO",
+   "confidence": null,
+   "developer": null,
+   "evidence": {},
+   "reason": "not found in the RI Corporate Database"
+  },
+  "YORDY LECLERC": {
+   "applicant": "YORDY LECLERC",
    "confidence": null,
    "developer": null,
    "evidence": {},

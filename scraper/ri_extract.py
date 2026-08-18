@@ -69,9 +69,15 @@ _UNIT_ADJ = (r"(?:new|proposed|additional|affordable|residential|rental|total|"
 _UNIT_NOUN = (r"(?:dwelling\s+units?|residential\s+units?|apartment\s+units?|"
               r"condominium\s+units?|units?|apartments?|condominiums?|"
               r"townhous(?:es|e)|dwellings?|residences?)")
+# The digits must not be the tail of a DECIMAL. Cranston's Future Land Use Map
+# reads "Single Family Residential Less Than 10.89 unit per acre", and without
+# this guard the 89 was read as a unit count -- the same phantom 89 landed on
+# seven unrelated Cranston addresses.
 _UNITS = re.compile(
-    r"(?:\((\d{1,4})\)|\b(\d{1,4}))\s*(?:" + _UNIT_ADJ + r"\s+){0,3}" + _UNIT_NOUN + r"\b",
+    r"(?:\((\d{1,4})\)|(?<![\d.])(\d{1,4}))\s*(?:" + _UNIT_ADJ + r"\s+){0,3}" + _UNIT_NOUN + r"\b",
     re.I)
+# A DENSITY statement is zoning, not a program: "11.8 units per acre".
+_PER_ACRE = re.compile(r"\bunits?\s+per\s+acre\b", re.I)
 _PARKING = re.compile(
     r"(?:\((\d{1,4})\)|\b(\d{1,4}))\s*(?:off-?street\s+|surface\s+|structured\s+)?"
     r"parking\s+spaces?\b", re.I)
@@ -227,13 +233,21 @@ _STORAGE_CTX = re.compile(
 
 
 def residential_units(text: str):
-    """Dwelling count. Returns None when the units are storage units."""
-    m = _UNITS.search(text or "")
+    """Dwelling count, or None when the number is not a dwelling count.
+
+    Two things that look like unit counts and are not:
+      * a zoning DENSITY -- "Single Family Residential Less Than 10.89 unit
+        per acre", "the proposed density is 11.8 units per acre"
+      * SELF-STORAGE units -- a 605-unit storage building is not 605 homes
+    """
+    t = text or ""
+    m = _UNITS.search(t)
     if not m:
         return None
-    if _STORAGE_CTX.search(text or ""):
-        # Only a dwelling word in the same phrase rescues it.
-        span = text[max(0, m.start() - 40):m.end() + 40]
+    if _PER_ACRE.search(t[max(0, m.start() - 25):m.end() + 30]):
+        return None
+    if _STORAGE_CTX.search(t):
+        span = t[max(0, m.start() - 40):m.end() + 40]
         if not re.search(r"dwelling|apartment|residential|condominium|"
                          r"townhous|bedroom", span, re.I):
             return None

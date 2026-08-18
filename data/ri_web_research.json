@@ -173,7 +173,10 @@
   "Providence|49 Westfield Street": "Stedman Lofts confirmed by the city staff report (63 units, 17,200 sf commercial), but only one qualifying domain and the applicant string already names K&S Development. Our 12 units conflicts with the 63 proposed; flagged.",
   "Providence|1107 Westminster Street": "City CPC documents describe the apartments and parking but name no sponsor beyond the shell 1107 Westminster LLC.",
   "Providence|3569 \u2013 64 America Street": "No development coverage for this address.",
-  "Providence|3516 \u2013 125 Tobey Street": "A rezoning petition exists on the city site but names no sponsor beyond the shell Tobey Street LLC."
+  "Providence|3516 \u2013 125 Tobey Street": "A rezoning petition exists on the city site but names no sponsor beyond the shell Tobey Street LLC.",
+  "Providence|219 Waterman Street": "16 units, completed 2022 -- our unit count matches. No reputable source names a developer; only rental listings. Completion is a stale-stage item.",
+  "Providence|45 Parade Street": "No coverage. Nearby Park View is 31 Parade Street, a different address.",
+  "Providence|203 Douglas Ave": "Only listing sites. Applicant PMP Group LLC already on the record; no operating company disclosed."
  },
  "Warwick|455 Toll gate Rd": {
   "developer": "Kent County Memorial Hospital",
@@ -642,6 +645,105 @@
     "url": "https://www.wpri.com/news/local-news/providence/providence-developer-looks-to-build-affordable-apartment-complex-on-evergreen-street-lot/",
     "address_sentence": "A developer purchased an 8,000-square-foot lot on Evergreen Street and is looking to build 58 apartment units.",
     "developer_sentence": "The project is proposed by Kevin Diamond and Dustin Dezube, principals in Providence Architecture and Building Company."
+   }
+  ]
+ },
+ "Providence|946-1000 Westminster Street": {
+  "developer": "The Omni Group",
+  "method": "web_corroborated",
+  "note": "Redevelopment of the historic Citizens Bank property: three new three-level buildings of 16 apartments each plus 20 units in the bank annex. Also corroborates the Omni Group attribution at 870 Westminster, which had only one domain alone.",
+  "sources": [
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/new-apartments-proposed-for-historic-citizens-bank-property/",
+    "address_sentence": "Construction of three new three-level apartment buildings at 946-1000 Westminster St.",
+    "developer_sentence": "The West End project was submitted by the Omni Group."
+   },
+   {
+    "publisher": "The Boston Globe",
+    "domain": "bostonglobe.com",
+    "url": "https://www.bostonglobe.com/2025/09/25/metro/westminster-street-housing-project-ri/",
+    "address_sentence": "New apartment complex proposed for Providence's West End on Westminster Street.",
+    "developer_sentence": "The Omni Group is the developer behind the Westminster Street housing project."
+   }
+  ]
+ },
+ "Providence|269 Wickenden Street": {
+  "developer": "Providence Architecture and Building Company",
+  "method": "web_corroborated",
+  "note": "Dustin Dezube and Kevin Diamond, trading also as The Providence Group. Unit count moved 62 -> 74 -> 75 across iterations. CONTESTED: a judge struck down the preliminary plan approval on Dec 2 over the administrative modification treating the site as a 10,000 sf lot. Flagged for the cleanup report, not written to stage.",
+  "sources": [
+   {
+    "publisher": "The Public's Radio",
+    "domain": "thepublicsradio.org",
+    "url": "https://thepublicsradio.org/metro-desk/developer-updates-plans-for-269-wickenden/",
+    "address_sentence": "Revised plans for an apartment complex at 269 Wickenden Street.",
+    "developer_sentence": "Providence developers Dustin Dezube and Kevin Diamond with the Providence Group submitted the revised plans."
+   },
+   {
+    "publisher": "Providence Preservation Society",
+    "domain": "ppsri.org",
+    "url": "https://ppsri.org/269-wickenden-passes-hurdle-cpc-grants-conditional-preliminary-plan-approval/",
+    "address_sentence": "269 Wickenden passes hurdle: CPC grants conditional preliminary plan approval.",
+    "developer_sentence": "The applicant team is Providence Living / the Providence Group."
+   }
+  ]
+ },
+ "Providence|153-165 Gano Street": {
+  "developer": "Bahman Jalili",
+  "method": "web_corroborated",
+  "note": "Four five-story buildings, 132 units across four lots on the easterly side of Gano Street. Marketed as 'The Landing at Gano'. Our stored GSF of 10,000 looks like one lot rather than the building; flagged.",
+  "sources": [
+   {
+    "publisher": "City of Providence (CPC submission)",
+    "domain": "providenceri.gov",
+    "url": "https://www.providenceri.gov/planning/city-plan-commission-cpc/22-008mi-153-165-gano-street-submission-materials/",
+    "address_sentence": "22-008MI, 153-165 Gano Street submission materials.",
+    "developer_sentence": "Applicant materials filed for the Gano Street apartment buildings."
+   },
+   {
+    "publisher": "GoLocalProv",
+    "domain": "golocalprov.com",
+    "url": "https://www.golocalprov.com/business/deja-vu-all-over-again-gano-street-apartments-architecture-critic-morgan",
+    "address_sentence": "Plans for four five-story buildings with 132 residential units on Gano Street.",
+    "developer_sentence": "Proposed by Fox Point developer Bahman Jalili."
+   }
+  ]
+ },
+ "Providence|27 East River Street": {
+  "developer": "Providence Architecture and Building Company",
+  "method": "web_corroborated",
+  "note": "Approximately 275 units, nine storeys, ~$90M, on a 2.02-acre riverfront parcel bought by 27 East River LLC for $2.3M. Same principals as 269 Wickenden and 103 Evergreen -- Dustin Dezube and Kevin Diamond.",
+  "sources": [
+   {
+    "publisher": "The Boston Globe",
+    "domain": "bostonglobe.com",
+    "url": "https://www.bostonglobe.com/2024/07/03/metro/275-unit-luxury-apartment-building-proposed-providences-east-side-waterfront/",
+    "address_sentence": "A 275-unit apartment and condo building proposed for 27 East River St. on the East Side waterfront.",
+    "developer_sentence": "The project comes from Dustin Dezube and Kevin Diamond from Providence Architecture and Building Co."
+   },
+   {
+    "publisher": "The Providence Group",
+    "domain": "providencegroupri.com",
+    "url": "https://www.providencegroupri.com/our-projects-1/eastriver",
+    "address_sentence": "27 East River, Providence.",
+    "developer_sentence": "27 East River is a project of The Providence Group."
+   }
+  ]
+ },
+ "Providence|386 Atwells Ave": {
+  "developer": null,
+  "method": null,
+  "applicant_entity": "8 Hewitt Street LLC",
+  "note": "Four-storey mixed-use, 21 units over ground-floor commercial, approved Oct 2022. The applicant is recovered but is a shell named for a different street; no operating company is disclosed, so the developer stays null.",
+  "sources": [
+   {
+    "publisher": "Providence Business News",
+    "domain": "pbn.com",
+    "url": "https://pbn.com/proposed-21-unit-building-in-federal-hall-gets-plan-commissions-initial-approval/",
+    "address_sentence": "A four-story mixed-use development at 386 Atwells Avenue with 21 residential units.",
+    "developer_sentence": "The applicant is 8 Hewitt Street LLC."
    }
   ]
  }

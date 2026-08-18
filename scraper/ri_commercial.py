@@ -89,36 +89,50 @@ LAND_DEV_SUFFIX = re.compile(r"\b\d{2,4}-\d{2,4}\s*(MIL|MAL|MA|MI|UDR|DPR)\b", r
 
 
 def classify(description, units=None, asset_class=None, review_scale=None):
-    """(is_commercial, reason) for one project record."""
-    text = description or ""
+    """(is_commercial, reason) for one project record.
 
+    POSITIVE EVIDENCE IS CHECKED FIRST. A large project routinely mentions a
+    parking garage, a roof deck or a driveway, and testing minor-relief words
+    before development evidence threw the project out on the incidental word.
+    27 E River Street -- a 326-unit riverfront building -- was excluded as
+    "minor zoning relief" because its description mentions a parking garage.
+    A fence application still has no units, no commercial use and no land
+    development case, so it is still excluded further down.
+    """
+    text = description or ""
+    big = (units or 0) >= UNIT_FLOOR
+    commercial_use = bool(COMMERCIAL_USE.search(text))
+    land_dev = bool(review_scale in ("Major", "Minor") or LAND_DEV_CASE.search(text)
+                    or LAND_DEV_SUFFIX.search(text))
+
+    # 1 -- a real development project, whatever incidental features it mentions
+    if commercial_use and (big or land_dev or not SMALL_RESI.search(text)):
+        return True, "states a commercial use"
+    if big and not SMALL_RESI.search(text):
+        return True, f"{units} residential units (>= {UNIT_FLOOR})"
+    if land_dev and not SMALL_RESI.search(text) and not MINOR_RELIEF.search(text):
+        return True, "land development project / development plan review case"
+
+    # 2 -- minor relief, with no development evidence to outweigh it
     if MINOR_RELIEF.search(text):
         return False, "minor zoning relief, not a development project"
 
     if LOT_ONLY.search(text) and not CONSTRUCTION.search(text):
         return False, "lot-line action with no construction proposed"
 
-    # Small residential is out UNLESS the filing also states a commercial use
-    # or enough units to be income-producing -- "7 duplexes totaling 14 dwelling
-    # units" is a multifamily development even though it says "duplex".
     if SMALL_RESI.search(text):
-        if not (COMMERCIAL_USE.search(text) or (units or 0) >= UNIT_FLOOR):
+        if not (commercial_use or big):
             return False, "single/two-family residential"
 
-    if COMMERCIAL_USE.search(text):
-        return True, "states a commercial use"
-
-    if review_scale in ("Major", "Minor") or LAND_DEV_CASE.search(text)             or LAND_DEV_SUFFIX.search(text):
+    if land_dev:
         return True, "land development project / development plan review case"
-
-    if (units or 0) >= UNIT_FLOOR:
-        return True, f"{units} residential units (>= {UNIT_FLOOR})"
 
     if asset_class in {"Retail", "Office", "Industrial", "Hotel", "Lab/Research",
                        "Mixed-Use", "Institutional", "Parking"}:
         return True, f"asset class {asset_class}"
 
     return None, "use not stated in the filing"
+
 
 
 # Reviewing bodies whose docket is predominantly minor residential relief.
