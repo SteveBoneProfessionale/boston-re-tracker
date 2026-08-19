@@ -131,6 +131,11 @@ def render(df, city_label="Rhode Island"):
     d = df[df["city"].isin(RI_CITIES)].copy() if "city" in df.columns else df.copy()
     if city_label in RI_CITIES:
         d = d[d["city"] == city_label]
+    # Delivered buildings and dead applications stay in the table and the
+    # filters, but they are not pipeline and must not reach these counts.
+    delivered = d[d["stage"] == "Complete"] if "stage" in d.columns else d.iloc[0:0]
+    dead = d[d.get("project_status_filing", "").isin(["Withdrawn", "Denied"])]         if "project_status_filing" in d.columns else d.iloc[0:0]
+    d = d[~d.index.isin(delivered.index) & ~d.index.isin(dead.index)]
     if not len(d):
         _empty("No projects in this selection.")
         return
@@ -179,7 +184,9 @@ def render(df, city_label="Rhode Island"):
 
     st.markdown(
         '<div style="display:flex;gap:10px;margin-bottom:6px">'
-        + _tile("TOTAL PROJECTS", f"{n_total:,}", f"{city_label} · active pipeline")
+        + _tile("TOTAL PROJECTS", f"{n_total:,}",
+                f"{city_label} · pipeline only · {len(delivered)} delivered and "
+                f"{len(dead)} dead excluded")
         + _tile("RESIDENTIAL UNITS", f"{n_units:,}",
                 f"across {len(unit_rows)} of {n_total} projects stating a unit count", "#38bdf8")
         + _tile("FILED, LAST 12 MONTHS", f"{recent:,}", recent_sub, _ORANGE)

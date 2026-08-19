@@ -492,6 +492,8 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 # same strength of claim.
                 # The ACTION asked of the board, kept apart from the stage.
                 "filing_type": p.filing_type or "",
+                # Withdrawn or Denied. Dead is not pipeline either.
+                "project_status_filing": p.project_status_filing or "",
                 "completion_stage": p.completion_stage or "",
                 "completion_basis": p.completion_basis or "",
                 "completion_evidence": p.completion_evidence or "",
@@ -575,6 +577,23 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
             ]
             df["stage"] = [s for s, _ in resolved]
             df["stage_provisional"] = [p for _, p in resolved]
+
+            # A DELIVERY OVERRIDES THE FILING STATUS.
+            #
+            # resolve_stage() reads the status a board recorded, and a board
+            # stops recording once it has approved. So a building that opened
+            # in 2022 still resolves to "Approved" forever. Where a completion
+            # was established from a source OUTSIDE the planning documents --
+            # a certificate of occupancy, an assessor step change, an active
+            # leasing listing -- that is the later and better fact and it wins.
+            #
+            # Without this the completion work had no effect on any number:
+            # all 69 projects found to be built were still charted as
+            # Planning, Permitting or Approved, holding 5,350 units and 13.1M
+            # sq ft in the pipeline totals.
+            done = df["completion_stage"].isin(["Complete", "Under Construction"])
+            df.loc[done, "stage"] = df.loc[done, "completion_stage"]
+            df.loc[done, "stage_provisional"] = False
             # A row's financial fields (total_gsf, residential_units, etc.) are ready to
             # chart once extraction has run, OR immediately if the row came from a
             # structured-data pipeline that never needed extraction in the first place.
@@ -758,6 +777,19 @@ def summary_stats(df: pd.DataFrame, include_conditional: bool = False) -> dict:
     if not include_conditional and has_conditional_col:
         extracted = extracted[~extracted["conditional_alternative"]]
 
+    # PIPELINE EXCLUDES WHAT IS FINISHED OR DEAD.
+    #
+    # A delivered building and a withdrawn application are both real records
+    # worth keeping and filtering to, but neither is pipeline, and counting
+    # them inflates every headline. They stay in `extracted` -- and so in the
+    # table, the map and every chart -- and drop only out of the totals.
+    pipe = extracted
+    if "stage" in pipe.columns:
+        pipe = pipe[pipe["stage"] != "Complete"]
+    if "project_status_filing" in pipe.columns:
+        pipe = pipe[~pipe["project_status_filing"].isin(["Withdrawn", "Denied"])]
+    delivered = extracted[extracted["stage"] == "Complete"] if "stage" in extracted.columns         else extracted.iloc[0:0]
+
     # Stage counts drive the KPI cards -- computed from the SAME conditional-
     # filtered set as the SF/unit totals below, so every number on the
     # Overview tab toggles together. Every row has a stage (native status
@@ -777,7 +809,13 @@ def summary_stats(df: pd.DataFrame, include_conditional: bool = False) -> dict:
         "stage_counts": stage_counts,
         "stage_reconciles": sum(stage_counts.values()) + excluded_from_stages == len(df),
         "extracted": len(extracted),
-        "total_units": int(extracted["residential_units"].dropna().sum()),
-        "total_gsf": int(extracted["total_gsf"].dropna().sum()),
+        "total_units": int(pipe["residential_units"].dropna().sum()),
+        "total_gsf": int(pipe["total_gsf"].dropna().sum()),
+        "pipeline_projects": len(pipe),
+        # Delivered, reported alongside rather than folded in, so the pipeline
+        # number is clean and the delivered number is still available.
+        "delivered_projects": len(delivered),
+        "delivered_units": int(delivered["residential_units"].dropna().sum()),
+        "delivered_gsf": int(delivered["total_gsf"].dropna().sum()),
         "conditional_alternative_count": n_conditional,
     }
