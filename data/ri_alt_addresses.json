@@ -1,0 +1,305 @@
+[
+ {
+  "id": 558,
+  "city": "Newport",
+  "primary": "0 Van Zandt Avenue",
+  "alts": [
+   "0 Evarts Street"
+  ],
+  "heading": "; TAP 10, Lots 33, 225, 226, & 227 0 Van Zandt Avenue & 0 Evarts Street (nearest intersection is Van Zandt Ave & Malbone Rd) Application of BCM Realty Partners, LLC, "
+ },
+ {
+  "id": 566,
+  "city": "Newport",
+  "primary": "1 York Street",
+  "alts": [
+   "115 Girard Avenue"
+  ],
+  "heading": "1 York Street & 115 Girard Avenue; TAP 5, Lots 99 & 100 Application of the Newport Housing Authority and the State of Rhode Island, Department of Education to adjust the shared lot"
+ },
+ {
+  "id": 569,
+  "city": "Newport",
+  "primary": "221 Third Street",
+  "alts": [
+   "186 Admiral Kalbfus Road"
+  ],
+  "heading": "221 Third Street & 186 Admiral Kalbfus Road; TAP 4, Lot 73 Application of WRP Enterprises, Ltd. to subdivide one existing lot containing three existing commercial buildings into tw"
+ },
+ {
+  "id": 573,
+  "city": "Newport",
+  "primary": "25 Waites Wharf",
+  "alts": [
+   "20 West Extension St"
+  ],
+  "heading": "(Waites Wharf Hotel – North Lot) 25 Waites Wharf & 20 West Extension St., TAP 32, Lots 155 & 267 Waterfront Business Application of Harbour Realty, LLC, "
+ },
+ {
+  "id": 574,
+  "city": "Newport",
+  "primary": "16 Waites Wharf",
+  "alts": [
+   "23 Coddington Wharf"
+  ],
+  "heading": "(Waites Wharf Hotel – South Lot) 0, 1, & 16 Waites Wharf & 23 Coddington Wharf, TAP 32, Lots 248, 268, 272, & 293 Waterfront Business Application of Harbour Realty, LLC, "
+ },
+ {
+  "id": 585,
+  "city": "Warwick",
+  "primary": "2281 and 2279 West Shore Rd",
+  "alts": [
+   "2279 West Shore Rd"
+  ],
+  "heading": "ional Reflief requested zoning section 308.2.E No outdoor parking space or driveway within 15’ or residential building. Location: 2281 and 2279 West Shore Rd. Assessor’s Plat: 350 "
+ },
+ {
+  "id": 586,
+  "city": "Warwick",
+  "primary": "255, 265, and 281 Centerville Rd",
+  "alts": [
+   "281 Centerville Rd"
+  ],
+  "heading": "ndscape buffer at frontage (10’ required), 7.8’ proposed. Zone change is requested from Office/A10 to General Business. Location: 255, 265, and 281 Centerville Rd. Assessor’s Plat:"
+ },
+ {
+  "id": 589,
+  "city": "Warwick",
+  "primary": "1282 & 1288 Greenwich Ave",
+  "alts": [
+   "1288 Greenwich Ave"
+  ],
+  "heading": "nd Development–- Preliminary Application - Public Hearing Demolish existing buildings to create a Vetrinarian hospital. Location: 1282 & 1288 Greenwich Ave Assessor’s Plat: 245 Ass"
+ },
+ {
+  "id": 594,
+  "city": "Warwick",
+  "primary": "446, 480, and 482 Post Road, Warwick Avenue",
+  "alts": [
+   "482 Post Road"
+  ],
+  "heading": "Major Land Development Preliminary application stage 1. 446, 480, and 482 Post Road, Warwick Avenue Plan seeks to merge (3) three existing lots totaling 31,265 sf, to create (1) on"
+ },
+ {
+  "id": 595,
+  "city": "Warwick",
+  "primary": "327 Jefferson Blvd. and 0 Bay State Avenue",
+  "alts": [
+   "327 Jefferson Blvd",
+   "0 Bay State Avenue"
+  ],
+  "heading": "Combined Master-Plan/Preliminary Major Land Development 1. 327 Jefferson Blvd. and 0 Bay State Avenue "
+ },
+ {
+  "id": 602,
+  "city": "Warwick",
+  "primary": "0 Maple Street",
+  "alts": [
+   "71 Cypress Drive"
+  ],
+  "heading": "jor Land Development, Combined Master & Preliminary Application in accordance with Unified Development Review, project located at 0 Maple Street, (Plat 284, Lot 18, Plat 283, Lot 1"
+ },
+ {
+  "id": 612,
+  "city": "Providence",
+  "primary": "659 – 663 Admiral Street",
+  "alts": [
+   "22 Glocester Street"
+  ],
+  "heading": "Case No. 21-035MA – 659 – 663 Admiral Street and 22 Glocester Street "
+ },
+ {
+  "id": 628,
+  "city": "Providence",
+  "primary": "3575 – 176 Gano Street",
+  "alts": [
+   "38 Amy Street"
+  ],
+  "heading": "Referral no. 3575 – 176 Gano Street and 38 Amy Street "
+ },
+ {
+  "id": 643,
+  "city": "Providence",
+  "primary": "515 Prairie Ave",
+  "alts": [
+   "134-138 Gallup Street"
+  ],
+  "heading": "Referral No. 3541 – Rezoning of 515 Prairie Ave and 134-138 Gallup Street "
+ },
+ {
+  "id": 665,
+  "city": "Providence",
+  "primary": "116 Waterman Street",
+  "alts": [
+   "382 Brook Street"
+  ],
+  "heading": "Case No. 22-033MA – 116 Waterman Street and 382 Brook Street "
+ },
+ {
+  "id": 675,
+  "city": "Providence",
+  "primary": "311 Knight Street",
+  "alts": [
+   "1077 Westminster Street"
+  ],
+  "heading": "Case No. 19-051 UDR – 311 Knight Street, 321 Knight and 1077 Westminster Street "
+ },
+ {
+  "id": 690,
+  "city": "Providence",
+  "primary": "18 Marcello Street",
+  "alts": [
+   "25 Piedmont Street"
+  ],
+  "heading": "Referral 3497 – Rezoning of 18 Marcello Street and 25 Piedmont Street "
+ },
+ {
+  "id": 702,
+  "city": "Providence",
+  "primary": "288 Kinsley Ave",
+  "alts": [
+   "153 Harris Ave"
+  ],
+  "heading": "Case No. 19-058 MA – 288 Kinsley Ave. and 153 Harris Ave. "
+ },
+ {
+  "id": 734,
+  "city": "Providence",
+  "primary": "16-42 Somerset Street",
+  "alts": [
+   "17-27 Portland Street",
+   "34 Hayward Street"
+  ],
+  "heading": "Referral 3480 – 16-42 Somerset Street, 17-27 Portland Street and 34 Hayward Street Petitioners: Omni Development Corporation and Wingate Companies The petitioners are requesting to"
+ },
+ {
+  "id": 739,
+  "city": "Providence",
+  "primary": "50 Ashburton Street",
+  "alts": [
+   "36 Berlin Street"
+  ],
+  "heading": "Referral - 50 Ashburton Street Petitioners : Goulding Properties and EJS Investments Inc RESULT APPEARANCES: j . ACTION: Exhibits introduced at hearing: Motion to Approve by: Secon"
+ },
+ {
+  "id": 741,
+  "city": "Providence",
+  "primary": "200 Gordon Ave",
+  "alts": [
+   "445 Prairie Ave"
+  ],
+  "heading": "Case No. 19-007MI – 200 Gordon Ave and 445 Prairie Ave (Preliminary Plan) "
+ },
+ {
+  "id": 761,
+  "city": "Providence",
+  "primary": "759 Potters Ave",
+  "alts": [
+   "46 Benedict Ave"
+  ],
+  "heading": "Referral No. 3466 – Rezoning of 759 Potters Ave, 44 and 46 Benedict Ave "
+ },
+ {
+  "id": 767,
+  "city": "Providence",
+  "primary": "33 Bassett Street",
+  "alts": [
+   "41-45 Bassett Street",
+   "51 Bassett Street"
+  ],
+  "heading": "DRC Application No. 23.30: 33 Bassett Street – Public Hearing The subject of the hearing will be an application by Pebb Capital, requesting to demolish the existing structures loca"
+ },
+ {
+  "id": 768,
+  "city": "Providence",
+  "primary": "151-155 Chestnut Street",
+  "alts": [
+   "151 Chestnut Street",
+   "155 Chestnut Street"
+  ],
+  "heading": "DRC Application No. 19.36: 151-155 Chestnut Street – Public Hearing and Conceptual Design Review The subject of the hearing will be an application by Providence Chestnut 1, LLC, to"
+ },
+ {
+  "id": 770,
+  "city": "Providence",
+  "primary": "71-73 Richmond Street",
+  "alts": [
+   "81-85 Richmond Street"
+  ],
+  "heading": "DRC Application No. 21.27: 71-73 Richmond Street (Commercial Building, ca. 1924-1926) and 81-85 Richmond Street (Commercial Building, ca. 1889-1899) "
+ },
+ {
+  "id": 813,
+  "city": "Providence",
+  "primary": "362 Ives St",
+  "alts": [
+   "176 Waterman St"
+  ],
+  "heading": "WATERMAN AND IVES REALTY, LLC (Solicitante/Propietario): 362 Ives St + 176 Waterman St, Plat 14, lotes 353 + 326, ubicado en un distrito profesional residencial R-P. Solicitud de u"
+ },
+ {
+  "id": 880,
+  "city": "Warwick",
+  "primary": "425 West Shore Rd",
+  "alts": [
+   "1191 Greenwich Ave",
+   "14 Fourth Ave"
+  ],
+  "heading": "ve the petition, seconded by Julie Finn, and passed unanimously by the Board that the petition be GRANTED. Petition #11056 Ward 4 425 West Shore Rd. The petition of Café Namaste, L"
+ },
+ {
+  "id": 882,
+  "city": "Warwick",
+  "primary": "1689 Post Rd",
+  "alts": [
+   "2727 N. Central Ave"
+  ],
+  "heading": "ded by Constance Beck, and passed unanimously by the Board that the petition be GRANTED WITH STIPULATIONS. Petition #10833 Ward 3 1689 Post Rd. The petition of Crossroads Capital F"
+ },
+ {
+  "id": 888,
+  "city": "Warwick",
+  "primary": "6 Oakland Beach Ave",
+  "alts": [
+   "41 Rhode Island Ave"
+  ],
+  "heading": "nd passed unanimously by the Board that the petition be GRANTED. Regular hearing of December 14, 2021 Page 3 Petition #10760 Ward 6 Oakland Beach Ave. The petition of SG Associates"
+ },
+ {
+  "id": 889,
+  "city": "Warwick",
+  "primary": "4654 Post Rd",
+  "alts": [
+   "4614 Post Rd"
+  ],
+  "heading": "econded by Julie Finn, and passed unanimously by the Board that the petition be GRANTED WITH STIPULATIONS. Petition #10678 Ward 9 4654 Post Rd. The petition of IAG Realty, LLC, 461"
+ },
+ {
+  "id": 893,
+  "city": "Warwick",
+  "primary": "2055 Warwick Ave",
+  "alts": [
+   "2050 Plainfield Pike",
+   "1 Meadowbrook Rd"
+  ],
+  "heading": "ion, previously approved by this Board. Assessor’s Plat 319, Lots 2, 4 & 502, zoned General Business (GB). Petition #10730 Ward 3 2055 Warwick Ave. The petition of Colbea Enterpris"
+ },
+ {
+  "id": 895,
+  "city": "Warwick",
+  "primary": "641 Bald Hill Rd",
+  "alts": [
+   "734 Hartford Ave"
+  ],
+  "heading": "econded by Julie Finn, and passed unanimously by the Board that the petition be GRANTED WITH STIPULATIONS. Petition #10654 Ward 8 641 Bald Hill Rd. The petition of Kenneth Persechi"
+ },
+ {
+  "id": 897,
+  "city": "Warwick",
+  "primary": "30 Jefferson Blvd",
+  "alts": [
+   "434 Smith St"
+  ],
+  "heading": "he petition, seconded by Paul DePetrillo and passed unanimously by the Board that the petition be GRANTED. Petition #10615 Ward 2 30 Jefferson Blvd. The petition of 30 Jefferson, L"
+ }
+]

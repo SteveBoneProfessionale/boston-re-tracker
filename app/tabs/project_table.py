@@ -260,6 +260,11 @@ def render(df: pd.DataFrame):
             filtered["name"].str.lower().str.contains(q, na=False) |
             filtered["address"].str.lower().str.contains(q, na=False)
         )
+        # A case filed on several parcels names them all, and the ingest kept
+        # only the first. Searching 1077 Westminster Street returned nothing
+        # for a project that is in the tracker as 311 Knight Street.
+        if "alt_addresses" in filtered.columns:
+            mask = mask | filtered["alt_addresses"].str.lower().str.contains(q, na=False)
         filtered = filtered[mask]
 
     # Count row
