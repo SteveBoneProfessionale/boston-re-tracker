@@ -191,11 +191,13 @@
   "id": 521,
   "city": "Cranston",
   "address": "35 Lake Street",
-  "units": 2,
-  "grade": "single_source",
-  "why": "stated in one document only",
-  "docs": 1,
-  "other_figures": []
+  "units": 1,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": [
+   2
+  ]
  },
  {
   "id": 522,
@@ -260,16 +262,6 @@
   "other_figures": []
  },
  {
-  "id": 539,
-  "city": "Cranston",
-  "address": "538 Main Street",
-  "units": 44,
-  "grade": "corroborated",
-  "why": "stated in 24 documents, latest figure",
-  "docs": 24,
-  "other_figures": []
- },
- {
   "id": 541,
   "city": "Pawtucket",
   "address": "13 Davis Street",
@@ -303,11 +295,13 @@
   "id": 545,
   "city": "Pawtucket",
   "address": "250 Esten Street",
-  "units": 2,
-  "grade": "corroborated",
-  "why": "stated in 2 documents, latest figure",
-  "docs": 2,
-  "other_figures": []
+  "units": 38,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": [
+   2
+  ]
  },
  {
   "id": 548,
@@ -561,11 +555,13 @@
   "id": 590,
   "city": "Warwick",
   "address": "1187 Post Rd",
-  "units": 11,
-  "grade": "corroborated",
-  "why": "stated in 2 documents, latest figure",
-  "docs": 2,
-  "other_figures": []
+  "units": 14,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": [
+   11
+  ]
  },
  {
   "id": 591,
@@ -773,13 +769,11 @@
   "id": 636,
   "city": "Providence",
   "address": "870 Westminster Street",
-  "units": 19,
-  "grade": "unsourced",
-  "why": "no document in the corpus states this figure",
-  "docs": 0,
-  "other_figures": [
-   20
-  ]
+  "units": 20,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
  },
  {
   "id": 643,

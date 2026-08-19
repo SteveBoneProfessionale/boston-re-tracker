@@ -1,0 +1,477 @@
+{
+ "changed": [
+  {
+   "id": 521,
+   "city": "Cranston",
+   "address": "35 Lake Street",
+   "was": 2,
+   "now": 1,
+   "date": "2026-04-07",
+   "quote": "subdivide 8,000 sf lot into two 4,000 sf lots; single-family residence",
+   "readings": [
+    [
+     "2026-02-03",
+     1
+    ],
+    [
+     "2026-04-07",
+     1
+    ]
+   ],
+   "outside_source": null
+  },
+  {
+   "id": 545,
+   "city": "Pawtucket",
+   "address": "250 Esten Street",
+   "was": 2,
+   "now": 38,
+   "date": "2026-03-17",
+   "quote": "conversion of the existing thirty-eight (38) commercial units into live-work units",
+   "readings": [
+    [
+     "2026-03-17",
+     38
+    ],
+    [
+     "2026-03-17",
+     38
+    ],
+    [
+     "2026-03-17",
+     38
+    ]
+   ],
+   "outside_source": null
+  },
+  {
+   "id": 636,
+   "city": "Providence",
+   "address": "870 Westminster Street",
+   "was": 19,
+   "now": 20,
+   "date": "2022-04-12",
+   "quote": "11 dwelling units in addition to 9 units created within the main bank building",
+   "readings": [
+    [
+     "2019-12-17",
+     20
+    ],
+    [
+     "2021-12-14",
+     19
+    ],
+    [
+     "2022-04-12",
+     20
+    ]
+   ],
+   "outside_source": null
+  }
+ ],
+ "refused": [
+  {
+   "id": 509,
+   "city": "Providence",
+   "address": "580 South Water Street",
+   "was": 69,
+   "now": 100,
+   "date": "2026-06-03",
+   "quote": "",
+   "readings": [
+    [
+     "2026-02-02",
+     136
+    ],
+    [
+     "2026-06-03",
+     100
+    ]
+   ],
+   "outside_source": "leasing_active",
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 520,
+   "city": "Cranston",
+   "address": "1390 Cranston Street",
+   "was": 4,
+   "now": 19,
+   "date": "2026-04-07",
+   "quote": "Construction of a 19-unit townhouse development.",
+   "readings": [
+    [
+     "2026-04-07",
+     19
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 528,
+   "city": "Cranston",
+   "address": "2110 Plainfield Pike",
+   "was": 26,
+   "now": 2,
+   "date": "2026-01-06",
+   "quote": "Application to construct a two-family dwelling on an undersized lot.",
+   "readings": [
+    [
+     "2026-01-06",
+     2
+    ]
+   ],
+   "outside_source": null,
+   "why": "a collapse to under a quarter"
+  },
+  {
+   "id": 548,
+   "city": "Pawtucket",
+   "address": "546 Smithfield Avenue",
+   "was": 1,
+   "now": 3,
+   "date": "2026-01-20",
+   "quote": "addition of a third residential unit to an existing mixed-use commercial structure",
+   "readings": [
+    [
+     "2026-01-20",
+     3
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 549,
+   "city": "Pawtucket",
+   "address": "486 Mineral Spring Avenue",
+   "was": 2,
+   "now": 6,
+   "date": "2026-01-06",
+   "quote": "three (3) two-family dwellings",
+   "readings": [
+    [
+     "2026-01-06",
+     2
+    ],
+    [
+     "2026-01-06",
+     6
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 558,
+   "city": "Newport",
+   "address": "0 Van Zandt Avenue",
+   "was": 26,
+   "now": 32,
+   "date": "2026-06-01",
+   "quote": "26 multi-family residential dwelling units and three residential buildings containing 2 dwelling units each",
+   "readings": [
+    [
+     "2026-06-01",
+     32
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 574,
+   "city": "Newport",
+   "address": "16 Waites Wharf",
+   "was": 100,
+   "now": 7,
+   "date": "2025-06-02",
+   "quote": "7-unit multifamily residential building",
+   "readings": [
+    [
+     "2025-06-02",
+     7
+    ]
+   ],
+   "outside_source": null,
+   "why": "a collapse to under a quarter"
+  },
+  {
+   "id": 580,
+   "city": "Warwick",
+   "address": "1577 West Shore Rd",
+   "was": 3,
+   "now": 2,
+   "date": "2026-05-13",
+   "quote": "construct 2 single family residential lots",
+   "readings": [
+    [
+     "2026-05-13",
+     2
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 583,
+   "city": "Warwick",
+   "address": "1880 Post Road",
+   "was": 177,
+   "now": 16,
+   "date": "2026-04-08",
+   "quote": "proposing to construct a 16-residential unit PDR zoning overlay",
+   "readings": [
+    [
+     "2026-04-08",
+     16
+    ]
+   ],
+   "outside_source": null,
+   "why": "a collapse to under a quarter"
+  },
+  {
+   "id": 584,
+   "city": "Warwick",
+   "address": "3033 Post Rd",
+   "was": 16,
+   "now": 11,
+   "date": "2026-04-08",
+   "quote": "The applicant seeks to construct an 11 unit residential development.",
+   "readings": [
+    [
+     "2026-04-08",
+     11
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 590,
+   "city": "Warwick",
+   "address": "1187 Post Rd",
+   "was": 11,
+   "now": 14,
+   "date": "2026-01-14",
+   "quote": "Applicant seeks to construct a 14-unit condominium development.",
+   "readings": [
+    [
+     "2026-01-14",
+     14
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 607,
+   "city": "Providence",
+   "address": "269 Wickenden Street",
+   "was": 75,
+   "now": 74,
+   "date": "2025-02-18",
+   "quote": "74 residential units in the C-2 zone",
+   "readings": [
+    [
+     "2023-10-17",
+     75
+    ],
+    [
+     "2025-02-18",
+     74
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 615,
+   "city": "Providence",
+   "address": "279 Thayer Street",
+   "was": 12,
+   "now": 16,
+   "date": "2024-10-15",
+   "quote": "resulting in a total of 16 units",
+   "readings": [
+    [
+     "2022-05-17",
+     12
+    ],
+    [
+     "2024-10-15",
+     16
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 623,
+   "city": "Providence",
+   "address": "108 – 110 Waterman Street",
+   "was": 26,
+   "now": 35,
+   "date": "2024-07-16",
+   "quote": "five story mixed use building with retail on the ground floor and 35 dwelling units",
+   "readings": [
+    [
+     "2024-07-16",
+     35
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 632,
+   "city": "Providence",
+   "address": "3572 – 103 Evergreen Street",
+   "was": 58,
+   "now": 21,
+   "date": "2024-02-20",
+   "quote": "three story residential addition, providing 21 dwelling units",
+   "readings": [
+    [
+     "2024-02-20",
+     21
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 665,
+   "city": "Providence",
+   "address": "116 Waterman Street",
+   "was": 25,
+   "now": 26,
+   "date": "2025-08-19",
+   "quote": "add an additional dwelling unit on the first floor",
+   "readings": [
+    [
+     "2022-07-19",
+     25
+    ],
+    [
+     "2023-02-21",
+     25
+    ],
+    [
+     "2025-08-19",
+     26
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 673,
+   "city": "Providence",
+   "address": "153-165 Gano Street",
+   "was": 132,
+   "now": 133,
+   "date": "2022-06-28",
+   "quote": "A total of 133 apartments with a total of 68 internal parking spaces are proposed",
+   "readings": [
+    [
+     "2022-06-28",
+     133
+    ]
+   ],
+   "outside_source": "leasing_active",
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 699,
+   "city": "Providence",
+   "address": "18 Eighth St",
+   "was": 24,
+   "now": 19,
+   "date": "2018-07-11",
+   "quote": "convert a rectory into a nineteen (19) unit multi-family dwelling",
+   "readings": [
+    [
+     "2018-07-11",
+     19
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 707,
+   "city": "Providence",
+   "address": "45-47 America St",
+   "was": 6,
+   "now": 12,
+   "date": "2019-03-13",
+   "quote": "convert 2 existing structures with 6 dwelling units to a single structure with 12 dwelling units",
+   "readings": [
+    [
+     "2019-03-13",
+     12
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 742,
+   "city": "Providence",
+   "address": "473 Washington Street",
+   "was": 21,
+   "now": 27,
+   "date": "2022-12-13",
+   "quote": "four story, 27 unit residential building in the C-2 zone",
+   "readings": [
+    [
+     "2020-08-18",
+     21
+    ],
+    [
+     "2022-12-13",
+     27
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 867,
+   "city": "Cranston",
+   "address": "547 Park Avenue",
+   "was": 4,
+   "now": 3,
+   "date": "2026-08-12",
+   "quote": "convert a legal, non-conforming mixed-use building into a three-family dwelling",
+   "readings": [
+    [
+     "2026-08-12",
+     3
+    ]
+   ],
+   "outside_source": null,
+   "why": "stated in only one reading"
+  },
+  {
+   "id": 886,
+   "city": "Warwick",
+   "address": "39 Dees Circle",
+   "was": 57,
+   "now": 1,
+   "date": "2022-04-12",
+   "quote": "seeking a dimensional variance to construct a new single family dwelling",
+   "readings": [
+    [
+     "2022-04-12",
+     1
+    ]
+   ],
+   "outside_source": null,
+   "why": "a collapse to under a quarter"
+  }
+ ],
+ "conflicts": []
+}
