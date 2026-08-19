@@ -233,6 +233,55 @@ SF_SOURCES = {
 }
 
 
+# Why the Rhode Island square-footage column is thin, in plain language.
+#
+# This exists because a 15%-filled column reads as a broken tracker unless the
+# reason is on the page. It is not a gap in the data collection -- it is how
+# the market files. Saying so turns an apparent weakness into a statement
+# about the market, which is the more useful thing to be able to make.
+#
+# Every claim here was established against the sources and can be defended:
+#   * 2,214 agendas and minutes were read in full. Building floor area appears
+#     in 6% of documents; land area outnumbers building area 269 to 13.
+#   * Providence is the only one of the five cities that publishes per-case
+#     staff reports and plan sets.
+#   * Warwick's permits are issued per building -- a 14-unit scheme at 1515
+#     Centerville Road carries six, one stating "the foundation sf is 1,040".
+#   * Pawtucket's permit form has no square-footage field at all.
+RI_SF_NOTE_TITLE = "About square footage in Rhode Island"
+
+RI_SF_NOTE = """
+**Rhode Island planning boards describe projects in units and storeys, not floor
+area.** That is a fact about how this market files, not a gap in this tracker.
+
+Across 2,214 agendas and minutes read in full, a building floor-area figure
+appears in about 6% of documents. Land area outnumbers building area by more
+than twenty to one — most numbers on a Rhode Island agenda describe the lot,
+not the building.
+
+**Four of the five cities publish no document that states it.** Providence alone
+posts per-case staff reports and plan sets. Warwick, Cranston, Pawtucket and
+Newport publish agendas and minutes only, so there is no filing to read a floor
+area from.
+
+**Permits do not close the gap either.** Warwick issues permits per building, so
+a fourteen-unit scheme carries six separate permits and no single one states a
+project total. Pawtucket's permit form has no square-footage field at all.
+Providence's does, and where a permit exists its figure is shown — marked
+distinctly, because a permitted building and a proposed programme are different
+things.
+
+**So square footage appears per project where a source states it, and there is
+no market total.** Summing a column that is 15% complete would produce a number
+that looks authoritative and means nothing.
+
+**Unit count is the headline programme metric for this market.** It is the
+figure the boards actually state, the one the press reports, and the one these
+projects are argued and approved on.
+"""
+
+
+
 # Developer-name confidence, as ONE definition every consumer reads.
 #
 # 204 of 370 Rhode Island developers rest on the planning document alone, so

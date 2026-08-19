@@ -10,7 +10,7 @@ from app.data import (
     load_filings, load_cambridge_permits, STAGE_COLORS, review_scale_vocab,
     RESOLUTION_METHODS, resolution_method, shows_provenance_badge, METHOD_ORDER,
     DEVELOPER_CONFIDENCE, developer_confidence, SF_SOURCES,
-    load_field_citations,
+    load_field_citations, RI_SF_NOTE, RI_SF_NOTE_TITLE,
 )
 from scraper.normalize_developer import is_real_company
 
@@ -83,6 +83,16 @@ def render(df: pd.DataFrame):
 
     cities = ["All"] + sorted([c for c in city_scope["city"].unique() if c])
     city = fc0.selectbox("CITY", cities, key="tbl_city")
+
+    # The square-footage column is 15% filled for Rhode Island, and without the
+    # reason on the page that reads as a broken tracker rather than as a fact
+    # about how the market files. Shown whenever the view is scoped to Rhode
+    # Island, collapsed so it explains without interrupting.
+    _ri_cities = {"Providence", "Warwick", "Cranston", "Pawtucket", "Newport"}
+    _showing_ri = (market == "Rhode Island") or (city in _ri_cities)
+    if _showing_ri:
+        with st.expander(RI_SF_NOTE_TITLE, expanded=False):
+            st.markdown(RI_SF_NOTE)
 
     # Status vocab is city-specific (Boston's 4 values vs Cambridge's 7 don't
     # overlap), so scope the status options to whatever city is selected --
