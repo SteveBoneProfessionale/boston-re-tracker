@@ -222,6 +222,17 @@ _DEFAULT_MARKET = {
 # the filing stated are not the same kind of fact, and the audit that preceded
 # this found the column's worst problem was figures that LOOKED reported and
 # were actually lot areas. So provenance renders on the number itself.
+# How an architect firm was established. Same shape and the same purpose as
+# SF_SOURCES: a name pulled off a drawing title block and a name pulled off a
+# web article must not read alike. Unmarked is the strongest -- the planning
+# filing itself names the firm.
+ARCHITECT_SOURCES = {
+    "filing":   {"label": "Filing-stated", "mark": ""},
+    "plan_set": {"label": "Plan set",      "mark": "▣"},
+    "permit":   {"label": "Permit record", "mark": "◉"},
+    "web":      {"label": "Web-sourced",   "mark": "◈"},
+}
+
 SF_SOURCES = {
     "filing":    {"label": "Filing-stated", "color": "#e2e8f0", "mark": ""},
     "web":       {"label": "Web-sourced",   "color": "#38bdf8", "mark": "◈"},
@@ -601,7 +612,13 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 "num_stories": p.num_stories,
                 "parking_spaces": p.parking_spaces,
                 "architect": p.architect or "",
+                "architect_source": p.architect_source or "",
+                "architect_person": p.architect_person or "",
                 "civil_engineer": p.civil_engineer or "",
+                "surveyor": p.surveyor or "",
+                "landscape_architect": p.landscape_architect or "",
+                "contractor": p.general_contractor or "",
+                "attorney": p.attorney or "",
                 "expected_delivery": p.expected_delivery or "",
                 "description": p.description or "",
                 "processed_filing_type": p.processed_filing_type or "",

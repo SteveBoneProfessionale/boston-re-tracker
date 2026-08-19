@@ -80,6 +80,15 @@ class Project(Base):
     filing_type = Column(String)   # the action asked of the board, NOT a stage
     alt_addresses = Column(String)  # other addresses the same case is filed under
     units_confidence = Column(String)  # corroborated | single_source | contradicted | unsourced
+    architect_source = Column(String)     # filing | permit | plan_set | web
+    architect_person = Column(String)     # the named individual, if the firm is also known
+    surveyor = Column(String)
+    landscape_architect = Column(String)
+    # The lawyer appearing for the applicant. Held so it can be told APART
+    # from the design team: a filing names the attorney far more often than
+    # the architect, and without somewhere to put it the name drifts into
+    # whichever professional field is nearest.
+    attorney = Column(String)
     # development | rezoning. A rezoning with no programme yet is the front
     # of the pipeline; if a development filing later lands on the same
     # parcel the two merge, with the rezoning as the first stage event.

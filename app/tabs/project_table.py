@@ -9,7 +9,7 @@ import streamlit as st
 from app.data import (
     load_filings, load_cambridge_permits, STAGE_COLORS, review_scale_vocab,
     RESOLUTION_METHODS, resolution_method, shows_provenance_badge, METHOD_ORDER,
-    DEVELOPER_CONFIDENCE, developer_confidence, SF_SOURCES,
+    DEVELOPER_CONFIDENCE, developer_confidence, SF_SOURCES, ARCHITECT_SOURCES,
     load_field_citations, RI_SF_NOTE, RI_SF_NOTE_TITLE, UNITS_CONFIDENCE,
     city_options, keep_city_selectable,
 )
@@ -344,7 +344,7 @@ def render(df: pd.DataFrame):
     _section("SCREENER")
 
     display = filtered[[
-        "name", "developer_canonical", "developer", "neighborhood", "city",
+        "name", "developer_canonical", "developer", "architect", "neighborhood", "city",
         "asset_class", "status", "stage", "total_gsf", "residential_units",
         "building_height_ft", "expected_delivery",
     ]].copy()
@@ -362,6 +362,18 @@ def render(df: pd.DataFrame):
         for name, c in zip(display["developer_canonical"], display["_conf"])
     ]
     display.drop(columns=["developer", "_conf"], inplace=True)
+
+    # The architect sits beside the developer and is marked the same way, for
+    # the same reason: most of these names come from a drawing title block or
+    # a permit record rather than from the planning filing, and an unmarked
+    # name would read as though the filing itself stated it. Blank stays
+    # blank -- an em dash here, not a guess.
+    _asrc = (filtered["architect_source"] if "architect_source" in filtered.columns
+             else [""] * len(filtered))
+    display["architect"] = [
+        (ARCHITECT_SOURCES.get(src, {}).get("mark", "") + " " + a).strip() if a else "—"
+        for a, src in zip(display["architect"].fillna(""), _asrc)
+    ]
 
     def _status_fmt(row):
         if not row["status"]:
@@ -400,12 +412,12 @@ def render(df: pd.DataFrame):
         for src in display["_sf_src"]
     ]
     display = display[[
-        "name", "developer_canonical", "neighborhood", "city",
+        "name", "developer_canonical", "architect", "neighborhood", "city",
         "asset_class", "status_fmt", "total_gsf", "sf_src_mark",
         "residential_units", "units_mark", "building_height_ft", "expected_delivery",
     ]]
     display.columns = [
-        "PROJECT", "DEVELOPER", "NEIGHBORHOOD", "CITY",
+        "PROJECT", "DEVELOPER", "ARCHITECT", "NEIGHBORHOOD", "CITY",
         "TYPE", "STATUS", "SF", "SRC",
         "UNITS", "U?", "HEIGHT", "DELIVERY",
     ]
@@ -430,6 +442,11 @@ def render(df: pd.DataFrame):
                 help="Square-footage provenance. ◈ = web-sourced, ✲ = corrected "
                      "from a lot area, ▣ = plan set or staff report. "
                      "Unmarked = stated in the planning filing."),
+            "ARCHITECT": st.column_config.TextColumn(
+                help="Architecture practice, not the individual. ▣ = named on a "
+                     "plan set or staff report, ◉ = from a permit record, "
+                     "◈ = web research. Unmarked = stated in the planning "
+                     "filing. — = no source names one."),
             "UNITS":  st.column_config.NumberColumn(format="%d"),
             "U?":     st.column_config.TextColumn(
                 width="small",

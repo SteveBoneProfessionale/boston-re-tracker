@@ -1,0 +1,762 @@
+[
+ {
+  "id": 478,
+  "address": "14 Cargill Street",
+  "architect": "HAVING JURISDICTION ASSESSOR'S PLAT ARCHITECT",
+  "engineer": "DIPRETE ENGINEERING",
+  "all_arch": [
+   [
+    "HAVING JURISDICTION ASSESSOR'S PLAT ARCHITECT",
+    1
+   ],
+   [
+    "INVERT INFILTRATION POND LANDSCAPE ARCHITECT",
+    1
+   ],
+   [
+    "OR REGISTERED LANDSCAPE ARCHITECT",
+    1
+   ],
+   [
+    "BE APPROVED BY LANDSCAPE ARCHITECT",
+    1
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 482,
+  "address": "859 Broad Street",
+  "architect": "MEUS INC ARCHITECTS",
+  "engineer": "Stonefield Engineering",
+  "all_arch": [
+   [
+    "MEUS INC ARCHITECTS",
+    8
+   ],
+   [
+    "ISSUE DATE GMI ARCHITECTS",
+    8
+   ],
+   [
+    "CONSULT LANDSCAPE ARCHITECT",
+    1
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 486,
+  "address": "309 Dexter Street",
+  "architect": "SF STUDIO",
+  "engineer": "CONTRACTOR SHALL NOTIFY STONEFIELD ENGINEERING",
+  "all_arch": [
+   [
+    "SF STUDIO",
+    52
+   ],
+   [
+    "CONSULT LANDSCAPE ARCHITECT",
+    1
+   ],
+   [
+    "DEXTER STREET HANOVER STREET STUDIO",
+    1
+   ],
+   [
+    "CANOPY PROJECTION BELOW STUDIO",
+    1
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 490,
+  "address": "27 E River Street",
+  "architect": "Davis Square Architects",
+  "engineer": "City Engineers",
+  "all_arch": [
+   [
+    "Davis Square Architects",
+    5
+   ],
+   [
+    "DAVIS SQUARE ARCHITECTS",
+    4
+   ],
+   [
+    "BEDROOM STUDIO",
+    1
+   ],
+   [
+    "SF STUDIO",
+    1
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 493,
+  "address": "195 Nelson Street",
+  "architect": "Wyszynski Principal Tecton Architects",
+  "engineer": null,
+  "all_arch": [
+   [
+    "Wyszynski Principal Tecton Architects",
+    1
+   ],
+   [
+    "Tecton Architects",
+    1
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 494,
+  "address": "188 Princeton Ave",
+  "architect": "TORRADO ARCHITECTS",
+  "engineer": "NORTH D'AMICO ENGINEERING",
+  "all_arch": [
+   [
+    "TORRADO ARCHITECTS",
+    12
+   ],
+   [
+    "PROPERTY OF LA TORRADO ARCHITECTS",
+    8
+   ],
+   [
+    "LA TORRADO ARCHITECTS",
+    8
+   ],
+   [
+    "PK-8 SCHOOL LOCUS MAP ARCHITECT",
+    1
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 495,
+  "address": "1655 Westminster Street",
+  "architect": "PROFESSIONAL SERVICES OF THE ARCHITECT",
+  "engineer": "com ARCHITECTS ENGINEERS",
+  "all_arch": [
+   [
+    "PROFESSIONAL SERVICES OF THE ARCHITECT",
+    13
+   ],
+   [
+    "NAME OF PERSON EMPLOYING ARCHITECT",
+    13
+   ],
+   [
+    "IS ASSUMED BY THE ARCHITECT",
+    13
+   ],
+   [
+    "com ARCHITECTS",
+    13
+   ]
+  ],
+  "docs": 3
+ },
+ {
+  "id": 496,
+  "address": "434 Mt Pleasant Ave",
+  "architect": "CONTRACTOR TO THE LANDSCAPE ARCHITECT",
+  "engineer": "Professional Traffic Engineering",
+  "all_arch": [
+   [
+    "CONTRACTOR TO THE LANDSCAPE ARCHITECT",
+    4
+   ],
+   [
+    "MICHAEL D'ANGELO LANDSCAPE ARCHITECTURE",
+    4
+   ],
+   [
+    "BE APPROVED BY LANDSCAPE ARCHITECT",
+    4
+   ],
+   [
+    "FINAL APPROVAL BY LANDSCAPE ARCHITECT",
+    4
+   ]
+  ],
+  "docs": 3
+ },
+ {
+  "id": 497,
+  "address": "128 Wayland Ave",
+  "architect": "DAVID SISSON ARCHITECTURE",
+  "engineer": "PERMIT PLANS D'AMICO ENGINEERING",
+  "all_arch": [
+   [
+    "DAVID SISSON ARCHITECTURE",
+    18
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 498,
+  "address": "885 Westminster Street",
+  "architect": "SF STUDIO",
+  "engineer": null,
+  "all_arch": [
+   [
+    "SF STUDIO",
+    14
+   ],
+   [
+    "BD AMENITY ELEVATOR STAIR STUDIO",
+    2
+   ],
+   [
+    "BD ELEVATOR STAIR STUDIO",
+    2
+   ],
+   [
+    "PARCEL RETAIL STAIR STUDIO",
+    1
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 499,
+  "address": "45 Parade Street",
+  "architect": "COM JACK RYAN ARCHITECT",
+  "engineer": "COM Land Development Engineering",
+  "all_arch": [
+   [
+    "COM JACK RYAN ARCHITECT",
+    28
+   ],
+   [
+    "BED PLUS STUDIO",
+    5
+   ],
+   [
+    "SF STUDIO",
+    2
+   ],
+   [
+    "Jack Ryan Architect",
+    1
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 500,
+  "address": "298 Public Street",
+  "architect": null,
+  "engineer": "N I T E Engineering",
+  "all_arch": [],
+  "docs": 2
+ },
+ {
+  "id": 505,
+  "address": "21 New York Ave",
+  "architect": null,
+  "engineer": "COMPLETION STAGE D'AMICO ENGINEERING",
+  "all_arch": [],
+  "docs": 2
+ },
+ {
+  "id": 604,
+  "address": "327 ELMWOOD AVENUE",
+  "architect": "Davis Square Architects",
+  "engineer": "BLW ENGINEERING",
+  "all_arch": [
+   [
+    "Davis Square Architects",
+    5
+   ],
+   [
+    "DAVIS SQUARE ARCHITECTS",
+    4
+   ],
+   [
+    "BE SELECTED BY THE ARCHITECT",
+    3
+   ],
+   [
+    "TOTAL UNITS STUDIO",
+    2
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 607,
+  "address": "269 Wickenden Street",
+  "architect": "FoxPoint Flats PROVIDENCE ARCHITECTURE",
+  "engineer": null,
+  "all_arch": [
+   [
+    "FoxPoint Flats PROVIDENCE ARCHITECTURE",
+    1
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 609,
+  "address": "150-158 Pitman Street",
+  "architect": "MANAGEMENT FACILITIES MANAGEMENT INTERIOR ARCHITECTURE",
+  "engineer": null,
+  "all_arch": [
+   [
+    "MANAGEMENT FACILITIES MANAGEMENT INTERIOR ARCHITECTURE",
+    15
+   ],
+   [
+    "INTERIOR ARCHITECTURE SPACE PLANNING ARCHITECTURE",
+    15
+   ],
+   [
+    "ARCHITECTURE SPACE PLANNING ARCHITECTURE ARCHITECT",
+    1
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 611,
+  "address": "551 Chalkstone Ave",
+  "architect": "DAVID SISSON ARCHITECTURE",
+  "engineer": "PERMIT PLANS D'AMICO ENGINEERING",
+  "all_arch": [
+   [
+    "DAVID SISSON ARCHITECTURE",
+    9
+   ]
+  ],
+  "docs": 3
+ },
+ {
+  "id": 612,
+  "address": "659 – 663 Admiral Street",
+  "architect": null,
+  "engineer": "N I T E Engineering",
+  "all_arch": [],
+  "docs": 4
+ },
+ {
+  "id": 613,
+  "address": "400 Elmwood Ave",
+  "architect": "NOT FOR CONSTRUCTION ARCHITECT",
+  "engineer": "City Engineers",
+  "all_arch": [
+   [
+    "NOT FOR CONSTRUCTION ARCHITECT",
+    14
+   ],
+   [
+    "LANDSCAPE ARCHITECTURE",
+    3
+   ],
+   [
+    "MULTIFAMILY RESIDENTIAL ARCHITECT",
+    2
+   ]
+  ],
+  "docs": 3
+ },
+ {
+  "id": 615,
+  "address": "279 Thayer Street",
+  "architect": "BISBANO & ASSOCIATES",
+  "engineer": "JCE JCE JOE CASALI ENGINEERING",
+  "all_arch": [
+   [
+    "BISBANO & ASSOCIATES",
+    3
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 616,
+  "address": "11 W Friendship Street",
+  "architect": "NOT FOR CONSTRUCTION ARCHITECT",
+  "engineer": "City Engineers",
+  "all_arch": [
+   [
+    "NOT FOR CONSTRUCTION ARCHITECT",
+    12
+   ],
+   [
+    "MULTIFAMILY RESIDENTIAL ARCHITECT",
+    4
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 617,
+  "address": "199 Oxford Street",
+  "architect": "LEARNING STUDIO",
+  "engineer": "NORTH D'AMICO ENGINEERING",
+  "all_arch": [
+   [
+    "LEARNING STUDIO",
+    63
+   ],
+   [
+    "TORRADO ARCHITECTS",
+    29
+   ],
+   [
+    "PROPERTY OF LA TORRADO ARCHITECTS",
+    21
+   ],
+   [
+    "LA TORRADO ARCHITECTS",
+    21
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 623,
+  "address": "108 – 110 Waterman Street",
+  "architect": "AHARONIAN & ASSOCIATES",
+  "engineer": "JCE JCE JOE CASALI ENGINEERING",
+  "all_arch": [
+   [
+    "AHARONIAN & ASSOCIATES",
+    6
+   ],
+   [
+    "PROPERTY OF THE ARCHITECT",
+    4
+   ],
+   [
+    "WRITTEN AUTHORIZATION OF THE ARCHITECT",
+    4
+   ]
+  ],
+  "docs": 3
+ },
+ {
+  "id": 625,
+  "address": "35 Merino Street",
+  "architect": "Tecton Architects",
+  "engineer": null,
+  "all_arch": [
+   [
+    "Tecton Architects",
+    128
+   ],
+   [
+    "Peer Reviewer",
+    96
+   ]
+  ],
+  "docs": 3
+ },
+ {
+  "id": 626,
+  "address": "60 Camden Ave",
+  "architect": "PROFESSIONAL SERVICES OF THE ARCHITECT",
+  "engineer": "com ARCHITECTS ENGINEERS",
+  "all_arch": [
+   [
+    "PROFESSIONAL SERVICES OF THE ARCHITECT",
+    16
+   ],
+   [
+    "NAME OF PERSON EMPLOYING ARCHITECT",
+    16
+   ],
+   [
+    "IS ASSUMED BY THE ARCHITECT",
+    16
+   ],
+   [
+    "com ARCHITECTS",
+    14
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 627,
+  "address": "220 Blackstone Street",
+  "architect": "C COPYRIGHT BRANCH ARCHITECTS",
+  "engineer": "DIPRETE ENGINEERING",
+  "all_arch": [
+   [
+    "C COPYRIGHT BRANCH ARCHITECTS",
+    3
+   ],
+   [
+    "HAVING JURISDICTION ASSESSOR'S PLAT ARCHITECT",
+    1
+   ],
+   [
+    "INVERT INFILTRATION POND LANDSCAPE ARCHITECT",
+    1
+   ],
+   [
+    "OR REGISTERED LANDSCAPE ARCHITECT",
+    1
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 633,
+  "address": "106 Reservoir",
+  "architect": "APPROXIMATE APT APARTMENT ARCH ARCHITECT",
+  "engineer": "City Engineers",
+  "all_arch": [
+   [
+    "APPROXIMATE APT APARTMENT ARCH ARCHITECT",
+    1
+   ],
+   [
+    "CONTRACTOR SHALL NOTIFY THE ARCHITECT",
+    1
+   ],
+   [
+    "UNIDENTIFIED CONDITIONS TO THE ARCHITECT",
+    1
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 656,
+  "address": "50 Branch Ave",
+  "architect": "LOCATION MAP ARCHITECTURE",
+  "engineer": "C Land Surveying Environmental Engineering",
+  "all_arch": [
+   [
+    "LOCATION MAP ARCHITECTURE",
+    1
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 657,
+  "address": "371 Pine St",
+  "architect": "LANDSCAPE ARCHITECT",
+  "engineer": "ELECTRICAL ENGINEER STERLING ENGINEERING",
+  "all_arch": [
+   [
+    "LANDSCAPE ARCHITECT",
+    15
+   ],
+   [
+    "PROGRESS SET KITE Architects",
+    11
+   ],
+   [
+    "KITE Architects",
+    9
+   ],
+   [
+    "COPYRIGHT KITE ARCHITECTS",
+    6
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 665,
+  "address": "116 Waterman Street",
+  "architect": "AHARONIAN & ASSOCIATES",
+  "engineer": "JCE JCE JOE CASALI ENGINEERING",
+  "all_arch": [
+   [
+    "AHARONIAN & ASSOCIATES",
+    6
+   ],
+   [
+    "LANDSCAPE ARCHITECTURE",
+    1
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 666,
+  "address": "541 Hartford Ave",
+  "architect": "NURSERY BY THE LANDSCAPE ARCHITECT",
+  "engineer": "InSite Engineering",
+  "all_arch": [
+   [
+    "NURSERY BY THE LANDSCAPE ARCHITECT",
+    1
+   ],
+   [
+    "LANDSCAPE ARCHITECT",
+    1
+   ]
+  ],
+  "docs": 4
+ },
+ {
+  "id": 670,
+  "address": "228 Broad Street",
+  "architect": "SUBMISSION C COPYRIGHT BRANCH ARCHITECTS",
+  "engineer": "STRUCTURAL ENGINEERS",
+  "all_arch": [
+   [
+    "SUBMISSION C COPYRIGHT BRANCH ARCHITECTS",
+    6
+   ],
+   [
+    "SET C COPYRIGHT BRANCH ARCHITECTS",
+    2
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 673,
+  "address": "153-165 Gano Street",
+  "architect": "ACME ARCHITECT",
+  "engineer": "JCE JCE JOE CASALI ENGINEERING",
+  "all_arch": [
+   [
+    "ACME ARCHITECT",
+    4
+   ],
+   [
+    "Acme Architect",
+    2
+   ],
+   [
+    "Acme Architects",
+    1
+   ]
+  ],
+  "docs": 3
+ },
+ {
+  "id": 675,
+  "address": "311 Knight Street",
+  "architect": "CONSULTANT CLIENT ARCHITECT",
+  "engineer": "ENGINEERED DRAWINGS BY LDEC ENGINEERING",
+  "all_arch": [
+   [
+    "CONSULTANT CLIENT ARCHITECT",
+    10
+   ],
+   [
+    "IMMEDIATE ATTENTION OF THE ARCHITECT",
+    5
+   ],
+   [
+    "NOTIFY ARCHITECT",
+    5
+   ],
+   [
+    "CONTRACTOR TO SUBMIT ARCHITECT",
+    1
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 676,
+  "address": "386 Atwells Ave",
+  "architect": "ZDS Architecture",
+  "engineer": "JCE JCE JOE CASALI ENGINEERING",
+  "all_arch": [
+   [
+    "ZDS Architecture",
+    6
+   ],
+   [
+    "ZDS ARCHITECTURE",
+    4
+   ],
+   [
+    "IMAGE COURTESY OF ZDS ARCHITECTURE",
+    1
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 679,
+  "address": "220 Broad Street",
+  "architect": "SUBMISSION C COPYRIGHT BRANCH ARCHITECTS",
+  "engineer": "STRUCTURAL ENGINEERS",
+  "all_arch": [
+   [
+    "SUBMISSION C COPYRIGHT BRANCH ARCHITECTS",
+    6
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 685,
+  "address": "135 Prairie Ave",
+  "architect": "HAVING JURISDICTION ASSESSOR'S PLAT ARCHITECT",
+  "engineer": "DiPrete Engineering",
+  "all_arch": [
+   [
+    "HAVING JURISDICTION ASSESSOR'S PLAT ARCHITECT",
+    1
+   ],
+   [
+    "INVERT INFILTRATION POND LANDSCAPE ARCHITECT",
+    1
+   ],
+   [
+    "OR REGISTERED LANDSCAPE ARCHITECT",
+    1
+   ]
+  ],
+  "docs": 2
+ },
+ {
+  "id": 691,
+  "address": "94 Summer Street",
+  "architect": "NOT FOR CONSTRUCTION KITE Architects",
+  "engineer": "Narragansett Engineering",
+  "all_arch": [
+   [
+    "NOT FOR CONSTRUCTION KITE Architects",
+    6
+   ],
+   [
+    "COPYRIGHT KITE ARCHITECTS",
+    5
+   ],
+   [
+    "LANDSCAPE ARCHITECT",
+    5
+   ],
+   [
+    "KITE Architects Inc. One Central Street",
+    3
+   ]
+  ],
+  "docs": 1
+ },
+ {
+  "id": 746,
+  "address": "217 Angell Street",
+  "architect": "Kite Architects",
+  "engineer": null,
+  "all_arch": [
+   [
+    "Kite Architects",
+    2
+   ]
+  ],
+  "docs": 4
+ }
+]

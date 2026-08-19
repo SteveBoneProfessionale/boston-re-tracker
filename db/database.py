@@ -129,6 +129,15 @@ def init_db():
     # documents behind it. A number a reader cannot weigh is worse than a
     # number with a caveat attached.
     _add_column_if_missing("projects", "units_confidence", "VARCHAR")
+    # Design and consultant team, kept in separate fields on purpose. DiPrete
+    # Engineering appears on a large share of Rhode Island filings and is a
+    # CIVIL ENGINEER, not an architect; conflating them would put one firm at
+    # the top of an architect ranking it does not belong in.
+    _add_column_if_missing("projects", "architect_source", "VARCHAR")
+    _add_column_if_missing("projects", "architect_person", "VARCHAR")
+    _add_column_if_missing("projects", "surveyor", "VARCHAR")
+    _add_column_if_missing("projects", "landscape_architect", "VARCHAR")
+    _add_column_if_missing("projects", "attorney", "VARCHAR")
     # development | rezoning. A rezoning petition with no programme yet is
     # the FRONT of the pipeline, an earlier signal than a planning filing,
     # and should not read as a project with a defined programme.

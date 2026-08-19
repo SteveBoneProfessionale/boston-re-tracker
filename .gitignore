@@ -31,3 +31,7 @@ data/*.jsonl
 .DS_Store
 Thumbs.db
 data/boston_re.db.bak-*
+
+# Downloaded plan sets: a rebuildable cache, 1.1 GB. scraper/ri_planset_llm.py
+# re-fetches anything missing from data/ri_plansets/cpc_urls.txt.
+data/ri_plansets/*.pdf

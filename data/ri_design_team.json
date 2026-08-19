@@ -1,0 +1,1154 @@
+[
+ {
+  "id": 478,
+  "city": "Providence",
+  "address": "14 Cargill Street",
+  "set": {
+   "architect_person": "Jackie Brousseau",
+   "attorney": "Joseph Shekarchi"
+  },
+  "quote": "Architect Jackie Brousseau, Engineer Christine Shea, Traffic Engineer Philip Fusco"
+ },
+ {
+  "id": 480,
+  "city": "Providence",
+  "address": "1107 Westminster Street",
+  "set": {
+   "attorney": "Joseph Baxter"
+  },
+  "quote": ""
+ },
+ {
+  "id": 482,
+  "city": "Providence",
+  "address": "859 Broad Street",
+  "set": {
+   "architect_person": "Damara Toohey",
+   "attorney": "Kate Harden"
+  },
+  "quote": "Architect Damara Toohey, Engineer Lynn Small on behalf of the applicant"
+ },
+ {
+  "id": 484,
+  "city": "Providence",
+  "address": "3611 – 349 Killingly Street",
+  "set": {
+   "attorney": "John Garrahy"
+  },
+  "quote": "Attorney John Garrahy presented the item on behalf of the applicant"
+ },
+ {
+  "id": 486,
+  "city": "Providence",
+  "address": "309 Dexter Street",
+  "set": {
+   "architect_person": "Eric Zuena",
+   "attorney": "Julissa Arce"
+  },
+  "quote": "Architect Eric Zuena and Engineer Joshua Kline joined Ms. Arce in presenting the plan."
+ },
+ {
+  "id": 487,
+  "city": "Providence",
+  "address": "3569 – 64 America Street",
+  "set": {
+   "architect_person": "Kevin Diamond",
+   "attorney": "Julissa Arce"
+  },
+  "quote": "Architect Kevin Diamond presented the LDPs for each case and spoke about their design"
+ },
+ {
+  "id": 489,
+  "city": "Providence",
+  "address": "1101 Elmwood Ave",
+  "set": {
+   "attorney": "Josh Agostini"
+  },
+  "quote": "Josh Agostini represented the applicant and said the change was being requested"
+ },
+ {
+  "id": 490,
+  "city": "Providence",
+  "address": "27 E River Street",
+  "set": {
+   "architect_person": "Kevin Diamond",
+   "attorney": "Dylan Conley"
+  },
+  "quote": "Attorney Dylan Conley presented the item with Architect Kevin Diamond"
+ },
+ {
+  "id": 493,
+  "city": "Providence",
+  "address": "195 Nelson Street",
+  "set": {
+   "attorney": "Christopher Menihan"
+  },
+  "quote": "Engineer Justin Hopkins said the school was expected to serve 858 students and presented the site plan"
+ },
+ {
+  "id": 494,
+  "city": "Providence",
+  "address": "188 Princeton Ave",
+  "set": {
+   "architect_person": "Luis Torrado",
+   "contractor": "Downes construction",
+   "attorney": "Christopher Menihan"
+  },
+  "quote": "Architect Luis Torrado presented the building plans including the floor layouts, recreation areas, public access, building massing and design."
+ },
+ {
+  "id": 495,
+  "city": "Providence",
+  "address": "1655 Westminster Street",
+  "set": {
+   "architect_person": "Tracey Donnelly",
+   "attorney": "Christopher Menihan"
+  },
+  "quote": "Architect Tracey Donnelly provided an overview of the project's design"
+ },
+ {
+  "id": 496,
+  "city": "Providence",
+  "address": "434 Mt Pleasant Ave",
+  "set": {
+   "architect_person": "Robert Santos",
+   "attorney": "Christopher Menihan"
+  },
+  "quote": "Architect Robert Santos presented the plan outlining the changes that would occur before and during construction."
+ },
+ {
+  "id": 498,
+  "city": "Providence",
+  "address": "885 Westminster Street",
+  "set": {
+   "architect_person": "Eric Zuena",
+   "attorney": "Dylan Conley"
+  },
+  "quote": "Attorney Dylan Conley introduced the item on the applicant's behalf and presented with architect Eric Zuena."
+ },
+ {
+  "id": 499,
+  "city": "Providence",
+  "address": "45 Parade Street",
+  "set": {
+   "attorney": "Seth Zeren"
+  },
+  "quote": ""
+ },
+ {
+  "id": 500,
+  "city": "Providence",
+  "address": "298 Public Street",
+  "set": {
+   "architect_person": "Brian Poor",
+   "attorney": "Rachel Hamilton"
+  },
+  "quote": "Attorney Rachel Hamilton, Architect Brian Poor and Carla DeStafano presented the plan on behalf of the applicant."
+ },
+ {
+  "id": 504,
+  "city": "Providence",
+  "address": "3601 – 1 Charles Street",
+  "set": {
+   "attorney": "Jeff Padwa"
+  },
+  "quote": "attorney Jeff Padwa. Mr. Padwa said the property was being used for short term rentals"
+ },
+ {
+  "id": 509,
+  "city": "Providence",
+  "address": "580 South Water Street",
+  "set": {
+   "architect": "FZDS Architects",
+   "architect_person": "Julie Bartlett"
+  },
+  "quote": "Ms. Julie Bartlett of FZDS Architects presented the project narrative, the sustainability narrative, the resiliency narrative, a site proximity study,"
+ },
+ {
+  "id": 510,
+  "city": "Providence",
+  "address": "150 Richmond",
+  "set": {
+   "architect": "Utile, Inc"
+  },
+  "quote": "Presentation by Utile, Inc. regarding the application submitted by L&G 150 Richmond Holdings LLC"
+ },
+ {
+  "id": 517,
+  "city": "Cranston",
+  "address": "1016 Park Avenue",
+  "set": {
+   "civil_engineer": "DiPrete engineering",
+   "attorney": "Moses Ryan LTD"
+  },
+  "quote": "Jenna Shea, project manager at DiPrete engineering, pres[ented]"
+ },
+ {
+  "id": 522,
+  "city": "Cranston",
+  "address": "1128 Narragansett Boulevard",
+  "set": {
+   "architect": "ZDS",
+   "architect_person": "Julie Bartlett",
+   "civil_engineer": "Joe Casali Engineering",
+   "attorney": "Robert Murray"
+  },
+  "quote": "Julie Bartlett of ZDS presented the proposal for a proposed 19-unit market-rate condominium development"
+ },
+ {
+  "id": 528,
+  "city": "Cranston",
+  "address": "2110 Plainfield Pike",
+  "set": {
+   "civil_engineer": "DiPrete Engineer",
+   "attorney": "Joseph Brennan"
+  },
+  "quote": "DiPrete Engineer, Dana Nisbet, explained that the proposed plan was designed with input from RIDOT."
+ },
+ {
+  "id": 529,
+  "city": "Cranston",
+  "address": "0 Plainfield Pike",
+  "set": {
+   "attorney": "Joseph Brennan"
+  },
+  "quote": "Attorney Joseph Brennan introduced the project as a representative of the applicant."
+ },
+ {
+  "id": 535,
+  "city": "Cranston",
+  "address": "5 Aborn Street",
+  "set": {
+   "attorney": "Robert Murray"
+  },
+  "quote": "Attorney Robert Murray and applicant Anthony Albanese Jr., principal of Bridgebrook LLC, presented a proposal"
+ },
+ {
+  "id": 539,
+  "city": "Cranston",
+  "address": "538 Main Street",
+  "set": {
+   "civil_engineer": "DiPrete Engineering",
+   "attorney": "Tenessa Azar"
+  },
+  "quote": "Attorney Tenessa Azar and Jenna Shea, Project Manager from DiPrete Engineering, presented the application"
+ },
+ {
+  "id": 545,
+  "city": "Pawtucket",
+  "address": "250 Esten Street",
+  "set": {
+   "attorney": "John Savage"
+  },
+  "quote": "Atty. John Savage, representing the applicant, confirmed that no exterior changes would be made."
+ },
+ {
+  "id": 547,
+  "city": "Pawtucket",
+  "address": "2 Columbus Avenue",
+  "set": {
+   "civil_engineer": "Colliers Engineering",
+   "attorney": "William (Bill) Conley"
+  },
+  "quote": "Attorney William (Bill) Conley introduced the project and the applicant's request for final plan approval."
+ },
+ {
+  "id": 559,
+  "city": "Newport",
+  "address": "525 Broadway",
+  "set": {
+   "architect": "2Hands Studio",
+   "architect_person": "Jeffrey Moniz",
+   "civil_engineer": "Northeast Engineers",
+   "landscape_architect": "Verde Design LLC",
+   "attorney": "Matthew Leys"
+  },
+  "quote": "architect Jeffrey Moniz of 2Hands Studio, civil engineer Lyn Small of Northeast Engineers, landscape architect Pam Rodgers of Verde Design LLC"
+ },
+ {
+  "id": 567,
+  "city": "Newport",
+  "address": "49 America’s Cup Avenue",
+  "set": {
+   "architect_person": "Justin Hedde",
+   "landscape_architect": "John C. Carter & Co., Inc",
+   "attorney": "Peter Regan"
+  },
+  "quote": "architect Justin Hedde of Centerbrook Architects, traffic engineer Paul Bannon of Crossman Engineering, landscape architect John Carter of John C. Car"
+ },
+ {
+  "id": 572,
+  "city": "Newport",
+  "address": "160 Carroll Avenue",
+  "set": {
+   "architect": "Union Studio",
+   "architect_person": "Christina Carlson",
+   "attorney": "Sayer Regan & Thayer"
+  },
+  "quote": "architect Christina Carlson of Union Studio, and project manager Mike Russell"
+ },
+ {
+  "id": 573,
+  "city": "Newport",
+  "address": "25 Waites Wharf",
+  "set": {
+   "attorney": "Miller Scott Holbrook & Jackson"
+  },
+  "quote": "The applicant was represented by Attorney J. Russell Jackson, Miller Scott Holbrook & Jackson."
+ },
+ {
+  "id": 580,
+  "city": "Warwick",
+  "address": "1577 West Shore Rd",
+  "set": {
+   "civil_engineer": "DiPrete Engineering"
+  },
+  "quote": "Designer: DiPrete Engineering"
+ },
+ {
+  "id": 582,
+  "city": "Warwick",
+  "address": "1624 Warwick Ave",
+  "set": {
+   "civil_engineer": "Level Design Group, LLC"
+  },
+  "quote": "Engineer/Architect: Joseph T. Cardella Architect, 194 Schoolhouse Rd, Warren"
+ },
+ {
+  "id": 587,
+  "city": "Warwick",
+  "address": "455 Toll gate Rd",
+  "set": {
+   "civil_engineer": "Stonefield Engineering & Design"
+  },
+  "quote": "Engineer: Stonefield Engineering & Design"
+ },
+ {
+  "id": 588,
+  "city": "Warwick",
+  "address": "2595 West Shore Rd",
+  "set": {
+   "surveyor": "Greenman Pedersen, Inc"
+  },
+  "quote": "Surveyor(s): Greenman Pedersen, Inc., Salem, NH."
+ },
+ {
+  "id": 590,
+  "city": "Warwick",
+  "address": "1187 Post Rd",
+  "set": {
+   "civil_engineer": "Alpha Associates, Ltd"
+  },
+  "quote": "Design professional: Alpha Associates, Ltd, East Greenwich, RI 02818"
+ },
+ {
+  "id": 593,
+  "city": "Warwick",
+  "address": "112 Old Warwick Avenue",
+  "set": {
+   "civil_engineer": "Commonwealth Engineers and Consultants, Inc"
+  },
+  "quote": "Designer: Commonwealth Engineers and Consultants, Inc."
+ },
+ {
+  "id": 595,
+  "city": "Warwick",
+  "address": "327 Jefferson Blvd. and 0 Bay State Aven",
+  "set": {
+   "surveyor": "Stonefield Engineering and Design"
+  },
+  "quote": "Surveyor(s): Stonefield Engineering and Design"
+ },
+ {
+  "id": 596,
+  "city": "Warwick",
+  "address": "211 Commonwealth Avenue",
+  "set": {
+   "surveyor": "Stonefield Engineering and Design"
+  },
+  "quote": "Engineer: VHB"
+ },
+ {
+  "id": 597,
+  "city": "Warwick",
+  "address": "19 Wood Street",
+  "set": {
+   "surveyor": "Peter V. Cipolla, Jr"
+  },
+  "quote": "Surveyor: Peter V. Cipolla, Jr."
+ },
+ {
+  "id": 598,
+  "city": "Warwick",
+  "address": "1112 West Shore Rd",
+  "set": {
+   "surveyor": "Alpha Associates LTD"
+  },
+  "quote": "Surveyor(s): Alpha Associates LTD."
+ },
+ {
+  "id": 604,
+  "city": "Providence",
+  "address": "327 ELMWOOD AVENUE",
+  "set": {
+   "attorney": "West Group Law PLLC"
+  },
+  "quote": ""
+ },
+ {
+  "id": 607,
+  "city": "Providence",
+  "address": "269 Wickenden Street",
+  "set": {
+   "architect_person": "Kevin Diamond",
+   "attorney": "Dylan Conley"
+  },
+  "quote": "Attorney Dylan Conley presented the project on behalf of the applicant, with architect Kevin Diamond"
+ },
+ {
+  "id": 612,
+  "city": "Providence",
+  "address": "659 – 663 Admiral Street",
+  "set": {
+   "architect_person": "Eric Zuena",
+   "attorney": "Dylan Conley"
+  },
+  "quote": "Mr. Eric Zuena, the architect, presented on behalf of the applicant."
+ },
+ {
+  "id": 613,
+  "city": "Providence",
+  "address": "400 Elmwood Ave",
+  "set": {
+   "architect_person": "Jeffrey Lykins",
+   "attorney": "John Garrahy"
+  },
+  "quote": "Architect Jeffrey Lykins and Applicant Michael Ayoub presented the item on the applicant's behalf."
+ },
+ {
+  "id": 615,
+  "city": "Providence",
+  "address": "279 Thayer Street",
+  "set": {
+   "architect_person": "Matt Silva",
+   "attorney": "John Garrahy"
+  },
+  "quote": "Attorney John Garrahy, Engineer Bill Lavery and architect Matt Silva presented on behalf of the applicant."
+ },
+ {
+  "id": 616,
+  "city": "Providence",
+  "address": "11 W Friendship Street",
+  "set": {
+   "architect_person": "Jeffrey Lykins",
+   "attorney": "John Garrahy"
+  },
+  "quote": "Architect Jeffrey Lykins presented the project virtually. He spoke about the first floor and site layout"
+ },
+ {
+  "id": 617,
+  "city": "Providence",
+  "address": "199 Oxford Street",
+  "set": {
+   "architect_person": "Luis Torrado",
+   "civil_engineer": "David D'Amico, Derek Hough",
+   "attorney": "Christopher Menihan"
+  },
+  "quote": "Architect Luis Torrado, Engineers David D'Amico, Derek Hough and Landscape Architect Diane Soule presented the item on behalf of the applicant."
+ },
+ {
+  "id": 623,
+  "city": "Providence",
+  "address": "108 – 110 Waterman Street",
+  "set": {
+   "architect_person": "Oscar Ramirez",
+   "attorney": "John Garrahy"
+  },
+  "quote": "Attorney John Garrahy represented the applicant and made a presentation with architect Oscar Ramirez and engineer Joseph Casale."
+ },
+ {
+  "id": 625,
+  "city": "Providence",
+  "address": "35 Merino Street",
+  "set": {
+   "attorney": "Christopher Menihan"
+  },
+  "quote": "Attorney Christopher Menihan and the applicant's team presented the item on the applicant's behalf"
+ },
+ {
+  "id": 626,
+  "city": "Providence",
+  "address": "60 Camden Ave",
+  "set": {
+   "architect_person": "Tracey Donnelly",
+   "attorney": "Christopher Menihan"
+  },
+  "quote": "Attorney Christopher Menihan presented the item on behalf of the applicant with Engineer Sam Hemenway and Architect Tracey Donnelly."
+ },
+ {
+  "id": 627,
+  "city": "Providence",
+  "address": "220 Blackstone Street",
+  "set": {
+   "architect_person": "Virginia Branch"
+  },
+  "quote": "Architect Virginia Branch, Engineer Sam Hemenway and Developers Harry and Franklin Angevine presented the item"
+ },
+ {
+  "id": 628,
+  "city": "Providence",
+  "address": "3575 – 176 Gano Street",
+  "set": {
+   "architect_person": "Kevin Diamond",
+   "attorney": "John Garrahy"
+  },
+  "quote": "Attorney John Garrahy presented the item with architect Kevin Diamond"
+ },
+ {
+  "id": 654,
+  "city": "Providence",
+  "address": "1051-1061 Chalkstone Ave",
+  "set": {
+   "attorney": "John Garrahy"
+  },
+  "quote": "Attorney John Garrahy presented the item with the owner, Mr. Richard Grasso."
+ },
+ {
+  "id": 656,
+  "city": "Providence",
+  "address": "50 Branch Ave",
+  "set": {
+   "architect_person": "Christen Robbins",
+   "attorney": "Joseph Brennan"
+  },
+  "quote": "Attorney Joseph Brennan presented the item on behalf of the applicant with Architect Christen Robbins and Engineer Suzanne King."
+ },
+ {
+  "id": 657,
+  "city": "Providence",
+  "address": "371 Pine St",
+  "set": {
+   "architect_person": "Christine West",
+   "attorney": "John Garrahy"
+  },
+  "quote": "architect Christine West, and Michele Wilcox representing the applicant"
+ },
+ {
+  "id": 658,
+  "city": "Providence",
+  "address": "740 Plainfield Street",
+  "set": {
+   "attorney": "Christian Capizzo"
+  },
+  "quote": "Attorney Christian Capizzo represented the applicant and requested a continuance"
+ },
+ {
+  "id": 660,
+  "city": "Providence",
+  "address": "697 Douglas Ave",
+  "set": {
+   "attorney": "Dylan Conley"
+  },
+  "quote": "Attorney Dylan Conley represented the applicant and said that the site was the previous location of a salon."
+ },
+ {
+  "id": 665,
+  "city": "Providence",
+  "address": "116 Waterman Street",
+  "set": {
+   "architect_person": "Oscar Ramirez",
+   "attorney": "John Garrahy"
+  },
+  "quote": "Attorney John Garrahy, Engineer Dan Decesaris and Architect Oscar Ramirez presented on the applicant's behalf"
+ },
+ {
+  "id": 669,
+  "city": "Providence",
+  "address": "230 Waterman Street",
+  "set": {
+   "attorney": "Andrew Teitz"
+  },
+  "quote": "Attorney Andrew Teitz presented on behalf of the applicant."
+ },
+ {
+  "id": 673,
+  "city": "Providence",
+  "address": "153-165 Gano Street",
+  "set": {
+   "attorney": "John Garrahy, Esq"
+  },
+  "quote": "John Garrahy, Esq. on behalf of Power 250, LLC"
+ },
+ {
+  "id": 674,
+  "city": "Providence",
+  "address": "250 Lloyd Ave",
+  "set": {
+   "attorney": "Amy Goins"
+  },
+  "quote": "Mr. Amato, a civil engineer, spoke about how the effects on neighboring property would be mitigated."
+ },
+ {
+  "id": 675,
+  "city": "Providence",
+  "address": "311 Knight Street",
+  "set": {
+   "attorney": "Tenessa Azar"
+  },
+  "quote": "Attorney Tenessa Azar requested a one year extension of the validity of the preliminary plan"
+ },
+ {
+  "id": 676,
+  "city": "Providence",
+  "address": "386 Atwells Ave",
+  "set": {
+   "architect_person": "Eric Zuena",
+   "attorney": "Joelle Rocha"
+  },
+  "quote": "Mr. Eric Zuena, an architect, and Mr. Joe Casali, an engineer, presented on the applicant's behalf."
+ },
+ {
+  "id": 677,
+  "city": "Providence",
+  "address": "75 EAST ST",
+  "set": {
+   "architect_person": "Kevin Diamond",
+   "attorney": "Dylan Conley, Esq"
+  },
+  "quote": "Kevin Diamond, Architect"
+ },
+ {
+  "id": 678,
+  "city": "Providence",
+  "address": "113 Ives Street",
+  "set": {
+   "architect_person": "Kevin Diamond"
+  },
+  "quote": "Architect Kevin Diamond and Owner Dustin Dezube presented the project on behalf of the applicant."
+ },
+ {
+  "id": 679,
+  "city": "Providence",
+  "address": "220 Broad Street",
+  "set": {
+   "architect_person": "Virginia Branch"
+  },
+  "quote": "architect Virginia Branch, and engineer Sam Hemenway represented the applicant"
+ },
+ {
+  "id": 680,
+  "city": "Providence",
+  "address": "3526 – 550 Veazie Street",
+  "set": {
+   "attorney": "Katie Otrando"
+  },
+  "quote": "Attorney Katie Otrando represented the petitioner and Norm Cotash represented the site owner"
+ },
+ {
+  "id": 683,
+  "city": "Providence",
+  "address": "22-26 Ringgold Street",
+  "set": {
+   "architect_person": "Kevin Diamond",
+   "attorney": "Dylan Conley"
+  },
+  "quote": "Mr. Kevin Diamond, an architect, presented on behalf of the petitioner."
+ },
+ {
+  "id": 685,
+  "city": "Providence",
+  "address": "135 Prairie Ave",
+  "set": {
+   "architect_person": "Kathy Bartels"
+  },
+  "quote": "Ms. Kathy Bartels, the architect, presented the plans to construct an arts and athletic center"
+ },
+ {
+  "id": 688,
+  "city": "Providence",
+  "address": "850 Manton Ave",
+  "set": {
+   "attorney": "John Mancini"
+  },
+  "quote": "Mr. John Mancini, an attorney, presented on behalf of the applicant."
+ },
+ {
+  "id": 690,
+  "city": "Providence",
+  "address": "18 Marcello Street",
+  "set": {
+   "attorney": "Nicole Martucci"
+  },
+  "quote": "Attorney Nicole Martucci requested a one-year extension of the preliminary plan on behalf of the applicant."
+ },
+ {
+  "id": 691,
+  "city": "Providence",
+  "address": "94 Summer Street",
+  "set": {
+   "attorney": "John Garrahy"
+  },
+  "quote": "Attorney John Garrahy presented on behalf of the applicant"
+ },
+ {
+  "id": 699,
+  "city": "Providence",
+  "address": "18 Eighth St",
+  "set": {
+   "attorney": "John Mancini, Esq"
+  },
+  "quote": "APPEARANCES: John Mancini, Esq."
+ },
+ {
+  "id": 702,
+  "city": "Providence",
+  "address": "288 Kinsley Ave",
+  "set": {
+   "attorney": "Nicholas Goodier"
+  },
+  "quote": "Attorney Nicholas Goodier and engineers Dana Nisbet and Paul Bannon presented the plan on the applicant's behalf."
+ },
+ {
+  "id": 711,
+  "city": "Providence",
+  "address": "35 Hemlock Street",
+  "set": {
+   "attorney": "Samuel Budway"
+  },
+  "quote": "Mr. Samuel Budway, attorney for the applicant, presented the plan on behalf of the applicant."
+ },
+ {
+  "id": 721,
+  "city": "Providence",
+  "address": "21 Peace Street",
+  "set": {
+   "attorney": "Wayne Kezarian"
+  },
+  "quote": "Wayne Kezarian, counsel for the applicant, had requested a continuance"
+ },
+ {
+  "id": 729,
+  "city": "Providence",
+  "address": "47 Matilda Street",
+  "set": {
+   "architect_person": "Jack Ryan"
+  },
+  "quote": "Mr. Jack Ryan, the architect, presented the changed plan."
+ },
+ {
+  "id": 732,
+  "city": "Providence",
+  "address": "121 Stamford Ave",
+  "set": {
+   "attorney": "Joseph Brennan"
+  },
+  "quote": "The applicant was represented by John Massenzio with attorney Joseph Brennan and engineer Eric Wishart."
+ },
+ {
+  "id": 733,
+  "city": "Providence",
+  "address": "466-468 West Fountain Street",
+  "set": {
+   "architect_person": "Ron Stevenson"
+  },
+  "quote": "Mr. Ron Stevenson, an architect, presented the item on the applicant's behalf."
+ },
+ {
+  "id": 734,
+  "city": "Providence",
+  "address": "16-42 Somerset Street",
+  "set": {
+   "architect_person": "Virginia Branch",
+   "attorney": "John Garrahy"
+  },
+  "quote": "Ms. Virginia Branch, the project architect, said that the project would involve some townhouses"
+ },
+ {
+  "id": 742,
+  "city": "Providence",
+  "address": "473 Washington Street",
+  "set": {
+   "architect_person": "Eric Zuena",
+   "attorney": "Nicholas Hemond"
+  },
+  "quote": "Mr. Eric Zuena, the project architect, presented the revised plan."
+ },
+ {
+  "id": 743,
+  "city": "Providence",
+  "address": "946-1000 Westminster Street",
+  "set": {
+   "architect_person": "Matthew McGeorge",
+   "attorney": "Brian Laplante"
+  },
+  "quote": "Mr. Matthew McGeorge, Architect presented the item on behalf of the applicant."
+ },
+ {
+  "id": 746,
+  "city": "Providence",
+  "address": "217 Angell Street",
+  "set": {
+   "architect_person": "Christine West",
+   "attorney": "Kelley Morris-Salvatore"
+  },
+  "quote": "Architect Christine West, Engineers Joe Casali and William Lavery presented the item"
+ },
+ {
+  "id": 757,
+  "city": "Providence",
+  "address": "21 Euclid Ave",
+  "set": {
+   "architect_person": "Mark Rapp"
+  },
+  "quote": "architect Mark Rapp, presented the item on behalf of the applicant"
+ },
+ {
+  "id": 767,
+  "city": "Providence",
+  "address": "33 Bassett Street",
+  "set": {
+   "architect_person": "Scot Woodin",
+   "attorney": "Rob Stolzman"
+  },
+  "quote": "Scot Woodin, architect, appeared to discuss the project."
+ },
+ {
+  "id": 769,
+  "city": "Providence",
+  "address": "233-261 Richmond Street",
+  "set": {
+   "architect_person": "Noah Biklen",
+   "attorney": "Andy Teitz"
+  },
+  "quote": "Attorney Andy Teitz, Noah Biklen, architect, and Craig Barton and Paul Dietel, representing Brown University, appeared to discuss the project."
+ },
+ {
+  "id": 787,
+  "city": "Providence",
+  "address": "30 Barbara St",
+  "set": {
+   "attorney": "Dylan Conley"
+  },
+  "quote": "Dylan Conley, Attorney appeared for applicant regarding Special Use Permit application."
+ },
+ {
+  "id": 792,
+  "city": "Providence",
+  "address": "221 Academy Ave",
+  "set": {
+   "architect_person": "Jeffrey Lykins",
+   "attorney": "Frank Manni, Esq"
+  },
+  "quote": "Jeffrey Lykins, architect"
+ },
+ {
+  "id": 795,
+  "city": "Providence",
+  "address": "963 North Main St",
+  "set": {
+   "attorney": "Kelley Morris Salvatore, Esq.; Nicolas Hemond, Esq"
+  },
+  "quote": "Kelley Morris Salvatore, Esq., Nicolas Hemond, Esq.; Thomas Badway, obo ownership"
+ },
+ {
+  "id": 806,
+  "city": "Providence",
+  "address": "30 Princeton Ave",
+  "set": {
+   "attorney": "Jeff Padwa, Esq"
+  },
+  "quote": "Jeff Padwa, Esq.; Ryan Twombly, owner COMMENTORS"
+ },
+ {
+  "id": 813,
+  "city": "Providence",
+  "address": "362 Ives St",
+  "set": {
+   "attorney": "Philip Primeau, Esq"
+  },
+  "quote": "Paul Carlson, Civil Engineer"
+ },
+ {
+  "id": 818,
+  "city": "Providence",
+  "address": "235 West Park St",
+  "set": {
+   "attorney": "John Garrahy, Esq"
+  },
+  "quote": "John Garrahy, Esq. noting for the record that withdrawal was by owner, not applicant"
+ },
+ {
+  "id": 820,
+  "city": "Providence",
+  "address": "518 Lloyd Ave",
+  "set": {
+   "architect_person": "Matthew Clemence",
+   "attorney": "Bret Jedele, Esq"
+  },
+  "quote": "Matthew Clemence, architect"
+ },
+ {
+  "id": 821,
+  "city": "Providence",
+  "address": "126 Adelaide Ave",
+  "set": {
+   "architect_person": "David Sisson",
+   "attorney": "Joseph Brennan, Esq"
+  },
+  "quote": "David Sisson, Architect appeared for the application to establish a multi-family dwelling"
+ },
+ {
+  "id": 822,
+  "city": "Providence",
+  "address": "265 Manton Avenue",
+  "set": {
+   "architect_person": "Miriam Spear",
+   "attorney": "Seth Handy, Esq"
+  },
+  "quote": "Miriam Spear, architect; Kurt Stenberg, PE"
+ },
+ {
+  "id": 824,
+  "city": "Providence",
+  "address": "288 Kinsley Ave",
+  "set": {
+   "attorney": "Nicholas Goodier"
+  },
+  "quote": "Attorney Nicholas Goodier and engineers Dana Nisbet and Paul Bannon presented the plan on the applicant's behalf."
+ },
+ {
+  "id": 826,
+  "city": "Providence",
+  "address": "215 BROADWAY",
+  "set": {
+   "attorney": "Kerin Browning, Esq"
+  },
+  "quote": ""
+ },
+ {
+  "id": 827,
+  "city": "Providence",
+  "address": "381 Angell St",
+  "set": {
+   "attorney": "John Garrahy, Esq"
+  },
+  "quote": "John Garrahy, Esq. appeared for the applicant regarding the extension request"
+ },
+ {
+  "id": 829,
+  "city": "Providence",
+  "address": "145 Manton Ave",
+  "set": {
+   "attorney": "John Garrahy, Esq"
+  },
+  "quote": "Application for SPECIAL USE PERMIT to build a new structure at the rear of the property in order to provide Vehicle Repair/Service"
+ },
+ {
+  "id": 832,
+  "city": "Providence",
+  "address": "369 Broadway",
+  "set": {
+   "architect_person": "Kevin Diamond"
+  },
+  "quote": "Kevin Diamond, Project Architect for the owner"
+ },
+ {
+  "id": 833,
+  "city": "Providence",
+  "address": "165 Dexter St",
+  "set": {
+   "attorney": "Dawn Oliveri, Esq"
+  },
+  "quote": "Application for SPECIAL USE PERMIT to build an addition for two garage bays"
+ },
+ {
+  "id": 835,
+  "city": "Providence",
+  "address": "280 Melrose St",
+  "set": {
+   "civil_engineer": "GZA",
+   "attorney": "Christine Dieter, Esq"
+  },
+  "quote": "Sophia Narkiewicz, PE, GZA; Christine Dieter, Esq. appearing for Applicant"
+ },
+ {
+  "id": 838,
+  "city": "Providence",
+  "address": "189 Ontario St",
+  "set": {
+   "attorney": "Michael Fitzpatrick, Esq"
+  },
+  "quote": "Michael Fitzpatrick, Esq.; Larissa Sayig, owner; Mark Anthony, owner's General Contractor"
+ },
+ {
+  "id": 843,
+  "city": "Providence",
+  "address": "1 Fields Point Dr",
+  "set": {
+   "attorney": "John Mancini, Esq"
+  },
+  "quote": "John Mancini, Esq. appearing for Green Providence Wind I, LLC"
+ },
+ {
+  "id": 857,
+  "city": "Providence",
+  "address": "136 Silver Lake Ave",
+  "set": {
+   "attorney": "Nicholas Goodier, Esq"
+  },
+  "quote": "Nicholas Goodier, Esq.; Jeff White for Curaleaf/Palliatech"
+ },
+ {
+  "id": 859,
+  "city": "Providence",
+  "address": "209 Fountain St",
+  "set": {
+   "attorney": "Nicholas Goodier, Esq.; John Mancini, Esq"
+  },
+  "quote": "Nicholas Goodier, Esq.; Michael Voccola, for PRI XIV LP"
+ },
+ {
+  "id": 861,
+  "city": "Providence",
+  "address": "292 Pocasset Ave",
+  "set": {
+   "attorney": "Nicole Martucci, Esq"
+  },
+  "quote": "Nicole Martucci, Esq.; Jennifer Freitas, for the Applicant"
+ },
+ {
+  "id": 862,
+  "city": "Providence",
+  "address": "54 South St",
+  "set": {
+   "attorney": "Nicole Martucci, Esq"
+  },
+  "quote": "Nicole Martucci, Esq.; Jennifer Freitas, for the Applicant"
+ },
+ {
+  "id": 863,
+  "city": "Providence",
+  "address": "7 Mount Hope Ave",
+  "set": {
+   "attorney": "John Garrahy, Esq"
+  },
+  "quote": "John Garrahy, Esq.; Peter Casale, building consultant; Peter Scotti, Certified Appraiser"
+ },
+ {
+  "id": 874,
+  "city": "Cranston",
+  "address": "27 Hemlock Avenue",
+  "set": {
+   "attorney": "John E. Shekarchi, Esq"
+  },
+  "quote": "Attorney John E. Shekarchi, Esq."
+ },
+ {
+  "id": 875,
+  "city": "Cranston",
+  "address": "11 Dart Street",
+  "set": {
+   "attorney": "Not specified"
+  },
+  "quote": ""
+ },
+ {
+  "id": 881,
+  "city": "Warwick",
+  "address": "240 Shawomet Ave",
+  "set": {
+   "attorney": "K. Joseph Shekarchi, Esq"
+  },
+  "quote": "K. Joseph Shekarchi, Esq. was present and representing the petitioner"
+ },
+ {
+  "id": 882,
+  "city": "Warwick",
+  "address": "1689 Post Rd",
+  "set": {
+   "attorney": "K. Joseph Shekarchi, Esq.; Kelly Morris, Esq"
+  },
+  "quote": "K. Joseph Shekarchi, Esq. representing Crossroads Capital Fund, and with him is his co-counsel, Kelly Morris, Esq. representing U-Haul."
+ },
+ {
+  "id": 885,
+  "city": "Warwick",
+  "address": "57 units. The main point",
+  "set": {
+   "attorney": "Joseph Shekarchi, Esq"
+  },
+  "quote": "they have a parking solution that is new and different to Warwick"
+ },
+ {
+  "id": 886,
+  "city": "Warwick",
+  "address": "39 Dees Circle",
+  "set": {
+   "attorney": "John Shekarchi, Esq"
+  },
+  "quote": "seeking a dimensional variance to construct a new single family dwelling"
+ },
+ {
+  "id": 888,
+  "city": "Warwick",
+  "address": "6 Oakland Beach Ave",
+  "set": {
+   "attorney": "Joseph Shekarchi, Esq"
+  },
+  "quote": "Joseph Shekarchi, Esq. was present and representing the petitioner."
+ },
+ {
+  "id": 890,
+  "city": "Warwick",
+  "address": "800 Toll Gate Rd",
+  "set": {
+   "attorney": "K. Joseph Shekarchi, Esq"
+  },
+  "quote": "K. Joseph Shekarchi, Esq. was present and representing the petitioners."
+ },
+ {
+  "id": 892,
+  "city": "Warwick",
+  "address": "2021 Page",
+  "set": {
+   "attorney": "K. Joseph Shekarchi, Esq"
+  },
+  "quote": "K. Joseph Shekarchi, Esq. was present and representing the petitioners."
+ },
+ {
+  "id": 894,
+  "city": "Warwick",
+  "address": "555 Greenwich Ave",
+  "set": {
+   "attorney": "K. Joseph Shekarchi, Esq"
+  },
+  "quote": "K. Joseph Shekarchi, Esq. was present and representing the petitioners."
+ },
+ {
+  "id": 895,
+  "city": "Warwick",
+  "address": "641 Bald Hill Rd",
+  "set": {
+   "attorney": "Joseph Brennan, Esq"
+  },
+  "quote": ""
+ },
+ {
+  "id": 897,
+  "city": "Warwick",
+  "address": "30 Jefferson Blvd",
+  "set": {
+   "attorney": "K. Joseph Shekarchi, Esq"
+  },
+  "quote": "K. Joseph Shekarchi, Esq. was present and representing the petitioner"
+ },
+ {
+  "id": 898,
+  "city": "Warwick",
+  "address": "30 Randall Ave",
+  "set": {
+   "attorney": "Mary Shekarchi, Esq"
+  },
+  "quote": "Mary Shekarchi, Esq. was present and representing the petitioners."
+ }
+]
