@@ -67,6 +67,143 @@
     "architect": "McGeorge Architecture Interiors",
     "source_url": "https://www.providenceri.gov/wp-content/uploads/2023/09/2023-11-DPR-870-WESTMINSTER-ST-DPR-SUBMISSION.pdf",
     "evidence": "Title block of the DPR submission drawing filed with the city: '18 Fifth Avenue East Greenwich, Rhode Island 02818 ... mcgeorgeai.com' over CLIENT: THE OMNI GROUP, PROJECT: 870 WESTMINISTER BANK, 870 WESTMINSTER STREET PROVIDENCE, RI",
+    "role": "architect",
+    "source": "planset"
+  },
+  {
+    "id": 741,
+    "architect": "Union Studio Architecture & Community Design",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2020/09/CaseNo19-007MI%E2%80%93200GordonAve-and-445PrairieAvePreliminary-Plan-SR-docs.pdf",
+    "evidence": "Title block of the plan set filed with case 19-007MI: 'ARCHITECT: UNION STUDIO ARCHITECTURE & COMMUNITY DESIGN 140 UNION STREET PROVIDENCE, RI 02903' -- 200 Gordon Ave and 445 Prairie Ave preliminary plan",
+    "role": "architect",
+    "source": "planset"
+  },
+  {
+    "id": 669,
+    "architect": "ZDS Architecture & Interior Design",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2021/11/21-020MA-230-Waterman-St-Staff-Report-and-Plans.pdf",
+    "evidence": "Title block on the drawing sheets filed with case 21-020MA: 'ARCHITECT ZDS inc. 2 CHARLES STREET, SUITE A1 PROVIDENCE, RI 02904' -- written under the practice's trading name, ZDS Architecture & Interior Design",
+    "role": "architect",
+    "source": "planset"
+  },
+  {
+    "id": 697,
+    "architect": "FreeCell Architecture",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2021/05/21-017MI-49WestfieldStreet-SR-docs.pdf",
+    "evidence": "Drawing title block filed with case 21-017MI: 'Architect: FREECELL ARCHITECTURE, 57 35TH ST, BROOKLYN NY 11232, WWW.FRCLL.COM'. The separate 'LANDSCAPE ARCHITECT: 57 HUDSON ST. PROVIDENCE' block on the landscape sheet is Design Under Sky, not the building architect",
+    "role": "architect",
+    "source": "planset"
+  },
+  {
+    "id": 667,
+    "architect": "Ed Wojcik, Architect, Ltd.",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2022/12/22-056MI-300-Valley-St-prelim-submission.pdf",
+    "evidence": "Cover sheet of the preliminary submission for case 22-056MI, 'New Development for: 300 Valley Street Residential': 'ARCHITECT Ed Wojcik, Architect, Ltd., One Richmond Square, Suite 100K, Providence, RI 02906' (civil engineer listed separately as D'Amico Engineering Technology)",
+    "role": "architect",
+    "source": "planset"
+  },
+  {
+    "id": 480,
+    "architect": "FreeCell Architecture",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2025/05/25-019MI-1107-Westminster-St-prelim-submission.pdf",
+    "evidence": "Cover sheet G001.00 of the case 25-019MI submission, project '1107 WESTMINSTER MIXED USE': 'ARCHITECT FREECELL ARCHITECTURE LLC, 57 35TH STREET UNIT B516, BROOKLYN NY 11232', stamped by registered architect Lauren Crahan",
+    "role": "architect",
+    "source": "planset"
+  },
+  {
+    "id": 650,
+    "architect": "Prsic & Prsic",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2023/06/2023-07-DPR-73-78-Stanwood-submission.pdf",
+    "evidence": "Cover sheet of the Development Plan Review submission for Montessori Community School of Rhode Island, 73 + 78 Stanwood Street: title block 'PRSIC & PRSIC' with the registered-architect stamp of Almin Prsic (RI 4813). Written without the diacritics the sheet uses (Prsic & Prsic)",
+    "role": "architect",
+    "source": "planset"
+  },
+  {
+    "id": 652,
+    "architect": "mag associates inc.",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2023/06/23-036MI-547-Chalkstone-ave-preliminary-submission.pdf",
+    "evidence": "Title block of sheet A-1 for 547 Chalkstone Ave, A.P. 69 Lot 261: 'mag associates inc. architecture . planning . interiors, 61 Potter Street, East Providence, RI 02914'",
+    "role": "architect",
+    "source": "planset"
+  },
+  {
+    "id": 714,
+    "architect": "Jeffrey Lykins",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2021/02/CaseNo.2021-03DPR%E2%80%93528CharlesStreet-SR-docs.pdf",
+    "evidence": "Cover sheet title block for '528 CHARLES ST - PROVIDENCE RI 02908, CHANGING OCCUPANCY AND REMODELING ON FIRST FLOOR': 'ARCHITECT JEFFREY LYKINS, 110-1/2 SOUTH KILLINGLY ROAD, FOSTER RI 02825', with a RI registered architect stamp. A person, not a practice",
+    "role": "architect",
+    "source": "planset"
+  },
+  {
+    "id": 770,
+    "architect": "Truth Box Architects",
+    "source": "planset",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2022/03/71-Richmond-March-DDRC-Submission-Drawings.pdf",
+    "evidence": "Sheet footer of the March 2022 DDRC submission drawings for 71 Richmond Street: 'EXTERIOR ELEVATIONS -- MARCH 2022 | Truth Box Inc' beside the 'truth box ARCHITECTS' logo. ArtInRuins credits Monika Kraemer as the designing architect on the project",
     "role": "architect"
+  },
+  {
+    "id": 778,
+    "architect": "Truth Box Inc. and ZDS",
+    "source": "web",
+    "source_url": "https://www.195district.com/projects/parcel-6/",
+    "evidence": "I-195 Redevelopment District project page for Parcel 6 (135 Wickenden Street): 'Developer: D+P Real Estate and Truth Box Inc  Architect: Truth Box Inc. and ZDS'",
+    "role": "architect"
+  },
+  {
+    "id": 547,
+    "architect": "Jonathan Levi Architects",
+    "source": "web",
+    "role": "architect",
+    "source_url": "https://www.shawmut.com/news/shawmut-breaks-ground-on-new-326m-pawtucket-high-school-on-site-of-historic-mccoy-stadium",
+    "evidence": "Project team for the new Pawtucket Unified High School at 2 Columbus Avenue (the former McCoy Stadium site): Shawmut Design and Construction as builder, Colliers Project Leaders as owner's project manager, and Jonathan Levi Architects as lead architect -- a $326M, 375,000 sf complex"
+  },
+  {
+    "id": 752,
+    "architect": "Wood Architects, PLC",
+    "source": "web",
+    "role": "architect",
+    "source_url": "https://www.dimeo.com/portfolio/offshore-wind-facility-at-the-port-of-providence/",
+    "evidence": "Dimeo Construction's project page for the Offshore Wind Facility at the Port of Providence is titled 'Architect - Wood Architects, PLC'. Dimeo was the general contractor on the Orsted/Eversource foundation-component facility at ProvPort, the project filed as case 20-005MA by North East Offshore LLC at 7 Harborside Boulevard"
+  },
+  {
+    "id": 702,
+    "architect": "Cordtsen Design Architecture",
+    "source": "planset",
+    "role": "architect",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2021/05/21-009UDR-288Kinsley_and_153HarrisAve-SR-docs.pdf",
+    "evidence": "Drawing title block in the city's 288 Kinsley Ave / 153 Harris Ave submission: 'CORDTSEN DESIGN ARCHITECTURE, 42 West Main Road, Middletown, RI 02842, CordtsenDesign.com' (DiPrete Engineering appears separately as the civil engineer)"
+  },
+  {
+    "id": 824,
+    "architect": "Cordtsen Design Architecture",
+    "source": "planset",
+    "role": "architect",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2021/05/21-009UDR-288Kinsley_and_153HarrisAve-SR-docs.pdf",
+    "evidence": "Same 288 Kinsley Ave development as project 702 -- this row is the freestanding-sign variance for the site. Drawing title block: 'CORDTSEN DESIGN ARCHITECTURE, 42 West Main Road, Middletown, RI 02842'"
+  },
+  {
+    "id": 492,
+    "architect": "Ed Wojcik, Architect, Ltd.",
+    "source": "planset",
+    "role": "architect",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2022/12/22-063MI-322-Washington-St-prelim-submission.pdf",
+    "evidence": "Cover sheet of the case 22-063MI preliminary submission, 'New Development for: 322 Washington St. Residential Units': 'ARCHITECT Ed Wojcik, Architect, Ltd., One Richmond Square, Suite 100K, Providence, RI 02906'; civil engineer D'Amico Engineering Technology, landscape architect Diane Soule and Associates"
+  },
+  {
+    "id": 726,
+    "architect": "ZDS Architecture & Interior Design",
+    "source": "planset",
+    "role": "architect",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2020/11/20-036MI-17MarcelloStreetPreliminaryPlan-SR-docs.pdf",
+    "evidence": "Elevations sheet in the case 20-036MI preliminary plan package: 'ELEVATIONS AND MATERIAL BOARD -- MARCELLO STREET APARTMENTS, SEPTEMBER 2020' under the ZDS logo. Written under the practice's trading name, ZDS Architecture & Interior Design"
+  },
+  {
+    "id": 848,
+    "architect": "ACME Architect LLC",
+    "source": "planset",
+    "role": "architect",
+    "source_url": "https://www.providenceri.gov/wp-content/uploads/2024/04/Case24.040.225Broadway-SR-docs.pdf",
+    "evidence": "Drawing title block in the city's Case 24.040 file for 225 Broadway: 'ACME Architect LLC ... MarkRappArchitect.com Tel 401.465.5247'"
   }
 ]

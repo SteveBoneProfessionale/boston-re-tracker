@@ -1,0 +1,122 @@
+== 1880post.pdf
+   domain  www.diprete-eng.com                      x6
+   domain  diprete-eng.com                          x1
+== 19-051MA-311-Knight-Street-Final-Plan-Approval.pdf
+   domain  www.z-ds.com                             x1
+== 2022-10DPR-135-Prairie-Ave-comm-prep-plan-elev.pdf
+   domain  www.diprete-eng.com                      x9
+== 2023-11-DPR-870-Westminster-November-2023.pdf
+   domain  mcgeorgeai.com                           x3
+== 2023-11-DPR-870-WESTMINSTER-ST-DPR-SUBMISSION.pdf
+   domain  mcgeorgeai.com                           x3
+== 2026-02-17_FS_DRFT-Minor-LDP_309-Dexter-Providence-RI.pdf
+   domain  www.stonefieldeng.com                    x9
+   domain  apslaw.com                               x1
+== 2026-02-19_Stormwater-Management-Plan.pdf
+   domain  stonefieldeng.com                        x1
+== 21-035MA-663-Admiral-Street-Civil-Site-Plans.pdf
+   domain  insiteengineers.com                      x6
+== 21-047MI-220-Blackstone-St-with-staff-report.pdf
+   domain  www.diprete-eng.com                      x4
+== 22-008MI-153-165-Gano-Street.pdf
+   label   ARCHITECT: ACME ARCHITECT
+== 22-008MI-153-165-Gano-Traffic-Impact-Study.pdf
+   domain  www.beta-inc.com                         x1
+== 22-016MI-94-Summer-St.pdf
+   domain  kitearchitects.com                       x4
+   label   Architect: KITE Architects Inc. One Central Street
+== 22-022UDR-35-merino-preliminary-plan-updated.pdf
+   domain  www.fando.com                            x7
+   label   Architect: Peer Reviewer
+== 22-023MA-279-Thayer-St.pdf
+   label   ARCHITECT: BISBANO & ASSOCIATES
+== 22-049MA-merged-submission-1.pdf
+   domain  www.omnilight.com                        x1
+   domain  bega-us.com                              x1
+== 22-058MI-327-Elmwood-Ave-prelminary-submission-November.pdf
+   domain  www.cicdofboston.org                     x1
+   label   ARCHITECT: DAVIS SQUARE ARCHITECTS 240A ELM STREET
+== 22-067MA-50-Branch-Ave-preliminary-civil.pdf
+   domain  www.blcompanies.com                      x1
+== 22-067MA-Master-plan-submission.pdf
+   domain  www.blcompanies.com                      x1
+== 22-067MA-parking-analysis.pdf
+   domain  www.blcompanies.com                      x1
+   domain  blcompanies.com                          x1
+== 23-029MA-371-Pine-Street-prelim-plan-submission.pdf
+   domain  kitearchitects.com                       x8
+   domain  nei-cds.com                              x1
+   domain  www.nei-cds.com                          x1
+== 23-030MA-108-110-Waterman-Historic-memo.pdf
+   domain  www.gracechurchcemeteryri.org            x1
+   domain  www.findagrave.com                       x1
+== 23-030MA-108-110-Waterman-Street-master-plan-submission.pdf
+   label   ARCHITECT: AHARONIAN & ASSOCIATES
+== 23-050UDR-45-PARADE-STREET-PRELIM-SUBMISSION.pdf
+   domain  www.jackryanarchitect.com                x6
+   domain  www.sde-ldec.com                         x1
+== 23-055MI-150-158-Pitman-major-change.pdf
+   domain  www.bisbano.com                          x8
+== 24-004MA-Kizirian-school-60-Camden-Ave-preliminary-plan.pdf
+   domain  studiojaed.com                           x7
+   domain  www.studiojaed.com                       x7
+== 24-011MA-220-Blackstone-master-prelim-submission.pdf
+   domain  www.diprete-eng.com                      x1
+== 24-021MA-199-Oxford-Fogarty-School-preliminary-plan.pdf
+   domain  www.dengineeringtec.com                  x6
+   domain  torrado-architects.com                   x1
+   domain  www.dianesouleandassociates.com          x1
+   domain  antinozzi.com                            x1
+   label   ARCHITECT: TORRADO ARCHITECTS 35 Greenwich Street Provid
+   label   ARCHITECT: Antinozzi Associates Architecture & Interior
+== 24-021UDR-199-Oxford-Street-Fogarty-Master-Plan-UDR-submission.pdf
+   domain  www.dengineeringtec.com                  x4
+   domain  torrado-architects.com                   x1
+   domain  www.dianesouleandassociates.com          x1
+   domain  antinozzi.com                            x1
+   label   ARCHITECT: TORRADO ARCHITECTS 35 Greenwich Street Provid
+   label   ARCHITECT: Antinozzi Associates Architecture & Interior
+== 24-024MI-128-Wayland-Ave-preliminary-submission.pdf
+   domain  www.dengineeringtec.com                  x5
+   domain  www.ds-arch.com                          x3
+   domain  ds-arch.com                              x3
+== 24-024MIL-128-Wayland-Ave-prelim-submission-combined-9.25.pdf
+   domain  www.dengineeringtec.com                  x5
+   domain  www.ds-arch.com                          x3
+   domain  ds-arch.com                              x3
+== 24-060MI-551-Chalkstone-preliminary-submission-Architectural.pdf
+   domain  www.ds-arch.com                          x8
+   domain  ds-arch.com                              x8
+== 24-060MI-551-Chalkstone-preliminary-submission-Civil.pdf
+   domain  www.dengineeringtec.com                  x6
+   domain  www.statelinesurvey.com                  x1
+== 25-002MI-217-Angell-St-architectural.pdf
+   domain  kitearchitects.com                       x8
+== 25-006MA-220-Blackstone-Arch-combined.pdf
+   domain  www.brancharch.com                       x4
+== 25-036MA-21-New-York-Ave-master-prelim-submission.pdf
+   domain  www.dengineeringtec.com                  x2
+   domain  urbaneconstruction.com                   x1
+== 25-044UDR-290-PUBLIC-ST-MINOR-LAND-SUBMISSION.pdf
+   domain  insiteengineers.com                      x4
+== 25-059MA-1655-Wesminster-Messer-m-pre-sub.pdf
+   domain  studiojaed.com                           x6
+   domain  www.studiojaed.com                       x6
+== 25-081MA-188-Princeton-Ave-Lima-Stuart-mpre-submission.pdf
+   domain  www.dengineeringtec.com                  x7
+   domain  torrado-architects.com                   x1
+   domain  www.dianesouleandassociates.com          x1
+   domain  www.wsp.com                              x1
+   label   ARCHITECT: TORRADO ARCHITECTS 35 Greenwich Street Provid
+== 26-022MIL-309-Dexter-Updated-site-plan.pdf
+   domain  www.stonefieldeng.com                    x2
+== 26-046MAL-14-Cargill-St-Civil-plans.pdf
+   domain  www.diprete-eng.com                      x1
+== 541-Hartford-Ave-Mixed-Use-01-Arch-Master-Prelim-Plan-Package.pdf
+   domain  insiteengineers.com                      x1
+== 541-Hartford-Ave-Mixed-Use-02-Civil.pdf
+   domain  insiteengineers.com                      x8
+   domain  www.cultec.com                           x1
+   domain  cultec.com                               x1
+== Independence_20Way_20-_20Pre-application_20Plans_207-25-22.pdf
+   domain  www.diprete-eng.com                      x4

@@ -9,7 +9,11 @@ as one read out of a filing.
 
     [{"id": 493, "architect": "Tecton Architects",
       "source_url": "https://...", "evidence": "designed by Tecton Architects",
-      "role": "architect"}]
+      "role": "architect", "source": "web"}]
+
+The optional "source" is what lands in architect_source: "web" if the name came
+off a news page or a firm's portfolio, "planset" if it came off a drawing filed
+with a city. Default "web", which is the weaker claim of the two.
 
 WHAT IS REFUSED, and why each rule exists:
 
@@ -113,7 +117,10 @@ def main(apply=False):
         for p, field, val, f in ok:
             setattr(p, field, val)
             if field == "architect":
-                p.architect_source = "web"
+                # A finding may come from a city plan set rather than a news
+                # page. Both go through this writer and its guards, but they
+                # are not equally strong evidence, so the record says which.
+                p.architect_source = f.get("source", "web")
             p.notes = ((p.notes + " | ") if p.notes else "") + (
                 "%s %r from web research: %s -- %s"
                 % (field, val, f["source_url"], f["evidence"][:160]))
