@@ -327,7 +327,7 @@ def developer_confidence(method: str, developer: str) -> str:
 # gets consistent colors without touching the chart. First registration of a
 # label wins, keeping a shared label stable across markets.
 _SCALE_RAMP = ["#F5821E", "#0ea5e9", "#64748b", "#8A9BB0"]
-REVIEW_SCALE_COLORS: dict[str, str] = {}
+REVIEW_SCALE_COLORS: dict[str, str] = {"Unclassified": "#3f4451"}
 for _entry in MARKETS.values():
     for _i, _label in enumerate(_entry["review_scale_vocab"] or []):
         REVIEW_SCALE_COLORS.setdefault(_label, _SCALE_RAMP[min(_i, len(_SCALE_RAMP) - 1)])

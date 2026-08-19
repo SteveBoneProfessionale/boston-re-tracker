@@ -507,11 +507,24 @@ T.forEach(t=>{{
             )
             st.markdown('<div style="height:26px"></div>', unsafe_allow_html=True)
         else:
-            scale_counts = (
-                df["review_scale"].replace("", pd.NA).dropna()
-                .value_counts().reset_index()
-            )
+            # ONLY the market's declared vocabulary may render as a category.
+            # The Rhode Island ingest wrote whatever an agenda's "classification"
+            # field happened to hold straight into review_scale without checking
+            # it, so the column carries section headings ("PUBLIC HEARING",
+            # "NEW BUSINESS") and whole sentences, including a land use
+            # attorney's name. Those are not scales and must never become axis
+            # labels. Anything outside the vocabulary folds into Unclassified,
+            # which is a state the tracker already has a meaning for.
+            _scales = df["review_scale"].replace("", pd.NA)
+            _scales = _scales.where(_scales.isin(vocab), other=pd.NA)
+            scale_counts = _scales.dropna().value_counts().reset_index()
             scale_counts.columns = ["scale", "count"]
+            _unclassified = int(len(df) - scale_counts["count"].sum())
+            if _unclassified > 0:
+                scale_counts = pd.concat([
+                    scale_counts,
+                    pd.DataFrame([{"scale": "Unclassified", "count": _unclassified}]),
+                ], ignore_index=True)
             scale_counts = scale_counts.sort_values("count", ascending=True)
             scale_counts["color"] = scale_counts["scale"].map(REVIEW_SCALE_COLORS).fillna(_MUTED)
             x_max_scale = scale_counts["count"].max() * 1.45 if len(scale_counts) else 1

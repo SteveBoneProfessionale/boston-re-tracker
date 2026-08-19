@@ -1,0 +1,741 @@
+{
+ "recovered": [
+  {
+   "id": 483,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR LAND DEVELOPMENT PROJECT – REINSTATEMENT",
+   "to": "Minor"
+  },
+  {
+   "id": 615,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "MAJOR LAND DEVELOPMENT PROJECT",
+   "to": "Major"
+  },
+  {
+   "id": 623,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "MAJOR LAND DEVELOPMENT PROJECT",
+   "to": "Major"
+  },
+  {
+   "id": 637,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 647,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 649,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 650,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 655,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 659,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 664,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 665,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "MAJOR LAND DEVELOPMENT PROJECT",
+   "to": "Major"
+  },
+  {
+   "id": 682,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 684,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 696,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 708,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 713,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 714,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 720,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 728,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 730,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR LAND DEVELOPMENT PROJECT – MAJOR CHANGE",
+   "to": "Minor"
+  },
+  {
+   "id": 736,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 750,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 751,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 755,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 759,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  },
+  {
+   "id": 760,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "MINOR SUBDIVISION",
+   "to": "Minor"
+  }
+ ],
+ "cleared": [
+  {
+   "id": 478,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 481,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 482,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 486,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 494,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 500,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 505,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 517,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "DEVELOPMENT PLAN REVIEW",
+   "to": null
+  },
+  {
+   "id": 535,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "DEVELOPMENT PLAN REVIEW COMMITTEE",
+   "to": null
+  },
+  {
+   "id": 536,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "DEVELOPMENT PLAN REVIEW",
+   "to": null
+  },
+  {
+   "id": 538,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "DEVELOPMENT PLAN REVIEW",
+   "to": null
+  },
+  {
+   "id": 539,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "DEVELOPMENT PLAN REVIEW",
+   "to": null
+  },
+  {
+   "id": 541,
+   "city": "Pawtucket",
+   "excluded": false,
+   "raw": "Unified Development Review (UDR), Preliminary Plan",
+   "to": null
+  },
+  {
+   "id": 543,
+   "city": "Pawtucket",
+   "excluded": false,
+   "raw": "RECOMMENDATIONS TO CITY COUNCIL",
+   "to": null
+  },
+  {
+   "id": 545,
+   "city": "Pawtucket",
+   "excluded": false,
+   "raw": "Request for Development Plan Review Waiver for a Change of Use",
+   "to": null
+  },
+  {
+   "id": 546,
+   "city": "Pawtucket",
+   "excluded": false,
+   "raw": "Recommendations to the Zoning Board of Review",
+   "to": null
+  },
+  {
+   "id": 548,
+   "city": "Pawtucket",
+   "excluded": false,
+   "raw": "Unified Development Review (Development Plan Review), Preliminary Plan",
+   "to": null
+  },
+  {
+   "id": 557,
+   "city": "Pawtucket",
+   "excluded": true,
+   "raw": "CONTINUATION - Preliminary Plan Approval Extension",
+   "to": null
+  },
+  {
+   "id": 576,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Planning Board Advisory Opinion per RIGL 45-24-51 and 52, regarding former Russell Aldrich ",
+   "to": null
+  },
+  {
+   "id": 577,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Subdivision regulation amendments – Public Hearing required per RIGL 45-23-53 ",
+   "to": null
+  },
+  {
+   "id": 579,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Pre-application meeting for a 10 Unit PDR Overlay. ",
+   "to": null
+  },
+  {
+   "id": 581,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Former Russell Aldrich Junior High School, Advisory Opinion to the Warwick City Council ",
+   "to": null
+  },
+  {
+   "id": 601,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "145 Commerce Drive – Plat 311, Lot 191. Pre-application (Final Plan Modification request) ",
+   "to": null
+  },
+  {
+   "id": 613,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 617,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 619,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 620,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 621,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 624,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 627,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 642,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 644,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 666,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 670,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 672,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 676,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 677,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 683,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 686,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 698,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 700,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 702,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 705,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 709,
+   "city": "Providence",
+   "excluded": true,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 715,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 716,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 717,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 721,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 745,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 746,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 752,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "PUBLIC HEARING",
+   "to": null
+  },
+  {
+   "id": 756,
+   "city": "Providence",
+   "excluded": false,
+   "raw": "CITY COUNCIL REFERRAL",
+   "to": null
+  },
+  {
+   "id": 867,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "NEW BUSINESS",
+   "to": null
+  },
+  {
+   "id": 869,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "NEW BUSINESS",
+   "to": null
+  },
+  {
+   "id": 870,
+   "city": "Cranston",
+   "excluded": true,
+   "raw": "NEW BUSINESS",
+   "to": null
+  },
+  {
+   "id": 871,
+   "city": "Cranston",
+   "excluded": true,
+   "raw": "NEW BUSINESS",
+   "to": null
+  },
+  {
+   "id": 872,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "NEW BUSINESS",
+   "to": null
+  },
+  {
+   "id": 873,
+   "city": "Cranston",
+   "excluded": true,
+   "raw": "NEW BUSINESS",
+   "to": null
+  },
+  {
+   "id": 874,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "NEW BUSINESS",
+   "to": null
+  },
+  {
+   "id": 875,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "NEW BUSINESS",
+   "to": null
+  },
+  {
+   "id": 876,
+   "city": "Cranston",
+   "excluded": true,
+   "raw": "NEW BUSINESS",
+   "to": null
+  },
+  {
+   "id": 877,
+   "city": "Cranston",
+   "excluded": true,
+   "raw": "NEW BUSINESS",
+   "to": null
+  },
+  {
+   "id": 878,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "OLD BUSINESS",
+   "to": null
+  },
+  {
+   "id": 879,
+   "city": "Cranston",
+   "excluded": false,
+   "raw": "OLD BUSINESS",
+   "to": null
+  },
+  {
+   "id": 880,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq., was present and representing the petitioner. ",
+   "to": null
+  },
+  {
+   "id": 881,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioners. ",
+   "to": null
+  },
+  {
+   "id": 882,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioner. ",
+   "to": null
+  },
+  {
+   "id": 884,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioners. ",
+   "to": null
+  },
+  {
+   "id": 886,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi,Esq. was presentand representingthepetitioners.",
+   "to": null
+  },
+  {
+   "id": 887,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioner. ",
+   "to": null
+  },
+  {
+   "id": 888,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioner. ",
+   "to": null
+  },
+  {
+   "id": 889,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioner. ",
+   "to": null
+  },
+  {
+   "id": 890,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioners. ",
+   "to": null
+  },
+  {
+   "id": 891,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioner. ",
+   "to": null
+  },
+  {
+   "id": 894,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioners. ",
+   "to": null
+  },
+  {
+   "id": 895,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioners. ",
+   "to": null
+  },
+  {
+   "id": 897,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioner. ",
+   "to": null
+  },
+  {
+   "id": 898,
+   "city": "Warwick",
+   "excluded": false,
+   "raw": "Joseph Shekarchi, Esq. was present and representing the petitioner. ",
+   "to": null
+  },
+  {
+   "id": 899,
+   "city": "Warwick",
+   "excluded": true,
+   "raw": "Joseph Shekarchi,Esq. was presentand representingthepetitioner.",
+   "to": null
+  }
+ ]
+}

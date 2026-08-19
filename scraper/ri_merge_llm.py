@@ -91,6 +91,23 @@ def match(pk, ik):
     return False
 
 
+# The extraction prompt uses its own lowercase enum for asset class. That is
+# NOT the tracker's vocabulary, and writing it straight through broke the
+# canonical set -- 48 Rhode Island records ended up holding "multifamily" and
+# "retail" alongside the proper "Residential" and "Retail". Every market must
+# write to ASSET_CLASSES and nothing else, so the fold happens here.
+# self-storage has no canonical entry and folds to Industrial, which is where
+# the sector normally sits; the source wording survives in asset_class_raw.
+ASSET_FOLD = {
+    "multifamily": "Residential", "residential": "Residential",
+    "mixed-use": "Mixed-Use", "mixed use": "Mixed-Use",
+    "office": "Office", "lab": "Lab/Research", "lab/research": "Lab/Research",
+    "retail": "Retail", "hotel": "Hotel", "industrial": "Industrial",
+    "self-storage": "Industrial", "institutional": "Institutional",
+    "parking": "Parking", "other": "Other",
+}
+
+
 # LLM field -> Project column. building_sf deliberately absent.
 FIELDS = [
     ("residential_units", "residential_units"),
@@ -178,6 +195,11 @@ def main(apply=False):
                 "id": p.id, "address": p.address or p.name, "field": col, "value": v,
                 "date": r.get("date"), "doc": r.get("text_file"),
                 "evidence": str(ev)[:180] if ev else ""})
+            if col == "asset_class":
+                folded = ASSET_FOLD.get(str(v).strip().lower())
+                if not folded:
+                    continue        # unknown wording -> leave blank, never invent
+                v = folded
             if apply:
                 setattr(p, col, v)
                 p.notes = ((p.notes + " | ") if p.notes else "") + (

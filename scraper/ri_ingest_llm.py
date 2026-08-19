@@ -223,6 +223,16 @@ def run(dry_run: bool = False) -> dict:
                       "site_acreage", "num_stories", "building_count",
                       "adaptive_reuse", "review_scale", "description", "stage_heard"):
                 val = p[f]
+                # review_scale is a CONTROLLED vocabulary. An agenda's
+                # "classification" field holds whatever the board typed there --
+                # section headings, procedural labels, and in fifteen records a
+                # sentence naming the land use attorney who appeared. Writing
+                # that straight through put a person's name on a chart axis as a
+                # statutory review scale. The verbatim text still lands in
+                # review_scale_raw below, so nothing is lost by refusing it here.
+                if f == "review_scale" and val not in (None, "", "Major", "Minor",
+                                                       "Administrative"):
+                    val = None
                 # Never overwrite an existing value with a null on re-run.
                 if val not in (None, "", False) or getattr(proj, f, None) in (None, ""):
                     setattr(proj, f, val)

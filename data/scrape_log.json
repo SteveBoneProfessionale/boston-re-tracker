@@ -1734,5 +1734,90 @@
         "error": null
       }
     ]
+  },
+  {
+    "run_time": "2026-08-19T01:08:18.467096+00:00",
+    "sources": [
+      {
+        "name": "Boston.gov News",
+        "source": "boston_gov",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 5,
+        "error": null
+      },
+      {
+        "name": "Banker & Tradesman",
+        "source": "banker_tradesman",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 5,
+        "error": null
+      },
+      {
+        "name": "The Real Deal Boston",
+        "source": "the_real_deal",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Curbed",
+        "source": "curbed",
+        "fetched": 20,
+        "new": 0,
+        "skipped": 20,
+        "error": null
+      },
+      {
+        "name": "Boston.com Real Estate",
+        "source": "boston_com",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 6,
+        "error": null
+      },
+      {
+        "name": "Bisnow Boston",
+        "source": "bisnow_boston",
+        "fetched": 24,
+        "new": 1,
+        "skipped": 5,
+        "error": null
+      },
+      {
+        "name": "Providence Business News",
+        "source": "pbn",
+        "fetched": 10,
+        "new": 1,
+        "skipped": 8,
+        "error": null
+      },
+      {
+        "name": "Providence Business News \u2014 Real Estate",
+        "source": "pbn_real_estate",
+        "fetched": 10,
+        "new": 0,
+        "skipped": 3,
+        "error": null
+      },
+      {
+        "name": "Rhode Island Current",
+        "source": "ri_current",
+        "fetched": 100,
+        "new": 1,
+        "skipped": 92,
+        "error": null
+      },
+      {
+        "name": "Boston Real Estate Times",
+        "source": "boston_re_times",
+        "fetched": 44,
+        "new": 2,
+        "skipped": 19,
+        "error": null
+      }
+    ]
   }
 ]
