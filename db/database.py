@@ -120,6 +120,11 @@ def init_db():
     # status must hold the five normalised pipeline stages and nothing else.
     # Conflating them put eighteen filing actions in a status dropdown.
     _add_column_if_missing("projects", "filing_type", "VARCHAR")
+    # Every OTHER address the case is filed under. A Rhode Island application
+    # routinely spans several parcels and names them all in the heading; the
+    # ingest kept the first, so a project at "311 Knight Street, 321 Knight and
+    # 1077 Westminster Street" could not be found by two of its three doors.
+    _add_column_if_missing("projects", "alt_addresses", "VARCHAR")
     # development | rezoning. A rezoning petition with no programme yet is
     # the FRONT of the pipeline, an earlier signal than a planning filing,
     # and should not read as a project with a defined programme.

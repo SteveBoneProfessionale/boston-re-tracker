@@ -492,6 +492,10 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 # same strength of claim.
                 # The ACTION asked of the board, kept apart from the stage.
                 "filing_type": p.filing_type or "",
+                # Other addresses the same case is filed under. Search covers
+                # these, because a project spanning three parcels is findable
+                # by any of its doors or by none of them.
+                "alt_addresses": p.alt_addresses or "",
                 # Withdrawn or Denied. Dead is not pipeline either.
                 "project_status_filing": p.project_status_filing or "",
                 "completion_stage": p.completion_stage or "",
