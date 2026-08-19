@@ -134,11 +134,19 @@ def render(df: pd.DataFrame, stats: dict):
     # not a market-native status string, and labeled with the stage names
     # directly -- Boston-specific labels ("LOI", "Board Approved") over
     # Cambridge data would be wrong even if the counts were right.
-    tiles = [("TOTAL PROJECTS", stats["total"], "#ffffff", False)]
+    # PIPELINE, not every row. stats["total"] is len(df) and therefore counts
+    # the 70 buildings established as delivered and the 29 applications
+    # withdrawn or denied. Showing that as TOTAL PROJECTS put finished
+    # buildings back into the headline after they had been removed from the
+    # stage field, the totals and the table. The delivered count is shown in
+    # its own tile rather than hidden.
+    tiles = [("PIPELINE PROJECTS", stats["pipeline_projects"], "#ffffff", False)]
     for stage in STAGE_ORDER:
         tiles.append((stage.upper(), stats["stage_counts"][stage], STAGE_COLORS[stage], False))
     tiles.append(("RESI UNITS", stats["total_units"], "#ffffff", False))
     tiles.append(("PIPELINE SF", stats["total_gsf"], "#ffffff", True))
+    if stats.get("delivered_projects"):
+        tiles.append(("DELIVERED", stats["delivered_projects"], "#0ea5e9", False))
 
     tiles_json = json.dumps([
         {"label": t[0], "raw": int(t[1]), "color": t[2], "big": t[3]}
