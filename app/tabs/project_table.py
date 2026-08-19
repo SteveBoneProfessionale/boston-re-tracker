@@ -104,6 +104,14 @@ def render(df: pd.DataFrame):
     statuses = ["All"] + sorted([s for s in status_scope["status"].unique() if s])
     status = fc2.selectbox("STATUS", statuses, key="tbl_status")
 
+    # FILING TYPE is its own axis. It was previously poured into STATUS, so the
+    # status dropdown offered "Lot Merger" and "Design Waiver" as if they were
+    # pipeline stages. They are the action a board was asked to take, which is
+    # a genuinely useful filter -- just not the same question.
+    ft_opts = ["All"] + sorted([f for f in status_scope.get(
+        "filing_type", pd.Series(dtype=str)).unique() if f])
+    filing_type = fc5.selectbox("FILING TYPE", ft_opts, key="tbl_filing_type")         if len(ft_opts) > 1 else "All"
+
     # Scale vocabulary is market-specific (Article 80's two tiers vs. RIGL's
     # three), so scope the options to the selected city via the registry rather
     # than hardcoding one market's values.
@@ -164,6 +172,8 @@ def render(df: pd.DataFrame):
         filtered = filtered[filtered["neighborhood"] == nbhd]
     if status != "All":
         filtered = filtered[filtered["status"] == status]
+    if filing_type != "All":
+        filtered = filtered[filtered["filing_type"] == filing_type]
     if scale != "All":
         filtered = filtered[filtered["review_scale"] == scale]
     if asset != "All":

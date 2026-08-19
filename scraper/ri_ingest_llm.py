@@ -240,7 +240,39 @@ def run(dry_run: bool = False) -> dict:
                 proj.neighborhood = p["neighborhood"]
             proj.review_scale_raw = p["review_scale"]
             proj.dedupe_review = p["needs_review"]
-            proj.status = p["stage_heard"] or ""
+
+            # FILING TYPE AND STATUS ARE DIFFERENT THINGS. "Special Use
+            # Permit", "Lot Merger" and "Design Waiver" name the action a board
+            # was asked to take. Writing them into status put eighteen filing
+            # actions into a dropdown of pipeline stages. The action goes to
+            # filing_type; status carries the normalised stage or nothing.
+            from app.data import RI_STAGE_MAP
+            _ft = p["stage_heard"] or ""
+            proj.filing_type = _ft or None
+            proj.status = RI_STAGE_MAP.get(_ft, "") or ""
+
+            # SCOPE, APPLIED AT INGEST rather than as a later cleanup. A record
+            # that creates no building, names no commercial use and states no
+            # programme is a filing action, not a development, and is
+            # quarantined on arrival. Quarantined, never dropped -- the row
+            # stays recoverable and the reason is written to it, because these
+            # filters have been wrong in both directions before.
+            try:
+                from scraper.ri_purge_nondevelopment import verdict as _scope
+                _v, _why, _sent = _scope(proj, p["description"] or "",
+                                         p["residential_units"], p["total_gsf"])
+                if _v == "REMOVE":
+                    proj.excluded = True
+                    proj.excluded_reason = _why
+                    proj.notes = ((proj.notes + " | ") if proj.notes else "") + (
+                        "QUARANTINED AT INGEST by the scope test: %s. Justifying text: %r"
+                        % (_why, _sent[:200]))
+                elif _v == "FLAG":
+                    proj.is_flagged = True
+            except Exception:                                   # noqa: BLE001
+                # A scope-test failure must never block ingestion; the record
+                # lands unflagged and the periodic pass will catch it.
+                pass
             session.flush()
 
             session.query(ProjectStageEvent).filter_by(project_id=proj.id).delete()

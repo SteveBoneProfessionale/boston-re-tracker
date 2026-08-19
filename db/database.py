@@ -115,6 +115,11 @@ def init_db():
     # "this was built", and only the first one is supportable.
     _add_column_if_missing("projects", "is_stale", "BOOLEAN DEFAULT 0")
     _add_column_if_missing("projects", "stale_months", "INTEGER")
+    # FILING TYPE is not a status. "Lot Merger", "Design Waiver" and
+    # "Special Use Permit" describe the ACTION a board was asked to take;
+    # status must hold the five normalised pipeline stages and nothing else.
+    # Conflating them put eighteen filing actions in a status dropdown.
+    _add_column_if_missing("projects", "filing_type", "VARCHAR")
     # development | rezoning. A rezoning petition with no programme yet is
     # the FRONT of the pipeline, an earlier signal than a planning filing,
     # and should not read as a project with a defined programme.

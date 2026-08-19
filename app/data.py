@@ -490,6 +490,8 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 # in every count. The basis travels with it, because a
                 # certificate of occupancy and a rental listing are not the
                 # same strength of claim.
+                # The ACTION asked of the board, kept apart from the stage.
+                "filing_type": p.filing_type or "",
                 "completion_stage": p.completion_stage or "",
                 "completion_basis": p.completion_basis or "",
                 "completion_evidence": p.completion_evidence or "",

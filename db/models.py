@@ -77,6 +77,7 @@ class Project(Base):
     completion_date = Column(String)
     is_stale = Column(Boolean, default=False)
     stale_months = Column(Integer)
+    filing_type = Column(String)   # the action asked of the board, NOT a stage
     # development | rezoning. A rezoning with no programme yet is the front
     # of the pipeline; if a development filing later lands on the same
     # parcel the two merge, with the rezoning as the first stage event.
