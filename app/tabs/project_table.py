@@ -60,6 +60,54 @@ def _section(label: str):
     )
 
 
+# ── grouped city dropdown ────────────────────────────────────────────────
+# Streamlit's selectbox has no option groups and no disabled options, so the
+# grouping is built into the option list itself: a header entry per market,
+# and the cities under it indented. A header is not a valid choice, and an
+# on_change callback puts the previous city back if one is picked. The
+# callback is the reason this works -- session_state cannot be written after
+# a widget is instantiated, but it can be written from that widget's own
+# callback, which runs before the rerender.
+#
+# The groups come from the `market` field on every row, never a hardcoded
+# list, so a city added to a new market appears under its own header without
+# anyone editing this file.
+_CITY_HEADER = "── %s ──"
+_CITY_INDENT = "  "          # figure space: aligns under the header
+
+
+def _is_city_header(v) -> bool:
+    return isinstance(v, str) and v.startswith("──")
+
+
+def _city_options(scope):
+    """(options, display -> city). Markets alphabetical, cities within them."""
+    by_market = {}
+    for city, market in zip(scope["city"], scope.get("market", "")):
+        if not city:
+            continue
+        by_market.setdefault(market or "Other", set()).add(city)
+    opts, lookup = ["All"], {"All": "All"}
+    for market in sorted(by_market):
+        head = _CITY_HEADER % market.upper()
+        opts.append(head)
+        lookup[head] = None                      # not selectable
+        for c in sorted(by_market[market]):
+            disp = _CITY_INDENT + c
+            opts.append(disp)
+            lookup[disp] = c
+    return opts, lookup
+
+
+def _keep_city_selectable():
+    """Reject a header pick and restore the last real selection."""
+    v = st.session_state.get("tbl_city")
+    if _is_city_header(v):
+        st.session_state["tbl_city"] = st.session_state.get("_tbl_city_prev", "All")
+    else:
+        st.session_state["_tbl_city_prev"] = v
+
+
 def _dev_display(row) -> str:
     canonical = str(row["developer_canonical"] or "").strip()
     if canonical and canonical not in _BAD_DEVS and is_real_company(canonical):
@@ -138,8 +186,15 @@ def render(df: pd.DataFrame):
     market = fcm.selectbox("MARKET", markets, key="tbl_market")
     city_scope = df if market == "All" else df[df["market"] == market]
 
-    cities = ["All"] + sorted([c for c in city_scope["city"].unique() if c])
-    city = fc0.selectbox("CITY", cities, key="tbl_city")
+    # Cities grouped under their state. Built from city_scope, so choosing a
+    # MARKET narrows the list to that state's cities and drops the other
+    # header entirely -- the two filters agree instead of contradicting.
+    city_opts, city_lookup = _city_options(city_scope)
+    if st.session_state.get("tbl_city") not in city_opts:
+        st.session_state["tbl_city"] = "All"      # market change orphaned it
+    city_disp = fc0.selectbox("CITY", city_opts, key="tbl_city",
+                              on_change=_keep_city_selectable)
+    city = city_lookup.get(city_disp) or "All"
 
     # The square-footage column is 15% filled for Rhode Island, and without the
     # reason on the page that reads as a broken tracker rather than as a fact
