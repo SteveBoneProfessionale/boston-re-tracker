@@ -78,8 +78,43 @@ def render(df: pd.DataFrame):
     # put 70 finished buildings and 29 dead applications in front of the
     # reader as if they were live. Pipeline is the default; the others are one
     # click away rather than mixed in.
-    fshow, fcm, fc0, fc1, fc2, fcft, fc3, fc4, fc5 = st.columns(
-        [1.15, 1.0, 0.95, 1.5, 1.4, 1.5, 1.1, 1.5, 1.5])
+    # THREE ROWS OF FOUR, not one row of nine.
+    #
+    # Nine controls across one row left each about a tenth of the width, which
+    # is narrower than the values they hold: SHOW rendered "Withdra", MARKET
+    # rendered "Massachus" and "Rhode Isl". Equal columns across every row also
+    # make the rows line up, which one row of nine and two ragged half-width
+    # rows underneath never did.
+    #
+    # Grouped by what the reader is asking: where is it, what is it, who is
+    # building it. Free-text search sits on its own line under the grid.
+    _css = """
+    <style>
+      /* An open menu sizes to its longest option instead of to the field. */
+      div[data-baseweb="popover"] ul[role="listbox"] { min-width: max-content !important; }
+      div[data-baseweb="popover"] li { white-space: nowrap !important; }
+      /* The closed field shows its whole value. Most fit on one line at this
+         width; the one outlier is Cambridge's "Approved PUD/Master Plan
+         Development Remaining" at 442px against 354px of field, and widening
+         every column by a quarter for one status would be the wrong trade, so
+         a value that does not fit wraps and the field grows instead. */
+      div[data-baseweb="select"] div[title] {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+        line-height: 1.25;
+      }
+      div[data-testid="stSelectbox"] div[data-baseweb="select"] > div {
+        height: auto;
+        min-height: 38px;
+      }
+    </style>"""
+    st.markdown(_css, unsafe_allow_html=True)
+
+    r1a, r1b, r1c, r1d = st.columns(4)          # where
+    r2a, r2b, r2c, r2d = st.columns(4)          # what
+    fshow, fcm, fc0, fc1 = r1a, r1b, r1c, r1d
+    fc2, fcft, fc3, fc4 = r2a, r2b, r2c, r2d
     SHOW_OPTS = ["Pipeline", "Delivered", "Withdrawn / denied", "All"]
     show = fshow.selectbox(
         "SHOW", SHOW_OPTS, key="tbl_show",
@@ -112,9 +147,6 @@ def render(df: pd.DataFrame):
     # Island, collapsed so it explains without interrupting.
     _ri_cities = {"Providence", "Warwick", "Cranston", "Pawtucket", "Newport"}
     _showing_ri = (market == "Rhode Island") or (city in _ri_cities)
-    if _showing_ri:
-        with st.expander(RI_SF_NOTE_TITLE, expanded=False):
-            st.markdown(RI_SF_NOTE)
 
     # Status vocab is city-specific (Boston's 4 values vs Cambridge's 7 don't
     # overlap), so scope the status options to whatever city is selected --
@@ -144,10 +176,10 @@ def render(df: pd.DataFrame):
     classes = ["All"] + sorted([a for a in df["asset_class"].unique() if a])
     asset = fc4.selectbox("ASSET CLASS", classes, key="tbl_asset")
 
-    search = fc5.text_input("SEARCH", "", key="tbl_search", placeholder="name or address…")
-
-    # Developer filter in its own row
-    fd1, fd2 = st.columns([2, 5])
+    # Row three: who is building it. Same four equal columns as the rows
+    # above, so the grid lines up instead of stepping between a short field
+    # and a full-width one.
+    fd1, fd2, fd3, fd4 = st.columns(4)
     all_devs = sorted(
         {d for d in df["developer_canonical"].unique() if is_real_company(d)},
         key=lambda x: x.lstrip("Tt").lower() if x.lower().startswith("the ") else x.lower()
@@ -160,9 +192,6 @@ def render(df: pd.DataFrame):
     )
     developer = fd2.selectbox("DEVELOPER", ["All"] + matching_devs, key="tbl_developer")
 
-    # Filter to inferred developer names for review. web_low_confidence is
-    # separately selectable because those are the ones most worth auditing.
-    fd3, fd4 = st.columns([2, 2])
     # The four confidence states, as their own filter. Most Rhode Island
     # developers are document_only, so being able to select exactly those for
     # review is the point rather than a convenience.
@@ -184,6 +213,17 @@ def render(df: pd.DataFrame):
         help="How the developer name was established. 'Any inferred' selects every "
              "name derived from press coverage rather than the corporate registry.",
     )
+
+    # Free-text search last and full width. It is the one control whose useful
+    # length is unbounded, so it gets the row rather than a ninth of one.
+    search = st.text_input("SEARCH", "", key="tbl_search",
+                           placeholder="project name or address…")
+
+    # The note sits under the whole filter block rather than between two rows
+    # of it, so the grid stays unbroken.
+    if _showing_ri:
+        with st.expander(RI_SF_NOTE_TITLE, expanded=False):
+            st.markdown(RI_SF_NOTE)
 
     # Apply filters
     filtered = df.copy()
