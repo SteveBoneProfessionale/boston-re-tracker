@@ -178,6 +178,14 @@ def main(apply=False):
 
         for src, col in FIELDS:
             if getattr(p, col, None) not in (None, "", 0):
+                # FILL-BLANKS-ONLY is why a stale figure could never be
+                # corrected: 311 Knight Street kept its December 2019 count of
+                # 34 through a 2021 major change and a 2022 final plan that
+                # both said 41. Revisions are the normal life of a project, so
+                # a later filing has to be able to win. That is handled in
+                # scraper/ri_supersede_units.py rather than here, because it
+                # needs the corroboration rules this loop has no access to --
+                # two documents, and no collapse to under a quarter.
                 continue
             vals = [(r, it) for r, it in got_sorted if it.get(src) not in (None, "", [])]
             if not vals:

@@ -1,0 +1,1238 @@
+{
+ "applied": [
+  {
+   "id": 490,
+   "city": "Providence",
+   "address": "27 E River Street",
+   "was": 326,
+   "now": 355,
+   "date": "2026-01-20",
+   "doc": "1083861_3.txt",
+   "stage": "preliminary plan",
+   "quote": "multifamily residential building with 355 units",
+   "history": [
+    [
+     "2024-10-15",
+     326,
+     "preliminary plan"
+    ],
+    [
+     "2024-10-15",
+     326,
+     "preliminary plan"
+    ],
+    [
+     "2024-10-15",
+     326,
+     "preliminary plan"
+    ],
+    [
+     "2025-12-16",
+     355,
+     "minor land development"
+    ],
+    [
+     "2025-12-16",
+     355,
+     "preliminary plan"
+    ],
+    [
+     "2026-01-20",
+     355,
+     "preliminary plan"
+    ]
+   ],
+   "corroborating_docs": 3
+  },
+  {
+   "id": 507,
+   "city": "Providence",
+   "address": "200 Dyer Street",
+   "was": 183,
+   "now": 214,
+   "date": "2025-04-14",
+   "doc": "1072896_0.txt",
+   "stage": "Development Incentive request with waivers",
+   "quote": "214 apartment units and one commercial unit",
+   "history": [
+    [
+     "2024-06-10",
+     198,
+     "pre-application"
+    ],
+    [
+     "2024-08-19",
+     183,
+     "demolition waiver, dev"
+    ],
+    [
+     "2024-08-19",
+     183,
+     "demolition waiver, hei"
+    ],
+    [
+     "2024-08-19",
+     183,
+     "demolition waiver, hei"
+    ],
+    [
+     "2024-09-09",
+     183,
+     "demolition waiver, dev"
+    ],
+    [
+     "2025-02-10",
+     214,
+     "pre-application"
+    ],
+    [
+     "2025-02-10",
+     216,
+     "pre-application"
+    ],
+    [
+     "2025-04-14",
+     214,
+     "Development Incentive "
+    ]
+   ],
+   "corroborating_docs": 2
+  },
+  {
+   "id": 522,
+   "city": "Cranston",
+   "address": "1128 Narragansett Boulevard",
+   "was": 24,
+   "now": 19,
+   "date": "2026-04-07",
+   "doc": "1087365_0.txt",
+   "stage": "pre-application",
+   "quote": "19-unit townhouse development",
+   "history": [
+    [
+     "2026-04-01",
+     19,
+     "major land development"
+    ],
+    [
+     "2026-04-01",
+     19,
+     "pre-application"
+    ],
+    [
+     "2026-04-07",
+     19,
+     "pre-application"
+    ],
+    [
+     "2026-04-07",
+     19,
+     "pre-application"
+    ]
+   ],
+   "corroborating_docs": 4
+  },
+  {
+   "id": 551,
+   "city": "Pawtucket",
+   "address": "180 Weeden Street",
+   "was": 29,
+   "now": 38,
+   "date": "2025-12-03",
+   "doc": "1081864_1.txt",
+   "stage": "preliminary plan",
+   "quote": "twenty-nine (29) proposed residential units...nine (9) townhouses",
+   "history": [
+    [
+     "2025-09-16",
+     29,
+     "master plan"
+    ],
+    [
+     "2025-09-16",
+     38,
+     "master plan"
+    ],
+    [
+     "2025-09-16",
+     29,
+     "master plan"
+    ],
+    [
+     "2025-09-16",
+     29,
+     "master plan"
+    ],
+    [
+     "2025-09-16",
+     29,
+     "master plan"
+    ],
+    [
+     "2025-12-03",
+     38,
+     "preliminary plan"
+    ],
+    [
+     "2025-12-03",
+     38,
+     "preliminary plan"
+    ],
+    [
+     "2025-12-03",
+     38,
+     "preliminary plan"
+    ],
+    [
+     "2025-12-03",
+     38,
+     "preliminary plan"
+    ],
+    [
+     "2025-12-03",
+     38,
+     "preliminary plan"
+    ],
+    [
+     "2025-12-03",
+     38,
+     "preliminary plan"
+    ]
+   ],
+   "corroborating_docs": 7
+  },
+  {
+   "id": 559,
+   "city": "Newport",
+   "address": "525 Broadway",
+   "was": 37,
+   "now": 38,
+   "date": "2025-09-08",
+   "doc": "1078301_0.txt",
+   "stage": "preliminary plan",
+   "quote": "two multi-family residential buildings with a combined total of 38 dwelling units",
+   "history": [
+    [
+     "2025-06-02",
+     37,
+     "Development Plan Revie"
+    ],
+    [
+     "2025-06-02",
+     37,
+     "development plan revie"
+    ],
+    [
+     "2025-06-02",
+     37,
+     "development plan revie"
+    ],
+    [
+     "2025-06-02",
+     37,
+     "development plan revie"
+    ],
+    [
+     "2025-06-16",
+     37,
+     "special use permit"
+    ],
+    [
+     "2025-06-16",
+     37,
+     "development plan revie"
+    ],
+    [
+     "2025-08-04",
+     38,
+     "development plan revie"
+    ],
+    [
+     "2025-08-04",
+     38,
+     "preliminary plan"
+    ],
+    [
+     "2025-08-04",
+     38,
+     "preliminary plan"
+    ],
+    [
+     "2025-09-08",
+     38,
+     "preliminary plan"
+    ],
+    [
+     "2025-09-08",
+     38,
+     "preliminary plan"
+    ]
+   ],
+   "corroborating_docs": 5
+  },
+  {
+   "id": 604,
+   "city": "Providence",
+   "address": "327 ELMWOOD AVENUE",
+   "was": 39,
+   "now": 42,
+   "date": "2024-10-02",
+   "doc": "1063756_1.txt",
+   "stage": "disposition",
+   "quote": "42-unit affordable housing development",
+   "history": [
+    [
+     "2018-05-10",
+     3,
+     "purchase and sales agr"
+    ],
+    [
+     "2019-06-27",
+     30,
+     "final plan"
+    ],
+    [
+     "2020-07-21",
+     39,
+     "preliminary plan"
+    ],
+    [
+     "2020-09-10",
+     42,
+     "housing trust fund loa"
+    ],
+    [
+     "2021-07-20",
+     39,
+     "preliminary plan"
+    ],
+    [
+     "2021-07-20",
+     39,
+     "preliminary plan"
+    ],
+    [
+     "2021-07-20",
+     39,
+     "preliminary plan"
+    ],
+    [
+     "2024-09-04",
+     42,
+     ""
+    ],
+    [
+     "2024-10-02",
+     42,
+     "disposition"
+    ]
+   ],
+   "corroborating_docs": 3
+  },
+  {
+   "id": 607,
+   "city": "Providence",
+   "address": "269 Wickenden Street",
+   "was": 62,
+   "now": 75,
+   "date": "2023-10-17",
+   "doc": "1048403_6.txt",
+   "stage": "master plan",
+   "quote": "75 residential units",
+   "history": [
+    [
+     "2023-04-18",
+     62,
+     "master plan"
+    ],
+    [
+     "2023-04-18",
+     62,
+     "master plan"
+    ],
+    [
+     "2023-05-16",
+     62,
+     "master plan"
+    ],
+    [
+     "2023-05-16",
+     62,
+     "master plan"
+    ],
+    [
+     "2023-05-16",
+     62,
+     "master plan"
+    ],
+    [
+     "2023-05-16",
+     62,
+     "master plan"
+    ],
+    [
+     "2023-08-15",
+     62,
+     "master plan"
+    ],
+    [
+     "2023-10-17",
+     75,
+     "master plan"
+    ],
+    [
+     "2023-10-17",
+     75,
+     "master plan"
+    ],
+    [
+     "2023-10-17",
+     75,
+     "master plan"
+    ],
+    [
+     "2023-10-17",
+     75,
+     "master plan"
+    ],
+    [
+     "2023-10-17",
+     75,
+     "master plan"
+    ],
+    [
+     "2023-10-17",
+     75,
+     "master plan"
+    ]
+   ],
+   "corroborating_docs": 6
+  },
+  {
+   "id": 612,
+   "city": "Providence",
+   "address": "659 – 663 Admiral Street",
+   "was": 45,
+   "now": 48,
+   "date": "2022-08-30",
+   "doc": "1029535_3.txt",
+   "stage": "preliminary plan",
+   "quote": "48 apartments on the four upper stories",
+   "history": [
+    [
+     "2021-11-16",
+     45,
+     "master plan"
+    ],
+    [
+     "2021-11-16",
+     45,
+     "master plan"
+    ],
+    [
+     "2021-12-14",
+     45,
+     "master plan"
+    ],
+    [
+     "2021-12-14",
+     45,
+     "master plan"
+    ],
+    [
+     "2022-07-19",
+     48,
+     "preliminary plan"
+    ],
+    [
+     "2022-08-30",
+     48,
+     "preliminary plan"
+    ],
+    [
+     "2022-08-30",
+     48,
+     "preliminary plan"
+    ],
+    [
+     "2022-08-30",
+     48,
+     "preliminary plan"
+    ]
+   ],
+   "corroborating_docs": 4
+  },
+  {
+   "id": 669,
+   "city": "Providence",
+   "address": "230 Waterman Street",
+   "was": 38,
+   "now": 25,
+   "date": "2021-11-16",
+   "doc": "1016741_1.txt",
+   "stage": "master plan",
+   "quote": "a total of 25 dwelling units",
+   "history": [
+    [
+     "2021-07-20",
+     38,
+     "master plan"
+    ],
+    [
+     "2021-07-20",
+     38,
+     "master plan"
+    ],
+    [
+     "2021-07-20",
+     38,
+     "master plan"
+    ],
+    [
+     "2021-08-17",
+     38,
+     "master plan"
+    ],
+    [
+     "2021-09-28",
+     38,
+     "master plan"
+    ],
+    [
+     "2021-09-28",
+     38,
+     "master plan"
+    ],
+    [
+     "2021-09-28",
+     38,
+     "master plan"
+    ],
+    [
+     "2021-11-16",
+     25,
+     "master plan"
+    ],
+    [
+     "2021-11-16",
+     25,
+     "master plan"
+    ]
+   ],
+   "corroborating_docs": 2
+  },
+  {
+   "id": 675,
+   "city": "Providence",
+   "address": "311 Knight Street",
+   "was": 34,
+   "now": 41,
+   "date": "2022-10-11",
+   "doc": "1031473_0.txt",
+   "stage": "final plan",
+   "quote": "41 unit, five story mixed use development",
+   "history": [
+    [
+     "2019-12-17",
+     34,
+     "master plan"
+    ],
+    [
+     "2019-12-17",
+     34,
+     "land development proje"
+    ],
+    [
+     "2019-12-17",
+     34,
+     "master plan and prelim"
+    ],
+    [
+     "2019-12-17",
+     34,
+     "master plan, prelimina"
+    ],
+    [
+     "2019-12-17",
+     34,
+     "master plan, prelimina"
+    ],
+    [
+     "2021-07-20",
+     41,
+     "major change"
+    ],
+    [
+     "2021-07-20",
+     41,
+     "preliminary plan"
+    ],
+    [
+     "2021-07-20",
+     41,
+     "preliminary plan"
+    ],
+    [
+     "2022-10-11",
+     41,
+     "final plan"
+    ],
+    [
+     "2022-10-11",
+     41,
+     "final plan"
+    ],
+    [
+     "2022-10-11",
+     41,
+     "final plan"
+    ]
+   ],
+   "corroborating_docs": 6
+  },
+  {
+   "id": 699,
+   "city": "Providence",
+   "address": "18 Eighth St",
+   "was": 19,
+   "now": 24,
+   "date": "2022-01-18",
+   "doc": "1019176_0.txt",
+   "stage": "preliminary plan",
+   "quote": "24 unit apartment building",
+   "history": [
+    [
+     "2018-07-11",
+     19,
+     "use & dimensional vari"
+    ],
+    [
+     "2018-07-11",
+     19,
+     "use & dimensional vari"
+    ],
+    [
+     "2018-07-11",
+     19,
+     "variance"
+    ],
+    [
+     "2018-09-17",
+     19,
+     "variance"
+    ],
+    [
+     "2018-09-17",
+     19,
+     "variance"
+    ],
+    [
+     "2018-09-17",
+     19,
+     "variance"
+    ],
+    [
+     "2021-10-19",
+     24,
+     "minor land development"
+    ],
+    [
+     "2021-10-19",
+     24,
+     "preliminary plan"
+    ],
+    [
+     "2022-01-18",
+     24,
+     "preliminary plan"
+    ]
+   ],
+   "corroborating_docs": 3
+  },
+  {
+   "id": 727,
+   "city": "Providence",
+   "address": "31 – 45 Parade Street",
+   "was": 12,
+   "now": 31,
+   "date": "2020-11-05",
+   "doc": "999903_2.txt",
+   "stage": "preliminary plan",
+   "quote": "multifamily dwelling with 12 units. A neighboring one story building will be demolished for construction of a 19 unit multifamily dwelling",
+   "history": [
+    [
+     "2020-11-05",
+     31,
+     "preliminary plan"
+    ],
+    [
+     "2020-11-05",
+     31,
+     "preliminary plan"
+    ],
+    [
+     "2020-11-05",
+     31,
+     "preliminary plan"
+    ]
+   ],
+   "corroborating_docs": 3
+  },
+  {
+   "id": 733,
+   "city": "Providence",
+   "address": "466-468 West Fountain Street",
+   "was": 31,
+   "now": 34,
+   "date": "2020-10-20",
+   "doc": "999095_3.txt",
+   "stage": "major change",
+   "quote": "add three additional units for a total of 34",
+   "history": [
+    [
+     "2020-10-20",
+     34,
+     "minor land development"
+    ],
+    [
+     "2020-10-20",
+     34,
+     "minor land development"
+    ],
+    [
+     "2020-10-20",
+     34,
+     "major change"
+    ]
+   ],
+   "corroborating_docs": 3
+  },
+  {
+   "id": 743,
+   "city": "Providence",
+   "address": "946-1000 Westminster Street",
+   "was": 16,
+   "now": 48,
+   "date": "2020-08-18",
+   "doc": "996719_0.txt",
+   "stage": "final plan",
+   "quote": "three, three-story buildings, each with 16 units",
+   "history": [
+    [
+     "2019-12-17",
+     48,
+     "minor land development"
+    ],
+    [
+     "2019-12-17",
+     48,
+     "land development proje"
+    ],
+    [
+     "2019-12-17",
+     48,
+     "development plan revie"
+    ],
+    [
+     "2019-12-17",
+     48,
+     "land development proje"
+    ],
+    [
+     "2019-12-17",
+     48,
+     "minor land development"
+    ],
+    [
+     "2020-03-11",
+     3,
+     "preliminary plan"
+    ],
+    [
+     "2020-07-21",
+     48,
+     "final plan"
+    ],
+    [
+     "2020-08-18",
+     48,
+     "final plan"
+    ],
+    [
+     "2020-08-18",
+     48,
+     "final plan"
+    ]
+   ],
+   "corroborating_docs": 8
+  },
+  {
+   "id": 778,
+   "city": "Providence",
+   "address": "135 Wickenden Street",
+   "was": 49,
+   "now": 62,
+   "date": "2019-10-07",
+   "doc": "984083_1.txt",
+   "stage": "mixed-use development",
+   "quote": "62 dwelling units",
+   "history": [
+    [
+     "2019-07-08",
+     49,
+     "design review"
+    ],
+    [
+     "2019-10-07",
+     62,
+     "design review"
+    ],
+    [
+     "2019-10-07",
+     62,
+     "mixed-use development"
+    ]
+   ],
+   "corroborating_docs": 2
+  },
+  {
+   "id": 779,
+   "city": "Providence",
+   "address": "125 Clifford Street",
+   "was": 249,
+   "now": 248,
+   "date": "2019-10-07",
+   "doc": "984083_1.txt",
+   "stage": "new building construction",
+   "quote": "248 residential units",
+   "history": [
+    [
+     "2019-09-09",
+     249,
+     "preliminary plan"
+    ],
+    [
+     "2019-10-07",
+     248,
+     "design review"
+    ],
+    [
+     "2019-10-07",
+     248,
+     "new building construct"
+    ]
+   ],
+   "corroborating_docs": 2
+  },
+  {
+   "id": 821,
+   "city": "Providence",
+   "address": "126 Adelaide Ave",
+   "was": 18,
+   "now": 15,
+   "date": "2021-12-08",
+   "doc": "1013659_3.txt",
+   "stage": "extension",
+   "quote": "Multi-Family Dwelling with 15 units",
+   "history": [
+    [
+     "2020-06-10",
+     18,
+     "use variance; dimensio"
+    ],
+    [
+     "2020-06-10",
+     18,
+     "use variance, dimensio"
+    ],
+    [
+     "2020-06-10",
+     18,
+     "use and dimensional va"
+    ],
+    [
+     "2020-06-10",
+     18,
+     "use and dimensional va"
+    ],
+    [
+     "2020-06-10",
+     18,
+     "use variance, dimensio"
+    ],
+    [
+     "2020-06-10",
+     18,
+     "use variance, dimensio"
+    ],
+    [
+     "2020-08-12",
+     18,
+     "variance"
+    ],
+    [
+     "2020-08-12",
+     18,
+     "variance"
+    ],
+    [
+     "2020-08-12",
+     18,
+     "variance"
+    ],
+    [
+     "2020-08-12",
+     18,
+     "variance"
+    ],
+    [
+     "2020-09-09",
+     18,
+     "use variance, dimensio"
+    ],
+    [
+     "2020-09-09",
+     18,
+     "use variance, dimensio"
+    ],
+    [
+     "2020-09-09",
+     18,
+     "use variance; dimensio"
+    ],
+    [
+     "2021-12-08",
+     15,
+     "variance"
+    ],
+    [
+     "2021-12-08",
+     15,
+     "extension"
+    ],
+    [
+     "2021-12-08",
+     15,
+     "extension"
+    ],
+    [
+     "2021-12-08",
+     15,
+     "extension"
+    ]
+   ],
+   "corroborating_docs": 4
+  },
+  {
+   "id": 826,
+   "city": "Providence",
+   "address": "215 BROADWAY",
+   "was": 7,
+   "now": 8,
+   "date": "2022-09-14",
+   "doc": "1030030_1.txt",
+   "stage": "dimensional variance",
+   "quote": "fully residential use with 8 dwelling units",
+   "history": [
+    [
+     "2021-04-14",
+     12,
+     "variance"
+    ],
+    [
+     "2021-04-14",
+     12,
+     "variance"
+    ],
+    [
+     "2021-04-14",
+     12,
+     "variance"
+    ],
+    [
+     "2021-04-14",
+     12,
+     "variance"
+    ],
+    [
+     "2021-06-09",
+     10,
+     "variance"
+    ],
+    [
+     "2021-06-09",
+     10,
+     "variance"
+    ],
+    [
+     "2021-06-09",
+     10,
+     "variance"
+    ],
+    [
+     "2021-06-09",
+     10,
+     "variance"
+    ],
+    [
+     "2022-09-14",
+     8,
+     "variance"
+    ],
+    [
+     "2022-09-14",
+     8,
+     "dimensional variance"
+    ],
+    [
+     "2022-09-14",
+     8,
+     "dimensional variance"
+    ]
+   ],
+   "corroborating_docs": 3
+  },
+  {
+   "id": 827,
+   "city": "Providence",
+   "address": "381 Angell St",
+   "was": 3,
+   "now": 4,
+   "date": "2022-08-10",
+   "doc": "1028763_1.txt",
+   "stage": "dimensional variance",
+   "quote": "conversion of the property from 3 dwelling units and a dentist office to 4 dwelling units",
+   "history": [
+    [
+     "2021-05-12",
+     4,
+     "variance"
+    ],
+    [
+     "2021-05-12",
+     4,
+     "dimensional variance"
+    ],
+    [
+     "2021-05-12",
+     4,
+     "dimensional variance"
+    ],
+    [
+     "2022-08-10",
+     4,
+     "dimensional variance"
+    ],
+    [
+     "2022-08-10",
+     4,
+     "dimensional variance"
+    ],
+    [
+     "2022-08-10",
+     4,
+     "dimensional variance"
+    ]
+   ],
+   "corroborating_docs": 6
+  },
+  {
+   "id": 848,
+   "city": "Providence",
+   "address": "225 Broadway",
+   "was": 5,
+   "now": 8,
+   "date": "2020-02-12",
+   "doc": "989562_0.txt",
+   "stage": "variance",
+   "quote": "Multi-Family Dwelling with 8 residential units",
+   "history": [
+    [
+     "2020-02-12",
+     8,
+     "variance"
+    ],
+    [
+     "2020-02-12",
+     8,
+     "variance"
+    ],
+    [
+     "2020-02-12",
+     8,
+     "variance"
+    ]
+   ],
+   "corroborating_docs": 3
+  },
+  {
+   "id": 853,
+   "city": "Providence",
+   "address": "382 Thayer St",
+   "was": 2,
+   "now": 6,
+   "date": "2019-08-14",
+   "doc": "981772_0.txt",
+   "stage": "variance",
+   "quote": "change the use from 2 doctors' offices and 2 apartments to 6 dwelling units",
+   "history": [
+    [
+     "2019-08-14",
+     6,
+     "variance"
+    ],
+    [
+     "2019-08-14",
+     6,
+     "use variance"
+    ],
+    [
+     "2019-08-14",
+     6,
+     "variance"
+    ]
+   ],
+   "corroborating_docs": 3
+  },
+  {
+   "id": 867,
+   "city": "Cranston",
+   "address": "547 Park Avenue",
+   "was": 5,
+   "now": 4,
+   "date": "2026-08-12",
+   "doc": "1091479_0.txt",
+   "stage": "variance",
+   "quote": "convert the basement of a legal, non-conforming three-family dwelling into a fourth unit",
+   "history": [
+    [
+     "2026-08-04",
+     4,
+     "variance"
+    ],
+    [
+     "2026-08-04",
+     4,
+     "variance"
+    ],
+    [
+     "2026-08-12",
+     4,
+     "variance"
+    ],
+    [
+     "2026-08-12",
+     4,
+     "variance"
+    ],
+    [
+     "2026-08-12",
+     4,
+     "variance"
+    ]
+   ],
+   "corroborating_docs": 5
+  }
+ ],
+ "refused": [
+  {
+   "id": 509,
+   "city": "Providence",
+   "address": "580 South Water Street",
+   "was": 69,
+   "proposed": 5,
+   "docs": 2,
+   "collapse": true
+  },
+  {
+   "id": 558,
+   "city": "Newport",
+   "address": "0 Van Zandt Avenue",
+   "was": 26,
+   "proposed": 32,
+   "docs": 1,
+   "collapse": false
+  },
+  {
+   "id": 574,
+   "city": "Newport",
+   "address": "16 Waites Wharf",
+   "was": 100,
+   "proposed": 7,
+   "docs": 6,
+   "collapse": true
+  },
+  {
+   "id": 575,
+   "city": "Warwick",
+   "address": "445 Palmer Ave",
+   "was": 14,
+   "proposed": 7,
+   "docs": 1,
+   "collapse": false
+  },
+  {
+   "id": 609,
+   "city": "Providence",
+   "address": "150-158 Pitman Street",
+   "was": 16,
+   "proposed": 8,
+   "docs": 1,
+   "collapse": false
+  },
+  {
+   "id": 623,
+   "city": "Providence",
+   "address": "108 – 110 Waterman Street",
+   "was": 26,
+   "proposed": 35,
+   "docs": 1,
+   "collapse": false
+  },
+  {
+   "id": 636,
+   "city": "Providence",
+   "address": "870 Westminster Street",
+   "was": 19,
+   "proposed": 20,
+   "docs": 1,
+   "collapse": false
+  },
+  {
+   "id": 665,
+   "city": "Providence",
+   "address": "116 Waterman Street",
+   "was": 25,
+   "proposed": 1,
+   "docs": 1,
+   "collapse": true
+  },
+  {
+   "id": 673,
+   "city": "Providence",
+   "address": "153-165 Gano Street",
+   "was": 132,
+   "proposed": 4,
+   "docs": 6,
+   "collapse": true
+  },
+  {
+   "id": 697,
+   "city": "Providence",
+   "address": "49 Westfield Street",
+   "was": 12,
+   "proposed": 13,
+   "docs": 1,
+   "collapse": false
+  },
+  {
+   "id": 707,
+   "city": "Providence",
+   "address": "45-47 America St",
+   "was": 6,
+   "proposed": 14,
+   "docs": 1,
+   "collapse": false
+  }
+ ]
+}
