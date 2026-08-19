@@ -1,0 +1,184 @@
+[
+ {
+  "verdict": "KEEP",
+  "what_it_is": "Multifamily structure with dimensional variance",
+  "quote": "proposed placement of a multifamily family structure 7 feet into the required 10-foot setback",
+  "id": 832,
+  "address": "369 Broadway"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Use variance for dental office expansion",
+  "quote": "Application for USE VARIANCE seeking relief in the proposed expansion of first floor dental office use into the basement.",
+  "id": 756,
+  "address": "189 WATERMAN STREET"
+ },
+ {
+  "verdict": "KEEP",
+  "what_it_is": "New restaurant with live entertainment ancillary use",
+  "quote": "Application for a SPECIAL USE PERMIT to provide Live Entertainment \u2013 Ancillary Use within a new restaurant.",
+  "id": 789,
+  "address": "255 Weybosset St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Special use permit for cannabis retailer",
+  "quote": "The applicant proposes to establish a Cannabis Retailer use in part of the existing vacant structure",
+  "id": 790,
+  "address": "1088 North Main St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Special use permit for cannabis retailer",
+  "quote": "establish a Cannabis Retailer use in the first-floor commercial unit",
+  "id": 791,
+  "address": "680 Admiral St"
+ },
+ {
+  "verdict": "KEEP",
+  "what_it_is": "Addition of 400 sq ft to car wash building",
+  "quote": "add 400 square feet of GFA to the existing nonconforming Car Wash use",
+  "id": 795,
+  "address": "963 North Main St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Extension of dimensional variance for setbacks",
+  "quote": "requests that ZBR Resolution No. 2024-24, granting dimensional variances for rear and side setbacks, be extended for a period of six (6) months",
+  "id": 796,
+  "address": "134 Ives St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Special use permit for vehicle rental",
+  "quote": "Application for SPECIAL USE PERMIT, to establish the property as a Vehicle Rental use.",
+  "id": 800,
+  "address": "425 Washington St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Extension of special use permit approval",
+  "quote": "requests that ZBR Resolution No. 2024-01 be extended for a period of six (6) months",
+  "id": 801,
+  "address": "5 Marvin St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Extension of special use permit for outdoor dining",
+  "quote": "requests that ZBR Resolution No. 2023-16, granting a special use permit for outdoor dining, be extended for a third period of six (6) months",
+  "id": 803,
+  "address": "712 Admiral St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Special use permit for live entertainment in restaurant",
+  "quote": "Application for SPECIAL USE PERMIT to provide a Live Entertainment-Ancillary Use within a restaurant.",
+  "id": 809,
+  "address": "393-399 Westminster St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Change of use in existing space, special use permit",
+  "quote": "establish a black box theater for Teatro ECAS as a Live Performance Venue in a space that was formerly a Nightclub",
+  "id": 814,
+  "address": "679 Valley St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Change of use in existing structure",
+  "quote": "establish a Retail Goods Establishment as a Neighborhood Commercial Establishment in an existing non-residential structure",
+  "id": 819,
+  "address": "91 Hope St"
+ },
+ {
+  "verdict": "KEEP",
+  "what_it_is": "Two additions to existing school structure",
+  "quote": "applicant proposes two additions, totaling 645 gross square feet, to the existing school structure",
+  "id": 820,
+  "address": "518 Lloyd Ave"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Special use permit for coffee shop in existing structure",
+  "quote": "establish a coffee shop as a Neighborhood Commercial Establishment (Restaurant) within an existing nonresidential structure",
+  "id": 828,
+  "address": "60 Gano St"
+ },
+ {
+  "verdict": "KEEP",
+  "what_it_is": "Addition of two garage bays to existing structure",
+  "quote": "to build an addition for two garage bays onto an existing structure used for Vehicle Repair/Service",
+  "id": 833,
+  "address": "165 Dexter St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Use variance for materials processing storage",
+  "quote": "Application for USE VARIANCE to use the property for non-waterfront dependent Materials Processing and storage",
+  "id": 834,
+  "address": "338 Allens Ave"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Change of use in existing structure",
+  "quote": "establish a Retail Goods Establishment as a Neighborhood Commercial Establishment in an existing non-residential structure",
+  "id": 839,
+  "address": "107 Hope St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Parking variance for hostel use change",
+  "quote": "Application for DIMENSIONAL VARIANCE from Table 14-1 to provide 7 parking spaces where 14 are required",
+  "id": 841,
+  "address": "41 Central St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Signage variance for projecting signs",
+  "quote": "DIMENSIONAL VARIANCE seeking relief from Section 1607.H.2. for 2 projecting signs on a fa\u00e7ade where 1 is permitted",
+  "id": 849,
+  "address": "321 South Main St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Special use permit for ancillary live entertainment",
+  "quote": "Application for a SPECIAL USE PERMIT to provide Live Entertainment-Ancillary Use within NicoBella's Family Restaurant",
+  "id": 850,
+  "address": "10 Dorrance Street"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Special use permit for vehicle repair business",
+  "quote": "Application for a SPECIAL USE PERMIT to establish a business with a zoning use classification of Vehicle Repair/Service",
+  "id": 851,
+  "address": "593 Hartford Ave"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Special use permit for parking lot",
+  "quote": "Application for SPECIAL USE PERMIT per Table 12-1 for use as a Parking Lot (Principal Use).",
+  "id": 855,
+  "address": "642 CRANSTON ST"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Parking lot continuation special use permit",
+  "quote": "Application for a SPECIAL USE PERMIT per Table 12-1 for continuation of use as a Parking Lot",
+  "id": 864,
+  "address": "434 -450 Brook St"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Dimensional variance for front yard setback",
+  "quote": "Application for DIMENSIONAL VARIANCE seeking relief from Table 5-1: Front Yard Setback",
+  "id": 865,
+  "address": "650 Hartford Ave"
+ },
+ {
+  "verdict": "REMOVE",
+  "what_it_is": "Special use permit for pet grooming business",
+  "quote": "Application for SPECIAL USE PERMIT to establish a pet grooming business in a first-floor commercial unit",
+  "id": 788,
+  "address": "78 FOUNTAIN STREET"
+ }
+]
