@@ -96,6 +96,16 @@ def render(df: pd.DataFrame, stats: dict):
     )
     if city_f != "All":
         df = df[df["city"] == city_f]
+
+    # Rhode Island gets its own landing page. The shared charts below are
+    # built on square footage, which Rhode Island states on about 18% of
+    # filings -- so on this data they rank disclosure rather than development.
+    # See app/tabs/overview_ri.py for what replaces them and why.
+    from app.tabs import overview_ri
+    if city_f in overview_ri.RI_CITIES:
+        overview_ri.render(df, city_label=city_f)
+        return
+
     stats = summary_stats(df, include_conditional=include_conditional)
 
     if stats["conditional_alternative_count"] and not include_conditional:

@@ -1,0 +1,116 @@
+[
+ {
+  "id": 338,
+  "city": "Boston",
+  "field": "developer",
+  "value": "Boston Housing Authority"
+ },
+ {
+  "id": 424,
+  "city": "Cambridge",
+  "field": "developer",
+  "value": "Cambridge Housing Authority"
+ },
+ {
+  "id": 427,
+  "city": "Cambridge",
+  "field": "developer",
+  "value": "City of Cambridge"
+ },
+ {
+  "id": 455,
+  "city": "Cambridge",
+  "field": "developer",
+  "value": "City of Cambridge"
+ },
+ {
+  "id": 460,
+  "city": "Cambridge",
+  "field": "developer",
+  "value": "Cambridge Redevelopment Authority"
+ },
+ {
+  "id": 482,
+  "city": "Providence",
+  "field": "developer",
+  "value": "State of Rhode Island"
+ },
+ {
+  "id": 493,
+  "city": "Providence",
+  "field": "developer",
+  "value": "City of Providence"
+ },
+ {
+  "id": 494,
+  "city": "Providence",
+  "field": "developer",
+  "value": "City of Providence"
+ },
+ {
+  "id": 495,
+  "city": "Providence",
+  "field": "developer",
+  "value": "City of Providence"
+ },
+ {
+  "id": 496,
+  "city": "Providence",
+  "field": "developer",
+  "value": "City of Providence"
+ },
+ {
+  "id": 547,
+  "city": "Pawtucket",
+  "field": "developer",
+  "value": "Pawtucket School Department"
+ },
+ {
+  "id": 581,
+  "city": "Warwick",
+  "field": "developer",
+  "value": "City of Warwick"
+ },
+ {
+  "id": 604,
+  "city": "Providence",
+  "field": "developer",
+  "value": "Providence Redevelopment Agency"
+ },
+ {
+  "id": 617,
+  "city": "Providence",
+  "field": "developer",
+  "value": "City of Providence"
+ },
+ {
+  "id": 625,
+  "city": "Providence",
+  "field": "developer",
+  "value": "Providence Public Buildings Authority"
+ },
+ {
+  "id": 626,
+  "city": "Providence",
+  "field": "developer",
+  "value": "City of Providence"
+ },
+ {
+  "id": 711,
+  "city": "Providence",
+  "field": "developer",
+  "value": "Narragansett Bay Commission"
+ },
+ {
+  "id": 716,
+  "city": "Providence",
+  "field": "developer",
+  "value": "Providence Redevelopment Agency"
+ },
+ {
+  "id": 786,
+  "city": "Providence",
+  "field": "developer",
+  "value": "Providence Public Library"
+ }
+]

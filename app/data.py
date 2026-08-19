@@ -589,6 +589,39 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
 
 
 @st.cache_data(ttl=300)
+@st.cache_data(ttl=300)
+def load_stage_history() -> pd.DataFrame:
+    """Every recorded hearing, one row per appearance.
+
+    The Rhode Island landing page is built on what is actually populated, and
+    hearing dates are the densest signal in the whole dataset -- far denser
+    than square footage. They answer two questions no other field can: how
+    much was filed recently, and how long a project takes to get approved.
+    """
+    from db.models import ProjectStageEvent
+    session = get_session()
+    try:
+        rows = []
+        for e in session.query(ProjectStageEvent).all():
+            d = str(e.meeting_date or "")[:10]
+            if len(d) != 10:
+                continue
+            rows.append({
+                "project_id": e.project_id,
+                "date": pd.to_datetime(d, errors="coerce"),
+                "stage": e.stage or "",
+                "stage_raw": e.review_stage_raw or "",
+                "body": e.reviewing_body or "",
+                "outcome": (e.outcome or ""),
+            })
+        df = pd.DataFrame(rows)
+        if len(df):
+            df = df.dropna(subset=["date"])
+        return df
+    finally:
+        session.close()
+
+
 def load_field_citations(project_id: int) -> list[dict]:
     """Per-field source citations for one project, newest field order first.
 
