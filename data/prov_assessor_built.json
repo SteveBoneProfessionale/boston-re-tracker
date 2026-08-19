@@ -1,0 +1,162 @@
+[
+ {
+  "id": 625,
+  "addr": "35 Merino Street",
+  "k": [
+   107,
+   595
+  ],
+  "v19": 1972300,
+  "v25": 19205500,
+  "d19": "Church",
+  "d25": "School",
+  "ratio": 9.7,
+  "excess": 4.5,
+  "first_filing": "2022-05-17",
+  "vac2built": false
+ },
+ {
+  "id": 652,
+  "addr": "547 Chalkstone Ave",
+  "k": [
+   69,
+   261
+  ],
+  "v19": 35300,
+  "v25": 1267000,
+  "d19": "CI Vacant Land",
+  "d25": "apt 11+",
+  "ratio": 35.9,
+  "excess": 16.7,
+  "first_filing": "2023-06-27",
+  "vac2built": true
+ },
+ {
+  "id": 674,
+  "addr": "250 Lloyd Ave",
+  "k": [
+   11,
+   48
+  ],
+  "v19": 178400,
+  "v25": 3521900,
+  "d19": "School",
+  "d25": "School",
+  "ratio": 19.7,
+  "excess": 9.2,
+  "first_filing": "2022-10-11",
+  "vac2built": false
+ },
+ {
+  "id": 679,
+  "addr": "220 Broad Street",
+  "k": [
+   24,
+   35
+  ],
+  "v19": 378100,
+  "v25": 7235900,
+  "d19": "Industrial",
+  "d25": "Miscellaneous",
+  "ratio": 19.1,
+  "excess": 8.9,
+  "first_filing": "2022-09-20",
+  "vac2built": false
+ },
+ {
+  "id": 705,
+  "addr": "1326 Westminster Street",
+  "k": [
+   32,
+   232
+  ],
+  "v19": 129600,
+  "v25": 7872400,
+  "d19": "CI Vacant Land",
+  "d25": "Commercial II",
+  "ratio": 60.7,
+  "excess": 28.3,
+  "first_filing": "2021-02-16",
+  "vac2built": true
+ },
+ {
+  "id": 729,
+  "addr": "47 Matilda Street",
+  "k": [
+   75,
+   297
+  ],
+  "v19": 42800,
+  "v25": 3533800,
+  "d19": "Residential Vacant Land",
+  "d25": "44-3-9 Stb",
+  "ratio": 82.6,
+  "excess": 38.4,
+  "first_filing": "2020-07-21",
+  "vac2built": false
+ },
+ {
+  "id": 733,
+  "addr": "466-468 West Fountain Street",
+  "k": [
+   29,
+   554
+  ],
+  "v19": 228300,
+  "v25": 6631000,
+  "d19": "Commercial I",
+  "d25": "44-3-9 Stb",
+  "ratio": 29.0,
+  "excess": 13.5,
+  "first_filing": "2020-10-20",
+  "vac2built": false
+ },
+ {
+  "id": 744,
+  "addr": "1292 WESTMINSTER STREET",
+  "k": [
+   32,
+   233
+  ],
+  "v19": 556100,
+  "v25": 9110400,
+  "d19": "44-3-9 Stb",
+  "d25": "44-3-9 Stb",
+  "ratio": 16.4,
+  "excess": 7.6,
+  "first_filing": "2020-06-10",
+  "vac2built": false
+ },
+ {
+  "id": 782,
+  "addr": "579 Atwells Ave",
+  "k": [
+   65,
+   977
+  ],
+  "v19": 169500,
+  "v25": 3353400,
+  "d19": "Residential Condo",
+  "d25": "Commercial Condo",
+  "ratio": 19.8,
+  "excess": 9.2,
+  "first_filing": "2026-07-08",
+  "vac2built": false
+ },
+ {
+  "id": 788,
+  "addr": "78 FOUNTAIN STREET",
+  "k": [
+   25,
+   465
+  ],
+  "v19": 1825100,
+  "v25": 38583900,
+  "d19": "44-3-9 Stb",
+  "d25": "44-3-9 Stb",
+  "ratio": 21.1,
+  "excess": 9.8,
+  "first_filing": "2026-05-13",
+  "vac2built": false
+ }
+]

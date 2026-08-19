@@ -248,6 +248,22 @@ SF_SOURCES = {
 #   * Warwick's permits are issued per building -- a 14-unit scheme at 1515
 #     Centerville Road carries six, one stating "the foundation sf is 1,040".
 #   * Pawtucket's permit form has no square-footage field at all.
+# How a delivery was established, and how it renders. A completion resting on
+# a certificate of occupancy is not the same claim as one resting on a rental
+# listing, and the two must never look alike -- the same rule the developer
+# confidence states follow.
+COMPLETION_BASIS = {
+    "assessor_confirmed":        {"label": "Assessor confirmed", "mark": "◆", "rank": 1},
+    "co_issued":                 {"label": "Certificate of occupancy", "mark": "◆", "rank": 1},
+    "permit_final":              {"label": "Permit closed", "mark": "◇", "rank": 2},
+    "permit_active":             {"label": "Permit active", "mark": "△", "rank": 2},
+    "subsidy_placed_in_service": {"label": "Placed in service", "mark": "◇", "rank": 2},
+    "leasing_active":            {"label": "Leasing", "mark": "○", "rank": 3},
+    "news_confirmed":            {"label": "Reported", "mark": "○", "rank": 3},
+    "human_set":                 {"label": "Set by hand", "mark": "■", "rank": 0},
+}
+
+
 RI_SF_NOTE_TITLE = "About square footage in Rhode Island"
 
 RI_SF_NOTE = """
