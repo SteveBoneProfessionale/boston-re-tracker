@@ -70,6 +70,13 @@ class Project(Base):
     permit_url = Column(String)
     permit_cost = Column(Integer)
     general_contractor = Column(String)
+    completion_stage = Column(String)        # "Complete" | "Under Construction"
+    completion_basis = Column(String)        # permit_final | permit_active | co_issued | news_confirmed | human_set
+    completion_evidence = Column(Text)
+    completion_source_url = Column(String)
+    completion_date = Column(String)
+    is_stale = Column(Boolean, default=False)
+    stale_months = Column(Integer)
     # development | rezoning. A rezoning with no programme yet is the front
     # of the pipeline; if a development filing later lands on the same
     # parcel the two merge, with the rezoning as the first stage event.

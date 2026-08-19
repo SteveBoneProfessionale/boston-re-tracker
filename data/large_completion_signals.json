@@ -1,0 +1,74 @@
+[
+ {
+  "id": 126,
+  "name": "250 Everett Street",
+  "address": "250 Everett Street",
+  "to": "Under Construction",
+  "basis": "erect_open",
+  "permit": "ERT1800416",
+  "ptype": "Erect/New Construction",
+  "pstatus": "Open",
+  "issued": "2026-06-02T19:07:38",
+  "permit_addr": "250 Everett ST"
+ },
+ {
+  "id": 175,
+  "name": "South Boston Innovation Campus",
+  "address": "2 Harbor Street",
+  "to": "Complete",
+  "basis": "co_issued",
+  "permit": "COO1650574",
+  "ptype": "Certificate of Occupancy",
+  "pstatus": "Closed",
+  "issued": "2024-10-21T20:40:46",
+  "permit_addr": "2 Harbor ST"
+ },
+ {
+  "id": 239,
+  "name": "3390 Washington Street (BMS Paper)",
+  "address": "3390 Washington Street",
+  "to": "Complete",
+  "basis": "co_issued",
+  "permit": "COO1281335",
+  "ptype": "Certificate of Occupancy",
+  "pstatus": "Closed",
+  "issued": "2022-01-12T20:22:25",
+  "permit_addr": "3390 Washington ST"
+ },
+ {
+  "id": 339,
+  "name": "Allston Green",
+  "address": "20 Linden Street",
+  "to": "Complete",
+  "basis": "co_issued",
+  "permit": "COO645096",
+  "ptype": "Certificate of Occupancy",
+  "pstatus": "Closed",
+  "issued": "2019-11-12T05:00:00",
+  "permit_addr": "20 Linden ST"
+ },
+ {
+  "id": 358,
+  "name": "10 Stack Street",
+  "address": "10 Stack Street",
+  "to": "Under Construction",
+  "basis": "erect_open",
+  "permit": "ERT1017169",
+  "ptype": "Erect/New Construction",
+  "pstatus": "Open",
+  "issued": "2020-08-06T14:46:30",
+  "permit_addr": "10 Stack ST"
+ },
+ {
+  "id": 375,
+  "name": "22 Boston Wharf Road",
+  "address": "22 Boston Wharf Road",
+  "to": "Complete",
+  "basis": "co_issued",
+  "permit": "COO1404014",
+  "ptype": "Certificate of Occupancy",
+  "pstatus": "Closed",
+  "issued": "2022-10-18T14:29:55",
+  "permit_addr": "22 Boston Wharf RD"
+ }
+]

@@ -1,0 +1,120 @@
+{
+ "duplicates": [
+  {
+   "ids": [
+    87,
+    310
+   ],
+   "score": 5,
+   "why": [
+    "same street",
+    "same developer",
+    "same unit count"
+   ]
+  },
+  {
+   "ids": [
+    418,
+    438
+   ],
+   "score": 5,
+   "why": [
+    "identical address",
+    "same developer"
+   ]
+  },
+  {
+   "ids": [
+    501,
+    609
+   ],
+   "score": 7,
+   "why": [
+    "same street, overlapping number",
+    "same developer",
+    "same unit count"
+   ]
+  },
+  {
+   "ids": [
+    507,
+    762
+   ],
+   "score": 5,
+   "why": [
+    "same street, overlapping number",
+    "same developer"
+   ]
+  },
+  {
+   "ids": [
+    508,
+    509
+   ],
+   "score": 5,
+   "why": [
+    "one address is a truncation of the other",
+    "same developer"
+   ]
+  },
+  {
+   "ids": [
+    605,
+    627
+   ],
+   "score": 7,
+   "why": [
+    "identical address",
+    "same developer",
+    "same unit count"
+   ]
+  },
+  {
+   "ids": [
+    653,
+    690
+   ],
+   "score": 7,
+   "why": [
+    "one address is a truncation of the other",
+    "same developer",
+    "same unit count"
+   ]
+  },
+  {
+   "ids": [
+    657,
+    708
+   ],
+   "score": 5,
+   "why": [
+    "identical address",
+    "same unit count"
+   ]
+  },
+  {
+   "ids": [
+    734,
+    738
+   ],
+   "score": 5,
+   "why": [
+    "same street, overlapping number",
+    "same unit count"
+   ]
+  },
+  {
+   "ids": [
+    883,
+    893
+   ],
+   "score": 5,
+   "why": [
+    "identical address",
+    "same developer"
+   ]
+  }
+ ],
+ "phantoms": [],
+ "scope": []
+}

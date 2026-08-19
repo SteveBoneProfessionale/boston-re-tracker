@@ -100,6 +100,21 @@ def init_db():
     _add_column_if_missing("projects", "permit_url", "VARCHAR")
     _add_column_if_missing("projects", "permit_cost", "INTEGER")
     _add_column_if_missing("projects", "general_contractor", "VARCHAR")
+    # Delivery, and the evidence for it. A project only reaches Complete or
+    # Under Construction from a source OUTSIDE the planning documents -- a
+    # permit status, a certificate of occupancy, or corroborated coverage of an
+    # opening. Agenda language can never advance a project past Approved,
+    # because agendas do not report construction.
+    _add_column_if_missing("projects", "completion_stage", "VARCHAR")
+    _add_column_if_missing("projects", "completion_basis", "VARCHAR")
+    _add_column_if_missing("projects", "completion_evidence", "TEXT")
+    _add_column_if_missing("projects", "completion_source_url", "VARCHAR")
+    _add_column_if_missing("projects", "completion_date", "VARCHAR")
+    # Stale is NOT a stage. It says nothing has been recorded for a long time
+    # and no confirming source was found -- which is a different claim from
+    # "this was built", and only the first one is supportable.
+    _add_column_if_missing("projects", "is_stale", "BOOLEAN DEFAULT 0")
+    _add_column_if_missing("projects", "stale_months", "INTEGER")
     # development | rezoning. A rezoning petition with no programme yet is
     # the FRONT of the pipeline, an earlier signal than a planning filing,
     # and should not read as a project with a defined programme.
