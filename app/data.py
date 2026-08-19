@@ -485,6 +485,20 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 "project_scale": p.project_scale or "",
                 "review_scale": p.review_scale or "",
                 "review_scale_raw": p.review_scale_raw or "",
+                # DELIVERY. A completed building is not pipeline, so the stage
+                # a completion source established overrides the filing status
+                # in every count. The basis travels with it, because a
+                # certificate of occupancy and a rental listing are not the
+                # same strength of claim.
+                "completion_stage": p.completion_stage or "",
+                "completion_basis": p.completion_basis or "",
+                "completion_evidence": p.completion_evidence or "",
+                "completion_source_url": p.completion_source_url or "",
+                "completion_date": p.completion_date or "",
+                # Stale says nothing was recorded for a long time. It is NOT a
+                # claim about whether the project was built.
+                "is_stale": bool(p.is_stale),
+                "stale_months": p.stale_months,
                 "bpda_gsf": p.bpda_gsf,
                 "bpda_url": p.bpda_url or "",
                 # Extracted
