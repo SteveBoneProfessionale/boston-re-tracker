@@ -264,6 +264,22 @@ COMPLETION_BASIS = {
 }
 
 
+# Unit-count confidence, graded against the documents behind each figure.
+# 1077 Westminster carried 34 units when its final plan said 41, so the
+# obvious next question is which of the others are wrong. This is the answer
+# to that, per record, rather than a blanket assurance.
+UNITS_CONFIDENCE = {
+    "corroborated":  {"label": "Corroborated", "mark": "",  "rank": 0,
+                      "note": "two or more documents agree, and it is the latest figure"},
+    "single_source": {"label": "One source",   "mark": "·", "rank": 1,
+                      "note": "stated in a single document; probably right, unverifiable here"},
+    "contradicted":  {"label": "Contradicted", "mark": "≠", "rank": 2,
+                      "note": "a later document states a different figure; both are on the record"},
+    "unsourced":     {"label": "Unsourced",    "mark": "?", "rank": 3,
+                      "note": "no document in the corpus states this figure -- distrust first"},
+}
+
+
 RI_SF_NOTE_TITLE = "About square footage in Rhode Island"
 
 RI_SF_NOTE = """
@@ -496,6 +512,10 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 # these, because a project spanning three parcels is findable
                 # by any of its doors or by none of them.
                 "alt_addresses": p.alt_addresses or "",
+                # How far the unit count can be trusted. Rendered, because a
+                # figure the reader cannot weigh is worse than one with a
+                # caveat attached.
+                "units_confidence": p.units_confidence or "",
                 # Withdrawn or Denied. Dead is not pipeline either.
                 "project_status_filing": p.project_status_filing or "",
                 "completion_stage": p.completion_stage or "",

@@ -79,6 +79,7 @@ class Project(Base):
     stale_months = Column(Integer)
     filing_type = Column(String)   # the action asked of the board, NOT a stage
     alt_addresses = Column(String)  # other addresses the same case is filed under
+    units_confidence = Column(String)  # corroborated | single_source | contradicted | unsourced
     # development | rezoning. A rezoning with no programme yet is the front
     # of the pipeline; if a development filing later lands on the same
     # parcel the two merge, with the rezoning as the first stage event.

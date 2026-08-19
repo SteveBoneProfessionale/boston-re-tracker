@@ -125,6 +125,10 @@ def init_db():
     # ingest kept the first, so a project at "311 Knight Street, 321 Knight and
     # 1077 Westminster Street" could not be found by two of its three doors.
     _add_column_if_missing("projects", "alt_addresses", "VARCHAR")
+    # How far the stored unit count can be trusted, graded against the
+    # documents behind it. A number a reader cannot weigh is worse than a
+    # number with a caveat attached.
+    _add_column_if_missing("projects", "units_confidence", "VARCHAR")
     # development | rezoning. A rezoning petition with no programme yet is
     # the FRONT of the pipeline, an earlier signal than a planning filing,
     # and should not read as a project with a defined programme.

@@ -10,7 +10,7 @@ from app.data import (
     load_filings, load_cambridge_permits, STAGE_COLORS, review_scale_vocab,
     RESOLUTION_METHODS, resolution_method, shows_provenance_badge, METHOD_ORDER,
     DEVELOPER_CONFIDENCE, developer_confidence, SF_SOURCES,
-    load_field_citations, RI_SF_NOTE, RI_SF_NOTE_TITLE,
+    load_field_citations, RI_SF_NOTE, RI_SF_NOTE_TITLE, UNITS_CONFIDENCE,
 )
 from scraper.normalize_developer import is_real_company
 
@@ -332,6 +332,13 @@ def render(df: pd.DataFrame):
     # only, done by the column config. Provenance moves to its own narrow
     # column rather than being welded into the value, which is what forced the
     # value to be text in the first place.
+    # A unit count carries how far it can be trusted, for the same reason a
+    # developer name does: 34 units at 1077 Westminster looked exactly like a
+    # verified figure until the final plan said 41.
+    _uc = filtered["units_confidence"] if "units_confidence" in filtered.columns else None
+    display["units_mark"] = ([UNITS_CONFIDENCE.get(c, {}).get("mark", "") for c in _uc]
+                             if _uc is not None else [""] * len(display))
+
     display["sf_src_mark"] = [
         SF_SOURCES[src]["mark"] if src in SF_SOURCES else ""
         for src in display["_sf_src"]
@@ -339,12 +346,12 @@ def render(df: pd.DataFrame):
     display = display[[
         "name", "developer_canonical", "neighborhood", "city",
         "asset_class", "status_fmt", "total_gsf", "sf_src_mark",
-        "residential_units", "building_height_ft", "expected_delivery",
+        "residential_units", "units_mark", "building_height_ft", "expected_delivery",
     ]]
     display.columns = [
         "PROJECT", "DEVELOPER", "NEIGHBORHOOD", "CITY",
         "TYPE", "STATUS", "SF", "SRC",
-        "UNITS", "HEIGHT", "DELIVERY",
+        "UNITS", "U?", "HEIGHT", "DELIVERY",
     ]
 
     selection = st.dataframe(
@@ -368,6 +375,12 @@ def render(df: pd.DataFrame):
                      "from a lot area, ▣ = plan set or staff report. "
                      "Unmarked = stated in the planning filing."),
             "UNITS":  st.column_config.NumberColumn(format="%d"),
+            "U?":     st.column_config.TextColumn(
+                width="small",
+                help="Unit-count confidence. Blank = corroborated by two or more "
+                     "documents. · = a single document. ≠ = a later document "
+                     "states a different figure. ? = no document in the corpus "
+                     "states it at all."),
             "HEIGHT": st.column_config.NumberColumn(format="%d ft"),
         },
     )

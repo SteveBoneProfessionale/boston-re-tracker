@@ -1,0 +1,1456 @@
+[
+ {
+  "id": 476,
+  "city": "Providence",
+  "address": "203 Douglas Ave",
+  "units": 21,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 480,
+  "city": "Providence",
+  "address": "1107 Westminster Street",
+  "units": 17,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 482,
+  "city": "Providence",
+  "address": "859 Broad Street",
+  "units": 16,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 486,
+  "city": "Providence",
+  "address": "309 Dexter Street",
+  "units": 48,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 487,
+  "city": "Providence",
+  "address": "3569 – 64 America Street",
+  "units": 26,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 490,
+  "city": "Providence",
+  "address": "27 E River Street",
+  "units": 355,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": [
+   326
+  ]
+ },
+ {
+  "id": 491,
+  "city": "Providence",
+  "address": "3568 – 20 America Street",
+  "units": 19,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 492,
+  "city": "Providence",
+  "address": "3535 – 322 Washington Street",
+  "units": 76,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 497,
+  "city": "Providence",
+  "address": "128 Wayland Ave",
+  "units": 22,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 498,
+  "city": "Providence",
+  "address": "885 Westminster Street",
+  "units": 74,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 499,
+  "city": "Providence",
+  "address": "45 Parade Street",
+  "units": 26,
+  "grade": "corroborated",
+  "why": "stated in 6 documents, latest figure",
+  "docs": 6,
+  "other_figures": []
+ },
+ {
+  "id": 500,
+  "city": "Providence",
+  "address": "298 Public Street",
+  "units": 39,
+  "grade": "corroborated",
+  "why": "stated in 5 documents, latest figure",
+  "docs": 5,
+  "other_figures": []
+ },
+ {
+  "id": 502,
+  "city": "Providence",
+  "address": "3516 – 125 Tobey Street",
+  "units": 17,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 507,
+  "city": "Providence",
+  "address": "200 Dyer Street",
+  "units": 214,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": [
+   183,
+   198,
+   216
+  ]
+ },
+ {
+  "id": 509,
+  "city": "Providence",
+  "address": "580 South Water Street",
+  "units": 69,
+  "grade": "contradicted",
+  "why": "a later document states 5, 5",
+  "docs": 1,
+  "other_figures": [
+   5
+  ]
+ },
+ {
+  "id": 515,
+  "city": "Cranston",
+  "address": "Champlin Heights / Meridian Pointe (Phase II",
+  "units": 152,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 516,
+  "city": "Cranston",
+  "address": "661 Park Avenue",
+  "units": 69,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 520,
+  "city": "Cranston",
+  "address": "1390 Cranston Street",
+  "units": 4,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 521,
+  "city": "Cranston",
+  "address": "35 Lake Street",
+  "units": 2,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 522,
+  "city": "Cranston",
+  "address": "1128 Narragansett Boulevard",
+  "units": 19,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 526,
+  "city": "Cranston",
+  "address": "AP 22, Lot 108",
+  "units": 1,
+  "grade": "corroborated",
+  "why": "stated in 5 documents, latest figure",
+  "docs": 5,
+  "other_figures": []
+ },
+ {
+  "id": 528,
+  "city": "Cranston",
+  "address": "2110 Plainfield Pike",
+  "units": 26,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 532,
+  "city": "Cranston",
+  "address": "1890 Plainfield Pike",
+  "units": 192,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 535,
+  "city": "Cranston",
+  "address": "5 Aborn Street",
+  "units": 2,
+  "grade": "corroborated",
+  "why": "stated in 8 documents, latest figure",
+  "docs": 8,
+  "other_figures": [
+   3
+  ]
+ },
+ {
+  "id": 537,
+  "city": "Cranston",
+  "address": "31 Calder Street",
+  "units": 12,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 539,
+  "city": "Cranston",
+  "address": "538 Main Street",
+  "units": 44,
+  "grade": "corroborated",
+  "why": "stated in 24 documents, latest figure",
+  "docs": 24,
+  "other_figures": []
+ },
+ {
+  "id": 541,
+  "city": "Pawtucket",
+  "address": "13 Davis Street",
+  "units": 1,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 542,
+  "city": "Pawtucket",
+  "address": "30 Beecher Street",
+  "units": 120,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 543,
+  "city": "Pawtucket",
+  "address": "175 Main Street",
+  "units": 325,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 545,
+  "city": "Pawtucket",
+  "address": "250 Esten Street",
+  "units": 2,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 548,
+  "city": "Pawtucket",
+  "address": "546 Smithfield Avenue",
+  "units": 1,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 549,
+  "city": "Pawtucket",
+  "address": "486 Mineral Spring Avenue",
+  "units": 2,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 550,
+  "city": "Pawtucket",
+  "address": "258 Pine Street",
+  "units": 190,
+  "grade": "corroborated",
+  "why": "stated in 6 documents, latest figure",
+  "docs": 6,
+  "other_figures": [
+   177,
+   179
+  ]
+ },
+ {
+  "id": 551,
+  "city": "Pawtucket",
+  "address": "180 Weeden Street",
+  "units": 38,
+  "grade": "corroborated",
+  "why": "stated in 7 documents, latest figure",
+  "docs": 7,
+  "other_figures": [
+   29
+  ]
+ },
+ {
+  "id": 552,
+  "city": "Pawtucket",
+  "address": "282 East Avenue",
+  "units": 32,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 553,
+  "city": "Pawtucket",
+  "address": "334 East Avenue",
+  "units": 45,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 555,
+  "city": "Pawtucket",
+  "address": "177 School Street",
+  "units": 72,
+  "grade": "corroborated",
+  "why": "stated in 8 documents, latest figure",
+  "docs": 8,
+  "other_figures": []
+ },
+ {
+  "id": 556,
+  "city": "Pawtucket",
+  "address": "160 Beechwood Avenue",
+  "units": 15,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 558,
+  "city": "Newport",
+  "address": "0 Van Zandt Avenue",
+  "units": 26,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": [
+   32
+  ]
+ },
+ {
+  "id": 559,
+  "city": "Newport",
+  "address": "525 Broadway",
+  "units": 38,
+  "grade": "corroborated",
+  "why": "stated in 5 documents, latest figure",
+  "docs": 5,
+  "other_figures": [
+   37
+  ]
+ },
+ {
+  "id": 564,
+  "city": "Newport",
+  "address": "102-108 Girard Avenue",
+  "units": 4,
+  "grade": "contradicted",
+  "why": "a later document states 22",
+  "docs": 3,
+  "other_figures": [
+   22
+  ]
+ },
+ {
+  "id": 567,
+  "city": "Newport",
+  "address": "49 America’s Cup Avenue",
+  "units": 7,
+  "grade": "corroborated",
+  "why": "stated in 6 documents, latest figure",
+  "docs": 6,
+  "other_figures": []
+ },
+ {
+  "id": 572,
+  "city": "Newport",
+  "address": "160 Carroll Avenue",
+  "units": 1,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 574,
+  "city": "Newport",
+  "address": "16 Waites Wharf",
+  "units": 100,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": [
+   7
+  ]
+ },
+ {
+  "id": 575,
+  "city": "Warwick",
+  "address": "445 Palmer Ave",
+  "units": 14,
+  "grade": "contradicted",
+  "why": "a later document states 7",
+  "docs": 5,
+  "other_figures": [
+   1,
+   7
+  ]
+ },
+ {
+  "id": 577,
+  "city": "Warwick",
+  "address": "3275 POST ROAD",
+  "units": 14,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 578,
+  "city": "Warwick",
+  "address": "1515 Centerville Road",
+  "units": 14,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 579,
+  "city": "Warwick",
+  "address": "192 Toll Gate Rd",
+  "units": 10,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 580,
+  "city": "Warwick",
+  "address": "1577 West Shore Rd",
+  "units": 3,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 583,
+  "city": "Warwick",
+  "address": "1880 Post Road",
+  "units": 177,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 584,
+  "city": "Warwick",
+  "address": "3033 Post Rd",
+  "units": 16,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 585,
+  "city": "Warwick",
+  "address": "2281 and 2279 West Shore Rd",
+  "units": 11,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": [
+   3
+  ]
+ },
+ {
+  "id": 588,
+  "city": "Warwick",
+  "address": "2595 West Shore Rd",
+  "units": 3,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 590,
+  "city": "Warwick",
+  "address": "1187 Post Rd",
+  "units": 11,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 591,
+  "city": "Warwick",
+  "address": "4332 Post Road",
+  "units": 7,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 593,
+  "city": "Warwick",
+  "address": "112 Old Warwick Avenue",
+  "units": 16,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 596,
+  "city": "Warwick",
+  "address": "211 Commonwealth Avenue",
+  "units": 10,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 598,
+  "city": "Warwick",
+  "address": "1112 West Shore Rd",
+  "units": 3,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 599,
+  "city": "Warwick",
+  "address": "73 Pinehurst Avenue",
+  "units": 2,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 600,
+  "city": "Warwick",
+  "address": "9 Post Road",
+  "units": 6,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 604,
+  "city": "Providence",
+  "address": "327 ELMWOOD AVENUE",
+  "units": 42,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": [
+   3,
+   30,
+   39
+  ]
+ },
+ {
+  "id": 607,
+  "city": "Providence",
+  "address": "269 Wickenden Street",
+  "units": 75,
+  "grade": "corroborated",
+  "why": "stated in 6 documents, latest figure",
+  "docs": 6,
+  "other_figures": [
+   62
+  ]
+ },
+ {
+  "id": 609,
+  "city": "Providence",
+  "address": "150-158 Pitman Street",
+  "units": 16,
+  "grade": "contradicted",
+  "why": "a later document states 8",
+  "docs": 1,
+  "other_figures": [
+   8
+  ]
+ },
+ {
+  "id": 611,
+  "city": "Providence",
+  "address": "551 Chalkstone Ave",
+  "units": 23,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 612,
+  "city": "Providence",
+  "address": "659 – 663 Admiral Street",
+  "units": 48,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": [
+   45
+  ]
+ },
+ {
+  "id": 613,
+  "city": "Providence",
+  "address": "400 Elmwood Ave",
+  "units": 24,
+  "grade": "corroborated",
+  "why": "stated in 7 documents, latest figure",
+  "docs": 7,
+  "other_figures": []
+ },
+ {
+  "id": 615,
+  "city": "Providence",
+  "address": "279 Thayer Street",
+  "units": 12,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 616,
+  "city": "Providence",
+  "address": "11 W Friendship Street",
+  "units": 26,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 623,
+  "city": "Providence",
+  "address": "108 – 110 Waterman Street",
+  "units": 26,
+  "grade": "contradicted",
+  "why": "a later document states 35",
+  "docs": 3,
+  "other_figures": [
+   35
+  ]
+ },
+ {
+  "id": 627,
+  "city": "Providence",
+  "address": "220 Blackstone Street",
+  "units": 178,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 628,
+  "city": "Providence",
+  "address": "3575 – 176 Gano Street",
+  "units": 10,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 632,
+  "city": "Providence",
+  "address": "3572 – 103 Evergreen Street",
+  "units": 58,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 633,
+  "city": "Providence",
+  "address": "106 Reservoir",
+  "units": 21,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 636,
+  "city": "Providence",
+  "address": "870 Westminster Street",
+  "units": 19,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": [
+   20
+  ]
+ },
+ {
+  "id": 643,
+  "city": "Providence",
+  "address": "515 Prairie Ave",
+  "units": 15,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 652,
+  "city": "Providence",
+  "address": "547 Chalkstone Ave",
+  "units": 12,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 657,
+  "city": "Providence",
+  "address": "371 Pine St",
+  "units": 35,
+  "grade": "corroborated",
+  "why": "stated in 5 documents, latest figure",
+  "docs": 5,
+  "other_figures": []
+ },
+ {
+  "id": 665,
+  "city": "Providence",
+  "address": "116 Waterman Street",
+  "units": 25,
+  "grade": "contradicted",
+  "why": "a later document states 1",
+  "docs": 8,
+  "other_figures": [
+   1
+  ]
+ },
+ {
+  "id": 666,
+  "city": "Providence",
+  "address": "541 Hartford Ave",
+  "units": 30,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 667,
+  "city": "Providence",
+  "address": "300 Valley Street",
+  "units": 52,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 669,
+  "city": "Providence",
+  "address": "230 Waterman Street",
+  "units": 25,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": [
+   38
+  ]
+ },
+ {
+  "id": 670,
+  "city": "Providence",
+  "address": "228 Broad Street",
+  "units": 80,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 673,
+  "city": "Providence",
+  "address": "153-165 Gano Street",
+  "units": 132,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": [
+   4,
+   133
+  ]
+ },
+ {
+  "id": 675,
+  "city": "Providence",
+  "address": "311 Knight Street",
+  "units": 41,
+  "grade": "corroborated",
+  "why": "stated in 6 documents, latest figure",
+  "docs": 6,
+  "other_figures": [
+   34
+  ]
+ },
+ {
+  "id": 676,
+  "city": "Providence",
+  "address": "386 Atwells Ave",
+  "units": 21,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 677,
+  "city": "Providence",
+  "address": "75 EAST ST",
+  "units": 71,
+  "grade": "corroborated",
+  "why": "stated in 6 documents, latest figure",
+  "docs": 6,
+  "other_figures": []
+ },
+ {
+  "id": 678,
+  "city": "Providence",
+  "address": "113 Ives Street",
+  "units": 16,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 679,
+  "city": "Providence",
+  "address": "220 Broad Street",
+  "units": 44,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 683,
+  "city": "Providence",
+  "address": "22-26 Ringgold Street",
+  "units": 9,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 690,
+  "city": "Providence",
+  "address": "18 Marcello Street",
+  "units": 19,
+  "grade": "corroborated",
+  "why": "stated in 11 documents, latest figure",
+  "docs": 11,
+  "other_figures": []
+ },
+ {
+  "id": 691,
+  "city": "Providence",
+  "address": "94 Summer Street",
+  "units": 176,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 697,
+  "city": "Providence",
+  "address": "49 Westfield Street",
+  "units": 12,
+  "grade": "contradicted",
+  "why": "a later document states 13",
+  "docs": 1,
+  "other_figures": [
+   13
+  ]
+ },
+ {
+  "id": 699,
+  "city": "Providence",
+  "address": "18 Eighth St",
+  "units": 24,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": [
+   19
+  ]
+ },
+ {
+  "id": 700,
+  "city": "Providence",
+  "address": "144 Benefit Street",
+  "units": 12,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 707,
+  "city": "Providence",
+  "address": "45-47 America St",
+  "units": 6,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": [
+   12,
+   14
+  ]
+ },
+ {
+  "id": 710,
+  "city": "Providence",
+  "address": "434 Atwells Ave",
+  "units": 85,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 716,
+  "city": "Providence",
+  "address": "3486 – 22 Rye Street",
+  "units": 16,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 726,
+  "city": "Providence",
+  "address": "17 Marcello Street",
+  "units": 29,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 727,
+  "city": "Providence",
+  "address": "31 – 45 Parade Street",
+  "units": 31,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 729,
+  "city": "Providence",
+  "address": "47 Matilda Street",
+  "units": 18,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 732,
+  "city": "Providence",
+  "address": "121 Stamford Ave",
+  "units": 23,
+  "grade": "corroborated",
+  "why": "stated in 5 documents, latest figure",
+  "docs": 5,
+  "other_figures": []
+ },
+ {
+  "id": 733,
+  "city": "Providence",
+  "address": "466-468 West Fountain Street",
+  "units": 34,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 734,
+  "city": "Providence",
+  "address": "16-42 Somerset Street",
+  "units": 54,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 741,
+  "city": "Providence",
+  "address": "200 Gordon Ave",
+  "units": 30,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 742,
+  "city": "Providence",
+  "address": "473 Washington Street",
+  "units": 21,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 743,
+  "city": "Providence",
+  "address": "946-1000 Westminster Street",
+  "units": 48,
+  "grade": "corroborated",
+  "why": "stated in 8 documents, latest figure",
+  "docs": 8,
+  "other_figures": [
+   3
+  ]
+ },
+ {
+  "id": 744,
+  "city": "Providence",
+  "address": "1292 WESTMINSTER STREET",
+  "units": 35,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 746,
+  "city": "Providence",
+  "address": "217 Angell Street",
+  "units": 32,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 747,
+  "city": "Providence",
+  "address": "219 Waterman Street",
+  "units": 16,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 748,
+  "city": "Providence",
+  "address": "99-101 Gano Street",
+  "units": 61,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 766,
+  "city": "Providence",
+  "address": "21 Atwells Avenue",
+  "units": 216,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 767,
+  "city": "Providence",
+  "address": "33 Bassett Street",
+  "units": 191,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 768,
+  "city": "Providence",
+  "address": "151-155 Chestnut Street",
+  "units": 21,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": [
+   131,
+   148
+  ]
+ },
+ {
+  "id": 778,
+  "city": "Providence",
+  "address": "135 Wickenden Street",
+  "units": 62,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": [
+   49
+  ]
+ },
+ {
+  "id": 779,
+  "city": "Providence",
+  "address": "125 Clifford Street",
+  "units": 248,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": [
+   249
+  ]
+ },
+ {
+  "id": 780,
+  "city": "Providence",
+  "address": "250 Dyer Street",
+  "units": 448,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 787,
+  "city": "Providence",
+  "address": "30 Barbara St",
+  "units": 5,
+  "grade": "corroborated",
+  "why": "stated in 6 documents, latest figure",
+  "docs": 6,
+  "other_figures": []
+ },
+ {
+  "id": 798,
+  "city": "Providence",
+  "address": "372 Plainfield St",
+  "units": 4,
+  "grade": "corroborated",
+  "why": "stated in 8 documents, latest figure",
+  "docs": 8,
+  "other_figures": []
+ },
+ {
+  "id": 806,
+  "city": "Providence",
+  "address": "30 Princeton Ave",
+  "units": 6,
+  "grade": "contradicted",
+  "why": "a later document states 7",
+  "docs": 2,
+  "other_figures": [
+   7
+  ]
+ },
+ {
+  "id": 813,
+  "city": "Providence",
+  "address": "362 Ives St",
+  "units": 6,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 821,
+  "city": "Providence",
+  "address": "126 Adelaide Ave",
+  "units": 15,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": [
+   18
+  ]
+ },
+ {
+  "id": 826,
+  "city": "Providence",
+  "address": "215 BROADWAY",
+  "units": 8,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": [
+   10,
+   12
+  ]
+ },
+ {
+  "id": 827,
+  "city": "Providence",
+  "address": "381 Angell St",
+  "units": 4,
+  "grade": "corroborated",
+  "why": "stated in 6 documents, latest figure",
+  "docs": 6,
+  "other_figures": []
+ },
+ {
+  "id": 832,
+  "city": "Providence",
+  "address": "369 Broadway",
+  "units": 1,
+  "grade": "single_source",
+  "why": "stated in one document only",
+  "docs": 1,
+  "other_figures": []
+ },
+ {
+  "id": 838,
+  "city": "Providence",
+  "address": "189 Ontario St",
+  "units": 5,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 848,
+  "city": "Providence",
+  "address": "225 Broadway",
+  "units": 8,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 853,
+  "city": "Providence",
+  "address": "382 Thayer St",
+  "units": 6,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 858,
+  "city": "Providence",
+  "address": "88 Union Ave",
+  "units": 2,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 863,
+  "city": "Providence",
+  "address": "7 Mount Hope Ave",
+  "units": 24,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 867,
+  "city": "Cranston",
+  "address": "547 Park Avenue",
+  "units": 4,
+  "grade": "corroborated",
+  "why": "stated in 5 documents, latest figure",
+  "docs": 5,
+  "other_figures": []
+ },
+ {
+  "id": 872,
+  "city": "Cranston",
+  "address": "175 Farmington Avenue",
+  "units": 1,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 874,
+  "city": "Cranston",
+  "address": "27 Hemlock Avenue",
+  "units": 1,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ },
+ {
+  "id": 875,
+  "city": "Cranston",
+  "address": "11 Dart Street",
+  "units": 15,
+  "grade": "corroborated",
+  "why": "stated in 4 documents, latest figure",
+  "docs": 4,
+  "other_figures": []
+ },
+ {
+  "id": 878,
+  "city": "Cranston",
+  "address": "320 Scituate Ave",
+  "units": 90,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 881,
+  "city": "Warwick",
+  "address": "240 Shawomet Ave",
+  "units": 1,
+  "grade": "corroborated",
+  "why": "stated in 3 documents, latest figure",
+  "docs": 3,
+  "other_figures": []
+ },
+ {
+  "id": 886,
+  "city": "Warwick",
+  "address": "39 Dees Circle",
+  "units": 57,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 890,
+  "city": "Warwick",
+  "address": "800 Toll Gate Rd",
+  "units": 203,
+  "grade": "unsourced",
+  "why": "no document in the corpus states this figure",
+  "docs": 0,
+  "other_figures": []
+ },
+ {
+  "id": 898,
+  "city": "Warwick",
+  "address": "30 Randall Ave",
+  "units": 1,
+  "grade": "corroborated",
+  "why": "stated in 2 documents, latest figure",
+  "docs": 2,
+  "other_figures": []
+ }
+]
