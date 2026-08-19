@@ -1,1385 +1,1385 @@
 [
- {
-  "id": 543,
-  "city": "Pawtucket",
-  "address": "175 Main Street",
-  "units": 325,
-  "developer": "Wood Partners",
-  "outcome": "blank",
-  "reason": "administrative item -- no design filed"
- },
- {
-  "id": 779,
-  "city": "Providence",
-  "address": "125 Clifford Street",
-  "outcome": "filled",
-  "architect": "Torti Gallas + Partners",
-  "source": "web"
- },
- {
-  "id": 766,
-  "city": "Providence",
-  "address": "21 Atwells Avenue",
-  "outcome": "filled",
-  "architect": "ZDS Architecture & Interior Design",
-  "source": "web"
- },
- {
-  "id": 890,
-  "city": "Warwick",
-  "address": "800 Toll Gate Rd",
-  "units": 203,
-  "developer": "Warwick Family Dental Group LLC & MSS Twelve Realty, LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 532,
-  "city": "Cranston",
-  "address": "1890 Plainfield Pike",
-  "units": 192,
-  "developer": "Elsey Holdings LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 583,
-  "city": "Warwick",
-  "address": "1880 Post Road",
-  "units": 177,
-  "developer": "The Jan Companies",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 515,
-  "city": "Cranston",
-  "address": "",
-  "units": 152,
-  "developer": "Carpionato Group",
-  "outcome": "blank",
-  "reason": "administrative item -- no design filed"
- },
- {
-  "id": 542,
-  "city": "Pawtucket",
-  "address": "30 Beecher Street",
-  "units": 120,
-  "developer": "Nulco Lofts, LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 878,
-  "city": "Cranston",
-  "address": "320 Scituate Ave",
-  "units": 90,
-  "developer": "WEST BAY LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 710,
-  "city": "Providence",
-  "address": "434 Atwells Ave",
-  "outcome": "filled",
-  "architect": "DBVW Architects",
-  "source": "web"
- },
- {
-  "id": 492,
-  "city": "Providence",
-  "address": "3535 \u2013 322 Washington Street",
-  "outcome": "filled",
-  "architect": "Ed Wojcik, Architect, Ltd",
-  "source": "planset"
- },
- {
-  "id": 516,
-  "city": "Cranston",
-  "address": "661 Park Avenue",
-  "outcome": "filled",
-  "architect": "Smook Architecture & Urban Design, Inc",
-  "source": "planset"
- },
- {
-  "id": 778,
-  "city": "Providence",
-  "address": "135 Wickenden Street",
-  "outcome": "filled",
-  "architect": "Truth Box Inc. and ZDS",
-  "source": "web"
- },
- {
-  "id": 748,
-  "city": "Providence",
-  "address": "99-101 Gano Street",
-  "outcome": "filled",
-  "architect": "Union Studio Architecture and Design",
-  "source": "web"
- },
- {
-  "id": 632,
-  "city": "Providence",
-  "address": "3572 \u2013 103 Evergreen Street",
-  "outcome": "filled",
-  "architect": "Providence Architecture and Building Company",
-  "source": "web"
- },
- {
-  "id": 886,
-  "city": "Warwick",
-  "address": "39 Dees Circle",
-  "units": 57,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 667,
-  "city": "Providence",
-  "address": "300 Valley Street",
-  "outcome": "filled",
-  "architect": "Ed Wojcik, Architect, Ltd",
-  "source": "planset"
- },
- {
-  "id": 545,
-  "city": "Pawtucket",
-  "address": "250 Esten Street",
-  "units": 38,
-  "developer": "250 Esten LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 551,
-  "city": "Pawtucket",
-  "address": "180 Weeden Street",
-  "units": 38,
-  "developer": "401HomeBuyers",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 744,
-  "city": "Providence",
-  "address": "1292 WESTMINSTER STREET",
-  "outcome": "filled",
-  "architect": "ZDS Architecture & Interior Design",
-  "source": "web"
- },
- {
-  "id": 666,
-  "city": "Providence",
-  "address": "541 Hartford Ave",
-  "units": 30,
-  "developer": "E2000 LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 741,
-  "city": "Providence",
-  "address": "200 Gordon Ave",
-  "outcome": "filled",
-  "architect": "Union Studio Architecture & Community Design",
-  "source": "planset"
- },
- {
-  "id": 726,
-  "city": "Providence",
-  "address": "17 Marcello Street",
-  "outcome": "filled",
-  "architect": "ZDS Architecture & Interior Design",
-  "source": "planset"
- },
- {
-  "id": 528,
-  "city": "Cranston",
-  "address": "2110 Plainfield Pike",
-  "units": 26,
-  "developer": "Mineral Enterprises, Inc.",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 558,
-  "city": "Newport",
-  "address": "0 Van Zandt Avenue",
-  "units": 26,
-  "developer": "BCM Realty Partners LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 669,
-  "city": "Providence",
-  "address": "230 Waterman Street",
-  "outcome": "filled",
-  "architect": "ZDS Architecture & Interior Design",
-  "source": "planset"
- },
- {
-  "id": 863,
-  "city": "Providence",
-  "address": "7 Mount Hope Ave",
-  "units": 24,
-  "developer": "Imperial Investments, Inc.",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 476,
-  "city": "Providence",
-  "address": "203 Douglas Ave",
-  "units": 21,
-  "developer": "PMP Group LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 768,
-  "city": "Providence",
-  "address": "151-155 Chestnut Street",
-  "outcome": "filled",
-  "architect": "Gerner Kronick + Valcarcel Architects",
-  "source": "web"
- },
- {
-  "id": 636,
-  "city": "Providence",
-  "address": "870 Westminster Street",
-  "outcome": "filled",
-  "architect": "McGeorge Architecture Interiors",
-  "source": "planset"
- },
- {
-  "id": 480,
-  "city": "Providence",
-  "address": "1107 Westminster Street",
-  "outcome": "filled",
-  "architect": "FreeCell Architecture",
-  "source": "planset"
- },
- {
-  "id": 747,
-  "city": "Providence",
-  "address": "219 Waterman Street",
-  "units": 16,
-  "developer": "Bahman Jalili",
-  "outcome": "blank",
-  "reason": "administrative item -- no design filed"
- },
- {
-  "id": 584,
-  "city": "Warwick",
-  "address": "3033 Post Rd",
-  "units": 16,
-  "developer": "River Farm Place, LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 643,
-  "city": "Providence",
-  "address": "515 Prairie Ave",
-  "units": 15,
-  "developer": "Kyltiff Investments and Consulting LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 875,
-  "city": "Cranston",
-  "address": "11 Dart Street",
-  "units": 15,
-  "developer": "Imperial Apartments, LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 578,
-  "city": "Warwick",
-  "address": "1515 Centerville Road",
-  "units": 14,
-  "developer": "Rhode Island Custom Builders, Inc.",
-  "outcome": "blank",
-  "reason": "subdivision / lot line -- surveyor only"
- },
- {
-  "id": 537,
-  "city": "Cranston",
-  "address": "31 Calder Street",
-  "units": 12,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 652,
-  "city": "Providence",
-  "address": "547 Chalkstone Ave",
-  "outcome": "filled",
-  "architect": "mag associates inc",
-  "source": "planset"
- },
- {
-  "id": 697,
-  "city": "Providence",
-  "address": "49 Westfield Street",
-  "outcome": "filled",
-  "architect": "FreeCell Architecture",
-  "source": "planset"
- },
- {
-  "id": 700,
-  "city": "Providence",
-  "address": "144 Benefit Street",
-  "units": 12,
-  "developer": "144 Benefit Street Associates",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 585,
-  "city": "Warwick",
-  "address": "2281 and 2279 West Shore Rd",
-  "units": 11,
-  "developer": "Giana Valelli of MJV Enterprises, LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 579,
-  "city": "Warwick",
-  "address": "192 Toll Gate Rd",
-  "units": 10,
-  "developer": "Louis G",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 596,
-  "city": "Warwick",
-  "address": "211 Commonwealth Avenue",
-  "units": 10,
-  "developer": "Alan-brian Realty Co.",
-  "outcome": "blank",
-  "reason": "subdivision / lot line -- surveyor only"
- },
- {
-  "id": 848,
-  "city": "Providence",
-  "address": "225 Broadway",
-  "outcome": "filled",
-  "architect": "ACME Architect LLC",
-  "source": "planset"
- },
- {
-  "id": 591,
-  "city": "Warwick",
-  "address": "4332 Post Road",
-  "units": 7,
-  "developer": "Post Road, LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 600,
-  "city": "Warwick",
-  "address": "9 Post Road",
-  "units": 6,
-  "developer": "Bridge Group, LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 707,
-  "city": "Providence",
-  "address": "45-47 America St",
-  "units": 6,
-  "developer": "DNC Acquisitions, LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 806,
-  "city": "Providence",
-  "address": "30 Princeton Ave",
-  "units": 6,
-  "developer": "PRINCETON RESIDENTIAL LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 813,
-  "city": "Providence",
-  "address": "362 Ives St",
-  "units": 6,
-  "developer": "WATERMAN AND IVES REALTY, LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 853,
-  "city": "Providence",
-  "address": "382 Thayer St",
-  "units": 6,
-  "developer": "S REALTY ASSOCIATES",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 787,
-  "city": "Providence",
-  "address": "30 Barbara St",
-  "units": 5,
-  "developer": "CLAIRE MONTECALVO",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 838,
-  "city": "Providence",
-  "address": "189 Ontario St",
-  "units": 5,
-  "developer": "LARISSA SAYIG",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 564,
-  "city": "Newport",
-  "address": "102-108 Girard Avenue",
-  "units": 4,
-  "developer": "NRI 104-108 Girard Partnership",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 520,
-  "city": "Cranston",
-  "address": "1390 Cranston Street",
-  "outcome": "filled",
-  "architect": "South County Architecture and Design, Inc",
-  "source": "planset"
- },
- {
-  "id": 827,
-  "city": "Providence",
-  "address": "381 Angell St",
-  "units": 4,
-  "developer": "OZREN T",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 867,
-  "city": "Cranston",
-  "address": "547 Park Avenue",
-  "units": 4,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 580,
-  "city": "Warwick",
-  "address": "1577 West Shore Rd",
-  "units": 3,
-  "developer": "Harrington Realty, LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 588,
-  "city": "Warwick",
-  "address": "2595 West Shore Rd",
-  "units": 3,
-  "developer": "Steven Cohen and Washville Car Wash",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 598,
-  "city": "Warwick",
-  "address": "1112 West Shore Rd",
-  "units": 3,
-  "developer": "Alpha Associates",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 535,
-  "city": "Cranston",
-  "address": "5 Aborn Street",
-  "units": 2,
-  "developer": "Anthony Albanese Jr.",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 599,
-  "city": "Warwick",
-  "address": "73 Pinehurst Avenue",
-  "units": 2,
-  "developer": "Zarrella Development Corp (Gerald Zarrella)",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 549,
-  "city": "Pawtucket",
-  "address": "486 Mineral Spring Avenue",
-  "units": 2,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 521,
-  "city": "Cranston",
-  "address": "35 Lake Street",
-  "units": 1,
-  "developer": "Sadiq Davies",
-  "outcome": "blank",
-  "reason": "subdivision / lot line -- surveyor only"
- },
- {
-  "id": 541,
-  "city": "Pawtucket",
-  "address": "13 Davis Street",
-  "units": 1,
-  "developer": "Shelia Depina",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 548,
-  "city": "Pawtucket",
-  "address": "546 Smithfield Avenue",
-  "units": 1,
-  "developer": "Prestige Realty, LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 526,
-  "city": "Cranston",
-  "address": "",
-  "units": 1,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "subdivision / lot line -- surveyor only"
- },
- {
-  "id": 872,
-  "city": "Cranston",
-  "address": "175 Farmington Avenue",
-  "units": 1,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 874,
-  "city": "Cranston",
-  "address": "27 Hemlock Avenue",
-  "units": 1,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 702,
-  "city": "Providence",
-  "address": "288 Kinsley Ave",
-  "outcome": "filled",
-  "architect": "Cordtsen Design Architecture",
-  "source": "planset"
- },
- {
-  "id": 824,
-  "city": "Providence",
-  "address": "288 Kinsley Ave",
-  "outcome": "filled",
-  "architect": "Cordtsen Design Architecture",
-  "source": "planset"
- },
- {
-  "id": 751,
-  "city": "Providence",
-  "address": "1117 Eddy Street",
-  "units": null,
-  "developer": "Cogent Capital Group LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 587,
-  "city": "Warwick",
-  "address": "455 Toll gate Rd",
-  "units": null,
-  "developer": "Kent County Memorial Hospital",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 658,
-  "city": "Providence",
-  "address": "740 Plainfield Street",
-  "units": null,
-  "developer": "Excel Academy",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 538,
-  "city": "Cranston",
-  "address": "1499 Hillside Road",
-  "units": null,
-  "developer": "WS Development",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 705,
-  "city": "Providence",
-  "address": "1326 Westminster Street",
-  "outcome": "filled",
-  "architect": "3SIX0 Architecture",
-  "source": "web"
- },
- {
-  "id": 760,
-  "city": "Providence",
-  "address": "481 Allens Ave",
-  "units": null,
-  "developer": "Allens Providence Recycling LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 595,
-  "city": "Warwick",
-  "address": "327 Jefferson Blvd. and 0 Bay State Avenue",
-  "units": null,
-  "developer": "JMR Properties, LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 894,
-  "city": "Warwick",
-  "address": "555 Greenwich Ave",
-  "units": null,
-  "developer": "Smithfield Properties",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 802,
-  "city": "Providence",
-  "address": "77 Union Ave",
-  "units": null,
-  "developer": "JOSE AMADO DURAM CASTILLO",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 475,
-  "city": "Providence",
-  "address": "1331 Eddy Street",
-  "units": null,
-  "developer": "Lindsey Morel",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 484,
-  "city": "Providence",
-  "address": "3611 \u2013 349 Killingly Street",
-  "units": null,
-  "developer": "Gustavo Perez",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 489,
-  "city": "Providence",
-  "address": "1101 Elmwood Ave",
-  "units": null,
-  "developer": "International Property Investment and Management LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 504,
-  "city": "Providence",
-  "address": "3601 \u2013 1 Charles Street",
-  "units": null,
-  "developer": "1 Charles LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 505,
-  "city": "Providence",
-  "address": "21 New York Ave",
-  "units": null,
-  "developer": "ProvPort, Inc.",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 517,
-  "city": "Cranston",
-  "address": "1016 Park Avenue",
-  "units": null,
-  "developer": "Marc Spirito",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 529,
-  "city": "Cranston",
-  "address": "0 Plainfield Pike",
-  "units": null,
-  "developer": "RLF IV Terminals SPE, LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 544,
-  "city": "Pawtucket",
-  "address": "65 East Street",
-  "units": null,
-  "developer": "CLRI East Street LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 563,
-  "city": "Newport",
-  "address": "105 Broadway",
-  "units": null,
-  "developer": "K & MB Investments LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 573,
-  "city": "Newport",
-  "address": "25 Waites Wharf",
-  "outcome": "filled",
-  "architect": "JCJ Architecture",
-  "source": "web"
- },
- {
-  "id": 586,
-  "city": "Warwick",
-  "address": "255, 265, and 281 Centerville Rd",
-  "units": null,
-  "developer": "Colbea Enterprises, LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 589,
-  "city": "Warwick",
-  "address": "1282 & 1288 Greenwich Ave",
-  "units": null,
-  "developer": "Winward Veterinary Hospital, LLC",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 594,
-  "city": "Warwick",
-  "address": "446, 480, and 482 Post Road, Warwick Avenue",
-  "units": null,
-  "developer": "Kobeissi Realty Corp",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 597,
-  "city": "Warwick",
-  "address": "19 Wood Street",
-  "units": null,
-  "developer": "ZRF Realty, RIGP (Jerry Zarrella)",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 603,
-  "city": "Providence",
-  "address": "3593 \u2013 14 Braman Street",
-  "units": null,
-  "developer": "Bess Mer Realty Corp and Paper Crown Preschool LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 629,
-  "city": "Providence",
-  "address": "3573 \u2013 239 Cranston Street",
-  "units": null,
-  "developer": "Providence Community Health Centers",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 630,
-  "city": "Providence",
-  "address": "400-410 Hope Street",
-  "units": null,
-  "developer": "MEOW MIX, LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 634,
-  "city": "Providence",
-  "address": "3564 \u2013 355 Thurbers Ave",
-  "units": null,
-  "developer": "355 Thurbers Ave LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 635,
-  "city": "Providence",
-  "address": "56 Pratt Street",
-  "units": null,
-  "developer": "Alfred Sliney Owner: Anthony Andrade",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 638,
-  "city": "Providence",
-  "address": "105 Dedham Ave",
-  "units": null,
-  "developer": "Vitality Land Holdings LLC and GFM Realty LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 641,
-  "city": "Providence",
-  "address": "320 Angell Street",
-  "units": null,
-  "developer": "Curtis Point Realty, LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 645,
-  "city": "Providence",
-  "address": "61-67 Leander Street",
-  "units": null,
-  "developer": "Brush HILL Development, LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 650,
-  "city": "Providence",
-  "address": "78 Stanwood Street",
-  "outcome": "filled",
-  "architect": "Prsic & Prsic",
-  "source": "planset"
- },
- {
-  "id": 654,
-  "city": "Providence",
-  "address": "1051-1061 Chalkstone Ave",
-  "units": null,
-  "developer": "Richard R Grasso and RDR Realty Associates",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 660,
-  "city": "Providence",
-  "address": "697 Douglas Ave",
-  "units": null,
-  "developer": "Vicioso Homes, LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 662,
-  "city": "Providence",
-  "address": "55 George M Cohan Boulevard",
-  "units": null,
-  "developer": "I-195 Redevelopment District",
-  "outcome": "blank",
-  "reason": "subdivision / lot line -- surveyor only"
- },
- {
-  "id": 663,
-  "city": "Providence",
-  "address": "781 Manton Ave",
-  "units": null,
-  "developer": "Roddy Rodriguez",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 671,
-  "city": "Providence",
-  "address": "3533 \u2013 115 Harris Ave",
-  "units": null,
-  "developer": "Strive Realty",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 674,
-  "city": "Providence",
-  "address": "250 Lloyd Ave",
-  "units": null,
-  "developer": "Moses Brown School",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 680,
-  "city": "Providence",
-  "address": "3526 \u2013 550 Veazie Street",
-  "units": null,
-  "developer": "BFG MA RI LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 686,
-  "city": "Providence",
-  "address": "",
-  "units": null,
-  "developer": "Relentless Realty, LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 688,
-  "city": "Providence",
-  "address": "850 Manton Ave",
-  "units": null,
-  "developer": "Bluedog Capital Partners, LLC",
-  "outcome": "blank",
-  "reason": "subdivision / lot line -- surveyor only"
- },
- {
-  "id": 693,
-  "city": "Providence",
-  "address": "3510 \u2013 828 Charles Street",
-  "units": null,
-  "developer": "Bethany Martone, Daniel Navedo",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 704,
-  "city": "Providence",
-  "address": "96-108 PINE STREET",
-  "units": null,
-  "developer": "96-108 Pine Street LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 712,
-  "city": "Providence",
-  "address": "3490 \u2013 9 Mendon Street",
-  "units": null,
-  "developer": "Mario Capaldi",
-  "outcome": "blank",
-  "reason": "subdivision / lot line -- surveyor only"
- },
- {
-  "id": 714,
-  "city": "Providence",
-  "address": "528 Charles Street",
-  "outcome": "filled",
-  "architect": "Jeffrey Lykins",
-  "source": null
- },
- {
-  "id": 715,
-  "city": "Providence",
-  "address": "3488 \u2013 845 Allens Ave",
-  "units": null,
-  "developer": "845 Allens Ave LLC",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 717,
-  "city": "Providence",
-  "address": "3487 \u2013 50 Sims Ave",
-  "units": null,
-  "developer": "Scout",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 721,
-  "city": "Providence",
-  "address": "21 Peace Street",
-  "units": null,
-  "developer": "Paolino Properties",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 723,
-  "city": "Providence",
-  "address": "100 Niantic Ave",
-  "units": null,
-  "developer": "True Storage",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 724,
-  "city": "Providence",
-  "address": "5 Iona Street",
-  "units": null,
-  "developer": "Maria Hiciano",
-  "outcome": "blank",
-  "reason": "subdivision / lot line -- surveyor only"
- },
- {
-  "id": 739,
-  "city": "Providence",
-  "address": "50 Ashburton Street",
-  "units": null,
-  "developer": "Goulding Properties and EJS Investments Inc",
-  "outcome": "blank",
-  "reason": "subdivision / lot line -- surveyor only"
- },
- {
-  "id": 740,
-  "city": "Providence",
-  "address": "3477 \u2013 109 Canton Street",
-  "units": null,
-  "developer": "National Development Group, Inc.",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 745,
-  "city": "Providence",
-  "address": "3475 \u2013 40 Candace Street",
-  "units": null,
-  "developer": "Providence Community Health Centers",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 752,
-  "city": "Providence",
-  "address": "7 Harborside Boulevard",
-  "outcome": "filled",
-  "architect": "Wood Architects, PLC",
-  "source": "web"
- },
- {
-  "id": 770,
-  "city": "Providence",
-  "address": "71-73 Richmond Street",
-  "outcome": "filled",
-  "architect": "Truth Box Architects",
-  "source": "planset"
- },
- {
-  "id": 777,
-  "city": "Providence",
-  "address": "229 Dyer Street",
-  "outcome": "filled",
-  "architect": "Elkus Manfredi Architects",
-  "source": "web"
- },
- {
-  "id": 784,
-  "city": "Providence",
-  "address": "68 Pleasant Valley Parkway",
-  "units": null,
-  "developer": "ScrubaDub Auto Wash Centers, Inc",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 789,
-  "city": "Providence",
-  "address": "255 Weybosset St",
-  "units": null,
-  "developer": "Bosset LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 795,
-  "city": "Providence",
-  "address": "963 North Main St",
-  "units": null,
-  "developer": "RAB Properties, LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 811,
-  "city": "Providence",
-  "address": "124 Webster Ave",
-  "units": null,
-  "developer": "1070 Broad LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 818,
-  "city": "Providence",
-  "address": "235 West Park St",
-  "units": null,
-  "developer": "Gilkania Benitez",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 823,
-  "city": "Providence",
-  "address": "17-21 Harold St",
-  "units": null,
-  "developer": "Michael Salvatore",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 829,
-  "city": "Providence",
-  "address": "145 Manton Ave",
-  "units": null,
-  "developer": "Navarrete TIRE SHOP & Repair, LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 833,
-  "city": "Providence",
-  "address": "165 Dexter St",
-  "units": null,
-  "developer": "Jose Galaviz",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 835,
-  "city": "Providence",
-  "address": "280 Melrose St",
-  "units": null,
-  "developer": "Narragansett Electric Company",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 843,
-  "city": "Providence",
-  "address": "1 Fields Point Dr",
-  "units": null,
-  "developer": "Green Development Company, LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 844,
-  "city": "Providence",
-  "address": "200 Exchange Street",
-  "units": null,
-  "developer": "Francisca Polanco Navedo",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 857,
-  "city": "Providence",
-  "address": "136 Silver Lake Ave",
-  "units": null,
-  "developer": "PalliaTech RI, LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 859,
-  "city": "Providence",
-  "address": "209 Fountain St",
-  "units": null,
-  "developer": "PRI XIV, LP",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 861,
-  "city": "Providence",
-  "address": "292 Pocasset Ave",
-  "units": null,
-  "developer": "Yanet Suero",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 869,
-  "city": "Cranston",
-  "address": "74 Rolfe Square",
-  "units": null,
-  "developer": "Force Realty, LLC",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 888,
-  "city": "Warwick",
-  "address": "6 Oakland Beach Ave",
-  "units": null,
-  "developer": "SG Associates, Inc",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 891,
-  "city": "Warwick",
-  "address": "54 Eton Ave",
-  "units": null,
-  "developer": "Mark Paesano",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 536,
-  "city": "Cranston",
-  "address": "599 Reservoir Avenue",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 539,
-  "city": "Cranston",
-  "address": "538 Main Street",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 547,
-  "city": "Pawtucket",
-  "address": "2 Columbus Avenue",
-  "outcome": "filled",
-  "architect": "Jonathan Levi Architects",
-  "source": "web"
- },
- {
-  "id": 576,
-  "city": "Warwick",
-  "address": "",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "administrative item -- no design filed"
- },
- {
-  "id": 701,
-  "city": "Providence",
-  "address": "54-56 Sutton Street",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 711,
-  "city": "Providence",
-  "address": "35 Hemlock Street",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 719,
-  "city": "Providence",
-  "address": "146 Governor Street",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "rezoning petition -- no design filed"
- },
- {
-  "id": 771,
-  "city": "Providence",
-  "address": "186 Fountain Street",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 775,
-  "city": "Providence",
-  "address": "31 Aborn Street",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "sign application -- no design filed"
- },
- {
-  "id": 862,
-  "city": "Providence",
-  "address": "54 South St",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 868,
-  "city": "Cranston",
-  "address": "6 Zone",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "zoning variance -- no design filed"
- },
- {
-  "id": 885,
-  "city": "Warwick",
-  "address": "57 units. The main point",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 892,
-  "city": "Warwick",
-  "address": "2021 Page",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- },
- {
-  "id": 902,
-  "city": "Providence",
-  "address": "105 BROADWAY",
-  "units": null,
-  "developer": "",
-  "outcome": "blank",
-  "reason": "building filing -- searched, no architect published"
- }
+  {
+    "id": 543,
+    "city": "Pawtucket",
+    "address": "175 Main Street",
+    "units": 325,
+    "developer": "Wood Partners",
+    "outcome": "blank",
+    "reason": "administrative item -- no design filed"
+  },
+  {
+    "id": 779,
+    "city": "Providence",
+    "address": "125 Clifford Street",
+    "outcome": "filled",
+    "architect": "Torti Gallas + Partners",
+    "source": "web"
+  },
+  {
+    "id": 766,
+    "city": "Providence",
+    "address": "21 Atwells Avenue",
+    "outcome": "filled",
+    "architect": "ZDS Architecture & Interior Design",
+    "source": "web"
+  },
+  {
+    "id": 890,
+    "city": "Warwick",
+    "address": "800 Toll Gate Rd",
+    "units": 203,
+    "developer": "Warwick Family Dental Group LLC & MSS Twelve Realty, LLC",
+    "outcome": "blank",
+    "reason": "minutes fragment -- filing is a dentist converting a garage; the 203 units belong to a different agenda item"
+  },
+  {
+    "id": 532,
+    "city": "Cranston",
+    "address": "1890 Plainfield Pike",
+    "units": 192,
+    "developer": "Elsey Holdings LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 583,
+    "city": "Warwick",
+    "address": "1880 Post Road",
+    "units": 177,
+    "developer": "The Jan Companies",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 515,
+    "city": "Cranston",
+    "address": "",
+    "units": 152,
+    "developer": "Carpionato Group",
+    "outcome": "blank",
+    "reason": "administrative item -- no design filed"
+  },
+  {
+    "id": 542,
+    "city": "Pawtucket",
+    "address": "30 Beecher Street",
+    "units": 120,
+    "developer": "Nulco Lofts, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 878,
+    "city": "Cranston",
+    "address": "320 Scituate Ave",
+    "units": 90,
+    "developer": "WEST BAY LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 710,
+    "city": "Providence",
+    "address": "434 Atwells Ave",
+    "outcome": "filled",
+    "architect": "DBVW Architects",
+    "source": "web"
+  },
+  {
+    "id": 492,
+    "city": "Providence",
+    "address": "3535 \u2013 322 Washington Street",
+    "outcome": "filled",
+    "architect": "Ed Wojcik, Architect, Ltd",
+    "source": "planset"
+  },
+  {
+    "id": 516,
+    "city": "Cranston",
+    "address": "661 Park Avenue",
+    "outcome": "filled",
+    "architect": "Smook Architecture & Urban Design, Inc",
+    "source": "planset"
+  },
+  {
+    "id": 778,
+    "city": "Providence",
+    "address": "135 Wickenden Street",
+    "outcome": "filled",
+    "architect": "Truth Box Inc. and ZDS",
+    "source": "web"
+  },
+  {
+    "id": 748,
+    "city": "Providence",
+    "address": "99-101 Gano Street",
+    "outcome": "filled",
+    "architect": "Union Studio Architecture and Design",
+    "source": "web"
+  },
+  {
+    "id": 632,
+    "city": "Providence",
+    "address": "3572 \u2013 103 Evergreen Street",
+    "outcome": "filled",
+    "architect": "Providence Architecture and Building Company",
+    "source": "web"
+  },
+  {
+    "id": 886,
+    "city": "Warwick",
+    "address": "39 Dees Circle",
+    "units": 57,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "minutes fragment -- filing is one single-family dwelling; the 57 units belong to a different agenda item"
+  },
+  {
+    "id": 667,
+    "city": "Providence",
+    "address": "300 Valley Street",
+    "outcome": "filled",
+    "architect": "Ed Wojcik, Architect, Ltd",
+    "source": "planset"
+  },
+  {
+    "id": 545,
+    "city": "Pawtucket",
+    "address": "250 Esten Street",
+    "units": 38,
+    "developer": "250 Esten LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 551,
+    "city": "Pawtucket",
+    "address": "180 Weeden Street",
+    "units": 38,
+    "developer": "401HomeBuyers",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 744,
+    "city": "Providence",
+    "address": "1292 WESTMINSTER STREET",
+    "outcome": "filled",
+    "architect": "ZDS Architecture & Interior Design",
+    "source": "web"
+  },
+  {
+    "id": 666,
+    "city": "Providence",
+    "address": "541 Hartford Ave",
+    "units": 30,
+    "developer": "E2000 LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 741,
+    "city": "Providence",
+    "address": "200 Gordon Ave",
+    "outcome": "filled",
+    "architect": "Union Studio Architecture & Community Design",
+    "source": "planset"
+  },
+  {
+    "id": 726,
+    "city": "Providence",
+    "address": "17 Marcello Street",
+    "outcome": "filled",
+    "architect": "ZDS Architecture & Interior Design",
+    "source": "planset"
+  },
+  {
+    "id": 528,
+    "city": "Cranston",
+    "address": "2110 Plainfield Pike",
+    "units": 26,
+    "developer": "Mineral Enterprises, Inc.",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor and attorney only, per the city's document list"
+  },
+  {
+    "id": 558,
+    "city": "Newport",
+    "address": "0 Van Zandt Avenue",
+    "units": 26,
+    "developer": "BCM Realty Partners LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 669,
+    "city": "Providence",
+    "address": "230 Waterman Street",
+    "outcome": "filled",
+    "architect": "ZDS Architecture & Interior Design",
+    "source": "planset"
+  },
+  {
+    "id": 863,
+    "city": "Providence",
+    "address": "7 Mount Hope Ave",
+    "units": 24,
+    "developer": "Imperial Investments, Inc.",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 476,
+    "city": "Providence",
+    "address": "203 Douglas Ave",
+    "units": 21,
+    "developer": "PMP Group LLC",
+    "outcome": "blank",
+    "reason": "designer named but refused: Catanzaro Design Group LLC (Assoc. AIA, AIBD) on the plan set"
+  },
+  {
+    "id": 768,
+    "city": "Providence",
+    "address": "151-155 Chestnut Street",
+    "outcome": "filled",
+    "architect": "Gerner Kronick + Valcarcel Architects",
+    "source": "web"
+  },
+  {
+    "id": 636,
+    "city": "Providence",
+    "address": "870 Westminster Street",
+    "outcome": "filled",
+    "architect": "McGeorge Architecture Interiors",
+    "source": "planset"
+  },
+  {
+    "id": 480,
+    "city": "Providence",
+    "address": "1107 Westminster Street",
+    "outcome": "filled",
+    "architect": "FreeCell Architecture",
+    "source": "planset"
+  },
+  {
+    "id": 747,
+    "city": "Providence",
+    "address": "219 Waterman Street",
+    "units": 16,
+    "developer": "Bahman Jalili",
+    "outcome": "blank",
+    "reason": "administrative item -- no design filed"
+  },
+  {
+    "id": 584,
+    "city": "Warwick",
+    "address": "3033 Post Rd",
+    "units": 16,
+    "developer": "River Farm Place, LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 643,
+    "city": "Providence",
+    "address": "515 Prairie Ave",
+    "units": 15,
+    "developer": "Kyltiff Investments and Consulting LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 875,
+    "city": "Cranston",
+    "address": "11 Dart Street",
+    "units": 15,
+    "developer": "Imperial Apartments, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- board findings, no design filed"
+  },
+  {
+    "id": 578,
+    "city": "Warwick",
+    "address": "1515 Centerville Road",
+    "units": 14,
+    "developer": "Rhode Island Custom Builders, Inc.",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only"
+  },
+  {
+    "id": 537,
+    "city": "Cranston",
+    "address": "31 Calder Street",
+    "units": 12,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 652,
+    "city": "Providence",
+    "address": "547 Chalkstone Ave",
+    "outcome": "filled",
+    "architect": "mag associates inc",
+    "source": "planset"
+  },
+  {
+    "id": 697,
+    "city": "Providence",
+    "address": "49 Westfield Street",
+    "outcome": "filled",
+    "architect": "FreeCell Architecture",
+    "source": "planset"
+  },
+  {
+    "id": 700,
+    "city": "Providence",
+    "address": "144 Benefit Street",
+    "units": 12,
+    "developer": "144 Benefit Street Associates",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 585,
+    "city": "Warwick",
+    "address": "2281 and 2279 West Shore Rd",
+    "units": 11,
+    "developer": "Giana Valelli of MJV Enterprises, LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 579,
+    "city": "Warwick",
+    "address": "192 Toll Gate Rd",
+    "units": 10,
+    "developer": "Louis G",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 596,
+    "city": "Warwick",
+    "address": "211 Commonwealth Avenue",
+    "units": 10,
+    "developer": "Alan-brian Realty Co.",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only"
+  },
+  {
+    "id": 848,
+    "city": "Providence",
+    "address": "225 Broadway",
+    "outcome": "filled",
+    "architect": "ACME Architect LLC",
+    "source": "planset"
+  },
+  {
+    "id": 591,
+    "city": "Warwick",
+    "address": "4332 Post Road",
+    "units": 7,
+    "developer": "Post Road, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 600,
+    "city": "Warwick",
+    "address": "9 Post Road",
+    "units": 6,
+    "developer": "Bridge Group, LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 707,
+    "city": "Providence",
+    "address": "45-47 America St",
+    "units": 6,
+    "developer": "DNC Acquisitions, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 806,
+    "city": "Providence",
+    "address": "30 Princeton Ave",
+    "units": 6,
+    "developer": "PRINCETON RESIDENTIAL LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 813,
+    "city": "Providence",
+    "address": "362 Ives St",
+    "units": 6,
+    "developer": "WATERMAN AND IVES REALTY, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- lot merger, no design filed"
+  },
+  {
+    "id": 853,
+    "city": "Providence",
+    "address": "382 Thayer St",
+    "units": 6,
+    "developer": "S REALTY ASSOCIATES",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 787,
+    "city": "Providence",
+    "address": "30 Barbara St",
+    "units": 5,
+    "developer": "CLAIRE MONTECALVO",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 838,
+    "city": "Providence",
+    "address": "189 Ontario St",
+    "units": 5,
+    "developer": "LARISSA SAYIG",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 564,
+    "city": "Newport",
+    "address": "102-108 Girard Avenue",
+    "units": 4,
+    "developer": "NRI 104-108 Girard Partnership",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 520,
+    "city": "Cranston",
+    "address": "1390 Cranston Street",
+    "outcome": "filled",
+    "architect": "South County Architecture and Design, Inc",
+    "source": "planset"
+  },
+  {
+    "id": 827,
+    "city": "Providence",
+    "address": "381 Angell St",
+    "units": 4,
+    "developer": "OZREN T",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 867,
+    "city": "Cranston",
+    "address": "547 Park Avenue",
+    "units": 4,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 580,
+    "city": "Warwick",
+    "address": "1577 West Shore Rd",
+    "units": 3,
+    "developer": "Harrington Realty, LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 588,
+    "city": "Warwick",
+    "address": "2595 West Shore Rd",
+    "units": 3,
+    "developer": "Steven Cohen and Washville Car Wash",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 598,
+    "city": "Warwick",
+    "address": "1112 West Shore Rd",
+    "units": 3,
+    "developer": "Alpha Associates",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 535,
+    "city": "Cranston",
+    "address": "5 Aborn Street",
+    "units": 2,
+    "developer": "Anthony Albanese Jr.",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 599,
+    "city": "Warwick",
+    "address": "73 Pinehurst Avenue",
+    "units": 2,
+    "developer": "Zarrella Development Corp (Gerald Zarrella)",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 549,
+    "city": "Pawtucket",
+    "address": "486 Mineral Spring Avenue",
+    "units": 2,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 521,
+    "city": "Cranston",
+    "address": "35 Lake Street",
+    "units": 1,
+    "developer": "Sadiq Davies",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only"
+  },
+  {
+    "id": 541,
+    "city": "Pawtucket",
+    "address": "13 Davis Street",
+    "units": 1,
+    "developer": "Shelia Depina",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 548,
+    "city": "Pawtucket",
+    "address": "546 Smithfield Avenue",
+    "units": 1,
+    "developer": "Prestige Realty, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 526,
+    "city": "Cranston",
+    "address": "",
+    "units": 1,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only"
+  },
+  {
+    "id": 872,
+    "city": "Cranston",
+    "address": "175 Farmington Avenue",
+    "units": 1,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 874,
+    "city": "Cranston",
+    "address": "27 Hemlock Avenue",
+    "units": 1,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "zoning variance -- board findings, no design filed"
+  },
+  {
+    "id": 702,
+    "city": "Providence",
+    "address": "288 Kinsley Ave",
+    "outcome": "filled",
+    "architect": "Cordtsen Design Architecture",
+    "source": "planset"
+  },
+  {
+    "id": 824,
+    "city": "Providence",
+    "address": "288 Kinsley Ave",
+    "outcome": "filled",
+    "architect": "Cordtsen Design Architecture",
+    "source": "planset"
+  },
+  {
+    "id": 751,
+    "city": "Providence",
+    "address": "1117 Eddy Street",
+    "units": null,
+    "developer": "Cogent Capital Group LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 587,
+    "city": "Warwick",
+    "address": "455 Toll gate Rd",
+    "units": null,
+    "developer": "Kent County Memorial Hospital",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 658,
+    "city": "Providence",
+    "address": "740 Plainfield Street",
+    "units": null,
+    "developer": "Excel Academy",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 538,
+    "city": "Cranston",
+    "address": "1499 Hillside Road",
+    "units": null,
+    "developer": "WS Development",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 705,
+    "city": "Providence",
+    "address": "1326 Westminster Street",
+    "outcome": "filled",
+    "architect": "3SIX0 Architecture",
+    "source": "web"
+  },
+  {
+    "id": 760,
+    "city": "Providence",
+    "address": "481 Allens Ave",
+    "units": null,
+    "developer": "Allens Providence Recycling LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 595,
+    "city": "Warwick",
+    "address": "327 Jefferson Blvd. and 0 Bay State Avenue",
+    "units": null,
+    "developer": "JMR Properties, LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 894,
+    "city": "Warwick",
+    "address": "555 Greenwich Ave",
+    "units": null,
+    "developer": "Smithfield Properties",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 802,
+    "city": "Providence",
+    "address": "77 Union Ave",
+    "units": null,
+    "developer": "JOSE AMADO DURAM CASTILLO",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 475,
+    "city": "Providence",
+    "address": "1331 Eddy Street",
+    "units": null,
+    "developer": "Lindsey Morel",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 484,
+    "city": "Providence",
+    "address": "3611 \u2013 349 Killingly Street",
+    "units": null,
+    "developer": "Gustavo Perez",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 489,
+    "city": "Providence",
+    "address": "1101 Elmwood Ave",
+    "units": null,
+    "developer": "International Property Investment and Management LLC",
+    "outcome": "blank",
+    "reason": "designer named but refused: 'designed by Elite Construction & Design LLC' on the cover sheet"
+  },
+  {
+    "id": 504,
+    "city": "Providence",
+    "address": "3601 \u2013 1 Charles Street",
+    "units": null,
+    "developer": "1 Charles LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 505,
+    "city": "Providence",
+    "address": "21 New York Ave",
+    "units": null,
+    "developer": "ProvPort, Inc.",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 517,
+    "city": "Cranston",
+    "address": "1016 Park Avenue",
+    "units": null,
+    "developer": "Marc Spirito",
+    "outcome": "blank",
+    "reason": "change of use -- dog grooming in an existing building, no design filed"
+  },
+  {
+    "id": 529,
+    "city": "Cranston",
+    "address": "0 Plainfield Pike",
+    "units": null,
+    "developer": "RLF IV Terminals SPE, LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 544,
+    "city": "Pawtucket",
+    "address": "65 East Street",
+    "units": null,
+    "developer": "CLRI East Street LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 563,
+    "city": "Newport",
+    "address": "105 Broadway",
+    "units": null,
+    "developer": "K & MB Investments LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 573,
+    "city": "Newport",
+    "address": "25 Waites Wharf",
+    "outcome": "filled",
+    "architect": "JCJ Architecture",
+    "source": "web"
+  },
+  {
+    "id": 586,
+    "city": "Warwick",
+    "address": "255, 265, and 281 Centerville Rd",
+    "units": null,
+    "developer": "Colbea Enterprises, LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 589,
+    "city": "Warwick",
+    "address": "1282 & 1288 Greenwich Ave",
+    "units": null,
+    "developer": "Winward Veterinary Hospital, LLC",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 594,
+    "city": "Warwick",
+    "address": "446, 480, and 482 Post Road, Warwick Avenue",
+    "units": null,
+    "developer": "Kobeissi Realty Corp",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 597,
+    "city": "Warwick",
+    "address": "19 Wood Street",
+    "units": null,
+    "developer": "ZRF Realty, RIGP (Jerry Zarrella)",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 603,
+    "city": "Providence",
+    "address": "3593 \u2013 14 Braman Street",
+    "units": null,
+    "developer": "Bess Mer Realty Corp and Paper Crown Preschool LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 629,
+    "city": "Providence",
+    "address": "3573 \u2013 239 Cranston Street",
+    "units": null,
+    "developer": "Providence Community Health Centers",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 630,
+    "city": "Providence",
+    "address": "400-410 Hope Street",
+    "units": null,
+    "developer": "MEOW MIX, LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 634,
+    "city": "Providence",
+    "address": "3564 \u2013 355 Thurbers Ave",
+    "units": null,
+    "developer": "355 Thurbers Ave LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 635,
+    "city": "Providence",
+    "address": "56 Pratt Street",
+    "units": null,
+    "developer": "Alfred Sliney Owner: Anthony Andrade",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only (Waterman Engineering)"
+  },
+  {
+    "id": 638,
+    "city": "Providence",
+    "address": "105 Dedham Ave",
+    "units": null,
+    "developer": "Vitality Land Holdings LLC and GFM Realty LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 641,
+    "city": "Providence",
+    "address": "320 Angell Street",
+    "units": null,
+    "developer": "Curtis Point Realty, LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 645,
+    "city": "Providence",
+    "address": "61-67 Leander Street",
+    "units": null,
+    "developer": "Brush HILL Development, LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 650,
+    "city": "Providence",
+    "address": "78 Stanwood Street",
+    "outcome": "filled",
+    "architect": "Prsic & Prsic",
+    "source": "planset"
+  },
+  {
+    "id": 654,
+    "city": "Providence",
+    "address": "1051-1061 Chalkstone Ave",
+    "units": null,
+    "developer": "Richard R Grasso and RDR Realty Associates",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 660,
+    "city": "Providence",
+    "address": "697 Douglas Ave",
+    "units": null,
+    "developer": "Vicioso Homes, LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 662,
+    "city": "Providence",
+    "address": "55 George M Cohan Boulevard",
+    "units": null,
+    "developer": "I-195 Redevelopment District",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only"
+  },
+  {
+    "id": 663,
+    "city": "Providence",
+    "address": "781 Manton Ave",
+    "units": null,
+    "developer": "Roddy Rodriguez",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only (Foster Survey Company)"
+  },
+  {
+    "id": 671,
+    "city": "Providence",
+    "address": "3533 \u2013 115 Harris Ave",
+    "units": null,
+    "developer": "Strive Realty",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 674,
+    "city": "Providence",
+    "address": "250 Lloyd Ave",
+    "units": null,
+    "developer": "Moses Brown School",
+    "outcome": "blank",
+    "reason": "campus master plan amendment -- scoreboard and athletic facilities, no building"
+  },
+  {
+    "id": 680,
+    "city": "Providence",
+    "address": "3526 \u2013 550 Veazie Street",
+    "units": null,
+    "developer": "BFG MA RI LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 686,
+    "city": "Providence",
+    "address": "",
+    "units": null,
+    "developer": "Relentless Realty, LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 688,
+    "city": "Providence",
+    "address": "850 Manton Ave",
+    "units": null,
+    "developer": "Bluedog Capital Partners, LLC",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only"
+  },
+  {
+    "id": 693,
+    "city": "Providence",
+    "address": "3510 \u2013 828 Charles Street",
+    "units": null,
+    "developer": "Bethany Martone, Daniel Navedo",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 704,
+    "city": "Providence",
+    "address": "96-108 PINE STREET",
+    "units": null,
+    "developer": "96-108 Pine Street LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 712,
+    "city": "Providence",
+    "address": "3490 \u2013 9 Mendon Street",
+    "units": null,
+    "developer": "Mario Capaldi",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only"
+  },
+  {
+    "id": 714,
+    "city": "Providence",
+    "address": "528 Charles Street",
+    "outcome": "filled",
+    "architect": "Jeffrey Lykins",
+    "source": null
+  },
+  {
+    "id": 715,
+    "city": "Providence",
+    "address": "3488 \u2013 845 Allens Ave",
+    "units": null,
+    "developer": "845 Allens Ave LLC",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 717,
+    "city": "Providence",
+    "address": "3487 \u2013 50 Sims Ave",
+    "units": null,
+    "developer": "Scout",
+    "outcome": "blank",
+    "reason": "rezoning petition -- Providence Redevelopment Agency referral, no design filed"
+  },
+  {
+    "id": 721,
+    "city": "Providence",
+    "address": "21 Peace Street",
+    "units": null,
+    "developer": "Paolino Properties",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 723,
+    "city": "Providence",
+    "address": "100 Niantic Ave",
+    "units": null,
+    "developer": "True Storage",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 724,
+    "city": "Providence",
+    "address": "5 Iona Street",
+    "units": null,
+    "developer": "Maria Hiciano",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only"
+  },
+  {
+    "id": 739,
+    "city": "Providence",
+    "address": "50 Ashburton Street",
+    "units": null,
+    "developer": "Goulding Properties and EJS Investments Inc",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only"
+  },
+  {
+    "id": 740,
+    "city": "Providence",
+    "address": "3477 \u2013 109 Canton Street",
+    "units": null,
+    "developer": "National Development Group, Inc.",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 745,
+    "city": "Providence",
+    "address": "3475 \u2013 40 Candace Street",
+    "units": null,
+    "developer": "Providence Community Health Centers",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 752,
+    "city": "Providence",
+    "address": "7 Harborside Boulevard",
+    "outcome": "filled",
+    "architect": "Wood Architects, PLC",
+    "source": "web"
+  },
+  {
+    "id": 770,
+    "city": "Providence",
+    "address": "71-73 Richmond Street",
+    "outcome": "filled",
+    "architect": "Truth Box Architects",
+    "source": "planset"
+  },
+  {
+    "id": 777,
+    "city": "Providence",
+    "address": "229 Dyer Street",
+    "outcome": "filled",
+    "architect": "Elkus Manfredi Architects",
+    "source": "web"
+  },
+  {
+    "id": 784,
+    "city": "Providence",
+    "address": "68 Pleasant Valley Parkway",
+    "units": null,
+    "developer": "ScrubaDub Auto Wash Centers, Inc",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 789,
+    "city": "Providence",
+    "address": "255 Weybosset St",
+    "units": null,
+    "developer": "Bosset LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 795,
+    "city": "Providence",
+    "address": "963 North Main St",
+    "units": null,
+    "developer": "RAB Properties, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 811,
+    "city": "Providence",
+    "address": "124 Webster Ave",
+    "units": null,
+    "developer": "1070 Broad LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 818,
+    "city": "Providence",
+    "address": "235 West Park St",
+    "units": null,
+    "developer": "Gilkania Benitez",
+    "outcome": "blank",
+    "reason": "zoning variance -- nightclub special use, withdrawn"
+  },
+  {
+    "id": 823,
+    "city": "Providence",
+    "address": "17-21 Harold St",
+    "units": null,
+    "developer": "Michael Salvatore",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 829,
+    "city": "Providence",
+    "address": "145 Manton Ave",
+    "units": null,
+    "developer": "Navarrete TIRE SHOP & Repair, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 833,
+    "city": "Providence",
+    "address": "165 Dexter St",
+    "units": null,
+    "developer": "Jose Galaviz",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 835,
+    "city": "Providence",
+    "address": "280 Melrose St",
+    "units": null,
+    "developer": "Narragansett Electric Company",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 843,
+    "city": "Providence",
+    "address": "1 Fields Point Dr",
+    "units": null,
+    "developer": "Green Development Company, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 844,
+    "city": "Providence",
+    "address": "200 Exchange Street",
+    "units": null,
+    "developer": "Francisca Polanco Navedo",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 857,
+    "city": "Providence",
+    "address": "136 Silver Lake Ave",
+    "units": null,
+    "developer": "PalliaTech RI, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 859,
+    "city": "Providence",
+    "address": "209 Fountain St",
+    "units": null,
+    "developer": "PRI XIV, LP",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 861,
+    "city": "Providence",
+    "address": "292 Pocasset Ave",
+    "units": null,
+    "developer": "Yanet Suero",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 869,
+    "city": "Cranston",
+    "address": "74 Rolfe Square",
+    "units": null,
+    "developer": "Force Realty, LLC",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 888,
+    "city": "Warwick",
+    "address": "6 Oakland Beach Ave",
+    "units": null,
+    "developer": "SG Associates, Inc",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 891,
+    "city": "Warwick",
+    "address": "54 Eton Ave",
+    "units": null,
+    "developer": "Mark Paesano",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 536,
+    "city": "Cranston",
+    "address": "599 Reservoir Avenue",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "designer named but refused: a '...Designs & Construction, LLC' restaurant fit-out"
+  },
+  {
+    "id": 539,
+    "city": "Cranston",
+    "address": "538 Main Street",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "building filing -- searched, no architect published"
+  },
+  {
+    "id": 547,
+    "city": "Pawtucket",
+    "address": "2 Columbus Avenue",
+    "outcome": "filled",
+    "architect": "Jonathan Levi Architects",
+    "source": "web"
+  },
+  {
+    "id": 576,
+    "city": "Warwick",
+    "address": "",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "administrative item -- no design filed"
+  },
+  {
+    "id": 701,
+    "city": "Providence",
+    "address": "54-56 Sutton Street",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 711,
+    "city": "Providence",
+    "address": "35 Hemlock Street",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "subdivision / lot line -- surveyor only (Waterman Engineering)"
+  },
+  {
+    "id": 719,
+    "city": "Providence",
+    "address": "146 Governor Street",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "rezoning petition -- no design filed"
+  },
+  {
+    "id": 771,
+    "city": "Providence",
+    "address": "186 Fountain Street",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "violation response -- Trinity Brewhouse, no design filed"
+  },
+  {
+    "id": 775,
+    "city": "Providence",
+    "address": "31 Aborn Street",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "sign application -- no design filed"
+  },
+  {
+    "id": 862,
+    "city": "Providence",
+    "address": "54 South St",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 868,
+    "city": "Cranston",
+    "address": "6 Zone",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "zoning variance -- no design filed"
+  },
+  {
+    "id": 885,
+    "city": "Warwick",
+    "address": "57 units. The main point",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "minutes fragment -- no address, no project"
+  },
+  {
+    "id": 892,
+    "city": "Warwick",
+    "address": "2021 Page",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "minutes fragment -- no address, no project"
+  },
+  {
+    "id": 902,
+    "city": "Providence",
+    "address": "105 BROADWAY",
+    "units": null,
+    "developer": "",
+    "outcome": "blank",
+    "reason": "historic district case -- no design filed"
+  }
 ]
