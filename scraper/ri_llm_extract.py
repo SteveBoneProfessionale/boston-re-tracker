@@ -90,9 +90,17 @@ not state it -- NEVER guess, NEVER calculate):
   attorney           land use attorney, if named
   architect          architect firm or person, if named
   engineer           civil engineer, if named
-  residential_units  integer. Read spelled-out counts too ("sixteen (16)
-                     multi-unit" -> 16, "ten-unit" -> 10). Storage units and
-                     parking spaces are NOT dwelling units.
+  residential_units  integer, DWELLING units only. Read spelled-out counts
+                     too ("sixteen (16) multi-unit" -> 16, "ten-unit" -> 10).
+                     COUNT THE RIGHT NOUN. These are NOT dwelling units and
+                     must return null for this field:
+                       storeys   "5-story residential building" is not 5 units
+                       buildings "4 multi-family residential buildings" is not
+                                 4 units -- that scheme had 133 apartments
+                       lots      "create 44 lots for single-family use"
+                       storage units, parking spaces, hotel rooms, bedrooms
+                     If the text gives a building or storey count and no
+                     dwelling count, return null rather than the wrong noun.
   affordable_units   integer, if stated
   building_sf        integer. ONLY a figure explicitly describing the BUILDING's
                      floor area (gross floor area, GFA, building area, floor
