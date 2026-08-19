@@ -580,8 +580,14 @@ T.forEach(t=>{{
             top["developer_canonical"].astype(bool), top["developer"]
         )
         disp = top[["name", "neighborhood", "dev", "total_gsf", "status", "asset_class"]].copy()
-        disp["total_gsf"] = disp["total_gsf"].apply(lambda x: f"{int(x):,}")
+        # Kept numeric. The rows arrive correctly ranked from nlargest, but a
+        # reader who clicks the GSF header would otherwise re-sort a formatted
+        # string and get 99,925 above 1,234,567. Comma is display only.
+        disp["total_gsf"] = pd.to_numeric(disp["total_gsf"], errors="coerce")
         disp.columns = ["PROJECT", "NEIGHBORHOOD", "DEVELOPER", "GSF", "STATUS", "TYPE"]
-        st.dataframe(disp, use_container_width=True, hide_index=True, height=322)
+        st.dataframe(
+            disp, use_container_width=True, hide_index=True, height=322,
+            column_config={"GSF": st.column_config.NumberColumn(format="%,d")},
+        )
     elif len(df):
         st.caption("Not enough SF data in this selection to rank largest projects.")

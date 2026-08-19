@@ -247,20 +247,25 @@ def render(df: pd.DataFrame):
     display["residential_units"] = pd.to_numeric(display["residential_units"], errors="coerce")
     display["building_height_ft"] = pd.to_numeric(display["building_height_ft"], errors="coerce")
 
-    display["total_sf_fmt"] = [
-        "—" if pd.isna(v) else
-        f'{SF_SOURCES[src]["mark"]} {int(v):,}'.strip() if src in SF_SOURCES
-        else f"{int(v):,}"
-        for v, src in zip(display["total_gsf"], display["_sf_src"])
+    # SF stays a NUMBER so the column sorts numerically. Formatting a figure
+    # into a string and handing that to a TextColumn made 99,925 sort above
+    # 1,234,567, because as text "9" beats "1" -- every Boston project over
+    # 100,000 sq ft was ranking below far smaller ones. Formatting is display
+    # only, done by the column config. Provenance moves to its own narrow
+    # column rather than being welded into the value, which is what forced the
+    # value to be text in the first place.
+    display["sf_src_mark"] = [
+        SF_SOURCES[src]["mark"] if src in SF_SOURCES else ""
+        for src in display["_sf_src"]
     ]
     display = display[[
         "name", "developer_canonical", "neighborhood", "city",
-        "asset_class", "status_fmt", "total_sf_fmt",
+        "asset_class", "status_fmt", "total_gsf", "sf_src_mark",
         "residential_units", "building_height_ft", "expected_delivery",
     ]]
     display.columns = [
         "PROJECT", "DEVELOPER", "NEIGHBORHOOD", "CITY",
-        "TYPE", "STATUS", "SF",
+        "TYPE", "STATUS", "SF", "SRC",
         "UNITS", "HEIGHT", "DELIVERY",
     ]
 
@@ -272,11 +277,18 @@ def render(df: pd.DataFrame):
         on_select="rerun",
         selection_mode="single-row",
         column_config={
-            # Text, not a number: the value carries a provenance mark. A
-            # diamond means the figure came from a reporter, not the filing.
-            "SF":     st.column_config.TextColumn(
-                help="Gross square feet. ◈ = web-sourced, ✲ = corrected "
-                     "from a lot area. Unmarked = stated in the planning filing."),
+            # Numeric so it sorts by magnitude; the comma is display only.
+            # Blanks sort to the end rather than being coerced to zero, which
+            # would rank an unknown size alongside a genuine nothing.
+            "SF":     st.column_config.NumberColumn(
+                format="%,d",
+                help="Gross square feet, as stated by the source. Sorts by "
+                     "magnitude; blank means no source states one."),
+            "SRC":    st.column_config.TextColumn(
+                width="small",
+                help="Square-footage provenance. ◈ = web-sourced, ✲ = corrected "
+                     "from a lot area, ▣ = plan set or staff report. "
+                     "Unmarked = stated in the planning filing."),
             "UNITS":  st.column_config.NumberColumn(format="%d"),
             "HEIGHT": st.column_config.NumberColumn(format="%d ft"),
         },
