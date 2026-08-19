@@ -280,6 +280,61 @@ UNITS_CONFIDENCE = {
 }
 
 
+# ── grouped city dropdown, shared by every tab ──────────────────────────
+# There are THREE city filters -- Overview, Projects and Map -- and grouping
+# only one of them is why the change looked like it had not deployed. The
+# helpers live here so all three read the same list and a fourth tab cannot
+# quietly diverge again.
+#
+# Streamlit has no option groups and no disabled options, so the grouping is
+# in the option list itself: a header per market, cities indented under it. A
+# header is not a valid choice; each widget's on_change callback restores the
+# previous city if one is picked. session_state cannot be written after a
+# widget is created, but it CAN be written from that widget's own callback.
+CITY_HEADER_FMT = "── %s ──"
+CITY_INDENT = "  "
+
+
+def is_city_header(v) -> bool:
+    return isinstance(v, str) and v.startswith("──")
+
+
+def city_options(scope):
+    """(options, display -> city). Markets alphabetical, cities within them.
+
+    Groups come from the `market` column, never a hardcoded list, so a city in
+    a new market appears under its own header with no code change.
+    """
+    by_market: dict = {}
+    for city, market in zip(scope["city"], scope.get("market", "")):
+        if not city:
+            continue
+        by_market.setdefault(market or "Other", set()).add(city)
+    opts, lookup = ["All"], {"All": "All"}
+    for market in sorted(by_market):
+        head = CITY_HEADER_FMT % market.upper()
+        opts.append(head)
+        lookup[head] = None
+        for c in sorted(by_market[market]):
+            disp = CITY_INDENT + c
+            opts.append(disp)
+            lookup[disp] = c
+    return opts, lookup
+
+
+def keep_city_selectable(key: str):
+    """on_change callback: reject a header pick, restore the last real city."""
+    def _cb():
+        import streamlit as _st
+        prev_key = "_%s_prev" % key
+        v = _st.session_state.get(key)
+        if is_city_header(v):
+            _st.session_state[key] = _st.session_state.get(prev_key, "All")
+        else:
+            _st.session_state[prev_key] = v
+    return _cb
+
+
 RI_SF_NOTE_TITLE = "About square footage in Rhode Island"
 
 RI_SF_NOTE = """

@@ -11,6 +11,7 @@ from app.data import (
     RESOLUTION_METHODS, resolution_method, shows_provenance_badge, METHOD_ORDER,
     DEVELOPER_CONFIDENCE, developer_confidence, SF_SOURCES,
     load_field_citations, RI_SF_NOTE, RI_SF_NOTE_TITLE, UNITS_CONFIDENCE,
+    city_options, keep_city_selectable,
 )
 from scraper.normalize_developer import is_real_company
 
@@ -189,11 +190,11 @@ def render(df: pd.DataFrame):
     # Cities grouped under their state. Built from city_scope, so choosing a
     # MARKET narrows the list to that state's cities and drops the other
     # header entirely -- the two filters agree instead of contradicting.
-    city_opts, city_lookup = _city_options(city_scope)
+    city_opts, city_lookup = city_options(city_scope)
     if st.session_state.get("tbl_city") not in city_opts:
         st.session_state["tbl_city"] = "All"      # market change orphaned it
     city_disp = fc0.selectbox("CITY", city_opts, key="tbl_city",
-                              on_change=_keep_city_selectable)
+                              on_change=keep_city_selectable("tbl_city"))
     city = city_lookup.get(city_disp) or "All"
 
     # The square-footage column is 15% filled for Rhode Island, and without the

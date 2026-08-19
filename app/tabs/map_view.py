@@ -7,7 +7,7 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 
-from app.data import STAGE_COLORS, review_scale_vocab
+from app.data import STAGE_COLORS, review_scale_vocab, city_options, keep_city_selectable
 
 _ORANGE = "#F5821E"
 _MUTED  = "#8A9BB0"
@@ -81,7 +81,12 @@ def render(df: pd.DataFrame):
     c1, c2, c3, c4 = st.columns(4)
     status_f      = c1.selectbox("STATUS",        statuses,      key="map_status")
     scale_f       = c2.selectbox("SCALE",         scales,        key="map_scale")
-    city_f        = c3.selectbox("CITY",          cities,        key="map_city")
+    _city_opts, _city_lookup = city_options(df)
+    if st.session_state.get("map_city") not in _city_opts:
+        st.session_state["map_city"] = "All"
+    _city_disp    = c3.selectbox("CITY", _city_opts, key="map_city",
+                                 on_change=keep_city_selectable("map_city"))
+    city_f        = _city_lookup.get(_city_disp) or "All"
     neighborhood_f= c4.selectbox("NEIGHBORHOOD",  neighborhoods, key="map_neighborhood")
 
     c5, c6, c7, c8 = st.columns(4)

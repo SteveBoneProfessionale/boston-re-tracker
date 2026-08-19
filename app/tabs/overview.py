@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 from app.data import (
     summary_stats, STAGE_COLORS, STAGE_ORDER,
     REVIEW_SCALE_COLORS, review_scale_vocab,
-    RESOLUTION_METHODS, resolution_method, METHOD_ORDER,
+    RESOLUTION_METHODS, resolution_method, METHOD_ORDER, city_options, keep_city_selectable,
 )
 
 _BG      = "#0d0f12"
@@ -85,8 +85,13 @@ def _yaxis(automargin: bool = True) -> dict:
 def render(df: pd.DataFrame, stats: dict):
     # ── City / conditional-alternative filters ───────────────────────
     fc1, fc2, _ = st.columns([1.2, 2.5, 4])
-    cities = ["All"] + sorted([c for c in df["city"].unique() if c])
-    city_f = fc1.selectbox("CITY", cities, key="ov_city")
+    # Grouped by state, same list as the Projects and Map tabs.
+    _city_opts, _city_lookup = city_options(df)
+    if st.session_state.get("ov_city") not in _city_opts:
+        st.session_state["ov_city"] = "All"
+    _city_disp = fc1.selectbox("CITY", _city_opts, key="ov_city",
+                               on_change=keep_city_selectable("ov_city"))
+    city_f = _city_lookup.get(_city_disp) or "All"
     include_conditional = fc2.checkbox(
         "Include competing/conditional plans in totals",
         value=False, key="ov_include_conditional",
