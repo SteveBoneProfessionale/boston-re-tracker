@@ -72,7 +72,29 @@ def render(df: pd.DataFrame):
     # ── Filter toolbar ─────────────────────────────────────────────
     _section("FILTER")
 
-    fcm, fc0, fc1, fc2, fc3, fc4, fc5 = st.columns([1.1, 1, 1.7, 1.7, 1.2, 1.7, 1.7])
+    # SHOW comes first because it decides what the table is FOR. A delivered
+    # building and a withdrawn application are worth keeping and worth being
+    # able to look at, but they are not pipeline, and listing them by default
+    # put 70 finished buildings and 29 dead applications in front of the
+    # reader as if they were live. Pipeline is the default; the others are one
+    # click away rather than mixed in.
+    fshow, fcm, fc0, fc1, fc2, fcft, fc3, fc4, fc5 = st.columns(
+        [1.15, 1.0, 0.95, 1.5, 1.4, 1.5, 1.1, 1.5, 1.5])
+    SHOW_OPTS = ["Pipeline", "Delivered", "Withdrawn / denied", "All"]
+    show = fshow.selectbox(
+        "SHOW", SHOW_OPTS, key="tbl_show",
+        help="Pipeline excludes buildings established as complete and "
+             "applications that were withdrawn or denied. They stay in the "
+             "tracker and are one selection away.")
+    _delivered = df["stage"] == "Complete" if "stage" in df.columns else pd.Series(False, index=df.index)
+    _dead = (df["project_status_filing"].isin(["Withdrawn", "Denied"])
+             if "project_status_filing" in df.columns else pd.Series(False, index=df.index))
+    if show == "Pipeline":
+        df = df[~_delivered & ~_dead]
+    elif show == "Delivered":
+        df = df[_delivered]
+    elif show == "Withdrawn / denied":
+        df = df[_dead]
 
     # Market groups the cities so the two states can be compared without
     # selecting five municipalities one at a time. The city list is scoped to
@@ -110,7 +132,8 @@ def render(df: pd.DataFrame):
     # a genuinely useful filter -- just not the same question.
     ft_opts = ["All"] + sorted([f for f in status_scope.get(
         "filing_type", pd.Series(dtype=str)).unique() if f])
-    filing_type = fc5.selectbox("FILING TYPE", ft_opts, key="tbl_filing_type")         if len(ft_opts) > 1 else "All"
+    filing_type = (fcft.selectbox("FILING TYPE", ft_opts, key="tbl_filing_type")
+                   if len(ft_opts) > 1 else "All")
 
     # Scale vocabulary is market-specific (Article 80's two tiers vs. RIGL's
     # three), so scope the options to the selected city via the registry rather
