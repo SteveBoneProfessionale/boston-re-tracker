@@ -1,0 +1,982 @@
+[
+ {
+  "custom_id": "rm00573",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 25 Waites Wharf (referenced as \"App. No. 2024-DPR-01 (Waites Wharf Hotel \u2013 North Lot) 25 Waites Wharf & 20 West Extension St.\"). However, the documents only list that \"Architecture Plan Set \u2013 Revised 3/28/25\" and \"Civil Engineering Plan Set \u2013 Revised 4/21/25\" exist as submitted materials. No architect, civil engineer, or general contractor is actually named or identified with a specific role in these excerpts. The plan sets are referenced as documents filed, but no individual or firm is attributed to their preparation."
+ },
+ {
+  "custom_id": "rm00493",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Justin Hopkins\",\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer Justin Hopkins said the school was expected to serve 858 students and presented the site plan explaining the building's siting and massing.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00484",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00781",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"ZDS, Inc.\",\n    \"person\": \"Julie Bartlett\",\n    \"role_label\": null,\n    \"quote\": \"Julie Bartlett, and Steven Wolenski, from ZDS, Inc., and Jim Abdo, developer, appeared to discuss the project.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00829",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00888",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": false,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts do not clearly concern 6 Oakland Beach Ave, Warwick, Rhode Island. While Petition #11095 mentions \"859 Oakland Beach Ave\" and \"860 Oakland Beach Ave\" in Ward 6, these are different addresses on the same street. The stated property is 6 Oakland Beach Ave, which does not appear in any of the excerpts provided."
+ },
+ {
+  "custom_id": "rm00723",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Chris Lewis\",\n    \"role_label\": null,\n    \"quote\": \"Engineers Brian Kortz and Sean Martin and Chris Lewis representing the applicant, presented the item.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Brian Kortz and Sean Martin\",\n    \"role_label\": \"Engineers\",\n    \"quote\": \"Engineers Brian Kortz and Sean Martin and Chris Lewis representing the applicant, presented the item.\"\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00830",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Martin Ezeama\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Martin Ezeama, Architect\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00792",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Jeffrey Lykins\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Jeffrey Lykins, architect\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00522",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"ZDS\",\n    \"person\": \"Julie Bartlett\",\n    \"role_label\": \"Project Architect\",\n    \"quote\": \"Julie Bartlett, Project Architect with ZDS\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Joe Casali Engineering\",\n    \"person\": \"William Lavery\",\n    \"role_label\": \"Project Manager\",\n    \"quote\": \"William Lavery, Project Manager with Joe Casali Engineering\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00543",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00699",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Jack Ryan\",\n    \"role_label\": \"the architect\",\n    \"quote\": \"Mr. Jack Ryan, the architect presented the plan and showed how it fit into the context of the development.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00895",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00595",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Stonefield Engineering and Design\",\n    \"person\": null,\n    \"role_label\": \"Surveyor(s)\",\n    \"quote\": \"Surveyor(s): Stonefield Engineering and Design.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00667",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00882",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"John Carter\",\n    \"role_label\": \"Registered Landscape Architect\",\n    \"quote\": \"At this point Attorney Shekarchi would like to turn it over to John Carter, he is a Landscaped Architect.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering\",\n    \"person\": \"Dennis DiPrete\",\n    \"role_label\": null,\n    \"quote\": \"He also has Dennis DiPrete here from DiPrete Engineering\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00820",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Matthew Clemence\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Matthew Clemence, architect\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"David Bray\",\n    \"role_label\": \"PE\",\n    \"quote\": \"David Bray, PE\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nNote: There is a discrepancy between the two meeting minutes documents. The first document (1035018_1.txt) lists \"Matthew Clemence, architect\" while the second document (1035018_2.txt) lists \"David Sisson, architect\" for the same property. The exhibits also reference \"Clemence resume\" in both versions. I have used the information from the first approved minutes document (1035018_1.txt), which appears to be the official record approved by 5-0 vote on January 18, 2023."
+ },
+ {
+  "custom_id": "rm00822",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Miriam Spear\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Miriam Spear, architect\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Kurt Stenberg\",\n    \"role_label\": \"PE\",\n    \"quote\": \"Kurt Stenberg, PE\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00779",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts clearly concern 125 Clifford Street (DRC Application No. 19.32), but they contain only meeting agenda/notice information. No architect, civil engineer, or general contractor is identified in these documents. The excerpts only mention the applicant (EM 28 Providence, LLC) and the project description, with no design team members named."
+ },
+ {
+  "custom_id": "rm00832",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts clearly concern 369 Broadway, Plat 33, Lot 5. However, the documents do not identify a civil engineer for this property. Kevin Diamond is identified as \"architect\" in the April 14, 2021 meeting and as \"Project Architect for the owner\" in the October 13, 2021 meeting. No civil engineer is mentioned in any of the excerpts for 369 Broadway."
+ },
+ {
+  "custom_id": "rm00768",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Randolph Gerner\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Testimony was presented from Randolph Gerner, architect\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00678",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Kevin Diamond\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Kevin Diamond and Owner Dustin Dezube presented the project on behalf of the applicant.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00638",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00599",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Alpha Associates, LTD\",\n    \"person\": null,\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer: Alpha Associates, LTD\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00669",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts clearly concern 230 Waterman Street (Case No. 21-020MA, AP 15 Lot 495). However, no civil engineer is mentioned in any of the provided excerpts. The documents identify Attorney Andrew Teitz representing the applicant and mention \"their experts,\" but no specific civil engineer is named or identified by role."
+ },
+ {
+  "custom_id": "rm00885",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": false,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts do not concern a \"57 units\" property in Warwick, Rhode Island. The matched excerpts discuss:\n1. A college residence hall project (350 students)\n2. A mixed-use building with 22 apartments at 128 Wayland Ave\n3. Various Providence zoning board cases (deck variance, fence height, etc.)\n\nNone of these match the stated property description of \"57 units\" in Warwick."
+ },
+ {
+  "custom_id": "rm00597",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00564",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00881",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Joe Casale Engineering\",\n    \"person\": \"William Lavery\",\n    \"role_label\": \"Project Manager with Joe Casale Engineering\",\n    \"quote\": \"William Lavery, Project Manager with Joe Casale Engineering, was present and sworn in by the Vice-Chairman.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00858",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Joseph McPhee\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Joseph McPhee, architect\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00857",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts do concern 136 Silver Lake Ave (identified as \"PALLIATECH RI, LLC (Applicant) and Silver Lake Properties (Owner): 136 Silver Lake Ave, Plat 110, Lot 373\"), however, the application was withdrawn at the hearing. No architect, civil engineer, or general contractor information is provided in these excerpts\u2014only the applicant's attorney (Nicholas Goodier, Esq.) is named."
+ },
+ {
+  "custom_id": "rm00547",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"Jonathan Levi Architects\",\n    \"person\": \"Jonathan Levi\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Attorney Mario Martone and architect Jonathan Levi presented the project details.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00897",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Steven Cabral\",\n    \"role_label\": \"Professional Engineer\",\n    \"quote\": \"Attorney Shekarchi presented Steven Cabral, Professional Engineer as an expert witness.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00835",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Sophia Narkiewicz\",\n    \"role_label\": \"PE\",\n    \"quote\": \"Sophia Narkiewicz, PE\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00497",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Anthony Autiello\",\n    \"role_label\": null,\n    \"quote\": \"Anthony Autiello presented the plan on behalf of the applicant and spoke about the building's design and construction\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00716",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"Branch Architects\",\n    \"person\": \"Virginia Branch\",\n    \"role_label\": null,\n    \"quote\": \"Virginia Branch is working on design ideas to incorporate the increased number of units in the footprint.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00555",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"The Architectural Team\",\n    \"person\": \"Elizabeth Peabody\",\n    \"role_label\": \"Vice President of Construction\",\n    \"quote\": \"Elizabeth Peabody, Vice President of Construction, The Architectural Team (TAT)\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering\",\n    \"person\": \"Len Bradley\",\n    \"role_label\": \"Principal\",\n    \"quote\": \"Len Bradley, Principal at DiPrete Engineering\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00811",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00838",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": \"Mark Anthony\",\n    \"role_label\": \"owner's General Contractor\",\n    \"quote\": \"Mark Anthony, owner's General Contractor\"\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00550",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 258 Pine Street, Pawtucket, Rhode Island (AP 53 Lots 567 & 568). However, the documents do not identify an architect, civil engineer, or general contractor by name or firm. The applicant is represented by Attorney Jeffrey Padwa, but attorneys are not architects or engineers. No design professionals are explicitly named with their roles tied to the project in these meeting minutes."
+ },
+ {
+  "custom_id": "rm00843",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00878",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00680",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00507",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"Spagnolo Gisness Associates\",\n    \"person\": \"John Sullivan\",\n    \"role_label\": \"architect\",\n    \"quote\": \"John Sullivan, architect from Spagnolo Gisness Associates, appeared to present the project.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00505",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 21 New York Ave (Case no 25-036MA, Owner: Provport, AP 56 Lot 352, Washington Park). However, the documents provided do not identify an architect, civil engineer, or general contractor for this project. Chris Waterson of Waterson Terminal Services is mentioned as introducing the item on the applicant's behalf, but no design professional roles are specified in these excerpts."
+ },
+ {
+  "custom_id": "rm00891",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 54 Eton Ave (Petition #10747, Ward 4, Assessor's Plat 317, Lot 82), but they contain no information identifying an architect, civil engineer, or general contractor. The petitioner Mark Paesano mentions that \"his contractor had applied for the permit, but began work before the permit was issued,\" but the contractor is not named."
+ },
+ {
+  "custom_id": "rm00593",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Commonwealth Engineers and Consultants, Inc.\",\n    \"person\": null,\n    \"role_label\": \"Designer\",\n    \"quote\": \"Designer: Commonwealth Engineers and Consultants, Inc.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00823",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 17-21 Harold St as stated in the property field. However, the documents only show meeting agendas and minutes for extension requests related to ZBR Resolution No. 2022-04A + 2022-04B. The only appearance listed for this property is \"Dane Ardente, Esq.\" (an attorney), with no architect, civil engineer, or general contractor identified in the excerpts provided."
+ },
+ {
+  "custom_id": "rm00824",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Dana Nisbet and Paul Bannon\",\n    \"role_label\": \"engineers\",\n    \"quote\": \"Attorney Nicholas Goodier and engineers Dana Nisbet and Paul Bannon presented the plan on the applicant's behalf.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00893",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Crossman Engineering\",\n    \"person\": \"Brian King\",\n    \"role_label\": null,\n    \"quote\": \"Brian King, from Crossman Engineering has optimized what is more than necessary at just about 40 parking spaces.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00740",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00769",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Noah Biklen\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Noah Biklen, architect, and Craig Barton and Paul Dietel, representing Brown University, appeared to discuss the project.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00600",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Joe Casali Engineering\",\n    \"person\": \"Joe Casali\",\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer: Joe Casali Engineering, 300 Post Rd, Warwick, RI 02888\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00502",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Kevin Diamond\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Kevin Diamond presented the LDPs for each case and spoke about their design and compliance with the zoning ordinance.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00693",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00579",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Millstone, LLC\",\n    \"person\": null,\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer: Millstone, LLC, 250 Centerville Rd\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00802",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00625",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```"
+ },
+ {
+  "custom_id": "rm00848",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00685",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Kathy Bartels\",\n    \"role_label\": \"the architect\",\n    \"quote\": \"Ms. Kathy Bartels, the architect, Dan Corley, Head of School and Mark Hollis, and engineer, presented the plan on the applicant's behalf.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Mark Hollis\",\n    \"role_label\": \"engineer\",\n    \"quote\": \"Ms. Kathy Bartels, the architect, Dan Corley, Head of School and Mark Hollis, and engineer, presented the plan on the applicant's behalf.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00480",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Federico Manaigo\",\n    \"role_label\": null,\n    \"quote\": \"Federico Manaigo presented on the applicant's behalf. He said the site was vacant and considered an extension of an adjacent project that would have a similar design and massing. A commercial use was proposed on the first floor and some fenestration would be provided on the west elevation. The building's design and treatment was intended to conform to the industrial character of the surrounding neighborhood.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00744",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00760",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00578",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Alpha Associates, Ltd, East Greenwich, RI 02818\",\n    \"person\": null,\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer: Alpha Associates, Ltd, East Greenwich, RI 02818\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00734",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Virginia Branch\",\n    \"role_label\": \"the project architect\",\n    \"quote\": \"Ms. Virginia Branch, the project architect, said that the project would involve some townhouses and two unit buildings in addition to the 54 unit building.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"John Ford\",\n    \"role_label\": \"an engineer\",\n    \"quote\": \"Mr. John Ford, an engineer, explained the site's layout and parking arrangement in relation to utilities and landscaping.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00726",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00666",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00875",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00654",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts concern 1051-1061 Chalkstone Ave (confirmed by the address and AP 84 Lots 164, 165, 166, 436 and 447, Elmhurst), but this is a rezoning referral to City Council. The only individuals named in connection with this property are Attorney John Garrahy and owner Richard Grasso. No architect, civil engineer, or general contractor is identified in the excerpts."
+ },
+ {
+  "custom_id": "rm00743",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Matthew McGeorge\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Mr. Matthew McGeorge, Architect presented the item on behalf of the applicant.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00529",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00766",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00673",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts clearly concern 153-165 Gano Street (confirmed in all documents as \"SUBJECT PROPERTY: 153-165 Gano Street, Plat 14, Lots 601, 602, 603 & 604\"). However, these are Zoning Board of Review meeting minutes documenting an appeal hearing. The documents contain only the names of attorneys and the property owner's representative, with no mention of an architect, civil engineer, or general contractor for the project."
+ },
+ {
+  "custom_id": "rm00589",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering\",\n    \"person\": null,\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer: DiPrete Engineering\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00690",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Eric Zuena\",\n    \"role_label\": \"project architect\",\n    \"quote\": \"Mr. Eric Zuena, project architect presented the plan and outlined the design and layout of the development with the materials used on the facade.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00745",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00727",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Jack Ryan\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Jack Ryan\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00567",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"Centerbrook Architects\",\n    \"person\": \"Justin Hedde\",\n    \"role_label\": \"architect\",\n    \"quote\": \"architect Justin Hedde of Centerbrook Architects\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Civil Design Group, LLC\",\n    \"person\": \"Philip Henry\",\n    \"role_label\": \"civil engineer\",\n    \"quote\": \"civil engineer Philip Henry of Civil Design Group, LLC\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00868",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": false,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts do not concern the property \"6 Zone, Cranston, Rhode Island.\" The documents are ZBOR (Zoning Board of Review) minutes from Newport and Cranston containing multiple petitions for different properties with different addresses (147 Harrison Ave., 6 Guerney Ct., 5 Dresser St., 6 Conard Ct., 16 Hall Ave., 6 Mary Jane Ln., 14-16 Bull Street, 5 Lees Wharf, 0 Ridge Road, 2 Kay St., 20 Summer St., 22 Freebody St., 12 Dartmouth Street, etc.). None of these match \"6 Zone\" with sufficient clarity to confirm this is the property being referenced, and \"6 Zone\" does not appear anywhere in the excerpts as a property address."
+ },
+ {
+  "custom_id": "rm00867",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00575",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Stonefield Engineer & Design\",\n    \"person\": null,\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer: Stonefield Engineer & Design\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00675",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Eric Zuena\",\n    \"role_label\": \"an architect\",\n    \"quote\": \"Mr. Eric Zuena, an architect, presented on behalf of the applicant.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00535",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Waterman Engineering\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"an elevation certificate had been prepared by Waterman Engineering\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00715",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00587",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00784",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00798",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts clearly concern 372 Plainfield St, Plat 108, Lot 464. However, no civil engineer is identified in any of the documents. The only professional roles mentioned are \"designers\" (Bryan Michie & Antonio Timarchi), but these are not identified as civil engineers. No architect, civil engineer, or general contractor is explicitly named and tied to an engineering or architectural role for this property."
+ },
+ {
+  "custom_id": "rm00572",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"Union Studio\",\n    \"person\": \"Christina Carlson\",\n    \"role_label\": \"architect\",\n    \"quote\": \"architect Christina Carlson of Union Studio\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00859",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 209 Fountain St (listed as \"PRI XIV, LP (Applicant/Owner): 209 Fountain St, Plat 25, Lots 116 & 436\"), but the application was for a USE VARIANCE for continuation of use as a Parking Lot. No architect, civil engineer, or general contractor is named in connection with this property in any of the excerpts provided."
+ },
+ {
+  "custom_id": "rm00487",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Kevin Diamond\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Kevin Diamond presented the LDPs for each case and spoke about their design and compliance with the zoning ordinance.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00886",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00570",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 181 Bellevue Avenue (identified as \"App. #2025-Appeal-001 APPEAL OF 181 BELLEVUE CENTER, LLC, appellants, appealing the decision of the Historic District Commission denying a Certificate of Appropriateness to construct a new hotel, restaurant, and spa, applying to the property located at 181 Bellevue Avenue, TAP 28, Lot 112-4\"). However, the documents only mention that \"Attorney Michael Monti was present to represent the appeal\" and provide procedural information about the appeal. No architect, civil engineer, or general contractor is identified in connection with this property."
+ },
+ {
+  "custom_id": "rm00757",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Mark Rapp\",\n    \"role_label\": \"architect\",\n    \"quote\": \"The applicant David Baskin, and architect Mark Rapp, presented the item on behalf of the applicant.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00542",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00658",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts concern 740 Plainfield Street (Case No. 23-007UDR, Excel Academy application). However, the application was withdrawn at the April 18, 2023 meeting, and the earlier February 21, 2023 meeting only shows that Attorney Christian Capizzo represented the applicant and requested a continuance. No architect, civil engineer, or general contractor is identified in the excerpts for this property."
+ },
+ {
+  "custom_id": "rm00602",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"R.A. Cataldo & Associates, Inc\",\n    \"person\": null,\n    \"role_label\": \"Designer\",\n    \"quote\": \"Designer: R.A. Cataldo & Associates, Inc, 114 Smithfield Avenue, Pawtucket, RI 02860\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00548",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00516",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00626",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Tracey Donnelly\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Attorney Christopher Menihan presented the item on behalf of the applicant with Engineer Sam Hemenway and Architect Tracey Donnelly.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Sam Hemenway\",\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Attorney Christopher Menihan presented the item on behalf of the applicant with Engineer Sam Hemenway and Architect Tracey Donnelly.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00780",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Gianni Ria\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Gianni Ria, architect, appeared to present the project\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00778",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 135 Wickenden Street (DRC Application No. 19.25), but they contain only meeting agendas and notices. No architect, civil engineer, or general contractor is identified or tied to a specific role in the design or construction of this project. The documents list the applicants (D+P Real Estate and Truth Box Inc.) and describe the project scope, but do not name any design or engineering professionals."
+ },
+ {
+  "custom_id": "rm00827",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Ramzi Loqa\",\n    \"role_label\": \"PE, building and land use consultant\",\n    \"quote\": \"Ramzi Loqa, PE, building and land use consultant\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00752",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00671",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00628",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Kevin Diamond\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Attorney John Garrahy presented the item with architect Kevin Diamond and David Taglianetti representing the applicant.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00645",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00670",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts clearly concern 228 Broad Street (Case No. 22-041MA, Applicant: Marathon Development LLC). However, the provided documents are only meeting notices/agendas that list the cases to be heard. They do not contain any information identifying an architect, civil engineer, or general contractor for this property. To find those team members, the detailed staff reports or design documents referenced in the meeting materials would need to be reviewed."
+ },
+ {
+  "custom_id": "rm00558",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts confirm this is about 0 Van Zandt Avenue, Newport (the Coggeshall School Adaptive Reuse & Duplexes project). However, the document is only a meeting notice/agenda that references the existence of \"Architectural Plan Sets\" and \"Civil Plan Set\" without naming any specific architect or civil engineer. No individuals or firms are tied to these roles in the provided text."
+ },
+ {
+  "custom_id": "rm00821",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"David Sisson\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"David Sisson, Architect\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00894",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Solli Engineering\",\n    \"person\": \"Casey Burch\",\n    \"role_label\": \"Project Manager for Solli Engineering\",\n    \"quote\": \"Casey Burch, Project Manager for Solli Engineering, was present and sworn in.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00492",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts concern Case No. 22-063MI at 322 Washington Street and confirm this is the correct property. However, the documents only address extension requests for preliminary plan approval. No architect, civil engineer, or general contractor is identified in connection with this property in the provided excerpts."
+ },
+ {
+  "custom_id": "rm00586",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering\",\n    \"person\": null,\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer: DiPrete Engineering\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00714",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00594",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Richard C. DeFusco, R.L.A.\",\n    \"role_label\": \"R.L.A.\",\n    \"quote\": \"Richard C. DeFusco, R.L.A.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Civil Design Group, LLC\",\n    \"person\": null,\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer: Civil Design Group, LLC\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00583",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering\",\n    \"person\": null,\n    \"role_label\": \"Designer\",\n    \"quote\": \"Designer: DiPrete Engineering\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00775",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00644",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Jeff Lykins\",\n    \"role_label\": \"architect\",\n    \"quote\": \"architect Jeff Lykins joined virtually\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00902",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Molly Titus\",\n    \"role_label\": \"Project Engineer\",\n    \"quote\": \"Molly Titus, Project Engineer\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00767",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Scot Woodin\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Scot Woodin, architect, appeared to discuss the project\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00556",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Ed Wojcik\",\n    \"role_label\": \"the architect for the project\",\n    \"quote\": \"Ed Wojcik, the architect for the project, was qualified as an expert witness upon the request of Attorney Jedele\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Cross Engineering\",\n    \"person\": \"Brian King\",\n    \"role_label\": \"the project's engineer\",\n    \"quote\": \"Brian King, the project's engineer who was likewise qualified as an expert witness by the Commission. Mr. King, of Cross Engineering, discussed the need for sidewalk replacement alongside new curb cuts and a new parking lot\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00777",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```"
+ },
+ {
+  "custom_id": "rm00741",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00590",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"Alpha Associates, Ltd\",\n    \"person\": null,\n    \"role_label\": \"Design professional\",\n    \"quote\": \"Design professional: Alpha Associates, Ltd, East Greenwich, RI 02818\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00500",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Brian Poor\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Attorney Rachel Hamilton, Architect Brian Poor and Carla DeStafano, Executive Director of SWAP presented the plan on behalf of the applicant.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00676",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Eric Zuena\",\n    \"role_label\": \"an architect\",\n    \"quote\": \"Mr. Eric Zuena, an architect, and Mr. Joe Casali, an engineer, presented on the applicant's behalf.\"\n  },\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```"
+ },
+ {
+  "custom_id": "rm00536",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts concern 599 Reservoir Avenue, but they do not identify an architect or civil engineer. The documents mention a \"project engineer\" in the Crave Cafe proposal (\"The applicant and project engineer responded that while technically feasible...\"), but the engineer is not named. No architect is mentioned for either the Crave Cafe or Maaz's Chicken Restaurant proposals at this property."
+ },
+ {
+  "custom_id": "rm00521",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00890",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00498",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Eric Zuena\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Attorney Dylan Conley introduced the item on the applicant's behalf and presented with architect Eric Zuena.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00613",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Jeffrey Lykins\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Jeffrey Lykins and Applicant Michael Ayoub presented the item on the applicant's behalf.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00660",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts clearly concern 697 Douglas Ave (listed as \"693 and 697 Douglas Ave\" in Referral No. 3538). However, the documents provided only discuss a rezoning request from R-2 to R-4 and mention that plans subject to Development Plan Review had been submitted. No architect, civil engineer, or general contractor is identified in the excerpts for this property. The attorney Dylan Conley represented the applicant (Vicioso Homes LLC), but attorneys are not design professionals."
+ },
+ {
+  "custom_id": "rm00528",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineer\",\n    \"person\": \"Dana Nisbet\",\n    \"role_label\": null,\n    \"quote\": \"DiPrete Engineer, Dana Nisbet, explained that the proposed plan was designed with input from RIDOT.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00495",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 1655 Westminster Street (Case no. 25-059MA). However, there is no general contractor mentioned or identified in any of the provided excerpts. The documents identify an architect (Tracey Donnelly) and an engineer (Sam Hemenway), but no general contractor is named or referenced."
+ },
+ {
+  "custom_id": "rm00643",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00711",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Waterman Engineers\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"Motion to ratify Waterman Engineers proposal for 35 Hemlock\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00504",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts concern the property (Referral no 3601 \u2013 1 Charles Street), as this is a rezoning request before the City Plan Commission. However, the documents provided contain only meeting minutes and notices regarding the rezoning petition and do not include any design or construction information that would identify an architect, civil engineer, or general contractor."
+ },
+ {
+  "custom_id": "rm00739",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00486",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Eric Zuena\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Eric Zuena and Engineer Joshua Kline joined Ms. Arce in presenting the plan.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Joshua Kline\",\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Architect Eric Zuena and Engineer Joshua Kline joined Ms. Arce in presenting the plan.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00551",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"ZDS Architecture & Interiors\",\n    \"person\": \"Eric Zuena\",\n    \"role_label\": null,\n    \"quote\": \"Eric Zuena from ZDS Architecture & Interiors presented the architectural elements, explaining that the building height was reduced from five (5) stories to four (4) stories.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Casali Engineering, Inc.\",\n    \"person\": \"Joe Casali\",\n    \"role_label\": null,\n    \"quote\": \"Joe Casali from Casali Engineering, Inc. presented the site plan, explaining that the project would utilize a 24-foot wide private roadway.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00826",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00813",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Paul Carlson\",\n    \"role_label\": \"Civil Engineer\",\n    \"quote\": \"Paul Carlson, Civil Engineer\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00861",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts concern 292 Pocasset Ave (confirmed as item 3 in the meeting minutes), but the applicant/owner did not appear at the hearing and no appearances are listed. Therefore, no architect, civil engineer, or general contractor information is provided in these documents for this property."
+ },
+ {
+  "custom_id": "rm00537",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00853",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts do concern 382 Thayer St (the property is identified as \"NINA'S REALTY ASSOCIATES (Applicant/Owner): 382 Thayer St, Plat 10, Lot 632\"). However, the application was withdrawn without prejudice, and no architect or civil engineer is identified in the appearances for this property's case. Only \"John Garrahy, Esq.\" appears, who is an attorney, not a design professional."
+ },
+ {
+  "custom_id": "rm00571",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 138 Carroll Avenue (App. No. 2025-AS-06, Administrative Subdivision Application for 138 & 138 \u00bd Carroll Avenue). However, the documents provided are meeting notices and minutes for an administrative subdivision application to adjust lot lines between existing lots. No architect, civil engineer, or general contractor is identified in the excerpts for this property."
+ },
+ {
+  "custom_id": "rm00491",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Kevin Diamond\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Kevin Diamond presented the LDPs for each case and spoke about their design and compliance with the zoning ordinance.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00789",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00545",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00635",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00704",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 96-108 Pine Street (listed as \"100 Pine St, Plat 20, Lot 293\" in the zoning records). However, the documents show only a USE VARIANCE hearing for continuation of use as a parking lot. The appearances listed are Robert Stolzman, Esq. (attorney), Thomas Sweeney (Certified Real Estate Appraiser), and Anastasia Contos (principal/owner). No architect, civil engineer, or general contractor is mentioned in connection with this property."
+ },
+ {
+  "custom_id": "rm00679",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts confirm this is about 220 Broad Street, Providence. However, while the architect (Virginia Branch) and civil engineer (Sam Hemenway) are already identified in the provided information, there is no mention of a general contractor in these excerpts. The documents do not name or reference a general contractor for this project."
+ },
+ {
+  "custom_id": "rm00499",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Jack Ryan\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Jack Ryan\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00627",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Virginia Branch\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Virginia Branch, Engineer Sam Hemenway and Developers Harry and Franklin Angevine presented the item on the applicant's behalf.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Sam Hemenway\",\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Architect Virginia Branch, Engineer Sam Hemenway and Developers Harry and Franklin Angevine presented the item on the applicant's behalf.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00611",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00884",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00577",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": false,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\n**Reasoning:** While 3275 Post Road appears multiple times in the excerpts, it is only mentioned as the *address of the Planning Department* and the *Zoning Board location* (where meetings are held), not as the subject property of any petition or application. The actual petition that concerns a property at 3275 Post Road is Petition #10851 (the Lamar Advertising Company billboard sign replacement), but that petition is listed as being in \"Ward 8 125 Arthur Devine Blvd\" \u2014 a different address. The text states the petition involves \"theCityofWarwick,3275 PostRd., Warwick,RI\" as a co-petitioner (the sewer plant is on the same property as the billboard), but the actual subject property is at 125 Arthur Devine Boulevard, not 3275 Post Road. Therefore, the excerpts do not clearly concern the stated property as the primary subject of development."
+ },
+ {
+  "custom_id": "rm00707",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 45-47 America Street (confirmed as \"DNC ACQUISITIONS, LLC (Applicant/Owner): 45-47 America St, Plat 28, Lot 236\"). However, the documents provided are from zoning board and city planning commission meetings where only the applicant's attorney (Nicholas Goodier, Esq.) is identified. No architect, civil engineer, or general contractor is mentioned in connection with this property in these excerpts."
+ },
+ {
+  "custom_id": "rm00549",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00656",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Christen Robbins\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Christen Robbins\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Suzanne King\",\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer Suzanne King\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00746",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Christine West\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Christine West, Engineers Joe Casali and William Lavery, Land Use consultant Edward Pimentel and Applicant Keith Bernstein presented the item on the applicant's behalf\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Joe Casali\",\n    \"role_label\": \"Engineers\",\n    \"quote\": \"Architect Christine West, Engineers Joe Casali and William Lavery, Land Use consultant Edward Pimentel and Applicant Keith Bernstein presented the item on the applicant's behalf\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00892",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": false,\n  \"architect\": null,\n  \"civil_engineer\": null,\n  \"general_contractor\": null\n}\n```\n\nThe excerpts provided do not concern 2021 Page, Warwick, Rhode Island. The documents cover multiple properties from Warwick Zoning Board of Review meetings, including:\n- 1850 Post Rd. (Petition #10752)\n- 800 Toll Gate Rd. (Petition #10746)\n- 92 Bleachery Ct. (Petition #10683)\n- 1775 Bald Hill Rd., Unit 2 (Petition #10681)\n- 103 Arnolds Neck Dr. (Petition #10686)\n- 28 Graham Ave. (Petition #10695)\n- Wuddall Ave. (Petition #10696)\n\nNone of these addresses match 2021 Page, Warwick, Rhode Island."
+ },
+ {
+  "custom_id": "rm00683",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Kevin Diamond\",\n    \"role_label\": \"an architect\",\n    \"quote\": \"Mr. Dylan Conley, an attorney, and Mr. Kevin Diamond, an architect, presented on behalf of the petitioner.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00729",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00510",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"Utile, Inc.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"PRESENTATION BY UTILE, INC. REGARDING THE APPLICATION SUBMITTED BY L&G 150 RICHMOND HOLDINGS LLC FOR WAIVERS WITH RESPECT TO THE MIXED-USE DEVELO\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00806",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 30 Princeton Ave (Item 4 in the zoning board agenda and minutes). However, the only appearances listed for this property are \"Jeff Padwa, Esq.; Ryan Twombly, owner\"\u2014an attorney and the owner. No architect, civil engineer, or general contractor is identified in the excerpts for this property."
+ },
+ {
+  "custom_id": "rm00563",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Mark St. Laurant\",\n    \"role_label\": \"partner/owner and Project Engineer\",\n    \"quote\": \"Mark St. Laurant, partner/owner and Project Engineer, Molly Titus, Project Engineer, were present for the Petition.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00898",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Steven Cabral\",\n    \"role_label\": \"Professional Engineer\",\n    \"quote\": \"Attorney Shekarchi presented Steven Cabral, Professional Engineer as an expert witness.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00559",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"2Hands Studio\",\n    \"person\": \"Jeffrey Moniz\",\n    \"role_label\": \"architect\",\n    \"quote\": \"architect Jeffrey Moniz of 2Hands Studio\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Northeast Engineers\",\n    \"person\": \"Lyn Small\",\n    \"role_label\": \"civil engineer\",\n    \"quote\": \"civil engineer Lyn Small of Northeast Engineers\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00833",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00591",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering, Inc.\",\n    \"person\": null,\n    \"role_label\": \"Design professional\",\n    \"quote\": \"Design professional: DiPrete Engineering, Inc.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00603",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00478",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Jackie Brousseau\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect Jackie Brousseau, Engineer Christine Shea, Traffic Engineer Philip Fusco and Amy Nunn, CEO of the Rhode Island Public Health Institute also spoke on the applicant's behalf.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Christine Shea\",\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Architect Jackie Brousseau, Engineer Christine Shea, Traffic Engineer Philip Fusco and Amy Nunn, CEO of the Rhode Island Public Health Institute also spoke on the applicant's behalf.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00539",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering\",\n    \"person\": \"Jenna Shea\",\n    \"role_label\": \"Project Manager\",\n    \"quote\": \"Jenna Shea, project manager at DiPrete engineering, presented the engineering details.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00574",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"Group One Partners\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"Architectural Plan Set from Group One Partners\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Narragansett Engineering\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"Plan Set from Narragansett Engineering\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00721",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00584",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering\",\n    \"person\": null,\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer: DiPrete Engineering\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00742",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Eric Zuena\",\n    \"role_label\": \"project architect\",\n    \"quote\": \"Mr. Eric Zuena, the project architect, presented the revised plan.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00541",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00844",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00596",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"VHB\",\n    \"person\": null,\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer: VHB\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00702",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Dana Nisbet and Paul Bannon\",\n    \"role_label\": \"engineers\",\n    \"quote\": \"Attorney Nicholas Goodier and engineers Dana Nisbet and Paul Bannon presented the plan on the applicant's behalf.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00489",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00636",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Matthew McGeorge\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Mr. Matthew McGeorge, Architect presented the item on behalf of the applicant.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00674",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"John Amato\",\n    \"role_label\": \"civil engineer\",\n    \"quote\": \"Mr. Amato, a civil engineer, spoke about how the effects on neighboring property would be mitigated.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00751",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 1117 Eddy Street (Case No. 19-048MA, Applicant: Cogent Capital LLC, five story storage space facility). However, the documents provided do not name an architect, civil engineer, or general contractor for this project. Ms. Kerin Browning is mentioned as representing the applicant, but no professional discipline is specified for her or any other team members beyond \"the development team\" being introduced."
+ },
+ {
+  "custom_id": "rm00874",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00517",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts clearly concern 1016 Park Avenue (confirmed by multiple references: \"1016 Park Ave Venue\", \"Change of use with no extensive construction of improvements\", \"AP 9, Lot 95\"). However, the documents describe planning and zoning board proceedings for a change of use to a party venue and dog grooming business. No architect, civil engineer, or general contractor is named or identified in connection with this property. The applicant Katherine Gomez is mentioned presenting the application, and a \"project engineer\" is referenced as having verified parking lot restriping, but this engineer is not named and the documents provide no information identifying their firm or role label."
+ },
+ {
+  "custom_id": "rm00872",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00688",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00787",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00482",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Damara Toohey\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"with Architect Damara Toohey\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Lynn Small\",\n    \"role_label\": \"Engineer\",\n    \"quote\": \"Engineer Lynn Small\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00817",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe excerpts concern 20 Dike Street (confirmed in documents 977778_1.txt and 977778_2.txt), but the application was for a parking lot special use permit only. The appearances listed were Bishop Jeffrey Williams (for the owner) and no design professionals are mentioned. No architect, civil engineer, or general contractor information is provided in these documents."
+ },
+ {
+  "custom_id": "rm00732",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Eric Wishart\",\n    \"role_label\": \"engineer\",\n    \"quote\": \"engineer Eric Wishart were also present\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00657",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Christine West\",\n    \"role_label\": \"architect\",\n    \"quote\": \"Attorney John Garrahy presented on behalf of the applicant with architect Christine West\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00717",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": \"Utile, Inc\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"Utile, Inc\u2013 50 Sims consulting\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rm00869",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"about_this_property\": true,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ }
+]
