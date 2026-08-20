@@ -1,0 +1,102 @@
+[
+ {
+  "project_id": 175,
+  "field": "architect",
+  "value": "Handel Architects",
+  "url": "https://handelarchitects.com/project/2-harbor-life-sciences-center",
+  "title": "2 Harbor Life Sciences Center | Handel Architects",
+  "date": null,
+  "firm_sentence": "Handel Architects credited as: Design Architect / Architect of Record / Interior Designer",
+  "address_sentence": "2 Harbor is a 10-story LEED Platinum / WELL Platinum life science building located on the edge of Boston Marine Industrial Park"
+ },
+ {
+  "project_id": 175,
+  "field": "general_contractor",
+  "value": "Suffolk Construction",
+  "url": "https://handelarchitects.com/project/2-harbor-life-sciences-center",
+  "title": "2 Harbor Life Sciences Center | Handel Architects",
+  "date": null,
+  "firm_sentence": "General Contractor: Suffolk Construction",
+  "address_sentence": "2 Harbor is a 10-story LEED Platinum / WELL Platinum life science building located on the edge of Boston Marine Industrial Park"
+ },
+ {
+  "project_id": 446,
+  "field": "general_contractor",
+  "value": "John Moriarty & Associates",
+  "url": "https://www.jm-a.com/about/news/75-broadway-groundbreaking/",
+  "title": "75 Broadway Groundbreaking | John Moriarty & Associates",
+  "date": null,
+  "firm_sentence": "As the general contractor for this prestigious project, we are honored to be building this 580,000-square-foot innovation hub",
+  "address_sentence": "This landmark project is now underway at 75 Broadway, adjacent to MIT within the Kendall Common development."
+ },
+ {
+  "project_id": 446,
+  "field": "general_contractor",
+  "value": "John Moriarty & Associates",
+  "url": "https://bostonrealestatetimes.com/top-development-construction-projects-kendall-common-mits-volpe-redevelopment-biogens-new-global-hq/",
+  "title": "Top Development and Construction Projects: Kendall Common",
+  "date": null,
+  "firm_sentence": "General Contractor: JMA, Wincheter, MA",
+  "address_sentence": "Location: 75 Broadway, Cambridge, MA"
+ },
+ {
+  "project_id": 183,
+  "field": "architect",
+  "value": "Elkus Manfredi Architects",
+  "url": "https://www.bostonglobe.com/2024/02/16/business/fenway-lab-office-library-bpda/",
+  "title": "A library in the Fenway? Newly approved lab project pledges to build one.",
+  "date": "2024-02-16",
+  "firm_sentence": "David Manfredi of Elkus Manfredi Architects designed the 1400 Boylston project",
+  "address_sentence": "The 531,000-square-foot office and lab would be at 1400 Boylston St. in the Fenway"
+ },
+ {
+  "project_id": 331,
+  "field": "civil_engineer",
+  "value": "Beals and Thomas",
+  "url": "https://www.bealsandthomas.com/mixed-use",
+  "title": "Mixed-Use | Beals and Thomas, Inc.",
+  "date": null,
+  "firm_sentence": "Following HYM acquisition of the property, B+T continued to provide a broad range of services, including civil engineering, land surveying, land use entitlement, landscape architecture, and wetland science.",
+  "address_sentence": "a 161-acre site spanning Revere and East Boston (Suffolk Downs)"
+ },
+ {
+  "project_id": 332,
+  "field": "civil_engineer",
+  "value": "Beals and Thomas",
+  "url": "https://www.bealsandthomas.com/mixed-use",
+  "title": "Mixed-Use | Beals and Thomas, Inc.",
+  "date": null,
+  "firm_sentence": "Following HYM acquisition of the property, B+T continued to provide a broad range of services, including civil engineering, land surveying, land use entitlement, landscape architecture, and wetland science.",
+  "address_sentence": "a 161-acre site spanning Revere and East Boston (Suffolk Downs)"
+ },
+ {
+  "project_id": 333,
+  "field": "civil_engineer",
+  "value": "Beals and Thomas",
+  "url": "https://www.bealsandthomas.com/mixed-use",
+  "title": "Mixed-Use | Beals and Thomas, Inc.",
+  "date": null,
+  "firm_sentence": "Following HYM acquisition of the property, B+T continued to provide a broad range of services, including civil engineering, land surveying, land use entitlement, landscape architecture, and wetland science.",
+  "address_sentence": "a 161-acre site spanning Revere and East Boston (Suffolk Downs)"
+ },
+ {
+  "project_id": 334,
+  "field": "civil_engineer",
+  "value": "Beals and Thomas",
+  "url": "https://www.bealsandthomas.com/mixed-use",
+  "title": "Mixed-Use | Beals and Thomas, Inc.",
+  "date": null,
+  "firm_sentence": "Following HYM acquisition of the property, B+T continued to provide a broad range of services, including civil engineering, land surveying, land use entitlement, landscape architecture, and wetland science.",
+  "address_sentence": "a 161-acre site spanning Revere and East Boston (Suffolk Downs)"
+ },
+ {
+  "project_id": 335,
+  "field": "civil_engineer",
+  "value": "Beals and Thomas",
+  "url": "https://www.bealsandthomas.com/mixed-use",
+  "title": "Mixed-Use | Beals and Thomas, Inc.",
+  "date": null,
+  "firm_sentence": "Following HYM acquisition of the property, B+T continued to provide a broad range of services, including civil engineering, land surveying, land use entitlement, landscape architecture, and wetland science.",
+  "address_sentence": "a 161-acre site spanning Revere and East Boston (Suffolk Downs)"
+ }
+]
