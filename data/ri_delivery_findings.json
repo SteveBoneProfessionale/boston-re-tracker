@@ -174,9 +174,28 @@
  "679": {
   "id": 679,
   "field": "delivered_date",
-  "outcome": "null",
-  "searches": 5,
-  "reason": "a strong lead that does not survive the identity test. Copley Chambers II & III (Marathon Development, 124 affordable homes on Broad Street) was 100% complete with a ribbon cutting on 16 August 2024 per RIHousing, and National Equity Fund called it 'newly opened' on 9 September 2024. But no source I could verify places Copley II at 220 Broad Street -- only rental listing sites do, and they are excluded -- and the counts do not line up cleanly either: this row is a five-storey building with 44 units, RIHousing lists the pair as four storeys and 124 units combined. RIHousing's preliminary RFA, which would name the site addresses, 404s. Recording null rather than attaching another project's completion date to this row."
+  "outcome": "resolved",
+  "date": "Q3 2024",
+  "precision": "quarter",
+  "tier": "web_corroborated",
+  "searches": 6,
+  "source_type": "agency_record",
+  "reason": "the identity that could not be settled earlier is settled by arithmetic: this row (44 units) and 228 Broad Street (80 units) are both Marathon Development at adjacent addresses and sum to exactly the 124 units RIHousing records for Copley Chambers II & III. RIHousing has the pair at 100% complete against an anticipated Q3 2024 with a ribbon-cutting photo dated 16 August 2024, and National Equity Fund called it newly opened on 9 September 2024. Stored at quarter precision because that is the period both sources support; neither dates the certificate of occupancy. The row still reads Permitting.",
+  "sources": [
+   {
+    "url": "https://www.rihousing.com/sfrf-development-copley-chambers-ii-iii-providence/",
+    "name": "RIHousing SFRF development record, Copley Chambers II & III",
+    "date": "2026-02-20",
+    "passage": "Developer: Marathon Development LLC. Anticipated Completion Date: Q3 2024. Total Units: 124 units. Construction Status: 100% completed. Ribbon-cutting photo dated August 16, 2024."
+   },
+   {
+    "url": "https://www.nationalequityfund.org/news/copley-chambers-ii-iii-bring-124-affordable-homes-supportive-services-to-providence-ri/",
+    "name": "National Equity Fund",
+    "date": "2024-09-09",
+    "passage": "The newly opened Copley Chambers II & III were designed to meet the current needs of Providence, Rhode Island through high-quality, permanently subsidized affordable housing units."
+   }
+  ],
+  "display": "Q3 2024"
  },
  "729": {
   "id": 729,
@@ -205,5 +224,179 @@
   "outcome": "null",
   "searches": 1,
   "reason": "searched the address, the applicant (Wilbel Abreu) and the neighbourhood. The four-storey 12-unit building matches the row and is finished -- it is on the market as a recently completed property -- but every source carrying a date is an MLS or listing page, which is excluded, and none states a completion date anyway."
+ },
+ "780": {
+  "id": 780,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "there is no forecast because there is no project: the Fane Organization announced that construction of the Fane / Hope Point Tower at 250 Dyer Street will not take place. Covered by WPRI/TurnTo10, the Boston Globe and PBN across 2022-2023. The row still reads Planning and should probably be withdrawn rather than carried as pipeline."
+ },
+ "543": {
+  "id": 543,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the Pawtucket Planning Commission approved the 325-unit Wood Partners riverfront building on 2 June 2026 and groundbreaking was anticipated in the first quarter of the following year, but no source states a completion target. Identity is also unsettled: the coverage places the 325-unit Wood Partners project at 45 Division Street within Tidewater Landing, not at 175 Main Street."
+ },
+ "766": {
+  "id": 766,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the 30-storey, 216-unit Procaccianti tower at 21 Atwells Avenue was still in Downtown Design Review when the Globe, PBN and Bisnow covered it, and all three report that neither cost nor construction duration was known. No completion date has been published."
+ },
+ "507": {
+  "id": 507,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 2,
+  "reason": "identity is settled -- the I-195 Commission's own Dyer Wharf (Parcels 14 & 15) page names CV Properties and 216 units against this row's 214 -- but neither that page nor the April 2023 coverage in the Globe, Rhode Island Current, GoLocalProv or the Brown Daily Herald states an anticipated completion date."
+ },
+ "657": {
+  "id": 657,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "November 2026",
+  "precision": "month",
+  "tier": "web_corroborated",
+  "searches": 2,
+  "source_type": "web",
+  "stated_on": "2026-06-18",
+  "stated_by": "Crossroads Rhode Island, reported by Providence Business News",
+  "reason": "two sources disagree by a quarter and the more precise, more recently STATED one wins. PBN quotes the schedule directly on 18 June 2026: completion in November 2026. RIHousing's dashboard field says Q3 2026 on a page stamped 2 July 2026, but a page stamp is not a restatement of the field, and Q3 2026 cannot be reconciled with the 19% construction status printed beside it. Both are recorded here so the disagreement stays visible. Identity is exact: 371 Pine Street, Crossroads Rhode Island, 35 units on both.",
+  "sources": [
+   {
+    "url": "https://pbn.com/crossroads-rhode-island-reaches-construction-milestone-on-supportive-housing-project/",
+    "name": "Providence Business News",
+    "date": "2026-06-18",
+    "passage": "Construction remains on schedule for completion in November 2026. When complete, the development will provide 35 permanent supportive apartments for medically vulnerable adults experiencing homelessness."
+   },
+   {
+    "url": "https://www.rihousing.com/sfrf-development-crossroads-health-housing-providence/",
+    "name": "RIHousing SFRF development record, Crossroads Health & Housing",
+    "date": "2026-07-02",
+    "passage": "Developer: Crossroads RI. Anticipated Completion Date: Q3 2026. Total Units: 35 units. Construction Status: 19%."
+   }
+  ],
+  "display": "Nov 2026"
+ },
+ "710": {
+  "id": 710,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "Q3 2026",
+  "precision": "quarter",
+  "tier": "document_confirmed",
+  "searches": 1,
+  "source_type": "agency_record",
+  "stated_on": "2026-04-22",
+  "stated_by": "RIHousing (development financier), for ONE Neighborhood Builders",
+  "reason": "the developer's own page places 434 Atwells Avenue inside 'The Avenue' -- 39 new apartments in a five-storey mixed-use building there, plus 46 scattered-site Elmwood units, for the 85 total both the RIHousing record and this row carry. Note the row attributes all 85 units to this address when only 39 are on it.",
+  "sources": [
+   {
+    "url": "https://www.rihousing.com/sfrf-development-the-avenue-providence/",
+    "name": "RIHousing SFRF development record, The Avenue",
+    "date": "2026-04-22",
+    "passage": "Developer: ONE Neighborhood Builders. Anticipated Completion Date: Q3 2026. Total Units: 85. Construction Status: 69% complete."
+   },
+   {
+    "url": "https://oneneighborhoodbuilders.org/property/the-avenue-2/",
+    "name": "ONE Neighborhood Builders, The Avenue",
+    "date": "",
+    "passage": "434 Atwells Avenue featuring thoughtfully designed new apartments and ground-floor storefronts ... The Avenue features 39 newly constructed affordable apartments in a five-story mixed-use building."
+   }
+  ],
+  "display": "Q3 2026"
+ },
+ "675": {
+  "id": 675,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "Q2 2027",
+  "precision": "quarter",
+  "tier": "document_confirmed",
+  "searches": 0,
+  "source_type": "agency_record",
+  "stated_on": "2026-06-23",
+  "stated_by": "RIHousing (development financier), for SWAP Inc.",
+  "reason": "321 Knight Street is named in this row's own case caption -- 'Case No. 19-051 UDR - 311 Knight Street, 321 Knight and 1077 Westminster Street' -- and the unit count matches exactly at 41. The sponsor differs from the 2019 applicant (RIHousing records SWAP Inc., the case names K&S Development), which is normal for an affordable deal that changed hands between approval and financing, but it is the one thing here that does not line up and is recorded as such.",
+  "sources": [
+   {
+    "url": "https://www.rihousing.com/sfrf-development-321-knight-street-providence/",
+    "name": "RIHousing SFRF development record, 321 Knight Street",
+    "date": "2026-06-23",
+    "passage": "Developer: SWAP Inc. Anticipated Completion Date: Q2 2027. Total Units: 41 units. Construction Status: 25% completed."
+   }
+  ],
+  "display": "Q2 2027"
+ },
+ "670": {
+  "id": 670,
+  "field": "delivered_date",
+  "outcome": "resolved",
+  "date": "Q3 2024",
+  "precision": "quarter",
+  "tier": "web_corroborated",
+  "searches": 0,
+  "source_type": "agency_record",
+  "reason": "the other half of Copley Chambers II & III: 80 units here plus 44 at 220 Broad Street is exactly the 124 RIHousing records for the pair, same developer, adjacent addresses. Same evidence and same quarter as project 679. The row still reads Permitting.",
+  "sources": [
+   {
+    "url": "https://www.rihousing.com/sfrf-development-copley-chambers-ii-iii-providence/",
+    "name": "RIHousing SFRF development record, Copley Chambers II & III",
+    "date": "2026-02-20",
+    "passage": "Developer: Marathon Development LLC. Anticipated Completion Date: Q3 2024. Total Units: 124 units. Construction Status: 100% completed. Ribbon-cutting photo dated August 16, 2024."
+   },
+   {
+    "url": "https://www.nationalequityfund.org/news/copley-chambers-ii-iii-bring-124-affordable-homes-supportive-services-to-providence-ri/",
+    "name": "National Equity Fund",
+    "date": "2024-09-09",
+    "passage": "The newly opened Copley Chambers II & III were designed to meet the current needs of Providence, Rhode Island through high-quality, permanently subsidized affordable housing units."
+   }
+  ],
+  "display": "Q3 2024"
+ },
+ "495": {
+  "id": 495,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "1655 Westminster is the new West End Pre-K-8 school combining Asa Messer and West Broadway. WPRI covered the groundbreaking and reports students will learn at the former Carl G. Lauro building 'for the next two years until construction is completed', which is a relative statement rather than a stated completion date, and no source names a year."
+ },
+ "890": {
+  "id": 890,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "no coverage of a 203-unit development at 800 Toll Gate Road. Warwick housing coverage names the Wood Partners project at the airport parking lot and the Sheraton site on Post Road, neither of which is this address."
+ },
+ "767": {
+  "id": 767,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the Boston Globe, GoLocalProv and archBOSTON cover Pebb Capital's 191-unit six-storey building at 33 Bassett Street through design approval in early 2024, and Pebb's own property page carries no schedule. No completion date has been published."
+ },
+ "550": {
+  "id": 550,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 2,
+  "reason": "the project's own site carried a 'available for lease in the Spring of 2025' claim in the search index, but the live page no longer states it and carries no date at all, so there is nothing datable to attribute. PBN and the Valley Breeze cover the approvals only. The forecast would also now be more than a year stale."
+ },
+ "532": {
+  "id": 532,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the Cranston Herald covers the 192-unit Elsey Holdings proposal at 1890 Plainfield Pike through its tax-credit deadline in late 2025, but the coverage is about whether the financing lands, not about a completion date, and none is published."
+ },
+ "574": {
+  "id": 574,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "Newport This Week, Newport Buzz and What's Up Newp cover the planning board's approval of the 89-room hotel and 14 residential units on 2 June 2025, but the project still needed city staff sign-off plus CRMC and DEM approval and was not under construction. No completion date is published."
  }
 }
