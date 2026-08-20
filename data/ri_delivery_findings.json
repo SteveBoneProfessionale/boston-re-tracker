@@ -690,5 +690,160 @@
   "outcome": "null",
   "searches": 1,
   "reason": "250 Esten Avenue is a 239,200 sf mill from 1900, recently sold and nearly fully occupied by industrial tenants. Nothing published describes the 38-unit development on this row, let alone dates it."
+ },
+ "617": {
+  "id": 617,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "Fall 2026",
+  "precision": "quarter",
+  "tier": "web_low_confidence",
+  "searches": 2,
+  "source_type": "web",
+  "stated_on": "2026-08-20",
+  "stated_by": "Providence Public School District",
+  "reason": "199 Oxford Street is Mary E. Fogarty Elementary, confirmed by the city's own architect-services RFP for that address, and the district's In Construction page schedules the replacement PK-8 for completion in fall 2026. Fall is stored as Q4 because no month is named. The district does not date its project pages, so the vintage is the date it was read.",
+  "sources": [
+   {
+    "url": "https://www.providenceschools.org/Page/6547",
+    "name": "Providence Public Schools, In Construction: Mary Fogarty PK-8 School",
+    "date": "",
+    "passage": "The planned Mary Fogarty Pre-K-8 School is scheduled for completion fall of 2026 and will transform and expand the current site of Mary Fogarty Elementary. Fogarty is temporarily located at 85 Laurel Hill Avenue while their South Providence campus is under construction."
+   }
+  ],
+  "display": "Q4 2026"
+ },
+ "493": {
+  "id": 493,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "Summer 2027",
+  "precision": "quarter",
+  "tier": "web_low_confidence",
+  "searches": 2,
+  "source_type": "web",
+  "stated_on": "2026-08-20",
+  "stated_by": "Providence Public School District (Rebuild PVD Schools)",
+  "reason": "195 Nelson Street is the Robert F. Kennedy school, identified through the City Plan Commission's own case listing (25-075MA, '195 Nelson Street (RFK School)'), and the district's project page gives the target. Summer is stored as Q3 because no month is named; the page carries no date, so the vintage is the date it was read.",
+  "sources": [
+   {
+    "url": "https://rebuildpvdschools.providenceschools.org/projects/robert-f-kennedy-pk-8-school",
+    "name": "Rebuild PVD Schools, Robert F. Kennedy PK-8 School",
+    "date": "",
+    "passage": "Construction began in 2025 with estimated target completion of summer 2027."
+   }
+  ],
+  "display": "Q3 2027"
+ },
+ "768": {
+  "id": 768,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "Pebb Capital killed the original 10-storey, 131-unit building at 151-155 Chestnut Street in July 2022 and brought back a five-storey, 21-unit scheme to the Downtown Design Review Committee in November 2023 -- which matches this row's 21 units. Neither PBN nor the Globe nor Pebb's own property page states a completion date."
+ },
+ "632": {
+  "id": 632,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "WPRI and GoLocalProv followed the 58-unit Providence Architecture + Building proposal at 103 Evergreen Street through a positive City Plan Commission recommendation on the R-3 to R-4 rezoning in early 2024. It was still moving through the Ordinance Committee and City Council; no completion date is published."
+ },
+ "741": {
+  "id": 741,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "200 Gordon Avenue is POAH's Oxford Place & Gardens, 128 units built in 1978 and 1989, acquired by POAH in 2017 with a renovation completed in 2018. This row describes 30 units, so it is a later filing on the site rather than that renovation, and nothing published dates it. Attaching the 2018 renovation to this row would be attaching the wrong project."
+ },
+ "886": {
+  "id": 886,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "no coverage of a 57-unit development on Dees Circle in Warwick. Searching the street and the unit count returns unrelated Warwick-named complexes in other states."
+ },
+ "551": {
+  "id": 551,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 2,
+  "reason": "a lead that will not stand up. The Valley Breeze says the 1882 building at 180 Weeden Street is under construction and 'slated for completion by early next summer' -- but that is a relative phrase, the page would not yield its publication date, and the whole year therefore rests on the search index's claim that it ran in July 2026. The developer matches (401HomeBuyers) and the address matches, but the article counts 19 apartments against the 38 on this row. Not enough to date it."
+ },
+ "727": {
+  "id": 727,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the city's own file names this case 'Park View' at 31-45 Parade Street, and Armory Management's Park View at 31 Parade Street was completed in July 2023 -- but that building is 12 units against the 31 on this row, so the completion cannot be attached here without knowing whether the row covers a larger or later phase. No source dates the 31-unit scheme."
+ },
+ "499": {
+  "id": 499,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "the adjacent row to project 727: 45 Parade Street, same developer, 26 units, part of the same 31-45 Parade Street case. The same search covers both and the same problem applies -- Park View's July 2023 completion is a 12-unit building and cannot be attributed to either row. These two are also a dedupe candidate."
+ },
+ "666": {
+  "id": 666,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "541 Hartford Avenue appears in city data only as an existing property owned by E.2000 Realty LLC. No coverage of a 30-unit mixed-use development there, and no completion date."
+ },
+ "552": {
+  "id": 552,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "no coverage of a 32-unit development at 282 East Avenue, Pawtucket. The address returns only property-record and rental-listing pages, which are excluded."
+ },
+ "613": {
+  "id": 613,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "nothing published on a 24-unit development at 400 Elmwood Avenue. Searching the street returns the 327 Elmwood affordable project (a different row, project 604) and a same-named building in Buffalo."
+ },
+ "497": {
+  "id": 497,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "128 Wayland Avenue appears only as an existing Wayland Square retail address. No coverage of a development by Elevator Properties there and no completion date."
+ },
+ "623": {
+  "id": 623,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "PBN, the Boston Globe and the Preservation Society follow Walter Bronhard's 108-110 Waterman Street project from master plan approval in September 2023 through updated plans in 2024, taking it to 35 units. It was still awaiting further City Plan Commission approvals and no completion date is published."
+ },
+ "665": {
+  "id": 665,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 2,
+  "reason": "116 Waterman Street looks finished rather than pipeline -- ArtInRuins records it as 'Built: 2023-2024' and forum observers describe it as in operation for over a year -- but a two-year range is a window, not a completion date, and a forum post is not a source. So there is no target to record and not enough to record a delivery either. Flagged as a stage-review candidate: 25 two-bedroom units matches this row exactly."
+ },
+ "510": {
+  "id": 510,
+  "field": "delivered_date",
+  "outcome": "resolved",
+  "date": "2025",
+  "precision": "year",
+  "tier": "document_confirmed",
+  "searches": 0,
+  "source_type": "minutes",
+  "reason": "already settled in the document pass -- recorded here so it leaves the research queue. See scraper/ri_apply_completion_docs.py for the full reasoning and the corroborating meetings.",
+  "sources": [
+   {
+    "url": "https://opengov.sos.ri.gov/Common/DownloadMeetingFiles?FilePath=Minutes/5943/2025/538662.pdf",
+    "name": "I-195 Redevelopment District Commission minutes, 17 September 2025",
+    "date": "2025-09-17",
+    "passage": "She stated 150 Richmond had received its Certificate of Occupancy and that Rhode Island State Health Lab had started to move in; she also stated planning for a building ribbon cutting event was underway."
+   }
+  ],
+  "display": "2025"
  }
 }
