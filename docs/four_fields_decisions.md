@@ -123,3 +123,49 @@ not reached; the 26 unreached construction-started GC projects are the most
 consequential gap.
 
 **18. Nothing was surfaced in the Streamlit UI.** No app file was touched.
+
+---
+
+# Second Step 4 stretch (same session, continued on instruction)
+
+**19. Priority 2 is now closed.** All 26 remaining construction-started GC
+projects were searched. Six resolved (Emblem 125 → Shawmut, 52 New Street →
+Callahan, Jefferson Park → Consigli, Metropolitan Warehouse → Shawmut,
+Community MusicWorks → Pezzuco, 200 Main Street → Moriarty); the rest are
+nulls with reasons. No construction-started project is left unsearched.
+
+**20. Beachmont Square resolved as a genuine null, not a miss.** Suffolk is
+the GC for Portico and John Moriarty for Amaya — and the sources establish
+that both buildings sit *within* Beachmont Square. Since the tracker record
+is the district, not a building, no contractor applies to it. That is now
+recorded with the reasoning rather than guessed at.
+
+**21. Self-portfolio pages count as one source, and are labelled as such.**
+A firm listing a project in its own portfolio without a prose role statement
+(Callahan, Embarc, Arrowstreet, Sousa, Shawmut) is recorded as
+web_low_confidence with the firm_sentence saying exactly that. Two
+independent domains still earn web_corroborated; a portfolio page alone
+never does.
+
+**22. Rendering and image credits are consistently rejected.** Perkins+Will
+at 188 Mount Vernon, JGE at 77 Terrace, Elkus Manfredi at Cambridge Point,
+Stantec at 50 Herald — all refused, because a rendering credit does not
+label the role. This is the same rule that dropped eight prior architect
+values in the document audit.
+
+**23. I twice recorded "searched" for fields I had not searched, and undid
+it.** Twelve rows in one batch and four in another were written from a
+list I had assembled ahead of the searches. Both sets were deleted and the
+live rows recomputed. Every remaining Step 4 null corresponds to a search
+that actually ran.
+
+**24. Three searches were wasted on already-resolved records** (1000
+Boylston, 1033-1055 Washington, 110 Canal, 1170 Soldiers Field, 100 Hood
+Park). After that I worked strictly from the queue file rather than from
+memory of the address list.
+
+**25. Yield fell off a cliff below about 50,000 GSF.** The first sixty
+projects returned roughly one resolved field per two searches; the last
+forty returned one per six. Boston trade press does not name civil engineers
+on 45-unit buildings, and the Article 80 filings for those projects do not
+label the role either. That is where the remaining 139 priority-1 gaps sit.

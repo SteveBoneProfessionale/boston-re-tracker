@@ -3,18 +3,18 @@
 ================================================================================================
 market            n                    architect               civil_engineer           general_contractor
                                  before -> after              before -> after              before -> after
-Boston          389     273 ( 70%) -> 281 ( 72%)     175 ( 45%) -> 201 ( 52%)       0 (  0%) ->  38 ( 10%)
-Cambridge        66       0 (  0%) ->  24 ( 36%)       0 (  0%) ->   2 (  3%)       0 (  0%) ->   4 (  6%)
-Rhode Island    256      76 ( 30%) ->  87 ( 34%)      96 ( 38%) ->  96 ( 38%)       8 (  3%) ->  10 (  4%)
+Boston          389     273 ( 70%) -> 285 ( 73%)     175 ( 45%) -> 201 ( 52%)       0 (  0%) ->  38 ( 10%)
+Cambridge        66       0 (  0%) ->  26 ( 39%)       0 (  0%) ->   5 (  8%)       0 (  0%) ->   8 ( 12%)
+Rhode Island    256      76 ( 30%) ->  88 ( 34%)      96 ( 38%) ->  96 ( 38%)       8 (  3%) ->  12 (  5%)
 Other MA          3       0 (  0%) ->   0 (  0%)       0 (  0%) ->   0 (  0%)       0 (  0%) ->   0 (  0%)
 (null city)      13       3 ( 23%) ->   3 ( 23%)       3 ( 23%) ->   3 ( 23%)       0 (  0%) ->   0 (  0%)
-ALL             727     352 ( 48%) -> 395 ( 54%)     274 ( 38%) -> 302 ( 42%)       8 (  1%) ->  52 (  7%)
+ALL             727     352 ( 48%) -> 402 ( 55%)     274 ( 38%) -> 305 ( 42%)       8 (  1%) ->  58 (  8%)
   (the 13 null-city rows were skipped by instruction; their counts are
    unchanged and they carry no provenance rows)
 
 GENERAL CONTRACTOR reported against both denominators, as asked
-  construction started:           24/116 resolved (21%)
-  construction started, null:     19/116 searched and empty
+  construction started:           30/116 resolved (26%)
+  construction started, null:     52/116 searched and empty
   not yet under construction:    570/611 recorded not_yet_selected
 
 ================================================================================================
@@ -23,30 +23,29 @@ GENERAL CONTRACTOR reported against both denominators, as asked
 tier                                 architect        civil_engineer    general_contractor
 document_confirmed                         274                   206                    21
 registry_confirmed                          20                     0                    19
-web_corroborated                             5                     1                     2
-web_low_confidence                          13                     8                     4
-unverified_prior                            80                    84                     6
-TOTAL resolved                             392                   299                    52
+web_corroborated                             8                     2                     3
+web_low_confidence                          19                    10                     9
+unverified_prior                            78                    84                     6
+TOTAL resolved                             399                   302                    58
 
   by market:
-    Boston         document_confirmed=456,  unverified_prior=22,  registry_confirmed=19,  web_low_confidence=17,  web_corroborated=6
-    Cambridge      registry_confirmed=20,  web_low_confidence=8,  web_corroborated=2
-    Rhode Island   unverified_prior=148,  document_confirmed=45
+    Boston         document_confirmed=456,  unverified_prior=22,  web_low_confidence=21,  registry_confirmed=19,  web_corroborated=6
+    Cambridge      registry_confirmed=20,  web_low_confidence=14,  web_corroborated=5
+    Rhode Island   unverified_prior=146,  document_confirmed=45,  web_low_confidence=3,  web_corroborated=2
 
 ================================================================================================
 3. PREVIOUSLY POPULATED VALUES THAT FAILED VERIFICATION
 ================================================================================================
   architect        checked 259   confirmed 247   role-not-labelled   8   firm-absent   4   FAILED  12 (5%)
   civil_engineer   checked 167   confirmed 142   role-not-labelled  21   firm-absent   4   FAILED  25 (15%)
-  dropped outright (failed, nothing better found):        17
-  failed but replaced by a better value from the same doc: 20
-  kept as unverified_prior (no readable primary document): 170
+  dropped outright (failed, nothing better found):        16
+  failed but replaced by a better value from the same doc: 21
+  kept as unverified_prior (no readable primary document): 168
 
   the values dropped:
       68 11-11 A Parker Hill Avenue architect        Monte French Design Studio       firm absent
       91 1028-1032 Dorchester Avenu architect        Owen Thomas Architecture         role not labelled
      109 920 Centre Street          architect        HACIN Architects                 firm absent
-     138 555-559 Columbia Road      architect        Dream Collaborative              role not labelled
      236 361-371 Belgrade Avenue    architect        Arrowstreet                      role not labelled
      255 104 Canal Street           architect        Stantec Architects               role not labelled
      260 17 Guild Street            architect        Michael Washington               firm absent
@@ -65,10 +64,9 @@ TOTAL resolved                             392                   299            
 4. STEP 4 COVERAGE -- WHAT WAS SEARCHED AND WHAT WAS NOT
 ================================================================================================
   projects entering Step 4 needing at least one field: 557
-  projects searched:                                   60
-  projects NOT reached:                                497
-      priority 1  Boston/Cambridge architect or civil missing   211
-      priority 2  GC, construction already started               26
+  projects searched:                                   158
+  projects NOT reached:                                399
+      priority 1  Boston/Cambridge architect or civil missing   139
       priority 3  Boston/Cambridge corroborate unverified         5
       priority 4  other MA                                       11
       priority 5  Rhode Island                                  244
@@ -76,32 +74,6 @@ TOTAL resolved                             392                   299            
 
   the priority-2 projects not reached (GC, construction started) -- the most
   consequential gap, listed in full:
-     382 Revere      525 William F McClellan Hwy        Under Construction  
-     261 Boston      41 Berkeley Street                 Board Approved      
-     779 Providence  125 Clifford Street                Planning            
-     239 Boston      3390 Washington Street             Board Approved      
-       6 Boston      222 Friend Street                  Under Review        
-     627 Providence  220 Blackstone Street              Permitting          
-     509 Providence  580 South Water Street             Approved            
-     305 Boston      42 Cross Street                    Board Approved      
-     625 Providence  35 Merino Street                   Approved            
-     273 Boston      75 Tremont Street                  Board Approved      
-     224 Boston      1188-1208 Bennington Street        Board Approved      
-     329 Boston      14 Gardner Street                  Under Construction  
-     350 Boston      706 Dudley Street                  Under Construction  
-     307 Boston      363 E Street                       Under Construction  
-     196 Boston      376-384A Blue Hill Avenue          Board Approved      
-     134 Boston      99-105 Addison Street              Board Approved      
-     705 Providence  1326 Westminster Street            Permitting          
-     673 Providence  153-165 Gano Street                Permitting          
-     652 Providence  547 Chalkstone Ave                 Permitting          
-     381 Woburn      316 New Boston St                  Under Construction  
-     542 Pawtucket   30 Beecher Street                  Planning            
-     744 Providence  1292 WESTMINSTER STREET            Permitting          
-     733 Providence  466-468 West Fountain Street       Approved            
-     729 Providence  47 Matilda Street                  Permitting          
-     291 Boston      46-48 Leo M. Birmingham Parkway    Board Approved      
-     674 Providence  250 Lloyd Ave                      Planning            
 
 ================================================================================================
 5. THE 13 NULL-CITY ROWS (skipped as agreed, listed here)
@@ -136,214 +108,212 @@ TOTAL resolved                             392                   299            
 ================================================================================================
 6. SPOT-CHECK SAMPLE -- 40 records, weighted toward web_low_confidence
 ================================================================================================
-   332 Boston      525 McClellan Highway      civil_engineer     Beals and Thomas             [web_low_confidence]
-       source: https://www.bealsandthomas.com/mixed-use
-       "Following HYM acquisition of the property, B+T continued to provide a broad range of services, including civil engineering, land surveying, land use entitlement"
+   304 Boston      173 Boston Street          civil_engineer     Bohler                       [document_confirmed]
+       source: https://bpda.box.com/s/jgn09fwbkts2vo5jnqjpu031uev8kp7z
+       page/ref: 16
+       "Civil Engineering
+Bohler"
 
-    35 Boston      1702 Hyde Park Avenue      architect          Choo & Company               [unverified_prior]
+   617 Providence  199 Oxford Street          civil_engineer     D' Amico Engineering Tech, I [document_confirmed]
+       source: RI plan set: 24-021MA-199-Oxford-Fogarty-School-preliminary-plan.pdf
+       page/ref: title block
+       "Civil Engineer:
+D' Amico Engineering Tech, Inc.
+2080 Mineral Spring Avenue
+North Providence, RI 02904"
+
+   185 Boston      100-114 Hampden Street     architect          2WR+ Partners                [document_confirmed]
+       source: https://bpda.box.com/s/rys7z8uplj2ib73ycv1ea2vqjnk2o656
+       page/ref: 9
+       "Architect: 2WR+ Partners, an Urban-Gro Company"
+
+   625 Providence  35 Merino Street           architect          Tecton Architects | pc       [document_confirmed]
+       source: RI plan set: 22-022UDR-35-Merino-St-SR-docs.pdf
+       page/ref: title block
+       "© 2022 Tecton Architects | pc"
+
+   495 Providence  1655 Westminster Street    general_contractor Agostini Bacon Construction  [unverified_prior]
        source: 
 
-   388 Boston      840 Columbus Ave           architect          Elkus Manfredi Architects    [web_corroborated]
-       source: https://www.mcsal.com/840-columbus-avenue/
-       "Elkus Manfredi Architects || Elkus Manfredi || Studio Luz Architects collaborated with Elkus Manfredi to develop a well-rounded and harmonious atmosphere"
+   200 Boston      100 Charles Park Road      architect          Sousa Design Architects      [web_low_confidence]
+       source: https://sousadesign.com/projects/100-charles-park-road/
+       "100 Charles Park Road appears in Sousa Design Architects own project portfolio (sousadesign.com/projects/100-charles-park-road)"
 
-   295 Boston      50 New Sudbury Street      civil_engineer     VHB                          [document_confirmed]
-       source: https://bpda.box.com/s/mxoj5o7oam0zis2qvvq8q82kn4fab5r3
-       page/ref: 30
-       "Civil Engineering, Permitting, Historic Advisor: VHB 99 High Street, 10th Floor Boston, MA 02110 617-728-7777"
-
-   259 Boston      409 Huntington Avenue      architect          Cube3                        [document_confirmed]
-       source: https://bpda.box.com/s/ws5cxf11237v4nopim5ikahqbliuxmvq
-       page/ref: 22
-       "Architect: Cube3 370 Merrimack Street, Suite 337 Lawrence, MA 01843 (978) 989-9900 Nick Griffin, AIA Steve Prestejohn"
-
-   187 Boston      1033-1055 Washington Stree architect          Elkus Manfredi Architects    [document_confirmed]
-       source: https://bpda.box.com/s/cr388mc6qpr4l5fza00u2awqgxp1x3bw
-       page/ref: 11
-       "Architect: Elkus Manfredi Architects 25 Drydock Avenue Boston, MA 02210 (617) 426-1300"
+   386 Boston      41 LaGrange St             architect          Utile Architecture           [unverified_prior]
+       source: 
 
    102 Boston      262 St. Botolph Street     architect          Perkins&Will                 [web_low_confidence]
        source: https://thebostonsun.com/2024/08/01/northeastern-outlines-plan-for-new-multipurpose-athletic-facility/
        "the project team, which includes architect, Boston-based Perkins&Will."
 
-   615 Providence  279 Thayer Street          architect          BISBANO & ASSOCIATES, INC.   [document_confirmed]
-       source: RI plan set: 22-023MA-279-Thayer-St.pdf
-       page/ref: title block
-       "ARCHITECT:
-BISBANO & ASSOCIATES, INC.
-188 VALLEY STREET
-PROVIDENCE, RI 02909"
+   267 Boston      776 Summer Street          civil_engineer     VHB                          [web_low_confidence]
+       source: https://www.vhb.com/real-estate/mixed-use/776-summer/
+       "VHB provided due diligence services, site/civil engineering, transportation planning and design services, and permitting to plan and design public access to a s"
 
-   202 Boston      45 Worthington Street      civil_engineer     Nitsch Engineering           [document_confirmed]
-       source: https://bpda.box.com/s/wffv485yg3johlsebcexr9m37iy45x5g
-       page/ref: 33
-       "Civil Engineer:
-Nitsch Engineering
-2 Center Plaza, Suite 430
-Boston, MA  02108
-(617) 338-0063
-Deb Danik"
+   427 Cambridge   197 Vassal Lane            general_contractor W.T. Rich                    [web_low_confidence]
+       source: https://www.wtrich.com/project-portfolio/projects/tobinschool
+       "W.T. Rich project portfolio entry for the Tobin School, Delivery Method: CM-at-Risk (MGL Chapter 149A); Designer: Perkins Eastman"
 
-   121 Boston      15 Court Square            architect          Balance Architects           [document_confirmed]
-       source: https://bpda.box.com/s/3qtnti59i84i6mzxgyjv7vhdl1st3fz2
-       page/ref: 2
-       "Architect: Balance Architects Philip Sima 1 Thompson Square, Suite 207 Boston, MA 02129"
+   835 Providence  280 Melrose St             civil_engineer     GZA                          [unverified_prior]
+       source: 
 
-   211 Boston      156 Wellington Hill Street architect          Eric Zachrison, MBA, AIA     [document_confirmed]
-       source: https://bpda.box.com/s/rjpasctnpr8daq607hmrs9fp0e6fi5st
-       page/ref: 4
-       "Architect: Eric Zachrison, MBA, AIA"
+   440 Cambridge   2 Alewife Park             general_contractor AECOM/Tishman                [web_low_confidence]
+       source: https://www.qnect.com/alewife-park
+       "GC: AECOM/Tishman (project team listing for Alewife Park; Owner: IQHQ; EOR: McNamara/Salvia, Inc.)"
 
-   137 Boston      2 Financial Center         general_contractor Suffolk Construction Company [registry_confirmed]
+   286 Boston      30 Thorn Street            architect          Embarc Studio, LLC           [document_confirmed]
+       source: https://bpda.box.com/s/pk646omkmv1uf0vuan06gii2qcu6kznb
+       page/ref: 6
+       "Architecture: Embarc Studio, LLC Dartagnan Brown, AIA"
+
+   556 Pawtucket   160 Beechwood Avenue       civil_engineer     Brian King                   [unverified_prior]
+       source: 
+
+   115 Boston      776 Summer Street          general_contractor Suffolk Construction Company [registry_confirmed]
        source: https://data.boston.gov/dataset/boston-jobs-policy-compliance-reports
-       page/ref: compliance project "2 Financial Center"
-       "Boston Jobs Policy Compliance Report, project "2 Financial Center" at 60 South Street: general_contractor_name = "Suffolk Construction Company" (5 worker-period"
+       page/ref: compliance project "776 Summer Street Phase 1 Demo"
+       "Boston Jobs Policy Compliance Report, project "776 Summer Street Phase 1 Demo" at 776 Summer Street: general_contractor_name = "Suffolk Construction Company" (3"
 
-   265 Boston      30 Leo M. Birmingham Parkw architect          Prellwitz Chilinski Associat [document_confirmed]
-       source: https://bpda.box.com/s/h370hovwdf3ncz7oz2u4msgxrogovaza
-       page/ref: 22
-       "Project Architect
-Prellwitz Chilinski Associates, Inc."
+   103 Boston      1 & 10 Emerson Place       architect          Utile                        [document_confirmed]
+       source: https://bpda.box.com/s/0dkvwc901ua7u0ipu8f48n0k6rk1pdy9
+       page/ref: 3
+       "Architecture:
+Utile
+115 Kingston Street
+Boston, MA 02111"
+
+   166 Boston      180 Western Avenue         architect          Elkus Manfredi Architects    [web_low_confidence]
+       source: https://www.harvardmagazine.com/2023/12/allston-housing-180-western-avenue
+       "Elkus Manfredi Architects presented revised plans for a 274-unit residential apartment building at 180 Western Avenue"
+
+   586 Warwick     255, 265, and 281 Centervi civil_engineer     DiPrete Engineering          [unverified_prior]
+       source: 
+
+   732 Providence  121 Stamford Ave           civil_engineer     Eric Wishart                 [unverified_prior]
+       source: 
+
+    94 Boston      250 Bay State Road         architect          Diller Scofidio + Renfro     [web_low_confidence]
+       source: https://www.bu.edu/articles/2025/new-pardee-building-will-unite-global-studies-school/
+       "Diller Scofidio + Renfro, the architectural firm that designed the Pardee tower"
+
+   302 Boston      400-402 Melnea Cass Blvd   architect          Urbanica Design              [document_confirmed]
+       source: https://bpda.box.com/s/ynxftplkapg8s063jt4413wpemcpaqi8
+       page/ref: 34
+       "Architect
+Urbanica Design
+429 Melnea Cass Boulevard
+Boston, MA 02116
+Tel: 617-654-8900
+Stephen Chung
+stephen@stephenchung.com"
+
+   366 Boston      145 and 165 Dartmouth Stre architect          Pelli Clarke Pelli Architect [document_confirmed]
+       source: https://bpda.box.com/s/yfqlpi1kjq4jkjlva1hi58motg3l509a
+       page/ref: 43
+       "GARAGE WEST / GARAGE EAST / STATION EAST DEVELOPMENT TEAM
+Architect
+Pelli Clarke Pelli Architects"
+
+   204 Boston      81 Hancock Street          general_contractor DaSilveria Builders, Inc.    [document_confirmed]
+       source: https://bpda.box.com/s/fvd0pehxapiehgbflnzvcbp5sb7ttqc7
+       page/ref: 4
+       "General Contractor: DaSilveria Builders, Inc. 11 Virginia Street Dorchester, MA 02125"
+
+   170 Boston      65 Ellery Street Street    civil_engineer     VHB                          [document_confirmed]
+       source: https://bpda.box.com/s/7x36gig2a1h02g3xasi8zy7ixblj5rox
+       page/ref: 5
+       "Permitting/Civil
+VHB
+Engineer:
+Stephanie Kruel
+Rick Dupuis"
+
+    80 Boston      265 Maverick Street        architect          Context Workshop             [document_confirmed]
+       source: https://bpda.box.com/s/ly3wm0a3rbs7m5ifd3d92h5iu19eao9w
+       page/ref: 1
+       "Architectural services are being provided by Eric Zachrison of Context Workshop"
+
+   160 Boston      112-114 Queensberry Street civil_engineer     MacKenzie, Inc.              [document_confirmed]
+       source: https://bpda.box.com/s/cgkxwkmpwlljbnsv073qm0bmwmut44mv
+       page/ref: 45
+       "Civil Engineer:
+MacKenzie, Inc."
+
+   415 Cambridge   119-123 Broadway           architect          BRETT D LAMBERT              [registry_confirmed]
+       source: https://data.cambridgema.gov/resource/9qm7-wbdc.json?id=214340
+       page/ref: permit id 214340
+       "Cambridge New Construction permit 214340 for 123 Broadway, Cambridge, MA 02142: architect_firm = "BRETT D LAMBERT", architect_name = "BRETT D LAMBERT""
+
+    69 Boston      100-168 New Rutherford Ave architect          ICON Architecture, Inc.      [document_confirmed]
+       source: https://bpda.box.com/s/bnhmqzt7xcesccuye75qpk24gye1374b
+       page/ref: 23
+       "Architecture
+ICON Architecture, Inc."
+
+   766 Providence  21 Atwells Avenue          architect          ZDS Architecture & Interior  [unverified_prior]
+       source: 
+
+   441 Cambridge   4 Alewife Park             civil_engineer     VHB                          [web_low_confidence]
+       source: https://www.vhb.com/real-estate/biomedical-research/alewife-park/
+       "In addition, we designed the infrastructure to support the phased build out over several years, including utilities and roadways, addressing pedestrian and vehi"
+
+   327 Boston      555 Metropolitan Avenue    architect          db2ARCHitecture, Inc.        [document_confirmed]
+       source: https://bpda.box.com/s/3y6xmnhd7y0n4afolukvlij4pvbyfzxs
+       page/ref: 1
+       "Architect:
+db2ARCHitecture, Inc.
+Woburn, MA"
+
+   251 Boston      49 Dudley Street           civil_engineer     Merrill Engineers & Land Sur [document_confirmed]
+       source: https://bpda.box.com/s/gq4dxfa4yj822eydx70za52llhbd2j63
+       page/ref: 5
+       "Merrill Engineers & Land Surveyors
+427 Columbia Rd.
+Hanover, MA 02339
+(781) 826-9200
+Surveyor & Civil Engineer"
+
+   154 Boston      2 Charlesgate West Street  architect          Utile                        [document_confirmed]
+       source: https://bpda.box.com/s/8ia22aplt9dixbx9or1s5z7pl63lqnhw
+       page/ref: 23
+       "Architect
+Utile
+115 Kingston St.
+Boston, MA 02111
+(617) 423-7200
+Contact: Brett Bentson"
+
+   175 Boston      2 Harbor Street            architect          Handel Architects            [web_low_confidence]
+       source: https://handelarchitects.com/project/2-harbor-life-sciences-center
+       "Handel Architects credited as: Design Architect / Architect of Record / Interior Designer"
+
+   552 Pawtucket   282 East Avenue            architect          ZDS Architects & Interiors   [unverified_prior]
+       source: 
 
    550 Pawtucket   258 Pine Street            architect          ZDS Architecture & Interiors [unverified_prior]
        source: 
 
-   273 Boston      75 Tremont Street          architect          PCA Design, Inc.             [document_confirmed]
-       source: https://bpda.box.com/s/3uv6t116i2zsy25mugmwiniifeskpiik
-       page/ref: 33
+   312 Boston      34 Oak Street              architect          EMBARC STUDIO                [document_confirmed]
+       source: https://bpda.box.com/s/4rx7c0v9p7e1oq8ml4bzt8mls2en2ifs
+       page/ref: 10
        "Architect
-PCA Design, Inc.
-221 Hampshire Street
-Cambridge, MA 02139"
+EMBARC STUDIO
+Dartagnan Brown
+Ryan Spragg
+60 K Street, Third Floor"
 
-   203 Boston      40 Roland Street           architect          CBT Architects               [document_confirmed]
-       source: https://bpda.box.com/s/hewfv8xeggxdmoo8xs5uu603gcvzsxsf
-       page/ref: 25
-       "Master Plan Architect
-CBT Architects
-110 Canal Street
-Boston, Massachusetts 02114
-617-262-4354"
+   729 Providence  47 Matilda Street          architect          Jack Ryan Architect          [web_corroborated]
+       source: https://matildaoverlook.com/
+       "Designed from the ground up by RISD-trained architect Jack Ryan || Jack Ryan - Principal Architect & Project Leader (Matilda Overlook Residences, on the firm ow"
 
-   253 Boston      207 E Street               general_contractor Kaplan Construction          [registry_confirmed]
-       source: https://data.boston.gov/dataset/boston-jobs-policy-compliance-reports
-       page/ref: compliance project "McDevitt Senior Homes"
-       "Boston Jobs Policy Compliance Report, project "McDevitt Senior Homes" at 207 E Street: general_contractor_name = "Kaplan Construction" (24 worker-period rows, 2"
+   221 Boston      25-37 Dighton Street       architect          McKay Architects             [document_confirmed]
+       source: https://bpda.box.com/s/d3oumj84elr3src3c9zdcdh1g6mp1au9
+       page/ref: 18
+       "Architect McKay Architects Michael McKay mike@mckayarchitects.net 35 Bryant Street Dedham, MA 02026"
 
-   383 Boston      355 Bennington St          architect          Arrowstreet                  [web_low_confidence]
-       source: https://www.arrowstreet.com/portfolio/355-bennington-street/
-       "355 Bennington Street appears in Arrowstreet own architectural portfolio (arrowstreet.com/portfolio/355-bennington-street); the page does not state the role in "
-
-   824 Providence  288 Kinsley Ave            architect          Cordtsen Design Architecture [unverified_prior]
-       source: 
-
-   478 Providence  14 Cargill Street          architect          Aharonian & Associates       [unverified_prior]
-       source: 
-
-   300 Boston      270 West Second Street     civil_engineer     Samiotes Consultants, Inc.   [document_confirmed]
-       source: https://bpda.box.com/s/5oo4fatbeiboyrdqomg3uahcg3zymv0q
-       page/ref: 30
-       "Civil Engineer and Surveyor
-Samiotes Consultants, Inc.
-20 A St
-Framingham, MA 01701"
-
-   254 Boston      7 Channel Center Street    general_contractor Gilbane Building Company     [registry_confirmed]
-       source: https://data.boston.gov/dataset/boston-jobs-policy-compliance-reports
-       page/ref: compliance project "Channel Center 5 (7-9)"
-       "Boston Jobs Policy Compliance Report, project "Channel Center 5 (7-9)" at 5-7-9 Channel Center Street: general_contractor_name = "Gilbane Building Company" (687"
-
-   302 Boston      400-402 Melnea Cass Blvd   civil_engineer     Allen & Major Associates, In [document_confirmed]
-       source: https://bpda.box.com/s/ynxftplkapg8s063jt4413wpemcpaqi8
-       page/ref: 35
-       "Civil Engineer/Landscape Architect
-Allen & Major Associates, Inc.
-100 Commerce Way, Suite 5
-Woburn, MA 01801
-Tel: 781-935-6889
-Michael A. Malynowski, PE | Senio"
-
-   408 Cambridge                              civil_engineer     Beals and Thomas             [web_low_confidence]
-       source: https://www.mvvainc.com/projects/cambridge-crossing
-       "Beals and Thomas (Civil Engineering)"
-
-   151 Boston      1274 Massachusetts Avenue  architect          RODE Architects Inc.         [document_confirmed]
-       source: https://bpda.box.com/s/jn4qw3klgsomi7etr36frzs11tygbf8o
-       page/ref: 1
-       "Architectural services are being provided by RODE Architects Inc."
-
-   437 Cambridge   134 Massachusetts Avenue   architect          Diller Scofidio + Renfro     [web_low_confidence]
-       source: https://capitalprojects.mit.edu/projects/metropolitan-warehouse
-       "Diller Scofidio + Renfro (DS+R), lead designer, New York, NY; and Leers Weinzapfel Associates"
-
-   275 Boston      1 Boston Wharf Road        architect          Multiple                     [document_confirmed]
-       source: https://bpda.box.com/s/ncprm553800ddpyapnz1xe76q6s4h8ue
-       page/ref: 2
-       "Architects:
-Multiple"
-
-   243 Boston      1234-1240 Soldiers Field R architect          RODE Architects, Inc.        [document_confirmed]
-       source: https://bpda.box.com/s/hem3cv33oqiakdpzjmlk06wj1fwxnc5x
-       page/ref: 13
-       "Architect: RODE Architects, Inc. 535 Albany Street, #405 Boston, MA 02118 (617) 422-0090 Eric Robinson Ruthie Kuhlman"
-
-   375 Boston      22 Boston Wharf Road       general_contractor Consigli Construction Compan [registry_confirmed]
-       source: https://data.boston.gov/dataset/boston-jobs-policy-compliance-reports
-       page/ref: compliance project "22 Boston Wharf Road"
-       "Boston Jobs Policy Compliance Report, project "22 Boston Wharf Road" at 22 Boston Wharf Road: general_contractor_name = "Consigli Construction Company" (1433 wo"
-
-   386 Boston      41 LaGrange St             architect          Utile Architecture           [unverified_prior]
-       source: 
-
-    70 Boston      181-185 West First Street  civil_engineer     Chappell Engineering Associa [document_confirmed]
-       source: https://bpda.box.com/s/6pm8g6lycvyjqwqwajikyb0f74il72j4
-       page/ref: 2
-       "Transportation Consultant and Site Chappell Engineering Associates 201 Boston Post Road West, Ste 101 Marlboro, MA  01752 Shaun Kelly skelly@chappellengineering"
-
-   702 Providence  288 Kinsley Ave            civil_engineer     Dana Nisbet, Paul Bannon     [unverified_prior]
-       source: 
-
-   656 Providence  50 Branch Ave              general_contractor Surus Development & Construc [unverified_prior]
-       source: 
-
-   187 Boston      1033-1055 Washington Stree general_contractor John Moriarty & Associates   [document_confirmed]
-       source: https://bpda.box.com/s/cr388mc6qpr4l5fza00u2awqgxp1x3bw
-       page/ref: 24
-       "John Moriarty & Associates, the Projects General Contractor has created a MBE firm within the company and support workforce training and capacity building for p"
-
-   222 Boston      165 Park Drive             architect          The Architectural Team, Inc. [document_confirmed]
-       source: https://bpda.box.com/s/hwnkch6uk9suwh917d3tp6r141f7p7te
-       page/ref: 23
-       "Project Architect
-The Architectural Team, Inc.
-50 Commandant's Way at Admiral's Hill
-Chelsea, MA 02150"
-
-   339 Boston      20 Linden Street           architect          Prellwitz Chilinski Associat [web_low_confidence]
-       source: https://bostonrealestatetimes.com/lbc-boston-developing-250000-sf-to-create-allston-green-under-bostons-
-       "Working with Prellwitz Chilinkski Associates, Inc./PCA of Cambridge, the design strategically places three buildings and two green spaces on the site."
-
-    93 Boston      29-33 Romsey Street        architect          686 Architects               [document_confirmed]
-       source: https://bpda.box.com/s/3l7iyx8kkcgb2tn4zen3kfkv5plmhvch
-       page/ref: 4
-       "Architect: James Christopher, Principal Manager 686 Architects 10 Forbes Road West, Suite 210 Braintree, MA 02184"
-
-   120 Boston      4 Liberty Square           general_contractor Anthem Construction          [document_confirmed]
-       source: https://bpda.box.com/s/osfgsxu38smr2ymnu2vgflcpau4tmnuf
-       page/ref: 4
-       "Anthem Construction will be the General Contractor and has completed many development projects in the City of Boston and surrounding communities in Massachusett"
-
-   348 Boston      11 Faneuil Street          architect          Embarc Studio                [document_confirmed]
-       source: https://bpda.box.com/s/sze6imh40uowblr7fkni0fo4cqdgqetf
-       page/ref: 16
+   162 Boston      90 Allandale Street        architect          Hendren Associates           [document_confirmed]
+       source: https://bpda.box.com/s/t4ux7zuf082yzmrf4dt02025967zfahw
+       page/ref: 3
        "Architect
-Embarc Studio
-60 K Street, 3rd Floor
-Boston, MA 02127
-Dartagnan Brown, dbrown@embarcstudio.com
-Dan Artiges, dartiges@embarcstudio.com"
-
-   353 Boston      201 Stuart Street          architect          CBT Architects               [document_confirmed]
-       source: https://bpda.box.com/s/dsi9tjtmqrr19fe0qnz2gbw4aqbnvxy4
-       page/ref: 14
-       "Architect: CBT Architects 110 Canal Street Boston, MA 02114 (617) 262-4354 Phil Casey Henry Celli"
+Hendren Associates
+Boston, MA"

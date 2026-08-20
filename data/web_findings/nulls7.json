@@ -1,0 +1,87 @@
+[
+ [
+  255,
+  "architect",
+  "searched; Stantec is named as architect in a trade summary but neither the BPDA page nor the news source could be quoted (403), so the prior value stays failed rather than being reinstated"
+ ],
+ [
+  255,
+  "civil_engineer",
+  "searched; no civil engineer named"
+ ],
+ [
+  255,
+  "general_contractor",
+  "searched; no contractor named"
+ ],
+ [
+  420,
+  "architect",
+  "searched; municipal landmark reports cover the 1927 building's history, not the current design team"
+ ],
+ [
+  420,
+  "civil_engineer",
+  "searched; no civil engineer named"
+ ],
+ [
+  420,
+  "general_contractor",
+  "searched; no contractor named"
+ ],
+ [
+  474,
+  "architect",
+  "searched; only the land acquisition is covered; no design team named"
+ ],
+ [
+  474,
+  "civil_engineer",
+  "searched; no civil engineer named"
+ ],
+ [
+  147,
+  "civil_engineer",
+  "searched; no civil engineer named"
+ ],
+ [
+  214,
+  "civil_engineer",
+  "searched; no civil engineer named"
+ ],
+ [
+  319,
+  "civil_engineer",
+  "searched; no civil engineer named"
+ ],
+ [
+  374,
+  "civil_engineer",
+  "searched; Arrowstreet is credited to 1141 Bennington Street, a different record"
+ ],
+ [
+  221,
+  "civil_engineer",
+  "searched; Marc Besio & Associates and Hendren Associates appear as plan preparers on an older scheme the developer never built, and neither is labelled civil engineer"
+ ],
+ [
+  221,
+  "general_contractor",
+  "searched; no contractor named"
+ ],
+ [
+  361,
+  "architect",
+  "searched; JGE Architecture and Design appears only as a rendering credit for the Mission Hill Pathway scheme"
+ ],
+ [
+  361,
+  "civil_engineer",
+  "searched; no civil engineer named"
+ ],
+ [
+  185,
+  "civil_engineer",
+  "searched; no civil engineer named"
+ ]
+]
