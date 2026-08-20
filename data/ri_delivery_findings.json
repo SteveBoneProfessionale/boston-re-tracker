@@ -1,0 +1,209 @@
+{
+ "779": {
+  "id": 779,
+  "field": "delivered_date",
+  "outcome": "resolved",
+  "date": "2022",
+  "precision": "year",
+  "tier": "web_corroborated",
+  "searches": 3,
+  "source_type": "web",
+  "stated_by": "",
+  "reason": "two independent sources agree on 2022; neither states a month for completion, so the precision is the year. The September 2022 move-in is a forward-looking statement in an August 2022 article, not a record of completion.",
+  "sources": [
+   {
+    "url": "https://www.195district.com/projects/emblem-125/",
+    "name": "I-195 Redevelopment District, Emblem 125 (Parcel 28) project page",
+    "date": "",
+    "passage": "Completion: 2022"
+   },
+   {
+    "url": "https://www.rimonthly.com/peek-inside-providences-newest-luxury-apartment-building/",
+    "name": "Rhode Island Monthly",
+    "date": "2022-08-03",
+    "passage": "Emblem 125, at 125 Clifford St. in the city's Innovation and Design District, will house 249 apartments ... tenants are set to move in September. Shawmut Design and Construction began construction on the building in October 2020."
+   }
+  ],
+  "display": "2022"
+ },
+ "627": {
+  "id": 627,
+  "field": "delivered_date",
+  "outcome": "resolved",
+  "date": "June 2026",
+  "precision": "month",
+  "tier": "web_corroborated",
+  "searches": 5,
+  "source_type": "web",
+  "reason": "two independent outlets place the ribbon cutting and first occupancy in June 2026. The month is stored rather than the day: WPRI dates the ribbon cutting to the Monday before 9 June, and a ribbon cutting is an event rather than the certificate of occupancy.",
+  "sources": [
+   {
+    "url": "https://www.yahoo.com/news/us/articles/affordable-homes-unveiled-providence-204119761.html",
+    "name": "WPRI (Providence), syndicated",
+    "date": "2026-06-09",
+    "passage": "State and city leaders celebrated the completion of a new affordable housing complex in Providence with a ribbon-cutting Monday."
+   },
+   {
+    "url": "https://www.aol.com/news/178-unit-affordable-housing-project-090817706.html",
+    "name": "The Providence Journal, syndicated",
+    "date": "2026-06-10",
+    "passage": "Rising six stories above a sea of hospital parking lots, a new 178-unit apartment building is slowly moving in residents. ... the building is 30% occupied."
+   }
+  ],
+  "display": "Jun 2026"
+ },
+ "691": {
+  "id": 691,
+  "field": "delivered_date",
+  "outcome": "resolved",
+  "date": "2025-10-10",
+  "precision": "day",
+  "tier": "web_low_confidence",
+  "searches": 5,
+  "source_type": "web",
+  "reason": "one independent source states the opening day. Crossroads' own project page says only 'Expected to be completed in the fall of 2025', which is consistent with it but is a forecast and does not corroborate the date; the grand-opening release PDF carries no date in its extractable text.",
+  "sources": [
+   {
+    "url": "https://www.browndailyherald.com/article/2025/10/new-176-unit-permanent-supportive-housing-complex-opens-in-providence",
+    "name": "The Brown Daily Herald",
+    "date": "2025-10",
+    "passage": "On Oct. 10, the Summer Street Apartments, a new five-story 176-unit permanent supportive housing development for formerly homeless Rhode Island residents, opened at 94 Summer St. in Providence. ... Residents began moving in on Monday."
+   }
+  ],
+  "display": "10 Oct 2025"
+ },
+ "673": {
+  "id": 673,
+  "field": "delivered_date",
+  "outcome": "null",
+  "searches": 2,
+  "reason": "searched the address, the project name and the developer (Bahman Jalili) across local press. GoLocalProv and the Fox Point Neighborhood Association cover the proposal, the demolition and the construction road closures, but no source publishes a completion or opening date. The only 'available now for move-in' claims are on rental listing sites, which are excluded and carry no date anyway."
+ },
+ "542": {
+  "id": 542,
+  "field": "delivered_date",
+  "outcome": "null",
+  "searches": 2,
+  "reason": "the Valley Breeze (13 June 2017) covers the tax agreement and says the conversion would be 'done in the next few months', which is a forecast rather than a record of completion. The building now operates as 1Lofts, but no source publishes a completion or opening date. Note the unit count also disagrees with the tracker: coverage says 112, the row says 120."
+ },
+ "509": {
+  "id": 509,
+  "field": "delivered_date",
+  "outcome": "resolved",
+  "date": "2021",
+  "precision": "year",
+  "tier": "web_low_confidence",
+  "searches": 4,
+  "source_type": "web",
+  "reason": "New England Real Estate Journal reports the building complete, but its body returns 403 and only the headline is verifiable directly; the 2021 year comes from that article as rendered by the search index. ArtInRuins independently brackets construction as 2020-2022, which contains it but does not pin it, so this stays a single-source claim rather than corroborated. The 69-unit figure matches this row exactly, which settles identity against the other phase at this address.",
+  "sources": [
+   {
+    "url": "https://nerej.com/churchill-and-banks-completes-69-unit-apartment-complex-at-580-south-water-in-fox-point",
+    "name": "New England Real Estate Journal",
+    "date": "",
+    "passage": "Churchill and Banks completes 69-unit apartment complex at 580 South Water in Fox Point"
+   },
+   {
+    "url": "https://artinruins.com/property/580-water-street-pvd/",
+    "name": "ArtInRuins",
+    "date": "",
+    "passage": "Built: 2020-2022"
+   }
+  ],
+  "display": "2021"
+ },
+ "625": {
+  "id": 625,
+  "field": "delivered_date",
+  "outcome": "resolved",
+  "date": "September 2023",
+  "precision": "month",
+  "tier": "web_corroborated",
+  "searches": 4,
+  "source_type": "web",
+  "reason": "identity is settled by three things, not by the address alone: the case describes a new pre-K-5 school developed in tandem with 249 Laban Street, the coverage calls it the Laban Street school, and the 80,000 sf reported matches the 79,447 sf on the row. Stored at month precision because occupancy began with the 2023-24 school year; the December ribbon cutting was ceremonial and came three months after students were in the building. Both sources are parties to the project -- the construction manager and the school district -- rather than independent journalism.",
+  "sources": [
+   {
+    "url": "https://ogind.com/2023/see-inside-providences-new-spaziano-elementary-school-a-44-million-project/",
+    "name": "O&G Industries (construction manager)",
+    "date": "2023-12-08",
+    "passage": "students at Spaziano were delayed by three days as the project wrapped up and an inspection took place ... The school broke ground on construction in 2022 and took more than a year to complete. Elected officials and other stakeholders held a ceremonial ribbon cutting outside the Laban Street school on Friday."
+   },
+   {
+    "url": "https://rebuildpvdschools.providenceschools.org/completed-projects/spaziano-elementary-school",
+    "name": "Rebuild PVD Schools, completed projects (Providence Public Schools)",
+    "date": "",
+    "passage": "Spaziano Elementary School is listed under Completed Projects, captioned 'First Day of School 2023'."
+   }
+  ],
+  "display": "Sep 2023"
+ },
+ "674": {
+  "id": 674,
+  "field": "delivered_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the case is an amendment to the Moses Brown campus master plan for athletic facilities -- a scoreboard, seating and path improvements -- not a building. There is no delivery to date, and the assessor jump behind the Complete flag reflects the whole 250 Lloyd Avenue campus rather than this filing. Searched the school and the address; coverage names only the 2017 Gorgi squash centre, a different project."
+ },
+ "705": {
+  "id": 705,
+  "field": "delivered_date",
+  "outcome": "resolved",
+  "date": "2024-09-28",
+  "precision": "day",
+  "tier": "web_corroborated",
+  "searches": 4,
+  "source_type": "web",
+  "reason": "the public opening day is named by one source and confirmed a year later by the owner. Identity is unambiguous: both name 1326 Westminster Street and the 3SIX0 mass-timber building, which matches the architect on the row.",
+  "sources": [
+   {
+    "url": "https://www.classicalmusicdaily.com/2024/09/cmw.htm",
+    "name": "Classical Music Daily",
+    "date": "2024-09",
+    "passage": "The new centre will open to the public for the first time at a community event with free admission, 2-7pm on Saturday 28 September 2024."
+   },
+   {
+    "url": "https://communitymusicworks.org/the-community-musicworks-center/",
+    "name": "Community MusicWorks, The CMW Center",
+    "date": "2025-09",
+    "passage": "One year ago, Community MusicWorks opened the doors to The CMW Center."
+   }
+  ],
+  "display": "28 Sep 2024"
+ },
+ "679": {
+  "id": 679,
+  "field": "delivered_date",
+  "outcome": "null",
+  "searches": 5,
+  "reason": "a strong lead that does not survive the identity test. Copley Chambers II & III (Marathon Development, 124 affordable homes on Broad Street) was 100% complete with a ribbon cutting on 16 August 2024 per RIHousing, and National Equity Fund called it 'newly opened' on 9 September 2024. But no source I could verify places Copley II at 220 Broad Street -- only rental listing sites do, and they are excluded -- and the counts do not line up cleanly either: this row is a five-storey building with 44 units, RIHousing lists the pair as four storeys and 124 units combined. RIHousing's preliminary RFA, which would name the site addresses, 404s. Recording null rather than attaching another project's completion date to this row."
+ },
+ "729": {
+  "id": 729,
+  "field": "delivered_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched the address, the project name (Matilda Overlook) and the architect. The building exists and is leasing, but every source carrying a date is a rental listing site, which is excluded; the project's own site says only 'newly-constructed'. No completion or opening date is published."
+ },
+ "744": {
+  "id": 744,
+  "field": "delivered_date",
+  "outcome": "null",
+  "searches": 2,
+  "reason": "identity is settled -- 1292 Westminster operates as 1290W, five storeys and 35 units, matching this row and the Mike Lemoi proposal exactly -- but the date is not. The only 'built in 2020' claim sits on an excluded listing aggregator; the operator's own page says only 'a brand new building' with no year, and the West Broadway Neighborhood Association coverage predates construction."
+ },
+ "733": {
+  "id": 733,
+  "field": "delivered_date",
+  "outcome": "null",
+  "searches": 3,
+  "reason": "identity is settled -- ZDS Architecture's own project page and ArtInRuins both describe the 34-unit new build replacing the auto garage at 466-468 West Fountain, matching this row's architect and unit count exactly -- but no source states a completion date. ArtInRuins gives 'Built: 2020-2021', which is a two-year window rather than a date and is not storable as an actual; the owner's portfolio page returns 403."
+ },
+ "652": {
+  "id": 652,
+  "field": "delivered_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched the address, the applicant (Wilbel Abreu) and the neighbourhood. The four-storey 12-unit building matches the row and is finished -- it is on the market as a recently completed property -- but every source carrying a date is an MLS or listing page, which is excluded, and none states a completion date anyway."
+ }
+}

@@ -7,7 +7,8 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 
-from app.data import STAGE_COLORS, review_scale_vocab, city_options, keep_city_selectable
+from app.data import (STAGE_COLORS, review_scale_vocab, city_options,
+                      keep_city_selectable, format_delivery_date)
 
 _ORANGE = "#F5821E"
 _MUTED  = "#8A9BB0"
@@ -46,10 +47,20 @@ _FILTER_KEYS = [
 ]
 
 
-def _delivery_year(val: str) -> str:
-    if not val:
-        return "Unknown"
-    m = re.search(r"\b(20\d{2})\b", str(val))
+def _delivery_year(row) -> str:
+    """The year this project delivers, or is forecast to.
+
+    Reads the two dated columns rather than the free-text phrase they were
+    parsed out of, so a project whose date came from anywhere other than an
+    Article 80 filing -- every Rhode Island one -- is filterable too. An
+    actual beats a forecast: if it is built, the year it was built is the
+    answer.
+    """
+    for col in ("delivered_date", "target_date"):
+        v = row.get(col)
+        if v is not None and v == v:
+            return str(v.year)
+    m = re.search(r"\b(20\d{2})\b", str(row.get("expected_delivery") or ""))
     return m.group(1) if m else "Unknown"
 
 
@@ -86,7 +97,7 @@ def _diamond(color: str, approximate: bool) -> str:
 
 def render(df: pd.DataFrame):
     df = df.copy()
-    df["_delivery_year"] = df["expected_delivery"].apply(_delivery_year)
+    df["_delivery_year"] = df.apply(_delivery_year, axis=1)
 
     statuses     = ["All"] + sorted(df["status"].replace("", pd.NA).dropna().unique().tolist())
     # Registry-driven rather than hardcoded to Article 80's two tiers.
@@ -273,6 +284,12 @@ def render(df: pd.DataFrame):
         city_s    = f" · {row['city']}" if row.get("city") and row["city"] != "Boston" else ""
         approx_s  = " (approximate location)" if approximate else ""
 
+        # Delivered and target are different claims, so the pin says which one
+        # it is showing. A forecast labelled DELIVERY reads as a fact.
+        _dd = format_delivery_date(row.get("delivered_date"), row.get("delivered_precision"))
+        _td = format_delivery_date(row.get("target_date"), row.get("target_precision"))
+        delivery_s = f"DELIVERED: {_dd}" if _dd else (f"TARGET: {_td}" if _td else "")
+
         bpda_link = ""
         url = row.get("bpda_url", "")
         if url and not url.startswith("manual:"):
@@ -298,7 +315,7 @@ def render(df: pd.DataFrame):
             {"<span style='font-size:9px;color:" + _MUTED + "'>" + row['asset_class'] + "</span>" if row.get('asset_class') else ""}
           </div>
           {"<div style='font-size:10px;color:" + _MUTED + ";margin-top:6px'>" + gsf_str + (" · " if gsf_str and units_str else "") + units_str + "</div>" if gsf_str or units_str else ""}
-          {"<div style='font-size:10px;color:" + _MUTED + ";margin-top:2px'>DELIVERY: " + row['expected_delivery'] + "</div>" if row.get('expected_delivery') else ""}
+          {"<div style='font-size:10px;color:" + _MUTED + ";margin-top:2px'>" + delivery_s + "</div>" if delivery_s else ""}
           {bpda_link}
         </div>"""
 

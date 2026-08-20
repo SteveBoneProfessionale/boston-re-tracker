@@ -13,7 +13,7 @@ from app.data import (
     DEVELOPER_CONFIDENCE, developer_confidence, SF_SOURCES, ARCHITECT_SOURCES,
     load_field_citations, RI_SF_NOTE, RI_SF_NOTE_TITLE, UNITS_CONFIDENCE,
     city_options, keep_city_selectable,
-    FIELD_TIERS, load_field_tiers, mark_team_value,
+    FIELD_TIERS, load_field_tiers, mark_team_value, format_delivery_date,
 )
 from scraper.normalize_developer import is_real_company
 
@@ -152,6 +152,18 @@ def _dev_display(row) -> str:
     return raw if raw and raw not in _BAD_DEVS else "—"
 
 
+# How the screener can be ordered. Only the two delivery columns are here,
+# because they are the only ones whose printed form differs from the value
+# they sort by -- everything else the grid's own header sort gets right.
+_SORTS = {
+    "Default":                    None,
+    "Delivered · earliest first": ("delivered_date", True),
+    "Delivered · latest first":   ("delivered_date", False),
+    "Target · soonest first":     ("target_date", True),
+    "Target · furthest out":      ("target_date", False),
+}
+
+
 # ── Column sizing ─────────────────────────────────────────────────────
 # The screener is drawn into a canvas, so nothing in it reflows: a column is
 # exactly as wide as it is told to be, and any value wider than that is
@@ -233,7 +245,8 @@ def _build_display(filtered: pd.DataFrame) -> pd.DataFrame:
         "name", "developer_canonical", "developer", "architect",
         "civil_engineer", "contractor", "neighborhood", "city",
         "asset_class", "status", "stage", "total_gsf", "residential_units",
-        "building_height_ft", "expected_delivery",
+        "building_height_ft", "delivered_date", "delivered_precision",
+        "target_date", "target_precision",
     ]].copy()
 
     display["developer_canonical"] = display.apply(_dev_display, axis=1)
@@ -300,28 +313,37 @@ def _build_display(filtered: pd.DataFrame) -> pd.DataFrame:
     # only, done by the column config. Provenance moves to its own narrow
     # column rather than being welded into the value, which is what forced the
     # value to be text in the first place.
-    # A unit count carries how far it can be trusted, for the same reason a
-    # developer name does: 34 units at 1077 Westminster looked exactly like a
-    # verified figure until the final plan said 41.
-    _uc = filtered["units_confidence"] if "units_confidence" in filtered.columns else None
-    display["units_mark"] = ([UNITS_CONFIDENCE.get(c, {}).get("mark", "") for c in _uc]
-                             if _uc is not None else [""] * len(display))
-
-    display["sf_src_mark"] = [
-        SF_SOURCES[src]["mark"] if src in SF_SOURCES else ""
-        for src in display["_sf_src"]
+    # DELIVERED and TARGET are two columns, not one field with a marker.
+    # A marker does not survive CSV export -- a forecast and an actual would
+    # land in the same spreadsheet column and be counted together, which is
+    # the one error this table must not make. So an unfinished project has a
+    # TARGET and no DELIVERED, a finished one has a DELIVERED and no TARGET,
+    # and no row ever carries both.
+    #
+    # Each renders at the precision its source actually had: "Q2 2026" is
+    # shown as Q2 2026, never as 1 April 2026, because the source never said
+    # April. The underlying value is a real date and sorting uses it -- see
+    # the SORT control, which does the ordering rather than the column
+    # headers, since only it can put the blanks last in BOTH directions.
+    display["delivered_fmt"] = [
+        format_delivery_date(d, pr)
+        for d, pr in zip(display["delivered_date"], display["delivered_precision"])
+    ]
+    display["target_fmt"] = [
+        format_delivery_date(d, pr)
+        for d, pr in zip(display["target_date"], display["target_precision"])
     ]
     display = display[[
         "name", "developer_canonical", "architect", "civil_engineer", "contractor",
         "neighborhood", "city",
-        "asset_class", "status_fmt", "total_gsf", "sf_src_mark",
-        "residential_units", "units_mark", "building_height_ft", "expected_delivery",
+        "asset_class", "status_fmt", "total_gsf",
+        "residential_units", "building_height_ft", "delivered_fmt", "target_fmt",
     ]]
     display.columns = [
         "PROJECT", "DEVELOPER", "ARCHITECT", "CIVIL ENGINEER", "CONTRACTOR",
         "NEIGHBORHOOD", "CITY",
-        "TYPE", "STATUS", "SF", "SRC",
-        "UNITS", "U?", "HEIGHT", "DELIVERY",
+        "TYPE", "STATUS", "SF",
+        "UNITS", "HEIGHT", "DELIVERED", "TARGET",
     ]
     return display
 
@@ -535,8 +557,27 @@ def render(df: pd.DataFrame):
             mask = mask | filtered["alt_addresses"].str.lower().str.contains(q, na=False)
         filtered = filtered[mask]
 
-    # Count row
-    cnt_col, exp_col = st.columns([5, 1])
+    # ── Sort ──────────────────────────────────────────────────────
+    # The two date columns are sorted HERE rather than by clicking their
+    # headers. Two reasons, both fatal to the header sort. The cells hold the
+    # rendered label -- "Q2 2026", "2025" -- because a quarter must not print
+    # as 1 April, and sorting those as text puts Q1 after Q4 and 2030 before
+    # 2029 Q2. And a blank has to sort LAST whichever way the arrow points:
+    # a project with no known date is not the earliest, and it is not the
+    # latest either. Both are handled by ordering the real dates in pandas
+    # before the frame ever reaches the grid.
+    sort_col, cnt_col, exp_col = st.columns([2, 4, 1])
+    sort_choice = sort_col.selectbox(
+        "SORT", list(_SORTS), key="tbl_sort",
+        help="Chronological, on the stored date rather than the printed "
+             "label. Projects with no date in the sorted column go last in "
+             "both directions.")
+    _spec = _SORTS[sort_choice]
+    if _spec:
+        _col, _asc = _spec
+        filtered = filtered.sort_values(
+            _col, ascending=_asc, na_position="last", kind="mergesort")
+
     cnt_col.markdown(
         f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 8px">'
         f'<span style="color:#e2e8f0;font-weight:700">{len(filtered)}</span> PROJECTS'
@@ -582,11 +623,6 @@ def render(df: pd.DataFrame):
                 width=widths["SF"], format="%,d",
                 help="Gross square feet, as stated by the source. Sorts by "
                      "magnitude; blank means no source states one."),
-            "SRC":    st.column_config.TextColumn(
-                width=widths["SRC"],
-                help="Square-footage provenance. ◈ = web-sourced, ✲ = corrected "
-                     "from a lot area, ▣ = plan set or staff report. "
-                     "Unmarked = stated in the planning filing."),
             "ARCHITECT": st.column_config.TextColumn(
                 width=widths["ARCHITECT"],
                 help="Architecture practice where one is named, otherwise the "
@@ -608,16 +644,23 @@ def render(df: pd.DataFrame):
             "TYPE":   st.column_config.TextColumn(width=widths["TYPE"]),
             "STATUS": st.column_config.TextColumn(width=widths["STATUS"]),
             "UNITS":  st.column_config.NumberColumn(width=widths["UNITS"], format="%d"),
-            "U?":     st.column_config.TextColumn(
-                width=widths["U?"],
-                help="Unit-count confidence. Blank = corroborated by two or more "
-                     "documents. · = a single document. ≠ = a later document "
-                     "states a different figure. ? = no document in the corpus "
-                     "states it at all."),
             "HEIGHT": st.column_config.NumberColumn(width=widths["HEIGHT"], format="%d ft"),
-            "DELIVERY": st.column_config.TextColumn(
-                width=widths["DELIVERY"],
-                help="Expected delivery as the filing states it."),
+            "DELIVERED": st.column_config.TextColumn(
+                width=widths["DELIVERED"],
+                help="When the building was actually finished. Blank means it "
+                     "has not delivered, or that it has and no source states "
+                     "the date — the detail panel says which. Shown at the "
+                     "precision the source gave: a certificate of occupancy "
+                     "gives a day, an assessor record often gives only a year."),
+            "TARGET": st.column_config.TextColumn(
+                width=widths["TARGET"],
+                help="Forecast completion, and only ever a forecast: it goes "
+                     "blank the moment a project delivers, so nothing in this "
+                     "column can be mistaken for something that happened. "
+                     "Shown at the source's precision — Q2 2026 means the "
+                     "quarter, not 1 April. A forecast is only as good as its "
+                     "vintage, so who stated it and when are in the detail "
+                     "panel and in the CSV export."),
         },
     )
 
@@ -638,6 +681,44 @@ def render(df: pd.DataFrame):
     if selection and selection.selection.rows:
         idx = selection.selection.rows[0]
         _detail_panel(filtered.iloc[idx], df)
+
+
+def _delivered_detail(p) -> str | None:
+    """The actual completion date, with what established it."""
+    d = format_delivery_date(p.get("delivered_date"), p.get("delivered_precision"))
+    if not d:
+        # Complete with no date is a real state and a different one from not
+        # complete. Saying so beats a blank that reads like an oversight.
+        if (p.get("completion_stage") or "") == "Complete":
+            basis = (p.get("completion_basis") or "").replace("_", " ")
+            return (f'<span style="color:{_MUTED}">complete, but no source '
+                    f'states the date{f" ({basis})" if basis else ""}</span>')
+        return None
+    basis = (p.get("completion_basis") or "").replace("_", " ")
+    return d + (f' <span style="color:{_MUTED}">({basis})</span>' if basis else "")
+
+
+def _target_detail(p) -> str | None:
+    """The forecast, with its vintage. A 2026 completion stated in 2021 and
+    one stated last month are different claims and must not read alike."""
+    t = format_delivery_date(p.get("target_date"), p.get("target_precision"))
+    if not t:
+        return None
+    bits = []
+    who = (p.get("target_stated_by") or "").strip()
+    when = p.get("target_stated_on")
+    when_s = format_delivery_date(when, "day") if when is not None and when == when else ""
+    if when_s:
+        bits.append(f"stated {when_s}")
+    if who:
+        bits.append(f"by {who}")
+    vintage = f' <span style="color:{_MUTED}">({", ".join(bits)})</span>' if bits else ""
+    # The verbatim phrase, where the parse dropped something -- a range, a
+    # season. Without it "Q2 2024" looks like a quote and it is not.
+    raw = (p.get("expected_delivery") or "").strip()
+    verbatim = (f'<br><span style="color:{_MUTED};font-size:10px">source wording: '
+                f'"{raw}"</span>') if raw and raw.lower() != t.lower() else ""
+    return t + vintage + verbatim
 
 
 def _lifecycle_bar(status: str) -> str:
@@ -819,6 +900,14 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
                    f'font-size:9px;letter-spacing:0.08em">{_sm["label"].upper()}</span>')
     units = p.get("residential_units")
     units_str = f"{int(units):,}" if pd.notna(units) and units else None
+    # Unit-count confidence lost its column in the screener; it has not lost
+    # its meaning. 34 units at 1077 Westminster looked exactly like a verified
+    # figure until the final plan said 41, so the caveat follows the number
+    # here instead of riding beside it in a two-character column.
+    _uconf = UNITS_CONFIDENCE.get(p.get("units_confidence") or "")
+    if units_str and _uconf and _uconf.get("label"):
+        units_str += (f'<br><span style="color:{_MUTED};font-size:9px;'
+                      f'letter-spacing:0.08em">{_uconf["label"].upper()}</span>')
     cgsf = p.get("commercial_gsf")
     cgsf_str = f"{int(cgsf):,} SF" if pd.notna(cgsf) and cgsf else None
     ht = p.get("building_height_ft")
@@ -885,7 +974,8 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
             _kv("HEIGHT",           ht_str) +
             _kv("STORIES",          stories_str) +
             _kv("REVIEW SCALE",     scale_str) +
-            _kv("EXPECTED DELIVERY", p.get("expected_delivery")) +
+            _kv("DELIVERED",        _delivered_detail(p)) +
+            _kv("TARGET",           _target_detail(p)) +
             _kv("FILING TYPE",      (p.get("processed_filing_type") or "").upper() or None),
             unsafe_allow_html=True,
         )

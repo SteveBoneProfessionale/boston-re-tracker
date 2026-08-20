@@ -248,6 +248,11 @@ FIELD_TIERS = {
     "unverified_prior":   {"label": "Unverified",         "mark": "·"},
 }
 
+# Delivery dates render at the precision their source had -- see
+# scraper/delivery_dates.py. Re-exported here so every tab formats a date the
+# same way rather than each growing its own.
+from scraper.delivery_dates import format_date as format_delivery_date  # noqa: E402
+
 SF_SOURCES = {
     "filing":    {"label": "Filing-stated", "color": "#e2e8f0", "mark": ""},
     "web":       {"label": "Web-sourced",   "color": "#38bdf8", "mark": "◈"},
@@ -634,6 +639,20 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 "landscape_architect": p.landscape_architect or "",
                 "contractor": p.general_contractor or "",
                 "attorney": p.attorney or "",
+                # DELIVERY, as two separate claims. Real dates so the
+                # screener can sort them chronologically, the precision of
+                # the period each source actually named, and -- for a
+                # forecast -- when it was made and by whom. A target and an
+                # actual never occupy the same column: see the note on
+                # Project.delivered_date.
+                "delivered_date": p.delivered_date,
+                "delivered_precision": p.delivered_precision or "",
+                "target_date": p.target_date,
+                "target_precision": p.target_precision or "",
+                "target_stated_on": p.target_stated_on,
+                "target_stated_by": p.target_stated_by or "",
+                # The verbatim phrase behind the parsed target, kept because
+                # the parse is lossy: a range stores its start.
                 "expected_delivery": p.expected_delivery or "",
                 "description": p.description or "",
                 "processed_filing_type": p.processed_filing_type or "",
@@ -679,6 +698,11 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
             })
         df = pd.DataFrame(rows)
         if not df.empty:
+            # Real datetimes, so a sort on either delivery column is
+            # chronological and a missing date is NaT rather than a string
+            # that would sort among the real ones.
+            for _c in ("delivered_date", "target_date", "target_stated_on"):
+                df[_c] = pd.to_datetime(df[_c], errors="coerce")
             # Charted stage plus whether it is agenda-only. Computed here so
             # every consumer sees the same resolution and no component has to
             # know which markets carry two-field status.

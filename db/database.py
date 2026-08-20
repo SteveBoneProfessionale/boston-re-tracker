@@ -146,6 +146,16 @@ def init_db():
     # even applicable. A zoning-board variance is not a RIGL 45-23 land
     # development review, so it has no scale to be missing.
     _add_column_if_missing("projects", "review_scale_basis", "VARCHAR")
+    # DELIVERED vs TARGET, kept as two columns so a forecast can never be
+    # counted as a delivery -- see the note on the model. Real DATE values so
+    # the screener sorts chronologically, plus the precision of the period the
+    # source actually named, plus the vintage of a forecast.
+    _add_column_if_missing("projects", "delivered_date", "DATE")
+    _add_column_if_missing("projects", "delivered_precision", "VARCHAR")
+    _add_column_if_missing("projects", "target_date", "DATE")
+    _add_column_if_missing("projects", "target_precision", "VARCHAR")
+    _add_column_if_missing("projects", "target_stated_on", "DATE")
+    _add_column_if_missing("projects", "target_stated_by", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 

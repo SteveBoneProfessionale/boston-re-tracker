@@ -1,6 +1,6 @@
 from datetime import datetime
 from sqlalchemy import (
-    Column, Integer, String, Float, Boolean, DateTime,
+    Column, Integer, String, Float, Boolean, DateTime, Date,
     ForeignKey, Text, UniqueConstraint
 )
 from sqlalchemy.orm import DeclarativeBase, relationship
@@ -142,6 +142,30 @@ class Project(Base):
     parking_spaces = Column(Integer)
     architect = Column(String)
     civil_engineer = Column(String)
+    # DELIVERY, as two separate claims that must never be confused.
+    #
+    # delivered_* is what happened: null until the building is finished.
+    # target_* is what is forecast: null once it has. They are two columns
+    # rather than one field with a marker because a marker does not survive
+    # CSV export -- a forecast and a delivery would land in the same column of
+    # the same spreadsheet and be counted together.
+    #
+    # The date is the START of whatever period the source named and the
+    # precision says which period that was, so "Q2 2026" sorts against a day
+    # correctly and still renders as Q2 2026 instead of a false 1 April.
+    # See scraper/delivery_dates.py.
+    delivered_date = Column(Date)
+    delivered_precision = Column(String)      # day | month | quarter | year
+    target_date = Column(Date)
+    target_precision = Column(String)
+    # A forecast is only as good as its vintage. A 2026 completion stated in
+    # 2021 and one stated last month are different claims, and without the
+    # date and the party the two are indistinguishable in the column.
+    target_stated_on = Column(Date)
+    target_stated_by = Column(String)
+    # The verbatim phrase, kept because the parse is lossy by design: a range
+    # stores its start, and the original wording is the only thing that still
+    # says it was a range.
     expected_delivery = Column(String)
     project_status_filing = Column(String)
     description = Column(Text)
