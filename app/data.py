@@ -233,6 +233,21 @@ ARCHITECT_SOURCES = {
     "web":      {"label": "Web-sourced",   "mark": "◈"},
 }
 
+# How strongly a project-team value is evidenced, from field_provenance.
+# This supersedes ARCHITECT_SOURCES for the three team fields: the backfill
+# writes it for architect, civil engineer and contractor alike, and it records
+# the STRENGTH of the evidence rather than merely which channel found it. A
+# value carried forward from before that run and never checked against a
+# document is the weakest thing in the table, so it is marked rather than
+# left to read as verified.
+FIELD_TIERS = {
+    "document_confirmed": {"label": "Document-confirmed", "mark": "▣"},
+    "registry_confirmed": {"label": "Registry-confirmed", "mark": "◉"},
+    "web_corroborated":   {"label": "Web, two sources",   "mark": "◈"},
+    "web_low_confidence": {"label": "Web, one source",    "mark": "◇"},
+    "unverified_prior":   {"label": "Unverified",         "mark": "·"},
+}
+
 SF_SOURCES = {
     "filing":    {"label": "Filing-stated", "color": "#e2e8f0", "mark": ""},
     "web":       {"label": "Web-sourced",   "color": "#38bdf8", "mark": "◈"},
@@ -737,6 +752,46 @@ def load_stage_history() -> pd.DataFrame:
         return df
     finally:
         session.close()
+
+
+@st.cache_data(ttl=300)
+def load_field_tiers() -> dict:
+    """Live evidence tier for every project-team value, keyed (project_id, field).
+
+    field_provenance holds one live row per project and field. The value is
+    already mirrored onto projects, so what is needed here is the strength
+    behind it and, for the contractor, whether a blank means "nobody has been
+    appointed yet" or "we looked and found no one" -- those are different
+    facts and must not render alike.
+    """
+    from sqlalchemy import text
+    from db.database import engine
+    out = {}
+    with engine.connect() as conn:
+        rows = conn.execute(text(
+            "select project_id, field, tier, outcome from field_provenance "
+            "where superseded = 0 and coalesce(retracted, 0) = 0"
+        ))
+        for pid, field, tier, outcome in rows:
+            out[(int(pid), field)] = {"tier": tier or "", "outcome": outcome or ""}
+    return out
+
+
+def mark_team_value(value: str, meta: dict | None) -> str:
+    """Render one team value with its evidence mark, or say why it is blank."""
+    outcome = (meta or {}).get("outcome", "")
+    if outcome == "not_yet_selected":
+        return "⋯ not yet appointed"
+    v = (value or "").strip()
+    if not v or v == "not_yet_selected":
+        return "—"
+    # A value with no provenance row at all is one the backfill never reached
+    # -- the thirteen rows with no city were held out of it by instruction.
+    # It gets the unverified mark, because leaving it bare would make the
+    # weakest thing in the table look like the strongest.
+    tier = (meta or {}).get("tier", "")
+    mark = FIELD_TIERS.get(tier, {}).get("mark", "·" if meta is None else "")
+    return f"{mark} {v}".strip()
 
 
 def load_field_citations(project_id: int) -> list[dict]:

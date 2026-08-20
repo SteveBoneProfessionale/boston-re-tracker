@@ -12,8 +12,20 @@ from app.data import (
     DEVELOPER_CONFIDENCE, developer_confidence, SF_SOURCES, ARCHITECT_SOURCES,
     load_field_citations, RI_SF_NOTE, RI_SF_NOTE_TITLE, UNITS_CONFIDENCE,
     city_options, keep_city_selectable,
+    FIELD_TIERS, load_field_tiers, mark_team_value,
 )
 from scraper.normalize_developer import is_real_company
+
+# One sentence, reused by all three team columns, so the reader learns the
+# marks once rather than three times in three wordings.
+_TIER_HELP = (
+    "▣ = confirmed in a primary document with the passage quoted, "
+    "◉ = from a permit or licence registry, "
+    "◈ = web, two independent sources, "
+    "◇ = web, a single source, "
+    "· = carried forward from earlier work and never checked against a "
+    "document. — = no source names one."
+)
 
 _BG     = "#0d0f12"
 _BG2    = "#141720"
@@ -344,7 +356,8 @@ def render(df: pd.DataFrame):
     _section("SCREENER")
 
     display = filtered[[
-        "name", "developer_canonical", "developer", "architect", "neighborhood", "city",
+        "name", "developer_canonical", "developer", "architect",
+        "civil_engineer", "contractor", "neighborhood", "city",
         "asset_class", "status", "stage", "total_gsf", "residential_units",
         "building_height_ft", "expected_delivery",
     ]].copy()
@@ -363,17 +376,30 @@ def render(df: pd.DataFrame):
     ]
     display.drop(columns=["developer", "_conf"], inplace=True)
 
-    # The architect sits beside the developer and is marked the same way, for
-    # the same reason: most of these names come from a drawing title block or
-    # a permit record rather than from the planning filing, and an unmarked
-    # name would read as though the filing itself stated it. Blank stays
-    # blank -- an em dash here, not a guess.
-    _asrc = (filtered["architect_source"] if "architect_source" in filtered.columns
-             else [""] * len(filtered))
-    display["architect"] = [
-        (ARCHITECT_SOURCES.get(src, {}).get("mark", "") + " " + a).strip() if a else "—"
-        for a, src in zip(display["architect"].fillna(""), _asrc)
-    ]
+    # The three project-team fields sit beside the developer and are marked the
+    # same way, for the same reason: most of these names come from a drawing
+    # title block, a permit record or a web article rather than from the
+    # planning filing, and an unmarked name would read as though the filing
+    # itself stated it.
+    #
+    # The mark comes from field_provenance rather than architect_source. That
+    # column only ever described the architect and only recorded the channel;
+    # the provenance table covers all three fields and records how strongly
+    # each value is evidenced, which is the thing a reader needs to weigh.
+    #
+    # A blank contractor is deliberately two different things. On a project
+    # that has not broken ground there is nobody to name yet, and rendering
+    # that as an em dash beside a project we searched and came up empty would
+    # be the table lying about its own coverage.
+    _tiers = load_field_tiers()
+    _ids = list(filtered["id"])
+    for _col, _field in (("architect", "architect"),
+                         ("civil_engineer", "civil_engineer"),
+                         ("contractor", "general_contractor")):
+        display[_col] = [
+            mark_team_value(v, _tiers.get((int(pid), _field)))
+            for pid, v in zip(_ids, display[_col].fillna(""))
+        ]
 
     def _status_fmt(row):
         if not row["status"]:
@@ -412,12 +438,14 @@ def render(df: pd.DataFrame):
         for src in display["_sf_src"]
     ]
     display = display[[
-        "name", "developer_canonical", "architect", "neighborhood", "city",
+        "name", "developer_canonical", "architect", "civil_engineer", "contractor",
+        "neighborhood", "city",
         "asset_class", "status_fmt", "total_gsf", "sf_src_mark",
         "residential_units", "units_mark", "building_height_ft", "expected_delivery",
     ]]
     display.columns = [
-        "PROJECT", "DEVELOPER", "ARCHITECT", "NEIGHBORHOOD", "CITY",
+        "PROJECT", "DEVELOPER", "ARCHITECT", "CIVIL ENGINEER", "CONTRACTOR",
+        "NEIGHBORHOOD", "CITY",
         "TYPE", "STATUS", "SF", "SRC",
         "UNITS", "U?", "HEIGHT", "DELIVERY",
     ]
@@ -443,10 +471,18 @@ def render(df: pd.DataFrame):
                      "from a lot area, ▣ = plan set or staff report. "
                      "Unmarked = stated in the planning filing."),
             "ARCHITECT": st.column_config.TextColumn(
-                help="Architecture practice, not the individual. ▣ = named on a "
-                     "plan set or staff report, ◉ = from a permit record, "
-                     "◈ = web research. Unmarked = stated in the planning "
-                     "filing. — = no source names one."),
+                help="Architecture practice where one is named, otherwise the "
+                     "individual the record names. " + _TIER_HELP),
+            "CIVIL ENGINEER": st.column_config.TextColumn(
+                help="Civil engineer only. A surveyor, traffic engineer, "
+                     "structural engineer or landscape architect is not one, "
+                     "and is not counted here. " + _TIER_HELP),
+            "CONTRACTOR": st.column_config.TextColumn(
+                help="General contractor or construction manager. "
+                     "'⋯ not yet appointed' means construction has not "
+                     "started, so no contractor exists yet — that is not the "
+                     "same as — , which means we searched and no source names "
+                     "one. " + _TIER_HELP),
             "UNITS":  st.column_config.NumberColumn(format="%d"),
             "U?":     st.column_config.TextColumn(
                 width="small",
