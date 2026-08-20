@@ -7,11 +7,15 @@ import re
 import sqlite3
 
 FIELDS = ("architect", "civil_engineer", "general_contractor")
+# Strength of evidence, independent of which waterfall step produced it. A
+# value carried forward unverified is the weakest thing in the table and must
+# never outrank a firm read off a stamped drawing.
 TIER_RANK = {
     "document_confirmed": 4,
     "registry_confirmed": 4,
     "web_corroborated": 2,
     "web_low_confidence": 1,
+    "unverified_prior": 0,
 }
 
 # A value that looks like an individual rather than a firm. Permit datasets
@@ -70,9 +74,12 @@ def record(c, project_id, field, *, value=None, outcome="resolved", tier=None,
             # stronger tier. A genuine disagreement is kept, not silently lost.
             old_step = cur_live["resolution_step"] or 9
             new_step = resolution_step or 9
-            if old_step < new_step:
+            old_tier = TIER_RANK.get(cur_live["tier"], 0)
+            new_tier = TIER_RANK.get(tier, 0)
+            # Evidence strength first, then the earlier waterfall step.
+            if new_tier < old_tier:
                 demote_new = True
-            elif old_step == new_step and                     TIER_RANK.get(tier, 0) < TIER_RANK.get(cur_live["tier"], 0):
+            elif new_tier == old_tier and old_step <= new_step:
                 demote_new = True
             if (cur_live["value"] or "").strip().lower() != (value or "").strip().lower():
                 note = (f"conflicts with {'superseded' if not demote_new else 'retained'} "

@@ -1,0 +1,32 @@
+[
+ {
+  "project_id": 437,
+  "field": "architect",
+  "value": "Diller Scofidio + Renfro",
+  "url": "https://capitalprojects.mit.edu/projects/metropolitan-warehouse",
+  "title": "Metropolitan Warehouse, Building W41 - MIT Capital Projects",
+  "date": null,
+  "firm_sentence": "Diller Scofidio + Renfro (DS+R), lead designer, New York, NY; and Leers Weinzapfel Associates",
+  "address_sentence": "134 Massachusetts Avenue, Cambridge, MA 02139"
+ },
+ {
+  "project_id": 437,
+  "field": "general_contractor",
+  "value": "Shawmut Design and Construction",
+  "url": "https://capitalprojects.mit.edu/projects/metropolitan-warehouse",
+  "title": "Metropolitan Warehouse, Building W41 - MIT Capital Projects",
+  "date": null,
+  "firm_sentence": "Construction Manager: Shawmut Design and Construction, Boston, MA",
+  "address_sentence": "134 Massachusetts Avenue, Cambridge, MA 02139"
+ },
+ {
+  "project_id": 166,
+  "field": "architect",
+  "value": "Elkus Manfredi Architects",
+  "url": "https://www.harvardmagazine.com/2023/12/allston-housing-180-western-avenue",
+  "title": "More Housing in Allston | Harvard Magazine",
+  "date": "2023-12",
+  "firm_sentence": "Elkus Manfredi Architects presented revised plans for a 274-unit residential apartment building at 180 Western Avenue",
+  "address_sentence": "a 274-unit residential apartment building at 180 Western Avenue in Allston"
+ }
+]

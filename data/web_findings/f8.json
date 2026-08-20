@@ -1,0 +1,32 @@
+[
+ {
+  "project_id": 339,
+  "field": "architect",
+  "value": "Prellwitz Chilinski Associates",
+  "url": "https://bostonrealestatetimes.com/lbc-boston-developing-250000-sf-to-create-allston-green-under-bostons-compact-living-pilot-project/",
+  "title": "LBC Boston Developing 250,000 SF to Create Allston Green",
+  "date": null,
+  "firm_sentence": "Working with Prellwitz Chilinkski Associates, Inc./PCA of Cambridge, the design strategically places three buildings and two green spaces on the site.",
+  "address_sentence": "Located at 20 Linden Street and named Allston Green, the $140 million, 250,000 SF complex features three buildings on approximately two acres and 350 housing units."
+ },
+ {
+  "project_id": 412,
+  "field": "general_contractor",
+  "value": "John Moriarty & Associates",
+  "url": "https://capitalprojects.mit.edu/projects/200-main-street-kendall-square",
+  "title": "Kendall Square at MIT - 200 Main Street (Site 2)",
+  "date": null,
+  "firm_sentence": "Construction manager: Moriarty, Winchester, MA",
+  "address_sentence": "200 Main Street, Cambridge, MA"
+ },
+ {
+  "project_id": 358,
+  "field": "architect",
+  "value": "SMMA",
+  "url": "https://bostonrealestatetimes.com/lee-kennedy-co-completes-hood-park-mixed-use-project/",
+  "title": "Lee Kennedy Co. Completes Hood Park Mixed-Use Project",
+  "date": null,
+  "firm_sentence": "10 Stack Street (designed by SMMA)",
+  "address_sentence": "Situated on 20 acres in Charlestown (Hood Park); 10 Stack Street"
+ }
+]

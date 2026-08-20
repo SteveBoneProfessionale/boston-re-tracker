@@ -17,8 +17,8 @@ BASELINE = "data/_baseline_prerun.db"
 def rank(r):
     return (
         0 if r["outcome"] == "resolved" else 1,       # an answer first
-        r["resolution_step"] or 9,                    # earliest waterfall step
-        -TIER_RANK.get(r["tier"], 0),                 # strongest tier
+        -TIER_RANK.get(r["tier"], 0),                 # then the strongest evidence
+        r["resolution_step"] or 9,                    # then the earliest step
         -r["id"],                                     # newest of equals
     )
 

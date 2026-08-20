@@ -1,0 +1,42 @@
+[
+ {
+  "project_id": 458,
+  "field": "civil_engineer",
+  "value": "Bohler",
+  "url": "https://bohlerengineering.com/blog/news/bohler-to-help-boylston-bring-multifamily-to-former-life-science-site/",
+  "title": "Bohler to Help Boylston Bring Multifamily to Former Life Science Site",
+  "date": null,
+  "firm_sentence": "Bohler Boston team provided due diligence and site civil engineering design services for both the original life science facility and the current multifamily plan.",
+  "address_sentence": "745 Concord Avenue in Alewife, Cambridge"
+ },
+ {
+  "project_id": 458,
+  "field": "architect",
+  "value": "Hacin",
+  "url": "https://www.m-d-l-a.com/projects/745-concord-avenue",
+  "title": "MDLA - 745 Concord Avenue",
+  "date": null,
+  "firm_sentence": "architect: Hacin",
+  "address_sentence": "745 Concord Avenue is a 12-story, transit-oriented residential development in Cambridge Alewife district."
+ },
+ {
+  "project_id": 458,
+  "field": "architect",
+  "value": "Hacin",
+  "url": "https://bohlerengineering.com/blog/news/bohler-to-help-boylston-bring-multifamily-to-former-life-science-site/",
+  "title": "Bohler to Help Boylston Bring Multifamily to Former Life Science Site",
+  "date": null,
+  "firm_sentence": "Rendering: Hacin/HDS Architects",
+  "address_sentence": "745 Concord Avenue in Alewife, Cambridge"
+ },
+ {
+  "project_id": 217,
+  "field": "architect",
+  "value": "Embarc",
+  "url": "https://www.embarcdesign.com/project/76-ashford",
+  "title": "EMBARC | 76 Ashford Street",
+  "date": null,
+  "firm_sentence": "76 Ashford Street appears as a project in EMBARC own architectural portfolio (embarcdesign.com/project/76-ashford); the page does not state the role in prose",
+  "address_sentence": "Situated adjacent to the Beacon Rail Yards, at the corner of Ashford and Malvern Streets"
+ }
+]

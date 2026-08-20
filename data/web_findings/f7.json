@@ -1,0 +1,42 @@
+[
+ {
+  "project_id": 387,
+  "field": "architect",
+  "value": "S9Architecture",
+  "url": "https://s9architecture.com/125-lincoln",
+  "title": "125 Lincoln | DESIGN - S9Architecture",
+  "date": null,
+  "firm_sentence": "S9 design for a 14-story lab science building links these neighborhoods together through new plazas, redesigned and expanded pedestrian focused streetscapes. S9 is collaborating on the project with Stantec, who is serving as the Executive Architect.",
+  "address_sentence": "125 LINCOLN. BOSTON - located within the historic Leather District, directly south of Downtown, adjacent to Chinatown"
+ },
+ {
+  "project_id": 241,
+  "field": "architect",
+  "value": "Arrowstreet",
+  "url": "https://www.arrowstreet.com/portfolio/11-21-bromfield/",
+  "title": "11-21 Bromfield - Arrowstreet",
+  "date": null,
+  "firm_sentence": "Arrowstreet is the Architect of Record in collaboration with Adrian Smith + Gordon Gill Architecture (ASGG) of Chicago as the Design Architect.",
+  "address_sentence": "Located in the heart of downtown Boston, this 23-story mixed-use tower bolsters its transit-rich, pedestrian-friendly location. LOCATION: Boston, MA (11-21 Bromfield)"
+ },
+ {
+  "project_id": 427,
+  "field": "general_contractor",
+  "value": "W.T. Rich",
+  "url": "https://www.wtrich.com/project-portfolio/projects/tobinschool",
+  "title": "W.T. Rich - Tobin School & Vassal Lane Upper Schools",
+  "date": null,
+  "firm_sentence": "W.T. Rich project portfolio entry for the Tobin School, Delivery Method: CM-at-Risk (MGL Chapter 149A); Designer: Perkins Eastman",
+  "address_sentence": "Location: Cambridge, MA (Tobin School & Vassal Lane Upper Schools)"
+ },
+ {
+  "project_id": 102,
+  "field": "architect",
+  "value": "Perkins&Will",
+  "url": "https://thebostonsun.com/2024/08/01/northeastern-outlines-plan-for-new-multipurpose-athletic-facility/",
+  "title": "Northeastern Outlines Plan for New Multipurpose Athletic Facility",
+  "date": "2024-08-01",
+  "firm_sentence": "the project team, which includes architect, Boston-based Perkins&Will.",
+  "address_sentence": "It would stand in the same location as the existing facility, on the east end of campus, at 238-262 St Botolph St."
+ }
+]
