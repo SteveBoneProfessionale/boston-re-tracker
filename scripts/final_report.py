@@ -128,6 +128,31 @@ def main():
         if cc:
             p(f"    {m:14} " + ",  ".join(f"{k}={v}" for k, v in cc.most_common()))
 
+    # ---------- 2b. where the values came from ----------
+    p()
+    p("=" * 96)
+    p("2b. WHERE THE LIVE VALUES CAME FROM")
+    p("=" * 96)
+    src = defaultdict(Counter)
+    for (pid, f), v in live.items():
+        if v["outcome"] != "resolved":
+            continue
+        src[market(byid[pid]["city"]) if pid in byid else "?"][v["source_type"] or "?"] += 1
+    names = {"article80_pdf": "Article 80 filing", "planset": "RI plan set",
+             "minutes": "RI board minutes / staff report",
+             "board_document": "RI board document",
+             "scanned_board_document": "RI board document (scanned)",
+             "permit": "municipal permit record",
+             "compliance_report": "Boston Jobs Policy compliance",
+             "web": "web, cited", "prior_value": "carried forward, unverified",
+             "stage_rule": "stage rule"}
+    for m in ("Boston", "Cambridge", "Rhode Island", "Other MA"):
+        if not src.get(m):
+            continue
+        p(f"  {m}:")
+        for k, n in src[m].most_common():
+            p(f"      {names.get(k, k):40} {n:4}")
+
     # ---------- 3. failed verification ----------
     p()
     p("=" * 96)

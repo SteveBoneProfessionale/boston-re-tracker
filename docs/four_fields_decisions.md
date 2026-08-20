@@ -169,3 +169,69 @@ projects returned roughly one resolved field per two searches; the last
 forty returned one per six. Boston trade press does not name civil engineers
 on 45-unit buildings, and the Article 80 filings for those projects do not
 label the role either. That is where the remaining 139 priority-1 gaps sit.
+
+---
+
+# Rhode Island pass
+
+**26. The permit portals are not the RI answer.** The five OpenGov/ViewPoint
+portals do render full public records -- GC name, registration number,
+Architect/Engineer block -- but the API refuses `records` without auth and the
+portal is a SPA with no public search endpoint. More to the point, most RI
+records in the tracker are proposed projects with no building permit yet, so a
+per-project portal lookup would mostly return nothing. Not pursued.
+
+**27. Two corpora were sitting unused.** The zoning-board and plan-commission
+URL lists held 1,237 documents and only 213 had ever been fetched; 143 more
+that match a project by filename are now cached and read. And 19 MB of board
+minutes had been extracted to text in an earlier pass and only ever mined with
+a keyword rule for architects -- 196 projects had role-bearing passages in it.
+
+**28. Three defects in the address matcher, each costing real matches.**
+"434 MOUNT PLEASANT AVENUE" never met "434 Mt Pleasant Ave". "157, 159 & 165
+GANO STREET" yielded only 157, so a row holding 165 could not match. And a
+two-street caption paired every number with the last street -- worse than a
+miss, because it invents an address. `address_keys` now splits on the
+conjunction and carries bare numbers forward to the street they belong to.
+Separately, a heredoc had turned four regex word boundaries into literal
+backspace characters, so those patterns silently never matched.
+
+**29. Vision for the scans.** 55 matched documents are image-only and no OCR
+is installed, so the pages were rendered at 110 DPI and read directly. 190
+pages, $0.18, sixteen values.
+
+**30. A firm now outranks a person at equal evidence.** Minutes report who
+stood up to speak, so "Architect Virginia Branch" was displacing "BRANCH
+ARCHITECTS, LLC" read off a title block. Same tier, same step, and the newer
+row won on id alone.
+
+**31. Retraction is a distinct state from supersession.** Superseding a bad
+value was not enough: the ranking prefers an answer to a null, so it kept
+re-selecting the withdrawn value. Retracted rows are now excluded from
+selection entirely, and where every row for a field is retracted the field
+holds no value.
+
+**32. The first extraction pass had a 31% false-positive rate, and a second
+opinion caught it.** Spot-checking twelve minutes-derived values turned up a
+surveyor and an expert witness recorded as civil engineers. A verification
+batch then re-read all 153 RI document values against their own quotes, with
+no address or project context to rationalise from and instructions that the
+default answer is no. It rejected 47:
+
+- surveyors and landscape architects recorded in the wrong field
+- expert witnesses called by the applicant's attorney
+- "Engineer Lynn Small" and similar, where the discipline is never stated
+- "Designer" read as architect or civil engineer
+- bare credentials ("Sophia Narkiewicz, PE") with no role assignment
+- firm capability taglines read as role assignments
+
+Retracting them dropped RI architects from 124 to 121 and civil engineers
+from 109 to 106, and moved a chunk of document_confirmed back to
+unverified_prior as the older values resurfaced. That is the honest position:
+the earlier figures were partly wrong, and this is what survives a strict
+reading of your own rule that an unlabelled firm is not an answer.
+
+**33. RI totals.** Architect 76 to 121, civil engineer 96 to 106, contractor
+8 to 13. Minutes are now the largest single RI source (78 live values),
+ahead of values carried forward unverified. Providence reaches 56% on
+architect; Cranston is the weakest at 14%, on 22 projects.

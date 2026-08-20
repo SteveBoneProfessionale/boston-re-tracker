@@ -57,6 +57,12 @@ def main():
     for p in pairs:
         rows = c.execute("select * from field_provenance where project_id=? and field=? and coalesce(retracted,0)=0",
                          (p["project_id"], p["field"])).fetchall()
+        if not rows:
+            # Every row for this pair was retracted: the field has no
+            # surviving evidence, so it holds no value.
+            c.execute(f"update projects set {p['field']}=NULL where id=?",
+                      (p["project_id"],))
+            continue
         win = sorted(rows, key=rank)[0]
         for r in rows:
             want = 0 if r["id"] == win["id"] else 1

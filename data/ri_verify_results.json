@@ -1,0 +1,767 @@
+[
+ {
+  "custom_id": "v001792",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Joe Casali Engineering as the Engineer for the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001850",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Jackie Brousseau', directly assigning the architect role to Jackie Brousseau.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001829",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Brian Poor' presented the plan, directly assigning the architect role to Brian Poor.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001658",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'Horsley Witten Group' under the 'CIVIL' section with their contact details, indicating they are the civil engineer for the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001705",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage identifies GAROFALO & ASSOCIATES, INC. as 'CIVIL & STRUCTURAL ENGINEERS,' which directly supports the recorded civil engineer role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001770",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Jack Ryan is the architect and presented the plan.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001802",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Mr. Eric Zuena, project architect presented the plan,' directly confirming his role as architect.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001854",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Mr. Eric Zuena, the project architect'\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001808",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Christina Carlson of Union Studio serves as the architect.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001742",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"This passage is a firm capability list/tagline, not a role assignment stating that JOE CASALI ENGINEERING, Inc. serves as the civil engineer on a specific project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001755",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly states 'CIVIL ENGINEER: D' Amico Engineering Tech, Inc.'\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001790",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Dana Nisbet and Paul Bannon as engineers who presented the plan.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001794",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Millstone, LLC as the Engineer for the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001820",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"A bare name with credentials (R.L.A. = Registered Landscape Architect) does not assign any role without surrounding context.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001793",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Kevin Diamond presented the LDPs', directly assigning the architect role to Kevin Diamond.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001670",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly labels 'JOE CASALI ENGINEERING, INC.' under the heading 'ENGINEER,' which assigns the civil engineer role to this firm.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001743",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'ARCHITECT' as the role and assigns it to 'BISBANO ASSOCIATES, INC.'\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001745",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Aharonian & Associates, Inc. as architects.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001835",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly identifies Paul Carlson as a Civil Engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001771",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"A surveyor is not a civil engineer; these are distinct professional roles.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001810",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'architect Mark Rapp' in a role assignment context.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001846",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"Steven Cabral is presented as an expert witness, not as the project's civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001795",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Ms. Kathy Bartels, the architect,' directly assigning her the architect role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001855",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Engineer: VHB', which assigns the engineer role to VHB.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001672",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists GARAFOLO & ASSOCIATES, INC under the CIVIL/SURVEY section and identifies them as CIVIL ENGINEERS.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001859",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Damara Toohey with the title 'Architect'.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001753",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'PROVIDENCE ARCHITECTURE + BUILDING Co.' under the 'ARCHITECT' heading.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001819",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Engineer: DiPrete Engineering', which assigns the engineer role to DiPrete Engineering.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001812",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Tracey Donnelly,' directly assigning the architect role to Tracey Donnelly.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001722",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that the Contractor is TBD, which matches the recorded general_contractor value.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001707",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states the civil engineer role is held by GAROFALO & ASSOC., INC., which matches the recorded value.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001739",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'CIVIL ENGINEER: DeVELLIS ZREIN INC.' which directly assigns the civil engineer role to this firm.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001767",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly identifies Jeffrey Lykins as an architect.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001746",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'ARCHITECT: AHARONIAN & ASSOCIATES, INC.' which directly assigns this firm to the architect role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001701",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'D'AMICO ENGINEERING TECHNOLOGY, INC.' under the 'CIVIL:' section header, which designates them as the civil engineer for the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001657",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage shows contact information for a firm but does not assign the architect role to Truth Box.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001824",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"A 'Project Engineer' title does not clearly establish the specific role of 'civil engineer' without additional context.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001720",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect: KITE Architects Inc.'\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001765",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage does not specify that Brian Kortz and Sean Martin hold the role of civil engineer; they are only identified as engineers presenting on behalf of the applicant without a specific discipline stated.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001777",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Randolph Gerner, architect', directly assigning the architect role to him.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001744",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage names Paul D. Carlson as a registered professional engineer but does not assign him or any firm as the civil engineer for a project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001830",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Eric Zuena as 'an architect'.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001845",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Mark St. Laurant as 'partner/owner and Project Engineer,' not as a civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001857",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Matthew McGeorge is an Architect who presented the item.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001786",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Len Bradley as a Principal at DiPrete Engineering but does not assign the civil engineer role to either person or firm.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001852",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Jenna Shea as a project manager at DiPrete Engineering, not DiPrete Engineering as the civil engineer for the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001758",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies PERUNOVO LLC as GC (General Contractor).\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001764",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Justin Hopkins as 'Engineer' without specifying he is a civil engineer; the role could be any type of engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001838",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Virginia Branch', directly assigning the architect role to Virginia Branch.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001834",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Joshua Kline as 'Engineer' presenting the plan, which supports the civil_engineer role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001815",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Ramzi Loqa as a 'building and land use consultant' with PE credentials, but does not explicitly assign the civil engineer role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001840",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Christen Robbins', directly assigning the architect role to this person.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001862",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'architect Christine West', directly assigning the architect role to Christine West.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001789",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Commonwealth Engineers and Consultants, Inc. as the Designer, not the civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001773",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly states 'Matthew Clemence, architect', explicitly assigning the architect role to Matthew Clemence.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001741",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'JOE CASALI ENGINEERING, INC.' under the 'CIVIL:' section, which designates this firm as the civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001811",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies R.A. Cataldo & Associates, Inc as the 'Designer,' not the 'Architect.'\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001738",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'ARCHITECT: DAVIS SQUARE ARCHITECTS'.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001853",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Engineer: DiPrete Engineering', which assigns the engineer role to DiPrete Engineering.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001799",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies John Ford as 'an engineer' without specifying that he is the civil engineer for this project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001797",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage says 'Engineer' without specifying the type of engineer, so it does not clearly establish that this party is the civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001860",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage says 'Engineer Lynn Small' but does not specify the type of engineer or assign a civil engineer role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001751",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'ARCHITECT' as a header directly above 'JEFFREY LYKINS' with contact information, clearly assigning this role to him.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001784",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"A bare name with credentials (PE) does not assign a role without surrounding words that explicitly state the role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001788",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that John Sullivan is an architect from Spagnolo Gisness Associates, supporting the firm as the architect.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001671",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly labels 'ARCHITECT' and names 'PROVIDENCE ARCHITECTURE & BUILDING CO.' directly beneath it.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001772",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"A landscape architect is not the same as an architect; the rules explicitly state these are different roles.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001694",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly states that Green Development, LLC is the Civil Engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001822",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies DiPrete Engineering as the Designer, not the civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001798",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Virginia Branch as 'the project architect'.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001715",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'JOE CASALI ENGINEERING, INC.' under the 'CIVIL:' section, which designates it as the civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001837",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly states 'Architect Jack Ryan', explicitly assigning the architect role to Jack Ryan.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001732",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage names an individual professional engineer (Paul D. Carlson) with a civil engineering license, but does not assign him or any firm to serve as the project's civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001841",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Suzanne King as an 'Engineer' but does not specifically state she is a 'civil engineer'.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001839",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Sam Hemenway as 'Engineer' presenting the item, which supports the civil_engineer role assignment.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001728",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly labels 'JOE CASALI ENGINEERING, INC.' under the 'CIVIL:' designation, which identifies them as the civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001833",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Eric Zuena', directly assigning the architect role to Eric Zuena.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001727",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'ARCHITECT: ACME ARCHITECT, LLC' with full address details.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001801",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Engineer: DiPrete Engineering', which assigns the engineer role to DiPrete Engineering.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001847",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Jeffrey Moniz of 2Hands Studio is the architect.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001759",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'CIVIL ENGINEER' as the role and 'NARRAGANSETT ENGINEERING' as the party holding that role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001769",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Joe Casali Engineering as the employer of the Project Manager, not as the civil engineer for the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001780",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Joe Casale Engineering as William Lavery's employer, not as the project's civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001718",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage shows a letterhead or address block with the firm name, but does not explicitly state that BRANCH ARCHITECTS, LLC serves as the architect for any project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001813",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage identifies Sam Hemenway as Engineer on the project, which supports the civil_engineer role assignment.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001774",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"A bare name with credentials (PE) does not assign a role without surrounding words that specify the role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001818",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Casey Burch as a Project Manager for Solli Engineering, not as a civil engineer on the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001756",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage lists AHLBORG, INC as the design/build firm but does not explicitly assign the general_contractor role to this party.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001825",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Scot Woodin as the architect.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001699",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage lists InSite ENGINEERING SERVICES, LLC under 'SITE / SURVEY' without explicitly assigning the civil_engineer role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001806",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Engineer: Stonefield Engineer & Design', which assigns the engineer role to this firm.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001800",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Mr. Matthew McGeorge, Architect presented the item,' directly assigning the architect role to Matthew McGeorge.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001757",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Bryan Michie as the designer, not MICHIE DESIGN BUILD as the architect.\",\n  \"better_value\": \"Bryan Michie\"\n}\n```"
+ },
+ {
+  "custom_id": "v001803",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Jack Ryan', directly assigning the architect role to Jack Ryan.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001851",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Christine Shea as 'Engineer' without specifying civil engineer, and she is listed among speakers on the applicant's behalf, not assigned as the project's civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001814",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Gianni Ria, architect' and describes him presenting the project, which assigns the architect role to him.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001768",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states Julie Bartlett is the Project Architect with ZDS, supporting ZDS's role as architect.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001782",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'architect Jonathan Levi' presenting the project, which supports the recorded architect value.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001826",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"Ed Wojcik is identified as an expert witness, not as the project's architect role assignment.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001842",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Christine West' with the role and name clearly assigned.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001749",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Civil Engineer: D' Amico Engineering Tech, Inc.'\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001721",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'CIVIL ENGINEER' as a role heading with 'NARRAGANSETT ENGINEERING INC.' as the assigned party.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001805",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Philip Henry is the civil engineer and identifies him as being 'of Civil Design Group, LLC', which supports the firm as the civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001779",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage says 'Engineer' without specifying that this is a civil engineer; it could be any type of engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001831",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Eric Zuena is the architect presenting on the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001706",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly labels STUDIOJAED as ARCHITECT.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001708",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect: FREECELL ARCHITECTURE' with their address.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001778",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Kevin Diamond', directly assigning the architect role to Kevin Diamond.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001704",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage shows only a letterhead with the firm's name and address, not a statement that assigns them as the architect for a project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001787",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Mark Anthony is the General Contractor.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001836",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Kevin Diamond presented the LDPs', directly assigning the architect role to Kevin Diamond.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001849",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies DiPrete Engineering as a 'design professional' but does not specifically assign the civil engineer role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001719",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"This is a capability list/tagline showing what the firm does, not a statement that they hold the civil engineer role on a specific project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001807",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Eric Zuena is an architect and presented in that capacity.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001843",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Joe Casali as an Engineer on the project team.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001717",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'ARCHITECT' as a role heading with 'ZDS inc.' as the assigned party.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001783",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"Steven Cabral is presented as an expert witness, not as the project's civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001673",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'ZDS inc.' under the 'ARCHITECTURE AND INTERIORS' category, directly assigning the architect role to ZDS inc.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001817",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly identifies David Sisson as an Architect.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001858",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Mr. Amato as 'a civil engineer,' establishing his role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001804",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Justin Hedde of Centerbrook Architects is the architect.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001754",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'ARCHITECT: TORRADO ARCHITECTS'.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001809",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Kevin Diamond presented the LDPs', directly assigning the architect role to Kevin Diamond.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001682",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'CIVIL ENGINEER: PARE CORPORATION'\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001823",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'architect Jeff Lykins', directly assigning the architect role to Jeff Lykins.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001827",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage identifies Brian King as 'the project's engineer' and states he is 'of Cross Engineering,' establishing Cross Engineering as the civil engineer for the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001653",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly assigns the architect role to ZDS inc. under the 'ARCHITECTURE AND INTERIORS' heading.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001791",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Noah Biklen, architect', directly assigning the architect role to Noah Biklen.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001731",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies the party as 'Design / Build Manager,' not as general contractor.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001674",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'CIVIL ENGINEER & LANDSCAPE ARCHITECT: CREATIVE ENVIRONMENT CORP', directly assigning the civil engineer role to this firm.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001681",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"A 'designer' is not the same as an 'architect'; the passage does not assign the architect role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001766",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly identifies Martin Ezeama with the title 'Architect'.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001730",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists PARE as the civil/site/traffic engineer for the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001848",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Lyn Small of Northeast Engineers is the civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001832",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Architect Jeffrey Lykins', directly assigning the architect role to Jeffrey Lykins.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001856",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly identifies Dana Nisbet and Paul Bannon as engineers who presented the plan.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001816",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states that Kevin Diamond is the architect for this project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001750",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage lists D'AMICO ENGINEERING TECHNOLOGY, INC. and their service areas (Civil, Transportation, Land Use) but does not explicitly assign them the civil engineer role on any specific project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001828",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Alpha Associates, Ltd as a 'design professional' but does not specify the role as architect.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001785",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage identifies Elizabeth Peabody's role as Vice President of Construction, not as the architect for the project.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001748",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'ARCHITECT: TORRADO ARCHITECTS' which directly assigns this firm to the architect role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001747",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly lists 'JOE CASALI ENGINEERING, INC.' under the 'CIVIL:' section, which designates this firm as the civil engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001776",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"A bare name with credentials (PE) and no surrounding words that assign a civil engineer role does not support the role assignment.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001844",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly states 'Mr. Kevin Diamond, an architect' presenting on behalf of the petitioner, directly confirming the architect role.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001736",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"A copyright notice does not assign the role of architect to the firm.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001775",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly states 'Miriam Spear, architect' which explicitly assigns the architect role to Miriam Spear.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001714",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly labels 'ARCHITECT:' followed by 'BISBANO & ASSOCIATES, INC.'\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001690",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"A bare name with credentials and no surrounding words that assign an architectural role does not support the role assignment.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001861",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": false,\n  \"why\": \"The passage says 'engineer Eric Wishart' without specifying that he is a civil engineer; he could be any type of engineer.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001702",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly labels 'URBANE CONSTRUCTION CORPORATION' as 'GC' (general contractor).\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001796",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage explicitly identifies Mark Hollis as 'engineer' in the context of presenting the plan.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001781",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly states 'Joseph McPhee, architect', explicitly assigning the architect role to Joseph McPhee.\",\n  \"better_value\": null\n}\n```"
+ },
+ {
+  "custom_id": "v001821",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"supports\": true,\n  \"why\": \"The passage directly states 'Engineer: Civil Design Group, LLC', which identifies Civil Design Group, LLC in an engineer role.\",\n  \"better_value\": null\n}\n```"
+ }
+]
