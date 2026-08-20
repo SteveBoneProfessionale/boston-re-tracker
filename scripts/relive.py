@@ -45,10 +45,12 @@ def main():
     c.row_factory = sqlite3.Row
     drop_spurious_audits(c)
 
+    # A retracted row is evidence that was withdrawn: it can never be live.
+    c.execute("update field_provenance set superseded=1 where coalesce(retracted,0)=1")
     pairs = c.execute("select distinct project_id, field from field_provenance").fetchall()
     changed = 0
     for p in pairs:
-        rows = c.execute("select * from field_provenance where project_id=? and field=?",
+        rows = c.execute("select * from field_provenance where project_id=? and field=? and coalesce(retracted,0)=0",
                          (p["project_id"], p["field"])).fetchall()
         win = sorted(rows, key=rank)[0]
         for r in rows:

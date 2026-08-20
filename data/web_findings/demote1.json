@@ -1,0 +1,6 @@
+[
+ [613,"general_contractor","citation audit: the stored quote names no firm and states only 'Designer and General Construction Services', so it does not support attributing the contractor role to this firm"],
+ [626,"civil_engineer","citation audit: the stored quote is the firm's capability tagline ('ARCHITECTS ENGINEERS FACILITIES SOLUTIONS'), not an assignment of the civil engineer role on this project"],
+ [656,"architect","citation audit: the stored quote is a capability list ('ARCHITECTURE / ENGINEERING / ENVIRONMENTAL / LAND SURVEYING'), which cannot assign a specific role"],
+ [656,"civil_engineer","citation audit: same capability list was used to assign both architect and civil engineer, which is the inference the sourcing rules forbid"]
+]
