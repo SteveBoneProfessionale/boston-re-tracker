@@ -229,5 +229,37 @@
     "role": "architect",
     "source_url": "https://www.wbna.org/news/2017/7/7/1292-westminster-hdc-requires-better-design",
     "evidence": "West Broadway Neighborhood Association coverage of the Historic District Commission hearing: 'Eric Zuena from ZDS Architects presented plans for a fifty-five and a half foot high, block-shaped building with 36 market-rate one bedroom residential units, 20 parking spaces, ground floor retail' -- owner Mike Lemoi's 1292 Westminster Street project, built as the five-storey, 35-unit 1290W"
+  },
+  {
+    "id": 751,
+    "architect": "Dennis Colwell Architect Inc.",
+    "source": "permit",
+    "role": "architect",
+    "source_url": "https://providenceri.portal.opengov.com/records/177708",
+    "evidence": "Providence building permit BLDG-21-284 (new 6-storey, 130,000 sf commercial structure at 1117 Eddy St), section 'Architect/Engineer Details': A/E Name DENNIS M COLWELL, A/E Company Name DENNIS COLWELL ARCHITECT INC., RI licence 3791, License Description 'Architect', COA ARC.0014562-COA"
+  },
+  {
+    "id": 545,
+    "architect": "SERJ Architects, Inc",
+    "source": "permit",
+    "role": "architect",
+    "source_url": "https://pawtucketri.portal.opengov.com/records/98365",
+    "evidence": "Pawtucket building permit 74266, 250 ESTEN AVE, 'converting 4th floor from current commercial spaces to live work spaces'; Architect/Engineer Details: A/E Name Joseph T Cardella, A/E Company Name SERJ Architects, Inc, RI licence 5256, License Description 'Architect'"
+  },
+  {
+    "id": 539,
+    "architect": "Jonathan W. Clark",
+    "source": "permit",
+    "role": "architect",
+    "source_url": "https://cranstonri.portal.opengov.com/records/177197",
+    "evidence": "Cranston building permit 152849, 538 MAIN STREET, 'Three (3) Non Climate Controlled Shell Buildings for Storage'; Architect/Engineer Details: A/E Name Jonathan W Clark, RI licence 5903, License Description 'Architect', COA ARC.0020982-COA. Application submitted by 'Architect or Engineer'; no company name given"
+  },
+  {
+    "id": 551,
+    "architect": "Richard Cardarelli",
+    "source": "permit",
+    "role": "architect",
+    "source_url": "https://pawtucketri.portal.opengov.com/records/101382",
+    "evidence": "Pawtucket building permit BUI-26-88, 180 WEEDEN ST, applicant Brad Clark (401HomeBuyers), Description of Work: 'Interior framing only of Permit Set Plans by Richard Cardarelli.' Cardarelli signs as 'Richard Cardarelli A.I.A' on the Comstock Crossings architectural plans filed with Cranston"
   }
 ]

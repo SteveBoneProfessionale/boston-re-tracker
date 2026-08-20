@@ -1,0 +1,162 @@
+[
+ {
+  "id": 583,
+  "city": "Warwick",
+  "address": "1880 Post Road",
+  "architect": "not found",
+  "source_url": "https://warwickri.portal.opengov.com/locations/41235",
+  "evidence": "Warwick planning agenda 2025-04-09 / 2026-04-08 lists only 'Designer: DiPrete Engineering'; Warwick permit portal shows no building permit for the 177-unit project (only 2007 parking-lot COs)"
+ },
+ {
+  "id": 878,
+  "city": "Cranston",
+  "address": "320 Scituate Ave",
+  "architect": "not found",
+  "source_url": "https://cranstonri.portal.opengov.com/locations/68008",
+  "evidence": "Cranston permit portal: 320 SCITUATE AVENUE has one electrical permit and no building permit; Champlin Hills staff memo lists every filed document as prepared by Garofalo & Associates (engineer)"
+ },
+ {
+  "id": 551,
+  "city": "Pawtucket",
+  "address": "180 Weeden Street",
+  "architect": "Richard Cardarelli",
+  "source_url": "https://pawtucketri.portal.opengov.com/records/101382",
+  "evidence": "Pawtucket building permit BUI-26-88: Description of Work 'Interior framing only of Permit Set Plans by Richard Cardarelli.'"
+ },
+ {
+  "id": 545,
+  "city": "Pawtucket",
+  "address": "250 Esten Street",
+  "architect": "SERJ Architects, Inc",
+  "source_url": "https://pawtucketri.portal.opengov.com/records/98365",
+  "evidence": "Pawtucket building permit 74266: A/E Joseph T Cardella, SERJ Architects Inc, RI lic. 5256, License Description 'Architect'"
+ },
+ {
+  "id": 666,
+  "city": "Providence",
+  "address": "541 Hartford Ave",
+  "architect": "not found",
+  "source_url": "https://providenceri.portal.opengov.com/locations/54007",
+  "evidence": "Providence permit portal: 541 Hartford Ave carries one 2020 electrical permit and no building permit"
+ },
+ {
+  "id": 579,
+  "city": "Warwick",
+  "address": "192 Toll Gate Rd",
+  "architect": "not found",
+  "source_url": "https://www.warwickri.gov/sites/g/files/vyhlif12206/f/agendas/june_agenda_6.pdf",
+  "evidence": "Address not in Warwick permit portal; Warwick agenda 2026-06-10 lists 'Engineer: Millstone, LLC' and no architect; minutes describe a pre-application only"
+ },
+ {
+  "id": 600,
+  "city": "Warwick",
+  "address": "9 Post Road",
+  "architect": "not found",
+  "source_url": "https://warwickri.portal.opengov.com/locations/31196",
+  "evidence": "Warwick permit portal: 9 POST RD has no building permit"
+ },
+ {
+  "id": 580,
+  "city": "Warwick",
+  "address": "1577 West Shore Rd",
+  "architect": "not found",
+  "source_url": "https://warwickri.portal.opengov.com/records/193044",
+  "evidence": "Warwick permit portal: only building permit 25-7267, a residential remodel with no A/E named"
+ },
+ {
+  "id": 535,
+  "city": "Cranston",
+  "address": "5 Aborn Street",
+  "architect": "not found",
+  "source_url": "https://cranstonri.portal.opengov.com/search",
+  "evidence": "Address not in Cranston permit portal (no permit yet); DPRC minutes 2026-05-20 record only attorney and applicant"
+ },
+ {
+  "id": 751,
+  "city": "Providence",
+  "address": "1117 Eddy Street",
+  "architect": "Dennis Colwell Architect Inc.",
+  "source_url": "https://providenceri.portal.opengov.com/records/177708",
+  "evidence": "Providence building permit BLDG-21-284: A/E Dennis M Colwell, DENNIS COLWELL ARCHITECT INC., RI lic. 3791, COA ARC.0014562-COA"
+ },
+ {
+  "id": 587,
+  "city": "Warwick",
+  "address": "455 Toll gate Rd",
+  "architect": "not found",
+  "source_url": "https://warwickri.portal.opengov.com/locations/60705",
+  "evidence": "Warwick permit portal: no permit matches the 72,482 sf three-storey building. Other Kent Hospital permits carry different architects for different scopes (26-263 garage: Lavallee Brensinger; 23-4318 and 26-3915: Cordtsen Design Architecture)"
+ },
+ {
+  "id": 538,
+  "city": "Cranston",
+  "address": "1499 Hillside Road",
+  "architect": "not found",
+  "source_url": "https://cranstonri.portal.opengov.com/search",
+  "evidence": "1499 Hillside Road is not an address in the Cranston permit portal; Cranston DPRC minutes for the 23,500 sf Garden City Phase VI building name only WS Development staff, DiPrete and the attorney"
+ },
+ {
+  "id": 760,
+  "city": "Providence",
+  "address": "481 Allens Ave",
+  "architect": "not found",
+  "source_url": "https://providenceri.portal.opengov.com/locations/33278",
+  "evidence": "Providence permit portal: 481 Allens Ave has no records at all; CPC minutes 2020-01-21 show the item continued with no design team named"
+ },
+ {
+  "id": 595,
+  "city": "Warwick",
+  "address": "327 Jefferson Blvd. and 0 Bay State Avenue",
+  "architect": "not found",
+  "source_url": "https://warwickri.portal.opengov.com/locations/29238",
+  "evidence": "Warwick permit portal: 327 JEFFERSON BLVD has no building permit; agenda lists 'Surveyor(s): Stonefield Engineering and Design'"
+ },
+ {
+  "id": 505,
+  "city": "Providence",
+  "address": "21 New York Ave",
+  "architect": "not found",
+  "source_url": "https://providenceri.portal.opengov.com/records/366396",
+  "evidence": "Providence building permit BLDG-25-1044 for the new principal structure names A/E Michael V Camera, Camera-O'Neill Consulting Engineers, License Description 'Professional Engineer' -- not an architect"
+ },
+ {
+  "id": 529,
+  "city": "Cranston",
+  "address": "0 Plainfield Pike",
+  "architect": "not found",
+  "source_url": "https://cranstonri.portal.opengov.com/search",
+  "evidence": "2110/0 Plainfield Pike is not an address in the Cranston permit portal; plan commission minutes name the attorney and DiPrete engineer only"
+ },
+ {
+  "id": 563,
+  "city": "Newport",
+  "address": "105 Broadway",
+  "architect": "not found",
+  "source_url": "https://newportri.portal.opengov.com/search",
+  "evidence": "105 Broadway is not an address in the Newport permit portal (site unbuilt); Newport Planning Board minutes 2026-02-02 name no design professional"
+ },
+ {
+  "id": 589,
+  "city": "Warwick",
+  "address": "1282 & 1288 Greenwich Ave",
+  "architect": "not found",
+  "source_url": "https://warwickri.portal.opengov.com/records/200170",
+  "evidence": "Warwick building permit 26-4633 'New ground up free standing veterinarian hospital. 3947 SF' names A/E Joseph Marchelewicz, C. A. Pretzer Associates, License Description 'Professional Engineer' -- not an architect"
+ },
+ {
+  "id": 539,
+  "city": "Cranston",
+  "address": "538 Main Street",
+  "architect": "Jonathan W. Clark",
+  "source_url": "https://cranstonri.portal.opengov.com/records/177197",
+  "evidence": "Cranston building permit 152849: A/E Jonathan W Clark, RI lic. 5903, License Description 'Architect', COA ARC.0020982-COA"
+ },
+ {
+  "id": 723,
+  "city": "Providence",
+  "address": "100 Niantic Ave",
+  "architect": "not found",
+  "source_url": "https://providenceri.portal.opengov.com/locations/31560",
+  "evidence": "Providence permit portal: 100 Niantic Ave has no building permit for the self-storage building (only 2010-era permits with blank A/E); CPC minutes 2020-12-15 name engineers only"
+ }
+]
