@@ -1,0 +1,735 @@
+{
+ "463:general_contractor": {
+  "id": 463,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Planning (Pre-Permitting), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "332:general_contractor": {
+  "id": 332,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "331:general_contractor": {
+  "id": 331,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "422:general_contractor": {
+  "id": 422,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Approved PUD/Master Plan Development Remaining), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "184:general_contractor": {
+  "id": 184,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "408:general_contractor": {
+  "id": 408,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Approved PUD/Master Plan Development Remaining), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "14:general_contractor": {
+  "id": 14,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Permitting (Under Review), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "335:general_contractor": {
+  "id": 335,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "357:general_contractor": {
+  "id": 357,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "366:general_contractor": {
+  "id": 366,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "333:general_contractor": {
+  "id": 333,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "287:general_contractor": {
+  "id": 287,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "25:general_contractor": {
+  "id": 25,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "406:general_contractor": {
+  "id": 406,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Planning (Letter of Intent), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "343:general_contractor": {
+  "id": 343,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Permitting (Under Review), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "174:general_contractor": {
+  "id": 174,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "69:general_contractor": {
+  "id": 69,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "203:general_contractor": {
+  "id": 203,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "252:general_contractor": {
+  "id": 252,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "246:general_contractor": {
+  "id": 246,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "228:general_contractor": {
+  "id": 228,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "276:general_contractor": {
+  "id": 276,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "150:general_contractor": {
+  "id": 150,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "270:general_contractor": {
+  "id": 270,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "89:general_contractor": {
+  "id": 89,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "266:general_contractor": {
+  "id": 266,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "183:general_contractor": {
+  "id": 183,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "128:general_contractor": {
+  "id": 128,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "146:general_contractor": {
+  "id": 146,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "328:general_contractor": {
+  "id": 328,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "369:general_contractor": {
+  "id": 369,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "66:general_contractor": {
+  "id": 66,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "433:general_contractor": {
+  "id": 433,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Zoning Permit Granted or As of Right), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "167:general_contractor": {
+  "id": 167,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "428:general_contractor": {
+  "id": 428,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Zoning Permit Granted or As of Right), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "304:general_contractor": {
+  "id": 304,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "346:general_contractor": {
+  "id": 346,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "258:general_contractor": {
+  "id": 258,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Permitting (Under Review), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "241:general_contractor": {
+  "id": 241,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Planning (Letter of Intent), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "231:general_contractor": {
+  "id": 231,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "29:general_contractor": {
+  "id": 29,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Permitting (Under Review), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "303:general_contractor": {
+  "id": 303,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "156:general_contractor": {
+  "id": 156,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "450:general_contractor": {
+  "id": 450,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Zoning Permit Granted or As of Right), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "210:general_contractor": {
+  "id": 210,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "315:general_contractor": {
+  "id": 315,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "238:general_contractor": {
+  "id": 238,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "17:general_contractor": {
+  "id": 17,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "64:general_contractor": {
+  "id": 64,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "122:general_contractor": {
+  "id": 122,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "345:general_contractor": {
+  "id": 345,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "164:general_contractor": {
+  "id": 164,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "102:general_contractor": {
+  "id": 102,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "468:general_contractor": {
+  "id": 468,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Approved PUD/Master Plan Development Remaining), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "52:general_contractor": {
+  "id": 52,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "237:general_contractor": {
+  "id": 237,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Permitting (Under Review), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "362:general_contractor": {
+  "id": 362,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Permitting (Under Review), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "190:general_contractor": {
+  "id": 190,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "154:general_contractor": {
+  "id": 154,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "213:general_contractor": {
+  "id": 213,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "219:general_contractor": {
+  "id": 219,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "292:general_contractor": {
+  "id": 292,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "351:general_contractor": {
+  "id": 351,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "215:general_contractor": {
+  "id": 215,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Permitting (Under Review), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "405:general_contractor": {
+  "id": 405,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "458:general_contractor": {
+  "id": 458,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Zoning Permit Granted or As of Right), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "181:general_contractor": {
+  "id": 181,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "98:general_contractor": {
+  "id": 98,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "88:general_contractor": {
+  "id": 88,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Permitting (Under Review), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "27:general_contractor": {
+  "id": 27,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "217:general_contractor": {
+  "id": 217,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "274:general_contractor": {
+  "id": 274,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "1:general_contractor": {
+  "id": 1,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Planning (Letter of Intent), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "34:general_contractor": {
+  "id": 34,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "325:general_contractor": {
+  "id": 325,
+  "field": "general_contractor",
+  "outcome": "not_yet_selected",
+  "reason": "stage is Approved (Board Approved), so no general contractor exists to find. A developer does not appoint one years ahead of groundbreaking. Recorded from the stage rule without spending a search, and distinct from 'we looked and found nobody'."
+ },
+ "14:residential_units": {
+  "id": 14,
+  "field": "residential_units",
+  "outcome": "resolved",
+  "value": 205,
+  "tier": "document_confirmed",
+  "source_type": "article80_pdf",
+  "reason": "the passage states the count for THIS project rather than a neighbour or a cumulative-impact table, which is what disqualified eight of the ten counts this scan produced.",
+  "sources": [
+   {
+    "url": "data/pdfs/14.pdf",
+    "name": "Article 80 filing, Reserved Channel Development, p33",
+    "date": "",
+    "passage": "The Project proposes a total of approximately 205 residential units within a mix of studio, one-, two- and three-bedroom homes."
+   }
+  ]
+ },
+ "25:residential_units": {
+  "id": 25,
+  "field": "residential_units",
+  "outcome": "resolved",
+  "value": 227,
+  "tier": "document_confirmed",
+  "source_type": "article80_pdf",
+  "reason": "the passage names the PHASE, not the master plan -- 'Phase 1 Project includes approximately 227 new housing units' -- which is the distinction that matters on a phased development.",
+  "sources": [
+   {
+    "url": "data/pdfs/25.pdf",
+    "name": "Article 80 filing, Longwood Place Phase One, p46",
+    "date": "",
+    "passage": "Phase 1 Project includes approximately 227 new housing units (20% of these will be affordable)."
+   }
+  ]
+ },
+ "332:architect": {
+  "id": 332,
+  "field": "architect",
+  "outcome": "null",
+  "reason": "the master plan team is named -- CBT as master plan architect with Stoss on landscape, plus Beals + Thomas, VHB and Arup -- but no source names an architect for Phase 4. A master plan architect is not a phase architect, and Suffolk Downs is built out building by building with different firms on each: The Architectural Team, ICON, Prellwitz Chilinski and Elkus Manfredi all appear on Phase 1 alone."
+ },
+ "331:architect": {
+  "id": 331,
+  "field": "architect",
+  "outcome": "null",
+  "reason": "same as Phase 4: CBT is the master plan architect, no source names a Phase 3 architect."
+ },
+ "335:architect": {
+  "id": 335,
+  "field": "architect",
+  "outcome": "null",
+  "reason": "same as Phase 4: CBT is the master plan architect, no source names a Phase 2 architect."
+ },
+ "333:architect": {
+  "id": 333,
+  "field": "architect",
+  "outcome": "null",
+  "reason": "same as Phase 4: CBT is the master plan architect, no source names a Phase 5 architect."
+ },
+ "334:architect": {
+  "id": 334,
+  "field": "architect",
+  "outcome": "null",
+  "reason": "Phase 1 is the one phase with named architects, but there are four of them across its buildings -- The Architectural Team, ICON Architecture, Prellwitz Chilinski Associates and Elkus Manfredi, the last credited specifically with 100 Salt Street. No source attributes the phase as a whole to one firm, and picking one would misattribute the others' buildings."
+ },
+ "331:residential_units": {
+  "id": 331,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "HYM publishes 10,000 housing units across the whole 161-acre redevelopment and over 900 affordable, with no phase breakdown. Splitting a master-plan total across five phases would be arithmetic, not sourcing."
+ },
+ "333:residential_units": {
+  "id": 333,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "same as Phase 3: only the 10,000-unit master plan total is published, never a phase figure."
+ },
+ "334:residential_units": {
+  "id": 334,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "same as Phase 3: only the 10,000-unit master plan total is published, never a phase figure."
+ },
+ "391:civil_engineer": {
+  "id": 391,
+  "field": "civil_engineer",
+  "outcome": "null",
+  "reason": "coverage of the 2,699-unit Bunker Hill redevelopment names the developer joint venture, the Phase 1 architect (Stantec) and the Phase 1 contractor (Suffolk Construction), but no source names a civil engineer. Leggat McCall's own project pages and the BHA announcements list neither."
+ },
+ "414:residential_units": {
+  "id": 414,
+  "field": "residential_units",
+  "outcome": "null",
+  "source_type": "agency_record",
+  "reason": "no residential component to count. Cambridge's own Development Log records this project's primary use as Office/R&D and leaves residential_units blank, and every Cambridge project in the top 100 that DOES have units in the log already carries them here -- Cambridge Point 2,300, Kendall Common 1,400, Cambridge Crossing 1,000, 119-123 Broadway 439, Jefferson Park 278, 745 Concord 236. The blank is the answer, not a gap. Settled against the source without spending a search."
+ },
+ "409:residential_units": {
+  "id": 409,
+  "field": "residential_units",
+  "outcome": "null",
+  "source_type": "agency_record",
+  "reason": "no residential component to count. Cambridge's own Development Log records this project's primary use as Office/R&D and leaves residential_units blank, and every Cambridge project in the top 100 that DOES have units in the log already carries them here -- Cambridge Point 2,300, Kendall Common 1,400, Cambridge Crossing 1,000, 119-123 Broadway 439, Jefferson Park 278, 745 Concord 236. The blank is the answer, not a gap. Settled against the source without spending a search."
+ },
+ "446:residential_units": {
+  "id": 446,
+  "field": "residential_units",
+  "outcome": "null",
+  "source_type": "agency_record",
+  "reason": "no residential component to count. Cambridge's own Development Log records this project's primary use as Lab/R&D and leaves residential_units blank, and every Cambridge project in the top 100 that DOES have units in the log already carries them here -- Cambridge Point 2,300, Kendall Common 1,400, Cambridge Crossing 1,000, 119-123 Broadway 439, Jefferson Park 278, 745 Concord 236. The blank is the answer, not a gap. Settled against the source without spending a search."
+ },
+ "433:residential_units": {
+  "id": 433,
+  "field": "residential_units",
+  "outcome": "null",
+  "source_type": "agency_record",
+  "reason": "no residential component to count. Cambridge's own Development Log records this project's primary use as Office/R&D and leaves residential_units blank, and every Cambridge project in the top 100 that DOES have units in the log already carries them here -- Cambridge Point 2,300, Kendall Common 1,400, Cambridge Crossing 1,000, 119-123 Broadway 439, Jefferson Park 278, 745 Concord 236. The blank is the answer, not a gap. Settled against the source without spending a search."
+ },
+ "428:residential_units": {
+  "id": 428,
+  "field": "residential_units",
+  "outcome": "null",
+  "source_type": "agency_record",
+  "reason": "no residential component to count. Cambridge's own Development Log records this project's primary use as Office/R&D and leaves residential_units blank, and every Cambridge project in the top 100 that DOES have units in the log already carries them here -- Cambridge Point 2,300, Kendall Common 1,400, Cambridge Crossing 1,000, 119-123 Broadway 439, Jefferson Park 278, 745 Concord 236. The blank is the answer, not a gap. Settled against the source without spending a search."
+ },
+ "450:residential_units": {
+  "id": 450,
+  "field": "residential_units",
+  "outcome": "null",
+  "source_type": "agency_record",
+  "reason": "no residential component to count. Cambridge's own Development Log records this project's primary use as Lab/R&D and leaves residential_units blank, and every Cambridge project in the top 100 that DOES have units in the log already carries them here -- Cambridge Point 2,300, Kendall Common 1,400, Cambridge Crossing 1,000, 119-123 Broadway 439, Jefferson Park 278, 745 Concord 236. The blank is the answer, not a gap. Settled against the source without spending a search."
+ },
+ "412:residential_units": {
+  "id": 412,
+  "field": "residential_units",
+  "outcome": "null",
+  "source_type": "agency_record",
+  "reason": "no residential component to count. Cambridge's own Development Log records this project's primary use as Office/R&D and leaves residential_units blank, and every Cambridge project in the top 100 that DOES have units in the log already carries them here -- Cambridge Point 2,300, Kendall Common 1,400, Cambridge Crossing 1,000, 119-123 Broadway 439, Jefferson Park 278, 745 Concord 236. The blank is the answer, not a gap. Settled against the source without spending a search."
+ },
+ "438:residential_units": {
+  "id": 438,
+  "field": "residential_units",
+  "outcome": "null",
+  "source_type": "agency_record",
+  "reason": "no residential component to count. Cambridge's own Development Log records this project's primary use as Retail and leaves residential_units blank, and every Cambridge project in the top 100 that DOES have units in the log already carries them here -- Cambridge Point 2,300, Kendall Common 1,400, Cambridge Crossing 1,000, 119-123 Broadway 439, Jefferson Park 278, 745 Concord 236. The blank is the answer, not a gap. Settled against the source without spending a search."
+ },
+ "468:residential_units": {
+  "id": 468,
+  "field": "residential_units",
+  "outcome": "null",
+  "source_type": "agency_record",
+  "reason": "no residential component to count. Cambridge's own Development Log records this project's primary use as Office/R&D and leaves residential_units blank, and every Cambridge project in the top 100 that DOES have units in the log already carries them here -- Cambridge Point 2,300, Kendall Common 1,400, Cambridge Crossing 1,000, 119-123 Broadway 439, Jefferson Park 278, 745 Concord 236. The blank is the answer, not a gap. Settled against the source without spending a search."
+ },
+ "430:residential_units": {
+  "id": 430,
+  "field": "residential_units",
+  "outcome": "null",
+  "source_type": "agency_record",
+  "reason": "no residential component to count. Cambridge's own Development Log records this project's primary use as Lab/R&D and leaves residential_units blank, and every Cambridge project in the top 100 that DOES have units in the log already carries them here -- Cambridge Point 2,300, Kendall Common 1,400, Cambridge Crossing 1,000, 119-123 Broadway 439, Jefferson Park 278, 745 Concord 236. The blank is the answer, not a gap. Settled against the source without spending a search."
+ },
+ "385:residential_units": {
+  "id": 385,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "classified Office, which has no residential component to count. Recorded from the asset class rather than searched, on the same logic as the general contractor rule."
+ },
+ "102:residential_units": {
+  "id": 102,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "classified Institutional, which has no residential component to count. Recorded from the asset class rather than searched, on the same logic as the general contractor rule."
+ },
+ "351:residential_units": {
+  "id": 351,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "classified Hotel, which has no residential component to count. Recorded from the asset class rather than searched, on the same logic as the general contractor rule."
+ },
+ "325:residential_units": {
+  "id": 325,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "classified Industrial, which has no residential component to count. Recorded from the asset class rather than searched, on the same logic as the general contractor rule."
+ },
+ "357:residential_units": {
+  "id": 357,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "The Abbey Group's four-building, 1.6m sf redevelopment of the former Boston Flower Exchange is a lab, office and retail campus -- its own materials state there will be no residential units."
+ },
+ "174:residential_units": {
+  "id": 174,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "the BPDA-approved two-building scheme by Owens and Fallon is life sciences, research and office with 10,000 sf of ground-floor retail and no residential. The 171 units a document scan attached to this row belong to The Graphic at 32 Cambridge Street, across the road."
+ },
+ "252:residential_units": {
+  "id": 252,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "Marcus Partners' approved 742,000 sf scheme at 310 Northern Avenue and 5 Fid Kennedy Way is an office-lab complex replacing the Stavis Seafoods plant. No residential component."
+ },
+ "385:general_contractor": {
+  "id": 385,
+  "field": "general_contractor",
+  "outcome": "resolved",
+  "value": "Skanska",
+  "tier": "web_corroborated",
+  "source_type": "web",
+  "reason": "Skanska is developing and building 380 Stuart Street itself, which is its normal pattern on its own developments. Two independent trade outlets report it as the builder, and Skanska pulled the $362.8m building permit -- the priciest issued in Boston in 2024 -- in its own name.",
+  "sources": [
+   {
+    "url": "https://bankerandtradesman.com/back-bay-office-tower-construction-approved/",
+    "name": "Banker & Tradesman",
+    "date": "",
+    "passage": "Skanska Pulls Permit for 380 Stuart St. Office Tower Construction. Skanska's $362.8 million building permit for an office tower at 380 Stuart St. is the priciest issued in Boston in 2024; the permit, issued on Dec. 19, allows Skanska to build a 28-story steel and concrete tower with four levels of underground parking."
+   },
+   {
+    "url": "https://www.connectcre.com/stories/skanska-to-build-27-story-office-tower-in-bostons-back-bay/",
+    "name": "Connect CRE",
+    "date": "",
+    "passage": "Skanska to Build 27-Story Office Tower in Boston's Back Bay. Skanska plans to build a 625,000-square-foot building at the site."
+   }
+  ]
+ },
+ "385:civil_engineer": {
+  "id": 385,
+  "field": "civil_engineer",
+  "outcome": "null",
+  "reason": "the consultants named on 380 Stuart are CBT (architect), McNamara Salvia (structural) and GeoEngineers (geotechnical). None of those is a civil engineer, and no source names one. A structural or geotechnical engineer is not a civil engineer and is not recorded as one."
+ },
+ "295:residential_units": {
+  "id": 295,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "the East Parcel of Bulfinch Crossing is planned as three mid-rise buildings around a new plaza -- a hotel-and-condo building, a boutique office building and multi-storey retail -- and no source gives it a residential unit count. The 486-unit CBT tower and The Sudbury's 368 apartments plus 55 condominiums belong to other parcels of the same master plan, and the 423-unit figure a document scan attached to this row is WP-B1, a different parcel again."
+ },
+ "276:residential_units": {
+  "id": 276,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "Block G stopped being residential. The 2022 Notice of Project Change moved it from predominantly multi-residential to office and lab research with ground-floor retail and civic space, 650,000 sf over 21 storeys. The 3,200 homes a document scan attached to this row is the entire Seaport Square master plan."
+ },
+ "276:architect": {
+  "id": 276,
+  "field": "architect",
+  "outcome": "null",
+  "reason": "Sasaki authored the Seaport Square master plan and KPF is credited with Seaport Square work generally, but neither is named as the architect of Block G. Attaching a master-plan architect to one block is the error this rule exists to prevent."
+ },
+ "168:residential_units": {
+  "id": 168,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "On the Dot publishes 1,450 residential units across 11 buildings for the whole 21-acre master plan, and 237 market-rate plus 94 senior units for the 1.4m sf first phase. This row carries 1,386,500 sf -- the phase-one figure -- but so do 65 Ellery Street and 75 Ellery Street, which means the same filing is recorded three times. Assigning any unit count to one of the three would double or triple it. These three rows are a dedupe candidate."
+ },
+ "170:residential_units": {
+  "id": 170,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "see project 168: one of three rows sharing 1,386,500 sf and one On the Dot filing. Dedupe candidate."
+ },
+ "172:residential_units": {
+  "id": 172,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "see project 168: one of three rows sharing 1,386,500 sf and one On the Dot filing. Dedupe candidate."
+ },
+ "231:residential_units": {
+  "id": 231,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "155 North Beacon is a 409,000 sf lab campus of three buildings planned for more than 700 researchers -- no residential component. The 39 units a document scan attached to this row belong to the Emery Road building described in the same filing. Separately, the developer field is now stale: IQHQ sold the site to New Balance's development arm at a loss."
+ },
+ "190:residential_units": {
+  "id": 190,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "103 North Beacon is a 265,000 sf office-lab building approved by the BPDA, no residential component, and the same document-scan error applies as at 155 North Beacon. IQHQ has also sold this site to NB Development, so the developer on this row is stale."
+ },
+ "187:residential_units": {
+  "id": 187,
+  "field": "residential_units",
+  "outcome": "null",
+  "reason": "the Druker scheme at 1033-1055 Washington is two connected life science and office buildings of about 588,000 sf with ground-floor retail and community space. No residential component."
+ }
+}
