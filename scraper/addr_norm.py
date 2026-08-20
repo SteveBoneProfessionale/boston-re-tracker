@@ -7,6 +7,12 @@ NUMBER_WORDS = {
     "eleven": "11", "twelve": "12", "fifteen": "15", "twenty": "20",
 }
 
+# Spelled-out forms that appear in municipal filings but not in the tracker.
+WORD_FORM = {
+    "mount": "mt", "saint": "st", "fort": "ft", "doctor": "dr",
+    "mt.": "mt", "st.": "st",
+}
+
 SUFFIX = {
     "street": "st", "str": "st", "st": "st",
     "avenue": "ave", "av": "ave", "ave": "ave",
@@ -46,15 +52,56 @@ def norm_address(a):
     s = re.sub(r"[^\w\s\-]", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     toks = []
-    for i, t in enumerate(s.split()):
+    parts = s.split()
+    for i, t in enumerate(parts):
         if i == 0 and t in NUMBER_WORDS:
             t = NUMBER_WORDS[t]
         if t in DIRECTIONAL:
             t = DIRECTIONAL[t]
+        # "Mount Pleasant Ave" and "Mt Pleasant Ave" are the same street, but
+        # only when the word leads a name -- never collapse a trailing suffix.
+        if t in WORD_FORM and i < len(parts) - 1:
+            t = WORD_FORM[t]
         if t in SUFFIX:
             t = SUFFIX[t]
         toks.append(t)
     return " ".join(toks).strip()
+
+
+def address_keys(a):
+    """Every (number, street) pair a free-text address could refer to.
+
+    Municipal filings caption several lots at once. Two shapes matter:
+    "157, 159 & 165 GANO STREET", where bare numbers share the street that
+    follows them, and "116 Waterman Street & 232 Brook Street", where each
+    number belongs to its own street. Splitting on the conjunction and
+    carrying unattached numbers forward handles both without inventing an
+    address that was never written.
+    """
+    if not a:
+        return set()
+    head = re.split(
+        r"\b(?:providence|cranston|warwick|pawtucket|newport|rhode\s+island)\b",
+        str(a), flags=re.I)[0]
+    segments = re.split(r"\s*(?:&|\band\b|/)\s*", head, flags=re.I)
+
+    keys, pending = set(), []
+    for seg in segments:
+        nums = [int(n) for n in re.findall(r"\d{1,5}", seg)]
+        if not nums:
+            pending = []
+            continue
+        last = str(nums[-1])
+        tail = seg[seg.rfind(last) + len(last):]
+        tail = re.sub(r"^[\s,\-]+", "", tail)
+        sn = street_name("1 " + tail) if tail.strip() else ""
+        if not sn:
+            pending.extend(nums)      # bare numbers waiting for their street
+            continue
+        for n in nums + pending:
+            keys.add((n, sn))
+        pending = []
+    return keys
 
 
 def street_numbers(a):

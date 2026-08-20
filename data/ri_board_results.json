@@ -1,0 +1,1277 @@
+[
+ {
+  "custom_id": "rb0213",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"280 Melrose Street\",\n  \"address_quote\": \"Address\\n280 Melrose Street\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0106",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"11 W Friendship Street\",\n  \"address_quote\": \"PROJECT LOCATION: 11 W Friendship Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0300",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"349 Killingly Street in Providence, Rhode Island\",\n  \"address_quote\": \"the property located at 349 Killingly Street in Providence, Rhode Island and identified as Plat 115, Lot 626\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0302",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"1331 Eddy Street\",\n  \"address_quote\": \"PROJECT LOCATION: 1331 Eddy Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0050",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": null,\n  \"address_quote\": null,\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\n**Note:** The document provided contains only presentation slides with project plans and minimal text. While the filename references \"870-Westminster-St\" and appears to be from a Rhode Island municipal land-use process, the extracted pages do not contain explicit identification of the site address, municipality, architect, civil engineer, or general contractor. Only \"DEVELOPER\" appears as a label with no firm or person name provided in the visible text."
+ },
+ {
+  "custom_id": "rb0192",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"434 Mt. Pleasant Avenue\",\n  \"address_quote\": \"Mount Pleasant High School, located at 434 Mt. Pleasant Avenue in the City of Providence\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Starck Architects\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Pare Corporation\",\n    \"person\": \"Derek L. Hug, P.E., PTOE\",\n    \"role_label\": \"Managing Engineer\",\n    \"quote\": \"Derek L. Hug, P.E., PTOE Managing Engineer\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0126",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"221 Academy Ave\",\n  \"address_quote\": \"221 ACADEMY AVENUE\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0046",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"859 BROAD ST, PROVIDENCE, RI 02907\",\n  \"address_quote\": \"859 BROAD ST, PROVIDENCE, RI 02907\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"GRAHAM/MEUS INC ARCHITECTS\",\n    \"person\": null,\n    \"role_label\": \"GMI ARCHITECTS\",\n    \"quote\": \"\u00a9 COPYRIGHT GRAHAM/MEUS INC ARCHITECTS\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0166",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"27 East River Street, Providence, Rhode Island 02906\",\n  \"address_quote\": \"Proposed Multi Family Residential Building\\n27 East River Street (AP 15, Lots 483)\\nProvidence, Rhode Island 02906\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Providence Architecture & Building Co.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT\\nPROVIDENCE ARCHITECTURE &\\nBUILDING CO.\\n244 WEYBOSSET STREET,\\nPROVIDENCE, RI 02903\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Garafolo & Associates, Inc.\",\n    \"person\": null,\n    \"role_label\": \"CIVIL/SURVEY\",\n    \"quote\": \"CIVIL/SURVEY\\nGARAFOLO & ASSOCIATES, INC\\nCIVIL ENGINEERS / SUVEYORS\\n85 CORLISS STREET\\nPROVIDENCE, RI 02940\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0174",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"551 Chalkstone Ave, Providence, RI 02908\",\n  \"address_quote\": \"551 Chalkstone Ave\\nProvidence, RI 02908\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"DAVID SISSON ARCHITECTURE PC\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"DAVID SISSON ARCHITECTURE PC --- ALL RIGHTS RESERVED\\nd a v i d  s i s s o n  a r c h i t e c t u r e  pc\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0270",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"515 Prairie Ave, 134 and 138 Gallup Street\",\n  \"address_quote\": \"PROJECT LOCATION: 515 Prairie Ave, 134 and 138 Gallup Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0037",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"870 Westminster Street, Providence, RI 02903\",\n  \"address_quote\": \"870 WESTMINSTER STREET\\nPROVIDENCE, RI. 02903\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"McGeorge Architects, Inc.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"18 Fifth Avenue\\nEast Greenwich, Rhode Island 02818\\n401.398.7606\\nmcgeorgeai.com\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0025",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"200 Exchange Street\",\n  \"address_quote\": \"Address\\n200 Exchange Street\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0257",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"54-56 Sutton Street\",\n  \"address_quote\": \"54-56 Sutton Street (AP 28 Lot 223)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0182",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"217 Angell Street\",\n  \"address_quote\": \"PROJECT LOCATION: 217 Angell Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0264",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"115 Harris Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 115 Harris Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0150",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"150 Pitman Street, Providence RI\",\n  \"address_quote\": \"150 Pitman Street, Providence RI\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"BISBANO ASSOCIATES, INC.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT\\nBISBANO  ASSOCIATES, INC.\\nRISING SUN MILLS, 188 VALLEY STREET, STE. 100\\nPROVIDENCE, RI 02909\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0135",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"269 Wickenden Street\",\n  \"address_quote\": \"PROJECT LOCATION: 269 Wickenden Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0034",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"250 Lloyd Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 250 Lloyd Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0016",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"189 Ontario Street\",\n  \"address_quote\": \"Address\\n189 Ontario Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0226",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"369 Broadway\",\n  \"address_quote\": \"Address\\n369 Broadway\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0152",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"150 PITMAN STREET, PROVIDENCE, RHODE ISLAND 02906\",\n  \"address_quote\": \"RESIDENTIAL APARTMENT BUILDING 150 PITMAN STREET PROVIDENCE, RHODE ISLAND 02906\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"Aharonian & Associates\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"Q:\\\\19-19 Aharonian & Associates\\\\19-19s 150 Pitman St\\\\ACAD\\\\150 Pitman Street [Permit Set] - R6.dwg\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"JOE CASALI ENGINEERING, Inc.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"JOE CASALI ENGINEERING, Inc. Civil \u2219 Site Development \u2219 Transportation Drainage \u2219 Wetlands \u2219 ISDS \u2219 Traffic \u2219 Floodplain 300 Post Road, Warwick, RI 02888\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0013",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"176 Waterman Street\",\n  \"address_quote\": \"176 WATERMAN STREET\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0224",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"30 Barbara Street\",\n  \"address_quote\": \"Address\\n30 Barbara Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0180",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"217 Angell Street, Providence, RI\",\n  \"address_quote\": \"'217 ANGELL STREET, PROVIDENCE, RI'\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Kite Architects\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"architectural plans [Credit: Kite Architects]\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"JCE\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"The site plan below [Credit: JCE]\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0068",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"215 Broadway\",\n  \"address_quote\": \"Address\\n215 Broadway\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0026",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"126 ADELAIDE AVENUE PROVIDENCE, RI 02907\",\n  \"address_quote\": \"126 ADELAIDE AVENUE PROVIDENCE, RI 02907\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"ZDS\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"ZDS proposes the following restoration and modifications:\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0221",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"280 Melrose Street\",\n  \"address_quote\": \"280 Melrose Street\\nProvidence, Rhode Island\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"GZA Environmental, Inc.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"GZA Environmental, Inc.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0178",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"663 Admiral Street, Providence, RI 02908\",\n  \"address_quote\": \"663 ADMIRAL STREET, PROVIDENCE, RI 02908\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"ZDS inc.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECTURE AND INTERIORS\",\n    \"quote\": \"ARCHITECTURE AND INTERIORS: ZDS inc.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"INSITE ENGINEERING SERVICES, LLC\",\n    \"person\": null,\n    \"role_label\": \"CIVIL ENGINEER\",\n    \"quote\": \"CIVIL ENGINEER: INSITE ENGINEERING SERVICES, LLC\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0162",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"128 Wayland Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 128 Wayland Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0222",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"288 Kinsley Ave\",\n  \"address_quote\": \"Address\\n288 Kinsley Ave\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0060",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"663 Admiral Street, Providence, RI 02608\",\n  \"address_quote\": \"663 Admiral Street, Providence, RI 02608\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"InSite Engineering Services, LLC\",\n    \"person\": \"Paul D. Carlson\",\n    \"role_label\": \"REGISTERED PROFESSIONAL ENGINEER CIVIL\",\n    \"quote\": \"PAUL D. CARLSON REGISTERED PROFESSIONAL ENGINEER CIVIL No. 7142\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0079",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"215 Broadway\",\n  \"address_quote\": \"Re: 215 Broadway\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0273",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"61-67 Leander Street, Providence, Rhode Island\",\n  \"address_quote\": \"the property located at: 61-67 Leander Street, Providence, Rhode Island, Assessor's Plat 34, Lots 245 and 246\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0069",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"215 Broadway\",\n  \"address_quote\": \"Address\\n215 Broadway\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0197",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"220 BLACKSTONE STREET, PROVIDENCE, RHODE ISLAND 02903\",\n  \"address_quote\": \"220 BLACKSTONE STREET\\n(A.P. 45, LOT 85)\\nPROVIDENCE, RHODE ISLAND 02903\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"GAROFALO & ASSOCIATES, INC.\",\n    \"person\": null,\n    \"role_label\": \"CIVIL & STRUCTURAL ENGINEERS\\\\SURVEYORS\",\n    \"quote\": \"GAROFALO & ASSOCIATES, INC.\\nCIVIL & STRUCTURAL ENGINEERS\\\\SURVEYORS\\nLAND PLANNERS\\\\ENVIRONMENTAL SCIENTISTS\\n85 CORLISS STREET\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0169",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"400 Elmwood Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 400 Elmwood Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0189",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"885 WESTMINSTER STREET\",\n  \"address_quote\": \"885 WESTMINSTER STREET\\nMULTI-UNIT DEVELOPMENT\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0179",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"217 Angell St. Providence, RI 02906\",\n  \"address_quote\": \"217 Angell St. Providence, RI 02906\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"kite architects\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"kite architects one central street providence, rhode island  02907  401 272 0240 kitearchitects.com\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0019",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"311 Knight Street\",\n  \"address_quote\": \"PROJECT LOCATION: 311 Knight Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0065",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"35 Hemlock Street\",\n  \"address_quote\": \"PROJECT LOCATION: 35 Hemlock Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0018",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"321 KNIGHT STREET, PROVIDENCE, RI 02906\",\n  \"address_quote\": \"321 KNIGHT STREET, PROVIDENCE, RI 02906\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"ZDS inc.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECTURE AND INTERIORS\",\n    \"quote\": \"ARCHITECTURE AND INTERIORS: ZDS inc.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"LDEC ENGINEERING\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"SEE FULL CIVIL ENGINEERED DRAWINGS BY LDEC ENGINEERING\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0132",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"269 Wickenden Street\",\n  \"address_quote\": \"PROJECT LOCATION: 269 Wickenden Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0243",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"71 Richmond Street\",\n  \"address_quote\": \"Address\\n71 Richmond Street\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0118",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"102 Reservoir Ave., Providence, RI 02907\",\n  \"address_quote\": \"102 RESERVOIR AVE. PROVIDENCE Client 102 Reservoir Ave. Providence RI 02907, USA\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"MICHIE DESIGN & BUILD\",\n    \"person\": \"Bryan Michie\",\n    \"role_label\": \"Architectural Designer\",\n    \"quote\": \"Architectural Designer Bryan Michie MICHIE DESIGN & BUILD\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0242",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"71-85 Richmond St Providence RI 02903 unit 71\",\n  \"address_quote\": \"71-85 Richmond St Providence RI 02903\\nunit 71\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"truth box\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECTS\",\n    \"quote\": \"$5&+,7(&76\\n460  Harris  Avenue,  Unit 104\\nProvidence, Rhode Island 02909\\ntruthbox.com  |  401.453.1300\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Horsley Witten Group\",\n    \"person\": null,\n    \"role_label\": \"CIVIL\",\n    \"quote\": \"CIVIL\\nHorsley Witten Group\\n55 Dorrance Street, suite 200\\nProvidence, RI 02903\\n(401) 272-1717\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0283",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"125 Tobey Street\",\n  \"address_quote\": \"125 Tobey Street\\nAP 35 Lot 555\\nR-3 zoning district\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0186",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"1107 Westminster Street\",\n  \"address_quote\": \"PROJECT LOCATION: 1107 Westminster Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0146",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"661, 663, 665 PLAINFIELD ST. PROVIDENCE, RI 02895\",\n  \"address_quote\": \"661, 663, 665\\nPLAINFIELD ST.\\nPROVIDENCE, RI\\n02895\",\n  \"municipality\": \"PROVIDENCE, RI\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"JEFFREY LYKINS\",\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT\\n110-1/2 SOUTH KILLINGLY RD\\nFOSTER, RI 02825\\n401-474-9901\\nJEFFREY.LYKINS@GMAIL.COM\\nJEFFREY LYKINS\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0090",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"515 Prairie Ave, 134 and 138 Gallup Street\",\n  \"address_quote\": \"PROJECT LOCATION: 515 Prairie Ave, 134 and 138 Gallup Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0286",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"64 America Street, Providence, Rhode Island\",\n  \"address_quote\": \"the property located at: 64 America Street, Providence, Rhode Island, (a.k.a 62 America Street) Assessor's Plat 028, Lot 819,\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0198",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"309 DEXTER STREET\",\n  \"address_quote\": \"309 DEXTER STREET\\nMULTI-UNIT DEVELOPMENT\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0133",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"269 WICKENDEN STREET, PROVIDENCE RI\",\n  \"address_quote\": \"269 WICKENDEN STREET, PROVIDENCE RI\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"PROVIDENCE ARCHITECTURE + BUILDING Co.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT\\nPROVIDENCE ARCHITECTURE + BUILDING Co.\\n244 WEYBOSSET STREET\\nPROVIDENCE, RI\\n919.886.2426\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"InSite ENGINEERING SERVICES, LLC\",\n    \"person\": null,\n    \"role_label\": \"SITE / SURVEY\",\n    \"quote\": \"SITE / SURVEY\\nInSite ENGINEERING SERVICES, LLC\\n501 GREAT ROAD, UNIT 104\\nNORTH SMITHFIELD, RI\\n401.762.2870\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0161",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"128 Wayland Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 128 Wayland Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0142",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"108 and 110 Waterman Street, Providence, Rhode Island\",\n  \"address_quote\": \"The subject properties have a physical address of 108 and 110 Waterman Street in Providence, Rhode Island and is identified as Tax Assessor's Plat (AP) 13, Lots 183 and 184.\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Aharonian and Associates, Inc.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"Appendix A: Floor Plans and Renderings, prepared by Aharonian and Associates, Inc.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Joe Casali Engineering, Inc.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"Appendix B: Site Plans, prepared by Joe Casali Engineering, Inc.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0064",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"113 Ives Street\",\n  \"address_quote\": \"PROJECT LOCATION: 113 Ives Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Providence Architecture\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"Providence Architecture\\n Wickenden St, FL \\nProvidence, Rhode Island \\n\\nArchitectural Site Plan\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"D'AMICO ENGINEERING TECHNOLOGY, INC.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"D'AMICO ENGINEERING TECHNOLOGY, INC.\\nCivil \u2219 Transportation \u2219 Land Use\\n2080 Mineral Spring Ave., North Providence, RI 02911\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0127",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"740 Plainfield Street\",\n  \"address_quote\": \"PROJECT LOCATION: 740 Plainfield Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0131",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"269 Wickenden Street\",\n  \"address_quote\": \"PROJECT LOCATION: 269 Wickenden Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0088",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"35 Merino Street\",\n  \"address_quote\": \"PROJECT LOCATION: 35 Merino Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Tecton Architects | pc\",\n    \"person\": null,\n    \"role_label\": \"Project Architect\",\n    \"quote\": \"This drawing is the property of Tecton Architects | pc\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0158",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"60 CAMDEN AVENUE\",\n  \"address_quote\": \"60 CAMDEN AVENUE\\nA.P.69, LOTS 186 & 215\\nPROVIDENCE,\\nRHODE ISLAND 02903\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"STUDIO JAED\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"PREPARED BY:\\nSTUDIO JAED\\n42 WEYBOSSET STREET (SUITE 403)\\nPROVIDENCE, RHODE ISLAND 02903\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0067",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"56 Pratt Street\",\n  \"address_quote\": \"PROJECT LOCATION: 56 Pratt Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0057",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"663 Admiral Street\",\n  \"address_quote\": \"PROJECT LOCATION: 659-663 Admiral Street (AP 123 Lots 165 and 166) \u2014 zoned C-1 22 Glocester (AP 123 Lot 171) - zoned R-2\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0196",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"251-255 Weybosset St, Providence, RI 02903\",\n  \"address_quote\": \"Primary Location\\n251-255 Weybosset St\\nProvidence, RI 02903\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0140",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"371 Pine Street\",\n  \"address_quote\": \"PROJECT LOCATION: 371 Pine Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0260",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"22-26 Ringgold Street\",\n  \"address_quote\": \"PROJECT LOCATION: 22-26 Ringgold Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0138",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"781 Manton Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 781 Manton Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0284",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"20 America Street, Providence, Rhode Island\",\n  \"address_quote\": \"20 America Street, Providence, Rhode Island, Assessor's Plat 028, Lot 1046\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0122",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"50 BRANCH AVENUE, PROVIDENCE, RHODE ISLAND 02904\",\n  \"address_quote\": \"50 BRANCH AVENUE\\nPROVIDENCE, RHODE ISLAND  02904\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"BL COMPANIES, INC.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECTURE\",\n    \"quote\": \"ARCHITECTURE\\nENGINEERING\\nENVIRONMENTAL\\nLAND SURVEYING\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"BL COMPANIES, INC.\",\n    \"person\": null,\n    \"role_label\": \"ENGINEERING\",\n    \"quote\": \"ARCHITECTURE\\nENGINEERING\\nENVIRONMENTAL\\nLAND SURVEYING\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0103",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"228 Broad Street\",\n  \"address_quote\": \"228 BROAD STREET\\nA.P.29, LOTS 360, 361, 362 & 413\\nPROVIDENCE,\\nRHODE ISLAND 02903\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Branch Architects\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"BRANCH\\nA R C H I T E C T S\\n151 BROADWAY, SUITE 250\\nPROVIDENCE, RI 02903\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Garofalo & Associates, Inc.\",\n    \"person\": null,\n    \"role_label\": \"CIVIL & STRUCTURAL ENGINEERS\\\\SURVEYORS\",\n    \"quote\": \"GAROFALO & ASSOCIATES, INC.\\nCIVIL & STRUCTURAL ENGINEERS\\\\SURVEYORS\\nLAND PLANNERS\\\\ENVIRONMENTAL SCIENTISTS\\n85 CORLISS STREET\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0245",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"963 North Main Street\",\n  \"address_quote\": \"963 North Main Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0159",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"220 BLACKSTONE STREET, PROVIDENCE, RHODE ISLAND 02903\",\n  \"address_quote\": \"220 BLACKSTONE STREET\\n(A.P. 45, LOT 85)\\nPROVIDENCE, RHODE ISLAND 02903\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"GAROFALO & ASSOCIATES, INC.\",\n    \"person\": null,\n    \"role_label\": \"CIVIL & STRUCTURAL ENGINEERS\\\\SURVEYORS\",\n    \"quote\": \"GAROFALO & ASSOCIATES, INC.\\nCIVIL & STRUCTURAL ENGINEERS\\\\SURVEYORS\\nLAND PLANNERS\\\\ENVIRONMENTAL SCIENTISTS\\n85 CORLISS STREET\\nP.O. BOX 6145\\nPROVIDENCE, R.I. 02940\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0234",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"541 Hartford Ave, Providence, RI 02909\",\n  \"address_quote\": \"541 HARTFORD AVE, PROVIDENCE, RI 02909\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"InSite Engineering services\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"copyright: InSite Engineering services\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0105",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"386 Atwells Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 386 Atwells Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0155",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"75 Laban Street\",\n  \"address_quote\": \"PROJECT LOCATION: 75 Laban Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0177",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"663 Admiral Street\",\n  \"address_quote\": \"663 Admiral Street (AP 123 Lots 165 and 166) \u2014zoned C-1\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0219",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": null,\n  \"address_quote\": null,\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\n**Note:** This document is a professional resume for Jason J. Rainone, a lighting designer at Abernathy Lighting Design, Inc. It contains no municipal land-use documents, zoning applications, or project-specific information tied to a Rhode Island property address. Therefore, no site address, municipality, architect, civil engineer, or general contractor information can be extracted."
+ },
+ {
+  "custom_id": "rb0244",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"77 Union Ave\",\n  \"address_quote\": \"Address\\n77 Union Ave\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0089",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"35 Merino Street\",\n  \"address_quote\": \"PROJECT LOCATION: 35 Merino Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0130",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"269 Wickenden Street, Providence, Rhode Island 02903\",\n  \"address_quote\": \"269 WICKENDEN STREET\\nPROVIDENCE, RHODE ISLAND 02903\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0301",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"349 Killingly Street\",\n  \"address_quote\": \"349 Killingly Street (AP 115 Lot 626)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0051",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"870 Westminster Street\",\n  \"address_quote\": \"870 Westminster Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0093",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"310 George Washington Highway\",\n  \"address_quote\": \"310 George Washington Highway\",\n  \"municipality\": \"Smithfield\",\n  \"architect\": {\n    \"firm\": \"AHARONIAN & ASSOCIATES, INC.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECTS\",\n    \"quote\": \"AHARONIAN & ASSOCIATES, INC. ARCHITECTS\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0058",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"663 Admiral Street\",\n  \"address_quote\": \"663 Admiral Street \u2013 Property/Resident Management Plan\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0194",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"25-27 Harold St\",\n  \"address_quote\": \"Address\\n25-27 Harold St\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0268",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"693-697 Douglas Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 693-697 Douglas Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0247",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"230 Waterman Street, Providence, RI 02906\",\n  \"address_quote\": \"230 Waterman St, Providence, RI\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"ZDS inc.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT\\nZDS inc.\\n2 CHARLES STREET, SUITE A1\\nPROVIDENCE, RI 02904\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0005",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"126 Adelaide Ave\",\n  \"address_quote\": \"Address\\n126 Adelaide Ave\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0101",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"220 Broad Street\",\n  \"address_quote\": \"220 BROAD STREET\\nA.P. 24, LOT 35\\nPROVIDENCE,\\nRHODE ISLAND 02903\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Branch Architects\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"BRANCH ARCHITECTS, LLC\\n151 BROADWAY, SUITE 250\\nPROVIDENCE, RI 02903\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Garofalo & Associates, Inc.\",\n    \"person\": null,\n    \"role_label\": \"CIVIL & STRUCTURAL ENGINEERS\\\\SURVEYORS\",\n    \"quote\": \"GAROFALO & ASSOCIATES, INC.\\nCIVIL & STRUCTURAL ENGINEERS\\\\SURVEYORS\\nLAND PLANNERS\\\\ENVIRONMENTAL SCIENTISTS\\n85 CORLISS STREET\\nP.O. BOX 6145\\nPROVIDENCE, R.I. 02940\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0096",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"116 Waterman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 116 Waterman Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0107",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"150 Pitman Street, Providence, RI\",\n  \"address_quote\": \"The subject properties are identified as Tax Assessor's Plat (AP) 15, Lots 238, 239 and 240 with the physical address of 158, 154, and 150 Pitman Street, respectively in Providence, Rhode Island.\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Aharonian & Associates, Inc.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT\\nAHARONIAN & ASSOCIATES, INC.\\n310 GEORGE WASHINGTON HWY\\nSMITHFIELD, RI 02917\\n(401) 944-1300 PHONE\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Joe Casali Engineering, Inc.\",\n    \"person\": null,\n    \"role_label\": \"ENGINEER\",\n    \"quote\": \"ENGINEER\\nJOE CASALI ENGINEERING, INC.\\n300 POST ROAD\\nWARWICK, RI 02888\\n(401) 944-1300 PHONE\\nWWW.JOECASALI.COM\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0274",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"320 Angell Street\",\n  \"address_quote\": \"PROJECT LOCATION: 320 Angell Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0168",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"27 E RIVER ST, PROVIDENCE RI 02906\",\n  \"address_quote\": \"27 E RIVER ST, PROVIDENCE RI 02906\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"PROVIDENCE ARCHITECTURE & BUILDING CO.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT\\nPROVIDENCE ARCHITECTURE & BUILDING CO.\\n244 WEYBOSSET STREET,\\nPROVIDENCE, RI 02903\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"GARAFOLO & ASSOCIATES, INC\",\n    \"person\": null,\n    \"role_label\": \"CIVIL/SURVEY\",\n    \"quote\": \"CIVIL/SURVEY\\nGARAFOLO & ASSOCIATES, INC\\nCIVIL ENGINEERS / SUVEYORS\\n85 CORLISS STREET\\nPROVIDENCE, RI 02940\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0020",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"311 Knight, 321 Knight and 1077 Westminster Street\",\n  \"address_quote\": \"PROJECT LOCATION:\\n311 Knight, 321 Knight and 1077\\nWestminster Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0258",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"828 Charles Street\",\n  \"address_quote\": \"The petitioning is requesting to rezone 828 Charles Street from R-2 to C-3\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0214",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"266-280 Melrose Street\",\n  \"address_quote\": \"266-280 Melrose Street (AP 60, Lot 194)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0181",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": null,\n  \"address_quote\": null,\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThe page provided is a legend/template sheet from a survey document and contains no information identifying an architect, civil engineer, general contractor, site address, or municipality."
+ },
+ {
+  "custom_id": "rb0120",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"50 Branch Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 50 Branch Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0055",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"850 Manton Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 850 Manton Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0163",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"128 Wayland Avenue, Providence, Rhode Island\",\n  \"address_quote\": \"PROPOSED RESIDENTIAL DEVELOPMENT 128 WAYLAND AVE. PROVIDENCE, RHODE ISLAND\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"DAVID SISSON ARCHITECTURE PC\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"DAVID SISSON ARCHITECTURE PC --- ALL RIGHTS RESERVED d a v i d s i s s o n a r c h i t e c t u r e pc\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"D'AMICO ENGINEERING TECHNOLOGY, INC.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"D'AMICO ENGINEERING TECHNOLOGY, INC. Civil \u00b7 Transportation \u00b7 Land Use 2080 Mineral Spring Ave., North Providence, RI 02911\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0256",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"144 Benefit Street\",\n  \"address_quote\": \"PROJECT LOCATION:\\n144 Benefit Street\\nAP 10 Lot 81\\nR-2 zone\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0281",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"181, 187 and 191 Pocasset Ave and 11 Lowell Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 181, 187 and 191 Pocasset Ave and 11 Lowell Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0251",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"1292 Westminster Street\",\n  \"address_quote\": \"PROJECT LOCATION: 1292 Westminster Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0249",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"466-468 West Fountain Street\",\n  \"address_quote\": \"466-468 WEST FOUNTAIN STREET\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"ZDS inc.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECTURE AND INTERIORS\",\n    \"quote\": \"ARCHITECTURE AND INTERIORS: ZDS inc. 86 WEYBOSSET ST, SUITE 302 PROVIDENCE, RI 02903 +1.401.680.6699 www.z-ds.com\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"CREATIVE ENVIRONMENT CORP\",\n    \"person\": null,\n    \"role_label\": \"CIVIL ENGINEER & LANDSCAPE ARCHITECT\",\n    \"quote\": \"CIVIL ENGINEER & LANDSCAPE ARCHITECT: CREATIVE ENVIRONMENT CORP 195 FRANCES AVE BLDG #2 CRANSTON, RI 02910 +401.438.7733 www.cec-engineering.com\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0003",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"124 Webster Ave\",\n  \"address_quote\": \"Address\\n124 Webster Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0206",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"265 Manton Ave\",\n  \"address_quote\": \"Address\\n265  Manton Ave\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0171",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"400 Elmwood Ave, Providence, RI 02907\",\n  \"address_quote\": \"400 ELMWOOD AVENUE PROVIDENCE, R.I. 02907\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": \"jireh construction llc.\",\n    \"person\": null,\n    \"role_label\": \"Designer and General Construction Services\",\n    \"quote\": \"Designer and General Construction Services\\nWoonsocket, ri. 02895\"\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0294",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"176 Gano and 38 Amy Street\",\n  \"address_quote\": \"PROJECT LOCATION: 176 Gano and 38 Amy Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0042",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"1101 Elmwood Ave\",\n  \"address_quote\": \"PROJECT LOCATION:\\n1101 Elmwood Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0210",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"27 Judith Street\",\n  \"address_quote\": \"Address\\n27 Judith Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0230",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"372 Plainfield Street\",\n  \"address_quote\": \"Address\\n372 Plainfield Street\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0298",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"1 Charles Street\",\n  \"address_quote\": \"PROJECT LOCATION: 1 Charles Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0248",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"31-45 Parade Street\",\n  \"address_quote\": \"the project located at 31-45 Parade Street in Providence\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0240",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"68 Pleasant Valley Parkway\",\n  \"address_quote\": \"Address\\n68 Pleasant Valley Parkway\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0040",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"870 Westminster Street\",\n  \"address_quote\": \"PROJECT LOCATION: 870 Westminster Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0191",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"1655 Westminster Street\",\n  \"address_quote\": \"PROJECT LOCATION: 1655 Westminster Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0054",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"230 Waterman Street, Providence, RI 02906\",\n  \"address_quote\": \"230 WATERMAN STREET, PROVIDENCE, RI 02906\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"ZDS inc.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT\\nZDS inc.\\n2 CHARLES STREET, SUITE A1\\nPROVIDENCE, RI 02904\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0262",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"550 Veazie Street\",\n  \"address_quote\": \"PROJECT LOCATION: 550 Veazie Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0201",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"14 Cargill Street\",\n  \"address_quote\": \"PROJECT LOCATION: 14 Cargill Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0098",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"116 Waterman Street & 232 Brook Street\",\n  \"address_quote\": \"116 Waterman Street & 232 Brook Street\\nProvidence, RI\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Aharonian & Associates, Inc.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT:\\nAHARONIAN & ASSOCIATES, INC.\\n310 GEORGE WASHINGTON HIGHWAY\\nSMITHFIELD, RI 02917\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Joe Casali Engineering, Inc.\",\n    \"person\": null,\n    \"role_label\": \"CIVIL\",\n    \"quote\": \"CIVIL:\\nJOE CASALI ENGINEERING, INC.\\n300 POST ROAD\\nWARWICK, RI 02888\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0238",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": null,\n  \"address_quote\": null,\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0227",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": null,\n  \"address_quote\": null,\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Kevin Diamond\",\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\n**Note:** This document is a curriculum vitae and contains no information about a specific property, municipal application, or project location. Kevin Diamond is identified as \"a licensed architect\" but there is no project address, municipality, or other professionals tied to a specific development project in this document."
+ },
+ {
+  "custom_id": "rb0001",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"11 DE SOTO ST. PROVIDENCE\",\n  \"address_quote\": \"Address of Subject Property* 11 DE SOTO ST. PROVIDENCE\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Jose Francisco Huarancay\",\n    \"role_label\": \"Architectural Drafter\",\n    \"quote\": \"Jose Francisco Huarancay - Architectural Drafter\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0102",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"220 Broad Street\",\n  \"address_quote\": \"PROJECT LOCATION: 220 Broad Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0082",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"850 Manton Ave\",\n  \"address_quote\": \"850 Manton Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0084",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"157, 159 & 165 GANO STREET & 256 POWER STREET, PROVIDENCE, RHODE ISLAND\",\n  \"address_quote\": \"PROPOSED RESIDENTIAL DEVELOPMENT 157, 159 & 165 GANO AND 256 POWER STREET PROVIDENCE, RHODE ISLAND\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"ACME ARCHITECT, LLC\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT:\",\n    \"quote\": \"ARCHITECT: ACME ARCHITECT, LLC 9 SIMMONS ROAD LITTLE COMPTON, RI 02837 PHONE: 401-465-5247\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"JOE CASALI ENGINEERING, INC.\",\n    \"person\": null,\n    \"role_label\": \"CIVIL:\",\n    \"quote\": \"CIVIL: JOE CASALI ENGINEERING, INC. 300 POST ROAD WARWICK, RI 02888 PHONE: 401-944-1300 FAX: 401-944-1313\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0250",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"16-42 Somerset Street, 17-27 Portland Street and 34 Hayward Street\",\n  \"address_quote\": \"PROJECT LOCATION: 16-42 Somerset Street, 17-27 Portland and 34 Hayward\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Horsley Witten Group, Inc.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"Horsley Witten Group, Inc. Sustainable Environmental Solutions\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0305",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"45-47 America Street\",\n  \"address_quote\": \"PROJECT LOCATION:\\n45-47 America Street\\nAP 28 Lot 236\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0217",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"280 Melrose Street\",\n  \"address_quote\": \"The NATIONAL GRID project is located at 280 Melrose Street, also known as Lot #194 on the Tax Assessor's Plat 60 located in an M-1 Light Industrial Zone.\",\n  \"municipality\": \"Providence, RI\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0289",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"400 Hope Street\",\n  \"address_quote\": \"PROJECT LOCATION: 400 Hope Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0070",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"215 Broadway, Providence, Rhode Island\",\n  \"address_quote\": \"215 Broadway\\nProvidence, Rhode Island\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0307",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"217-221 Academy Ave, Providence, RI 02908\",\n  \"address_quote\": \"Primary Location\\n217-221 Academy Ave\\nProvidence, RI 02908\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0304",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"16-42 Somerset Street and 17-27 Portland Street\",\n  \"address_quote\": \"PROJECT LOCATION:\\n16-42 Somerset Street and 17-27\\nPortland Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0231",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"372 Plainfield St., Providence, RI 02909\",\n  \"address_quote\": \"372 Plainfield St. Providence, RI 02909, USA\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"MICHIE DESIGN & BUILD\",\n    \"person\": \"Bryan Michie\",\n    \"role_label\": \"Designer\",\n    \"quote\": \"Designer Bryan Michie MICHIE DESIGN & BUILD\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0006",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"126 Adelaide Ave\",\n  \"address_quote\": \"I would like to again voice my opposition to the project by Bluedog Capital at 126 Adelaide Ave.\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0085",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"153-165 Gano Street, Providence, Rhode Island\",\n  \"address_quote\": \"153-165 Gano Street\\nProvidence, Rhode Island\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Acme Architect, LLC\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"a review of the plans provided by Acme Architect, LLC\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Joe Casali Engineering, Inc.\",\n    \"person\": \"Mr. Joe Casali, P.E.\",\n    \"role_label\": null,\n    \"quote\": \"Prepared for:\\nMr. Joe Casali, P.E.\\nJoe Casali Engineering, Inc.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0173",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"551 Chalkstone Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 551 Chalkstone Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0049",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"Dean Street between Kinsley Avenue and Harris Avenue, Providence, Rhode Island\",\n  \"address_quote\": \"The project is located on the westerly side of Dean Street between Kinsley Avenue and Harris Avenue.\",\n  \"municipality\": \"Providence, Rhode Island\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"a review of the current site plan prepared by DiPrete Engineering\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0021",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"99-101 Gano Street\",\n  \"address_quote\": \"PROJECT LOCATION: 99-101 Gano Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": \"ARCHITECT:\",\n    \"quote\": \"ARCHITECT:\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"PARE CORPORATION\",\n    \"person\": null,\n    \"role_label\": \"CIVIL ENGINEER:\",\n    \"quote\": \"CIVIL ENGINEER: PARE CORPORATION ENGINEERS - SCIENTISTS - PLANNERS 8 BLACKSTONE VALLEY PLACE LINCOLN, RI 02865\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0212",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"27 Taber Ave\",\n  \"address_quote\": \"Address\\n27 Taber Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0007",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"126 Adelaide Avenue\",\n  \"address_quote\": \"126 Adelaide Avenue\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": \"Design and Architechture\",\n    \"quote\": \"Design and Architechture\\n$100,000\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": \"Civil Engineering\",\n    \"quote\": \"Civil Engineering\\n$50,000\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0041",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"27 EAST RIVER STREET, PROVIDENCE, RI 02906\",\n  \"address_quote\": \"27 EAST RIVER STREET, PROVIDENCE, RI 02906\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0052",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"230 Waterman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 230 Waterman Street AP 15 Lot 495\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0279",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"355 Thurbers Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 355 Thurbers Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0059",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"663 Admiral Street\",\n  \"address_quote\": \"663 ADMIRAL STREET\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0008",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"126 Adelaide Ave\",\n  \"address_quote\": \"Address\\n126 Adelaide Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0156",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": null,\n  \"address_quote\": null,\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nThis document is a City Plan Commission meeting agenda listing multiple projects for action. It does not identify any architect, civil engineer, or general contractor for any of the projects. The document names applicants and petitioners but does not assign professional design or construction roles to any firms or individuals."
+ },
+ {
+  "custom_id": "rb0032",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"135 Prairie Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 135 Prairie Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0112",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"541 Hartford Ave\",\n  \"address_quote\": \"541 Hartford Ave (AP 113 Lots 232,233,235,244)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0184",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"220 Blackstone Street\",\n  \"address_quote\": \"PROJECT LOCATION: 220 Blackstone Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0056",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"24 EIGHTH STREET, PROVIDENCE, RHODE ISLAND 02906\",\n  \"address_quote\": \"PROJECT LOCATION: 18-24 Eighth Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"JACK RYAN ARCHITECT, LLC\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT :\",\n    \"quote\": \"JACK RYAN ARCHITECT, LLC\\nWWW.JACKRYANARCHITECT.COM\\nARCHITECT :\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0237",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"Printery Street, Providence\",\n  \"address_quote\": \"in the vicinity of Printery street in Providence\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0211",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"27 Taber Ave\",\n  \"address_quote\": \"PROPERTY ADDRESS: 27 Taber Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"William Bombard\",\n    \"role_label\": \"City Engineer\",\n    \"quote\": \"I have spoken to Bill Bombard, the City Engineer (copied here)\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0235",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"541 Hartford Avenue, Providence, RI 02909\",\n  \"address_quote\": \"541 Hartford Avenue, Providence, RI 02909\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"InSite Engineering Services, LLC\",\n    \"person\": \"Paul D. Carlson\",\n    \"role_label\": \"REGISTERED PROFESSIONAL ENGINEER CIVIL\",\n    \"quote\": \"PAUL D. CARLSON REGISTERED PROFESSIONAL ENGINEER CIVIL No. 7142\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0097",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"116 Waterman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 116 Waterman Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0253",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"607 Potters Avenue, Providence RI 02907\",\n  \"address_quote\": \"Salem Gospel Church\\n607 Potters Avenue, Providence RI 02907\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Martin Ezeama\",\n    \"role_label\": \"Architect\",\n    \"quote\": \"Architect: Mr. Martin Ezeama, Architect\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0239",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"607 Potters Ave\",\n  \"address_quote\": \"Address\\n607 Potters Ave\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0087",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"240 LABAN STREET, PROVIDENCE, RI 02909\",\n  \"address_quote\": \"FRANK D. SPAZIANO ELEMENTARY SCHOOL 240 LABAN STREET PROVIDENCE, RI 02909\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"Tecton Architects | pc\",\n    \"person\": null,\n    \"role_label\": \"Project Architect\",\n    \"quote\": \"This drawing is the property of Tecton Architects | pc\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0233",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"518 Lloyd Ave\",\n  \"address_quote\": \"Address\\n518 Lloyd Ave\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0200",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"309 DEXTER STREET\",\n  \"address_quote\": \"CITY OF PROVIDENCE\\n309 DEXTER STREET\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"STONEFIELD ENGINEERING & DESIGN, LLC.\",\n    \"person\": \"JOSHUA H. KLINE, P.E.\",\n    \"role_label\": \"LICENSED PROFESSIONAL ENGINEER\",\n    \"quote\": \"JOSHUA H. KLINE, P.E.\\nRHODE ISLAND LICENSE No. 13607\\nLICENSED PROFESSIONAL ENGINEER\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0164",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"128 Wayland Avenue, Providence, Rhode Island\",\n  \"address_quote\": \"PROPOSED RESIDENTIAL DEVELOPMENT 128 WAYLAND AVE. PROVIDENCE, RHODE ISLAND AP 14, LOT 29\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"DAVID SISSON ARCHITECTURE PC\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"DAVID SISSON ARCHITECTURE PC --- ALL RIGHTS RESERVED d a v i d  s i s s o n  a r c h i t e c t u r e  pc 345 Taunton Ave East Providence RI 02914\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"D'AMICO ENGINEERING TECHNOLOGY, INC.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"D'AMICO ENGINEERING TECHNOLOGY, INC. Civil \u2219 Transportation \u2219 Land Use 2080 Mineral Spring Ave., North Providence, RI 02911\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0199",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"309 Westminster Street\",\n  \"address_quote\": \"PROJECT LOCATION: 309 Westminster Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0157",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"60 Camden Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 60 Camden Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0241",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"697 Douglas Ave, Providence, RI 02908\",\n  \"address_quote\": \"697 Douglas Ave, Providence RI 02908\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"MICHIE DESIGN BUILD\",\n    \"person\": \"Bryan Michie\",\n    \"role_label\": \"Designer\",\n    \"quote\": \"Designer Bryan Michie MICHIE DESIGN BUILD\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": \"PERUNOVO LLC\",\n    \"person\": null,\n    \"role_label\": \"GC - 44956\",\n    \"quote\": \"PERUNOVO LLC GC - 44956\"\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0218",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": null,\n  \"address_quote\": null,\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": \"Sophia D Narkiewicz, P.E.\",\n    \"role_label\": \"Senior Project Manager\",\n    \"quote\": \"Sophia D Narkiewicz, P.E. Senior Project Manager\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0225",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"30 Princeton Ave\",\n  \"address_quote\": \"Address\\n30 Princeton Ave\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0011",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"165 Dexter Street\",\n  \"address_quote\": \"Address\\n165 Dexter Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0100",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"116 Waterman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 116 Waterman Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0170",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"400 ELMWOOD AVENUE, PROVIDENCE, RI 02907\",\n  \"address_quote\": \"400 ELMWOOD AVENUIE\\nPROVIDENCE, RI 02907\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"JEFFREY LYKINS\",\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT\\n110-1/2 SOUTH KILLINGLY RD\\nFOSTER, RI 02825\\n401-474-9901\\nJEFFREY.LYKINS@GMAIL.COM\\nJEFFREY LYKINS\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0075",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"215 Broadway\",\n  \"address_quote\": \"Application for proposed DIMENSIONAL VARIANCES at 215 Broadway\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0104",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"228 Broad Street\",\n  \"address_quote\": \"PROJECT LOCATION: 228 Broad Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0148",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"45 PARADE STREET, PROVIDENCE, RHODE ISLAND 02909\",\n  \"address_quote\": \"APARTMENT BUILDING\\n45 PARADE STREET\\nPROVIDENCE, RHODE ISLAND 02909\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"JACK RYAN ARCHITECT, LLC\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"JACK RYAN ARCHITECT, LLC\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Land Development Engineering & Consulting, LLC\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"Land Development Engineering & Consulting, LLC\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0045",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"309 DEXTER STREET\",\n  \"address_quote\": \"309 DEXTER STREET, CITY OF PROVIDENCE\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"ZDS, INC.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"ARCHITECTURAL PLANS; PREPARED BY ZDS, INC. DATED MARCH 2025\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"STONEFIELD ENGINEERING & DESIGN, LLC\",\n    \"person\": \"JOSHUA H. KLINE, P.E.\",\n    \"role_label\": \"LICENSED PROFESSIONAL ENGINEER\",\n    \"quote\": \"JOSHUA H. KLINE, P.E. RHODE ISLAND LICENSE No. 13607 LICENSED PROFESSIONAL ENGINEER\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0071",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"215 Broadway\",\n  \"address_quote\": \"convert 215 Broadway from 7 apartments and a law office to 12 units\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0062",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"663 Admiral Street\",\n  \"address_quote\": \"663 Admiral Street (AP 123 Lots 165 and 166) \u2014zoned C-1\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0215",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"266-280 Melrose Street\",\n  \"address_quote\": \"266-280 Melrose Street (AP 60, Lot 194)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0167",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"27 East River Street\",\n  \"address_quote\": \"27 East River Street\\nResidential Development\\nProvidence, Rhode Island\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"VHB\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"PREPARED BY\\n1 Cedar Street, Suite 400\\nProvidence, RI 02903\\n401.272.8100\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0086",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"870 Westminster Street\",\n  \"address_quote\": \"PROJECT LOCATION: 870 Westminster Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0151",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"150-158 Pitman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 150-158 Pitman Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0053",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"230 Waterman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 230 Waterman Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0066",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"220 Blackstone Street\",\n  \"address_quote\": \"220 BLACKSTONE ST, PROVIDENCE, RHODE ISLAND\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"DiPrete Engineering\\nBo s t o n    Pr o v i d e n c e    N e w p o r t\\nTwo Stafford Court  Cranston, RI 02920\\ntel 401-943-1000  fax 401-464-6006  www.diprete-eng.com\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0266",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"322 Washington Street\",\n  \"address_quote\": \"PROJECT LOCATION: 322 Washington Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0017",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"1326 Westminster Street\",\n  \"address_quote\": \"The site is located in the C-2 zone under the historic district overlay.\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"3SIX0\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"DWN BY: AJD\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0121",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"50 BRANCH AVENUE, PROVIDENCE, RI 02904\",\n  \"address_quote\": \"PROVIDENCE SELF-STORAGE  //  50 BRANCH AVENUE  //  PROVIDENCE, RI 02904\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0009",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"126 Adelaide Ave, Plat 52, Lot 351\",\n  \"address_quote\": \"Blue Dog Capital Partners, LLC. Proposal for 126 Adelaide Ave, Plat 52, Lot 351\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0228",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"369 Broadway\",\n  \"address_quote\": \"Re:  369 Broadway\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Kevin Diamond, R.A.\",\n    \"role_label\": \"R.A.\",\n    \"quote\": \"Kevin Diamond, R.A.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0141",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"371 Pine Street, Providence, RI 02903\",\n  \"address_quote\": \"371 Pine Street, Providence, RI 02903\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"KITE Architects, Inc.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"See architectural plans by Kite Architects for all zoning (parking, bike spaces, loading areas, etc.) data unless noted otherwise\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"NARRAGANSETT ENGINEERING\",\n    \"person\": null,\n    \"role_label\": \"CIVIL ENGINEER\",\n    \"quote\": \"CIVIL ENGINEER\\nNARRAGANSETT ENGINEERING\\n3102 East Main Rd, Portsmouth, RI 02871\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0208",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"27 Hawkins Street\",\n  \"address_quote\": \"Address\\n27 Hawkins Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0285",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"20 America Street\",\n  \"address_quote\": \"20 America Street (AP 28 Lot 1046)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0095",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"116 Waterman Street & 232 Brook Street\",\n  \"address_quote\": \"116 Waterman Street & 232 Brook Street, Providence, RI, AP 12, Lots 180 & 260\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Aharonian & Associates, Inc.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT: AHARONIAN & ASSOCIATES, INC.\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Joe Casali Engineering, Inc.\",\n    \"person\": null,\n    \"role_label\": \"CIVIL\",\n    \"quote\": \"CIVIL: JOE CASALI ENGINEERING, INC.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0094",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"112 Waterman Street\",\n  \"address_quote\": \"112 WATERMAN STREET\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\nNote: The document is a landscaping plan prepared by JOHN C. CARTER & COMPANY, INC., identified as \"LANDSCAPE ARCHITECTURE\" \u2014 not an architect or civil engineer. Therefore, no entries are returned for those roles per the rules provided."
+ },
+ {
+  "custom_id": "rb0022",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"75-81 Yorkshire Street\",\n  \"address_quote\": \"PROJECT LOCATION: 75-81 Yorkshire Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0024",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"20 Dike Street\",\n  \"address_quote\": \"Address\\n20 Dike\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0117",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"322 Washington Street\",\n  \"address_quote\": \"PROJECT LOCATION: 322 Washington Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0147",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"661-665 Plainfield Street\",\n  \"address_quote\": \"PROJECT LOCATION: 661-665 Plainfield Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0012",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"17-21 Harold St and 58 Aurora\",\n  \"address_quote\": \"Address\\n17-21 Harold St and 58 Aurora\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0143",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"547 Chalkstone Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 547 Chalkstone Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0063",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"663 Admiral Street\",\n  \"address_quote\": \"663 ADMIRAL STREET MULTI-UNIT DEVELOPMENT\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0124",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"221 Academy Ave\",\n  \"address_quote\": \"Address\\n221 Academy Ave\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0223",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"30-32 Barbara Street\",\n  \"address_quote\": \"Address of Subject Property*\\n30-32 Barbara Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"COVENTRY SURVEY DESIGN GROUP\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"THE SURVEY IS INTENDED SOLELY FOR USE BY COVENTRY SURVEY DESIGN GROUP.\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0033",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"135 Prairie Avenue, Providence, Rhode Island 02907\",\n  \"address_quote\": \"135 Prairie Avenue, Providence, Rhode Island 02907\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DiPrete Engineering\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"DiPrete Engineering Two Stafford Court Cranston, RI 02920\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0074",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"215 Broadway\",\n  \"address_quote\": \"Subject: 215 Broadway\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0220",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"280 Melrose Street\",\n  \"address_quote\": \"Address\\n280 Melrose Street\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0193",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"95 Nelson Street\",\n  \"address_quote\": \"PROJECT LOCATION: 95 Nelson Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0015",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"189 Ontario St\",\n  \"address_quote\": \"variance being considering by the city at 189 Ontario St\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0039",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"870 Westminster Street\",\n  \"address_quote\": \"PROJECT LOCATION: 870 Westminster Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0175",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"551 CHALKSTONE AVE., PROVIDENCE, RHODE ISLAND\",\n  \"address_quote\": \"PROPOSED RESIDENTIAL DEVELOPMENT 551 CHALKSTONE AVE. PROVIDENCE, RHODE ISLAND\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"D'AMICO ENGINEERING TECHNOLOGY, INC.\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"D'AMICO ENGINEERING TECHNOLOGY, INC. Civil \u2219 Transportation \u2219 Land Use 2080 Mineral Spring Ave., North Providence, RI 02911\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0287",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"64 America Street\",\n  \"address_quote\": \"64 America Street (AP 28 Lot 819)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0202",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"WEST & CARGILL STREET, PROVIDENCE, RHODE ISLAND 02903\",\n  \"address_quote\": \"WEST & CARGILL STREET\\nPROVIDENCE, RHODE ISLAND 02903\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"AHARONIAN & ASSOCIATES, INC.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECTS\",\n    \"quote\": \"AHARONIAN\\n& ASSOCIATES, INC.\\nARCHITECTS\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0154",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"150-158 Pitman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 150-158 Pitman Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0119",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"106 Reservoir Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 106 Reservoir Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0038",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"870 WESTMINSTER STREET, PROVIDENCE, RI. 02903\",\n  \"address_quote\": \"870 WESTMINSTER STREET\\nPROVIDENCE, RI. 02903\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"mcgeorgeai.com\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"18 Fifth Avenue\\nEast Greenwich, Rhode Island 02818\\n401.398.7606\\nmcgeorgeai.com\\nmatthew@mcgeorgeai.com 401.215.0749 c\\nrebecca@mcgeorgeai.com 401.215.0869 c\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0035",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"73 and 78 Stanwood Street\",\n  \"address_quote\": \"PROJECT LOCATION: 73 and 78 Stanwood Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0123",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"50 Branch Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 50 Branch Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0203",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"West Street & Cargill Street\",\n  \"address_quote\": \"West Street & Cargill Street\\nProvidence, RI\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": \"Aharonian & Associates Inc\",\n    \"person\": null,\n    \"role_label\": \"Architects\",\n    \"quote\": \"Aharonian & Associates Inc - Architects\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"DIPRETE ENGINEERING\",\n    \"person\": null,\n    \"role_label\": \"CIVIL ENGINEER OF RECORD\",\n    \"quote\": \"CIVIL ENGINEER OF RECORD. DIPRETE ENGINEERING UNLESS DESIGNATED OTHERWISE BY OWNER\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0229",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"371 Pine Street\",\n  \"address_quote\": \"Address\\n371 Pine Street\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0023",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"219 Waterman Street, Providence, RI 02906\",\n  \"address_quote\": \"219 WATERMAN STREET, PROVIDENCE, R.I.  02906\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"OCEAN STATE PLANNERS, INC.\",\n    \"person\": \"RICHARD T. BZDYRA, PLS\",\n    \"role_label\": null,\n    \"quote\": \"PREPARED BY: OCEAN STATE PLANNERS, INC. 1255 OAKLAWN AVENUE, CRANSTON, RI 02920... BY: RICHARD T. BZDYRA, PLS; LICENSE #1786; COA # LS-A60\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0115",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"473 Washington Street\",\n  \"address_quote\": \"PROJECT LOCATION: 473 Washington Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0165",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"27 E River Street\",\n  \"address_quote\": \"PROJECT LOCATION: 27 E River Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0136",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"55 George M Cohan Boulevard\",\n  \"address_quote\": \"PROJECT LOCATION: 55 George M Cohan Boulevard\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0232",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"381 Angell Street\",\n  \"address_quote\": \"Address\\n381 Angell Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0108",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"150-158 Pitman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 150-158 Pitman Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0195",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"255 Weybosset Street\",\n  \"address_quote\": \"Address\\n255 Weybosset Street\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0272",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"1051-1061 Chalkstone Ave\",\n  \"address_quote\": \"1051-1061 Chalkstone Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0216",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": null,\n  \"address_quote\": null,\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```\n\n**Explanation:** This document is a curriculum vitae (resume) for Joseph D. Lombardo, a land use planning consultant. It contains no information about a specific municipal land-use application, project site address, municipality under review, or the naming of an architect, civil engineer, or general contractor in relation to any particular project. The document only describes Lombardo's professional background and experience in planning and project management roles."
+ },
+ {
+  "custom_id": "rb0111",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"230 Waterman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 230 Waterman Street (to be renamed to 159 Wayland Ave)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0292",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"239 Cranston Street\",\n  \"address_quote\": \"PROJECT LOCATION: 239 Cranston Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0246",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"180 George M. Cohan Blvd\",\n  \"address_quote\": \"180 George M. Cohan Blvd, Plat 17, Lot 650, located in an R-2 Residential District\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0061",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"663 Admiral Street\",\n  \"address_quote\": \"663 Admiral Street (AP 123 Lots 165 and 166) \u2014zoned C-1\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0002",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"11 Winfield Court\",\n  \"address_quote\": \"Address\\n11 Winfield Court\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0099",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"116 Waterman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 116 Waterman Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0000",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"1 Fields Point Drive\",\n  \"address_quote\": \"1. Location of Property:\\n1 Fields Point Drive (56 Lot 322)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Green Development, LLC\",\n    \"person\": null,\n    \"role_label\": \"Civil Engineer\",\n    \"quote\": \"Civil Engineer: Green Development, LLC\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0188",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"21 NEW YORK AVENUE, PROVIDENCE, RHODE ISLAND\",\n  \"address_quote\": \"21 NEW YORK AVE. PROVIDENCE, RHODE ISLAND\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"D'AMICO ENGINEERING TECHNOLOGY, INC.\",\n    \"person\": null,\n    \"role_label\": \"CIVIL\",\n    \"quote\": \"CIVIL: D'AMICO ENGINEERING TECHNOLOGY, INC. 2080 MINERAL SPRING AVE. NORTH PROVIDENCE, RI 02911\"\n  },\n  \"general_contractor\": {\n    \"firm\": \"URBANE CONSTRUCTION CORPORATION\",\n    \"person\": null,\n    \"role_label\": \"GC\",\n    \"quote\": \"GC: URBANE CONSTRUCTION CORPORATION 170 CANNON STREET CRANSTON, RI 02920\"\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0204",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"southeast corner of intersection of Cargill Street at West Street in Providence, Rhode Island\",\n  \"address_quote\": \"located on the southeast corner of intersection of Cargill Street at West Street in Providence, Rhode Island\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": \"Pare Corporation\",\n    \"person\": \"Herman Peralta, P.E.\",\n    \"role_label\": null,\n    \"quote\": \"Pare Corporation (Pare) has completed a parking analysis for a proposed medical office building\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0172",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"11-21 West Friendship St., Providence, RI 02907\",\n  \"address_quote\": \"11-21 WEST FRIENDSHIP ST. PROVIDENCE, RI 02907\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": \"Jeffrey Lykins\",\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT JEFFREY LYKINS 110-1/2 SOUTH KILLINGLY RD FOSTER, RI 02825\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0110",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"300 Valley Street\",\n  \"address_quote\": \"PROJECT LOCATION: 300 Valley Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0209",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"27 Judith Street\",\n  \"address_quote\": \"Address\\n27 Judith Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0083",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"153-165 Gano Street\",\n  \"address_quote\": \"PROJECT LOCATION: 153-165 Gano Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0252",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"126 Adelaide Ave\",\n  \"address_quote\": \"Located at 126 Adelaide Ave, Plat 52, Lot 351\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0176",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"663 ADMIRAL STREET, PROVIDENCE, RI 02608\",\n  \"address_quote\": \"PROJECT ADDRESS\\n663 ADMIRAL STREET\\nPROVIDENCE, RI 02608\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0160",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"220 Blackstone Street\",\n  \"address_quote\": \"PROJECT LOCATION: 220 Blackstone (AP 45 Lot 85)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0291",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"103 Evergreen Street\",\n  \"address_quote\": \"103 Evergreen Street (AP 5 Lot 521)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0183",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"220 BLACKSTONE ST, PROVIDENCE, RI 02905\",\n  \"address_quote\": \"220 BLACKSTONE  ST\\nPROVIDENCE, RI 02905\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"BRANCH ARCHITECTS, LLC\",\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": \"A R C H I T E C T S\\n110 KING PHILIP ROAD, #2\\nEAST PROVIDENCE, RI 02916\\nwww.brancharch.com\\nT 401 712-2881\\n...\\nC   COPYRIGHT\\nBRANCH ARCHITECTS, LLC\"\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0277",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"105 Eliza Street, 95, 101 and 105 Dedham Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 105 Eliza Street, 95, 101 and 105 Dedham Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0295",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"176 Gano Street and 38 Amy Street, Providence, Rhode Island\",\n  \"address_quote\": \"the property located at 176 Gano Street and 38 Amy Street, Providence, Rhode Island (also identified as Assessor's Plat 14, Lots 193 and 194)\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0190",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"885 Westminster Street\",\n  \"address_quote\": \"PROJECT LOCATION: 885 Westminster Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0044",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"269 WICKENDEN STREET, PROVIDENCE, RI\",\n  \"address_quote\": \"269 WICKENDEN STREET\\nPROVIDENCE, RI\",\n  \"municipality\": \"PROVIDENCE\",\n  \"architect\": {\n    \"firm\": \"PROVIDENCE ARCHITECTURE + BUILDING Co.\",\n    \"person\": null,\n    \"role_label\": \"ARCHITECT\",\n    \"quote\": \"ARCHITECT\\nPROVIDENCE ARCHITECTURE + BUILDING Co.\\n244 WEYBOSSET STREET\\nPROVIDENCE, RI\\n919.886.2426\"\n  },\n  \"civil_engineer\": {\n    \"firm\": \"InSite ENGINEERING SERVICES, LLC\",\n    \"person\": null,\n    \"role_label\": \"SITE / SURVEY\",\n    \"quote\": \"SITE / SURVEY\\nInSite ENGINEERING SERVICES, LLC\\n501 GREAT ROAD, UNIT 104\\nNORTH SMITHFIELD, RI\\n401.762.2870\"\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0187",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"21 New York Ave\",\n  \"address_quote\": \"PROJECT LOCATION: 21 New York Ave\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0149",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"45 Parade Street\",\n  \"address_quote\": \"PROJECT LOCATION: 45 Parade Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0255",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"963 North Main Street\",\n  \"address_quote\": \"the property at 963 North Main Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0236",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"541 Hartford Ave, Providence, RI 02909\",\n  \"address_quote\": \"PROJECT ADDRESS 541 HARTFORD AVE, PROVIDENCE, RI 02909\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0073",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"215 Broadway\",\n  \"address_quote\": \"Aref gave me a tour of 215 Broadway\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0297",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"14 Braman Street\",\n  \"address_quote\": \"PROJECT LOCATION: 14 Braman Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0048",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"859 Broad Street\",\n  \"address_quote\": \"PROJECT LOCATION: 859 Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0004",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"126 Adelaide Ave\",\n  \"address_quote\": \"Address\\n126 Adelaide Ave\",\n  \"municipality\": null,\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ },
+ {
+  "custom_id": "rb0134",
+  "type": "succeeded",
+  "text": "```json\n{\n  \"site_address\": \"269 Wickenden Street\",\n  \"address_quote\": \"PROJECT LOCATION: 269 Wickenden Street\",\n  \"municipality\": \"Providence\",\n  \"architect\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"civil_engineer\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  },\n  \"general_contractor\": {\n    \"firm\": null,\n    \"person\": null,\n    \"role_label\": null,\n    \"quote\": null\n  }\n}\n```"
+ }
+]
