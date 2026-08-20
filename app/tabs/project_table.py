@@ -27,6 +27,28 @@ _TIER_HELP = (
     "document. — = no source names one."
 )
 
+_NOT_SPECIFIED = "Not specified"
+
+
+def _sort_key(name: str) -> str:
+    """Alphabetise the way the developer list does: a leading 'The' does not count."""
+    n = str(name)
+    return n[4:].lower() if n.lower().startswith("the ") else n.lower()
+
+
+def _team_options(df, column: str) -> list[str]:
+    """Distinct names present in a project-team column, alphabetised.
+
+    Built from the data rather than a fixed vocabulary, so the list is exactly
+    what is selectable and never offers a name that would return nothing.
+    """
+    seen = {
+        str(v).strip() for v in df[column].dropna().unique()
+        if str(v).strip() and str(v).strip() != "not_yet_selected"
+    }
+    return sorted(seen, key=_sort_key)
+
+
 _BG     = "#0d0f12"
 _BG2    = "#141720"
 _BORDER = "#1E2530"
@@ -260,26 +282,30 @@ def render(df: pd.DataFrame):
     )
     developer = fd2.selectbox("DEVELOPER", ["All"] + matching_devs, key="tbl_developer")
 
-    # The four confidence states, as their own filter. Most Rhode Island
-    # developers are document_only, so being able to select exactly those for
-    # review is the point rather than a convenience.
-    conf_opts = ["All"] + [DEVELOPER_CONFIDENCE[k]["label"] for k in
-                           ("confirmed", "document_only", "conflicted",
-                            "human_set", "unattributed")]
-    conf_f = fd4.selectbox(
-        "DEVELOPER CONFIDENCE", conf_opts, key="tbl_dev_conf",
-        help="Confirmed = outside coverage names the same party. Document only = "
-             "the planning filing alone. Conflicted = two names on record. "
-             "Set by hand = a person entered it and the rederive pass will not "
-             "touch it.",
+    # The other two members of the project team, filtered the same way the
+    # developer is: a plain dropdown over the distinct names actually present,
+    # alphabetised the same way, defaulting to All. Both carry a "Not
+    # specified" option, because "which projects still have no civil engineer"
+    # is the question this table gets asked most often now that the column
+    # exists and is only two-fifths full.
+    #
+    # These sit where DEVELOPER SOURCE and DEVELOPER CONFIDENCE were. Both of
+    # those described how one field was established, which the developer name
+    # already shows inline through its confidence mark; the team columns had
+    # no way to be filtered at all.
+    architect_f = fd3.selectbox(
+        "ARCHITECT", ["All", _NOT_SPECIFIED] + _team_options(df, "architect"),
+        key="tbl_architect",
+        help="Architecture practice, or the individual where a record names "
+             "only a person. 'Not specified' selects projects where no source "
+             "names one.",
     )
-    method_f = fd3.selectbox(
-        "DEVELOPER SOURCE",
-        ["All"] + [RESOLUTION_METHODS[m]["label"] for m in METHOD_ORDER]
-                + ["Any inferred (web)"],
-        key="tbl_dev_method",
-        help="How the developer name was established. 'Any inferred' selects every "
-             "name derived from press coverage rather than the corporate registry.",
+    civil_f = fd4.selectbox(
+        "CIVIL ENGINEER", ["All", _NOT_SPECIFIED] + _team_options(df, "civil_engineer"),
+        key="tbl_civil",
+        help="Civil engineer only -- a surveyor, traffic engineer or landscape "
+             "architect is not one and is not listed here. 'Not specified' "
+             "selects projects where no source names one.",
     )
 
     # Free-text search last and full width. It is the one control whose useful
@@ -311,17 +337,16 @@ def render(df: pd.DataFrame):
         filtered = filtered[filtered["asset_class"] == asset]
     if developer != "All":
         filtered = filtered[filtered["developer_canonical"] == developer]
-    if conf_f != "All":
-        _want = next(k for k, v in DEVELOPER_CONFIDENCE.items() if v["label"] == conf_f)
-        filtered = filtered[filtered["developer_confidence"] == _want]
-    if method_f != "All":
-        _m = filtered["developer_resolution_method"].apply(resolution_method)
-        if method_f == "Any inferred (web)":
-            filtered = filtered[_m.isin(["web_corroborated", "web_low_confidence"])]
-        else:
-            wanted = next(k for k, v in RESOLUTION_METHODS.items()
-                          if v["label"] == method_f)
-            filtered = filtered[_m == wanted]
+    # Both team filters narrow the same frame every other filter has already
+    # narrowed, so they compose with the rest and with each other. A blank is
+    # matched on the stripped value, because these columns hold "" and None
+    # interchangeably depending on which pass last wrote them.
+    for _sel, _col in ((architect_f, "architect"), (civil_f, "civil_engineer")):
+        if _sel == "All":
+            continue
+        _vals = filtered[_col].fillna("").astype(str).str.strip()
+        filtered = (filtered[_vals == ""] if _sel == _NOT_SPECIFIED
+                    else filtered[_vals == _sel])
     if search:
         q = search.lower()
         mask = (
@@ -457,40 +482,61 @@ def render(df: pd.DataFrame):
         height=400,
         on_select="rerun",
         selection_mode="single-row",
+        # Every column is sized explicitly. Streamlit's automatic sizing was
+        # clipping the LEFT of the widest figures -- 4,825,140 rendered as
+        # ",825,140" -- and a truncated number is not a smaller number, it is
+        # a wrong one. The numeric and date columns are therefore sized to
+        # their widest actual value (SF 4,825,140; UNITS 3,662; HEIGHT 600 ft;
+        # DELIVERY December 2026) with room for the sort arrow, so none of
+        # them can clip whatever the window width. Text columns are sized to
+        # be useful and ellipsise gracefully, which is the correct behaviour
+        # for a name; the full value is in the detail panel.
         column_config={
+            "PROJECT": st.column_config.TextColumn(width=150),
+            "DEVELOPER": st.column_config.TextColumn(width=122),
             # Numeric so it sorts by magnitude; the comma is display only.
             # Blanks sort to the end rather than being coerced to zero, which
             # would rank an unknown size alongside a genuine nothing.
             "SF":     st.column_config.NumberColumn(
-                format="%,d",
+                width=105, format="%,d",
                 help="Gross square feet, as stated by the source. Sorts by "
                      "magnitude; blank means no source states one."),
             "SRC":    st.column_config.TextColumn(
-                width="small",
+                width=46,
                 help="Square-footage provenance. ◈ = web-sourced, ✲ = corrected "
                      "from a lot area, ▣ = plan set or staff report. "
                      "Unmarked = stated in the planning filing."),
             "ARCHITECT": st.column_config.TextColumn(
+                width=122,
                 help="Architecture practice where one is named, otherwise the "
                      "individual the record names. " + _TIER_HELP),
             "CIVIL ENGINEER": st.column_config.TextColumn(
+                width=122,
                 help="Civil engineer only. A surveyor, traffic engineer, "
                      "structural engineer or landscape architect is not one, "
                      "and is not counted here. " + _TIER_HELP),
             "CONTRACTOR": st.column_config.TextColumn(
+                width=122,
                 help="General contractor or construction manager. "
                      "'⋯ not yet appointed' means construction has not "
                      "started, so no contractor exists yet — that is not the "
                      "same as — , which means we searched and no source names "
                      "one. " + _TIER_HELP),
-            "UNITS":  st.column_config.NumberColumn(format="%d"),
+            "NEIGHBORHOOD": st.column_config.TextColumn(width=105),
+            "CITY":   st.column_config.TextColumn(width=76),
+            "TYPE":   st.column_config.TextColumn(width=80),
+            "STATUS": st.column_config.TextColumn(width=98),
+            "UNITS":  st.column_config.NumberColumn(width=76, format="%d"),
             "U?":     st.column_config.TextColumn(
-                width="small",
+                width=44,
                 help="Unit-count confidence. Blank = corroborated by two or more "
                      "documents. · = a single document. ≠ = a later document "
                      "states a different figure. ? = no document in the corpus "
                      "states it at all."),
-            "HEIGHT": st.column_config.NumberColumn(format="%d ft"),
+            "HEIGHT": st.column_config.NumberColumn(width=84, format="%d ft"),
+            "DELIVERY": st.column_config.TextColumn(
+                width=136,
+                help="Expected delivery as the filing states it."),
         },
     )
 
