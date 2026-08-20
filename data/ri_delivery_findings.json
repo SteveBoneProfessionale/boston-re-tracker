@@ -491,5 +491,204 @@
    }
   ],
   "display": "Q3 2027"
+ },
+ "555": {
+  "id": 555,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "2028",
+  "precision": "year",
+  "tier": "web_low_confidence",
+  "searches": 3,
+  "source_type": "web",
+  "stated_on": "2026-08-20",
+  "stated_by": "Pennrose, reported by Providence Business News",
+  "reason": "the only statement of a date is PBN's headline, which is verbatim but whose body is paywalled and whose publication date I could not read, so the vintage recorded is the date I observed it rather than a date the source carries. The Valley Breeze covered the same project in August 2025 and explicitly had no timeline, quoting the developer as 'hurry up and wait'. Identity is exact: 72 units at 177 School Street, Pennrose, part of Tidewater Landing.",
+  "sources": [
+   {
+    "url": "https://pbn.com/rifc-corner-kicks-pennroses-affordable-housing-complex-plans-to-be-built-by-2028/",
+    "name": "Providence Business News",
+    "date": "",
+    "passage": "RIFC Corner Kicks: Pennrose's affordable housing complex plans to be built by 2028 ... a 72-unit affordable-housing complex built along School Street in Pawtucket, which is part of the overall Tidewater Landing development across from Centreville Bank Stadium."
+   }
+  ],
+  "display": "2028"
+ },
+ "607": {
+  "id": 607,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the 75-unit Fox Point Capital building at 269 Wickenden has no schedule to publish: a judge struck down its preliminary approval on 2 December over lot-size zoning, and as of February 2026 the developers said they were evaluating the project's feasibility and viability. Covered by GoLocalProv, the Brown Daily Herald, ABC6, The Public's Radio and the Preservation Society."
+ },
+ "492": {
+  "id": 492,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "no coverage at all of a 76-unit development at 322 Washington Street beyond the city's own planning page. Nothing states a completion date."
+ },
+ "587": {
+  "id": 587,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "Kent Hospital confirms construction is under way at 455 Toll Gate Road and that the hospital stays open through it, but neither the hospital nor any coverage states when the work completes."
+ },
+ "748": {
+  "id": 748,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "99 Gano Street is H.V. Collins's own headquarters address, so searching the developer and the address returns the company rather than the project. The only project document is the 2020 City Plan Commission preliminary-plan staff report, which carries no completion date."
+ },
+ "778": {
+  "id": 778,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the D+P Real Estate and Truth Box proposal covering the Wickenden/South Water/South Main parcel is documented in 2019 PBN coverage of the I-195 Parcel 6 selection, with 49 residential units against the 62 on this row. No completion date is published and no more recent coverage exists."
+ },
+ "498": {
+  "id": 498,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the Boston Globe and the Preservation Society covered the 74-unit WW Holdings proposal at its September 2025 City Plan Commission review. Both describe the programme and the zoning relief sought; neither states a completion date."
+ },
+ "734": {
+  "id": 734,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "rejected a tempting match. RIHousing's Omni Newark (52 units, Q3 2027) is Omni Development's project in the Valley neighbourhood on a former bakery site; this row is the 2020 rezoning of 16-42 Somerset, 17-27 Portland and 34 Hayward Streets, 54 units. Same developer, different project. No completion date is published for this one."
+ },
+ "743": {
+  "id": 743,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "PBN covered the Omni Group's three three-storey buildings of 16 apartments each at 946-1000 Westminster through final plan approval by the City Plan Commission on 18 August 2020. The 48-unit total matches this row exactly, but no source states a completion date."
+ },
+ "500": {
+  "id": 500,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "nothing published on a 39-unit SWAP development at 298 Public Street. Searching the developer returns SWAP's 1077 Westminster project (41 apartments) instead -- which is a different row in this tracker, project 675 -- so the address is not confused with it here."
+ },
+ "516": {
+  "id": 516,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the Cranston Herald and WJAR follow Legion Development's four-storey mixed-use building on the Legion Bowl site at 655-661 Park Avenue through zoning approval, including WJAR's own 'what is the status' follow-up. The unit count is 69 with room for 75, matching this row, but construction had not started and no completion date is published."
+ },
+ "677": {
+  "id": 677,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "PBN covered the 71-apartment conversion of the former Tockwotton Home, referred to in plans as Residences At India Point, through zoning approval in April 2022. The address now appears to operate as FOUND Study Providence, which would make this a delivery rather than a target -- but the only sources saying so are rental listing sites, which are excluded and carry no date either way. Flagged as a stage-review candidate."
+ },
+ "658": {
+  "id": 658,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the project did not happen at this address. The Boston Globe reports Excel Academy took space at 291 Westminster Street in June 2026, and its earlier attempt was to lease the former Carl G. Lauro school, a deal that fell through. Nothing connects the school to 740 Plainfield Street beyond this filing."
+ },
+ "604": {
+  "id": 604,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "January 2027",
+  "precision": "month",
+  "tier": "web_low_confidence",
+  "searches": 2,
+  "source_type": "web",
+  "stated_on": "2026-08-20",
+  "stated_by": "Women's Development Corporation",
+  "reason": "the developer's own project page publishes a milestone timeline ending in a target opening date, which is exactly what this column is for. Identity is settled by the Preservation Society and Boston Globe coverage: the former Peter Pan diner site on Providence Redevelopment Agency land, redeveloped by WDC. Unit count differs slightly -- 44 in the coverage against 42 on this row. The page carries no date of its own, so the vintage is the date it was read.",
+  "sources": [
+   {
+    "url": "https://www.wdchoc.org/327-elmwood-avenue",
+    "name": "Women's Development Corporation, 327 Elmwood Avenue",
+    "date": "",
+    "passage": "Summer 2025 - Secure Funding and Commercial Tenants. Fall 2025 - Close on Financing and Begin Construction. January 2027 - Target Opening Date."
+   }
+  ],
+  "display": "Jan 2027"
+ },
+ "667": {
+  "id": 667,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "no coverage of a 52-unit development at 300 Valley Street. The Valley Street mill conversions that do have coverage are Calender Mills at 52 Valley Street (25 units) and the Olneyville mill, neither of which is this address or this unit count."
+ },
+ "612": {
+  "id": 612,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "PBN, the Preservation Society and the developer Strive cover the 48-unit building at 663 Admiral Street -- marketed as Aero on Admiral -- from preliminary approval in August 2022. The only statement about progress is a forum observation in November 2025 that the exterior looked near complete, which is neither a source nor a date. No completion date is published."
+ },
+ "559": {
+  "id": 559,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "August 2026",
+  "precision": "month",
+  "tier": "web_low_confidence",
+  "searches": 3,
+  "source_type": "web",
+  "stated_on": "2025-09-10",
+  "stated_by": "the developer, reported by Newport Buzz",
+  "reason": "a dated, specific schedule from the planning-board approval coverage. Note the target has now arrived -- August 2026 is the current month -- so this row is a candidate for a delivered check on the next pass. Newport This Week covered the same approval but returns 403, so this stays single-source.",
+  "sources": [
+   {
+    "url": "https://newportbuzz.substack.com/p/a-rare-win-for-housing-newport-planning",
+    "name": "Newport Buzz",
+    "date": "2025-09-10",
+    "passage": "Construction is set to begin in November 2025 and finish by August 2026."
+   }
+  ],
+  "display": "Aug 2026"
+ },
+ "553": {
+  "id": 553,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "no coverage of a 45-unit development at 334 East Avenue, Pawtucket. The address appears only in residential directory listings, which are excluded and carry no date."
+ },
+ "558": {
+  "id": 558,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "identity is settled -- Newport This Week covers BCM Realty's conversion of the former Coggeshall School at 130 Van Zandt Avenue into 26 units, matching this row's count -- and the planning board approved it on 1 June 2026 subject to city staff signing off on final plans. No completion date is published."
+ },
+ "746": {
+  "id": 746,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the project on this row no longer exists. Smart Hotels' 209-217 Angell Street hotel was rejected twice, the master plan approval was killed when the Zoning Board reversed the CPC, and it has been dormant for years. A different proposal now occupies the parcels -- a five-storey, 32-unit condo building called Signature Residences, which matches this row's 32 units -- and it has no published completion date either. The developer recorded here is stale."
+ },
+ "486": {
+  "id": 486,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the only source is the City Plan Commission's own preliminary-plan staff report of 25 March 2026, which describes the 48-unit building and the parking adjustment sought but states no completion date. No press coverage exists."
+ },
+ "545": {
+  "id": 545,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "250 Esten Avenue is a 239,200 sf mill from 1900, recently sold and nearly fully occupied by industrial tenants. Nothing published describes the 38-unit development on this row, let alone dates it."
  }
 }
