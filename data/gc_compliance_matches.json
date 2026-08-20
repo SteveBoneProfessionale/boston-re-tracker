@@ -1,0 +1,322 @@
+{
+ "5": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "320 Summer Street",
+    "address": "320 Summer Street",
+    "developer": "",
+    "gc": "Suffolk Construction Company",
+    "explicit_no_gc": false,
+    "first": "2012-04-07",
+    "last": "2013-05-18",
+    "rows": 1301
+   }
+  ]
+ },
+ "115": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "776 Summer Street Phase 1 Demo",
+    "address": "776 Summer Street",
+    "developer": "Hilco Redevelopment Partners",
+    "gc": "Suffolk Construction Company",
+    "explicit_no_gc": false,
+    "first": "2021-10-10",
+    "last": "2024-12-15",
+    "rows": 3224
+   }
+  ]
+ },
+ "119": {
+  "how": "street_number_and_name",
+  "records": [
+   {
+    "project": "60 Kilmarnock Street",
+    "address": "60 Kilmarnock Street",
+    "developer": "Cabot And Company",
+    "gc": "Consigli Construction Company",
+    "explicit_no_gc": false,
+    "first": "2021-05-15",
+    "last": "2025-01-05",
+    "rows": 9270
+   }
+  ]
+ },
+ "126": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "Modera Allston",
+    "address": "250 Everett Street",
+    "developer": "Mill Creek Residential",
+    "gc": "MCRT Massachusetts Construction LLC",
+    "explicit_no_gc": false,
+    "first": "2026-01-24",
+    "last": "2026-08-16",
+    "rows": 202
+   }
+  ]
+ },
+ "137": {
+  "how": "project_name",
+  "records": [
+   {
+    "project": "2 Financial Center",
+    "address": "60 South Street",
+    "developer": "",
+    "gc": "Suffolk Construction Company",
+    "explicit_no_gc": false,
+    "first": "2009-07-12",
+    "last": "2009-08-16",
+    "rows": 5
+   }
+  ]
+ },
+ "163": {
+  "how": "street_number_and_name",
+  "records": [
+   {
+    "project": "Enterprise Research Campus Lab project",
+    "address": "100-112 Western Avenue",
+    "developer": "Tishman Speyer ERC Developer LLC",
+    "gc": "Turner Construction Co.",
+    "explicit_no_gc": false,
+    "first": "2023-06-24",
+    "last": "2026-01-18",
+    "rows": 10775
+   }
+  ]
+ },
+ "189": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "St Mary's Center",
+    "address": "90 Cushing Ave.",
+    "developer": "",
+    "gc": "Aspinwall Plumbing",
+    "explicit_no_gc": false,
+    "first": "2017-09-09",
+    "last": "2017-09-29",
+    "rows": 5
+   }
+  ]
+ },
+ "209": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "Franciscan Children's Hospital-New Impatient Bldg",
+    "address": "30 Warren Street",
+    "developer": "Boston Children's Hospital",
+    "gc": "Consigli Construction Company",
+    "explicit_no_gc": false,
+    "first": "2026-08-08",
+    "last": "2026-08-08",
+    "rows": 2
+   }
+  ]
+ },
+ "225": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "1270 Commonwealth Ave",
+    "address": "1270 Commonwealth Ave",
+    "developer": "Hines Company",
+    "gc": "TOCCI",
+    "explicit_no_gc": false,
+    "first": "2026-05-17",
+    "last": "2026-08-09",
+    "rows": 36
+   }
+  ]
+ },
+ "253": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "McDevitt Senior Homes",
+    "address": "207 E Street",
+    "developer": "South Boston Neighborhood Development Corporation",
+    "gc": "Kaplan Construction",
+    "explicit_no_gc": false,
+    "first": "2026-07-04",
+    "last": "2026-08-08",
+    "rows": 24
+   },
+   {
+    "project": "Paraclete Center",
+    "address": "207 E Street",
+    "developer": "",
+    "gc": "Fischbach & Moore Electric Group, LLC",
+    "explicit_no_gc": false,
+    "first": "2009-08-30",
+    "last": "2009-09-27",
+    "rows": 4
+   }
+  ]
+ },
+ "254": {
+  "how": "street_number_and_name",
+  "records": [
+   {
+    "project": "Channel Center 5 (7-9)",
+    "address": "5-7-9 Channel Center Street",
+    "developer": "",
+    "gc": "Gilbane Building Company",
+    "explicit_no_gc": false,
+    "first": "2012-01-06",
+    "last": "2012-12-23",
+    "rows": 687
+   }
+  ]
+ },
+ "267": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "776 Summer Street Phase 1 Demo",
+    "address": "776 Summer Street",
+    "developer": "Hilco Redevelopment Partners",
+    "gc": "Suffolk Construction Company",
+    "explicit_no_gc": false,
+    "first": "2021-10-10",
+    "last": "2024-12-15",
+    "rows": 3224
+   }
+  ]
+ },
+ "280": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "2101 Washington Street",
+    "address": "2101 Washington Street",
+    "developer": "",
+    "gc": "Kaplan Construction",
+    "explicit_no_gc": false,
+    "first": "2016-04-09",
+    "last": "2017-12-17",
+    "rows": 1551
+   }
+  ]
+ },
+ "306": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "Van's Restaurant",
+    "address": "1154-1156 Dorchester Ave.",
+    "developer": "",
+    "gc": "Jwh Constraction",
+    "explicit_no_gc": false,
+    "first": "2010-11-05",
+    "last": "2011-10-21",
+    "rows": 9
+   }
+  ]
+ },
+ "326": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "7040 Building Demolition @ 135 Dudley St",
+    "address": "135 Dudley Street",
+    "developer": "",
+    "gc": "S&R Corporation (GC)",
+    "explicit_no_gc": false,
+    "first": "2014-07-12",
+    "last": "2015-01-26",
+    "rows": 108
+   }
+  ]
+ },
+ "375": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "22 Boston Wharf Road",
+    "address": "22 Boston Wharf Road",
+    "developer": "",
+    "gc": "Consigli Construction Company",
+    "explicit_no_gc": false,
+    "first": "2016-10-15",
+    "last": "2018-04-10",
+    "rows": 1433
+   }
+  ]
+ },
+ "383": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "355 Bennington St",
+    "address": "355 Bennington Street",
+    "developer": "",
+    "gc": "Dellbrook Construction LLC",
+    "explicit_no_gc": false,
+    "first": "2025-03-08",
+    "last": "2026-08-16",
+    "rows": 1769
+   },
+   {
+    "project": "355 Bennington St - Public Realm Improvements",
+    "address": "355 Bennington Street",
+    "developer": "REDGATE",
+    "gc": "Dellbrook Construction LLC",
+    "explicit_no_gc": false,
+    "first": "2025-08-09",
+    "last": "2026-06-20",
+    "rows": 72
+   }
+  ]
+ },
+ "388": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "NU 840 Columbus Ave",
+    "address": "840 Columbus Ave",
+    "developer": "",
+    "gc": "John Moriarty & Associates GC",
+    "explicit_no_gc": false,
+    "first": "2025-09-06",
+    "last": "2026-08-11",
+    "rows": 632
+   }
+  ]
+ },
+ "390": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "55 India Street",
+    "address": "55 India Street",
+    "developer": "Boston Residential Group",
+    "gc": "Rise Development & Construction",
+    "explicit_no_gc": false,
+    "first": "2024-11-30",
+    "last": "2026-08-08",
+    "rows": 765
+   }
+  ]
+ },
+ "393": {
+  "how": "normalised_address",
+  "records": [
+   {
+    "project": "Fan Pier H",
+    "address": "One Harbor Shore Drive",
+    "developer": "The Fallon Company",
+    "gc": "Turner Construction Co.",
+    "explicit_no_gc": false,
+    "first": "2024-09-06",
+    "last": "2026-08-23",
+    "rows": 8140
+   }
+  ]
+ }
+}
