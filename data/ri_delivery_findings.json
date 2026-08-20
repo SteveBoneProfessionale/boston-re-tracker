@@ -398,5 +398,98 @@
   "outcome": "null",
   "searches": 1,
   "reason": "Newport This Week, Newport Buzz and What's Up Newp cover the planning board's approval of the 89-room hotel and 14 residential units on 2 June 2025, but the project still needed city staff sign-off plus CRMC and DEM approval and was not under construction. No completion date is published."
+ },
+ "494": {
+  "id": 494,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "2027",
+  "precision": "year",
+  "tier": "web_low_confidence",
+  "searches": 2,
+  "source_type": "web",
+  "stated_on": "2026-05-27",
+  "stated_by": "Providence Public School District, reported by WJAR",
+  "reason": "the groundbreaking coverage names the school by street rather than by number, but 188 Princeton Avenue is the Gilbert Stuart Middle School site per the state's own facility assessment, and the new PK-8 replaces it on that site. Year precision because the source says the year and nothing finer. One source: no second outlet states an opening year.",
+  "sources": [
+   {
+    "url": "https://turnto10.com/news/local/providence-schools-break-ground-on-new-alfred-lima-and-gilbert-stuart-school-may-27-2026",
+    "name": "WJAR / TurnTo10",
+    "date": "2026-05-27",
+    "passage": "The new school slated to open in 2027 is apart of the district's $1 billion plan to move every Providence student into more newer and modern buildings by 2030."
+   }
+  ],
+  "display": "2027"
+ },
+ "490": {
+  "id": 490,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "PBN and the Boston Globe cover the 355-unit riverfront building through preliminary approval on 16 December 2025, and report construction is expected to take about two years including site cleanup. That is a duration, not a completion date, and no source states one."
+ },
+ "583": {
+  "id": 583,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "Warwick Beacon, WPRI and PBN cover the hotel-to-apartment conversions on Post Road, but those are 1850 Post Road (the former Sheraton, now The Presley) and the Wyndham site. The 177-unit development at 1880 Post Road appears only in the city's own site plans, which carry no completion date."
+ },
+ "702": {
+  "id": 702,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "nothing published on the 288 Kinsley Avenue industrial project beyond the 2021 City Plan Commission staff report. The address currently appears in city records under Neon Marketplace Operating I, LLC. No completion date."
+ },
+ "824": {
+  "id": 824,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "duplicate row for 288 Kinsley Avenue, differing only in the developer name recorded (Procaccianti Companies against OGN, LLC on project 702). Same search, same result: no completion date is published. These two rows are also a dedupe candidate."
+ },
+ "515": {
+  "id": 515,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "Meridian Pointe, formerly Champlin Hills, is Carpionato's Cranston project off Scituate Avenue, and the coverage follows the unit count growing from 90 to 108 with 15% affordable added. No completion date is published, and this row carries no address to tie it to a phase."
+ },
+ "751": {
+  "id": 751,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "1117 Eddy Street is owned by Cogent 1117 Eddy Owner LLC and operates as an Extra Space Storage facility of 98,366 sf per the city's covered-buildings list -- against the 150,000 sf on this row. Nothing states a completion date for the development this row describes."
+ },
+ "878": {
+  "id": 878,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the only Scituate Avenue apartment coverage in Cranston is Carpionato's Meridian Pointe, which this row's developer (WEST BAY LLC) does not match, and even that has no published completion date."
+ },
+ "496": {
+  "id": 496,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "Summer 2027",
+  "precision": "quarter",
+  "tier": "web_low_confidence",
+  "searches": 1,
+  "source_type": "web",
+  "stated_on": "2026-08-20",
+  "stated_by": "Providence Public School District (Rebuild PVD Schools)",
+  "reason": "434 Mount Pleasant Avenue is Mount Pleasant High School and the district's own project pages state completion in Summer 2027, with construction planned from Fall 2025 for two years to open Fall 2027. Summer is stored as Q3 because no month is named. The vintage is the date the page was read, not a date the page carries -- the district does not stamp these pages -- and that is worth knowing when weighing it.",
+  "sources": [
+   {
+    "url": "https://rebuildpvdschools.providenceschools.org/projects/mount-pleasant-high-school",
+    "name": "Rebuild PVD Schools, Mount Pleasant High School",
+    "date": "",
+    "passage": "The project, scheduled for completion in the Summer of 2027, will support the school's transformation into the Mount Pleasant Early College & Career Academy. Construction is currently planned for Fall 2025 for two years, to open Fall 2027."
+   }
+  ],
+  "display": "Q3 2027"
  }
 }
