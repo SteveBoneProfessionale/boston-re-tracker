@@ -845,5 +845,419 @@
    }
   ],
   "display": "2025"
+ },
+ "726": {
+  "id": 726,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "no coverage of a 29-unit development at 17 Marcello Street. The address returns nothing but general Providence rental aggregation, which is excluded."
+ },
+ "487": {
+  "id": 487,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "no coverage of a 26-unit development at 64 America Street. Nothing published names the address in a development context."
+ },
+ "528": {
+  "id": 528,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "2110 Plainfield Pike is a 10.48-acre industrial site; state environmental records list it as a proposed Milton CAT facility as of January 2025, and Realterm markets it as cross-dock and outdoor storage. The Cranston Plan Commission has a preliminary-plan staff report from 5 August 2025, but nothing states a completion date and nothing corroborates the 26 residential units on this row."
+ },
+ "616": {
+  "id": 616,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the only source is the City Plan Commission's own preliminary-plan staff report of 17 September 2024, describing a four-storey mixed-use building with two commercial spaces and 26 apartments -- matching this row exactly -- with conditions of approval but no completion date."
+ },
+ "669": {
+  "id": 669,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the project stalled. Myles Standish Associates took plans to demolish the former Monahan Drabble Sherman funeral home to the CPC in July 2021, and ArtInRuins reports the building still standing with nothing built. The proposal was also 12 residences against the 25 on this row."
+ },
+ "538": {
+  "id": 538,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "1499 Hillside Road sits in Chapel View, which is Carpionato's development and not WS Development's as this row records. The Chapel View completion coverage dates from 2013 and describes the retail and condominium build-out, not this filing. Nothing dates the 23,000 sf project on this row, and the developer name is likely wrong."
+ },
+ "570": {
+  "id": 570,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "2027",
+  "precision": "year",
+  "tier": "web_low_confidence",
+  "searches": 1,
+  "source_type": "web",
+  "stated_on": "2026-05-01",
+  "stated_by": "Procaccianti Companies, reported by What's Up Newp",
+  "reason": "identity is exact: The Bellevue, a 90-room hotel by Procaccianti at 181 Bellevue Avenue in the Bellevue Gardens plaza, matching this row's address and developer. Site work began 1 June 2026 and completion is expected in 2027. The vintage is the month in the article URL rather than a date I could read on the page.",
+  "sources": [
+   {
+    "url": "https://whatsupnewp.com/2026/05/site-work-to-begin-june-1-on-the-bellevue-a-90-room-luxury-hotel-in-bellevue-gardens-plaza/",
+    "name": "What's Up Newp",
+    "date": "2026-05",
+    "passage": "Site work to begin June 1 on The Bellevue, a 90-room luxury hotel in Bellevue Gardens plaza ... The property is expected to be completed in 2027."
+   }
+  ],
+  "display": "2027"
+ },
+ "547": {
+  "id": 547,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "December 2028",
+  "precision": "month",
+  "tier": "web_low_confidence",
+  "searches": 1,
+  "source_type": "web",
+  "stated_on": "2026-08-20",
+  "stated_by": "Shawmut Design and Construction, for the Pawtucket School Department",
+  "reason": "the new Pawtucket High School on the McCoy Stadium site, unifying Tolman and Shea for about 2,100 students, a $326m project by the Pawtucket School Department -- which is this row's applicant. The coverage gives the address as 1 Columbus Avenue against the 2 on this row; it is the same campus and the only school department project on that street. The construction manager's page carries no date, so the vintage is the date it was read.",
+  "sources": [
+   {
+    "url": "https://www.shawmut.com/news/shawmut-breaks-ground-on-new-326m-pawtucket-high-school-on-site-of-historic-mccoy-stadium",
+    "name": "Shawmut Design and Construction",
+    "date": "",
+    "passage": "Construction is now underway, with project completion anticipated in December 2028."
+   }
+  ],
+  "display": "Dec 2028"
+ },
+ "626": {
+  "id": 626,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "Summer 2027",
+  "precision": "quarter",
+  "tier": "web_low_confidence",
+  "searches": 1,
+  "source_type": "web",
+  "stated_on": "2026-08-20",
+  "stated_by": "Providence Public School District (Rebuild PVD Schools)",
+  "reason": "60 Camden Avenue is the Harry Kizirian school site, and the district's project page says construction began in 2024 with target completion in summer 2027. Summer is stored as Q3 because no month is named. The page carries no date of its own, so the vintage is the date it was read. Note WPRI reported in March 2026 that Fogarty and Kizirian were both due 'by next fall', which would be earlier -- the district's own page is the more specific of the two and is what is stored.",
+  "sources": [
+   {
+    "url": "https://rebuildpvdschools.providenceschools.org/projects/harry-kizirian-pk-8-school",
+    "name": "Rebuild PVD Schools, Harry Kizirian PK-8 School",
+    "date": "",
+    "passage": "Construction began in 2024 with estimated target completion of summer 2027."
+   }
+  ],
+  "display": "Q3 2027"
+ },
+ "573": {
+  "id": 573,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "25 Waites Wharf is the same Harbour Realty / Abruzese redevelopment as project 574 -- two lodging structures totalling 89 rooms plus 14 residential units. Approved by the Newport Planning Board on 2 June with conditions, still needing city staff sign-off plus CRMC and DEM. No completion date, and these two rows are a dedupe candidate."
+ },
+ "563": {
+  "id": 563,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "105 Broadway is not under construction -- it is on the market as a development opportunity with approvals in place for 11 residential units over ground-floor retail, still listed for sale as of August 2026. There is no schedule to publish."
+ },
+ "544": {
+  "id": 544,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "no coverage of a development at 65 East Street, Pawtucket. Searching the address and CLRI East Street LLC returns only city-wide housing plans and unrelated Pawtucket projects."
+ },
+ "662": {
+  "id": 662,
+  "field": "delivered_date",
+  "outcome": "resolved",
+  "date": "Q4 2024",
+  "precision": "quarter",
+  "tier": "web_corroborated",
+  "searches": 1,
+  "source_type": "agency_record",
+  "reason": "55 George M Cohan Boulevard is Tempo, phase one of Pennrose's Parcel 9 for the I-195 Commission. Pennrose states the phase is complete; RIHousing's SFRF record for Parcel 9 Phase I gives 66 units, 100% completed against an anticipated Q4 2024. Stored at quarter precision because that is the period the agency states -- no source dates the certificate of occupancy. Phase two, Tandem, is a separate 61-unit project at Q2 2026 and is not this row.",
+  "sources": [
+   {
+    "url": "https://www.rihousing.com/sfrf-development-parcel-9-phase-i-providence/",
+    "name": "RIHousing SFRF development record, Parcel 9 Phase I",
+    "date": "2026-02-20",
+    "passage": "Developer: Pennrose, LLC. Anticipated Completion Date: Q4 2024. Total Units: 66 units. Construction Status: 100% completed."
+   },
+   {
+    "url": "https://www.pennrose.com/portfolio/tempo-tandem/",
+    "name": "Pennrose, Tempo & Tandem",
+    "date": "",
+    "passage": "Tempo is a brand new mixed-use, mixed-income development in the Fox Point neighborhood of Providence, comprised of 66 studio, one-bedroom, and two-bedroom rental apartments ... The first phase of development, Tempo, is complete."
+   }
+  ],
+  "display": "Q4 2024"
+ },
+ "629": {
+  "id": 629,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "239 Cranston Street is Providence Community Health Centers' Central site and the filing is an expansion -- waiting room, lab space, medication room -- part-funded federally. Neither the health centre's own announcement nor any coverage states a completion date."
+ },
+ "636": {
+  "id": 636,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "870 Westminster is finished and mis-staged: the adaptive reuse of the former Citizens Bank building operates as The 870 Reserve and is leasing. But the only sources saying so are rental listing sites, which are excluded and carry no completion date, and PBN's coverage stops at the Omni Group saying it would return with plans for 20 apartments in the bank building. Flagged as a stage-review candidate."
+ },
+ "671": {
+  "id": 671,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "Strive bought the 1920s warehouse at 115 Harris Avenue -- the former Van Gogh lounge -- at foreclosure in October 2022 and told the Boston Globe in January 2024 it was still in due diligence, weighing housing against a boutique hotel, with interest rates slowing the timeline. There is no schedule to publish."
+ },
+ "650": {
+  "id": 650,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "the Montessori Community School of Rhode Island has moved into its new Stanwood Street building, which the school gives as 73 Stanwood Street against the 78 on this row. Whether that is the same filing is not established, and nothing states a completion date either way."
+ },
+ "641": {
+  "id": 641,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "320 Angell Street is an existing six-unit building, fully leased, that was the subject of a 2023 rezoning referral. Nothing published describes a development there or dates one, and no source connects Curtis Point Realty to it."
+ },
+ "630": {
+  "id": 630,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "no coverage of a development at 400-410 Hope Street. The address returns only rental listings, which are excluded."
+ },
+ "654": {
+  "id": 654,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "1051 Chalkstone Avenue currently operates as Grasso's Auto Sales. The only project document is the city's Referral 3545 rezoning petition of May 2023, whose contents are not reachable; no coverage and no completion date."
+ },
+ "611": {
+  "id": 611,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "picked up in the same search as project 654: NEREJ reports city officials approved the mixed-use building at 551 Chalkstone Avenue adding 23 residential units and a commercial unit, matching this row's 23 units. The approval is dated but the completion is not -- no source states one."
+ },
+ "582": {
+  "id": 582,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "1624 Warwick Avenue is a real estate office (White Swan Realty), marketed commercially. No development coverage and no completion date. Searched jointly with the other small Warwick filings on this queue."
+ },
+ "597": {
+  "id": 597,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "19 Wood Street is an estate-sale property listed as needing extensive rehab, not a project with a published schedule. Covered by the joint Warwick address search recorded on project 582."
+ },
+ "589": {
+  "id": 589,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "1282-1288 Greenwich Avenue is a 0.45-acre General Business parcel with a partially renovated former Boulevard Tavern, marketed for sale. The row records a veterinary hospital applicant; nothing published dates any of it. Covered by the joint Warwick address search on project 582."
+ },
+ "594": {
+  "id": 594,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "446 Post Road is a former gas station being marketed at $1.25m with raze-and-rebuild approvals in place -- an opportunity for sale rather than a project under way. No completion date. Covered by the joint Warwick address search on project 582."
+ },
+ "586": {
+  "id": 586,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "the Centerville Road filing is a multi-tenant commercial condominium with retail and a drive-through coffee shop, documented only in the applicant's own master plan narrative to the city. No completion date. Covered by the joint Warwick address search on project 582."
+ },
+ "660": {
+  "id": 660,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other small Providence filings. 697 Douglas Avenue returns no development coverage of any kind -- only city tax and covered-buildings data -- and no completion date."
+ },
+ "663": {
+  "id": 663,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "781 Manton Avenue returns no development coverage. Covered by the joint Providence address search recorded on project 660."
+ },
+ "656": {
+  "id": 656,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "50 Branch Avenue returns no development coverage. Covered by the joint Providence address search recorded on project 660."
+ },
+ "645": {
+  "id": 645,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "61-67 Leander Street returns no development coverage. Covered by the joint Providence address search recorded on project 660."
+ },
+ "634": {
+  "id": 634,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "355 Thurbers Avenue returns no development coverage. Covered by the joint Providence address search recorded on project 660."
+ },
+ "635": {
+  "id": 635,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other small Providence filings; the query returned a single property-record page and nothing else. 56 Pratt Street has no development coverage and no completion date."
+ },
+ "638": {
+  "id": 638,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "105 Dedham Avenue has no development coverage. Covered by the joint Providence address search recorded on project 635."
+ },
+ "603": {
+  "id": 603,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "14 Braman Street has no development coverage. Covered by the joint Providence address search recorded on project 635."
+ },
+ "742": {
+  "id": 742,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "473 Washington Street has no development coverage. Covered by the joint Providence address search recorded on project 635. Note this address also appears in the RI dedupe work as a merge target, so the row itself may be a duplicate."
+ },
+ "676": {
+  "id": 676,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "386 Atwells Avenue returns only a commercial property-record page, which is excluded and carries no date. Covered by the joint Providence address search recorded on project 635."
+ },
+ "478": {
+  "id": 478,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other small Providence filings. 14 Cargill Street is the Rhode Island Public Health Institute's unified development submission at West and Cargill Streets, documented only in April-May 2026 architectural and civil plan sets filed with the city. No completion date is stated anywhere."
+ },
+ "484": {
+  "id": 484,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "349 Killingly Street is a zone-change request to R-3 to allow subdivision into one-, two- or three-family dwellings -- the front of the pipeline, with no programme fixed and no date. Covered by the joint search on project 478."
+ },
+ "504": {
+  "id": 504,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "1 Charles Street has operated as a five-unit short-term rental since 2022; the 2025 referral is a zoning amendment from R-4 to Downtown D-1-45 to allow the existing use to continue. There is no construction to date. Covered by the joint search on project 478."
+ },
+ "475": {
+  "id": 475,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "1331 Eddy Street returns no development coverage. Covered by the joint search on project 478."
+ },
+ "489": {
+  "id": 489,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "1101 Elmwood Avenue returns no development coverage. Covered by the joint search on project 478."
+ },
+ "517": {
+  "id": 517,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with three other small Cranston filings. 1016 Park Avenue returns no development coverage and no completion date -- only city planning-process pages and state road projects."
+ },
+ "539": {
+  "id": 539,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "538 Main Street, Cranston returns no development coverage. Covered by the joint Cranston search recorded on project 517."
+ },
+ "536": {
+  "id": 536,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "599 Reservoir Avenue returns no development coverage. Covered by the joint Cranston search recorded on project 517."
+ },
+ "529": {
+  "id": 529,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "0 Plainfield Pike returns nothing but the Cranston plan commission's staff report for the neighbouring 2110 Plainfield Pike and state paving projects. No completion date. Covered by the joint Cranston search on project 517."
+ },
+ "505": {
+  "id": 505,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other small Providence filings. 21 New York Avenue exists only as a June 2025 civil plan set filed with the city for ProvPort; no coverage and no completion date."
+ },
+ "476": {
+  "id": 476,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "203 Douglas Avenue was continued to a later City Plan Commission meeting at the applicant's own request -- the case is not even heard, let alone scheduled. Covered by the joint search on project 505."
+ },
+ "633": {
+  "id": 633,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "106 Reservoir Avenue is a three-storey addition over an existing building giving 21 units, described in the CPC staff report of 20 February 2024 -- matching this row's 21 units. The report states the programme and the zoning, not a completion date. Covered by the joint search on project 505."
+ },
+ "732": {
+  "id": 732,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "121 Stamford Avenue appears only in a 2020 CPC preliminary-plan reinstatement, which describes parking for 32 units against the 23 on this row and states no completion date. Covered by the joint search on project 505."
+ },
+ "863": {
+  "id": 863,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "7 Mount Hope Avenue is a former elementary school rehabbed into a 24-unit condominium association in 2019 -- matching this row's 24 units, so the row is delivered rather than pipeline. But the only sources saying 2019 are MLS listings, which are excluded. Flagged as a stage-review candidate. Covered by the joint search on project 505."
  }
 }
