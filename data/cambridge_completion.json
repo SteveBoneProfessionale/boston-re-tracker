@@ -1,0 +1,1826 @@
+[
+ {
+  "id": 408,
+  "name": "Cambridge Crossing (North Point) - Remaining Master Plan",
+  "address": "",
+  "status": "Approved PUD/Master Plan Development Remaining",
+  "gfa": 1955595,
+  "units": 1000,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB179",
+    "year": "2008",
+    "name": "Cambridge Crossing (North Point) - Building S/Sierra",
+    "gfa": "113955",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2008",
+    "name": "Cambridge Crossing (North Point) - Building T/Tango",
+    "gfa": "236223",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2015",
+    "name": "Cambridge Crossing (North Point) - Building N - Twenty/20",
+    "gfa": "388000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2019",
+    "name": "Cambridge Crossing (North Point) - Building J/K",
+    "gfa": "371828",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2020",
+    "name": "Cambridge Crossing (North Point) - Building W",
+    "gfa": "16395",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building Q1",
+    "gfa": "18851",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building H",
+    "gfa": "365110",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building G",
+    "gfa": "450895",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building I/Park 151",
+    "gfa": "397102",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Building U",
+    "gfa": "313531",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 West",
+    "gfa": "2164",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 East",
+    "gfa": "4463",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2015",
+    "name": "Cambridge Crossing (North Point) - Building N - Twenty/20",
+    "gfa": "388000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2019",
+    "name": "Cambridge Crossing (North Point) - Building J/K",
+    "gfa": "371828",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2020",
+    "name": "Cambridge Crossing (North Point) - Building W",
+    "gfa": "16395",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building Q1",
+    "gfa": "18851",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building H",
+    "gfa": "365110",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building G",
+    "gfa": "450895",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building I/Park 151",
+    "gfa": "397102",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Building U",
+    "gfa": "313531",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 West",
+    "gfa": "2164",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 East",
+    "gfa": "4463",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 409,
+  "name": "Cambridge Research Park - 320-330 Third Street",
+  "address": "320-330 Third Street",
+  "status": "Building Permit Granted",
+  "gfa": 500000,
+  "units": null,
+  "permits": [
+   "196010"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 410,
+  "name": "The Galleria Residential",
+  "address": "57 JFK Street",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 30150,
+  "units": 38,
+  "permits": [
+   "250597"
+  ],
+  "co_matches": [
+   {
+    "how": "building permit 250597",
+    "issue_date": "2025-04-11",
+    "address": "57 Jfk St, Cambridge, MA 02138",
+    "type": "Floors/Units",
+    "units": null,
+    "permit": "250597"
+   }
+  ],
+  "hist_matches": []
+ },
+ {
+  "id": 411,
+  "name": "Somerbridge Hotel",
+  "address": "263 Msgr. O'Brien Highway",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 23205,
+  "units": null,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 412,
+  "name": "MIT Kendall Square - Building 2",
+  "address": "200 Main Street",
+  "status": "Building Permit Granted",
+  "gfa": 323280,
+  "units": null,
+  "permits": [
+   "209931"
+  ],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - SoMa Garage",
+    "gfa": "0",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - Building 4/45 Hayward St.",
+    "gfa": "426146",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - Building 5",
+    "gfa": "372110",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2021",
+    "name": "MIT Kendall Square - 18 Hayward St/Building 3",
+    "gfa": "380201",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - SoMa Garage",
+    "gfa": "0",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - Building 4/45 Hayward St.",
+    "gfa": "426146",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - Building 5",
+    "gfa": "372110",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2021",
+    "name": "MIT Kendall Square - 18 Hayward St/Building 3",
+    "gfa": "380201",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 413,
+  "name": "MIT Kendall Square - Building 6",
+  "address": "380 Main Street",
+  "status": "Design Review",
+  "gfa": 13200,
+  "units": null,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - SoMa Garage",
+    "gfa": "0",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - Building 4/45 Hayward St.",
+    "gfa": "426146",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - Building 5",
+    "gfa": "372110",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2021",
+    "name": "MIT Kendall Square - 18 Hayward St/Building 3",
+    "gfa": "380201",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - SoMa Garage",
+    "gfa": "0",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - Building 4/45 Hayward St.",
+    "gfa": "426146",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2020",
+    "name": "MIT Kendall Square - Building 5",
+    "gfa": "372110",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB303",
+    "year": "2021",
+    "name": "MIT Kendall Square - 18 Hayward St/Building 3",
+    "gfa": "380201",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 414,
+  "name": "MXD Infill - 290 Binney Street (Building C)",
+  "address": "290 Binney Street",
+  "status": "Building Permit Granted",
+  "gfa": 503904,
+  "units": null,
+  "permits": [
+   "222345"
+  ],
+  "co_matches": [
+   {
+    "how": "building permit 222345",
+    "issue_date": "2026-06-01",
+    "address": "290 Binney St, Cambridge, MA 02142",
+    "type": "Entire Building",
+    "units": null,
+    "permit": "222345"
+   }
+  ],
+  "hist_matches": []
+ },
+ {
+  "id": 415,
+  "name": "MXD Infill - 119-123 Broadway",
+  "address": "119-123 Broadway",
+  "status": "Building Permit Granted",
+  "gfa": 420700,
+  "units": 439,
+  "permits": [
+   "222469"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 416,
+  "name": "University Monument Site",
+  "address": "1043-1059 Cambridge Street",
+  "status": "Building Permit Granted",
+  "gfa": 29256,
+  "units": 18,
+  "permits": [
+   "152842"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 417,
+  "name": "Alexandria PUD - 161 First Street",
+  "address": "161 First Street",
+  "status": "Building Permit Granted",
+  "gfa": 30087,
+  "units": null,
+  "permits": [
+   "54231"
+  ],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB243",
+    "year": "1982",
+    "name": "Nicholson Building",
+    "gfa": "45000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2013",
+    "name": "Alexandria PUD - 225 Binney Street",
+    "gfa": "301048",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2015",
+    "name": "Alexandria PUD - 75/125 Binney Street",
+    "gfa": "338258",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2015",
+    "name": "Alexandria PUD - Vivo Apartments",
+    "gfa": "91122",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2017",
+    "name": "Alexandria PUD - 50/60 Binney Street",
+    "gfa": "467512",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2017",
+    "name": "Alexandria PUD - 100 Binney Street",
+    "gfa": "356941",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2021",
+    "name": "Alexandria PUD - 50 Rogers Street",
+    "gfa": "132231",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2024",
+    "name": "Alexandria PUD - 90 Binney Street",
+    "gfa": "16189",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2013",
+    "name": "Alexandria PUD - 225 Binney Street",
+    "gfa": "301048",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2015",
+    "name": "Alexandria PUD - 75/125 Binney Street",
+    "gfa": "338258",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2015",
+    "name": "Alexandria PUD - Vivo Apartments",
+    "gfa": "91122",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2017",
+    "name": "Alexandria PUD - 50/60 Binney Street",
+    "gfa": "467512",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2017",
+    "name": "Alexandria PUD - 100 Binney Street",
+    "gfa": "356941",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2021",
+    "name": "Alexandria PUD - 50 Rogers Street",
+    "gfa": "132231",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB243",
+    "year": "2024",
+    "name": "Alexandria PUD - 90 Binney Street",
+    "gfa": "16189",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 419,
+  "name": "544-550 Massachusetts Avenue",
+  "address": "544-550 Massachusetts Avenue",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 18988,
+  "units": 27,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 420,
+  "name": "Gaslight Building",
+  "address": "711-727 Massachusetts Avenue",
+  "status": "Building Permit Granted",
+  "gfa": 46524,
+  "units": null,
+  "permits": [
+   "195428"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 421,
+  "name": "Rindge Commons Phase 2",
+  "address": "430 Rindge Avenue",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 90075,
+  "units": 77,
+  "permits": [],
+  "co_matches": [
+   {
+    "how": "address",
+    "issue_date": "2024-09-12",
+    "address": "430 Rindge Ave, Cambridge, MA 02140",
+    "type": "Floors/Units",
+    "units": null,
+    "permit": "158329"
+   },
+   {
+    "how": "address",
+    "issue_date": "2024-09-12",
+    "address": "430 Rindge Ave, Cambridge, MA 02140",
+    "type": "Entire Building",
+    "units": null,
+    "permit": "BLDC-158329-2022"
+   },
+   {
+    "how": "address",
+    "issue_date": "2026-04-29",
+    "address": "430 Rindge Ave, Cambridge, MA 02140",
+    "type": "Floors/Units",
+    "units": null,
+    "permit": "158329-2022"
+   },
+   {
+    "how": "address",
+    "issue_date": "2026-04-30",
+    "address": "430 Rindge Ave, Cambridge, MA 02140",
+    "type": "Floors/Units",
+    "units": null,
+    "permit": "BLDC-261815-2024"
+   },
+   {
+    "how": "address",
+    "issue_date": "2024-09-12",
+    "address": "430 Rindge Ave, Cambridge, MA 02140",
+    "type": "Floors/Units",
+    "units": null,
+    "permit": "158329"
+   }
+  ],
+  "hist_matches": []
+ },
+ {
+  "id": 422,
+  "name": "Kendall Common - Development Remaining",
+  "address": "",
+  "status": "Approved PUD/Master Plan Development Remaining",
+  "gfa": 2151529,
+  "units": 1400,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 423,
+  "name": "52 New Street",
+  "address": "52 New Street",
+  "status": "Building Permit Granted",
+  "gfa": 129230,
+  "units": 107,
+  "permits": [
+   "230922"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 424,
+  "name": "Jefferson Park Federal Revitalization",
+  "address": "1 Jackson Place",
+  "status": "Building Permit Granted",
+  "gfa": 379925,
+  "units": 278,
+  "permits": [
+   "195497",
+   "195498",
+   "195499",
+   "195500",
+   "195502",
+   "195503",
+   "195504"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 425,
+  "name": "Walden Square Apartments II",
+  "address": "102 Sherman Street",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 132226,
+  "units": 95,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 426,
+  "name": "The Garage/36 JFK Street/33 Dunster Street",
+  "address": "83-91 Mount Auburn Street",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 87494,
+  "units": null,
+  "permits": [
+   "225078"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 427,
+  "name": "New Tobin School",
+  "address": "197 Vassal Lane",
+  "status": "Building Permit Granted",
+  "gfa": 299954,
+  "units": null,
+  "permits": [
+   "185582"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 428,
+  "name": "MXD Infill - 250 Binney Street (Building D)",
+  "address": "250 Binney Street",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 450576,
+  "units": null,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 429,
+  "name": "49 Sixth Street",
+  "address": "49 Sixth Street",
+  "status": "Building Permit Granted",
+  "gfa": 59400,
+  "units": 46,
+  "permits": [
+   "221290"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 430,
+  "name": "150 Cambridgepark Drive",
+  "address": "150 Cambridgepark Drive",
+  "status": "Building Permit Granted",
+  "gfa": 270080,
+  "units": null,
+  "permits": [
+   "135347",
+   "155714",
+   "172450"
+  ],
+  "co_matches": [
+   {
+    "how": "address",
+    "issue_date": "2021-09-09",
+    "address": "150 Cambridgepark Dr, Cambridge, MA 02140",
+    "type": "Floors/Units",
+    "units": null,
+    "permit": "BLDC-93773-2020"
+   }
+  ],
+  "hist_matches": []
+ },
+ {
+  "id": 431,
+  "name": "Cambridge Crossing (North Point) - Building Q2",
+  "address": "121 Morgan Avenue",
+  "status": "Building Permit Granted",
+  "gfa": 165595,
+  "units": null,
+  "permits": [
+   "206184"
+  ],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB179",
+    "year": "2008",
+    "name": "Cambridge Crossing (North Point) - Building S/Sierra",
+    "gfa": "113955",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2008",
+    "name": "Cambridge Crossing (North Point) - Building T/Tango",
+    "gfa": "236223",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2015",
+    "name": "Cambridge Crossing (North Point) - Building N - Twenty/20",
+    "gfa": "388000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2019",
+    "name": "Cambridge Crossing (North Point) - Building J/K",
+    "gfa": "371828",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2020",
+    "name": "Cambridge Crossing (North Point) - Building W",
+    "gfa": "16395",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building Q1",
+    "gfa": "18851",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building H",
+    "gfa": "365110",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building G",
+    "gfa": "450895",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building I/Park 151",
+    "gfa": "397102",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Building U",
+    "gfa": "313531",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 West",
+    "gfa": "2164",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 East",
+    "gfa": "4463",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2015",
+    "name": "Cambridge Crossing (North Point) - Building N - Twenty/20",
+    "gfa": "388000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2019",
+    "name": "Cambridge Crossing (North Point) - Building J/K",
+    "gfa": "371828",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2020",
+    "name": "Cambridge Crossing (North Point) - Building W",
+    "gfa": "16395",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building Q1",
+    "gfa": "18851",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building H",
+    "gfa": "365110",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building G",
+    "gfa": "450895",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building I/Park 151",
+    "gfa": "397102",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Building U",
+    "gfa": "313531",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 West",
+    "gfa": "2164",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 East",
+    "gfa": "4463",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 432,
+  "name": "Cambridge Crossing (North Point) - Building R",
+  "address": "221 Morgan Avenue",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 139225,
+  "units": 120,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB179",
+    "year": "2008",
+    "name": "Cambridge Crossing (North Point) - Building S/Sierra",
+    "gfa": "113955",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2008",
+    "name": "Cambridge Crossing (North Point) - Building T/Tango",
+    "gfa": "236223",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2015",
+    "name": "Cambridge Crossing (North Point) - Building N - Twenty/20",
+    "gfa": "388000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2019",
+    "name": "Cambridge Crossing (North Point) - Building J/K",
+    "gfa": "371828",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2020",
+    "name": "Cambridge Crossing (North Point) - Building W",
+    "gfa": "16395",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building Q1",
+    "gfa": "18851",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building H",
+    "gfa": "365110",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building G",
+    "gfa": "450895",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building I/Park 151",
+    "gfa": "397102",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Building U",
+    "gfa": "313531",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 West",
+    "gfa": "2164",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 East",
+    "gfa": "4463",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2015",
+    "name": "Cambridge Crossing (North Point) - Building N - Twenty/20",
+    "gfa": "388000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2019",
+    "name": "Cambridge Crossing (North Point) - Building J/K",
+    "gfa": "371828",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2020",
+    "name": "Cambridge Crossing (North Point) - Building W",
+    "gfa": "16395",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building Q1",
+    "gfa": "18851",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2021",
+    "name": "Cambridge Crossing (North Point) - Building H",
+    "gfa": "365110",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building G",
+    "gfa": "450895",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2022",
+    "name": "Cambridge Crossing (North Point) - Building I/Park 151",
+    "gfa": "397102",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Building U",
+    "gfa": "313531",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 West",
+    "gfa": "2164",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB179",
+    "year": "2023",
+    "name": "Cambridge Crossing (North Point) - Parcel I2 East",
+    "gfa": "4463",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 433,
+  "name": "Cambridgeside Redevelopment - 80 First Street",
+  "address": "80 First Street",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 455000,
+  "units": null,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB364",
+    "year": "2023",
+    "name": "Cambridgeside Redevelopment - 60 First Street",
+    "gfa": "210000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB364",
+    "year": "2025",
+    "name": "Cambridgeside Redevelopment - 20 Cambridgeside Place",
+    "gfa": "360000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB364",
+    "year": "2023",
+    "name": "Cambridgeside Redevelopment - 60 First Street",
+    "gfa": "210000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB364",
+    "year": "2025",
+    "name": "Cambridgeside Redevelopment - 20 Cambridgeside Place",
+    "gfa": "360000",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 434,
+  "name": "Cambridgeside Redevelopment - 150 Cambridgeside Place",
+  "address": "150 Cambridgeside Place",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 185000,
+  "units": 170,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB364",
+    "year": "2023",
+    "name": "Cambridgeside Redevelopment - 60 First Street",
+    "gfa": "210000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB364",
+    "year": "2025",
+    "name": "Cambridgeside Redevelopment - 20 Cambridgeside Place",
+    "gfa": "360000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB364",
+    "year": "2023",
+    "name": "Cambridgeside Redevelopment - 60 First Street",
+    "gfa": "210000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB364",
+    "year": "2025",
+    "name": "Cambridgeside Redevelopment - 20 Cambridgeside Place",
+    "gfa": "360000",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 435,
+  "name": "First Street PUD - Parcel E",
+  "address": "75 First Street",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 84298,
+  "units": 90,
+  "permits": [
+   "1154751"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 436,
+  "name": "125 Cambridgepark Drive",
+  "address": "125 Cambridgepark Drive",
+  "status": "Building Permit Granted",
+  "gfa": 50000,
+  "units": null,
+  "permits": [
+   "215450"
+  ],
+  "co_matches": [
+   {
+    "how": "address",
+    "issue_date": "2021-06-08",
+    "address": "125 Cambridgepark Dr, Cambridge, MA 02140",
+    "type": "Floors/Units",
+    "units": null,
+    "permit": "BLDC-56453-2020"
+   },
+   {
+    "how": "address",
+    "issue_date": "2026-05-15",
+    "address": "125 Cambridgepark Dr, Cambridge, MA 02140",
+    "type": "Floors/Units",
+    "units": null,
+    "permit": "200720"
+   },
+   {
+    "how": "address",
+    "issue_date": "2020-01-30",
+    "address": "125 Cambridgepark Dr, Cambridge, MA 02140",
+    "type": "Floors/Units",
+    "units": null,
+    "permit": "BLDC-46059-2019"
+   }
+  ],
+  "hist_matches": []
+ },
+ {
+  "id": 437,
+  "name": "Metropolitan Storage Warehouse",
+  "address": "134 Massachusetts Avenue",
+  "status": "Complete",
+  "gfa": 195000,
+  "units": null,
+  "permits": [
+   "200381",
+   "216308"
+  ],
+  "co_matches": [
+   {
+    "how": "building permit 216308",
+    "issue_date": "2026-03-26",
+    "address": "134 Massachusetts Ave, Cambridge, MA 02139",
+    "type": "Entire Building",
+    "units": null,
+    "permit": "BLDC - 216308"
+   }
+  ],
+  "hist_matches": []
+ },
+ {
+  "id": 438,
+  "name": "Cambridgeside Redevelopment - Core Mall Retail Space",
+  "address": "100 Cambridgeside Place",
+  "status": "Building Permit Granted",
+  "gfa": 315000,
+  "units": null,
+  "permits": [
+   "252579",
+   "253670"
+  ],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB364",
+    "year": "2023",
+    "name": "Cambridgeside Redevelopment - 60 First Street",
+    "gfa": "210000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB364",
+    "year": "2025",
+    "name": "Cambridgeside Redevelopment - 20 Cambridgeside Place",
+    "gfa": "360000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB364",
+    "year": "2023",
+    "name": "Cambridgeside Redevelopment - 60 First Street",
+    "gfa": "210000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB364",
+    "year": "2025",
+    "name": "Cambridgeside Redevelopment - 20 Cambridgeside Place",
+    "gfa": "360000",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 439,
+  "name": "4 Mellen Street/1627 Massachusetts Ave",
+  "address": "4 Mellen Street",
+  "status": "Building Permit Granted",
+  "gfa": 35263,
+  "units": 29,
+  "permits": [
+   "1139878",
+   "1142097"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 440,
+  "name": "Alewife Park - Building 4",
+  "address": "2 Alewife Park",
+  "status": "Building Permit Granted",
+  "gfa": 98400,
+  "units": null,
+  "permits": [
+   "192754"
+  ],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 2",
+    "gfa": "98500",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 1",
+    "gfa": "90000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 3",
+    "gfa": "147400",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 2",
+    "gfa": "98500",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 1",
+    "gfa": "90000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 3",
+    "gfa": "147400",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 441,
+  "name": "Alewife Park - Building 5",
+  "address": "4 Alewife Park",
+  "status": "Building Permit Granted",
+  "gfa": 143700,
+  "units": null,
+  "permits": [
+   "192769"
+  ],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 2",
+    "gfa": "98500",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 1",
+    "gfa": "90000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 3",
+    "gfa": "147400",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 2",
+    "gfa": "98500",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 1",
+    "gfa": "90000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 3",
+    "gfa": "147400",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 442,
+  "name": "Alewife Park - Parking Garage",
+  "address": "6 Alewife Park",
+  "status": "Building Permit Granted",
+  "gfa": 0,
+  "units": null,
+  "permits": [
+   "192779"
+  ],
+  "co_matches": [],
+  "hist_matches": [
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 2",
+    "gfa": "98500",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 1",
+    "gfa": "90000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 3",
+    "gfa": "147400",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 2",
+    "gfa": "98500",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 1",
+    "gfa": "90000",
+    "status": "Complete"
+   },
+   {
+    "how": "special permit PB387",
+    "year": "2025",
+    "name": "Alewife Park - Building 3",
+    "gfa": "147400",
+    "status": "Complete"
+   }
+  ]
+ },
+ {
+  "id": 443,
+  "name": "2161 Massachusetts Avenue",
+  "address": "2161 Massachusetts Avenue",
+  "status": "Building Permit Granted",
+  "gfa": 9786,
+  "units": 8,
+  "permits": [
+   "273468"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 444,
+  "name": "235 Third Street",
+  "address": "235 Third Street",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 33713,
+  "units": 55,
+  "permits": [
+   "1185584"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 445,
+  "name": "2 Garden Street",
+  "address": "2 Garden Street",
+  "status": "Building Permit Granted",
+  "gfa": 7721,
+  "units": 13,
+  "permits": [
+   "239759"
+  ],
+  "co_matches": [
+   {
+    "how": "building permit 239759",
+    "issue_date": "2026-04-24",
+    "address": "2 Garden St, Cambridge, MA 02138",
+    "type": "Entire Building",
+    "units": null,
+    "permit": "239759"
+   }
+  ],
+  "hist_matches": []
+ },
+ {
+  "id": 446,
+  "name": "Kendall Common - Building C3",
+  "address": "75 Broadway",
+  "status": "Building Permit Granted",
+  "gfa": 474866,
+  "units": null,
+  "permits": [
+   "1152040"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 447,
+  "name": "815 Somerville Avenue",
+  "address": "815 Somerville Avenue",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 27824,
+  "units": null,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 448,
+  "name": "2400 Massachusetts Avenue",
+  "address": "2400 Massachusetts Avenue",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 94867,
+  "units": 56,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 449,
+  "name": "87-101 Blanchard Road",
+  "address": "99 Blanchard Road",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 103726,
+  "units": 110,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 450,
+  "name": "Kendall Common - Building C1",
+  "address": "25 Broadway",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 376935,
+  "units": null,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 451,
+  "name": "8 Winter Street",
+  "address": "8 Winter Street",
+  "status": "Permitting",
+  "gfa": 24819,
+  "units": 23,
+  "permits": [
+   "1159211",
+   "249600"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 452,
+  "name": "35 Cherry Street",
+  "address": "35 Cherry Street",
+  "status": "Building Permit Granted",
+  "gfa": 14184,
+  "units": 10,
+  "permits": [
+   "1186734",
+   "1187446",
+   "1187491"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 453,
+  "name": "37 Brookline Street",
+  "address": "37 Brookline Street",
+  "status": "Pre-Permitting",
+  "gfa": 0,
+  "units": 13,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 454,
+  "name": "28-30 Wendell Street",
+  "address": "28-30 Wendell Street",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 0,
+  "units": 95,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 455,
+  "name": "Cambridge Fire Department Headquarters",
+  "address": "491 Broadway",
+  "status": "Building Permit Granted",
+  "gfa": 33325,
+  "units": null,
+  "permits": [
+   "263369"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 456,
+  "name": "Corcoran Park Redevelopment Phase I",
+  "address": "8-12 May St",
+  "status": "Pre-Permitting",
+  "gfa": 82407,
+  "units": 67,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 457,
+  "name": "2072 Massachusetts Avenue",
+  "address": "2072 Massachusetts Avenue",
+  "status": "Pre-Permitting",
+  "gfa": 0,
+  "units": 74,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 458,
+  "name": "745 Concord Avenue",
+  "address": "745 Concord Avenue",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 230525,
+  "units": 236,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 459,
+  "name": "1826 and 1840 Massachusetts Ave",
+  "address": "1826 and 1840 Massachusetts Ave",
+  "status": "Pre-Permitting",
+  "gfa": 0,
+  "units": null,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 460,
+  "name": "71 Cherry Street",
+  "address": "71 Cherry Street",
+  "status": "Pre-Permitting",
+  "gfa": 0,
+  "units": null,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 461,
+  "name": "350 Massachusetts Ave",
+  "address": "350 Massachusetts Ave",
+  "status": "Zoning Permit Granted or As of Right",
+  "gfa": 112600,
+  "units": null,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 462,
+  "name": "Harvard - Pritzker Hall",
+  "address": "1807 Cambridge Street",
+  "status": "Building Permit Granted",
+  "gfa": 107545,
+  "units": null,
+  "permits": [
+   "1170350"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 463,
+  "name": "Cambridge Point/Healthpeak PUD",
+  "address": "",
+  "status": "Pre-Permitting",
+  "gfa": 4825140,
+  "units": 2300,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 464,
+  "name": "Broadway Park",
+  "address": "240 Broadway",
+  "status": "Pre-Permitting",
+  "gfa": 0,
+  "units": 20,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 465,
+  "name": "12-14 Laurel Street",
+  "address": "12-14 Laurel Street",
+  "status": "Pre-Permitting",
+  "gfa": 0,
+  "units": 4,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 466,
+  "name": "54 Hayes St",
+  "address": "54 Hayes Street",
+  "status": "Building Permit Granted",
+  "gfa": 9881,
+  "units": 9,
+  "permits": [
+   "1174042"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 467,
+  "name": "322 Prospect St",
+  "address": "322 Prospect Street",
+  "status": "Permitting",
+  "gfa": 9020,
+  "units": null,
+  "permits": [
+   "1193485"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 468,
+  "name": "MXD Infill - 105 Broadway (Building E)",
+  "address": "105 Broadway",
+  "status": "Approved PUD/Master Plan Development Remaining",
+  "gfa": 302400,
+  "units": null,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 469,
+  "name": "309 Broadway",
+  "address": "309 Broadway",
+  "status": "Building Permit Granted",
+  "gfa": 10121,
+  "units": 9,
+  "permits": [
+   "1156443"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 470,
+  "name": "11 Ivy St",
+  "address": "11 Ivy St",
+  "status": "Building Permit Granted",
+  "gfa": 10685,
+  "units": 8,
+  "permits": [
+   "1182616"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 471,
+  "name": "847 Massachusetts Avenue",
+  "address": "847 Massachusetts Ave",
+  "status": "Permitting",
+  "gfa": 9594,
+  "units": 9,
+  "permits": [
+   "1187307"
+  ],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 472,
+  "name": "9 Wyman Rd",
+  "address": "9 Wyman Rd",
+  "status": "Pre-Permitting",
+  "gfa": 29187,
+  "units": 56,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 473,
+  "name": "1740 Massachusetts Ave",
+  "address": "1740 Massachusetts Ave",
+  "status": "Pre-Permitting",
+  "gfa": 0,
+  "units": 71,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ },
+ {
+  "id": 474,
+  "name": "49 Sheridan St",
+  "address": "49 Sheridan St",
+  "status": "Pre-Permitting",
+  "gfa": 49113,
+  "units": 32,
+  "permits": [],
+  "co_matches": [],
+  "hist_matches": []
+ }
+]
