@@ -152,16 +152,66 @@ def _dev_display(row) -> str:
     return raw if raw and raw not in _BAD_DEVS else "—"
 
 
-# How the screener can be ordered. Only the two delivery columns are here,
-# because they are the only ones whose printed form differs from the value
-# they sort by -- everything else the grid's own header sort gets right.
-_SORTS = {
-    "Default":                    None,
-    "Delivered · earliest first": ("delivered_date", True),
-    "Delivered · latest first":   ("delivered_date", False),
-    "Target · soonest first":     ("target_date", True),
-    "Target · furthest out":      ("target_date", False),
+# Every column the screener shows, mapped to the field it SORTS BY -- which is
+# not always the field it displays. DELIVERED and TARGET print "Q2 2026" and
+# "2025", and sorting those printed labels is meaningless: measured against the
+# full 727 rows, a text sort of TARGET orders 548 value pairs backwards,
+# because every bare year sorts ahead of every "Q..." value whatever the date.
+# So the sort runs on delivered_date and target_date, which are real dates.
+#
+# Blanks are forced last in BOTH directions. A project with no known date is
+# not the earliest and it is not the latest, and pandas' na_position is the
+# only thing here that can say so -- text sorting always parks the empty
+# string at one end.
+_SORT_FIELDS = {
+    "PROJECT":        "name",
+    "DEVELOPER":      "developer_canonical",
+    "ARCHITECT":      "architect",
+    "CIVIL ENGINEER": "civil_engineer",
+    "CONTRACTOR":     "contractor",
+    "NEIGHBORHOOD":   "neighborhood",
+    "CITY":           "city",
+    "TYPE":           "asset_class",
+    "STATUS":         "status",
+    "SF":             "total_gsf",
+    "UNITS":          "residential_units",
+    "HEIGHT":         "building_height_ft",
+    "DELIVERED":      "delivered_date",
+    "TARGET":         "target_date",
 }
+
+# Text fields sort case-insensitively and treat an empty string as absent, so
+# "no architect recorded" lands with the blanks rather than at the top of the
+# alphabet.
+_TEXT_SORT = {"PROJECT", "DEVELOPER", "ARCHITECT", "CIVIL ENGINEER",
+              "CONTRACTOR", "NEIGHBORHOOD", "CITY", "TYPE", "STATUS"}
+
+
+def _sort_series(filtered: pd.DataFrame, column: str) -> pd.Series:
+    """The values a column sorts by. Not always the values it stores.
+
+    DEVELOPER is the case that matters: the cell shows developer_canonical and
+    falls back to the raw developer name when there is no canonical one, which
+    is 196 of the 727 rows. Sorting the canonical column alone would drop every
+    one of those into the blanks block while a name sat visible in the cell.
+    So the key is built the same way the cell is.
+    """
+    if column == "DEVELOPER":
+        canon = filtered["developer_canonical"].fillna("").astype(str).str.strip()
+        raw = filtered["developer"].fillna("").astype(str).str.strip()
+        keys = canon.where(canon != "", raw)
+    else:
+        keys = filtered[_SORT_FIELDS[column]]
+
+    if column in _TEXT_SORT:
+        keys = keys.fillna("").astype(str).str.strip().str.lower()
+        # A leading "The" is not part of the name, the same way the developer
+        # dropdown already treats it.
+        keys = keys.str.replace(r"^the\s+", "", regex=True)
+        # The em dash is how the table prints "nobody named", so it sorts with
+        # the blanks rather than among the punctuation.
+        keys = keys.replace({"": None, "—": None, "-": None})
+    return keys
 
 
 # ── Column sizing ─────────────────────────────────────────────────────
@@ -558,25 +608,42 @@ def render(df: pd.DataFrame):
         filtered = filtered[mask]
 
     # ── Sort ──────────────────────────────────────────────────────
-    # The two date columns are sorted HERE rather than by clicking their
-    # headers. Two reasons, both fatal to the header sort. The cells hold the
-    # rendered label -- "Q2 2026", "2025" -- because a quarter must not print
-    # as 1 April, and sorting those as text puts Q1 after Q4 and 2030 before
-    # 2029 Q2. And a blank has to sort LAST whichever way the arrow points:
-    # a project with no known date is not the earliest, and it is not the
-    # latest either. Both are handled by ordering the real dates in pandas
-    # before the frame ever reaches the grid.
-    sort_col, cnt_col, exp_col = st.columns([2, 4, 1])
+    # Every column sorts, both directions, from here rather than from the
+    # column headers. The headers cannot do this job correctly and were
+    # quietly doing it wrongly:
+    #
+    #   the two date columns hold their PRINTED label -- "Q2 2026", "2025",
+    #   "25 Feb 2025" -- because a quarter must not print as 1 April. Sorting
+    #   those as text is not a rough approximation, it is nonsense: measured
+    #   against the full 727 rows it puts 548 TARGET pairs in the wrong order,
+    #   because every bare year sorts ahead of every "Q..." value regardless
+    #   of date, and DELIVERED sorts by day-of-month because "25 Feb 2025"
+    #   begins with 25.
+    #
+    #   and a blank has to sort LAST whichever way the arrow points. A project
+    #   with no known date is not the earliest and it is not the latest. Text
+    #   sorting always parks the empty string at one end -- first ascending,
+    #   last descending -- so one of the two directions is always wrong.
+    #
+    # Sorting here fixes both: the order runs on the underlying field (a real
+    # date for the date columns) and pandas puts the blanks last either way.
+    sort_col, dir_col, cnt_col, exp_col = st.columns([2, 1.4, 3, 1])
     sort_choice = sort_col.selectbox(
-        "SORT", list(_SORTS), key="tbl_sort",
-        help="Chronological, on the stored date rather than the printed "
-             "label. Projects with no date in the sorted column go last in "
-             "both directions.")
-    _spec = _SORTS[sort_choice]
-    if _spec:
-        _col, _asc = _spec
-        filtered = filtered.sort_values(
-            _col, ascending=_asc, na_position="last", kind="mergesort")
+        "SORT BY", ["Default"] + list(_SORT_FIELDS), key="tbl_sort",
+        help="Sorts on the stored value, not the printed label -- so "
+             "DELIVERED and TARGET order chronologically rather than "
+             "alphabetically. Projects with nothing in the sorted column go "
+             "last in both directions.")
+    ascending = dir_col.selectbox(
+        "ORDER", ["Ascending", "Descending"], key="tbl_sort_dir",
+        help="Ascending puts the earliest date, smallest figure or first "
+             "letter at the top.") == "Ascending"
+
+    if sort_choice != "Default":
+        filtered = filtered.assign(
+            _sort_key=_sort_series(filtered, sort_choice)
+        ).sort_values("_sort_key", ascending=ascending, na_position="last",
+                      kind="mergesort").drop(columns="_sort_key")
 
     cnt_col.markdown(
         f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 8px">'
@@ -651,7 +718,10 @@ def render(df: pd.DataFrame):
                      "has not delivered, or that it has and no source states "
                      "the date — the detail panel says which. Shown at the "
                      "precision the source gave: a certificate of occupancy "
-                     "gives a day, an assessor record often gives only a year."),
+                     "gives a day, an assessor record often gives only a year. "
+                     "Use SORT BY above the table to order this column: it "
+                     "sorts the stored date, while clicking the header would "
+                     "sort the printed label and order by day of the month."),
             "TARGET": st.column_config.TextColumn(
                 width=widths["TARGET"],
                 help="Forecast completion, and only ever a forecast: it goes "
@@ -660,7 +730,10 @@ def render(df: pd.DataFrame):
                      "Shown at the source's precision — Q2 2026 means the "
                      "quarter, not 1 April. A forecast is only as good as its "
                      "vintage, so who stated it and when are in the detail "
-                     "panel and in the CSV export."),
+                     "panel and in the CSV export. Use SORT BY above the table "
+                     "to order this column: it sorts the stored date, while "
+                     "clicking the header would sort the printed label and put "
+                     "every bare year ahead of every quarter."),
         },
     )
 
