@@ -64,12 +64,12 @@ TOTAL resolved                             399                   302            
 4. STEP 4 COVERAGE -- WHAT WAS SEARCHED AND WHAT WAS NOT
 ================================================================================================
   projects entering Step 4 needing at least one field: 557
-  projects searched:                                   158
-  projects NOT reached:                                399
+  projects searched:                                   163
+  projects NOT reached:                                394
       priority 1  Boston/Cambridge architect or civil missing   139
       priority 3  Boston/Cambridge corroborate unverified         5
       priority 4  other MA                                       11
-      priority 5  Rhode Island                                  244
+      priority 5  Rhode Island                                  239
   complete list: data/step4_not_reached.json
 
   the priority-2 projects not reached (GC, construction started) -- the most

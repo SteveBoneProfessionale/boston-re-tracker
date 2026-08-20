@@ -2822,25 +2822,6 @@
   ]
  },
  {
-  "project_id": 751,
-  "priority": 5,
-  "city": "Providence",
-  "name": "1117 Eddy Street",
-  "address": "1117 Eddy Street",
-  "developer": "Cogent Capital Group LLC",
-  "neighborhood": "Washington Park",
-  "status": "Permitting",
-  "started": false,
-  "gsf": 150000,
-  "units": null,
-  "need": [
-   "civil_engineer"
-  ],
-  "corroborate": [
-   "architect"
-  ]
- },
- {
   "project_id": 494,
   "priority": 5,
   "city": "Providence",
@@ -2872,63 +2853,6 @@
   "gsf": 101785,
   "units": null,
   "need": [],
-  "corroborate": [
-   "civil_engineer"
-  ]
- },
- {
-  "project_id": 490,
-  "priority": 5,
-  "city": "Providence",
-  "name": "27 E River Street",
-  "address": "27 E River Street",
-  "developer": "Providence Architecture and Building Company",
-  "neighborhood": "Wayland",
-  "status": "Permitting",
-  "started": false,
-  "gsf": 88000,
-  "units": 355,
-  "need": [
-   "architect"
-  ],
-  "corroborate": [
-   "civil_engineer"
-  ]
- },
- {
-  "project_id": 587,
-  "priority": 5,
-  "city": "Warwick",
-  "name": "455 Toll gate Rd",
-  "address": "455 Toll gate Rd",
-  "developer": "Kent County Memorial Hospital",
-  "neighborhood": null,
-  "status": "Permitting",
-  "started": false,
-  "gsf": 72482,
-  "units": null,
-  "need": [
-   "architect"
-  ],
-  "corroborate": [
-   "civil_engineer"
-  ]
- },
- {
-  "project_id": 734,
-  "priority": 5,
-  "city": "Providence",
-  "name": "16-42 Somerset Street",
-  "address": "16-42 Somerset Street",
-  "developer": "Omni Development Corporation",
-  "neighborhood": "Upper South Providence",
-  "status": "Planning",
-  "started": false,
-  "gsf": 70784,
-  "units": 54,
-  "need": [
-   "architect"
-  ],
   "corroborate": [
    "civil_engineer"
   ]
@@ -2968,24 +2892,6 @@
    "architect",
    "civil_engineer"
   ]
- },
- {
-  "project_id": 658,
-  "priority": 5,
-  "city": "Providence",
-  "name": "740 Plainfield Street",
-  "address": "740 Plainfield Street",
-  "developer": "Excel Academy",
-  "neighborhood": "Silver Lake",
-  "status": "Planning",
-  "started": false,
-  "gsf": 41000,
-  "units": null,
-  "need": [
-   "architect",
-   "civil_engineer"
-  ],
-  "corroborate": []
  },
  {
   "project_id": 748,

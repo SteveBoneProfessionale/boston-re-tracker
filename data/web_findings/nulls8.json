@@ -1,0 +1,8 @@
+[
+ [490,"architect","searched; the developer entity is Providence Architecture and Building Co. and one principal is an architect, but no source states that firm is the project architect, so this is left null rather than inferred from the company name"],
+ [751,"civil_engineer","searched; only assessing records returned; no design team named"],
+ [587,"architect","searched; coverage is of hospital operations and a 2006-2011 landscape retrofit, not this filing"],
+ [734,"architect","searched; the completed Caffey Apartments are covered but no architect is named"],
+ [658,"architect","searched; the school is at a different address; nothing found for this filing"],
+ [658,"civil_engineer","searched; nothing found for this filing"]
+]
