@@ -152,68 +152,6 @@ def _dev_display(row) -> str:
     return raw if raw and raw not in _BAD_DEVS else "—"
 
 
-# Every column the screener shows, mapped to the field it SORTS BY -- which is
-# not always the field it displays. DELIVERED and TARGET print "Q2 2026" and
-# "2025", and sorting those printed labels is meaningless: measured against the
-# full 727 rows, a text sort of TARGET orders 548 value pairs backwards,
-# because every bare year sorts ahead of every "Q..." value whatever the date.
-# So the sort runs on delivered_date and target_date, which are real dates.
-#
-# Blanks are forced last in BOTH directions. A project with no known date is
-# not the earliest and it is not the latest, and pandas' na_position is the
-# only thing here that can say so -- text sorting always parks the empty
-# string at one end.
-_SORT_FIELDS = {
-    "PROJECT":        "name",
-    "DEVELOPER":      "developer_canonical",
-    "ARCHITECT":      "architect",
-    "CIVIL ENGINEER": "civil_engineer",
-    "CONTRACTOR":     "contractor",
-    "NEIGHBORHOOD":   "neighborhood",
-    "CITY":           "city",
-    "TYPE":           "asset_class",
-    "STATUS":         "status",
-    "SF":             "total_gsf",
-    "UNITS":          "residential_units",
-    "HEIGHT":         "building_height_ft",
-    "DELIVERED":      "delivered_date",
-    "TARGET":         "target_date",
-}
-
-# Text fields sort case-insensitively and treat an empty string as absent, so
-# "no architect recorded" lands with the blanks rather than at the top of the
-# alphabet.
-_TEXT_SORT = {"PROJECT", "DEVELOPER", "ARCHITECT", "CIVIL ENGINEER",
-              "CONTRACTOR", "NEIGHBORHOOD", "CITY", "TYPE", "STATUS"}
-
-
-def _sort_series(filtered: pd.DataFrame, column: str) -> pd.Series:
-    """The values a column sorts by. Not always the values it stores.
-
-    DEVELOPER is the case that matters: the cell shows developer_canonical and
-    falls back to the raw developer name when there is no canonical one, which
-    is 196 of the 727 rows. Sorting the canonical column alone would drop every
-    one of those into the blanks block while a name sat visible in the cell.
-    So the key is built the same way the cell is.
-    """
-    if column == "DEVELOPER":
-        canon = filtered["developer_canonical"].fillna("").astype(str).str.strip()
-        raw = filtered["developer"].fillna("").astype(str).str.strip()
-        keys = canon.where(canon != "", raw)
-    else:
-        keys = filtered[_SORT_FIELDS[column]]
-
-    if column in _TEXT_SORT:
-        keys = keys.fillna("").astype(str).str.strip().str.lower()
-        # A leading "The" is not part of the name, the same way the developer
-        # dropdown already treats it.
-        keys = keys.str.replace(r"^the\s+", "", regex=True)
-        # The em dash is how the table prints "nobody named", so it sorts with
-        # the blanks rather than among the punctuation.
-        keys = keys.replace({"": None, "—": None, "-": None})
-    return keys
-
-
 # ── Column sizing ─────────────────────────────────────────────────────
 # The screener is drawn into a canvas, so nothing in it reflows: a column is
 # exactly as wide as it is told to be, and any value wider than that is
@@ -265,10 +203,18 @@ def _fmt_int(v, suffix: str = "", comma: bool = False) -> str:
 
 
 # How each column's values reach the canvas. Anything absent is drawn as-is.
+def _fmt_date_cell(v) -> str:
+    """A DateColumn draws its value in the column's format, so that is what the
+    sizer has to measure -- not the raw timestamp."""
+    return "" if v is None or v != v else str(v)[:10]
+
+
 _CELL_TEXT = {
-    "SF":     lambda v: _fmt_int(v, comma=True),
-    "UNITS":  lambda v: _fmt_int(v),
-    "HEIGHT": lambda v: _fmt_int(v, " ft"),
+    "SF":        lambda v: _fmt_int(v, comma=True),
+    "UNITS":     lambda v: _fmt_int(v),
+    "HEIGHT":    lambda v: _fmt_int(v, " ft"),
+    "DELIVERED": _fmt_date_cell,
+    "TARGET":    _fmt_date_cell,
 }
 
 
@@ -370,19 +316,20 @@ def _build_display(filtered: pd.DataFrame) -> pd.DataFrame:
     # TARGET and no DELIVERED, a finished one has a DELIVERED and no TARGET,
     # and no row ever carries both.
     #
-    # Each renders at the precision its source actually had: "Q2 2026" is
-    # shown as Q2 2026, never as 1 April 2026, because the source never said
-    # April. The underlying value is a real date and sorting uses it -- see
-    # the SORT control, which does the ordering rather than the column
-    # headers, since only it can put the blanks last in BOTH directions.
-    display["delivered_fmt"] = [
-        format_delivery_date(d, pr)
-        for d, pr in zip(display["delivered_date"], display["delivered_precision"])
-    ]
-    display["target_fmt"] = [
-        format_delivery_date(d, pr)
-        for d, pr in zip(display["target_date"], display["target_precision"])
-    ]
+    # Both columns hand the grid the REAL DATE, not a rendered label, so that
+    # clicking the header sorts chronologically in both directions. Handing it
+    # "Q2 2026" and "2025" instead made the header sort compare text, which is
+    # not an approximation of date order but unrelated to it: measured over the
+    # full 727 rows it put 548 TARGET pairs backwards, because every bare year
+    # sorts ahead of every "Q..." value whatever the date, and DELIVERED
+    # sorted by day-of-month because "25 Feb 2025" begins with 25.
+    #
+    # The cost is that a date column formats uniformly, so a quarter- or
+    # year-precision value shows as the first day of its period. The precision
+    # itself is not lost -- it is stored, and the detail panel prints the value
+    # at its true precision beside the vintage.
+    display["delivered_fmt"] = pd.to_datetime(display["delivered_date"], errors="coerce")
+    display["target_fmt"] = pd.to_datetime(display["target_date"], errors="coerce")
     display = display[[
         "name", "developer_canonical", "architect", "civil_engineer", "contractor",
         "neighborhood", "city",
@@ -607,44 +554,7 @@ def render(df: pd.DataFrame):
             mask = mask | filtered["alt_addresses"].str.lower().str.contains(q, na=False)
         filtered = filtered[mask]
 
-    # ── Sort ──────────────────────────────────────────────────────
-    # Every column sorts, both directions, from here rather than from the
-    # column headers. The headers cannot do this job correctly and were
-    # quietly doing it wrongly:
-    #
-    #   the two date columns hold their PRINTED label -- "Q2 2026", "2025",
-    #   "25 Feb 2025" -- because a quarter must not print as 1 April. Sorting
-    #   those as text is not a rough approximation, it is nonsense: measured
-    #   against the full 727 rows it puts 548 TARGET pairs in the wrong order,
-    #   because every bare year sorts ahead of every "Q..." value regardless
-    #   of date, and DELIVERED sorts by day-of-month because "25 Feb 2025"
-    #   begins with 25.
-    #
-    #   and a blank has to sort LAST whichever way the arrow points. A project
-    #   with no known date is not the earliest and it is not the latest. Text
-    #   sorting always parks the empty string at one end -- first ascending,
-    #   last descending -- so one of the two directions is always wrong.
-    #
-    # Sorting here fixes both: the order runs on the underlying field (a real
-    # date for the date columns) and pandas puts the blanks last either way.
-    sort_col, dir_col, cnt_col, exp_col = st.columns([2, 1.4, 3, 1])
-    sort_choice = sort_col.selectbox(
-        "SORT BY", ["Default"] + list(_SORT_FIELDS), key="tbl_sort",
-        help="Sorts on the stored value, not the printed label -- so "
-             "DELIVERED and TARGET order chronologically rather than "
-             "alphabetically. Projects with nothing in the sorted column go "
-             "last in both directions.")
-    ascending = dir_col.selectbox(
-        "ORDER", ["Ascending", "Descending"], key="tbl_sort_dir",
-        help="Ascending puts the earliest date, smallest figure or first "
-             "letter at the top.") == "Ascending"
-
-    if sort_choice != "Default":
-        filtered = filtered.assign(
-            _sort_key=_sort_series(filtered, sort_choice)
-        ).sort_values("_sort_key", ascending=ascending, na_position="last",
-                      kind="mergesort").drop(columns="_sort_key")
-
+    cnt_col, exp_col = st.columns([5, 1])
     cnt_col.markdown(
         f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 8px">'
         f'<span style="color:#e2e8f0;font-weight:700">{len(filtered)}</span> PROJECTS'
@@ -712,28 +622,27 @@ def render(df: pd.DataFrame):
             "STATUS": st.column_config.TextColumn(width=widths["STATUS"]),
             "UNITS":  st.column_config.NumberColumn(width=widths["UNITS"], format="%d"),
             "HEIGHT": st.column_config.NumberColumn(width=widths["HEIGHT"], format="%d ft"),
-            "DELIVERED": st.column_config.TextColumn(
-                width=widths["DELIVERED"],
+            "DELIVERED": st.column_config.DateColumn(
+                width=widths["DELIVERED"], format="YYYY-MM-DD",
                 help="When the building was actually finished. Blank means it "
                      "has not delivered, or that it has and no source states "
-                     "the date — the detail panel says which. Shown at the "
-                     "precision the source gave: a certificate of occupancy "
-                     "gives a day, an assessor record often gives only a year. "
-                     "Use SORT BY above the table to order this column: it "
-                     "sorts the stored date, while clicking the header would "
-                     "sort the printed label and order by day of the month."),
-            "TARGET": st.column_config.TextColumn(
-                width=widths["TARGET"],
+                     "the date — the detail panel says which. Click the header "
+                     "to sort chronologically, again to reverse. Where the "
+                     "source gave only a quarter or a year this shows the "
+                     "first day of that period; the detail panel prints it at "
+                     "its true precision."),
+            "TARGET": st.column_config.DateColumn(
+                width=widths["TARGET"], format="YYYY-MM-DD",
                 help="Forecast completion, and only ever a forecast: it goes "
                      "blank the moment a project delivers, so nothing in this "
                      "column can be mistaken for something that happened. "
                      "Shown at the source's precision — Q2 2026 means the "
-                     "quarter, not 1 April. A forecast is only as good as its "
+                     "quarter, not 1 April — this column shows the first day "
+                     "of the period and the detail panel prints the true "
+                     "precision. Click the header to sort chronologically, "
+                     "again to reverse. A forecast is only as good as its "
                      "vintage, so who stated it and when are in the detail "
-                     "panel and in the CSV export. Use SORT BY above the table "
-                     "to order this column: it sorts the stored date, while "
-                     "clicking the header would sort the printed label and put "
-                     "every bare year ahead of every quarter."),
+                     "panel and in the CSV export."),
         },
     )
 
