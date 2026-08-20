@@ -2,6 +2,7 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
+import math
 import json
 import pandas as pd
 import streamlit as st
@@ -149,6 +150,180 @@ def _dev_display(row) -> str:
         return canonical
     raw = str(row["developer"] or "").strip()
     return raw if raw and raw not in _BAD_DEVS else "—"
+
+
+# ── Column sizing ─────────────────────────────────────────────────────
+# The screener is drawn into a canvas, so nothing in it reflows: a column is
+# exactly as wide as it is told to be, and any value wider than that is
+# ellipsised away. So every width is MEASURED off the data rather than
+# chosen -- each column is sized to the longest string that will actually
+# appear in it, its header included.
+#
+# The measurement is arithmetic rather than a guess because the theme font is
+# monospace (.streamlit/config.toml), and a monospace face advances the same
+# 0.6em for every character. The grid draws cells at fontSizes.sm = 14px with
+# 8px of padding either side, and the header row additionally carries the
+# sort/menu icon, which is why a header costs more than the same text in a
+# cell -- NEIGHBORHOOD and CIVIL ENGINEER were clipped headers over columns
+# whose values fitted.
+_CHAR_PX = 14.0 * 0.6
+_CELL_PAD = 16          # cellHorizontalPadding, both sides
+_HEADER_ICON = 18       # headerIconSize, 1.125rem
+_MIN_COL_PX = 44
+# The formula lands a long value within a pixel of its column edge, which is
+# too close to trust: the grid rounds its own text measurement, and the 8px
+# padding read out of the bundle is one theme change away from being 10.
+_SLACK_PX = 8
+
+# Fifteen columns at their full measured width come to 4,270px against the
+# full result set, which fits no window. Both ways of forcing a fit lose
+# data -- shrink the columns and the values ellipsise mid-word, which is the
+# bug this replaced; drop columns and the reader loses them outright. So the
+# overflow is not fought: the grid keeps every column at its measured width
+# and scrolls sideways, PROJECT is pinned so the row identity stays on
+# screen, and a line under the table says that is what is happening. This
+# figure is only the threshold for showing that line -- it never sizes a
+# column -- and corresponds to a 1664px window in Streamlit's wide layout.
+_LAYOUT_BUDGET_PX = 1600
+
+# The provenance marks (▣ ◈ ● ✲ ≠ ⋯ —) are not in a monospace face and are
+# drawn from a fallback at roughly one em, so they cost more than a character.
+_WIDE_CHAR = 1.6
+
+
+def _text_px(text: str) -> float:
+    return _CHAR_PX * sum(_WIDE_CHAR if ord(c) >= 0x2000 else 1.0 for c in str(text))
+
+
+def _fmt_int(v, suffix: str = "", comma: bool = False) -> str:
+    """Render a number the way its column config will render it."""
+    if v is None or pd.isna(v):
+        return ""
+    return (f"{int(v):,}" if comma else f"{int(v)}") + suffix
+
+
+# How each column's values reach the canvas. Anything absent is drawn as-is.
+_CELL_TEXT = {
+    "SF":     lambda v: _fmt_int(v, comma=True),
+    "UNITS":  lambda v: _fmt_int(v),
+    "HEIGHT": lambda v: _fmt_int(v, " ft"),
+}
+
+
+def _column_widths(display: pd.DataFrame) -> dict[str, int]:
+    """Size every column to its own longest rendered string, header included."""
+    widths = {}
+    for col in display.columns:
+        render_cell = _CELL_TEXT.get(col, str)
+        longest = max((_text_px(render_cell(v)) for v in display[col]), default=0.0)
+        header = _text_px(col) + _HEADER_ICON
+        widths[col] = max(_MIN_COL_PX, math.ceil(max(longest, header) + _CELL_PAD + _SLACK_PX))
+    return widths
+
+
+def _build_display(filtered: pd.DataFrame) -> pd.DataFrame:
+    """The screener frame exactly as the grid draws it.
+
+    Split out of render() so the sizer above measures the same strings the
+    reader sees -- the marks, the em dashes and the formatted numbers, not the
+    raw database values.
+    """
+
+    display = filtered[[
+        "name", "developer_canonical", "developer", "architect",
+        "civil_engineer", "contractor", "neighborhood", "city",
+        "asset_class", "status", "stage", "total_gsf", "residential_units",
+        "building_height_ft", "expected_delivery",
+    ]].copy()
+
+    display["developer_canonical"] = display.apply(_dev_display, axis=1)
+
+    # Every developer name carries its confidence wherever it appears. This
+    # used to mark only the INFERRED names, which left confirmed and
+    # document-only looking identical -- and document_only is the majority of
+    # the Rhode Island data, so an unmarked name read as verified.
+    display["_conf"] = filtered["developer_confidence"]
+    display["developer_canonical"] = [
+        f'{DEVELOPER_CONFIDENCE[c]["mark"]} {name}'
+        if c in DEVELOPER_CONFIDENCE and name != "—" else name
+        for name, c in zip(display["developer_canonical"], display["_conf"])
+    ]
+    display.drop(columns=["developer", "_conf"], inplace=True)
+
+    # The three project-team fields sit beside the developer and are marked the
+    # same way, for the same reason: most of these names come from a drawing
+    # title block, a permit record or a web article rather than from the
+    # planning filing, and an unmarked name would read as though the filing
+    # itself stated it.
+    #
+    # The mark comes from field_provenance rather than architect_source. That
+    # column only ever described the architect and only recorded the channel;
+    # the provenance table covers all three fields and records how strongly
+    # each value is evidenced, which is the thing a reader needs to weigh.
+    #
+    # A blank contractor is deliberately two different things. On a project
+    # that has not broken ground there is nobody to name yet, and rendering
+    # that as an em dash beside a project we searched and came up empty would
+    # be the table lying about its own coverage.
+    _tiers = load_field_tiers()
+    _ids = list(filtered["id"])
+    for _col, _field in (("architect", "architect"),
+                         ("civil_engineer", "civil_engineer"),
+                         ("contractor", "general_contractor")):
+        display[_col] = [
+            mark_team_value(v, _tiers.get((int(pid), _field)))
+            for pid, v in zip(_ids, display[_col].fillna(""))
+        ]
+
+    def _status_fmt(row):
+        if not row["status"]:
+            return "—"
+        if row["status"] in STATUS_DOT:
+            return f"{STATUS_DOT[row['status']]} {STATUS_SHORT[row['status']]}"
+        # Cambridge (or any city outside the Boston vocab): dot colored by
+        # normalized stage, label is the native status text.
+        return f"● {row['status']}"
+
+    display["status_fmt"] = display.apply(_status_fmt, axis=1)
+
+    # SF carries its provenance, for the same reason developer names do: a
+    # web-sourced figure and a filing-stated one must not read alike.
+    display["_sf_src"] = filtered["total_gsf_source"]
+    display["total_gsf"] = pd.to_numeric(display["total_gsf"], errors="coerce")
+    display["residential_units"] = pd.to_numeric(display["residential_units"], errors="coerce")
+    display["building_height_ft"] = pd.to_numeric(display["building_height_ft"], errors="coerce")
+
+    # SF stays a NUMBER so the column sorts numerically. Formatting a figure
+    # into a string and handing that to a TextColumn made 99,925 sort above
+    # 1,234,567, because as text "9" beats "1" -- every Boston project over
+    # 100,000 sq ft was ranking below far smaller ones. Formatting is display
+    # only, done by the column config. Provenance moves to its own narrow
+    # column rather than being welded into the value, which is what forced the
+    # value to be text in the first place.
+    # A unit count carries how far it can be trusted, for the same reason a
+    # developer name does: 34 units at 1077 Westminster looked exactly like a
+    # verified figure until the final plan said 41.
+    _uc = filtered["units_confidence"] if "units_confidence" in filtered.columns else None
+    display["units_mark"] = ([UNITS_CONFIDENCE.get(c, {}).get("mark", "") for c in _uc]
+                             if _uc is not None else [""] * len(display))
+
+    display["sf_src_mark"] = [
+        SF_SOURCES[src]["mark"] if src in SF_SOURCES else ""
+        for src in display["_sf_src"]
+    ]
+    display = display[[
+        "name", "developer_canonical", "architect", "civil_engineer", "contractor",
+        "neighborhood", "city",
+        "asset_class", "status_fmt", "total_gsf", "sf_src_mark",
+        "residential_units", "units_mark", "building_height_ft", "expected_delivery",
+    ]]
+    display.columns = [
+        "PROJECT", "DEVELOPER", "ARCHITECT", "CIVIL ENGINEER", "CONTRACTOR",
+        "NEIGHBORHOOD", "CITY",
+        "TYPE", "STATUS", "SF", "SRC",
+        "UNITS", "U?", "HEIGHT", "DELIVERY",
+    ]
+    return display
 
 
 def render(df: pd.DataFrame):
@@ -380,100 +555,12 @@ def render(df: pd.DataFrame):
     # ── Table ─────────────────────────────────────────────────────
     _section("SCREENER")
 
-    display = filtered[[
-        "name", "developer_canonical", "developer", "architect",
-        "civil_engineer", "contractor", "neighborhood", "city",
-        "asset_class", "status", "stage", "total_gsf", "residential_units",
-        "building_height_ft", "expected_delivery",
-    ]].copy()
+    display = _build_display(filtered)
 
-    display["developer_canonical"] = display.apply(_dev_display, axis=1)
-
-    # Every developer name carries its confidence wherever it appears. This
-    # used to mark only the INFERRED names, which left confirmed and
-    # document-only looking identical -- and document_only is the majority of
-    # the Rhode Island data, so an unmarked name read as verified.
-    display["_conf"] = filtered["developer_confidence"]
-    display["developer_canonical"] = [
-        f'{DEVELOPER_CONFIDENCE[c]["mark"]} {name}'
-        if c in DEVELOPER_CONFIDENCE and name != "—" else name
-        for name, c in zip(display["developer_canonical"], display["_conf"])
-    ]
-    display.drop(columns=["developer", "_conf"], inplace=True)
-
-    # The three project-team fields sit beside the developer and are marked the
-    # same way, for the same reason: most of these names come from a drawing
-    # title block, a permit record or a web article rather than from the
-    # planning filing, and an unmarked name would read as though the filing
-    # itself stated it.
-    #
-    # The mark comes from field_provenance rather than architect_source. That
-    # column only ever described the architect and only recorded the channel;
-    # the provenance table covers all three fields and records how strongly
-    # each value is evidenced, which is the thing a reader needs to weigh.
-    #
-    # A blank contractor is deliberately two different things. On a project
-    # that has not broken ground there is nobody to name yet, and rendering
-    # that as an em dash beside a project we searched and came up empty would
-    # be the table lying about its own coverage.
-    _tiers = load_field_tiers()
-    _ids = list(filtered["id"])
-    for _col, _field in (("architect", "architect"),
-                         ("civil_engineer", "civil_engineer"),
-                         ("contractor", "general_contractor")):
-        display[_col] = [
-            mark_team_value(v, _tiers.get((int(pid), _field)))
-            for pid, v in zip(_ids, display[_col].fillna(""))
-        ]
-
-    def _status_fmt(row):
-        if not row["status"]:
-            return "—"
-        if row["status"] in STATUS_DOT:
-            return f"{STATUS_DOT[row['status']]} {STATUS_SHORT[row['status']]}"
-        # Cambridge (or any city outside the Boston vocab): dot colored by
-        # normalized stage, label is the native status text.
-        return f"● {row['status']}"
-
-    display["status_fmt"] = display.apply(_status_fmt, axis=1)
-
-    # SF carries its provenance, for the same reason developer names do: a
-    # web-sourced figure and a filing-stated one must not read alike.
-    display["_sf_src"] = filtered["total_gsf_source"]
-    display["total_gsf"] = pd.to_numeric(display["total_gsf"], errors="coerce")
-    display["residential_units"] = pd.to_numeric(display["residential_units"], errors="coerce")
-    display["building_height_ft"] = pd.to_numeric(display["building_height_ft"], errors="coerce")
-
-    # SF stays a NUMBER so the column sorts numerically. Formatting a figure
-    # into a string and handing that to a TextColumn made 99,925 sort above
-    # 1,234,567, because as text "9" beats "1" -- every Boston project over
-    # 100,000 sq ft was ranking below far smaller ones. Formatting is display
-    # only, done by the column config. Provenance moves to its own narrow
-    # column rather than being welded into the value, which is what forced the
-    # value to be text in the first place.
-    # A unit count carries how far it can be trusted, for the same reason a
-    # developer name does: 34 units at 1077 Westminster looked exactly like a
-    # verified figure until the final plan said 41.
-    _uc = filtered["units_confidence"] if "units_confidence" in filtered.columns else None
-    display["units_mark"] = ([UNITS_CONFIDENCE.get(c, {}).get("mark", "") for c in _uc]
-                             if _uc is not None else [""] * len(display))
-
-    display["sf_src_mark"] = [
-        SF_SOURCES[src]["mark"] if src in SF_SOURCES else ""
-        for src in display["_sf_src"]
-    ]
-    display = display[[
-        "name", "developer_canonical", "architect", "civil_engineer", "contractor",
-        "neighborhood", "city",
-        "asset_class", "status_fmt", "total_gsf", "sf_src_mark",
-        "residential_units", "units_mark", "building_height_ft", "expected_delivery",
-    ]]
-    display.columns = [
-        "PROJECT", "DEVELOPER", "ARCHITECT", "CIVIL ENGINEER", "CONTRACTOR",
-        "NEIGHBORHOOD", "CITY",
-        "TYPE", "STATUS", "SF", "SRC",
-        "UNITS", "U?", "HEIGHT", "DELIVERY",
-    ]
+    # Widths measured off the frame above, not chosen: each column is as wide
+    # as its own longest rendered string, header included. Recomputed on every
+    # filter, so narrowing the view narrows the table with it.
+    widths = _column_widths(display)
 
     selection = st.dataframe(
         display,
@@ -482,63 +569,70 @@ def render(df: pd.DataFrame):
         height=400,
         on_select="rerun",
         selection_mode="single-row",
-        # Every column is sized explicitly. Streamlit's automatic sizing was
-        # clipping the LEFT of the widest figures -- 4,825,140 rendered as
-        # ",825,140" -- and a truncated number is not a smaller number, it is
-        # a wrong one. The numeric and date columns are therefore sized to
-        # their widest actual value (SF 4,825,140; UNITS 3,662; HEIGHT 600 ft;
-        # DELIVERY December 2026) with room for the sort arrow, so none of
-        # them can clip whatever the window width. Text columns are sized to
-        # be useful and ellipsise gracefully, which is the correct behaviour
-        # for a name; the full value is in the detail panel.
         column_config={
-            "PROJECT": st.column_config.TextColumn(width=150),
-            "DEVELOPER": st.column_config.TextColumn(width=122),
+            # PROJECT is pinned: it is the column that says which row you are
+            # looking at, and it has to stay on screen while the rest scrolls
+            # under it.
+            "PROJECT": st.column_config.TextColumn(width=widths["PROJECT"], pinned=True),
+            "DEVELOPER": st.column_config.TextColumn(width=widths["DEVELOPER"]),
             # Numeric so it sorts by magnitude; the comma is display only.
             # Blanks sort to the end rather than being coerced to zero, which
             # would rank an unknown size alongside a genuine nothing.
             "SF":     st.column_config.NumberColumn(
-                width=105, format="%,d",
+                width=widths["SF"], format="%,d",
                 help="Gross square feet, as stated by the source. Sorts by "
                      "magnitude; blank means no source states one."),
             "SRC":    st.column_config.TextColumn(
-                width=46,
+                width=widths["SRC"],
                 help="Square-footage provenance. ◈ = web-sourced, ✲ = corrected "
                      "from a lot area, ▣ = plan set or staff report. "
                      "Unmarked = stated in the planning filing."),
             "ARCHITECT": st.column_config.TextColumn(
-                width=122,
+                width=widths["ARCHITECT"],
                 help="Architecture practice where one is named, otherwise the "
                      "individual the record names. " + _TIER_HELP),
             "CIVIL ENGINEER": st.column_config.TextColumn(
-                width=122,
+                width=widths["CIVIL ENGINEER"],
                 help="Civil engineer only. A surveyor, traffic engineer, "
                      "structural engineer or landscape architect is not one, "
                      "and is not counted here. " + _TIER_HELP),
             "CONTRACTOR": st.column_config.TextColumn(
-                width=122,
+                width=widths["CONTRACTOR"],
                 help="General contractor or construction manager. "
                      "'⋯ not yet appointed' means construction has not "
                      "started, so no contractor exists yet — that is not the "
                      "same as — , which means we searched and no source names "
                      "one. " + _TIER_HELP),
-            "NEIGHBORHOOD": st.column_config.TextColumn(width=105),
-            "CITY":   st.column_config.TextColumn(width=76),
-            "TYPE":   st.column_config.TextColumn(width=80),
-            "STATUS": st.column_config.TextColumn(width=98),
-            "UNITS":  st.column_config.NumberColumn(width=76, format="%d"),
+            "NEIGHBORHOOD": st.column_config.TextColumn(width=widths["NEIGHBORHOOD"]),
+            "CITY":   st.column_config.TextColumn(width=widths["CITY"]),
+            "TYPE":   st.column_config.TextColumn(width=widths["TYPE"]),
+            "STATUS": st.column_config.TextColumn(width=widths["STATUS"]),
+            "UNITS":  st.column_config.NumberColumn(width=widths["UNITS"], format="%d"),
             "U?":     st.column_config.TextColumn(
-                width=44,
+                width=widths["U?"],
                 help="Unit-count confidence. Blank = corroborated by two or more "
                      "documents. · = a single document. ≠ = a later document "
                      "states a different figure. ? = no document in the corpus "
                      "states it at all."),
-            "HEIGHT": st.column_config.NumberColumn(width=84, format="%d ft"),
+            "HEIGHT": st.column_config.NumberColumn(width=widths["HEIGHT"], format="%d ft"),
             "DELIVERY": st.column_config.TextColumn(
-                width=136,
+                width=widths["DELIVERY"],
                 help="Expected delivery as the filing states it."),
         },
     )
+
+    # Say so when the table is wider than the window, because a grid that
+    # scrolls sideways looks identical to one that ends at the right edge.
+    _total_px = sum(widths.values())
+    if _total_px > _LAYOUT_BUDGET_PX:
+        st.markdown(
+            f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 0">'
+            f'FULL-WIDTH COLUMNS TOTAL {_total_px:,}PX — WIDER THAN THE WINDOW. '
+            f'THE TABLE SCROLLS SIDEWAYS RATHER THAN SHRINKING; PROJECT STAYS PINNED. '
+            f'NARROW THE FILTERS TO NARROW THE TABLE.</p>',
+            unsafe_allow_html=True,
+        )
+
 
     # ── Detail panel ──────────────────────────────────────────────
     if selection and selection.selection.rows:

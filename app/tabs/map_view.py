@@ -62,6 +62,28 @@ def _section(label: str):
     )
 
 
+# Every marker is the same diamond: a square turned 45 degrees, drawn into a
+# square box so the point sits exactly on the coordinate. An approximate
+# location is drawn hollow and dashed rather than filled -- the legend has
+# always claimed dashed meant approximate, but the rule was written as an SVG
+# stroke property on a plain div, which does nothing, so no marker has ever
+# actually rendered dashed.
+_MARKER_SIZE = 12
+_MARKER_BOX = 18
+
+
+def _diamond(color: str, approximate: bool) -> str:
+    face = (f"background:transparent;border:2px dashed {color};opacity:0.8"
+            if approximate else
+            f"background:{color};border:1.5px solid #0d0f12;opacity:0.9")
+    return (
+        f'<div style="width:{_MARKER_BOX}px;height:{_MARKER_BOX}px;display:flex;'
+        f'align-items:center;justify-content:center">'
+        f'<div style="width:{_MARKER_SIZE}px;height:{_MARKER_SIZE}px;'
+        f'transform:rotate(45deg);{face}"></div></div>'
+    )
+
+
 def render(df: pd.DataFrame):
     df = df.copy()
     df["_delivery_year"] = df["expected_delivery"].apply(_delivery_year)
@@ -282,47 +304,34 @@ def render(df: pd.DataFrame):
 
         tooltip_html = f'<span style="font-family:monospace;font-size:11px">{row["name"]}{approx_s}</span>'
 
-        if is_cambridge:
-            # Square marker (vs. Boston's circle) so the two cities are
-            # visually distinguishable at a glance without relying on color
-            # alone (color already encodes stage, not city).
-            size = 12
-            dash = "stroke-dasharray:2,2;" if approximate else ""
-            icon_html = (
-                f'<div style="width:{size}px;height:{size}px;background:{color};'
-                f'opacity:{0.55 if approximate else 0.9};border:1.5px solid #0d0f12;'
-                f'transform:rotate(45deg);{dash}"></div>'
-            )
-            folium.Marker(
-                location=[lat, lon],
-                icon=folium.DivIcon(html=icon_html, icon_size=(size, size), icon_anchor=(size // 2, size // 2)),
-                popup=folium.Popup(popup_html, max_width=280),
-                tooltip=tooltip_html,
-            ).add_to(m)
-        else:
-            folium.CircleMarker(
-                location=[lat, lon],
-                radius=7,
-                color=color,
-                fill=True,
-                fill_color=color,
-                fill_opacity=0.85,
-                weight=1.5,
-                popup=folium.Popup(popup_html, max_width=280),
-                tooltip=tooltip_html,
-            ).add_to(m)
+        # One shape for every project in every market. Shape used to encode
+        # city -- circle for Boston, diamond for Cambridge -- which only ever
+        # separated two of the eleven municipalities on the map and left
+        # Rhode Island borrowing Boston's circle. Color still carries stage,
+        # which is the reading that matters, and the city is on the pin.
+        folium.Marker(
+            location=[lat, lon],
+            icon=folium.DivIcon(
+                html=_diamond(color, approximate),
+                icon_size=(_MARKER_BOX, _MARKER_BOX),
+                icon_anchor=(_MARKER_BOX // 2, _MARKER_BOX // 2),
+            ),
+            popup=folium.Popup(popup_html, max_width=280),
+            tooltip=tooltip_html,
+        ).add_to(m)
         bounds.append([lat, lon])
         added += 1
 
     if bounds:
         m.fit_bounds(bounds, padding=(30, 30))
 
-    # Terminal legend -- stage colors apply to both cities; shape callout
-    # explains the circle/diamond distinction added for Cambridge.
+    # Terminal legend -- stage colors apply everywhere, and every marker is
+    # the same diamond, so the only shape note left is filled vs. hollow.
     legend_rows = "".join(
         f'<div style="display:flex;align-items:center;gap:8px;margin:4px 0">'
-        f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;'
-        f'background:{color}"></span>'
+        f'<span style="display:inline-flex;width:12px;justify-content:center">'
+        f'<span style="width:8px;height:8px;transform:rotate(45deg);'
+        f'background:{color}"></span></span>'
         f'<span style="font-family:monospace;font-size:10px;letter-spacing:0.08em;'
         f'color:#e2e8f0;text-transform:uppercase">{label}</span>'
         f'</div>'
@@ -342,7 +351,7 @@ def render(df: pd.DataFrame):
         f"{legend_rows}"
         f"<div style='font-family:monospace;font-size:9px;color:{_MUTED};margin-top:10px;"
         f"padding-top:8px;border-top:1px solid {_BORDER}'>"
-        f"● BOSTON &nbsp;&nbsp; ◆ CAMBRIDGE<br>DASHED = APPROXIMATE LOCATION</div>"
+        f"◆ FILLED = MAPPED ADDRESS<br>◇ HOLLOW, DASHED = APPROXIMATE LOCATION</div>"
         "</div>"
     )
     m.get_root().html.add_child(folium.Element(legend_html))
