@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scraper"))
-from provenance import TIER_RANK
+from provenance import TIER_RANK, looks_like_person
 
 BASELINE = "data/_baseline_prerun.db"
 
@@ -19,6 +19,11 @@ def rank(r):
         0 if r["outcome"] == "resolved" else 1,       # an answer first
         -TIER_RANK.get(r["tier"], 0),                 # then the strongest evidence
         r["resolution_step"] or 9,                    # then the earliest step
+        # A named practice beats a named individual when the evidence is
+        # otherwise equal. Minutes report who stood up and speak for the
+        # applicant; a title block reports the firm that stamped the drawing,
+        # and the firm is the more useful and more durable fact.
+        1 if looks_like_person(r["value"]) else 0,
         -r["id"],                                     # newest of equals
     )
 
