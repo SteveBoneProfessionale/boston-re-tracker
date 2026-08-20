@@ -1259,5 +1259,397 @@
   "outcome": "null",
   "searches": 0,
   "reason": "7 Mount Hope Avenue is a former elementary school rehabbed into a 24-unit condominium association in 2019 -- matching this row's 24 units, so the row is delivered rather than pipeline. But the only sources saying 2019 are MLS listings, which are excluded. Flagged as a stage-review candidate. Covered by the joint search on project 505."
+ },
+ "769": {
+  "id": 769,
+  "field": "target_date",
+  "outcome": "resolved",
+  "date": "Spring 2027",
+  "precision": "quarter",
+  "tier": "web_corroborated",
+  "searches": 1,
+  "source_type": "web",
+  "stated_on": "2024-09-12",
+  "stated_by": "Brown University",
+  "reason": "identity is exact: Brown bought 233 and 261 Richmond Street in 2022 and demolished both in 2024 for the William A. and Ami Kuan Danoff Life Sciences Laboratories, a seven-storey 324,000 sf building. Spring is stored as Q2 because no month is named. Brown also states a 2027 completion at year level; the spring figure is the more precise of the two and is what is stored.",
+  "sources": [
+   {
+    "url": "https://www.brown.edu/news/2024-09-12/life-sciences",
+    "name": "Brown University",
+    "date": "2024-09-12",
+    "passage": "Mobilization of the site for enabling work began in Summer 2024, and pending progress in fundraising and full construction authorization by Brown's governing board, the University is targeting a 2027 completion date for the building. The facility is expected to open in the spring of 2027."
+   },
+   {
+    "url": "https://pbn.com/jewelry-district-buildings-demolished-ahead-of-brown-integrated-life-sciences-project/",
+    "name": "Providence Business News",
+    "date": "",
+    "passage": "Jewelry District buildings demolished ahead of Brown 'integrated life sciences' project."
+   }
+  ],
+  "display": "Q2 2027"
+ },
+ "777": {
+  "id": 777,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "229 Dyer Street is part of CV Properties' Dyer Wharf on I-195 Parcels 14 and 15 -- the same development as project 507, which is also null. Rhode Island Current, the Brown Daily Herald and Brown's own announcement cover the April 2023 proposal and the public review process; no source states a completion date, and the I-195 Commission's own page for the parcels carries no schedule either. These two rows are a dedupe candidate."
+ },
+ "781": {
+  "id": 781,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "203 Westminster is the former Providence Journal building, redeveloped by Westminster Partners (an Abdo Development subsidiary) as the $53m Hive Life project: 124 furnished apartments, retail, a basement Barcade and a rooftop bar. PBN covers the RI Commerce tax incentives in May 2023 and the city's 20-year tax stabilisation agreement, but no source states a completion date."
+ },
+ "752": {
+  "id": 752,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "7 Harborside Boulevard is inside the ProvPort terminal, the Orsted and Eversource offshore wind construction hub. Coverage is of the hub's $100m investment and vessel loadouts rather than of a dated building project, and nothing names this address or North East Offshore with a completion date."
+ },
+ "721": {
+  "id": 721,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "21 Peace Street is the former St. Joseph's Hospital. Paolino bought it in 2017 intending housing for homeless veterans, then sold it -- Knight & Swan LLC now plans an adaptive reuse of the 250,000 sf building into residential units. The developer on this row is therefore out of date and no completion date is published for either scheme."
+ },
+ "717": {
+  "id": 717,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with two other Providence sites. 50 Sims Avenue is Scout's master-developer agreement with the city to convert the 1900 manufacturing building into a 110,000 sf business hub anchored by Revival Brewery. PBN covers the deal; neither it nor Scout's own page states a completion date. Note this row's earlier document lead -- a 2019 completion for the Farm Fresh food hub -- was already rejected as a different project at the same address."
+ },
+ "723": {
+  "id": 723,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "100 Niantic Avenue appears only in the city's December 2020 CPC case file and property records; no coverage and no completion date. Covered by the joint search on project 717."
+ },
+ "843": {
+  "id": 843,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "1 Fields Point Drive returns nothing at all -- no coverage of a Green Development project there and no completion date. Covered by the joint search on project 717."
+ },
+ "688": {
+  "id": 688,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other small Providence filings. 850 Manton Avenue returns only a commercial property listing and city tax data -- no development coverage and no completion date."
+ },
+ "701": {
+  "id": 701,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "54-56 Sutton Street returns no development coverage. Covered by the joint search recorded on project 688."
+ },
+ "704": {
+  "id": 704,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "96-108 Pine Street returns no development coverage. Covered by the joint search recorded on project 688."
+ },
+ "714": {
+  "id": 714,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "528 Charles Street returns no development coverage. Covered by the joint search recorded on project 688."
+ },
+ "719": {
+  "id": 719,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "146 Governor Street returns no development coverage. Covered by the joint search recorded on project 688."
+ },
+ "711": {
+  "id": 711,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other Providence filings. 35 Hemlock Street is a Narragansett Bay Commission site; the coverage is of the commission's pollution-control mandate rather than of a dated building project, and no completion date exists. The earlier document lead here -- an EPA grant sentence in PRA minutes -- was already rejected as not a completion."
+ },
+ "715": {
+  "id": 715,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "845 Allens Avenue returns no development coverage. Covered by the joint search recorded on project 711."
+ },
+ "712": {
+  "id": 712,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "9 Mendon Street returns no development coverage. Covered by the joint search recorded on project 711."
+ },
+ "693": {
+  "id": 693,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "828 Charles Street returns no development coverage. Covered by the joint search recorded on project 711."
+ },
+ "680": {
+  "id": 680,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "550 Veazie Street returns no development coverage. Covered by the joint search recorded on project 711."
+ },
+ "775": {
+  "id": 775,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other downtown Providence filings. 31 Aborn Street returns only city property data; the Aborn Street coverage that exists is Cornish Associates' own offices at number 46. No development coverage and no completion date."
+ },
+ "789": {
+  "id": 789,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "255 Weybosset Street returns only property data and the historic Weybosset Hill urban renewal area. Covered by the joint downtown search recorded on project 775."
+ },
+ "859": {
+  "id": 859,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "209 Fountain Street returns no development coverage. Covered by the joint downtown search recorded on project 775."
+ },
+ "770": {
+  "id": 770,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "71-73 Richmond Street returns no development coverage. Covered by the joint downtown search recorded on project 775."
+ },
+ "862": {
+  "id": 862,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "54 South Street returns no development coverage. Covered by the joint downtown search recorded on project 775."
+ },
+ "771": {
+  "id": 771,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "186 Fountain Street is the Trinity Brewhouse window and garage-door alteration already established in the document pass -- a violation response, not a development with a schedule. No target exists to record."
+ },
+ "822": {
+  "id": 822,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other Providence filings. 265 Manton Avenue appears only as a request to extend a zoning board resolution -- an approval being kept alive, not a project with a schedule. No completion date."
+ },
+ "811": {
+  "id": 811,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "124 Webster Avenue is a special-use permit to run a former printing-press building as three neighbourhood commercial units -- a salon, a fitness studio and retail. Not a development with a completion date. Covered by the joint search on project 822."
+ },
+ "820": {
+  "id": 820,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "518 Lloyd Avenue is a dimensional-variance application for additions to an existing primary school. No completion date published. Covered by the joint search on project 822."
+ },
+ "833": {
+  "id": 833,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "165 Dexter Street is a special-use permit for an addition to a vehicle repair building in C-2. No completion date published. Covered by the joint search on project 822."
+ },
+ "817": {
+  "id": 817,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "20 Dike Street returns no development coverage. Covered by the joint search on project 822."
+ },
+ "882": {
+  "id": 882,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other Warwick filings. 1689 Post Road is the former Ann & Hope, being converted to U-Haul plus eventual mixed uses with landscaping under way -- an ongoing repositioning rather than a project with a stated completion date. Amerco Real Estate is U-Haul's property arm, which matches this row's applicant."
+ },
+ "897": {
+  "id": 897,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "30 Jefferson Boulevard returns no development coverage. Covered by the joint Warwick search recorded on project 882."
+ },
+ "888": {
+  "id": 888,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "6 Oakland Beach Avenue returns no development coverage; the Oakland Beach material that exists is a zoning petition for 581 Oakland Beach, a different address. Covered by the joint Warwick search on project 882."
+ },
+ "884": {
+  "id": 884,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "175 Hollis Avenue returns no development coverage. Covered by the joint Warwick search recorded on project 882."
+ },
+ "891": {
+  "id": 891,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "54 Eton Avenue returns no development coverage. Covered by the joint Warwick search recorded on project 882."
+ },
+ "745": {
+  "id": 745,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other Providence filings. 40 Candace Street is the Capitol Hill branch of Providence Community Health Centers, an operating clinic. No development coverage and no completion date."
+ },
+ "739": {
+  "id": 739,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "50 Ashburton Street is a completely gut-rehabbed mill now selling as 23 condominium units -- delivered rather than pipeline. Every source saying so is an MLS listing, which is excluded and carries no completion date. Flagged as a stage-review candidate. Covered by the joint search on project 745."
+ },
+ "757": {
+  "id": 757,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "21 Euclid Avenue is a four-storey student residential building of 33,224 sf, remodelled inside and out for College Hill Properties and recorded as built in 2021 -- so delivered rather than pipeline. The only sources are listing and contractor-social pages, which carry no usable completion date. Flagged as a stage-review candidate. Covered by the joint search on project 745."
+ },
+ "740": {
+  "id": 740,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "109 Canton Street returns only an MLS listing. No development coverage and no completion date. Covered by the joint search on project 745."
+ },
+ "724": {
+  "id": 724,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "5 Iona Street returns only property-record pages. No development coverage and no completion date. Covered by the joint search on project 745."
+ },
+ "784": {
+  "id": 784,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other Providence filings. 68 Pleasant Valley Parkway is a zoning application for a new car wash -- matching this row's ScrubaDub applicant. Dimensional variances and a special-use permit, no completion date."
+ },
+ "792": {
+  "id": 792,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "221 Academy Avenue is a September 2025 special-use application for a second-floor mechanical room at an existing neighbourhood grocery. Not a development with a schedule. Covered by the joint search on project 784."
+ },
+ "795": {
+  "id": 795,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "963 North Main Street exists only as a zoning board binder on the city site, with no readable project detail and no completion date. Covered by the joint search on project 784."
+ },
+ "818": {
+  "id": 818,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "235 West Park Street exists only as a zoning board binder on the city site; the West Park coverage that exists is a commercial mill auction and a food-hall crowdfunding campaign, neither dated as a completion. Covered by the joint search on project 784."
+ },
+ "861": {
+  "id": 861,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "292 Pocasset Avenue is an operating restaurant address with no development coverage. Covered by the joint search on project 784."
+ },
+ "857": {
+  "id": 857,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with four other Providence filings; the query returned no results at all. 136 Silver Lake Avenue has no development coverage and no completion date."
+ },
+ "835": {
+  "id": 835,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "280 Melrose Street returns nothing. Covered by the joint search recorded on project 857."
+ },
+ "844": {
+  "id": 844,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "200 Exchange Street returns nothing. Covered by the joint search recorded on project 857."
+ },
+ "823": {
+  "id": 823,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "17-21 Harold Street returns nothing. Covered by the joint search recorded on project 857."
+ },
+ "829": {
+  "id": 829,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "145 Manton Avenue returns nothing. Covered by the joint search recorded on project 857."
+ },
+ "830": {
+  "id": 830,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 1,
+  "reason": "searched jointly with three other filings. 607-575 Potters Avenue is a dimensional-variance application to build a place of worship for Salem Gospel Mission International, which matches this row's applicant -- and confirms the earlier rejection of RIHousing's SWAP-developed 'Potters Tigrai' as a different project at a similar address. No completion date."
+ },
+ "699": {
+  "id": 699,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "18 Eighth Street returns no development coverage. Covered by the joint search recorded on project 830."
+ },
+ "869": {
+  "id": 869,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "74 Rolfe Square, Cranston returns no development coverage. The earlier document lead here was already rejected -- the completed improvements in those minutes are the 2010 CVS at 1776 Broad Street. Covered by the joint search on project 830."
+ },
+ "571": {
+  "id": 571,
+  "field": "target_date",
+  "outcome": "null",
+  "searches": 0,
+  "reason": "138 Carroll Avenue, Newport returns no development coverage. Covered by the joint search recorded on project 830."
  }
 }
