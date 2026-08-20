@@ -1,0 +1,52 @@
+[
+ {
+  "project_id": 779,
+  "field": "architect",
+  "value": "Torti Gallas + Partners",
+  "url": "https://www.195district.com/projects/emblem-125/",
+  "title": "Emblem 125 (Parcel 28) - I-195 Redevelopment District",
+  "date": null,
+  "firm_sentence": "Architect: Torti Gallas",
+  "address_sentence": "Address: 125 Clifford St, Providence, RI 02903"
+ },
+ {
+  "project_id": 779,
+  "field": "architect",
+  "value": "Torti Gallas + Partners",
+  "url": "https://www.shawmut.com/project/exeter-property-group-emblem-125",
+  "title": "Exeter Property Group - Emblem 125 | Shawmut Design and Construction",
+  "date": null,
+  "firm_sentence": "Architect: Torti Gallas + Partners",
+  "address_sentence": "Emblem 125; Location: Providence, RI"
+ },
+ {
+  "project_id": 779,
+  "field": "general_contractor",
+  "value": "Shawmut Design and Construction",
+  "url": "https://www.shawmut.com/project/exeter-property-group-emblem-125",
+  "title": "Exeter Property Group - Emblem 125 | Shawmut Design and Construction",
+  "date": null,
+  "firm_sentence": "Emblem 125 appears in Shawmut Design and Construction own project portfolio (shawmut.com/project/exeter-property-group-emblem-125); the page does not state the role in prose",
+  "address_sentence": "Emblem 125; Location: Providence, RI"
+ },
+ {
+  "project_id": 705,
+  "field": "architect",
+  "value": "3SIX0",
+  "url": "https://communitymusicworks.org/the-community-musicworks-center/",
+  "title": "The CMW Center - Community MusicWorks",
+  "date": null,
+  "firm_sentence": "Providence-based architecture firm 3SIX0 designed the Community MusicWorks Center",
+  "address_sentence": "1326 Westminster Street"
+ },
+ {
+  "project_id": 705,
+  "field": "general_contractor",
+  "value": "Pezzuco Construction",
+  "url": "https://communitymusicworks.org/the-community-musicworks-center/",
+  "title": "The CMW Center - Community MusicWorks",
+  "date": null,
+  "firm_sentence": "Pezzuco Construction, with Ron Pezzuco and Doug Valcourt identified as representatives",
+  "address_sentence": "1326 Westminster Street"
+ }
+]

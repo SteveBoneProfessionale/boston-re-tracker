@@ -1,0 +1,52 @@
+[
+ {
+  "project_id": 448,
+  "field": "architect",
+  "value": "Merge Architects",
+  "url": "https://www.landworks-studio.com/new-blog/2024/7/11/neighbors-and-planning-board-embrace-plans-for-2400-mass-ave-development",
+  "title": "Neighbors and Planning Board Embrace Plans for 2400 Mass Ave Development - Landworks Studio",
+  "date": "2024-07-11",
+  "firm_sentence": "Architect: Merge Architects",
+  "address_sentence": "2400 Mass Ave development, North Cambridge"
+ },
+ {
+  "project_id": 448,
+  "field": "architect",
+  "value": "Merge Architects",
+  "url": "https://www.mergearchitects.com/projects/2400-mass-ave-mixed-use/",
+  "title": "2400 Mass Ave Mixed-Use - Merge Architects",
+  "date": null,
+  "firm_sentence": "2400 Mass Ave appears in Merge Architects own project portfolio (mergearchitects.com/projects/2400-mass-ave-mixed-use)",
+  "address_sentence": "2400 Mass Ave is a 60 unit, passive house, multi-family residential and retail development in Cambridge, MA"
+ },
+ {
+  "project_id": 448,
+  "field": "civil_engineer",
+  "value": "Beals and Thomas",
+  "url": "https://www.mergearchitects.com/projects/2400-mass-ave-mixed-use/",
+  "title": "2400 Mass Ave Mixed-Use - Merge Architects",
+  "date": null,
+  "firm_sentence": "Civil Engineer: Beal and Thomas",
+  "address_sentence": "2400 Mass Ave is a 60 unit, passive house, multi-family residential and retail development in Cambridge, MA"
+ },
+ {
+  "project_id": 448,
+  "field": "civil_engineer",
+  "value": "Beals and Thomas",
+  "url": "https://www.landworks-studio.com/new-blog/2024/7/11/neighbors-and-planning-board-embrace-plans-for-2400-mass-ave-development",
+  "title": "Neighbors and Planning Board Embrace Plans for 2400 Mass Ave Development - Landworks Studio",
+  "date": "2024-07-11",
+  "firm_sentence": "Civil Engineer: Beals and Thomas",
+  "address_sentence": "2400 Mass Ave development, North Cambridge"
+ },
+ {
+  "project_id": 112,
+  "field": "architect",
+  "value": "CambridgeSeven",
+  "url": "https://www.boston.com/culture/music/2024/07/30/great-scott-reopening-allston/",
+  "title": "Great Scott will reopen in new Allston location - Boston.com",
+  "date": "2024-07-30",
+  "firm_sentence": "a mixed use development designed by local architects CambridgeSeven",
+  "address_sentence": "That new home at 1 Harvard Avenue is just two blocks away from its original 1222 Commonwealth Ave. location"
+ }
+]

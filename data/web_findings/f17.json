@@ -1,0 +1,22 @@
+[
+ {
+  "project_id": 440,
+  "field": "civil_engineer",
+  "value": "VHB",
+  "url": "https://www.vhb.com/real-estate/biomedical-research/alewife-park/",
+  "title": "Alewife Park | Biomedical | Real Estate | VHB",
+  "date": null,
+  "firm_sentence": "In addition, we designed the infrastructure to support the phased build out over several years, including utilities and roadways, addressing pedestrian and vehicular access and connections to the surrounding community.",
+  "address_sentence": "Alewife Park, Cambridge, MA (VHB project page). NOTE: names the civil engineer for the Alewife Park development as a whole, not this building alone."
+ },
+ {
+  "project_id": 440,
+  "field": "general_contractor",
+  "value": "AECOM/Tishman",
+  "url": "https://www.qnect.com/alewife-park",
+  "title": "Qnect Impact on Alewife Park - Case Study",
+  "date": null,
+  "firm_sentence": "GC: AECOM/Tishman (project team listing for Alewife Park; Owner: IQHQ; EOR: McNamara/Salvia, Inc.)",
+  "address_sentence": "Alewife Park, Cambridge, MA. NOTE: names the GC for the Alewife Park construction programme as a whole, not this building alone."
+ }
+]

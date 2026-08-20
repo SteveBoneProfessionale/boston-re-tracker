@@ -1,0 +1,42 @@
+[
+ {
+  "project_id": 423,
+  "field": "general_contractor",
+  "value": "Callahan, Inc.",
+  "url": "https://www.masshousing.com/press/2024-05-28_52-new-cambridge",
+  "title": "Just A Start and Project Partners Break Ground for 52 New Street in Cambridge - MassHousing",
+  "date": "2024-05-28",
+  "firm_sentence": "The contractor is Callahan, Inc., the architect is RODE Architects and the management agent will be the Wingate Management Company LLC.",
+  "address_sentence": "52 New Street, Cambridge; adjacent to Danehy Park and within close proximity to the Alewife MBTA station"
+ },
+ {
+  "project_id": 423,
+  "field": "general_contractor",
+  "value": "Callahan, Inc.",
+  "url": "https://callahan-inc.com/project/52-new-street/",
+  "title": "52 New Street - Callahan Construction Managers",
+  "date": null,
+  "firm_sentence": "52 New Street appears in Callahan Construction Managers own project portfolio; the page lists Architect: RODE",
+  "address_sentence": "52 New Street, Cambridge, MA"
+ },
+ {
+  "project_id": 449,
+  "field": "architect",
+  "value": "The Architectural Team",
+  "url": "https://architecturalteam.com/project/99-blanchard-road/",
+  "title": "99 Blanchard Road - The Architectural Team",
+  "date": null,
+  "firm_sentence": "Service: Architecture (The Architectural Team project page for 99 Blanchard Road); Sector: Senior Living",
+  "address_sentence": "99 Blanchard Road; Location: Cambridge, MA"
+ },
+ {
+  "project_id": 200,
+  "field": "architect",
+  "value": "Sousa Design Architects",
+  "url": "https://sousadesign.com/projects/100-charles-park-road/",
+  "title": "100 Charles Park Road | Sousa Design Architects",
+  "date": null,
+  "firm_sentence": "100 Charles Park Road appears in Sousa Design Architects own project portfolio (sousadesign.com/projects/100-charles-park-road)",
+  "address_sentence": "100 Charles Park Road, West Roxbury, Boston"
+ }
+]
