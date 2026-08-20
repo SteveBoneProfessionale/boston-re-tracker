@@ -729,6 +729,23 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
             done = df["completion_stage"].isin(["Complete", "Under Construction"])
             df.loc[done, "stage"] = df.loc[done, "completion_stage"]
             df.loc[done, "stage_provisional"] = False
+
+            # AND A DELIVERED DATE IS ITSELF THE PROOF, whatever else the row
+            # says. completion_stage above is one route to establishing that a
+            # building is finished; delivered_date is the other, and the newer
+            # one -- a certificate of occupancy joined on its permit number, a
+            # school that opened for the term, minutes recording a tenant
+            # moving in. Those never wrote completion_stage, so five delivered
+            # buildings were still being charted and filtered as pipeline: the
+            # New Tobin School and 2 Garden Street as Under Construction, 150
+            # Richmond as Approved, 228 Broad Street as Permitting.
+            #
+            # The rule is the plain one: if the tracker holds a date on which a
+            # building was finished, the building is finished. Anything showing
+            # under SHOW = Pipeline must be a project that has not been built.
+            delivered = df["delivered_date"].notna()
+            df.loc[delivered, "stage"] = "Complete"
+            df.loc[delivered, "stage_provisional"] = False
             # A row's financial fields (total_gsf, residential_units, etc.) are ready to
             # chart once extraction has run, OR immediately if the row came from a
             # structured-data pipeline that never needed extraction in the first place.
