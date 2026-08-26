@@ -91,6 +91,96 @@ def _widths(display: pd.DataFrame) -> dict:
     return out
 
 
+# How a sponsor name was arrived at. Rendered on the face of every canonical
+# name, because "Blackstone" read off a deed and "Blackstone" inferred from a
+# shared mailing address are not the same claim.
+RESOLUTION_MARK = {
+    "registry_confirmed": ("▣", "from the record itself"),
+    "pattern_matched":    ("◈", "from the entity's naming convention"),
+    "web_corroborated":   ("◇", "from a named publication"),
+    "human_set":          ("✎", "set by hand"),
+}
+
+
+def _sponsor_cell(canon, conf) -> str:
+    if not canon or canon != canon:
+        return ""
+    mark = RESOLUTION_MARK.get(conf, ("·", "unknown basis"))[0]
+    return f"{mark} {canon}"
+
+
+def _rankings(f: pd.DataFrame):
+    """Most active buyers and sellers, on RESOLVED SPONSORS ONLY.
+
+    Never falls back to the record entity. A ranking that mixes "Blackstone"
+    with "100 SUMMER OWNER LLC" is not a ranking of firms, it is a ranking of
+    two different kinds of thing, and the single-purpose vehicles would each
+    appear once and rank nowhere while quietly removing their sponsor's volume
+    from the total. Unresolved rows are excluded and the exclusion is stated.
+    """
+    total_rows = len(f)
+    dates = pd.to_datetime(f["sale_date"], errors="coerce").dropna()
+
+    for side, label in (("buyer", "BUYERS"), ("seller", "SELLERS")):
+        canon = f.get(f"{side}_canonical")
+        if canon is None:
+            continue
+        sub = f[canon.fillna("") != ""].copy()
+        sub["_who"] = sub[f"{side}_canonical"]
+        n_res = len(sub)
+        vol_res = float(pd.to_numeric(sub["price"], errors="coerce").fillna(0).sum())
+        vol_all = float(pd.to_numeric(f["price"], errors="coerce").fillna(0).sum())
+
+        _section(f"MOST ACTIVE {label}")
+        if n_res == 0:
+            st.caption("No resolved sponsors in the current filter.")
+            continue
+
+        sd = pd.to_datetime(sub["sale_date"], errors="coerce").dropna()
+        span = (f"{sd.min():%b %Y} to {sd.max():%b %Y}" if len(sd) else "n/a")
+        recent = int((sd >= "2023-01-01").sum()) if len(sd) else 0
+        st.markdown(
+            f'<div style="font-family:{_MONO};font-size:10px;line-height:1.6;'
+            f'color:{_MUTED};border-left:2px solid {_ORANGE};padding:6px 10px;'
+            f'margin:6px 0;background:{_BG2}">'
+            f'<b style="color:#e2e8f0">RESOLUTION</b> {n_res} of {total_rows} rows '
+            f'({n_res/total_rows*100:.0f}%) carry a resolved sponsor, covering '
+            f'${vol_res/1e9:.2f}B of ${vol_all/1e9:.2f}B '
+            f'({vol_res/vol_all*100 if vol_all else 0:.0f}% of dollars). '
+            f'Rows whose {side} is still a single-purpose entity are EXCLUDED, '
+            f'not bucketed as "other", so this ranks the firms it can name and '
+            f'understates everyone.<br>'
+            f'<b style="color:#e2e8f0">DATE COVERAGE</b> {span}. Only {recent} of '
+            f'these {n_res} rows are dated 2023 or later — the assessment spines '
+            f'stop in 2022 (Boston) and 2025 (Cambridge), so this is a '
+            f'<b style="color:#e2e8f0">HISTORICAL</b> ranking and must not be read '
+            f'as current market share.</div>', unsafe_allow_html=True)
+
+        agg = (sub.groupby("_who")
+                  .agg(deals=("id", "count"),
+                       dollars=("price", lambda s: pd.to_numeric(s, errors="coerce").fillna(0).sum()))
+                  .reset_index())
+        c1, c2 = st.columns(2)
+        by_v = agg.sort_values("dollars", ascending=False).head(12)
+        c1.caption("By dollar volume — a stake contributes its stake price, "
+                   "never the implied value of the building it sits in.")
+        c1.dataframe(
+            by_v.rename(columns={"_who": side.upper(), "deals": "DEALS",
+                                 "dollars": "DOLLARS"}),
+            use_container_width=True, hide_index=True, height=300,
+            column_config={"DOLLARS": st.column_config.NumberColumn(format="$%,d"),
+                           "DEALS": st.column_config.NumberColumn(format="%d")})
+        by_n = agg.sort_values(["deals", "dollars"], ascending=False).head(12)
+        c2.caption("By deal count — a different ranking, because one $435M "
+                   "trade and twenty $5M trades are different businesses.")
+        c2.dataframe(
+            by_n.rename(columns={"_who": side.upper(), "deals": "DEALS",
+                                 "dollars": "DOLLARS"}),
+            use_container_width=True, hide_index=True, height=300,
+            column_config={"DOLLARS": st.column_config.NumberColumn(format="$%,d"),
+                           "DEALS": st.column_config.NumberColumn(format="%d")})
+
+
 def _section(label: str):
     st.markdown(
         f'<p style="font-family:{_MONO};font-size:9px;font-weight:700;'
@@ -115,9 +205,18 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
         "PRICE":    pd.to_numeric(d["price"], errors="coerce"),
         "%":        pd.to_numeric(d["pct_acquired"], errors="coerce"),
         "IMPLIED":  pd.to_numeric(d["implied_valuation"], errors="coerce"),
-        "BUYER":    d["buyer_canonical"].fillna("").where(
-                        d["buyer_canonical"].fillna("") != "", d["buyer"].fillna("—")),
-        "SELLER":   d["seller"].fillna("—"),
+        # The resolved SPONSOR where there is one, carrying its resolution mark,
+        # otherwise the record entity plain. The database keeps `buyer` and
+        # `seller` verbatim either way -- this is a display choice, and an
+        # unmarked value is always the literal grantee or grantor.
+        "BUYER":    [_sponsor_cell(cn, cf) or (b if isinstance(b, str) else "—")
+                     for cn, cf, b in zip(d.get("buyer_canonical", pd.Series(dtype=object)),
+                                          d.get("buyer_confidence", pd.Series(dtype=object)),
+                                          d["buyer"].fillna("—"))],
+        "SELLER":   [_sponsor_cell(cn, cf) or (s if isinstance(s, str) else "—")
+                     for cn, cf, s in zip(d.get("seller_canonical", pd.Series(dtype=object)),
+                                          d.get("seller_confidence", pd.Series(dtype=object)),
+                                          d["seller"].fillna("—"))],
         "ASSET":    d["property_type"].fillna("—"),
         "SF":       pd.to_numeric(d["building_sf"], errors="coerce"),
         "UNITS":    pd.to_numeric(d["unit_count"], errors="coerce"),
@@ -258,21 +357,8 @@ def render(projects: pd.DataFrame | None = None):
             "BOOK/PG": st.column_config.TextColumn(width=w["BOOK/PG"]),
         })
 
-    # ── Summary ─────────────────────────────────────────────────────
-    _section("MOST ACTIVE BUYERS")
-    st.caption("By dollars actually paid. A stake contributes its stake price, "
-               "not the implied value of the building it sits in.")
-    who = f["buyer_canonical"].fillna("").where(
-        f["buyer_canonical"].fillna("") != "", f["buyer"].fillna(""))
-    top = (f.assign(_who=who).groupby("_who")
-             .agg(deals=("id", "count"), paid=("price", "sum"))
-             .sort_values("paid", ascending=False).head(15).reset_index())
-    top = top[top["_who"] != ""]
-    st.dataframe(
-        top.rename(columns={"_who": "BUYER", "deals": "DEALS", "paid": "PAID"}),
-        use_container_width=True, hide_index=True, height=260,
-        column_config={"PAID": st.column_config.NumberColumn(format="$%,d"),
-                       "DEALS": st.column_config.NumberColumn(format="%d")})
+    # ── Rankings, on resolved sponsors only ─────────────────────────
+    _rankings(f)
 
     a, b = st.columns(2)
     with a:

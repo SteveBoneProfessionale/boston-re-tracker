@@ -87,6 +87,11 @@ class Transaction(Base):
                                            # web_low_confidence | human_set | null
     seller = Column(String)
     seller_canonical = Column(String)
+    seller_confidence = Column(String)     # same vocabulary as buyer_confidence
+    # How each side was resolved, so a ranking can be filtered by rigour:
+    # pattern | address_cluster | web | registry | human
+    buyer_resolution_basis = Column(String)
+    seller_resolution_basis = Column(String)
     broker = Column(String)
 
     # ── partial interest and entity-level ───────────────────────────

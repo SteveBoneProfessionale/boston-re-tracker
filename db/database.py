@@ -159,6 +159,15 @@ def init_db():
     _add_column_if_missing("projects", "target_precision", "VARCHAR")
     _add_column_if_missing("projects", "target_stated_on", "DATE")
     _add_column_if_missing("projects", "target_stated_by", "VARCHAR")
+
+    # Entity resolution on transactions. `buyer` and `seller` always hold the
+    # record entity verbatim; the *_canonical columns hold the resolved sponsor
+    # and stay null where it is unresolved, because a blank sponsor is correct
+    # and a wrong one poisons the rankings. seller_confidence was missing while
+    # buyer_confidence existed -- an asymmetry with no justification.
+    _add_column_if_missing("transactions", "seller_confidence", "VARCHAR")
+    _add_column_if_missing("transactions", "buyer_resolution_basis", "VARCHAR")
+    _add_column_if_missing("transactions", "seller_resolution_basis", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 
