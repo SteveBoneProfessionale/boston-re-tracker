@@ -1,0 +1,299 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/worcester-office-conversion-project-secures-51m-loan-the-boston-deal-sheet-133671
+INDEX_DATE: 2026-03-16
+
+Worcester Office Conversion Secures $51M Loan: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Worcester Office Conversion Secures $51M Loan: The Boston Deal Sheet 
+ March 16, 2026 | 12:50 pm ET 
+ Taylor Driscoll, Boston 
+ One of the largest office-to-residential conversions in the state landed financing.
+ Google Maps 
+ Synergy Secured $51M In Financing For Its 198-Unit Office-To-Residential Conversion Project At 10 Chestnut St. In Worcester.
+ Boston-based Synergy secured a $51M loan from MassDevelopment and The Washington Trust Co. for its 198-unit project at 10 Chestnut St. in Worcester. Washington Trust provided a $47.5M loan, while MassDevelopment provided a $3.6M Housing Development Incentive Program tax credit bridge loan.
+ The project will convert the former Fallon Community Health Plan headquarters into almost 200 units of housing. The unit mix includes studio and one- and two-bedroom units.
+ "This complicated project could not have been achieved without a true public-private partnership," Synergy Vice President Ryan Chamberlain said in a statement. "We are excited to deliver 198 new apartments to downtown Worcester later this year and look forward to identifying future opportunities to advance this strategy across the Commonwealth."
+ The developer also filed plans for a  250-unit conversion project  at 294 Washington St. in Boston's downtown.
+ The Worcester office-to-residential project has received additional support from the city of Worcester through a 15-year tax increment exemption.
+ Construction began in May 2025 and is set to finish in August 2026.
+ SALES 
+ Dowe Realty II LLC sold an industrial property at 380 S. Worcester St. in Norton for $62M to White Plains, New York-based Reich Brothers, according to property records.
+ The site includes a 445K SF industrial warehouse.
+ ***
+ Sunrise Capital Investors and Parking Advisors acquired a 297-space parking garage at 88 Constitution Road in Charlestown for $12.8M.
+ The seller was National Development. Colliers' Frank Petz, Matthew Sherry, Rob Schlesinger, Daniel Hincks and Joe Gaziano represented the seller.
+ ***
+ Foxfield and A.W. Perry sold a 17-acre, three-building industrial complex at 626–680 Lynnway in Lynn. The site was acquired by North River Co.
+ Foxfield acquired the property in 2020 and has implemented several capital improvements to the facility. The complex is fully leased to several tenants, including Global Protection Corp., LSG Sky Chefs and Wash Cycle Laundry. The sale price was undisclosed.
+ LEASES 
+ Veterinary pharmaceutical company Dechra plans to relocate its global headquarters from Northwich, England, to One Marina Park Drive in the Fan Pier. The 28K SF office, scheduled to open in June, will act as the company's collaboration hub to support its "remote-first operating model."
+ ***
+ Shepley Bulfinch plans to open a studio at 200 State St. this summer, the  Boston Business Journal reported . The firm plans to take up 11K SF to house its 79 Massachusetts employees.
+ FINANCING 
+ Google Maps 
+ The Procopio Cos.' Amara project in Beverly.
+ The Procopio Cos. secured $22M in seven-year, permanent financing for its 60-unit Amara apartment building in Beverly. The company worked with partners TwinFocus Real Estate Partners and Beverly Crossing to secure the financing.
+ Procopio opened the building to residents in May. CBRE helped arrange the financing .
+ ***
+ Anchor Line Partners and Alloy Properties secured financing for the nine-building The Core at Crosby campus in Bedford. The 615K SF property is anchored by software giant AspenTech. The campus has a new amenities center and a Bright Horizons daycare.
+ The financing was provided by LBBW's commercial real estate finance arm, Berlin Hyp.
+ Newmark's Robert Griffin, David Douvadjian Sr., David Douvadjian Jr., Timothy O'Donnell, Edward Maher, Matthew Pullen and Harrison Zucco represented the buyer and procured the lender in the deal.
+ CONSTRUCTION AND DEVELOPMENT 
+ Cabot, Cabot & Forbes secured approval for a 363-unit apartment project at 291 and 341 Jackson St. in Lowell, BBJ reported . The site was the former home of industrial mills.
+ Development costs are estimated at $155M, and the project is set to be completed in the first quarter of 2029.
+ ***
+ Beacon Communities, Rise Together, Mark Development and Samuels & Associates began construction on a 319-unit apartment project at 299 Broadway in Somerville. The mixed-income project will include 136 affordable units, retail, a public plaza and a playground. The project will include two mixed-use buildings at 299 Broadway and 15 Temple St.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Office-to-residential conversion 
+ , Synergy 
+ , Worcester 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

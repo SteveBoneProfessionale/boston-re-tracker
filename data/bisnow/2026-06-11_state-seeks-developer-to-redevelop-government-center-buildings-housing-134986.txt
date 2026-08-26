@@ -1,0 +1,283 @@
+URL: https://www.bisnow.com/news/boston/adaptive-reuse/state-seeks-developer-to-redevelop-government-center-buildings-housing-134986
+INDEX_DATE: 2026-06-11
+
+State Seeks Developer To Turn Government Center Buildings Into Housing 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Adaptive Reuse 
+ State Seeks Developer To Turn Government Center Buildings Into Housing 
+ June 11, 2026 | 11:41 am ET 
+ Taylor Driscoll, Boston 
+ As part of the state's goals to build more housing, Gov.  Maura Healey is looking for a company to redevelop a 6.5-acre office complex in Boston's Government Center.
+ Wikimedia Commons/Ethan Long 
+ The Charles F. Hurley Building in Boston's West End neighborhood
+ The Healey-Driscoll administration released an offering memorandum for the redevelopment of the Erich Lindemann Mental Health Center and the Charles F. Hurley Building, the administration  announced Wednesday . The OM will entail a multistep solicitation process and will piggyback off of the state's original redevelopment plans for the site.
+ "This site represents one of the most significant housing development opportunities in Boston," Healey said in a statement. "We're turning underutilized state property into new homes, preserving important parts of this historic site, and ensuring that critical mental health services continue uninterrupted."
+ Following the OM, the state's Division of Capital Asset Management and Maintenance will release a call for offers this summer, inviting developers to submit proposals. The state said historic preservation and adaptive reuse are "key considerations" in choosing developers for the project.
+ The project must be consistent with the city's affordability requirements, including the Inclusionary Development Policy .
+ The 347K SF Hurley Building has been entirely vacated, but the Lindemann building is still occupied by state departments, including the Department of Mental Health.
+ The state plans to ensure that the 115 existing beds at the Lindemann Center, which serves vulnerable populations, are maintained either on-site or nearby.
+ The buildings were constructed in the 1960s as part of an urban renewal project to revitalize Government Center. The buildings have since faced urban design, sustainability and preservation challenges.
+ The properties will need extensive capital improvements, with the Lindemann building estimated to cost more than $300M.
+ This isn't the first time the state has pushed redevelopment on the 5.5-acre site.
+ In 2022, then-Gov. Charlie Baker picked Leggat McCall Properties to redevelop the Hurley Building as part of a $1B mixed-use project. The project included 200 new housing units and lab development.
+ However, after the life sciences boom went bust, Healey scrapped the plan in 2024 .
+ The property also fits into the administration's State Land For Homes inventory, a portfolio of state-owned properties aimed at redevelopment as new homes. The priority of the portfolio is to create substantial new housing across income levels.
+ Last June, Healey said she planned to make 17 state-owned sites across the state available for residential redevelopment to private developers. These sites are estimated to have the capacity to produce 3,500 housing units.
+ Other sites include the Lowell Superior Court, MCI-Concord and two state universities: Bridgewater State University and Middlesex Community College.
+ One such project ran into a roadblock earlier this week, with the town of Wellesley  suing the state over plans to redevelop MassBay's parking lot into housing.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Adaptive reuse 
+ , Charles F. Hurley building 
+ , Government Center 
+ , Historic preservation 
+ , Maura Healey 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ LA City Council Approves Plan To Let Olympics Projects Sidestep CEQA
+ Trump's New Canadian Tariffs To Spike Additional Materials Costs
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Turner Construction Hit With Cyberattack, Hackers Claim Leaks Of Military Info, NDAs 
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

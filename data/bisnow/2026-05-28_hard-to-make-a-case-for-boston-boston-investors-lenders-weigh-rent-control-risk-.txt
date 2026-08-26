@@ -1,0 +1,294 @@
+URL: https://www.bisnow.com/news/boston/capital-markets/hard-to-make-a-case-for-boston-boston-investors-lenders-weigh-rent-control-risk-134774
+INDEX_DATE: 2026-05-28
+
+With Rent Control Looming, Investors Say It's Hard To Bet On Boston 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Capital Markets 
+ With Rent Control Looming, Investors Say It's Hard To Bet On Boston 
+ May 28, 2026 | 4:23 pm ET 
+ Taylor Driscoll, Boston 
+ Real estate executives are scared that Massachusetts' competitive edge is dulling.
+ Growing regulatory uncertainty, particularly with the rent control ballot measure coming up in November, is making it harder for investors to set long-term plans in Boston and across the state.
+ Large investors said Thursday at  Bisnow 's Boston Capital Markets and CRE Finance Conference the possibility of rent control, coupled with negative macroeconomic factors like high construction costs, is already creating a ripple effect across the multifamily sector.
+ Google Maps 
+ The Dorchester Heights Neighborhood In South Boston
+ "The rent control situation could fundamentally change the game for the multifamily in this market, and it's something that we're keeping an eye on closely here," Marcus Partners Chief Investment Officer Ryan McDonough said at event, held at the Marriott Long Wharf.
+ "I'm hopeful that something can be reached here prior to November, but it's a real risk."
+ The statewide ballot measure would cap rent increases across the state to 5% or the consumer price index , whichever is lower. It wouldn't apply to owner-occupied properties, buildings with four or fewer units, and construction that is less than 10 years old.
+ The proposal has received support from several housing advocate groups as well as Boston Mayor Michelle Wu . But a group of 12 other mayors across the state said in April  they oppose the rent control policy, arguing it would stifle housing development.
+ Real estate groups including NAIOP and the Housing for Massachusetts coalition have contributed hundreds of thousands of dollars  to fight the rent control measure. A March report from the Tufts University Center for State Policy Analysis projected that the rent control proposal could eliminate $300B  in state property values.
+ McDonough said the impending threat of rent control, coupled with worsening fundamentals like stagnant population and job growth , is already leading investors to take capital elsewhere.
+ "I'm one of the most optimistic individuals on our investment committee, and I would say it's even hard for me to make a case for Boston," McDonough said.
+ Bisnow/Taylor Driscoll
+ Sherin & Lodgen's Ian Lane, Dansker Capital Group's Andrew Dansker, Institution For Savings' Mark Zink, Pgim Real Estate Finance's Brian Salyards, The Davis Cos.' Quentin Reynolds And Marcus Partners' Ryan Mcdonough.
+ PGIM Real Estate Executive Director Brian Saylards said the impacts from the ballot measure have already been chilling, with colleagues sharing plans to halt investment in the state until there is a clearer picture of what the future may look like.
+ "If you look at what has occurred, just from chatter of rent control, is you see most institutional buyers basically say 'not Boston or Massachusetts,'" Salyards said.
+ In March, National Real Estate Advisors CEO Jeff Kanne told The Boston Globe  that because of Wu's policies, his firm is halting investments in the city — and potentially the entire state if the rent control measure becomes law.
+ Those opposed to the rent control measure worry it could limit housing supply moving forward, and development has already been slow due to high interest rates and construction costs.
+ Boston has experienced a sharp drop in new multifamily projects constructed, with deliveries decreasing from 2,765 units in Q1 2025 to 1,736 units last quarter, according to Colliers .
+ Bisnow/Taylor Driscoll
+ Goodwin's Matt Stayman, Tritower Financial Group's Tod Brainard, Ares Management's Min Zhou, BXP's Tod McGrath and Cambridge Savings Bank's Ian Brandon.
+ "My biggest concern with the bill is it's not going to engender supply," The Davis Cos.  President Quentin Reynolds said at the event. "I don't see how it works because real estate is pretty pure about supply and demand. Demand only moves so much, and supply is what really swings the deal."
+ However, one New York-based investor said rent control may not take as big a toll on housing supply as some Boston players fear.
+ "As a New Yorker who's done a lot of New York work, I can tell you that there's only a very thin slice of the buildings that are in the market that would be meaningfully adversely affected," Dansker Capital Group CEO Andrew Dansker said.
+ Though he said he is opposed to the ballot measure, Dansker said the economic impact from rent control would only be felt in markets where rents are rising faster than the proposed rent cap. In Boston, year-over-year rent growth in the first quarter flattened to 0.3%, marking a nearly five-year low, according to Colliers .
+ "The economic reality is very limited for a large number of owners," Dansker said. "In the case where you don't have huge population pressure, you don't have tremendous growth in the market, the actual effect on the rents will not be that great."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Andrew Dansker 
+ , Brian Saylards 
+ , Dansker Capital Group 
+ , Marcus Partners 
+ , PGIM Real Estate Finance 
+ , Quentin Reynolds 
+ , Ryan McDonough 
+ , The Davis Cos 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Senior Housing Buyers Are Paying Up, But Sellers Still Need Convincing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Nuveen's C-PACE Fund Secures Over $1B, Its Biggest Raise Yet
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Aberdeen Goes Global With £700M Merged Fund
+ Data Center Deals Propel July CRE Sales Volume To Best Performance Since 2005
+ From Bankruptcy To $400M Buying Spree: Michael Shah's Rapid Comeback
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Wells Fargo Moves To Foreclose On $1.3B Workspace Property Trust Portfolio
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Latest Round Of Fannie Mae Senior Staff Layoffs Has Multifamily Sector Anxious
+ Efficiency, Speed And Experience: What CRE Needs To Know About The New Texas Business Courts 
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

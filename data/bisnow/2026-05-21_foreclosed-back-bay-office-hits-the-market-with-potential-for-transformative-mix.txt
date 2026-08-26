@@ -1,0 +1,288 @@
+URL: https://www.bisnow.com/news/boston/office/foreclosed-back-bay-office-hits-the-market-with-potential-for-transformative-mixed-use-redevelopment-134681
+INDEX_DATE: 2026-05-21
+
+Century-Old Back Bay Office Pitched For Transformation After Foreclosure 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Office 
+ Century-Old Back Bay Office Pitched For Transformation After Foreclosure 
+ May 21, 2026 | 8:38 am ET 
+ Jon Banister, East Coast Editor 
+ Just two months after it foreclosed on a historic office building one block from the Boston Public Garden,  Starwood Property Trust  subsidiary  LNR Partners  is offering it to buyers as an opportunity for a major redevelopment.
+ LNR paid $95M for the Park Square Building  at 31 St. James Ave. at a foreclosure auction in March after it had been managing the asset as the special servicer. It brought on  Eastdil Secured  to begin marketing the building for sale this week, Bisnow  has learned.
+ Google Maps 
+ The Park Square Building at 31 St. James Ave. in Boston's Back Bay
+ An Eastdil listing obtained by  Bisnow  calls the 503K SF building an "irreplaceable Back Bay  asset with significant redevelopment potential."
+ "With meaningful scale, full-block frontage and embedded optionality, 31 Saint James offers investors the ability to execute a strategic repositioning or pursue a transformative mixed-use redevelopment within one of the nation's most supply constrained urban markets," the listing says.
+ The Park Square Building is just 35.8% leased, according to the listing, and its tenants have a weighted average remaining lease term of 3.6 years, making it prime for a full-scale transformation in the near future.
+ The 11-story building spans the full block on St. James Avenue between Berkeley and Arlington streets, two blocks south of the famous shopping corridor  Newbury Street . It was constructed in 1922 and last renovated in 2017.
+ The property was previously owned by New York-based  Capital Properties . The company obtained a $150M CMBS loan tied to the property in October 2017, but it ran into trouble halfway through its 10-year term.
+ Coworking giant  WeWork  exited  its 119K SF  in the building in 2022 as it was cutting costs before ultimately going through bankruptcy. Bay State College vacated its space when it  shut down  in 2023.
+ The building's remaining office tenants include the School of Fashion Design, IDA Ireland and the Colombian Consulate, and its retail occupants include Back Bay Eye Care, Temu and restaurant Fire + Ice.
+ Capital Properties fell behind on its mortgage in October 2024, and the loan was then transferred to special servicer LNR. The landlord gave notice that it wouldn't provide additional equity to fund shortfalls, and the special servicer took control of the property's cash flow, according to servicer commentary in  Morningstar Credit 's database.
+ LNR brought the property to an auction in March, and it  won that auction  with a $95M bid. That was below the value of the loan and the property's previous tax assessment of $119M.
+ The building is one of many Boston office buildings to face financial distress since the pandemic. The city's central business district recorded the largest price decline of any market in the country over the five years ending in December, according to a January report from MSCI .
+ Developers have begun to pursue conversions of downtown office properties to residential, aided by  a city program  that expedites approvals and provides a 75% tax abatement.
+ The Boston Planning & Development Agency  last week approved  four office conversions totaling 434 units, bringing the total volume of planned, under-construction or completed conversions to nearly 1,800 units. The largest such project is a 219K SF building  approved for conversion  in March. If the next owner of the Park Square Building were to pursue a residential conversion, it would be by far the biggest in the city.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Jon Banister 
+ at
+ jon.banister@bisnow.com 
+ Related Topics:
+ Back Bay 
+ , Boston Public Garden 
+ , Capital Properties 
+ , CMBS 
+ , Eastdil Secured 
+ , LNR Partners 
+ , Morningstar Credit 
+ , MSCI 
+ , Newbury Street 
+ , Park Square Building 
+ , Starwood Property Trust 
+ , WeWork 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Tishman Speyer Lining Up $340M Refi Of 2.4M SF Chicago Office Complex
+ Dutch Office Investment Leaps — But The Conversion Play Runs Out Of Road
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Cross Ocean Partners, Fuller Realty Acquire 829K SF Houston Office Campus
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ NYC Office Investor Warns It Could Go Under As Defaults Pile Up
+ Deutsche Bank Takes 5 Floors At Oaktree And Quadrant's Canary Wharf Scheme
+ Coconut Grove Office Flipped For $15M Gain After One Year
+ D.C.'s Office Market Is Getting A Makeover
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

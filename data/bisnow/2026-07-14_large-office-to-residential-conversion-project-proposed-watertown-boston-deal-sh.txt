@@ -1,0 +1,299 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/large-office-to-residential-conversion-project-proposed-watertown-boston-deal-sheet-135419
+INDEX_DATE: 2026-07-14
+
+RMR Plans Office-To-Residential Conversion In Watertown: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ RMR Plans Office-To-Residential Conversion In Watertown: The Boston Deal Sheet 
+ July 14, 2026 | 6:15 pm ET 
+ Taylor Driscoll, Boston 
+ A Newton-based developer has proposed to transform a Watertown office building into 285 housing units.
+ Watertown Planning Board 
+ A Rendering Of The Rmr Group's 7-9 Galen St. Conversion Project In Watertown
+ The RMR Group plans to redevelop a 97K SF office building at 7-9 Galen St. in Watertown into housing, Banker & Tradesman first reported.
+ The new building would total nearly 248K SF, including 6K SF of ground-floor retail and a paved parking lot.
+ RMR said it aims to preserve the majority of the building's existing facades and retain its architecturally significant features.
+ The project would need a special permit and site plan review by the Watertown Planning Board, as well as demolition review by the city's Historical Commission.
+ The project is among the largest office-to-residential projects proposed in the state to date, following Synergy's 198-unit project in Worcester and its 255-unit project in Boston.
+ SALES 
+ Atlanta-based residential builder Pulte acquired 475 Bedford St. in Lexington for $23M, according to public records. The deal closed on July 8, and the seller was Cresset Development. In April, Pulte won approval to build 150 apartments across three buildings on the site. The project, known as Fieldside at Lexington, will redevelop the site of a former Boston Sports Club and the current home of Lexington Tennis Club.
+ ***
+ Galvanize Real Estate expanded into the Boston area with a three-property, 360K SF industrial acquisition across the Metro West and Metro South submarkets. The acquisition marks GRE's first in Massachusetts and expands the company's portfolio to 3.2M SF nationwide. The specific properties and price tags weren't disclosed.
+ ***
+ Spanish billionaire Amancio Ortega, founder of fashion chain Zara, bought the Kensington apartment tower from Kensington Investment Management for $234M . The 27-story, 381-unit multifamily tower is in Boston's Theater District. The project was developed by a partnership between Kensington and National Development between 2011 and 2013.
+ ***
+ Eastern Real Estate acquired a 105K SF Fort Point office building at 374 Congress St. for $28M, according to public records. The deal closed on July 2. The property was part of a five-building portfolio acquired by Nuveen in 2016 for $225M . Four other properties in the portfolio were acquired by The Davis Cos. in January for $56M .
+ ***
+ Lender LNR Partners took possession of an office building at 150 Royall St. in Canton through a June 23 online auction, Banker & Tradesman reported . Quincy-based Jumbo Capital acquired the property in 2015 for $38M, but the property went into special servicing in June 2025 due to an unpaid mortgage.
+ LEASES 
+ Google Maps 
+ USQ's 50 Prospect St. in Union Square
+ Workbar will take 10K SF in Somerville's Union Square at USQ's 50 Prospect St. The new location is expected to open in late fall, and preleasing is underway. The property is home to a 25-story, 450-unit residential tower. Workbar now has 12 locations, most recently opening in Harvard Square and expanding its Needham location to 40K SF.
+ ***
+ Coastal Clarity Audiology signed a 1,700 SF lease at Cummings Properties' 50 Dunham Ridge in Beverly. Cummings' Justin D'Aveta and Herrick Lutts Commercial's Rich Vincent worked on the deal. The 500K SF office, lab and medical office building also houses North Beverly Family Medicine, Northeast Health Services and OI Infusion.
+ FINANCING 
+ Hudson Assembly and Time Equities secured $14M in postclosing financing for its 230 Congress St. office building. The mortgage was provided by Institution for Savings. The financing will be used to help with enhancements of the building's common areas and tenant amenities. The financing was led by Time Equities' Zach Alerhand. The joint venture acquired the 151K SF office building  in June.
+ ***
+ MassDevelopment issued a $25M tax-exempt bond on behalf of St. John's Prep to renovate and convert the Memorial Dining Hall on its campus into a larger student commons. SalemFive Bank purchased the tax-exempt bond. The new student commons would include an expanded kitchen, dining area for faculty and staff, relocated offices and flexible spaces for programming. The commons is expected to be completed before the 2027-2028 school year.
+ ***
+ Northmarq arranged $23M in acquisition financing on behalf of Arrowpoint Properties for the 104-unit Elora Flats & Townhomes in Lawrence. The property at 112-114 Marston St. was built in 2009 and includes six four-story buildings. The financing was structured on a seven-year term with four years of interest-only payments.
+ CONSTRUCTION AND DEVELOPMENT 
+ The HYM Investment Group and Revere officials celebrated the opening of The Amp at Suffolk Downs, an outdoor amphitheater and open space with a 600-person capacity. The amphitheater is the newest addition to the 161-acre redevelopment in Revere and East Boston. The Amp will be home to live performances, cultural events and neighborhood gatherings. The space will also act as a resiliency and stormwater quality asset.
+ ***
+ Related Beal, Massachusetts officials and MassHousing are launching a $38M renovation of the Loring Towers affordable housing community in Salem. The project will include in-unit upgrades, updated common areas and a repaved parking lot.
+ Related plans to begin a multiphased renovation of the 250-unit property in August and complete it in 2028. The project is set to extend long-term affordability until 2056.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Office-to-residential conversion 
+ , The RMR Group 
+ , Watertown 
+ , Watertown Square 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Olde Richmond Project Lands $20M Construction Loan: The Philadelphia Deal Sheet
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

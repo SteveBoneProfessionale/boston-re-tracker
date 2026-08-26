@@ -1,0 +1,287 @@
+URL: https://www.bisnow.com/news/boston/life-sciences/biomed-loses-south-end-lab-office-property-to-lender-135556
+INDEX_DATE: 2026-07-24
+
+BioMed Hands Boston Lab, Office Property To Lender 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Life Sciences 
+ BioMed Hands Boston Lab, Office Property To Lender 
+ July 24, 2026 | 2:45 pm ET 
+ Taylor Driscoll, Boston 
+ The lenders on a two-building lab and office complex in Boston's South End have taken over ownership from life sciences giant BioMed Realty.
+ Google Maps 
+ 321 Harrison Ave. In Boston's South End.
+ The lenders, a partnership of  KKR Real Estate Finance Trust and AllianceBernstein , took over the adjacent properties at 1000 Washington St. and 321 Harrison Ave. last month, deed records show.
+ KKR said in its second-quarter earnings supplemental  this week that it took ownership of a Boston life sciences asset, but it didn't provide further details, and a spokesperson declined to comment. BioMed Realty  and AllianceBernstein didn't respond to requests for comment.
+ BioMed Realty, a life sciences real estate company owned by Blackstone, secured a $322M floating-rate loan from the partnership when it acquired the property in April 2021 from CIM Group .
+ The buildings were both office towers at the time, but BioMed bought them with the intention of converting them to labs, as Boston was experiencing a pandemic-era boom in life sciences demand.
+ BioMed received  approval in July 2021  from the Boston Planning Department  to convert 321 Harrison to labs and later completed that conversion for at least part of the building.
+ In December 2021,  Monte Rosa Therapeutics  signed a 10-year,  63K SF lease  at the property. The following year, BioMed  landed five more tenants : PepGen, Pyxis Onvology, Nido Biosciences, Magnet Biomedicine and HilleVax.
+ 1000 Washington St. has remained an office building, despite BioMed securing approval in 2023 to convert it. In 2024, BioMed President Bill Kane told Banker & Tradesman that the company was "waiting for tenants to run their course" at the property.
+ The building is home to several state agencies, including the Massachusetts Department of Developmental Services and the Board of Registration of Social Workers.
+ The properties are connected by a central lobby and footbridge. Amenities at the building include a fitness center, an outdoor patio, an amenity lounge, a conference center and a kitchenette.
+ On June 17, Tishman Speyer  announced that it was selected as the new property manager  of the two-building campus. Its release and reports from multiple outlets at the time didn't mention that the property's ownership had changed.
+ But deed records show that BioMed had relinquished ownership of the asset on June 3 to the entity that had provided the 2021 loan. The lender then brought on Tishman to manage the property.
+ BioMed still has a large portfolio of Boston and Cambridge buildings spanning  more than 5M SF . Other buildings include the 599K SF 585 Kendall St., home to Takeda's global headquarters , and the 282K SF building at 650 E. Kendall St. in East Cambridge
+ The company owns more than 17M SF across the U.S. and UK. Its Boston portfolio accounts for nearly one-third of its overall portfolio. The company has more than 2M SF in development in the pipeline.
+ The company also converted 601 Congress St., the former  John Hancock Life Insurance  Cos. building, in the Seaport into 492K SF of lab space. The property, known as the Seaport Sciences Center, hasn't publicly announced any lab tenants after delivering in 2023.
+ Boston's life sciences market has dramatically changed since BioMed's 2021 deal to acquire the South End office buildings for lab conversions.
+ A surge of speculative lab projects — both new developments and conversions — came online just as demand fell off a cliff, leaving buildings empty  across the region. As of the second quarter, vacancy had reached 28.7% across Greater Boston, according to CBRE.
+ Jon Banister contributed reporting.  
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ 321 Harrison 
+ , AllianceBernstein 
+ , BioMed Realty 
+ , KKR 
+ , KREF 
+ , South End 
+ , Tishman Speyer 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Revolution Medicines Nearing Agreement For 700K SF Lease In Redwood City
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Oncology Company Expands Footprint At Hines' Life Sciences Campus
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ UK Investment Giant Funds First U.S. Development In Boston Suburb
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

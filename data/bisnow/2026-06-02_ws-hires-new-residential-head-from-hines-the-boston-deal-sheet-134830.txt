@@ -1,0 +1,297 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/ws-hires-new-residential-head-from-hines-the-boston-deal-sheet-134830
+INDEX_DATE: 2026-06-02
+
+Hines Market Leader Moves To WS Development: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Hines Market Leader Moves To WS Development: The Boston Deal Sheet 
+ June 2, 2026 | 1:02 pm ET 
+ Taylor Driscoll, Boston 
+ A development executive who worked on South Station Tower has moved from one major firm to another.
+ Bisnow/Jon Banister
+ Hines' South Station Tower In Downtown Boston
+ Sean Sacks joined WS Development as head of residential, coming from Hines,  he announced on LinkedIn .
+ In this role, Sacks said he will focus on residential acquisitions and developments in relation to the company's retail tenants.
+ Sacks worked at Hines for 11 years and was  promoted to Boston market leader  in 2023. In his time as a regional leader, he oversaw the development of Hines' 1M SF South Station Tower, an air rights project on top of the commuter station.
+ The tower secured JP Morgan as its anchor tenant  in March  with a 250K SF deal. The financial giant will also brandish its logo across the tower.
+ "I am immensely proud of the transformative projects we delivered and the superior results we achieved for our investors and partners," Sacks said on LinkedIn. "I look forward to following their continued success in the years ahead."
+ SALES 
+ An entity linked to West Newton-based Equity Venture Partners acquired the Milford Square shopping center for $8M from Burlington-based Linear Retail Properties, according to deed records. The 50K SF center's tenants include a Registry of Motor Vehicles location. Atlantic Capital Partners' Justin Smith, Chris Peterson, Danielle Turpin and Matt Ericson represented the seller in the deal.
+ ***
+ A.W. Perry acquired a 128-acre site in Kingston  for $3.4M at an auction . The site is home to the former Sacred Heart High School and another vacant plot at 67 Partings Way Road. The developer is eyeing a residential development and adaptive reuse project on the site.
+ LEASES 
+ Google Maps 
+ 116 Hungtington Ave. In Boston's Back Bay
+ Columbia Property Trust has closed  more than 50K SF in leases for its 116 Huntington Ave. office building. The 273K SF building landed six leases, including expansions from existing tenants. Tenants range in industries, including artificial intelligence, pharmaceuticals and healthcare. The largest lease was Karen Clark & Co.'s 8K SF expansion. It now occupies 20K SF on the 10th floor.
+ ***
+ Electrified Thermal Solutions signed a 10-year lease at 570 Rutherford Ave., occupying 17K SF. The office and research and development building is in the 20-acre Hood Park campus in Charlestown. The lease expands the company's footprint in greater Boston. Electrified Thermal Solutions joins tenants including Ionomr Innovations, Lydian Labs and ArkeaBio. Newmark led leasing at the property.
+ ***
+ Highbar Physical Therapy signed a 3K SF lease at Cummings Properties' 18 Commerce Way in Woburn. The company is based in Rhode Island and includes 56 clinics throughout Rhode Island and Massachusetts. The location is its second within Cummings' portfolio. Cummings' Steve Cusano and Cushman & Wakefield's Petra Flynn worked on the deal.
+ FINANCING 
+ MassDevelopment issued a $9M tax-exempt bond on behalf of Harbor Health Services Inc. to help the public health nonprofit expand in Hyannis. The nonprofit will use the bond to expand its community health center in the town, with a portion of proceeds going toward the renovation of an adjacent site to expand its 10K SF space at 735 Attucks Lane. Rockland Trust purchased the tax-exempt bond.
+ PERSONNEL 
+ Avison Young
+ Avison Young's Patrick Schmidt
+ Avison Young promoted Boston-based Patrick Schmidt to lead the brokerage's U.S. Project and Construction Management platform. In the role, Schmidt will lead U.S. growth through recruitment and business development. He previously served as managing director and has been with the firm since 2015.
+ ***
+ Real estate developer GID Residential Partners expanded into the Boston market and will be led by Chris Spendley . Spendley will join the firm as managing director. He brings 21 years of experience in acquisitions, entitlements and project delivery. He's overseen 2,400 rental homes and has more than $2.5B in multifamily transactions. Before his new role, Spendley worked with Quarterra Group and spent 11 years at UDR.
+ ***
+ Jonathan Freni joined Cushman & Wakefield as executive managing director. Freni joins C&W from CBRE, where he's worked for over 21 years. Freni has worked with a range of tenants, including venture capital startups, emerging growth companies, public corporations and institutional investors. Freni is also a board member for the New England chapter of JDRF.
+ CONSTRUCTION AND DEVELOPMENT 
+ Pennrose broke ground on an 88-unit mixed-income housing development at 95 Everett St. in Allston-Brighton. The project is 100% income- and rent-restricted. The project received financing from federal and state low-income housing tax credits purchased by Capital One and syndicated by Hudson Housing Capital. The project is expected to be completed in 2027.
+ ***
+ Barnat Development began construction on Holmes Beverly Phase II, a 52-unit multifamily project near the Beverly Depot MBTA commuter rail station. The project at 119 Ratoul St. was financed in part through the Holmes Opportunity Zones Fund. The fund gave $10M, and another $21M in long-term Department of Housing and Urban Development-insured debt was arranged through Berkadia Commercial Mortgage.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Hines 
+ , Sean Sacks 
+ , WS Development 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

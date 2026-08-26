@@ -1,0 +1,282 @@
+URL: https://www.bisnow.com/news/boston/capital-markets/developers-sue-eastern-bank-alleging-disclosure-of-personal-financial-information-134917
+INDEX_DATE: 2026-06-08
+
+Boston Developers Sue Bank For Disclosing Financial Information 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Capital Markets 
+ Boston Developers Sue Bank For Disclosing Financial Information 
+ June 8, 2026 | 12:41 pm ET 
+ Taylor Driscoll, Boston 
+ A group of developers is suing Eastern Bank for allegedly disclosing personal financial information that was published on a third-party site.
+ Bisnow/Taylor Driscoll
+ City Realty Group co-founders Fred Starikov and Stephen Whalen along with developer Matthew Zuker sued the regional financial institution for posting personal financial statements and confidential financial information on online debt sale platform DebtX, according to a June 5 filing with the Suffolk County Superior Court.
+ The three men claim that the information Eastern Bank disclosed includes personal financial statements, bank account information, credit history reports, tax returns and mortgage statements. The developers say Eastern Bank didn't disclose any intent to transfer or display nonpublic information.
+ The lawsuit was first reported by Banker & Tradesman . City Realty and Eastern Bank didn't respond to  Bisnow 's requests for comment.
+ The information also includes specific details of more than 50 active properties owned by the City Realty founders, including purchase prices, estimated values, current adjusted amount of debt and gross rental income from properties.
+ The plaintiffs argue that the information didn't relate to any "legitimate business purposes" and wasn't necessary for any prospective debt purchases.
+ The lawsuit specifies that Eastern Bank markets itself as taking "every precaution to make sure your personal information remains safe," arguing that the representation is false, misleading or intended to deceive the customers, including the plaintiffs.
+ The information that the three developers alleged was unlawfully published came out as Eastern Bank sought to use DebtX to sell a construction loan tied to a Weston substance abuse treatment center.
+ Starikov, Whalen and Zuker worked together in 2021 on the redevelopment of a former senior living facility into a 110-bed substance abuse treatment facility. The facility at 75 Norumbega Road in Weston  opened in 2022 .
+ The plaintiffs sought a $29M loan and a $2M line of credit for the treatment facility from HarborOne Bank . The loan and line of credit were issued in 2022.
+ HarborOne was then acquired by Eastern Bank in the fall of 2025 .
+ The lawsuit alleges that in early April 2026, Eastern Bank transferred the plaintiffs' personal information to DebtX without their knowledge.
+ The developers sent the bank a cease and desist letter demanding the institution take down the information. The bank responded saying the loan was "freely assignable" and that the information used was in connection with the standard process of engaging buyers of the debt, according to an exhibit included with the lawsuit.
+ Eastern Bank also argued in its response to the cease and desist letter that the developers can't provide one instance in which the financial documents containing personal information were shared outside of the third-party buying process.
+ Founded in 2004, City Realty says it has completed more than $500M in real estate developments in Greater Boston. Late last month, the developer  received a key rezoning approval  for what would be its largest project to date: a three-building mixed-use development on Route 9 in Brookline.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ City Realty Group 
+ , Eastern Bank 
+ , Fred Starikov 
+ , HarborOne Bank 
+ , Matthew Zuker 
+ , Stephen Whalen 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Senior Housing Buyers Are Paying Up, But Sellers Still Need Convincing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Nuveen's C-PACE Fund Secures Over $1B, Its Biggest Raise Yet
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Aberdeen Goes Global With £700M Merged Fund
+ Data Center Deals Propel July CRE Sales Volume To Best Performance Since 2005
+ From Bankruptcy To $400M Buying Spree: Michael Shah's Rapid Comeback
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Wells Fargo Moves To Foreclose On $1.3B Workspace Property Trust Portfolio
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Latest Round Of Fannie Mae Senior Staff Layoffs Has Multifamily Sector Anxious
+ Efficiency, Speed And Experience: What CRE Needs To Know About The New Texas Business Courts 
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

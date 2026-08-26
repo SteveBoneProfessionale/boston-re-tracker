@@ -1,0 +1,290 @@
+URL: https://www.bisnow.com/news/boston/mixed-use/brookline-town-meeting-oks-largest-development-in-its-history-134779
+INDEX_DATE: 2026-05-29
+
+Brookline Passes Rezoning For Its Largest Development In Decades 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Mixed-Use 
+ Brookline Passes Rezoning For Its Largest Development In Decades 
+ May 29, 2026 | 8:36 am ET 
+ Taylor Driscoll, Boston 
+ After years of delays and revisions, the rezoning needed for  City Realty Group 's huge  proposed redevelopment on Route 9 got the green light at Brookline's annual town meeting.
+ Town of Brookline 
+ The town approved the rezoning plan, known as the Chestnut Hill Commercial Area Study, on Thursday night by a margin of 217 to 20, far above the two-thirds threshold needed to pass.
+ City Realty Chief Development Officer Clifford Kensington told Bisnow after the vote that he was excited to continue moving forward with the project.
+ "I felt pretty good, but I wasn't expecting it to that extent, certainly," Kensington said about the vote, adding that it removes "most of the unknowns."
+ The zoning district encompasses several underutilized parcels along Route 9, including the office park City Realty plans to redevelop.
+ After making revisions, the developer's plans now call for a three-building mixed-use project that would include a 200-room hotel, 266 apartments and condos, medical office space and retail.
+ The 5-acre site is located at 1280-1330 Boylston St.
+ The zoning plan would require projects to dedicate more than 50% of their floor space to commercial uses like hotels, labs and medical office space, part of an effort to grow the town's tax revenue base.
+ Charles River Regional Chamber CEO Greg Reibman  said he was shocked to see the town vote overwhelmingly in favor of the zoning ordinance.
+ "Considering how contentious it's been over the last two years, I was surprised," Reibman told Bisnow  on Thursday night.
+ Over the last couple of years, the project has faced several delays , community opposition and even an objection from a neighboring developer over the plans. However, City Realty  struck a deal with neighbors and the other developer earlier this month ahead of the vote.
+ Reibman said this approval will now open doors to completely reimagine the corridor and have larger conversations around the transportation issues Route 9 as a whole faces moving forward.
+ "It's very encouraging to see that Brookline is finally going to have the opportunity to grow some commercial revenue and have more housing and really help transform this corridor," he said.
+ The commercial redevelopment of the property and the areas surrounding City Realty's site has long been a priority for redevelopment, as the town looks to address its financial strain.
+ Unlike its neighbors on the Newton side of Route 9, which is home to WS Development 's retail development, The Street, Brookline's portion of the corridor has long gone underdeveloped, leaving a hole where the town could see more commercial uses and tax revenue.
+ Earlier this month, the town overwhelmingly approved a record-breaking $23M tax override to support public services and its public school system.
+ Over a decade ago, the town identified the Route 9 site as an opportunity for development. In 2024, City Realty acquired the property for $41M .
+ The project, larger than any development built in Brookline in years, is set to rake in more than $5M annually in commercial tax revenue, according to City Realty.
+ In an agreement with the town, City Realty would also pay $11M toward Brookline's Affordable Housing Trust Fund and $12M in contributions to transportation and public safety.
+ The zoning also covers other parcels around the site, including a piece of the Star Market parking lot owned by WS Development. A motion to remove this parcel from the zoning was rejected in a 63-to-175 vote.
+ Kensington said having the approval in hand helps the company move forward with lining up prospective tenants for the project.
+ "At least those conversations can now start in earnest and now be taken seriously," he said.
+ Though the company plans to go full steam ahead on the project, it still needs to go through the Massachusetts Environmental Protection Agency process and the town's special permit process, which could take another nine to 12 months. The developer doesn't plan to begin construction until 2028.
+ "That 2028 timeline is really on the inside of how quickly we can start building based on some of the remaining hurdles," Kensington said.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Charles River Regional Chamber 
+ , Chestnut Hill 
+ , City Realty Group 
+ , Clifford Kensington 
+ , Greg Reibman 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Food And Beverage Increasingly Becoming Anchor In Mixed-Use Projects
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

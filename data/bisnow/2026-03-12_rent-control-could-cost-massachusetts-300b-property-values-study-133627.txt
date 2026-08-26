@@ -1,0 +1,286 @@
+URL: https://www.bisnow.com/news/boston/multifamily/rent-control-could-cost-massachusetts-300b-property-values-study-133627
+INDEX_DATE: 2026-03-12
+
+STUDY: Rent Control Could Cost Massachusetts $300B In Lost Property Values 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Multifamily 
+ STUDY: Rent Control Could Cost Massachusetts $300B In Lost Property Values 
+ March 12, 2026 | 1:38 pm ET 
+ Taylor Driscoll, Boston 
+ As real estate groups line up to fight the rent control initiative on the Massachusetts ballot this fall, a new economic report shows what may be at stake.
+ Wikimedia Commons/Kenneth C. Zirkel 
+ The Towers At Longfellow Apartments In Boston
+ An  economic analysis conducted by the Tufts University Center for State Policy Analysis found that if the 2026 rent control ballot were to pass, it could eliminate $300B in state property values  within a decade, creating a ripple effect of budgetary shortfalls for municipalities.
+ The report was commissioned by the Greater Boston Real Estate Board, which opposes the measure.
+ According to the report, municipalities could see a short-term loss of 7.5% in residential property taxes and a permanent decline of up to 18%.
+ The study's researchers analyzed the economic impact of two past rent control measures, one in St. Paul, Minnesota, and another Cambridge, Massachusetts. The latter ended in 1995 when Massachusetts voters banned rent control in a ballot measure.
+ The researchers then projected those previous measures' effects on the Massachusetts real estate market.
+ The rent control ballot measure would allow municipalities to limit rent increases across all 351 municipalities to no more than 5% per year. There would be an exemption to the cap for owner-occupied buildings with four or fewer units as well as new construction for 10 years.
+ In Boston, values would shrink 9% within three years, creating a budget shortfall of $160M, according to the study. Chelsea,  Everett  and  Revere  could expect to see a 15% to 27% loss in property value over 10 years.
+ Mayors from Holyoke, Revere and Chelsea have come out in support of the findings.
+ The anti-rent control coalition Housing for Massachusetts said the findings offer a stark warning about the measure.
+ "The data is clear: this ballot question will hurt homeowners, small property owners, renters, and the communities they live in," Housing for Massachusetts Chair Conor Yunits said in a statement to  Bisnow .
+ Gov. Maura Healey has come out against the ballot, saying the proposal has already  halted some housing development across the state.
+ Boston Mayor  Michelle Wu  in February said she  supports the rent control measure , but she also said that now would be a good time for state legislators to propose an alternative rent control measure if they don't like this one.
+ Keep Massachusetts Home, the group behind the rent control campaign,  secured more than enough signatures to place the initiative on the ballot in the fall. The coalition is led by housing advocacy group Homes for All Massachusetts.
+ Homes for All Massachusetts Executive Director Carolyn Chou didn't directly address the study but suggested in a written statement to Bisnow  that the real economic threat is to do nothing to control rents.
+ "Right now in Massachusetts, rents can legally double overnight — displacing workers and seniors from their communities," Chou said. "We need basic protections against excessive rent hikes."
+ Earlier this week, Housing for Massachusetts filed a full complaint to the state Supreme Judicial Court, arguing that the ballot measure isn't constitutionally sound and shouldn't go in front of voters in November.
+ Early polling has indicated that 56% of likely voters strongly or somewhat support limiting rent increases,  according to a University of New Hampshire Survey Center poll .
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Boston Rent Control 
+ , Carolyn Chou 
+ , Conor Yunits 
+ , Housing for Massachusetts 
+ , Keep Massachusetts Home 
+ , Rent-control 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ MG Developer Faces 6 Lawsuits Alleging Millions In Overdue Debt
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

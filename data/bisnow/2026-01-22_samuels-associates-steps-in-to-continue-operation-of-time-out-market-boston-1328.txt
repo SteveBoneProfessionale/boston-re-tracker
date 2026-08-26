@@ -1,0 +1,280 @@
+URL: https://www.bisnow.com/news/boston/retail/samuels-associates-steps-in-to-continue-operation-of-time-out-market-boston-132863
+INDEX_DATE: 2026-01-22
+
+Samuels Steps In To Continue Operation Of Time Out Market Boston 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Retail 
+ Samuels Steps In To Continue Operation Of Time Out Market Boston 
+ January 22, 2026 | 12:36 pm ET 
+ Taylor Driscoll, Boston 
+ Bisnow/Craig Idlebrook
+ Time Out Market Boston
+ One day before a market just a few blocks from Fenway Park was set to close, a big-time  Fenway  developer and landlord agreed to take over the Time Out Market food hall.
+ Samuels & Associates agreed to assume management of the food hall on the ground floor of  Alexandria Real Estate Equities ' 401 Park Drive, Samuels announced Thursday. It plans to enter an agreement with Alexandria to operate the 27K SF hall and keep its 15 vendors.
+ The Fenway developer plans to license the Time Out name from the brand.
+ The move is being praised by political and local leaders, including  Mayor Michelle Wu , who emphasized the importance of the food hall on the Greater Boston economy.
+ "Every great city needs great food halls, and Time Out Market in Fenway has been a needed gathering space and economic hub showcasing our local culinary talent to residents, coworkers, and visitors from around the world," Wu said in a statement.
+ Samuels first recruited Time Out Market to the Boston area in 2019.
+ The developer sold the building in 2021 as part of a $1.5B deal with Alexandria. ARE is redeveloping the home to 401 Park Drive, Landmark Center, through  a three-phase project .
+ The group behind Time Out Market Boston announced last week that it planned  to close the venue  and a similar one in Chicago, citing a slowdown in foot traffic coming out of the pandemic. The food hall was set to close Jan. 23.
+ The Chicago location is still set to close Friday.
+ Samuels said it hopes to better connect the community with the food hall moving forward.
+ "Over more than two decades, we've built collaborative relationships with locally owned restaurants across our portfolio by approaching these spaces as creative partnerships — focused on thoughtful programming, connectivity, and driving foot traffic throughout the day and across seasons," Samuels co-President Peter Sougarides said in a statement.
+ Samuels has owned and developed property throughout the Fenway neighborhood for more than two decades, including the redevelopment of Landmark Center, Fenway Triangle Trilogy, The  Verb Hotel  and 1330 Boylston St.
+ The developer also completed its  Lyrik  office project, a 450K SF air rights project over the  Massachusetts Turnpike .
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Alexandria Real Estate 
+ , Fenway 
+ , Samuels & Associates 
+ , Time Out Group 
+ , Time Out Market Boston 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Olympic Retail Users Taking Early Look At LA 
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Dog Haus Pursues Major Expansion After Tapping Former Jersey Mike's Execs
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Nike Closes 15 Stores Amid Tumultuous Year
+ The Fast-Food Exec Taking Her Real Estate Talents To The Looksmaxxing Era
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ TJ Maxx Parent Plans To Accelerate Store Openings In 2027
+ Ashley's Frasers Sets £20B Real Estate Acquisition Target
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

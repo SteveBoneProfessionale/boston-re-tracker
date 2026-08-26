@@ -1,0 +1,295 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/foxrock-secures-128m-loan-for-465-unit-quincy-apartment-community-133133
+INDEX_DATE: 2026-02-09
+
+FoxRock Secures $128M Loan For 465-Unit Quincy Apartment Community: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ FoxRock Secures $128M Loan For 465-Unit Quincy Apartment Community: The Boston Deal Sheet 
+ February 9, 2026 | 1:16 pm ET 
+ Taylor Driscoll, Boston 
+ FoxRock Properties secured a refinancing loan for a Quincy multifamily community.
+ Google Earth 
+ Foxrock Properties Secured A $128.2M Loan For Its 465-Unit Ashlar Park Apartment Community In Quincy.
+ The Quincy-based developer acquired a $128.2M loan for its 465-unit property at 100 Whitwell St., known as Ashlar Park, from CBRE's Fannie Mae Delegated Underwriting and Servicing platform, according to a CBRE LinkedIn post .
+ FoxRock began construction on the multifamily project in 2021 , with the developer demolishing the former Quincy Medical Center's administration building. The company secured a $128.7M construction loan in 2022 from Citizens Bank.
+ The property includes four residential buildings — The Woodlands, The Quarry, The Harbor and The Skyline — and a three-story community building.
+ CBRE represented the borrower in the deal.
+ SALES 
+ An entity named HC 320 Summer St. acquired a 122K SF office building at 320 Summer St. for $26.3M, Banker & Tradesman reported .
+ The seller in the deal was an affiliate of ASB Real Estate Investments , which acquired the property for $17.8M in 2007.
+ The property was the former office of LogMeIn.
+ ***
+ Braintree-based Schochet Cos. acquired a 37-building apartment complex in Ayer known as Devenscrest Village for $32M. The developer plans to maintain income restrictions for the 114-unit affordable apartment community, B&T reported .
+ ***
+ MassDevelopment sold 2 acres of land at 25 Adams Circle in Devens to Reframe Systems. The company plans to build 12 housing units across six duplexes.
+ Reframe said it will use artificial intelligence to automate the homebuilding process. The units would be 2,100 SF each.
+ LEASES 
+ American Surgical Co. signed a 20K SF lease at Cummings Properties' 100 Cummings Center in Beverly. The medical tools manufacturer plans to relocate its headquarters from Shetland Park in Salem.
+ The manufacturer joins Beth Israel Lahey Health Specialty Care, Hamilton Thorne and Hettich Instruments at the Beverly property.
+ FINANCING 
+ Google Maps 
+ 20 Ledin Drive in Avon.
+ Vigilant Real Estate Holdings secured a $15M acquisition loan for a two-building, 129K SF industrial portfolio in Avon. The properties are located at 20 and 40 Ledin Drive and are fully leased to Waste Management. Vigilant purchased the properties for $22.6M.
+ M&T Bank supplied the five-year, fixed-rate loan. JLL's Amy Lousararian and Anthony Nakhle arranged the financing.
+ ***
+ Arrowpoint Properties LLC acquired an 85-unit apartment building at 66 Hawthorne Drive in Bedford, New Hampshire, for $24M and secured an $18M acquisition loan. The seller of the property, The Meridian at Bedford, wasn't named in the sale.
+ Northmarq's Brett Curtis, Chris Doerr, Alix Curtin, Chris Norton, Kevin Sykes, Jeffrey Munoz and Ed Riekstins worked on the deal, representing the seller and procuring the buyer.
+ PERSONNEL 
+ Suffolk Construction appointed Jon Davies as its chief marketing officer to scale the company's national brand. Davies will lead the company's national marketing strategy to strengthen the brand, enhance client engagement and drive growth initiatives.
+ Davies has more than 20 years of marketing experience, most recently at Fidelity Investments.
+ CONSTRUCTION AND DEVELOPMENT 
+ DND Homes filed plans to build a 109-unit apartment project at 9 Chelsea St. in East Boston's Maverick Square. The six-story, 81K SF building would include roughly 3K SF of retail space, a rooftop deck and 21 affordable units.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Ashlar Park 
+ , FoxRock Properties 
+ , Quincy 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

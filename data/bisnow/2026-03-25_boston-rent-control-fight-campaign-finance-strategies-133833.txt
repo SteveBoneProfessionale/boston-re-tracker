@@ -1,0 +1,297 @@
+URL: https://www.bisnow.com/news/boston/multifamily/boston-rent-control-fight-campaign-finance-strategies-133833
+INDEX_DATE: 2026-03-25
+
+Here Are The Groups Donating To The Massachusetts Rent Control Fight 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Multifamily 
+ Here Are The Groups Donating To The Massachusetts Rent Control Fight 
+ March 25, 2026 | 3:12 pm ET 
+ Taylor Driscoll, Boston 
+ In the 2025 campaign filings of the two opposing sides of the Massachusetts rent control ballot measure, those opposed to the measure are more often opening up their checkbooks, while those in favor are more often donating their time.
+ Housing for Massachusetts, the anti-rent control coalition, has secured hundreds of thousands of dollars from the real estate community to combat the measure.
+ Wikimedia Commons/Pi.1415926535 
+ Triple-Decker Housing In Dorchester
+ By the end of 2025, the coalition received $431K in cash donations and $26,600 in in-kind donations, according to its 2025 report filed with the Massachusetts Office of Campaign and Political Finance.
+ The largest donor was NAIOP Massachusetts, which contributed $226K to the campaign, according to OCPF. The second-largest donor was the Greater Boston Real Estate Board, which contributed $100K. Both groups are part of the executive committee of Housing for Massachusetts.
+ The proposal would cap rent increases for all 351 municipalities at 5% or the consumer price index, whichever is lower. The measure would exempt owner-occupied properties, buildings with four or fewer units, and construction that is less than 10 years old.
+ The campaign garnered  more than 124,000 signatures last fall , securing it a spot on November's ballot.
+ NAIOP Massachusetts CEO Tamara Small said members of her group worry that the measure, if it were to pass, would decimate housing production.
+ "It would harm the broader economy in Massachusetts, and it certainly would not help renters," Small said.
+ Most of the funds raised by Housing for Massachusetts are being used to aggressively campaign against the measure and ensure all residents fully understand what the initiative entails before going to vote this fall, Housing for Massachusetts Chair Conor Yunits said.
+ "There's broad agreement that we need to do something in Massachusetts about housing affordability," Yunits said. "This proposal, particularly as it's written, would have the opposite effect."
+ Real estate development and management firm Nordblom Management Co. donated $50K to the anti-rent control campaign. Nordblom didn't respond to Bisnow 's request for comment.
+ Other notable donors to Housing for Massachusetts include the Massachusetts Association of Realtors, which donated $55K, and MassLandlords Inc., which gave $26K in in-kind donations. In-kind donations reflect time canvassing, transportation costs and volunteer signature collections.
+ On the other side of the issue, Keep Massachusetts Home secured just $58K in cash donations by the end of 2025 but recorded $689K in in-kind donations.
+ Unsplash/Rackeem Borges 
+ An aerial view of Boston's Back Bay
+ The largest contributions for the pro-rent control campaign in 2025 came from City Life/Vida Urbana, which donated roughly $69K in in-kind donations, and the New York City-based Right to the City, which donated $67K in in-kind donations, according to the group's 2025 OCPF report .
+ The largest cash donations came from 1199 SEIU MA PAC, which donated $20K, Local 509 SEIU, which donated $20K, and the Mark Martinez Committee, which donated $9,300 to the campaign.
+ "We represent a lot of workers who make $20 or $21 an hour, and everyone feels the same crunch if they rent right now," SEIU Local 509 President David Foley told The Boston Globe in October . "Whatever wages the union is able to win at the bargaining table, those raises are almost always eaten up by huge rent increases."
+ Support from unions like SEIU was announced in the fall as Keep Massachusetts Home ramped up signature collections across the commonwealth.
+ Other union support has come from UFCW Local 1445, UAW Region 9A, and the Massachusetts Teachers Association and Boston Teachers Union. None of these groups gave cash or in-kind donations to Keep Massachusetts Home in 2025.
+ Fenway Forward, formerly known as the Fenway Community Development Corp., donated roughly $10K in in-kind donations, mainly for signature collections and staff time.
+ "It's important because our residents are most impacted by housing instability," Fenway Forward Executive Director Steven Farrell said. "Raising rents drive people out of neighborhoods where they grew up or raised their own family."
+ Other CDCs that sent in-kind donations include Urban Edge Development Corp. and Somerville Community Corp.
+ Urban Edge declined Bisnow 's request for comment, and the Somerville Community Corp. didn't respond to a request for comment.
+ Although the cash donation figures are much smaller than those of Housing for Massachusetts, Keep Massachusetts Home Ballot Committee Chair Noemi "Mimi" Ramos said what was contributed reflects the grassroots nature of the campaign.
+ "We did this one signature at a time — not by writing big checks, but by building a big coalition," Ramos said. "This campaign finance report reflects that incredible grassroots energy."
+ Both coalitions filed donation reports at the end of 2025. Their next reporting deadline isn't until September.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Boston Rent Control 
+ , Conor Yunits 
+ , Fenway Forward 
+ , Greater Boston Real Estate Board 
+ , Housing for Massachusetts 
+ , Keep Massachusetts Home 
+ , NAIOP 
+ , Steven Farrell 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ MG Developer Faces 6 Lawsuits Alleging Millions In Overdue Debt
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

@@ -1,0 +1,278 @@
+URL: https://www.bisnow.com/news/boston/life-sciences/takeda-looks-to-sublease-630k-sf-across-three-cambridge-properties-133201
+INDEX_DATE: 2026-02-13
+
+Takeda Looks To Put 630K SF Up For Sublease Across 3 Cambridge Properties 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Life Sciences 
+ Takeda Looks To Put 630K SF Up For Sublease Across 3 Cambridge Properties 
+ February 13, 2026 | 6:08 am ET 
+ Taylor Driscoll, Boston 
+ Google Maps 
+ Takeda Plans To Sublease Roughly 200K Sf At Biomed Realty's 300 Massachusetts Ave.
+ One of Massachusetts' largest employers is planning to offload more than half a million square feet of Boston-area real estate in preparation to move into its new global headquarters.
+ Takeda Pharmaceuticals listed 630K SF for sublease across three Cambridge properties, CoStar first reported . The company plans to vacate roughly 200K SF each at 35 Landsdowne St., 40 Landsdowne St. and 300 Massachusetts Ave.
+ The move comes as Takeda's new headquarters, BioMed Realty 's 585 Kendall St., is gearing up to open.
+ BioMed, along with Suffolk Construction , celebrated the topping-off ceremony for the Kendall Street building in January 2025. The firm acquired the vacant parcel where it now stands in 2018 for $50.5M .
+ BioMed also owns the properties on Landsdowne Street and Massachusetts Avenue.
+ The project has a 400-seat performance space and a 30K SF venue. The developer committed to relocating a gas transfer station on Third Street.
+ Takeda signed the 15-year lease at the Kendall Street property in 2022 .
+ The pharmaceutical company has been planning to consolidate its campus within Kendall Square  and maintain its presence in  Lexington , where it occupies 95 Hayden Ave.
+ Takeda also plans to sublease out roughly 125K SF at 75-125 Binney St. in Cambridge, which is unrelated to its headquarters move but "represents true excess capacity," the  Boston Business Journal reported . In 2024, the Japan-based company signed a 10-year lease extension at the Alexandria Real Estate Equities -owned property.
+ Takeda is the largest life sciences company in Massachusetts with roughly 5,800 local workers. In October, the company  laid off 137 Massachusetts workers and discontinued its cell therapy research efforts.
+ The subleases add to the increasingly high availability rates of life sciences space in the Greater Boston area.
+ As of the fourth quarter of 2025, the overall Cambridge lab market availability stood at 26.7%, according to CBRE . However, East Cambridge, where Kendall Square is located, saw a lower rate at 20.8%.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Alexandria Real Estate Equities 
+ , BioMed Realty 
+ , Kendall Square 
+ , Takeda Pharmaceuticals 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Revolution Medicines Nearing Agreement For 700K SF Lease In Redwood City
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Oncology Company Expands Footprint At Hines' Life Sciences Campus
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ UK Investment Giant Funds First U.S. Development In Boston Suburb
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

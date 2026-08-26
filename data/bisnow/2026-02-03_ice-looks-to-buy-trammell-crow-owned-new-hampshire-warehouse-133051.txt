@@ -1,0 +1,283 @@
+URL: https://www.bisnow.com/news/boston/industrial/ice-looks-to-buy-trammell-crow-owned-new-hampshire-warehouse-133051
+INDEX_DATE: 2026-02-03
+
+Documents Confirm ICE Seeks To Buy New Hampshire Warehouse For Detention Facility 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Industrial 
+ Documents Confirm ICE Seeks To Buy New Hampshire Warehouse For Detention Facility 
+ February 3, 2026 | 2:41 pm ET 
+ Taylor Driscoll, Boston 
+ New documents have confirmed speculation that the U.S. Department of Homeland Security  is eyeing a warehouse in Merrimack, New Hampshire, for a detention and processing center.
+ Flickr/U.S. Immigration and Customs Enforcement 
+ The American Civil Liberties Union-New Hampshire made the documents public today . They show that the federal government is actively consulting with the state of New Hampshire about a 43-acre warehouse at 50 Robert Milligan Parkway in Merrimack.
+ The federal government plans to use the facility as a regional processing center for U.S. Immigration and Customs Enforcement detainees, according to the documents.
+ The property is owned by a joint venture between Trammell Crow Co. and Diamond Realty Investments that broke ground on the 324K SF facility in 2023 .
+ ICE was in contact with the New Hampshire Division of Historical Resources  on Jan. 9  about its intent to purchase the warehouse to support its operations.
+ The plans for the warehouse were first reported by  The Washington Post in December 2025 . It is the only New England facility listed in internal documents obtained by The Post and would act as a smaller site with the capacity for 500 to 1,500 beds.
+ The Merrimack site, and 15 other smaller sites, would then feed into larger facilities that could host between 5,000 and 10,000 beds, according to The Post.
+ The department said in its correspondence with the state it may install tents and a guard shack on the premises as well as other additions to the warehouse including office space, a cafeteria and bathrooms.
+ Since December, Merrimack residents have been watching the site and seeking information from the government, The Boston Globe reported . The Merrimack Town Council sent a letter on Jan. 23 to the Department of Homeland Security to ask about the site.
+ The town council received a statement on Feb. 2 from Homeland Security that did not go into specifics about the project.
+ "Due to the heightened threat environment, and the unprecedented opposition being thrown up by the Left against ICE's efforts to effectuate mass deportations, ICE is unable to share details about any upcoming expansion in New Hampshire or elsewhere," the statement said.
+ No sale for the facility this year has yet to appear in New Hampshire public records. The last time the property was sold was in 2022.
+ ICE has looked to buy facilities in 23 cities and towns to detain up to 80,000 immigrants, The Post reported in December. ICE has plans to overhaul seven logistics centers in Texas, Louisiana, Arizona, Virginia, Georgia and Missouri.
+ In January, the department sought to turn a 1M SF warehouse, once designed for tech giant Amazon , in Hutchins, Texas, into a detention center that would hold up to 9,500 people .
+ On Monday, the owners of properties in Virginia and Oklahoma City canceled plans to sell sites to ICE following community pushback.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Department of Homeland Security 
+ , Diamond Realty Investments 
+ , ICE 
+ , Immigration and Customs Enforcement 
+ , New Hampshire 
+ , Trammell Crow Co 
+ , U.S. Immigration and Customs Enforcement 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Power Availability Becomes New Requirement For Shifting Bay Area Industrial Base
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ EXCLUSIVE: Industrial Outdoor Storage Investor Continues Buying Spree In Metro Atlanta
+ Amazon Building 1.2M SF Distribution Facility In Aurora
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Starwood, Realterm Fund Record Industrial Outdoor Storage Loan
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Rexford To Sell $1.2B Industrial Portfolio As Part Of Plan To Increase Dispositions 
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

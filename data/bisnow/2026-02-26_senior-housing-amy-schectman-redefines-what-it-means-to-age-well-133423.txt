@@ -1,0 +1,299 @@
+URL: https://www.bisnow.com/news/boston/senior-housing/senior-housing-amy-schectman-redefines-what-it-means-to-age-well-133423
+INDEX_DATE: 2026-02-26
+
+2Life CEO To Retire, Leaving Behind A Legacy Of Senior Housing Advocacy 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Senior Housing 
+ 2Life CEO To Retire, Leaving Behind A Legacy Of Senior Housing Advocacy 
+ February 26, 2026 | 10:33 am ET 
+ Taylor Driscoll, Boston 
+ Throughout her career in real estate, Amy Schectman has been drawn to work where she can solve problems.
+ At 2Life Communities , an affordable senior housing nonprofit, Schectman set out to make senior housing and community a priority, not just for wealthy individuals but for everyday people. What she thought would be a couple of years of hard work turned into a vocation that stretched for more than a decade and a half.
+ Schectman announced her retirement as CEO of 2Life Communities last month, with her tenure ending in October.
+ Courtesy of Alma Balonon-Rosen
+ Lt. Gov. Kim Driscoll, 2Life Communities' Amy Schectman, Executive Office of Housing and Livable Communities' Ed Augustus and Gov. Maura Healey.
+ "I never expected to stay 16 years," Schectman said. "What kept me there is realizing early on that for some reason, senior affordable housing wasn't a big issue on anybody's mind."
+ During her tenure, Schectman helped keep the company financially afloat and helped double its portfolio. She was also instrumental in shaping legislative recommendations and new funding avenues for senior housing projects.
+ "2Life became the place where we were not only doing good things but changing the conversation about aging," Schectman said.
+ Schectman's retirement comes at an inflection point for the senior housing space. There has been a major uptick in investment interest, with the alternative asset class remaining a stable option. People are living longer, and the need to live well in a community is beginning to outweigh the idea of aging in place.
+ "We've seen demand rise," Schectman said. "There's a demographic increase in the population, but we're also seeing that the population wants to understand what community life can be for them."
+ Senior housing transaction volume jumped 30% year-over-year, according to Cushman & Wakefield . Demand for this housing is reaching record levels as more baby boomers cross the age of 80. Despite this, inventory growth is at its lowest level since 2012, with new construction at a mere 2.3% of supply.
+ While Schectman welcomes new investment, she worries some investors will only chase dollars instead of a sense of mission. She hopes that an increase in investment and development comes with a focus on affordability, as all seniors should be given the chance "to age optimally," she said.
+ "As more people get into the market, are they getting into the market with the right level of commitment to serving folks well, to making sure people have the right support and respect that they need?" Schectman said.
+ In addition to 2Life, Schectman helped build Hebrew SeniorLife's first luxury multigeneration campus, NewBridge, in Dedham. She said it was the first time she became focused on learning how to age well and how to do it without the constraints that affordable housing developers usually face.
+ Courtesy of Alma Balonon-Rosen
+ Seniors gather at the state house for the Massachusetts Rental Voucher Program Cookie Day. The event was used to send a message to Massachusetts legislators about why they should support increasing funding for affordable housing
+ "When you're not under those resource constraints, as you always are in affordable housing, you learn a lot about what's best practice," Schectman said.
+ Massachusetts continues to fall behind its housing production goals, leading to major increases in rent growth and a widening gap for affordability.
+ That gap may be felt most acutely in the senior housing market. Although the Massachusetts affordable housing inventory is 38% age-restricted, there are roughly 18 affordable units available for every 100 elderly households, according to the Massachusetts Senior Housing Commission .
+ When Schectman began at 2Life in 2010, she realized that the company had no strategic plan or formal mission. Being a nonprofit, she knew it couldn't compete with the market. The company was also on shaky financial footing. One late federal payment could have risked default on loans, Schectman said.
+ "We articulated our mission as every older adult should have an opportunity to live a full life of connection and purpose and a dynamic, supportive environment with a laser-sharp focus on affordability, which we define as only going where the market fails," Schectman said.
+ She strengthened the nonprofit's balance sheet. Once it was back on stable ground, she began raising additional funds for new housing models. One of her accomplishments at 2Life was creating a model for affordable middle-income housing. Opus Newton opened in September .
+ The project was tricky for Schectman because, unlike other affordable housing projects, the nonprofit couldn't rely on low-income housing tax credits and certain public funding vehicles due to the strict income thresholds. Instead, Schectman's team was awarded $130M in MassDevelopment tax-exempt bonds purchased by Hamlin Capital Management.
+ The nonprofit then used a one-time down payment from residents between $400K and $900K, depending on the size of the unit, which went to pay off the construction loan. Without the loan, Schectman could keep monthly fees low.
+ Bisnow/Taylor Driscoll
+ 2Life Communities' Opus senior housing campus, pictured from the outdoor courtyard
+ Those figures seem high to be considered affordable for those outside of the Boston area, but the average home price in Newton  increased to $1.76M in 2025 .
+ Schectman said she hopes the model can be adopted at the state level, with interest in how to fill the gap for communities that haven't seen the same rise in home values as richer neighborhoods like Newton and Brookline.
+ Schectman is on the board for the state's Senior Housing Commission and has worked to make several recommendations to an administration she said has been more willing to keep senior housing in the conversation.
+ "Suddenly, you're seeing some of the people who never talked about housing before recognizing the importance of housing as a path to optimal aging," Schectman said.
+ She still has roughly eight months to go before she formally retires, and she is looking forward to soon breaking ground on Olmstead Village , a three-building, 287-unit apartment community in Mattapan .
+ 2Life President Lizbeth Heyer will step in as CEO after Schectman's retirement. Heyer has worked at 2Life for 14 years, leading the development, acquisition and renovation of more than 1,000 units.
+ As her time at 2Life draws to an end, Schectman hopes there will be more education for residents about their options for how to age well in a community.
+ "​​If I had a wish of what I would do after 2Life, I would go around the country helping people understand that senior housing is a first choice, not a last resort, and that they don't wait," Schectman said.
+ CORRECTION, FEB. 27, 2 P.M. ET: A previous version of this story misstated the private financing 2Life Communities received for Opus Newton. The story has been updated. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ 2Life Communities 
+ , Amy Schectman 
+ , Opus Newton 
+ , Senior housing 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Downtown Office Tower Secures $575M Refinancing
+ Senior Housing Buyers Are Paying Up, But Sellers Still Need Convincing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ With Illinois' Senior Population Set To Grow By 40%, Developers Are Facing A Financing Puzzle
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

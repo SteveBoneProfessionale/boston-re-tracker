@@ -1,0 +1,277 @@
+URL: https://www.bisnow.com/news/boston/multifamily/uk-investor-finances-first-u-s-development-in-boston-suburbs
+INDEX_DATE: 2026-08-12
+
+UK Investment Giant Funds First U.S. Development In Boston Suburb 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Multifamily 
+ UK Investment Giant Funds First U.S. Development In Boston Suburb 
+ August 12, 2026 | 4:28 pm ET 
+ Jon Banister, East Coast Editor 
+ A large British investment firm is breaking into U.S. real estate development in a town where its home country has some history: Concord, Massachusetts. 
+ Courtesy of L&G Asset Management
+ A rendering of the 201-unit project planned at 292-294 Baker Ave. in Concord
+ L&G Asset Management has acquired part of an office park at 292-294 Baker Ave., where it plans to begin construction this year on a two-building, 201-unit multifamily project, it announced Wednesday. 
+ It is partnering with Taurus Investment Holdings , a Boston-based firm that has advanced the project through the planning stages over the last three years. 
+ Taurus had told the Concord Select Board in March that it planned to break ground on the project by June, The Concord Bridge reported at the time. L&G now says it aims to begin construction in the fall. 
+ London-based L&G, a firm with more than $1T in assets under management, is funding the project through its institutional retirement division. While it is the first ground-up development the company has financed in the U.S., it has previously funded acquisitions of existing multifamily properties in Denver and Chicago. 
+ But its first development, remarkably, is in a town best known for being the site of the first military conflict of the American Revolution, kicking off the war that would result in independence for the United States of America from King George III and Great Britain.
+ The project sits to the west of the historic Concord Center and the Old North Bridge site where the battle took place.
+ L&G, one of the largest investors in UK commercial real estate, first expanded to the U.S. in 2022, and it told Bisnow in 2024 that it planned to accelerate its investments in the former colony. 
+ "This development opportunity is an important milestone for our US real estate platform," L&G Head of U.S. Real Estate Equity Alexia Gottschalch said in a statement Wednesday. "By acquiring the site and moving into construction on a high-quality multifamily community in 2026, we are expanding our presence in a supply-constrained Greater Boston market with a project that combines strong housing fundamentals, meaningful affordability and leading sustainability ambitions."
+ The Concord project is slated to set aside 25% of its 201 units as affordable under the state's Chapter 40B law. 
+ Officials in the wealthy suburb of 18,200 residents — with a $195K median household income — have been calling for more affordable housing in recent years. Concord passed a Housing Production Plan in late 2022, at which time it had 715 subsidized housing units. One other 40B project has moved forward since then: the 237-unit Residences at Thoreau from Pinebrook Group. 
+ The L&G-Taurus project is a half-mile from the West Concord MBTA commuter rail station. It is planned on the site of an office park that formerly housed the headquarters of grape company Welch's, which moved to Waltham last summer. The developers plan to demolish some of the vacant offices and add parking to the site before constructing the new five- and six-story buildings, The Concord Bridge reported. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Jon Banister 
+ at
+ jon.banister@bisnow.com 
+ Related Topics:
+ Concord 
+ , L&G 
+ , Taurus Investment Holdings 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Nuveen's C-PACE Fund Secures Over $1B, Its Biggest Raise Yet
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Aberdeen Goes Global With £700M Merged Fund
+ Data Center Deals Propel July CRE Sales Volume To Best Performance Since 2005
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ From Bankruptcy To $400M Buying Spree: Michael Shah's Rapid Comeback
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

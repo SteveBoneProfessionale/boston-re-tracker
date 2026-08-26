@@ -1,0 +1,280 @@
+URL: https://www.bisnow.com/news/boston/mixed-use/hym-investments-my-city-at-peace-push-back-on-citys-roxbury-site-takeover-132892
+INDEX_DATE: 2026-01-26
+
+Developers, Community Challenge Wu Over Roxbury P3 Reversal 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Mixed-Use 
+ Developers, Community Challenge Wu Over Roxbury P3 Reversal 
+ January 26, 2026 | 9:56 am ET 
+ Taylor Driscoll, Boston 
+ Boston Planning & Development Agency 
+ A Rendering Of Hym Investment And My City At Peace's Proposed Development On Parcel P3 In Roxbury.
+ The team behind a proposed public-private partnership redevelopment designation project in Roxbury has argued against Mayor Michelle Wu 's claim that it was economically unviable and pushed back against her decision to revoke development rights.
+ HYM Investment Group and My City At Peace asked city officials to reconsider plans announced earlier this month to take away the P3 designation from the group on the 8-acre site in a letter Thursday night, The Boston Globe first reported .
+ The development team had been working on a mixed-use life sciences and affordable housing project, but the city now said it would consider the site for the Madison Park Technical Vocational High School redevelopment instead.
+ The letter comes after Wu decided not to renew the team's designation, which is set to expire at the end of January.
+ The company said it was close to completing a finalized project budget and was in negotiations with the city over its term sheet. The team also said it has met its planning commitments to the Roxbury Strategic Master Plan Oversight Committee and the broader community.
+ The developers plan to host a listening session on Feb. 2 at the Twelfth Baptist Church in Roxbury to discuss the decision and invited Wu to attend.
+ The decision to change plans was announced on Jan. 13 during an RSMPOC meeting. The city's chief planner,  Kairos Shen , said the city considered using at least a portion of the site for a new school. The city recently won $700M in initial approvals for state funding for the school project.
+ The Wu administration argued the economics of the original project, which included roughly 700K SF of life sciences space that would help fund a 308-unit affordable housing component, weren't feasible. The life sciences market has continued to see a supply-and-demand imbalance, which has made it incredibly challenging for landlords across the market.
+ However, HYM argues the project is still viable and would be a huge loss for the community, which has longed for new opportunities and much-needed housing.
+ Roxbury community leaders have responded with anger and disappointment,  the Bay State Banner reported . Connie Forbes, who heads the Roxbury Neighborhood Council, an elected, state-created community body that weighs in on development and land-use issues, accused the city of disregarding rules seeking community input when it abruptly pivoted its plans for the parcel.
+ "The city is doing what it wants when it wants," Forbes told the Banner. "There's no oversight. There's no one to enforce agreements. The outcome is that there's no equity."
+ HYM and MyCAP won approval for the site in 2022 after Tishman Speyer dropped its bid. The proposal also included 45K SF of retail space.
+ The site has long sought redevelopment, being the city's largest contiguous parcel up for grabs. Over the past couple of decades, the site has been proposed for several projects, including a Partners Healthcare corporate office and a BJ's Wholesale Club store.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ HYM Investment Group 
+ , Michelle Wu 
+ , My City At Peace 
+ , P3 
+ , Roxbury 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Food And Beverage Increasingly Becoming Anchor In Mixed-Use Projects
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

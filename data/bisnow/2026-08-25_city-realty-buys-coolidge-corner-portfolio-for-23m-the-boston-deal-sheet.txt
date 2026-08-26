@@ -1,0 +1,290 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/city-realty-buys-coolidge-corner-portfolio-for-23m-the-boston-deal-sheet
+INDEX_DATE: 2026-08-25
+
+City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet 
+ August 25, 2026 | 6:54 pm ET 
+ Taylor Driscoll, Boston 
+ City Realty is expanding its Brookline holdings with a nine-building portfolio in Coolidge Corner.
+ Google Maps 
+ 26-28 Browne St. in Brookline
+ The Allston-based real estate developer acquired the mixed-use Coolidge Corner Collection portfolio for $23M from Ramon Realty, Colliers announced Tuesday. 
+ Colliers' Frank Petz, Tim McGeary, Brett Curtis and Matt Lombardi represented the seller in the deal.
+ The portfolio includes 49 residential units and three commercial spaces totaling 65K SF. It is 96% occupied.
+ The properties are located at 223 and 229-231 St. Paul St., 26-28 Browne St., 395-397 Harvard St., 7 Naples Road and 1343 Beacon St.
+ Colliers stated that the portfolio attracted strong attention from local, regional and national investors "despite uncertainty surrounding the proposed statewide rent-control ballot initiative." 
+ In May, City Realty secured Brookline town meeting approval to build a major mixed-use development along Route 9, including a 200-room hotel, 266 apartments and condos, medical office space and retail. The 5-acre site is located at 1280-1330 Boylston St.
+ SALES 
+ Wood Partners acquired health club The Thoreau Club at 275 Forest Ridge Road in Concord for $10M from the club's owners. The Atlanta-based firm filed a proposal in 2023 to build 237 residential units across two buildings on the 13.9-acre site. Wood Partners won approval for a comprehensive permit for the project in 2025.
+ ***
+ Life sciences developer Alexandria Real Estate Equities sold four lab condo units at 1 Hampshire St. in Kendall Square for $45M to Draper Labs. Alexandria bought the condo units in 2022 for $120M. Draper has a large presence in the area: Its headquarters is at 555 Technology Drive across the street, and it occupies other condo units in the Hampshire building on the top floors. 
+ ***
+ Oxford Properties acquired the 497K SF One Marina Park Drive in the Seaport from Clarion Partners for $435M . The office tower was 99% leased at the time of the sale. JLL's Coleman Benedict, Riaz Cassum, Scott Carpenter and Pat Shields brokered the deal.
+ ***
+ Breakthrough Properties sold its 232 A St. development site in South Boston back to P&G Gillette for $99M. The life sciences firm acquired the site in 2021 from P&G for $80M. The shaving company has plans to invest roughly $1B into the Fort Point neighborhood, and the 2.4-acre A Street site will act as its Grooming Headquarters and Technical Innovation Center. The sale was facilitated by CBRE's Jonathan Varholak.
+ Google Maps 
+ Gillette's World Shaving Headquarters In South Boston
+ FINANCING 
+ MassDevelopment issued a $45.7M tax-exempt bond on behalf of the Trustees of the Smith College. The bond will be used for a range of renovation projects on the college's Northampton campus. Renovations include HVAC and accessibility upgrades at the campus's Burton and Sabin-Reed sciences buildings and its Sage Hall building. Barclays sold the tax-exempt bond through a public offering.
+ ***
+ Barings provided a $73M loan to support Cross Ocean Partners and Lincoln Property Co.'s acquisition of 140 Kendrick St. in Needham, it announced this week. The joint venture acquired the property in December 2025 for $132M from BXP. The property is a three-building, interconnected campus totaling 409K SF across 14.3 acres. The site was 96% occupied at the time of acquisition, with notable tenants including shoemaker Clarks, investment firm Wellington Management and real estate firm Walker & Dunlop. 
+ CONSTRUCTION AND DEVELOPMENT 
+ Greystar and senior housing developer Harbert South Bay have joined the team to redevelop the Riverside Station lot in Newton, Fig City reported . The duo plans to redevelop four of the six buildings proposed on the site.
+ Greystar will take on the role as lead developer, developing two residential buildings and a parking garage. Harbert South Bay plans to construct two senior living facilities, and Mark Development will take on the remaining two multifamily buildings. The new changes will need Newton City Council approval before they can be implemented.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ City Realty Group 
+ , Colliers 
+ , Coolidge Corner 
+ , Frank Petz 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Olde Richmond Project Lands $20M Construction Loan: The Philadelphia Deal Sheet
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

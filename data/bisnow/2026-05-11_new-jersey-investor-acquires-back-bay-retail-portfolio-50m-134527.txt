@@ -1,0 +1,279 @@
+URL: https://www.bisnow.com/news/boston/retail/new-jersey-investor-acquires-back-bay-retail-portfolio-50m-134527
+INDEX_DATE: 2026-05-11
+
+New Jersey Investor Goes On $50M Back Bay Shopping Spree 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Retail 
+ New Jersey Investor Goes On $50M Back Bay Shopping Spree 
+ May 11, 2026 | 2:19 pm ET 
+ Taylor Driscoll, Boston 
+ The Real Estate Equity Co., a New Jersey investment firm, acquired several retail and office assets on Massachusetts Avenue and Newbury Street.
+ Google Maps 
+ 375 Newbury St.
+ Treeco acquired 93-97 Massachusetts Ave., 375 Newbury St. and 10 other retail and office suites across Newbury Street, according to May 8 public records. The firm paid $50M for the properties.
+ "Newbury Street is one of the premier retail corridors in the United States, with exceptional pedestrian traffic, strong surrounding demographics, and long-term barriers to entry," Treeco Managing Member Andrew Fish said in a statement. "We believe these properties represent irreplaceable real estate in a market that continues to attract leading retailers and consumers alike."
+ The seller, Kensington Investment Co., didn't respond to Bisnow 's request for comment.
+ The Massachusetts Avenue and Newbury Street corner property sits adjacent to Samuels & Associates' Lyrik mixed-use air rights project. It is home to furniture company Room & Board.
+ Kensington acquired the property in 2012, according to public records. The 39K SF property underwent extensive renovations in 2014, including a four-story addition, replacing the facade and adding a second-floor terrace.
+ With the purchase of the portfolio, Treeco also paid $9.5M for 108 Newbury, $8.2M for 292-296 Newbury St., and $5.3M for 304 Newbury St., according to public records.
+ The seller for those three deals was Linear Retail Properties.
+ The sales come on the heels of other notable Newbury Street acquisitions.
+ Last month,  Acadia Realty Trust and Osiris Ventures acquired 4-6 and 28 Newbury St. for $114M  from ASG . In July, ASG also sold 93-95 Newbury St. to Ralph Lauren  for $38M .
+ Treeco has more than $500M in properties across the Northeast. In April, the firm sold a Dick's Sporting Goods in Danvers for $16M .
+ CORRECTION, MAY 12, 11:30 A.M. ET: A previous version of this story incorrectly identified Treeco as the buyer in the Dick's Sporting Goods deal. The story has been updated. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Andrew Fish 
+ , Massachusetts Avenue 
+ , Newbury Street 
+ , The Real Estate Equity Co. 
+ , Treeco 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Olympic Retail Users Taking Early Look At LA 
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Dog Haus Pursues Major Expansion After Tapping Former Jersey Mike's Execs
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Nike Closes 15 Stores Amid Tumultuous Year
+ The Fast-Food Exec Taking Her Real Estate Talents To The Looksmaxxing Era
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ TJ Maxx Parent Plans To Accelerate Store Openings In 2027
+ Ashley's Frasers Sets £20B Real Estate Acquisition Target
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

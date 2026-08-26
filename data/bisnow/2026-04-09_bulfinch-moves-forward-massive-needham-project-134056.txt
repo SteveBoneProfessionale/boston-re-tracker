@@ -1,0 +1,277 @@
+URL: https://www.bisnow.com/news/boston/mixed-use/bulfinch-moves-forward-massive-needham-project-134056
+INDEX_DATE: 2026-04-09
+
+Bulfinch Moves Forward With Massive Needham Project 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Mixed-Use 
+ Bulfinch Moves Forward With Massive Needham Project 
+ April 9, 2026 | 10:30 am ET 
+ Taylor Driscoll, Boston 
+ Google Maps 
+ Muzi Ford Car Dealership In 2020
+ The owner of the former Muzi Ford car dealership site near I-95 in  Needham is ready to move its mixed-use plans forward.
+ The roughly 10-acre site once slated to be a lab project is now set to be home to a big mixed-use development, the Needham Observer reported . The new plans include up to 480 housing units, 100K SF of medical office space and 10K SF of retail space.
+ The Bulfinch Cos . President Robert Schlager presented the plans to the Needham Planning Board on Tuesday. The company seeks to pursue the project under a zoning overhaul for the site.
+ Schlager said the goal is to bring the project before a special town meeting in October and to move forward with the project soon after that. The site has sat stagnant for some five years.
+ The plan's housing portion could partly center around senior living, Schlager said.
+ "We believe that a multifamily concept to include senior living over age 55 that was emphatically stated and emphasized would prove to be most likely the highest and best use," Schlager said at the meeting, according to the Observer.
+ Bulfinch acquired the site at 557 Highland Ave. for $57.2M in late 2021. At the time, the firm planned to develop a life sciences space there, and it later won approval for a special permit for the project in 2022.
+ In June, Schlager  floated plans to pivot to a mixed-use development, but he didn't reveal many details at the time. Part of those discussions in June included the possibility of a hotel, but those plans have since been scrapped.
+ The project would also include 1,000 parking spaces.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Bulfinch Cos 
+ , Medical Office Building 
+ , Needham 
+ , Robert Schlager 
+ , Senior housing 
+ , The Bulfinch Cos. 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ MG Developer Faces 6 Lawsuits Alleging Millions In Overdue Debt
+ Senior Housing Buyers Are Paying Up, But Sellers Still Need Convincing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

@@ -1,0 +1,281 @@
+URL: https://www.bisnow.com/news/boston/economic-development/massachusetts-high-court-rules-325m-dollar-boston-soccer-stadium-project-proceed
+INDEX_DATE: 2026-08-19
+
+State's High Court Allows $325M Boston Soccer Stadium Project To Proceed 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Economic Development 
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed 
+ August 19, 2026 | 2:37 pm ET 
+ Jon Banister, East Coast Editor 
+ The legal battle over a stadium being built for a professional women's soccer team in Boston's Franklin Park has come to an end. 
+ Boston Planning Department 
+ A rendering of the new White Stadium for a National Women's Soccer League team in Franklin Park
+ The Massachusetts Supreme Judicial Court on Wednesday ruled in favor of the city and the private partnership behind the project in a lawsuit filed by the environmental nonprofit Emerald Necklace Conservancy and a group of residents. 
+ The joint venture, Boston Unity Soccer Partners, has been planning to renovate the 1940s-era White Stadium since 2023 so it can host the National Women's Soccer League 's Boston Legacy FC. 
+ The team had hoped to open the stadium in time for its debut in the league this year, but project delays led Boston Legacy FC to begin playing in March at Gillette Stadium . 
+ The plaintiffs first filed their lawsuit in February 2024, arguing that the project to rebuild the stadium violated state laws for protecting parklands. A Suffolk Superior Court judge ruled in favor of the project in April 2025, but the plaintiffs then appealed to a higher court. 
+ The partnership continued to work on the stadium project during the appeal process and received criticism from the plaintiffs for doing so, WBUR reported .
+ The Supreme Judicial Court ultimately ruled that the plaintiffs didn't have standing to sue over the administration of the George Robert White Fund, a charitable trust created in 1947 that allowed the city to build the original stadium. 
+ It also ruled against the plaintiffs' claim that the site is public parkland that should be prohibited for use by a private soccer team. It said a pair of laws in 1947 and 1950 "effectively removed the stadium parcel from its previous designation as parkland."
+ The team also secured a major financing victory in September when it obtained a $100M loan from Bank of America for the stadium project, a deal that Mayor Michelle Wu hailed as a "landmark financing agreement."
+ The stadium will also host Boston Public Schools athletic contests. 
+ The city has pledged to cover $135M of the project's total cost, which has risen substantially over the last three years to $325M, The Boston Globe reported . 
+ The project includes rebuilding the stadium's west grandstand, installing a new grass field and an eight-lane track, and expanding community space and public restrooms. 
+ "The Court's decision clears the way for completing the White Stadium renovation and delivering a world-class facility that will serve our community for generations, and sets a national standard for youth athletics and professional women's soccer," team owner Jennifer Epstein said, according to the Globe. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Jon Banister 
+ at
+ jon.banister@bisnow.com 
+ Related Topics:
+ Bank of America 
+ , Boston Legacy FC 
+ , Franklin Park 
+ , Michelle Wu 
+ , National Women's Soccer League 
+ , White Stadium 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Downtown Office Tower Secures $575M Refinancing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Aerospace And Defense Company Opens 60K SF Facility In Arvada
+ How Pearland, Texas, Is Redefining Workforce Development
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ How Addison, Texas, Upholds Its Regulatory Standards And Keeps Building Projects Moving Forward
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ 'Quality Of Place': One Inland Empire City's Manual For Smart Growth
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

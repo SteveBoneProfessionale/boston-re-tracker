@@ -1,0 +1,292 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/international-law-firm-relocates-to-south-station-tower-the-boston-deal-sheet-135601
+INDEX_DATE: 2026-07-28
+
+Law Firm Relocating To South Station Tower: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Law Firm Relocating To South Station Tower: The Boston Deal Sheet 
+ July 28, 2026 | 6:41 pm ET 
+ Taylor Driscoll, Boston 
+ Global law firm Greenberg Traurig LLP signed a lease to relocate from the Boston office it has called home for 27 years.
+ Bisnow/Jon Banister
+ Hines' South Station Tower In Downtown Boston
+ The firm signed a nearly 80K SF lease at South Station Tower and is expected to relocate in late 2027, landlord Hines announced Tuesday.
+ The lease is roughly 20K SF larger than the law firm's current office at Chiofaro Cos.' One International Place, The Boston Globe reported . The law firm has 3,200 attorneys across the globe, with 51 offices in the U.S., Europe, the Middle East, Latin America and Asia.
+ At South Station Tower, Greenberg Traurig joins tenants including JPMorgan Chase, which signed a 250K SF lease ; FM Global, which signed a 57K SF lease ; and Citadel, which signed an 11K SF lease.
+ The mixed-use tower was completed in 2025 and consists of 680K SF of office space and 166 luxury condominiums. The tower includes a nearly 1-acre Sky Park and three food and beverage concepts.
+ "Greenberg Traurig's decision to relocate its Boston office to the tower underscores the demand for thoughtfully designed, highly amenitized workplaces that foster collaboration, support employee well-being and position companies for long-term growth," Hines Senior Managing Director Sarah Hawkins said in a statement.
+ SALES 
+ Stockbridge Capital Group acquired a 17K SF warehouse at 3 Furlong Drive in Revere  for $45M. The property, which is used for FedEx drop-offs and pickups, is near the Suffolk Downs development and last sold for $38M in 2022.
+ ***
+ American Healthcare REIT acquired a 92-unit senior living center at 240 South Road in Bedford for $50M, according to public records. The seller in the deal was LCB Senior Living. The Residences at Bedford opened in 2024  with more than half of the units committed.
+ ***
+ The Seyon Group acquired a two-building industrial portfolio in Marlborough for $28M, according to public records. The buildings are at 261 Cedar Hill St. and 753 Forest St. The portfolio is 100% leased to several tenants, including Mitutoyo America Corp., Fastenal Fulfillment Center and Endless Energy.
+ The acquisition is part of Seyon's launch of Seyon Industrial Fund II. The firm is raising capital for the fund and has completed other deals in Connecticut and Maryland.
+ FINANCING 
+ MassDevelopment issued a $4M tax-exempt bond on behalf of Glen Urquhart School Inc. to build a 4K SF facility at the school's Beverly campus. Rockland Trust purchased the bond. The one-story facility will feature a classroom, administrative space, a conference room and reception space. Construction is underway and is expected to be completed in May 2027.
+ PERSONNEL 
+ CBRE
+ CBRE's Eric Jeremiah
+ CBRE hired Eric Jeremiah as vice president of the company's Greater Boston suburban office team. Jeremiah will focus on tenant and landlord representation. Before the new role, Jeremiah worked at Newmark, representing tenants in the suburban office and industrial leasing sector. He graduated from Middlebury College.
+ CONSTRUCTION AND DEVELOPMENT 
+ The Massachusetts Department of Transportation released an invitation to bid for the redevelopment of a 20-acre waterfront property along the Taunton River. The Route 79 Davol site is next to the Fall River Depot commuter rail station. The site could be home to a large-scale mixed-use development. Proposals can be submitted through Oct. 21.
+ ***
+ Dallas-based Alexan proposed a four-building, 520-unit apartment complex adjacent to the North Quincy MBTA station, the Boston Business Journal reported . The two office towers on the site would be demolished to make way for the apartments. The office buildings are owned by FoxRock Properties and Atlantic Management. Alexan, which is part of Trammell Crow Development, has apartment communities in Chelmsford, Peabody, Waltham and Worcester.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Citadel 
+ , FM Global 
+ , Hines 
+ , International Place 
+ , JP Morgan 
+ , South Station 
+ , South Station Tower 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Olde Richmond Project Lands $20M Construction Loan: The Philadelphia Deal Sheet
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

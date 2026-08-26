@@ -1,0 +1,314 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/south-boston-property-owners-submit-75m-bid-keep-development-site-boston-deal-sheet-133781
+INDEX_DATE: 2026-03-23
+
+Auction Clears Path For Development On Contested Dorchester Avenue Properties: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Auction Clears Path For Development On Contested Dorchester Avenue Properties: The Boston Deal Sheet 
+ March 23, 2026 | 1:05 pm ET 
+ Taylor Driscoll, Boston 
+ The legal battle over a group of vacant warehouses in South Boston may have come to a close after they were auctioned off Tuesday.
+ Google Maps 
+ One Of The 10 Vacant Sites J.t. Magen & Co. And Extell Development Bid On During A Tuesday Auction.
+ J.T. Magen & Co. and Extell Development retained ownership of a portfolio of vacant warehouses and seafood plants along Dorchester Avenue with a $75M auction bid on the properties, The Boston Globe reported . The investors, alongside The HYM Investment Group, plan to develop housing on the parcels.
+ JJManning Auctioneers held the auction at the site Tuesday.
+ "The results of this auction create a clear path to move forward," a spokesperson for Extell and J.T. Magen & Co. said in a statement. "We have partnered with The HYM Investment Group to help us execute on finally delivering much-needed housing on this long-underutilized stretch of Dorchester Avenue."
+ The auction is the most recent chapter of the duo's fight against developer Andrew J. Collins. The two companies have argued they are owed $150M from a shell company operated by Collins.
+ Collins faces a dozen lawsuits from at least 11 investors  in state and federal courts  over allegedly unpaid debts.
+ Plans for the site haven't been formally submitted to the city for review yet.
+ SALES 
+ MassDevelopment sold the site of the former Keystone building at 193-197 Union St. in New Bedford for $3.2M.
+ An entity linked to One Circle Co. acquired the site with plans to build a 42K SF mixed-use building. The project would include 45 market-rate housing units.
+ Construction is set to begin this month, with an eye toward completion in the summer of 2027.
+ ***
+ Netflix star Emma Hernan and her family opened a 28K SF manufacturing facility in Hingham for her frozen food brand Coast to Coast Kitchen, the  Boston Business Journal reported .
+ Hernan bought the facility for $4.6M, and the family plans to invest another $3M to expand the space. The facility will employ 50 people.
+ LEASES 
+ Google Maps 
+ Cummings Properties' 340 Fordham Road in Wilmington
+ German automation firm Sew-Eurodrive signed a 4K SF lease at Cummings Properties' 340 Fordham Road in Wilmington. The location will serve as the company's regional training and administrative center and is the company's first in the state.
+ Cummings' Steve Cusano and Moore Commercial's Derek Cotoni worked on the deal.
+ ***
+ JPMorgan Chase  signed a 250K SF lease  across more than eight floors at the 51-story South Station tower. Roughly 700 employees will move into the space, and the company plans to hire another 300 workers at the office.
+ The financial giant will join Jones Day, Citadel and FM Global at the 680K SF office portion of the tower. The building also includes 166 condos on the top floors.
+ ***
+ Triveni Bio signed a lease for the top floor of Boylston Properties' 100 Forge in Watertown, the  BBJ reported . The life sciences company will join Mariana Oncology, Vigil Neuroscience and Remix Therapeutics at the property.
+ The company is moving from 99 Coolidge Ave. in Watertown.
+ FINANCING 
+ MassDevelopment issued a $15M tax-exempt bond on behalf of Old Dartmouth Historical Society to expand the New Bedford Whaling Museum. The expansion would include a two-story welcome center and exhibition space, a 20K SF build on an adjacent property, and a 6K SF gallery.
+ Construction began in January and is expected to be completed in the spring of 2027.
+ M&T Bank purchased the bond and provided a $5M commercial loan to support the project.
+ PERSONNEL 
+ Cabot Properties made a series of appointments and promotions across its C-suite.
+ The company promoted Kara Brown to chief administrative officer, Justin Harvey and Mike McCarthy to co-chief investment officers of Cabot's value funds, Damian Bailey to chief investment officer of Cabot's core funds, and Charlie Forbes to vice chairman of investment committees.
+ ***
+ Ted Landsmark has stepped down from his role as a board member at the Boston Planning & Development Agency.
+ Landsmark has served on the board since 2014, overseeing several of the developments that shaped the city's skyline, including the transformation of the Seaport District. He was also part of the team that approved more than 60,000 units, a quarter of which are income-restricted.
+ CONSTRUCTION AND DEVELOPMENT 
+ Google Maps 
+ Synergy's 255-unit office-to-residential conversion project at 280-300 Washington St. secured approval.
+ The Boston Planning Department approved Synergy's 255-unit office-to-residential conversion at 280-300 Washington St . in downtown Boston. The project would include 52 income-restricted units. The space will retain its retail space on the ground floor.
+ ***
+ The Worcester Zoning Board of Appeals voted to advance a proposal for a 19-story apartment tower at 56 Pleasant St. in Worcester, MassLive reported . Radson Development proposed the project, which would include 225 apartments.
+ The proposal will head to the city's Planning Board for review.
+ ***
+ Leggat McCall Properties has made changes to its plans for a 107-acre mixed-use project in Woburn, the  BBJ reported .
+ Instead of building a 900K SF manufacturing facility, the developer plans to double down on housing development with more than 500 units. Many of the units will be restricted to buyers 55 and older.
+ The change will require a zoning amendment from the city.
+ ***
+ Greatland Realty Partners shared plans to develop a 121-acre project adjacent to the Massachusetts State Police Crime Laboratory in Marlborough, Community Advocate reported . The plan calls for the construction of several properties, including a 200K SF, four-story lab building, 400 units of housing and almost 3,200 parking spaces.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Extell Development 
+ , J.T. Magen & Co. 
+ , South Boston 
+ , The HYM Investment Group 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

@@ -1,0 +1,279 @@
+URL: https://www.bisnow.com/news/boston/office/waterfront-property-up-for-sale-after-proposed-hotel-redevelopment-135576
+INDEX_DATE: 2026-07-27
+
+Boston Waterfront Property Planned For Hotel Project Put Up For Sale 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Office 
+ Boston Waterfront Property Planned For Hotel Project Put Up For Sale 
+ July 27, 2026 | 5:52 pm ET 
+ Taylor Driscoll, Boston 
+ The owner of a vacant office property on Boston's waterfront that was previously proposed for redevelopment has listed it for sale.
+ Google Maps 
+ Jaj Investment Group Acquired 400 Atlantic Ave. For $30M From Ubs.
+ Luxembourg-based JAJ Investment Group has listed a 100K SF property at 400 Atlantic Ave. for sale, according to a CBRE listing . The investment firm paid $30M for the property in 2024  and filed a hotel proposal in January.
+ The owner had bought the property for roughly $20M less than what previous owner  UBS  paid for it in 2024.
+ CBRE 's Boston capital markets team is marketing the property as a "generational value-add opportunity." The listing, first reported by Banker & Tradesman , mentions the site is suitable for hotel, residential and office developers.
+ The project JAJ had proposed would transform the office building into a 113-room boutique hotel. The proposal also includes roughly 7K SF of space designated for a restaurant and bar. The plans didn't cite a specific hotel operator or restaurant.
+ The development team had planned to begin construction in December, but the plans haven't received approval, according to the Boston Planning Department website .
+ The listing also mentions the property is being offered for sale "free and clear of existing debt." The property is on the waterfront, within walking distance of South Station.
+ The six-story "jewel-box" property was completed in 1890 and renovated in 1984. The property has been home to several tenants, including engravers, printers and law firm Goulston & Storrs until it moved to the renovated One Post Office Square in 2023.
+ The property is also exempt from the state's Chapter 91 law , which protects public access to coastal and inland waters and requires public benefits from waterfront projects, according to CBRE's listing.
+ However, the owner of the property is expected to maintain a 15-foot walkway on the waterfront side of the property.
+ JAJ has done similar redevelopments in Europe, including the conversion of a historic property in Lisbon, Portugal, into the 61-room Palácio de Ludovice hotel and a Paris office property into an apartment and hotel complex.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Boston Waterfront 
+ , CBRE 
+ , Hotel sector 
+ , JAJ Investment Group 
+ , Office CRE 
+ , UBS 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Tishman Speyer Lining Up $340M Refi Of 2.4M SF Chicago Office Complex
+ Dutch Office Investment Leaps — But The Conversion Play Runs Out Of Road
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Cross Ocean Partners, Fuller Realty Acquire 829K SF Houston Office Campus
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ NYC Office Investor Warns It Could Go Under As Defaults Pile Up
+ Deutsche Bank Takes 5 Floors At Oaktree And Quadrant's Canary Wharf Scheme
+ Coconut Grove Office Flipped For $15M Gain After One Year
+ D.C.'s Office Market Is Getting A Makeover
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

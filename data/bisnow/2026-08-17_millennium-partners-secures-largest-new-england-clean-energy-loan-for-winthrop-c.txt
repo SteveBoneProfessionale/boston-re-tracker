@@ -1,0 +1,281 @@
+URL: https://www.bisnow.com/news/boston/capital-markets/millennium-partners-secures-largest-new-england-clean-energy-loan-for-winthrop-center-tower
+INDEX_DATE: 2026-08-17
+
+Millennium Partners Lands $281M Loan For Winthrop Center Tower 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Capital Markets 
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower 
+ August 17, 2026 | 4:17 pm ET 
+ Taylor Driscoll, Boston 
+ A 691-foot mixed-use tower in the Back Bay has closed a deal that represents New England's largest-ever loan using a growing green financing program. 
+ Google Maps 
+ MP Boston's Winthrop Center at 115 Federal St.
+ Millennium Partners obtained $281M from Nuveen Green Capital through Property Assessed Clean Energy Massachusetts — the state's version of the C-PACE program — for the residential portion of the Winthrop Center tower, the companies announced Friday.
+ The landlord said the financing allows it to capitalize on the sustainability investments it has made to the building and "reinforces Winthrop Center's position as one of the world's most environmentally advanced mixed-use developments."
+ "For more than three decades, Millennium Partners has been committed to creating transformative developments that redefine urban living while delivering long-term value for our communities," Millennium Partners founder Christopher M. Jeffries said in a statement. 
+ "Winthrop Center is a reflection of that commitment, and this financing through the PACE Massachusetts program recognizes the investments we have made in energy efficiency while providing long-term capital that supports the building's enduring performance," he added.
+ The development was built to the rigorous Passive House sustainability standard. The Millennium Residences at Winthrop Center includes 317 condominium units, and the project's 800K SF office portion represents the world's largest Passive House office building. 
+ Millennium Partners broke ground on the $1.4B project in 2018 and opened the tower in 2023.
+ PACE Massachusetts gives financing to developers to make energy upgrades. Eighty-nine Massachusetts cities and towns are part of the program. MassDevelopment administers the program with guidance from the Massachusetts Department of Energy Resources. 
+ The two entities revised guidelines in June for new construction and expanded the eligibility and approval for projects in the program. The new guidelines also helped to streamline applications and the approval processes.
+ Across the country, C-PACE financing has ramped up over the past couple of years, with the program increasingly supporting big loans for large-scale developments. 
+ C-PACE lending jumped from $2.2B in 2020 to $9.72B in 2024, according to PACENation. Nuveen Green Capital itself closed on $1.4B in capital commitments in 2025 compared to $75M in 2017.
+ At the end of last year, Post Brothers landed a $465M C-PACE loan for its 525-unit office-to-residential conversion in Washington, D.C. The loan, also provided by Nuveen Green Capital, was the largest originated under the program's 18-year history.
+ C-PACE has been in play in Massachusetts since 2016, but adoption has been limited. Industry players have said that though the financing model looks attractive on paper, the execution and pricing of the loans aren't as competitive.
+ "We've looked at it in the past, and I think for the projects I looked at, the interest rate was eight and a half percent," WinnCos . Vice President of Energy and Sustainability Darien Crimmin said at a Bisnow event last month. "When we needed financing, we were able to get cheaper financing from another source, or just use reserves, or some combination of third-party and property reserves."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ C-Pace Financing 
+ , MassDevelopment 
+ , Millennium Partners 
+ , Nuveen Green Capital 
+ , Winthrop Center 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Nuveen's C-PACE Fund Secures Over $1B, Its Biggest Raise Yet
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Aberdeen Goes Global With £700M Merged Fund
+ Data Center Deals Propel July CRE Sales Volume To Best Performance Since 2005
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ From Bankruptcy To $400M Buying Spree: Michael Shah's Rapid Comeback
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

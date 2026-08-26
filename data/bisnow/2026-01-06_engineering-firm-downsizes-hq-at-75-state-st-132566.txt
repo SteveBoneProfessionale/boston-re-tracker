@@ -1,0 +1,276 @@
+URL: https://www.bisnow.com/news/boston/office/engineering-firm-downsizes-hq-at-75-state-st-132566
+INDEX_DATE: 2026-01-06
+
+Engineering Firm Downsizes HQ At DivcoWest, Rockpoint Office Building 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Office 
+ Engineering Firm Downsizes HQ At DivcoWest, Rockpoint Office Building 
+ January 6, 2026 | 9:44 am ET 
+ Taylor Driscoll, Boston 
+ Wikimedia Commons/Solarapex 
+ Cdm Smith Renewed A Portion Of Its Lease At Divcowest And Rockpoint Group's 75 State St.
+ An architecture and engineering firm will be taking up 27K SF less at Rockpoint and DivcoWest 's 75 State St. with its renewed lease at the building.
+ CDM Smith downsized its lease from 120K SF to 93K SF at the 31-story, approximately 840K SF office building in the Financial District. The renewal occurred in the fourth quarter, according to a Savills report released this week.
+ The firm originally signed its six-floor lease at 75 State St.  in 2015  after moving on from a 180K SF lease at BioMed Realty Trust 's 50 Hampshire St. in Cambridge.
+ DivcoWest and CDM Smith didn't respond to Bisnow's requests for comment.
+ An entity linked to Rockpoint acquired the property for $635M from Brookfield Properties in 2019. As part of the deal, Rockpoint and DivcoWest also assumed a 2015 mortgage on the property with an outstanding balance of $310M, Banker & Tradesman reported .
+ The building is home to other tenants like Rights Protection Law Group, Prime Moving Boston, Santander Bank and L.E.K Consulting, which renewed and expanded its 78K SF lease in 2019.
+ DivcoWest has been active in the Boston office market over the last year, unveiling $100M in upgrades at its 1.1M SF One Lincoln in October and acquiring a 13-story, 245K SF Back Bay office building for $125M in November .
+ Rockpoint has been transitioning out of its office portfolio, putting its 853K SF 75-101 Federal St. office building up for sale in March .
+ The firm has been acquiring multifamily and industrial properties, including the 919-unit Altitude Apartments in Malden in April , The Morgan at Provost Square in New Jersey in October , and a 102K SF flex manufacturing building in North Carolina in September .
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ 75 State St 
+ , CDM Smith 
+ , DivcoWest 
+ , Rockpoint 
+ , Rockpoint Group 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Tishman Speyer Lining Up $340M Refi Of 2.4M SF Chicago Office Complex
+ Dutch Office Investment Leaps — But The Conversion Play Runs Out Of Road
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Cross Ocean Partners, Fuller Realty Acquire 829K SF Houston Office Campus
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ NYC Office Investor Warns It Could Go Under As Defaults Pile Up
+ Deutsche Bank Takes 5 Floors At Oaktree And Quadrant's Canary Wharf Scheme
+ Coconut Grove Office Flipped For $15M Gain After One Year
+ D.C.'s Office Market Is Getting A Makeover
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

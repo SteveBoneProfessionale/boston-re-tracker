@@ -1,0 +1,300 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/developers-acquire-588-unit-apartment-complex-for-245m-the-boston-deal-sheet-132683
+INDEX_DATE: 2026-01-12
+
+Developers And College Acquire 588-Unit Apartment Complex For $254M: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Developers And College Acquire 588-Unit Apartment Complex For $254M: The Boston Deal Sheet 
+ January 12, 2026 | 1:13 pm ET 
+ Taylor Driscoll, Boston 
+ Merrimack College acquired a North Andover apartment complex spanning 76 acres for $254M with the help of two Greater Boston developers.
+ Google Maps 
+ Merrimack College in North Andover
+ Sal Lupoli and Atlantic Management acquired the 588-unit, garden-style Royal Crest Apartments from Chicago-based LivCor, Banker & Tradesman reported . Barings provided a $200M loan for the acquisition. The property, completed in 1971, spans 76 acres.
+ Before the sale, Merrimack leased apartments on the property for dorm space, according to  WHAV, which first reported the sale . The property was part of the college's redevelopment plans in 2021 , but those prior plans fizzled out.
+ The acquisition comes as the college is also working on another housing project in partnership with Greystar. The project will include 540 beds spanning two buildings on its campus. The residence halls will be the largest increase to the college's on-campus housing stock since 2015.
+ The property previously traded for $93.5M in 2002 when it was acquired by Aimco.
+ SALES 
+ Solar developer NextGrid acquired the Maplegate Country Club for $25M, the Boston Business Journal reported . The developer plans two 15-megawatt solar arrays on the course after its closure. The solar field could power up to 6,000 homes in the region.
+ ***
+ An entity linked to Houston-based Hines acquired 160 Fawcett St. in Cambridge for $12M from Cabot, Cabot & Forbes, according to public records. The parcel is home to a single-story commercial property.
+ The property is close to Healthpeak Properties' proposed $4.5B mixed-use development . In April, Hines joined the development team  for that project, focusing on multifamily aspects of the proposed development.
+ ***
+ Greystar acquired 100-110 West St. in Needham for $40M from Welltower, according to deed records. The developer plans to develop a 189-unit apartment building and secured $70M in financing from MUFG Bank to start construction, BBJ reported .
+ The project falls under the state's MBTA Communities law and is adjacent to the town's Needham Heights commuter rail stop.
+ LEASES 
+ Wikimedia Commons/Solarapex 
+ CDM Smith renewed a portion of its lease at DivcoWest and Rockpoint Group's 75 State St.
+ CDM Smith signed a 93K SF lease at Rockpoint and DivcoWest's 75 State St., taking up 27K SF less space than during its prior lease. The firm originally signed its six-floor lease at 75 State St. in 2015.
+ ***
+ Griffith Properties secured two lab leases totaling 50K SF at its 101K SF 20 Maguire Road in Lexington. The tenants are medical products company Convatec, which plans to take up 24K SF, and Nortiva Bio, which plans to occupy 23K SF. The property has 25K SF left to lease up. CBRE's Alex Plaisted and Don Domoretsky represented Griffith Properties in the negotiations.
+ ***
+ EverybodyFights signed a 28K SF lease at Hood Park in Charlestown. The gym has other locations at 25 Drydock Ave. in the Seaport and 1 Federal St. in Downtown Boston.
+ The new locations include training and class space, an infrared sauna, locker rooms and a dedicated member lounge.
+ FINANCING 
+ Northland Investment landed $220M in construction financing for its mixed-use project in Newton Upper Falls, B&T reported . The project includes 822 housing units and 96K SF of retail space. The first phase of the project will include two buildings, 315 units of housing and one acre of green space.
+ ***
+ MassDevelopment issued a $4M tax-exempt bond and a $7.7M taxable bond on behalf of an entity linked to fence manufacturer Premier Fence to relocate its operations to Middleborough.
+ The company plans to use the bond proceeds to acquire four 20K SF properties at 370 Wareham St. Construction began in October 2025 and is expected to be completed in February.
+ Cambridge Savings Bank purchased the bonds.
+ PERSONNEL 
+ Rachel Heller will leave her role as CEO of CHAPA after nine years. She will become the next executive director of Massachusetts Housing Partnership. Heller will continue in her current role until the last week of February, with Chief Operating Officer Maritza Crossen stepping in as interim CEO.
+ CONSTRUCTION AND DEVELOPMENT 
+ An affiliate of Boston-based GFI Partners proposed a 258K SF, 197-unit apartment complex close to Polar Park baseball field in Worcester, MassLive reported . The project would be located at the corner of Green Island Boulevard and Lamartine Street.
+ GFI has opted to pay more than $1M to the city's Affordable Housing Trust rather than include affordable housing units.
+ GFI estimates construction will be completed by 2027.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Atlantic Management 
+ , Merrimack College 
+ , North Andover 
+ , Sal Lupoli 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

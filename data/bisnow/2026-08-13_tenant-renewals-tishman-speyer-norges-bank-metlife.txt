@@ -1,0 +1,298 @@
+URL: https://www.bisnow.com/news/boston/office/tenant-renewals-tishman-speyer-norges-bank-metlife
+INDEX_DATE: 2026-08-13
+
+'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Office 
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market 
+ August 13, 2026 | 7:49 pm ET 
+ Taylor Driscoll, Boston 
+ Beth DiVecchia had an assignment: find a new office for The Brattle Group, a consulting firm that has been based at One Beacon St . since 2017.
+ The 10-year lease was set to expire next year, and DiVecchia, Brattle's vice president of operations, was hunting for a deal in Boston's Financial District, where the office market still hasn't fully recovered from the pandemic.
+ Google Maps 
+ One Beacon St. in Boston's Financial District
+ She toured around a dozen spaces and landed on a surprising winner: staying at One Beacon after landlords MetLife and Norges Bank offered concessions and allowed Brattle to contract from 60K SF to 42K SF on the 26th and 27th floors of the tower, which has 360-degree views of the city and is steps from the Government Center MBTA station.
+ "The landlord wanted us to stay, and so we felt like in the end, they gave us a really good deal and it worked for us," said DiVecchia, who declined to give specifics on the deal terms.
+ The Brattle Group's renewal, which hasn't been previously reported, was a common story in Boston this spring and summer. CBRE found that 51% of second-quarter leasing activity, totaling 583K SF, came via renewals. That is up from 17% of leases in the first quarter and 17% in Q2 2025. 
+ Of the eight largest leases CBRE tracked in Q2, six were renewals, including the top three: CIC's 118K SF lease at 50 Milk St., Autodesk's 73K SF lease at 21-25 Drydock Ave., and Audley Travel's 48K SF lease at 77 N. Washington St.
+ These tenants are choosing to stay in place despite a wide array of options to relocate — Boston's office market has an 18.7% vacancy rate. 
+ The rising cost of building out new space and tenants' ability to leverage the slow market for better lease terms with their existing landlords are driving the stay-put trend, office market players told Bisnow . 
+ For owners, the renewals are a sign of triumph as they battle with developers of newer buildings that seek to benefit from the "flight-to-quality" trend. Existing landlords have increasingly competed by investing money in their buildings and adding new amenities to compete with the new development. 
+ Last month, Tishman Speyer announced lease extensions with five tenants totaling nearly 150K SF at 125 High St ., its newly renovated, 1.5M SF building in the Financial District.
+ Renewals in the building included law firm MG+M's 44K SF extension and investment banking company William Blair keeping its 20K SF office.
+ Tishman Managing Director Jeffrey Moore said part of the reason the firm captured so many renewals was the constant engagement the company had with tenants. He said the majority of these are long-term occupants of 125 High St., and they occupy space in Tishman buildings in other markets.
+ "It's a competitive environment," Moore said. "We're not in the business of losing our customers. We want to address their needs as early on as possible."
+ One of the largest drivers Moore pointed to was the firm's investment in its growing amenities.
+ Google Maps 
+ Tishman Speyer's 125 High St.
+ In 2018, the firm expanded its Zo amenity package to 125 High St ., which includes a variety of amenities, including daycare, wellness, pet care, ride-sharing and food delivery. Since the pandemic-driven office downturn, Tishman has doubled down on its perks.
+ The landlord doubled the size of its gym, opened a sixth-floor clubhouse and outdoor terrace, and set up a golf simulator, Moore said. From outdoor Pilates to a summer rosé soirée, Moore said his team has found ways to keep the amenity spaces interesting for customers.
+ "We're constantly upgrading our amenities," Moore said. "We got above what the standard would be, but it's really in the people that we have working these amenities and making sure that they're engaging with our customers." 
+ "They're planning properly, because a lot of these amenities do sit there and get stale," he added.
+ Other landlords of older buildings have been following suit to attract tenants, including DivcoWest , which is spending $100M renovating the 1.1M SF One Lincoln office tower, and The Chiofaro Cos.' renovation at its 1.8M SF International Place .
+ The shine of a new amenity space isn't the only reason tenants aren't packing their bags. Construction costs remain among the largest expenses associated with moving for tenants. 
+ Boston had one of the highest year-over-year increases in office build-out costs nationwide, rising 19% from 2025, according to Cushman & Wakefield . Total costs for an average build-out reached $213.28 per SF in 2026, up from $178.77 the year prior.
+ "If it's a full build-out, that's a huge delta between relocating to a space that needs construction," Avison Young Senior Vice President Kirk Weller said. "A lot of landlords haven't gotten to the point where they're going to increase [tenant improvement] allowances that much to make up for that."
+ Most long-term tenants that secured leases before the pandemic don't even make it into the market, as they opt to renew early and lock in cheaper rents.
+ Asking rents in the central business district have fallen by 5.5% over the past four years, from $72.81 per SF in Q2 2022 to $68.83, according to CBRE data.
+ Across the Financial District, there is a glut of space, notably on the top floors of office towers across the neighborhood. There are at least 14 buildings in the district with 25K SF available on the 20th floor or higher, Boston Realty Advisors Managing Director Wil Catlin posted on LinkedIn , citing CoStar data. 
+ With the preponderance of desirable space, tenants are negotiating better terms and, especially for larger tenants, saving millions of dollars. Weller said a recent proposal he received included $300 per SF in TI allowances, something he said he didn't see pre-pandemic.
+ "If they're my client, we are going to the landlord early to negotiate and restructure an early renewal," Weller said. "They're not even going to make it into the market to go look at relocating."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ 125 High St 
+ , Avison Young 
+ , Jeffrey Moore 
+ , MetLife Investment Management 
+ , Norges Bank Real Estate Management 
+ , One Beacon St 
+ , Tishman Speyer 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Tishman Speyer Lining Up $340M Refi Of 2.4M SF Chicago Office Complex
+ Dutch Office Investment Leaps — But The Conversion Play Runs Out Of Road
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Cross Ocean Partners, Fuller Realty Acquire 829K SF Houston Office Campus
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ NYC Office Investor Warns It Could Go Under As Defaults Pile Up
+ Deutsche Bank Takes 5 Floors At Oaktree And Quadrant's Canary Wharf Scheme
+ Coconut Grove Office Flipped For $15M Gain After One Year
+ D.C.'s Office Market Is Getting A Makeover
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

@@ -1,0 +1,300 @@
+URL: https://www.bisnow.com/news/boston/affordable-housing/mass-developers-see-more-possibilities-under-federal-lihtc-expansion-133807
+INDEX_DATE: 2026-03-24
+
+Mass. Developers See More Possibilities Under Federal LIHTC Expansion 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Affordable Housing 
+ Mass. Developers See More Possibilities Under Federal LIHTC Expansion 
+ March 24, 2026 | 4:51 pm ET 
+ Taylor Driscoll, Boston 
+ When a new federal law expanded the number of subsidies available for affordable housing, it also scrambled the equations of putting together capital stacks for such projects in Massachusetts.
+ Courtesy of WinnCos.
+ The Mission Main Public Housing Complex In Boston's Roxbury Crossing Neighborhood. 
+ The One Big Beautiful Bill Act, signed into law July 4 , expanded affordable housing subsidies with the goal of increasing the development pipeline for these projects.
+ The increase in subsidies has opened up opportunities for more dealmaking and funding for affordable housing to the supply-constrained state, said Massachusetts developers and lenders who spoke at  Bisnow 's Boston Affordable Housing Summit.
+ However, with this expansion comes more competition and complexity, they warned.
+ Under the OBBBA , 9% low-income housing tax credit allocations saw a permanent 12% increase in the number of each state's per capita credit ceiling.
+ It is estimated that Massachusetts will receive an additional $3M in 2026 because of this, according to the state's Executive Office of Housing and Livable Communities .
+ Bisnow/Taylor Driscoll
+ MKA Architecture's Michael Kim, M. O'Connor Contracting's Krystal Burrows, WinnCos.' Adam Stein, Boston Communities' Marie Morisset, The Community Builders' Laura Martin and Evolution Sustainability Group's Jack Robbins.
+ WinnCos.  President Adam Stein said the increase to the 9% LIHTC credit, which finances some 70% of eligible project costs, has become "the most effective tool we have for the creation of affordable housing."
+ In addition, the new law allows more developers to qualify for 4% credits by cutting the tax-exempt private activity bond financing requirements in half. Having these tax credits tied to the bonds creates a cap, as states are limited by how many of those bonds they can allocate annually.
+ Developers now only need to have 25% of their project costs funded by such bonds to qualify, when in the past, the threshold was 50%.
+ This creates more possibilities, MassHousing Senior Director of Capital Deployment Kathleen Evans said.
+ "It allows us to touch more deals," Evans said, speaking at the Marriott Long Wharf Hotel in Boston during the summit. "Our pipeline has probably doubled."
+ Before the last decade, 4% LIHTC deals were used mainly for preservation and rehabilitation. More recently, they have been increasingly used in new construction, Evans said. With the expansion, however, the agency has more flexibility to fund both preservation projects and new developments.
+ Bisnow/Taylor Driscoll
+ Rockland Trust's John Quintal, Massachusetts Housing Investment Corp.'s Moddie Turay, Masshousing's Kathleen Evans, Red Stone Equity Partners' Nick Keefe, Related Beal's Nick Boehm And Sullivan & Worcester's Karen Kepler.
+ "We're actually seeing that we have a lot more space in our pipeline to bring back those preservation deals," Evans said.
+ These increases in subsidies have allowed larger government-backed lenders to double their cap and invest more in affordable housing. The expansion is luring more developers and investors into affordable housing projects, Stein said. The increased competition adds pressure to an already time-strapped process.
+ As a result, Stein said his company has to take on more risks, whether that's buying property without fully lining up financing or signing on contractors early to hold onto favorable pricing.
+ "We're spending money to keep these deals moving forward, hoping that the deal will close at a certain point and we can catch up. But if we don't do that, all bets are off," Stein said.
+ The deals are getting bigger as well. Keefe said $50M or $100M deals, which once seemed unusual, are now becoming commonplace.
+ Bisnow/Taylor Driscoll
+ Stantec's Julio Guevara, WaypointKLA's Mark Rollins, Cruz Development Corp.'s Daniel Cruz Jr., Groom Construction's Dave Groom and DHK Architects' Fernando Domenech.
+ Massachusetts Housing Investment Corp.  CEO Moddie Turay said a lot of big deals are happening outside of Boston in parts of Western and Southern Massachusetts that didn't see that type of equity in the past. Although this is exciting, he said he has had to learn to balance the geographic possibilities with the fact that Boston remains an investment focal point.
+ "How are we balancing that out when a lot of investors are now hyperfocused on trying to be in the Boston MSA?" Turay said.
+ Heightened subsidy availability has also put downward pressure on pricing for LIHTC equity projects, Red Stone Equity Partners Senior Vice President Nick Keefe said.
+ "With such a large supply of credits and a reduced demand, investors are being more particular about the types of projects they choose to pursue and the sponsors they work with," he said.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Adam Stein 
+ , LIHTC 
+ , Low-income housing 
+ , Low Income Housing Tax Credits 
+ , Massachusetts Housing Investment Corp 
+ , MassHousing 
+ , Moddie Turay 
+ , Nick Keefe 
+ , One Big Beautiful Bill Act 
+ , Red Stone Equity Partners 
+ , WinnCos 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ After Departing Trump Admin, HUD's Former Philly Head Joins Local Planning Commission
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ To Rein In Costs, Philly Affordable Housing Players Look To Become 'Less Reliant On Consultants'
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

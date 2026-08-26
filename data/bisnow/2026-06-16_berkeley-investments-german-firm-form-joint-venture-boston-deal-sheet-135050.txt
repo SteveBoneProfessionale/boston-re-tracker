@@ -1,0 +1,289 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/berkeley-investments-german-firm-form-joint-venture-boston-deal-sheet-135050
+INDEX_DATE: 2026-06-16
+
+Berkeley Investments, German Firm Form Joint Venture: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Berkeley Investments, German Firm Form Joint Venture: The Boston Deal Sheet 
+ June 16, 2026 | 2:03 pm ET 
+ Taylor Driscoll, Boston 
+ As other investors are becoming weary of Boston, a German firm is seeing opportunities.
+ Google Maps 
+ Berkeley Investments' Exchange 200 In Malden
+ German real estate company Garbe formed a strategic joint venture with Berkeley Investments, the Boston company announced Monday. The new venture will be called Berkeley Garbe LLC and will target multifamily, industrial and infrastructure investments. The pair didn't reveal how much they intend to invest.
+ The JV will focus on the New England region initially but plans to expand across the Northeast. It will be led by Berkeley founder Young Park.
+ The partnership is Garbe's entry into the U.S. The firm has 21 offices in 14 countries, including Singapore and the United Arab Emirates.
+ The Hamburg-based company manages a portfolio of more than 85M SF across three business lines: Garbe Industrial, Garbe Reside and Garbe Infrastructure. The firm has more than $17B in assets under management.
+ Berkeley has acquired, developed and sold more than 18M SF across Greater Boston, including 200 Exchange in Malden, The Charley in Allston and the Waltham Watch Factory in Waltham.
+ SALES 
+ An entity linked to James T. Construction Co. acquired the roughly 71K SF North Reading Landing redevelopment site in North Reading for $7.3M. Grocery chain owner Ahold Delhaize USA was the seller. The property is partially occupied by Ocean State Job Lot on a short-term lease. The main structure was previously occupied by Stop & Shop. Atlantic Capital Partners' Justin Smith, Sam Koonce, Chris Peterson, Steve Tomasello and Leslie Cotter represented the seller and secured the buyer.
+ ***
+ Jamestown acquired an 11-story office building at 18 Tremont St. for $29.5M, according to deed records. The building sold at a 71% discount, with seller Mai Luo having bought it for $103M in 2019. The sale closed on June 9. The property is also home to 20K SF of ground-floor retail.
+ LEASES 
+ Google Maps 
+ Samuels & Associates' Lyrik office tower in the Back Bay
+ International food service firm Affinity Group Food Services signed a nearly 13K SF lease at Cummings Properties' Bedford Woods office buildings in Bedford. Cummings' Rob Yacobian and Affinity's Enzo Dentico and Jack Mooney worked on the transaction. The 330K SF, two-building property is at 174 and 176 Middlesex Turnpike.
+ ***
+ International law firm Weil, Gotshal & Manges LLP officially opened its 37K SF office at Samuels & Associates' Lyrik Back Bay. The firm is relocating from a 28K SF office at 1001 Boylston St. The firm has also secured additional space in the building as it plans a phased growth strategy over the next year.
+ FINANCING 
+ Tremont Asset Management landed a $44.5M construction loan for a 145-unit multifamily development at 259 Lenox St. in Norwood. The project is a five-story residential community with 20% of the units set aside as income-restricted. Beacon Bank originated the loan. The project also has 169 parking spaces, an outdoor pool, a fitness center and coworking spaces. Colliers' Patrick Boyle, Matt Lombardi Jr. and Rose Liu represented the borrower.
+ PERSONNEL 
+ The Community Builders appointed Morgan Wilson as chief of systems and strategy and Alexa Ducote as chief financial officer. Wilson's role is new and will require him to oversee information technology and business information systems teams. Ductore will oversee strategy and operations for financial management and accounting.
+ CONSTRUCTION AND DEVELOPMENT 
+ Allston Brighton Commercial Development Corp., Schochet and several city and state officials celebrated the redevelopment of the Warren Hall building in Brighton. The project will convert the property at 329-337 Washington St. into 35 units, two Americans with Disabilities Act-compliant apartments and commercial space.
+ ***
+ The Healey-Driscoll administration released an offering memorandum for the  redevelopment of a two-building, state-owned campus in Government Center. The two buildings are the Erich Lindemann Mental Health Center and the Charles F. Hurley building. The state plans to release a call for offers this summer to find a developer that will prioritize historic preservation, adaptive reuse and housing production on the site.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Berkeley Investments 
+ , Garbe 
+ , Young Park 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

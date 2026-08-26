@@ -1,0 +1,299 @@
+URL: https://www.bisnow.com/news/boston/economic-development/with-a-bump-in-defense-spending-massachusetts-reaches-for-a-bigger-slice-of-the-pie-135459
+INDEX_DATE: 2026-07-16
+
+With Bump In Defense Spending, Massachusetts Reaches For A Bigger Slice Of The Pie 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Economic Development 
+ With Bump In Defense Spending, Massachusetts Reaches For A Bigger Slice Of The Pie 
+ July 16, 2026 | 6:37 pm ET 
+ Taylor Driscoll, Boston 
+ Massachusetts has long been at the forefront of innovation, from early internet companies to the biotech boom to emerging sectors like green energy and artificial intelligence. Now, it is looking to step up its game on defense.
+ President Donald Trump 's administration has increased defense spending to record levels, and as the conflict in Iran rages on, Massachusetts officials are laying the foundation to take advantage of a wave of defense contractors looking to grow their footprints.
+ Though Trump and Massachusetts officials haven't always seen eye to eye, state leaders are optimistic that the increased federal budget can help boost the local economy. In October, the Healey-Driscoll administration launched  the Strategic Hub for Innovation, Exchange and Leadership in Defense — SHIELD — as an umbrella initiative to foster and grow the state's defense sector.
+ Pexels/Ernie Adams 
+ "We really saw an opportunity with the federal government making stronger investments in the defense space," Lt. Gov. Kim Driscoll said in an interview with Bisnow this week. "It just seemed like the perfect opportunity for us to leverage private sector academia, our bases."
+ Earlier this month, SHIELD released a report finding that the defense sector brought $50B to the Massachusetts economy in fiscal year 2024, roughly 7% of its overall GDP. That outpaced the $42B in that year  from the state's leading life sciences sector.
+ Massachusetts ranked No. 10 in the country in overall defense spending in FY 2024, bringing in $16.6B from the federal government, according to the U.S. Department of Defense . It ranked No. 8 in spending specifically to defense contracting firms.
+ Since taking office early last year, Trump has been sharply increasing the defense budget. Congress approved a record $901B for FY 2026, and Trump in April proposed increasing that to $1.5B for next year — though Congress is still debating it.
+ Defense-related companies are now expanding their real estate footprints with offices and industrial projects.
+ In June, advanced metal manufacturing company VulcanForms proposed building  a $1.3B, 1M SF manufacturing facility in Devens for medical, aerospace and defense uses. The project is projected to bring on more than 1,000 new employees. VulcanForms has two other manufacturing plants in Massachusetts: in Devens and Newburyport.
+ Gov. Maura Healey  said in a statement about VulcanForms' plan that it is a "testament to the important work of our SHIELD Initiative and commitment to making Massachusetts a global leader in the defense tech industry."
+ In April, GE Aerospace invested $42M in its Lynn manufacturing facility, part of the company's broader $1B investment to expand manufacturing across the United States. The facility designs, produces, assembles and tests military aircraft engines and components.
+ Last year, AI defense company  Anduril  quadrupled its Greater Boston footprint with  a 162K SF lease  at  BXP 's 1050 Winter St. office building.
+ Flickr/Asher Ben-Dashan/Governor's Press Office 
+ Lt. Gov. Kim Driscoll discussing the 2026 SHIELD report with the Massachusetts Technology Collaborative on July 2.
+ Cybersecurity firm Systems Technology Research has been based at 600 W. Cummings Park in Woburn for more than a decade, and it is preparing to double in size over the next couple of years as government needs continue to change, Senior Corporate Real Estate, Facilities and Operations Executive Paul Grasso said.
+ "Our business lines are changing, and what the government is looking for, in terms of drones and autonomous vehicles, requires a much larger footprint for us, different types of space, outdoor testing capabilities, stuff we weren't necessarily hyperfocused on a couple of years ago," Grasso said at a Bisnow event in May.
+ The state is already home to many defense contractors, especially those that rely on technology, biopharmaceuticals and advanced manufacturing to deliver products to the U.S. military.
+ The state benefits from its elite higher education institutions like the Massachusetts Institute of Technology , which established a research lab in 2020 to develop technologies for improving chemical and biological defense. MIT brought in $1.4B in defense contracts in Massachusetts in FY 2023, according to the DOD.
+ The defense sector is also drawn to Massachusetts' military bases , including Hanscom Air Force Base in Bedford and Joint Base Cape Cod. The U.S. Army also operates the Natick Soldier Systems Center and has a training facility in Devens.
+ RTX Corp. and General Dynamics , which ranked No. 2 and No. 3, respectively, in defense contract money received nationally in FY 2024, each have a presence in Massachusetts.
+ RTX, previously known as Raytheon Technologies , was founded in Cambridge in 1922 , and Massachusetts remains one of its largest hubs for employment. Last year, the company broke ground on a $53M, 23K SF expansion of its Lower Tier Air and Missile Defense Sensor production facility in Andover.
+ Google Earth 
+ RTX Corp.'s Andover campus
+ General Dynamics leases a 300K SF Taunton facility that sold last year to Morgan Stanley , and it has locations in Pittsfield, Quincy and Dedham.
+ The state is now working to build on this foundation. With the new SHIELD initiative, Driscoll said the administration has been focused on attracting companies by marketing the state's educational assets, its innovation economy and its advanced manufacturing capabilities.
+ "We already had a strong defense industry here," Driscoll said. "This ecosystem existed, but it didn't have a maestro the way life science does, or our healthcare does, or even our higher ed facilities do."
+ Retired U.S. Air Force Gen. Timothy Ray, who leads the Business Executives of National Security, said Massachusetts' defense sector will benefit from other companies that haven't historically been tied to defense contracting, like pharmaceuticals and research institutions.
+ "You're sitting on an embarrassment of riches of capability, and it is so important that we make good use of that for the country," said Ray, who has also supported the SHIELD initiative.
+ The state's increased focus on the defense sector comes as Massachusetts' top industries like  life sciences , education and green energy  have become targets of the Trump administration.
+ "It's really not a political thing — it is a survival thing," Ray said. "This task force is [meant] to begin to knit all this together in a coherent fashion, in a way that gives Massachusetts a very firm foundation going forward."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Anduril 
+ , GE Aerospace 
+ , General Dynamics 
+ , Kim Driscoll 
+ , Massachusetts Institute of Technology 
+ , Maura Healey 
+ , Raytheon Technologies 
+ , RTX Corp. 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Aerospace And Defense Company Opens 60K SF Facility In Arvada
+ How Pearland, Texas, Is Redefining Workforce Development
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ How Addison, Texas, Upholds Its Regulatory Standards And Keeps Building Projects Moving Forward
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ 'Quality Of Place': One Inland Empire City's Manual For Smart Growth
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Jackson Far Outraising Bottoms In CRE Donations In Georgia Governor's Race
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

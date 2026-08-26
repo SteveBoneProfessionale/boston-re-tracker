@@ -1,0 +1,305 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/bxp-sells-downtown-boston-apartment-building-boston-deal-sheet-133474
+INDEX_DATE: 2026-03-02
+
+BXP Sells Downtown Boston Residential Building For $55M: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ BXP Sells Downtown Boston Residential Building For $55M: The Boston Deal Sheet 
+ March 2, 2026 | 3:45 pm ET 
+ Taylor Driscoll, Boston 
+ BXP has sold an apartment building in downtown Boston as part of its disposition strategy.
+ Google Maps 
+ Bxp Sold An Apartment Building At 530 Atlantic Ave. In Downtown Boston For $55M.
+ The office REIT sold The Lofts at Atlantic Wharf, comprising 86 units, to an entity linked to AEW Capital Management, according to a Feb. 26 deed record. The property at 530 Atlantic Ave. is 100% leased, according to a LinkedIn post .
+ Newmark represented BXP.
+ "This closing is yet another indication of strong institutional demand for high quality multifamily assets in Boston," Newmark Executive Managing Director Thomas Greeley wrote on LinkedIn. "The Lofts' sale is also a validating trade for well executed, thoughtful office conversions and their ultimate liquidity."
+ The property includes almost 13K SF of retail that is home to Italian restaurant Nebo and Mediterranean restaurant Trade.
+ The apartment building is part of a mixed-use project known as Atlantic Wharf, an adaptive reuse project completed in 2011.
+ The deal is the latest in a string of sales BXP has executed  to shore up capital for new development, including the 930K SF 343 Madison Ave. in New York City.
+ In December, the REIT sold a 280-unit apartment complex in Cambridge to Pembroke for $170M . That same month, BXP sold a 409K SF office campus in Needham for $132M .
+ SALES 
+ Wingate acquired the 59-unit Residences at Pleasant Bay in Brewster for an undisclosed amount, according to a press release. The owner plans to partner with a designer to revitalize the property.
+ The property includes a wellness center, an on-site bistro and a saltwater lap pool.
+ ***
+ Boston investment firms Eastern Real Estate and Taurus Investment Holdings acquired a 303-unit Revere Beach apartment portfolio for $45M following an auction, the Boston Business Journal reported . The firms secured a $29M mortgage from the Bank of New England for the three-building property known as Water's Edge.
+ Two of the three properties on the site are vacant due to a fire and violations of fire and safety codes.
+ ***
+ An entity linked to LaSalle Investment Management acquired a medical office building at 485 Arsenal St. for $32M, according to a Feb. 27 deed record. The seller was Boylston Properties.
+ Atrius Health and Harvard Vanguard Medical Associates are tenants in the building.
+ LEASES 
+ Google Maps 
+ Workbar is expanding in Harvard Square with a 10K SF lease at 50 Church St.
+ Workbar will open its 12th Greater Boston coworking space at 50 Church St. in Harvard Square,  the BBJ reported . The 10K SF location will be in the same building as The Sinclair music venue and Harvard's Derek Bok Center for Teaching and Learning.
+ Trinity Property Management is the property owner and plans to invest in the building's lobby, facade and other renovations.
+ FINANCING 
+ Preservation of Affordable Housing and Housing Assistance secured roughly $40M in financing for its affordable housing community  in Brewster. The firm secured the financing through multiple sources, including Rockland Trust, Massachusetts' Executive Office of Housing and Livable Communities, and community preservation committee funds from six surrounding Cape Cod towns.
+ The funding will support the development of 45 units across seven buildings at 55 Spring Rock Village.
+ PERSONNEL 
+ Dan Karp joined Marcus & Millichap's Boston office as associate director. Karp will focus on expanding the firm's investment sales platform throughout New England. Karp will work alongside Harrison Klein.
+ Prior to joining Marcus & Millichap, Karp held senior roles at KEW Management Group, Northmarq and CBRE.
+ CONSTRUCTION AND DEVELOPMENT 
+ Brookline Planning Board 
+ Nordblom Development Co. filed plans for a 103-unit apartment complex near Brookline's Coolidge Corner. 
+ Nordblom Development Co. proposed to redevelop a parking lot at 26 Pleasant St. in Brookline into 103 apartments. The project would also set aside 15% of the units as affordable and include 60 parking spaces for residents.
+ On-site amenities would include a fitness center, a package and mail room, a community lounge and work-from-home offices. The project would need to go through approval from Brookline's town meeting process before it can begin construction.
+ ***
+ Atlanta-based Wood Partners filed plans to build a 288-unit apartment building near Doherty Memorial High School in Worcester, MassLive reported . The apartment building would be at 1-3 Suburban Road and would consist of six four-story buildings with 48 units in each.
+ ***
+ The city of Somerville issued a request for proposals for a 4-acre site at 90 Washington St. near its East Somerville MBTA Green Line station. The city is looking for a developer to engage in a mixed-use project on the site, including housing, ground-floor retail and public open space. 
+ The Somerville Redevelopment Authority purchased the site for $8.8M in 2019. Proposals are due April 10, and a final development partner will be selected by July 13.
+ CORRECTION, MARCH 3, 1 P.M. ET: A previous version of this story misstated the name of the larger mixed-use project that encompasses The Lofts At Atlantic Wharf. The story has been updated. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ AEW Capital Management 
+ , Atlantic Wharf 
+ , BXP 
+ , Newmark 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Olde Richmond Project Lands $20M Construction Loan: The Philadelphia Deal Sheet
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

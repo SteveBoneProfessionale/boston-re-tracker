@@ -1,0 +1,296 @@
+URL: https://www.bisnow.com/news/boston/office/boston-office-leaders-say-market-is-under-demolished-stronger-than-vacancy-rate-shows-134649
+INDEX_DATE: 2026-05-19
+
+Boston Office Market's Big Problem? Not Enough Demolition, Execs Say 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Office 
+ Boston Office Market's Big Problem? Not Enough Demolition, Execs Say 
+ May 19, 2026 | 2:01 pm ET 
+ Taylor Driscoll, Boston 
+ Though the recovery of the Boston-area office sector continues to feel slow, top players in the market say it's doing better than the data suggests.
+ Overall vacancy ticked up in the first quarter to 18.5%, but eight of the city's 19 submarkets either held steady or posted improvements, according to Cushman & Wakefield . These improvements are being seen by some market leaders, who say the vacancy rate reflects the city's vast stock of obsolete buildings and that tenant demand for top-tier buildings is robust.
+ Brokers, landlords and tenants speaking Thursday at Bisnow 's Boston Office and Workplace event — held at the Blue Sky Center campus in Burlington — said that as companies continue to seek more office space, and as less-desirable buildings are redeveloped to other uses, a healthier market will appear.
+ Bisnow/Taylor Driscoll
+ Israel & Weiner's Michael Rosen, Analog Devices' Robert Griffin, Bxp's Patrick Mulvihill, Fogarty Finger's Minyoung Hong, Cushman & Wakefield's John Boyle Iii, North Colony Asset Management's Brian Antonellis And Ukg's Jon Proffitt
+ "We have an under-demolished market," Cushman & Wakefield Executive Vice Chairman  John Boyle  said. "We just have buildings that need to come down, and they do affect the color of the market."
+ Boyle said there is 43M SF of available office space in the region, much of which is in buildings that are likely to never see office tenants again. But tenants are still active in the market. They are just targeting higher-quality buildings in downtown Boston and the close-in suburbs.
+ "You think 43M SF of available space, and you think, 'Boy, that's a terrible time to own real estate,' and that's not necessarily true," Boyle said. "There is certainly high demand for high-quality space, but there's just a lot of space available."
+ He added that, for some new office buildings, rents for recent deals have reached "unprecedented" levels.
+ In the first quarter, downtown office users flocked to Class-A space, which captured 76.6% of the deal volume, according to Cushman & Wakefield. Class-A offices fetched premiums of nearly $21 per SF over Class-B buildings.
+ CBRE 's data also shows a disparity in how the market segments are performing. Class-A offices in the central business district and Back Bay last quarter recorded positive net absorption of 97K SF, while the Class-B and C segments in those submarkets posted net occupancy losses of 125K SF.
+ The largest deal last quarter was  JPMorgan Chase 's  250K SF lease  at Hines'  South Station Tower , which came after the financial giant instituted a five-day in-office mandate. This month,  TD Bank  doubled its footprint  at 2 International Place to 39K SF, while requiring workers to come in four days a week.
+ Bisnow/Taylor Driscoll
+ Newmark's Matthew Malatesta, Pramand's Nick Svencer And Systems & Technology Research's Paul Grasso.
+ BXP Senior Vice President Patrick Mulvihill said the office REIT spent $40M building out an amenities center at its 200 Clarendon St. office tower in the Back Bay. That submarket had the lowest vacancy rate in the city last quarter at 15.9%, according to Cushman.
+ "In the city of Boston, the Back Bay, things are performing very well," Mulvihill said.
+ "I would agree with what people are saying, the fight to quality thing, it seems like an overused term these days, but we are experiencing it, and we're leaning into it in a big way," he added.
+ At the firm's other Back Bay property, 111 Huntington Ave., Troutman Pepper Locke LLP signed a 57K SF lease renewal last quarter, according to Cushman's quarterly report.
+ The available space is also beginning to be erased by adaptive reuse projects around the Boston area.
+ Last week, four office-to-residential conversion projects were approved, totaling 434 housing units across the city, the Boston Business Journal reported . In total, nearly 1,800 units have been proposed, are under construction or have been completed.
+ Suburban office parks are also increasingly being eyed  for housing. Mulvihill said certain suburban markets have seen rising demand and decreasing supply due to the space coming offline for redevelopment.
+ Bisnow/Taylor Driscoll
+ Interface's Colleen Wallace, SGA's Gable Clarke, Lee Kennedy Co.'s Rose Conti, Nordblom's Crosby Nordblom and Paradigm Properties' Kris Galletta.
+ "In Waltham, which is where most of our suburban portfolio is, the supply of office is actually decreasing significantly, which is helping the fundamentals," Mulvihill said. "If I look ahead five, seven or 10 years, the quality of the product of Waltham is going to be much better."
+ BXP's suburban portfolio includes its 1.5M SF mixed-use City Point campus, its 393K SF Winter Street properties and its 546K SF Bay Colony campus.
+ As tenants are bringing employees back to the office, some say they need to have a presence in the city and the suburbs.
+ Analog Devices in 2018 moved into its headquarters at 804 Woburn St. in Wilmington, consolidating operations from offices in Norwood and Chelmsford. The firm also has a space in downtown Boston at 125 Summer St.
+ "It's a balance between people and cost," Analog Devices Director of Real Estate Robert Griffin said. "For us, the majority of the space is out in the suburbs. It's cheaper space. There's more room for us there, but ultimately, we have to maintain that office in downtown Boston."
+ Suburban properties have attracted tenants who are looking for more space at more attractive prices. These areas are also becoming more attractive for scouting new talent, as employees want to work closer to where they live.
+ "There's a lot of migration into core submarkets like Waltham and Burlington," Mulvihill said. "There's a period of time right now where folks that otherwise couldn't afford being in Waltham are now doing it. They want to be there for talent, for access, etc., because getting back to the office is so important."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ BXP 
+ , Cushman & Wakefield 
+ , John Boyle 
+ , Office leasing 
+ , Patrick Mulvihill 
+ , Route 128 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Tishman Speyer Lining Up $340M Refi Of 2.4M SF Chicago Office Complex
+ Dutch Office Investment Leaps — But The Conversion Play Runs Out Of Road
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Cross Ocean Partners, Fuller Realty Acquire 829K SF Houston Office Campus
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ NYC Office Investor Warns It Could Go Under As Defaults Pile Up
+ Deutsche Bank Takes 5 Floors At Oaktree And Quadrant's Canary Wharf Scheme
+ Coconut Grove Office Flipped For $15M Gain After One Year
+ D.C.'s Office Market Is Getting A Makeover
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

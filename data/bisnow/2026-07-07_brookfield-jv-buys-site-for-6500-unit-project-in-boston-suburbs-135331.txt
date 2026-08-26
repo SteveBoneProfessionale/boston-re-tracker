@@ -1,0 +1,281 @@
+URL: https://www.bisnow.com/news/boston/mixed-use/brookfield-jv-buys-site-for-6500-unit-project-in-boston-suburbs-135331
+INDEX_DATE: 2026-07-07
+
+Brookfield JV Buys Site For 6,500-Unit Project In Boston Suburbs 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Mixed-Use 
+ Brookfield JV Buys Site For 6,500-Unit Project In Boston Suburbs 
+ July 7, 2026 | 4:40 pm ET 
+ Jon Banister, East Coast Editor 
+ The long-stalled redevelopment of a former naval air base 15 miles south of Boston is ready for takeoff.
+ A joint venture of Brookfield Properties and New England Development  paid $65M to acquire part of the 1,400-acre site of the former South Weymouth Naval Air Station, the companies announced Tuesday.
+ Courtesy of New England Development
+ The 1,400-Acre South Weymouth Naval Air Station Site, With Existing Residential Development In The Foreground And Future Construction Sites In The Background.
+ The team is proposing a massive development on the site that would include 6,500 housing units plus 2M SF of commercial space, saying it would make it the largest residential and commercial project in the state.
+ The JV didn't say exactly how large a piece of the base was included in this deal, but a spokesperson told  Bisnow  it has now acquired or secured the rights to acquire 1,300 of the site's 1,400 acres. Its release included statements from several elected officials celebrating the sale as a key milestone for efforts to redevelop the site.
+ "This redevelopment will create thousands of new homes, support good-paying jobs and transform a long-underutilized site into an engine of opportunity for the South Shore," Gov. Maura Healey  said in the release.
+ The developers acquired the parcel from lender  Washington Capital Management , which had taken control of the site from prior owner LStar Ventures in 2019 after its redevelopment efforts stalled,  Banker & Tradesman reported . The air base closed in 1997, and more than 1,000 residential units have been built by prior developers.
+ The Southfield Redevelopment Authority selected the Brookfield and New England Development venture as the new master developer  in early 2020 .
+ The team sought a much larger development on the site than the 2,855 units that were allowed under previous zoning. In November, the state legislature approved new zoning guidelines,  The Boston Globe reported  at the time. The developers had previously received approvals from the three local jurisdictions in which the former base sits: Weymouth, Abington and Rockland.
+ Weymouth received a $32.5M grant  from the state in August for infrastructure improvements for the site, including water service, sewers and roads.
+ The project would preserve more than 880 acres of the former base to provide open space, recreational opportunities and wildlife habitat, the team stated.
+ The developers expect to begin work this fall on infrastructure improvements.
+ "We are excited to be moving forward with the Base—a project that will have significant benefits to the towns of Weymouth, Rockland and Abington, as well as the region, and will create job and housing opportunities so urgently needed in the Commonwealth," New England Development Executive Vice President John Twohig said in a release.
+ Based in Boston, New England Development has built many projects across the region over the past 50 years, including the CambridgeSide Mall redevelopment , Allston Yards and Chestnut Hill Square. New York-based Brookfield is one of the largest commercial real estate investors in the world,  with $277B  in assets under management.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Jon Banister 
+ at
+ jon.banister@bisnow.com 
+ Related Topics:
+ Brookfield Properties 
+ , Maura Healey 
+ , New England development 
+ , Rockland 
+ , South Weymouth Naval Air Station 
+ , Weymouth 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Food And Beverage Increasingly Becoming Anchor In Mixed-Use Projects
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

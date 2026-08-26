@@ -1,0 +1,287 @@
+URL: https://www.bisnow.com/news/boston/life-sciences/jll-finds-remarkable-change-greater-bostons-lab-demand-135380
+INDEX_DATE: 2026-07-10
+
+JLL Finds 'Remarkable Change' In Greater Boston's Lab Demand 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Life Sciences 
+ JLL Finds 'Remarkable Change' In Greater Boston's Lab Demand 
+ July 10, 2026 | 4:41 pm ET 
+ Taylor Driscoll, Boston 
+ The life sciences real estate sector in Greater Boston still has a deep hole to dig out of, with millions of square feet of lab buildings sitting vacant, but a new report shines a positive light on the future of the market's demand.
+ Google Maps 
+ Sanofi Renewed Its 900K Sf Lease In Cambridge Crossing.
+ The number of tenants looking for space in the region increased from 28 to 49 from the first quarter to the second, according to  JLL 's latest market report, which called this a "remarkable change" in demand.
+ "I think Q2 is a bit of an inflection point in the market cycle," JLL Director of Boston Research Mark Bruso said. "All of the evidence is saying, 'Listen, there is a lot of tenants out there looking for space, the most we've had in four or five years. And they're going to eventually sign deals, and they're going to chip away at this mountain of oversupply.'"
+ The region's life sciences market benefited from more than 2.4M SF of leasing activity in the first half of the year, including renewals, representing the second-highest-ever volume during a first half, according to JLL.
+ The leasing activity figure is a green shoot for a market that slowed drastically over the last few years, but more than half of that total came from two large deals: Sanofi 's decade-early 900K SF extension  in Cambridge last quarter and Transmedics' 500K SF lease in Q1 to relocate from Andover  to Somerville.
+ While these deals are indicators that life sciences companies continue to want a presence in Greater Boston, they don't make a sizable dent in the huge amount of vacant space that has sat on the market since developers built a wave of spec projects during the biotech boom. Bruso said that even with the jump in demand, it will still take years to fully absorb the amount of space available.
+ "It doesn't do anything in terms of moving the market, other than knowing that Sanofi is just here for the longer haul, and that was a huge deal," Bruso said.
+ Vacancy across the market stood at 33.7% at the end of the second quarter, according to JLL, with direct availability totaling 14.2M SF.
+ A  Savills report released Thursday pegged the vacancy rate in the Boston-Cambridge market at 26.4%, up 610 basis points year-over-year, due to the addition of 2.5M SF of new space to the market. It also highlighted Lyra Therapeutics' April move to exit its leases in Watertown and Waltham after dealing with setbacks in its drug trials — adding 51K SF of availability to the market.
+ The availability will likely take a long time to come down, as JLL found most tenant requirements in the market are for 25K SF or less.
+ Pexels/Pavel Danilyuk 
+ "You could do 15M SF deals and still not get to where we were from a vacancy level prior to the run-up," Bruso said. "That just gives you the scope of how large the recovery path is ahead for us."
+ Eighteen life sciences deals were signed in the second quarter, which JLL says is "broadly in line" with the past nine months of activity. Bruso said that was nowhere near the activity seen at the peak in 2020 and 2021, but it was on par with the healthy activity seen pre-pandemic.
+ New lab buildings have been the beneficiaries of the jump in leasing activity, with these buildings seeing 1M SF of positive net absorption in the first half of the year, according to JLL. The market still has 2.2M SF of under-construction space coming online, but 85.2% of it was preleased as of Q2.
+ "They want turnkey, move-in-ready space, and so the space we're seeing outperforming and attracting a lot of tenants, at least in the first six months of the year, has been new labs, right?" Bruso said. "It just stands to reason, just like office was a couple years ago, when the market's bad and you've got a lot of supply, the best of the best will be where tenants want to be."
+ The oversupply is causing rents to decline, with Greater Boston's overall asking rents at $75.15 per SF last quarter, down from $76.72 the quarter before. Since mid-2022, rents have declined more than 20% in the region, according to JLL.
+ Greater Boston still has the priciest lab rents in the country, and landlords anticipate they will continue to drop  as a way to drive more absorption of the market's vacant space. Bruso said he expects rents to continue to fall into 2027 and even early 2028.
+ "The sector feels good at the end of the day," Bruso said. "Even if we maintain and grow this level of demand, there will still be rent falling, because there's just seven times as much supply as there's demand in the market."
+ Early demand signals suggest the second half of 2026 will feature a healthy number of leases closing. At the end of the quarter, tenants had signed roughly 1M SF in letters of intent, according to JLL.
+ "The next six months will probably be the best six months we've had in five years, but that is a low bar to clear, right?" Bruso said. "We'll look back and say 2026 was a turning point in this market cycle, and although rents will probably still be falling and there will still be really, really high vacancies, we can at least say that 2026 was better than 2025."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ JLL 
+ , Mark Bruso 
+ , Sanofi 
+ , Savills 
+ , TransMedics 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Revolution Medicines Nearing Agreement For 700K SF Lease In Redwood City
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Oncology Company Expands Footprint At Hines' Life Sciences Campus
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

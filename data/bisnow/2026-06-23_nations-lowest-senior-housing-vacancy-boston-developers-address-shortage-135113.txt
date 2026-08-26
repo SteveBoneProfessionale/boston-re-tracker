@@ -1,0 +1,307 @@
+URL: https://www.bisnow.com/news/boston/senior-housing/nations-lowest-senior-housing-vacancy-boston-developers-address-shortage-135113
+INDEX_DATE: 2026-06-23
+
+Developers Circling The Nation's Fullest Senior Housing Market 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Senior Housing 
+ Developers Circling The Nation's Fullest Senior Housing Market 
+ June 23, 2026 | 3:12 pm ET 
+ Taylor Driscoll, Boston 
+ The silver tsunami is beginning to crash down on Boston, and developers are looking to meet the rising demand for senior housing in response.
+ The occupancy rate of senior housing properties in Boston was 94% in the first quarter, the highest of 31 primary U.S. markets tracked by  senior housing data firm NIC MAP . But the high cost of constructing and operating these properties has brought construction to its lowest point in more than a decade.
+ Developers at Bisnow 's Northeast Senior Housing Conference last week said the need for more senior housing development is becoming crucial to alleviate the supply and demand pressures in the market.
+ Bisnow/Taylor Driscoll
+ Blue Moon Capital's Chris Kronenberger, Northbridge Communities' Jim Coughlin, Benchmark Senior Living's Tom Grape, The Hym Investment Group's Tom O'brien And Cbre's J.p. Lomonaco
+ "We feel really good about the business that we're taking on right now," The HYM Investment Group CEO Tom O'Brien said at the Boston Marriott Long Wharf Hotel downtown. "We've got some really interesting sites and some really strong communities with a lot of depth of demand and strong ability to pay the rents that are required to make these projects work."
+ O'Brien said his team is working on several projects in various stages that have a senior housing component, including the firm's redevelopment of the Carney Hospital in Dorchester, which includes 200 senior housing units , and a proposed redevelopment of a South Shore shopping center in Plymouth into 184 senior housing units .
+ Nationwide,  Wall Street is spending billions acquiring senior housing properties as rents and occupancy have shot up, the first baby boomers turn 80 this year and construction has fallen to historic lows.
+ Senior housing rents are projected to grow by 6% over the next five years nationwide, outpacing the growth of any other commercial real estate asset class, including data centers, according to Green Street . The asset class has shot to the top of the charts  of property types real estate investors covet.
+ Benchmark Senior Living CEO Tom Grape said that with acquisition opportunities becoming scarcer, properties up for sale are trading at significantly higher prices than they might have six months ago.
+ "Things have shifted in the last three to six months," Grape said.
+ Benchmark has properties across the Northeast and Virginia, ranging from independent living to skilled nursing facilities. Grape said the company has been very active over the last couple of years, delivering two communities in recent months, with three more under construction and another three set to begin by the end of the year.
+ Nationally, cap rates for senior housing properties stood at 6.2% at the end of 2025, declining 17 basis points in six months, according to the National Investment Center . Roughly 84% of respondents in CBRE's 2025 senior housing and care survey expected cap rates to continue to decline into 2026.
+ In the Northeast, Grape said rates are even lower than the national average, given the supply and demand constraints.
+ Bisnow/Taylor Driscoll
+ VHB's Evan Miller, Perkins Eastman's Clara Wineberg, Rogerson Communities' Walter Ramos, HANAC's Stacy Bliagos, 2Life Communities' Lizbeth Heyer and Bald Hill Builders' Matt Grosshandler
+ "I wish there was anything around for an 8% cap rate," Grape said. "Even the most disastrous property in the Northeast is not at that cap rate."
+ Nationally, investors have capitalized on the supply-demand imbalance , with major investors raising funds to secure properties across the country. Investors spent $12.1B in the senior housing market in the first quarter, up from $4.4B a year prior, according to MSCI. The average price per unit increased 39% over the last two years to $147K.
+ Across the Northeast, investment activity has been strong. At the beginning of the year, Benchmark Senior Living and developer National Development acquired The Village at White River Junction in Vermont . In February, Wingate acquired a 59-unit independent and assisted living community in Brewster .
+ In April, Investcorp acquired a 140-unit senior living community in the area as part of a $200M senior housing and multifamily portfolio . Earlier this month, Chicago-based REIT Ventas acquired the 50-unit Adelaide of Newton Centre in Newton for $19M from Benchmark Senior Living.
+ As cap rates are expected to continue to compress and competition for these properties remains high, senior housing developers are now looking to new projects to ease some of these pressures.
+ "Over the past four years, we've been delivering roughly 15,000 units a year on a nationwide basis. When you look forward, call it the next five years, we should probably be developing upwards of 100,000 units per year," Blue Moon Capital Managing Director Chris Kronenberger said. "If you're starting now, you can get out in front of that."
+ Lenders have also flooded the senior housing space, bringing competitive interest rates and less restrictive covenants, allowing developers to shop around for the best financing options.
+ "All forms of lenders are back. Agencies, life companies, the banks have all come back in a big way," Kronenberger said. "You've still got the debt funds, and all that competition is good for us borrowers."
+ As seniors continue to age across the region, the need for more housing is becoming urgent.
+ Bisnow/Taylor Driscoll
+ NIC's Caroline Clapp, Willow Ridge Senior Living's Michael Morris, Wingate Living's Dawn Marie Johnson, Sabra Healthcare REIT's Sue Coppola and Sunbound's Manny Cominsky
+ In 2025, roughly 1.8 million residents in Massachusetts were 60 or older, roughly 25% of the state's population, according to the state's 2025 Senior Housing Commission report . The median income for households 45 to 64 years is $69K, and 80% of these households are making less income than what it takes to live affordably at their age.
+ VHB New England Residential Team Leader Evan Miller said the MBTA Communities Act, a 2021 law that requires towns and cities that have a transit stop to zone for by right housing, has unlocked new opportunities for senior housing development as well.
+ He said his team has seen success in towns like Shrewsbury, Belmont and Bellingham because of the law.
+ "Gateway cities have provided a great area to target for multifamily and senior living housing," Miller said. "Areas like Springfield and Worcester have been very apt to allow for these types of developments to occur. I think you need to go in with a good strategy."
+ Miller said seniors want to be close to other amenities. His firm is working on the 62-unit Cranberry Commons affordable senior housing project in Plymouth. The project is part of the master-planned Redbrook Village and is adjacent to a YMCA.
+ "Ten years ago, you might have been identifying cheap land in the suburbs where you could buy, build a destination campus and, once you got there, you stayed on campus," Miller said. "Now it's about integrating into smaller communities."
+ Rogerson Communities CEO Walter Ramos said that as developers chase projects across the state, lower predevelopment costs and access to public land could help minimize the costs associated with developing in Massachusetts.
+ "We need more housing and we need to lower some of the costs that come along with that, and so that requires perhaps some assistance in providing land for nonprofit organizations like ours or providing opportunity for government buildings that are no longer in use or underutilized that are located in densely populated areas," Ramos said.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Benchmark Senior Living 
+ , Blue Moon Capital Partners 
+ , Cap Rates 
+ , Chris Kronenberger 
+ , Rogerson Communities 
+ , Senior housing construction 
+ , Senior housing demand 
+ , Senior housing investors 
+ , The HYM Investment Group 
+ , Tom Grape 
+ , Tom O'Brien 
+ , Walter Ramos 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Senior Housing Buyers Are Paying Up, But Sellers Still Need Convincing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ With Illinois' Senior Population Set To Grow By 40%, Developers Are Facing A Financing Puzzle
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

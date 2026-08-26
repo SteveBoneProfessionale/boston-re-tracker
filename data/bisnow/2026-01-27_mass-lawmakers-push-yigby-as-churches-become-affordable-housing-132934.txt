@@ -1,0 +1,303 @@
+URL: https://www.bisnow.com/news/boston/affordable-housing/mass-lawmakers-push-yigby-as-churches-become-affordable-housing-132934
+INDEX_DATE: 2026-01-27
+
+Church Land Seen As Fertile Ground For Affordable Housing In Massachusetts 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Affordable Housing 
+ Church Land Seen As Fertile Ground For Affordable Housing In Massachusetts 
+ January 27, 2026 | 3:42 pm ET 
+ Taylor Driscoll, Boston 
+ On the corner of North Harvard Avenue in Allston lies a humble Baptist church. It was built in 1903 on land donated by a pair of siblings, George and Georgina Hill, on the condition that a future chapel be named after their father. Hill Memorial Baptist Church subsequently provided a home for worship for generations of churchgoers.
+ But over time, the church's membership numbers steadily declined, even as Hill Memorial became the last Baptist church in the Allston-Brighton neighborhood. As the number of parishioners dwindled, the idea was formed to once again transform the land for the common good — this time for affordable housing.
+ Boston Planning Department 
+ A Rendering Of Pennrose's 55-Unit Affordable Housing Development In Jamaica Plain.
+ In 2018, the American Baptist Churches of Massachusetts reached out to the Allston Brighton Community Development Corp. to look into redeveloping the land.
+ The church closed its doors in 2023, and the nonprofit planned to redevelop it into a $48M, 49-unit affordable housing building and community center . It has been a tricky process, Allston Brighton CDC Executive Director John Woods said.
+ "Churches require some real finessing, and then it starts to become sort of financially tough to make it work," he said.
+ Church redevelopments can face serious zoning and permitting hurdles. And unlike other adaptive reuse projects, church properties often have unusual structures and footprints, and many carry historical and cultural significance.
+ Massachusetts lawmakers have been aiming to lower barriers to developing these properties.
+ Sen. Brendan Crighton and Rep. Andy X. Vargas have drafted Yes In God's Backyard legislation that would make it easier to permit these projects by making housing by-right on church land in the state. This would allow many conversions to go forward as long as they meet certain basic requirements, clearing many local zoning hurdles.
+ There are roughly 6,000 religious institution-owned and underutilized parcels that, if redeveloped, could produce upward of 80,000 new housing units across the state, Crighton said.
+ The bill would help unlocking swaths of church land for redevelopment and could be an important piece in the patchwork of solutions needed to meet the governor's goal to build roughly 220,000 housing units by 2035 .
+ Similar Yes In God's Backyard bills are working their way through committees in the Massachusetts House of Representatives and the Massachusetts Senate.
+ "I think we need to use every tool available," Crighton said.
+ The rise in church redevelopments has coincided with the decline of church attendance across the country, as many religious institutions assess the space they have and look for new uses.
+ Church attendance has declined over the past couple of decades. For example, roughly 52% of Massachusetts residents identified as Christian in 2024, compared to 58% a decade prior, according to Pew Research Center .
+ These religious properties are usually located in densely populated parts of the state near transit and connected to sewer and water utilities, making them prime for redevelopment.
+ Google Maps 
+ The Sacred Heart Church in East Cambridge.
+ Crighton and Vargas' bill would cover projects that include at least 20% affordability. While it does override certain local zoning procedures, it requires that projects comply with some local zoning requirements that cover aspects such as height restrictions, parking requirements and setbacks.
+ "We want it to work, and we want to partner with communities so we're not coming in with a heavy hand, but rather just saying that these institutions should be able to create housing and affordable housing easier," Crighton said.
+ Similar bills have gained steam elsewhere in the country. At least a half-dozen states have introduced their own YIGBY bills , and a national bill has been considered  in Congress . The bills have garnered strong support from many religious leaders  who see a need for housing among their congregations and want to be part of the solution.
+ Developers who have worked on church-to-housing conversions say the process is definitely unique, even among historic adaptive reuse projects. From navigating irregular floor plates to ensuring reuse of the original stained-glass windows, each project comes with complexity,  Pennrose  Regional Vice President Karmen Cheung said.
+ "With office or school conversions, you're trying to reuse the fabric that's there, like a classroom becomes a unit. Even if you might kind of get rid of some of the walls, you are generally following that kind of footprint," Cheung said. "But a church brings that to another level."
+ Pennrose, in partnership with the Hyde Square Task Force, is redeveloping Blessed Sacrament Church in Jamaica Plain into 55 units of affordable housing and 63K SF of multipurpose performance space.
+ The developer broke ground on the project  last summer and anticipates completing it in the fall of 2027. Cheung said the project is the developer's first church redevelopment in the Northeast.
+ City of Boston's Planning Department 
+ A rendering of the Allston Brighton CDC and the Hill Memorial Baptist Church's proposed residential development at 279-283 N. Harvard Ave. in Allston.
+ Preservation of Affordable Housing, a Boston nonprofit, is working on  a church conversion project in East Cambridge. POAH Senior Project Manager Vitalia Shklovsky said the development at the former Sacred Heart Church has logistically become one of her most challenging projects.
+ To complicate matters, many of these conversions are also affordable housing projects, which means they inherently have complex capital stacks and numerous stakeholders, many of whom have diverse and sometimes competing goals for the project.
+ For example, POAH received state and federal historic tax credits since the rectory was listed on the  National Register of Historic Places .
+ "It kind of comes with some conditions, with some strings attached," Shklovsky said.
+ These developers see the YIGBY bill as a potential win-win-win for the community, the religious institutions and the developers.
+ "I think it's really the opportunity for land that this unlocks, that maybe could create even more opportunities for the church to have some amount of revenue that they can create to help their operations," Cheung said. "I think that's a symbiotic opportunity for churches and housing developers in the future."
+ Still, Allston Brighton CDC's Woods said there is a danger that a Yes In God's Backyard law could be applied too broadly and fully bypass a community's wishes for the site.
+ He hopes that won't happen. Even disused churches carry the collective memories of generations of churchgoers, and the structures have deep roots within their communities. Woods said it is crucial to build something on these parcels that honors that history.
+ "A church is where people get baptized. There's funerals, there's weddings," he said. "They're an important sort of symbol in a lot of people's lives. You really do have to be very conscious of the fact that it's not just a building."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Church Conversions 
+ , Gov. Maura Healey 
+ , Jamaica Plain 
+ , Pennrose 
+ , Preservation of Affordable Housing 
+ , YIGBY 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ After Departing Trump Admin, HUD's Former Philly Head Joins Local Planning Commission
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ To Rein In Costs, Philly Affordable Housing Players Look To Become 'Less Reliant On Consultants'
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

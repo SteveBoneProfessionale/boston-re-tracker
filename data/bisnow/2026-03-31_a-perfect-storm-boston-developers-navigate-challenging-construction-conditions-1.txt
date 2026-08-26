@@ -1,0 +1,297 @@
+URL: https://www.bisnow.com/news/boston/construction-development/a-perfect-storm-boston-developers-navigate-challenging-construction-conditions-133880
+INDEX_DATE: 2026-03-31
+
+Boston's Difficult Building Environment Forces Developers To Get Creative 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Construction & Dev 
+ Boston's Difficult Building Environment Forces Developers To Get Creative 
+ March 31, 2026 | 7:07 am ET 
+ Taylor Driscoll, Boston 
+ In the best of times, Boston has been a difficult place to develop large-scale commercial real estate projects. These aren't the best of times.
+ The normal friction of doing business in a heavily regulated building environment like Boston has converged with macroeconomic headwinds to all but halt development in some parts of the city, say developers and construction leaders who spoke at  Bisnow 's Boston Development and Construction Conference on Thursday.
+ Bisnow/Taylor Driscoll
+ A convergence of tariffs, rising construction costs, the threat of rent control and the difficulty of navigating affordability mandates have kept cranes out of the Boston skyline. Developers say creativity, speed and strong private and public relationships are needed to move projects forward.
+ "This is almost a perfect storm, a confluence of issues on the micro and macro level," Lincoln Property Co.  Senior Vice President of Development Dante Angelucci said. "We have a lot of challenges ahead of us, and it's going to take a really creative and collaborative approach."
+ The severity of the problem is evident in challenges faced at the largest development sites across the city.
+ HYM Investment Group 's 161-acre Suffolk Downs project has encountered several major hurdles, including bureaucratic issues as it spans the city limits of Revere and Boston.
+ In Boston, the project, proposed in 2017, was required to undergo a thorough review under the city's Article 80 process, which included multiple steps and extensive public comment. It  was only approved in 2020 after a marathon session before the Boston Planning and Development Agency.
+ In contrast, the group secured a 15-year tax break from the city of Revere to jump-start construction on its 473-unit residential phase and 33K SF of ground-floor retail. HYM Senior Vice President Leo Rusk said the tax break was crucial, as the uncertainty around tariffs led to budget constraints that created a bigger funding gap than anticipated.
+ It also helped, Rusk said, that Revere, unlike Boston, lacks inclusionary zoning.
+ "Revere is a much different community than Boston," he said. "Given the really high cost of construction, it really was the city of Revere stepping in and giving a tax break."
+ HLB Lighting Design CEO Carrie Hawley, whose firm operates eight other studios across major markets, said Boston has ranked among the toughest to work in due to the overlapping policies and layers of red tape with the design boards.
+ Bisnow/Taylor Driscoll
+ The Baldwin Group's Andy O'brien, Samuels & Associates' Kevin Luczkow, Hlb Lighting Design's Carrie Hawley, Hym Investment Group's Leo Rusk, Dacon's Jennifer Luoni And Bowditch's Leah Rochwarg
+ "Are we strangling developers and people that will bring money and jobs to Boston in order to get through that?" Hawley said.
+ Six miles south, Accordia Partners planned to put a portion of its $5B Dorchester Bay City megaproject up for sale, The Boston Globe reported . The group tapped Newmark to sell roughly one-third of the site at 2 Morrissey Blvd.
+ That project was conceived some seven years ago in a vastly different economic environment with lower interest rates and a healthy lab development appetite. Construction still hasn't begun.
+ The rest of the Dorchester Bay City project , to be situated on the former Bayside Expo site, would total 3.7M SF across 13 buildings. Samuels & Associates Vice President of Construction Kevin Luczkow said his company partnered with Mark Development, Rise Together and Beacon Communities on 299 Broadway St. in Somerville.
+ The team broke ground on the project at the end of 2025. Luczkow credited a handful of creative steps that helped get the project moving, including a land swap agreement with the local public housing authority, clearing the way for a favorable tax structure for the project. The team was also able to get the parking requirements waived.
+ "There's six different items in that tool kit to make that one project move forward, and credit to our partners on that," Luczkow said.
+ He said his team was able to take what it learned from the project and apply it to a long-stalled development in Dorchester.
+ Last year, Dot Block on Dorchester Avenue in Boston received $5M in funding from the city's Mayor's Office of Housing  in hopes the long-delayed second phase could begin shortly.
+ Bisnow/Taylor Driscoll
+ Pierce Atwood's Gareth Orsmond, Cottonwood Group's Michael Barowsky, Lincoln Property Co.'s Dante Angelucci and Ionic Development's Kaitlin McCarthy.
+ "We're hopeful to break ground at the end of this year," Luczkow said. "Many of those same components, plus a really strong relationship with the building trades over there and some aggressive pricing, will hopefully make that project move forward."
+ The first phase of the project delivered 243 units of mostly market-rate housing in 2023 . The next phase consists of an 84-unit, income-restricted apartment building on Hancock Street. The second phase originally was to include two market-rate buildings, but plans changed.
+ Luczkow said making deals go faster has been the No. 1 goal. He said he's been following the permitting changes at the state and local levels,  including changes to Article 80 and efforts to streamline Massachusetts Environmental Protection Agency review , to make the process go more quickly.
+ "You can try to take six months or 12 months off the front end of it, which allows you to have more predictable costs," Luczkow said. "The longer a project takes to get into the ground, the more risk there is of an escalation, or labor influences, or anything like that."
+ Though developers have less control over macroeconomic factors like labor costs, impending rent control, tariffs and interest rates,  Cottonwood Group Head of Development Michael Barowsky said companies should focus on what they can control in such an uncertain market.
+ Barowsky said he didn't think the city had to "roll out the red carpet" for developers now that the economic landscape had gotten tough, but he said there's a need for more collaboration as the problems persist.
+ "I think that kind of attitude needs to be like, 'Let's work together,'" Barowsky said. "From the investor's standpoint, let's work together and figure out how to make projects go vertical, how can we get things out of the ground?"
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Accordia Partners 
+ , Dorchester Bay City Project 
+ , HYM Investment Group 
+ , Lincoln Property Company 
+ , Samuels & Associates 
+ , Suffolk Downs 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ LA City Council Approves Plan To Let Olympics Projects Sidestep CEQA
+ Trump's New Canadian Tariffs To Spike Additional Materials Costs
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Turner Construction Hit With Cyberattack, Hackers Claim Leaks Of Military Info, NDAs 
+ Demolition Underway On Hawthorne Plaza
+ Why Hines Is Restarting Its Development Engine
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Astrodome Conservancy Solicits Redevelopment Ideas
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

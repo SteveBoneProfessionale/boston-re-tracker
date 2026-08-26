@@ -1,0 +1,286 @@
+URL: https://www.bisnow.com/news/boston/multifamily/massachusetts-high-court-blocks-rent-control-ballot-measure-135122
+INDEX_DATE: 2026-06-23
+
+Massachusetts High Court Blocks Rent Control Ballot Measure 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Multifamily 
+ Massachusetts High Court Blocks Rent Control Ballot Measure 
+ June 23, 2026 | 7:31 am ET 
+ Ethan Rothstein and Taylor Driscoll 
+ Rent control won't be on the ballot for Massachusetts this year following a stunning ruling Tuesday by the state's highest court.
+ Wikimedia Commons/Swampyank 
+ The John Adams Courthouse In Boston, Home To The Supreme Judicial Court Of Massachusetts
+ The decision throws out a ballot petition that, if passed, would have capped annual rent increases across the state at 5% or the consumer price index, whichever is lower. State law today prohibits rent control in any form.
+ The measure would have exempted certain units, including those in religious facilities. That exemption ran afoul of the Massachusetts Constitution,  according to the 27-page opinion  written by Justice Frank Gaziano.
+ The real estate industry  lobbied heavily against the measure, warning that it would reduce affordability in the state by discouraging the development of new housing. The Tufts University Center for State Policy Analysis projected the proposal could  eliminate $300B in state property values.
+ It was supported by tenant groups, unions and Boston Mayor Michelle Wu, who argued the measure was less than ideal but better than nothing  amid a cost-of-living crisis.
+ The ballot initiative moved forward in November after Homes For All Massachusetts secured more than 124,000 signatures , more than 49,000 more than it needed to qualify for the 2026 ballot. Since then, tenant advocates and the commercial real estate industry have been in a pitched battle over the measure.
+ "This decision is a massive disappointment after all the work that thousands of volunteers and advocates in every corner of the state put into qualifying our rent control initiative for the ballot, but it's far from the end of our campaign to protect Massachusetts renters from excessive rent hikes," Noemi Ramos, chair of the Keep Massachusetts Home campaign that championed the ballot measure, said in a statement.
+ Housing for Massachusetts, backed by real estate heavyweights NAIOP Massachusetts and the Greater Boston Real Estate Board, aggressively campaigned against the ballot initiative, citing the detrimental impacts it could have on the state's housing sector.
+ The group celebrated the decision Tuesday, marking it as a win for not only the commercial real estate industry but also for renters across the state.
+ "While we firmly believe that Massachusetts voters were prepared to vote ‘no' in November, today's decision puts the issue to rest and protects our housing pipeline and our communities from the proven damage that rent control inflicts," Housing for Massachusetts Chair Conor Yunits said in a statement.
+ Large investors in the Massachusetts commercial real estate market, including Marcus Partners, The Davis Cos., The HYM Investment Group and PGIM Real Estate, had gone on the record pushing back on the ballot measure .
+ "There are some real challenges for all of us that would put the economy of Massachusetts in grave peril," HYM CEO Tom O'Brien said last week during a Bisnow event, referencing rent control alongside Wu's progressive policies.
+ In an effort to curb some of the impacts of the proposal, a handful of developers and real estate groups proposed a compromise in June that would instead allow municipalities to opt in to rent control rather than put a blanket requirement on all 351 communities.
+ The compromise would have limited annual rent increases to the consumer price index plus 5 percentage points, with a ceiling at 10%.
+ NAIOP agreed to come to the table for negotiations last week , while the compromise also received support from Gov. Maura Healey, who has come out as a staunch opponent of the rent control proposal.
+ With the SJC rendering the debate moot for now, developers across the state are breathing a sigh of relief.
+ "It's very encouraging, as we've seen clearly that capital partners have been avoiding committing funding to housing construction or even major acquisitions of existing properties in MA while rent control was on the ballot," City Realty Head of Development Cliff Kensington said in a statement. "We're hopeful that this news helps open up what had been a pretty paralyzed market so far this year and a lot of stalled projects statewide can get going."
+ City Realty is working on a large mixed-use development in Brookline that would include 266 apartments and condominiums along Route 9.
+ "Thank God — because otherwise — Realty and Development would have been beyond resuscitation for the foreseeable future!" OnyxGroup Development CEO Chanda Smart said in an email.
+ Some experts cautioned that although the ruling shines a bright light on this year's ballot, it could pose risks down the line if Homes For All Massachusetts were to come back with an updated measure.
+ Ramos said in her statement that her group plans to tweak its initiative wording and try again, calling the religious exemption of the initiative "easily fixable."
+ "Today's events do address the November concerns for multifamily developers, though they were, and remain, concerned about measures coming down the pike in 2027 and beyond," Geosimulate founder Brendan Carroll said in a statement. "In my opinion, the perceived risk of having their pricing power overridden remains high for many."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Ethan Rothstein 
+ at
+ ethan.rothstein@bisnow.com 
+ Related Topics:
+ Boston Rent Control 
+ , Rent-control 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ MG Developer Faces 6 Lawsuits Alleging Millions In Overdue Debt
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

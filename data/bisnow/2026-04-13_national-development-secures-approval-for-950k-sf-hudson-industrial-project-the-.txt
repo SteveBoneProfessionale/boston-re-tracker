@@ -1,0 +1,291 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/national-development-secures-approval-for-950k-sf-hudson-industrial-project-the-boston-deal-sheet-134100
+INDEX_DATE: 2026-04-13
+
+Large Hudson Industrial Campus Secures Approval: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Large Hudson Industrial Campus Secures Approval: The Boston Deal Sheet 
+ April 13, 2026 | 3:36 pm ET 
+ Taylor Driscoll, Boston 
+ A massive industrial development near Worcester got the green light to move forward.
+ Courtesy of National Development
+ 75 Reed Road In Hudson
+ National Development locked down approval from the town of Hudson for its 950K SF industrial campus at 75 Reed Road. The project would redevelop the 148-acre former Intel chip manufacturing facility.
+ The project was approved in the town planning board meeting on April 9.
+ "With approvals secured, this site represents a rare opportunity to deliver a fully customized industrial campus," National Development partner Ed Marsteiner said  in a statement .
+ The project was announced in November . National Development completed demolition on the site, which it acquired  in 2023 for $12M , and is now in the permitting process. With approval, the developer plans to begin marketing the site for prospective tenants.
+ LEASES 
+ Ellis Realty Advisors secured the South Shore Chamber of Commerce as one of its first tenants at 4 Pond Park in Hingham . The real estate firm acquired the property in November and is building out the space. The firm has partnered with Archway Construction to build out more modern office layouts, interior design and amenities. The project was last renovated in 2019.
+ ***
+ Living Proof signed a 14K SF lease at Phase 3 Real Estate Partners' Genesis 12 Farnsworth in the Seaport. Phase 3 converted a brick-and-beam office building into a 73K SF lab building. Living Proof is relocating operations from the Innovation & Design Building. CBRE's Eric Smith, Lauren Drakeley and Tim Lahey brokered the deal.
+ ***
+ M&T Bank plans to expand its office at Winthrop Center by 25K SF and hire between 60 and 75 employees over the next couple of years, the Boston Business Journal reports . The bank currently houses 170 employees in a 40K SF office on the 18th floor.
+ FINANCING 
+ Google Maps 
+ One Brattle Square in Harvard Square, Cambridge
+ PGIM provided a $58.5M floating-rate loan to an affiliate of Beacon Capital Partners. The refinance loan is going toward the borrower's 95K SF One Brattle Square mixed-use property in Cambridge. The property has 82K SF of office and 15K SF of ground-floor retail and is 99% leased.
+ PERSONNEL 
+ CBRE hired Shay Kenney and Brooke Howard as vice presidents. Kenney will join the firm's office leasing business, where she will focus on landlord representation, and Howard will join the firm's capital markets team, where she will focus on investment sales. Before their new roles, both women worked at JLL.
+ ***
+ Redgate announced a series of promotions and hires. The firm elevated Molly Kennedy and Sara Smith to associate vice presidents and Julia Gutierrez, Peter Siciliano and Alex Walker to senior project managers, among other promotions. The firm has also hired 11 new employees across three regions.
+ CONSTRUCTION AND DEVELOPMENT 
+ Alinea Capital opened its Flats at 8th mixed-use development in downtown New Bedford. The project is home to 52 income-restricted rental units. It received financing from local and state officials as well as $1M in grants from the American Rescue Plan Act. The project was designed by DHK Architects and is managed by WinnResidential.
+ ***
+ Bulfinch Cos. unveiled plans for the former Muzi Ford car dealership at 557 Highland Ave. in Needham. The new plans include up to 480 housing units, 100K SF of medical office space and 10K SF of retail space. Bulfinch acquired the site for $57.2M in late 2021 and initially planned a lab project.
+ ***
+ DW Capital filed plans for a 290-unit apartment community on a 223-acre golf course near Worcester, the BBJ reported . The Leicester Country Club closed its doors last spring, and DW bought the property. The plans for the site are set to be presented before the town's planning board on April 21.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Hudson 
+ , Industrial 
+ , Intel 
+ , National Development 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Olde Richmond Project Lands $20M Construction Loan: The Philadelphia Deal Sheet
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

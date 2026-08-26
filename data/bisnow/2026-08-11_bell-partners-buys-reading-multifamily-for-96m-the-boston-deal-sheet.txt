@@ -1,0 +1,297 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/bell-partners-buys-reading-multifamily-for-96m-the-boston-deal-sheet
+INDEX_DATE: 2026-08-11
+
+Bell Partners Buys Reading Apartments For $96M: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Bell Partners Buys Reading Apartments For $96M: The Boston Deal Sheet 
+ August 11, 2026 | 5:55 pm ET 
+ Taylor Driscoll, Boston 
+ A North Carolina firm has acquired a Greater Boston multifamily property for well above its prior sale price. 
+ Google Maps 
+ Bell Partners' Bell Reading Commons
+ Bell Partners bought the 204-unit Reading Commons for $96M, according to an Aug. 3 deed. The seller was an entity linked to J.P. Morgan Asset Management.
+ Bell Partners rebranded the property to Bell Reading Commons.
+ The company acquired the property through its Bell Value-Add Fund VIII. The property, completed in 2006, is 30 minutes from Boston.
+ The property last sold for $63M in 2013.
+ Walker & Dunlop's Travis D'Amato arranged the sale to Bell Partners. 
+ The acquisition brings Bell Partners' portfolio in Greater Boston to six owned or managed communities comprising 1,461 units.
+ LEASES 
+ Advanced metal manufacturer Foundation Alloy signed a 36K SF lease at Camber Development and Wheelock Street Capital's 45 Industrial Parkway in Woburn, Banker & Tradesman reported . The company relocated from MIT's The Engine incubator in Cambridge. Cushman & Wakefield's Kevin McNamara, Ross Gaudet and Michael O'Leary represented the tenant, and JLL's Chelsea Andre, Rachel Marks and Chris Decembrele represented the landlords.
+ ***
+ Dana-Farber Cancer Institute opened a medical clinic at Sturdy Health's Attleborough campus. The center will include 10 exam rooms and 17 infusion beds. The Sturdy Health center is a three-story, 60K SF medical office building with 149 acute care beds. Redgate manages the property, which was completed in 2025.
+ ***
+ National autism therapy company Applied ABC signed a 5K SF lease at Cummings Properties' Gill Street property in Woburn. Cummings' Steve Cusano brokered the deal, working directly with the tenant. The behavioral therapy center is scheduled to open this fall and will provide applied behavioral analysis therapy for children and young adults up to 21. Other tenants at the building include NuPath, Seem Collaborative, Thom Mystic Valley Early Intervention and Youth Villages.
+ FINANCING 
+ Google Maps 
+ New Mountain Capital's 68-78 Elm St. in Hopkinton
+ An entity linked to New Mountain Capital secured a $47M loan for its 68-78 Elm St. advanced manufacturing property in Hopkinton, according to public records. The company secured the loan from Citibank. New Mountain Capital acquired the 198K SF, two-building property in January for $58.4M. The building is 100% leased to life sciences company Revvity.
+ ***
+ New York-based Invictus Real Estate Partners secured a $67M refinance for its 194-unit Eliot on Ocean apartment complex in Revere Beach. The loan was originated by Bridge Investment Group. The 143K SF property at 660 Ocean Ave. is near the MBTA's Wonderland Blue Line station. 
+ ***
+ Brendon Properties secured $37.5M in construction financing and equity investment for its 122-unit multifamily project in Grafton. The Griffin at Grafton Commons is at 17 and 27 Upton St. Colliers Vice President Patrick Boyle announced on LinkedIn that he brokered the deal , but he didn't disclose the lender. 
+ ***
+ Tech real estate company Groma acquired two multifamily properties in Boston for $4.1M and acquired a loan for $50M, according to Aug. 6 public records. The properties are at 31 Buttonwood St. and 14 Willis St. in Boston's Dorchester neighborhood. Groma secured the loan from Beacon Bank & Trust.
+ PERSONNEL 
+ MassDevelopment has hired Bran Shim as executive vice president and chief financial officer. Shim will oversee all financial and accounting functions for the agency. Previously, Shim worked at the Massachusetts Executive Office for Administration and Finance, where he served as a senior adviser and state budget director.
+ ***
+ Architecture firm Studio G made several personnel shifts throughout its Greater Boston offices, including promoting Marylee Mercy to principal and hiring multifamily housing renovation and rehabilitation expert Mike Chavez as associate. Mercy's new role will allow her to guide the firm's strategic growth. The firm promoted eight other employees to various positions across the Boston, Ashland, Cambridge and Dedham offices.
+ CONSTRUCTION AND DEVELOPMENT 
+ Boston Planning Department 
+ A rendering of a self-storage development at 1725 Hyde Park Ave. in Boston
+ Developer Joseph Federico Jr. filed plans to build two self-storage facilities at 1717-1725 Hyde Park Ave. in Boston. The first phase of the project would include one self-storage facility totaling 196K SF. The second phase would include another self-storage facility totaling 129K SF and will only commence after the developer receives a certificate of occupancy for the first building. Upon completion, the project would have a maximum of 59 off-street parking spaces. The developer acquired the property in 2025 for $6.8M as part of an auction.
+ ***
+ Connecticut apartment developer CT Realty Trust filed plans to build a 207-unit project on Worcester Academy's athletic field, B&T reported . The plan includes one four-story, 57-unit apartment building and 150 rental townhomes spread across 25 buildings on the 36.6-acre site at 232 Strafford St. On-site amenities would include a fitness center, a children's playroom, a coworking area and an outdoor pool.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Bell Partners 
+ , J.P. Morgan Asset Management 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Olde Richmond Project Lands $20M Construction Loan: The Philadelphia Deal Sheet
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

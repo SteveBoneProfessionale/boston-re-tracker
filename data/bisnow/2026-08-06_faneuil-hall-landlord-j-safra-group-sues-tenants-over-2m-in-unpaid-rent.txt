@@ -1,0 +1,287 @@
+URL: https://www.bisnow.com/news/boston/retail/faneuil-hall-landlord-j-safra-group-sues-tenants-over-2m-in-unpaid-rent
+INDEX_DATE: 2026-08-06
+
+Faneuil Hall Owner J. Safra Group Sues Tenants, Alleging $2M In Unpaid Rent 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Retail 
+ Faneuil Hall Owner J. Safra Group Sues Tenants, Alleging $2M In Unpaid Rent 
+ August 6, 2026 | 4:43 pm ET 
+ Taylor Driscoll, Boston 
+ The landlord of Boston's famous Faneuil Hall Marketplace alleges that it is owed unpaid rent from current and former tenants at the marketplace.
+ Bisnow/Taylor Driscoll
+ Quincy Market in Boston
+ New York-based J. Safra Real Estate has sued seven tenants at the historic marketplace between 2024 and July 2026 for over $2M in unpaid rent, according to court filings first reported by the Boston Business Journal . Tenants include restaurant and candy store franchise Sugar Factory , ice cream chain FoMu and Ghirardelli Chocolate Co. 
+ Most of the complaints against tenants have been filed this year, except for the complaints against Ghirardelli and Lovepop, which were filed in 2024 and 2025, respectively.
+ J. Safra told Bisnow the company doesn't comment on litigation. However, the company shared its improvement plan for the property and tenant commitments that bring its ground-floor retail occupancy to 93%, up from 76% in 2024. 
+ The two largest lawsuits, filed last month against Sugar Factory and FoMu, make up more than half of the unpaid rent total. 
+ Sugar Factory owes J. Safra more than $930K, including unpaid rent, interest and attorney's fees, according to the landlord's July 10 lawsuit. Sugar Factory entered into a lease agreement with the former landlord, New York-based Ashkenazy Acquisition Corp ., in 2021 to occupy roughly 9K SF at the property's South Market Building. 
+ J. Safra claims that it notified the Sugar Factory franchise's owner, Lloyd Sugarman, in January 2026 about unpaid rent totaling roughly $913K and said that failure to pay the full amount in 10 days following its initial notice would classify as a default. The landlord alleged that the candy company failed and refused to pay within that time period.
+ FoMu signed a lease agreement for 289 SF in Faneuil Hall's Quincy Market building in June 2022 with Ashkenazy. The ice cream company vacated the property in March 2026, which J. Safra alleged was a breach of the lease, according to its July 9 lawsuit. 
+ Similar to Sugar Factory, J. Safra sent a notice to FoMu about its failure to pay more than $119K in rent. The company said failure to pay within five days of the notice would result in default. FoMu allegedly didn't respond to the notice, resulting in default.
+ In March, J. Safra terminated its lease with FoMu, and it says the present outstanding amount owed is more than $326K in rent. J. Safra is seeking $447K, including overdue rent, interest, late fees and attorney's fees, according to the lawsuit.
+ FoMu founder Deena Jalal told Bisnow in an email that the business didn't owe back rent and the amount allegedly owed is based on future rent that would have been paid had J. Safra not terminated its lease. 
+ "As a mom, woman and small business owner in Boston for the last 18 years, I've always run my business with integrity and respect for our partners and community," she said in a statement. "It's really sad to see a large New York based international company come in and take advantage of the vulnerability of so many small minority owned businesses in Boston."
+ The other five lawsuits are against Imagine Exhibitions Inc., Boston Halal, Popular Properties Realty Inc., Lovepop and Ghirardelli Chocolate Co. The court filings show that J. Safra is asking those companies for just under $1M.
+ J. Safra acquired the ground lease for the property in 2024 from Ashkenazy for an undisclosed amount.
+ The property faced issues under the prior landlord. 
+ In 2020, Boston officials threatened to remove Ashkenazy as landlord over failure to stay up to date on its payment in lieu of taxes agreement. A year later, the landlord was sued for more than $2.5M that merchants claimed they were owed from the company, The Boston Globe reported .
+ The future of Faneuil Hall has been a highly debated topic as the historic marketplace has fallen on hard times over the past decade. From longtime tenants vacating to the dwindling foot traffic, many agree that something needs to be done to update the area's image. 
+ In March, Boston Mayor Michelle Wu brought together architects, city planners and community members for a two-day workshop to discuss ideas as to how the marketplace could be reimagined for the next 50 years, CBS News reported .
+ Now, J. Safra is executing a multiphased improvement plan on the property in partnership with the Commodore Builders, a spokesperson told Bisnow . The first phase of the project completed this summer, addressing deferred maintenance by previous ownership.
+ The property is also expected to bring on new tenants, including Tree House Brewing Co., Smashed by BRED, The Maharaja, Azul Mexican Kitchen and Mona Sweets.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Ashkenazy Acquisition Corp. 
+ , Faneuil Hall Marketplace 
+ , J. Safra Real Estate 
+ , Michelle Wu 
+ , Sugar Factory 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Charlotte Developer Seeks Extension For RedStone Development
+ Downtown Office Tower Secures $575M Refinancing
+ Olympic Retail Users Taking Early Look At LA 
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Dog Haus Pursues Major Expansion After Tapping Former Jersey Mike's Execs
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Nike Closes 15 Stores Amid Tumultuous Year
+ The Fast-Food Exec Taking Her Real Estate Talents To The Looksmaxxing Era
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ TJ Maxx Parent Plans To Accelerate Store Openings In 2027
+ Ashley's Frasers Sets £20B Real Estate Acquisition Target
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

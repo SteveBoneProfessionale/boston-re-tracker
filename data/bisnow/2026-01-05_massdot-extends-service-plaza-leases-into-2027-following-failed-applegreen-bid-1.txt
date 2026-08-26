@@ -1,0 +1,279 @@
+URL: https://www.bisnow.com/news/boston/retail/massdot-extends-service-plaza-leases-into-2027-following-failed-applegreen-bid-132557
+INDEX_DATE: 2026-01-05
+
+MassDOT Extends Service Plaza Leases Following Failed Applegreen Bid 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Retail 
+ MassDOT Extends Service Plaza Leases Following Failed Applegreen Bid 
+ January 5, 2026 | 12:21 pm ET 
+ Taylor Driscoll, Boston 
+ Wikimedia Commons/Kenneth C. Zirkel 
+ Mcdonald's At Ludlow Service Plaza, Eastbound, Interstate 90 In Massachusetts
+ Following a failed procurement effort in 2025, the Massachusetts Department of Transportation extended leases for businesses at most of its large service plazas through June 2027.
+ The transportation agency finalized 18-month master lease extensions with existing operators McDonald's and Gulf Oil at 14 of the state's 18 service plazas through June 30, 2027, the Boston Business Journal reported . Under a master lease agreement, a business oversees management of the plaza and subleases space to other plaza businesses.
+ The other four service plazas in the state already have master leases that run through the same time period.
+ The 14 leases that were renewed had been set to expire Wednesday following the fallout of a bidding process for redevelopment and management of the state's plazas.
+ In June 2025, MassDOT designated Irish retail giant Applegreen as the winner of a bid for a 35-year contract for administration of the plazas. The company then backed out of the deal in September, citing a variety of factors, after three months of negotiation with the state failed to seal the terms of the contract.
+ At the same time, Global Partners, a rival bidder for the contract, contested the deal, the BBJ reported . Global Partners argued that MassDOT's procurement process was "fatally compromised by illicit communications, undisclosed conflicts of interest, and violations of Massachusetts procurement and ethics laws," according to the report.
+ Global Partners also argued that its bid would have offered the state roughly $900M more than  Applegreen's bid. The company filed several lawsuits against MassDOT and Applegreen over the plaza process.
+ Before its bid collapsed, Applegreen had proposed to completely redevelop nine of the locations and refurbish another nine. It planned to work with local companies Suffolk Construction and Upland Architects.
+ Applegreen is owned by private equity giant Blackstone and operates roughly 530 service plazas globally, including 113 in the U.S. Global Partners was ranked  the fifth-largest public company in Massachusetts in 2023. It reported roughly $17B in revenue last year and has roughly 5,000 employees.
+ Following the chaos of the procurement bid, MassDOT Secretary Monica Tibbits-Nutt stepped down in October .
+ MassDOT plans to review the failed procurement before issuing a revised request for proposals.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Applegreen 
+ , Global Partners 
+ , Gulf Oil 
+ , MassDot 
+ , McDonald's 
+ , Suffolk Construction 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Charlotte Developer Seeks Extension For RedStone Development
+ Downtown Office Tower Secures $575M Refinancing
+ Olympic Retail Users Taking Early Look At LA 
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Dog Haus Pursues Major Expansion After Tapping Former Jersey Mike's Execs
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Nike Closes 15 Stores Amid Tumultuous Year
+ The Fast-Food Exec Taking Her Real Estate Talents To The Looksmaxxing Era
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ TJ Maxx Parent Plans To Accelerate Store Openings In 2027
+ Ashley's Frasers Sets £20B Real Estate Acquisition Target
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

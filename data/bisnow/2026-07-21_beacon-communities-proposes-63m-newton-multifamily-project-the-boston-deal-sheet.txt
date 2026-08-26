@@ -1,0 +1,297 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/beacon-communities-proposes-63m-newton-multifamily-project-the-boston-deal-sheet-135514
+INDEX_DATE: 2026-07-21
+
+Affordable Housing Developer Plans $63M Newton Project: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Affordable Housing Developer Plans $63M Newton Project: The Boston Deal Sheet 
+ July 21, 2026 | 7:46 pm ET 
+ Taylor Driscoll, Boston 
+ Beacon Communities has revived development plans at a West Newton site.
+ Newton Planning Department 
+ A Rendering Of Beacon Communities 72-Unit Apartment Project In West Newton.
+ The Boston-based affordable housing developer is proposing to construct two buildings at 1314 Washington St. and renovate the former Santander Bank building on the property, Banker & Tradesman first reported . The project would total 72 income-restricted units and 25 parking spaces.
+ The developer expects the project to cost $63M and is seeking $4M from the city's affordable housing trust to help finance it.
+ Beacon signed a $9.7M purchase-and-sale agreement , under which the developer agreed to acquire the property by September 2027. The developer plans to pursue low-income housing tax credits to finance the project.
+ Construction is estimated to begin in 2028 and would take roughly 22 months.
+ Beacon's project is located near the West Newton commuter rail station and qualifies under the state's MBTA Communities Act, allowing for streamlined permitting. In 2022, Mark Development proposed a 50-unit mixed-income project on the site, Wicked Local reported , but the project never broke ground.
+ SALES 
+ Synergy and Axonic Capital acquired a 21-story office tower at 265 Franklin St. for $116M, according to public records. The seller was Clarendon Group, which had purchased the property in 2006 for $170M.
+ The tower is home to tenants including McCarter & English, Ares Management, Cerity Partners and the Greater Boston Chamber of Commerce. Clarendon invested roughly $18.6M in base building capital improvements and another $26.5M in tenant improvements.
+ ***
+ Brookfield Properties acquired a vacant Cambridge tower for $1, along with assuming its remaining $232M in debt, the Boston Business Journal reported . The seller, Leggat McCall Properties, overhauled the building into 422K SF of Class-A office space in 2024, but it failed to lease up.
+ ***
+ Equus Capital Partners acquired Centech Park North in Shrewsbury for $75M, according to public records. NorthBridge Partners developed the 300K SF, two-building campus, completing it in 2023. The campus is 100% leased to tenants in the life sciences, advanced manufacturing and commercial services sectors.
+ ***
+ An entity linked to Barings acquired the Peabody site of a Boston Children's Hospital campus for $62M, the  Boston Business Journal reported . Barings entered into a sale-leaseback agreement with the hospital. The lease covers 114K SF at the property.
+ ***
+ Nuveen acquired a 90K SF Shrewsbury shopping center for $56.7M, the  Worcester Business Journal reported . The Lakeway Commons plaza is anchored by a Whole Foods and is located at 193 Boston Turnpike. AEW Capital Management was the seller in the deal
+ LEASES 
+ Cambridge Health Alliance renewed its 75K SF lease at Combined Properties' 195 Canal St. in Malden. The company will stay at least another 10 years at the location. Cresa's Paul Delaney and Carter Swaebe represented the tenant.
+ ***
+ Cummings Properties secured two leases with Integrated Behavioral Care and Bedford Family Law totaling 6,770 SF at Bedford Woods. Bedford Family Law is taking up 2,270 SF, and Integrated Behavioral Care signed a 4,500 SF lease. Cummings' Mike Truesdale worked with Integrated Behavioral Care on its lease.
+ ***
+ Collegium Pharmaceutical  signed a 40K SF lease at DivcoWest's 1.1M SF One Lincoln office tower. The firm will occupy portions of the 11th and 12th floors. The pharmaceutical company is relocating from 100 Technology Center Drive in Stoughton.
+ Newmark's Gil Dailey and Dave Martel represented DivcoWest, and Avison Young's Justin Dziama and Connor Hayes represented Collegium Pharmaceutical.
+ FINANCING 
+ Google Maps 
+ The Fessenden School campus in Newton.
+ MassDevelopment issued an $11.7M tax-exempt bond on behalf of The Fessenden School. The bond will be used to build and equip a 19K SF dining center on the school's Newton campus. Construction began in June 2025 and is expected to be completed this summer. The bond was purchased by J.P. Morgan.
+ PERSONNEL 
+ Marcus & Millichap's IPA Capital Markets division hired Ryan Demadis as managing director in its Boston office. Demadis specializes in ground-up construction and structured transactions. He has closed more than $1B in debt and equity financing. Before joining the IPA Capital Markets team, Demadis worked at Northmarq for over a decade.
+ CONSTRUCTION AND DEVELOPMENT 
+ Dorchester Bay Economic Development Corp. and Preservation of Affordable Housing broke ground on their $50M Columbia Crossing development in Dorchester, the BBJ reported . They will redevelop the site of the historic Dorchester Savings Bank into a 48-unit apartment building. The project will also include a 3,500 SF space for the Design Studio for Social Intervention.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Affordable housing 
+ , Beacon Communities 
+ , Newton 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

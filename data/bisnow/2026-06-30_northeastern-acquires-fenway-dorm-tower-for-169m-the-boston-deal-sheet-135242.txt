@@ -1,0 +1,291 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/northeastern-acquires-fenway-dorm-tower-for-169m-the-boston-deal-sheet-135242
+INDEX_DATE: 2026-06-30
+
+Northeastern Acquires Fenway Dorm Tower For $169M: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Northeastern Acquires Fenway Dorm Tower For $169M: The Boston Deal Sheet 
+ June 30, 2026 | 1:57 pm ET 
+ Taylor Driscoll, Boston 
+ Northeastern University has acquired a residential tower near its campus in a nine-figure deal.
+ Google Earth 
+ Northeastern University Acquired A Student Housing Tower At 291 St. Botolph St. In The Fenway.
+ The university acquired a 17-story, 723-bed dormitory at 291 St. Botolph St. for $169M from Phoenix Property Co., according to public records. The tower, named East Village, opened in 2015 and was developed in a joint venture with Lincoln Property Co.
+ The Boston Planning Department in 2022 approved an increase of the tower's capacity to 930 beds .
+ When it opened, East Village was one of the  first privately built dorms in Boston. Since then, Northeastern has gone on to partner with American Campus Communities on an 825-bed project called LightView, which opened in 2019 .
+ The university broke ground on another mixed-use development  in February at 840 Columbus Ave. The project includes up to 1,215 beds, 4K SF of retail space and a 124K SF academic area. Northeastern is once again in partnership with ACC on that project, which is expected to be completed in 2028.
+ SALES 
+ An entity linked to real estate investor Jeff Bruce acquired a multifamily property at 319-327 Chelsea St. and 340 Bremen St. in East Boston for $18M. The seller in the deal was Boston-based MG2 Group. The property, known as 319 & Park, includes 38 units, 34 parking spaces and ground-floor retail space. The five-story property was completed in 2021.
+ FINANCING 
+ The Washington Trust Co. provided a $75.6M construction-to-permanent financing loan for an orthopedic ambulatory surgery center at 71 Border Road in Waltham. The 79K SF facility opened in June.
+ Total investment in the project is approximately $105M. The center was developed in collaboration with several physical therapy and orthopedic companies. The new facility replaces the healthcare providers' existing 10K SF facility at 840 Winter St.
+ PERSONNEL 
+ Redgate
+ RedGate's Sarah Brophy
+ Redgate hired Sarah Brophy as vice president of the company's corporate services team. In her new role, Brophy will help advise Redgate's clients on complex real estate decisions and capital projects. She will also help provide strategic advisory services, mentor team members and build client relationships. Before this role, Brophy was vice president of interior design at Pembroke and principal at IA Interior Architects.
+ ***
+ Benchmark Senior Living hired Sigrid Usen as senior vice president and general counsel. Usen will lead the company's legal department. She previously worked at The RMR Group as assistant general counsel and chief compliance officer.
+ CONSTRUCTION AND DEVELOPMENT 
+ Midwood Investment & Development revived plans for a 760-unit downtown apartment tower  at 11-21 Bromfield . The developer also proposed a smaller, 158-unit residential tower down the street at  45 Bromfield St.  The skyscraper was first proposed in 2008, and the latest iteration is set to be larger, growing from more than 400K SF to roughly 800K SF.
+ ***
+ Preservation of Affordable Housing, local and state officials, and the Dorchester Bay Economic Development Corporation celebrated the groundbreaking of the 48-unit Columbia Crossing affordable housing development in Dorchester's Uphams Corner neighborhood.
+ POAH and DBEDC won a competitive bidding process to redevelop the historic Dorchester Savings Bank Hall at 568-574 Columbia Road. Besides the affordable units, the project will also include a refurbished and expanded modern exhibition space for art tenants.
+ ***
+ The Massachusetts Maritime Academy plans to build a $30M, 18K SF wellness center on its Buzzards Bay campus in Cape Cod, the Boston Business Journal reported . The project is being sponsored by New Balance and Clean Harbors. The academy is in the process of selecting a developer, which is expected to begin construction within the next 18 months and deliver the facility in the fall of 2029.
+ ***
+ Newly formed joint venture Berkeley Garbe has begun construction on a 150K SF research and development building at 161 Concord Road in Billerica. The project would include one advanced manufacturing building on 23 acres near Route 3 and is set to be completed in April 2027. Berkeley Investments purchased the property in 2022 and rezoned it for advanced manufacturing before bringing on German real estate firm Garbe as a partner.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ American Campus Communities 
+ , Fenway 
+ , Northeastern University 
+ , Phoenix Property Co. 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Olde Richmond Project Lands $20M Construction Loan: The Philadelphia Deal Sheet
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

@@ -1,0 +1,287 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/the-boston-deal-sheet-132558
+INDEX_DATE: 2026-01-05
+
+Seaport Office Building, Once Sold For Nearly $119M, Trades For Just $52M: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Seaport Office Building, Once Sold For Nearly $119M, Trades For Just $52M: The Boston Deal Sheet 
+ January 5, 2026 | 3:44 pm ET 
+ Taylor Driscoll, Boston 
+ A large brick-and-beam office building in the Seaport has sold for less than half of its prior sales price.
+ Google Maps 
+ North Colony Asset Management Acquired An Office Building At 10-20 Channel Center St. For $52M.
+ An entity linked to North Colony Asset Management acquired a 251K SF office building at 10-20 Channel Center St. for $52M, according to land records. The sale is less than half its 2016 price of nearly $119M .
+ North Colony Asset Management acquired the property from LaSalle Investment Management.
+ LaSalle acquired the building in 2016 from Callahan Capital Properties. At the time, the property was well located near General Electric's proposed $200M headquarters on Necco Street. GE later canceled plans for the project and vacated the space in 2022 .
+ It is unclear how much of the property is leased, but tenants include The Bernett Group, Medtronic and Gilbane Building Co.
+ North Colony Asset Management also acquired  another 115K SF office building at 343 Congress St. in the Seaport. The building is home to pet company Chewy, barbecue restaurant The Smoke Shop and pizzeria Pastoral Fort Point.
+ SALES 
+ Quincy-based Giri Hospitality acquired the Found Hotel Boston Common from Hawkins Way Capital for $24M, according to land records. Hawkins acquired the property in 2016 for $17.9M.
+ Giri owns more than 50 hotels across the Northeast .
+ LEASES 
+ Camp4 Therapeutics Corp. signed a 44K SF lease at Alexandria Real Estate Equities' 100 Talcott Ave. in Watertown, according to an SEC filing . The biotech company terminated its 31K SF lease at ARE's One Kendall Square in Cambridge.
+ ***
+ Agape Mental Health signed a 10K SF lease at Legacy Real Estate Ventures' 600 Clark Road in Tewksbury. The Newton-based landlord owns 20 office, medical and flex properties in Massachusetts, Rhode Island and Pennsylvania. The Tewksbury property is managed by Eastport Real Estate.
+ R.W. Holmes' David Gilkie and Mike Ogaspian brokered the deal.
+ ***
+ Organogenesis Inc. extended its 160K SF headquarters lease at Draxxhall Management Corp.'s 65 and 150 Dan Road in Canton on Dec. 22,  according to a Securities and Exchange Commission filing . The renewal provides a two-year renewal option for the company, which also has  a 122K SF biomanufacturing facility in Smithfield, Rhode Island.
+ FINANCING 
+ Google Maps 
+ Walker & Dunlop secured financing for the sale and acquisition of a 127-unit apartment complex in Cambridge.
+ Walker & Dunlop arranged financing for 929 Mass, a 127-unit, two-building multifamily development in Cambridge. John M. Corcoran & Co. and partner Stars REI acquired the property for $53.6M and acquired a $37.1M fixed-rate, interest-only Fannie Mae loan.
+ Equity Residential was the seller. W&D's Travis D'Amato, Michael Coyne, Brendan Shields, Kevin Gleason, Maggie McFarland, Andrew Gnazzo and Mike Darling worked on the deal.
+ ***
+ Mill Creek Development secured $95M in financing for its $145M, 240-unit Allston apartment development at 250 Everett St., Banker & Tradesman reported . Santander Bank provided the construction loan. The project was approved by the Boston Planning & Development Agency in January 2025.
+ CONSTRUCTION AND DEVELOPMENT 
+ MassDevelopment issued a request for proposals seeking development of 69.3 acres in Devens. The two sites are a 6.6-acre site at Adams Circle and a 62.7-acre site at Grant Road.
+ The state's financing agency is encouraging proposals that have a variety of housing, including single-family homes, townhomes, duplexes and multifamily buildings.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

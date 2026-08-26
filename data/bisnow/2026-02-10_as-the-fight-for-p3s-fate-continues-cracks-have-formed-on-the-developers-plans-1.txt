@@ -1,0 +1,298 @@
+URL: https://www.bisnow.com/news/boston/mixed-use/as-the-fight-for-p3s-fate-continues-cracks-have-formed-on-the-developers-plans-133159
+INDEX_DATE: 2026-02-10
+
+'Decisions Have Already Been Made': Developers Argue For Rejected P3 Roxbury Project 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Mixed-Use 
+ 'Decisions Have Already Been Made': Developers Argue For Rejected P3 Roxbury Project 
+ February 10, 2026 | 3:17 pm ET 
+ Taylor Driscoll, Boston 
+ A large parcel meant to spur economic development in Roxbury  has become the epicenter of a contentious battle, as developers continue to fight for a plan that Boston city officials say is no longer under consideration.
+ During a community meeting held at Twelfth Baptist Church in Roxbury on Monday night, the development team of  HYM Investment Group and My City At Peace  argued for the viability of their plan for the 7.7-acre Parcel 3 site.
+ Boston Planning Department 
+ A Rendering Of Hym Investment Group And My City At Peace's P3 Redevelopment.
+ The original plan included more than 600K SF of life sciences space, 466 housing units and a museum for an organization that honors Martin Luther King Jr.
+ HYM Investment Group CEO Tom O'Brien said he still believes in the original plan, which was proposed at the height of Boston's life sciences building boom.
+ "We still believe that this community deserves these kinds of jobs and this kind of opportunity, whether that's a life sciences company, a Pfizer or a Sanofi, or something like that, or it's a hospital-related project," he added.
+ In January, Boston Chief of Planning Kairos Shen announced the development team's designation would not be renewed after two extensions and no development in sight, The Boston Globe reported . The city argued that the project would no longer be economically viable given the state of the Greater Boston life sciences market.
+ Before the meeting, OnyxGroup Development, which was brought on as a minority development partner in the project, stated in an open letter it publicly disagreed with HYM and MyCAP's position. There was no way forward with the project as originally envisioned, OnyxGroup's principals said.
+ "We feel it is disingenuous to leverage the community's frustration and emotions in an attempt to be re-designated," the letter states. "We do not have enough information to take a position or to advise you to fight a battle that we are not equipped to win at this time. Our team is no longer on the same page."
+ The city now is considering putting a $700M Madison Park vocational high school on the site after receiving support from the Massachusetts School Building Authority in December .
+ The announcement garnered pushback from many local community leaders, who argued the plan went against the original economic development goals for the site, The Globe reported. Members of the development team pushed back, as well, writing  a letter to the mayor sharing the progress they said they had made.
+ At the community meeting, the Rev. Jeffrey Brown said the team is in preliminary talks with the city to find common ground on the project.
+ "We have had a conversation with the mayor," Brown said during the Monday night meeting. "It's a beginning conversation, and it was a good conversation in general, but we need to have more conversations."
+ However, Mayor Michelle Wu  reiterated Tuesday afternoon the city plans to move forward with the school redevelopment.
+ Flickr/City of Boston Mayor's Office/John Wilcox 
+ Boston Mayor Michelle Wu at Bisnow's Boston Multifamily Conference in 2023.
+ Wu said on GBH's Boston Public Radio show the development team had multiple extensions before the city pulled out of the project. The city doesn't want to repeat the missteps of past administrations that had let the site go undeveloped, she said.
+ "Time after time after time, there have been projects that have been proposed and sometimes they'd linger, and the city allowed the designation to continue," Wu said. "Ultimately, they had to recognize that it was not happening."
+ With Madison Park getting the support from MSBA, Wu said, it makes sense to jump on the opportunity.
+ "Something has to be prioritized first," she said.
+ The listening session was attended by over 50 members of the community, including Sen.  Nick Collins  and City Councilor Miniard Culpepper. Former city councilors Tito Jackson and Tania Fernandes Anderson and former Rep. Diane Wilkerson also attended.
+ Google Earth 
+ Parcel 3, better known as P3, in Roxbury is a vacant 7.7-acre plot of city-owned land on Tremont St.
+ During the meeting, many community members expressed disappointment and anger with the city's decision.
+ "This is a generational opportunity that is missing us," Jackson said. "These parcels don't come around anymore."
+ Over the past several decades, various plans for the P3 site included a shopping mall, housing, an office and even a BJ's Wholesale Club, but none of these projects have come to fruition.
+ Some who spoke at the meeting said they had no intention of backing down in fighting for the site.
+ "We'll wait 50 years, if that's how long it takes for us to get the money," Wilkerson said about the city's process. "To tell me it's been vacant for 40 years means you've been in the way."
+ With the designation being stripped, the community asked for answers as to what would happen moving forward. With the city not budging on its plans to locate a new high school there, some feared their dream for the site will stay just that.
+ "We have no offensive plan," Fernandes Anderson said to the developers. "While you are in preliminary conversations, with all due respect, decisions have already been made."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ HYM Investment Group 
+ , Kairos Shen 
+ , Michelle Wu 
+ , My City At Peace 
+ , Rev. Jeffrey Brown 
+ , Roxbury 
+ , Tom O'Brien 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Food And Beverage Increasingly Becoming Anchor In Mixed-Use Projects
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

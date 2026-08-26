@@ -1,0 +1,284 @@
+URL: https://www.bisnow.com/news/boston/affordable-housing/somethings-got-to-give-wu-supports-state-rent-control-measure-but-hopes-for-compromise-133149
+INDEX_DATE: 2026-02-10
+
+'Something's Got To Give': Wu Supports State Rent Control Measure But Hopes For Compromise 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Affordable Housing 
+ 'Something's Got To Give': Wu Supports State Rent Control Measure But Hopes For Compromise 
+ February 10, 2026 | 9:40 am ET 
+ Taylor Driscoll, Boston 
+ Mayor  Michelle Wu said she will support a multifamily rent control measure on the ballot in November if no other deal can be reached.
+ Flickr/City of Boston Mayor's Office/Isabel Leon 
+ Mayor Michelle Wu Speaks At The Greater Boston Chamber Of Commerce's Annual Meeting.
+ "It's not perfect, and it's not what the city of Boston put forward as a balanced proposal for our city," Wu said during GBH's Boston Public Radio  program Tuesday afternoon. "This is different from that, but I'm not going to let the perfect be the enemy of the good."
+ The proposal would cap rent increases across the state to 5% or the consumer price index , whichever is lower. The ballot measure is being led by Homes for All Massachusetts, which collected  more than 124,000 signatures for the initiative last fall.
+ The measure wouldn't apply to owner-occupied properties, buildings with four or fewer units, and construction that is less than 10 years old.
+ "There is so much urgency and pressure from housing costs on our residents," Wu said. "Something's got to give, and there's always a better solution that comes out of legislating and passing something with nuance than the hammer of a ballot initiative."
+ She said she hopes the rent control proposal will spur conversation in the Massachusetts Legislature, especially since the proposal is a blanket measure that doesn't address the different circumstances of each city and town.
+ "I hope there can be some compromise worked out, because every city's condition is quite different from each other," Wu said.
+ Some rent control advocates said they are open to compromise but are still waiting to see what lawmakers on Beacon Hill might do now that voters can have their say about rent control in November, The Boston Globe reported .
+ Wu's stance has shifted on the measure in the last few months.
+ In November, Wu told GBH she didn't necessarily support the ballot measure given its one-size-fits-all approach.
+ A majority of the members of the Boston City Council have come out in favor of the measure,  voting 9-3  in support of the statewide ballot question last month.
+ Other legislative leaders have rung the alarm bell, saying the ballot measure could impede efforts to produce more housing and address the affordable housing crisis. Gov.  Maura Healey has come out against the measure .
+ Rent control has been illegal across the state since voters narrowly approved a ballot measure in 1994  to ban the practice .
+ Wu is no stranger to rent control, filing her own home rule petition with the Massachusetts Legislature in 2023 .
+ Her proposal, which would only have applied to Boston rental properties, would have limited rent increases to between 6% and 10%, with an exact cap based on annual CPI increases. It also included carve-outs for small landlords and new construction.
+ The city council passed the proposal in March 2023 , but it fizzled out on Beacon Hill.
+ The idea of rent control has left a sour taste in investors' and developers' mouths, with many threatening to halt development and investment across the state should the measure pass.
+ Real estate-backed groups, including Housing for Massachusetts, have also gone on defense against the measure, filing a lawsuit to challenge it, CommonWealth Beacon reported .
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Boston Rent Control 
+ , Maura Healey 
+ , Michelle Wu 
+ , Rent-control 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ After Departing Trump Admin, HUD's Former Philly Head Joins Local Planning Commission
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ To Rein In Costs, Philly Affordable Housing Players Look To Become 'Less Reliant On Consultants'
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

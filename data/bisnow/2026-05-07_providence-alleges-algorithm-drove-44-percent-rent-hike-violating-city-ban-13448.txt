@@ -1,0 +1,282 @@
+URL: https://www.bisnow.com/news/boston/multifamily/providence-alleges-algorithm-drove-44-percent-rent-hike-violating-city-ban-134480
+INDEX_DATE: 2026-05-07
+
+Providence Sues Landlord, Alleging Algorithm Drove 44% Rent Hike In Violation Of City Ban 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Multifamily 
+ Providence Sues Landlord, Alleging Algorithm Drove 44% Rent Hike In Violation Of City Ban 
+ May 7, 2026 | 1:24 pm ET 
+ Craig Idlebrook, East Coast Editor 
+ The city of Providence, Rhode Island, is taking a Boston private equity real estate firm to court, alleging the firm used an algorithm to set the price of rental units in violation of a city ban on the practice.
+ Google Maps 
+ 95 Lofts, An Apartment Building In Providence, Rhode Island
+ The city alleges that Audubon Capital Partners used the algorithm to dramatically increase rental prices for units at 95 Lofts, a 59-unit multifamily building in the city's Jewelry District. The firm then allegedly admitted to renters in writing that it used the algorithm,  according to a city press release .
+ Property management for the building wrote to the renters that "lease rates are generated through a dynamic pricing system that evaluates several factors, including market conditions and the number of expected vacancies during a specific timeframe."
+ "In some cases, the software may price certain lease terms higher if a larger number of apartments are projected to become available in that particular month."
+ The action taken by the city was  first reported  by the Providence Business News. The firm has been summoned to respond to the complaint in Providence Municipal Court on June 22,  The Boston Globe reported .
+ A pair of renters alerted the city to the alleged practice after they were told their rent would be raised 44%, from $2,554 a month to $3,684 a month for a 12-month lease for their 600 SF, two-bedroom unit. If they chose to rent month to month, the price would rise to $14K, The Boston Globe reported.
+ The council  passed its ban  on the use of algorithms to set rent pricing in May 2025. This is first enforcement action of that ban, according to the press release. The fine for violating the ordinance is $500 a day per violation.
+ Audubon Capital Partners didn't respond to a request for comment.
+ When the city passed the ordinance, a press release said Providence was one of six major U.S. cities to do so.
+ The Boston City Council  ordered a study  on the possibility of a similar ban in January. A  bill banning the practice  is in committee in the Massachusetts Senate.
+ In January 2025, attorneys general from Massachusetts and Illinois joined the U.S. Department of Justice in its  antitrust case  filed in 2024 against RealPage for allegedly using algorithms to help landlords fix prices for rental units.
+ In December, RealPage and the DOJ  reached a tentative settlement  in the lawsuit, requiring the real estate tech company to put in place new guardrails for how its software suggests rent prices and how the company trains its artificial intelligence.
+ This is Audubon Capital's first year as the owner of the property. The firm purchased it and another Providence property , the 92-unit Chestnut Commons, in January from two partnerships led by Providence-based Waldorf Capital Management.
+ Audubon Capital is tied to several Massachusetts properties, including multifamily buildings in Worcester, Shrewsbury and Walpole.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Craig Idlebrook 
+ at
+ craig.idlebrook@bisnow.com 
+ Related Topics:
+ Audubon Capital Partners 
+ , Price-fixing lawsuit 
+ , Providence 
+ , Shrewsbury 
+ , Walpole 
+ , Worcester 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ MG Developer Faces 6 Lawsuits Alleging Millions In Overdue Debt
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

@@ -1,0 +1,308 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/leggat-mccall-lands-122m-loan-bunker-hill-redevelopment-boston-deal-sheet-133980
+INDEX_DATE: 2026-04-06
+
+Leggat McCall Lands $122M Loan For Bunker Hill Redevelopment: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Leggat McCall Lands $122M Loan For Bunker Hill Redevelopment: The Boston Deal Sheet 
+ April 6, 2026 | 3:30 pm ET 
+ Taylor Driscoll, Boston 
+ The development team behind a public housing redevelopment in Charlestown secured financing for its second apartment project.
+ Courtesy of Stantec
+ Building F in the Boston Housing Authority's Bunker Hill housing redevelopment project
+ Leggat McCall, the Boston Housing Authority and Joseph J. Corcoran Co. secured a $122M loan from Cottonwood Group for Building F of its Bunker Hill Housing redevelopment. The planned apartment building will be nine stories consisting of 208 market-rate units and 58 affordable housing units.
+ Building F will be part of a $1.4B, multiyear project  designed to deliver close to 2,700 units across 15 buildings. The project is expected to be completed in the next decade.
+ "This funding infusion catapults the construction start of our second building forward and allows for the continued momentum of delivering 2,699 critical, high quality, and sustainable market-rate and affordable apartment homes," Leggat McCall Senior Vice President Adelaide Grady said in a statement.
+ The new phase of the project is estimated to cost $176M.
+ In addition to the financing, the city of Boston's Housing Accelerator Fund provided $50M in equity.
+ The project's first apartment building opened its doors last year with 102 units across six floors. In total, the $1.4B project will replace 1,100 affordable apartments with a 2,699-unit mix of market-rate and affordable units.
+ SALES 
+ Core Investments acquired the Randolph Showcase Cinema Deluxe property for $9M. The cinema has been closed since March 1.
+ Atlantic Capital Partners' Justin Smith, David Smookler, Peter Considine, Danielle Turpin and Matt Austin represented the seller, National Amusements, and procured the buyer.
+ ***
+ Brookfield Real Estate Income Trust acquired a 222K SF warehouse and distribution center at 34 Market St. in Everett from The Davis Cos. for $155M, according to public records.
+ The industrial property was completed in 2022 and is adjacent to the city's Commercial Triangle, a 100-acre residential development. It is 100% leased.
+ ***
+ Dallas-based Allan Bailey Johnson Group acquired an office building that is home to the FBI at 201 Maple St. in Chelsea  for $134M .
+ ACS Development Corp. was the seller in the deal. Old National Bank provided a $94M acquisition loan.
+ LEASES 
+ Courtesy of Lincoln Property Co.
+ 300 Third Ave. in Waltham
+ Biocytogen doubled its footprint to 70K SF at MetLife Investment Management and Lincoln Property Co.'s 300 Third Ave. lab building in Waltham. The biotech company initially signed a 35K SF lease at the property in 2022.
+ Lincoln Property Co.'s Tim Latham, Christopher Scott and Chris Devaux represented ownership. Colliers' Tim Allen represented Biocytogen.
+ FINANCING 
+ DivcoWest secured a $341M refinancing loan from KKR for 441 Morgan Ave. in the firm's Cambridge Crossing mixed-use campus.
+ Astellas Pharma Inc. occupies roughly 62K SF at the lab building. The property is also home to a 285-car, below-grade parking garage.
+ ***
+ Greatland Realty Partners secured $243M in financing from UMB Bank for the development of a 200K SF Massachusetts State Police lab and training facility in Marlborough, according to public records. Greatland Realty and its investment partners secured a credit tenant lease financing.
+ Construction for the facility is set to begin soon, and the facility is scheduled to open in the first quarter of 2028. JLL's Brett Paulsrud, Andrew Gray and Michael George represented the borrower.
+ PERSONNEL 
+ Rogerson Communities hired Joe Crisafulli as its director of affordable housing. In the new role, Crisafulli will oversee the company's income-eligible properties across the state.
+ Prior to this, Crisafulli served for almost four decades at the Department of Housing and Urban Development.
+ ***
+ Foxfield hired Jillian Alves as vice president of investor relations. Alves brings more than 10 years of experience, most recently as president of investor relations for The Davis Cos.
+ ***
+ Avison Young hired Leeanne Rizzo as principal and New England market leader. Rizzo will lead day-to-day operations and focus on talent recruitment. She will oversee the firm's Boston and Hartford, Connecticut, offices.
+ Before joining Avison Young, Rizzo served as executive vice president and principal at Hunneman and held other roles at Newmark and Colliers.
+ CONSTRUCTION AND DEVELOPMENT 
+ Google Earth 
+ Brockton Housing Authority secured a $50M loan for the first phase of its Campello Apartments redevelopment in Brockton.
+ Shawmut Construction broke ground on the first phase of the Campello public housing campus in Brockton. The construction company is working with the Brockton Housing Authority, Cambridge Housing Authority and BWA Architecture to build a seven-story residential building consisting of 144 affordable housing units.
+ ***
+ Auxilium Worcester plans to open a 3K SF materials science lab in downtown Worcester in partnership with Flexcon Lab. The lab will be at 311 Main St.
+ Construction on the lab is planned to be completed in the summer.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Boston Housing Authority 
+ , Bunker Hill 
+ , Bunker Hill Housing Redevelopment 
+ , Leggat McCall Properties 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

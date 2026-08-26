@@ -1,0 +1,306 @@
+URL: https://www.bisnow.com/news/boston/cannabis/cannabis-lounges-get-the-green-light-but-the-path-forward-is-hazy-132636
+INDEX_DATE: 2026-01-08
+
+Cannabis Lounges Get The Green Light, But The Path Forward Is Hazy 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Cannabis 
+ Cannabis Lounges Get The Green Light, But The Path Forward Is Hazy 
+ January 8, 2026 | 4:15 pm ET 
+ Taylor Driscoll, Boston 
+ Massachusetts has finally rolled out cannabis lounges, but it will be some time before you can legally spark up on a rooftop or settle down with a brownie in a café.
+ The state's Cannabis Control Commission approved regulations to allow social consumption of marijuana during its Dec. 11 meeting . This paves the way for local businesses to seek permits to allow consumption of cannabis products on site and at certain events where allowed by local municipalities.
+ Pexels/Johannes Schröter 
+ Massachusetts' Cannabis Control Commission Approved Of Regulation Allowing Public Consumption In Licensed Businesses.
+ "We're basically going to be writing our own roadmap going forward," CCC Chair Shannon O'Brien said, addressing the commission at the Dec. 11 meeting. "Using the signs that you've put together and making sure it's done right, and working with communities to make sure they implement it … with a focus toward safety."
+ The commission's decision has created the pathway for three new permits for business owners: a supplemental permit for on-site consumption for dispensaries, a permit for consumption at non-dispensaries and an event organizer permit for temporary events.
+ For a cannabis lounge to be approved, it must have a transportation plan in place that includes ride-shares, it cannot serve alcohol, and it must be able to serve food and water on the premises.
+ For the first five years, social consumption permits will only be granted to those enrolled in the commission's social equity program. The program ensures those who are from communities that have been disproportionately impacted by marijuana prohibition and enforcement can first obtain the new licenses.
+ The regulation officially went into effect Jan. 2. Now, the commission is focused on educating municipalities on the new regulations as local elected officials ponder whether to allow consumption lounges within their limits.
+ Though these cafés have been approved, O'Brien said she estimates it may take anywhere from a year to 18 months before Massachusetts sees its first shop, WBZ-TV reported .
+ Marijuana advocates have become accustomed to waiting.
+ The original 2016 legalization language included a provision allowing public consumption of marijuana at designated sites. However, the state legislature slow-walked the legal sale of marijuana at dispensaries until July 2018 , rewriting key provisions of the legalization law along the way. The first dispensary sales didn't occur until November 2018.
+ The commission has had its own hiccups in the process of greenlighting the cafes. It originally voted to allow the cafes in 2019  but took years to craft the rules and regulations for them to open their doors.
+ State legislators reorganized the commission in 2024 after an audit uncovered it was rife with mismanagement and disorganization . O'Brien was removed from the commission and suspended for over a year, only to win a legal battle and reclaim her leadership role in September 2025 .
+ The commissioners hope the social consumption law can boost a struggling industry.
+ "This is an exciting opportunity and will present new economic opportunities for equity participants and other small businesses," Commissioner Carrie Benedon said during the meeting.
+ In fiscal year 2025, 13 cannabis retail licenses were surrendered, revoked, or not renewed, four more than were surrendered the year prior, the Boston Business Journal reported . Also, cannabis prices have fallen drastically , with the average price of an eighth of an ounce of cannabis flower costing $14.20 compared to a $45 price tag four years ago.
+ Google Maps 
+ The owners of Haverhill dispensary Stem have plans to convert the top two floors of their property into a marijuana lounge.
+ Still, more dispensaries have opened year-to-year than closed, with 766 cannabis businesses in the state set to commence operation as of October.
+ Will Luzier, who serves as head of compliance at Tudestr, a cannabis industry consulting firm, and as a member of the state's Cannabis Advisory Board, said it is difficult to know what hurdles still lie ahead for the opening of the state's first cannabis lounge, as many municipalities haven't determined their position on the regulations.
+ Some communities, like Somerville , have already begun soliciting public comments on the regulations, The Boston Globe reported . And some retailers have been planning for the lounges for a while, renting out space in advance.
+ Tito Jackson , a former Boston city councilor and owner of the Apex Noire dispensary in the city, told the Globe he hopes to open a rooftop cannabis lounge attached to his dispensary.
+ In Haverhill, the Stem dispensary occupies four floors. The first floor and basement are home to its dispensary, while the second floor, third floor and rooftop are envisioned for some type of pot café .
+ Luzier said not all dispensaries have those resources, and it is currently difficult to gauge the real estate demand for such lounges when things get up and rolling.
+ Stem has "the capacity and the resources to move forward with a consumption lounge, but not everyone who is a qualified applicant will have those kinds of resources available," Luzier said.
+ On the flip side, some Massachusetts residents have even organized an attempt to place a question on the ballot to repeal the sale of recreational marijuana . That effort is currently embroiled in controversy, as opponents of the proposed ballot measure say signatures for it were gathered in deceptive ways. A formal hearing on the matter is scheduled for Jan. 13.
+ Historically, cannabis retailers have had trouble finding usable space across the Commonwealth, the BBJ reported .
+ Larger landlords and properties tied to federal loans have long barred cannabis retailers. On top of that, the stigma of the business has pushed municipalities to impose detailed and, some advocates would say, onerous regulations regarding placement.
+ The available real estate that is zoned for dispensaries is at a premium, which is just one of the many costs retailers must face. The high rent is often coupled with high insurance costs and a high tax rate.
+ These hurdles, though difficult, are not insurmountable, especially for well-capitalized dispensaries that want to have social lounges, Luzier said.
+ Unsplash/Elsa Olofsson 
+ "There's no question that real estate, although it continues to be at a premium for cannabis facilities, there's no question that there is real estate available," Luzier said.
+ However, some owners aren't as hopeful and think the regulations could go up in smoke . They worry the lounges might not be as profitable as promised, much like the returns on cannabis delivery services proved disappointing after that was greenlighted in 2020.
+ Massachusetts now joins 12 other states that have legalized social consumption in some form, and lounges have been slow to take flight in those states, too.
+ Jerred Kiloh, United Cannabis Business Association  president and owner of The Higher Path Dispensary in Los Angeles, said that when California legalized cannabis lounges, it took a while to get the ball rolling.
+ The lounges that did open up faced an estimated 50% to 60% turnover rate because of the lack of profitability. Adult cannabis use has been legal in California since 2017, but many lounges struggled under suffocating zoning regulations and fees from licensing and taxes, Kiloh said.
+ Kiloh and others have been working to tweak the regulations to provide lounges with a more sustainable business model. California passed a law in 2024 that allowed lounges to offer retail, live music and non-cannabis food and drink, for example. However, Kiloh said even this tweak has come with challenges.
+ "Now, you can have this dual license where every lounge could also be a retail space, but it still got mired in local laws, local zoning, a patchwork of different rules and regulations locally," he said.
+ However, it's possible lounge owners have received a boost to their business model from a surprising federal move. Just days after Massachusetts approved its social consumption laws, President Donald Trump recommended rescheduling medical marijuana from Schedule I of the Controlled Substances Act to Schedule III.
+ The rescheduling wouldn't legalize the drug federally, but it does signal growing acceptance of the cannabis industry, and local governments may follow the federal government's cue. If the Trump administration 's proposed regulations stand, cannabis retailers also will, for the first time, be allowed to deduct rent, payroll and marketing costs from their federal taxes.
+ "It could mean considerable windfall for many marijuana establishments," Luzier said.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Cannabis 
+ , Cannabis Control Commission 
+ , Cannabis lounge 
+ , Social consumption 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ UK Investment Giant Funds First U.S. Development In Boston Suburb
+ Whoop Looks To Double Boston Footprint With 107K SF Lease
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

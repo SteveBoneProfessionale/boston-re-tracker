@@ -1,0 +1,303 @@
+URL: https://www.bisnow.com/news/boston/economic-development/watertown-square-revitalization-development-133518
+INDEX_DATE: 2026-03-04
+
+Watertown Square Revitalization Efforts Spark Development Interest 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Economic Development 
+ Watertown Square Revitalization Efforts Spark Development Interest 
+ March 4, 2026 | 4:13 pm ET 
+ Taylor Driscoll, Boston 
+ Watertown 's identity has shifted rapidly in the last couple of decades. Perhaps nowhere is this more evident than in the city's center.
+ Residents and business owners who live near Watertown Square  say its identity has eroded with the constant flow of traffic squeezing through every day.
+ More than a year since Watertown officials approved a major zoning overhaul and public redesign of Watertown Square, the city is now moving forward with several major parts of the plan to revitalize the downtown area.
+ Google Maps 
+ Watertown Savings Bank In Watertown
+ Watertown Director of Community Design Erika Oliver Jerram said the plan is a multipronged approach to fix the square's roadways and identify new redevelopment opportunities.
+ "It's more than the roads," Jerram said. "It's a comprehensive redesign of the square."
+ The city, along with a consultant team led by Utile, Stantec and Speck Dempsey, worked to design the Watertown Square Area Plan to meet the demands of the state and the long-unmet needs of the community.
+ The plan was  approved in 2024 , tied to the MBTA Communities Law, a statewide zoning overhaul. It includes by right zoning for more than 4,400 housing units, the addition of more than 3 acres of public open space, and a reimagined roadway that will make the community more easily accessible to pedestrians.
+ "The assignment was so interesting to us because almost every planner and urban designer in metro Boston probably thinks that Watertown Square is currently the most screwed-up intersection in the entire metro area," Utile founding partner Tim Love said.
+ In February, the city  brought on Bowman Consulting Group  to help design the new Watertown Square intersection, which would decrease the number of lanes of traffic and create an easier-to-follow four-way intersection. It would also widen sidewalks and introduce street parking.
+ Developers, by and large, are excited to see the plan implemented, Jerram said. That is because the plan's zoning goes above and beyond its  MBTA  Communities Law requirements and creates space for future public-private partnerships.
+ "I think most of them found the zoning to be fundamentally something they can work with and that there's an opportunity here to really do some interesting projects," Jerram said.
+ Plans for a couple of projects have already been filed under the new zoning guidelines.
+ Google Earth 
+ Torrington Properties  proposed a five-story, 40-unit project on a vacant commercial lot at 33 Mount Auburn St. In December 2025, the development  was approved  by the Watertown Planning Board.
+ In September, WSQ Development and Eaglebrook Capital filed plans for a four-story, 52-unit apartment building at 108 Water St. The project  was approved  in November.
+ Utile senior urban designer Lauren Rapport said the Watertown Square redevelopment team worked to make sure the plan was attractive and financially feasible for developers. It includes no parking minimums, which has been  a pain point for development teams  building in denser urban neighborhoods.
+ "That was a huge part of our process, making sure every step of the way that what we were proposing was something that could be actionable, that would be desirable to build, not only from an aesthetic point of view but from a financial point of view," Rapport said.
+ Love said it was a fairly quick process from the initial request for proposals to the approval of the plan. It was faster than other larger-scale planning guides he has worked on for other public entities.
+ He said Watertown officials' know-how and drive to get the plan up and running was a major factor in the speed of getting to a shovel-ready status. Watertown City Manager George Proakis, for example, has decades of experience in city planning, previously heading Somerville's planning department, where he oversaw much of the revitalization of Assembly Row .
+ Courtesy of Storyline Motion Pictures 
+ 66 Galen
+ "There's no better-prepared person on the administrative side in a city who's been through it twice before," Love said. "If you don't move fast enough, the citizens get planning fatigue, people move on to other priorities."
+ Over the last several decades, Watertown Square has been impacted by the state's transportation priorities, including a major Massachusetts Pike extension into Newton in 1965.
+ The heavy traffic led to a shift in the square's roadways, creating a design that saddles the square with some 20 lanes entering and exiting, a lack of on-street parking, and confusing street signs and signaling.
+ The city and the businesses that reside in the square are bracing for the short-term pain they expect to accompany new construction and changes to the intersection.
+ Planners hope the square can come out of the other side and still be somewhere local businesses can call home.
+ Watertown Business Coalition co-founder Doug Orifice said his organization has been advocating to ensure rents stay affordable for a diversity of small businesses in the community as new development enters the area.
+ The community has benefited from the boom of life sciences space, like The Davis Cos.' 225K SF 66 Galen lab building within the square, but they hope the new development will bring more diversity of businesses.
+ "For small businesses, they're going through an affordability crisis," Orifice said. "I think we're a little bit nervous about seeing some of these first-floor retail spaces that may not accommodate those types of businesses."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Bob Airasian 
+ , Doug Orifice 
+ , Erika Oliver Jerram 
+ , George Proakis 
+ , Loren Rapport 
+ , MBTA Communities Law 
+ , Speck Dempsey 
+ , Stantec 
+ , Tim Love 
+ , Watertown 
+ , Watertown Business Coalition 
+ , Watertown Square 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Aerospace And Defense Company Opens 60K SF Facility In Arvada
+ How Pearland, Texas, Is Redefining Workforce Development
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ How Addison, Texas, Upholds Its Regulatory Standards And Keeps Building Projects Moving Forward
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ 'Quality Of Place': One Inland Empire City's Manual For Smart Growth
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

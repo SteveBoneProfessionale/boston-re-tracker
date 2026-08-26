@@ -1,0 +1,298 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/bpda-approves-wentworth-campus-plan-dorchester-affordable-housing-project-the-boston-deal-sheet-133235
+INDEX_DATE: 2026-02-16
+
+City Approves Wentworth's 972-Bed Dorm Project: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ City Approves Wentworth's 972-Bed Dorm Project: The Boston Deal Sheet 
+ February 16, 2026 | 4:17 pm ET 
+ Taylor Driscoll, Boston 
+ The Boston Planning Department approved two developments totaling 272K SF  at its monthly meeting.
+ Boston Planning Department 
+ A Rendering Of Wentworth Institute Of Technology's Pike Residence Hall.
+ At the meeting, the Planning Department gave the green light to Wentworth Institute of Technology's institutional master plan, which includes the construction of the 972-bed Pike Residence Hall.
+ Wentworth agreed to pay at least $400K to the city over the next five years as part of its deal for the campus expansion.
+ This is the first time the school has paid toward the city's payment-in-lieu-of-taxes program in five years. Northeastern University made similar commitments when its IMP was approved in November .
+ The board also approved a 33-unit affordable rental housing proposal put forth by the  Dorchester-based Vietnamese American Initiative for Development . All the units of the community development corporation's project will be affordable, and two-thirds of the units will have two or three bedrooms to accommodate families.
+ SALES 
+ Mesirow Financial acquired a Cambridge apartment complex known as Twenty20 for $218M from PGIM Real Estate and secured a $139M mortgage for the property through Walker & Dunlop. The property is in the Cambridge Crossing mixed-use neighborhood.
+ CBRE's Simon Butler, Biria St. John, John McLaughlin and Brian Bowler represented the seller and procured the buyer.
+ ***
+ Hudson Valley Property Group acquired two affordable housing properties in Dorchester: Boston Bay at 205 Magnolia St. and Hope Bay at 5 Norwell St. The landlord plans to invest roughly $6.4M in renovations to the buildings and plans to extend affordability at Boston Bay and Hope Bay for 27 and 31 years, respectively.
+ ***
+ Hyperice signed a six-year, 14K SF lease at Beacon Capital Partners' Southline project in Dorchester, Banker & Tradesman reported . The adaptive reuse project is at 135 Morrissey Blvd.
+ The athletic training equipment brand is backed by professional athletes including Jayson Tatum, Lyndsey Vonn and Patrick Mahomes.
+ LEASES 
+ Google Maps 
+ Bain Capital and Phase 3 Real Estate Partners' Genesis lab building in Waltham
+ Bain Capital and Phase 3 Real Estate Partners secured two leases at their Genesis lab property at 21 Hickory Drive in Waltham. The leases were signed by Dash Bio and Bonito Biosciences, which collectively leased 48K SF.
+ CBRE's Eric Smith, Alex Plaisted and Perry Beal represented the owners. Savills represented Dash Bio, and Cushman & Wakefield represented Bonito.
+ FINANCING 
+ MassHousing closed on $17.8M for a 43-unit affordable housing project at 24 Webster Ave. in Somerville.
+ Just A Start, a community development organization, plans to demolish the existing building and develop the six-story project to Passive House standards on the property.
+ The state's financing agency is providing the loan through its conduit loan program and is providing a tax-exempt bond. TD Bank is also providing $22.8M in construction financing.
+ PERSONNEL 
+ Cushman & Wakefield hired Gabrielle Harvey and Brendan Callahan as executive vice chairs of the firm's Boston office. The duo joins C&W from JLL, where they held senior leadership positions. The two have closed more than $2B in deals for local and national clients.
+ ***
+ Shawmut Design and Construction has expanded its team to include Chris Halliday, the company's first director of construction innovation and technology in the Northeast, and Colleen Kelly, director of business development.
+ ***
+ Newmark hired Steve Purpura as its new executive vice chairman, the Boston Business Journal reported . Purpura most recently came from Beacon Capital Partners, where he served as president. He led the firm's life sciences strategy and portfolio growth since 2021.
+ CONSTRUCTION AND DEVELOPMENT 
+ Courtesy of Simon Property Group
+ A rendering of Simon's plans to redevelop the Neiman Marcus store at Copley Place
+ Neiman Marcus is closing its Copley Place location as part of Saks Global's bankruptcy proceeding, leaving nearly 100K SF vacant. Simon Property Group plans  to redevelop the space , adding two new tenants: Italian marketplace Casa Tua Cucina and Greek seafood restaurant Estiatorio Milos. Construction is anticipated to begin in 2028.
+ ***
+ WinnDevelopment acquired a 97-unit mixed-income community in Somerville with plans to begin a $17.3M renovation project. The project at The Somerhill will convert the property into an all-electric apartment community by replacing the entire building's envelope and HVAC systems.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Boston Planning Department 
+ , Wentworth Institute of Technology 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

@@ -1,0 +1,281 @@
+URL: https://www.bisnow.com/news/boston/data-center-development/massachusetts-city-imposes-one-year-moratorium-on-data-centers-133606
+INDEX_DATE: 2026-03-11
+
+Massachusetts City Imposes One-Year Moratorium On Data Centers 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Data Center 
+ Development 
+ Massachusetts City Imposes One-Year Moratorium On Data Centers 
+ March 11, 2026 | 11:46 am ET 
+ Craig Idlebrook, East Coast Editor 
+ Lowell city councilors voted Tuesday night to impose a one-year moratorium on new data center development or expansion.
+ Pixabay/TheDigitalArtist 
+ The moratorium, which includes the possibility of an additional 180-day extension, builds on the council's January decision to pause consideration of new  data center  development.
+ Lowell joins a growing group of municipalities pushing back on data centers. Elsewhere in Massachusetts, the town of Shutesbury will  consider its own moratorium  during an annual town meeting in May.
+ Moratoriums are more common in places where data centers have proliferated. In Ohio, for example,  18 municipalities have passed or are considering moratoriums , The Ohio Newsroom reported.
+ Such moratoriums can similarly last a year, like one that passed  in Chatham County, North Carolina , last month. Others may be shorter but buy regulators time to consider more significant measures. The city council in Monterey Park, California, passed  a 45-day ban  on data center development last month, but with an eye toward crafting a permanent ban.
+ Lowell is home to a roughly 50-megawatt data center owned and operated by Boston-based Markley Group. While the moratorium freezes consideration of any future expansion, development work already underway at the site will be allowed to continue, according to the Boston Business Journal .
+ The company originally  built out the data center in 2015  on the grounds of the former Prince Macaroni Manufacturing Co. site. At the time, Lowell had no zoning regulations specifically for data center projects. Markley also owns and operates a  930K SF telecommunications hub  in Boston.
+ The Markley Group did not return a request for comment.
+ The moratorium will give city planners time to understand the potential impacts that the "construction, expansion, and operation of Data Centers will have on City infrastructure and, more generally, the overall quality of life for the residents of Lowell," according to the ordinance text.
+ City officials will also use the time to review current zoning codes and regulations.
+ The Lowell City Council first backed a pause on data center development in January after Councilor Kim Scott raised concerns about a lack of clarity of what was permissible for the asset class within city limits. Scott also flagged that the city had little to no knowledge of how much power the Markley site draws from the local electrical grid,  The Lowell Sun reported .
+ Scott told Bisnow that Lowell's current zoning was not written with data center development in mind, and this has created uncertainly for both developers and residents. She hopes the moratorium will give the city time to craft rules that better balance future development and quality of life in Lowell neighborhoods.
+ "Ultimately, establishing clear rules creates a more stable and predictable environment for long-term investment," Scott said via text message. "This isn't about being anti-business, it's about making sure Lowell has the right framework in place so development can occur responsibly."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Craig Idlebrook 
+ at
+ craig.idlebrook@bisnow.com 
+ Related Topics:
+ Industrial 
+ , Moratorium 
+ , Power grid 
+ , Rezoning 
+ , Telecommunications 
+ , The Markley Group 
+ , Zoning 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ AI Cloud Firm Nebius Raises $5.75B In Debt To Fuel Data Center Expansion
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ How Integrated Infrastructure Can Help AI Data Centers Deploy Faster, Build Smarter
+ Nvidia Buys Stake In Data Center Power Company
+ 108-Acre Hawthorne Race Course Buyer Could Put Data Center On Site
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Republicans, Democrats Backing Away From Data Centers Amid Rising Backlash
+ Dallas-Based White Rose Partners Seeks To Build Data Center In Prosper
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

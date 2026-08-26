@@ -1,0 +1,281 @@
+URL: https://www.bisnow.com/news/boston/affordable-housing/massachusetts-housing-chief-to-step-down-133328
+INDEX_DATE: 2026-02-19
+
+Massachusetts Housing Chief To Step Down 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Affordable Housing 
+ Massachusetts Housing Chief To Step Down 
+ February 19, 2026 | 3:00 pm ET 
+ Craig Idlebrook, East Coast Editor 
+ The official at the helm of Massachusetts Gov.  Maura Healey 's efforts to address the housing affordability crisis will resign to take a C-suite role in the banking industry.
+ Wikimedia Commons/Farragutful 
+ Housing and Livable Communities Secretary  Ed Augustus  is stepping down after nearly three years in the role, and his last day will be Feb. 27, the Healey administration announced Thursday .
+ Augustus, who had served as  Worcester  city manager during its recent economic revival, is leaving to become CEO of UniBank.
+ He will be replaced by Juana Matias, a former state representative from Lawrence who had served as regional administrator for the Department of Housing and Urban Development.
+ "Her experience leading transformative housing policies across New England makes her an incredible choice to lead the future of housing for Massachusetts," Lieutenant Gov.  Kim Driscoll  said in a statement.
+ In his time as the commonwealth's housing secretary, Augustus oversaw enforcement of the landmark MBTA Communities Act . The housing law, which required cities and towns served by the MBTA to allow some multifamily housing by right, became law in 2021 but endured several legal challenges from reticent communities before it could be fully rolled out.
+ A  Boston think tank report  found that in mid-2025, there were 102 developments in the pipeline across 34 communities under the MBTA Communities Act. The developments, most of which were in the early stages, would add up to just under 7,000 housing units.
+ Augustus and other administration officials also helped  shepherd the passage of the Affordable Homes Act,  which was signed into law in 2024. The law calls on the state to finance $5.1B to support housing creation.
+ He also took part in the 2023  creation of the Massachusetts Executive Office of Housing and Livable Communities , a cabinet-level office that supplants the subcabinet Department of Housing and Community Development.
+ This will be the eighth cabinet-level official Healey will need to replace since she took office in January 2023.
+ Like many politicians, she has made affordability a centerpiece of her campaign for reelection, which she kicked off last month, and she has said she sees housing as a big part of delivering on that promise. Her administration has set a goal to build 220,000 new housing units in the state by 2035. Last month, her administration rolled out an initiative to  streamline the environmental review process  and speed up housing development.
+ CORRECTION, FEB. 20, 6 A.M. ET: A previous version of the story misstated how long Ed Augustus had been in his current role. It has been updated. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Craig Idlebrook 
+ at
+ craig.idlebrook@bisnow.com 
+ Related Topics:
+ Ed Augustus 
+ , Executive Office of Housing and Livable Communities 
+ , Gov. Maura Healey 
+ , Juana Matias 
+ , Maura Healey 
+ , MBTA 
+ , MBTA Communities Law 
+ , UniBank 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ After Departing Trump Admin, HUD's Former Philly Head Joins Local Planning Commission
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ To Rein In Costs, Philly Affordable Housing Players Look To Become 'Less Reliant On Consultants'
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

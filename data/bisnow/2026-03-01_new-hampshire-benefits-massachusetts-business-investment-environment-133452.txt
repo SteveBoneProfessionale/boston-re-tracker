@@ -1,0 +1,290 @@
+URL: https://www.bisnow.com/news/boston/capital-markets/new-hampshire-benefits-massachusetts-business-investment-environment-133452
+INDEX_DATE: 2026-03-01
+
+New Hampshire Benefits From Massachusetts' Complicated Investment Picture 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Capital Markets 
+ New Hampshire Benefits From Massachusetts' Complicated Investment Picture 
+ March 1, 2026 | 1:43 pm ET 
+ Taylor Driscoll, Boston 
+ New Hampshire economic development officials may want to emblazon the state's motto, "Live Free or Die," on a welcome mat for Massachusetts business owners to see.
+ The Granite State's neighbor to the south has long been seen as less business-friendly, but new challenges loom for developers there, including the threat of a ballot measure authorizing  rent control .
+ Experts who spoke at  Bisnow 's New Hampshire State of the Market event said New Hampshire is seeing more business and capital flooding in as developers seek affordability, lower taxes and a transparent development environment.
+ Wikimedia Commons/Haydn Blackey 
+ "Entrepreneurship follows the path of least resistance, and that is New Hampshire, right?" R.J. Kelly CEO Brandon Kelly said at the Bisnow event, held Feb. 12 at his company's industrial and office space at 121 Technology Drive in Durham.
+ Kelly said New Hampshire is becoming more enticing for investors, especially in the southern part of the state. The area is well located  in the Greater Boston radius  without any of the hurdles developers face in suburban Massachusetts towns.
+ Kelly's business still runs out of Burlington. He said Massachusetts' regulatory challenges are making it increasingly difficult to do business in the state.
+ Such anecdotal sentiments can be hard to verify, but the Associated Industries of Massachusetts Business Confidence Index dropped 1.7 points in December, 8.6 points lower than it was a year before,  the Boston Business Journal reported . The drop reflected growing pessimism among Massachusetts business leaders, with the leading worry being the cost of doing business.
+ In contrast, there is a feeling that New Hampshire's government is seeking to clear hurdles to lower that cost, Chinburg Properties CEO Eric Chinburg said.
+ "The government is generally pro-business, generally stable and generally low taxes, and they're open for business, and so that's all good," Chinburg said.
+ R.J. Kelly purchased the Technology Drive site in 2021  for $21M. At the time, it was home to a 500K SF office and manufacturing building. The developer began an adaptive reuse project on the site, which is now home to the University of New Hampshire's John Olson Advanced Manufacturing Center.
+ Kelly said the lack of institutional capital in New Hampshire created an attractive basis for the project. Institutional capital creates a tight market that makes it hard for some projects to pencil or creates pressure to change projects away from what the company wanted for the space. 
+ "I think everybody probably would have had a different business plan for this building, but because there was not a ton of pressure, that pushed up our basis," Kelly said.
+ Another major driver for New Hampshire's business optimism has been the state's growth trajectory over the last couple of years and its proximity to Massachusetts, panelists said.
+ Bisnow/Joshua Piquion
+ Smith Horizon's Kevin Smith, R.j. Kelly's Brandon Kelly, Walker & Dunlop's Travis D'amato, Chinburg Properties' Eric Chinburg, Rockland Trust's Peter Rayno And Colliers' Bob Rohrer.
+ New Hampshire has heavily relied on migration historically, with its population growing 7.5% over the past 15 years, according to the Census Bureau. It is estimated that more than 4,000 residents moved from Massachusetts to New Hampshire in 2024 alone .
+ New Hampshire can often piggyback on what Massachusetts has built without necessarily incurring the same costs as its neighbor,  Colliers  Managing Director Bob Rohrer said.
+ "The infrastructure is there. Utilities, gas, water, access to highways, access — in a perverse way — to Boston and the labor markets in northern Mass.," Rohrer said. "We still do rely on that."
+ New Hampshire's multifamily sector has been building to meet the needs of these new residents. Roughly 4,000 multifamily units were delivered in New Hampshire in 2025, up 60% from the prior year, according to Colliers .
+ However, the market maintained strong occupancy rates, at 93.8%. On the investment side, the state was home to nearly $1.4B in multifamily sales, down from its peak in 2024 of nearly $2.6B.
+ Some 77% of those who moved into the state from 2018 through 2022 were of working age, according to an analysis of census data by the New Hampshire Fiscal Policy Institute . The cost of living in New Hampshire is making it somewhat easy for young professionals to choose to live in the state, Walker & Dunlop Managing Director Travis D'Amato said.
+ "Most of it is relatively affordable," D'Amato said. "If you're attracting college graduates to a really good job where they don't have income tax and they can afford a place to live, that's really, really attractive and rare."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Brandon Kelly 
+ , Chinburg Properties 
+ , Eric Chinburg 
+ , New Hampshire 
+ , R.J. Kelly 
+ , Travis D'Amato 
+ , Walker & Dunlop Inc. 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Senior Housing Buyers Are Paying Up, But Sellers Still Need Convincing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Nuveen's C-PACE Fund Secures Over $1B, Its Biggest Raise Yet
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Aberdeen Goes Global With £700M Merged Fund
+ Data Center Deals Propel July CRE Sales Volume To Best Performance Since 2005
+ From Bankruptcy To $400M Buying Spree: Michael Shah's Rapid Comeback
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Wells Fargo Moves To Foreclose On $1.3B Workspace Property Trust Portfolio
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Latest Round Of Fannie Mae Senior Staff Layoffs Has Multifamily Sector Anxious
+ Efficiency, Speed And Experience: What CRE Needs To Know About The New Texas Business Courts 
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

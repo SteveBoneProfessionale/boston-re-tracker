@@ -1,0 +1,306 @@
+URL: https://www.bisnow.com/news/boston/mixed-use/photos-harvard-tishman-speyer-celebrate-opening-of-15b-enterprise-research-campus-allston-135140
+INDEX_DATE: 2026-06-23
+
+PHOTOS: Harvard, Tishman Speyer Open Enterprise Research Campus 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Mixed-Use 
+ PHOTOS: Harvard, Tishman Speyer Open Enterprise Research Campus 
+ June 23, 2026 | 4:26 pm ET 
+ Taylor Driscoll, Boston 
+ What was once hundreds of acres of rail yards and underutilized industrial sites is now the beginning of what could be a blossoming mixed-use community — it just took more than a decade to come together.
+ Tishman Speyer , Harvard University , and state and local officials celebrated the opening of the university's Enterprise Research Campus in  Allston  on Tuesday, marking the completion of the first phase of a 36-acre transformation of one of the largest developable sites in Boston.
+ Bisnow/Taylor Driscoll
+ One Milestone St. In Allston
+ "We set out to deliver the best real estate for the best scientists of our generation," Tishman Speyer CEO Rob Speyer said. "Spaces for people whose work will literally change our worlds. This is it, and I hope you feel as proud as I do today."
+ Speyer leads one of the world's biggest developers, with a $70B portfolio.
+ The first phase of the ERC spans 14 acres in the heart of Allston and includes 3 acres of open space, two lab buildings, 343 units of housing, a 246-room hotel and the David Rubenstein Treehouse conference center.
+ The next phase of the project, known as Phase B, still needs to undergo permitting and would include 720K SF of life sciences and office space , plus more multifamily and green space.
+ In total, the campus would encompass 36 acres and more than 1.9M SF of development.
+ Bisnow/Taylor Driscoll
+ Mayor Michelle Wu and Tishman Speyer's Rob Speyer (both in middle) participating in a ceremonial ribbon cutting for Harvard University's Enterprise Research Campus.
+ The entire campus sits next to Harvard Business School and the university's Science and Engineering Complex.
+ The university is the dominant real estate owner in Allston. It owns roughly 358 acres in Boston, compared to the 215 acres across the Charles River at its main campus in Cambridge.
+ Harvard proposed its Enterprise Research Campus in 2011, selecting Tishman to lead development  in 2019 . In 2023, the group landed a $750M construction loan from Montreal-based Otera Capital  for the project.
+ Bisnow/Taylor Driscoll
+ The 343-unit Verra apartment building in Allston
+ When it was being conceived, the property was envisioned as Kendall Square 2.0, a competitor to the Massachusetts Institute of Technology-anchored life sciences hub where rents were skyrocketing and there was virtually no lab vacancy.
+ The project's centerpiece is an interconnected, two-building life sciences complex at One Milestone St., which includes a 265K SF east wing and a 245K SF west wing. That project was developed by Breakthrough Properties, a Tishman-backed lab developer.
+ The property's anchor tenant is Roche Genentech , which expanded its lease to 100K SF in January . The company is planning a phased move-in this year. It is the only company to sign a lab deal at the property so far, a sign of how the life sciences market has soured since construction began.
+ Bisnow/Taylor Driscoll
+ The David Rubenstein Treehouse conference center in Allston
+ Some joked about how long the development took, with Rep. Mike Moran even saying the initial talks happened while Wu was still a senior at the university in 2007.
+ "Today we get to experience the exquisite joy of finishing a three-year journey, of looking back and seeing how far we've come from a vacant expanse to a promising vision of the future," Harvard University President Alan Garber said. "None of this would have been possible without partnership."
+ Bisnow/Taylor Driscoll
+ Tishman Speyer CEO Rob Speyer speaks at the opening celebration of Harvard University's Enterprise Research Campus in Allston.
+ Most of the first phase had opened well before Tuesday's celebration.
+ The first piece of the project that opened was Verra, a two-building apartment complex with 343 units that welcomed its first residents last summer. The complex is 25% affordable, with 86 income-restricted apartments.
+ More than 60% of the apartment complex was leased up as of January, Bisnow confirmed with a member of the complex's leasing team.
+ The city has already hosted several events at the David Rubenstein Treehouse conference center, Wu pointed out.
+ The center, along with The Atlas, a 246-room hotel managed by hospitality company Highgate, and restaurant Ama, opened at the beginning of the year . Retailers that have opened include Phin Coffee House and an outpost for The Coop, a Harvard Square bookstore.
+ Bisnow/Taylor Driscoll
+ The Atlas hotel in Allston
+ Roughly a quarter of the businesses that have rented space on the campus are local, small businesses or businesses owned by people of color and women, Wu said.
+ The campus also includes more than an acre of open space known as the Allstonway, which includes green space and a plaza for events.
+ "It is still possible to get things done in this current environment," Wu said. "It is still possible for local communities to lead the way, and it's still possible to find common ground and shatter expectations of what we can achieve together."
+ Bisnow/Taylor Driscoll
+ One Milestone St. in Allston
+ Just next door, on more Harvard-owned land, is the Beacon Park Yard, once a major freight yard for CSX that has now become largely obsolete after operations moved to Worcester.
+ The land presents another major redevelopment opportunity that would open up the community to more housing, retail, parks and access to the Charles River.
+ On top of that, the state has been pushing forward on its Allston Multimodal Transportation project, an estimated $2B project that would restructure part of the Massachusetts Turnpike and open up Beacon Park Yard.
+ "This campus is just the beginning of an Allston that will live up to our values, too," Wu said. "A bit of the division, the separation and the harm that was caused by the interstate running through is slowly starting to be knitted back together."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Harvard Enterprise Research Campus 
+ , Harvard University 
+ , Michelle Wu 
+ , Rob Speyer 
+ , Tishman Speyer 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Food And Beverage Increasingly Becoming Anchor In Mixed-Use Projects
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

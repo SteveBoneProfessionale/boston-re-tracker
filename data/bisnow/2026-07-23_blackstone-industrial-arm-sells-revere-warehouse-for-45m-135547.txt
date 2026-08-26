@@ -1,0 +1,277 @@
+URL: https://www.bisnow.com/news/boston/industrial/blackstone-industrial-arm-sells-revere-warehouse-for-45m-135547
+INDEX_DATE: 2026-07-23
+
+Blackstone's Industrial Arm Sells Revere Warehouse For $45M 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Industrial 
+ Blackstone's Industrial Arm Sells Revere Warehouse For $45M 
+ July 23, 2026 | 5:45 pm ET 
+ Taylor Driscoll, Boston 
+ A San Francisco-based investment firm has acquired a shallow-bay industrial site in  Revere  from  Blackstone  subsidiary  Link Logistics .
+ Google Maps 
+ 3 Furlong Drive In Revere
+ Stockbridge Capital Group  bought the 17K SF warehouse at 3 Furlong Drive in Revere for $45M, according to public records first reported by Banker & Tradesman . The site is used for FedEx drop-offs and pickups.
+ The property, located near the  Suffolk Downs  development, last sold for $38M in 2022, according to public records.
+ Link Logistics' Boston portfolio consisted of six industrial properties totaling 777K SF  as of October .
+ Most of these properties came from a $175M, six-building portfolio  it acquired from AEW Capital Management in 2021. In the same year, Link acquired a two-building portfolio in Central Massachusetts from TA Realty for $154M
+ At the beginning of the year, Link Logistics opened the first phase of its Trident Logistics Center in Revere. The 366K SF property at 101 Lee Burbank Highway will likely be used for last-mile shipments, but as of January, it didn't have a tenant, the Boston Business Journal reported .
+ Stockbridge hasn't been as active in the Greater Boston market. In 2025, the company acquired an 85K SF industrial property at 295 Union St. in Walpole  for $26M .
+ The firm, which has $37.4B in assets under management, owns roughly 97.8M SF of commercial space and 19,800 residential units across the U.S. It has offices in California, Atlanta, Chicago, Dallas, Denver and Phoenix.
+ In February, Stockbridge's Niche Logistics Fund  completed a 10% interest buyout  of a 58-property industrial outdoor storage portfolio. The transaction represented a valuation of roughly $900M.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Blackstone 
+ , Industrial 
+ , Link Logistics 
+ , Revere 
+ , Stockbridge Capital Group 
+ , Warehouse 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Downtown Office Tower Secures $575M Refinancing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Power Availability Becomes New Requirement For Shifting Bay Area Industrial Base
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ EXCLUSIVE: Industrial Outdoor Storage Investor Continues Buying Spree In Metro Atlanta
+ Amazon Building 1.2M SF Distribution Facility In Aurora
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Starwood, Realterm Fund Record Industrial Outdoor Storage Loan
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

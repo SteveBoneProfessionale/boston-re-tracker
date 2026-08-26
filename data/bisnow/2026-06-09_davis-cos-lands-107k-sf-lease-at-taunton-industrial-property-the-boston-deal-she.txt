@@ -1,0 +1,290 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/davis-cos-lands-107k-sf-lease-at-taunton-industrial-property-the-boston-deal-sheet-134936
+INDEX_DATE: 2026-06-09
+
+Davis Cos. Lands 107K SF Lease In Taunton: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Davis Cos. Lands 107K SF Lease In Taunton: The Boston Deal Sheet 
+ June 9, 2026 | 1:42 pm ET 
+ Taylor Driscoll, Boston 
+ A New England distribution company has signed a new lease for an industrial property near Massachusetts' South Coast.
+ Google Maps 
+ 530 John Hancock St. In Taunton
+ Downeast Global Logistics LLC signed on for 107K SF at The Davis Cos.' 530 John Hancock Road in Taunton, the landlord announced Friday. The tenant plans to move into the space in August.
+ "This long-term lease agreement with Downeast reflects the continued strength of the industrial market and Davis' collaborative approach to matching the most innovative tenants with the ideal spaces they need to scale," Davis Managing Director of Asset Management David Allen said in a statement.
+ Davis acquired the industrial facility in 2020, at the time leased to an international logistics company.
+ The warehouse is located in the Myles Standish Industrial Park, a 1,000-acre campus home to Amazon, Reinhart and Americold. The John Hancock Road property sits on 11 acres and includes 32-foot clear heights and dual-sided loading docks.
+ SALES 
+ Bulfinch acquired a medical office property at 70 Hastings St. in Wellesley for $12M . The seller in the deal is Grander Capital Partners. Tenants in the building include VivaSkin Dermatology and Aesthetics and Perla Pediatric Smiles. CBRE represented the seller in the deal.
+ ***
+ Ashland-based real estate investor Hitesh Aurora acquired The Longfellow Plaza in Marlborough for $4M , according to public records. The plaza is located at 449-451 Boston Post Road E. The property was sold by an entity named Longfellow Plaza LLC. The 30K SF property has a mix of office and retail tenants, including Longfellow Plaza Laundry and CP Tax Services.
+ ***
+ An entity linked to Ventas acquired the Adelaide of Newton Centre in Newton for $19M, according to public records. The property is home to 50 residential units. The Kentucky-based senior housing investor acquired the property from another national senior housing owner, Benchmark Senior Living.
+ ***
+ Embrace Boston acquired a 35K SF property at 33-41 West St. in Downtown Crossing for $9.5M. The property will act as a civic commons for Boston. The building is planned to include rotating art exhibitions, a cafe, a podcast and media production space, and a gathering area. Avison Young's Brandon Dickason and Jeff Gates represented Embrace. The seller was Kendall Capital.
+ LEASES 
+ Google Maps 
+ 51 Lowell St. in Peabody
+ Lafuente Sign & Awning signed an 8,500 SF lease at 51 Lowell St. in Peabody. The company relocated and nearly doubled its footprint from its previous headquarters at 340 Main St. in Everett.
+ FINANCING 
+ The United Group of Cos. secured a $39M bridge loan for The Arbella at Bramble Hill, an active adult community in Worcester. United Group obtained the loan from Eastern Bank. The loan will be used to pay off its existing construction loan and fund remaining improvements at the property. The property includes 123 units, an 8,500 SF clubhouse, a multimedia theater, a golf simulator and a patio with a fire pit and outdoor kitchen.
+ CONSTRUCTION AND DEVELOPMENT 
+ Boston developer Redgate is seeking zoning approval to demolish an office building in Marlborough to build 450 housing units. The site is home to two office buildings, one of which will remain on the site, the Boston Business Journal reported . The developer also plans to build 2K SF of retail space.
+ ***
+ Beth Israel Lahey Health is planning to expand its Burlington campus through a $79.5M investment, the BBJ reported . The expansion would include 36 inpatient beds, a new cardiac lab and a new CT machine. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Industrial 
+ , Logistics 
+ , Myles Standish Industrial Park 
+ , Taunton 
+ , The Davis Cos. 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Olde Richmond Project Lands $20M Construction Loan: The Philadelphia Deal Sheet
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

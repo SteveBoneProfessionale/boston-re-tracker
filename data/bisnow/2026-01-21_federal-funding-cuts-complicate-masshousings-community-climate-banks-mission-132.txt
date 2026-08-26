@@ -1,0 +1,290 @@
+URL: https://www.bisnow.com/news/boston/sustainability-climate/federal-funding-cuts-complicate-masshousings-community-climate-banks-mission-132842
+INDEX_DATE: 2026-01-21
+
+Federal Funding Cuts Complicate MassHousing's Community Climate Bank's Mission 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Sustainability 
+ Federal Funding Cuts Complicate MassHousing's Community Climate Bank's Mission 
+ January 21, 2026 | 4:42 pm ET 
+ Taylor Driscoll, Boston 
+ It should have been a moment for celebration last week — the first state fund dedicated to decarbonizing affordable housing unveiled funding commitments to eliminate fossil-fuel usage for 110 affordable housing units in Massachusetts.
+ Instead, the spectre of federal funding cuts hangs over the Massachusetts Community Climate Bank's announcement. The cuts have forced the bank's officials to plan how to stretch the rest of the money the fund has on hand and where to secure new revenue sources.
+ Google Maps 
+ Allston Brighton Community Development Corp.'s 50-Unit Brian J. Honan Apartments
+ "In the absence of certainty around federal funds, we felt it was important to continue moving forward, particularly on multifamily, affordable rental developments, and making sure that we can see some progress and use the resources we have to show what is possible," said Maggie Super Church, the director of policies and programs with the climate bank.
+ The Massachusetts Community Climate Bank was founded in 2023 with $50M  in seed funding from the state to provide low-cost capital for decarbonizing affordable housing. The founding of the bank, touted as the first in the country aimed at affordable housing development, works in line with  a 2022 mandate that calls on the state to be net-zero by 2050.
+ With the seed capital in hand, the bank spent its first two years seeking to raise new capital from private and federal sources. But as the Trump administration began to cancel billions in funding for climate projects in 2025, officials have been forced into scramble mode to continue the climate bank's work.
+ The bank set aside $20M from that seed capital to support multifamily and affordable housing developments with deep energy retrofit work. Because of the limited funding, the bank has been selective in the process.
+ "Clearly, $20M is not a huge amount of money for the scale of projects we're talking about," Super Church said. "We wanted to be thoughtful about working with developers who had experience and track records with energy improvements for multifamily, affordable development."
+ Last week, the bank announced its first commitments to two affordable housing projects in Easthampton and Boston. The projects are Beacon Communities ' 60-unit Treehouse at Easthampton Meadow and Allston Brighton Community Development Corp.'s 50-unit Brian J. Honan Apartments in Boston.
+ The overall funding for the projects was $25.4M from several sources. It will be used to eliminate on-site fossil-fuel usage for the 110 affordable units. The climate bank provided $13M in financing as part of the deal.
+ Such affordable retrofit projects usually require a layered capital stack. The rest of the funding for the project came from the Massachusetts Department of Energy Resources' Affordable Housing Decarbonization Grant Program and its Executive Office of Housing and Livable Communities' Climate Ready Housing program.
+ Google Maps 
+ Beacon Communities' 60-unit Treehouse at Easthampton Meadow
+ "We'll continue to look at and think about all the ways that we can bring private, state, federal, philanthropic resources to bear, because none of these projects are achievable with a single source of financing," Super Church said.
+ At the time the bank was founded, the state could compete for funding under several federal acts and programs, including the Inflation Reduction Act , the National Clean Investment Fund and the Clean Communities Investment Accelerator. As the Trump administration took over these programs from the Biden administration, it rapidly began to pause or cancel funding.
+ MassHousing , in partnership with the Massachusetts Clean Energy Center, Boston Housing Authority and other groups, was close to rolling out projects connected to this funding, but the group was forced to hit pause.
+ "That was a significant setback," Super Church said.
+ In October, the federal government  canceled nearly $7.6B in funding for clean energy projects in 16 states. Massachusetts was set to receive  $466M in grants meant to support more than two dozen projects, but that funding was paused, canceled or rescinded.
+ Super Church said the state was targeting Biden-era Inflation Reduction Act funding to help boost the climate bank fund. She said it is still unclear exactly how much funding the bank is at risk of losing.
+ Among the funding lost was a $156M grant from the Environmental Protection Agency 's Solar for All program. The state had planned to use the funding to install solar power to help more than 29,000 households lower their energy bills.
+ Almost all developers and multifamily landlords working in the state must meet the same carbon emissions deadlines in 2050, but the mandate is more difficult for affordable housing developers to make pencil. These projects  often require state and federal assistance to build housing that meets affordability and sustainability requirements.
+ As the climate bank seeks new funding, it will also focus on deploying the rest of the $20M in seed funding that has been committed to energy retrofits. This could support at least one more deal later this year, Super Church said.
+ The agency is also exploring whether new funding avenues might be available through provisions in the Big Beautiful Bill Act, which was signed into law in July . The law changes eligibility rules for federal affordable housing subsidies to allow for projects to seek more funding from tax credits and tax-exempt bonds.
+ "We're really just trying to look at resources, whether or not they are intended to be climate- and decarbonization-funding-focused," Super Church said. "If they're supporting affordable housing and preservation, there may be ways that we can help get a few things done at once."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Green energy 
+ , Maggie Super Church 
+ , Massachusetts Community Climate Bank 
+ , Retrofitting 
+ , U.S. climate change 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ MG Developer Faces 6 Lawsuits Alleging Millions In Overdue Debt
+ Senior Housing Buyers Are Paying Up, But Sellers Still Need Convincing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Nuveen's C-PACE Fund Secures Over $1B, Its Biggest Raise Yet
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Aberdeen Goes Global With £700M Merged Fund
+ Data Center Deals Propel July CRE Sales Volume To Best Performance Since 2005
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ From Bankruptcy To $400M Buying Spree: Michael Shah's Rapid Comeback
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

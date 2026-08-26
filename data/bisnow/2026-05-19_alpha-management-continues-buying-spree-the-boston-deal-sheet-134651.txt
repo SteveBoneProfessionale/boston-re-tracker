@@ -1,0 +1,294 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/alpha-management-continues-buying-spree-the-boston-deal-sheet-134651
+INDEX_DATE: 2026-05-19
+
+Alpha Management Continues Buying Spree: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Alpha Management Continues Buying Spree: The Boston Deal Sheet 
+ May 19, 2026 | 2:38 pm ET 
+ Taylor Driscoll, Boston 
+ A pair of apartment buildings in Allston and Brighton sold to Alpha Management, the latest in a string of acquisitions for the controversial landlord.
+ Google Maps 
+ Alpha Management Acquired 1846-1850 Commonwealth Ave. In Boston For $23.5M.
+ Brookline-based Alpha Management acquired two apartment buildings in two different deals totaling $37M, according to public records.
+ The properties are located at 1848-1850 Commonwealth Ave. and 10-18 Brainerd Road. The deeds for both deals were posted on May 18.
+ Mohnsen Vessali was the seller in the Commonwealth Avenue deal, and The Mount Vernon Co. was the seller in the Brainerd Road deal, deed records show.
+ Last month, Alpha Management scooped up several properties  on Brighton Avenue, Chester Street, Warren Street and Camelot Court for $36M. In August, it bought a 70-unit West Roxbury complex for $29.5M. In 2023, the landlord acquired two properties in Allston and Newton for roughly $24.7M .
+ The company, founded by Anwar Faisal, has faced scrutiny over the years for the conditions and management of its properties, including a Boston Globe Spotlight investigation  in 2014 and a series of accusations  from tenants in 2021.
+ A spokesperson for Alpha Management said in a statement to Bisnow  on Tuesday the company is focused on "maintaining consistent operations, upholding property standards, and ensuring a positive tenant experience" in the buildings it acquired.
+ "Alpha Management was approached with the opportunity to acquire these properties and elected to proceed as part of its broader strategy to expand and strengthen its portfolio in the Allston/Brighton area," the spokesperson said. "The acquisition supports the company's long-term investment objectives and commitment to maintaining a strong presence in this market."
+ SALES 
+ West Palm Beach, Florida-based Elliott Management acquired the 242-room Godfrey Hotel in downtown Boston for $50M, according to public records. The seller in the deal was German asset manager Union Investment. The property is also home to retailers George Howell Coffee and Ruka Restobar.
+ ***
+ Boylston Properties acquired a five-building office campus at 30-44 Washington St. for $46M . The 11-acre property is home to several smaller tenants, including law firms Davids & Cohen and Howd & Ludorf, insurance company Deland Gibson and accounting firm Ingle & Associates. The buildings total roughly 157K SF.
+ ***
+ New Jersey-based Treeco acquired 93-97 Massachusetts Ave., 375 Newbury St. and 10 other retail and office suites across Newbury Street for $50M . The seller in the deal was Kensington Investment Co.
+ LEASES 
+ Google Maps 
+ 10 Post Office Square in Boston
+ Law firm Pillsbury Winthrop Shaw Pittman is opening an office at 10 Post Office Square in Boston's financial district. Though the office's size isn't publicly listed, the firm will take up space on the eighth floor of the 14-story building.
+ PERSONNEL 
+ The Davis Cos. promoted Quentin Reynolds to president and chief investment officer. Reynolds has led the company's acquisition team for over a decade and has served as CIO since 2020. He joined in 2013 and led the firm's investment from funds II through V. Before Davis, Reynolds worked at Lehman Brothers and Silverpeak.
+ ***
+ Ionic Development Co. hired Michael Morizio as project manager. In this role, Morizio will help expand the team's higher education practice across Rhode Island and Massachusetts. He will support the firm's active developments, including at the University of Rhode Island, the Providence Art & Design Center and Parcel D-4 in Boston.
+ ***
+ JLL has hired Alex Plaisted as managing director of its Suburban Boston leasing team. Plaisted will focus on the Central 128 market. He has over 20 years of commercial real estate experience, previously working for CBRE. Over his career, Plaisted has completed more than 750 transactions totaling over 8M SF.
+ CONSTRUCTION AND DEVELOPMENT 
+ Dana-Farber Cancer Institute received state approval to build its $50M proton therapy center on its Longwood Medical Center campus, the BBJ reported . The Massachusetts Department of Public Health's public health council approved the proposal on Wednesday. Construction is set to begin this spring and is anticipated to finish in 2027.
+ ***
+ The Boston Planning & Development Agency recommended approval of six developments totaling 742K SF and 611 housing units on Thursday . Notable projects include the redevelopment of the West End Library to include 119 low-income housing units.
+ ***
+ Healthcare company Agilent plans to invest $40M to build an 85K SF expansion of its Chicopee manufacturing facility. The company inherited the site in 2015 after it acquired Seahorse Bioscience. The firm also has a research and development facility in Lexington.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Allston-Brighton 
+ , Brighton 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Olde Richmond Project Lands $20M Construction Loan: The Philadelphia Deal Sheet
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

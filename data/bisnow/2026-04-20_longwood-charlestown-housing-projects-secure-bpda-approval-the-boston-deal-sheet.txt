@@ -1,0 +1,295 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/longwood-charlestown-housing-projects-secure-bpda-approval-the-boston-deal-sheet-134208
+INDEX_DATE: 2026-04-20
+
+BPD OKs Longwood, Charlestown Housing Projects: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ BPD OKs Longwood, Charlestown Housing Projects: The Boston Deal Sheet 
+ April 20, 2026 | 5:26 pm ET 
+ Taylor Driscoll, Boston 
+ The Boston Planning Department  approved four development projects  at a Thursday night board meeting, clearing the way for roughly 1.7M SF of new construction.
+ Skanska
+ A Rendering Of Skanska's Longwood Place Project
+ The most notable projects approved include the first phase of Skanska and Simmons University's Longwood Place project and New England Development's 240-unit Charlestown development at 201 Rutherford Ave.
+ The 1M SF Longwood project includes 227 housing units, 9K SF of commercial space and 2 acres of open space. The project is part of a 1.7M SF development overhaul in partnership with Simmons . The university broke ground on a 1,100-bed tower.
+ The Charlestown project would replace a 99 Restaurant with a six-story multifamily building at 201 Rutherford Ave. New England Development plans to add three more buildings, including a future grocery store, in later phases to eventually replace the Bunker Hill Mall.
+ Harvard University's ERC District and Greenway Plan, which provides planning guides for the university's 30-acre Enterprise Research Campus in Allston, also advanced during the meeting.
+ The BPDA also signed off on a 28-unit multifamily building at 4487 Washington St. in West Roxbury and the conversion of a former bank into a courthouse and new apartments  at 460 W. Broadway St. in South Boston.
+ SALES 
+ Jeremy Seeger purchased a 10-unit multifamily asset at 23-25 Hammond St. in Cambridge for $6.5M, the first time the property — across the street from Harvard University — has sold in more than a century. It spans more than 13K SF and includes five off-street parking spots. Marcus & Millichap's Evan Griffith and Tony Pepdjonovic marketed the property on behalf of the seller, Cafasso Properties, and procured the buyer.
+ ***
+ Reclamation Partners acquired a 33K SF industrial building  at 1023 Turnpike St. in Stoughton. The property is 100% leased to Fabreeka International. Reclamation worked with JLL to acquire the property.
+ LEASES 
+ Google Maps 
+ 40 Shattuck Road In Andover
+ Wealth management company Focus Partners Wealth signed an 8K SF lease at Cummings Properties' 40 Shattuck Road, a 120K SF office building in Andover. Cummings' Mike Truesdale and Newmark's Bill Motley worked on the deal.
+ ***
+ North Andover-based VMD Cos. secured two leases totaling more than 180K SF of build-to-suit development at The Campus at Canopy Drive in Middleborough. Industrial equipment supplier Rexa plans to develop a 110K SF manufacturing facility on Lot 2 of the campus, and paving contractor Indus is planning to develop a 70K SF facility on Lot 4.
+ CBRE's Rob Byrne, Danielle Frisch, Steve Clancy, Kendall Lynch and Brendan McKenzie represented VMD in the deals.
+ ***
+ Artificial intelligence company Lovable signed a 6K SF lease at DivcoWest's One Lincoln. The company will occupy space on the 25th floor. Lovable joins tenants including private markets firm HarbourVest, Sherin & Lodgen and WeWork in the Financial District tower.
+ ***
+ Hunneman locked down two leases in the Lowell area totaling 37K SF. Fisher Auto Parts will open its first Lowell location at 205 Industrial Ave. E., and Sevita Health will expand at 22 Old Canal Drive. Hunneman's Patrick Grady, Henry Birmingham and Tyler Ewing represented the tenants.
+ FINANCING 
+ The city of Boston awarded Rogerson Communities $3M toward its affordable housing and memory care redevelopment in Jamaica Plain. The Rogerson House project would include 41 affordable housing units and 66 memory care units that would replace an existing campus. The new six-story building would also include a memory care social day program and 20K SF of outdoor space.
+ ***
+ Samuels & Associates and its partner Jiaming Investment America Inc. secured a $360M CMBS loan  for the Lyrik office tower in Back Bay. The loan will be used to refinance the partnership's $323M in construction debt, landlord obligations, closing costs and return $17M of equity to the sponsor. The office tower is 93.4% leased to tenants including CarGurus and Lego.
+ CONSTRUCTION AND DEVELOPMENT 
+ Atlanta-based developer Pulte won approval for a 150-unit apartment project in Lexington, the Boston Business Journal reported . The development, known as Fieldside at Lexington, won Lexington Planning Board approval on Thursday. The project would redevelop the Lexington Tennis Club at 475 Bedford St. The club will be displaced as soon as its lease expires at the end of May.
+ UPDATE, APRIL, 29 12:20 P.M. ET: The rendering of Skanska's Longwood Place project has been with replaced with an updated version. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Charlestown 
+ , Longwood Medical Area 
+ , New England development 
+ , Simmons University 
+ , Skanska 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

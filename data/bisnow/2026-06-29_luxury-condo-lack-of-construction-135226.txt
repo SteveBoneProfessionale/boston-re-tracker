@@ -1,0 +1,302 @@
+URL: https://www.bisnow.com/news/boston/multifamily/luxury-condo-lack-of-construction-135226
+INDEX_DATE: 2026-06-29
+
+Pencils Down For Boston Condo Developers As Buyers Stay On The Sidelines 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Multifamily 
+ Pencils Down For Boston Condo Developers As Buyers Stay On The Sidelines 
+ June 29, 2026 | 4:26 pm ET 
+ Taylor Driscoll, Boston 
+ As condo towers continue to rise in Miami and New York City, Boston's skies are almost crane-free, and experts expect they will be for a while.
+ There is only one large condominium tower project in the city under construction — The Fallon Cos.'  122-unit One Harbor Shore Drive in the Seaport — as developers navigate higher interest rates and development costs as well as sluggish sales of their existing inventory.
+ Buyers are slowly picking off the rest of the units that came online at the end of a wave of condo development over the last decade, with the last of these projects delivering into a completely different market.
+ Bisnow/Taylor Driscoll
+ The St. Regis Residences At 150 Seaport Blvd. In Boston
+ "Compared to what it was five years ago, every week there was a new project," Miller Samuel CEO Jonathan Miller said. "Now you have a situation where there's a tremendous drop in the number of projects coming to market."
+ Starting in 2013, developers constructed roughly 4,000 luxury condo units in Boston, with more than half of those rising in the past seven years,  The Wall Street Journal previously reported .
+ Nearly all of those projects got started when interest rates were half what they are today and Boston had a buyer pool fiending for new development. Developers were responding to high demand, but it didn't last as long as they had hoped.
+ Now, the pipeline has emptied. Just one luxury project is proposed in the near term, according to data from The Collaborative Cos .: a 231-unit redevelopment of the  Motor Mart Garage . But developer CIM Group put the site  up for sale in January , and the project hasn't begun construction.
+ Although luxury condo sales were up 11% year-over-year in the first quarter, the median sales price decreased 7% to $3M, according to Miller Samuel. The average price per square foot also decreased 4% to $1,698.
+ The number of sales has dropped dramatically from the height of the development boom. There were 146 luxury sales in Q1 2022 and just 100 in this year's first quarter.
+ "Prices are stable. It's the lack of supply coupled with the reticence of buyers to move given the uncertainty in the economy," TCC Managing Director Sue Hawkes said. "It's put a lot of people on the sidelines."
+ Miller said he credits the slowdown to an uncertain macroeconomic picture fueled by higher-for-longer interest rates and the conflict with Iran .
+ Boston Planning Department 
+ A rendering of The Fallon Cos.' One Harbor Shore Drive in Fan Pier
+ "We have layers and layers of uncertainty with the broader macroeconomics picture, and that's probably not helping," Miller said. "The probability of higher mortgage rates over the next year or two is rising, and throw in the tariffs and the new Fed chair. ... There's a lot of macro uncertainty."
+ The average rate for a 30-year mortgage was 6.5% as of June 25, according to Freddie Mac , up from 6% in February.
+ Unlike the low-rate pre-pandemic environment, many developers aren't able to make projects pencil due to higher costs across three core buckets: land, construction and labor. Miller said he expects supply to come back, but not at the levels seen over the last couple of decades.
+ "The projects that we will see are the ones that can pencil in, and those projects have some sort of advantage, like an unusually favorable purchase price of an assemblage or something else that competitors don't have," Miller said.
+ A surge in activity in the biotech sector took place around the same time as the condo boom, bringing many affluent buyers into the city , but research funding and hiring have slowed dramatically since. However, Gibson Sotheby's International Realty Associate Director of Sales Joe Wolvek said he doesn't think that has had a big impact.
+ "We have a very varied business space, be it life sciences, be it pharmaceuticals, be it financial. There are a lot of different businesses that attract people to Boston," Wolvek said. "There's also a lifestyle here that's very nice. I don't see that ending."
+ Present mortgage rates mean the majority of buyers in the market right now are paying with cash, Hawkes said.
+ Cash buyers have more leverage because they can close faster with fewer contingencies. They are also able to negotiate for significantly better terms and a lower purchase price, especially in a market like Boston where demand isn't as hot.
+ As of the first quarter, seven of the 13 condo buildings The Collaborative Cos. tracked were more than 90% sold. All of those buildings delivered between 2019 and 2023. For the projects that were delivered over the last three years, the slowdown has been palpable.
+ Bisnow/Jon Banister
+ Hines' South Station Tower in downtown Boston
+ "In these kinds of developments, there's a decent amount of supply out there right now," Wolvek said of the new towers. "Enough for buyers to have leverage. At some point, people need to agree to make deals, or [developers] reprice."
+ MP Boston 's 317-unit condo portion of Winthrop Center in the Back Bay captured nearly half of the city's luxury sales in the first quarter, the Boston Business Journal reported . Since sales began in 2022, only 42% of the existing inventory, 133 units, has found a buyer, according to TCC.
+ Less than a quarter of the 166 units at Hines' The Ritz-Carlton Residences at South Station Tower , where sales began in 2023 , had sold as of Q1, according to TCC.
+ Developer Jon Cronin 's 114-unit St. Regis Residences was 60% sold at the end of Q1. It saw sluggish demand when it began marketing for sales in  the fall of 2019 , but its momentum didn't come without serious restructuring — at least 22 units have been repriced, including Cronin's own penthouse suite .
+ In total, across those three projects, there were still some 356 unsold units at the end of March.
+ Hawkes said it is a buyer's market as developers offer more concessions in an effort to speed up sales.
+ "The best buying opportunities are right now, because developers want to keep the momentum going, so there's going to be more flexibility," Hawkes said.
+ The market's inventory is staying low because sellers are locked into low pandemic-era rates, and current rates would mean their mortgage payments would double or even triple if they were to move.
+ Hawkes said she expects development to come back to the city eventually, but national and local changes are needed. She said Boston's permitting and approval processes take a long time and add cost to projects that make them hard to pencil.
+ "We need cheaper money. We need a better political environment locally," Hawkes said. "There are several buildings in the city that are teetering on the ability to move forward."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Boston condos 
+ , Condominium 
+ , Jonathan Miller 
+ , Miller Samuel 
+ , Sue Hawkes 
+ , The Collaborative Cos 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

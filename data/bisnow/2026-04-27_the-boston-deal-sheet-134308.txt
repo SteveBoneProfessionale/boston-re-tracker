@@ -1,0 +1,305 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/the-boston-deal-sheet-134308
+INDEX_DATE: 2026-04-27
+
+Pair Of Newbury Street Properties Trade Hands For $114M: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Pair Of Newbury Street Properties Trade Hands For $114M: The Boston Deal Sheet 
+ April 27, 2026 | 3:16 pm ET 
+ Taylor Driscoll, Boston 
+ New York real estate companies have acquired a pair of Newbury Street buildings, marking the largest deals on the street in years.
+ Bisnow/Cameron Sperance
+ Shops Along Newbury Street In Boston
+ Acadia Realty Trust and Osiris Ventures acquired 4-6 and 28 Newbury St. for $113.5M, according to public records. ASG Equities has been active in the tony shopping district, and this is its third deal on the street in the last year, The Boston Globe reports .
+ The 4-6 Newbury St. site, which is home to Chanel, has retail space that spans 10K SF across two floors. It was built in 2012 on the site of a former parking garage.
+ The property's top four floors are residential condominiums.
+ The 19K SF property at 28 Newbury St. is home to Cartier, the brand's only New England location.
+ Newmark's Robert Griffin, Geoffrey Millerd and Paul Penman represented the seller and procured the buyer.
+ "4-6 and 28 Newbury Street define trophy high street retail," Penman said in a release. "Custom-designed for Chanel and Cartier, the properties each command an unmatched presence along the first block of Newbury Street."
+ In July, an affiliate of ASG sold 93-95 Newbury St. to Ralph Lauren for $38M .
+ The sale tops the price paid for other high-end retail locations in the district in the last couple of years.
+ In 2024, 149 Newbury St., which is home to Alo Yoga and Google, sold for $101M . Apple  paid $88M  in 2025 for its three-story store at 815 Boylston St., a street over from Newbury.
+ SALES 
+ An undisclosed buyer acquired an 80K SF retail building home to a Dick's Sporting Goods in Danvers for $16M. The building is situated on almost 4 acres and is roughly 20 miles north of Boston.
+ Atlantic Capital Partners' Eric Suffoletto, Joey Tagliente and Danny Griffin represented the seller.
+ ***
+ National Development acquired a 227K SF lab and office property at 93 Worcester St. in Wellesley. The property was completed in 2000 and has since undergone nearly $40M in capital improvements.
+ The property's former lender, Liberty Mutual Investments, acquired the building  in 2025 for $65M as part of an auction.
+ ***
+ Alpha Management acquired several apartment buildings on Brighton Avenue, Chester Street, Warren Street and Camelot Court for $36M . The Mount Vernon Co. was the seller in all of the deals.
+ The properties are at 61-77 Brighton Ave., 81, 83 and 87 Brighton Ave., 6 Camelot Court, 110 Warren St. and 66 Chester St.
+ LEASES 
+ National law firm McCarter & English signed an 11-year, 47K SF lease at The Chiofaro Co. and PGIM Real Estate's One International Place. The firm is relocating from 265 Franklin St.
+ The lease comes as the office tower's $100M renovation is set to be completed soon.
+ FINANCING 
+ MassDevelopment issued $865.5M in tax-exempt bonds on behalf of Mass General Brigham for its 482-bed Ragon Building. J.P. Morgan Securities LLC sold the bonds through a public offering.
+ The expansion is at 55 Fruit St.
+ CONSTRUCTION AND DEVELOPMENT 
+ Google Earth 
+ The former ExxonMobil tank site in Everett in 2024. The tanks have since been demolished.
+ The Davis Cos. and its partner Global Partners LP demolished the last remaining oil tank from the former ExxonMobil site in Everett. Davis acquired the 105-acre site in 2023 for $72.5M.
+ The partnership has plans to utilize the site for a 5M SF mixed-use redevelopment known as Everett Docklands. A 20-acre portion of the site will be used for Jupiter Power's battery energy storage facility.
+ ***
+ The Fall River Zoning Board of Appeals approved plans to convert a former cotton mill into 147 units, The Herald News reported . The project is estimated to cost nearly $65M, including environmental remediation.
+ All of the units are set to be market-rate.
+ ***
+ Lupoli Cos. won approval for the first phase of its 2.3M SF mixed-use development in Littleton, the Boston Business Journal reported . The first phase includes a 318-unit apartment building it expects to open in 2028.
+ Across the whole project, the developer plans to build more than 1,000 residential units, a 150-room hotel and more than 500K SF of commercial space.
+ ***
+ Amazon received building permits this month for its second Seaport office at One Boston Wharf Road, the  BBJ reported . Work is set to cost nearly $32M, including offices, conference rooms, an amenity space and mechanical systems. The tech company is set to move into the building in 2027.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Acadia Realty Trust 
+ , ASG 
+ , Newbury Street 
+ , Osiris Ventures 
+ , Retail 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

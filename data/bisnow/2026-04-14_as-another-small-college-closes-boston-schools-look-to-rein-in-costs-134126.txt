@@ -1,0 +1,298 @@
+URL: https://www.bisnow.com/news/boston/student-housing/as-another-small-college-closes-boston-schools-look-to-rein-in-costs-134126
+INDEX_DATE: 2026-04-14
+
+As Hampshire College Announces Closure, Boston-Area Schools Seek To Do More With Less 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Student Housing 
+ As Hampshire College Announces Closure, Boston-Area Schools Seek To Do More With Less 
+ April 14, 2026 | 4:18 pm ET 
+ Taylor Driscoll, Boston 
+ A small liberal arts college in Western Massachusetts announced Tuesday morning it would be  shutting  its doors  after the fall 2026 semester.
+ Google Maps 
+ Hampshire College, sitting on some 800 acres in a rural section of Amherst, stated the closure was due to rising debt and declining enrollment. The school had warned for the past seven years it was facing economic pressures that could cause it to close, and  even attempted at one point to merge with UMass Amherst .
+ Hampshire isn't the only small  liberal arts  college facing economic and demographic headwinds.
+ Over the past decade, 32  New England  colleges have shuttered,  the Boston Business Journal reported . Factoring in mergers or lost accreditation, that total stands at 48.
+ Earlier this week, Anna Maria College in Paxton warned it might not have sufficient finances to stay open for the next 18 months,  State House News Service reported .
+ Even larger schools in the Greater Boston area are looking at ways to work within new budgetary constraints to stay on stable financial footing. To do so, they are reassessing their real estate footprints and long-term needs.
+ Higher education experts who spoke at Bisnow 's Higher Education and Campus Development Conference on April 14 said a drop in international enrollment,  a dwindling number of domestic college-age students , and increasing interest rates and construction costs have weighed down institutional growth plans.
+ Bisnow/Taylor Driscoll
+ Simmons University's Laura Brink Pisinski, Tufts University's Barbara Stein and Berkeley Building Co.'s Richard Lampman
+ "As the real estate market began to descend into a very quiet place, there was sort of this myth that the last ones standing are the hospitals and the universities,"  Berklee College of Music  Vice President of Real Estate Mark Barer said.
+ That couldn't be further from the truth, Barer said, speaking at the headquarters for Artists for Humanity, a Boston nonprofit.
+ "You get blindsided a lot these days, especially with federal and state funding drying up," Barer said. "You've got to be much more self-reliant. I would say the prioritization is what's sustainably economic, what projects will garner more revenue than not."
+ For Berklee, that has meant stretching the budget to maximize the real estate footprint. The performing arts school  acquired a vacant office building and an adjacent piece of land  at 2 and 6 Charlesgate West and 1161 Boylston St. for $28.1M in November 2025. The acquisition came after the school  cut 3% of its workforce  due to declining enrollment.
+ Across the country, universities  have been forced to adapt to funding shortfalls  after the  Trump administration  canceled hundreds of millions of dollars of funding, including National Institutes of Health grants that were an integral part of many school budgets.
+ Few schools have been hit harder than  Harvard University , which has faced multiple lawsuits by the federal government at the same time the Trump administration has pulled significant funding for its programs. The institution disclosed  a $113M budget deficit  in October.
+ Bisnow/Taylor Driscoll
+ Harvard University's Iram Farooq, Berklee College Of Music's Mark Barer, Hdr's Lauren Gauthier, Boston University's Gregg Snyder, William Rawn Associates' Erik Tellander And Wise Construction's Andrew Lynch
+ There is no time for higher education institutions to lick their wounds over the lost funding. Instead, they must adapt to whatever the new budgetary reality is, Harvard University Managing Director  Iram Farooq  said.
+ "Our role in campus planning is to really be thinking about how to steward what we have, how to figure out how to best utilize the resources and the assets that we have," Farooq said.
+ Planning and development for the school's Enterprise Research Campus in Allston are currently underway, but funding cuts and a cold life sciences market have created  many obstacles for what was envisioned as a project to rival the storied innovation district of Kendall Square in Cambridge. This has caused the university to slow the project's rollout.
+ In such a climate, schools are seeking to boost student retention and make their campuses more attractive for high school seniors, William Rawn Associates Associate Principal Erik Tellander said. They are examining ways they can improve on their existing real estate footprints to create more desirable community spaces, he said.
+ Bisnow/Taylor Driscoll
+ HBS' Andrew O'Brien, Baker Design Group's Stephen Baker, Boston University's Bill Walter, Stoss Landscape Urbanism's Chris Reed, Suffolk Construction's Sean Edwards and C&W Services' Tierra Ryan
+ "That's a lot of looking at existing stock and whether it's addition, whether it's renovation, whether it's a combination of both," Tellander said.
+ Others are doubling down on their housing development to make their campuses more attractive to a bigger slice of the shrinking student body.
+ Tufts University partnered with Capstone Development Partners to build a 660-bed dorm at 401-403 Boston Ave. in Medford. The project is set to open in August 2027.
+ To make the project pencil, Tufts University Vice President of Operations Barbara Stein said the institution needed to enter into the public-private partnership.
+ "It was almost twice the cost of what we had issued the bonds for. It was unaffordable," Stein said. "Our choice was no dorm or going out to the market with a P3."
+ However, Stein said she isn't sure what the future holds for the viability of these projects as enrollment trends continue to change.
+ "I do wonder, as we move into the next generation of higher ed and all of its pressures, if that will stick around," she said.
+ Simmons University  entered into a similar partnership with Skanska for its 1.7M SF mixed-use project in the city's Fenway neighborhood. The project includes 200 residential units, 12K SF of community space and an underground parking garage.
+ Laura Brink Pisinski, Simmons' vice president of university real estate and facilities management, said the industry needs a more collaborative mindset, especially as enrollment trends and growth plans continue to evolve.
+ "We don't know what the future holds, but I think the industry, both in the higher ed industry and in the higher ed development industry, has to collaborate more on how we can solve these situations and these issues more effectively," she said.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Berklee College of Music 
+ , Harvard University 
+ , Simmons University 
+ , Tufts University 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Commerz Real Snaps Up Dublin PBSA Complex For Real Estate Fund
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ UK Investment Giant Funds First U.S. Development In Boston Suburb
+ Whoop Looks To Double Boston Footprint With 107K SF Lease
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

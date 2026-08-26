@@ -1,0 +1,303 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/lightstone-acquires-rhode-island-biomanufacturing-facility-for-68m-the-boston-deal-sheet-133898
+INDEX_DATE: 2026-03-30
+
+Lightstone Acquires Rhode Island Biomanufacturing Facility For $68M: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Lightstone Acquires Rhode Island Biomanufacturing Facility For $68M: The Boston Deal Sheet 
+ March 30, 2026 | 2:17 pm ET 
+ Taylor Driscoll, Boston 
+ A Rhode Island biomanufacturing property sold for more than three times what it went for just a few years earlier.
+ Courtesy of The Davis Cos.
+ A Newly Acquired Biomanufacturing Plant In Rhode Island Has 15.5 Acres Of Expansion Potential.
+ Lightstone, a New York real estate company, acquired 100 Technology Way, a 122K SF biomanufacturing property in Smithfield, Rhode Island, for $68M, the company announced Thursday. The property is fully leased to Organogenesis.
+ "We are continuing the thoughtful expansion of our life sciences portfolio, driven by strong demand for high-quality biomanufacturing, R&D, and technology-focused assets," Lightstone President Mitchell Hochberg said in a statement.
+ The group bought the property from The Davis Cos., which had acquired the property in 2022  for $18.5M . Davis secured the Organogenesis lease in May 2025 .
+ Newmark's Rob Griffin, Jim Tribble, Sam Hallowell, Tyler McGrail and Will Sleeper brokered the transaction.
+ Lightstone's life sciences portfolio spans 1.2M SF across eight assets in the U.S.
+ SALES 
+ LNR Partners had the winning bid of $95M for the Park Square Building at 31 St. James Ave. in Boston.
+ Capital Properties was the owner of the building before the property went into special servicing and auction. The 540K SF, 11-story office building was constructed in 1922.
+ LEASES 
+ Zealand Pharma A/S signed a lease at Healthpeak Properties' 35 Cambridgepark Drive in Cambridge, the Boston Business Journal reported . The facility is part of a three-building, 450K SF campus that includes 87 and 101 Cambridgepark Drive.
+ Zealand's hub is expected to be up and running by September 2026. The company also has a presence at 50 Milk St. in Boston.
+ ***
+ King Street Properties' Allston LabWorks in Boston secured  a 42K SF lease with drug manufacturer Terrestrial Bio. The site will be Terrestrial's new headquarters and manufacturing facility as it works to commercialize its pharmaceutical patches.
+ FINANCING 
+ Bisnow/Taylor Driscoll
+ The Bruce C. Bolling Municipal Building in Nubian Square.
+ MassDevelopment, M&T Bank, the city of Boston and The Boston Foundation partnered to provide a $2.4M financing package for Jazz Urbane Cafe LLC to launch a national jazz club and restaurant in Nubian Square.
+ The funds will be used to lease roughly 8K SF on the first floor of the Bruce C. Bolling Building at 2300 Washington St. The club and restaurant are expected to generate 26 new full-time jobs.
+ ***
+ MassDevelopment issued a $29M tax-exempt bond on behalf of 2Life Communities for the development of 150 income-restricted senior housing units in Lynn. The developer plans to use the bond to support 105 of the total units at the 500 Lynnfield St. site. Citizens Bank purchased the bond.
+ The state's Executive Office of Housing and Livable Communities also approved roughly $20.2M in low-income tax credits for the project.
+ PERSONNEL 
+ The Bulfinch Cos. hired Emily Simard as vice president of leasing. In the role, Simard will be responsible for leasing across Bulfinch's portfolio, focused on tenant retention, securing new tenants and supporting long-term asset value and occupancy.
+ Before joining Bulfinch, Simard worked as a senior leasing manager at Samuels & Associates, responsible for 1.5M SF of leasing across its portfolio.
+ ***
+ The Davis Cos. completed its succession plan with Jonathan Davis stepping down as CEO and transitioning into the role of executive chairman. Davis' son, Stephen Davis, will assume the role of CEO effective April 1.
+ As executive chairman, Davis will remain involved in the company's strategy and will advise its executive team. He will also continue to serve on the investment committee of the DIV funds.
+ Stephen Davis has been with the company for 16 years, taking on several executive roles, most recently as president.
+ CONSTRUCTION AND DEVELOPMENT 
+ Google Maps 
+ 1 State Street in downtown Boston
+ Developer John Geraghty submitted plans to turn a 14-story office building at 1 State St. into 75 apartment units, according to a Boston Planning filing . The plan calls for converting roughly 64K SF at the property, leaving the ground-floor retail space home to The Well Coffee and BNC Market. Thirteen units will be set aside as income-restricted as part of the plan.
+ ***
+ Pioneer Construction filed plans to convert a four-story, 118K SF Wellesley office building into 28 apartment units, according to  The Swellesley Report . The redevelopment would take place at 16 Laurel Ave. 
+ The project falls under MBTA Communities zoning. It is estimated to cost $75M.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Biomanufacturing 
+ , Lightstone 
+ , Rhode Island 
+ , The Davis Cos. 
+ , The Lightstone Group 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

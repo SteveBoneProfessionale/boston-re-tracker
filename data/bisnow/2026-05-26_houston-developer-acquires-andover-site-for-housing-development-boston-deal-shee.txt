@@ -1,0 +1,290 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/houston-developer-acquires-andover-site-for-housing-development-boston-deal-sheet-134732
+INDEX_DATE: 2026-05-26
+
+Developer Buys Andover Site With 334-Unit Plan: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Developer Buys Andover Site With 334-Unit Plan: The Boston Deal Sheet 
+ May 26, 2026 | 2:29 pm ET 
+ Taylor Driscoll, Boston 
+ A Houston-based development firm has acquired a vacant site in Andover with a vision for a multifamily project.
+ Google Maps 
+ The Entrance To Andover's Minuteman Park Complex, Where Hanover Co. Bought A Vacant Site
+ The Hanover Co. acquired 300 Minuteman Road in Andover for $2.5M from Spear Street Capital, according to public records.
+ Hanover regional development partner David Hall told  Bisnow  that the company is going through a visioning process with the town for a 334-unit project on the site. The project is also planned to include 515 parking spaces.
+ Spear Street had acquired the site for $9.5M in 2015. The company didn't respond to  Bisnow 's request for comment.
+ Hall said Hanover is also looking at pursuing a "friendly 40B" project under the state's affordable housing law. The law allows developers to bypass certain zoning requirements in exchange for income-restricted housing.
+ Andover has already hit its 10% minimum under the law, so the project would be voluntary if approved, Hall said.
+ The project was  described by town officials in April  as the multifamily component to a "broader, multi-phased redevelopment" of Minuteman Park, a 1M SF office park in the area.
+ Other parcels in the campus have traded hands, most recently in April 2025, when Optimum Asset Management bought the 150 Minuteman Road lab building from BGO. Alexandria Real Estate Equities acquired several properties on Minuteman Road from Spear Street Capital and Atlantic Management  for $314M in 2022 , and it  sold one of them  in 2024.
+ SALES 
+ K & L Realty Co. acquired the 116K SF office building at One Burlington Woods Drive  for $8.5M  from Griffith Properties. The property last sold for $26.6M in 2013. It is 60% occupied, with RW Holmes acting as the leasing broker.
+ LEASES 
+ North Beverly Family Medicine signed a 3K SF lease at Cummings Properties' 46 Dunham Ridge in Beverly. The building encompasses 500K SF of office, tech and lab space. It is home to other tenants, including Beth Israel Lahey Health and Coastal Clarity Oncology. Cummings represented itself, and North Beverly Family Medicine was represented by Jon Gray of J Barrett.
+ FINANCING 
+ Boylston Properties acquired and secured financing for several properties in Newtonville with the intent to redevelop them, the company announced on LinkedIn last week . Boylston received $105M in financing from Wells Fargo, according to public records. The 78 Crafts St. project is planned for a 295-unit multifamily community with green space and amenities.
+ CONSTRUCTION AND DEVELOPMENT 
+ Bisnow/Taylor Driscoll
+ The Topping Off Ceremony Held Wednesday For The First Building In Northland's Pattern District Redevelopment.
+ Northland celebrated the topping off of the first building in its Pattern District redevelopment in Newton on Wednesday. It is the largest multifamily project in the city's history, with more than 800 units, including 145 income-restricted units. The project also includes roughly 96K SF of retail space and a 1.5-acre park.
+  ***
+ Needham-based Onyx Partners  plans to renovate  the old You-Do-It Electronics building in the town, with plans to keep the old sign that sits atop the building. The developer paid $5.7M for the site in February from the electronic store's owner, the Ahigian family.
+ ***
+ Atlantic Development revealed plans for  a 315-unit senior housing project  on a 15-acre office property at 1600 Crown Colony Drive in Quincy. The developer bought the site for $11M last year and plans to demolish the 240K SF office building.
+ ***
+ Greystar began construction on its 437 Whittenton St. redevelopment project in Taunton. The developer is turning the former Whittenton Mills site into 390 housing units. The site is set to become the largest modular residential project in Massachusetts. Demolition is scheduled to be completed in July, with construction set to start in late August.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Andover 
+ , Minuteman Road 
+ , Spear Street Capital 
+ , The Hanover Co 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

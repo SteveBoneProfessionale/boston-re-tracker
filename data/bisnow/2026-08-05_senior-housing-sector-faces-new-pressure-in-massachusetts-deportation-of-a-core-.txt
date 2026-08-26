@@ -1,0 +1,302 @@
+URL: https://www.bisnow.com/news/boston/senior-housing/senior-housing-sector-faces-new-pressure-in-massachusetts-deportation-of-a-core-component-of-its-workforce
+INDEX_DATE: 2026-08-05
+
+Senior Housing Sector Faces New Problem In Massachusetts: Deportations Of Employees 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Senior Housing 
+ Senior Housing Sector Faces New Problem In Massachusetts: Deportations Of Employees 
+ August 5, 2026 | 6:00 pm ET 
+ Taylor Driscoll, Boston 
+ The senior housing sector in Massachusetts has become a hot target for real estate developers as millions of baby boomers reach retirement age, but it faces a critical issue: not enough staffers to meet the soaring demand for new facilities. 
+ That problem is about to get worse. 
+ Roughly 2,000 employees in Massachusetts senior care facilities are Haitian immigrants staying in the United States under temporary protected status, and the Supreme Court in June allowed the Trump administration to terminate that status. On Wednesday, a district court judge signed an order that allows the administration to proceed with deporting these immigrants. 
+ Pexels/Kwaku Griffin 
+ Massachusetts has roughly 45,000 Haitian TPS holders , the third most in the country behind New York and Florida. Following the Supreme Court ruling, local officials and business leaders have raised alarms about the federal government's attempted deportation of these immigrants and what it could mean for the state's workforce. In the senior housing sector, operators worry that the loss of these workers will further exacerbate the staffing crisis and make it harder to build much-needed facilities. 
+ "There's no question the operators are following this," The HYM Investment Group Chief Investment Officer Doug Manz told Bisnow. 
+ "We're not employing 10 or 11 people. We are employing hundreds of people," Manz added. "For the Greater Boston region, Haitians make up a core component of protected immigrants, and it will have an impact not just in our industry but in all industries."
+ TPS is a form of humanitarian parole that allows immigrants facing urgent humanitarian crises, including natural disasters and armed conflicts, to temporarily enter the U.S. legally for a specific time period.
+ As of March 2025, there are 1.3 million TPS holders in the U.S. from 17 countries, including Venezuela, Haiti and El Salvador.
+ There are more than 330,000 Haitian nationals who have TPS and contribute an estimated $5.9B annually across the country. These TPS holders represent 15% of all noncitizen healthcare workers, according to the American Business Immigration Coalition .
+ The Trump administration argues that the protections should end because TPS was intended to be temporary, and if these immigrants want to enter the country, "they need to do that by coming here the legal way," a Department of Homeland Security spokesperson told Axios .
+ Nationwide, immigrants make up 24% of workers in the residential care setting, including assisted living, according to KFF data , and roughly 22% of these workers are employed in nursing facilities.
+ As the demand for senior housing continues to grow, the need for capable workers is also rising. NIC MAP estimates that the U.S. will need an additional 660,000 workers by 2033 to meet the demand for senior care.
+ Nationally, investors spent roughly $12B on senior housing in the first quarter of 2026, according to MSCI . However, construction has slowed, with 16,423 senior housing units under construction, the smallest pipeline since 2012.
+ But the cost of keeping staff at these facilities has also been on the rise, making it hard to pencil new development projects and keep existing facilities well staffed. Nationally, roughly 55% of an average senior housing facility's operational costs go to staffing, with figures varying based on the level of care a facility provides, according to the 2024 State of Seniors Housing report .
+ Google Maps 
+ The HYM Investment Group developed the 159-unit The Newbury of Brookline, an assisted-living community in Brookline.
+ Massachusetts has been one of the tightest senior housing markets, with occupancy across Greater Boston properties at 94% in the first quarter of 2026, according to NIC MAP. The market is increasingly becoming an attractive place for investors and developers alike.
+ With this growth in demand and projections that Massachusetts will need to bring on hundreds of thousands of units to meet the demand, the challenges of staffing these properties are becoming more of an issue.
+ "I worry, if we're going to build that many units, are there enough staff people, particularly given … where we are in terms of restricting new people to our region, new people to our country," HYM CEO Tom O'Brien said at a Bisnow senior housing event in June . "These are sophisticated situations that require sophisticated operators and well‑trained people to be there, and so I really worry about whether or not we're gonna have the staff necessary to care for this." 
+ HYM, one of the state's largest developers, has ramped up its focus on senior housing with projects in Arlington, Plymouth and Weston that range from 145 to 215 units. The company is also in negotiations for two or three other sites as well as looking for expansion opportunities in other parts of New England, including Connecticut, New Hampshire and Maine.
+ Healthcare and senior living operators are already feeling the impacts of the TPS terminations, with several having to conduct layoffs due to the risk of legal implications from the ruling. It is unclear if deportations have begun to take place in Massachusetts.
+ "This is really significant," Charles River Regional Chamber CEO Greg Reibman said, adding that senior housing and healthcare employers were already facing staffing shortages before the TPS termination. 
+ "This has been a big step back for the employers who are saying, 'Here we go again," Reibman said. "We've had so many staffing problems during Covid, so many staffing problems for so many reasons, and this is just another blow for a workforce that's been really reliable and dependable."
+ Nonprofit senior housing operator Hebrew SeniorLife has had to place 35 employees who are TPS holders on administrative leave, WGBH reported . The organization said it has also lost roughly 100 employees due to other immigration policy shifts. 
+ The operator serves thousands of seniors across seven long-term care and rehabilitation facilities in the state, and it has been growing to meet increased demand. 
+ In May 2025, Hebrew SeniorLife gained approval and received city funding to build a six-story, 78-unit affordable housing community for low-income seniors on its flagship campus in Roslindale . In the same month, the operator opened a 54-unit, fully affordable housing project in Brookline and began construction on another 45-unit development in Randolph.
+ Flickr/Mayor's Office Photo by Mike Mejia 
+ Boston Mayor Michelle Wu speaks at a rally about the temporary protected status ruling.
+ Bay Cove Human Services, which supports 25,000 people across Massachusetts, laid off nine workers, including nursing assistants and a medications specialist, WGBH reported. Cambridge Health Alliance said 15 of its employees had been impacted by the ruling. Health and human services provider Vinfen said 21 employees with TPS have been placed on unpaid administrative leave.
+ With the TPS termination set in stone, the ruling is expected to exacerbate the ongoing staffing issues senior housing operators are facing.
+ In Massachusetts alone, 1 in 6 direct care jobs are vacant in the state, according to the Providers' Council report. Roughly half of the 341 nursing homes in the state have failed to meet minimum staffing requirements, according to a New Bedford Light analysis .
+ "Whether they are in our communities or in their homes, we will need more medical care professionals taking care of our seniors because it's growing so exponentially," Manz said. "The question is how quickly this will get implemented, how long does it last?"
+ Local and state officials have urged the federal government to extend TPS, arguing that it would be a massive blow to the economy if thousands of employees aren't legally allowed to work.
+ Earlier this week, over 100 mayors, including Boston Mayor Michelle Wu , submitted a letter to the U.S. Senate urging lawmakers to extend the protection status, arguing that Haiti's conditions are still unsafe, justifying an extension.
+ "Congress has the power to protect our communities and prevent this devastation for our families and economy by extending TPS," Wu said in a statement. "Thousands of Haitians have lived and worked lawfully in Boston and are part of the fabric of our city."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Charles River Regional Chamber 
+ , Doug Manz 
+ , Greg Reibman 
+ , Hebrew SeniorLife 
+ , NIC MAP 
+ , The HYM Investment Group 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Senior Housing Buyers Are Paying Up, But Sellers Still Need Convincing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ With Illinois' Senior Population Set To Grow By 40%, Developers Are Facing A Financing Puzzle
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

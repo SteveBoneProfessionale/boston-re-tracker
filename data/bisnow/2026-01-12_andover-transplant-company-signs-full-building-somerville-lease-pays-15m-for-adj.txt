@@ -1,0 +1,280 @@
+URL: https://www.bisnow.com/news/boston/life-sciences/andover-transplant-company-signs-full-building-somerville-lease-pays-15m-for-adjacent-property-132665
+INDEX_DATE: 2026-01-12
+
+Organ Transplant Firm Leases 500K SF Somerville Tower For New HQ 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Life Sciences 
+ Organ Transplant Firm Leases 500K SF Somerville Tower For New HQ 
+ January 12, 2026 | 9:45 am ET 
+ Taylor Driscoll, Boston 
+ A company that specializes in transporting vital organs has committed to a landmark relocation deal that could help resuscitate the struggling lab market of a Boston suburb.
+ Google Maps 
+ Transmedics Signed A Full Building Lease At Biomed Realty's Assembly Innovation Park.
+ Andover-based TransMedics Group signed a 498K SF lease for 188 Assembly Park Drive at BioMed Realty 's Assembly Innovation Park in  Somerville , the company  announced Monday morning .
+ The 12-story building, the first phase of BioMed's  1.5M SF lab and office campus adjacent to Assembly Row, will serve as the company's global headquarters and manufacturing hub.
+ The Blackstone-owned developer broke ground on Assembly Innovation Park in January 2022 and received  $514M in construction financing for the project. Construction on subsequent phases hasn't been announced as the region's life sciences market has slumped.
+ TransMedics plans to relocate to the property on or before January 2028. It acquired an adjacent parcel in the life sciences complex from BioMed, purchasing 5 Middlesex Ave. on Jan. 9 for $15M, according to public deed records. The company also acquired a portion of the complex's parking garage.
+ The Middlesex Avenue property was once envisioned as the second phase of BioMed's Assembly Innovation Park. The four-story building is the former home of the Lincoln Technical Institute and the Assembly Sports Club.
+ TransMedics Senior Vice President Nick Corcoran told  Bisnow on Monday the company is focused on its fit-out of 188 Assembly Park Drive, but the Middlesex Avenue property will be part of future expansion plans.
+ The company has been in talks to move to Somerville for some time, with state and local officials approving eight-figure tax incentives to jumpstart the deal.
+ In October, the Somerville City Council approved an $18M tax break package for the company to move into the space, and the state followed with a matching proposal through the  Massachusetts Life Sciences Center ,  The Boston Globe reported .
+ In its release, TransMedics said MLSC proposed a tax incentive of up to $30K per net new permanent full-time job created between 2026 and 2031.
+ The company expects to create as many as 600 new jobs in the next five years at the complex, in addition to the roughly 300 employees expected to move from its Andover HQ at  Spear Street Capital 's 200 Minuteman Road.
+ The lease is a major win for BioMed and submarkets such as Somerville in the "urban ring" of Boston, which also includes Allston, Brighton and Fenway. Developers launched speculative projects in those areas as labs in Cambridge were at capacity during the pandemic-era life sciences boom,  only to be caught out when the market turned starting in 2022.
+ Roughly 55% of the 11.7M SF of dedicated life sciences real estate in those markets was vacant at the end of the third quarter, according to Cushman & Wakefield.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Assembly Innovation Park 
+ , BioMed Realty 
+ , Massachusetts Life Sciences Center 
+ , Somerville 
+ , TransMedics 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Revolution Medicines Nearing Agreement For 700K SF Lease In Redwood City
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Oncology Company Expands Footprint At Hines' Life Sciences Campus
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

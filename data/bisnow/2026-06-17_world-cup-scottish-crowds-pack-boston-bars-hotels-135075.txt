@@ -1,0 +1,308 @@
+URL: https://www.bisnow.com/news/boston/economic-development/world-cup-scottish-crowds-pack-boston-bars-hotels-135075
+INDEX_DATE: 2026-06-17
+
+'An Avalanche Of Good': Scottish World Cup Crowds Have Boosted Boston Businesses 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Economic Development 
+ 'An Avalanche Of Good': Scottish World Cup Crowds Have Boosted Boston Businesses 
+ June 17, 2026 | 4:40 pm ET 
+ Taylor Driscoll, Boston 
+ Deck 12 in the Seaport has run out of beer in recent days as Scottish World Cup fans fill up the rooftop hotel bar, one of many stops along their weeklong party that has given a much-needed jolt of energy to Boston's downtown.
+ "Last Friday and Saturday into today, we are still pretty full of Scottish fans," Trish Berry, general manager of the Yotel hotel that features Deck 12, told Bisnow Wednesday, adding that demand for hotel rooms has been stronger than expected.
+ The estimated 50,000 Scots who have come to Boston to watch their soccer team have been spotted everywhere — in their famous kilts — from waiting in line at Irish bar The Dubliner to filling up the bleachers at Fenway Park on Sunday and leading chants of "No Scotland, no party!"
+ The Tartan Army's partying has made the Scots a sensation on social media, with Hennessy's Bar saying it tripled its St. Patrick's Day sales and Sam Adams saying it ran out of its famous Boston Lager. But beyond their prolific beer drinking, the Scots have lured locals out to feel the energy and have created the kind of spotlight that could draw more tourists to Boston.
+ Flickr/Gov. Maura Healey
+ Crowds Gather Outside Of South Station During The 2026 World Cup.
+ "It's been an avalanche of good," Downtown Boston Alliance President Michael Nichols told Bisnow . "Everywhere you look, there's someone here for the World Cup, and they are supporting not just the bars and restaurants but historic sites, amenities, theaters, certainly the Red Sox, the bookstores downtown. They're everywhere."
+ And the World Cup is still just getting started. Boston business leaders hope to see more waves of tourists fill the city's restaurants, bars, retail and hotels, further boosting its economy.
+ After Scotland won its first game against Haiti on Saturday, many fans stayed in the city — and more appear to be on their way — ahead of its second game in Foxborough against Morocco on Friday. Fans have also come in from Norway , which played Iraq in Foxborough on Tuesday and plays France there next week , and England will also come to town to play Ghana next week.
+ In downtown Boston specifically, shops and restaurants along Temple Place have benefited from the boost in tourism, Nichols said.
+ Nichols compared the buzz downtown to the Celtics' championship parade in 2024, which brought droves of people to the area. After the pandemic, he said these types of events are more important than ever in creating a vibrant and bustling downtown.
+ "You actually have to continue to either create things or attract things that are destination-worthy," Nichols said.
+ The excitement for the World Cup hasn't always been this palpable.
+ The region's preparations for the global tournament ran into several hurdles, including the town of Foxborough threatening to cancel the World Cup matches at Gillette Stadium .
+ And there were questions around how much international tourism would materialize, with concerns prompted by the U.S.' travel bans and visa restrictions .
+ Last month, 80% of respondents to an American Hotel and Lodging Association survey said that bookings in the 11 U.S. host cities were below initial forecasts . And earlier this month, the Boston Business Journal reported that Boston hotel rates had dropped 20% since April, though they were still well above last year.
+ Boston needs to keep the Scots here for as long as possible. The energy they've brought to this city is unreal. #WorldCup2026 pic.twitter.com/EyciA6YH7E 
+— Pete Collins (@Pete_Collins_) June 16, 2026 New data from hotel research firm STR shows how Boston hotels performed in the initial days of the World Cup.
+ The city's hotel occupancy on Friday and Saturday averaged 79% and 82%, respectively, below the occupancy on the same days last year.
+ But hotels were able to juice prices: Average rates were up 28% and 29% those days, and revenue per available room — a key hotel industry metric — was up 23% and 24%.
+ Berry said that her team at Yotel was told to anticipate longer-term bookings starting in February, as more tourists were looking to book earlier to save on transportation and lodging costs. But that never came to fruition.
+ Instead, Berry said the hotel saw a wave of last-minute bookings from a mix of international and domestic guests. The average stay was also shorter than expected, with guests booking a maximum of two days on average, Berry said.
+ "From a group perspective, that, for my hotel, fizzled out. But from a transient perspective, we've done great," Berry said.
+ Short-term rentals have also captured last-minute business.
+ An Airbnb spokesperson told Bisnow that the week ending June 7 had the largest weekly number of searches for stays around tournament games of any week this year.
+ "Hundreds of thousands more guests are set to stay on Airbnb than at the Olympic and Paralympic Games in Paris — our previous biggest event," the Airbnb spokesperson said in a statement. "And guests are continuing to book."
+ Boston ranked No. 2 among the 11 U.S. World Cup host cities for growth in the number of people hosting on Airbnb, and fans from the UK ranked as the top international visitors to the city. Specifically, Scottish travelers accounted for nearly a quarter of bookings in Boston around the country's game against Haiti, the Airbnb spokesperson said. The company declined to provide more detailed booking data.
+ The positive energy has been a needed breath of fresh air for the city, which has been struggling to keep its downtown corridor active and dealing with perceptions that it is becoming less fun.
+ Massachusetts' affordability issues have led more young residents to plan to move out of the state , and Boston has faced criticisms around its nightlife scene, which many say is in need of a rebound .
+ As part of the World Cup festivities, the state government passed legislation that extends last call until 3 a.m. and public drinking zones from June 8 to July 31. Nichols said he hopes this pilot session can spark further legislation to create a more permanent program.
+ Courtesy of Emma Coppock
+ A line outside The Dubliner on a Wednesday afternoon during the 2026 World Cup.
+ "You don't want the immediate glow," Nichols said. "You want the lasting effect."
+ The World Cup frenzy over the last week has also drawn out locals who want to be part of the action.
+ "It's a celebratory, happy vibe that is so overtly positive that I think it's convincing locals that might not have had their eye as fully on the World Cup," Nichols said. "They want to be around the healthy spectacle of these fan bases that have come to Boston."
+ In the Seaport, where Yotel is, other retailers and restaurants have filled up with fans.
+ "The energy has been extraordinary," WS Development Area Vice President of Brand and Experience Ariel Foxman said in a statement to Bisnow .
+ The landlord, which owns several properties in the neighborhood, has held several events as part of the World Cup festivities, including match-day watch parties at local bars, including Cisco Brewers beer garden, Rocco's and King's.
+ Watchers from countries including Norway, Morocco, Ghana, Cape Verde, Haiti and beyond have also come to the city to celebrate with other soccer fans. Nichols said the France and England games next week also give the city something to look forward to.
+ Beyond the monthlong tournament, Nichols said the energy felt throughout the streets of Boston today could culminate in more tourism, investment and partnership in the future.
+ "There are these seismic events that Boston could work harder to attract more of them," Nichols said. "The more things that we can do that make the downtown a destination, the more retailers will want to open here, the more office managers will want to locate a company here."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Downtown Boston 
+ , Downtown Boston Alliance 
+ , Trish Berry 
+ , World Cup 
+ , World Cup 2026 
+ , Yotel 
+ , Yotel hotel 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Aerospace And Defense Company Opens 60K SF Facility In Arvada
+ Owners Test Investor Appetite For Dublin 5-Star Hotel Market
+ How Pearland, Texas, Is Redefining Workforce Development
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ How Addison, Texas, Upholds Its Regulatory Standards And Keeps Building Projects Moving Forward
+ Sixty Beverly Hills Hotel Heads Back To Special Servicing
+ Controversial $18M Charlotte-Area Hotel Project Gets Rezoning Approval
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ 'Quality Of Place': One Inland Empire City's Manual For Smart Growth
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

@@ -1,0 +1,310 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/healey-rolls-out-140m-in-funding-for-conversions-rental-projects-the-boston-deal-sheet-133356
+INDEX_DATE: 2026-02-23
+
+Healey Rolls Out Over $140M In Funding For 1,300 Housing Units: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Healey Rolls Out Over $140M In Funding For 1,300 Housing Units: The Boston Deal Sheet 
+ February 23, 2026 | 1:11 pm ET 
+ Taylor Driscoll, Boston 
+ Gov. Maura Healey announced funding for two programs that will likely jump-start more residential conversion projects across the state.
+ Mass.gov 
+ Gov. Maura Healey Speaking At Press Conference In Pittsfield. 
+ Healey plans to push more than $140M into low-income housing tax credits and conversion tax credits to spur the development of new housing, the administration announced Feb. 17 .
+ The conversion funding is being awarded to five projects in Boston, Fitchburg, New Bedford, Pittsfield and Worcester that combined will create 339 affordable housing units.
+ The inaugural funding round, which consisted of nearly $8.4M from the Commercial Conversion Tax Credit Initiative, will transform empty or rundown commercial buildings into new housing.
+ "Too many downtown buildings across Massachusetts are sitting dark and empty when they could be part of the solution to our housing shortage," Healey said in a statement.
+ The projects include Wingate Development's 18-unit 150 Milk St. in Boston, Synergy's 198-unit One Chestnut in Worcester and Seaport Realty's 65-unit 4586 Acushnet in New Bedford.
+ The state also announced $139.5M in funding from the Affordable Housing Development Grant Program for 15 rental housing developments. The projects represent 1,008 new homes, including 903 affordable units.
+ The projects include the Asian Community Development Corp.'s 111-unit Parcel P-12C in Boston, Greater Lawrence Community Action Council's 100-unit Olde Station 9/4 in Lawrence and Revitalization Effort Toward New Urbanism and Trinity Financial's 118-unit Merrimack Corridor Development in Lowell.
+ SALES 
+ Google Maps 
+ Marcus Partners sold an industrial building at 118 Mystic Ave. for $8M.
+ Marcus Partners sold an industrial property at 118 Mystic Ave. to PAG Properties LLC for $8M, according to a Feb. 20 deed. Marcus Partners bought the property in 2025 for $3.5M. The deal was part of a larger, five-building portfolio Marcus Partners acquired for $40.5M .
+ ***
+ An entity linked to Tritower Financial Group acquired an office building at The Park at Beaver Brook campus in Boxborough for $17.8M, according to a Feb. 20 deed. Campanelli and Trigate were the sellers.
+ In November 2023, Campanelli and Trigate secured a $38.2M loan for a major addition to the four-building, 487K SF campus. The joint venture had originally acquired the campus for $10.9M from Cisco Systems in 2021 .
+ ***
+ An entity linked to Acadia Healthcare Co. acquired a newly opened hospital campus in Malden for $10.3M from Hallmark Health System Inc., according to a Feb. 19 deed. The Tennessee-based company partnered with Tufts Medicine to open  the Tufts Medicine Behavioral Health Hospital at 100 Hospital Road earlier this month.
+ Acadia acquired another property at 47 Grove Road in Medford as part of the deal.
+ ***
+ Wheelock Capital sold a 107K SF industrial warehouse at 10 Campanelli Circle to 10 Canton LLC for $12.7M, according to a Feb. 19 deed.
+ ***
+ Rhode Island-based commercial property insurer FM Global acquired the IGT office tower in downtown Providence for $68.5M, The Boston Globe reported . The property is located at 10 Memorial Blvd. FM plans to occupy a portion of the office building.
+ LEASES 
+ Lumin Health signed a 4,600 SF lease at Cummings Properties' TradeCenter 128 office building in Woburn. The lease acts as an expansion for the company, which has other locations in Newton, Cambridge and Brookline.
+ CBRE's Josh Kulak and Katrina Giotsas represented the tenant in the deal.
+ FINANCING 
+ Google Earth 
+ Brockton Housing Authority secured a $50M loan for the first phase of its Campello Apartments redevelopment in Brockton.
+ MassHousing closed on $50M in financing for the first phase of Brockton Housing Authority's Campello Apartments redevelopment in Brockton. The first phase includes a seven-story, 144-unit apartment building. The full project will encompass three phases and include the demolition of three public housing unit buildings.
+ The 144-unit project will offer a ground-floor lounge, a laundry room, a fitness center and social spaces.
+ PERSONNEL 
+ Housing and Livable Communities Secretary Ed Augustus is stepping down from the role after nearly three years. His last day will be Feb. 27. He will be replaced by Juana Matias, the former regional administrator for the U.S. Department of Housing and Urban Development.
+ ***
+ Sandi Wolchansky Silk joined MassDevelopment as its executive vice president of real estate. In the new role, Silk will oversee the agency's real estate division and help promote the team's real estate decisions as they relate to statewide economic development priorities. Silk most recently held the position of senior vice president and head of development at New York-based Mural Real Estate Partners.
+ ***
+ Lincoln Property Co. hired Mike Ogasapian as senior vice president. Ogasapian brings over 11 years of experience to the firm, most recently holding the role of senior vice president at R.W. Holmes Commercial Real Estate.
+ CONSTRUCTION AND DEVELOPMENT 
+ JGE Architecture + Design completed its Logan Square Residences, a 63-unit affordable housing community in Hyde Park. The five-story, all-electric building includes a fitness room, library, lounge area, community room and landscaped courtyard. Leasing has already commenced at the property, with the building at 30% occupied.
+ ***
+ Global Hospitality Investment Group has filed plans for a $110M, 438-room hotel on Butler Street in the Seaport, the Globe reported . Boston Zoning Commission officials gave approval for the project to move forward earlier this month.
+ GHIG, which owns two other hotels in the same vicinity, is in a land lease agreement with the Massachusetts Convention Center Authority.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Fitchburg 
+ , Maura Healey 
+ , New Bedford 
+ , Office-to-residential conversion 
+ , Pittsfield 
+ , Residential Conversion 
+ , Worcester 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

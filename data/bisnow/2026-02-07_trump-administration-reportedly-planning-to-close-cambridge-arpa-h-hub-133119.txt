@@ -1,0 +1,284 @@
+URL: https://www.bisnow.com/news/boston/life-sciences/trump-administration-reportedly-planning-to-close-cambridge-arpa-h-hub-133119
+INDEX_DATE: 2026-02-07
+
+Cambridge Bioscience Innovation Hub That Brought In $330M Of Funding Slated To Close 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Life Sciences 
+ Cambridge Bioscience Innovation Hub That Brought In $330M Of Funding Slated To Close 
+ February 7, 2026 | 9:07 am ET 
+ Taylor Driscoll, Boston 
+ Less than three years after a federal investor catalyst hub opened its doors in Cambridge, the company managing it has received notice that the federal government seeks to terminate its agreement with the hub "in large part or in full."
+ Wikimedia/Percival Kestreltail 
+ Cambridge Skyline In 2021.
+ The  Trump administration  will wind down the innovation hub, which is administered through the federal Advanced Research Projects Agency for Health, according to reports from  multiple media outlets  Friday morning.
+ In a  Jan. 30 letter , ARPA-H official Steven Piggott notified VentureWell, the Hadley-based company tasked with managing the Cambridge hub, that the government planned to terminate the hub agreement and would compensate the company "for allowable and properly incurred costs up to the effective termination date."
+ The letter indicated work done on one program through the hub, the Sprint for Women's initiative, would continue, The Boston Globe reported. The federal government earmarked $100M for the initiative, which aims  to accelerate women's health research .
+ Since the hub's inception, it has provided approximately $330M in funding to Massachusetts companies, researchers and nonprofits, Gov. Maura Healey  said in a statement.
+ The federal government said it would provide additional information on the matter no later than Feb. 20, the letter states.
+ A majority of Massachusetts' congressional delegation, including Sens.  Elizabeth Warren  and  Ed Markey , wrote a letter to President Donald Trump and Health and Human Services Secretary Robert Kennedy Jr. asking for an explanation for the stop-work order.
+ "At this stage, terminating the Investor Catalyst Hub's work would be a profound mistake and a blatant waste of taxpayer dollars and federal investment, especially given that the Hub has been fully operational for two years and is already producing clear, tangible returns," the lawmakers wrote in a letter Friday.
+ The letter was also signed by U.S. Reps. Lori Trahan, Jake Auchincloss, Seth Moulton, Richard Neal and  Stephen Lynch .
+ In the letter, the lawmakers called for a briefing on the ARPA-H program's status as well as on contingency planning to outline how the work being conducted at the hub would continue.
+ The move comes the same week that Congress reversed Trump's planned steep cuts to the  National Institutes of Health  by  passing legislation  that bolstered the government agency's budget by $415M. The legislation also prevented the Trump administration from reclassifying billions of dollars in previously allowed research expenses as unallowable.
+ Gov. Healey condemned the move to wind down the hub in her statement, which was published Friday.
+ "President Trump is yet again attacking research and science. First, he cut billions of dollars in NIH funding," she said. "Now, he is threatening to abruptly close the ARPA-H hub in Massachusetts, wasting taxpayer dollars and derailing efforts to find cures for childhood cancer and bring health care services to rural areas."
+ An official with ARPA-H categorized reports of the Cambridge hub closing as false, saying the government is only evaluating hub vendors, according to multiple reports.
+ Cambridge was chosen to host the hub  in 2023  by the Biden administration. The hub was characterized at the time as an effort to tackle business and regulatory complexities in healthcare innovation.
+ Then-President Joe Biden announced plans to launch ARPA-H in 2022 , envisioning a new agency dedicated to funding research, and federal administrators eventually chose three innovation hub locations. The other two in Washington, D.C., and Dallas act as the agency's administrative operations and customer experience hubs, respectively.
+ Officials with Rep. Trahan's office said they had heard the Dallas hub may also be in danger of closing, The Boston Globe reported.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ ARPA-H 
+ , Cambridge life sciences 
+ , Donald Trump 
+ , Gov. Maura Healey 
+ , National Institutes of Health 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Revolution Medicines Nearing Agreement For 700K SF Lease In Redwood City
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Oncology Company Expands Footprint At Hines' Life Sciences Campus
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

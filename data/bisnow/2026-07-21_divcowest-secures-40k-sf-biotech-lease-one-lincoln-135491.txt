@@ -1,0 +1,283 @@
+URL: https://www.bisnow.com/news/boston/office/divcowest-secures-40k-sf-biotech-lease-one-lincoln-135491
+INDEX_DATE: 2026-07-21
+
+Pharma Company Moving Headquarters From Suburbs To Downtown Boston 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Office 
+ Pharma Company Moving Headquarters From Suburbs To Downtown Boston 
+ July 20, 2026 | 8:22 pm ET 
+ Taylor Driscoll, Boston 
+ DivcoWest  has lured a pharmaceutical company from the suburbs to its One Lincoln office tower downtown.
+ Bisnow/Taylor Driscoll
+ One Lincoln Sold Through A Credit Bid Back To The Lender On Friday.
+ Collegium Pharmaceuticals signed a 40K SF lease at the office tower for its corporate headquarters, the company announced Monday . The firm plans to move in the first quarter and will occupy portions of the 11th and 12th floors.
+ Collegium is relocating from 100 Technology Center Drive in Stoughton. The company signed  a roughly 51K SF lease in 2018  at the office and lab building owned by Braintree-based Campanelli.
+ The company joins several other tenants at One Lincoln: HarbourVest, WeWork , law firm Sherin and Lodgen, advisory firm CFGI and artificial intelligence company Lovable, which signed a 6K SF lease  in April.
+ "As companies continue to prioritize spaces that support collaboration and employee experience, we're proud to offer a workplace that meets those evolving needs and look forward to this partnership," DivcoWest  Managing Partner Mark Roopenian said in a statement.
+ DivcoWest became the landlord after winning the 1.1M SF office tower  at auction in March 2025. DivcoWest and MSD Partners had acted as the lender for the property, previously owned by Fortis Property Group .
+ Since then, DivcoWest has invested $100M  to reposition the property. It added new amenities, including a two-story health and wellness club, a tenant lounge and a seventh-floor amenities center.
+ Newmark 's Gil Dailey and Dave Martel represented DivcoWest in the transaction, with Avison Young 's Justin Dziama and Connor Hayes representing Collegium Pharmaceutical.
+ "This relocation reflects a broader trend we're seeing across Greater Boston," Dziama said in a statement. "As market conditions have shifted, companies are taking advantage of the opportunity to upgrade their workplace experience, improve accessibility for employees and establish a stronger presence in the urban core. For Collegium, One Lincoln provided the chance to accomplish all of those goals in one move."
+ Over the last several years, other companies have relocated to Boston from the suburbs.
+ EMD Serono moved from Rockland  to occupy 60K SF at 200 Pier Four Blvd. in the Seaport in 2024. Dynatrace  moved from Waltham to a 25K SF office at 280 Congress St. in early 2025, and Hasbro  moved from Rhode Island to a 265K SF office at 400 Summer St. in September.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Avison Young 
+ , Dave Martel 
+ , DivcoWest 
+ , Fortis Property Group 
+ , Gil Dailey 
+ , Mark Roopenian 
+ , MSD Partners 
+ , Newmark 
+ , One Lincoln 
+ , WeWork 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Tishman Speyer Lining Up $340M Refi Of 2.4M SF Chicago Office Complex
+ Dutch Office Investment Leaps — But The Conversion Play Runs Out Of Road
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Cross Ocean Partners, Fuller Realty Acquire 829K SF Houston Office Campus
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ NYC Office Investor Warns It Could Go Under As Defaults Pile Up
+ Deutsche Bank Takes 5 Floors At Oaktree And Quadrant's Canary Wharf Scheme
+ Coconut Grove Office Flipped For $15M Gain After One Year
+ D.C.'s Office Market Is Getting A Makeover
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

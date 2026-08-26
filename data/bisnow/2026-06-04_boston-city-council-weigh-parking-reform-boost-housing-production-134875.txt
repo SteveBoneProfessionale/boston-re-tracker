@@ -1,0 +1,290 @@
+URL: https://www.bisnow.com/news/boston/multifamily/boston-city-council-weigh-parking-reform-boost-housing-production-134875
+INDEX_DATE: 2026-06-04
+
+Boston City Councilors Weigh Whether Parking Reform Can Boost Housing Production 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Multifamily 
+ Boston City Councilors Weigh Whether Parking Reform Can Boost Housing Production 
+ June 4, 2026 | 1:59 pm ET 
+ Taylor Driscoll, Boston 
+ As the affordable housing crisis rages on, Boston City Council members are looking to eliminate  parking minimums that have historically added high costs to housing production.
+ During a Thursday morning public hearing, city councilors, housing advocates and Boston residents debated whether eliminating parking minimums would help create more housing or simply create more parking problems.
+ Wikimedia Commons/4300streetcar 
+ Multifamily Construction At 175 North Harvard St. In Allston In 2025.
+ The proposal — a 35-page text amendment to Boston's zoning code — would eliminate parking minimums for all new residential construction across the city's 23 neighborhoods and amend the city's base zoning code. The proposal was  introduced in April  by Councilors Sharon Durkan and Henry Santana.
+ "What makes this city great is our people, and right now we are losing too many of them," Santana said.
+ The proposal will remain in committee, as it is not ready to go before the Zoning Board of Appeals, which needs to approve any zoning amendments. However, the hearing gave insight into how other council members, advocates and residents feel about the amendment.
+ "I think there's a misconception that no parking minimums means no parking, and that's not the case," Councilor Liz Breadon said.
+ Breadon, who represents the Allston neighborhood, said there's been a "de facto" removal of parking minimums in Allston, providing the developers with flexibility rather than outright banning new parking.
+ George Washington University law professor and zoning law expert Sara Bronin called the city's zoning code "bloated, outdated, inconsistent and inequitable," stating that parking requirements would be the "single best substantive change" the city could make for its betterment.
+ During the meeting, she also made two recommendations to the proposal: to expand the reach to nonresidential projects as well and to streamline the parking mandates to one section rather than hundreds of pages.
+ Parking minimums have always been a point of contention for the development community, and within the last decade,  hundreds of municipalities  nationwide have eliminated or tweaked their parking requirements to boost housing production.
+ Neighboring cities, including Cambridge and Somerville , have eliminated parking minimums.  Salem  followed suit last year, citing its housing production goals .
+ Wikimedia Commons/4300streetcar 
+ A parking lot in Boston's Chinatown
+ City officials have been looking at several avenues to jump-start its slowed development pipeline.
+ New housing unit approvals have slowed drastically over the last six years, with 9,800 units approved by the city's planning board in 2020 and 2,389 in 2024, The Boston Globe reported . The reduced growth has also put pressure on the city's budgets .
+ Boston Mayor Michelle Wu has looked into other avenues to accelerate affordable housing production, including tax breaks for developers , which she ultimately dropped a few years ago due to the economic environment.
+ City Councilor Brian Worrell argued at Thursday's hearing that without minimums, developers would have no incentive to build parking in neighborhoods with less access to transportation or walkable communities, leading to further inequity.
+ "Not every neighborhood is the same in terms of amenities and walkability," Worrell said. "I know we need to streamline things, but at what cost? How much money are we saving?"
+ Councilor Ed Flynn pushed back on the idea that parking minimums would help alleviate the costs of development, pointing to numerous policies, including inclusionary development, rent control and sustainability mandates, that have also put pressure on development.
+ "We are not listening to the repeated feedback we've received for years from the development and business community on why we are not building housing in the city of Boston, especially affordable housing," Flynn said.
+ He also said the Zoning Board of Appeals, which oversees any zoning variance requests from developers, has approved roughly 90% of parking changes, with many projects seeing only 0.5 parking spots per unit.
+ "Our affordable housing crisis can't wait several years for the economy to improve," Flynn said.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Henry Santana 
+ , Multifamily development 
+ , Parking 
+ , Parking minimum 
+ , Sara Bronin 
+ , Sharon Durkan 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ MG Developer Faces 6 Lawsuits Alleging Millions In Overdue Debt
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

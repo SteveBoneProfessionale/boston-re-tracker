@@ -1,0 +1,283 @@
+URL: https://www.bisnow.com/news/boston/capital-markets/4-companies-illegal-donations-everett-mayoral-campaign-133886
+INDEX_DATE: 2026-03-30
+
+4 Companies Made Illegal Donations To Everett Mayoral Campaign, State Officials Find 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Capital Markets 
+ 4 Companies Made Illegal Donations To Everett Mayoral Campaign, State Officials Find 
+ March 30, 2026 | 3:48 pm ET 
+ Taylor Driscoll, Boston 
+ Four commercial real estate and contracting companies are under fire from the state of Massachusetts for allegedly making illegal donations as part of a 2025 mayoral race in Everett, just north of Boston.
+ Wikimedia Commons/Parkerjh 
+ An Aerial Shot Of Encore Casino In Everett
+ The companies illegally donated to former Everett Mayor  Carlo DeMaria 's failed reelection campaign, accounting for $19,500 in contributions, according to March 19 letters sent by state officials to the companies.
+ State regulators are requiring the companies to pay roughly $39K in penalties, The Boston Globe first reported .
+ The four companies are Cranston, Rhode Island-based architecture shop Millwork One Inc., construction company Island Facades, electrical contracting firm State Electric LLC and Malden multifamily landlord United Properties .
+ The contributions were made by employees of the four companies through the digital campaign fundraising platform ActBlue, which often raises money for candidates and causes aligned with the Democratic Party , as well as other progressive causes and candidates.
+ The state said the companies reimbursed employees who donated money to the campaign. Massachusetts doesn't allow personal contributions to be made in the name of another individual or company. Companies also can't "directly or indirectly" donate to any specific candidate under state law.
+ In the four cases, donations were said to have been made in a personal capacity with no ties to the companies. However, the state found that the companies reimbursed their employees after making the donations.
+ The most money paid back came from Malden landlord United Properties, which reimbursed eight employees who gave a total of $6,500 toward the campaign. The company has paid $13K back to the state  to resolve the matter.
+ Four Millwork One employees each made $1K contributions to DeMaria's campaign. The company  paid $8K back to the state.
+ Similarly, four State Electric workers donated the maximum donation of $1K, resulting in penalties of $8K paid to the state .
+ Five Island Facades workers, including CEO Edward Harms, donated $1K each to the campaign, totaling $5K. The company  paid $10K to the state.
+ None of the four companies responded to  Bisnow 's requests for comment.
+ DeMaria's campaign is also being forced to return the funds it received. State regulators have "no reason to believe" DeMaria's campaign knew of the illegal activity.
+ DeMaria, who served as Everett's mayor for 18 years, lost his reelection bid in November to Robert Van Campen. His campaign raised $682K, while the Van Campen campaign brought in $74K, according to public campaign finance records.
+ DeMaria was influential in transforming Everett from what was an underinvested industrial hub into  a sprawling mixed-use community  with  thousands of housing units and Wynn Resorts' Encore Boston Harbor.
+ However, DeMaria was in hot water in February when a state audit found that he received  $180K in so-called longevity payments between 2016 and 2025. The Massachusetts Office of the Inspector General alleged that DeMaria's administration hid the payments from the city council and the public.
+ DeMaria has consistently  denied wrongdoing  regarding the payments and disputes the audit's findings.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Carlo DeMaria 
+ , Everett 
+ , Political donations 
+ , United Properties 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Senior Housing Buyers Are Paying Up, But Sellers Still Need Convincing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Nuveen's C-PACE Fund Secures Over $1B, Its Biggest Raise Yet
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Aberdeen Goes Global With £700M Merged Fund
+ Data Center Deals Propel July CRE Sales Volume To Best Performance Since 2005
+ From Bankruptcy To $400M Buying Spree: Michael Shah's Rapid Comeback
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Wells Fargo Moves To Foreclose On $1.3B Workspace Property Trust Portfolio
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Latest Round Of Fannie Mae Senior Staff Layoffs Has Multifamily Sector Anxious
+ Efficiency, Speed And Experience: What CRE Needs To Know About The New Texas Business Courts 
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

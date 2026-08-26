@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#db12000">
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<meta name="og:region" content="AL"/><meta name="og:country-name" content="us"/>
+	<!-- This site is optimized with the Yoast SEO Premium plugin v28.3 (Yoast SEO v28.3) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<title>Metro Boston Commercial Real Estate News</title>
+<link data-rocket-prefetch href="https://js.hs-banner.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://js.hscollectedforms.net" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://js.hubspot.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://js.hsadspixel.net" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://js.usemessages.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://js.hs-analytics.net" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://client.rum.us-east-1.amazonaws.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://cdnjs.cloudflare.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://static.hotjar.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://js.hs-scripts.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://tracking.magnetmail.net" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://js.hsforms.net" rel="dns-prefetch">
+<style id="wpr-usedcss">:root{--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Free";--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Free";--fa-font-light:normal 300 1em/1 "Font Awesome 6 Pro";--fa-font-thin:normal 100 1em/1 "Font Awesome 6 Pro";--fa-font-duotone:normal 900 1em/1 "Font Awesome 6 Duotone";--fa-font-duotone-regular:normal 400 1em/1 "Font Awesome 6 Duotone";--fa-font-duotone-light:normal 300 1em/1 "Font Awesome 6 Duotone";--fa-font-duotone-thin:normal 100 1em/1 "Font Awesome 6 Duotone";--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands";--fa-font-sharp-solid:normal 900 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-regular:normal 400 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-light:normal 300 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-thin:normal 100 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-duotone-solid:normal 900 1em/1 "Font Awesome 6 Sharp Duotone";--fa-font-sharp-duotone-regular:normal 400 1em/1 "Font Awesome 6 Sharp Duotone";--fa-font-sharp-duotone-light:normal 300 1em/1 "Font Awesome 6 Sharp Duotone";--fa-font-sharp-duotone-thin:normal 100 1em/1 "Font Awesome 6 Sharp Duotone"}svg:not(:host).svg-inline--fa,svg:not(:root).svg-inline--fa{overflow:visible;box-sizing:content-box}.svg-inline--fa{display:var(--fa-display,inline-block);height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-fw{width:var(--fa-fw-width,1.25em)}.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;transform:translate(-50%,-50%);transform-origin:center center}.fa-fw{text-align:center;width:1.25em}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}:root{--wp--preset--aspect-ratio--square:1;--wp--preset--aspect-ratio--4-3:4/3;--wp--preset--aspect-ratio--3-4:3/4;--wp--preset--aspect-ratio--3-2:3/2;--wp--preset--aspect-ratio--2-3:2/3;--wp--preset--aspect-ratio--16-9:16/9;--wp--preset--aspect-ratio--9-16:9/16;--wp--preset--color--black:#000000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#ffffff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgb(6, 147, 227) 0%,rgb(155, 81, 224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122, 220, 180) 0%,rgb(0, 208, 130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgb(252, 185, 0) 0%,rgb(255, 105, 0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgb(255, 105, 0) 0%,rgb(207, 46, 46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238, 238, 238) 0%,rgb(169, 184, 195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74, 234, 220) 0%,rgb(151, 120, 209) 20%,rgb(207, 42, 186) 40%,rgb(238, 44, 130) 60%,rgb(251, 105, 98) 80%,rgb(254, 248, 76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255, 206, 236) 0%,rgb(152, 150, 240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254, 205, 165) 0%,rgb(254, 45, 45) 50%,rgb(107, 0, 62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255, 203, 112) 0%,rgb(199, 81, 192) 50%,rgb(65, 88, 208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255, 245, 203) 0%,rgb(182, 227, 212) 50%,rgb(51, 167, 181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202, 248, 128) 0%,rgb(113, 206, 126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2, 3, 129) 0%,rgb(40, 116, 252) 100%);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, .2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, .4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, .2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgb(255, 255, 255),6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp:6px 6px 0px rgb(0, 0, 0)}:where(body){margin:0}:where(.is-layout-flex){gap:.5em}:where(.is-layout-grid){gap:.5em}body{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}:root :where(.wp-element-button,.wp-block-button__link){background-color:#32373c;border-width:0;color:#fff;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;padding-top:calc(.667em + 2px);padding-right:calc(1.333em + 2px);padding-bottom:calc(.667em + 2px);padding-left:calc(1.333em + 2px);text-decoration:none;text-transform:inherit}@font-face{font-family:semplicitapro;src:url("https://use.typekit.net/af/835ce6/00000000000000007735a586/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/835ce6/00000000000000007735a586/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/835ce6/00000000000000007735a586/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:400}@font-face{font-family:semplicitapro;src:url("https://use.typekit.net/af/92db91/00000000000000007735a587/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/92db91/00000000000000007735a587/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/92db91/00000000000000007735a587/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:600}@font-face{font-family:itc-avant-garde-gothic-pro;src:url("https://use.typekit.net/af/578a9d/00000000000000007735ba14/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/578a9d/00000000000000007735ba14/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/578a9d/00000000000000007735ba14/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:700}.hs-input,a,abbr,address,article,aside,audio,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,ruby,s,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;outline:0;text-rendering:optimizeLegibility;scroll-behavior:smooth}body{line-height:1;-webkit-transition-delay:1s display;-o-transition-delay:1s display;transition-delay:1s display}button{outline:0}ol,ul{list-style:none}blockquote{quotes:none}blockquote:after,blockquote:before{content:'';content:none}input[type=button],input[type=password],input[type=reset],input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:2px}big{font-size:120%}small,sub,sup{font-size:80%}sup{vertical-align:super}sub{vertical-align:sub}dd{margin-left:20px}kbd{font-family:courier;font-size:12px}ins{text-decoration:underline}del,s{text-decoration:line-through}dt{font-weight:700}address,cite,var{font-style:italic}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}*{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-tap-highlight-color:transparent;-webkit-transition:.12s ease-in-out;-o-transition:.12s ease-in-out;transition:all .12s ease-in-out}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important}html{font-size:15px;font-family:semplicitapro,sans-serif;font-weight:400;font-style:normal;color:#050302;background-image:-o-linear-gradient(330deg,#fff 0,#fefefe 100%);background-image:linear-gradient(120deg,#fff 0,#fefefe 100%)}a{cursor:pointer;color:#195794;text-decoration:none}.active,.active a,.open.active-menu-link,.reset-link:active,.reset-link:hover,.sub-stories-menu-target.open,a:active,a:hover,a:hover span{color:#db1200}ul{padding-left:15px;list-style-type:square}ul li{padding:5px 0;margin-left:15px;line-height:1.75em}tbody{display:block;border:1px dotted #ccc4b0;padding:10px;margin:20px 0}tr{padding-left:30px;display:block}tr::after{content:"▇";position:relative;bottom:1.25rem;left:-.75rem;text-align:center;margin-top:-.5em;font-size:8px;color:#db1200}::marker{color:#ccc4b0}blockquote{border-left:1px dotted #ccc4b0;font-style:italic;font-weight:300;margin:1.1em 0;padding:1em 2em;position:relative;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:.2s border ease-in-out;z-index:0}blockquote:after{content:"”";position:absolute;top:58%;left:-.55em;font-size:3rem;text-align:center;text-indent:-2px;width:1em;margin-top:-.5em;-webkit-transition:.2s ease-in-out,-webkit-transform .4s ease-in-out;transition:.2s all ease-in-out,.4s -webkit-transform ease-in-out;-o-transition:.2s ease-in-out,transform .4s ease-in-out;transition:.2s all ease-in-out,.4s transform ease-in-out;transition:.2s all ease-in-out,.4s transform ease-in-out,.4s -webkit-transform ease-in-out}blockquote.format:after,blockquote.format:before{display:none}blockquote:active:after{-webkit-transform:rotateY(360deg);transform:rotateY(360deg)}blockquote cite,figcaption{display:block;font-size:.75em;margin-top:1em}p{line-height:1.7em}p+p{margin-top:1rem}h1,h2,h3,h4,h5,h6{display:block;line-height:1.25em;margin-bottom:10px}.h1,h1{font-size:3rem;font-weight:600}.h2,h2{font-size:1.25rem;font-weight:600}h3{font-size:1.15rem;font-weight:600}h4{font-size:1rem;font-weight:600;color:#db1200}strong{font-weight:600}.flex-1{-webkit-box-flex:1;-ms-flex:1 1;flex:1 1}.flex-2{-webkit-box-flex:2;-ms-flex:2 2;flex:2 2}.flex-3{-webkit-box-flex:3;-ms-flex:3 2;flex:3 2}.small-text{font-size:13px;line-height:1.5em}.extrasmall-text{font-size:11px}.reset-link{color:inherit;text-decoration:inherit;display:block}.pointer{cursor:pointer}.bg-grey{background:#f7f7f7}.hidescroll{overflow:hidden}.slide-left{transform:translateX(-100vw);transition-delay:0.2s;transition-duration:1.6s}.slide-right{transform:translateX(100vw);transition-duration:1.6s}.slide-left.slide-active,.slide-right.slide-active{transform:translateX(0)}.border-right{border-right:1px dotted #ccc4b0}.border-left{border-left:1px dotted #ccc4b0}.border-bottom{border-bottom:1px dotted #ccc4b0}.border-top{border-top:1px dotted #ccc4b0}.border-all{border:1px dotted #ccc4b0}.button,.hs-button,button,input[type=button],input[type=submit]{border:0 solid #195794;background:#195794;color:#fff;cursor:pointer;padding:15px 25px;margin:10px 0;background:-o-linear-gradient(305deg,#1b5d9e,#174e85);background:linear-gradient(145deg,#1b5d9e,#174e85);-webkit-box-shadow:5px 5px 10px #bebebe,-5px -5px 10px #fff;box-shadow:5px 5px 10px #bebebe,-5px -5px 10px #fff;font-size:12px;font-family:semplicitapro,sans-serif;font-weight:600;position:relative;display:inline-block}a:active.button,a:hover.button,span:active.button,span:hover.button{color:#fff}.button:hover,.hs-button:hover,button:hover,input[type=button]:hover,input[type=submit]:hover{background:-o-linear-gradient(305deg,#174e85,#1b5d9e);background:linear-gradient(145deg,#174e85,#1b5d9e)}.button:active,.hs-button:active,a:active,button:active,input[type=button]:active,input[type=submit]:active{-webkit-transform:scale(.99) translateY(-1px);-ms-transform:scale(.99) translateY(-1px);transform:scale(.99) translateY(-1px)}input{padding:10px;font-weight:700;border-radius:2px;border-bottom:1px dotted #ccc4b0;border-top:none;border-right:none;border-left:none}input:focus,input:focus-visible,input[type=search]:focus{border-bottom:1px dotted #db1200;border-top:none;border-right:none;border-left:none}.navigation{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-line-pack:end;align-content:flex-end;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.navigation li{display:inline;margin-left:0}.navigation li a,.navigation li a:hover,.navigation li.active a,.navigation li.disabled{cursor:pointer;padding:5px 10px;text-decoration:none}.layout-default-wrapper{width:100%;max-width:1920px;margin:0 auto}#header,#header-open-menu,.layout-default.story-wrapper,.layout-footer-wrapper{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:nowrap;flex-wrap:nowrap;max-width:1920px;margin:0 auto}#header,.layout-default,.layout-default.story-wrapper,.layout-footer-bottom,.layout-footer-wrapper{padding-left:40px;padding-right:40px;max-width:1920px}.layout-default.story-wrapper{padding-top:20px}#header-wrapper{width:100%;background:#f7f7f7;display:block;position:-webkit-sticky;position:sticky;top:0;z-index:1000}#header-wrapper #header{height:50px;-ms-flex-wrap:wrap;flex-wrap:wrap}.header-connect-logo{height:100%}#header .header-h1{text-transform:lowercase}.header-h1{font-size:1.5rem;font-weight:700;font-family:itc-avant-garde-gothic-pro;margin-top:5px;margin-bottom:0}.layout-header.header-connect-logo a:hover{color:inherit}.header-h1 span{color:#db1200}#header-nav-section{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;height:100%}#header-nav-section.headernavsectionleft{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.header-nav-section-item:last-child{padding-right:0}.header-nav-section-item{padding:0 10px}.desktop-menu-item{display:inherit}#header-menu-opened-col{font-size:13px;line-height:1.5em;padding-left:0;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}#header-menu-opened-col li{width:20%;font-size:13px;line-height:1.5em}#header-menu-opened-col li a:hover{color:#db1200}#header-opened-menu{-webkit-transform:translate(-125vw,50px);-ms-transform:translate(-125vw,50px);transform:translate(-125vw,50px)}#header-opened-menu.open{-webkit-transform:translate(0,50px);-ms-transform:translate(0,50px);transform:translate(0,50px)}#header-open-menu{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;position:relative}#header-open-menu-wrapper,#header-opened-menu{background:#fff;position:fixed;z-index:1001;width:100%;height:calc(100vh - 50px);top:0;left:0;overflow:auto;z-index:999;-webkit-transition:.75s;-o-transition:.75s;transition:all .75s}.header-open-menu-left,.header-open-menu-right{min-height:calc(100vh - 50px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;overflow:auto}.header-open-menu-left div{padding:5px 0;padding-left:20px}.header-open-menu-left{padding-top:40px;position:-webkit-sticky;position:sticky;top:0}.header-open-menu-item-red{color:#db1200}.header-open-menu-item{display:inline-block;cursor:pointer;width:100%}.header-open-menu-item-hover{cursor:crosshair}.header-open-menu-item{opacity:.4}.header-open-menu-item.open-item{opacity:1}.header-open-menu-item:hover{opacity:1}.header-open-menu-right{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:100%}.header-open-menu-ad{margin:20px 10%}.header-open-menu-content{margin:0 10%;padding:20px 0}.header-open-menu-content h4{margin-bottom:10px}.header-open-menu-content .layout-footer-col{padding:10px 0}.header-open-menu-right-hover.open-item{opacity:1;max-height:400vh;-webkit-transition-delay:0.1s;-o-transition-delay:0.1s;transition-delay:0.1s}.header-open-menu-right-hover{opacity:0;max-height:0;overflow:hidden}.menu-item-wrapper.secondary{margin-top:auto;padding-bottom:20px}.menu-item-wrapper.secondary ul{padding:0;list-style-type:none}.menu-item-wrapper.secondary ul li{padding:5px 0;margin:0}.menu-item-wrapper.secondary ul li a{color:#050302}.menuevent{padding-top:0}.header-open-menu-content-sub{padding-top:20px}#connectnewsmenu-content #header-menu-opened-col li{min-width:45%}#header-opened-menu #header-menu-opened-col li{-webkit-box-flex:1;-ms-flex:1;flex:1}.menu-description-text{display:block;margin-top:7px;padding-right:30px;line-height:1.4}.header-open-menu-left .header-open-menu-item>a{color:#050302}div#header-open-menu .header-h1{overflow-wrap:break-word}#menu-toggle{padding:0}.menutoggle{cursor:pointer}.menutoggle.container{cursor:pointer;display:-webkit-box;display:-ms-flexbox;display:flex;height:auto;width:auto;margin:0 0 0 -17px;padding:0}.menutoggle svg{-webkit-transition:-webkit-transform .5s cubic-bezier(.4, 0, .2, 1);transition:-webkit-transform .5s cubic-bezier(.4, 0, .2, 1);-o-transition:transform .5s cubic-bezier(.4, 0, .2, 1);transition:transform .5s cubic-bezier(.4, 0, .2, 1);transition:transform .5s cubic-bezier(.4, 0, .2, 1),-webkit-transform .5s cubic-bezier(.4, 0, .2, 1)}.menutoggle .open svg{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.menutoggle path{-webkit-transition:stroke-dasharray .5s cubic-bezier(.4, 0, .2, 1),stroke-dashoffset .5s cubic-bezier(.4, 0, .2, 1),-webkit-transform .5s cubic-bezier(.4, 0, .2, 1);transition:stroke-dasharray .5s cubic-bezier(.4, 0, .2, 1),stroke-dashoffset .5s cubic-bezier(.4, 0, .2, 1),-webkit-transform .5s cubic-bezier(.4, 0, .2, 1);-o-transition:transform .5s cubic-bezier(.4, 0, .2, 1),stroke-dasharray .5s cubic-bezier(.4, 0, .2, 1),stroke-dashoffset .5s cubic-bezier(.4, 0, .2, 1);transition:transform .5s cubic-bezier(.4, 0, .2, 1),stroke-dasharray .5s cubic-bezier(.4, 0, .2, 1),stroke-dashoffset .5s cubic-bezier(.4, 0, .2, 1);transition:transform .5s cubic-bezier(.4, 0, .2, 1),stroke-dasharray .5s cubic-bezier(.4, 0, .2, 1),stroke-dashoffset .5s cubic-bezier(.4, 0, .2, 1),-webkit-transform .5s cubic-bezier(.4, 0, .2, 1)}.menutoggle path:first-child{-webkit-transform-origin:36% 40%;-ms-transform-origin:36% 40%;transform-origin:36% 40%}.menutoggle path:nth-child(2){stroke-dasharray:29 299}.menutoggle path:nth-child(3){-webkit-transform-origin:35% 63%;-ms-transform-origin:35% 63%;transform-origin:35% 63%}.menutoggle path:nth-child(4){stroke-dasharray:29 299}.menutoggle path:nth-child(5){-webkit-transform-origin:61% 52%;-ms-transform-origin:61% 52%;transform-origin:61% 52%}.menutoggle path:nth-child(6){-webkit-transform-origin:62% 52%;-ms-transform-origin:62% 52%;transform-origin:62% 52%}.menutoggle.open path:first-child{-webkit-transform:translateX(9px) translateY(1px) rotate(45deg);-ms-transform:translateX(9px) translateY(1px) rotate(45deg);transform:translateX(9px) translateY(1px) rotate(45deg)}.menutoggle.open path:nth-child(2){stroke-dasharray:225 299;stroke-dashoffset:-72px}.menutoggle.open path:nth-child(3){-webkit-transform:translateX(9px) translateY(1px) rotate(-45deg);-ms-transform:translateX(9px) translateY(1px) rotate(-45deg);transform:translateX(9px) translateY(1px) rotate(-45deg)}.menutoggle.open path:nth-child(4){stroke-dasharray:225 299;stroke-dashoffset:-72px}.menutoggle.open path:nth-child(5){-webkit-transform:translateX(9px) translateY(1px) rotate(-45deg);-ms-transform:translateX(9px) translateY(1px) rotate(-45deg);transform:translateX(9px) translateY(1px) rotate(-45deg)}.menutoggle.open path:nth-child(6){-webkit-transform:translateX(9px) translateY(1px) rotate(45deg);-ms-transform:translateX(9px) translateY(1px) rotate(45deg);transform:translateX(9px) translateY(1px) rotate(45deg)}.filter-section{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;min-width:100%}.filter-news-button{margin-top:20px}#alm-filter-wrapper-content{max-height:0;opacity:0;overflow:hidden;display:none;max-width:100%}#alm-filter-wrapper-content.open{max-height:100%;opacity:1;position:fixed;margin-top:-1px;z-index:901;display:block;max-width:100%}.sub-menu-search-wrapper{padding:20px;display:none;background:#f7f7f7;text-align:center}.search-container-mobile .search-input{width:100%}.submenu-items-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;max-height:calc(100vh - 200px);overflow:auto}.sub-menu-stories-menu .layout-default.story-wrapper{-ms-flex-wrap:wrap;flex-wrap:wrap}#footer{width:100%}#footer .layout-footer-wrapper{padding-top:40px;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-bottom:40px}#footer .layout-footer-wrapper h4{padding-bottom:10px}.layout-footer-col{padding:0 10px}.layout-footer-col:first-child{padding-left:0}.layout-footer-col:nth-last-child(1){padding-right:0}.footer-column-section{margin-bottom:20px}#footer-menu-col{font-size:13px;line-height:1.5em;padding-left:0;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}#footer-menu-col li{width:45%;font-size:13px;line-height:1.5em}.layout-footer-bottom{width:100%;background:#fff;color:#050302;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.layout-footer-bottom .layout-footer-bottom-left{text-align:left}.layout-footer-bottom .layout-footer-bottom-right{text-align:right}#footer .footer-social svg{width:20px;height:20px}#footer .footer-social a+a{margin-left:10px}.story-connect-button-wrapper{background:#f7f7f7;margin-top:20px;display:block;height:0;overflow:hidden}.story-connect-button-wrapper.story-connect-button-wrapper-open{max-height:500px}.story-connect-button-wrapper{background:#f7f7f7;margin:20px auto;display:block;height:auto;max-height:0}.award-more{display:none;-webkit-box-ordinal-group:-1;-ms-flex-order:-2;order:-2;cursor:pointer}.accordion-list{padding:20px;cursor:pointer;border-radius:2px;margin-bottom:10px}.accordion-list *{-webkit-transition:10ms linear;-o-transition:10ms linear;transition:all 10ms linear}.accordion-list .answer{margin-top:10px}.hs-form-field label{font-size:12px;color:#473f3c;margin:10px 0;display:block}.hs-input{width:100%;margin-bottom:10px;border-bottom:1px dotted #ccc4b0}.hs-input:active,.hs-input:focus{border-bottom:1px dotted #db1200}.hs-form-field label.hs-error-msg,.hs-main-font-element{font-size:10px;color:#db1200;padding:10px;display:inline-block;font-weight:700;letter-spacing:.75px}.hs-form-field label.hs-error-msg{padding:0;margin:0}.modal-backdrop{display:none;height:0;width:0;top:0;left:0;position:fixed;z-index:900}.modal-backdrop.open{height:100vh;width:100vw;display:block;background:rgba(0,0,0,.6)}iframe{width:100%}.slick-single-fade,.slick-single-fade-nobutton{margin:0 25px;z-index:0}.slick-single-fade button{-webkit-box-shadow:none;box-shadow:none;margin:0}.slick-next,.slick-prev{font-size:0;line-height:0;position:absolute;top:50%;display:block;width:20px;height:20px;padding:0;-webkit-transform:translate(0,-50%);-ms-transform:translate(0,-50%);transform:translate(0,-50%);cursor:pointer;color:transparent;border:none;outline:0;background:0 0;z-index:99}.slick-next:focus,.slick-next:hover,.slick-prev:focus,.slick-prev:hover{color:transparent;outline:0;background:0 0}.slick-next:focus:before,.slick-next:hover:before,.slick-prev:focus:before,.slick-prev:hover:before{opacity:1}.slick-next.slick-disabled:before,.slick-prev.slick-disabled:before{opacity:.25}.slick-next:before,.slick-prev:before{opacity:.75;color:#fff}.slick-prev{left:-40px}[dir=rtl] .slick-prev{right:-40px;left:auto}.slick-prev:before,[dir=rtl] .slick-next:before{content:"\f053";font-family:"Font Awesome 6 Free";font-weight:900!important;color:#19518b!important;font-size:16px!important;background:#fff!important;padding:10px 13px;border-radius:50%;box-shadow:0 0 10px 0 rgba(0,0,0,.1);opacity:1}.slick-next:before,[dir=rtl] .slick-prev:before{content:"\f054";font-family:"Font Awesome 6 Free";font-weight:900!important;color:#19518b!important;font-size:16px!important;background:#fff!important;padding:10px 13px;border-radius:50%;box-shadow:0 0 10px 0 rgba(0,0,0,.1);opacity:1}.slick-next{right:-25px}[dir=rtl] .slick-next{right:auto;left:-25px}.slick-dotted.slick-slider{margin-bottom:30px}.slick-dots{position:absolute;bottom:-25px;display:block;width:100%;padding:0;margin:0;list-style:none;text-align:center}.slick-dots li{position:relative;display:inline-block;width:20px;height:20px;margin:0 5px;padding:0;cursor:pointer}.slick-dots li button{font-size:0;line-height:0;display:block;width:20px;height:20px;padding:5px;margin:0;cursor:pointer;color:transparent;border:0;outline:0;background:0 0}.slick-dots li button:focus,.slick-dots li button:hover{outline:0}.slick-dots li button:focus:before,.slick-dots li button:hover:before{opacity:1}.slick-dots li button:before{font-family:slick;font-size:15px;line-height:20px;position:absolute;top:0;left:0;width:20px;height:20px;content:'•';text-align:center;opacity:.25;color:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.slick-dots li.slick-active button:before{opacity:.75;color:#000}.fade-in{-webkit-animation:.75s cubic-bezier(.39,.575,.565,1) both fade-in;animation:.75s cubic-bezier(.39,.575,.565,1) both fade-in}@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}.open.fade-out{-webkit-animation:.75s ease-out both fade-out;animation:.75s ease-out both fade-out}@-webkit-keyframes fade-out{0%{opacity:1}100%{opacity:0}}@keyframes fade-out{0%{opacity:1}100%{opacity:0}}.scrolled .connect-header-logo{height:34px;margin-top:8px}body:not(.scrolled) .connect-header-logo{height:55px;margin-top:9px}body:not(.scrolled) #header-wrapper #header{height:75px}@media (max-width:880px){body:not(.scrolled) .connect-header-logo{width:160px;margin-top:-2px}body:not(.scrolled) #header-wrapper #header{height:50px}}@media (max-width:1570px){.submenu-items-wrapper{display:none}.submenu-items-wrapper.opened{display:-webkit-box;display:-ms-flexbox;display:flex}}@media (max-width:1200px){#header,.layout-default,.layout-default.story-wrapper,.layout-footer-wrapper{padding:0 20px}.layout-default.story-wrapper{-ms-flex-wrap:wrap;flex-wrap:wrap}.menutoggle.container.open{margin:0}#header-open-menu{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.header-open-menu-left{padding-top:40px;width:100%;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;min-height:auto;position:relative;top:0}.header-open-menu-right{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:100%}.header-open-menu-left div{padding:10px}#header-open-menu .header-h1{font-size:1rem}#header-open-menu .header-open-menu-right{padding-bottom:40px}#connectnewsmenu-content #header-menu-opened-col li{min-width:45%}}@media (max-width:800px){.award-more{display:inline-block}.desktop-menu-item{display:none}#footer .layout-footer-col{min-width:50%}#footer .footer-2{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;margin-bottom:40px}#footer .footer-3{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;border-right:none}#footer .footer-1{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}#footer .footer-4{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}#header,.layout-default,.layout-default.story-wrapper,.layout-footer-bottom,.layout-footer-wrapper{padding-left:10px;padding-right:10px}}@media (max-width:600px){.scrolled .connect-header-logo,body:not(.scrolled) .connect-header-logo{width:180px;margin-top:0;position:relative;top:-2px}#header .header-h1{font-size:1rem;margin-top:0}.h1,h1{font-size:1.5rem}#header,.layout-default,.layout-default.story-wrapper,.layout-footer-wrapper{padding:0 10px}.header-open-menu-ad{margin:20px 10px}.header-open-menu-content{margin:0 10px}.header-open-menu-left{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-wrap:wrap;flex-wrap:wrap}.header-connect-logo{height:100%;width:100%;-webkit-box-ordinal-group:21201;-ms-flex-order:21200;order:21200;text-align:center}.header-connect-logo-left{-webkit-box-ordinal-group:1;-ms-flex-order:0;order:0}.header-connect-logo-right{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}#header-wrapper{height:100px}#footer .layout-footer-col{min-width:100%;padding:0;border:none}#footer .footer-2{border-right:none}#footer .footer-1,#footer .footer-2,#footer .footer-3,#footer .footer-4{margin-bottom:40px}}.text-copied-notice{margin-left:10px}.footer-social a:hover{color:#195794!important}head .hbspt-form{display:none!important}.tab-content>li:not(.active){display:none}.tab-titles{list-style:none;padding:0;margin:0;border-bottom:2px solid #f7f7f7;margin-top:30px}.tab-titles li{display:inline-block;margin-right:5px;background:#f7f7f7;padding:10px 20px;font-weight:700;font-size:13px;margin-left:0;cursor:pointer}.tab-content{padding:0;margin:0;list-style:none}.tab-content>li{margin:0;padding:0}#about-header{min-height:74px;display:flex;align-items:center}#about-header h1{font-size:34px;margin-bottom:0;display:inline-block}#about-header h1::after{border-bottom:3px solid #d50037;content:"";display:block}#about-header .about-header-left{display:inline-block;width:50%;vertical-align:middle}#about-header .button{margin-left:10px}#filter-events i{margin-left:8px}.filter-item::placeholder{color:#9b9b9b}button#filter-events{width:100%;font-size:16px;padding:12px 15px}.loading-indicator{display:none;text-align:center}.industry-events-list li:nth-child(2n){background:#f7f7f7}.load-more-button-container{width:100%;text-align:center;margin-top:30px}#load-more-button{width:auto;margin:0 auto;cursor:pointer}#filter-events{cursor:pointer}.event-description-icon{cursor:pointer;color:#195794;display:inline-block;margin-left:8px}.industry-events-list{padding:0;margin:0;list-style:none}.industry-events-list li{margin:0;padding:12px 10px;border-bottom:1px dotted #ccc4b0}.industry-events-list h3{margin-bottom:0;display:inline-block;font-size:16px}#about-header .layout-default-wrapper{padding-left:40px;padding-right:40px}.no-more-results-container,.no-results-container{width:100%;display:block;text-align:center;margin-top:30px;display:none}@media only screen and (max-width:767px){#about-header{padding-top:20px;padding-bottom:20px}}@media only screen and (max-width:600px){.industry-events-list li{padding:25px 10px}#about-header .about-header-left{display:block;width:100%}.about-header-left{margin-bottom:15px}#about-header h1{font-size:24px}#about-header h1::after{border-bottom:2px solid #d50037}.about-header-left{text-align:center}}h3.year{font-size:30px;text-align:center;margin-bottom:50px}.year-dot{display:block;width:61px;height:85px;margin:0 auto;background-position:center center;background-size:cover;background-repeat:no-repeat;margin-top:-40px;cursor:pointer}.timeline-item-content p{color:initial!important}.year-dot:not(.active){background-image:url(https://www.connectcre.com/wp-content/themes/connect/assets/images/dot-not-active.svg)}.year-dot.active{background-image:url(https://www.connectcre.com/wp-content/themes/connect/assets/images/dot-active.svg)}.timeline-item-content{margin-top:30px!important;margin-bottom:60px!important}.popup-heading{text-align:center!important;font-size:30px!important;margin-top:15px!important}.popup-text{text-align:center!important;margin-left:30px!important;margin-right:30px!important}.leadin-content-body .hbspt-form{margin-left:30px!important;margin-right:30px!important;margin-top:15px!important}.popup-main-image{height:200px!important;width:100%!important;object-fit:cover}.leadin-content-body .multi-container{margin-left:0!important;list-style:none!important;margin:30px 0!important}.leadin-content-body .hs-input{display:inline-block!important;width:auto!important;top:1px!important}.leadin-content-body .hs_submit{margin-bottom:30px}.leadin-content-body .multi-container li{display:inline-block;width:33%!important}.leadin-content-body .actions{text-align:center!important}.popup-text{font-size:16px!important;font-weight:700!important}.popup-text{margin-top:-10px!important}@media only screen and (max-width:1600px){.popup-main-image{height:150px!important}}@media only screen and (max-width:1280px){.popup-main-image{height:150px!important}}@media only screen and (max-width:500px){.leadin-content-body .multi-container li{width:50%!important}}.previous-events-list{grid-template-columns:repeat(4,minmax(0,1fr))}.previous-events-list img{border-radius:0!important;filter:grayscale(1)}.previous-events-list h3{font-size:18px}.previous-events-list li{display:none}#load-more{transition:all .6s ease-in-out;-webkit-transition:.6s ease-in-out;-moz-transition:.6s ease-in-out;-o-transition:.6s ease-in-out;margin-top:-15px;margin-bottom:45px;text-align:center}@media only screen and (max-width:960px){.previous-events-list{grid-template-columns:repeat(2,minmax(0,1fr))}}@media only screen and (max-width:600px){.popup-main-image{display:none!important}.previous-events-list{grid-template-columns:repeat(1,minmax(0,1fr))}}.container{max-width:1220px;margin:0 auto}#quick-search-find-courses{margin:0}.leadership-post-container{display:grid;gap:30px;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:30px}.leadership-post-container-inner{display:grid;gap:0;grid-template-columns:1fr;background:#fff;box-shadow:0 0 10px 0 rgba(0,0,0,.1)}.insight-main-heading{font-size:1.5rem;color:#050302;word-break:break-word}.insight-content{display:block;line-height:1.6}.insight-feature-image{width:100%;height:362px;object-fit:cover}.insight-post-container-right{padding:30px}@media only screen and (max-width:1300px){.container{margin-left:30px;margin-right:30px}.leadership-post-container-inner{grid-template-columns:1fr}}@media only screen and (max-width:800px){.leadership-post-container{grid-template-columns:1fr}}.story-connect-button-wrapper .button{margin-right:10px}em{font-style:italic}.insight-read-more-button{margin-top:20px}blockquote cite,figcaption{font-size:16px;line-height:1.4}.normal-archive{display:block}.dropdown-area{display:none}#location,#month,#property-sector{display:none}.dropdown-area ul li{list-style:none;margin:0;padding:0}.dropdown-area ul{padding:0}.dropdown-area{position:absolute;background:#fff;padding:10px;box-shadow:0 0 10px 0 rgba(0,0,0,.1);z-index:9999}.multi-select-input{background:#fff;padding:16px 10px;font-size:15px;font-weight:400;font-family:arial}.multi-select-input i{font-size:10px;float:right;top:2px;position:relative;right:-3px}.perform-search{position:absolute;margin-top:11px;margin-left:-23px;color:#db1200;cursor:pointer}.search-input{padding-right:50px;width:175px;max-width:100%;font-weight:400}#header-nav-section .small-text p{line-height:1.4;text-align:center}.search-section-toggle{cursor:pointer;width:15px}@media only screen and (max-width:1152px){.search-container{display:none}}@media only screen and (min-width:1153px){.search-section-toggle{display:none!important}}.search-results-container{padding:0;margin:0;display:block;position:absolute;z-index:9999}.search-container .search-results-container{right:0;width:300px}.search-container-mobile .search-results-container{right:0;width:350px;max-width:100%}.search-results-container li{display:grid;grid-template-columns:1fr 3fr;gap:10px;text-align:left;margin:0;padding:0;padding-bottom:10px;margin-bottom:10px;border-bottom:1px dotted #ccc4b0}.search-results-container li:last-child{padding-bottom:0;margin-bottom:0;border-bottom-width:0}.search-container,.search-container-mobile{position:relative}.search-loader{width:13px;height:13px;border:2px solid #195794;border-bottom-color:transparent;border-radius:50%;display:inline-block;box-sizing:border-box;animation:1s linear infinite rotation;position:absolute;z-index:9999999;margin-left:-43px;margin-top:11px;display:none}@keyframes rotation{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.load-more-button-container{display:none}.connect-cre-canada-icon{width:26px}.beyond-words-player{margin-bottom:15px}#add-event-button.disabled{background:grey!important}.legal-consent-container>.hs-richtext{display:none!important}.legal-consent-container ul{list-style:none;padding:0!important}.legal-consent-container span{margin-left:0!important}.legal-consent-container label{width:100%!important}.legal-consent-container li{margin:0!important;padding:0!important}.legal-consent-container .input{width:100%!important}.legal-consent-container input{width:20px;position:relative;top:6px;margin-right:5px}.hs-form{opacity:0;transition:opacity .2s ease}.hs-form.hs-form-private,.hs-form[style]{opacity:1}.layout-footer-bottom-right a{margin-left:25px;display:inline-block;height:25px;margin-bottom:25px}.layout-footer-bottom{padding-top:15px}.layout-footer-bottom-left{margin-bottom:25px;display:inline-block}@media only screen and (max-width:600px){.layout-footer-bottom{flex-direction:column}.layout-footer-bottom .layout-footer-bottom-right{text-align:left}.layout-footer-bottom-right a{margin-left:0;margin-right:25px;display:inline-block;height:25px;margin-bottom:10px;font-size:14px}}.word-counter{display:block;font-size:13px!important;color:#888;margin-top:-20px;width:200px}.word-counter.near-limit{color:#e08a00}.word-counter.over-limit{color:#c0392b;font-weight:600}.submitted-message{font-size:16px}.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}.slick-track:after,.slick-track:before{display:table;content:''}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:.75s swal2-animate-success-line-tip;animation:.75s swal2-animate-success-line-tip}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:.75s swal2-animate-success-line-long;animation:.75s swal2-animate-success-line-long}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:.3s swal2-show;animation:.3s swal2-show}.swal2-hide{-webkit-animation:.15s forwards swal2-hide;animation:.15s forwards swal2-hide}.swal2-noanimation{transition:none}@-webkit-keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}#header-wrapper #header{flex-wrap:inherit!important}@media (max-width:600px){#header-wrapper #header{flex-wrap:wrap!important}}#body-content-wrapper{background-color:#f7f7f7;padding-top:15px;padding-bottom:60px}.leadership-post-container .author-date{margin-top:20px;display:block;margin-bottom:15px;font-size:13px}.connect-posts-navigation{margin-top:45px;text-align:center;display:block}.connect-posts-navigation a{margin:0 5px}.layout-default.story-wrapper.normal-archive{display:block}.ancestor-navigation-list{padding:10px 0;padding-bottom:0}.ancestor-navigation-list li{margin:0;list-style:none;display:inline-block;margin-right:10px;margin-bottom:10px;border:2px solid #195794;padding-left:9px;padding-right:10px}.leadership-post-container{padding-left:0!important}</style><link rel="preload" data-rocket-preload as="image" href="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-292-294-Baker-Avenue-Concord-MA-LG-Taurus.jpg" fetchpriority="high">
+	<meta name="description" content="Discover Metro Boston commercial real estate trends, covering life sciences, multifamily housing, office leasing, and industrial expansion across the region." />
+	<link rel="canonical" href="https://www.connectcre.com/story-market/metro-boston/" />
+	<link rel="next" href="https://www.connectcre.com/story-market/metro-boston/page/2/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Metro Boston Archives" />
+	<meta property="og:description" content="Discover Metro Boston commercial real estate trends, covering life sciences, multifamily housing, office leasing, and industrial expansion across the region." />
+	<meta property="og:url" content="https://www.connectcre.com/story-market/metro-boston/" />
+	<meta property="og:site_name" content="Connect CRE" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"CollectionPage","@id":"https:\/\/www.connectcre.com\/story-market\/metro-boston\/","url":"https:\/\/www.connectcre.com\/story-market\/metro-boston\/","name":"Metro Boston Commercial Real Estate News","isPartOf":{"@id":"https:\/\/www.connectcre.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.connectcre.com\/story-market\/metro-boston\/#primaryimage"},"image":{"@id":"https:\/\/www.connectcre.com\/story-market\/metro-boston\/#primaryimage"},"thumbnailUrl":"https:\/\/www.connectcre.com\/wp-content\/uploads\/2026\/08\/BOS-The-Willard-apartments-Quincy-MA-scaled.jpg","description":"Discover Metro Boston commercial real estate trends, covering life sciences, multifamily housing, office leasing, and industrial expansion across the region.","breadcrumb":{"@id":"https:\/\/www.connectcre.com\/story-market\/metro-boston\/#breadcrumb"},"inLanguage":"en-US"},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.connectcre.com\/story-market\/metro-boston\/#primaryimage","url":"https:\/\/www.connectcre.com\/wp-content\/uploads\/2026\/08\/BOS-The-Willard-apartments-Quincy-MA-scaled.jpg","contentUrl":"https:\/\/www.connectcre.com\/wp-content\/uploads\/2026\/08\/BOS-The-Willard-apartments-Quincy-MA-scaled.jpg","width":2560,"height":1440},{"@type":"BreadcrumbList","@id":"https:\/\/www.connectcre.com\/story-market\/metro-boston\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.connectcre.com\/"},{"@type":"ListItem","position":2,"name":"Boston &amp; New England","item":"https:\/\/www.connectcre.com\/story-market\/boston-new-england\/"},{"@type":"ListItem","position":3,"name":"Metro Boston"}]},{"@type":"WebSite","@id":"https:\/\/www.connectcre.com\/#website","url":"https:\/\/www.connectcre.com\/","name":"Connect CRE","description":"","publisher":{"@id":"https:\/\/www.connectcre.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.connectcre.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/www.connectcre.com\/#organization","name":"Connect CRE","url":"https:\/\/www.connectcre.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.connectcre.com\/#\/schema\/logo\/image\/","url":"https:\/\/www.connectcre.com\/wp-content\/uploads\/2021\/04\/ConnectCRE_Connect-Logo.png","contentUrl":"https:\/\/www.connectcre.com\/wp-content\/uploads\/2021\/04\/ConnectCRE_Connect-Logo.png","width":937,"height":178,"caption":"Connect CRE"},"image":{"@id":"https:\/\/www.connectcre.com\/#\/schema\/logo\/image\/"}}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+
+<link rel="alternate" type="application/rss+xml" title="Connect CRE &raquo; Feed" href="https://www.connectcre.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Connect CRE &raquo; Comments Feed" href="https://www.connectcre.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Connect CRE &raquo; Metro Boston Market Feed" href="https://www.connectcre.com/story-market/metro-boston/feed/" />
+<style id="wp-img-auto-sizes-contain-inline-css"></style>
+<style id="wp-block-library-inline-css"></style>
+<style id="wp-block-paragraph-inline-css"></style>
+
+<style id="classic-theme-styles-inline-css"></style>
+
+<style id="global-styles-inline-css"></style>
+
+
+
+
+
+<script id="jquery-core-js-extra">window.addEventListener('DOMContentLoaded', function() {
+var aagb_local_object = {"ajax_url":"https://www.connectcre.com/wp-admin/admin-ajax.php","nonce":"c6d33b8981","licensing":"","assets":"https://www.connectcre.com/wp-content/plugins/advanced-accordion-block/assets/"};
+//# sourceURL=jquery-core-js-extra
+});</script>
+<script id="jquery-core-js" src="https://www.connectcre.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-migrate-js" data-rocket-src="https://www.connectcre.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="child_script-js" data-rocket-src="https://www.connectcre.com/wp-content/themes/connect-cre/script.js?ver=2021.12" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="connect_classroom_sweet_alert_script-js" data-rocket-src="https://www.connectcre.com/wp-content/themes/connect/sweetalert2.all.min.js?ver=7.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" crossorigin="anonymous" id="font-awesome-js" data-rocket-src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" data-rocket-defer defer></script>
+<script id="connect-js-js-extra">
+var increment_js_impressions = {"ajaxurl":"https://www.connectcre.com/wp-admin/admin-ajax.php"};
+//# sourceURL=connect-js-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="connect-js-js" data-rocket-src="https://www.connectcre.com/wp-content/themes/connect/script.js?ver=1786064082" data-rocket-defer defer></script>
+<script id="connect_cre_event_script-js-extra">
+var get_connect_events = {"ajaxurl":"https://www.connectcre.com/wp-admin/admin-ajax.php"};
+var add_industry_event = {"ajaxurl":"https://www.connectcre.com/wp-admin/admin-ajax.php"};
+//# sourceURL=connect_cre_event_script-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="connect_cre_event_script-js" data-rocket-src="https://www.connectcre.com/wp-content/themes/connect/script-event.js?ver=1753402388" data-rocket-defer defer></script>
+<script id="connect_cre_search_script-js-extra">
+var get_search_results = {"ajaxurl":"https://www.connectcre.com/wp-admin/admin-ajax.php"};
+//# sourceURL=connect_cre_search_script-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="connect_cre_search_script-js" data-rocket-src="https://www.connectcre.com/wp-content/themes/connect/script-search.js?ver=1720746543" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="https://www.connectcre.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.connectcre.com/wp-json/wp/v2/story-market/985" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.connectcre.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1" />
+
+  <!-- Google Tag Manager -->
+  <script type="text/rocketlazyloadscript">(function (w, d, s, l, i)
+    {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TZV6N9Z');</script>
+  <!-- End Google Tag Manager -->
+
+
+  <!-- Hotjar Tracking Code for https://www.connectcre.com/ -->
+	<script type="text/rocketlazyloadscript">
+
+		if (navigator.userAgent.includes("Lighthouse")) {
+
+		// don't load Hotjar
+
+		} else {
+
+		// load Hotjar normally
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:2403420,hjsv:6};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+		}
+
+		
+	</script>
+
+  <link rel="icon" href="https://www.connectcre.com/wp-content/uploads/2022/02/favicon.png" sizes="32x32" />
+<link rel="icon" href="https://www.connectcre.com/wp-content/uploads/2022/02/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.connectcre.com/wp-content/uploads/2022/02/favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.connectcre.com/wp-content/uploads/2022/02/favicon.png" />
+<style id="wp-custom-css"></style>
+
+	<!-- Start of HubSpot Embed Code -->
+			<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript" id="hs-script-loader" async defer data-rocket-src="//js.hs-scripts.com/6064756.js"></script>
+		<!-- End of HubSpot Embed Code -->
+
+	<!-- Start of Higher Logic Embed Code -->
+	<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://tracking.magnetmail.net/MagnetLeads.js" defer></script>
+	<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript"> com.realmagnet.MagnetLeads.init('tJ4TE1rVjUOS7ewFFZBCZw'); com.realmagnet.MagnetLeads.visitPage(); </script>
+
+	<script type="text/rocketlazyloadscript">(function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})('cwr','d7a2a9dc-4790-46cf-8b07-3838c529f2a2','1.0.0','us-east-1','https://client.rum.us-east-1.amazonaws.com/1.2.1/cwr.js',{sessionSampleRate:0.1,guestRoleArn:"arn:aws:iam::138566945415:role/RUM-Monitor-us-east-1-138566945415-7832457817461-Unauth",identityPoolId:"us-east-1:9545953a-5f6e-4ef5-ab6c-c37b4ba3d7de",endpoint:"https://dataplane.rum.us-east-1.amazonaws.com",telemetries:["performance","errors","http"],allowCookies:true,enableXRay:false});</script>
+	<!-- <script type="text/rocketlazyloadscript" data-rocket-src="https://w567.connectcre.com/script.js"></script> -->
+
+
+<meta name="generator" content="WP Rocket 3.23.3.2" data-wpr-features="wpr_remove_unused_css wpr_delay_js wpr_defer_js wpr_minify_js wpr_preconnect_external_domains wpr_oci wpr_cache_webp wpr_minify_css wpr_cdn wpr_desktop" /></head>
+
+<body class="archive tax-story-market term-metro-boston term-985 wp-theme-connect wp-child-theme-connect-cre">
+
+	<!-- Do after body action -->
+	
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZV6N9Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+  	
+
+	<!-- Announcement Bar - Home -->
+	
+
+
+
+	<!-- Announcement Bar - Hub Pages -->
+	
+
+
+	<!-- Announcement Bar - single story pages-->
+	
+	<!-- Header -->
+	<section  id="header-wrapper" class="hfeed border-bottom">
+		<header  id="header">
+			<div  class="layout-header header-connect-logo-left flex-1">
+				<div id="header-nav-section" class="headernavsectionleft">
+					<nav id="menu-toggle" class="header-nav-section-item pointer" aria-label="Menu">
+						<!-- Menu Toggle Start -->
+						<div class="menutoggle container">
+							<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 200 200">
+								<g stroke-width="6.5" stroke-linecap="round">
+									<path d="M72 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#195794" />
+									<path d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554" fill="none" stroke="#db1200" />
+									<path d="M72 125.143h28.75" fill="#195794" fill-rule="evenodd" stroke="#195794" />
+									<path d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554" fill="none" stroke="#db1200" />
+									<path d="M100.75 82.286h28.75" fill="#195794" fill-rule="evenodd" stroke="#195794" />
+									<path d="M100.75 125.143h28.75" fill="#195794" fill-rule="evenodd" stroke="#195794" />
+								</g>
+							</svg>
+						</div>
+						<!-- Menu Toggle End -->
+					</nav>
+					<div class="header-nav-section-item small-text" style="padding-left:0px;">
+						<p class="menutoggle">Menu</p>
+					</div>
+					
+					<!-- do ticker part only for connect money -->
+					
+
+					
+				</div>
+			</div>
+			<div  class="layout-header header-connect-logo">
+				<a class="reset-link" aria-label="Homepage" href="https://www.connectcre.com">
+
+					<img class="connect-header-logo" alt="Connect CRE Logo" src="https://www.connectcre.com/wp-content/uploads/2026/05/connect-logo.svg">
+				</a>
+			</div>
+			<div  class="layout-header header-connect-logo-right flex-1">
+				<div id="header-nav-section">
+					<div class="header-nav-section-item small-text">
+						<a href="/get-daily-news" class="reset-link active-menu-link">
+							<p>Get Daily News</p>
+						</a>
+					</div>
+
+					
+
+					<a class="reset-link header-nav-section-item border-left" href="https://www.connectcre.ca/" target="_blank"><img class="connect-cre-canada-icon" alt="Flag of Canada" src="https://www.connectcre.com/wp-content/uploads/2024/08/Flag_of_Canada.svg"></a>						
+						<a href="https://creshop.connect.media/" class="desktop-menu-item reset-link header-nav-section-item border-left ">
+							<div class="small-text">
+								<p>Advertise</p>
+							</div>
+						</a>
+						
+					
+						
+						<a href="https://www.connectmoney.com/" class="desktop-menu-item reset-link header-nav-section-item border-left ">
+							<div class="small-text">
+								<p>Connect Money</p>
+							</div>
+						</a>
+						
+					
+					<div class="header-nav-section-item small-text border-left search-menu-section">
+						<div class="search-container"><input class="search-input" type="text" placeholder="Search..."><span class="search-loader"></span><i class="perform-search fa-solid fa-magnifying-glass"></i><div  class="search-results-container"></div></div><img class="search-section-toggle fa-solid fa-magnifying-glass" alt="Search symbol" src="/wp-content/themes/connect/assets/images/search.svg">						<!-- <a class="reset-link search-toggle" href="/?s=">
+							<span class="mobile-menu-item" aria-label="Search">
+								<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13.002" viewBox="0 0 13 13.002">
+									<path id="Icon_awesome-search" data-name="Icon awesome-search" d="M.177,11.241,2.708,8.71a.609.609,0,0,1,.432-.178h.414a5.279,5.279,0,1,1,.914.914V9.86a.609.609,0,0,1-.178.432L1.759,12.823a.607.607,0,0,1-.861,0L.179,12.1a.612.612,0,0,1,0-.863ZM7.718,8.532a3.25,3.25,0,1,0-3.25-3.25A3.248,3.248,0,0,0,7.718,8.532Z" />
+								</svg>
+							</span>
+							<p class="desktop-menu-item">Search</p>
+						</a> -->
+					</div>
+									</div>
+			</div>
+		</header>
+	</section>
+
+	<!-- Do Ticker Display -->
+	
+	<!-- Search -->
+	<section  class="sub-menu-search-wrapper border-bottom">
+		
+		<div  class="search-container-mobile"><input class="search-input" type="text" placeholder="Search..."><span class="search-loader"></span><i class="perform-search fa-solid fa-magnifying-glass"></i><div class="search-results-container"></div></div>	</section>
+	<!-- SubMenu -->
+
+	
+	<!-- Evening Brief -->
+		<!-- Evening Brief -->
+
+
+	<!-- Hubpage Submenu -->
+		<!-- Classroom SubMenu -->
+		<!-- Hamburger Menu -->
+	<section  id="header-opened-menu">
+		<div  id="header-open-menu-wrapper">
+			<div  id="header-open-menu">
+				<div class="header-open-menu-left flex-1 border-right">
+					<!-- First Menu Hover Option, based off .header-open-menu-item-hover then targets #'$this'+-content -->
+
+					<!-- news -->
+					<div class="menu-item-wrapper bg-grey">
+						<div id="connectnewsmenu" class="header-open-menu-item header-open-menu-item-hover open-item">
+							<span class="header-open-menu-item-black header-h1">
+								Connect
+							</span>
+							<span class="header-open-menu-item-red header-h1">
+								News
+							</span>
+							<span class="menu-description-text">Commercial Real Estate news for every market and every facet, every day.</span>
+						</div>
+					</div>
+
+					<!-- events -->
+											<div class="menu-item-wrapper">
+							<div id="connecteventsmenu" class="header-open-menu-item header-open-menu-item-hover">
+								<a href="/events">
+									<span class="header-open-menu-item-black header-h1">
+										Connect CRE
+									</span>
+									<span class="header-open-menu-item-red header-h1">
+										Events
+									</span>
+								</a>
+								<span class="menu-description-text">Live and virtual events bringing together the best of information and networking.</span>
+							</div>
+						</div>
+					
+					
+					<!-- events -->
+											<div class="menu-item-wrapper">
+							<div id="connectindustryeventsmenu" class="header-open-menu-item header-open-menu-item-hover">
+								<a href="/all-events/">
+									<span class="header-open-menu-item-black header-h1">
+										CRE Industry
+									</span>
+									<span class="header-open-menu-item-red header-h1">
+										Events
+									</span>
+								</a>
+								<span class="menu-description-text">Live industry events.</span>
+							</div>
+						</div>
+					
+					
+					<!-- creative -->
+					<div class="menu-item-wrapper">
+						<div id="connectcreativemenu" class="header-open-menu-item header-open-menu-item-hover">
+
+							
+							<a href="/creative">
+								<span class="header-open-menu-item-black header-h1">
+									Connect
+								</span>
+								<span class="header-open-menu-item-red header-h1">
+									Creative
+								</span>
+							</a>
+							<span class="menu-description-text">A full service marketing and PR agency.</span>
+						</div>
+					</div>
+
+					<!-- classroom -->
+											<div class="menu-item-wrapper">
+							<div id="connectclassroommenu" class="header-open-menu-item header-open-menu-item-hover">
+								<a href="https://www.connectclassroom.com/professional-development/">
+									<span class="header-open-menu-item-black header-h1">
+										Connect
+									</span>
+									<span class="header-open-menu-item-red header-h1">
+										Classroom
+									</span>
+								</a>
+								<span class="menu-description-text">Offering CRE focused continuing education courses on demand.</span>
+							</div>
+						</div>
+					
+					<!-- apartmentbuildings.com -->
+											<div class="menu-item-wrapper">
+							<div id="apartmentbuildingsmenu" class="header-open-menu-item header-open-menu-item-hover">
+								<a href="https://apartmentbuildings.com">
+									<span class="header-open-menu-item-red header-h1">
+										ApartmentBuildings.com
+									</span>
+								</a>
+								<span class="menu-description-text">Is a dynamic platform to search for, list and promote multifamily listings nationwide.</span>
+							</div>
+						</div>
+					
+					<!-- awards -->
+											<div class="menu-item-wrapper">
+							<div id="connectawardsmenu" class="header-open-menu-item header-open-menu-item-hover">
+								<a href="/awards">
+									<span class="header-open-menu-item-black header-h1">
+										Connect
+									</span>
+									<span class="header-open-menu-item-red header-h1">
+										Awards
+									</span>
+								</a>
+								<span class="menu-description-text">View the A-list of commercial real estate & submit nominations.</span>
+							</div>
+						</div>
+					
+
+					<!-- media kit -->
+					<div class="menu-item-wrapper">
+						<div id="connectmediakitmenu" class="header-open-menu-item header-open-menu-item-hover">
+														<a href="https://creshop.connect.media">
+
+								<span class="header-open-menu-item-black header-h1">
+									Connect
+								</span>
+								<span class="header-open-menu-item-red header-h1">
+									Media Kit
+								</span>
+							</a>
+							<span class="menu-description-text">Advertise, Promote, Attend, Create – Work with Connect.</span>
+						</div>
+					</div>
+					
+					<!-- LOANtuitive -->
+											<div class="menu-item-wrapper">
+							<div id="loantuitivemenu" class="header-open-menu-item header-open-menu-item-hover">
+								<a target="_blank" href="https://www.loantuitive.com/">
+									<span class="header-open-menu-item-black header-h1">Loan</span><span class="header-open-menu-item-red header-h1">tuitive</span>
+								</a>
+								<span class="menu-description-text">Find the right lender for your loan.</span>
+							</div>
+						</div>
+										
+
+					<!-- about -->
+					<div class="menu-item-wrapper">
+						<div id="connectaboutmenu" class="header-open-menu-item header-open-menu-item-hover">
+							<a href="/about">
+								<span class="header-open-menu-item-black header-h1">
+									About
+								</span>
+								<span class="header-open-menu-item-red header-h1">
+									Connect
+								</span>
+							</a>
+							<span class="menu-description-text">Meet the team behind the machine and taste a little of the secret sauce.</span>
+						</div>
+					</div>
+
+
+
+
+
+
+					<div class="menu-item-wrapper secondary border-top">
+						<div class="menu-secondary-wrapper"><ul id="menu-secondary-menu" class="menu"><li id="menu-item-393238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393238"><a href="https://www.connectcre.com/states-we-cover/">States We Cover</a></li>
+<li id="menu-item-393237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393237"><a href="https://www.connectcre.com/cities-we-cover/">Cities We Cover</a></li>
+<li id="menu-item-393236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393236"><a href="https://www.connectcre.com/companies-we-cover/">Companies We Cover</a></li>
+<li id="menu-item-176251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176251"><a href="https://www.connectcre.com/rss-info/">Get RSS Feed</a></li>
+<li id="menu-item-160982" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-160982"><a href="/submit-a-press-release/">Submit a Press Release</a></li>
+<li id="menu-item-111190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-111190"><a rel="privacy-policy" href="https://www.connectcre.com/terms-and-conditions/">Terms and Conditions</a></li>
+<li id="menu-item-393077" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393077"><a href="https://www.connectcre.com/sitemap/">Sitemap</a></li>
+</ul></div>					</div>
+				</div>
+				<div class="header-open-menu-right-wrapper flex-3 bg-grey">
+					<div class="header-open-menu-right">
+						<div class="header-open-menu-ad">
+													</div>
+						<div id="connectnewsmenu-content" class="header-open-menu-right-hover open-item">
+							<div class="header-open-menu-content border-top border-bottom">
+
+																		<a class="reset-link" href="/national/">
+																			<span class="header-open-menu-item-black header-h1">
+										Connect
+									</span>
+									<span class="header-open-menu-item-red header-h1">
+										News
+									</span>
+								</a>
+																		<p>Your source for daily news covering CRE transactions and trends. Stay informed on national, regional and property sector news that matters to your business.</p>
+										
+									
+								
+							</div>
+							<nav class="header-open-menu-content">
+
+								<!-- regions -->
+																	<div class="layout-footer-col border-bottom flex-1">
+										<h2>Regions</h2>
+										<div class="header-menu-wrapper header-menu-regions"><ul id="header-menu-opened-col" class="menu"><li id="menu-item-109279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-109279"><a href="https://www.connectcre.com/">National</a></li>
+<li id="menu-item-340159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-340159"><a href="https://www.connectcre.ca/">Canada</a></li>
+<li id="menu-item-109280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109280"><a href="https://www.connectcre.com/atlanta-southeast/">Atlanta &#038; Southeast</a></li>
+<li id="menu-item-109281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109281"><a href="https://www.connectcre.com/boston-new-england/">Boston &#038; New England</a></li>
+<li id="menu-item-160827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160827"><a href="https://www.connectcre.com/california/">California</a></li>
+<li id="menu-item-109283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109283"><a href="https://www.connectcre.com/chicago-midwest/">Chicago &#038; Midwest</a></li>
+<li id="menu-item-109284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109284"><a href="https://www.connectcre.com/florida-gulf-coast/">Florida &#038; Gulf Coast</a></li>
+<li id="menu-item-109285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109285"><a href="https://www.connectcre.com/new-york-tri-state/">New York &#038; Tri-State</a></li>
+<li id="menu-item-109286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109286"><a href="https://www.connectcre.com/phoenix-southwest/">Phoenix &#038; Southwest</a></li>
+<li id="menu-item-109287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109287"><a href="https://www.connectcre.com/seattle-northwest/">Seattle &#038; Northwest</a></li>
+<li id="menu-item-109288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109288"><a href="https://www.connectcre.com/texas/">Texas</a></li>
+<li id="menu-item-109289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109289"><a href="https://www.connectcre.com/washington-dc-mid-atlantic/">Washington DC &#038; Mid-Atlantic</a></li>
+<li id="menu-item-109355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109355"><a href="https://www.connectcre.com/global/">Global</a></li>
+</ul></div>									</div>
+								
+								<!-- sectors -->
+																	<div class="layout-footer-col border-bottom flex-1">
+										<h2>Sectors</h2>
+										<div class="header-menu-wrapper header-menu-sectors"><ul id="header-menu-opened-col" class="menu"><li id="menu-item-109290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109290"><a href="https://www.connectcre.com/apartments/">Apartments</a></li>
+<li id="menu-item-455371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-455371"><a href="https://www.connectcre.com/digital-infrastructure/">Digital Infrastructure</a></li>
+<li id="menu-item-109291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109291"><a href="https://www.connectcre.com/distressed-assets/">Distressed Assets</a></li>
+<li id="menu-item-109292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109292"><a href="https://www.connectcre.com/finance/">Finance</a></li>
+<li id="menu-item-109293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109293"><a href="https://www.connectcre.com/healthcare/">Healthcare</a></li>
+<li id="menu-item-109294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109294"><a href="https://www.connectcre.com/hospitality/">Hospitality</a></li>
+<li id="menu-item-109295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109295"><a href="https://www.connectcre.com/industrial/">Industrial</a></li>
+<li id="menu-item-109296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109296"><a href="https://www.connectcre.com/net-lease/">Net Lease</a></li>
+<li id="menu-item-109297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109297"><a href="https://www.connectcre.com/office/">Office</a></li>
+<li id="menu-item-109298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109298"><a href="https://www.connectcre.com/opportunity-zones/">Opportunity Zones</a></li>
+<li id="menu-item-109299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109299"><a href="https://www.connectcre.com/retail/">Retail</a></li>
+<li id="menu-item-109300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109300"><a href="https://www.connectcre.com/senior-housing/">Senior Housing</a></li>
+<li id="menu-item-109301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109301"><a href="https://www.connectcre.com/student-housing/">Student Housing</a></li>
+</ul></div>									</div>
+								
+								<!-- topics -->
+																	<div class="layout-footer-col flex-1">
+										<h2>Other Topics</h2>
+										<div class="header-menu-wrapper"><ul id="header-menu-opened-col" class="menu"><li id="menu-item-109302" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109302"><a href="https://www.connectcre.com/weekender/">Weekender</a></li>
+<li id="menu-item-227807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227807"><a href="https://www.connectcre.com/cre-insider/">CRE Insider</a></li>
+<li id="menu-item-387250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387250"><a href="https://www.connectcre.com/video/">Video</a></li>
+</ul></div>									</div>
+															</nav>
+						</div>
+						<!-- <div id="connecteventsmenu-content" class="header-open-menu-right-hover">
+							<div class="header-open-menu-content border-top border-bottom">
+								<a class="reset-link" href="/events/" style="margin-right: 15px;">
+									<span class="header-open-menu-item-black header-h1">
+										Connect
+									</span>
+									<span class="header-open-menu-item-red header-h1">
+										Events
+									</span>
+								</a>
+								<a style="top: -5px; position: relative;" class="hs-button" href="/events/">View All Connect Events</a>
+							</div>
+							<div class="header-open-menu-content menuevent"> -->
+															<!-- </div>
+						</div> -->
+						<div id="connectclassroommenu-content" class="header-open-menu-right-hover">
+							<div class="header-open-menu-content border-top border-bottom">
+								<div class="layout-footer-col flex-1">
+									<a class="reset-link" target="_blink" href="https://www.connectclassroom.com/professional-development/?__hstc=123790933.5c4c6834c5c1a4165ba82fc65e1dd11e.1777010404875.1777294066406.1777351236600.8&__hssc=123790933.154.1777351236600&__hsfp=2aa10df33c5ed277f65e553bf27a2784">
+										<span class="header-open-menu-item-black header-h1">
+											Connect
+										</span>
+										<span class="header-open-menu-item-red header-h1">
+											Classroom
+										</span>
+										<p>Offering on-demand online courses that provide continuing education credits for brokers, attorneys, appraisers and architects. Select from easily accessible video and written courses that cover a variety of CRE topics. </p>
+									</a>
+								</div>
+							</div>
+							<div class="header-open-menu-content menuevent">
+								<div class="connect-classroom-course-search-menu-container">
+									<a target="_blink" class="button" href="https://www.connectclassroom.com/professional-development/?__hstc=123790933.5c4c6834c5c1a4165ba82fc65e1dd11e.1777010404875.1777294066406.1777351236600.8&__hssc=123790933.154.1777351236600&__hsfp=2aa10df33c5ed277f65e553bf27a2784">Find Your Course</a>
+								</div>
+								<div class="header-open-menu-content-sub border-top">
+					
+								</div>
+							</div>
+						</div>
+
+						<!-- Connect Awards -->
+						<!-- <div id="connectawardsmenu-content" class="header-open-menu-right-hover">
+							<div class="header-open-menu-content border-top border-bottom">
+								<a class="reset-link" href="/awards/" style="margin-right: 15px;">
+									<span class="header-open-menu-item-black header-h1">
+										Connect
+									</span>
+									<span class="header-open-menu-item-red header-h1">
+										Awards
+									</span>
+								</a>
+								<a style="top: -5px; position: relative;" class="hs-button" href="/awards/">View All</a>
+							</div>
+							<div class="header-open-menu-content menuevent">
+															</div>
+						</div> -->
+
+						<!-- End -->
+					</div>
+				</div>
+			</div>
+	</section>
+	<!-- Subscribe to Daily Updates Modal -->
+
+	<!-- Subscribe to Daily Updates Popup -->
+	<section  id="stay-informed-not-subscribed" style="display: none !important;">
+
+		<img class="popup-main-image" alt="High-rise commercial buildings" src="/wp-content/uploads/2021/12/popup-image.jpg.webp">
+
+		<h3 class="popup-heading">STAY INFORMED</h3>
+
+		<p class="popup-text">News when you need it. All our Breaking News, right to your inbox.</p>
+		<!--[if lte IE 8]>
+		<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+		<![endif]-->
+		<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+
+		<script>window.addEventListener('DOMContentLoaded', function() {
+		hbspt.forms.create({
+			region: "na1",
+			portalId: "6064756",
+			formId: "0e132bf4-9eec-48aa-8c0c-68e45fce25d3",
+			onFormSubmit: function($form) {
+				$('.leadinModal').remove();
+			}
+		});
+		});</script>
+
+
+
+	</section>
+
+
+
+	<div  id="content-wrapper" class="main-body-content">
+		<div class="modal-backdrop"></div>
+		<!-- Will need this to display menu wp_nav_menu(array('theme_location' => 'main-menu'));  --><section id="about-header" class="border-bottom"><div class="layout-default-wrapper"><div class="about-header-left"><h1>Metro Boston</h1></div></div></section><div id="ancestor-navigation"><div class="layout-default" style="margin: 0 auto !important;"><ul class="ancestor-navigation-list"></ul></div></div>
+
+<main id="body-wrapper">
+
+	<!-- Start of Content inside the body -->
+	<div id="body-content-wrapper" class="post-type-">
+
+	<div class="layout-default story-wrapper normal-archive">
+		<!-- <div class="story-left flex-1"></div> -->
+		<div class="flex-2">
+			<!-- <div class="story-ads cre-leaderboard-ad">
+							</div> -->
+
+			<style></style>
+				<ul class="leadership-post-container"><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/new-construction-quincy-apartments-sell-for-13-5m/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-The-Willard-apartments-Quincy-MA-scaled.jpg" alt="BOS The Willard apartments Quincy MA"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/new-construction-quincy-apartments-sell-for-13-5m/"><h3 class="insight-main-heading">New-Construction Quincy Apartments Sell for $13.5M</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 25, 2026</span><span class="insight-content">
+Marcus &amp; Millichap finalized the sale of The Willard, a 30-unit multifamily property located at...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/new-construction-quincy-apartments-sell-for-13-5m/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/barings-provides-73m-loan-on-needham-office-campus-acquisition/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-140-Kendrick-Street-Needham-MA-resized.jpg" alt="BOS-140-Kendrick-Street-Needham-MA resized"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/barings-provides-73m-loan-on-needham-office-campus-acquisition/"><h3 class="insight-main-heading">Barings Provides $73M Loan on Needham Office Campus Acquisition</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 24, 2026</span><span class="insight-content">
+Barings said Monday it has provided a $72.6 million loan to a joint venture between Cross Ocean Par...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/barings-provides-73m-loan-on-needham-office-campus-acquisition/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/buyer-moves-fast-to-acquire-southern-new-hampshire-industrial/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-32-Executive-Drive-Hudson-NH-scaled.jpg" alt="BOS 32 Executive Drive Hudson NH"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/buyer-moves-fast-to-acquire-southern-new-hampshire-industrial/"><h3 class="insight-main-heading">Buyer Moves Fast to Acquire Southern New Hampshire Industrial</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 20, 2026</span><span class="insight-content">
+Marcus &amp; Millichap closed the sale of an industrial property in Hudson, NH, near the Massachuse...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/buyer-moves-fast-to-acquire-southern-new-hampshire-industrial/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/bgo-seyon-partner-on-industrial-portfolio-in-i-495-west-submarket/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-261-Cedar-Street-Marlborough-MA.jpg" alt="BOS 261 Cedar Street Marlborough MA"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/bgo-seyon-partner-on-industrial-portfolio-in-i-495-west-submarket/"><h3 class="insight-main-heading">BGO, Seyon Partner on Industrial Portfolio in I-495 West Submarket</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 18, 2026</span><span class="insight-content">
+Global real estate investment manager BGO and Boston-based Seyon have acquired a two-building, 134,...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/bgo-seyon-partner-on-industrial-portfolio-in-i-495-west-submarket/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/wrentham-village-adds-to-extensive-lineup-of-outlet-stores-dining-options/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-Wrentham-Village-Premium-Outlets_14-1-scaled.jpg" alt="BOS Wrentham Village Premium Outlets_14 (1)"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/wrentham-village-adds-to-extensive-lineup-of-outlet-stores-dining-options/"><h3 class="insight-main-heading">Wrentham Village Adds to Extensive Lineup of Outlet Stores, Dining Options</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 17, 2026</span><span class="insight-content">
+Wrentham Village Premium Outlets, New England’s largest outdoor outlet shopping destination, is e...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/wrentham-village-adds-to-extensive-lineup-of-outlet-stores-dining-options/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/pennrose-cuts-ribbon-on-mixed-income-rentals-in-lenox/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-The-Forge-ribbon-cutting-Lenox-MA-Pennrose-scaled.jpg" alt="BOS The Forge ribbon cutting Lenox MA Pennrose"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/pennrose-cuts-ribbon-on-mixed-income-rentals-in-lenox/"><h3 class="insight-main-heading">Pennrose Cuts Ribbon on Mixed-Income Rentals in Lenox</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 14, 2026</span><span class="insight-content">
+Pennrose&nbsp;held the grand opening of Forge, a new mixed-income rental community for individuals ...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/pennrose-cuts-ribbon-on-mixed-income-rentals-in-lenox/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/cambridge-health-alliance-renews-73k-sf-lease-with-combined-properties/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-195-Canal-Street-Malden-MA.jpg" alt="BOS 195 Canal Street Malden MA"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/cambridge-health-alliance-renews-73k-sf-lease-with-combined-properties/"><h3 class="insight-main-heading">Cambridge Health Alliance Renews 73K-SF Lease with Combined Properties</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 13, 2026</span><span class="insight-content">
+Cambridge Health Alliance (CHA) has renewed its 73,500-square-foot lease at Combined Properties' 19...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/cambridge-health-alliance-renews-73k-sf-lease-with-combined-properties/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/spirit-halloween-inks-seasonal-lease-for-10k-sf-in-medford/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-Spirit-Halloween-generic-storefront.jpg" alt="BOS Spirit Halloween generic storefront"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/spirit-halloween-inks-seasonal-lease-for-10k-sf-in-medford/"><h3 class="insight-main-heading">Spirit Halloween Inks Seasonal Lease for 10K SF in Medford</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 12, 2026</span><span class="insight-content">
+The&nbsp;Hamilton&nbsp;Company&nbsp;has leased approximately 10,000 square feet to Sprit Halloween ...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/spirit-halloween-inks-seasonal-lease-for-10k-sf-in-medford/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/lg-taurus-partner-on-ground-up-multifamily-project-in-greater-boston/"><img fetchpriority="high" class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-292-294-Baker-Avenue-Concord-MA-LG-Taurus.jpg" alt="BOS 292-294 Baker Avenue Concord MA L&amp;G Taurus"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/lg-taurus-partner-on-ground-up-multifamily-project-in-greater-boston/"><h3 class="insight-main-heading">L&amp;G, Taurus Partner on Ground-Up Multifamily Project in Greater Boston</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 12, 2026</span><span class="insight-content">
+L&amp;G’s Asset Management business in the U.S. has acquired a development site at 292-294 Baker ...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/lg-taurus-partner-on-ground-up-multifamily-project-in-greater-boston/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/hunneman-named-leasing-agent-for-tewksbury-office-complex/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-Highwood-Office-Park-Tewksbury-MA.jpg" alt="BOS Highwood Office Park Tewksbury MA"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/hunneman-named-leasing-agent-for-tewksbury-office-complex/"><h3 class="insight-main-heading">Hunneman Named Leasing Agent for Tewksbury Office Complex</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 11, 2026</span><span class="insight-content">
+Hunneman has been appointed as the exclusive leasing agent for Highwood Office Park, a three-buildi...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/hunneman-named-leasing-agent-for-tewksbury-office-complex/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/boston-multifamily-market-strengthens-as-job-market-returns-to-annual-growth/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/06/BOS-Boston-Skyline3-resized.jpg" alt="BOS Boston Skyline3 resized"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/boston-multifamily-market-strengthens-as-job-market-returns-to-annual-growth/"><h3 class="insight-main-heading">Boston Multifamily Market Strengthens as Job Market Returns to Annual Growth</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 11, 2026</span><span class="insight-content">
+The&nbsp;Boston&nbsp;multifamily market strengthened in the second quarter of 2026 as the local job...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/boston-multifamily-market-strengthens-as-job-market-returns-to-annual-growth/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/dana-farber-opens-outpatient-oncology-and-hematology-clinic-in-attleboro/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-Dana-Farber-outpatient-clinic-Attleboro.jpg" alt="BOS Dana-Farber outpatient clinic Attleboro"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/dana-farber-opens-outpatient-oncology-and-hematology-clinic-in-attleboro/"><h3 class="insight-main-heading">Dana-Farber Opens Outpatient Oncology and Hematology Clinic in Attleboro</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 07, 2026</span><span class="insight-content">
+Dana-Farber Cancer Institute and Sturdy Health have opened a new clinic in Attleboro, offering expa...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/dana-farber-opens-outpatient-oncology-and-hematology-clinic-in-attleboro/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/foundation-alloy/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-45-Industrial-Pkwy-Woburn-MA.jpg" alt="BOS 45 Industrial Pkwy Woburn MA"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/foundation-alloy/"><h3 class="insight-main-heading">Foundation Alloy Moves to Woburn for First Dedicated Manufacturing HQ</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 07, 2026</span><span class="insight-content">
+Following its recent funding announcement, advanced metals company Foundation Alloy has selected 45...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/foundation-alloy/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/494091-2/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-6-Industrial-Way-Salem-NH-CBRE.jpg" alt="BOS 6 Industrial Way Salem NH CBRE"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/494091-2/"><h3 class="insight-main-heading">Marcus Partners Grows Greater Boston Industrial Presence</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 06, 2026</span><span class="insight-content">
+Marcus Partners has acquired 6 Industrial Way in Salem, NH. The 155,000-square-foot warehouse/distr...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/494091-2/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/value-add-revere-beach-apartments-refinanced-for-67m/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-Eliot-on-Ocean-apartments-Revere-Beach-MA.jpg" alt="BOS Eliot on Ocean apartments Revere Beach MA"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/value-add-revere-beach-apartments-refinanced-for-67m/"><h3 class="insight-main-heading">Value-Add Revere Beach Apartments Refinanced for $67M</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 06, 2026</span><span class="insight-content">
+JLL Capital Markets arranged a $67.256-million refinancing for Eliot on Ocean, a 194-unit multifa...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/value-add-revere-beach-apartments-refinanced-for-67m/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/bell-partners-expands-greater-boston-presence-with-reading-propetty/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-Bell-Reading-Commons-Reading-MA.jpg" alt="BOS Bell Reading Commons Reading MA"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/bell-partners-expands-greater-boston-presence-with-reading-propetty/"><h3 class="insight-main-heading">Bell Partners Expands Greater Boston Presence with Reading Property</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 05, 2026</span><span class="insight-content">
+Bell&nbsp;Partners has acquired Reading Commons, a 204-unit apartment community completed in 2006 a...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/bell-partners-expands-greater-boston-presence-with-reading-propetty/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/calare-jv-trades-repositioned-self-storage-and-warehouse-in-malden/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-1-Wesley-arial-photo-Malden-MA.jpg" alt="BOS 1 Wesley arial photo Malden MA"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/calare-jv-trades-repositioned-self-storage-and-warehouse-in-malden/"><h3 class="insight-main-heading">Calare JV Trades Repositioned Self-Storage and Warehouse in Malden</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 04, 2026</span><span class="insight-content">
+Calare Properties completed the sale of 1 Wesley Street in Malden, MA. The approximately 103,300-s...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/calare-jv-trades-repositioned-self-storage-and-warehouse-in-malden/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/rockland-trust-lends-on-acquisition-of-kingston-country-club/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/08/BOS-IPCC-Map-social.jpg" alt="BOS IPCC Map-social"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/rockland-trust-lends-on-acquisition-of-kingston-country-club/"><h3 class="insight-main-heading">Rockland Trust Lends on Acquisition of Kingston Country Club</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | August 03, 2026</span><span class="insight-content">
+Rockland Trust financed the acquisition of Indian Pond Country Club (IPCC), a private championship ...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/rockland-trust-lends-on-acquisition-of-kingston-country-club/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/r-w-holmes-tapped-to-lease-former-national-amusements-headquarters-in-norwood/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/07/BOS-846-University-Ave-Norwood.jpg" alt="BOS 846-University-Ave-Norwood"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/r-w-holmes-tapped-to-lease-former-national-amusements-headquarters-in-norwood/"><h3 class="insight-main-heading">R.W. Holmes Tapped to Lease Former National Amusements Headquarters in Norwood</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | July 31, 2026</span><span class="insight-content">
+R.W. Holmes Commercial Real Estate has been retained as leasing agent for 846 University Ave., a...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/r-w-holmes-tapped-to-lease-former-national-amusements-headquarters-in-norwood/">Read more</a></div></div><div class="leadership-post-container-inner"><a href="https://www.connectcre.com/stories/medford-food-processing-facility-trades-amid-interest-from-local-and-national-investors/"><img class="insight-feature-image" src="https://www.connectcre.com/wp-content/uploads/2026/07/BOS-93-Mystic-Avenue-Medford-MA.jpg" alt="BOS 93 Mystic Avenue Medford MA"></a><div class="insight-post-container-right"><a href="https://www.connectcre.com/stories/medford-food-processing-facility-trades-amid-interest-from-local-and-national-investors/"><h3 class="insight-main-heading">Medford Food Processing Facility Trades Amid Interest from Local and National Investors</h3></a><span class="author-date"><a href="https://www.connectcre.com/author/paulbubny/">By Paul Bubny</a> | July 30, 2026</span><span class="insight-content">
+Marcus &amp; Millichap closed the sale of 93 Mystic Ave., an industrial property dedicated to food ...</span><a class="insight-read-more-button button" href="https://www.connectcre.com/stories/medford-food-processing-facility-trades-amid-interest-from-local-and-national-investors/">Read more</a></div></div></ul>		</div>
+		<!-- <div class="story-right flex-1">
+			<div class="story-ad-sidebar-wrapper">
+							</div>
+		</div> -->
+
+		
+	<nav class="navigation connect-posts-navigation" aria-label="Posts pagination">
+		<h2 class="screen-reader-text">Posts pagination</h2>
+		<div class="nav-links"><span aria-current="page" class="page-numbers current"><span class="meta-nav screen-reader-text">Page </span>1</span>
+<a class="page-numbers" href="https://www.connectcre.com/story-market/metro-boston/page/2/"><span class="meta-nav screen-reader-text">Page </span>2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="https://www.connectcre.com/story-market/metro-boston/page/64/"><span class="meta-nav screen-reader-text">Page </span>64</a>
+<a class="next page-numbers" href="https://www.connectcre.com/story-market/metro-boston/page/2/">Next page</a></div>
+	</nav>
+	</div>
+
+	<!-- Start of body footer -->
+	<footer class="footer">
+			</footer>
+</main>
+
+	</div>
+	<footer id="footer">
+		<div class="layout-footer-wrapper border-top">
+			<div class="layout-footer-col footer-1 flex-1 border-right">
+																		<div class="footer-column-section">
+								<h3>About Connect Media</h3>
+								<span class="small-text"><p>Connect Media is at the center of millions of connections that are made every year. We take pride in living up to our name, providing news, live and digital events, continuing education courses, and a full suite of marketing services to B2B business verticals. Wherever professionals need to be, Connect Media is there.</p>
+ </span>
+															</div>
+																								<div class="footer-column-section">
+								<h3>Connect CRE News</h3>
+								<span class="small-text"><p>Your source for daily news covering CRE transactions and trends. Stay informed on national, regional and property sector news that matters to your business.   </p>
+ </span>
+															</div>
+													</div>
+			<div class="layout-footer-col footer-2 flex-1 border-right">
+				<h4>Regions</h4>
+				<div class="footer-menu-wrapper"><ul id="footer-menu-col" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-109279"><a href="https://www.connectcre.com/">National</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-340159"><a href="https://www.connectcre.ca/">Canada</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109280"><a href="https://www.connectcre.com/atlanta-southeast/">Atlanta &#038; Southeast</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109281"><a href="https://www.connectcre.com/boston-new-england/">Boston &#038; New England</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160827"><a href="https://www.connectcre.com/california/">California</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109283"><a href="https://www.connectcre.com/chicago-midwest/">Chicago &#038; Midwest</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109284"><a href="https://www.connectcre.com/florida-gulf-coast/">Florida &#038; Gulf Coast</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109285"><a href="https://www.connectcre.com/new-york-tri-state/">New York &#038; Tri-State</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109286"><a href="https://www.connectcre.com/phoenix-southwest/">Phoenix &#038; Southwest</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109287"><a href="https://www.connectcre.com/seattle-northwest/">Seattle &#038; Northwest</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109288"><a href="https://www.connectcre.com/texas/">Texas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109289"><a href="https://www.connectcre.com/washington-dc-mid-atlantic/">Washington DC &#038; Mid-Atlantic</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109355"><a href="https://www.connectcre.com/global/">Global</a></li>
+</ul></div>			</div>
+			<div class="layout-footer-col footer-3 flex-1 border-right">
+			<h4>Sectors</h4>
+				<div class="footer-menu-wrapper"><ul id="footer-menu-col" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109290"><a href="https://www.connectcre.com/apartments/">Apartments</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-455371"><a href="https://www.connectcre.com/digital-infrastructure/">Digital Infrastructure</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109291"><a href="https://www.connectcre.com/distressed-assets/">Distressed Assets</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109292"><a href="https://www.connectcre.com/finance/">Finance</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109293"><a href="https://www.connectcre.com/healthcare/">Healthcare</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109294"><a href="https://www.connectcre.com/hospitality/">Hospitality</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109295"><a href="https://www.connectcre.com/industrial/">Industrial</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109296"><a href="https://www.connectcre.com/net-lease/">Net Lease</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109297"><a href="https://www.connectcre.com/office/">Office</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109298"><a href="https://www.connectcre.com/opportunity-zones/">Opportunity Zones</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109299"><a href="https://www.connectcre.com/retail/">Retail</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109300"><a href="https://www.connectcre.com/senior-housing/">Senior Housing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109301"><a href="https://www.connectcre.com/student-housing/">Student Housing</a></li>
+</ul></div>			</div>
+			<div class="layout-footer-col footer-4 flex-1">
+											<a class="reset-link" href="https://www.connectcre.com/events/">
+														<div class="footer-column-section">
+								<h3>Connect Events</h3>
+								<span class="small-text">								</span>
+															</div>
+							</a>
+																	<a class="reset-link" href="https://creshop.connect.media/">
+														<div class="footer-column-section">
+								<h3>Connect Media Kit</h3>
+								<span class="small-text">								</span>
+															</div>
+							</a>
+																	<a class="reset-link" href="https://apartmentbuildings.com/">
+														<div class="footer-column-section">
+								<h3>ApartmentBuildings.com</h3>
+								<span class="small-text">								</span>
+															</div>
+							</a>
+																	<a class="reset-link" href="https://www.connectcre.com/creative/">
+														<div class="footer-column-section">
+								<h3>Connect Creative</h3>
+								<span class="small-text"><p>Connect Creative makes your message heard. Our lineup of business development talent brings you expertise in graphic design, public relations, content production, video, SEO, social media, website development and more. Let us craft the right visuals, narrative, and delivery for your needs.</p>
+								</span>
+															</div>
+							</a>
+														<div class="footer-social">
+											<a aria-label="Facebook" name="Facebook" href="https://www.facebook.com/connectcre">
+							<svg xmlns="http://www.w3.org/2000/svg" width="31.5" height="31.5" viewBox="0 0 31.5 31.5"><path id="Icon_awesome-facebook-square" data-name="Icon awesome-facebook-square" d="M28.125,2.25H3.375A3.375,3.375,0,0,0,0,5.625v24.75A3.375,3.375,0,0,0,3.375,33.75h9.65V23.041H8.6V18h4.43V14.158c0-4.37,2.6-6.784,6.586-6.784a26.836,26.836,0,0,1,3.9.34V12h-2.2a2.521,2.521,0,0,0-2.842,2.723V18h4.836l-.773,5.041H18.475V33.75h9.65A3.375,3.375,0,0,0,31.5,30.375V5.625A3.375,3.375,0,0,0,28.125,2.25Z" transform="translate(0 -2.25)" fill="#195794" /></svg>						</a>
+											<a aria-label="LinkedIn" name="LinkedIn" href="https://www.linkedin.com/company/connectcre/">
+							<svg xmlns="http://www.w3.org/2000/svg" width="31.5" height="31.5" viewBox="0 0 31.5 31.5"><path id="Icon_awesome-linkedin" data-name="Icon awesome-linkedin" d="M29.25,2.25H2.243A2.26,2.26,0,0,0,0,4.521V31.479A2.26,2.26,0,0,0,2.243,33.75H29.25a2.266,2.266,0,0,0,2.25-2.271V4.521A2.266,2.266,0,0,0,29.25,2.25Zm-19.73,27H4.852V14.217H9.527V29.25ZM7.186,12.164A2.707,2.707,0,1,1,9.893,9.457a2.708,2.708,0,0,1-2.707,2.707ZM27.021,29.25H22.352V21.938c0-1.744-.035-3.987-2.426-3.987-2.433,0-2.805,1.9-2.805,3.86V29.25H12.452V14.217h4.479V16.27h.063a4.917,4.917,0,0,1,4.423-2.426c4.725,0,5.6,3.115,5.6,7.165Z" transform="translate(0 -2.25)" fill="#195794" /></svg>						</a>
+											<a aria-label="Twitter" name="Twitter" href="https://twitter.com/connectCRE">
+							<svg xmlns="http://www.w3.org/2000/svg" width="31.5" height="31.5" viewBox="0 0 31.5 31.5"><path id="Icon_awesome-twitter-square" data-name="Icon awesome-twitter-square" d="M28.125,2.25H3.375A3.376,3.376,0,0,0,0,5.625v24.75A3.376,3.376,0,0,0,3.375,33.75h24.75A3.376,3.376,0,0,0,31.5,30.375V5.625A3.376,3.376,0,0,0,28.125,2.25ZM24.687,13.416c.014.2.014.4.014.6a13.031,13.031,0,0,1-13.12,13.12A13.06,13.06,0,0,1,4.5,25.066a9.715,9.715,0,0,0,1.111.056,9.246,9.246,0,0,0,5.723-1.969,4.618,4.618,0,0,1-4.31-3.2,4.97,4.97,0,0,0,2.081-.084,4.612,4.612,0,0,1-3.691-4.528v-.056A4.608,4.608,0,0,0,7.5,15.87,4.6,4.6,0,0,1,5.442,12.03,4.554,4.554,0,0,1,6.068,9.7a13.094,13.094,0,0,0,9.506,4.823,4.621,4.621,0,0,1,7.868-4.212A9.036,9.036,0,0,0,26.367,9.2a4.6,4.6,0,0,1-2.025,2.538A9.177,9.177,0,0,0,27,11.025,9.707,9.707,0,0,1,24.687,13.416Z" transform="translate(0 -2.25)" fill="#195794" /></svg>						</a>
+											<a aria-label="Instagram" name="Instagram" href="https://www.instagram.com/connect_cre/?hl=en">
+							<svg xmlns="http://www.w3.org/2000/svg" width="13.5" height="13.497" viewBox="0 0 13.5 13.497"><path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M6.746,5.526a3.46,3.46,0,1,0,3.46,3.46A3.455,3.455,0,0,0,6.746,5.526Zm0,5.71A2.25,2.25,0,1,1,9,8.986a2.254,2.254,0,0,1-2.25,2.25Zm4.409-5.852a.807.807,0,1,1-.807-.807A.805.805,0,0,1,11.155,5.384Zm2.292.819a3.994,3.994,0,0,0-1.09-2.828,4.021,4.021,0,0,0-2.828-1.09c-1.114-.063-4.454-.063-5.569,0A4.015,4.015,0,0,0,1.132,3.372,4.007,4.007,0,0,0,.042,6.2c-.063,1.114-.063,4.454,0,5.569A3.994,3.994,0,0,0,1.132,14.6a4.026,4.026,0,0,0,2.828,1.09c1.114.063,4.454.063,5.569,0a3.994,3.994,0,0,0,2.828-1.09,4.021,4.021,0,0,0,1.09-2.828c.063-1.114.063-4.451,0-5.566Zm-1.44,6.761a2.278,2.278,0,0,1-1.283,1.283,14.875,14.875,0,0,1-3.978.271,14.991,14.991,0,0,1-3.978-.271,2.278,2.278,0,0,1-1.283-1.283,14.875,14.875,0,0,1-.271-3.978,14.991,14.991,0,0,1,.271-3.978A2.278,2.278,0,0,1,2.768,3.725a14.875,14.875,0,0,1,3.978-.271,14.991,14.991,0,0,1,3.978.271,2.278,2.278,0,0,1,1.283,1.283,14.875,14.875,0,0,1,.271,3.978A14.866,14.866,0,0,1,12.008,12.965Z" transform="translate(0.005 -2.238)" fill="#195794"/></svg>						</a>
+											<a aria-label="RSS" name="RSS" href="https://www.connectcre.com/rss-info/">
+							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="rss" class="svg-inline--fa fa-rss fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"></path></svg>						</a>
+									</div>
+			</div>
+		</div>
+		<div class="layout-footer-bottom extrasmall-text border-top">
+			<div class="layout-footer-bottom-left flex-1">&copy; Connect Media 2015 - 2026 | 3900 San Fernando Road, Suite 1002, Glendale, CA 91204</div>
+			<div class="layout-footer-bottom-right flex-1">
+				<a name="rss info" class="footer-link" href="/rss-info/">Get RSS Feed</a>
+				<a name="sitemap" class="footer-link" href="/sitemap/">Sitemap</a>
+				<a name="submit a press release" class="footer-link" href="/submit-a-press-release/">Submit a Press Release</a>
+				<a name="privacy policy" class="footer-link" href="/terms-and-conditions/">Privacy Policy</a></div>
+		</div>
+	</footer>
+	</div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/connect-cre/*","/wp-content/themes/connect/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+	<script type="text/rocketlazyloadscript">window.addEventListener('DOMContentLoaded', function() {
+		jQuery(document).ready(function($) {
+			var deviceAgent = navigator.userAgent.toLowerCase();
+			if (deviceAgent.match(/(iphone|ipod|ipad)/)) {
+				$("html").addClass("ios");
+				$("html").addClass("mobile");
+			}
+			if (navigator.userAgent.search("MSIE") >= 0) {
+				$("html").addClass("ie");
+			} else if (navigator.userAgent.search("Chrome") >= 0) {
+				$("html").addClass("chrome");
+			} else if (navigator.userAgent.search("Firefox") >= 0) {
+				$("html").addClass("firefox");
+			} else if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
+				$("html").addClass("safari");
+			} else if (navigator.userAgent.search("Opera") >= 0) {
+				$("html").addClass("opera");
+			}
+
+		});
+	});</script>
+
+<script type="text/rocketlazyloadscript" id="slick-js-js" data-rocket-src="https://www.connectcre.com/wp-content/themes/connect/assets/slickjs/js/slick.min.js?ver=1.8.1" data-rocket-defer defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3159a13e963633e',t:'MTc4Nzc3NjMwNQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
+
+<!-- Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com -->
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

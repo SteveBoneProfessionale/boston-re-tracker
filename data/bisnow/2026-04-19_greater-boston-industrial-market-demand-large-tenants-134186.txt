@@ -1,0 +1,293 @@
+URL: https://www.bisnow.com/news/boston/industrial/greater-boston-industrial-market-demand-large-tenants-134186
+INDEX_DATE: 2026-04-19
+
+Greater Boston Industrial Demand Jumped Up 83% In The First Quarter 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Industrial 
+ Greater Boston Industrial Demand Jumped Up 83% In The First Quarter 
+ April 19, 2026 | 2:47 pm ET 
+ Taylor Driscoll, Boston 
+ In a smaller metro industrial market like Boston's, just one or two industrial deals over 100K SF can shape a quarter's momentum. Greater Boston had six.
+ The metro area's leasing volume and demand in the first quarter shot up 73% and 83%, respectively, from the same quarter in 2025, according to JLL . A handful of these deals were major tenants reentering the market after several years of holding off, JLL Senior Managing Director Michael Ciummei said.
+ As these tenants continue to make deals, the large supply that came online during the last wave of pandemic-era spec building is being scooped up.
+ Google Maps 
+ Supplyone Signed A 210K Sf Lease At 586 Manley St. In West Bridgewater.
+ "The larger corporate clients that are either competitive with Amazon or just sizable distributors are hitting the go button, and it feels like they're in more of a decision-making mode right now," Ciummei said.
+ Net absorption stood at 1.28M SF at the end of the first quarter, according to JLL, marking the second straight quarter of at least 1M SF of positive absorption.
+ In Greater Boston, the average industrial user may look for around 50K SF, and larger tenants seek space between 100K SF and 150K SF. Ciummei said that usually the market would be lucky to have three or four tenants looking for space over 500K SF.
+ JLL is tracking at least 11 active tenant requirements for more than 500K SF and "a couple" over 1M SF. Ciummei said the pickup in demand isn't shocking, but the short time frame in which these deals are taking place is.
+ Cushman & Wakefield Senior Research Manager Riley McMullan said some of the tenants driving the demand right now are large corporate and e-commerce leaders, including Amazon.
+ Amazon has been making deals in the area over the last couple of quarters, including inking a 450K SF lease at a distribution center in Uxbridge in January . Over the previous summer, the e-commerce giant signed a 237K SF lease in Wilmington.
+ Nationally, Amazon is expected  to increase its industrial footprint by some 51M SF, up 12M SF from 2025's growth pace, according to MWPVL International, a supply chain consulting firm.
+ Roughly 2M SF in leasing activity took place in Greater Boston in the first quarter, the largest levels since Q3 2022, according to Cushman & Wakefield. The southern part of the metro area saw the most activity, at 804K SF, nearly triple the quarter-over-quarter activity.
+ The six deals over 100K SF that took place in the first quarter are four more than occurred in the previous quarter.
+ Google Maps 
+ North River Co. acquired 626 and 680 Lynnway in Lynn for $39.9M.
+ "Boston is a smaller market, so anytime we can get a good slew of deals that are really sizable, at least sizable for Boston, it's going to be a major market driver and really help stabilize the [key performance indicators]," McMullan said.
+ Major deals in the quarter included Champagne Logistics taking up 300K SF in Milford, Primo Brands signing a 248K SF lease in Taunton, and Owens & Minor inking 234K SF in Franklin.
+ Another notable lease came from SupplyOne, a packing and distribution company, which signed two leases in the first quarter: 210K SF in West Bridgewater and 150K SF in Lunenburg.
+ Although leasing was hot, vacancy remained flat at the end of the first quarter, standing at 8.1%, largely due to the glut of spec space still on the market from the wave of overbuilding, according to JLL.
+ At the end of the first quarter, the market delivered more than 1.2M SF, the highest level in two years, and roughly 77% of that space was spec.
+ On the sales side, the fundamentals were also very strong, with 1.8M SF transacted in the first quarter, double the transaction count quarter-over-quarter, according to Cushman & Wakefield.
+ One of the most notable sales in the quarter was Investcorp 's buy of a five-building warehouse and distribution portfolio totaling more than 450K SF for $87M from NorthBridge . Also, North River Co. bought 626 and 680 Lynnway in Lynn for $39.9M from Foxfield .
+ Ciummei said if the deals his firm is tracking now move forward and if the momentum continues, the pendulum could eventually swing out of the tenant-favorable market that has dominated the last couple of years.
+ "If these deals get done that we're tracking, we could be in a neutral market for another 12 months," Ciummei said. "It'll really be dependent on what you're looking at, what your needs are and where you need to be."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Amazon 
+ , Foxfield 
+ , Investcorp 
+ , JLL 
+ , Michael Ciummei 
+ , Northbridge Partners 
+ , North River Co. 
+ , Riley McMullan 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Downtown Office Tower Secures $575M Refinancing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Power Availability Becomes New Requirement For Shifting Bay Area Industrial Base
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ EXCLUSIVE: Industrial Outdoor Storage Investor Continues Buying Spree In Metro Atlanta
+ Amazon Building 1.2M SF Distribution Facility In Aurora
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Starwood, Realterm Fund Record Industrial Outdoor Storage Loan
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

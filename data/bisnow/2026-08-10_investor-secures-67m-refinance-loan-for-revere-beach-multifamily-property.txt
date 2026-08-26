@@ -1,0 +1,281 @@
+URL: https://www.bisnow.com/news/boston/multifamily/investor-secures-67m-refinance-loan-for-revere-beach-multifamily-property
+INDEX_DATE: 2026-08-10
+
+Owner Lands $67M Loan To Renovate Apartments On Revere Waterfront 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Multifamily 
+ Owner Lands $67M Loan To Renovate Apartments On Revere Waterfront 
+ August 10, 2026 | 5:23 pm ET 
+ Taylor Driscoll, Boston 
+ The owner of a Revere Beach waterfront apartment property has closed a refinancing deal that enables it to start a renovation program at the property.
+ Google Earth 
+ Revere Beach
+ New York-based Invictus Real Estate Partners secured a $67M loan for its 194-unit Eliot on Ocean apartment building in Revere, JLL announced. The three-year, floating-rate loan is from Bridge Investment Group 
+ The 143K SF property at 660 Ocean Ave. sits directly adjacent to the MBTA's Wonderland Blue Line station. The waterfront apartments offer ocean views of Revere Beach.
+ The project, completed in 2016, was developed by Upton + Partners. Invictus acquired the property for $84.3M in 2021, according to public records
+ The loan will be used to renovate the property over a 33-month timeline. The improvement program includes renovations to the lobby, amenity space, fitness center and beachfront terrace. Unit renovations include in-unit washers and dryers, upgraded appliances, smart thermostats and premium finishes.
+ JLL's Scott Aiese , Tom Sullivan and Alex Staikos represented the borrower in the deal.
+ "Revere Beach represents one of the few remaining value-add opportunities in Boston's constrained waterfront multifamily market," Aiese said in a statement. "The combination of irreplaceable location, strong transit connectivity, and a clear path to capture market rents through targeted improvements made this an attractive financing for lenders seeking quality coastal assets."
+ The Revere Beach neighborhood has attracted other multifamily developers, drawn to its location close to the Blue Line and the beach.
+ Other waterfront developments in the area include Redgate 's 195-unit One Beachmont project, Mill Creek Residential 's 357-unit Modera Revere Beach and Hines ' 209-unit Revio apartment project. 
+ In January, Chelsea-based The Neighborhood Developers broke ground on a 56-unit affordable housing project at 110 Ocean Ave.
+ The market has brought on more than 2,700 units across the 3-mile waterfront since 2015, according to JLL.
+ Revere is seeing major development elsewhere as The HYM Investment Group 's huge mixed-use project, Suffolk Downs , continues to take shape. In total, the project is anticipated to bring more than 10,000 housing units.
+ During the 2010s, Revere — along with the inner suburbs of Lynn, Everett and Chelsea — experienced significant population growth. Revere's population jumped by 20% between 2010 and 2020, more than any other city in the state, the Boston Business Journal reported in 2021. 
+ Rents in Revere have also grown, with the average rent now at $2,438, up from $2,360 a year ago, according to Boston Pads .
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Alex Staikos 
+ , Bridge Investment Group 
+ , JLL 
+ , Scott Aiese 
+ , Tom Sullivan 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ To Rein In Costs, Philly Affordable Housing Players Look To Become 'Less Reliant On Consultants'
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

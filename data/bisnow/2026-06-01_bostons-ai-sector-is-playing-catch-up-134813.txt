@@ -1,0 +1,311 @@
+URL: https://www.bisnow.com/news/boston/technology/bostons-ai-sector-is-playing-catch-up-134813
+INDEX_DATE: 2026-06-01
+
+Boston's AI Sector Playing Catch-Up, But Office Owners See Some Activity 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Technology 
+ Boston's AI Sector Playing Catch-Up, But Office Owners See Some Activity 
+ June 1, 2026 | 1:46 pm ET 
+ Taylor Driscoll, Boston 
+ While the artificial intelligence sector is booming across the country with data center campuses and office spaces, the longtime tech hub of Greater Boston is trailing its rivals.
+ Since 2020, $578B in venture capital has been poured into AI companies — with three-fourths of that invested in the last two years — and 80% of those funds have gone to companies in San Francisco, according to CBRE .
+ Boston has for years been a leading market for tech startups, particularly in the biotech space, but Cushman & Wakefield  reported that the city captured just 8% of AI funding in 2025.
+ Local tech and office experts told  Bisnow  they do see some momentum building in Boston's AI scene and some small office leasing activity from AI startups, but the nature of Big Tech companies clustering together has meant the region isn't getting the largest deals.
+ Bisnow/Taylor Driscoll
+ A Sign For Last Week's Boston Tech Week, The First Time The City Has Hosted The 15-Year-Old Event. 
+ "I don't think anybody in Boston is happy with where we are in terms of the number of AI companies we have, but I will take some relief in the fact that it's happening now," said Synergy CEO  David Greaney , whose firm owns 30 properties in Boston.
+ San Francisco and Silicon Valley captured 66% of AI-specific office leasing from 2019 to the first quarter of 2026, accounting for roughly 10M SF in leases each, according to CBRE. Manhattan came in third for U.S. markets at 4M SF, followed by Boston at 3.7M SF.
+ Cushman & Wakefield Managing Director Peyton Johnson said part of the problem is where Boston sits geographically — far from the tech hubs of Silicon Valley and San Francisco. And when a big AI company like OpenAI or Anthropic is looking to expand on the East Coast, they tend to gravitate toward New York. AI firms  leased over 400K SF  in Manhattan in the first three months of this year, according to  JLL .
+ Though Massachusetts has some of the largest and most prestigious educational institutions, which have supported their own startup ecosystems, graduates in recent years have been drawn to other markets with more job opportunities.
+ "The ones that have national pull are San Francisco and the Bay Area, it's New York, it's Seattle and it's San Jose," Johnson said. "There's a cultural thing that continues to fuel those markets."
+ Courtesy of CBRE
+ San Francisco took in roughly 80% of venture capital funding since 2020.
+ Last week, industry players gathered for Boston Tech Week , marking the first time the city has ever hosted the 15-year-old tech festival. The event shined a spotlight on Boston as a tech market, but it also raised larger questions as to how competitive it is in the fast-growing AI sector.
+ HubSpot  founder Brian Halligan said during Tech Week that Massachusetts is being "lapped and lapped and lapped" by California in the AI race, the Boston Business Journal reported . He said part of the problem is Boston has had a hard time producing unicorn companies, those valued at over $1B.
+ State leaders have been pushing to make Massachusetts more competitive.
+ Last week, Gov. Maura Healey  announced a $25M investment for a new MIT quantum systems lab in the heart of the institution's Cambridge campus.
+ Last month, the Healey administration also awarded a $31M state grant to expand access to "sustainable high-performance computing that is necessary for AI innovation," hired the first director of the Massachusetts AI Hub and began a new startup accelerator program in partnership between the AI Hub, IBM and Red Hat .
+ On the private sector side, venture capital and tech companies across Boston's tech scene have come together this year to boost the presence of artificial intelligence, creating the Massachusetts AI Coalition  in January.
+ Since the coalition started roughly 100 days ago, more than 60 companies have joined as founding hosts, including healthcare wear brand  Whoop , Suno, Tulip,  Wayfair , PathAI and  DraftKings . The coalition is also seeing strong engagement from Silicon Valley-based companies, including  Anthropic .
+ "The momentum has been building for some time. Between the Commonwealth's push to get AI in the hands of all workers, the Massachusetts AI Coalition spearheaded by WHOOP, and countless new startups, it's more than just buzz," said Stacey Messier, general manager of New England at coworking space operator  Cambridge Innovation Center .
+ Boston landlords say they have felt the energy picking up from AI companies looking for offices.
+ Wikimedia Commons/Fletcher 
+ Synergy's 99 High St. Office Tower In Boston
+ In the last two quarters, Synergy's Greaney said eight AI-related tenants either signed or began the process of signing leases at his properties. The number is up from two last year, and he said he expects to see more momentum moving forward.
+ "It's encouraging, and I think there's a good community here to support AI and keep AI companies here in the city," Greaney said.
+ The companies are smaller, he said, ranging from 2K SF to 6K SF. The landlord didn't name the companies, but The Boston Globe reported last year that AI firm QBlox signed a 3K SF lease at the company's 99 High St. office tower last June.
+ "I think it's definitely coming," Greaney said. "I think where we are seeing a lot of the sluggishness is we haven't seen any large requirements yet."
+ The office landlord also partnered with Build 617 to create an incubator system that has effectively helped 13 companies transition through it. The incubator is located at the 38 Chauncey St. office building in downtown Boston.
+ In April, DivcoWest secured Sweden-based AI company Lovable to its One Lincoln office building. The tenant will occupy 6K SF at the 1.1M SF office building in the Financial District.
+ DivcoWest Managing Director Mark Roopenian seconded that AI-native companies are growing their presence in the Boston market.
+ "From our recent experience, interest from AI ventures is growing in Boston," Roopenian said in a statement to Bisnow . "That's also a trend we are seeing in many of our markets, particularly San Francisco and New York."
+ Flickr/Mayor's Office Photo by John Wilcox 
+ Boston Mayor Michelle Wu and former HubSpot CEO Brian Halligan during Tech Week.
+ CIC's Messier said larger AI companies do have a presence here, citing  OpenAI 's satellite office in the operator's Cambridge location.
+ She said there are more than 100 AI companies clustered within CIC's Massachusetts campus, most of which are centered in and around Cambridge's Kendall Square .
+ "The majority of those teams moved into CIC within the last 18 months, with more than 20 AI companies moving into CIC so far in 2026 — signaling a fast pace to the industry's growth in this submarket," Messier said in an emailed statement to Bisnow .
+ C&W's Johnson said the Boston market does have several high-growth companies building momentum, but it just isn't at the same volume as the bigger markets. As momentum grows, she said the leasing demand these companies bring is a promising indicator for more recovery in the office space.
+ "If all things went right, it would take a lot of time for an ecosystem effect to really take hold in the same way, but change within the market … it seems like there's a pipeline," Johnson said.
+ CORRECTION, JUNE 2, 4:45 P.M. ET: A previous version of this story misstated the location of Synergy's 38 Chauncey St. building. The story has been updated. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Artificial Intelligence 
+ , CBRE 
+ , Cushman & Wakefield 
+ , Dave Greaney 
+ , David Greaney 
+ , DivcoWest 
+ , Hubspot 
+ , Mark Roopenian 
+ , Peyton Johnson 
+ , Synergy 
+ , Whoop 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Loud And Clear: Why Aiphone Thinks Intercom Ownership Is Best For Multitenant Buildings
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ Real Estate Has An AI Problem. A McKinsey Exec Says The Issue Isn't Tech
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

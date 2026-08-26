@@ -1,0 +1,281 @@
+URL: https://www.bisnow.com/news/boston/retail/neiman-marcus-to-close-at-copley-place-simon-to-redevelop-space-133161
+INDEX_DATE: 2026-02-10
+
+Neiman Marcus To Close At Copley Place, Simon To Redevelop Space 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Retail 
+ Neiman Marcus To Close At Copley Place, Simon To Redevelop Space 
+ February 10, 2026 | 12:59 pm ET 
+ Jon Banister, East Coast Editor 
+ A prominent department store that has operated for decades in Boston's Back Bay is shutting its doors.
+ Courtesy of Simon Property Group
+ A Rendering Of Simon's Plans To Redevelop The Neiman Marcus Store At Copley Place
+ The  Neiman Marcus  at Copley Place is closing as part of owner  Saks Global 's ongoing bankruptcy proceedings, the company  announced Tuesday .
+ Simon Property Group , the owner of the urban shopping complex, said Tuesday it is redeveloping the Neiman Marcus space. The retail investment trust released glossy renderings of the overhauled big-box store and named two tenants that would occupy it: Italian marketplace Casa Tua Cucina and Greek seafood restaurant Estiatorio Milos.
+ The landlord said additional retail, dining and wellness concepts will open in the space. Construction is expected to begin later this year with openings starting in 2028, Simon said.
+ Saks Global  filed for Chapter 11 bankruptcy  in mid-January, in part due to the $2B in debt it took on when it  acquired Neiman Marcus  for nearly $2.7B in 2024. Late last month, the company  said it would close  nearly all of its Saks Off Fifth locations,  including stores  in Somerville and Wrentham.
+ Tuesday's  list of nine closures  includes eight  Saks Fifth Avenue  locations across the country outside of New England and the one Neiman Marcus space in Boston.
+ Google Maps 
+ The Neiman Marcus at Copley Place is closing. 
+ The company also has a Saks Fifth Avenue men's store in Copley Place and a Saks Fifth Avenue store at the nearby Prudential Center , both of which appear to remain open. The latter store has been open since 1971 .
+ The Neiman Marcus store opened along with Copley Place in 1983 . Simon acquired the retail complex in 2002  and launched a $500M  renovation in 2015.
+ In 2022, Neiman Marcus filed a lawsuit  against Simon, claiming its Copley Place store has suffered financially due to the landlord's decision to cancel plans for a 52-story multifamily tower above the shopping complex. Neiman Marcus had shrunk its store footprint in 2016 to make room for columns for the tower. The retailer was seeking $50M in damages, but it's not clear what became of the suit.
+ The latest redevelopment announcement comes a week after Simon revealed plans to upgrade  three other malls in Nashville, Denver and Tampa, Florida. The cost for the three projects will total $250M.
+ "Copley Place has always been Boston's most exclusive luxury destination, located in the heart of the thriving Back Bay," Simon President of Development Mark Silvestri said in a statement. "By introducing these globally recognized brands and iconic dining concepts, we're taking an already exceptional experience to an entirely new level."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Jon Banister 
+ at
+ jon.banister@bisnow.com 
+ Related Topics:
+ Copley Place 
+ , Mark Silvestri 
+ , Neiman Marcus 
+ , Prudential Center 
+ , Saks Global 
+ , Simon Property Group 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Dog Haus Pursues Major Expansion After Tapping Former Jersey Mike's Execs
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Nike Closes 15 Stores Amid Tumultuous Year
+ The Fast-Food Exec Taking Her Real Estate Talents To The Looksmaxxing Era
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ TJ Maxx Parent Plans To Accelerate Store Openings In 2027
+ Ashley's Frasers Sets £20B Real Estate Acquisition Target
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

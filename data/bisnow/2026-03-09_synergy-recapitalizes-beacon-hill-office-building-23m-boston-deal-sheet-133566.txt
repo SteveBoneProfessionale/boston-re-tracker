@@ -1,0 +1,301 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/synergy-recapitalizes-beacon-hill-office-building-23m-boston-deal-sheet-133566
+INDEX_DATE: 2026-03-09
+
+Synergy Recapitalizes Beacon Hill Office Building For $23M: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Synergy Recapitalizes Beacon Hill Office Building For $23M: The Boston Deal Sheet 
+ March 9, 2026 | 4:23 pm ET 
+ Taylor Driscoll, Boston 
+ Synergy Investments recapitalized a 146K SF office building it has owned for the last 13 years.
+ Google Maps 
+ 11 Beacon St. In Boston
+ The $23M deal was for 11 Beacon St. in Boston's Beacon Hill neighborhood, according to public records. The move comes almost 10 years after the last recapitalization of the building.
+ "Synergy has owned 11 Beacon for more than 13 years, and we are pleased to recapitalize the asset while continuing our long-term ownership of a building we strongly believe in," Synergy CEO David Greaney said in a statement to Bisnow .
+ Synergy acquired the property  in 2013 for $35M from DivcoWest. Three years later, the investment firm recapitalized the property and brought in GreenOak Real Estate as a partner in a $63M deal .
+ The 14-story building was constructed in 1922 and has "gone through extensive upgrades," including renovation of the lobby and common areas,  according to the company's website . The property also includes a tenant amenity center, including a fitness center and conference space.
+ The property's tenants include the cocktail bar Carrie Nation, the nonprofit Project Citizenship, and the Kaplan International Languages English school.
+ SALES 
+ A former church in Revere, now used as a Turkish cultural center, sold for $3.4M and is set to be redeveloped into 112 units, according to public records. Middleton-based Zepaj Development LLC acquired 500 Revere St. from nonprofit Boston Dialogue Foundation.
+ LEASES 
+ Google Maps 
+ Camber Development and GEM Realty Capital's 301 Ballardvale St. in Wilmington
+ Camber Development and GEM Realty Capital secured a 56K SF lease with apparel company Brunt. The company will occupy a portion of the 126K SF advanced manufacturing facility at 301 Ballardvale St. in Wilmington.
+ CBRE's Brian McKenzie and Christian Vallis represented the building's owners, and Cresa's Derek Losi and Nathaniel Heilbron represented the tenant.
+ FINANCING 
+ MassDevelopment issues a $12M tax-exempt bond on behalf of Eagle Hill Foundation of Massachusetts for the development of a two-story, 26K SF dormitory on Eagle Hill School's campus. The project will create 59 rooms for students and four apartments for the school's faculty. Construction began in January 2026 and is expected to be completed by April 2027. The project replaces an older dormitory. Cambridge Savings Bank purchased the bond.
+ PERSONNEL 
+ MassDevelopment hired Michael Sweeney as executive vice president of Devens operations. Sweeney will join the agency later this month. In the role, Sweeney will oversee public safety, public works, recreation and utilities in the community.
+ Before this role, Sweeney worked as CEO of nonprofit Operation Able. He also held leadership roles at Fletcher Tilton PC and the Massachusetts State Lottery.
+ CONSTRUCTION AND DEVLOPMENT 
+ Boston Planning Department 
+ VinCo Properties proposed a 30-unit apartment project on the site of a former pizzeria.
+ VinCo Properties  filed plans to demolish a pizzeria in Forest Hills to make way for a 30-unit apartment building. The property is at 3716-3724 Washington St. in Jamaica Plain near the Forest Hills Orange Line station.
+ ***
+ New Jersey-based Poverni Sheikh Group filed plans to redevelop 50B Park St. in Dorchester into a 140K SF self-storage facility. The site consists of a 75K SF, single-story office building and surface parking lot. The developer plans to demolish the existing site to make way for the four-story facility and single-story outbuilding.
+ ***
+ K&CG Properties plans to build a seven-story,  108-unit apartment project at 80 Christopher St. in Dorchester. The project would replace a two-story, 24K SF auto body shop.
+ ***
+ Walmart proposed plans to expand its North Reading location by 61K SF, bringing the total to 216K SF, Banker & Tradesman reported . The expansion would be built on the north side of the building and would include additional parking. The store is at 72 Main St. in North Reading Plaza. The shopping center is owned by RK Centers.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Beacon Hill 
+ , Camber Development 
+ , CBRE 
+ , Cresa 
+ , DivcoWest 
+ , Gem Realty Capital 
+ , GreenOak Real Estate 
+ , MassDevelopment 
+ , Office CRE 
+ , Synergy 
+ , Zepaj Development LLC 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Olde Richmond Project Lands $20M Construction Loan: The Philadelphia Deal Sheet
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

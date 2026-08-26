@@ -1,0 +1,311 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/simon-secures-175m-refinancing-deal-for-northshore-mall-133032
+INDEX_DATE: 2026-02-02
+
+Simon Secures $175M Refinancing Deal For Northshore Mall: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Simon Secures $175M Refinancing Deal For Northshore Mall: The Boston Deal Sheet 
+ February 2, 2026 | 3:34 pm ET 
+ Taylor Driscoll, Boston 
+ The owner of a mall in Peabody secured a refinancing package.
+ Google Maps 
+ Northshore Mall In Peabody
+ Simon Property Group locked down a $175M refinancing package for a 1.1M SF portion of the Northshore Mall, according to Fitch Ratings. The 1.6M SF mall is anchored by JCPenney and Macy's, which aren't part of the collateral.
+ German American Capital Corp. and JPMorgan Chase provided the loan to Mayflower Realty, a joint venture between Simon and the Canadian Pension Plan Investment Board.
+ The new loan is set to mature in January 2031.
+ The mall has undergone  extensive renovations , with Simon investing more than $100M into the property. Investments include a ground lease with a Dick's House of Sport, an experiential retail variation of Dick's Sporting Goods, which is under construction and set to deliver in 2027.
+ Simon also redeveloped the former Sears building into a 90K SF Life Time Fitness, and development is underway on a 142-room hotel. In the last year, the mall has added several new tenants, including Old Navy, Van Leeuwen Ice Cream, Chocolate Moonshine and Sally Beauty.
+ The portion of the property under the loan is 95.5% leased to more than 100 retailers, including Barnes & Noble, Arhaus, H&M and Sephora.
+ SALES 
+ Arrowpoint Properties sold its 51-unit Wood Crest Apartments in Lowell for $10.9M, according to public records. The multifamily community is at 151-159 Wood St. and is 100% occupied. Arrowpoint acquired the property in 2020 and has made several improvements, including renovating half of the units and upgrading the roofing and siding.
+ ***
+ A two-building office portfolio in Wilmington sold for $10M . The portfolio includes a 41K SF office and light industrial building at 226 Lowell St. and a 21K SF office building at 230 Lowell St. The sale also includes a large parking area that could be redeveloped.
+ The seller in the deal is Lucci Realty Trust, and the buyer wasn't named.
+ Atlantic Capital Partners' Justin Smith, Chris Peterson, Danielle Turpin and John Dixon represented the seller.
+ LEASES 
+ Courtesy of Anchor Line Partners
+ A rendering of Anchor Line Partners and Northwood Investors' 245 Fifth Ave. lab building in Waltham
+ Stoke Therapeutics signed a 98K SF lease at Anchor Line Partners and Northwood's 245 Fifth Ave. property in Waltham. The company plans to take up more than double the space it occupies at its current headquarters at 45 Wiggins Ave. in Bedford.
+ Cushman & Wakefield's Mitch Perez, Connor Barnes and Michael Weiss represented Stoke, and Cushman's Michael O'Leary and Duncan Gratton represented the landlords.
+ ***
+ Renewable energy startup CapyBara Energy signed a 5,680 SF lease at Cummings Properties' research and development facility at 86 Cummings Park in Woburn. Cummings' Steve Cusano and Burgess Properties' Steve Nohrden worked on the deal.
+ ***
+ AI Proteins signed a 40K SF lease at Related Beal's One Kenmore Square in Boston. The location will serve as the company's headquarters. The two-building, 471K SF office and lab property is at 660 Commonwealth Ave. in the Fenway-Kenmore neighborhood.
+ The second building on the property is fully leased to Whoop, a wearable technology company.
+ ***
+ Hemisphere Development Group signed  a 12K SF industrial lease at 41 Innerbelt Road in Somerville. It includes roughly 10K SF of warehouse and 1,500 SF of office.
+ The Stubblebine Co.'s Danny Cruz, James Stubblebine, Micah Stubblebine and David Stubblebine represented the landlord, and The Mega Group's Jason Clark represented the tenant.
+ FINANCING 
+ MassDevelopment issued a $38M tax-exempt bond on behalf of Tremont Development Partners and E3 Development to finance the first phase of their Lakeside Apartments redevelopment in Worcester. The project will be at 19 Garland St. and 34-46 Lakeside Ave. in Worcester.
+ The properties were developed in 1949 and are operated by the Worcester Housing Authority. They will be replaced by two buildings designed under Passive House standards, totaling 116 units. The bond will finance the first 97 units.
+ The bond was purchased by Eastern Bank.
+ PERSONNEL 
+ Anthony Sardo will join CBRE's healthcare capital markets team as senior vice president. Sardo will join Chris Bodnar, Brannan Knott, Zack Holderman, Cole Reethof and Jesse Greshin.
+ Sardo is based in Boston and had a prior role as senior director of capital markets at JLL. He has also been a member of JLL's national healthcare group since 2017.
+ ***
+ Amy Schectman will retire from her role as CEO at 2Life Communities, a role she has had for more than 15 years, in October. Schectman has expanded the company's scope and reach by doubling its housing portfolio and elevating the visibility of senior care issues.
+ Lizbeth Heyer, the company's president, will step up as CEO.
+ CONSTRUCTION AND DEVELOPMENT 
+ Google Maps 
+ Mahoney Development filed plans to convert an office building at 50 Congress St. into 171 apartments.
+ Mahoney Development filed a proposal to convert a 193K SF office building at 50 Congress St . into 171 apartments. The project would be the second-largest office-to-residential conversion in Boston. The developer plans to include 20% affordability and roughly 6,700 SF of ground-floor retail.
+ ***
+ WinnCos. completed the 93-unit The Elmwood apartment building in Shrewsbury. The $35.2M project includes two three-story buildings on a vacant 9-acre parcel. The units are a mix of low-income, workforce and market-rate apartments.
+ ***
+ Advanced manufacturing company VulcanForms raised roughly $220M in funding and plans to expand operations to a third factory in Devens, the Boston Business Journal reported . The digital metal manufacturing company has two factories in Devens and Newburyport that employ roughly 300 people.
+ The new factory is set to bring on 150 employees by the end of the year.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Northshore Mall 
+ , Peabody 
+ , Refinancing deals 
+ , Simon Property Group 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

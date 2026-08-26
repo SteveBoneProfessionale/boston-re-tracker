@@ -1,0 +1,288 @@
+URL: https://www.bisnow.com/news/boston/capital-markets/synergy-related-taurus-execs-see-boston-rebound-amid-policy-headwinds-132912
+INDEX_DATE: 2026-01-26
+
+Related, Synergy, Taurus Execs Warn Boston At Risk Of 'Falling Behind' 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Capital Markets 
+ Related, Synergy, Taurus Execs Warn Boston At Risk Of 'Falling Behind' 
+ January 26, 2026 | 4:05 pm ET 
+ Taylor Driscoll, Boston 
+ Institutional investors are beginning to bet more on the recovery of the Greater Boston market, but Boston commercial real estate experts worry development-limiting policies may end up stunting the rebound.
+ Executives who spoke at the Bisnow C-Suite Kickoff event Thursday said they are excited about the CRE investment possibilities in 2026 but have concerns that Boston won't be in a position to capitalize when opportunity comes knocking.
+ Bisnow/Taylor Driscoll
+ Synergy CEO David Greaney said his concerns start with demand issues across the city. He said leaders must work together to craft policy and practice to put Boston in a position to capitalize on momentum.
+ "It needs leadership from the real estate community, business community, the politicians, the state, the city, because we do have a lot to offer and we're in danger of falling behind if we don't wake up pretty quickly," Greaney said.
+ Synergy has been a dominant buyer in the Boston market, acquiring several Class-B office buildings in the city's central business district, including 101 Arch St., 99 High St. and 179 Lincoln, all within the last couple of years.
+ Taurus Investment Holdings CEO Peter Merrigan said there were green shoots in investment interest in Boston and nationally in 2025, and he predicted even more activity in 2026.
+ "This will be a big reset year, a big transaction year," Merrigan said.
+ The executives said they believe city policies, whether they be rent control, sustainability mandates or affordability requirements, are hindering the industry's ability to fully recover.
+ "There's a lot of headwinds here," Merrigan said. "I think the bigger problem that we have going into the [multifamily] side is … rent control is on the ballot, which is pure insanity."
+ The proposed multifamily  rent control measure , which may go before Massachusetts voters in November, would cap annual rent increases to the consumer price index or 5%, whichever is lower .
+ Merrigan said that during a dinner party with Gov. Maura Healey, several major multifamily developers at the dinner warned that they would pull out of the market if the measure passes in November.
+ Healey also  opposes the ballot measure .
+ The policy pain and the concern that it may hinder growth  aren't new . Although industry leaders agree that Boston Mayor Michelle Wu's policies come in good faith, Related Cos. President Bruce Beal Jr. said these initiatives are doing more harm than good.
+ Bisnow/Taylor Driscoll
+ Colliers International's Frank Petz, Related Cos.' Bruce Beal Jr., Synergy's David Greaney And Taurus Investment Holdings' Peter Merrigan
+ Related Cos.' Boston arm, Related Beal, has worked on several affordable housing projects across the state. Most recently, the firm acquired and preserved 347 apartment units  in March 2025  at Fairlawn Estates in Mattapan.
+ "I think the problem is a lot of the folks that are engaged in these conversations are not doing the math," Beal said. "I think that the biggest thing we could do is actually say, 'Slow down here. Before we start putting things out, let's talk about the math.'"
+ Large-scale investors are used to seeing past the current policy to plan for the long term. In 2024, one of the largest European insurance companies, Legal & General,  bought a stake  in Taurus and committed up to $200M in seed capital to invest in multifamily developments in the U.S.
+ While some European investors have indicated  they may pivot away  from U.S. investments because of the political climate, Merrigan said the European insurance company is bullish on the country amid the uncertainty.
+ "Despite the angst between Europe and the U.S. right now politically, they are very much still bullish on the U.S. from a long-term perspective," Merrigan said. "These political things come and go ... and they think that the U.S. is a dominant market and will continue to be."
+ CORRECTION, JAN. 27, 2 P.M. ET:   A previous version of this article oversimplified the rent increase mechanism of the ballot measure. The story has been updated. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Bruce Beal Jr. 
+ , Dave Greaney 
+ , Peter Merrigan 
+ , Related Cos 
+ , Synergy 
+ , Taurus Investment Holdings 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Nuveen's C-PACE Fund Secures Over $1B, Its Biggest Raise Yet
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Aberdeen Goes Global With £700M Merged Fund
+ Data Center Deals Propel July CRE Sales Volume To Best Performance Since 2005
+ From Bankruptcy To $400M Buying Spree: Michael Shah's Rapid Comeback
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Wells Fargo Moves To Foreclose On $1.3B Workspace Property Trust Portfolio
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Latest Round Of Fannie Mae Senior Staff Layoffs Has Multifamily Sector Anxious
+ Efficiency, Speed And Experience: What CRE Needs To Know About The New Texas Business Courts 
+ Invesco Cuts Fees, Adds Incentives To Quell Fund Redemption Requests
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

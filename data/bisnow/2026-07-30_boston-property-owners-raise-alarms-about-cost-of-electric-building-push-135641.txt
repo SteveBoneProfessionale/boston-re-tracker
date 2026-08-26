@@ -1,0 +1,306 @@
+URL: https://www.bisnow.com/news/boston/sustainability-climate/boston-property-owners-raise-alarms-about-cost-of-electric-building-push-135641
+INDEX_DATE: 2026-07-30
+
+Boston Property Owners Raise Alarms About Cost Of Electric-Building Push 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Sustainability 
+ Boston Property Owners Raise Alarms About Cost Of Electric-Building Push 
+ July 30, 2026 | 6:01 pm ET 
+ Taylor Driscoll, Boston 
+ As Boston building owners look to electrify their properties to comply with the state and city's 2050 net-zero mandates, electrification is becoming a bigger roadblock than some anticipated.
+ Massachusetts has some of the most ambitious sustainability goals in the country, and owners are racing to electrify buildings or buy credits to avoid penalties and fees. This heightened electricity demand is straining the grid and leading to higher costs across the board.
+ Owners and sustainability experts who spoke at Bisnow 's Boston Energy and Sustainability Summit on Wednesday said these costs are adding up, and with less federal help, it is hard to make building retrofit projects pencil.
+ Bisnow/Taylor Driscoll
+ Eversource Energy's Kim Cullinane, Gid's Phil Carmody, Berkshire Residential's Hannah Tillmann, Trane's Dave Rapp, The City Of Boston's Oliver Sellers-Garcia And The Boston Housing Authority's Joel Wool
+ "Even when you've completed this highly efficient retrofit that we all want, your operational costs have actually increased," Berkshire Residential Vice President Hannah Tillmann said at the event, held at the David Rubenstein Treehouse at Harvard University .
+ "When you talk about this total cost over time, you're actually sometimes looking at an increase to operationalize that decarbonization effort."
+ The cost increases are coming from multiple sources: Owners are relying on a grid that can't withstand the increased demand, new infrastructure investments are adding to the costs, and a decrease in federal funding for sustainability projects is exacerbating the problem.
+ "If you look at the utilities and some of the studies they've done, they think electrification is 2x to 3x what it is today in the future," Solect Energy Senior Vice President Scott Howe said. "We've got AI coming on with the data centers, and we've got heat pumps and we've got EVs and all this. Think of the amount of infrastructure we have to build on the grid to support the generation it's going to take to electrify."
+ VHB Energy Market Lead Seth Lattrell said utility companies have the responsibility to deliver a reliable power grid, but there are barriers to how much they can invest in the grid at a time.
+ "They also can't invest too much too soon because that will directly impact our customer bills and also makes it difficult for them to justify that increase on their rate case, which is necessary to make these investments," Lattrell said.
+ The heightened demand has come from local and state net-zero goals that have already begun to take effect, and owners are looking at ways to electrify before deadlines to avoid noncompliance fees.
+ The city of Boston's Building Emissions Reduction and Disclosure Act , also known as BERDO 2.0 , targets large existing buildings in an effort to reduce their greenhouse gas emissions to reach its 2050 net-zero emissions goal.
+ Bisnow/Taylor Driscoll
+ Solect Energy's Scott Howe, Stantec's Ray Kettner, WinnCos.' Darien Crimmin, VHB's Seth Lattrell, Pembroke Real Estate's Torey Brooks and Evolution Sustainability Group's Jack Robbins
+ Last year was the first compliance year for large buildings of either 35 or more residential units or 35K SF or more. Smaller buildings with 15 to 34 residential units or between 20K SF and 34K SF begin compliance in 2030.
+ As of the first reporting year, roughly 80% of the square footage from large buildings is projected to comply with initial emissions standards, according to Boston Green New Deal Director Oliver Sellers-Garcia. However, roughly half of the buildings will need to do some type of work to meet 2030 compliance.
+ "In the next five to six years, what we're seeing is that the path to net-zero largely means starting to plan," Sellers-Garcia said.
+ Massachusetts is also targeting net-zero greenhouse gas emissions statewide by 2050 . The state is aiming for a 50% reduction from 1990 greenhouse gas emissions levels by 2030.
+ Roughly 80% of the buildings that will exist in 2050 have already been built, making retrofits more crucial, according to the state.
+ WinnCos . Vice President of Energy and Sustainability Darien Crimmin said electrifying the existing building stock doesn't give the same cost-saving benefits that owners were able to receive by making energy-efficiency upgrades 20 years ago.
+ "It was the low-hanging fruit," Crimmin said. "The payback paradigm worked really well and money was flowing, and that has sort of settled into our consciousness that, 'Oh, energy savings exist.'"
+ Fast-forward to now, and the metrics have changed drastically. Crimmin said rather than saving money, shifting from gas to electricity creates higher operational costs.
+ "Gas is cheaper. I wish it wasn't the case," Crimmin said. "I wish there was an easy path that we could do X, Y, Z and decarbonize — that's not reality. Being honest about challenges is critical, or else we're just being delusional."
+ WinnCos.' portfolio spans 120,855 units across 850 properties in 26 states.
+ The company has installed roughly 5 megawatts of on-site distributed generation , primarily through solar, across its portfolio. As of 2023, the company had also invested more than $50M in electrification, deep energy retrofits and other green elements.
+ Berkshire Residential's Tillmann said another issue that owners face is the hold period in which they can see these savings play out. Shorter-term owners are far less likely to see these benefits than those looking to keep properties for longer periods.
+ Bisnow/Taylor Driscoll
+ Massachusetts Port Authority's Richard Davey and Jacobs' Filo Castore
+ "You may not see that return on investment in a window that is acceptable to you as an owner, because you may be held to certain constraints within your fund or portfolio life cycle that require you to sell that property before you can even receive the financial benefit of those upgrades," Tillmann said.
+ Other issues that have made it more costly have come from the federal government, which has canceled billions of dollars in energy grants, slashed tax credits , and  prioritized oil and natural gas production .
+ The rollbacks have had serious implications for Massachusetts' clean energy sector and ongoing projects, including a $250M subsea manufacturing plant in Somerset proposed by Italy-based Prysmian Group that was canceled, Boston.com reported .
+ Although there are several barriers to making local and state sustainability goals work, state officials have been trying to address the pressures on the grid and boost local programs to help with financing and subsidies to make projects pencil.
+ Gov.  Maura Healey has made it part of her reelection campaign to lower utility bills and the cost of energy and bring more energy resources into the state. As part of an executive order signed in March , Healey called on state agencies to add 10 gigawatts to its supply and an additional 5 GW of energy storage by 2035.
+ The additional capacity will be focused on other sources of energy, including solar, wind, gas, nuclear, geothermal and hydropower.
+ At the beginning of the year, Eversource Energy, National Grid and Unitil filed long-term contracts for three energy storage projects meant to boost Massachusetts energy storage capacity by 4.5 gigawatt-hours, UtilityDive reported .
+ "The market is still pushing forward, the technology is still evolving, and the mandates are clear," Lattrell said. "Where we're at right now is really working through that tension and how that tension is exacerbated by that unresolved issue of whether the infrastructure, the financing and the sort of regulatory mechanisms are synced up to deliver."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ BERDO 2.0 
+ , Berkshire Residential 
+ , Carbon emissions 
+ , Greenhouse Gas Emissions 
+ , Net-Zero Emissions 
+ , Net zero targets 
+ , Solect Energy 
+ , VHB 
+ , WinnCos 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Nuveen's C-PACE Fund Secures Over $1B, Its Biggest Raise Yet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Moody's Warns Rising Heat, Water Scarcity Are Poised To Reshape Asset Values 
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 100% Of European Asset Managers Hold Stranded Assets. So Why Aren't We Fixing Them?
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

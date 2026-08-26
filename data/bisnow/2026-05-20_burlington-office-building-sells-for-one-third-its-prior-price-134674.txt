@@ -1,0 +1,283 @@
+URL: https://www.bisnow.com/news/boston/office/burlington-office-building-sells-for-one-third-its-prior-price-134674
+INDEX_DATE: 2026-05-20
+
+Burlington Office Building Sells For One-Third Its Prior Price 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Office 
+ Burlington Office Building Sells For One-Third Its Prior Price 
+ May 20, 2026 | 1:25 pm ET 
+ Taylor Driscoll, Boston 
+ Another suburban Boston office building has traded at a steep discount.
+ Google Maps 
+ One Burlington Woods Drive In Burlington
+ Worcester-based K & L Realty Co. acquired the 116K SF office building at One Burlington Woods Drive for $8.5M, according to deed records. The sale was posted in March but hasn't been previously reported.
+ The price is far less than the $26.6M that seller Griffith Properties paid for the building in 2013, an indication of the plunge in value the region's office properties have suffered since the pandemic.
+ Griffith had acquired One Burlington Woods Drive from Colony Realty Partners, which had bought it in 2012 from  The Davis Cos. , according to deed records. Griffith didn't respond to  Bisnow 's request for comment.
+ The property is 60% occupied, with RW Holmes acting as the leasing broker, a K & L representative told  Bisnow .
+ The office building was built in 1981 and renovated in 2011. It sits near the Burlington Mall and the highway. The property includes a cafeteria and fitness center with showers, lockers and towel service.
+ The latest sale pencils out to about $70 per SF, a price that another suburban office owner pointed to this week as relatively low, saying it enables the new owner to sign tenants at cheaper rents.
+ "You talk about a One Burlington Woods that I think just sold for 70 bucks a foot, their value might be giving someone a great price point to come into Burlington that's out on 495 that might not otherwise be able to come into Burlington," said Nordblom Executive Vice President Crosby Nordblom, speaking at Bisnow 's Boston Office and Workplace Conference.
+ Office vacancy across 128 North, the submarket that includes Burlington, stood at 14% last quarter, less than the 17.8% vacancy across the whole Route 128 corridor, according to Cushman & Wakefield . However, leasing activity for the submarket was the lowest in the corridor, with roughly 73K SF of deals signed in the first quarter.
+ Another piece of the complex, the life sciences building at 3 Burlington Woods Drive, also traded hands in March. It sold for $16.5M to  The Lightstone Group .
+ That property previously sold from Griffith to GI Partners in 2022 for $58M, deed records show. The 175K SF, four-story life sciences conversion includes a fitness center, grab-and-go food service and charging stations.
+ Newmark brokered both sales , according to LinkedIn posts  from Associate Director Will Sleeper. He didn't respond to requests for comment on the deals.
+ Other discounted office and life sciences sales have taken place in Burlington.
+ Last year, Los Angeles-based Montana Avenue Capital Partners acquired the Kuerig Dr Pepper headquarters for just under $160M, the Boston Business Journal reported . The firm bought another property at 4 Burlington Woods Drive for $33M in 2022.
+ In February, A123 Systems acquired 10 Corporate Drive from GEM Realty and The Gutierrez Co. for roughly $20M , a 52% discount from the price at which the joint venture acquired it.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Burlington 
+ , Burlington Woods 
+ , Griffith Properties 
+ , K & L Realty Co. 
+ , One Burlington Woods 
+ , Three Burlington Woods 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Tishman Speyer Lining Up $340M Refi Of 2.4M SF Chicago Office Complex
+ Dutch Office Investment Leaps — But The Conversion Play Runs Out Of Road
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Cross Ocean Partners, Fuller Realty Acquire 829K SF Houston Office Campus
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ NYC Office Investor Warns It Could Go Under As Defaults Pile Up
+ Deutsche Bank Takes 5 Floors At Oaktree And Quadrant's Canary Wharf Scheme
+ Coconut Grove Office Flipped For $15M Gain After One Year
+ D.C.'s Office Market Is Getting A Makeover
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

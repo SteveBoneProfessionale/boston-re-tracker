@@ -1,0 +1,290 @@
+URL: https://www.bisnow.com/news/boston/office/strong-leasing-fails-to-close-bostons-office-vacancy-gap-132705
+INDEX_DATE: 2026-01-13
+
+Strong Leasing Activity Fails To Close Boston's Office Vacancy Gap 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Office 
+ Strong Leasing Activity Fails To Close Boston's Office Vacancy Gap 
+ January 13, 2026 | 2:13 pm ET 
+ Taylor Driscoll, Boston 
+ Pixabay 
+ The Boston office market ended the year with several large leases, but stubbornly high vacancy indicates that recovery may still be far off.
+ At the close of the fourth quarter, the area's office market saw 1.9M SF of leasing activity, ending the year at 5.8M SF,  according to data from CBRE . That figure represents the second-largest year-to-date leasing activity total in 15 years, just behind 2019.
+ However, even with this flurry of leasing activity, the office market still lags in vacancy rates compared to similar markets. Boston's office vacancy rate is the highest out of all major Northeastern cities, including New York, Philadelphia and Washington, D.C.,  the Boston Business Journal reported .
+ And it has stayed stubbornly high. Vacancy in Greater Boston stood at 18.9% at the end of the fourth quarter, nearly identical to the 18.8% recorded in Q3, according to CBRE.
+ The biggest leases of the year came from renewals and consolidations, activity that didn't make much of a dent in the overall metro office market. Those moves may reflect the uncertainty tenants currently feel, CoStar Analyst Phil Mobley said.
+ "More of these larger players in particular are faced with the decision, ‘Well, do we just simply stay in place, or do we move to a building that's maybe not quite in a perfect location or not quite the class of office we are looking for?'" Mobley said.
+ Wayfair  had the largest lease of the quarter with a 337K SF renewal and expansion at Oxford Properties ' 500 Boylston St. The firm plans to consolidate operations from 784K SF at Copley Place,  Banker & Tradesman reported . WilmerHale  had the second-largest lease, a 201K SF renewal and downsize at 60 State St.
+ DraftKings followed with a 117K SF relocation to Oxford's 225 Franklin St. The online sports betting platform occupied roughly the same amount of space at 500 Boylston St.
+ Bisnow/Taylor Driscoll
+ Boston Global Investors' 10 World Trade Center
+ Increased leasing activity is a good thing, but not the only key to recovery, Mobley said.
+ "Boston is in a little bit of a strange position where, yes, we have seen leasing increase, but the market is still struggling for vacancy to stabilize," he said.
+ One bright spot of the CBRE report is that urban migration into the office market hit a five-year high. Roughly 765K SF of tenants relocated their offices to Downtown Boston at the end of 2025.
+ Hasbro signed a 265K SF lease at WS Development 's 400 Summer St.  in September , relocating from Rhode Island. Other major downtown relocations include KKR 's  132K SF relocation and expansion  at The Chiofaro Co.'s International Place and FM Global 's  50K SF  at Hines ' South Station Tower .
+ The Boston office market has almost 24% availability as of the fourth quarter, Colliers Research Director Jeff Myers said. A surplus of new space has kept that figure high.
+ Surplus Class-A inventory will likely be the first filled, Myers said. Roughly 1M SF of new trophy space was delivered in 2025, including South Station and 10 World Trade Center.
+ "What I really need to see is that pipeline getting filled with more companies that are coming in or expanding," Myers said.
+ Courtesy of Gensler
+ A rendering showing the renovated entrance of International Place along the Rose Kennedy Greenway. 
+ Slow job growth in Massachusetts hasn't helped, he said. Unemployment lay flat in November at 4.7%,  according to Mass.gov . That metric is slightly above the national unemployment rate of 4.6%.
+ Myers said another issue is the continued slog in venture capital, which has slowed company creation in value-add industries such as technology and life sciences. Between 2024 and 2025, life sciences venture capital funding  decreased by 13% , according to  life sciences organization MassBio .
+ "I want to see more job creation. I want to see more venture capital happening in 2026, and that will help us to really get that recovery in vacancies moving faster in the upcoming quarters," Myers said.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ CBRE 
+ , Colliers 
+ , CoStar Group 
+ , Jeff Myers 
+ , Office leasing 
+ , Office vacancy 
+ , Phil Mobley 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Tishman Speyer Lining Up $340M Refi Of 2.4M SF Chicago Office Complex
+ Dutch Office Investment Leaps — But The Conversion Play Runs Out Of Road
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Cross Ocean Partners, Fuller Realty Acquire 829K SF Houston Office Campus
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ NYC Office Investor Warns It Could Go Under As Defaults Pile Up
+ Deutsche Bank Takes 5 Floors At Oaktree And Quadrant's Canary Wharf Scheme
+ Coconut Grove Office Flipped For $15M Gain After One Year
+ D.C.'s Office Market Is Getting A Makeover
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

@@ -1,0 +1,279 @@
+URL: https://www.bisnow.com/news/boston/industrial/burlington-lab-conversion-sells-at-discount-to-battery-manufacturer-133046
+INDEX_DATE: 2026-02-03
+
+Battery-Maker A123 Systems Buys Converted Lab Space For Steep Discount 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Industrial 
+ Battery-Maker A123 Systems Buys Converted Lab Space For Steep Discount 
+ February 3, 2026 | 1:46 pm ET 
+ Taylor Driscoll, Boston 
+ Google Maps 
+ 10 Corporate Drive In 2020. The Gutierrez Co. Converted The Property Into Lab Space In 2021.
+ A lab project in Burlington sold at a 52% discount to a battery-maker that has survived past political controversy.
+ Lithium-ion battery manufacturer A123 Systems acquired a 115K SF lab conversion at 10 Corporate Drive for almost $20M from The Gutierrez Co., according to public records. The Gutierrez Co. bought the property for $42M in 2021.
+ A123 Systems is currently located at BXP's  200 West St. in Waltham . The company shares the 272K SF building with Translate Bio. The manufacturer also has a facility in Novi, Michigan.
+ The battery-maker is perhaps most well-known for a $249M loan it received in 2009 from the federal government through  a program designed to jumpstart the U.S. clean energy economy . The program was funded as part of the stimulus package signed into law that year by President Barack Obama.
+ With the funding and additional state and local incentives, A123 Systems opened three manufacturing plants in Michigan slated to support 3,000 jobs .
+ However, A123  filed for bankruptcy in 2012 , which gave Republican lawmakers ammunition to criticize Obama and the grant and loan program  leading up to the 2012 presidential election.
+ Chinese auto parts manufacturer Wanxiang Group successfully bid in 2013 to acquire the automotive parts of the company, with  Navitas Systems LLC  buying the defense-related parts of the portfolio. Now an LLC operating under Wanxiang, A123 focuses more broadly on various battery-related energy storage solutions.
+ In 2025, A123  appointed JLL as its real estate adviser for the development of a third planned facility in the U.S.
+ A123 Systems and The Gutierrez Co. didn't respond to  Bisnow 's request for comment.
+ The Gutierrez Co. converted the property to lab space at a time when such space was in high demand and office buildings were not. Excess office space  has become prime ground for lab conversions .
+ Since then, however, the lab market has fizzled, and vacancy has climbed in the Boston area. With a glut of new lab space, tenants have  become more selective , and conversion projects  have become less desirable  for traditional lab tenants.
+ Traditional lab space is  increasingly being filled by tenants in tough tech, advanced manufacturing and clean tech.
+ The Gutierrez Co. has developed over 11.7M SF of real estate since 1978, including lab, industrial and residential space, according to its website . The company also has a property management arm, which manages over 2.2M SF of real estate investment.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ A123 Systems Corp. 
+ , Burlington 
+ , Life sciences conversion 
+ , The Gutierrez Co 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Power Availability Becomes New Requirement For Shifting Bay Area Industrial Base
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ EXCLUSIVE: Industrial Outdoor Storage Investor Continues Buying Spree In Metro Atlanta
+ Amazon Building 1.2M SF Distribution Facility In Aurora
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Starwood, Realterm Fund Record Industrial Outdoor Storage Loan
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Rexford To Sell $1.2B Industrial Portfolio As Part Of Plan To Increase Dispositions 
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

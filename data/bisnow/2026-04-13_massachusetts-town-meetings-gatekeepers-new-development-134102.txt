@@ -1,0 +1,317 @@
+URL: https://www.bisnow.com/news/boston/multifamily/massachusetts-town-meetings-gatekeepers-new-development-134102
+INDEX_DATE: 2026-04-13
+
+In Massachusetts, Town Meetings Are Gatekeepers To New Development 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Multifamily 
+ In Massachusetts, Town Meetings Are Gatekeepers To New Development 
+ April 13, 2026 | 2:46 pm ET 
+ Taylor Driscoll, Boston 
+ Nothing is more New England than a town meeting.
+ Having deep roots in the region's Puritan founding in the mid-17th century , town meetings were designed to decide fundamental things like land distribution, taxation and infrastructure needs. They have now become make-or-break steps for large-scale developments.
+ Wikimedia Commons/TimothyDexter 
+ A Town Meeting In Huntington, Vermont
+ "Town meeting takes its authority very seriously, and they're a tough crowd," Nordblom Co . Senior Vice President of Development Todd Fremont-Smith said.
+ There are roughly 1,522 municipalities across New England, most of which retain strong local control over land use, development and zoning. In Massachusetts, nearly 75% of towns have adopted an open town meeting format for all their voting citizens.
+ While most other states use city councils and planning commissions for large developments and zoning plans, New England towns rely heavily on these meetings for such decisions.
+ Critics argue that what was first created to democratize town governance and move away from British rule now exacerbates NIMBYism and poses a significant hurdle to developers and local officials looking to address the housing crisis.
+ "We see a lot of this visceral opposition to change, and that sort of concentrated opposition can sometimes get overrepresented in town meetings," Boston University  associate professor Katherine Levine Einstein said. "Those people are very mobilized to show up."
+ Most projects that land before a town meeting have historically needed a two-thirds vote to pass, which has been a high burden for developers.
+ However, the state passed a law in 2021 that created a carve-out to the rules to spur new housing. It requires a simple majority to pass zoning for large developments that would produce significant housing.
+ "That's a huge thing that happened at the state that would never have happened at the local government," Fremont-Smith said.
+ The demographics at a town meeting paint a picture of why it can concentrate resistance to change.
+ Attendees at these often marathon, in-person meetings are mainly older homeowners in the area who are more willing to mobilize against development that would change neighborhoods, Einstein said.
+ Many of the younger residents and renters who are more likely to be pro-housing don't participate at the same level, she said.
+ The projects that usually end up at town meetings are larger redevelopments on town land or those that need significant zoning changes.
+ Town members have helped shape the barriers that have historically made it difficult to bring projects before the town meeting. Zoning and design requirements are also usually voted on during these meetings.
+ Town of Brookline 
+ "We in Massachusetts, by and large, have set our zoning so that it is incredibly difficult to build multifamily housing, especially any kind of larger-scale development," Einstein said. "You are likely in most of the communities in the Greater Boston area to run into these sort of significant regulatory obstacles."
+ One project that will go before Brookline Town Meeting members on May 26 is Nordblom Co.'s proposal to build a seven-story, 103-unit housing project near the town's Coolidge Corner neighborhood. The 26 Pleasant St. site is home to a surface parking lot that the company has owned for more than 50 years.
+ The project needs town meeting approval for zoning changes on the lot. After that, it will need a special permit from the Brookline Planning Board.
+ Fremont-Smith said the site garners roughly $30K per year in real estate tax revenue, but the new project would generate roughly $600K in tax revenue per year.
+ Fremont-Smith said town meetings are different from going in front of a planning board or city council, which can be more technical in their questioning. He said that the town meeting is more like a free-for-all of opinions and thoughts.
+ "They're not professionally enmeshed in the development world as perhaps a planning board might be," Fremont-Smith said.
+ Since the Brookline project under consideration is solely residential, Fremont-Smith said that the company only needs to lock down a simple majority.
+ This isn't the company's first time navigating town meetings.
+ In October 2025, Nordblom went before the town of Burlington for the approval of a 188-unit apartment complex. The company won approval for it .
+ Fremont-Smith said developers need to sell the story of the project and what it can bring to the town rather than dive into the technical and design aspects.
+ He said a successful project is also one where the developer immerses itself in the community.
+ "If they don't know you from a hole in the wall, it's easy to say no," Fremont-Smith said.
+ Not every project is a slam dunk. Fremont-Smith said the company has fallen short in at least one town meeting in the past. He said it decided not to refile but to follow the zoning that was already on the site.
+ For projects that do get turned down, the blow is a major time suck, as the state law doesn't allow a project to be refiled for town meeting within two years  under its "two-year bar" law . Even after the waiting period, if significant changes aren't made, the project likely won't move forward.
+ Google Maps 
+ Brookline Town Hall
+ Local opposition can have a big impact on projects, even before making it to a town meeting.
+ In 2024, City Realty Group proposed a 1.2M SF project on a 5-acre site along Route 9 in Brookline's Chestnut Hill Commercial Area.
+ Since that initial proposal, the developer has presented hundreds of iterations to the Planning and Select boards for approval. The most recent proposal, which spans three buildings, includes 266 housing units, a 200-room hotel and medical office space.
+ The project was supposed to go to the town meeting last year but was pushed back after Planning Board members couldn't decide on the fate of the site and heard significant pushback from neighbors .
+ The delay created such a financial impact that City Realty considered pursuing the state's 40B affordable housing law, which includes a provision that would allow developers creating affordable housing to circumvent the town meeting process.
+ "Everyone seems to think that we've been running the show, but we've been kind of following orders throughout," City Realty Group Chief Development Officer Cliff Kensington said. "It's the town bringing the zoning versus us, the property owners. We are not the applicant."
+ Since last year's town meeting in Brookline, however, the town selected a new Select Board member, entrepreneur and pro-housing advocate Michael Rubenstein, who helped reignite momentum for the project.
+ Since the project is not solely residential and the town is pushing for a tax certainty agreement for the project, it still would need a two-thirds vote in its favor.
+ The delay is costly in itself, but it also creates uncertainty that can be even worse for developers. Kensington said the firm can't move forward with leasing the retail space or finding a hotel to fill the space until things move forward.
+ "There's a point where the rubber meets the road," Kensington said. "There's only so long that we can keep buildings untenanted and have no path forward."
+ The most recent example of a town's resistance to zoning changes has been the ongoing MBTA Communities overhaul.
+ It has been a bitter war between smaller towns and the state government over creating by right zoning for residential development near transit stops. Towns including Milton , Holden and Dracut  have all voted down their MBTA Communities zoning plan.
+ In Holden's last town meeting in March, town meeting members voted down the plan for a second time, with the town manager saying meeting members seem to be "ideologically opposed to the concept no matter what," GBH reported .
+ New voices may be emerging from the din of the town meeting, however, that may help development move forward. Einstein said the pro-housing advocates have become much more vocal at town meetings as more communities come to terms with the housing crisis.
+ She pointed to Lexington's MBTA Communities plan, which has already led to thousands of units proposed or under construction .
+ "I think that has made a major difference in some communities, where they've been able to pass more ambitious rezoning efforts that have actually led to measurable increases in the amount of housing supply built," she said.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Brookline 
+ , City Realty Group 
+ , Clifford Kensington 
+ , New England 
+ , Nordblom Co 
+ , Todd Fremont-Smith 
+ , Town meeting 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ MG Developer Faces 6 Lawsuits Alleging Millions In Overdue Debt
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Jemals Sell Georgetown Building To Developer Planning Conversion
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

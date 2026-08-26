@@ -1,0 +1,299 @@
+URL: https://www.bisnow.com/news/boston/deal-sheet/danvers-industrial-portfolio-trades-for-47m-boston-deal-sheet
+INDEX_DATE: 2026-08-18
+
+Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Deal Sheet 
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet 
+ August 18, 2026 | 6:40 pm ET 
+ Taylor Driscoll, Boston 
+ A Connecticut real estate developer acquired a three-building industrial campus in Danvers. 
+ Google Earth 
+ 33, 35 and 37 Cherry Hill Drive in Danvers
+ An entity linked to Greenwich, Connecticut-based Luzern Associates paid $47.7M for 33, 35 and 37 Cherry Hill Drive in Danvers, according to deed records. The sellers in the deal were Burlington-based R.J. Kelly and Battery Global Advisors.
+ Medical technology company Medtronics leases space at 35 and 37 Cherry Hill Drive, and G&F Precision Molding leases space at 33 Cherry Hill Drive.
+ CBRE represented the seller in the deal, Vice Chairman Scott Dragos announced on LinkedIn . 
+ SALES 
+ BGO and Seyon acquired a two-building, 134K SF industrial portfolio in Marlborough for a combined $28M, according to deed records. The joint venture acquired a 59K SF industrial property at 261 Cedar Hill St. for $13M and a 75K SF property at 753 Forest St. The portfolio is 100% leased.
+ ***
+ A portion of a former Raynham dog track has sold to National Grid for $33.7M, according to an Aug. 13 deed record. The seller was the Carney dog racing family. The sale of the site at 1958 Broadway was brokered by CBRE.
+ ***
+ New York-based Lightstone Group acquired a 139K SF office building at 400 Riverpark Drive in North Reading for $43M. The seller was Atlantic Management, which had acquired the property in 2021 for $20M from DivcoWest and Taurus Investment Holdings. The property is fully leased to Amazon Robotics.
+ LEASES 
+ Google Maps 
+ Whoop's headquarters at One Kenmore Square
+ Wearables company Whoop is in talks to sign a 107K SF lease at 660 Beacon St. in Kenmore Square, its CEO said last week. The lease would nearly double the company's office presence in the neighborhood where it is headquartered. 
+ ***
+ The Red Sox signed a 100K SF lease at Samuels & Associates' 1325 Boylston St. office tower near Fenway Park, Banker & Tradesman reported . The organization will occupy the entire top three floors of the 237K SF, 11-story tower known as Van Ness. The move will consolidate operations, bringing the Red Sox, Fenway Sports Management and Fenway Sports Group under one roof. The lease is expected to commence in November and run for six years.
+ ***
+ Alexandria Real Estate Equities secured a 160K SF lease from tech company Onto Innovation at Alexandria's 3000 Minuteman Road in Andover, B&T reported . 
+ FINANCING 
+ WS Development and PSP Investments secured a $660M refinancing loan for their One Boston Wharf Road office building in the Seaport, according to public records. The 708K SF office tower is fully leased to Amazon.
+ ***
+ Millennium Partners landed a $281M commercial property assessed clean energy loan from Nuveen Green Capital for the residential portion of its Winthrop Center tower. The mixed-use tower opened in 2023 with more than 800K SF of offices and 317 condominium units.
+ ***
+ Dinosaur Capital secured a $39.6M construction loan for its 31 Milk St. office-to-residential conversion, according to a Monday public record. The lender was Miami-based S.USA Life Insurance Co. The developer also received a $4.5M loan from Roxbury-based Bluehub Loan Fund. The 110-unit project was approved by the Boston Planning Department in October.
+ ***
+ AEW Capital Management, Optimum Asset Management and Redgate secured a $30M loan from Avidia Bank for their 14-16 Oak Park Drive lab building in Bedford, according to public records. The trio acquired the 168K SF office building in 2022 for $27M and later converted it into a lab facility known as Riverwalk Labs.
+ CONSTRUCTION AND DEVELOPMENT 
+ Google Maps 
+ The Park Square building at 31 St. James Ave. in the Back Bay
+ New York-based Vanbarton Group filed a proposal to convert the 540K SF office building at 31 St. James Ave. into roughly 490 residential units, The Boston Globe first reported . The proposed conversion could cost up to $410M.
+ ***
+ The Boston Planning Department approved four development projects totaling 329 units and 399K SF during its monthly meeting on Thursday . The board also approved new zoning for clean energy infrastructure, including solar panels and wind turbines. And it swore in Felicia Jacques as the fifth and final member of the board.
+ ***
+ British investment firm L&G Asset Management acquired part of an office park at 292-294 Baker Ave. in Concord, where it plans to start work this fall on a two-building, 201-unit multifamily project . The company is partnering with Taurus Investment Holdings, which advanced the project through the planning stages. 
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Battery Global Advisors 
+ , Luzern Associates 
+ , R.J. Kelly 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Downtown Office Tower Secures $575M Refinancing
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ American Cancer Society Aims To Bring New Lodging To South Side: The Chicago Deal Sheet
+ The New School Sells First Dorm To Hawkins Way Capital: The N.Y. Deal Sheet
+ 2 Senior Housing Facilities Sell For $172M: The South Florida Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers To Bring 83K SF Industrial Project To Colleyville: The DFW Deal Sheet
+ JLL Lists 2M SF Maritime Campus: The San Francisco Deal Sheet
+ Local Coffee Shop To Open Third Location: The Denver Deal Sheet
+ The Honest Co. Moving HQ To The Bluffs: The Los Angeles Deal Sheet
+ Trammell Crow Starts Phase Of 2M SF Industrial Park: The Houston Deal Sheet
+ Sandy Springs Shopping Center Gets Incentives For Major Overhaul: The Atlanta Deal Sheet
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

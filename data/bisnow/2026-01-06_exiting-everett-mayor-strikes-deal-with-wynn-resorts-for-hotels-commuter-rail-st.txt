@@ -1,0 +1,279 @@
+URL: https://www.bisnow.com/news/boston/economic-development/exiting-everett-mayor-strikes-deal-with-wynn-resorts-for-hotels-commuter-rail-stop-132579
+INDEX_DATE: 2026-01-06
+
+Exiting Everett Mayor Strikes Deal With Wynn For Hotels, Commuter Rail Stop 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Economic Development 
+ Exiting Everett Mayor Strikes Deal With Wynn For Hotels, Commuter Rail Stop 
+ January 6, 2026 | 2:20 pm ET 
+ Taylor Driscoll, Boston 
+ In one of his last moves before leaving office, former Everett Mayor Carlo DeMaria cleared the way for Wynn Resorts to build two hotels and a new commuter rail stop.
+ Bisnow/Cameron Sperance
+ Encore Boston Harbor 
+ DeMaria signed a memorandum of agreement with Wynn Resorts that would allow the company to move forward with two non-gaming hotels along Everett's Lower Broadway, the city announced on Tuesday . In addition to the hotels, the agreement includes a new commuter rail stop adjacent to the  Encore Boston Harbor  casino.
+ Although it is unclear how much the city and Wynn Resorts would be expected to pay in the agreement, the company agreed it would fund up to $25M toward the studies and potential construction costs of the commuter rail stop on the Newburyport/Rockport line.
+ The agreement would allow the city to tax the hotels on real estate, personal property, room and meals totaling roughly $10M per year, The Boston Globe reported . The new hotels would bring up to 800 rooms.
+ The commuter rail stop is subject to approval by the Massachusetts Bay Transportation Authority. Any future development must comply with applicable environmental remediation standards before construction can begin.
+ The agreement closes out DeMaria's pro-development administration that led the way for several massive redevelopment projects to come to fruition and the promise of a new soccer stadium spearheaded by The Kraft Group .
+ DeMaria was voted out  in November  amid controversy surrounding $180,000 in payments he received from the city. Former City Council Member Robert Van Campen is DeMaria's successor.
+ However, DeMaria led a massive development era for Everett, which lies roughly 4 miles from Boston. When he took office in 2008, DeMaria helped reimagine the hundreds of acres of underutilized industrial land in the city's Commercial Triangle  and across its waterfront.
+ He was part of the effort to land the $2.6B deal for the Encore Boston Harbor casino, which opened in 2019 . The project has raked up an estimated $27M in annual tax and mitigation payments.
+ The project has helped open the door to even more development across the city, including in the Lower Broadway, where the casino calls home. Developers, including Greystar , V10 Development and The Davis Cos. , have since proposed thousands of units and millions of square feet of new commercial development across the city.
+ Everett saw a 16% increase in net new housing permits between 2015 and 2021, more than any other Greater Boston city, according to Metropolitan Area Planning Council data .
+ However, growth under DeMaria has led to concerns about whether the city will remain affordable for longtime residents. Gross median rental prices for apartments in Everett grew by 43% from 2019 to 2023 compared to 2014-2018. That percentage spike in rental prices was tied for second-most among a comparison of nine communities in Greater Boston during that time period, according to a report by the Metropolitan Area Planning Council .
+ Earlier this month, The Kraft Group struck a deal for $90M in community benefits with the city as part of its $500M soccer stadium set to be constructed along the city's side of the Mystic River .
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Carlo DeMaria 
+ , Encore Boston Harbor 
+ , Everett 
+ , Wynn Resorts 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Aerospace And Defense Company Opens 60K SF Facility In Arvada
+ How Pearland, Texas, Is Redefining Workforce Development
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ How Addison, Texas, Upholds Its Regulatory Standards And Keeps Building Projects Moving Forward
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ 'Quality Of Place': One Inland Empire City's Manual For Smart Growth
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

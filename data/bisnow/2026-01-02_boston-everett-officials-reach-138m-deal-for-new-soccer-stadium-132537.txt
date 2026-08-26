@@ -1,0 +1,295 @@
+URL: https://www.bisnow.com/news/boston/hospitality-entertainment/boston-everett-officials-reach-138m-deal-for-new-soccer-stadium-132537
+INDEX_DATE: 2026-01-02
+
+Kraft Strikes $138M In Deals With Boston, Everett For New Soccer Stadium 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Hospitality & Entertainment 
+ Kraft Strikes $138M In Deals With Boston, Everett For New Soccer Stadium 
+ January 2, 2026 | 10:28 am ET 
+ Sasha Jones, New York City 
+ The Kraft Group  has struck deals with local government officials to give Boston's 30-year-old soccer team, the New England Revolution, the first home of its own.
+ Under the agreements, the city of Boston would receive approximately  $48M spread over 15 years  from the Kraft Group, while  Everett  would benefit from more than $90M over 20 years.
+ Courtesy of the city of Everett 
+ A Rendering Of The Proposed New England Revolution Soccer Stadium.
+ The proposed $500M soccer stadium would be built alongside the Mystic River in Everett. As a result, the deal includes $20M to build a 4-acre waterfront park, along with additional funds to maintain it. Kraft would also pay $17.5M for a new entrance at the Orange Line's Assembly station in Somerville  near a pedestrian bridge that would connect to Everett across the river.
+ The city of Everett would also receive a $2.25-per-ticket fee from the stadium, which would provide the Revolution their first dedicated stadium since the team was founded in 1996 as an inaugural franchise in Major League Soccer. The club has shared stadiums with the New England Patriots — also owned by the Kraft Group — in suburban Foxborough for the past three decades.
+ Boston's agreement is concentrated on infrastructure improvements for Sullivan Square in Charlestown , the neighborhood expected to be most impacted by the influx of traffic caused by the stadium just outside the city limits.
+ Under the deal, Boston would receive $13M in direct payments and establish a similar per-ticket fee structure — half of which would be directed to Charlestown-specific municipal projects. The city would receive $1 per soccer ticket or 1.5% on top of each concert ticket, the Boston Globe reports .
+ Ticket fees for both Boston and Everett would be adjusted for inflation, the Globe reported.
+ Kraft also agreed to coordinate with the city to manage construction as well as traffic and parking once the stadium is completed. The group committed to solicit 25% of construction and ongoing contracts from local minority-, woman- or veteran-owned companies. Boston residents would be prioritized in hiring for stadium jobs.
+ Under the deal, the stadium would be built under 2070 flood resilience standards, as well as comply with zero net carbon operational goals and noise and light pollution mitigation requirements.
+ The announcement, made Wednesday, is a major milestone in making the $500M soccer stadium a reality. It was necessary to meet a state-imposed Dec. 31 deadline to secure zoning approvals, according to the Globe. However, the project still needs state and city environmental and planning approvals to start construction.
+ "These agreements demonstrate the power of public‑private partnership to deliver transformational outcomes," the Kraft Group said  in a statement . "We look forward to continued collaboration with Everett, Boston, and the community as the project advances through local and state review and as we take the many next steps necessary to bring this vision to life."
+ Courtesy of the city of Everett 
+ A rendering of the waterfront park proposed for the New Eagle Revolution stadium development
+ The stadium is slated to be built on the site of the Mystic Generating Station, a power station that was fully decommissioned in 2024.  Current legislation  allows for only the development of a stadium and park; otherwise, the lot will revert back to industrial use, according to the  city of Everett .
+ "This stadium will enhance Boston's position as the sports and entertainment capital of New England while transforming a blighted site on our doorstep,"  Mayor Michelle Wu  said in a statement.
+ Wu's office noted that Kraft initially offered just $750K in a one-time payment for mitigation funds for the city. Kraft Group CEO  Robert Kraft  is the father of  Josh Kraft , who ran against Wu for mayor in 2025.
+ The deal with Everett was inked in the final hours of Mayor Carlo DeMaria's tenure. DeMaria oversaw a massive  development boom in Everett , which included the $2.6B  Encore Boston Harbor  casino, also on the Mystic River.
+ "It's huge for us," DeMaria told the Globe following the Kraft deal. "It's something I envisioned for a long, long time … I'm happy to have been able to get it done before my last days in office."
+ While teams in the four major North American sports leagues — the NFL, NBA, MLB and NHL — have driven the majority of new stadium development in recent years, MLS teams are increasingly anchoring new projects and districts that surround them.
+ New York City's first soccer stadium is under construction in Queens. It is tied to a larger development that is expected to yield thousands of affordable housing units.
+ In a 2022 announcement, former  Mayor Eric Adams  said the  Willets Point  stadium and surrounding development would generate $6.1B in economic impact over 30 years. However, watchdogs have since criticized the proposal, highlighting that the deal reached by the city passes up more than  $500M in tax revenues .
+ In Miami, Inter Miami FC is building a stadium district on city-owned land called Miami Freedom Park, which is expected to open in April . The $1B project, which includes retail, housing, hotels and offices, is the  first stadium district coming to the region.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Sasha Jones 
+ at
+ sasha.jones@bisnow.com 
+ Related Topics:
+ Carlo DeMaria 
+ , Charlestown 
+ , Everett 
+ , Josh Kraft 
+ , Major League Soccer 
+ , Mayor Michelle Wu 
+ , Mystic River 
+ , New England Revolution 
+ , Robert Kraft 
+ , Sullivan Square 
+ , The Kraft Group 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ MG Developer Faces 6 Lawsuits Alleging Millions In Overdue Debt
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ LA City Council Approves Plan To Let Olympics Projects Sidestep CEQA
+ Trump's New Canadian Tariffs To Spike Additional Materials Costs
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Turner Construction Hit With Cyberattack, Hackers Claim Leaks Of Military Info, NDAs 
+ Demolition Underway On Hawthorne Plaza
+ Why Hines Is Restarting Its Development Engine
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

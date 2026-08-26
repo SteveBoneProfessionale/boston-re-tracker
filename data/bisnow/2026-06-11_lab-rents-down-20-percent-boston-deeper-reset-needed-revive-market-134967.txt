@@ -1,0 +1,299 @@
+URL: https://www.bisnow.com/news/boston/life-sciences/lab-rents-down-20-percent-boston-deeper-reset-needed-revive-market-134967
+INDEX_DATE: 2026-06-11
+
+Lab Rents Down 20% In Boston, But A Deeper Reset May Be Needed To Revive Market 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Life Sciences 
+ Lab Rents Down 20% In Boston, But A Deeper Reset May Be Needed To Revive Market 
+ June 11, 2026 | 2:06 pm ET 
+ Taylor Driscoll, Boston 
+ The life sciences market is finally showing signs of recovery after a three-year slump, but the industry hub of Boston has a deep hole to climb out of.
+ Many big lab projects that started construction speculatively during the pandemic-era life sciences boom were unable to lease up after the sector's demand froze in 2023. Greater Boston's 51M SF lab market had 33.3% vacancy as of last quarter, the third straight year above 30%, according to JLL.
+ The sector is showing some signs of life, with incubator spaces reporting growing demand from startups. But that activity has yet to translate into the type of lab leasing Boston needs to bring down its sky-high vacancy, in part because startups have become more cautious about making lease commitments for big spaces.
+ Bisnow/Taylor Driscoll
+ A 310K Sf Lab Building Developed By Iqhq Near Fenway Park
+ "If we're hoping to have this massive recovery, it's just not going to be this giant shoot to where companies are going to come out of the blue and take 5K SF, 10K SF, 15K SF in the next year or two," HelixPoint Capital Managing Partner Joe Collura said last week at  Bisnow's  Boston Life Sciences Conference, held at Harvard University's David Rubenstein Treehouse.
+ "And each of these empty buildings are 300K SF, 400K SF. It's just not reality."
+ The best way for the real estate industry to reduce the amount of vacant lab space on the market is by taking buildings that had been speculatively converted from office to labs and turning them back into their prior use, Collura said, a trend that has begun to occur.
+ The other way landlords are attempting to drive absorption is by bringing down rents.
+ Greater Boston's asking rents have fallen more than 20% since mid-2022, including a 9.7% drop between the first quarter of 2025 and 2026, according to JLL.
+ But rents may have further to fall, as labs in Boston are still more expensive than the other top markets. Boston's average asking rent of $76.72 last quarter was above the $68.64 in the Bay Area and the $64.30 in San Diego, and more than double the $37.77 in Raleigh-Durham.
+ Owners have a limit to how much they can drop rents without losing money on a building, and many developers that built during the lab boom did so with a high cost basis that makes it impossible to accept much lower rents. But if a building goes through foreclosure or sells at a steep discount, the new owner has more flexibility to offer cheaper rents.
+ "We're looking at creative ways to come in and trade and reset that basis to meet the market where it's really at in terms of the rent rates," Collura said. "That will also help enable companies to get in and scale faster."
+ Courtesy of JLL
+ JLL's data shows how Boston's asking rents for lab space have fallen since 2022. 
+ Those basis-resetting deals have been occurring over the last year, and industry leaders expect they will become more common.
+ "At some point, unless we believe that a tidal wave of absorption is on the horizon, we're likely to see more distressed trades and more basis resets in the not too distant future,"  The Davis Cos . Senior Vice President  Jon Needham  said.
+ In May 2025,  Northeastern University  acquired the Burlington BioCenter in Burlington  for $33M , paying one-third of what MetLife did in 2022.
+ In February, battery manufacturer A123 Systems acquired the 115K SF building at 10 Corporate Drive in Burlington for  less than $20M , a roughly 52% discount from what GEM Realty and The Gutierrez Cos. paid in 2021.
+ In March, New York-based  Lightstone Group  acquired the 175K SF lab building at 3 Burlington Woods Drive in Burlington  for $16M , well below the $58M that GI Partners paid in 2022.
+ Lightstone Group Senior Vice President of Life Sciences Acquisitions Chris Maciejczak said even with that type of basis reset, it can still be difficult for landlords to drop rents significantly.
+ He said that although a building may trade at a low price, there are still other costs that need to be factored in, including utility and mechanical systems costs, debt payments and operating costs that are much higher than other asset classes.
+ "If you do the math right, you'll quickly find out, from a landlord's perspective, there's kind of a price floor," Maciejczak said.
+ While industry leaders don't foresee a tidal wave of demand on the horizon, they do see signs that the market is moving in the right direction.
+ "Nearly every indicator suggests the market has bottomed out and begun to recover," says JLL's U.S. lab report, released last week.
+ The report found that the four top markets — Boston, San Diego, the Bay Area and Raleigh-Durham — collectively experienced a 44% increase in leasing demand last quarter compared to Q1 2025. It found that the first three of those markets have averaged 75 deals per quarter over the last two years.
+ That demand in Boston is being driven in part by "tough tech" companies in the AI, robotics, aerospace, defense and medtech sectors. Those users accounted for 30% of lab leases in Boston last year, the report found, triple the share from 2021.
+ LabCentral  CEO Maggie O'Toole has seen this type of demand in her incubator space.
+ "While it may take awhile to fill up some of the empty buildings, I don't know if we really should say never, because of what I'm seeing right now with AI," O'Toole said, adding that LabCentral launched a hub for companies at the intersection of artificial intelligence and biotech.
+ "We are getting applications from around the world for companies who want to be in that space, and we just have one small lab that's fitted out," she added. "We're already looking at how we expand that."
+ She said LabCentral received more than 80 total applications last year, well above the prior year and more than it had in 2018 and 2019. As of last week, it had 41 applications this year, and she said demand is typically higher in the second half of the year.
+ "That gives me a lot of confidence that we're on the right track," she said.
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Chris Maciejczak 
+ , JLL 
+ , Jon Needham 
+ , LabCentral 
+ , Lab leasing 
+ , The Davis Cos. 
+ , The Lightstone Group 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Revolution Medicines Nearing Agreement For 700K SF Lease In Redwood City
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Oncology Company Expands Footprint At Hines' Life Sciences Campus
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Suburban Industrial Campus Trades For $47M: The Boston Deal Sheet
+ Millennium Partners Lands $281M Loan For Winthrop Center Tower
+ Lightstone Group Acquires Amazon Robotics Building For $43M
+ 'Not In The Business Of Losing Our Customers': Renewals Dominate Boston Office Market
+ UK Investment Giant Funds First U.S. Development In Boston Suburb
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ Oxford Properties Pays $435M For Boston Office Tower, Eyes More Deals
+ Boston
+ Office
+ August 19, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share

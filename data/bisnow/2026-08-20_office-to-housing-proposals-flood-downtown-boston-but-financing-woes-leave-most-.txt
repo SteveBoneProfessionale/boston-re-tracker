@@ -1,0 +1,322 @@
+URL: https://www.bisnow.com/news/boston/multifamily/office-to-housing-proposals-flood-downtown-boston-but-financing-woes-leave-most-projects-stalled
+INDEX_DATE: 2026-08-20
+
+Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate 
+ Cities
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Home 
+ Cities 
+ Choose your city 
+ Atlanta 
+ Austin - San-Antonio 
+ Boston 
+ Charlotte 
+ Chicago 
+ Dallas-Fort Worth 
+ Data Center 
+ Denver 
+ Dublin 
+ Houston 
+ London 
+ Los Angeles 
+ National 
+ New York 
+ Philadelphia 
+ Phoenix 
+ Raleigh/Durham 
+ San Francisco 
+ South Florida 
+ The Netherlands 
+ Washington, D.C. 
+ Events
+ Calendar 
+ Educational Workshops 
+ First Draft Live 
+ Elevate 
+ Ascent 
+ Escape 
+ Apply to Speak 
+ Sponsor an Event 
+ Careers
+ Top Talent 
+ Employer 
+ SelectLeaders 
+ Bisnow Careers 
+ Press Releases 
+ Subscriptions
+ Newsletters 
+ Newsletter Archive 
+ Insider Access Newsletters 
+ Insider Access Archives 
+ About
+ Contact Us 
+ Advertise with Us 
+ Careers 
+ Login 
+ Sign Up 
+ Go
+ open && $refs.searchInput.focus());
+ "
+ :class="open ? 'bg-neutral-800' : ''"
+ class="flex cursor-pointer items-center px-5 text-white transition-colors duration-200 hover:bg-neutral-800"
+ aria-label="Search"
+ >
+ Search
+ Sign Up
+ Login
+ Subscribe
+ Atlanta 
+ Atlanta 
+ Austin - San-Antonio 
+ Austin - San-Antonio 
+ Boston 
+ Boston 
+ Charlotte 
+ Charlotte 
+ Chicago 
+ Chicago 
+ Dallas-Fort Worth 
+ Dallas 
+ Data Center 
+ Data Center 
+ Denver 
+ Denver 
+ Dublin 
+ Dublin 
+ Houston 
+ Houston 
+ London 
+ London 
+ Los Angeles 
+ LA 
+ National 
+ National 
+ New York 
+ NY 
+ Philadelphia 
+ Philadelphia 
+ Phoenix 
+ Phoenix 
+ Raleigh/Durham 
+ Raleigh/Durham 
+ San Francisco 
+ San Francisco 
+ South Florida 
+ Florida 
+ The Netherlands 
+ Netherlands 
+ Washington, D.C. 
+ D.C. 
+ News 
+ Boston 
+ Multifamily 
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate 
+ August 20, 2026 | 6:02 pm ET 
+ Taylor Driscoll, Boston 
+ On Monday, Dinosaur Capital closed on a $40M construction loan for its project to convert a downtown Boston office building into 110 residential units. While the deal represents a win for the city's push to turn more obsolete offices into housing, it also illustrates the challenges developers face in getting these projects underway. 
+ The conversion project at 31 Milk St. received approval more than a year ago, and by the time Dinosaur Capital closed the financing deal, construction costs had risen nearly $16M from when it first proposed it, said Marvin Lahoud, a partner at construction firm Tocci who is working on the project. 
+ To get it over the finish line, the team had to piece together a complex capital structure that included a city tax abatement, a federal historic tax credit and a $4M grant from the state. 
+ "They got all those subsidies, and they barely got the deal financed," Lahoud said. 
+ "They were about to give up, and then they overturned every stone and looked for every potential way to reduce cost and do stuff to make it work."
+ While the Milk Street project is moving forward with its financing secured, the vast majority of the office-to-residential conversions that developers have proposed in the city have yet to reach that stage. 
+ Since late 2023, developers have proposed 29 conversion projects that would yield 2,331 units of new housing across downtown, but just 431 units have started or completed construction, according to the Boston Planning Department . Several real estate experts whom Bisnow spoke to expressed skepticism that all of these projects will be completed, and some say the city's subsidies don't go far enough to help developers finance them. 
+ "I already know several that are struggling and potentially going in a different direction," Lahoud said. He estimates that roughly 75% of conversion proposals in the pipeline now will actually result in new housing, adding that those projects will take longer than expected. 
+ The office-to-residential trend has hit an inflection point in Boston this year, scaled with more 100-plus unit projects being proposed, including the largest one yet last week: Vanbarton Group 's 478-unit conversion at 31 St. James Ave. in the Back Bay.
+ "Attracting outside money and interest is a big deal and is something to be celebrated," said Nixon Peabody partner Jennifer Schultz , an attorney who works with developers exploring these projects. 
+ "The issue is, I see no indication and I see no reason to believe that we are at the beginning of a deluge. I don't think we can explain away in any innocent way why, years into the program, we have a couple hundred units that have been converted."
+ The city's office-to-residential conversion program was born in 2023 as a way to revitalize downtown Boston post-pandemic and address the city's chronic housing shortage. More than 14.7M SF of offices sit vacant across downtown as of last quarter, representing 18.7% of the inventory, according to CBRE .  
+ The building developers have proposed converting a total of 2M SF over the last three years. 
+ The program has been extended twice since and is now slated to end in December.
+ Only one project — Boston Pinnacle Properties ' 15-unit 281 Franklin St. — has thus far been completed, with seven others under construction totaling 416 units and another 21 in various stages of the planning process totaling 1,389 units.
+ A spokesperson for the Boston Planning Department said in a statement to Bisnow that the number of units under construction has "far exceeded expectations."
+ "This progress is significant amid persistently high construction costs and interest rates," the spokesperson said. "The program was designed to catalyze office-to-residential [conversions], demonstrate the potential of these projects and help create a more vibrant, mixed-use downtown neighborhood. The strong pipeline of projects under construction, under review, and expected to begin conversion in the coming months, shows that it is delivering on that purpose." 
+ Bisnow/Taylor Driscoll
+ Dinosaur Capital is converting 31 Milk St. into 110 residential units. Construction is underway.
+ The city's program offers developers a 75% tax abatement for 29 years for the converted buildings as well as fast-tracked permitting and as of right zoning for projects within downtown Boston.
+ The tax abatement is supposed to help incentivize developers to bring forth projects, but Schultz said she doesn't believe the abatement goes far enough, especially as the projects are still subject to restrictive policies that have all but stopped ground-up counterparts.
+ "It's still not enough for it to be widespread," Schultz said. "In that, it's not enough to overcome all of the other terms, some of which are being foisted upon the development community by the city, and some of which are not, but are not being undone by the city."
+ RD Advisors Managing Partner Sean Kelly-Rand said his firm has been one of the most active lenders in the acquisition of office space for conversions, looking at almost every deal that has come to market — and analyzing the feasibility of converting them. 
+ "Conversions are very expensive," he said. "It's not easy to convert a building that was office to residential, right?
+ His firm provided $3.5M in acquisition financing in 2024 for 4 Liberty Square, which is being converted into 36 units by developer Douglas George, and in 2023, it provided $2.9M for 615 Albany St., which is being converted into 24 units by developer Greg McCarthy, according to public records. 
+ He said lenders providing construction financing are becoming more accepting of conversions, especially given the city's enthusiasm, but there is still heightened risk in taking on these projects, as costs are so much higher and the unknowns of starting a conversion could tip the scales in what lenders are willing to pay.
+ "Your loan amount is certain, your acquisition price is certain, but the largest portion of the conversion is ahead of you, right?" Kelly-Rand said. "That 75% of the cost is ahead of you, and that's uncertain until they get the permit."
+ Boston Realty Advisors ' Managing Director Wil Catlin said many lenders are hesitant about these projects because of the rising costs. 
+ "That number could have jumped 20% from 2024 to 2026," Catlin said. "The lender is going to say, 'Yeah, that math doesn't work.'"
+ Structural and Policy Issues Complicate Financing 
+ Bisnow/Taylor Driscoll
+ Synergy proposed a 255-unit office-to-residential conversion at 294 Washington St. in downtown Boston.
+ Most of the conversions in the city are planned in smaller, prewar Class-B buildings, with 23 proposed projects under 100 units. In most cases, it's not clear what the scope of the project would be until you peel back the walls.
+ For large projects like 31 St. James Ave., some nuances could be looked at as downsides to residential conversions, Catlin said. He pointed to the fact that the building is a block-long, skinny rectangle with elevators in the middle and two stairwells on either side. 
+ "If you rent an apartment there, and you walk in the building, go up the elevator and walk all the way down to the corner overlooking the public garden, that's a long walk to get to your studio or one-bedroom apartment," Catlin said.
+ On top of the structural challenges, developers trying to put together financing deals for these projects run into the same policy challenges as they do for ground-up development.
+ Developers must meet sustainability requirements that the city has enacted in recent years to reduce carbon emissions, and these conversion projects are subject to the city's inclusionary development policy , which requires developers to bake in at least 20% affordability into a multifamily project of seven or more units.
+ The 29 projects that have been proposed would create 443 affordable units out of 2,331 total, according to the Boston Planning Department. 
+ Tocci's Lahoud said if the city were to exempt these projects from the IDP requirement, it would substantially improve developers' ability to make their deals pencil out. 
+ "If you remove that temporarily, then that's going to have the biggest impact on the financial returns, which is the opposite of what the city wants to see," he said. "They want to see more affordable housing in the city, but that is the biggest lever that I can think of, besides just direct subsidies and just lowering their costs."
+ When these policies are tacked on, the tax abatement the city provides isn't enough, Schultz said. 
+ Bisnow/Taylor Driscoll
+ 95 Berkeley St. is proposed to be converted into 92 housing units.
+ "What doesn't pencil today doesn't magically pencil tomorrow when none of the factors change," she said. "That is just plain math."
+ In New York City, which still has affordability mandates tied to the conversion program, the tax abatements are much higher, making it a better return for owners of Class-B office space. The city's Office Conversion Accelerator program launched in 2023 .
+ The program grants developers tax abatements for 35 years for projects that commence construction by June 30, 2026, a 30-year abatement for projects started in June 2028, and 25 years for projects that start in June 2031. On top of that, there are no construction wage requirements, which in turn helps lower construction costs.
+ Since 2020, NYC has seen roughly 3.3M SF of office space converted, with another 19M SF in the pipeline as of Q2, according to Avison Young .
+ Catlin said for investors looking for opportunities in the Northeast, their money is more likely to flow into a larger city like New York where the tax incentives are greater, there are more buildings to convert and apartment rents are higher. 
+ "If you're a capital provider in residential conversions and multifamily, you're looking at the Northeast corridor, and you're tossing the dice between Boston and New York, one would argue that New York offers — or has the opportunity to offer — a better return," Catlin said.
+ Most of the real estate leaders whom Bisnow spoke to believe the larger projects — including Vanbarton's 31 St. James Ave. and Synergy 's 294 Washington St. — will move forward because these developers have experience converting office and are highly capitalized, but the same can't be said for all of the smaller projects in the pipeline.
+ "Not all of them are going to make it over the goal line," Catlin said.
+ For developers sitting on projects with loans that will eventually come due, the clock is ticking — and costs don't seem to be coming down anytime soon. 
+ "Eventually, your equity demands its returns, or things happen," Schultz said. "Developers aren't built to sit still."
+ Continue reading this story with a free account
+ Log in or register
+ Contact
+ Taylor Driscoll 
+ at
+ taylor.driscoll@bisnow.com 
+ Related Topics:
+ Boston Planning Department 
+ , Boston Realty Advisors 
+ , Jennifer Schultz 
+ , Nixon Peabody 
+ , Office-to-residential conversion 
+ , RD Advisors 
+ , Sean Kelly-Rand 
+ , Vanbarton Group 
+ , Wil Catlin 
+ Sign up for more articles like this
+ Subscribe to Bisnow's Boston Newsletters
+ Submit
+ Related Stories
+ Downtown Office Tower Secures $575M Refinancing
+ MG Developer Faces 6 Lawsuits Alleging Millions In Overdue Debt
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ OZ Incentives Weren't Enough To Blunt Economic Headwinds For Philly Multifamily Projects
+ Mamdani Reveals Housing Court Fast Track Targeting Landlords, Not Evictions
+ Developer Sues JLL For $12M, Claiming It Fudged Numbers On D.C. Project
+ Kennedy Wilson In Pole Position For £750M Rented Resi Portfolio
+ 'Aggressive' Antitrust Settlement Unwinds $100M Zillow, Redfin Deal
+ Pace Of NYC Housing Construction Plunges As Developers Play Small Ball
+ Alliance Building Houston-Area Complex Amid Declining Multifamily Construction
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ PMC Proposes 31-Story Apartment Building In Center City West
+ Bisnow Boston Newsletters
+ Submit
+ Top Stories
+ City Realty Buys Coolidge Corner Portfolio For $23M: The Boston Deal Sheet
+ Boston
+ Deal Sheet
+ August 25, 2026
+ Alexandria Sells Cambridge Lab Condo Units For $45M
+ Boston
+ Life Sciences
+ August 24, 2026
+ Developers Line Up To Convert Boston Offices To Housing, But Most Still Stuck At Starting Gate
+ Boston
+ Multifamily
+ August 20, 2026
+ State's High Court Allows $325M Boston Soccer Stadium Project To Proceed
+ Boston
+ Economic Development
+ August 19, 2026
+ AvalonBay, Equity Residential Selling Boston Towers As Part Of Merger Settlement
+ Boston
+ Multifamily
+ August 18, 2026
+ More Top Stories
+ SelectLeaders Jobs
+ Financial Analyst
+ Waterstone
+ Needham 
+ Posted July 27, 2026
+ Asset Management Analyst
+ Harvard University
+ Cambridge 
+ Posted August 3, 2026
+ Senior Analyst Or Associate, Asset Management
+ Breakthrough Properties
+ Boston 
+ Posted August 4, 2026
+ More Job Opportunities
+ Company Info
+ About 
+ Media Kit 
+ Submit a Press Release 
+ Careers 
+ Contact Us 
+ Newsletters
+ Archives 
+ Manage Subscriptions 
+ Subscribe 
+ Top Stories 
+ Other Stuff
+ Privacy Policy 
+ Terms of Use 
+ Sitemap 
+ Login 
+ Manage cookie preferences 
+ f 
+ X 
+ in 
+ (202) 684-2034
+ © Copyright 2026 Bisnow. All Rights Reserved
+ Login to Your Account
+ We're not asking for your money. This is not a step towards a paywall. Our news is free and we intend to keep it
+ that way.
+ Login or register 
+ Login
+ Register
+ Sign in
+ Email:
+ Password:
+ Forgot your password?
+ We can help! 
+ Login 
+ Signing in… 
+ Continue with LinkedIn
+ Share
+ Post
+ Share
+ Share
