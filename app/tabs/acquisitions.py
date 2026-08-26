@@ -41,6 +41,20 @@ TYPE_MARK = {
     "distressed":       ("▲", "DISTRESS", "#ef4444"),
 }
 
+# Where a row came from. Kept on the face of the table because the sources are
+# not interchangeable and a licensed feed will eventually have to be reconciled
+# against what is already here. An audited 10-Q disposition schedule is exact to
+# the day and dollar and beats a deed on price; trade press covers the top of the
+# market and is structurally blind below it; an assessment feed is complete but
+# states no document type, so it cannot testify to arm's length.
+SOURCE_MARK = {
+    "sec_filing":        ("▣", "SEC",   "#22c55e"),
+    "cambridge_socrata": ("▤", "ASSESS", "#38bdf8"),
+    "suffolk_registry":  ("▥", "DEED",  "#22c55e"),
+    "press":             ("◇", "PRESS", "#F5821E"),
+    "broker_release":    ("◇", "PRESS", "#F5821E"),
+}
+
 # Same sizing arithmetic as the screener: monospace theme font, 14px cells,
 # 8px padding each side, plus the header's sort icon.
 _CHAR_PX, _CELL_PAD, _HEADER_ICON, _SLACK, _MIN = 14.0 * 0.6, 16, 18, 8, 44
@@ -89,10 +103,14 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
     d["TYPE"] = [f"{TYPE_MARK.get(t, ('·', t or '?', _MUTED))[0]} "
                  f"{TYPE_MARK.get(t, ('·', (t or '?').upper(), _MUTED))[1]}"
                  for t in d["transaction_type"]]
+    d["SRC"] = [f"{SOURCE_MARK.get(s, ('·', (s or '?').upper()[:6], _MUTED))[0]} "
+                f"{SOURCE_MARK.get(s, ('·', (s or '?').upper()[:6], _MUTED))[1]}"
+                for s in d["source"]]
     out = pd.DataFrame({
         "ADDRESS":  d["address"].fillna(""),
         "CITY":     d["city"].fillna(""),
         "TYPE":     d["TYPE"],
+        "SRC":      d["SRC"],
         "DATE":     pd.to_datetime(d["sale_date"], errors="coerce"),
         "PRICE":    pd.to_numeric(d["price"], errors="coerce"),
         "%":        pd.to_numeric(d["pct_acquired"], errors="coerce"),
@@ -118,18 +136,30 @@ def render(projects: pd.DataFrame | None = None):
         return
 
     # ── Coverage, stated before any total is shown ──────────────────
-    n_asset = (df["transaction_type"] == "asset_sale").sum()
     n_part = df["transaction_type"].isin(["partial_interest", "entity_level"]).sum()
+    y26 = df[pd.to_datetime(df["sale_date"], errors="coerce").dt.year == 2026]
+    n26 = len(y26)
+    n26_priced = int(y26["price"].notna().sum())
     st.markdown(
         f'<div style="font-family:{_MONO};font-size:10px;line-height:1.6;color:{_MUTED};'
         f'border-left:2px solid {_ORANGE};padding:8px 12px;margin:10px 0;background:{_BG2}">'
-        f'<b style="color:#e2e8f0">COVERAGE</b> — asset sales are near-complete where a '
-        f'registry or assessment feed reaches them. Partial-interest and entity-level deals '
-        f'are only as complete as trade-press reporting: a Massachusetts nominee trust can '
-        f'move beneficial interests with no deed recorded, so title looks unchanged and no '
-        f'deed source can see it. {n_part} such transactions are tracked here, which is a '
-        f'floor, not a count. Dollar totals below therefore understate the market by an '
-        f'unknown amount.</div>', unsafe_allow_html=True)
+        f'<b style="color:#e2e8f0">COVERAGE — READ THIS BEFORE ANY TOTAL</b><br>'
+        f'<b style="color:#e2e8f0">There is no deed feed.</b> masslandrecords sits behind an '
+        f'active bot block on both Suffolk and Middlesex South, so the registry spine that '
+        f'would make asset-sale coverage near-complete does not exist here. Cambridge\'s '
+        f'assessment file carries no sale later than 6 August 2025 and zero 2026 sales, so it '
+        f'cannot fill the gap either.<br>'
+        f'<b style="color:#e2e8f0">2026 is therefore press- and SEC-sourced only</b> — '
+        f'{n26} transactions, {n26_priced} with a stated price. That is the top of the market, '
+        f'not the market. Trade press reports large and newsworthy deals; it does not report '
+        f'the $3–15M range systematically, so the count is a floor and the dollar total '
+        f'understates volume by an unknown amount. Rows marked ◇ PRESS carry that limit; '
+        f'▣ SEC rows come from audited disposition schedules and are exact.<br>'
+        f'<b style="color:#e2e8f0">A partial interest leaves no deed at all.</b> A '
+        f'Massachusetts nominee trust can move beneficial interests with title unchanged, so '
+        f'no registry would surface it even with full access. {n_part} such transactions are '
+        f'tracked — a floor, and one that a licensed feed would not raise.'
+        f'</div>', unsafe_allow_html=True)
 
     # ── Filters ─────────────────────────────────────────────────────
     _section("FILTER")
@@ -197,6 +227,15 @@ def render(projects: pd.DataFrame | None = None):
                      "foreclosure or deed in lieu, kept rather than dropped."),
             # Real dates and real numbers, so the headers sort chronologically
             # and by magnitude rather than as text.
+            "SRC":     st.column_config.TextColumn(
+                width=w["SRC"],
+                help="Where the row came from. ▣ SEC an audited 10-Q disposition "
+                     "schedule, exact to the day and dollar. ▤ ASSESS a municipal "
+                     "assessment feed, complete but silent on document type. "
+                     "▥ DEED a registry record. ◇ PRESS a named publication "
+                     "reporting a named price — reliable at the top of the market, "
+                     "structurally blind below it. Kept visible so a licensed feed "
+                     "can be reconciled against what is already here."),
             "DATE":    st.column_config.DateColumn(width=w["DATE"], format="YYYY-MM-DD"),
             "PRICE":   st.column_config.NumberColumn(
                 width=w["PRICE"], format="$%,d",
