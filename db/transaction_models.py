@@ -92,7 +92,14 @@ class Transaction(Base):
     # pattern | address_cluster | web | registry | human
     buyer_resolution_basis = Column(String)
     seller_resolution_basis = Column(String)
-    broker = Column(String)
+    broker = Column(String)          # listing / sell-side
+    broker_buy_side = Column(String)
+
+    # ── repeat sales ────────────────────────────────────────────────
+    prior_sale_date = Column(Date)
+    prior_sale_price = Column(Integer)
+    prior_sale_source = Column(String)
+    basis_change_pct = Column(Float)
 
     # ── partial interest and entity-level ───────────────────────────
     pct_acquired = Column(Float)

@@ -107,7 +107,7 @@ _BLDG_CTX_AFTER = re.compile(
     r"(?:retail|office|commercial|industrial|residential|lab)[\w/\- ]{0,20}space)", re.I)
 # "gross floor area of 128,733 square feet" -- the noun can be a few words back.
 _BLDG_CTX_BEFORE = re.compile(
-    r"(?:building|structure|facility|gross\s+floor\s+area|GFA|addition|footprint|construct(?:ing|ion)?)(?:\s+[\w\-]+){0,3}\W{0,12}$", re.I)
+    r"(?:building|structure|facility|gross\s+floor\s+area|\bGFA\b|addition|footprint|construct(?:ing|ion)?)(?:\s+[\w\-]+){0,3}\W{0,12}$", re.I)
 
 
 def building_sf(text: str):
@@ -229,7 +229,7 @@ def _num(m) -> int | None:
 # not 605 apartments. residential_units must mean dwellings.
 _STORAGE_CTX = re.compile(
     r"self[- ]?storage|storage\s+(?:facility|building|units?|complex)|"
-    r"mini[- ]?storage|climate[- ]controlled", re.I)
+    r"\bmini[- ]?storage\b|climate[- ]controlled", re.I)
 
 
 def residential_units(text: str):

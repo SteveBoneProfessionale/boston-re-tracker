@@ -168,6 +168,19 @@ def init_db():
     _add_column_if_missing("transactions", "seller_confidence", "VARCHAR")
     _add_column_if_missing("transactions", "buyer_resolution_basis", "VARCHAR")
     _add_column_if_missing("transactions", "seller_resolution_basis", "VARCHAR")
+
+    # Repeat sales. The single most useful thing this tracker can show is the
+    # same asset trading twice, because a paired basis is a fact about the
+    # market that no single transaction is. Stored on the later trade.
+    _add_column_if_missing("transactions", "prior_sale_date", "DATE")
+    _add_column_if_missing("transactions", "prior_sale_price", "INTEGER")
+    _add_column_if_missing("transactions", "prior_sale_source", "VARCHAR")
+    _add_column_if_missing("transactions", "basis_change_pct", "FLOAT")
+    # A listing broker and a buy-side broker are different facts. Reading
+    # "represented the seller" as "brokered both sides" is how a buy-side
+    # broker gets erased, and the buy-side broker is often the only clue to
+    # what kind of buyer it was.
+    _add_column_if_missing("transactions", "broker_buy_side", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 
