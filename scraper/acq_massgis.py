@@ -22,10 +22,16 @@ carries a 2026 Boston or Cambridge sale. The 2026 window is press-and-SEC-only
 not because the collection was lazy but because the public record, as published,
 stops before it.
 
-So this loads history, and history is worth having: 886 Boston commercial sales
-at or above $5M since 2015 give the Boston price-per-SF baselines that 2026
-press deals have to be read against, plus the book and page to reconcile
-against a licensed feed later.
+WHAT THIS MEANS FOR THIS LOADER NOW. It once ran with --since 2015-01-01 and
+put 617 historical Boston rows into the table, justified as a price-per-SF
+comparison set. The brief was 2026 onward, the window is now 2025 onward, and
+that history was 95% of a table it did not belong in. The default is
+2025-01-01, at which this loader returns NOTHING for Boston, because the layer
+stops in October 2022.
+
+That is not a failure of the loader; it is the finding. Run it with
+--since 2015-01-01 if a comparison set is ever wanted again, and it will
+rebuild the history exactly as before.
 
 ONE PARCEL IS NOT ONE DEED. L3 stores the last sale on EVERY parcel it touched,
 so a deed conveying eleven parcels writes its price eleven times. Summing the
@@ -217,7 +223,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--city", default="BOSTON")
     ap.add_argument("--floor", type=int, default=5_000_000)
-    ap.add_argument("--since", default="2015-01-01")
+    ap.add_argument("--since", default="2025-01-01")
     ap.add_argument("--apply", action="store_true")
     a = ap.parse_args()
     main(a.floor, a.since, a.city, dry_run=not a.apply)

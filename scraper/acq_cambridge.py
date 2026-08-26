@@ -149,5 +149,5 @@ def main(floor: int, since: str = "2015-01-01"):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--floor", type=int, default=3_000_000)
-    ap.add_argument("--since", default="2015-01-01")
+    ap.add_argument("--since", default="2025-01-01")
     main(ap.parse_args().floor, ap.parse_args().since)
