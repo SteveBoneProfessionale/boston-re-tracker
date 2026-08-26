@@ -111,6 +111,26 @@ PATTERNS = [
     # OMERS are short enough to collide by accident. The unanchored version of
     # this block produced exactly the MEMORIAL/MORI match on verification.
     (r"\bIQHQ\b|\bCSP-\d", "IQHQ", None),
+    # HART is Heitman America Real Estate Trust; SPUS is CBRE Global Investors'
+    # Strategic Partners U.S. series. Both are fund-series prefixes, so the
+    # siblings come free -- SPUS alone covers three rows and $580M.
+    (r"\bHART \d|\bHEITMAN\b", "Heitman", None),
+    (r"\bSPUS\d?\b|\bCBRE GLOBAL INVESTORS\b", "CBRE Global Investors", None),
+    (r"\bHEALTHPEAK\b|\bHCP\b", "Healthpeak Properties", None),
+    (r"\bHARRISON STREET\b", "Harrison Street", None),
+    (r"\bROCKEFELLER GROUP\b", "Rockefeller Group", None),
+    (r"\bMITSUBISHI ESTATE\b", "Mitsubishi Estate", None),
+    (r"\bCOMMONWEALTH PARTNERS\b", "CommonWealth Partners", None),
+    (r"\bNATIONAL REAL ESTATE ADVISORS\b", "National Real Estate Advisors", None),
+    # Fund names that ARE the sponsor's name, so there is nothing to look up:
+    # CLPF is the Clarion Lion Properties Fund; MPT is Medical Properties
+    # Trust; DW NP is DivcoWest's NorthPoint vehicle.
+    (r"\bCLPF-", "Clarion Partners", None),
+    (r"\bMPT OF\b|\bMEDICAL PROPERTIES TRUST\b", "Medical Properties Trust", None),
+    (r"\bDW NP\b", "DivcoWest", None),
+    (r"\bUNION INVESTMENT\b", "Union Investment Real Estate", None),
+    (r"\bCANYON PARTNERS\b", "Canyon Partners Real Estate", None),
+    (r"\bPRINCIPAL REAL ESTATE\b", "Principal Real Estate Investors", None),
     (r"\bMORI TRUST\b", "Mori Trust", None),
     (r"\bROCKPOINT\b", "Rockpoint Group", None),
     (r"\bBENDERSON\b|\bBDC SUMMER\b", "Benderson Development Co.", None),
@@ -180,9 +200,13 @@ def main(dry_run: bool):
     for col, canon, conf, basis in (
             ("buyer", "buyer_canonical", "buyer_confidence", "buyer_resolution_basis"),
             ("seller", "seller_canonical", "seller_confidence", "seller_resolution_basis")):
+        # A row locked as conflict_unresolvable has been decided: the record and
+        # the press name different buyers and neither wins. Re-resolving it from
+        # the entity name would silently undo that. See 101 Seaport Boulevard.
         rows = conn.execute(text(
             f"select id, {col} from transactions "
-            f"where coalesce({col},'') <> '' and coalesce({canon},'') = ''")).fetchall()
+            f"where coalesce({col},'') <> '' and coalesce({canon},'') = '' "
+            f"and coalesce({basis},'') not like 'conflict%'")).fetchall()
         for rid, name in rows:
             sponsor, _pat = resolve(name)
             if not sponsor:

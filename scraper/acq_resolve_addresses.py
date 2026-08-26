@@ -72,19 +72,33 @@ AGENT_SIZE = 12
 # single-purpose vehicles, which have no identity of their own; it is not
 # evidence about a company that plainly does.
 INDEPENDENT = re.compile(
-    r"(ASSURANCE|INSURANCE|LIFE|BANK|BANC|UNIVERSITY|COLLEGE|HOSPITAL|"
+    r"\b(ASSURANCE|INSURANCE|LIFE|BANK|BANC|UNIVERSITY|COLLEGE|HOSPITAL|"
     r"CHURCH|MASSDEVELOPMENT|MASSPORT|AUTHORITY|COMMONWEALTH OF|CITY OF|"
     r"UNITED STATES|MBTA|HOUSING AUTHORITY|ARCHDIOCESE|FOUNDATION|"
-    r"MUTUAL|PENSION|RETIREMENT SYSTEM)")
+    r"MUTUAL|PENSION|RETIREMENT SYSTEM)")
 
 
-def norm_addr(*parts) -> str:
-    s = " ".join(str(p or "") for p in parts).upper()
-    s = re.sub(r"[^A-Z0-9 ]", " ", s)
-    s = re.sub(r"\b(SUITE|STE|FLOOR|FL|UNIT|APT|#|ATTN|C/O)\b.*$", "", s)
-    s = re.sub(r"\b(STREET|ST|AVENUE|AVE|ROAD|RD|DRIVE|DR|BOULEVARD|BLVD|"
-               r"PLACE|PL|SQUARE|SQ|LANE|LN|COURT|CT)\b", "", s)
-    return re.sub(r"\s+", " ", s).strip()
+def norm_addr(street, city=None, state=None) -> str:
+    """Normalise a mailing address into a cluster key.
+
+    The street part is cleaned separately from city and state, because an
+    earlier version applied a "strip everything after SUITE" rule to the joined
+    string and so deleted the city and state along with the suite number.
+
+    A key with no digit in it is returned empty. "SUMMER BOSTON MA" is not an
+    address -- it is every address on Summer Street at once, and clustering on
+    it merged unrelated owners.
+    """
+    st = re.sub(r"[^A-Z0-9 ]", " ", str(street or "").upper())
+    st = re.sub(r"\b(SUITE|STE|FLOOR|FL|UNIT|APT|ATTN|C O|CO)\b.*$", "", st)
+    st = re.sub(r"\b(STREET|ST|AVENUE|AVE|ROAD|RD|DRIVE|DR|BOULEVARD|BLVD|"
+                r"PLACE|PL|SQUARE|SQ|LANE|LN|COURT|CT)\b", " ", st)
+    st = re.sub(r"\s+", " ", st).strip()
+    if not any(ch.isdigit() for ch in st):
+        return ""
+    tail = re.sub(r"[^A-Z0-9 ]", " ",
+                  f"{city or ''} {state or ''}".upper())
+    return re.sub(r"\s+", " ", f"{st} {tail}").strip()
 
 
 def fetch_boston() -> dict:
@@ -147,9 +161,14 @@ def main(dry_run: bool):
     known = {}
     rows = []
     for side in ("buyer", "seller"):
+        # A row whose resolution basis is already set has been decided --
+        # including rows deliberately locked as unresolvable after a
+        # record-versus-press conflict. Never silently re-resolve those.
         for rid, name, canon in conn.execute(text(
                 f"select id, {side}, {side}_canonical from transactions "
-                f"where coalesce({side},'') <> ''")):
+                f"where coalesce({side},'') <> '' "
+                f"and coalesce({side}_resolution_basis,'') "
+                f"not like 'conflict%'")):
             key = name.strip().upper()
             rows.append((rid, side, key, canon))
             if canon:
