@@ -1011,3 +1011,27 @@ def summary_stats(df: pd.DataFrame, include_conditional: bool = False) -> dict:
         "delivered_gsf": int(delivered["total_gsf"].dropna().sum()),
         "conditional_alternative_count": n_conditional,
     }
+
+@st.cache_data(ttl=300)
+def load_transactions() -> pd.DataFrame:
+    """Commercial transactions for the Acquisitions tab.
+
+    Numeric columns come back numeric and the date comes back a date, so the
+    grid's own header sort orders by magnitude and chronology rather than by
+    text -- the bug that bit the screener on square footage.
+    """
+    from sqlalchemy import text
+    from db.database import engine
+    with engine.connect() as conn:
+        rows = conn.execute(text("select * from transactions")).mappings().all()
+    df = pd.DataFrame([dict(r) for r in rows])
+    if df.empty:
+        return df
+    for c in ("price", "implied_valuation", "building_sf", "unit_count",
+              "land_sf", "price_per_sf", "price_per_unit", "pct_acquired",
+              "excise_stamp", "excise_implied_price"):
+        if c in df.columns:
+            df[c] = pd.to_numeric(df[c], errors="coerce")
+    if "sale_date" in df.columns:
+        df["sale_date"] = pd.to_datetime(df["sale_date"], errors="coerce")
+    return df

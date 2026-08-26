@@ -3,6 +3,9 @@ from pathlib import Path
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from db.models import Base
+# Imported for the side effect of registering the table on Base.metadata,
+# so create_all() builds it.
+import db.transaction_models  # noqa: F401
 
 DB_PATH = Path(__file__).parent.parent / "data" / "boston_re.db"
 DATABASE_URL = f"sqlite:///{DB_PATH}"

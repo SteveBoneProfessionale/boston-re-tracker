@@ -9,7 +9,7 @@ import streamlit.components.v1 as components
 
 from db.database import init_db
 from app.data import load_projects, load_news, summary_stats
-from app.tabs import overview, project_table, map_view, news
+from app.tabs import overview, project_table, map_view, news, acquisitions
 
 init_db()
 
@@ -284,8 +284,8 @@ def main():
 
     _render_header()
 
-    tab1, tab2, tab3, tab4 = st.tabs(
-        ["OVERVIEW", "PROJECTS", "MAP", "NEWS"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(
+        ["OVERVIEW", "PROJECTS", "MAP", "NEWS", "ACQUISITIONS"])
 
     with tab1:
         overview.render(df, stats)
@@ -295,6 +295,8 @@ def main():
         map_view.render(df)
     with tab4:
         news.render()
+    with tab5:
+        acquisitions.render(df)
 
     with st.sidebar:
         st.markdown(
