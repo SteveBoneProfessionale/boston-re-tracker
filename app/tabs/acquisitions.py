@@ -125,7 +125,17 @@ def _rankings(f: pd.DataFrame):
         canon = f.get(f"{side}_canonical")
         if canon is None:
             continue
-        sub = f[canon.fillna("") != ""].copy()
+        # Intra-sponsor conveyances are excluded. A firm moving an asset between
+        # its own vehicles is not acquiring anything, and counting it as one
+        # distorts the ranking badly: twelve such rows carry $2.70B, of which
+        # $2.33B is Alexandria buying from Alexandria -- more than half its
+        # apparent buy-side volume.
+        arms = f.get("arms_length")
+        affiliated = (arms == 0) if arms is not None else pd.Series(False, index=f.index)
+        n_affil = int(affiliated.sum())
+        v_affil = float(pd.to_numeric(f.loc[affiliated, "price"],
+                                      errors="coerce").fillna(0).sum())
+        sub = f[(canon.fillna("") != "") & (~affiliated)].copy()
         sub["_who"] = sub[f"{side}_canonical"]
         n_res = len(sub)
         vol_res = float(pd.to_numeric(sub["price"], errors="coerce").fillna(0).sum())
@@ -149,7 +159,9 @@ def _rankings(f: pd.DataFrame):
             f'({vol_res/vol_all*100 if vol_all else 0:.0f}% of dollars). '
             f'Rows whose {side} is still a single-purpose entity are EXCLUDED, '
             f'not bucketed as "other", so this ranks the firms it can name and '
-            f'understates everyone.<br>'
+            f'understates everyone. A further {n_affil} rows worth '
+            f'${v_affil/1e9:.2f}B are excluded as INTRA-SPONSOR CONVEYANCES — the '
+            f'same firm on both sides, which is restructuring, not acquisition.<br>'
             f'<b style="color:#e2e8f0">DATE COVERAGE</b> {span}. Only {recent} of '
             f'these {n_res} rows are dated 2023 or later — the assessment spines '
             f'stop in 2022 (Boston) and 2025 (Cambridge), so this is a '
@@ -205,18 +217,26 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
         "PRICE":    pd.to_numeric(d["price"], errors="coerce"),
         "%":        pd.to_numeric(d["pct_acquired"], errors="coerce"),
         "IMPLIED":  pd.to_numeric(d["implied_valuation"], errors="coerce"),
-        # The resolved SPONSOR where there is one, carrying its resolution mark,
-        # otherwise the record entity plain. The database keeps `buyer` and
-        # `seller` verbatim either way -- this is a display choice, and an
-        # unmarked value is always the literal grantee or grantor.
-        "BUYER":    [_sponsor_cell(cn, cf) or (b if isinstance(b, str) else "—")
-                     for cn, cf, b in zip(d.get("buyer_canonical", pd.Series(dtype=object)),
-                                          d.get("buyer_confidence", pd.Series(dtype=object)),
-                                          d["buyer"].fillna("—"))],
-        "SELLER":   [_sponsor_cell(cn, cf) or (s if isinstance(s, str) else "—")
-                     for cn, cf, s in zip(d.get("seller_canonical", pd.Series(dtype=object)),
-                                          d.get("seller_confidence", pd.Series(dtype=object)),
-                                          d["seller"].fillna("—"))],
+        # THE RESOLVED SPONSOR ONLY. Blank where unresolved.
+        #
+        # The record entity is deliberately NOT shown. "115 Banker Street LLC
+        # sold to 245 Bluefish LLC" occupies two columns to say nothing; the
+        # question is always which firm sold to which firm. A blank cell is the
+        # honest answer to "who was this" when the vehicle has not been resolved,
+        # and it makes the resolution rate visible at a glance instead of hiding
+        # it behind a wall of LLC names that look like data.
+        #
+        # `buyer` and `seller` remain stored verbatim and untouched. They are the
+        # key that ties a row to its deed, the thing a registry citation resolves
+        # against, what a licensed feed would reconcile to, and what every
+        # resolution layer runs on. They stay visible on the row detail so any
+        # row can still be traced back to the record.
+        "BUYER":    [_sponsor_cell(cn, cf) for cn, cf in
+                     zip(d.get("buyer_canonical", pd.Series(dtype=object)),
+                         d.get("buyer_confidence", pd.Series(dtype=object)))],
+        "SELLER":   [_sponsor_cell(cn, cf) for cn, cf in
+                     zip(d.get("seller_canonical", pd.Series(dtype=object)),
+                         d.get("seller_confidence", pd.Series(dtype=object)))],
         "ASSET":    d["property_type"].fillna("—"),
         "SF":       pd.to_numeric(d["building_sf"], errors="coerce"),
         "UNITS":    pd.to_numeric(d["unit_count"], errors="coerce"),
@@ -353,8 +373,18 @@ def render(projects: pd.DataFrame | None = None):
                 help="Implied WHOLE-ASSET valuation where a source states one. "
                      "Derived arithmetic, not a price paid, and excluded from "
                      "every dollar total."),
-            "BUYER":   st.column_config.TextColumn(width=w["BUYER"]),
-            "SELLER":  st.column_config.TextColumn(width=w["SELLER"]),
+            "BUYER":   st.column_config.TextColumn(
+                width=w["BUYER"],
+                help="The RESOLVED SPONSOR, not the record entity. Blank means "
+                     "the single-purpose vehicle on the deed has not been "
+                     "resolved to a firm — a blank is the honest answer, not a "
+                     "missing value. The record entity is stored verbatim and "
+                     "shown on the row detail."),
+            "SELLER":  st.column_config.TextColumn(
+                width=w["SELLER"],
+                help="The RESOLVED SPONSOR, not the record entity. Blank means "
+                     "unresolved. The grantor of record is stored verbatim and "
+                     "shown on the row detail."),
             "ASSET":   st.column_config.TextColumn(width=w["ASSET"]),
             "SF":      st.column_config.NumberColumn(width=w["SF"], format="%,d"),
             "UNITS":   st.column_config.NumberColumn(width=w["UNITS"], format="%d"),
