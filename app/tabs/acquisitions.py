@@ -255,7 +255,16 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
 
 def render(projects=None):
     try:
-        from app.data import load_transactions
+        # app.acq_data, not app.data. The deploy carried a STALE app/data.py --
+        # importing load_projects from it worked while load_transactions, defined
+        # at column zero in the same file on GitHub, was absent. A module the
+        # deployment has never seen has no older copy to serve, so this routes
+        # around a wedged checkout instead of hoping the next pull fixes it.
+        # app/data.py keeps its own copy, so other callers are unaffected.
+        try:
+            from app.acq_data import load_transactions
+        except ImportError:
+            from app.data import load_transactions
         df = load_transactions()
     except Exception as exc:
         import traceback
