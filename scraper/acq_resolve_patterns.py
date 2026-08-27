@@ -54,7 +54,13 @@ PATTERNS = [
     (r"\bARE-MA\b|\bARE-\b|ALEXANDRIA REAL ESTATE", "Alexandria Real Estate Equities", None),
     (r"\bBRE-BMR\b|\bBIOMED\b", "BioMed Realty (Blackstone)", None),
     (r"\bMEPT\b", "MEPT / BentallGreenOak", None),
-    (r"\bRREF\b", "Rialto Capital", None),
+    # RREF is RELATED Real Estate Fund, not Rialto. This entry said Rialto for
+    # eight rows and $480.7M on the assumption that RREF meant Rialto Real
+    # Estate Fund. Boston University's account of selling nine Kenmore Square
+    # properties names Related Real Estate Fund II, and The Real Reporter's
+    # headline on 451 D Street is "Related Beal Ties Up 451 D St". It was a
+    # guess presented as a decode.
+    (r"\bRREF\b", "Related Beal", None),
     (r"\bDWF [IVX]+\b|\bDIVCOWEST\b|\bDIVCO WEST\b", "DivcoWest", None),
     (r"\bPPF (OFF|INDUSTRIAL|AMLI|RTL)\b", "Morgan Stanley Prime Property Fund", None),
     (r"\bGAZIT\b", "Gazit Horizons", None),
