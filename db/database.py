@@ -190,6 +190,13 @@ def init_db():
     # denominator is not. This flags the rows where that is demonstrably true
     # rather than deleting a figure that is right on most rows.
     _add_column_if_missing("transactions", "psf_unreliable", "BOOLEAN")
+
+    # A recorded price that the press flatly contradicts. 75 State Street is the
+    # case: this table has $325M in September 2019, the press has Rockpoint
+    # paying $635M for the building that year, and nothing found reconciles
+    # them. The registry figure is kept, because it is what the registry holds,
+    # but it must not enter a total or an average as though it were settled.
+    _add_column_if_missing("transactions", "price_disputed", "BOOLEAN")
     print(f"Database ready at {DB_PATH}")
 
 
