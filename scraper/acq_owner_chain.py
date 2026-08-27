@@ -51,6 +51,7 @@ import argparse
 import csv
 import json
 import logging
+import re
 import sys
 import time
 from collections import defaultdict
@@ -215,7 +216,21 @@ def fetch_cambridge_chain() -> dict:
 
 
 def _norm(s: str) -> str:
-    return "".join(ch for ch in (s or "").upper() if ch.isalnum())
+    """Normalise an owner name for comparison across annual snapshots.
+
+    LEGAL SUFFIXES ARE STRIPPED, and that omission was a real bug. An
+    assessment roll is not consistent about them between years: 185 Franklin
+    Street appears as "CSHV 50 POST OFFICE SQUARE  LLC" in one snapshot and
+    "CSHV 50 POST OFFICE SQUARE" in the next. Comparing raw strings, the chain
+    read that formatting change as a change of ownership and reported the buyer
+    as its own seller. Thirty-two rows carried a seller that was simply the
+    buyer's name minus its suffix, including a $285M trade -- a spurious
+    grantor, not an affiliated transfer.
+    """
+    t = re.sub(r"[^A-Z0-9 ]", " ", (s or "").upper())
+    t = re.sub(r"\b(LLC|LLP|LP|INC|CORP|CORPORATION|CO|COMPANY|LTD|TRUST|TR|"
+               r"TRS|TRUSTEE|TRUSTEES|REALTY|THE)\b", " ", t)
+    return "".join(ch for ch in t if ch.isalnum())
 
 
 def snapshot_year(fy: int, offset: int) -> int:

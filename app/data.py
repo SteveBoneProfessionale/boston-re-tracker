@@ -1023,7 +1023,14 @@ def load_transactions() -> pd.DataFrame:
     from sqlalchemy import text
     from db.database import engine
     with engine.connect() as conn:
-        rows = conn.execute(text("select * from transactions")).mappings().all()
+        # Quarantined rows are affiliated-party transfers -- a company conveying
+        # to itself. They are not acquisitions and must not enter any count,
+        # volume or ranking, so they are excluded here rather than filtered in
+        # each consumer, where one missed filter would silently reinstate them.
+        # They remain in the table with their reason for review.
+        rows = conn.execute(text(
+            "select * from transactions where coalesce(quarantined,0) = 0"
+        )).mappings().all()
     df = pd.DataFrame([dict(r) for r in rows])
     if df.empty:
         return df
