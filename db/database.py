@@ -181,6 +181,15 @@ def init_db():
     # broker gets erased, and the buy-side broker is often the only clue to
     # what kind of buyer it was.
     _add_column_if_missing("transactions", "broker_buy_side", "VARCHAR")
+
+    # `building_sf` on a spine row is the PARCEL's recorded area. On a
+    # condominiumised or fragmented parcel that is a portion of the asset
+    # rather than the asset, so the derived $/SF is meaningless -- 160-170 N
+    # Washington records 7,200 SF for the 214,000 SF Converse headquarters and
+    # computes to $20,833/SF against a reported $800. The price is sound; the
+    # denominator is not. This flags the rows where that is demonstrably true
+    # rather than deleting a figure that is right on most rows.
+    _add_column_if_missing("transactions", "psf_unreliable", "BOOLEAN")
     print(f"Database ready at {DB_PATH}")
 
 

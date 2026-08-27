@@ -81,6 +81,8 @@ class Transaction(Base):
     sale_date_precision = Column(String)   # day | month | quarter | year
     price = Column(Integer)                # what was actually PAID
     price_caveat = Column(String)          # e.g. consideration excludes assumed debt
+    psf_unreliable = Column(Boolean)       # building_sf is the PARCEL's area, not the
+                                           # asset's, so price_per_sf is meaningless here
     buyer = Column(String)
     buyer_canonical = Column(String)       # resolved through the SoC corporations database
     buyer_confidence = Column(String)      # registry_confirmed | web_corroborated |
