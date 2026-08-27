@@ -25,7 +25,12 @@ import math
 import pandas as pd
 import streamlit as st
 
-from app.data import load_transactions
+# NOT imported at module level, deliberately. A module-level import here runs
+# during `from app.tabs import ... acquisitions` in app/main.py, so anything that
+# goes wrong inside it takes down the ENTIRE app -- every tab, not just this one
+# -- and Streamlit Cloud redacts the message, leaving a traceback that stops one
+# line short of the cause. Importing inside render() means a failure is contained
+# to this tab and can be shown in full.
 
 _BG2    = "#141720"
 _BORDER = "#1E2530"
@@ -248,8 +253,30 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
-def render(projects: pd.DataFrame | None = None):
-    df = load_transactions()
+def render(projects=None):
+    try:
+        from app.data import load_transactions
+        df = load_transactions()
+    except Exception as exc:
+        import traceback
+        st.error(
+            "The Acquisitions tab could not load its data. The rest of the app "
+            "is unaffected. Full error below — this is the message Streamlit "
+            "Cloud redacts."
+        )
+        st.code(f"{type(exc).__name__}: {exc}", language="text")
+        st.code(traceback.format_exc(), language="text")
+        with st.expander("Environment"):
+            import sqlalchemy
+            st.code(
+                f"python     {sys.version}\n"
+                f"streamlit  {st.__version__}\n"
+                f"pandas     {pd.__version__}\n"
+                f"sqlalchemy {sqlalchemy.__version__}\n"
+                f"cwd        {Path.cwd()}\n"
+                f"sys.path[:5]\n  " + "\n  ".join(sys.path[:5]),
+                language="text")
+        return
     if df.empty:
         st.info("No transactions loaded yet.")
         return
