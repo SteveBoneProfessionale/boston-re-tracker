@@ -197,6 +197,15 @@ def init_db():
     # them. The registry figure is kept, because it is what the registry holds,
     # but it must not enter a total or an average as though it were settled.
     _add_column_if_missing("transactions", "price_disputed", "BOOLEAN")
+
+    # The official neighborhood the parcel sits in, derived by point-in-polygon
+    # against the BPDA and Cambridge CDD boundary layers -- the same vocabulary
+    # the development side already uses, so a Seaport comp and a Seaport project
+    # name the same place. DERIVED, NOT SOURCED: it is recomputed by
+    # scripts/derive_submarkets.py and no scraper writes it. Null where the row
+    # has no locatable point, which is a portfolio address or a press row the
+    # City's address file does not carry.
+    _add_column_if_missing("transactions", "submarket", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 

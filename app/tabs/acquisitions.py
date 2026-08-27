@@ -75,14 +75,16 @@ def _fmt_money(v) -> str:
 
 
 _CELL = {
-    "PRICE":     _fmt_money,
-    "IMPLIED":   _fmt_money,
-    "SF":        _fmt_money,
-    "UNITS":     lambda v: "" if v is None or v != v else f"{int(v)}",
-    "$/SF":      lambda v: "" if v is None or v != v else f"{v:,.0f}",
-    "$/UNIT":    _fmt_money,
-    "%":         lambda v: "" if v is None or v != v else f"{v:.0f}%",
-    "DATE":      lambda v: "" if v is None or v != v else str(v)[:10],
+    "PRICE":       _fmt_money,
+    "SF":          _fmt_money,
+    "UNITS":       lambda v: "" if v is None or v != v else f"{int(v)}",
+    "$/SF":        lambda v: "" if v is None or v != v else f"{v:,.0f}",
+    "$/UNIT":      _fmt_money,
+    "PRIOR PRICE": _fmt_money,
+    "CHANGE %":    lambda v: "" if v is None or v != v else f"{v:.1f}%",
+    "YEAR":        lambda v: "" if v is None or v != v else f"{int(v)}",
+    "DATE":        lambda v: "" if v is None or v != v else str(v)[:10],
+    "PRIOR DATE":  lambda v: "" if v is None or v != v else str(v)[:10],
 }
 
 
@@ -205,23 +207,84 @@ def _section(label: str):
         f'margin:16px 0 8px 0">{label}</p>', unsafe_allow_html=True)
 
 
+def _asset_cell(raw) -> str:
+    """Normalised asset class, or the raw code behind a warning mark.
+
+    An unmapped code is shown AS ITSELF with a ⚠, never bucketed into "Other".
+    Four codes are in that state -- Cell Carrier, Com Billboard, Comm Condo and
+    the bare word Commercial -- covering 14 rows. "Other" would read as an asset
+    class and quietly assert that they are one thing; the raw code asserts only
+    what the assessor wrote.
+    """
+    from app.asset_class import classify
+    cat = classify(raw)
+    if cat:
+        return cat
+    if raw is None or raw != raw or not str(raw).strip():
+        return ""
+    return f"⚠ {raw}"
+
+
 def _build_display(df: pd.DataFrame) -> pd.DataFrame:
     d = df.copy()
-    d["TYPE"] = [f"{TYPE_MARK.get(t, ('·', t or '?', _MUTED))[0]} "
-                 f"{TYPE_MARK.get(t, ('·', (t or '?').upper(), _MUTED))[1]}"
-                 for t in d["transaction_type"]]
+
+    # TYPE IS A MARK ON THE ADDRESS, NOT A COLUMN. 785 of 793 rows are plain
+    # asset sales, so a full column spent saying ASSET 785 times carried almost
+    # no information. Only the eight rows that are NOT a straightforward whole
+    # -property sale are marked, which is the entire signal the column carried.
+    # The stake percentage rides along on the same cell, because it is populated
+    # on three rows and a column for three values is worse than a suffix.
+    def _addr(row):
+        t = row["transaction_type"]
+        mark = TYPE_MARK.get(t)
+        pre = f"{mark[0]} " if mark and t != "asset_sale" else ""
+        pct = pd.to_numeric(pd.Series([row.get("pct_acquired")]),
+                            errors="coerce").iloc[0]
+        suf = f"  ·  {pct:.0f}% stake" if pct == pct and pct else ""
+        return f"{pre}{row['address'] or ''}{suf}"
+
+    addr = d.apply(_addr, axis=1) if len(d) else pd.Series(dtype=object)
+
     d["SRC"] = [f"{SOURCE_MARK.get(s, ('·', (s or '?').upper()[:6], _MUTED))[0]} "
                 f"{SOURCE_MARK.get(s, ('·', (s or '?').upper()[:6], _MUTED))[1]}"
                 for s in d["source"]]
+
+    dates = pd.to_datetime(d["sale_date"], errors="coerce")
+
+    # A PLACEHOLDER SQUARE FOOTAGE IS NOT A SQUARE FOOTAGE. Rows loaded with
+    # building_sf = 1 computed to $452,000,000/SF at 101 Seaport and
+    # $285,000,000/SF at 185 Franklin. Those were nulled in the data, and this
+    # is the guard that stops any future loader putting one back on screen.
+    sf = pd.to_numeric(d["building_sf"], errors="coerce")
+    psf = pd.to_numeric(d["price_per_sf"], errors="coerce")
+    broken = sf.notna() & (sf <= 1)
+    sf = sf.mask(broken)
+    psf = psf.mask(broken)
+
+    # THE SAME DEFECT ONE STEP SUBTLER. psf_unreliable marks the rows where the
+    # recorded area is the PARCEL's and not the asset's, so the quotient
+    # describes nothing. 29 of them still carried a figure, and they separate
+    # from the sound data without overlap: every flagged $/SF is $2,516 or more
+    # while the highest unflagged one in the table is $2,488. A $72,865/SF cell
+    # is the same broken number as a $452,000,000/SF cell, just quieter, so it
+    # is withheld on the same rule. THE SQUARE FOOTAGE ITSELF IS KEPT -- the
+    # parcel's recorded area is real, it is only the wrong denominator for this
+    # asset -- and the row detail says so.
+    unreliable = pd.to_numeric(d.get("psf_unreliable"), errors="coerce").fillna(0) == 1
+    psf = psf.mask(unreliable)
+
     out = pd.DataFrame({
-        "ADDRESS":  d["address"].fillna(""),
+        "ADDRESS":  addr,
+        # Real dates and real numbers throughout, so every header sorts
+        # chronologically or by magnitude rather than lexically. Verified, not
+        # assumed -- string-typed numbers already bit the Projects table once.
+        "DATE":     dates,
+        "YEAR":     dates.dt.year.astype("Int64"),
         "CITY":     d["city"].fillna(""),
-        "TYPE":     d["TYPE"],
-        "SRC":      d["SRC"],
-        "DATE":     pd.to_datetime(d["sale_date"], errors="coerce"),
-        "PRICE":    pd.to_numeric(d["price"], errors="coerce"),
-        "%":        pd.to_numeric(d["pct_acquired"], errors="coerce"),
-        "IMPLIED":  pd.to_numeric(d["implied_valuation"], errors="coerce"),
+        "SUBMARKET": d.get("submarket", pd.Series(index=d.index, dtype=object)).fillna(""),
+        "ASSET":    [_asset_cell(v) for v in d["property_type"]],
+        # SELLER BEFORE BUYER, which reads in the direction the deal happened.
+        #
         # THE RESOLVED SPONSOR ONLY. Blank where unresolved.
         #
         # The record entity is deliberately NOT shown. "115 Banker Street LLC
@@ -236,21 +299,90 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
         # against, what a licensed feed would reconcile to, and what every
         # resolution layer runs on. They stay visible on the row detail so any
         # row can still be traced back to the record.
-        "BUYER":    [_sponsor_cell(cn, cf) for cn, cf in
-                     zip(d.get("buyer_canonical", pd.Series(dtype=object)),
-                         d.get("buyer_confidence", pd.Series(dtype=object)))],
         "SELLER":   [_sponsor_cell(cn, cf) for cn, cf in
                      zip(d.get("seller_canonical", pd.Series(dtype=object)),
                          d.get("seller_confidence", pd.Series(dtype=object)))],
-        "ASSET":    d["property_type"].fillna("—"),
-        "SF":       pd.to_numeric(d["building_sf"], errors="coerce"),
+        "BUYER":    [_sponsor_cell(cn, cf) for cn, cf in
+                     zip(d.get("buyer_canonical", pd.Series(dtype=object)),
+                         d.get("buyer_confidence", pd.Series(dtype=object)))],
+        "PRICE":    pd.to_numeric(d["price"], errors="coerce"),
+        "SF":       sf,
+        "$/SF":     psf,
         "UNITS":    pd.to_numeric(d["unit_count"], errors="coerce"),
-        "$/SF":     pd.to_numeric(d["price_per_sf"], errors="coerce"),
         "$/UNIT":   pd.to_numeric(d["price_per_unit"], errors="coerce"),
-        "BOOK/PG":  (d["deed_book"].fillna("") + "/" + d["deed_page"].fillna("")
-                     ).str.strip("/").replace("", "—"),
+        # THE BASIS TRADE, ON THE ROW. 18 Tremont Street bought at $102.75M in
+        # 2019 and sold at $29.5M is the single most informative fact in this
+        # table and it was previously not visible anywhere.
+        "PRIOR PRICE": pd.to_numeric(d["prior_sale_price"], errors="coerce"),
+        "PRIOR DATE": pd.to_datetime(d["prior_sale_date"], errors="coerce"),
+        "CHANGE %": pd.to_numeric(d["basis_change_pct"], errors="coerce"),
+        "SRC":      d["SRC"],
     })
     return out
+
+
+def _row_detail(f: pd.DataFrame, event):
+    """Everything the default table no longer carries, for the selected row.
+
+    The columns cut from the face of the table are not deleted, they live here:
+    the RAW assessor code behind the normalised asset class, the stake
+    percentage and implied whole-asset valuation that are populated on three
+    rows and none respectively, the registry book and page, and — most
+    importantly — the RECORD ENTITIES. `buyer` and `seller` are stored verbatim
+    and never modified, and this is where a row is traced back to its deed.
+    """
+    rows = getattr(getattr(event, "selection", None), "rows", None) or []
+    if not rows:
+        st.caption("Select a row for the record entities, the registry "
+                   "citation, the raw assessor code and the research note.")
+        return
+    i = rows[0]
+    if i >= len(f):
+        return
+    r = f.iloc[i]
+
+    _section("ROW DETAIL")
+    a, b = st.columns(2)
+    with a:
+        st.markdown(f"**{r.get('address') or ''}** — {r.get('city') or ''}"
+                    f"{', ' + r['submarket'] if r.get('submarket') else ''}")
+        st.caption("RECORD ENTITIES, verbatim and never modified. These are the "
+                   "key that ties the row to its deed.")
+        st.text(f"grantor  {r.get('seller') or '—'}")
+        st.text(f"grantee  {r.get('buyer') or '—'}")
+        bk, pg = r.get("deed_book") or "", r.get("deed_page") or ""
+        cite = f"{bk}/{pg}".strip("/") or "—"
+        if r.get("is_registered_land"):
+            cite += f"  ·  registered land, cert {r.get('certificate_number') or '—'}"
+        st.text(f"book/pg  {cite}")
+        st.text(f"parcel   {r.get('parcel_id') or '—'}")
+    with b:
+        st.caption("The assessor's own code, kept so the normalised asset "
+                   "class stays traceable.")
+        st.text(f"raw type {r.get('property_type') or '—'}")
+        pct = r.get("pct_acquired")
+        iv = r.get("implied_valuation")
+        st.text(f"stake    {f'{pct:.0f}%' if pct == pct and pct else '—'}")
+        st.text(f"implied  {f'${iv:,.0f}' if iv == iv and iv else '—'}")
+        st.text(f"source   {r.get('source') or '—'}  {r.get('source_date') or ''}")
+        if r.get("source_url"):
+            st.markdown(f"[source link]({r['source_url']})")
+
+    for flag, msg in (
+            ("psf_unreliable",
+             "$/SF IS NOT RELIABLE ON THIS ROW. The recorded square footage is "
+             "the parcel's, not the asset's."),
+            ("price_disputed",
+             "PRICE IS DISPUTED. The recorded consideration and the reported "
+             "price do not reconcile."),
+    ):
+        if r.get(flag):
+            st.warning(msg)
+    if r.get("price_caveat"):
+        st.caption(f"PRICE CAVEAT — {r['price_caveat']}")
+    if r.get("notes"):
+        with st.expander("Research note"):
+            st.write(r["notes"])
 
 
 def render(projects=None):
@@ -332,16 +464,40 @@ def render(projects=None):
                          help="A stake is never a building. STAKE and ENTITY rows "
                               "carry the amount paid for the interest, not the "
                               "whole-asset value.")
-    assets = ["All"] + sorted(x for x in df["property_type"].dropna().unique() if x)
+    # Filters on the NORMALISED class, not the raw code. Ten options instead of
+    # 115, and "Office" now means the same thing in both cities.
+    from app.asset_class import CATEGORIES
+    present = {_asset_cell(v) for v in df["property_type"].dropna().unique()}
+    assets = (["All"] + [c for c in CATEGORIES if c in present]
+              + sorted(x for x in present if x.startswith("⚠")))
     asset = c3.selectbox("ASSET CLASS", assets, key="acq_asset")
     years = ["All"] + sorted({str(y)[:4] for y in df["sale_date"].dropna()}, reverse=True)
     year = c4.selectbox("YEAR", years, key="acq_year")
 
     c5, c6, c7 = st.columns([1, 1, 2])
-    lo = c5.number_input("MIN PRICE ($M)", value=0.0, step=1.0, key="acq_lo")
-    hi = c6.number_input("MAX PRICE ($M)", value=0.0, step=1.0, key="acq_hi",
+    subs = ["All"] + sorted(x for x in df.get(
+        "submarket", pd.Series(dtype=object)).dropna().unique() if x)
+    sub_sel = c5.selectbox("SUBMARKET", subs, key="acq_sub",
+                           help="BPDA neighborhood in Boston, CDD neighborhood "
+                                "in Cambridge — the same vocabulary the "
+                                "Projects tab uses. Derived by point-in-polygon "
+                                "from the parcel; blank on the 11 rows that "
+                                "have no locatable point.")
+    lo = c6.number_input("MIN PRICE ($M)", value=0.0, step=1.0, key="acq_lo")
+    hi = c7.number_input("MAX PRICE ($M)", value=0.0, step=1.0, key="acq_hi",
                          help="0 means no ceiling.")
-    q = c7.text_input("SEARCH", "", key="acq_q", placeholder="address, buyer or seller…")
+
+    c8, c9 = st.columns([3, 2])
+    q = c8.text_input("SEARCH", "", key="acq_q", placeholder="address, buyer or seller…")
+    # THE SET WORTH SHOWING SOMEONE. Buyer is resolved on 37% of rows and seller
+    # on 26%, so most of the table is blank on the two columns a CRE reader looks
+    # at first. This isolates the rows where both sides are named in one click.
+    both = c9.checkbox("BOTH PARTIES NAMED", value=False, key="acq_both",
+                       help="Only rows where the buyer AND the seller have been "
+                            "resolved to a firm. 185 rows carrying $28.4B — a "
+                            "quarter of the table by count and three quarters "
+                            "of it by dollar, because resolution clusters at "
+                            "the top of the market.")
 
     f = df.copy()
     if city != "All":
@@ -349,7 +505,14 @@ def render(projects=None):
     if ttype != "All":
         f = f[f["transaction_type"] == ttype]
     if asset != "All":
-        f = f[f["property_type"] == asset]
+        f = f[[_asset_cell(v) == asset for v in f["property_type"]]]
+    if sub_sel != "All":
+        f = f[f.get("submarket", pd.Series(index=f.index, dtype=object)) == sub_sel]
+    if both:
+        f = f[(f.get("buyer_canonical", pd.Series(index=f.index, dtype=object))
+               .fillna("") != "")
+              & (f.get("seller_canonical", pd.Series(index=f.index, dtype=object))
+                 .fillna("") != "")]
     if year != "All":
         f = f[f["sale_date"].astype(str).str[:4] == year]
     if lo:
@@ -374,20 +537,49 @@ def render(projects=None):
 
     # ── Table ───────────────────────────────────────────────────────
     _section("TRANSACTIONS")
+    # DEFAULT SORT IS PRICE DESCENDING. Most rows are blank on buyer and seller,
+    # and the named ones cluster at the top of the market, so sorting by price
+    # puts the usable data on the first screen instead of whatever order the
+    # loader happened to write.
+    f = f.sort_values("price", ascending=False, na_position="last")
     disp = _build_display(f)
     w = _widths(disp)
-    st.dataframe(
+    event = st.dataframe(
         disp, use_container_width=True, hide_index=True, height=420,
+        on_select="rerun", selection_mode="single-row", key="acq_table",
         column_config={
-            "ADDRESS": st.column_config.TextColumn(width=w["ADDRESS"], pinned=True),
+            "ADDRESS": st.column_config.TextColumn(
+                width=w["ADDRESS"], pinned=True,
+                help="◑ STAKE a percentage of the owning entity · ◆ ENTITY the "
+                     "owning entity itself · ▲ DISTRESS foreclosure or deed in "
+                     "lieu, kept rather than dropped. An unmarked row is a "
+                     "straightforward whole-property sale, which is 785 of 793."),
+            "YEAR":    st.column_config.NumberColumn(
+                width=w["YEAR"], format="%d",
+                help="The sale year on its own, for grouping and charting. "
+                     "DATE beside it sorts chronologically within the year."),
             "CITY":    st.column_config.TextColumn(width=w["CITY"]),
-            "TYPE":    st.column_config.TextColumn(
-                width=w["TYPE"],
-                help="● ASSET whole property · ◑ STAKE a percentage of the owning "
-                     "entity · ◆ ENTITY the owning entity itself · ▲ DISTRESS "
-                     "foreclosure or deed in lieu, kept rather than dropped."),
-            # Real dates and real numbers, so the headers sort chronologically
-            # and by magnitude rather than as text.
+            "SUBMARKET": st.column_config.TextColumn(
+                width=w["SUBMARKET"],
+                help="BPDA neighborhood in Boston, Cambridge CDD neighborhood in "
+                     "Cambridge — the same vocabulary the Projects tab uses. "
+                     "Derived by point-in-polygon from the parcel centroid, not "
+                     "from the street name. Blank where the row has no locatable "
+                     "point."),
+            "PRIOR PRICE": st.column_config.NumberColumn(
+                width=w["PRIOR PRICE"], format="$%,d",
+                help="What the seller paid for the same asset, where a prior "
+                     "trade has been established. 11 rows carry one."),
+            "PRIOR DATE": st.column_config.DateColumn(
+                width=w["PRIOR DATE"], format="YYYY-MM-DD",
+                help="When the prior trade closed. CHANGE % is meaningless "
+                     "without it — a 71% fall over three years and over "
+                     "fifteen are different events."),
+            "CHANGE %": st.column_config.NumberColumn(
+                width=w["CHANGE %"], format="%.1f%%",
+                help="Change against the seller's own basis. 18 Tremont Street "
+                     "at −71.3% and 1 Hampshire Street at −62.5% are the "
+                     "repricing of Boston office in the open."),
             "SRC":     st.column_config.TextColumn(
                 width=w["SRC"],
                 help="Where the row came from. ▣ SEC an audited 10-Q disposition "
@@ -402,13 +594,6 @@ def render(projects=None):
                 width=w["PRICE"], format="$%,d",
                 help="What was actually PAID. On a stake this is the stake price, "
                      "never the whole-asset value."),
-            "%":       st.column_config.NumberColumn(
-                width=w["%"], format="%.0f%%", help="Percentage acquired, on a stake."),
-            "IMPLIED": st.column_config.NumberColumn(
-                width=w["IMPLIED"], format="$%,d",
-                help="Implied WHOLE-ASSET valuation where a source states one. "
-                     "Derived arithmetic, not a price paid, and excluded from "
-                     "every dollar total."),
             "BUYER":   st.column_config.TextColumn(
                 width=w["BUYER"],
                 help="The RESOLVED SPONSOR, not the record entity. Blank means "
@@ -421,13 +606,21 @@ def render(projects=None):
                 help="The RESOLVED SPONSOR, not the record entity. Blank means "
                      "unresolved. The grantor of record is stored verbatim and "
                      "shown on the row detail."),
-            "ASSET":   st.column_config.TextColumn(width=w["ASSET"]),
+            "ASSET":   st.column_config.TextColumn(
+                width=w["ASSET"],
+                help="Normalised to one taxonomy across both cities. Boston "
+                     "records 'Office Cls B+ (346)' and Cambridge records "
+                     "'GEN-OFFICE' for the same thing; both read Office here. "
+                     "A ⚠ means the assessor's code does not map to any class "
+                     "and is shown raw rather than bucketed as Other. The "
+                     "original code is on the row detail."),
             "SF":      st.column_config.NumberColumn(width=w["SF"], format="%,d"),
             "UNITS":   st.column_config.NumberColumn(width=w["UNITS"], format="%d"),
             "$/SF":    st.column_config.NumberColumn(width=w["$/SF"], format="$%,d"),
             "$/UNIT":  st.column_config.NumberColumn(width=w["$/UNIT"], format="$%,d"),
-            "BOOK/PG": st.column_config.TextColumn(width=w["BOOK/PG"]),
         })
+
+    _row_detail(f, event)
 
     # ── Rankings, on resolved sponsors only ─────────────────────────
     _rankings(f)
@@ -441,7 +634,11 @@ def render(projects=None):
             st.bar_chart(qtr.groupby("Q")["price"].sum(), height=200)
     with b:
         _section("MEDIAN $/SF BY ASSET CLASS")
-        pps = f.dropna(subset=["price_per_sf"])
+        # On the NORMALISED class. Grouping by the raw code produced 115 bars in
+        # two vocabularies and compared nothing to anything.
+        pps = f.dropna(subset=["price_per_sf"]).copy()
+        pps = pps[pd.to_numeric(pps["building_sf"], errors="coerce").fillna(0) > 1]
         if not pps.empty:
-            st.bar_chart(pps.groupby("property_type")["price_per_sf"].median()
+            pps["_cls"] = [_asset_cell(v) for v in pps["property_type"]]
+            st.bar_chart(pps.groupby("_cls")["price_per_sf"].median()
                             .sort_values(ascending=False).head(12), height=200)

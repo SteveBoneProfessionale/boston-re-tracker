@@ -84,6 +84,8 @@ class Transaction(Base):
     price_disputed = Column(Boolean)       # press contradicts the recorded price
     psf_unreliable = Column(Boolean)       # building_sf is the PARCEL's area, not the
                                            # asset's, so price_per_sf is meaningless here
+    submarket = Column(String)             # DERIVED. BPDA / Cambridge CDD neighborhood,
+                                           # by point-in-polygon; see app/submarket.py
     buyer = Column(String)
     buyer_canonical = Column(String)       # resolved through the SoC corporations database
     buyer_confidence = Column(String)      # registry_confirmed | web_corroborated |
