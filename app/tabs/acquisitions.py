@@ -273,16 +273,21 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
     unreliable = pd.to_numeric(d.get("psf_unreliable"), errors="coerce").fillna(0) == 1
     psf = psf.mask(unreliable)
 
+    # COLUMN ORDER IS THE SENTENCE THE ROW READS AS: what it is, when it
+    # happened, who sold, who bought, what it cost, how big, what type. The
+    # deal is legible in the first seven columns without a horizontal scroll.
+    #
+    # CITY, SUBMARKET and YEAR sit to the right of the money on purpose. Each
+    # has its own control in the filter bar above, so their job is done before
+    # the eye reaches the table; carrying them on the left would push the
+    # parties and the price off the first screen to restate what the filter
+    # already says.
     out = pd.DataFrame({
         "ADDRESS":  addr,
         # Real dates and real numbers throughout, so every header sorts
         # chronologically or by magnitude rather than lexically. Verified, not
         # assumed -- string-typed numbers already bit the Projects table once.
         "DATE":     dates,
-        "YEAR":     dates.dt.year.astype("Int64"),
-        "CITY":     d["city"].fillna(""),
-        "SUBMARKET": d.get("submarket", pd.Series(index=d.index, dtype=object)).fillna(""),
-        "ASSET":    [_asset_cell(v) for v in d["property_type"]],
         # SELLER BEFORE BUYER, which reads in the direction the deal happened.
         #
         # THE RESOLVED SPONSOR ONLY. Blank where unresolved.
@@ -307,9 +312,14 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
                          d.get("buyer_confidence", pd.Series(dtype=object)))],
         "PRICE":    pd.to_numeric(d["price"], errors="coerce"),
         "SF":       sf,
+        "ASSET":    [_asset_cell(v) for v in d["property_type"]],
+        # Derived and secondary measures, then the filter dimensions.
         "$/SF":     psf,
         "UNITS":    pd.to_numeric(d["unit_count"], errors="coerce"),
         "$/UNIT":   pd.to_numeric(d["price_per_unit"], errors="coerce"),
+        "CITY":     d["city"].fillna(""),
+        "SUBMARKET": d.get("submarket", pd.Series(index=d.index, dtype=object)).fillna(""),
+        "YEAR":     dates.dt.year.astype("Int64"),
         # THE BASIS TRADE, ON THE ROW. 18 Tremont Street bought at $102.75M in
         # 2019 and sold at $29.5M is the single most informative fact in this
         # table and it was previously not visible anywhere.
@@ -557,7 +567,8 @@ def render(projects=None):
             "YEAR":    st.column_config.NumberColumn(
                 width=w["YEAR"], format="%d",
                 help="The sale year on its own, for grouping and charting. "
-                     "DATE beside it sorts chronologically within the year."),
+                     "Sort on DATE instead when the order within a year "
+                     "matters."),
             "CITY":    st.column_config.TextColumn(width=w["CITY"]),
             "SUBMARKET": st.column_config.TextColumn(
                 width=w["SUBMARKET"],
