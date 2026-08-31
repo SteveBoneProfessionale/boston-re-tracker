@@ -1,0 +1,595 @@
+{
+ "184": {
+  "name": "Fenway Corners (West)",
+  "url": "https://www.bostonplans.org/projects/development-projects/fenway-corners-west",
+  "gfa_field": 1883367,
+  "stored_old": 2041000,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "WS Development, on behalf of WS-Fenway-Twins Realty Venture LLC (the \"Proponent\") is proposing a 5.32-acre redevelopment (the \"Project\") of 13 privately-owned parcels of land on four primary development blocks located south of the Massachusetts Turnpike in the vicinity of the historic Fenway Park. The Project will consist of approximately 1,623,475 million square feet of Gross Floor Area of building area for office/research, residential, and retail uses, and will involve the reconstruction and improvement of approximately 3.7 acres of other public roadways, sidewalks, and other areas of public ownership as part of the Project's overall commitment to making extraordinary public realm improvem"
+ },
+ "14": {
+  "name": "Reserved Channel Development",
+  "url": "https://www.bostonplans.org/projects/development-projects/reserved-channel",
+  "gfa_field": 1559000,
+  "stored_old": 1739000,
+  "desc_figs": [
+   [
+    1559000,
+    "The Project is proposed to include approximately 1,559,000 square feet of development in eight new buildings. Building uses are pr"
+   ]
+  ],
+  "verdict": "description AGREES with the GFA field",
+  "desc": "The Project is proposed to include approximately 1,559,000 square feet of development in eight new buildings. Building uses are proposed to include residential housing that responds to the needs of the neighborhood, commercial research laboratory, and ground floor retail. Building massing and heights will be appropriately designed to respect the surrounding neighborhood along West First Street and the residential section of South Boston, with increasing building heights moving north, away from West First Street."
+ },
+ "366": {
+  "name": "Back Bay/South End Gateway Project",
+  "url": "https://www.bostonplans.org/projects/development-projects/back-bay-south-end-gateway-project",
+  "gfa_field": 1453000,
+  "stored_old": 1371480,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "In March of 2016, Boston Properties, LP, filed a Project Notification Form (PNF) proposing an expansion to the 165 Dartmouth Street Garage and Back Bay Station, which was initially built on air rights above the Massachusetts Turnpike in the late 1980s. After an initial comment period Boston Properties has responded to feedback and filed a Draft Project Impact Report (DPIR) in January of 2017. The proposed project is conceived as a transformative, mixed-use, transit-oriented redevelopment, which will revitalize an underutilized urban site and transform the adjacent public realm, and integrate and connect the surrounding Back Bay, South End, and Bay Village historic neighborhoods. The proposed"
+ },
+ "287": {
+  "name": "323-365 Dorchester Avenue",
+  "url": "https://www.bostonplans.org/projects/development-projects/323-365-dorchester-avenue",
+  "gfa_field": 1073000,
+  "stored_old": 1147000,
+  "desc_figs": [
+   [
+    235600,
+    "The proposed PDA Development Plan consists of the redevelopment of approximately 235,600 square feet (5.4 acres) of land into a mixed-use development that will"
+   ],
+   [
+    1073000,
+    "y 235,600 square feet (5.4 acres) of land into a mixed-use development that will include 4 buildings totaling 1,073,000 square feet. The proposal is anticipated to include approximately 623,0"
+   ],
+   [
+    623000,
+    "will include 4 buildings totaling 1,073,000 square feet. The proposal is anticipated to include approximately 623,000 square feet of office/life science space in two buildings, approximatel"
+   ],
+   [
+    352750,
+    "ted to include approximately 623,000 square feet of office/life science space in two buildings, approximately 352,750 square feet with 310 residential units in the other two buildings, appr"
+   ],
+   [
+    50000,
+    "dings, approximately 352,750 square feet with 310 residential units in the other two buildings, approximately 50,000 square feet of retail/restaurant space."
+   ]
+  ],
+  "verdict": "description AGREES with the GFA field",
+  "desc": "The proposed PDA Development Plan consists of the redevelopment of approximately 235,600 square feet (5.4 acres) of land into a mixed-use development that will include 4 buildings totaling 1,073,000 square feet. The proposal is anticipated to include approximately 623,000 square feet of office/life science space in two buildings, approximately 352,750 square feet with 310 residential units in the other two buildings, approximately 50,000 square feet of retail/restaurant space."
+ },
+ "247": {
+  "name": "176 Lincoln Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/176-lincoln-street",
+  "gfa_field": 790000,
+  "stored_old": 808000,
+  "desc_figs": [
+   [
+    551500,
+    "000 total square feet (the \"Proposed Project\"). The Proposed Project is contemplated to include approximately 551,500 square feet of office and/or research and development space in two (2)"
+   ],
+   [
+    18000,
+    "y 252 residential units. The ground-floor of each building will be activated on all sides, with approximately 18,000 square feet of retail space included across the Proposed Project. Vehic"
+   ]
+  ],
+  "verdict": "description figures match NEITHER",
+  "desc": "Berkeley Investments (the \"Proponent\"), through its subsidiary Berkeley 176 Lincoln Holdings, LLC, proposes the redevelopment of the approximately 5.2-acre site at 176 Lincoln Street in the Allston/Brighton neighborhood of Boston. The proposal calls for the demolition of the existing and long-vacant building on site, and details the Proponent's proposal for the creation of a new, three (3)-building, mixed-use project totaling approximately 790,000 total square feet (the \"Proposed Project\"). The Proposed Project is contemplated to include approximately 551,500 square feet of office and/or research and development space in two (2) primarily commercial buildings, while one (1) primarily residen"
+ },
+ "174": {
+  "name": "66 Cambridge Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/66-cambridge-street",
+  "gfa_field": 812000,
+  "stored_old": 802000,
+  "desc_figs": [
+   [
+    812000,
+    "at 60-66 Cambridge Street consists of the construction of two mixed-use buildings comprised of approximately 812,000 square feet of life science/office/research and development space, and"
+   ]
+  ],
+  "verdict": "description mentions both",
+  "desc": "The proposed project located at 60-66 Cambridge Street consists of the construction of two mixed-use buildings comprised of approximately 812,000 square feet of life science/office/research and development space, and ground floor retail/restaurant/commercial uses, along with below-grade parking."
+ },
+ "69": {
+  "name": "Austin Street Lots Redevelopment",
+  "url": "https://www.bostonplans.org/projects/development-projects/austin-street-lots-redevelopment",
+  "gfa_field": 126000,
+  "stored_old": 790000,
+  "desc_figs": [
+   [
+    790000,
+    "two surface parking lots. The project consists of four new mixed-use buildings collectively containing up to 790,000 sf of Gross Floor Area and delivering up to 705 new dwelling u"
+   ]
+  ],
+  "verdict": "DESCRIPTION AGREES WITH THE OLD STORED VALUE",
+  "desc": "The Project Site is comprised of discrete City of Boston Assessing Parcel Nos. 0203964000 and 0203963050, located at the southwestern corner of the intersection of New Rutherford Avenue and Austin Street in Charlestown, currently containing two surface parking lots. The project consists of four new mixed-use buildings collectively containing up to 790,000 sf of Gross Floor Area and delivering up to 705 new dwelling units and residential amenities, arts and culture space, early childhood education space, indoor recreation space, and structured and/or surface vehicle parking spaces, together with an urban plaza and lawn and athletic/multipurpose fields, and related site and public realm improv"
+ },
+ "267": {
+  "name": "776 Summer Street - Phase 1",
+  "url": "https://www.bostonplans.org/projects/development-projects/776-summer-street-phase-1",
+  "gfa_field": 746000,
+  "stored_old": 754500,
+  "desc_figs": [
+   [
+    364409,
+    "The Phase 1 Project will be located on 8.4 acres / 364,409 square feet within the approximately 15.2 acre (approximately 661,500 s"
+   ],
+   [
+    661500,
+    "Project will be located on 8.4 acres / 364,409 square feet within the approximately 15.2 acre (approximately 661,500 square foot) parcel of land known as and numbered 776 Summer Street in"
+   ]
+  ],
+  "verdict": "description figures match NEITHER",
+  "desc": "The Phase 1 Project will be located on 8.4 acres / 364,409 square feet within the approximately 15.2 acre (approximately 661,500 square foot) parcel of land known as and numbered 776 Summer Street in South Boston. The Phase 1 Project includes the rehabilitation of the Edison Turbine Halls 1, 2, and 3 and the construction of the buildings on Blocks D and F."
+ },
+ "252": {
+  "name": "Parcel X (310 Northern Avenue)",
+  "url": "https://www.bostonplans.org/projects/development-projects/parcel-x-310-northern-avenue",
+  "gfa_field": 764260,
+  "stored_old": 742000,
+  "desc_figs": [
+   [
+    742000,
+    "tory industrial buildings on the Project Site, and the construction of a new, two (2)-building, approximately 742,000 square foot life sciences/research and development campus (the \"Propose"
+   ]
+  ],
+  "verdict": "DESCRIPTION AGREES WITH THE OLD STORED VALUE",
+  "desc": "MP Properties II, LLC, an affiliate of Marcus Partners (collectively, the \"Proponent\"), filed a Project Notification Form (\"PNF\") with the Boston Planning & Development Agency on February 28, 2022 for the proposed redevelopment of Parcel X in the Raymond L. Flynn Marine Park of the South Boston Waterfront. The Proponent was assigned the existing ground lease for Parcel X, which has an address of 310 Northern Avenue, by the Economic Development and Industrial Corporation (\"EDIC\") in November of 2020. As detailed in the PNF, the Proponent proposes the demolition of the two (2) existing, single-story industrial buildings on the Project Site, and the construction of a new, two (2)-building, appr"
+ },
+ "246": {
+  "name": "1170-1190 Soldiers Field Road (abandoned)",
+  "url": "https://www.bostonplans.org/projects/development-projects/1170-soldiers-field-road",
+  "gfa_field": 810000,
+  "stored_old": 700000,
+  "desc_figs": [
+   [
+    700000,
+    "four new buildings, three buildings designed for office and life science research uses totaling approximately 700,000 sf with below- grade parking, and one 85-unit residential buil"
+   ],
+   [
+    225000,
+    "her supporting uses, with two (2) levels of underground parking. The buildings will range from approximately 225,000 square feet and seven (7) to eight (8) stories with a maximum height of"
+   ]
+  ],
+  "verdict": "DESCRIPTION AGREES WITH THE OLD STORED VALUE",
+  "desc": "The Project involves the redevelopment of approximately 6.28 acres of land currently occupied by the WBZ-TV/CBS Studio facility. The Project includes four new buildings, three buildings designed for office and life science research uses totaling approximately 700,000 sf with below- grade parking, and one 85-unit residential building. It also includes robust public realm upgrades, ancillary uses, and infrastructure and resiliency improvements.\nThe three (3) proposed buildings are designated for office use and life science, with some ground-floor retail and other supporting uses, with two (2) levels of underground parking.  The buildings will range from approximately 225,000 square feet and se"
+ },
+ "353": {
+  "name": "201 Stuart Street-Motor Mart Garage",
+  "url": "https://www.bostonplans.org/projects/development-projects/motor-mart-garage",
+  "gfa_field": 731000,
+  "stored_old": 685000,
+  "desc_figs": [
+   [
+    46000,
+    "(the Project). The Project will create a mix of approximately 231 new condominium units, retain approximately 46,000 sf of retail and restaurant space, and retain 672 parking spac"
+   ]
+  ],
+  "verdict": "description figures match NEITHER",
+  "desc": "201 Stuart Street Owner, LLC (the Proponent), an affiliate of CIM Group LLC, together with its development partner Boston Global Investors, LLC, proposes to redevelop the existing eight-story, Motor Mart Garage into a vibrant, mixed-use building by adding basement level retail space, reducing parking, and constructing new residential apartments within the western portion of the existing building, and constructing new residential apartments and condominiums within a 20-story residential tower rising out of the existing building (the Project). The Project will create a mix of approximately 231 new condominium units, retain approximately 46,000 sf of retail and restaurant space, and retain 672 "
+ },
+ "228": {
+  "name": "88 Black Falcon Avenue",
+  "url": "https://www.bostonplans.org/projects/development-projects/88-black-falcon-avenue",
+  "gfa_field": 571500,
+  "stored_old": 684450,
+  "desc_figs": [
+   [
+    330600,
+    "LFMP\") of the South Boston Waterfront. The Proponent proposes a four-story vertical addition of approximately 330,600 square feet to the existing three-story structure, which presently cons"
+   ],
+   [
+    353910,
+    "ximately 330,600 square feet to the existing three-story structure, which presently consists of approximately 353,910 square feet of Gross Floor Area. With the proposed vertical addition, t"
+   ],
+   [
+    684510,
+    "Gross Floor Area. With the proposed vertical addition, the 88 Black Falcon building would total approximately 684,510 square feet of Gross Floor Area. The redevelopment proposal also includ"
+   ],
+   [
+    327600,
+    "Ave intersection, and other site improvements.Phase 2 would comprise construction of the previously approved 327,600 sf, three-story vertical addition, expansion of the rooftop ov"
+   ]
+  ],
+  "verdict": "DESCRIPTION AGREES WITH THE OLD STORED VALUE",
+  "desc": "DIV Black Falcon, LLC, an affiliate of The Davis Companies (collectively, the \"Proponent\") filed a Letter of Intent (\"LOI\") with the Boston Planning & Development Agency (\"BPDA\") on December 10th, 2020 regarding the proposed redevelopment of the property owned by the Massachusetts\u00a0Port Authority (\"Massport\") and known as 88 Black Falcon Avenue in the Raymond L. Flynn Marine Park (\"RLFMP\") of the South Boston Waterfront.\u00a0The Proponent proposes a four-story vertical addition of approximately 330,600 square feet to the existing three-story structure, which presently consists of approximately 353,910 square feet of Gross Floor Area. With the proposed vertical addition, the 88 Black Falcon buildi"
+ },
+ "266": {
+  "name": "Seaport Circle Project",
+  "url": "https://www.bostonplans.org/projects/development-projects/seaport-circle-project",
+  "gfa_field": 611300,
+  "stored_old": 602200,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "This project includes the construction of a laboratory/research & development and office building and job training/non-profit center named Seaport Circle (the Project), located at 701 Congress Street in the South Boston Waterfront of Boston, Massachusetts (the Project Site). The Project Site includes a 0.96 surface parking lot on Parcel H, which is owned by the Massachusetts Port Authority (Massport), an adjacent 0.3 acres of undeveloped land, and a 1.26 acre parcel consisting of the Massachusetts Bay Transportation Authority (MBTA) Silver Line Way and land that includes the existing Boston Water and Sewer Commission Pump Station. The Project will construct a 13-story laboratory/research & d"
+ },
+ "128": {
+  "name": "17 Bradston Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/17-bradston-street",
+  "gfa_field": 268852,
+  "stored_old": 551200,
+  "desc_figs": [
+   [
+    50282,
+    "sal is located in the Newmarket neighborhood of Boston. The proposed project consists of the redevelopment of 50,282 square feet of land. The proposal will be designed to support industria"
+   ]
+  ],
+  "verdict": "description figures match NEITHER",
+  "desc": "This proposal is located in the Newmarket neighborhood of Boston. The proposed project consists of the redevelopment of 50,282 square feet of land. The proposal will be designed to support industrial tenants, as well as tenants in multiple growing sectors that will build on and expand Boston's competitive advantages in the coming years: healthcare support and administration; office and medical office; pharmaceutical back of house operations; R&D and advanced manufacturing."
+ },
+ "146": {
+  "name": "Faneuil Gardens Phase 1",
+  "url": "https://www.bostonplans.org/projects/development-projects/faneuil-gardens",
+  "gfa_field": 141950,
+  "stored_old": 547200,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "Faneuil Gardens is a redevelopment of an existing public housing community. Along with replacement units for all current public housing apartments, the intent is to add new income-restricted units, resident amenity space, and potential commercial/cultural spaces."
+ },
+ "328": {
+  "name": "Dock Square Garage",
+  "url": "https://www.bostonplans.org/projects/development-projects/dock-square-garage",
+  "gfa_field": 456000,
+  "stored_old": 535000,
+  "desc_figs": [
+   [
+    535000,
+    "ght of 17 levels (approximately 125 feet) along Clinton Street, and a total gross floor area of approximately 535,000 sf."
+   ]
+  ],
+  "verdict": "DESCRIPTION AGREES WITH THE OLD STORED VALUE",
+  "desc": "The Proponent proposes to retain the Existing Building and its current parking garage and restaurant-with-pool-tables-and-live entertainment uses, and construct a new, ten-level, approximately 125-unit residential condominium addition on the roof. The dwellings would be served by a new ground-level lobby, facing the Open Space, and new, private open space at the center of the 9th level and open to the sky.\n\nThe vertical, residential addition is designed to spiral upward in height, starting at level 12 on the Existing Building\u2019s northeasterly fa\u00e7ade along John F. Fitzgerald Surface Road, and moving counterclockwise to the southerly fa\u00e7ade along Clinton Street. The resulting building would hav"
+ },
+ "66": {
+  "name": "One Mystic Avenue",
+  "url": "https://www.bostonplans.org/projects/development-projects/one-mystic-avenue",
+  "gfa_field": 289344,
+  "stored_old": 478880,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The proposed project consists of the demolition of the existing structures occupying the site and the construction of an approximately 307,000 square-foot mixed-use building with up to 423 residential units, including 221 condominiums and 202 rental units, retail/commercial space, and approximately 5 off-street vehicle parking spaces."
+ },
+ "314": {
+  "name": "Bremen & Orleans Development",
+  "url": "https://www.bostonplans.org/projects/development-projects/bremen-orleans-development",
+  "gfa_field": 463900,
+  "stored_old": 462900,
+  "desc_figs": [
+   [
+    463900,
+    "truction of six new structures that will contain approximately 426 residential units comprising approximately 463,900 square feet of Gross Floor Area, parking accommodations for approximate"
+   ]
+  ],
+  "verdict": "description mentions both",
+  "desc": "The Proposed Project as described in the PNF consists of the construction of a new, primarily residential project on five parcels of land comprising approximately 3.32 acres generally bounded by Maverick Street, Bremen Street, Orleans Street and Gove Street in the East Boston neighborhood (the \u201cProject Site\u201d).  The Proponent is seeking BPDA approval for the construction of six new structures that will contain approximately 426 residential units comprising approximately 463,900 square feet of Gross Floor Area, parking accommodations for approximately 172 vehicles, approximately 3,500 square feet of ground floor commercial space, and related landscape improvements as well as streetscape improv"
+ },
+ "167": {
+  "name": "232 A Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/232-a-street",
+  "gfa_field": 324315,
+  "stored_old": 455000,
+  "desc_figs": [
+   [
+    324315,
+    "Single-building lab/office/R&D development (324,315 SF of GFA) located at 232 A Street on the G8 parcel of the 100"
+   ]
+  ],
+  "verdict": "description AGREES with the GFA field",
+  "desc": "Single-building lab/office/R&D development (324,315 SF of GFA) located at 232 A Street on the G8 parcel of the 100 Acres Planned Development Area with 1.5 acres of public realm improvements along the Fort Point Channel, including a 1.2-acre public waterfront park and associated resiliency improvements which will contribute to district-wide resiliency initiatives."
+ },
+ "304": {
+  "name": "Jan Karski Way Extension Project",
+  "url": "https://www.bostonplans.org/projects/development-projects/jan-karski-way-extension",
+  "gfa_field": 317664,
+  "stored_old": 446112,
+  "desc_figs": [
+   [
+    169158,
+    "The proposed project consists of a mixed-use development on approximately 169,158 square feet of land. The proposed project includes approximately 403 re"
+   ],
+   [
+    14665,
+    "approximately 169,158 square feet of land. The proposed project includes approximately 403 residential units,14,665 square feet of retail space, and associated parking, landscape, streets"
+   ]
+  ],
+  "verdict": "description figures match NEITHER",
+  "desc": "The proposed project consists of a mixed-use development on approximately 169,158 square feet of land. The proposed project includes approximately 403 residential units,14,665 square feet of retail space, and associated parking, landscape, streetscape, and utility improvements."
+ },
+ "119": {
+  "name": "60 Kilmarnock Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/60-80-kilmarnock-street",
+  "gfa_field": 429700,
+  "stored_old": 420800,
+  "desc_figs": [
+   [
+    420800,
+    "Queensberry Street. It will include a total of approximately 435 residential units in two buildings, totaling 420,800 square feet, separated by Kilmarnock Street, along with ground floor re"
+   ]
+  ],
+  "verdict": "DESCRIPTION AGREES WITH THE OLD STORED VALUE",
+  "desc": "Notice of Project Change (NPC): \r\n69 Kilmarnock Street LLC, an affiliate of Samuels & Associates, has requested to make changes to the \u201cWest Site\u201d of the previously approved 60 Kilmarnock Street project. The proposed changes will include the removal of 58 parking spaces, increasing the number of IDP units, and creating two residential components that will include multifamily housing and patient-family housing for use by Boston Children\u2019s Hospital.\r\n\r\n\r\nOriginal Approval:\r\nThe proposed project is located at 60, 67-75, 70-80 Kilmarnock Street and 59-75 Queensberry Street. It will include a total of approximately 435 residential units in two buildings, totaling 420,800 square feet, separated by"
+ },
+ "231": {
+  "name": "155 North Beacon Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/155-north-beacon-street",
+  "gfa_field": 400526,
+  "stored_old": 409395,
+  "desc_figs": [
+   [
+    135716,
+    "The Project site is 135,716 square feet (3.11-acre) located at 155 North Beacon Street in Brighton,"
+   ],
+   [
+    409395,
+    "demolishing the existing on-site building and replacing it with a life science campus totaling approximately 409,395 square feet. It consists of three new, sustainably designed buildings u"
+   ],
+   [
+    27000,
+    "high and parking for 328 vehicles in a 2-level underground garage. The project will also create approximately 27,000 square feet of new publicly-accessible open space. The Project will rep"
+   ]
+  ],
+  "verdict": "DESCRIPTION AGREES WITH THE OLD STORED VALUE",
+  "desc": "The Project site is 135,716 square feet (3.11-acre) located at 155 North Beacon Street in Brighton, south of New Balance\u2019s Boston Landing development. The proposed redevelopment comprises demolishing the existing on-site building and replacing it with a life science campus totaling approximately 409,395 square feet. It consists of three new, sustainably designed buildings up to six stories high and parking for 328 vehicles in a 2-level underground garage. The project will also create approximately 27,000 square feet of new publicly-accessible open space. The Project will replace an older, nondescript building\u2014nearing the end of its useful life\u2014with new, sustainably designed buildings that wi"
+ },
+ "29": {
+  "name": "45 Townsend Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/45-townsend-street",
+  "gfa_field": 179667,
+  "stored_old": 400000,
+  "desc_figs": [
+   [
+    211277,
+    "in connection with the ongoing Article 80 review process for the proposed redevelopment of the approximately 211,277 square foot (4.85 acres) former Radius Specialty Hospital site at 45-47"
+   ],
+   [
+    95938,
+    "bicycle parking spaces for residents and visitors, residential accessory and support areas, and approximately 95,938 square feet of new and improved open space. The Proposed Project includ"
+   ],
+   [
+    24000,
+    "ructures presently on the Project Site, as well as the addition of new structural area totaling approximately 24,000 square feet."
+   ]
+  ],
+  "verdict": "description figures match NEITHER",
+  "desc": "KIC Roxbury LLC (the \"Proponent\") has submitted a Supplemental Filing in connection with the ongoing Article 80 review process for the proposed redevelopment of the approximately 211,277 square foot (4.85 acres) former Radius Specialty Hospital site at 45-47 Townsend Street in the Washington Park South neighborhood of Roxbury (the \"Project Site\"). The revised 45 Townsend Street project (the \"Proposed Project\") provides an important opportunity for the revitalization of the formerly institutional, and now long-vacant, Project Site with much-needed residential uses and open space improvements through a program and design that have been developed in direct response to community feedback. \n\nThe "
+ },
+ "303": {
+  "name": "819 Beacon Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/819-beacon-street",
+  "gfa_field": 280900,
+  "stored_old": 398000,
+  "desc_figs": [
+   [
+    280900,
+    "The Project consists of approx. 280,900 square feet of mixed-use programming, comprised of 393 residential rent"
+   ]
+  ],
+  "verdict": "description AGREES with the GFA field",
+  "desc": "The Project consists of approx. 280,900 square feet of mixed-use programming, comprised of 393 residential rental housing units and 53 institutional patient-family housing units in partnership with Boston Children\u2019s Hospital.  200 parking spaces will be relocated below grade and 8 of the existing surface parking spaces will remain above grade. The Project includes a 1,600 square foot retail space on the corner of Beacon Street and Maitland Street. The Project also consists of landscape and streetscape improvements to cultivate pedestrian activity and enhance the public realm."
+ },
+ "156": {
+  "name": "Olmsted Village",
+  "url": "https://www.bostonplans.org/projects/development-projects/olmsted-village",
+  "gfa_field": 348100,
+  "stored_old": 393000,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The Olmsted Village Project, as approved in the 2024 Notice of Project Change, consists of six new residential buildings totaling 284 units, a net increase of 15 units from the original approval. The program includes 127 affordable senior rental units with ground-floor community space, medical suite, and child care center (Brooke House); 60 affordable intergenerational rental units (Treehouse at Olmsted Village); 43 mixed-income family homeownership units (Russell House); eight market-rate family homeownership units in two three-story buildings; and 46 mixed-income family homeownership units fronting Harvard Street."
+ },
+ "339": {
+  "name": "Allston Green",
+  "url": "https://www.bostonplans.org/projects/development-projects/allston-green",
+  "gfa_field": 259000,
+  "stored_old": 356000,
+  "desc_figs": [
+   [
+    259000,
+    "at 24 Linden and 8-20 Pratt Street with three new residential buildings, comprising a total of approximately 259,000 square feet of Gross Floor Area. Building A, located on the corner of L"
+   ],
+   [
+    20085,
+    "rade garage will accommodate approximately 125 parking spaces. The Proposed Project will create approximately 20,085 square feet of new privately owned public spaces."
+   ]
+  ],
+  "verdict": "description AGREES with the GFA field",
+  "desc": "The Proposed Project will replace the existing commercial building at 20 Linden Street and six dilapidated 3-story residential buildings at 24 Linden and 8-20 Pratt Street with three new residential buildings, comprising a total of approximately 259,000 square feet of Gross Floor Area. Building A, located on the corner of Linden and Cambridge Streets, will be seven (7) stories (approximately 81 feet) and will provide approximately 172 residential apartments. Building B, located on Linden Street, will be seven (7) stories (approximately 78\u2019), and will provide approximately 109 residential apartments. Building C, located on Pratt Street, will be four (4) stories (47'5\"), with the fourth story "
+ },
+ "315": {
+  "name": "220 Huntington Avenue",
+  "url": "https://www.bostonplans.org/projects/development-projects/220-huntington-avenue",
+  "gfa_field": 351000,
+  "stored_old": 349000,
+  "desc_figs": [
+   [
+    351500,
+    "The 220 Huntington Avenue project includes the development of an approximately 351,500 square foot mixed-use building containing approximately 325 residential"
+   ],
+   [
+    17000,
+    "y 351,500 square foot mixed-use building containing approximately 325 residential rental units, approximately 17,000 square feet of retail/restaurant space and 153 parking spaces. The Proj"
+   ],
+   [
+    66600,
+    "quare feet of retail/restaurant space and 153 parking spaces. The Project will be located on an approximately 66,600 square foot site consisting of two properties known as the Midtown Hote"
+   ]
+  ],
+  "verdict": "description mentions both",
+  "desc": "The 220 Huntington Avenue project includes the development of an approximately 351,500 square foot mixed-use building containing approximately 325 residential rental units, approximately 17,000 square feet of retail/restaurant space and 153 parking spaces. The Project will be located on an approximately 66,600 square foot site consisting of two properties known as the Midtown Hotel at 220 Huntington Avenue, and 1 Cumberland Avenue."
+ },
+ "238": {
+  "name": "Residences at Readville Station",
+  "url": "https://www.bostonplans.org/projects/development-projects/residences-at-readville-station",
+  "gfa_field": 316315,
+  "stored_old": 348395,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The proposed redevelopment program consists of the construction of a total of approximately 279 residential units in two buildings providing all rental units, with accessory garage parking up to 273 vehicles and including 3,617 square feet of restaurant/retail space with other amenities and services for building residents."
+ },
+ "17": {
+  "name": "Drexel Village",
+  "url": "https://www.bostonplans.org/projects/development-projects/drexel-village",
+  "gfa_field": 271133,
+  "stored_old": 346022,
+  "desc_figs": [
+   [
+    60000,
+    "h mixed-income rental and homeownership housing, retail, commercial, and social-service space, including over 60,000 square feet of public open space that will provide passive recreation a"
+   ]
+  ],
+  "verdict": "description figures match NEITHER",
+  "desc": "The approved Drexel Village is an approximately 300,000 gross square foot mixed-use project will establish a prominent gateway at the Melnea Cass and Tremont Street corridor and will offer a three-building complex that includes the renovation of the St. Katherine Drexel Church and Parish ministry space, along with mixed-income rental and homeownership housing, retail, commercial, and social-service space, including over 60,000 square feet of public open space that will provide passive recreation and pedestrian connectivity to the neighborhood's open space networks along the Tremont Street corridor. The Drexel Village project site's gateway prominence as a key location in the Roxbury Cultural"
+ },
+ "64": {
+  "name": "990 American Legion Highway",
+  "url": "https://www.bostonplans.org/projects/development-projects/990-american-legion-highway",
+  "gfa_field": 341576,
+  "stored_old": 345000,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The Proponent proposes to construct a 204 unit residential, neighborhood apartment community in nine detached, two and three-story buildings with 249 parking spaces and substantial landscaping.  The Project will also include a freestanding amenity building with modern amenities for Project residents."
+ },
+ "358": {
+  "name": "10 Stack Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/10-stack-street",
+  "gfa_field": 350300,
+  "stored_old": 343800,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The proposed 10 Stack Street building within the Hood Park Master Plan project consists of a 230 ft. primarily office and lab building with structured parking for 149 vehicles."
+ },
+ "122": {
+  "name": "83 Leo M. Birmingham Parkway",
+  "url": "https://www.bostonplans.org/projects/development-projects/83-leo-m-birmingham-parkway",
+  "gfa_field": 308133,
+  "stored_old": 341500,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The Project proposes the demolition and removal of the radio tower, demolition of the existing office building onsite, removal of acres of asphalt parking lot, and construction of an approximately 333-unit residential building consisting of an assemblage of various height elements and 175 below-grade parking spaces for residents. The unit mix is anticipated to be approximately 111 studio units, 164 1-bedroom units, 51 2-bedroom units, and seven 3-bedroom units. The Project program is included in Table 1-1 of the PNF. Figure 1-8 provides the proposed site plan."
+ },
+ "164": {
+  "name": "22-24 Pratt Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/22-24-pratt-street",
+  "gfa_field": 304000,
+  "stored_old": 311000,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The proposed Project includes the demolition of the existing structures and construction of a multifamily building including approximately 316 units with a mix of unit sizes ranging from studios to three-bedroom apartments. The Project\u2019s proposed building includes varied heights and massing, ground floor activated uses, landscaped open space, accessory parking, and amenities and services for building residents."
+ },
+ "261": {
+  "name": "41 Berkeley Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/41-berkeley-street",
+  "gfa_field": 266650,
+  "stored_old": 311000,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The Notice of Project Change proposes three components: Tremont Component which includes approximately 234 residential units and approximately 6,130 sf of retail/restaurant space; Franklin Union Component which includes approximately 57 residential units and approximately 2,120 sf of retail/restaurant space; and the Appleton Component which includes approximately 21 residential units. Approximately 93 parking spaces will be located in a below grade garage. The Project also includes new open space on the site."
+ },
+ "237": {
+  "name": "18-22 Arboretum Road",
+  "url": "https://www.bostonplans.org/projects/development-projects/18-22-arboretum-road",
+  "gfa_field": 248450,
+  "stored_old": 295020,
+  "desc_figs": [
+   [
+    295020,
+    "t at 43 Lochdale Road with a new multifamily residential building with amenity space comprising approximately 295,020 square feet of Gross Floor Area. The building will be six (6) stories"
+   ],
+   [
+    38000,
+    "ent requirements. In addition, the existing asphalt and hardscape on the site will be replaced with close to 38,000 square feet of new open space, including highly sustainable landscaping"
+   ]
+  ],
+  "verdict": "DESCRIPTION AGREES WITH THE OLD STORED VALUE",
+  "desc": "The Proposed Project will replace the existing industrial building at 18-22 Arboretum Road and the adjacent vacant lot at 43 Lochdale Road with a new multifamily residential building with amenity space comprising approximately 295,020 square feet of Gross Floor Area.  The building will be six (6) stories (approximately 69\u2019-10' feet) and will provide 230 apartments and 124 parking spaces. There will be a mix of studios, one-bedroom, two-bedroom, and three-bedroom units; affordable units will be provided onsite in accordance with the City\u2019s Inclusionary Development requirements.  In addition, the existing asphalt and hardscape on the site will be replaced with close to 38,000 square feet of ne"
+ },
+ "375": {
+  "name": "22 Boston Wharf Road",
+  "url": "https://www.bostonplans.org/projects/development-projects/22-boston-wharf-road",
+  "gfa_field": 289290,
+  "stored_old": 292000,
+  "desc_figs": [
+   [
+    56000,
+    "sion of approx. 3,000 square feet of ground floor parking into retail.The addition will include approximately 56,000 square feet of new gross floor area."
+   ]
+  ],
+  "verdict": "description figures match NEITHER",
+  "desc": "The proposed project consists of a two floor addition to the existing structure as well as the conversion of approx. 3,000 square feet of ground floor parking into retail.The addition will include approximately 56,000 square feet of new gross floor area."
+ },
+ "362": {
+  "name": "Rio Grande",
+  "url": "https://www.bostonplans.org/projects/development-projects/rio-grande",
+  "gfa_field": 293193,
+  "stored_old": 285253,
+  "desc_figs": [
+   [
+    34220,
+    "t supporting the 2343-2345 building completes the site. The combined parcel has a total area of approximately 34,220 square feet. The project site is in the Dudley Square Commercial Distri"
+   ]
+  ],
+  "verdict": "description figures match NEITHER",
+  "desc": "Project Site\nThe Rio Grande Tower (the \u201cProject\u201d) will be located at 2343-2345 Washington Street in the Roxbury Neighborhood of Boston. The project will occupy much of the block bordered by Washington, Roxbury and Marvin Streets and Shawmut Avenue. Existing buildings on the site to remain and are part of the project are the former Roxbury Institute for Savings Building, and the former Boston Consolidated Gas Company Building. A surface parking lot supporting the 2343-2345 building completes the site. The combined parcel has a total area of approximately 34,220 square feet. The project site is in the Dudley Square Commercial District, an important commercial and cultural center for the Roxbur"
+ },
+ "326": {
+  "name": "135 Dudley Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/135-dudley-street",
+  "gfa_field": 289073,
+  "stored_old": 282382,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The 135 Dudley Street mixed-use residential/commercial project is adjacent to the B-2 Police Station, the Roxbury Municipal Court and the Dudley Literacy Center, with a total of 282,382 gross square feet (gsf) of floor area in two buildings of nine and four floors including 168 multi-family units (108 condos and 60 rentals); 8,703 gsf of commercial space; and 146 garage parking spaces including 25 spaces open to the public."
+ },
+ "190": {
+  "name": "103 North Beacon Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/103-north-beacon-street",
+  "gfa_field": 245000,
+  "stored_old": 265000,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The Proponent is proposing to redevelop and revitalize the Site by demolishing the existing building at 103 North Beacon and constructing a mixed-use/ life science development with ground-level retail amenity space, designed to bring new vibrancy and activity to the neighborhood. The proposed development consists of approximately 265,000 GFA of core shell R&D space, including +/- 3,100 sqft of retail space and 2 levels of underground parking. The proposed building will be set back along North Beacon St. and Arthur St., enhancing the public realm and creating a new landscaped gateway corridor to the new Boston Landing station."
+ },
+ "154": {
+  "name": "2 Charlesgate West",
+  "url": "https://www.bostonplans.org/projects/development-projects/2-charlesgate-west",
+  "gfa_field": 285000,
+  "stored_old": 254000,
+  "desc_figs": [
+   [
+    285000,
+    "The Proposed Project consists of approximately 285,000 square feet. The program will include 400 residential units, 2,400 SF r"
+   ]
+  ],
+  "verdict": "description AGREES with the GFA field",
+  "desc": "The Proposed Project consists of approximately 285,000 square feet. The program will include 400 residential units, 2,400 SF retail at the Ipswich Street level and indoor bike parking for 200 bikes. The Proponent is proposing the Project to provide 68 units (17%) of on site affordable housing units exceeding the City of Boston\u2019s applicable IDP requirements. There is no onsite parking planned for the Project. A new publicly accessible open stair and enclosed public elevator is proposed, joining Ipswich Street with Boylston Street and providing access to the Back Bay Fens."
+ },
+ "239": {
+  "name": "3390 Washington Street (BMS Paper)",
+  "url": "https://www.bostonplans.org/projects/development-projects/3390-washington-street",
+  "gfa_field": 129525,
+  "stored_old": 253993,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The development will include approximately 82 residential units, an improvement, and expansion of the existing business on-site, a moderately priced neighborhood-style restaurant with off-street parking for 87 vehicles, and all associated amenities."
+ },
+ "213": {
+  "name": "15 Washington Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/15-washington-street",
+  "gfa_field": 341911,
+  "stored_old": 253288,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The Project is a mixed-use development including new construction of up to 229 dwelling units consisting mostly of multi-family apartments, a new approximately 43,459-SF Whole Foods grocery store, approximately 7,295 SF of retail, and approximately 275 structured parking spaces that will support the residential and commercial uses. The existing Whole Foods grocery store will be reconstructed and relocated into new retail space fronting Washington Street."
+ },
+ "219": {
+  "name": "1141 Bennington Street",
+  "url": "https://www.bostonplans.org/projects/development-projects/1141-bennington-street",
+  "gfa_field": 199016,
+  "stored_old": 250664,
+  "desc_figs": [],
+  "verdict": "no figure in description",
+  "desc": "The Proponent proposes to redevelop the Project Site into an approximately 249,534 gross square foot (gsf) transit-oriented residential development, creating 220 new rental housing units, 1,144 gsf of retail space, 121 structured parking spaces, and significant improvements\nto the public realm. \nThe Project has been carefully designed to relate to the urban transit corridor and streetscape along Bennington Street, as well as the natural beauty of the Belle Isle Marsh. The proposed design thoughtfully enhances the Bennington Street streetscape while connecting it to the Belle Isle Marsh through an accessible pathway and reimagined public realm at the intersection of Bennington Street and Pale"
+ }
+}

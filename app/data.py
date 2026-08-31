@@ -644,10 +644,15 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 # prompt has NOT been fixed yet, so a future re-extraction will
                 # write phase totals into total_gsf again; this precedence is
                 # what keeps them off the screen until it is.
-                "total_gsf": p.bpda_gsf or p.total_gsf,
+                # ...EXCEPT where the page's field describes one parcel of a
+                # larger site. Austin Street Lots publishes 126,000 in the field
+                # and 790,000 in its own description; preferring the field there
+                # understated the project by 664,000 SF.
+                "total_gsf": ((None if p.bpda_gsf_is_partial else p.bpda_gsf)
+                              or p.total_gsf),
                 # Which column the figure above actually came from, so the
                 # provenance is legible rather than implicit.
-                "gsf_column": ("bpda_gsf" if p.bpda_gsf
+                "gsf_column": ("bpda_gsf" if (p.bpda_gsf and not p.bpda_gsf_is_partial)
                                else ("total_gsf" if p.total_gsf else "")),
                 "residential_units": p.residential_units,
                 "commercial_gsf": p.commercial_gsf,

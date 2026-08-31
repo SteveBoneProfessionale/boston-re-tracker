@@ -179,6 +179,15 @@ def init_db():
     # nothing about the project.
     _add_column_if_missing("projects", "out_of_scope", "BOOLEAN")
 
+    # The BPDA page's Gross Floor Area field where it describes ONE PARCEL of a
+    # larger site rather than the project on the row. Austin Street Lots is the
+    # case: the field reads 126,000 while the same page's description says the
+    # project is "four new mixed-use buildings collectively containing up to
+    # 790,000 sf". The scraped value is kept here rather than destroyed, and the
+    # flag below takes it out of the read path.
+    _add_column_if_missing("projects", "bpda_parcel_gsf", "INTEGER")
+    _add_column_if_missing("projects", "bpda_gsf_is_partial", "BOOLEAN")
+
     # Entity resolution on transactions. `buyer` and `seller` always hold the
     # record entity verbatim; the *_canonical columns hold the resolved sponsor
     # and stay null where it is unresolved, because a blank sponsor is correct
