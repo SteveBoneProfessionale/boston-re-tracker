@@ -1,0 +1,4097 @@
+{
+ "flagged": 4,
+ "checked": 380,
+ "rows": {
+  "332": {
+   "name": "Suffolk Downs Phase 4",
+   "url": "https://www.bostonplans.org/projects/development-projects/suffolk-downs-phase-4",
+   "field": 3183000,
+   "stored": 3183000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "331": {
+   "name": "Suffolk Downs Phase 3",
+   "url": "https://www.bostonplans.org/projects/development-projects/suffolk-downs-phase-3",
+   "field": 2905000,
+   "stored": 2905000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "184": {
+   "name": "Fenway Corners (West)",
+   "url": "https://www.bostonplans.org/projects/development-projects/fenway-corners-west",
+   "field": 1883367,
+   "stored": 2041000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "372": {
+   "name": "Tremont Crossing (P-3)",
+   "url": "https://www.bostonplans.org/projects/development-projects/tremont-crossing-(p-3)",
+   "field": 1746908,
+   "stored": 1746908,
+   "desc_figs": [
+    [
+     1928400,
+     "P-3 Partners LLC has proposed a mixed use development project totaling approximately 1,928,400 sf- including retail, art, educational, office, resi"
+    ],
+    [
+     548700,
+     "400 sf- including retail, art, educational, office, residential, and and an above ground parking structure of 548,700 sf."
+    ]
+   ],
+   "bigger": []
+  },
+  "335": {
+   "name": "Suffolk Downs Phase 2",
+   "url": "https://www.bostonplans.org/projects/development-projects/suffolk-downs-phase-2",
+   "field": 1731000,
+   "stored": 1731000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "357": {
+   "name": "Exchange South End",
+   "url": "https://www.bostonplans.org/projects/development-projects/exchange-south-end",
+   "field": 1599425,
+   "stored": 1599425,
+   "desc_figs": [
+    [
+     30000,
+     "dical uses with a 1.1 acre publicly accessible open space, ground floor retail and other activating uses, and 30,000 square feet of civic/cultural space."
+    ]
+   ],
+   "bigger": []
+  },
+  "14": {
+   "name": "Reserved Channel Development",
+   "url": "https://www.bostonplans.org/projects/development-projects/reserved-channel",
+   "field": 1559000,
+   "stored": 1739000,
+   "desc_figs": [
+    [
+     1559000,
+     "The Project is proposed to include approximately 1,559,000 square feet of development in eight new buildings. Building u"
+    ]
+   ],
+   "bigger": []
+  },
+  "366": {
+   "name": "Back Bay/South End Gateway Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/back-bay-south-end-gateway-project",
+   "field": 1453000,
+   "stored": 1371480,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "333": {
+   "name": "Suffolk Downs Phase 5",
+   "url": "https://www.bostonplans.org/projects/development-projects/suffolk-downs-phase-5",
+   "field": 1363000,
+   "stored": 1363000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "334": {
+   "name": "Suffolk Downs Phase 1",
+   "url": "https://www.bostonplans.org/projects/development-projects/suffolk-downs-phase-1",
+   "field": 1338000,
+   "stored": 1338000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "53": {
+   "name": "244-284 A Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/244-284-a-street",
+   "field": 1098292,
+   "stored": 1098292,
+   "desc_figs": [
+    [
+     281280,
+     "velopment Agency (\"BPDA\") in connection with the proposed development project on the approximately 6.46 acre (281,280 square feet) parcel known as 244-284 A Street in the Fort Poi"
+    ],
+    [
+     1098292,
+     "s proposal to undertake the development of the Project Site as a mixed-use development totaling approximately 1,098,292 square feet, presently envisioned to include: (1) a residenti"
+    ],
+    [
+     357807,
+     "oximately 1,098,292 square feet, presently envisioned to include: (1) a residential building of approximately 357,807 square feet; (2) an commercial mixed-use building of approxim"
+    ],
+    [
+     322102,
+     "idential building of approximately 357,807 square feet; (2) an commercial mixed-use building of approximately 322,102 square feet; and (3) a laboratory/research and development bu"
+    ],
+    [
+     418383,
+     "of approximately 322,102 square feet; and (3) a laboratory/research and development building of approximately 418,383 square feet (the \"Proposed Project\"). The Proposed Project is"
+    ]
+   ],
+   "bigger": []
+  },
+  "287": {
+   "name": "323-365 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/323-365-dorchester-avenue",
+   "field": 1073000,
+   "stored": 1147000,
+   "desc_figs": [
+    [
+     235600,
+     "The proposed PDA Development Plan consists of the redevelopment of approximately 235,600 square feet (5.4 acres) of land into a mixed-use development"
+    ],
+    [
+     1073000,
+     "y 235,600 square feet (5.4 acres) of land into a mixed-use development that will include 4 buildings totaling 1,073,000 square feet. The proposal is anticipated to include approxima"
+    ],
+    [
+     623000,
+     "will include 4 buildings totaling 1,073,000 square feet. The proposal is anticipated to include approximately 623,000 square feet of office/life science space in two buildings, ap"
+    ],
+    [
+     352750,
+     "ted to include approximately 623,000 square feet of office/life science space in two buildings, approximately 352,750 square feet with 310 residential units in the other two build"
+    ],
+    [
+     50000,
+     "dings, approximately 352,750 square feet with 310 residential units in the other two buildings, approximately 50,000 square feet of retail/restaurant space."
+    ]
+   ],
+   "bigger": []
+  },
+  "25": {
+   "name": "Longwood Place Phase One",
+   "url": "https://www.bostonplans.org/projects/development-projects/longwood-place-phase-one",
+   "field": 1043000,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "163": {
+   "name": "Harvard Enterprise Research Campus (ERC) Phase B",
+   "url": "https://www.bostonplans.org/projects/development-projects/harvard-enterprise-research-campus-phase-b",
+   "field": 1040000,
+   "stored": 1040000,
+   "desc_figs": [
+    [
+     720000,
+     "The Phase B Project will consist of approximately 720,000 sf of laboratory/R&D and office uses and approximate"
+    ],
+    [
+     320000,
+     "Phase B Project will consist of approximately 720,000 sf of laboratory/R&D and office uses and approximately 320,000 sf of residential uses, with a mixture of ground flo"
+    ]
+   ],
+   "bigger": []
+  },
+  "115": {
+   "name": "776 Summer Street - Phase 2",
+   "url": "https://www.bostonplans.org/projects/development-projects/776-summer-street-phase-2",
+   "field": 1026500,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "343": {
+   "name": "Harbor Garage Redevelopment",
+   "url": "https://www.bostonplans.org/projects/development-projects/harbor-garage-redevelopment",
+   "field": 864600,
+   "stored": 864600,
+   "desc_figs": [
+    [
+     865000,
+     "The Proposed Project will include approximately 865,000 square feet of residential (approximately 200 units), office,"
+    ]
+   ],
+   "bigger": []
+  },
+  "175": {
+   "name": "South Boston Innovation Campus",
+   "url": "https://www.bostonplans.org/projects/development-projects/south-boston-innovation-campus",
+   "field": 837000,
+   "stored": 837000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "174": {
+   "name": "66 Cambridge Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/66-cambridge-street",
+   "field": 812000,
+   "stored": 802000,
+   "desc_figs": [
+    [
+     812000,
+     "at 60-66 Cambridge Street consists of the construction of two mixed-use buildings comprised of approximately 812,000 square feet of life science/office/research and development s"
+    ]
+   ],
+   "bigger": []
+  },
+  "246": {
+   "name": "1170-1190 Soldiers Field Road (abandoned)",
+   "url": "https://www.bostonplans.org/projects/development-projects/1170-soldiers-field-road",
+   "field": 810000,
+   "stored": 700000,
+   "desc_figs": [
+    [
+     700000,
+     "four new buildings, three buildings designed for office and life science research uses totaling approximately 700,000 sf with below- grade parking, and one 85-unit reside"
+    ],
+    [
+     225000,
+     "her supporting uses, with two (2) levels of underground parking. The buildings will range from approximately 225,000 square feet and seven (7) to eight (8) stories with a maximum"
+    ]
+   ],
+   "bigger": []
+  },
+  "247": {
+   "name": "176 Lincoln Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/176-lincoln-street",
+   "field": 790000,
+   "stored": 808000,
+   "desc_figs": [
+    [
+     551500,
+     "000 total square feet (the \"Proposed Project\"). The Proposed Project is contemplated to include approximately 551,500 square feet of office and/or research and development space i"
+    ],
+    [
+     18000,
+     "y 252 residential units. The ground-floor of each building will be activated on all sides, with approximately 18,000 square feet of retail space included across the Proposed Proj"
+    ]
+   ],
+   "bigger": []
+  },
+  "275": {
+   "name": "Seaport Square - Block L3 & L6",
+   "url": "https://www.bostonplans.org/projects/development-projects/seaport-square-block-l3-l6",
+   "field": 780000,
+   "stored": 780000,
+   "desc_figs": [
+    [
+     150000,
+     "The 2022 NPC revises the uses in Block L-3 to 150,000 square feet of Office/Research / 260,000 square feet Resident"
+    ],
+    [
+     260000,
+     "The 2022 NPC revises the uses in Block L-3 to 150,000 square feet of Office/Research / 260,000 square feet Residential / 15,000 square feet of Retail and th"
+    ],
+    [
+     15000,
+     "C revises the uses in Block L-3 to 150,000 square feet of Office/Research / 260,000 square feet Residential / 15,000 square feet of Retail and the uses in Block L-6 to 50,000 squ"
+    ],
+    [
+     50000,
+     "Office/Research / 260,000 square feet Residential / 15,000 square feet of Retail and the uses in Block L-6 to 50,000 square feet of Office/Research / 290,000 square feet Resident"
+    ],
+    [
+     290000,
+     "sidential / 15,000 square feet of Retail and the uses in Block L-6 to 50,000 square feet of Office/Research / 290,000 square feet Residential / 15,000 square feet of Retail."
+    ],
+    [
+     15000,
+     "Retail and the uses in Block L-6 to 50,000 square feet of Office/Research / 290,000 square feet Residential / 15,000 square feet of Retail."
+    ]
+   ],
+   "bigger": []
+  },
+  "252": {
+   "name": "Parcel X (310 Northern Avenue)",
+   "url": "https://www.bostonplans.org/projects/development-projects/parcel-x-310-northern-avenue",
+   "field": 764260,
+   "stored": 742000,
+   "desc_figs": [
+    [
+     742000,
+     "tory industrial buildings on the Project Site, and the construction of a new, two (2)-building, approximately 742,000 square foot life sciences/research and development campus (th"
+    ]
+   ],
+   "bigger": []
+  },
+  "203": {
+   "name": "40 Roland Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/40-roland-street",
+   "field": 753783,
+   "stored": 753783,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "267": {
+   "name": "776 Summer Street - Phase 1",
+   "url": "https://www.bostonplans.org/projects/development-projects/776-summer-street-phase-1",
+   "field": 746000,
+   "stored": 754500,
+   "desc_figs": [
+    [
+     364409,
+     "The Phase 1 Project will be located on 8.4 acres / 364,409 square feet within the approximately 15.2 acre (approximately"
+    ],
+    [
+     661500,
+     "Project will be located on 8.4 acres / 364,409 square feet within the approximately 15.2 acre (approximately 661,500 square foot) parcel of land known as and numbered 776 Summer"
+    ]
+   ],
+   "bigger": []
+  },
+  "353": {
+   "name": "201 Stuart Street-Motor Mart Garage",
+   "url": "https://www.bostonplans.org/projects/development-projects/motor-mart-garage",
+   "field": 731000,
+   "stored": 685000,
+   "desc_figs": [
+    [
+     46000,
+     "(the Project). The Project will create a mix of approximately 231 new condominium units, retain approximately 46,000 sf of retail and restaurant space, and retain 672 pa"
+    ]
+   ],
+   "bigger": []
+  },
+  "243": {
+   "name": "1234-1240 Soldiers Field Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/1234-1240-soldiers-field-road",
+   "field": 655000,
+   "stored": 655000,
+   "desc_figs": [
+    [
+     582000,
+     "the Allston neighborhood of Boston (the Project Site). The Project Site will be developed with approximately 582,000 sf of Gross Floor Area (GFA) containing approximatel"
+    ],
+    [
+     12000,
+     "al rental units, approximately 93 residential condominium units, approximately 195 hotel rooms, approximately 12,000 square feet (sf) of ground floor retail space (of which appro"
+    ]
+   ],
+   "bigger": []
+  },
+  "276": {
+   "name": "Seaport Square - Block G",
+   "url": "https://www.bostonplans.org/projects/development-projects/seaport-square-block-g",
+   "field": 650000,
+   "stored": 650000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "150": {
+   "name": "500 Huntington Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/wentworth-500-huntington-avenue",
+   "field": 640000,
+   "stored": 640000,
+   "desc_figs": [
+    [
+     640000,
+     "an artificial turf athletic field, and (b) constructing two new mixed-use buildings comprising approximately 640,000 square feet of life science, office, cultural, and retail/com"
+    ]
+   ],
+   "bigger": []
+  },
+  "270": {
+   "name": "Allston Yards Building B",
+   "url": "https://www.bostonplans.org/projects/development-projects/allston-yards-building-b",
+   "field": 636500,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "89": {
+   "name": "35-75 Morrissey Boulevard Phase 1 (75 Morrissey)",
+   "url": "https://www.bostonplans.org/projects/development-projects/35-75-morrissey-boulevard-phase-1",
+   "field": 613320,
+   "stored": 613320,
+   "desc_figs": [
+    [
+     23900,
+     "edeveloping the approximately 2.24-acre 75 Morrissey site with two residential buildings, a new approximately 23,900 sf community park, and new on- and off-site roadway"
+    ]
+   ],
+   "bigger": []
+  },
+  "266": {
+   "name": "Seaport Circle Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/seaport-circle-project",
+   "field": 611300,
+   "stored": 602200,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "187": {
+   "name": "1033-1055 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1033-1055-washington-street",
+   "field": 588000,
+   "stored": 588000,
+   "desc_figs": [
+    [
+     588000,
+     "n between the buildings) approximately 150 feet in height with an aggregate gross floor area of approximately 588,000 square feet. The Project will include ground-floor retail/res"
+    ]
+   ],
+   "bigger": []
+  },
+  "228": {
+   "name": "88 Black Falcon Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/88-black-falcon-avenue",
+   "field": 571500,
+   "stored": 684450,
+   "desc_figs": [
+    [
+     330600,
+     "LFMP\") of the South Boston Waterfront. The Proponent proposes a four-story vertical addition of approximately 330,600 square feet to the existing three-story structure, which pres"
+    ],
+    [
+     353910,
+     "ximately 330,600 square feet to the existing three-story structure, which presently consists of approximately 353,910 square feet of Gross Floor Area. With the proposed vertical a"
+    ],
+    [
+     684510,
+     "Gross Floor Area. With the proposed vertical addition, the 88 Black Falcon building would total approximately 684,510 square feet of Gross Floor Area. The redevelopment proposal a"
+    ],
+    [
+     327600,
+     "Ave intersection, and other site improvements.Phase 2 would comprise construction of the previously approved 327,600 sf, three-story vertical addition, expansion of the"
+    ]
+   ],
+   "bigger": []
+  },
+  "183": {
+   "name": "1400 Boylston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1400-boylston-street",
+   "field": 553000,
+   "stored": 553000,
+   "desc_figs": [
+    [
+     498000,
+     "the site with the construction of an approximately 553,000 gross square foot project, including approximately 498,000 square feet of office/research and development space, approxi"
+    ],
+    [
+     17000,
+     "project, including approximately 498,000 square feet of office/research and development space, approximately 17,000 square feet of retail/restaurant/service and accessory uses a"
+    ],
+    [
+     33000,
+     "square feet of retail/restaurant/service and accessory uses and facilities on the ground floor, approximately 33,000 square feet of enclosed loading and back of house space, appr"
+    ]
+   ],
+   "bigger": []
+  },
+  "133": {
+   "name": "North Station Gateway Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/north-station-gateway-project",
+   "field": 524500,
+   "stored": null,
+   "desc_figs": [
+    [
+     560000,
+     "The Project proposes the construction of an approximately 40-story mixed-use building of approximately 560,000 SF of Gross Floor Area (GFA) and approximately 447 f"
+    ],
+    [
+     30000,
+     "lopment program consists of approximately 300 hotel rooms, approximately 420 residential units, approximately 30,000 SF of retail, restaurant and amenity space. The Proj"
+    ]
+   ],
+   "bigger": []
+  },
+  "139": {
+   "name": "Shawmut Avenue / Washington Street Block Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/50-herald-street",
+   "field": 517916,
+   "stored": 163800,
+   "desc_figs": [
+    [
+     22000,
+     "of area comprising approximately 117 rental apartment units (all of which shall be affordable), approximately 22,000 square feet of basement commercial space that could accommoda"
+    ]
+   ],
+   "bigger": []
+  },
+  "170": {
+   "name": "65 Ellery Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/65-ellery-street",
+   "field": 510900,
+   "stored": 510900,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "369": {
+   "name": "Seaport Square - Block D",
+   "url": "https://www.bostonplans.org/projects/development-projects/seaport-square-block-d",
+   "field": 499400,
+   "stored": 499400,
+   "desc_figs": [
+    [
+     425000,
+     "88 Seaport will feature 18 floors with nearly 425,000 square feet of office space, approximately 60,000 square feet"
+    ],
+    [
+     60000,
+     "88 Seaport will feature 18 floors with nearly 425,000 square feet of office space, approximately 60,000 square feet of retail on the first two floors, and 5,000 squa"
+    ]
+   ],
+   "bigger": []
+  },
+  "168": {
+   "name": "505 Dorchester Avenue (Dot Ave)",
+   "url": "https://www.bostonplans.org/projects/development-projects/505-dorchester-avenue",
+   "field": 487400,
+   "stored": 487400,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "314": {
+   "name": "Bremen & Orleans Development",
+   "url": "https://www.bostonplans.org/projects/development-projects/bremen-orleans-development",
+   "field": 463900,
+   "stored": 462900,
+   "desc_figs": [
+    [
+     463900,
+     "truction of six new structures that will contain approximately 426 residential units comprising approximately 463,900 square feet of Gross Floor Area, parking accommodations for a"
+    ]
+   ],
+   "bigger": []
+  },
+  "240": {
+   "name": "645 Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/645-beacon-street",
+   "field": 461300,
+   "stored": 461300,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "328": {
+   "name": "Dock Square Garage",
+   "url": "https://www.bostonplans.org/projects/development-projects/dock-square-garage",
+   "field": 456000,
+   "stored": 535000,
+   "desc_figs": [
+    [
+     535000,
+     "ght of 17 levels (approximately 125 feet) along Clinton Street, and a total gross floor area of approximately 535,000 sf."
+    ]
+   ],
+   "bigger": []
+  },
+  "363": {
+   "name": "1000 Boylston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1000-boylston-street",
+   "field": 439500,
+   "stored": 439500,
+   "desc_figs": [
+    [
+     45500,
+     "ower containing up to approximately 108 condominium units, rising from a Podium base containing approximately 45,500 square feet of first and second-story retail and restaurant s"
+    ]
+   ],
+   "bigger": []
+  },
+  "346": {
+   "name": "Allston Yards Building C",
+   "url": "https://www.bostonplans.org/projects/development-projects/allston-yards-building-c",
+   "field": 430000,
+   "stored": 430000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "119": {
+   "name": "60 Kilmarnock Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/60-80-kilmarnock-street",
+   "field": 429700,
+   "stored": 420800,
+   "desc_figs": [
+    [
+     420800,
+     "Queensberry Street. It will include a total of approximately 435 residential units in two buildings, totaling 420,800 square feet, separated by Kilmarnock Street, along with groun"
+    ]
+   ],
+   "bigger": []
+  },
+  "258": {
+   "name": "Parcel 13",
+   "url": "https://www.bostonplans.org/projects/development-projects/parcel-13",
+   "field": 424400,
+   "stored": 424400,
+   "desc_figs": [
+    [
+     300000,
+     "prises two main building elements: a 10-story, 125-unit, 100% affordable apartment tower and an approximately 300,000 sf, 12-story, lab/office building. The project will"
+    ]
+   ],
+   "bigger": []
+  },
+  "295": {
+   "name": "Government Center Garage (East Parcel)",
+   "url": "https://www.bostonplans.org/projects/development-projects/government-center-garage-phase-3",
+   "field": 410000,
+   "stored": 410000,
+   "desc_figs": [
+    [
+     410000,
+     "(Bullfinch Crossing) redevelopment project on the East Parcel will consist of one primary building containing 410,000 square feet of office, research laboratory, and retail uses."
+    ]
+   ],
+   "bigger": []
+  },
+  "231": {
+   "name": "155 North Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/155-north-beacon-street",
+   "field": 400526,
+   "stored": 409395,
+   "desc_figs": [
+    [
+     135716,
+     "The Project site is 135,716 square feet (3.11-acre) located at 155 North Beacon Street in"
+    ],
+    [
+     409395,
+     "demolishing the existing on-site building and replacing it with a life science campus totaling approximately 409,395 square feet. It consists of three new, sustainably designed b"
+    ],
+    [
+     27000,
+     "high and parking for 328 vehicles in a 2-level underground garage. The project will also create approximately 27,000 square feet of new publicly-accessible open space. The Projec"
+    ]
+   ],
+   "bigger": []
+  },
+  "172": {
+   "name": "75 Ellery Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/75-ellery-street",
+   "field": 388200,
+   "stored": 388200,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "210": {
+   "name": "Nubian Square Ascends",
+   "url": "https://www.bostonplans.org/projects/development-projects/nubian-square-ascends",
+   "field": 365475,
+   "stored": 365475,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "315": {
+   "name": "220 Huntington Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/220-huntington-avenue",
+   "field": 351000,
+   "stored": 349000,
+   "desc_figs": [
+    [
+     351500,
+     "The 220 Huntington Avenue project includes the development of an approximately 351,500 square foot mixed-use building containing approximately 325 r"
+    ],
+    [
+     17000,
+     "y 351,500 square foot mixed-use building containing approximately 325 residential rental units, approximately 17,000 square feet of retail/restaurant space and 153 parking spaces"
+    ],
+    [
+     66600,
+     "quare feet of retail/restaurant space and 153 parking spaces. The Project will be located on an approximately 66,600 square foot site consisting of two properties known as the Mi"
+    ]
+   ],
+   "bigger": []
+  },
+  "358": {
+   "name": "10 Stack Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/10-stack-street",
+   "field": 350300,
+   "stored": 343800,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "156": {
+   "name": "Olmsted Village",
+   "url": "https://www.bostonplans.org/projects/development-projects/olmsted-village",
+   "field": 348100,
+   "stored": 393000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "213": {
+   "name": "15 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/15-washington-street",
+   "field": 341911,
+   "stored": 253288,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "64": {
+   "name": "990 American Legion Highway",
+   "url": "https://www.bostonplans.org/projects/development-projects/990-american-legion-highway",
+   "field": 341576,
+   "stored": 345000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "345": {
+   "name": "Allston Yards Building D",
+   "url": "https://www.bostonplans.org/projects/development-projects/allston-yards-building-d",
+   "field": 336000,
+   "stored": 336000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "167": {
+   "name": "232 A Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/232-a-street",
+   "field": 324315,
+   "stored": 455000,
+   "desc_figs": [
+    [
+     324315,
+     "Single-building lab/office/R&D development (324,315 SF of GFA) located at 232 A Street on the G8 parcel"
+    ]
+   ],
+   "bigger": []
+  },
+  "304": {
+   "name": "Jan Karski Way Extension Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/jan-karski-way-extension",
+   "field": 317664,
+   "stored": 446112,
+   "desc_figs": [
+    [
+     169158,
+     "The proposed project consists of a mixed-use development on approximately 169,158 square feet of land. The proposed project includes approximat"
+    ],
+    [
+     14665,
+     "approximately 169,158 square feet of land. The proposed project includes approximately 403 residential units,14,665 square feet of retail space, and associated parking, landscap"
+    ]
+   ],
+   "bigger": []
+  },
+  "238": {
+   "name": "Residences at Readville Station",
+   "url": "https://www.bostonplans.org/projects/development-projects/residences-at-readville-station",
+   "field": 316315,
+   "stored": 348395,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "102": {
+   "name": "262 St. Botolph Street Multipurpose Athletic Facility",
+   "url": "https://www.bostonplans.org/projects/development-projects/northeastern-university-matthews-arena-project",
+   "field": 310000,
+   "stored": 310000,
+   "desc_figs": [
+    [
+     310000,
+     "te, which currently houses Matthews Arena and a surface parking lot. Northeastern proposes to construct a new 310,000 square foot athletic and event facility on the site. The Prop"
+    ],
+    [
+     54000,
+     "on to providing new facilities for varsity basketball and hockey, the Proposed Project will add approximately 54,000 sf of multipurpose recreation and fitness space that"
+    ]
+   ],
+   "bigger": []
+  },
+  "182": {
+   "name": "495 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/495-dorchester-avenue",
+   "field": 309604,
+   "stored": 309604,
+   "desc_figs": [
+    [
+     326000,
+     "icted midrise building for seniors joined by a shared podium. The Proposed Project will contain approximately 326,000 square feet of gross floor area, including approximately 11,7"
+    ],
+    [
+     11710,
+     "Proposed Project will contain approximately 326,000 square feet of gross floor area, including approximately 11,710 square feet of ground-floor retail / commercial space and 88"
+    ]
+   ],
+   "bigger": []
+  },
+  "122": {
+   "name": "83 Leo M. Birmingham Parkway",
+   "url": "https://www.bostonplans.org/projects/development-projects/83-leo-m-birmingham-parkway",
+   "field": 308133,
+   "stored": 341500,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "164": {
+   "name": "22-24 Pratt Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/22-24-pratt-street",
+   "field": 304000,
+   "stored": 311000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "52": {
+   "name": "Allston Square",
+   "url": "https://www.bostonplans.org/projects/development-projects/allston-square",
+   "field": 301992,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "362": {
+   "name": "Rio Grande",
+   "url": "https://www.bostonplans.org/projects/development-projects/rio-grande",
+   "field": 293193,
+   "stored": 285253,
+   "desc_figs": [
+    [
+     34220,
+     "t supporting the 2343-2345 building completes the site. The combined parcel has a total area of approximately 34,220 square feet. The project site is in the Dudley Square Commerc"
+    ]
+   ],
+   "bigger": []
+  },
+  "66": {
+   "name": "One Mystic Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/one-mystic-avenue",
+   "field": 289344,
+   "stored": 478880,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "326": {
+   "name": "135 Dudley Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/135-dudley-street",
+   "field": 289073,
+   "stored": 282382,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "154": {
+   "name": "2 Charlesgate West",
+   "url": "https://www.bostonplans.org/projects/development-projects/2-charlesgate-west",
+   "field": 285000,
+   "stored": 254000,
+   "desc_figs": [
+    [
+     285000,
+     "The Proposed Project consists of approximately 285,000 square feet. The program will include 400 residential units,"
+    ]
+   ],
+   "bigger": []
+  },
+  "303": {
+   "name": "819 Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/819-beacon-street",
+   "field": 280900,
+   "stored": 398000,
+   "desc_figs": [
+    [
+     280900,
+     "The Project consists of approx. 280,900 square feet of mixed-use programming, comprised of 393 reside"
+    ]
+   ],
+   "bigger": []
+  },
+  "17": {
+   "name": "Drexel Village",
+   "url": "https://www.bostonplans.org/projects/development-projects/drexel-village",
+   "field": 271133,
+   "stored": 346022,
+   "desc_figs": [
+    [
+     60000,
+     "h mixed-income rental and homeownership housing, retail, commercial, and social-service space, including over 60,000 square feet of public open space that will provide passive re"
+    ]
+   ],
+   "bigger": []
+  },
+  "128": {
+   "name": "17 Bradston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/17-bradston-street",
+   "field": 268852,
+   "stored": 551200,
+   "desc_figs": [
+    [
+     50282,
+     "sal is located in the Newmarket neighborhood of Boston. The proposed project consists of the redevelopment of 50,282 square feet of land. The proposal will be designed to support"
+    ]
+   ],
+   "bigger": []
+  },
+  "261": {
+   "name": "41 Berkeley Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/41-berkeley-street",
+   "field": 266650,
+   "stored": 311000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "339": {
+   "name": "Allston Green",
+   "url": "https://www.bostonplans.org/projects/development-projects/allston-green",
+   "field": 259000,
+   "stored": 356000,
+   "desc_figs": [
+    [
+     259000,
+     "at 24 Linden and 8-20 Pratt Street with three new residential buildings, comprising a total of approximately 259,000 square feet of Gross Floor Area. Building A, located on the c"
+    ],
+    [
+     20085,
+     "rade garage will accommodate approximately 125 parking spaces. The Proposed Project will create approximately 20,085 square feet of new privately owned public spaces."
+    ]
+   ],
+   "bigger": []
+  },
+  "126": {
+   "name": "250 Everett Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/250-everett-street",
+   "field": 256250,
+   "stored": 256250,
+   "desc_figs": [
+    [
+     250000,
+     "es to demolish the existing building and construct a new 6-story multifamily rental building of approximately 250,000 square feet, containing approximately 235 residential units a"
+    ]
+   ],
+   "bigger": []
+  },
+  "292": {
+   "name": "Fenway Corners (North)",
+   "url": "https://www.bostonplans.org/projects/development-projects/fenway-corners-north",
+   "field": 250000,
+   "stored": 250000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "237": {
+   "name": "18-22 Arboretum Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/18-22-arboretum-road",
+   "field": 248450,
+   "stored": 295020,
+   "desc_figs": [
+    [
+     295020,
+     "t at 43 Lochdale Road with a new multifamily residential building with amenity space comprising approximately 295,020 square feet of Gross Floor Area. The building will be six (6"
+    ],
+    [
+     38000,
+     "ent requirements. In addition, the existing asphalt and hardscape on the site will be replaced with close to 38,000 square feet of new open space, including highly sustainable l"
+    ]
+   ],
+   "bigger": []
+  },
+  "190": {
+   "name": "103 North Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/103-north-beacon-street",
+   "field": 245000,
+   "stored": 265000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "173": {
+   "name": "80-100 Smith Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/80-100-smith-street",
+   "field": 243212,
+   "stored": 202000,
+   "desc_figs": [
+    [
+     202000,
+     "replace the existing buildings at 80 and 100 Smith Street with new residential buildings having approximately 202,000 sf of new gross floor area and approximately 218 ren"
+    ],
+    [
+     19270,
+     "000 sf of new gross floor area and approximately 218 rental units. The NPC Project will include approximately 19,270 sf of open space to serve the Project\u2019s residents. V"
+    ],
+    [
+     40000,
+     "44 short-term exterior spaces around the site. 90 Smith Street, renovated in 2010, consists of approximately 40,000 square feet of office space."
+    ]
+   ],
+   "bigger": []
+  },
+  "351": {
+   "name": "Kenmore Hotel",
+   "url": "https://www.bostonplans.org/projects/development-projects/kenmore-hotel",
+   "field": 243000,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "264": {
+   "name": "RLFMP - Parcel L-1",
+   "url": "https://www.bostonplans.org/projects/development-projects/24-drydock-avenue",
+   "field": 236375,
+   "stored": 235500,
+   "desc_figs": [
+    [
+     236375,
+     "on the Project Site and the construction of a new, eight (8)-story, mixed-use building totaling approximately 236,375 square feet of marine industrial, life sciences/research and"
+    ]
+   ],
+   "bigger": []
+  },
+  "375": {
+   "name": "22 Boston Wharf Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/22-boston-wharf-road",
+   "field": 235483,
+   "stored": 292000,
+   "desc_figs": [
+    [
+     56000,
+     "sion of approx. 3,000 square feet of ground floor parking into retail.The addition will include approximately 56,000 square feet of new gross floor area."
+    ]
+   ],
+   "bigger": []
+  },
+  "209": {
+   "name": "New Inpatient Building - Franciscan Children's Hospital",
+   "url": "https://www.bostonplans.org/projects/development-projects/new-inpatient-building-franciscan",
+   "field": 235000,
+   "stored": 235000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "215": {
+   "name": "147 W Fourth Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/147-w-fourth-street",
+   "field": 225800,
+   "stored": 239000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "98": {
+   "name": "3430 & 3440 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/3430-3440-washington-street",
+   "field": 225084,
+   "stored": 224501,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "181": {
+   "name": "295 West First Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/295-west-1st-street",
+   "field": 224567,
+   "stored": 224600,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "88": {
+   "name": "25 Supertest Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/25-supertest-street",
+   "field": 224399,
+   "stored": 224399,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "217": {
+   "name": "76 Ashford Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/76-ashford-street",
+   "field": 223025,
+   "stored": 220895,
+   "desc_figs": [
+    [
+     13810,
+     "ng commercial building and the construction of a mixed-use building with 254 residential units, approximately 13,810 SF of amenity space, approximately 1,875 SF of retai"
+    ]
+   ],
+   "bigger": []
+  },
+  "199": {
+   "name": "415 Newbury Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/415-newbury-street",
+   "field": 220681,
+   "stored": 180780,
+   "desc_figs": [
+    [
+     221000,
+     "ly 133 residential units, residential amenities, and Harvard Club replacement facilities within approximately 221,000 square feet (sf) of building space, together with up to 125 o"
+    ]
+   ],
+   "bigger": []
+  },
+  "1": {
+   "name": "130 Dorchester Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/130-dorchester-street",
+   "field": 219839,
+   "stored": null,
+   "desc_figs": [
+    [
+     13000,
+     "apartment units with off-street parking for approximately 164 spaces. The proposed project will include over 13,000 square feet of usable open space and 239,439 of gross square"
+    ]
+   ],
+   "bigger": []
+  },
+  "137": {
+   "name": "2 Financial Center",
+   "url": "https://www.bostonplans.org/projects/development-projects/2-financial-center",
+   "field": 218000,
+   "stored": 218000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "34": {
+   "name": "280-300 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/280-300-washington-street",
+   "field": 214200,
+   "stored": 214400,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "325": {
+   "name": "Massport Marine Terminal Parcel 5",
+   "url": "https://www.bostonplans.org/projects/development-projects/massport-marine-terminal-parcel-5",
+   "field": 211370,
+   "stored": null,
+   "desc_figs": [
+    [
+     211370,
+     ". With this NPC, the project remains essentially unchanged, with gross floor area of marine industrial use at 211,370 sf with building footprints at 115,270 sf and parkin"
+    ],
+    [
+     115270,
+     "sentially unchanged, with gross floor area of marine industrial use at 211,370 sf with building footprints at 115,270 sf and parking spaces remaining at 165. The Project"
+    ]
+   ],
+   "bigger": []
+  },
+  "297": {
+   "name": "24 Ericsson Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/24-ericsson-street",
+   "field": 202735,
+   "stored": 240800,
+   "desc_figs": [
+    [
+     156816,
+     "The proposed project consists of the redevelopment of an approximately 156,816 square foot site off of Ericsson Street in the Port Norfolk a"
+    ],
+    [
+     23400,
+     "hester. The current proposal consists of multiple buildings and includes 120 residential units, approximately 23,400 square feet of office space, approximately 11,000 square feet"
+    ],
+    [
+     11000,
+     "buildings and includes 120 residential units, approximately 23,400 square feet of office space, approximately 11,000 square feet of community/office flex space, approximately 3,6"
+    ]
+   ],
+   "bigger": []
+  },
+  "27": {
+   "name": "Pike Residence Hall",
+   "url": "https://www.bostonplans.org/projects/development-projects/550-huntington-avenue",
+   "field": 202000,
+   "stored": 222200,
+   "desc_figs": [
+    [
+     202000,
+     "The Project will consist of approximately 202,000 SF of GFA, 18-story (measuring approximately 210 fee"
+    ]
+   ],
+   "bigger": []
+  },
+  "279": {
+   "name": "St. Elizabeth's Medical Center Parking Garage",
+   "url": "https://www.bostonplans.org/projects/development-projects/st-elizabeths-medical-center-parking-garage",
+   "field": 201255,
+   "stored": 201255,
+   "desc_figs": [
+    [
+     201255,
+     "R described a proposal to redevelop the Project Site at 253 Washington Street, Brighton into an approximately 201,255 square feet (sf) parking garage, accommodating 610 parking sp"
+    ]
+   ],
+   "bigger": []
+  },
+  "268": {
+   "name": "800 Morrissey Boulevard",
+   "url": "https://www.bostonplans.org/projects/development-projects/800-morrissey-boulevard",
+   "field": 199180,
+   "stored": 202210,
+   "desc_figs": [
+    [
+     230000,
+     "The Proponent is proposing to construct a six (6)-story residential building, totaling approximately 230,000 SF in gross floor area of residential/amenity space,"
+    ]
+   ],
+   "bigger": []
+  },
+  "219": {
+   "name": "1141 Bennington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1141-bennington-street",
+   "field": 199016,
+   "stored": 250664,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "24": {
+   "name": "201 Rutherford Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/201-rutherford-avenue",
+   "field": 197000,
+   "stored": 206037,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "31": {
+   "name": "Mildred Hailey Development Building 4",
+   "url": "https://www.bostonplans.org/projects/development-projects/mildred-hailey-development-building-4",
+   "field": 196250,
+   "stored": 206000,
+   "desc_figs": [
+    [
+     78500,
+     "heastern portion of the Site, will be approximately 58 feet in height (five levels) and include approximately 78,500 square feet (\u201csf\u201d) of residential space consisting of approxi"
+    ],
+    [
+     127500,
+     "western portion of the Site, will be approximately 84 feet in height (seven levels) and include approximately 127,500 sf of space consisting of approximately 112 units an"
+    ]
+   ],
+   "bigger": []
+  },
+  "12": {
+   "name": "50 Congress Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/50-congress-street",
+   "field": 195102,
+   "stored": 188705,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "6": {
+   "name": "222 Friend Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/222-friend-street",
+   "field": 193280,
+   "stored": 162000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "280": {
+   "name": "Parcel 10 - Madison Tropical",
+   "url": "https://www.bostonplans.org/projects/development-projects/madison-tropical-parcel-10",
+   "field": 192034,
+   "stored": 192034,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "109": {
+   "name": "920 Centre Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/920-centre-street",
+   "field": 192000,
+   "stored": null,
+   "desc_figs": [
+    [
+     50000,
+     "The Proposed Project consists of the demolition of the existing 50,000 SF monastery building and the construction of a new"
+    ]
+   ],
+   "bigger": []
+  },
+  "225": {
+   "name": "1270 Commonwealth Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1270-commonwealth-avenue",
+   "field": 189000,
+   "stored": 189000,
+   "desc_figs": [
+    [
+     189000,
+     "g spaces. The new six-story residential building will be approximately 70 feet tall and include approximately 189,000 square feet (sf) of gross floor area (GFA) and contain approx"
+    ]
+   ],
+   "bigger": []
+  },
+  "81": {
+   "name": "449 Cambridge Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/449-cambridge-street",
+   "field": 181240,
+   "stored": 164000,
+   "desc_figs": [
+    [
+     173909,
+     "the existing auto body shops and parking with a new residential building on a single lot, with approximately 173,909 SF of gross floor area and approximately 200 residen"
+    ],
+    [
+     131000,
+     "project: The Cambridge Street building would have seven floors and a gross floor area (GFA) of approximately 131,000 sf, with approximately 127 dwelling units, approxima"
+    ],
+    [
+     33000,
+     "ely 80 accessory parking spaces. The Emery Road building would also have seven floors, a GFA of approximately 33,000 sf, approximately 39 dwelling units, and no on-site"
+    ]
+   ],
+   "bigger": []
+  },
+  "29": {
+   "name": "45 Townsend Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/45-townsend-street",
+   "field": 179667,
+   "stored": 400000,
+   "desc_figs": [
+    [
+     211277,
+     "in connection with the ongoing Article 80 review process for the proposed redevelopment of the approximately 211,277 square foot (4.85 acres) former Radius Specialty Hospital sit"
+    ],
+    [
+     95938,
+     "bicycle parking spaces for residents and visitors, residential accessory and support areas, and approximately 95,938 square feet of new and improved open space. The Proposed Proj"
+    ],
+    [
+     24000,
+     "ructures presently on the Project Site, as well as the addition of new structural area totaling approximately 24,000 square feet."
+    ]
+   ],
+   "bigger": []
+  },
+  "118": {
+   "name": "West End Library",
+   "url": "https://www.bostonplans.org/projects/development-projects/west-end-library",
+   "field": 176517,
+   "stored": 186000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "189": {
+   "name": "St. Mary's Center for Women and Children",
+   "url": "https://www.bostonplans.org/projects/development-projects/st-marys-center-for-women-and-children",
+   "field": 169856,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "337": {
+   "name": "40 Mount Hood Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/40-mount-hood-road",
+   "field": 164340,
+   "stored": 163000,
+   "desc_figs": [
+    [
+     165310,
+     "three separate buildings, as well as surface parking spaces. The site will be developed into an approximately 165,310 square foot residential building containing approximately 151"
+    ],
+    [
+     10000,
+     "al rental units and 204 parking spaces. The Project plans to improve the public realm with approximately 10,000 square feet of landscaped space lining the property on both M"
+    ]
+   ],
+   "bigger": []
+  },
+  "166": {
+   "name": "180 Western Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/180-western-avenue",
+   "field": 162000,
+   "stored": 200100,
+   "desc_figs": [
+    [
+     200000,
+     "dings on the Project Site and to construct a pedestrian-oriented, mixed-use building containing approximately 200,000 square feet of GFA, including residential space (up to 280 un"
+    ],
+    [
+     10000,
+     "ts), ground-floor retail, restaurant, services, and accessory spaces, shared amenity space, and approximately 10,000 square feet of outdoor amenity spaces located on various roof"
+    ],
+    [
+     11000,
+     "hort-term bicycle parking spaces and new on-street parking spaces. The Project will also create approximately 11,000 square feet of new sidewalk area and an active caf\u00e9 zone alon"
+    ]
+   ],
+   "bigger": []
+  },
+  "342": {
+   "name": "780 American Legion Highway",
+   "error": "HTTP 404"
+  },
+  "56": {
+   "name": "391 D Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/391-d-street",
+   "field": 160075,
+   "stored": 160000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "145": {
+   "name": "10 Malcolm X Boulevard",
+   "url": "https://www.bostonplans.org/projects/development-projects/10-malcolm-x-boulevard",
+   "field": 153279,
+   "stored": 127000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "188": {
+   "name": "Mildred Hailey Development Buildings 2 and 3",
+   "url": "https://www.bostonplans.org/projects/development-projects/mildred-hailey-development-buildings-2-and-3",
+   "field": 151537,
+   "stored": 151537,
+   "desc_figs": [
+    [
+     82750,
+     "evelopment. Building 2 is proposed to be a six-story (approximately 70 foot tall) building with approximately 82,750 sf consisting of 65 residential units and associated"
+    ],
+    [
+     71050,
+     "amenities. Building 3 is proposed to be a six-story (approximately 70 foot tall) building with approximately 71,050 sf consisting of 60 residential units and approximat"
+    ]
+   ],
+   "bigger": []
+  },
+  "70": {
+   "name": "181 West First Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/181-185-west-first-street-184-190-206-west-se",
+   "field": 149723,
+   "stored": 182869,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "146": {
+   "name": "Faneuil Gardens Phase 1",
+   "url": "https://www.bostonplans.org/projects/development-projects/faneuil-gardens",
+   "field": 141950,
+   "stored": 141950,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "41": {
+   "name": "3841 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/3841-washington-street",
+   "field": 141925,
+   "stored": 144633,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "259": {
+   "name": "409 Huntington Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/409-huntington-avenue",
+   "field": 141150,
+   "stored": 142810,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "11": {
+   "name": "50B Park Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/50b-park-street",
+   "field": 140000,
+   "stored": 145000,
+   "desc_figs": [
+    [
+     144000,
+     "f-storage facility constituting a Warehousing use, including two new buildings comprising up to approximately 144,000 square feet of floor area: an approximately four-story main b"
+    ]
+   ],
+   "bigger": []
+  },
+  "180": {
+   "name": "Stanhope Hotel",
+   "url": "https://www.bostonplans.org/projects/development-projects/stanhope-hotel",
+   "field": 134400,
+   "stored": 124400,
+   "desc_figs": [
+    [
+     10000,
+     "g's height, width, depth, and overall massing the same. In total, the proponent proposes to add approximately 10,000 square feet of internal space. The Proponent filed a Lette"
+    ]
+   ],
+   "bigger": []
+  },
+  "194": {
+   "name": "539-551 Centre Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/539-551-centre-street",
+   "field": 133534,
+   "stored": null,
+   "desc_figs": [
+    [
+     125000,
+     "mily residential Forbes Building in Jamaica Plain, constructed in 1978 on a 1.59-acre lot, with approximately 125,000 gsf of floor area, and which includes 147 multi-famil"
+    ]
+   ],
+   "bigger": []
+  },
+  "354": {
+   "name": "33-61 Temple Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/33-61-temple-street",
+   "field": 131119,
+   "stored": 171950,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "222": {
+   "name": "165 Park Drive",
+   "url": "https://www.bostonplans.org/projects/development-projects/165-park-drive",
+   "field": 130221,
+   "stored": 117559,
+   "desc_figs": [
+    [
+     130221,
+     "e Project Site, adjacent to the existing Holy Trinity Orthodox Cathedral. The buildings will be approximately 130,221 SF and include approximately 117 residential units."
+    ]
+   ],
+   "bigger": []
+  },
+  "5": {
+   "name": "320 Summer Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/320-summer-street",
+   "field": 130100,
+   "stored": 130100,
+   "desc_figs": [
+    [
+     130100,
+     "rogram (the \u201cPilot Program\u201d), the project would create up to 145 residential dwelling units in approximately 130,100 square feet of GFA, including ground floor retail of approxim"
+    ]
+   ],
+   "bigger": []
+  },
+  "95": {
+   "name": "290 Tremont Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/290-tremont-street",
+   "field": 130000,
+   "stored": 146000,
+   "desc_figs": [
+    [
+     127000,
+     "ect consists of the construction of a new twelve-story, mixed-income residential development of approximately 127,000 square feet of Gross Floor Area (as calculated pursuant to th"
+    ]
+   ],
+   "bigger": []
+  },
+  "239": {
+   "name": "3390 Washington Street (BMS Paper)",
+   "url": "https://www.bostonplans.org/projects/development-projects/3390-washington-street",
+   "field": 129525,
+   "stored": 253993,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "69": {
+   "name": "Austin Street Lots Redevelopment",
+   "url": "https://www.bostonplans.org/projects/development-projects/austin-street-lots-redevelopment",
+   "field": 126000,
+   "stored": 790000,
+   "desc_figs": [
+    [
+     790000,
+     "two surface parking lots. The project consists of four new mixed-use buildings collectively containing up to 790,000 sf of Gross Floor Area and delivering up to 705 new"
+    ]
+   ],
+   "bigger": [
+    [
+     790000,
+     "two surface parking lots. The project consists of four new mixed-use buildings collectively containing up to 790,000 sf of Gross Floor Area and delivering up to 705 new"
+    ]
+   ]
+  },
+  "236": {
+   "name": "361 Belgrade Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/361-belgrade-avenue",
+   "field": 126000,
+   "stored": 126087,
+   "desc_figs": [
+    [
+     126087,
+     "al section of the Roslindale neighborhood, with a vibrant transit-oriented development of up to approximately 126,087 square feet of gross floor area. The proposed project will in"
+    ]
+   ],
+   "bigger": []
+  },
+  "177": {
+   "name": "716 Columbus Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/716-columbus-avenue",
+   "field": 124000,
+   "stored": 124000,
+   "desc_figs": [
+    [
+     38000,
+     "intends to renovate several floors within Columbus Place. These interior renovations will total approximately 38,000 SF and span several floors in the building. The buil"
+    ]
+   ],
+   "bigger": []
+  },
+  "200": {
+   "name": "100 Charles Park Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/100-charles-park-road",
+   "field": 123905,
+   "stored": 123905,
+   "desc_figs": [
+    [
+     123905,
+     "to raze the existing structures and erect two (2) five (5) story residential buildings comprising a total of 123,905 square feet. The two (2) buildings together will contain one"
+    ]
+   ],
+   "bigger": []
+  },
+  "4": {
+   "name": "1590 Blue Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1590-blue-hill-avenue",
+   "field": 120262,
+   "stored": 100000,
+   "desc_figs": [
+    [
+     120000,
+     "outdoor visitor bicycle parking, and associated amenities in a 6-story, L-shaped building with approximately 120,000 square feet of gross floor area, as well as other site improv"
+    ]
+   ],
+   "bigger": []
+  },
+  "298": {
+   "name": "75 Stedman Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/75-stedman-street",
+   "field": 120000,
+   "stored": 120000,
+   "desc_figs": [
+    [
+     120000,
+     "The Proponent, Stedman Development LLC is proposing to construct a 3-story, 120,000 square foot storage facility."
+    ]
+   ],
+   "bigger": []
+  },
+  "355": {
+   "name": "10 Damrell Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/10-damrell-street",
+   "field": 120000,
+   "stored": 105000,
+   "desc_figs": [
+    [
+     120000,
+     "The 10 Damrell Street proposal calls for a new mixed-use building of approximately 120,000 sf, to contain approximately 120 residential units a"
+    ]
+   ],
+   "bigger": []
+  },
+  "46": {
+   "name": "Rogerson-Beaufort",
+   "url": "https://www.bostonplans.org/projects/development-projects/rogerson-beaufort",
+   "field": 117430,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "263": {
+   "name": "Frankfort + Gove Street Housing Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/frankfort-gove-street-housing-project",
+   "field": 114565,
+   "stored": 170455,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "202": {
+   "name": "45 Worthington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/45-worthington-street",
+   "field": 112600,
+   "stored": 111500,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "265": {
+   "name": "30 Leo M. Birmingham Parkway",
+   "url": "https://www.bostonplans.org/projects/development-projects/30-leo-m-birmingham-parkway",
+   "field": 111545,
+   "stored": 97100,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "302": {
+   "name": "NUBA Residences",
+   "url": "https://www.bostonplans.org/projects/development-projects/nuba-residences",
+   "field": 110000,
+   "stored": 106500,
+   "desc_figs": [
+    [
+     110000,
+     "s a 3,000 gsf Gallery/ Caf\u00e9, and 10 live-work units and 10 ground-floor parking spaces. The project comprises 110,000 GSF floor area in 5-6 story stepped mass up to approx"
+    ],
+    [
+     47333,
+     "t in height. The development also includes a public park to be tentatively called \u201cRoxbury Gateway Park\u201d on a 47,333 SF site (including the restricted area) owned by the"
+    ]
+   ],
+   "bigger": []
+  },
+  "364": {
+   "name": "1241 Boylston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1241-boylston-street",
+   "field": 109600,
+   "stored": null,
+   "desc_figs": [
+    [
+     21050,
+     "roject is an approximately 184-room hotel with a ground-floor restaurant. The site of the Proposed Project is 21,050 square feet and includes an existing Shell gas station. The P"
+    ],
+    [
+     105000,
+     "1,050 square feet and includes an existing Shell gas station. The Proposed Project will include approximately 105,000 square feet of building area and will be eight (8) stories wi"
+    ]
+   ],
+   "bigger": []
+  },
+  "107": {
+   "name": "134 Hampden Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/134-hampden-street",
+   "field": 105597,
+   "stored": 75250,
+   "desc_figs": [
+    [
+     32327,
+     "f a six (6) story addition at the 120-126 Hampden Street portion of the Project Site, including approximately 32,327 gsf of retail/office/self-storage uses in order to be"
+    ],
+    [
+     24000,
+     "torage uses) on the first level, approximately 3,712 gsf of office use on the second floor, and approximately 24,000 gsf of self-storage space on the second thru sixth le"
+    ]
+   ],
+   "bigger": []
+  },
+  "171": {
+   "name": "85 Devonshire Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/85-devonshire-street",
+   "field": 102500,
+   "stored": 109400,
+   "desc_figs": [
+    [
+     86700,
+     "residential rental apartments and amenities, from Floor Two (2) to Floor Eleven (11), totaling approximately 86,700 square feet, and approximately 15,798 square feet of retail w"
+    ],
+    [
+     15798,
+     "nities, from Floor Two (2) to Floor Eleven (11), totaling approximately 86,700 square feet, and approximately 15,798 square feet of retail will remain on the first floor and mezz"
+    ]
+   ],
+   "bigger": []
+  },
+  "30": {
+   "name": "400 Atlantic Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/390-400r-atlantic-avenue",
+   "field": 99925,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "235": {
+   "name": "Allston Yards Building E",
+   "url": "https://www.bostonplans.org/projects/development-projects/52-everett-street",
+   "field": 99850,
+   "stored": 150000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "254": {
+   "name": "7 Channel Center",
+   "url": "https://www.bostonplans.org/projects/development-projects/7-channel-center",
+   "field": 99500,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "249": {
+   "name": "96-100 Rockwood Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/96-100-rockwood-street",
+   "field": 99403,
+   "stored": 102000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "51": {
+   "name": "4 Alger Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/4-alger-st",
+   "field": 98000,
+   "stored": 98000,
+   "desc_figs": [
+    [
+     50000,
+     "the site. The proposed leases will require a change of use for the balance of the building, which exceeds the 50,000 square foot threshold for Article 80 Large Project Review. Th"
+    ]
+   ],
+   "bigger": []
+  },
+  "112": {
+   "name": "Great Scott Redevelopment",
+   "url": "https://www.bostonplans.org/projects/development-projects/1-harvard-avenue",
+   "field": 97300,
+   "stored": 95000,
+   "desc_figs": [
+    [
+     97300,
+     "e existing structures occupying the site and the construction of a mixed-use building occupying approximately 97,300 square feet of gross floor area with approximately 139 rental"
+    ]
+   ],
+   "bigger": []
+  },
+  "226": {
+   "name": "6 Elkins Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/6-elkins-street",
+   "field": 97000,
+   "stored": 97000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "242": {
+   "name": "500 Western Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/500-western-avenue",
+   "field": 96703,
+   "stored": 98699,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "324": {
+   "name": "150 Kneeland Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/150-kneeland-street",
+   "field": 96500,
+   "stored": 96500,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "39": {
+   "name": "Bartlett Station | Lot C",
+   "url": "https://www.bostonplans.org/projects/development-projects/bartlett-place-building-c",
+   "field": 95056,
+   "stored": 110000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "294": {
+   "name": "87-93 West Broadway",
+   "url": "https://www.bostonplans.org/projects/development-projects/87-93-west-broadway",
+   "field": 93494,
+   "stored": 98000,
+   "desc_figs": [
+    [
+     98000,
+     "79-93 West Broadway LLC is proposing a new mixed-use building of approximately 98,000 square feet of gross floor area on the site located at 87-93"
+    ]
+   ],
+   "bigger": []
+  },
+  "274": {
+   "name": "Parcel 6 (A and B)",
+   "url": "https://www.bostonplans.org/projects/development-projects/parcel-6",
+   "field": 92913,
+   "stored": 220000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "191": {
+   "name": "287 Western Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/287-western-avenue",
+   "field": 92300,
+   "stored": 90000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "16": {
+   "name": "80 Christopher Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/80-christopher-street",
+   "field": 90736,
+   "stored": 88319,
+   "desc_figs": [
+    [
+     89760,
+     "o-story commercial building presently being used for automobile repair and related uses, with a seven-story, ~89,760SF residential apartment building with 108 units of"
+    ]
+   ],
+   "bigger": []
+  },
+  "278": {
+   "name": "804-812 Huntington Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/804-812-huntington-avenue",
+   "field": 88148,
+   "stored": 88148,
+   "desc_figs": [
+    [
+     58373,
+     "will include two buildings. The first building will front on Huntington Avenue and will contain approximately 58,373 square feet of office/laboratory/research and development wit"
+    ],
+    [
+     25029,
+     "square feet of retail space. The second building will front on Hillside Street and will contain approximately 25,029 square feet and twenty-three residential units."
+    ]
+   ],
+   "bigger": []
+  },
+  "121": {
+   "name": "15 Court Square",
+   "url": "https://www.bostonplans.org/projects/development-projects/15-court-square",
+   "field": 87546,
+   "stored": 87546,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "338": {
+   "name": "St. Botolph Apartments Renovation Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/st-botolph-apartments-renovation-project",
+   "field": 87478,
+   "stored": 90944,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "57": {
+   "name": "95 Berkeley Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/95-berkeley-street",
+   "field": 87250,
+   "stored": 87247,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "227": {
+   "name": "115-121 Boston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/115-121-boston-street",
+   "field": 86954,
+   "stored": 88339,
+   "desc_figs": [
+    [
+     33423,
+     "Redevelopment of a 33,423 sf project site, currently occupied by a 1-2 story c"
+    ],
+    [
+     87218,
+     "paces, including 41 residential and 16 commercial spaces, 122 resident bicycle spaces, totaling approximately 87,218 sf of FAR gross floor area, and with residential ame"
+    ]
+   ],
+   "bigger": []
+  },
+  "257": {
+   "name": "110-128R Terrace Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/110-128r-terrace-street",
+   "field": 85147,
+   "stored": 85025,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "86": {
+   "name": "1200 Centre Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1200-centre-street",
+   "field": 85000,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "13": {
+   "name": "201-207 Brighton Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/201-207-brighton-avenue",
+   "field": 84835,
+   "stored": null,
+   "desc_figs": [
+    [
+     104036,
+     "units and approximately 1,993 square feet of ground-floor commercial space, altogether totaling approximately 104,036 square feet of gross floor area (the \u201cProposed Project\u201d). The"
+    ],
+    [
+     27516,
+     "as a rental project. The Project Site consists of two parcels and contains a total lot area of approximately 27,516 square feet, situated along Brighton Avenue with a portion of"
+    ]
+   ],
+   "bigger": []
+  },
+  "127": {
+   "name": "142-146 St. Mary\u2019s Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/142-146-st-marys-street",
+   "field": 84520,
+   "stored": 91000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "176": {
+   "name": "1690-1700 Hyde Park Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1690-1700-hyde-park-avenue",
+   "field": 84500,
+   "stored": 99000,
+   "desc_figs": [
+    [
+     30860,
+     "ng retail uses, 69 garage parking spaces, widened public sidewalk, new open space, and related amenities on a 30,860 square foot (0.71 acre) site in the Hyde Park neighborhood of"
+    ]
+   ],
+   "bigger": []
+  },
+  "22": {
+   "name": "85 Parker Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/85-parker-hill-avenue",
+   "field": 83316,
+   "stored": 83316,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "9": {
+   "name": "90 Braintree Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/90-braintree-street",
+   "field": 83292,
+   "stored": 85000,
+   "desc_figs": [
+    [
+     83292,
+     "udes the demolition of the existing building to construct a new residential building containing approximately 83,292 sf of gross floor area and approximately 111 rental"
+    ]
+   ],
+   "bigger": []
+  },
+  "256": {
+   "name": "2 Shawsheen Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/2-shawsheen-road",
+   "field": 83155,
+   "stored": 67110,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "49": {
+   "name": "639 Warren Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/639-warren-street",
+   "field": 82865,
+   "stored": 81000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "377": {
+   "name": "274 Southampton Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/274-southampton-street",
+   "field": 82500,
+   "stored": 82500,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "130": {
+   "name": "246-248 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/246-248-dorchester-avenue",
+   "field": 82300,
+   "stored": 87000,
+   "desc_figs": [
+    [
+     87000,
+     "ng height of 109 feet), to include ten (10) more hotel \u201ckeys\u201d in a building of the same size of approximately 87,000 square feet but on a smaller subdivided lot of approximately"
+    ],
+    [
+     16363,
+     "uilding of the same size of approximately 87,000 square feet but on a smaller subdivided lot of approximately 16,363 square feet (reduced from the previous lot size of 22,042 squ"
+    ],
+    [
+     22042,
+     "et but on a smaller subdivided lot of approximately 16,363 square feet (reduced from the previous lot size of 22,042 square feet) and to maintain the approved hotel use but to sl"
+    ]
+   ],
+   "bigger": []
+  },
+  "198": {
+   "name": "270 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/270-dorchester-avenue",
+   "field": 82256,
+   "stored": 119250,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "379": {
+   "name": "Parsons Crossing",
+   "url": "https://www.bostonplans.org/projects/development-projects/parsons-crossing-425-washington-st",
+   "field": 81900,
+   "stored": null,
+   "desc_figs": [
+    [
+     14200,
+     "Proposal calls for a mixed use development consisting of 54 residential units, with 7 IDP units, 14,200 SF of ground floor retail space including a bank and"
+    ]
+   ],
+   "bigger": []
+  },
+  "234": {
+   "name": "Building 108",
+   "url": "https://www.bostonplans.org/projects/development-projects/building-108",
+   "field": 80170,
+   "stored": 99600,
+   "desc_figs": [
+    [
+     78370,
+     "es research and development office building totaling approximately 99,600 gross square feet that will contain 78,370 square feet of research and development space, 1,800 square f"
+    ]
+   ],
+   "bigger": []
+  },
+  "301": {
+   "name": "84 Warren Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/84-88-warren-street",
+   "field": 80000,
+   "stored": 83000,
+   "desc_figs": [
+    [
+     83000,
+     "The Project includes the construction of an approximately 83,000 square foot mixed-use building, with approximately 65 income-"
+    ]
+   ],
+   "bigger": []
+  },
+  "380": {
+   "name": "District Nine at 61 North Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/district-9",
+   "field": 76000,
+   "stored": 76000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "336": {
+   "name": "80 West Broadway",
+   "url": "https://www.bostonplans.org/projects/development-projects/80-west-broadway",
+   "field": 75500,
+   "stored": 75500,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "206": {
+   "name": "131 North Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/131-north-beacon-street",
+   "field": 72815,
+   "stored": 72890,
+   "desc_figs": [
+    [
+     99293,
+     "visitor bicycle parking spaces. The total gross square footage of the project is proposed to be approximately 99,293 sf."
+    ]
+   ],
+   "bigger": []
+  },
+  "58": {
+   "name": "329 Blue Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/329-blue-hill-avenue",
+   "field": 72553,
+   "stored": 48660,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "149": {
+   "name": "15-25 Harrison Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/15-25-harrison-avenue",
+   "field": 71654,
+   "stored": 79300,
+   "desc_figs": [
+    [
+     79300,
+     "cial building, into a new 25-story hotel consisting of approximately 106- guest rooms occupying approximately 79,300 square feet of gross floor area including 600 square feet of"
+    ]
+   ],
+   "bigger": []
+  },
+  "35": {
+   "name": "1702 Hyde Park Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1702-hyde-park-avenue",
+   "field": 71468,
+   "stored": 47543,
+   "desc_figs": [
+    [
+     90250,
+     "aces in the furnishing zone. The total gross square footage of the project is anticipated to be approximately 90,250 square feet."
+    ]
+   ],
+   "bigger": []
+  },
+  "371": {
+   "name": "236 Mount Vernon Street - Bayside DoubleTree Hotel Expansion",
+   "url": "https://www.bostonplans.org/projects/development-projects/236-mount-vernon-street-bayside-doubletree-hotel",
+   "field": 70900,
+   "stored": 70900,
+   "desc_figs": [
+    [
+     70900,
+     "Expand existing Doubletree Hotel by constructing a new 70,900 GSF L-shaped addition adding a net new 104 guest room"
+    ]
+   ],
+   "bigger": []
+  },
+  "117": {
+   "name": "841 Morton Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/841-morton-street",
+   "field": 70466,
+   "stored": 67567,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "305": {
+   "name": "North End Cross Street Boutique Hotel",
+   "url": "https://www.bostonplans.org/projects/development-projects/north-end-cross-street-boutique-hotel",
+   "field": 69613,
+   "stored": 80824,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "193": {
+   "name": "150 Centre Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/150-centre-street",
+   "field": 68400,
+   "stored": 68400,
+   "desc_figs": [
+    [
+     68400,
+     "Trinity Financial Development proposes to develop a 4 story building totaling 68,400 square feet in gross floor area. The project proposes to incl"
+    ]
+   ],
+   "bigger": []
+  },
+  "157": {
+   "name": "49-51 D Street Mixed-Use Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/49-51-d-street-residential-project",
+   "field": 68321,
+   "stored": 73472,
+   "desc_figs": [
+    [
+     73500,
+     "ly 1,970 square feet of ground-level commercial space serving the local community, all totaling approximately 73,500 square feet of total gross floor area. The new building will"
+    ]
+   ],
+   "bigger": []
+  },
+  "155": {
+   "name": "151 Rivermoor Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/151-rivermoor-street",
+   "field": 67022,
+   "stored": 61800,
+   "desc_figs": [
+    [
+     192000,
+     "C proposes to redevelop a parcel of land located at 151 Rivermoor Street, West Roxbury. The subject parcel is 192,000 SF. Redevelopment includes the construction of appro"
+    ],
+    [
+     62000,
+     "eet, West Roxbury. The subject parcel is 192,000 SF. Redevelopment includes the construction of approximately 62,000 SF Warehouse and typical site improvements. The proj"
+    ]
+   ],
+   "bigger": [
+    [
+     192000,
+     "C proposes to redevelop a parcel of land located at 151 Rivermoor Street, West Roxbury. The subject parcel is 192,000 SF. Redevelopment includes the construction of appro"
+    ]
+   ]
+  },
+  "26": {
+   "name": "9 Chelsea Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/9-chelsea-street",
+   "field": 66871,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "7": {
+   "name": "1200 Soldiers Field Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/1200-soldiers-field-road",
+   "field": 66747,
+   "stored": 66747,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "273": {
+   "name": "75 Tremont Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/75-tremont-street",
+   "field": 66369,
+   "stored": 74853,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "300": {
+   "name": "270 West 2nd Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/270-west-second-street",
+   "field": 65500,
+   "stored": 96000,
+   "desc_figs": [
+    [
+     84500,
+     "84,500 sf Multi-Family Residential proposal with 81 units,"
+    ]
+   ],
+   "bigger": []
+  },
+  "192": {
+   "name": "554-562 Columbia Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/554-562-columbia-road",
+   "field": 65340,
+   "stored": 96450,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "271": {
+   "name": "17 Farnsworth Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/17-farnsworth-street",
+   "field": 65087,
+   "stored": 78252,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "92": {
+   "name": "1444-1446 Dorchester Ave",
+   "url": "https://www.bostonplans.org/projects/development-projects/1444-1446-dorchester-ave",
+   "field": 64918,
+   "stored": 64918,
+   "desc_figs": [
+    [
+     15800,
+     "ue in Dorchester with the renovation and reconfiguration of the existing commercial building of approximately 15,800 square feet of GFA of commercial and storage and approximatel"
+    ],
+    [
+     21200,
+     "ng commercial building of approximately 15,800 square feet of GFA of commercial and storage and approximately 21,200 square feet of GFA of residential living space, along with pr"
+    ],
+    [
+     28000,
+     "sidential living space, along with proposed new construction (rear and fifth story addition) of approximately 28,000 square feet of GFA of residential with a total of 47 new resi"
+    ]
+   ],
+   "bigger": []
+  },
+  "250": {
+   "name": "1558 Tremont Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1558-tremont-street",
+   "field": 64322,
+   "stored": 99059,
+   "desc_figs": [
+    [
+     74596,
+     "building\u2019s residents (the \u201cProposed Project\u201d). Collectively, the Proposed Project will contain approximately 74,596 SF of gross floor area. The new building will incorp"
+    ]
+   ],
+   "bigger": []
+  },
+  "94": {
+   "name": "BU - Pardee School of Global studies",
+   "url": "https://www.bostonplans.org/projects/development-projects/pardee-school-of-global-studies",
+   "field": 63000,
+   "stored": 63000,
+   "desc_figs": [
+    [
+     70000,
+     "foot (\u201csf\u201d) surface parking lot into the Fredrick S. Pardee School of Global Studies (the \u201cPardee School\u201d), a 70,000 sf gross floor area (\u201dGFA\u201d), 186-foot (\u201cft\u201d) tall ac"
+    ],
+    [
+     50800,
+     "dee School\u201d), a 70,000 sf gross floor area (\u201dGFA\u201d), 186-foot (\u201cft\u201d) tall academic building with approximately 50,800 sf of open space (the \u201cProject\u201d) at 250 Bay State Ro"
+    ]
+   ],
+   "bigger": []
+  },
+  "143": {
+   "name": "35 Electric Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/35-electric-avenue",
+   "field": 62000,
+   "stored": 62000,
+   "desc_figs": [
+    [
+     62000,
+     "facility at 35 Electric Avenue in the Brighton neighborhood of Boston. The Project will contain approximately 62,000 square feet of Gross Floor Area in a single two-storied build"
+    ]
+   ],
+   "bigger": []
+  },
+  "43": {
+   "name": "1208C VFW Parkway",
+   "url": "https://www.bostonplans.org/projects/development-projects/1208c-vfw-parkway",
+   "field": 61204,
+   "stored": 62140,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "344": {
+   "name": "715-725 Tremont Street/115 Worcester Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/715-725-tremont-street-115-worcester-street",
+   "field": 60000,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "161": {
+   "name": "110 Canal Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/110-canal-street",
+   "field": 58216,
+   "stored": 58000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "319": {
+   "name": "Doyle's Caf\u00e9 Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/doyle-s-cafe-restoration",
+   "field": 57544,
+   "stored": 49640,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "131": {
+   "name": "20 Charlesgate West",
+   "url": "https://www.bostonplans.org/projects/development-projects/20-charlesgate-west",
+   "field": 53141,
+   "stored": 63850,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "42": {
+   "name": "154 Terrace Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/154-terrace-street",
+   "field": 53122,
+   "stored": 60380,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "378": {
+   "name": "Boston Teacher's Union Building Replacement Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/boston-teacher-s-union-replacement-project",
+   "field": 52469,
+   "stored": 52469,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "138": {
+   "name": "555-559 Columbia Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/555-559-columbia-road",
+   "field": 52026,
+   "stored": 52026,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "349": {
+   "name": "99-105 Fairmount Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/99-105-fairmount-avenue",
+   "field": 49950,
+   "stored": 49950,
+   "desc_figs": [
+    [
+     49950,
+     "The DiSipio Building Group propose to construct a four-story, mixed-use development totaling approximately 49,950 square feet. The proposed project will have forty-seven (47)"
+    ]
+   ],
+   "bigger": []
+  },
+  "135": {
+   "name": "101 Boston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/101-boston-street",
+   "field": 49900,
+   "stored": null,
+   "desc_figs": [
+    [
+     49900,
+     "ct Site with the construction of a new six (6) story, multifamily residential building of up to approximately 49,900 square feet of total Gross Floor Area (\u201cGFA\u201d), with up to 59"
+    ]
+   ],
+   "bigger": []
+  },
+  "233": {
+   "name": "735-745 River Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/735-745-river-street",
+   "field": 49900,
+   "stored": 49846,
+   "desc_figs": [
+    [
+     49900,
+     "The Proponent is proposing to construct a five (5) story, mixed-use building of approximately 49,900 square feet of gross floor area, including commercial space f"
+    ]
+   ],
+   "bigger": []
+  },
+  "136": {
+   "name": "77 Terrace Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/77-terrace-street",
+   "field": 49838,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "368": {
+   "name": "44 Lochdale Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/44-lochdale-road",
+   "field": 49822,
+   "stored": 94206,
+   "desc_figs": [
+    [
+     44383,
+     "ty\".) The Property is 1.27 acres and contains an existing building that is two (2) stories with approximately 44,383 square feet of commercial space plus 17,280 square feet of ba"
+    ],
+    [
+     17280,
+     "s an existing building that is two (2) stories with approximately 44,383 square feet of commercial space plus 17,280 square feet of basement parking area for approximately 15 par"
+    ],
+    [
+     10585,
+     "ntly the Building contains one commercial use and one storage use. There is an additional building on site of 10,585 square feet with one commercials use. This Building remains a"
+    ],
+    [
+     49822,
+     "Road to better access the Property, the closing of the Existing curb cut off Mahler Road and construction of 49,822 square feet of new gross floor area containing three (3) stor"
+    ]
+   ],
+   "bigger": []
+  },
+  "72": {
+   "name": "15 Supertest Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/15-supertest-street",
+   "field": 49800,
+   "stored": null,
+   "desc_figs": [
+    [
+     24000,
+     "The proposed project at 15 Supertest Street will include up to approximately 24,000 square feet of retail space addressing Rutherford Avenue and"
+    ]
+   ],
+   "bigger": []
+  },
+  "361": {
+   "name": "Parker and Terrace Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/parker-and-terrace-street",
+   "field": 49534,
+   "stored": 49534,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "32": {
+   "name": "676 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/676-washington-street",
+   "field": 49000,
+   "stored": null,
+   "desc_figs": [
+    [
+     38968,
+     "grade garaged parking and related site and access improvements at its newly sub-divided lot of approximately 38,968 square feet (the \u201cPhase 1 Project\u201d). It will retain a majorit"
+    ]
+   ],
+   "bigger": []
+  },
+  "221": {
+   "name": "Dighton Gardens",
+   "error": "HTTP 404"
+  },
+  "374": {
+   "name": "1181 Bennington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1181-bennington-street",
+   "field": 49000,
+   "stored": 49000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "262": {
+   "name": "66 Geneva Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/66-geneva-avenue",
+   "field": 48912,
+   "stored": 49506,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "248": {
+   "name": "13 Norwood Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/13-norwood-street",
+   "field": 48390,
+   "stored": 48390,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "38": {
+   "name": "1576 Blue Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1576-blue-hill-avenue",
+   "field": 48241,
+   "stored": 50962,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "147": {
+   "name": "279-283 North Harvard Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/279-283-north-harvard-street",
+   "field": 47909,
+   "stored": 47909,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "272": {
+   "name": "1-4 Terrace Place",
+   "url": "https://www.bostonplans.org/projects/development-projects/1-4-terrace-place",
+   "field": 47792,
+   "stored": 137238,
+   "desc_figs": [
+    [
+     47792,
+     "The Proposed Project will contain approximately 47,792 square feet, six stories, 47 condominium units and 15 undergr"
+    ]
+   ],
+   "bigger": []
+  },
+  "255": {
+   "name": "104 Canal Street Hotel Development",
+   "url": "https://www.bostonplans.org/projects/development-projects/104-canal-street",
+   "field": 47355,
+   "stored": 47355,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "290": {
+   "name": "202 West 1st Street",
+   "error": "HTTP 404"
+  },
+  "8": {
+   "name": "One State Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/one-state-street",
+   "field": 46999,
+   "stored": 64428,
+   "desc_figs": [
+    [
+     59943,
+     "anging the legal use and occupancy from commercial office to residential multifamily housing of approximately 59,943 GSF on floors two (2) through fourteen (14) (the \u201cPro"
+    ]
+   ],
+   "bigger": []
+  },
+  "65": {
+   "name": "393 Cambridge Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/393-cambridge-street",
+   "field": 46659,
+   "stored": 46659,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "68": {
+   "name": "11-11 A Parker Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/11-11-a-parker-hill-avenue",
+   "field": 46638,
+   "stored": 61617,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "113": {
+   "name": "586-598 Canterbury Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/586-598-canterbury-street",
+   "field": 46021,
+   "stored": 46021,
+   "desc_figs": [
+    [
+     46021,
+     "A residential development, approximately 46,021 SF of Gross Area, comprised of 46 units and 32 Parki"
+    ]
+   ],
+   "bigger": []
+  },
+  "125": {
+   "name": "65-79 Seattle Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/65-79-seattle-street",
+   "field": 45827,
+   "stored": null,
+   "desc_figs": [
+    [
+     15000,
+     "The project is broken up into three separate buildings and capped at three (3) stories. The project provides 15,000 sf of open space, and an internal walkway underneath"
+    ]
+   ],
+   "bigger": []
+  },
+  "28": {
+   "name": "69 A Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/69-a-street",
+   "field": 45700,
+   "stored": 45600,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "186": {
+   "name": "749-759 Dudley Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/749-759-dudley-street",
+   "field": 45453,
+   "stored": 49084,
+   "desc_figs": [
+    [
+     49114,
+     "commercial space along with 48 multi-family units, with 9-garage and 52-bicycle spaces, and having a total of 49,114 gsf of floor area in a new 6-story building."
+    ]
+   ],
+   "bigger": []
+  },
+  "330": {
+   "name": "601 Newbury Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/601-newbury-street",
+   "field": 45068,
+   "stored": 44899,
+   "desc_figs": [
+    [
+     45068,
+     "ent before you is 601 Newbury Street in Fenway. 601 Newbury Street LLC proposes to construct an approximately 45,068 square foot development. The Project Site currently contains"
+    ]
+   ],
+   "bigger": []
+  },
+  "214": {
+   "name": "New Madinah",
+   "url": "https://www.bostonplans.org/projects/development-projects/new-madinah",
+   "field": 44902,
+   "stored": 48862,
+   "desc_figs": [
+    [
+     14000,
+     "parking to allow for the complete redevelopment of the site. As a mixed-use development, the project proposes 14,000 sf of cultural, commercial, and community services s"
+    ],
+    [
+     34236,
+     "credit units of housing (DND and DHCD compliant) and common roof deck and green roof, totaling approximately 34,236 sf. The project includes 4 surface parking spaces an"
+    ]
+   ],
+   "bigger": []
+  },
+  "245": {
+   "name": "1320 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1320-dorchester-avenue",
+   "field": 44834,
+   "stored": 46378,
+   "desc_figs": [
+    [
+     19021,
+     "proposed redevelopment of four (4) parcels of land along Dorchester Avenue which together total approximately 19,021 square feet (the \"Project Site\"). A portion of the Project Si"
+    ]
+   ],
+   "bigger": []
+  },
+  "356": {
+   "name": "544 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/544-washington-street",
+   "field": 44142,
+   "stored": 44150,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "84": {
+   "name": "52 Plympton Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/52-plympton-street",
+   "field": 43955,
+   "stored": 42820,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "54": {
+   "name": "3326 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/3326-washington-street",
+   "field": 43825,
+   "stored": 40450,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "151": {
+   "name": "1274 Massachusetts Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1274-massachusetts-avenue",
+   "field": 43705,
+   "stored": 46500,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "61": {
+   "name": "294 Hyde Park Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/294-hyde-park-avenue",
+   "field": 43690,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "142": {
+   "name": "BWSC Parking Lots Phase 1",
+   "url": "https://www.bostonplans.org/projects/development-projects/bwsc-parking-lots-phase-1",
+   "field": 43357,
+   "stored": 43357,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "223": {
+   "name": "1420 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1420-dorchester-avenue",
+   "field": 42923,
+   "stored": 45500,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "37": {
+   "name": "275 E Cottage Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/275-e-cottage-street",
+   "field": 42588,
+   "stored": 42029,
+   "desc_figs": [
+    [
+     41970,
+     "building of 42 units with two ground floor commercial/restaurant/retails spaces with a total of approximately 41,970 square feet of gross floor area (3.35 FAR), basement amenity"
+    ]
+   ],
+   "bigger": []
+  },
+  "296": {
+   "name": "354 E Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/354-e-street",
+   "field": 42496,
+   "stored": null,
+   "desc_figs": [
+    [
+     16653,
+     "w deconsecrated church previously known as Saint Vincent DePaul Church. The Proposed Project site consists of 16,653 square feet of land. The proposed renovations and additions i"
+    ]
+   ],
+   "bigger": []
+  },
+  "218": {
+   "name": "Harvard Street Neighborhood Health Center",
+   "url": "https://www.bostonplans.org/projects/development-projects/harvard-street-neighborhood-health-center",
+   "field": 42300,
+   "stored": 42300,
+   "desc_figs": [
+    [
+     42300,
+     "Old Road, 14 Ellington Street, and 16 Ellington Street in Boston with the construction of a new approximately 42,300 square foot health center with clinical, laboratory, and phar"
+    ]
+   ],
+   "bigger": []
+  },
+  "309": {
+   "name": "Dover Station Condos",
+   "url": "https://www.bostonplans.org/projects/development-projects/dover-station-condos-bartlett-place-lot-f4",
+   "field": 42240,
+   "stored": 42240,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "74": {
+   "name": "34-36 Pratt Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/34-36-pratt-street",
+   "field": 42228,
+   "stored": 43029,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "323": {
+   "name": "43 Lochdale Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/43-lochdale-road",
+   "field": 42075,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "329": {
+   "name": "14 Gardner Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/14-gardner-street",
+   "field": 41981,
+   "stored": 41981,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "78": {
+   "name": "110 Wales Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/110-wales-street",
+   "field": 41945,
+   "stored": 49810,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "348": {
+   "name": "11 Faneuil Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/11-faneuil-street",
+   "field": 41525,
+   "stored": 43865,
+   "desc_figs": [
+    [
+     19530,
+     "The Project Site is comprised of approximately 19,530 square feet of underutilized commercial land. The Proposed Pr"
+    ]
+   ],
+   "bigger": []
+  },
+  "116": {
+   "name": "231-245 Grove Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/231-245-grove-street",
+   "field": 40641,
+   "stored": 40641,
+   "desc_figs": [
+    [
+     10016,
+     "sists of the redevelopment of two parcels, 231-239 Grove Street (3,470 square feet) and 241-245 Grove Street (10,016 square feet). The parcels combine to create a 13,486-square-f"
+    ]
+   ],
+   "bigger": []
+  },
+  "289": {
+   "name": "120 Bowdoin Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/120-bowdoin-street",
+   "field": 40534,
+   "stored": 28290,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "33": {
+   "name": "350 West Fourth Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/350-west-fourth-street",
+   "field": 40451,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "284": {
+   "name": "330 C Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/330-c-street",
+   "field": 40000,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "93": {
+   "name": "29-33 Romsey Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/29-33-romsey-street",
+   "field": 39975,
+   "stored": 39975,
+   "desc_figs": [
+    [
+     25271,
+     "The Proposed Project calls for the demolition of the existing, vacant structures on the 25,271 square foot site at 29 - 33 Romsey Street, to allow for the c"
+    ]
+   ],
+   "bigger": []
+  },
+  "85": {
+   "name": "80 Gardner Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/80-gardner-street",
+   "field": 39641,
+   "stored": 40241,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "260": {
+   "name": "Unity Station Condominiums",
+   "url": "https://www.bostonplans.org/projects/development-projects/unity-station-condominiums",
+   "field": 39600,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "291": {
+   "name": "46 Leo M. Birmingham Parkway",
+   "url": "https://www.bostonplans.org/projects/development-projects/46-leo-birmingham-parkway",
+   "field": 39505,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "140": {
+   "name": "151 Liverpool Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/151-liverpool-street",
+   "field": 39177,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "80": {
+   "name": "265 Maverick Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/265-maverick-street",
+   "field": 39000,
+   "stored": 47000,
+   "desc_figs": [
+    [
+     10000,
+     "Reuse of existing garage on 10,000 square foot lot. Change occupancy to multifamily residential"
+    ]
+   ],
+   "bigger": []
+  },
+  "282": {
+   "name": "1789 Commonwealth Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1789-commonwealth-avenue",
+   "field": 38865,
+   "stored": 40765,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "205": {
+   "name": "191-203 Blue Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/191-203-blue-hill-avenue",
+   "field": 38858,
+   "stored": 38858,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "100": {
+   "name": "Alexandra Hotel",
+   "url": "https://www.bostonplans.org/projects/development-projects/alexandra-hotel",
+   "field": 38780,
+   "stored": 60782,
+   "desc_figs": [
+    [
+     38780,
+     "the historic Hotel Alexandra which was built in 1875. The redevelopment will create a 68-room hotel spanning 38,780 square feet, incorporating the existing 27,200-square-foot st"
+    ]
+   ],
+   "bigger": []
+  },
+  "244": {
+   "name": "2 Ford Street and 970 Saratoga Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/2-ford-street",
+   "field": 38473,
+   "stored": 48549,
+   "desc_figs": [
+    [
+     15499,
+     "Proposal involves two (2) sites in the Orient Heights Square consisting of a combined 15,499 square feet of land. Sites will be developed with two separat"
+    ]
+   ],
+   "bigger": []
+  },
+  "185": {
+   "name": "100-114 Hampden Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/100-114-hampden-street",
+   "field": 38434,
+   "stored": 47243,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "23": {
+   "name": "263 N Harvard Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/263-n-harvard-street",
+   "field": 38201,
+   "stored": null,
+   "desc_figs": [
+    [
+     11525,
+     "The proposed project is to construct a new four story residential development upon an 11,525 SF lot on the corner of North Harvard Street and Eas"
+    ]
+   ],
+   "bigger": []
+  },
+  "229": {
+   "name": "17-23 West Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/17-23-west-street",
+   "field": 38043,
+   "stored": 38043,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "75": {
+   "name": "555 Talbot Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/555-talbot-avenue",
+   "field": 37776,
+   "stored": 36400,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "50": {
+   "name": "257 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/257-washington-street",
+   "field": 37768,
+   "stored": 49979,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "179": {
+   "name": "819 Cummins Highway",
+   "url": "https://www.bostonplans.org/projects/development-projects/819-cummins-highway",
+   "field": 37517,
+   "stored": 46996,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "212": {
+   "name": "88 Geneva Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/88-geneva-avenue",
+   "field": 37508,
+   "stored": 51852,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "224": {
+   "name": "1188 Bennington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1188-bennington-street",
+   "field": 37462,
+   "stored": 49992,
+   "desc_figs": [
+    [
+     13172,
+     "commercial site located at 1188-1200 Bennington Street in East Boston. The site currently includes a 2 story, 13,172 square foot industrial/commercial building that served as the"
+    ]
+   ],
+   "bigger": []
+  },
+  "36": {
+   "name": "419 Boylston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/419-boylston-street",
+   "field": 37395,
+   "stored": 42737,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "48": {
+   "name": "100 Magazine Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/100-magazine-street",
+   "field": 37045,
+   "stored": 37045,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "322": {
+   "name": "61 Columbia Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/61-columbia-road",
+   "field": 36921,
+   "stored": 51385,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "129": {
+   "name": "40-50 Warren Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/40-50-warren-street",
+   "field": 36847,
+   "stored": 40387,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "350": {
+   "name": "706 Dudley Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/706-dudley-street",
+   "field": 36646,
+   "stored": 36799,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "96": {
+   "name": "19-21 West Third Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/19-21-west-third-street",
+   "field": 36181,
+   "stored": 44082,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "153": {
+   "name": "140 Wachusett Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/140-wachusett-street",
+   "field": 36164,
+   "stored": 30114,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "2": {
+   "name": "29 High Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/29-high-street",
+   "field": 36028,
+   "stored": 57455,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "73": {
+   "name": "62-66 Condor Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/62-66-condor-street",
+   "field": 36010,
+   "stored": 36010,
+   "desc_figs": [
+    [
+     20574,
+     "Erect new 5 story mixed use retail and multi family residential building on 20,574 square foot lot. Building to include 15 parking spaces, bike"
+    ]
+   ],
+   "bigger": []
+  },
+  "320": {
+   "name": "64 Allandale Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/64-allandale-street",
+   "field": 35800,
+   "stored": null,
+   "desc_figs": [
+    [
+     35800,
+     "to the existing house. The proposed sixteen (16)-unit project at 64 Allandale Street now totals approximately 35,800 square feet of Gross Floor Area (\"GFA\") and includes twenty-e"
+    ]
+   ],
+   "bigger": []
+  },
+  "108": {
+   "name": "460 West Broadway",
+   "url": "https://www.bostonplans.org/projects/development-projects/460-west-broadway",
+   "field": 35673,
+   "stored": 36709,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "67": {
+   "name": "9 Geneva Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/9-geneva-street",
+   "field": 35541,
+   "stored": 34000,
+   "desc_figs": [
+    [
+     14829,
+     "% of Area Median Income (\u201cAMI\u201d). The Proposed Project will be situated on an approximately combined lot of +/-14,829 square feet of land which will have an address of 9 Geneva St"
+    ]
+   ],
+   "bigger": []
+  },
+  "313": {
+   "name": "34 B Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/34-b-street",
+   "field": 35368,
+   "stored": null,
+   "desc_figs": [
+    [
+     41861,
+     "The proposed project consists of the construction of an approximately 41,861 square foot, six-story building with 45 residential rental un"
+    ]
+   ],
+   "bigger": []
+  },
+  "105": {
+   "name": "123 North Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/123-n-washington-street",
+   "field": 35000,
+   "stored": 42427,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "132": {
+   "name": "157 Granite Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/157-granite-avenue",
+   "field": 34830,
+   "stored": 45605,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "158": {
+   "name": "470 Western Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/470-western-avenue",
+   "field": 34647,
+   "stored": 42154,
+   "desc_figs": [
+    [
+     34647,
+     "The project proposes the construction of a new six (6) story 39 unit residential building of approximately 34,647 square feet of gross floor area, with on-site parking for 14"
+    ]
+   ],
+   "bigger": []
+  },
+  "285": {
+   "name": "1 Elmwood Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1-elmwood-street",
+   "field": 34000,
+   "stored": 33395,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "77": {
+   "name": "1740 Hyde Park Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1740-hyde-park-avenue",
+   "field": 33819,
+   "stored": 43319,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "45": {
+   "name": "4487 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/4487-washington-street",
+   "field": 33615,
+   "stored": 41405,
+   "desc_figs": [
+    [
+     11058,
+     "f 28 dwelling units and 12 off-street parking spaces. The total lot area of the Project Site is approximately 11,058 square feet and the building will contain a total gross floor"
+    ],
+    [
+     35285,
+     "ct Site is approximately 11,058 square feet and the building will contain a total gross floor area of roughly 35,285 square feet."
+    ]
+   ],
+   "bigger": []
+  },
+  "204": {
+   "name": "81 Hancock Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/81-hancock-street",
+   "field": 33595,
+   "stored": 32309,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "347": {
+   "name": "6 Glover Court",
+   "url": "https://www.bostonplans.org/projects/development-projects/6-glover-court",
+   "field": 33546,
+   "stored": 38591,
+   "desc_figs": [
+    [
+     33546,
+     "Six Glover Court, LLC propose to construct a five-story, residential development totaling approximately 33,546 square feet. The proposed project will have thirty-four (34)"
+    ]
+   ],
+   "bigger": []
+  },
+  "341": {
+   "name": "1813 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1813-dorchester-avenue",
+   "field": 32728,
+   "stored": 31983,
+   "desc_figs": [
+    [
+     33371,
+     "1813 Dorchester, LLC proposed to construct a five-story, mixed-use development totaling approximately 33,371 square feet. The proposed project will have twenty-six (26)"
+    ],
+    [
+     30513,
+     "d a common roof deck to increase open space for the building\u2019s residents; Reduced Floor Area Ratio from 3.20 (30,513 square feet) to 3.0 (28,608 square feet); Added additional st"
+    ],
+    [
+     28608,
+     "ease open space for the building\u2019s residents; Reduced Floor Area Ratio from 3.20 (30,513 square feet) to 3.0 (28,608 square feet); Added additional street trees along Dorchester"
+    ]
+   ],
+   "bigger": []
+  },
+  "286": {
+   "name": "30 Thorn Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/30-thorn-street",
+   "field": 32660,
+   "stored": 38760,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "321": {
+   "name": "190 Dudley Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/190-dudley-street",
+   "field": 32540,
+   "stored": 32540,
+   "desc_figs": [
+    [
+     32540,
+     "Rina Enterprise Inc., proposes to construct an approximately 32,540 square foot development. The project will contain 28 resident"
+    ]
+   ],
+   "bigger": []
+  },
+  "106": {
+   "name": "279 Maverick Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/279-maverick-street",
+   "field": 32135,
+   "stored": 34000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "211": {
+   "name": "156 Wellington Hill Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/156-wellington-hill-street",
+   "field": 32108,
+   "stored": 36360,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "251": {
+   "name": "Dudley Kenilworth Homes",
+   "url": "https://www.bostonplans.org/projects/development-projects/dudley-kenilworth-homes",
+   "field": 31500,
+   "stored": 31500,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "197": {
+   "name": "157 Humboldt Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/157-humboldt-avenue",
+   "field": 31452,
+   "stored": 30385,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "352": {
+   "name": "1199-1203 Blue Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1199-1203-blue-hill-avenue",
+   "field": 31450,
+   "stored": 37798,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "90": {
+   "name": "662-666 East Broadway",
+   "url": "https://www.bostonplans.org/projects/development-projects/662-666-east-broadway",
+   "field": 31303,
+   "stored": 32803,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "19": {
+   "name": "3716-3724 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/3716-3724-washington-street",
+   "field": 31175,
+   "stored": 36331,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "101": {
+   "name": "521-523 Cambridge Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/521-523-cambridge-street",
+   "field": 30900,
+   "stored": 33274,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "123": {
+   "name": "36 Parker Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/36-parker-hill-avenue",
+   "field": 30861,
+   "stored": 30861,
+   "desc_figs": [
+    [
+     30861,
+     "The Rise at Longwood Development team is proposing a five (5) story building of approximately 30,861 square feet of gross floor area (\u201cGFA\u201d), including thirty-eig"
+    ]
+   ],
+   "bigger": []
+  },
+  "178": {
+   "name": "43 Preble Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/43-preble-street",
+   "field": 30845,
+   "stored": 45350,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "253": {
+   "name": "207 E Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/207-e-street",
+   "field": 30772,
+   "stored": 30772,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "62": {
+   "name": "151 Lenox Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/151-lenox-street",
+   "field": 30715,
+   "stored": null,
+   "desc_figs": [
+    [
+     31805,
+     "t senior, all affordable LIHTC development. The development is proposed as 7 stories, with two elevators, and 31,805 gsf with a fa\u00e7ade which will blend into the surroundi"
+    ]
+   ],
+   "bigger": []
+  },
+  "373": {
+   "name": "88 North Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/88-north-washington-street",
+   "field": 30533,
+   "stored": 39991,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "111": {
+   "name": "1318 River Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1318-river-street",
+   "field": 29892,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "60": {
+   "name": "4259 - 4267 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/4259-4267-washington-street",
+   "field": 29413,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "21": {
+   "name": "500 Gallivan Boulevard",
+   "url": "https://www.bostonplans.org/projects/development-projects/500-gallivan-boulevard",
+   "field": 29130,
+   "stored": null,
+   "desc_figs": [
+    [
+     36055,
+     "on with adjacent uses and the public realm. The building will have a total gross floor area of approximately 36,055 square feet and a maximum building height of approximately 58"
+    ]
+   ],
+   "bigger": []
+  },
+  "79": {
+   "name": "1214 Bennington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1214-bennington-street",
+   "field": 28717,
+   "stored": 28717,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "91": {
+   "name": "1028-1032 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1028-1032-dorchester-avenue",
+   "field": 28364,
+   "stored": 28394,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "208": {
+   "name": "24-34 Notre Dame Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/24-34-notre-dame-street",
+   "field": 28357,
+   "stored": 28357,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "55": {
+   "name": "697 Cambridge Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/697-cambridge-street",
+   "field": 28228,
+   "stored": 31000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "124": {
+   "name": "2-8 Bowdoin Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/2-8-bowdoin-street",
+   "field": 28082,
+   "stored": 33452,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "87": {
+   "name": "344-350 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/344-350-washington-street",
+   "field": 27986,
+   "stored": 32717,
+   "desc_figs": [
+    [
+     27969,
+     "inium units, and seventeen (17) off-street parking spaces. In total, the new structure will encompass roughly 27,969 square feet and will provide twenty (20) residential bicycle"
+    ]
+   ],
+   "bigger": []
+  },
+  "269": {
+   "name": "1169-1171 Adams Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1169-1171-adams-street",
+   "field": 27910,
+   "stored": 40000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "230": {
+   "name": "1081 River Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1081-river-street",
+   "field": 27854,
+   "stored": 27584,
+   "desc_figs": [
+    [
+     27584,
+     "tial building of 28 rental units, with 15 onsite parking spaces in a four (4) story building of approximately 27,584 square feet of gross floor area, with related site improvemen"
+    ]
+   ],
+   "bigger": []
+  },
+  "15": {
+   "name": "39 Minot Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/39-minot-street",
+   "field": 27551,
+   "stored": 29215,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "327": {
+   "name": "555 Metropolitan Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/555-metropolitan-avenue",
+   "field": 27052,
+   "stored": 27052,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "370": {
+   "name": "1857-1859 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1857-1859-dorchester-avenue",
+   "field": 26896,
+   "stored": 26896,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "360": {
+   "name": "603 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/603-dorchester-avenue",
+   "field": 26227,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "306": {
+   "name": "1154-1156 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1154-1156-dorchester-avenue",
+   "field": 26027,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "59": {
+   "name": "190 Bowdoin Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/190-bowdoin-street",
+   "field": 25088,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "162": {
+   "name": "90 Allandale",
+   "url": "https://www.bostonplans.org/projects/development-projects/90-allandale",
+   "field": 25021,
+   "stored": 25021,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "120": {
+   "name": "4 Liberty Square",
+   "url": "https://www.bostonplans.org/projects/development-projects/4-liberty-square",
+   "field": 24986,
+   "stored": 29587,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "148": {
+   "name": "23-25 North Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/23-25-north-beacon-street",
+   "field": 24605,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "10": {
+   "name": "4301 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/4301-washington-street",
+   "field": 24483,
+   "stored": 24483,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "76": {
+   "name": "261 Maverick Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/261-maverick-street",
+   "field": 24300,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "216": {
+   "name": "27 Farragut Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/27-farragut-road",
+   "field": 23917,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "82": {
+   "name": "1954 Commonwealth Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1954-commonwealth-avenue",
+   "field": 23863,
+   "stored": 29788,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "317": {
+   "name": "1-2 Thompson Square",
+   "url": "https://www.bostonplans.org/projects/development-projects/1-2-thompson-square",
+   "field": 23826,
+   "stored": 51035,
+   "desc_figs": [
+    [
+     23826,
+     "The proposed project consists of an approximately 23,826 square foot addition to the building located at 1 Thompson Sq"
+    ]
+   ],
+   "bigger": []
+  },
+  "165": {
+   "name": "3458 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/3458-washington-street",
+   "field": 23649,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "134": {
+   "name": "99-105 Addison Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/99-105-addison-street",
+   "field": 23415,
+   "stored": 23415,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "220": {
+   "name": "352-354 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/352-354-washington-street",
+   "field": 23251,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "340": {
+   "name": "50 Cedar Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/50-cedar-street",
+   "field": 22995,
+   "stored": 22600,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "376": {
+   "name": "Bartlett Square II",
+   "url": "https://www.bostonplans.org/projects/development-projects/bartlett-square-ii",
+   "field": 22900,
+   "stored": 22900,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "201": {
+   "name": "141 Addison Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/141-addison-street",
+   "field": 22879,
+   "stored": 29165,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "308": {
+   "name": "3409 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/3409-washington-street",
+   "field": 22660,
+   "stored": 22510,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "307": {
+   "name": "363 E Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/363-e-street",
+   "field": 22481,
+   "stored": 26647,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "195": {
+   "name": "2 Hillsboro Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/2-hillsboro-street",
+   "field": 22108,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "318": {
+   "name": "1905-1911 Centre Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1905-1911-centre-street",
+   "field": 21983,
+   "stored": 28000,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "283": {
+   "name": "1525 Blue Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1525-blue-hill-avenue",
+   "field": 21920,
+   "stored": 21920,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "20": {
+   "name": "14-18 Hannon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/14-18-hannon-street",
+   "field": 21695,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "141": {
+   "name": "691-695 Morton Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/691-695-morton-street",
+   "field": 21626,
+   "stored": 21626,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "288": {
+   "name": "635-641 Hyde Park Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/635-641-hyde-park-avenue",
+   "field": 21604,
+   "stored": 27253,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "310": {
+   "name": "4011-4019 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/4011-4019-washington-street",
+   "field": 20840,
+   "stored": 22752,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "44": {
+   "name": "38 Hichborn Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/38-hichborn-street",
+   "field": 20829,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "281": {
+   "name": "26-28 Coffey Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/26-28-coffey-street",
+   "field": 20198,
+   "stored": 26941,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "365": {
+   "name": "75-85 Liverpool Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/75-85-liverpool-street",
+   "field": 20181,
+   "stored": 20181,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "207": {
+   "name": "358 Chestnut Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/358-chestnut-hill-avenue",
+   "field": 20055,
+   "stored": 29340,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "40": {
+   "name": "265 Hancock Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/265-hancock-street",
+   "field": 20000,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "293": {
+   "name": "582 Cambridge Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/582-cambridge-street",
+   "field": 19959,
+   "stored": 29787,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "97": {
+   "name": "2062 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/2062-dorchester-avenue",
+   "field": 19595,
+   "stored": 19595,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "196": {
+   "name": "376-384A Blue Hill Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/376-384a-blue-hill-avenue",
+   "field": 19260,
+   "stored": 25900,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "110": {
+   "name": "75-77 Dorchester Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/75-77-dorchester-street",
+   "field": 18944,
+   "stored": 23031,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "367": {
+   "name": "114 Orleans Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/114-orleans-street",
+   "field": 18805,
+   "stored": 29385,
+   "desc_figs": [
+    [
+     29385,
+     "Proposal is a 5-story, residential building totaling approximately 29,385 SF with 23 condominium units including three IDP uni"
+    ]
+   ],
+   "bigger": []
+  },
+  "18": {
+   "name": "172 Western Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/172-western-avenue",
+   "field": 18737,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "232": {
+   "name": "617 Dorchester Avenue f/k/a 20 Boston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/617-dorchester-avenue-20-boston-street",
+   "field": 18407,
+   "stored": 18407,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "159": {
+   "name": "944 Saratoga Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/944-saratoga-street",
+   "field": 16935,
+   "stored": 26565,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "47": {
+   "name": "1428 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/1428-dorchester-avenue",
+   "field": 16917,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "144": {
+   "name": "736-742 East Broadway Mixed-Use Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/736-742-east-broadway-mixed-use-project",
+   "field": 16805,
+   "stored": 20025,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "71": {
+   "name": "150 Milk Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/150-milk-street",
+   "field": 16720,
+   "stored": 21558,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "3": {
+   "name": "24 Mt. Everett Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/24-mt-everett-street",
+   "field": 16550,
+   "stored": 21585,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "169": {
+   "name": "55-57 Belgrade Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/55-57-belgrade-avenue",
+   "field": 15800,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "299": {
+   "name": "226 Magnolia St",
+   "url": "https://www.bostonplans.org/projects/development-projects/226-magnolia-st",
+   "field": 15167,
+   "stored": 18655,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "277": {
+   "name": "Seaport Square - Block F",
+   "url": "https://www.bostonplans.org/projects/development-projects/seaport-square-block-f",
+   "field": 14000,
+   "stored": 14000,
+   "desc_figs": [
+    [
+     12000,
+     "Block F is the site of 12,000 sf District Hall (completed in 2013) and the Seaport"
+    ],
+    [
+     30000,
+     "ermination approved the construction of an additional three-story mixed-use building containing approximately 30,000 square feet of Gross Floor Area, east of the existing compone"
+    ]
+   ],
+   "bigger": []
+  },
+  "312": {
+   "name": "34 Oak Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/34-oak-street",
+   "field": 12721,
+   "stored": 18915,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "160": {
+   "name": "112-114 Queensberry Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/112-114-queensberry-street",
+   "field": 12545,
+   "stored": 19426,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "152": {
+   "name": "434 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/434-washington-street",
+   "field": 12465,
+   "stored": 14585,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "114": {
+   "name": "259 Allandale Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/259-allandale-street",
+   "field": 10600,
+   "stored": 10600,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "99": {
+   "name": "295-297 Franklin Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/295-297-franklin-street",
+   "field": 8741,
+   "stored": 8741,
+   "desc_figs": [
+    [
+     14580,
+     "n the B-10 Zoning Subdistrict, the site consists of a 2,430 square foot lot with existing gross floor area of 14,580 square feet, which includes a basement to be re-purposed for"
+    ]
+   ],
+   "bigger": []
+  },
+  "316": {
+   "name": "3-5 Woodlawn Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/3-5-woodlawn-street",
+   "field": 6669,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "63": {
+   "name": "On the Square",
+   "url": "https://www.bostonplans.org/projects/development-projects/on-the-square-(587-595-washington-st)",
+   "field": 0,
+   "stored": 73146,
+   "desc_figs": [
+    [
+     10000,
+     "OTS is a new development project that will transform approximately 10,000 square feet of existing retail office building into a new mix"
+    ],
+    [
+     73472,
+     "lding and garage in an adjacent lot to construct a new five-story mixed use commercial/residential containing 73,472 square feet of office/residential space. The commercial/retai"
+    ]
+   ],
+   "bigger": [
+    [
+     73472,
+     "lding and garage in an adjacent lot to construct a new five-story mixed use commercial/residential containing 73,472 square feet of office/residential space. The commercial/retai"
+    ]
+   ]
+  },
+  "83": {
+   "name": "85-87 Walnut Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/85-87-walnut-street",
+   "field": 0,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "103": {
+   "name": "1 & 10 Emerson Place",
+   "url": "https://www.bostonplans.org/projects/development-projects/1-10-emerson-place",
+   "field": 0,
+   "stored": 19140,
+   "desc_figs": [
+    [
+     20060,
+     "Conversion of approximately 20,060 sf of office space within existing Emerson Place bui"
+    ]
+   ],
+   "bigger": []
+  },
+  "104": {
+   "name": "1 Longfellow Place",
+   "url": "https://www.bostonplans.org/projects/development-projects/1-longfellow-place",
+   "field": 0,
+   "stored": 13216,
+   "desc_figs": [
+    [
+     13164,
+     "Conversion of approximately 13,164 sf of office space into a total of 24 residential ap"
+    ]
+   ],
+   "bigger": []
+  },
+  "241": {
+   "name": "11-21 Bromfield Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/11-21-bromfield-street",
+   "field": 0,
+   "stored": 410700,
+   "desc_figs": [
+    [
+     800000,
+     "demolition of the existing buildings and the construction of the new residential building. This approximately 800,000 square foot building will contain 760+ apartments, 20% of whi"
+    ],
+    [
+     25000,
+     "square foot building will contain 760+ apartments, 20% of which will be affordable, as well as approximately 25,000 square feet of ground floor retail space at the corner of Was"
+    ]
+   ],
+   "bigger": [
+    [
+     800000,
+     "demolition of the existing buildings and the construction of the new residential building. This approximately 800,000 square foot building will contain 760+ apartments, 20% of whi"
+    ]
+   ]
+  },
+  "311": {
+   "name": "Pier 4 Phase 4",
+   "url": "https://www.bostonplans.org/projects/development-projects/pier-4-phase-4",
+   "field": 0,
+   "stored": null,
+   "desc_figs": [],
+   "bigger": []
+  },
+  "359": {
+   "name": "111 Terrace Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/111-terrace-street",
+   "field": 0,
+   "stored": 31862,
+   "desc_figs": [],
+   "bigger": []
+  }
+ }
+}

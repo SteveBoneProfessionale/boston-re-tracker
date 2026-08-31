@@ -1,0 +1,110 @@
+{
+ "67": {
+  "name": "9 Geneva Street",
+  "addr": "9 Geneva Street",
+  "gsf": 34000,
+  "permit": "COO1833169",
+  "permit_addr": "12 Geneva ST",
+  "metres": 25.786630248109866,
+  "ranges_overlap": false,
+  "desc": "Erect",
+  "parcel": "104091000",
+  "co_date": null
+ },
+ "133": {
+  "name": "North Station Gateway Project",
+  "addr": "251 Causeway Street",
+  "gsf": null,
+  "permit": "COO1783019",
+  "permit_addr": "226-250 Causeway ST",
+  "metres": 28.659919494914877,
+  "ranges_overlap": false,
+  "desc": "Change Occupancy",
+  "parcel": "303061010",
+  "co_date": null
+ },
+ "140": {
+  "name": "151 Liverpool Street",
+  "addr": "151 Liverpool Street",
+  "gsf": null,
+  "permit": "COO1859777",
+  "permit_addr": "152-154 Liverpool ST",
+  "metres": 82.92573353833323,
+  "ranges_overlap": false,
+  "desc": "Erect",
+  "parcel": "105421000",
+  "co_date": null
+ },
+ "224": {
+  "name": "1188 Bennington Street",
+  "addr": "1188-1208 Bennington Street",
+  "gsf": 49992,
+  "permit": "COO1749539",
+  "permit_addr": "1209 Bennington ST",
+  "metres": 100.91954419778371,
+  "ranges_overlap": false,
+  "desc": "Erect",
+  "parcel": "101523000",
+  "co_date": null
+ },
+ "247": {
+  "name": "176 Lincoln Street",
+  "addr": "176 Lincoln Street",
+  "gsf": 808000,
+  "permit": "COO1413011",
+  "permit_addr": "179 Lincoln ST",
+  "metres": 53.006388123048175,
+  "ranges_overlap": false,
+  "desc": "Renovations - Interior NSC",
+  "parcel": "305332000",
+  "co_date": null
+ },
+ "254": {
+  "name": "7 Channel Center",
+  "addr": "7 Channel Center Street",
+  "gsf": null,
+  "permit": "COO1535703",
+  "permit_addr": "10 Channel Center ST",
+  "metres": 40.78697233316855,
+  "ranges_overlap": false,
+  "desc": "Fast Track Application",
+  "parcel": "602757030",
+  "co_date": null
+ },
+ "261": {
+  "name": "41 Berkeley Street",
+  "addr": "41 Berkeley Street",
+  "gsf": 311000,
+  "permit": "COO1676662",
+  "permit_addr": "40 Berkeley ST",
+  "metres": 42.52693266936851,
+  "ranges_overlap": false,
+  "desc": "Change Occupancy",
+  "parcel": "500865000",
+  "co_date": null
+ },
+ "273": {
+  "name": "75 Tremont Street",
+  "addr": "75 Tremont Street",
+  "gsf": 74853,
+  "permit": "COO1764947",
+  "permit_addr": "78-88 Tremont ST",
+  "metres": 36.327576466563144,
+  "ranges_overlap": false,
+  "desc": "Change Occupancy",
+  "parcel": "304702001",
+  "co_date": null
+ },
+ "370": {
+  "name": "1857-1859 Dorchester Avenue",
+  "addr": "1857 Dorchester Avenue",
+  "gsf": 26896,
+  "permit": "COO1653523",
+  "permit_addr": "1854 Dorchester AV",
+  "metres": 29.92793607865715,
+  "ranges_overlap": false,
+  "desc": "Erect",
+  "parcel": "1602972000",
+  "co_date": null
+ }
+}
