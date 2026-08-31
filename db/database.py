@@ -188,6 +188,15 @@ def init_db():
     _add_column_if_missing("projects", "bpda_parcel_gsf", "INTEGER")
     _add_column_if_missing("projects", "bpda_gsf_is_partial", "BOOLEAN")
 
+    # A second, labelled square footage for rows that legitimately measure two
+    # things. 88 Black Falcon Avenue is a 330,600 sf vertical addition onto a
+    # 353,910 sf existing building: the new construction and the total building
+    # area are different questions and picking one destroys the other.
+    # total_gsf carries the project figure; this carries the counterpart, and
+    # component_gsf_label says which is which. Never enters a pipeline total.
+    _add_column_if_missing("projects", "component_gsf", "INTEGER")
+    _add_column_if_missing("projects", "component_gsf_label", "VARCHAR")
+
     # Entity resolution on transactions. `buyer` and `seller` always hold the
     # record entity verbatim; the *_canonical columns hold the resolved sponsor
     # and stay null where it is unresolved, because a blank sponsor is correct
