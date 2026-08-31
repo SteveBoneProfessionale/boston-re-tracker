@@ -1,0 +1,48 @@
+id,reason,name,address,city,gsf,units,status,stage,developer,url
+396,Never extracted,Carney Hospital,2100-2110 Dorchester Avenue,Boston,,,Under Review,Permitting,,https://www.bostonplans.org/projects/development-projects/carney-hospital
+397,Never extracted,15 State Street,15 State Street,Boston,28910,,Under Review,Permitting,,https://www.bostonplans.org/projects/development-projects/15-state-street
+398,Never extracted,45 Bromfield Street,45 Bromfield Street,Boston,,,Letter of Intent,Planning,,https://www.bostonplans.org/projects/development-projects/45-bromfield-street
+399,Never extracted,185 Corey Road,185 Corey Road,Boston,47000,,Under Review,Permitting,,https://www.bostonplans.org/projects/development-projects/185-corey-road
+400,Never extracted,69 McGreevey Way,69 McGreevey Way,Boston,97407,,Under Review,Permitting,,https://www.bostonplans.org/projects/development-projects/69-mcgreevey-way
+402,Never extracted,92 Spring Street,92 Spring Street,Boston,48924,,Under Review,Permitting,,https://www.bostonplans.org/projects/development-projects/92-spring-street
+403,Never extracted,160 McClellan Highway,160 William F. McClellan Highway,Boston,152500,,Under Review,Permitting,,https://www.bostonplans.org/projects/development-projects/160-william-f-mcclellan-highway
+405,Never extracted,1000 Washington Street,1000 Washington Street,Boston,237030,,Board Approved,Approved,,https://www.bostonplans.org/projects/development-projects/1000-washington-street
+406,Never extracted,1600-1850 Soldiers Field Road,1600 Soldiers Field Road,Boston,1000000,,Letter of Intent,Planning,,https://www.bostonplans.org/projects/development-projects/1600-1800-1850-soldiers-field-road
+407,Never extracted,CANA Parcel 6 - City Square Place,0 CANA Parcel 6a Place,Boston,13975,,Board Approved,Approved,,https://www.bostonplans.org/projects/development-projects/cana-parcel-6a-city-square-place
+903,Never extracted,105 Beach Street,105 Beach Street,Boston,10080,,Under Review,Permitting,,https://www.bostonplans.org/projects/development-projects/105-beach-street
+904,Never extracted,79 Essex Street,79 Essex Street,Boston,63395,,Letter of Intent,Planning,,https://www.bostonplans.org/projects/development-projects/79-essex-street
+905,Never extracted,1725 Hyde Park Avenue,1725 Hyde Park Avenue,Boston,,,Letter of Intent,Planning,,https://www.bostonplans.org/projects/development-projects/1725-hyde-park-avenue
+906,Never extracted,25 Tolman Street,25 Tolman Street,Boston,23220,,Under Review,Permitting,,https://www.bostonplans.org/projects/development-projects/25-tolman-street
+907,Never extracted,84 Stonley Road,84 Stonley Road,Boston,29581,,Under Review,Permitting,,https://www.bostonplans.org/projects/development-projects/84-stonley-road
+908,Never extracted,408 South Huntington Avenue,408 S Huntington Avenue,Boston,45528,,Under Review,Permitting,,https://www.bostonplans.org/projects/development-projects/408-s-huntington-avenue
+909,Never extracted,780 American Legion Highway,780 American Legion Highway,Boston,139889,,Letter of Intent,Planning,,https://www.bostonplans.org/projects/development-projects/780-american-legion-highway-(1)
+910,Never extracted,1 Joslin Place Hospital,1 Joslin Place,Boston,450000,,Board Approved,Approved,,https://www.bostonplans.org/projects/development-projects/1-joslin-place-hospital
+428,Competing plan,MXD Infill - 250 Binney Street (Building D),250 Binney Street,Cambridge,450576,,Zoning Permit Granted or As of Right,Approved,Boston Properties,manual:cambridge-devlog-759
+468,Competing plan,MXD Infill - 105 Broadway (Building E),105 Broadway,Cambridge,302400,,Approved PUD/Master Plan Development Remaining,Approved,Boston Properties,manual:cambridge-devlog-826
+517,Withdrawn,1016 Park Avenue,1016 Park Avenue,Cranston,,,Permitting,Permitting,Marc Spirito,manual:ri-cranston-9-95
+521,Denied,35 Lake Street,35 Lake Street,Cranston,,1,Permitting,Permitting,Sadiq Davies,manual:ri-cranston-na-35 LAKE ST
+529,Denied,0 Plainfield Pike,0 Plainfield Pike,Cranston,,,Planning,Planning,"RLF IV Terminals SPE, LLC",manual:ri-cranston-36-75_76
+532,Denied,Independence Way Proposal,1890 Plainfield Pike,Cranston,,192,Planning,Planning,Elsey Holdings LLC,manual:ri-cranston-37-888
+535,Denied,5 Aborn Street,5 Aborn Street,Cranston,,2,Permitting,Permitting,Anthony Albanese Jr.,manual:ri-cranston-1-30
+539,Withdrawn,538 Main Street,538 Main Street,Cranston,,,Permitting,Permitting,,manual:ri-cranston-30-193
+548,Withdrawn,546 Smithfield Avenue,546 Smithfield Avenue,Pawtucket,,1,Permitting,Permitting,"Prestige Realty, LLC",manual:ri-pawtucket-49-967
+572,Withdrawn,160 Carroll Avenue,160 Carroll Avenue,Newport,,1,Permitting,Permitting,"Girl Scouts of RI, Inc.",manual:ri-newport-41-30
+573,Denied,25 Waites Wharf,25 Waites Wharf,Newport,,,Permitting,Permitting,"Harbour Realty, LLC",manual:ri-newport-32-155_267
+577,Withdrawn,3275 POST ROAD,3275 POST ROAD,Warwick,,14,Planning,Planning,"Winward Veterinary Hospital, LLC",manual:ri-warwick-300-110_128_247_295_296_331
+612,Withdrawn,659 – 663 Admiral Street,659 – 663 Admiral Street,Providence,21026,48,Planning,Planning,"Strive Realty, LLC",manual:ri-providence-123-165_166_171
+658,Withdrawn,740 Plainfield Street,740 Plainfield Street,Providence,41000,,Planning,Planning,Excel Academy,manual:ri-providence-110-143_148_156
+669,Withdrawn,230 Waterman Street,230 Waterman Street,Providence,13712,25,Permitting,Permitting,Myles Standish Associates,manual:ri-providence-15-495
+699,Withdrawn,18 Eighth St,18 Eighth St,Providence,,24,Permitting,Permitting,Ghassan Daou,manual:ri-providence-91-153_162_632
+702,Denied,288 Kinsley Ave,288 Kinsley Ave,Providence,175416,,Permitting,Permitting,"OGN, LLC",manual:ri-providence-26-234
+707,Denied,45-47 America St,45-47 America St,Providence,,6,Planning,Planning,"DNC Acquisitions, LLC",manual:ri-providence-28-236
+743,Denied,946-1000 Westminster Street,946-1000 Westminster Street,Providence,,48,Approved,Approved,The Omni Group,manual:ri-providence-29-496_510_511
+768,Withdrawn,151-155 Chestnut Street,151-155 Chestnut Street,Providence,,21,Permitting,Permitting,Pebb Capital,manual:ri-providence-na-151 CHESTNUT ST
+780,Withdrawn,250 Dyer Street,250 Dyer Street,Providence,,448,Planning,Planning,The Fane Organization (Jason Fane),manual:ri-providence-na-250 DYER ST
+798,Withdrawn,372 Plainfield St,372 Plainfield St,Providence,,4,,,ELIO OLIVERO,manual:ri-providence-108-464
+818,Withdrawn,235 West Park St,235 West Park St,Providence,,,Permitting,Permitting,Gilkania Benitez,manual:ri-providence-67-324
+824,Denied,288 Kinsley Ave,288 Kinsley Ave,Providence,175416,,,,Procaccianti Companies,manual:ri-providence-27-307
+826,Denied,215 BROADWAY,215 BROADWAY,Providence,,8,,,Merrill Friedmann,manual:ri-providence-28-260
+853,Withdrawn,382 Thayer St,382 Thayer St,Providence,,6,,,S REALTY ASSOCIATES,manual:ri-providence-10-632
+857,Withdrawn,136 Silver Lake Ave,136 Silver Lake Ave,Providence,,,Permitting,Permitting,"PalliaTech RI, LLC",manual:ri-providence-110-373
+872,Denied,175 Farmington Avenue,175 Farmington Avenue,Cranston,,1,,,,manual:ri-cranston-8-1022
+893,Denied,2055 Warwick Ave,2055 Warwick Ave,Warwick,5907,,Permitting,Permitting,Eugenia L. Illiano Revocable Trust,manual:ri-warwick-319-2_4_502
