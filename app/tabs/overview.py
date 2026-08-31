@@ -17,8 +17,7 @@ _BORDER  = "#1E2530"
 _ORANGE  = "#F5821E"
 _MUTED   = "#8A9BB0"
 _TEAL    = "#0ea5e9"
-_MONO    = "'JetBrains Mono', 'IBM Plex Mono', monospace"
-
+_UI     = "'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif"
 # Consistent chart margins
 _M_AXIS  = dict(l=0, r=4, t=6, b=40)   # charts with x-axis label
 _M_THIN  = dict(l=0, r=0, t=2, b=0)    # thin bar charts (no axis)
@@ -36,7 +35,7 @@ STATUS_COLORS = {
 
 def _section(label: str, mt: int = 14):
     st.markdown(
-        f'<p style="font-family:{_MONO};font-size:9px;font-weight:700;'
+        f'<p style="font-family:{_UI};font-size:9px;font-weight:700;'
         f'letter-spacing:0.18em;color:{_MUTED};text-transform:uppercase;'
         f'margin:{mt}px 0 4px 0">{label}</p>',
         unsafe_allow_html=True,
@@ -48,7 +47,7 @@ def _chart_base(h: int = 300) -> dict:
         height=h,
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(family=_MONO, size=10, color=_MUTED),
+        font=dict(family=_UI, size=10, color=_MUTED),
     )
 
 
@@ -57,8 +56,8 @@ def _xaxis(title: str, grid: bool = True, dtick=None, x_range=None) -> dict:
         visible=True,
         showgrid=grid,
         gridcolor=_BORDER,
-        tickfont=dict(family=_MONO, size=9, color=_MUTED),
-        title=dict(text=title, font=dict(family=_MONO, size=9, color=_MUTED), standoff=8),
+        tickfont=dict(family=_UI, size=9, color=_MUTED),
+        title=dict(text=title, font=dict(family=_UI, size=9, color=_MUTED), standoff=8),
         tickcolor=_BORDER,
         linecolor=_BORDER,
         zeroline=False,
@@ -75,7 +74,7 @@ def _yaxis(automargin: bool = True) -> dict:
     return dict(
         showgrid=False,
         automargin=automargin,
-        tickfont=dict(family=_MONO, size=9, color=_MUTED),
+        tickfont=dict(family=_UI, size=9, color=_MUTED),
         linecolor=_BORDER,
         tickcolor=_BORDER,
         fixedrange=True,
@@ -161,7 +160,7 @@ def render(df: pd.DataFrame, stats: dict):
     tiles_html = f"""<!DOCTYPE html><html><head>
 <meta charset="utf-8">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 *{{margin:0;padding:0;box-sizing:border-box}}
 body{{background:{_BG};overflow:hidden}}
 .grid{{
@@ -185,7 +184,7 @@ body{{background:{_BG};overflow:hidden}}
   background:var(--c);
 }}
 .lbl{{
-  font-family:'JetBrains Mono',monospace;
+  font-family:'Inter',-apple-system,'Segoe UI',sans-serif;
   font-size:8px;font-weight:700;
   letter-spacing:0.14em;
   color:{_MUTED};
@@ -194,7 +193,7 @@ body{{background:{_BG};overflow:hidden}}
   white-space:nowrap;
 }}
 .val{{
-  font-family:'JetBrains Mono',monospace;
+  font-family:'Inter',-apple-system,'Segoe UI',sans-serif;
   font-size:1.75rem;font-weight:700;
   color:#fff;line-height:1;white-space:nowrap;
 }}
@@ -241,7 +240,7 @@ T.forEach(t=>{{
     )
     st.markdown(
         f'<div style="display:flex;align-items:center;gap:20px;padding:8px 0 4px;'
-        f'font-family:{_MONO};font-size:9px;border-bottom:1px solid {_BORDER};'
+        f'font-family:{_UI};font-size:9px;border-bottom:1px solid {_BORDER};'
         f'margin-bottom:2px">{legend_items}</div>',
         unsafe_allow_html=True,
     )
@@ -289,7 +288,7 @@ T.forEach(t=>{{
             yaxis=dict(
                 showgrid=False,
                 automargin=True,
-                tickfont=dict(family=_MONO, size=10, color=_MUTED),
+                tickfont=dict(family=_UI, size=10, color=_MUTED),
                 linecolor=_BORDER, tickcolor=_BORDER,
                 fixedrange=True,
             ),
@@ -353,7 +352,7 @@ T.forEach(t=>{{
                 barmode="stack",
                 showlegend=bool(n_inferred),
                 legend=dict(orientation="h", yanchor="bottom", y=1.0, x=0,
-                            font=dict(family=_MONO, size=9, color=_MUTED)),
+                            font=dict(family=_UI, size=9, color=_MUTED)),
                 xaxis=_xaxis("NUMBER OF PROJECTS", dtick=1, x_range=[0, x_max_n]),
                 yaxis=dict(**_yaxis(), categoryorder="array", categoryarray=order),
             )
@@ -408,7 +407,7 @@ T.forEach(t=>{{
                 cliponaxis=False,
                 text=ac["gsf_m"].apply(lambda v: f"{v:.1f}M"),
                 textposition="outside",
-                textfont=dict(family=_MONO, size=10, color="#e2e8f0"),
+                textfont=dict(family=_UI, size=10, color="#e2e8f0"),
                 hovertemplate="<b>%{y}</b><br>%{x:.2f}M SF<extra></extra>",
             ))
             fig_ac.update_layout(
@@ -444,7 +443,7 @@ T.forEach(t=>{{
                 cliponaxis=False,
                 text=dev_sf["sf_m"].apply(lambda v: f"{v:.1f}M"),
                 textposition="outside",
-                textfont=dict(family=_MONO, size=9, color="#e2e8f0"),
+                textfont=dict(family=_UI, size=9, color="#e2e8f0"),
                 customdata=dev_sf["n_projects"],
                 hovertemplate=(
                     "<b>%{y}</b><br>"
@@ -490,7 +489,7 @@ T.forEach(t=>{{
             cliponaxis=False,
             text=status_counts["count"],
             textposition="outside",
-            textfont=dict(family=_MONO, size=9, color=_MUTED),
+            textfont=dict(family=_UI, size=9, color=_MUTED),
             hovertemplate="%{y}: %{x}<extra></extra>",
         ))
         fig_status.update_layout(
@@ -522,7 +521,7 @@ T.forEach(t=>{{
             who = cities_here[0] if len(cities_here) == 1 else "The selected market(s)"
             st.markdown(
                 f'<div style="border:1px solid {_BORDER};background:{_BG2};padding:22px 16px;'
-                f'font-family:{_MONO};font-size:11px;color:{_MUTED};line-height:1.6;height:200px;'
+                f'font-family:{_UI};font-size:11px;color:{_MUTED};line-height:1.6;height:200px;'
                 f'display:flex;align-items:center;justify-content:center;text-align:center">'
                 f'NOT APPLICABLE — {who} {"does" if len(cities_here) == 1 else "do"} not '
                 f'classify projects by review scale.</div>',
@@ -560,7 +559,7 @@ T.forEach(t=>{{
                 cliponaxis=False,
                 text=scale_counts["count"],
                 textposition="outside",
-                textfont=dict(family=_MONO, size=9, color=_MUTED),
+                textfont=dict(family=_UI, size=9, color=_MUTED),
                 hovertemplate="%{y}: %{x}<extra></extra>",
             ))
             fig_scale.update_layout(
@@ -590,7 +589,7 @@ T.forEach(t=>{{
             )
             st.markdown(
                 f'<div style="display:flex;align-items:center;gap:20px;padding:4px 0 8px;'
-                f'font-family:{_MONO};font-size:9px;flex-wrap:wrap">{scale_legend}</div>',
+                f'font-family:{_UI};font-size:9px;flex-wrap:wrap">{scale_legend}</div>',
                 unsafe_allow_html=True,
             )
 

@@ -13,8 +13,7 @@ from app.data import (STAGE_COLORS, review_scale_vocab, city_options,
 _ORANGE = "#F5821E"
 _MUTED  = "#8A9BB0"
 _BORDER = "#1E2530"
-_MONO   = "'JetBrains Mono', monospace"
-
+_UI     = "'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif"
 NEIGHBORHOOD_COORDS = {
     "Allston":                  (42.3534, -71.1326),
     "Back Bay":                 (42.3503, -71.0810),
@@ -66,7 +65,7 @@ def _delivery_year(row) -> str:
 
 def _section(label: str):
     st.markdown(
-        f'<p style="font-family:{_MONO};font-size:9px;font-weight:700;'
+        f'<p style="font-family:{_UI};font-size:9px;font-weight:700;'
         f'letter-spacing:0.18em;color:{_MUTED};text-transform:uppercase;'
         f'margin:16px 0 8px 0">{label}</p>',
         unsafe_allow_html=True,
@@ -192,7 +191,7 @@ def render(df: pd.DataFrame):
 
     _section("MINIMUM PROJECT SIZE")
     st.markdown(
-        f'<p style="font-family:{_MONO};font-size:11px;font-weight:700;'
+        f'<p style="font-family:{_UI};font-size:11px;font-weight:700;'
         f'letter-spacing:0.08em;color:#e2e8f0;margin:0 0 2px 0">{sf_readout}</p>',
         unsafe_allow_html=True,
     )
@@ -243,7 +242,7 @@ def render(df: pd.DataFrame):
         filtered = filtered[has_sf]
 
     st.markdown(
-        f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 10px">'
+        f'<p style="font-family:{_UI};font-size:10px;color:{_MUTED};margin:4px 0 10px">'
         f'<span style="color:#e2e8f0;font-weight:700">{len(filtered):,}</span> OF '
         f'{len(df):,} PROJECTS MAPPED</p>',
         unsafe_allow_html=True,
@@ -302,7 +301,7 @@ def render(df: pd.DataFrame):
 
         popup_html = f"""
         <div style='min-width:220px;background:#141720;padding:12px 14px;
-                    font-family:monospace;border-left:3px solid {color}'>
+                    font-family:-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;border-left:3px solid {color}'>
           <div style='font-size:12px;font-weight:700;color:#fff;margin-bottom:6px;
                       line-height:1.3'>{row['name']}</div>
           <div style='font-size:10px;color:{_MUTED};margin-bottom:4px'>{row['address']}{city_s}{approx_s}</div>
@@ -319,7 +318,7 @@ def render(df: pd.DataFrame):
           {bpda_link}
         </div>"""
 
-        tooltip_html = f'<span style="font-family:monospace;font-size:11px">{row["name"]}{approx_s}</span>'
+        tooltip_html = f'<span style="font-family:-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-size:11px">{row["name"]}{approx_s}</span>'
 
         # One shape for every project in every market. Shape used to encode
         # city -- circle for Boston, diamond for Cambridge -- which only ever
@@ -349,7 +348,7 @@ def render(df: pd.DataFrame):
         f'<span style="display:inline-flex;width:12px;justify-content:center">'
         f'<span style="width:8px;height:8px;transform:rotate(45deg);'
         f'background:{color}"></span></span>'
-        f'<span style="font-family:monospace;font-size:10px;letter-spacing:0.08em;'
+        f'<span style="font-family:-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:0.08em;'
         f'color:#e2e8f0;text-transform:uppercase">{label}</span>'
         f'</div>'
         for label, color in list(STAGE_COLORS.items()) + [("Other / Unknown", _MUTED)]
@@ -363,10 +362,10 @@ def render(df: pd.DataFrame):
         "z-index:9999;"
         "box-shadow:0 4px 20px rgba(0,0,0,0.7);"
         "'>"
-        f"<div style='font-family:monospace;font-size:9px;font-weight:700;letter-spacing:0.18em;"
+        f"<div style='font-family:-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:0.18em;"
         f"color:{_MUTED};text-transform:uppercase;margin-bottom:8px'>STAGE</div>"
         f"{legend_rows}"
-        f"<div style='font-family:monospace;font-size:9px;color:{_MUTED};margin-top:10px;"
+        f"<div style='font-family:-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-size:9px;color:{_MUTED};margin-top:10px;"
         f"padding-top:8px;border-top:1px solid {_BORDER}'>"
         f"◆ FILLED = MAPPED ADDRESS<br>◇ HOLLOW, DASHED = APPROXIMATE LOCATION</div>"
         "</div>"

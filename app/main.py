@@ -55,7 +55,7 @@ st.set_page_config(
 
 _CSS = """
 <style>
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 html, body,
 [data-testid="stAppViewContainer"],
@@ -87,7 +87,7 @@ button[data-baseweb="tab"] {
 }
 button[data-baseweb="tab"] p,
 button[data-baseweb="tab"] div {
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 11px !important;
   font-weight: 600 !important;
   letter-spacing: 0.14em !important;
@@ -107,7 +107,7 @@ div[data-baseweb="tab-border"] { display: none !important; }
 /* ── Inputs & selects ────────────────────────────────── */
 [data-testid="stSelectbox"] label,
 [data-testid="stTextInput"] label {
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 10px !important;
   font-weight: 700 !important;
   letter-spacing: 0.14em !important;
@@ -120,7 +120,7 @@ div[data-baseweb="tab-border"] { display: none !important; }
   border: 1px solid #1E2530 !important;
   border-radius: 0 !important;
   color: #e2e8f0 !important;
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 12px !important;
 }
 
@@ -131,7 +131,7 @@ div[data-baseweb="tab-border"] { display: none !important; }
   border: 1px solid #1E2530 !important;
   border-radius: 0 !important;
   color: #8A9BB0 !important;
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 10px !important;
   letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
@@ -151,7 +151,7 @@ div[data-baseweb="tab-border"] { display: none !important; }
   border: 1px solid #1E2530 !important;
   border-radius: 0 !important;
   color: #8A9BB0 !important;
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 10px !important;
   letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
@@ -176,7 +176,7 @@ details[data-testid="stExpander"] {
   background: #0d0f12 !important;
 }
 details summary {
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 10px !important;
   font-weight: 700 !important;
   letter-spacing: 0.12em !important;
@@ -186,7 +186,7 @@ details summary {
 
 /* ── Caption / small ─────────────────────────────────── */
 [data-testid="stCaptionContainer"] p {
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 11px !important;
   color: #8A9BB0 !important;
 }
@@ -217,12 +217,12 @@ hr { border-color: #1E2530 !important; margin: 12px 0 !important; }
   border-right: 1px solid #1E2530 !important;
 }
 [data-testid="stSidebar"] [data-testid="stMetricValue"] {
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 1.4rem !important;
   color: #ffffff !important;
 }
 [data-testid="stSidebar"] [data-testid="stMetricLabel"] {
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 9px !important;
   letter-spacing: 0.14em !important;
   text-transform: uppercase !important;
@@ -236,11 +236,11 @@ def _render_header():
     html = """<!DOCTYPE html><html><head>
 <meta charset="utf-8">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 body{
   background:#0d0f12;
-  font-family:'JetBrains Mono',monospace;
+  font-family:'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif;
   padding:15px 0 12px;
   border-bottom:1px solid #1E2530;
   overflow:hidden;
@@ -300,7 +300,7 @@ def main():
 
     with st.sidebar:
         st.markdown(
-            '<p style="font-family:\'JetBrains Mono\',monospace;font-size:10px;'
+            '<p style="font-family:\'Inter\',-apple-system,sans-serif;font-size:10px;'
             'letter-spacing:0.2em;color:#8A9BB0;text-transform:uppercase;margin-bottom:4px">'
             'BOS CRE TERMINAL</p>',
             unsafe_allow_html=True,
@@ -337,7 +337,7 @@ def main():
                     last = runs[-1]
                     ts = last["run_time"][:16].replace("T", " ")
                     st.markdown(
-                        f'<p style="font-family:\'JetBrains Mono\',monospace;font-size:9px;'
+                        f'<p style="font-family:\'Inter\',-apple-system,sans-serif;font-size:9px;'
                         f'letter-spacing:0.1em;color:#8A9BB0;text-transform:uppercase;margin-bottom:6px">'
                         f'LAST SCRAPE: {ts} UTC</p>',
                         unsafe_allow_html=True,
@@ -346,7 +346,7 @@ def main():
                         status = "✓" if not src.get("error") else "✗"
                         color = "#22c55e" if not src.get("error") else "#ef4444"
                         st.markdown(
-                            f'<div style="font-family:\'JetBrains Mono\',monospace;font-size:9px;'
+                            f'<div style="font-family:\'Inter\',-apple-system,sans-serif;font-size:9px;'
                             f'display:flex;justify-content:space-between;padding:2px 0;'
                             f'border-bottom:1px solid #1E2530;color:#8A9BB0">'
                             f'<span>{src["name"][:18]}</span>'

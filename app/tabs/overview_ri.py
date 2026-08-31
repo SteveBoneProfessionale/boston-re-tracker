@@ -35,8 +35,7 @@ _BORDER = "#1E2530"
 _ORANGE = "#F5821E"
 _MUTED = "#8A9BB0"
 _TEXT = "#e2e8f0"
-_MONO = "'JetBrains Mono', 'IBM Plex Mono', monospace"
-
+_UI     = "'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif"
 RI_CITIES = ("Providence", "Warwick", "Cranston", "Pawtucket", "Newport")
 
 # Asset-class palette. Distinct hues, since these stack and sit side by side.
@@ -51,9 +50,9 @@ AC_COLORS = {
 def _section(label, mt=14, sub=None):
     st.markdown(
         f'<div style="margin-top:{mt}px;margin-bottom:6px">'
-        f'<span style="font-family:{_MONO};font-size:11px;letter-spacing:.14em;'
+        f'<span style="font-family:{_UI};font-size:11px;letter-spacing:.14em;'
         f'color:{_TEXT};font-weight:700">{label}</span>'
-        + (f'<span style="font-family:{_MONO};font-size:10px;color:{_MUTED};'
+        + (f'<span style="font-family:{_UI};font-size:10px;color:{_MUTED};'
            f'margin-left:10px">{sub}</span>' if sub else "")
         + "</div>", unsafe_allow_html=True)
 
@@ -62,10 +61,10 @@ def _base(h=300, legend=False):
     return dict(
         height=h, paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
         margin=dict(l=8, r=14, t=8, b=8),
-        font=dict(family=_MONO, size=10, color=_MUTED),
+        font=dict(family=_UI, size=10, color=_MUTED),
         showlegend=legend,
         legend=dict(orientation="h", y=-0.16, font=dict(size=9), bgcolor="rgba(0,0,0,0)"),
-        hoverlabel=dict(font=dict(family=_MONO, size=11)),
+        hoverlabel=dict(font=dict(family=_UI, size=11)),
     )
 
 
@@ -79,14 +78,14 @@ def _note(fig, text):
     fig.add_annotation(
         text=text, xref="paper", yref="paper", x=1, y=1.02,
         xanchor="right", yanchor="bottom", showarrow=False,
-        font=dict(family=_MONO, size=9, color=_MUTED))
+        font=dict(family=_UI, size=9, color=_MUTED))
     return fig
 
 
 def _empty(msg, h=240):
     st.markdown(
         f'<div style="border:1px solid {_BORDER};background:{_BG2};padding:20px;'
-        f'font-family:{_MONO};font-size:11px;color:{_MUTED};height:{h}px;display:flex;'
+        f'font-family:{_UI};font-size:11px;color:{_MUTED};height:{h}px;display:flex;'
         f'align-items:center;justify-content:center;text-align:center">{msg}</div>',
         unsafe_allow_html=True)
 
@@ -94,10 +93,10 @@ def _empty(msg, h=240):
 def _tile(label, value, sub, color="#ffffff"):
     return (
         f'<div style="border:1px solid {_BORDER};background:{_BG2};padding:12px 14px;flex:1">'
-        f'<div style="font-family:{_MONO};font-size:10px;letter-spacing:.12em;color:{_MUTED}">{label}</div>'
-        f'<div style="font-family:{_MONO};font-size:26px;font-weight:700;color:{color};'
+        f'<div style="font-family:{_UI};font-size:10px;letter-spacing:.12em;color:{_MUTED}">{label}</div>'
+        f'<div style="font-family:{_UI};font-size:26px;font-weight:700;color:{color};'
         f'line-height:1.25">{value}</div>'
-        f'<div style="font-family:{_MONO};font-size:9.5px;color:{_MUTED};line-height:1.45">{sub}</div>'
+        f'<div style="font-family:{_UI};font-size:9.5px;color:{_MUTED};line-height:1.45">{sub}</div>'
         f'</div>')
 
 

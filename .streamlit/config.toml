@@ -4,4 +4,14 @@ backgroundColor = "#0d0f12"
 secondaryBackgroundColor = "#141720"
 primaryColor = "#F5821E"
 textColor = "#e2e8f0"
-font = "monospace"
+
+# PROPORTIONAL FOR PROSE, MONOSPACE ONLY FOR THINGS THAT ARE READ CHARACTER BY
+# CHARACTER. The whole app previously ran in JetBrains Mono, which made every
+# label, caption and coverage note read like console output. Inter carries the
+# UI; IBM Plex Mono is kept as codeFont so st.code and st.text -- which is where
+# parcel ids, registry citations and coordinates are rendered -- stay fixed
+# width, because those are strings you compare digit by digit.
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap, sans-serif"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap, sans-serif"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap, monospace"
+baseFontSize = 14

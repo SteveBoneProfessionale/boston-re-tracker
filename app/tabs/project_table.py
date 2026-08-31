@@ -55,8 +55,7 @@ _BG2    = "#141720"
 _BORDER = "#1E2530"
 _ORANGE = "#F5821E"
 _MUTED  = "#8A9BB0"
-_MONO   = "'JetBrains Mono', 'IBM Plex Mono', monospace"
-
+_UI     = "'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif"
 STATUS_COLORS = {
     "Under Review":       _ORANGE,
     "Board Approved":     "#22c55e",
@@ -89,7 +88,7 @@ _BAD_DEVS = {"Unknown - review needed", "Unknown", "UNKNOWN",
 
 def _section(label: str):
     st.markdown(
-        f'<p style="font-family:{_MONO};font-size:9px;font-weight:700;'
+        f'<p style="font-family:{_UI};font-size:9px;font-weight:700;'
         f'letter-spacing:0.18em;color:{_MUTED};text-transform:uppercase;'
         f'margin:16px 0 8px 0">{label}</p>',
         unsafe_allow_html=True,
@@ -159,13 +158,23 @@ def _dev_display(row) -> str:
 # chosen -- each column is sized to the longest string that will actually
 # appear in it, its header included.
 #
-# The measurement is arithmetic rather than a guess because the theme font is
-# monospace (.streamlit/config.toml), and a monospace face advances the same
-# 0.6em for every character. The grid draws cells at fontSizes.sm = 14px with
-# 8px of padding either side, and the header row additionally carries the
-# sort/menu icon, which is why a header costs more than the same text in a
-# cell -- NEIGHBORHOOD and CIVIL ENGINEER were clipped headers over columns
-# whose values fitted.
+# The measurement is arithmetic, and it USED TO BE EXACT: the theme font was
+# monospace and a monospace face advances the same 0.6em for every character.
+# The theme is now Inter, which is proportional -- lowercase runs nearer 0.5em,
+# digits and capitals nearer 0.6em -- so the same arithmetic is an UPPER BOUND
+# rather than an identity. The per-character figure is deliberately held at
+# 0.6em, the wide end of Inter's range and the end this table actually lives at,
+# since its columns are mostly capitals, digits and currency.
+#
+# The asymmetry is the point: a column with air in it costs nothing, while a
+# column a few pixels too narrow ellipsises its value and the reader never
+# learns what was cut. That was the original bug here, and over-estimating is
+# how it stays fixed.
+#
+# The grid draws cells at fontSizes.sm = 14px with 8px of padding either side,
+# and the header row additionally carries the sort/menu icon, which is why a
+# header costs more than the same text in a cell -- NEIGHBORHOOD and CIVIL
+# ENGINEER were clipped headers over columns whose values fitted.
 _CHAR_PX = 14.0 * 0.6
 _CELL_PAD = 16          # cellHorizontalPadding, both sides
 _HEADER_ICON = 18       # headerIconSize, 1.125rem
@@ -173,7 +182,9 @@ _MIN_COL_PX = 44
 # The formula lands a long value within a pixel of its column edge, which is
 # too close to trust: the grid rounds its own text measurement, and the 8px
 # padding read out of the bundle is one theme change away from being 10.
-_SLACK_PX = 8
+# WIDENED FROM 8 WITH THE MOVE TO A PROPORTIONAL FACE, which turned the
+# character measurement from exact into approximate.
+_SLACK_PX = 14
 
 # Fifteen columns at their full measured width come to 4,270px against the
 # full result set, which fits no window. Both ways of forcing a fit lose
@@ -186,7 +197,7 @@ _SLACK_PX = 8
 # column -- and corresponds to a 1664px window in Streamlit's wide layout.
 _LAYOUT_BUDGET_PX = 1600
 
-# The provenance marks (▣ ◈ ● ✲ ≠ ⋯ —) are not in a monospace face and are
+# The provenance marks (▣ ◈ ● ✲ ≠ ⋯ —) are not in the UI face either and are
 # drawn from a fallback at roughly one em, so they cost more than a character.
 _WIDE_CHAR = 1.6
 
@@ -556,7 +567,7 @@ def render(df: pd.DataFrame):
 
     cnt_col, exp_col = st.columns([5, 1])
     cnt_col.markdown(
-        f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 8px">'
+        f'<p style="font-family:{_UI};font-size:10px;color:{_MUTED};margin:4px 0 8px">'
         f'<span style="color:#e2e8f0;font-weight:700">{len(filtered)}</span> PROJECTS'
         f'&nbsp;&nbsp;·&nbsp;&nbsp;{len(df)} TOTAL'
         + "".join(
@@ -651,7 +662,7 @@ def render(df: pd.DataFrame):
     _total_px = sum(widths.values())
     if _total_px > _LAYOUT_BUDGET_PX:
         st.markdown(
-            f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 0">'
+            f'<p style="font-family:{_UI};font-size:10px;color:{_MUTED};margin:4px 0 0">'
             f'FULL-WIDTH COLUMNS TOTAL {_total_px:,}PX — WIDER THAN THE WINDOW. '
             f'THE TABLE SCROLLS SIDEWAYS RATHER THAN SHRINKING; PROJECT STAYS PINNED. '
             f'NARROW THE FILTERS TO NARROW THE TABLE.</p>',
@@ -728,7 +739,7 @@ def _lifecycle_bar(status: str) -> str:
             connector +
             f'<div style="display:flex;flex-direction:column;align-items:center;gap:4px">'
             f'<div style="width:10px;height:10px;border-radius:50%;{dot}"></div>'
-            f'<div style="font-family:{_MONO};font-size:7.5px;font-weight:700;'
+            f'<div style="font-family:{_UI};font-size:7.5px;font-weight:700;'
             f'letter-spacing:0.1em;color:{lbl_c};text-align:center;white-space:nowrap">{stage}</div>'
             f'</div>'
         )
@@ -746,9 +757,9 @@ def _kv(label: str, value) -> str:
         return ""
     return (
         f'<div style="margin-bottom:10px">'
-        f'<div style="font-family:{_MONO};font-size:8.5px;font-weight:700;'
+        f'<div style="font-family:{_UI};font-size:8.5px;font-weight:700;'
         f'letter-spacing:0.12em;color:{_MUTED};text-transform:uppercase;margin-bottom:3px">{label}</div>'
-        f'<div style="font-family:{_MONO};font-size:12px;color:#e2e8f0;font-weight:500">{value}</div>'
+        f'<div style="font-family:{_UI};font-size:12px;color:#e2e8f0;font-weight:500">{value}</div>'
         f'</div>'
     )
 
@@ -765,18 +776,18 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
         f'<div style="border-left:3px solid {_ORANGE};padding:12px 16px 10px;'
         f'background:{_BG2};border-top:1px solid {_BORDER};border-right:1px solid {_BORDER};'
         f'border-bottom:1px solid {_BORDER};margin-bottom:0">'
-        f'<div style="font-family:{_MONO};font-size:9px;font-weight:700;'
+        f'<div style="font-family:{_UI};font-size:9px;font-weight:700;'
         f'letter-spacing:0.14em;color:{_MUTED};text-transform:uppercase;margin-bottom:6px">'
         f'PROJECT DETAIL</div>'
         f'<div style="font-family:Inter,sans-serif;font-size:1.1rem;font-weight:700;'
         f'color:#ffffff;margin-bottom:8px;line-height:1.3">{p["name"]}</div>'
         f'<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">'
-        f'<span style="font-family:{_MONO};font-size:9px;font-weight:700;'
+        f'<span style="font-family:{_UI};font-size:9px;font-weight:700;'
         f'letter-spacing:0.1em;color:{status_color};border:1px solid {status_color};'
         f'padding:3px 8px">{status_short}</span>'
-        f'<span style="font-family:{_MONO};font-size:9px;color:{_MUTED}">'
+        f'<span style="font-family:{_UI};font-size:9px;color:{_MUTED}">'
         f'{p["neighborhood"]}</span>'
-        f'{"&nbsp;·&nbsp;<span style=\"font-family:" + _MONO + ";font-size:9px;color:" + _MUTED + "\">" + p["city"] + "</span>" if p.get("city") and p["city"] != "Boston" else ""}'
+        f'{"&nbsp;·&nbsp;<span style=\"font-family:" + _UI + ";font-size:9px;color:" + _MUTED + "\">" + p["city"] + "</span>" if p.get("city") and p["city"] != "Boston" else ""}'
         f'</div>'
         f'</div>',
         unsafe_allow_html=True,
@@ -790,7 +801,7 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
         heard = p.get("stage_heard") or p.get("stage") or "—"
         st.markdown(
             f'<div style="border:1px solid #f59e0b;background:rgba(245,158,11,0.08);'
-            f'padding:10px 16px;margin:10px 0;font-family:{_MONO};font-size:11px;'
+            f'padding:10px 16px;margin:10px 0;font-family:{_UI};font-size:11px;'
             f'color:#f59e0b;line-height:1.5">'
             f'⚠ STAGE NOT CONFIRMED — this project was heard at <b>{heard}</b> per the '
             f'meeting agenda, but no minutes recording the outcome are available, so the '
@@ -802,7 +813,7 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
     if p.get("conditional_alternative"):
         st.markdown(
             f'<div style="border:1px solid #f59e0b;background:rgba(245,158,11,0.08);'
-            f'padding:10px 16px;margin:10px 0;font-family:{_MONO};font-size:11px;'
+            f'padding:10px 16px;margin:10px 0;font-family:{_UI};font-size:11px;'
             f'color:#f59e0b;line-height:1.5">'
             f'⚠ COMPETING PLAN — this project shares a special permit base number with '
             f'other current-edition entries under different amendments. It represents one '
@@ -813,7 +824,7 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
     if p.get("spans_municipalities"):
         st.markdown(
             f'<div style="border:1px solid {_MUTED};background:rgba(138,155,176,0.06);'
-            f'padding:8px 16px;margin:6px 0;font-family:{_MONO};font-size:10px;'
+            f'padding:8px 16px;margin:6px 0;font-family:{_UI};font-size:10px;'
             f'color:{_MUTED}">↔ Spans more than one municipality — see description/notes.</div>',
             unsafe_allow_html=True,
         )
@@ -825,7 +836,7 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
         stage_color = STAGE_COLORS.get(stage, _MUTED)
         st.markdown(
             f'<div style="margin:12px 0 16px;padding:10px 16px;background:{_BG2};'
-            f'border:1px solid {_BORDER};font-family:{_MONO};font-size:10px;'
+            f'border:1px solid {_BORDER};font-family:{_UI};font-size:10px;'
             f'display:flex;align-items:center;gap:10px">'
             f'<span style="color:{_MUTED};letter-spacing:0.1em">STAGE</span>'
             f'<span style="color:{stage_color};font-weight:700;letter-spacing:0.08em">{stage.upper()}</span>'

@@ -36,8 +36,10 @@ _BG2    = "#141720"
 _BORDER = "#1E2530"
 _ORANGE = "#F5821E"
 _MUTED  = "#8A9BB0"
-_MONO   = "'JetBrains Mono', 'IBM Plex Mono', monospace"
-
+_UI     = "'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif"
+# Monospace is kept ONLY for strings read character by character --
+# parcel ids, registry citations, coordinates -- never for prose.
+_CODE   = "'IBM Plex Mono', ui-monospace, monospace"
 # One mark per transaction type, so a stake never reads as a building.
 TYPE_MARK = {
     "asset_sale":       ("●", "ASSET",   "#22c55e"),
@@ -60,9 +62,18 @@ SOURCE_MARK = {
     "broker_release":    ("◇", "PRESS", "#F5821E"),
 }
 
-# Same sizing arithmetic as the screener: monospace theme font, 14px cells,
-# 8px padding each side, plus the header's sort icon.
-_CHAR_PX, _CELL_PAD, _HEADER_ICON, _SLACK, _MIN = 14.0 * 0.6, 16, 18, 8, 44
+# Same sizing arithmetic as the screener: 14px cells, 8px padding each side,
+# plus the header's sort icon.
+#
+# THE MEASUREMENT IS NOW AN UPPER BOUND, NOT AN IDENTITY. It used to be exact,
+# because the theme font was monospace and every character advanced the same
+# 0.6em. Inter is proportional: lowercase runs nearer 0.5em, digits and capitals
+# nearer 0.6em. This table is mostly capitals, digits and currency, which is the
+# wide end of that range, so the per-character figure is held at 0.6em and the
+# slack is widened rather than tightened. The failure that matters is a clipped
+# value, not a column with air in it -- the grid ellipsises anything too wide
+# for its column and the reader never learns what was cut.
+_CHAR_PX, _CELL_PAD, _HEADER_ICON, _SLACK, _MIN = 14.0 * 0.6, 16, 18, 14, 44
 _WIDE = 1.6
 
 
@@ -157,7 +168,7 @@ def _rankings(f: pd.DataFrame):
         span = (f"{sd.min():%b %Y} to {sd.max():%b %Y}" if len(sd) else "n/a")
         recent = int((sd >= "2023-01-01").sum()) if len(sd) else 0
         st.markdown(
-            f'<div style="font-family:{_MONO};font-size:10px;line-height:1.6;'
+            f'<div style="font-family:{_UI};font-size:10px;line-height:1.6;'
             f'color:{_MUTED};border-left:2px solid {_ORANGE};padding:6px 10px;'
             f'margin:6px 0;background:{_BG2}">'
             f'<b style="color:#e2e8f0">RESOLUTION</b> {n_res} of {total_rows} rows '
@@ -202,7 +213,7 @@ def _rankings(f: pd.DataFrame):
 
 def _section(label: str):
     st.markdown(
-        f'<p style="font-family:{_MONO};font-size:9px;font-weight:700;'
+        f'<p style="font-family:{_UI};font-size:9px;font-weight:700;'
         f'letter-spacing:0.18em;color:{_MUTED};text-transform:uppercase;'
         f'margin:16px 0 8px 0">{label}</p>', unsafe_allow_html=True)
 
@@ -331,6 +342,26 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
+def _fixed(pairs):
+    """Label/value lines in a fixed-width face.
+
+    Used only for identifiers -- record entities, registry citations, parcel
+    ids -- where the reader is matching characters against another document and
+    the label column has to line up. Everything else in this app is
+    proportional.
+    """
+    import html
+    rows = "".join(
+        f'<div style="display:flex;gap:10px;padding:1px 0">'
+        f'<span style="color:{_MUTED};min-width:72px">{html.escape(str(k))}</span>'
+        f'<span style="color:#e2e8f0;word-break:break-word">'
+        f'{html.escape(str(v))}</span></div>'
+        for k, v in pairs)
+    st.markdown(
+        f'<div style="font-family:{_CODE};font-size:11.5px;line-height:1.7">'
+        f'{rows}</div>', unsafe_allow_html=True)
+
+
 def _row_detail(f: pd.DataFrame, event):
     """Everything the default table no longer carries, for the selected row.
 
@@ -358,23 +389,30 @@ def _row_detail(f: pd.DataFrame, event):
                     f"{', ' + r['submarket'] if r.get('submarket') else ''}")
         st.caption("RECORD ENTITIES, verbatim and never modified. These are the "
                    "key that ties the row to its deed.")
-        st.text(f"grantor  {r.get('seller') or '—'}")
-        st.text(f"grantee  {r.get('buyer') or '—'}")
         bk, pg = r.get("deed_book") or "", r.get("deed_page") or ""
         cite = f"{bk}/{pg}".strip("/") or "—"
         if r.get("is_registered_land"):
             cite += f"  ·  registered land, cert {r.get('certificate_number') or '—'}"
-        st.text(f"book/pg  {cite}")
-        st.text(f"parcel   {r.get('parcel_id') or '—'}")
+        # THE ONE PLACE MONOSPACE IS STILL CORRECT. Everything here is a string
+        # read character by character rather than a word read at a glance -- the
+        # grantor and grantee exactly as they appear on the deed, the registry
+        # book and page, the parcel identifier. Those are compared digit by
+        # digit against a registry, and the label column only lines up in a face
+        # where every character advances the same width.
+        _fixed([("grantor", r.get("seller") or "—"),
+                ("grantee", r.get("buyer") or "—"),
+                ("book/pg", cite),
+                ("parcel", r.get("parcel_id") or "—")])
     with b:
         st.caption("The assessor's own code, kept so the normalised asset "
                    "class stays traceable.")
-        st.text(f"raw type {r.get('property_type') or '—'}")
         pct = r.get("pct_acquired")
         iv = r.get("implied_valuation")
-        st.text(f"stake    {f'{pct:.0f}%' if pct == pct and pct else '—'}")
-        st.text(f"implied  {f'${iv:,.0f}' if iv == iv and iv else '—'}")
-        st.text(f"source   {r.get('source') or '—'}  {r.get('source_date') or ''}")
+        _fixed([("raw type", r.get("property_type") or "—"),
+                ("stake", f"{pct:.0f}%" if pct == pct and pct else "—"),
+                ("implied", f"${iv:,.0f}" if iv == iv and iv else "—"),
+                ("source", f"{r.get('source') or '—'}  "
+                           f"{r.get('source_date') or ''}".strip())])
         if r.get("source_url"):
             st.markdown(f"[source link]({r['source_url']})")
 
@@ -438,7 +476,7 @@ def render(projects=None):
     n26 = len(y26)
     n26_priced = int(y26["price"].notna().sum())
     st.markdown(
-        f'<div style="font-family:{_MONO};font-size:10px;line-height:1.6;color:{_MUTED};'
+        f'<div style="font-family:{_UI};font-size:10px;line-height:1.6;color:{_MUTED};'
         f'border-left:2px solid {_ORANGE};padding:8px 12px;margin:10px 0;background:{_BG2}">'
         f'<b style="color:#e2e8f0">COVERAGE — READ THIS BEFORE ANY TOTAL</b><br>'
         f'<b style="color:#e2e8f0">There is no deed feed.</b> masslandrecords sits behind an '
@@ -537,7 +575,7 @@ def render(projects=None):
 
     vol = int(f["price"].fillna(0).sum())
     st.markdown(
-        f'<p style="font-family:{_MONO};font-size:10px;color:{_MUTED};margin:4px 0 8px">'
+        f'<p style="font-family:{_UI};font-size:10px;color:{_MUTED};margin:4px 0 8px">'
         f'<span style="color:#e2e8f0;font-weight:700">{len(f)}</span> TRANSACTIONS'
         f'&nbsp;&nbsp;·&nbsp;&nbsp;<span style="color:#e2e8f0;font-weight:700">'
         f'${vol/1e9:.2f}B</span> PAID'

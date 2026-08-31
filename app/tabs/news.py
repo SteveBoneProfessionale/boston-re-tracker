@@ -68,7 +68,7 @@ def render():
 <html><head>
 <meta charset="utf-8">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{
   background:#0d0f12;
@@ -90,11 +90,11 @@ body{{
   position:relative;z-index:100;
 }}
 .fg{{display:flex;flex-direction:column;gap:4px}}
-.fl{{font-family:'JetBrains Mono',monospace;font-size:8.5px;font-weight:700;
+.fl{{font-family:'Inter',-apple-system,sans-serif;font-size:8.5px;font-weight:700;
      letter-spacing:0.14em;color:#8A9BB0;text-transform:uppercase}}
 .fb{{
   background:#141720;border:1px solid #1E2530;color:#e2e8f0;
-  padding:0 10px;height:32px;font-family:'JetBrains Mono',monospace;
+  padding:0 10px;height:32px;font-family:'Inter',-apple-system,sans-serif;
   font-size:11px;cursor:pointer;display:flex;align-items:center;gap:6px;
   min-width:120px;justify-content:space-between;white-space:nowrap;
   transition:border-color 0.1s;
@@ -125,36 +125,36 @@ body{{
   padding:7px 11px 6px;border-bottom:1px solid #1E2530;
   position:sticky;top:0;background:#141720;
 }}
-.dp-title{{font-family:'JetBrains Mono',monospace;font-size:8px;font-weight:700;
+.dp-title{{font-family:'Inter',-apple-system,sans-serif;font-size:8px;font-weight:700;
            letter-spacing:0.1em;color:#8A9BB0;text-transform:uppercase}}
-.dp-clear{{font-family:'JetBrains Mono',monospace;font-size:10px;color:#F5821E;
+.dp-clear{{font-family:'Inter',-apple-system,sans-serif;font-size:10px;color:#F5821E;
            cursor:pointer;border:none;background:none;padding:0;font-weight:600}}
 .dp-clear:hover{{color:#ffb06e}}
 .ci{{
   display:flex;align-items:center;gap:8px;padding:7px 11px;
   cursor:pointer;font-size:11px;color:#cbd5e1;user-select:none;
-  font-family:'JetBrains Mono',monospace;
+  font-family:'Inter',-apple-system,sans-serif;
 }}
 .ci:hover{{background:rgba(245,130,30,0.06)}}
 .ci input[type=checkbox]{{accent-color:#F5821E;width:13px;height:13px;cursor:pointer;flex-shrink:0}}
 .mdot{{width:7px;height:7px;border-radius:50%;flex-shrink:0}}
 .lo{{
   padding:8px 11px;cursor:pointer;font-size:11px;color:#cbd5e1;
-  font-family:'JetBrains Mono',monospace;
+  font-family:'Inter',-apple-system,sans-serif;
 }}
 .lo:hover{{background:rgba(245,130,30,0.06)}}
 .lo.sel{{color:#F5821E;font-weight:700}}
 
 .si{{
   background:#141720;border:1px solid #1E2530;color:#e2e8f0;
-  padding:0 10px;height:32px;font-family:'JetBrains Mono',monospace;
+  padding:0 10px;height:32px;font-family:'Inter',-apple-system,sans-serif;
   font-size:11px;outline:none;flex:1;min-width:160px;
   transition:border-color 0.1s;
 }}
 .si:focus{{border-color:#F5821E}}
 .di{{
   background:#141720;border:1px solid #1E2530;color:#e2e8f0;
-  padding:0 10px;height:32px;font-family:'JetBrains Mono',monospace;
+  padding:0 10px;height:32px;font-family:'Inter',-apple-system,sans-serif;
   font-size:11px;outline:none;width:130px;
   transition:border-color 0.1s;
 }}
@@ -169,10 +169,10 @@ body{{
   border-bottom:1px solid #1E2530;
   margin-bottom:0;flex-shrink:0;flex-wrap:wrap;
 }}
-.st{{font-family:'JetBrains Mono',monospace;font-size:10px;color:#8A9BB0;letter-spacing:0.04em}}
+.st{{font-family:'Inter',-apple-system,sans-serif;font-size:10px;color:#8A9BB0;letter-spacing:0.04em}}
 .st strong{{color:#e2e8f0;font-weight:700;margin-right:4px}}
 #ca{{
-  margin-left:auto;font-family:'JetBrains Mono',monospace;
+  margin-left:auto;font-family:'Inter',-apple-system,sans-serif;
   font-size:10px;color:#F5821E;cursor:pointer;
   border:none;background:none;padding:0;display:none;letter-spacing:0.06em;
 }}
@@ -196,13 +196,13 @@ body{{
   padding:9px 12px;min-height:40px;
 }}
 .ts{{
-  font-family:'JetBrains Mono',monospace;font-size:10px;
+  font-family:'Inter',-apple-system,sans-serif;font-size:10px;
   color:#475569;white-space:nowrap;width:84px;flex-shrink:0;
   letter-spacing:0.02em;
 }}
 .sep{{color:#1E2530;margin:0 8px;font-size:12px;flex-shrink:0}}
 .sbadge{{
-  font-family:'JetBrains Mono',monospace;
+  font-family:'Inter',-apple-system,sans-serif;
   font-size:8.5px;font-weight:700;padding:2px 6px;
   color:#000;letter-spacing:0.08em;white-space:nowrap;
   flex-shrink:0;width:76px;text-align:center;overflow:hidden;
@@ -214,13 +214,13 @@ body{{
   white-space:nowrap;padding:0 12px;line-height:1.3;
 }}
 .ptag{{
-  font-family:'JetBrains Mono',monospace;font-size:8.5px;font-weight:700;
+  font-family:'Inter',-apple-system,sans-serif;font-size:8.5px;font-weight:700;
   padding:2px 7px;background:rgba(245,130,30,0.1);color:#F5821E;
   border:1px solid rgba(245,130,30,0.25);white-space:nowrap;
   flex-shrink:0;max-width:180px;overflow:hidden;text-overflow:ellipsis;
 }}
 .arrow{{
-  font-family:'JetBrains Mono',monospace;font-size:9px;color:#1E2530;
+  font-family:'Inter',-apple-system,sans-serif;font-size:9px;color:#1E2530;
   margin-left:8px;flex-shrink:0;transition:transform 0.12s,color 0.12s;
 }}
 .row.open .arrow{{transform:rotate(90deg);color:#F5821E}}
@@ -238,20 +238,20 @@ body{{
 }}
 .topics-wrap{{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}}
 .topic-badge{{
-  font-family:'JetBrains Mono',monospace;font-size:8px;font-weight:700;
+  font-family:'Inter',-apple-system,sans-serif;font-size:8px;font-weight:700;
   letter-spacing:0.1em;padding:2px 7px;
   background:rgba(255,255,255,0.04);color:#8A9BB0;
   border:1px solid #1E2530;text-transform:uppercase;
 }}
 .readlink{{
-  font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;
+  font-family:'Inter',-apple-system,sans-serif;font-size:10px;font-weight:700;
   letter-spacing:0.1em;color:#F5821E;text-decoration:none;
   border:1px solid rgba(245,130,30,0.4);padding:4px 12px;
   display:inline-block;transition:background 0.1s;
 }}
 .readlink:hover{{background:rgba(245,130,30,0.1)}}
 .empty{{color:#8A9BB0;padding:48px 0;text-align:center;
-        font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.1em}}
+        font-family:'Inter',-apple-system,sans-serif;font-size:11px;letter-spacing:0.1em}}
 </style>
 </head>
 <body>
