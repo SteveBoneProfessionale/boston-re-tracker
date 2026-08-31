@@ -625,7 +625,30 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 "developer_sources": p.developer_sources or "",
                 "asset_class": p.asset_class or "",
                 "asset_class_raw": p.asset_class_raw or "",
-                "total_gsf": p.total_gsf or p.bpda_gsf,
+                # BPDA'S OWN PUBLISHED FIGURE FIRST. This precedence was the
+                # other way round, and it was wrong on 48 of the 78 Boston rows
+                # above 250,000 GSF -- overstating the pipeline by 5,998,678 SF.
+                #
+                # `bpda_gsf` is the "Gross Floor Area" field scraped off the
+                # BPDA project page, which is Tier 1 and per-building.
+                # `total_gsf` comes from an LLM reading a filing, under a prompt
+                # that asked for "gross square feet of entire project" -- so on a
+                # component parcel of a phased development it returns the PHASE
+                # total. All three On the Dot rows carried 1,386,500, which is
+                # the phase; their pages publish 487,400, 510,900 and 388,200,
+                # which sum to 1,386,500 exactly.
+                #
+                # NEITHER COLUMN IS MODIFIED. total_gsf is still stored verbatim
+                # and is still the fallback wherever BPDA publishes no figure --
+                # every Cambridge row, and the manual entries. The extraction
+                # prompt has NOT been fixed yet, so a future re-extraction will
+                # write phase totals into total_gsf again; this precedence is
+                # what keeps them off the screen until it is.
+                "total_gsf": p.bpda_gsf or p.total_gsf,
+                # Which column the figure above actually came from, so the
+                # provenance is legible rather than implicit.
+                "gsf_column": ("bpda_gsf" if p.bpda_gsf
+                               else ("total_gsf" if p.total_gsf else "")),
                 "residential_units": p.residential_units,
                 "commercial_gsf": p.commercial_gsf,
                 "building_height_ft": p.building_height_ft,

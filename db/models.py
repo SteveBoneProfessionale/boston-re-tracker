@@ -45,6 +45,9 @@ class Project(Base):
     plat_lots_raw = Column(String)
     zoning_district_raw = Column(String)           # local codes, e.g. "CT", "RD3"
     site_acreage = Column(Float)
+    land_sq_ft = Column(Integer)            # BPDA page "Land Sq. Feet"
+    master_plan_total_gsf = Column(Integer)  # approved envelope, from the PDA only
+    out_of_scope = Column(Boolean)          # outside Boston/Cambridge; NOT `excluded`
     adaptive_reuse = Column(Boolean, default=False)
     applicant_entity = Column(String)              # verbatim from the filing
     case_number = Column(String)                   # e.g. "26-047MIL"

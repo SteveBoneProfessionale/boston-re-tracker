@@ -160,6 +160,25 @@ def init_db():
     _add_column_if_missing("projects", "target_stated_on", "DATE")
     _add_column_if_missing("projects", "target_stated_by", "VARCHAR")
 
+    # The BPDA project page publishes "Land Sq. Feet" beside "Gross Floor Area".
+    # The scraper has parsed it since the beginning and had nowhere to put it,
+    # so every run threw it away. 71 of the 78 Boston pages above 250,000 GSF
+    # carry one.
+    _add_column_if_missing("projects", "land_sq_ft", "INTEGER")
+
+    # The approved envelope for a phased site, from the PDA or master plan
+    # document ONLY -- never from press, and never inferred by summing phases.
+    # Null everywhere until a filing is read; it exists so a phase sum can be
+    # checked against something rather than against nothing.
+    _add_column_if_missing("projects", "master_plan_total_gsf", "INTEGER")
+
+    # Deliberately NOT `excluded`. A row can be outside the Boston/Cambridge
+    # brief while being a perfectly live project -- 75 Reed Road in Hudson, the
+    # Providence rows belonging to the RI pipeline. Excluding them would assert
+    # they are dead; this drops them from Boston/Cambridge totals and says
+    # nothing about the project.
+    _add_column_if_missing("projects", "out_of_scope", "BOOLEAN")
+
     # Entity resolution on transactions. `buyer` and `seller` always hold the
     # record entity verbatim; the *_canonical columns hold the resolved sponsor
     # and stay null where it is unresolved, because a blank sponsor is correct

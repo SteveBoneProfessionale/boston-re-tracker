@@ -1,0 +1,786 @@
+{
+ "fetched_utc": "2026-08-31",
+ "fetched": {
+  "332": {
+   "name": "Suffolk Downs Phase 4",
+   "url": "https://www.bostonplans.org/projects/development-projects/suffolk-downs-phase-4",
+   "gfa": 3183000,
+   "land": 1073107,
+   "neighborhood": "East Boston",
+   "address": "525 McClellan Highway",
+   "db_bpda_gsf": 3183000,
+   "db_total_gsf": 3183000
+  },
+  "331": {
+   "name": "Suffolk Downs Phase 3",
+   "url": "https://www.bostonplans.org/projects/development-projects/suffolk-downs-phase-3",
+   "gfa": 2905000,
+   "land": 865620,
+   "neighborhood": "East Boston",
+   "address": "525 McClellan Highway",
+   "db_bpda_gsf": 2905000,
+   "db_total_gsf": 2905000
+  },
+  "184": {
+   "name": "Fenway Corners (West)",
+   "url": "https://www.bostonplans.org/projects/development-projects/fenway-corners-west",
+   "gfa": 1883367,
+   "land": 193715,
+   "neighborhood": "Fenway",
+   "address": "1 Jersey Street",
+   "db_bpda_gsf": 1883367,
+   "db_total_gsf": 2041000
+  },
+  "372": {
+   "name": "Tremont Crossing (P-3)",
+   "url": "https://www.bostonplans.org/projects/development-projects/tremont-crossing-(p-3)",
+   "gfa": 1746908,
+   "land": 315810,
+   "neighborhood": "Roxbury",
+   "address": "0 Tremont Street",
+   "db_bpda_gsf": 1746908,
+   "db_total_gsf": 1746908
+  },
+  "14": {
+   "name": "Reserved Channel Development",
+   "url": "https://www.bostonplans.org/projects/development-projects/reserved-channel",
+   "gfa": 1559000,
+   "land": 1306800,
+   "neighborhood": "South Boston Waterfront",
+   "address": "300 West First Street",
+   "db_bpda_gsf": 1559000,
+   "db_total_gsf": 1739000
+  },
+  "335": {
+   "name": "Suffolk Downs Phase 2",
+   "url": "https://www.bostonplans.org/projects/development-projects/suffolk-downs-phase-2",
+   "gfa": 1731000,
+   "land": 1129800,
+   "neighborhood": "East Boston",
+   "address": "525 McClellan Highway",
+   "db_bpda_gsf": 1731000,
+   "db_total_gsf": 1731000
+  },
+  "357": {
+   "name": "Exchange South End",
+   "url": "https://www.bostonplans.org/projects/development-projects/exchange-south-end",
+   "gfa": 1599425,
+   "land": 243936,
+   "neighborhood": "South End",
+   "address": "540 Albany Street",
+   "db_bpda_gsf": 1599425,
+   "db_total_gsf": 1599425
+  },
+  "168": {
+   "name": "505 Dorchester Avenue (Dot Ave)",
+   "url": "https://www.bostonplans.org/projects/development-projects/505-dorchester-avenue",
+   "gfa": 487400,
+   "land": 104840,
+   "neighborhood": "South Boston",
+   "address": "505 Dorchester Avenue",
+   "db_bpda_gsf": 487400,
+   "db_total_gsf": 1386500
+  },
+  "170": {
+   "name": "65 Ellery Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/65-ellery-street",
+   "gfa": 510900,
+   "land": 101195,
+   "neighborhood": "South Boston",
+   "address": "65 Ellery Street Street",
+   "db_bpda_gsf": 510900,
+   "db_total_gsf": 1386500
+  },
+  "172": {
+   "name": "75 Ellery Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/75-ellery-street",
+   "gfa": 388200,
+   "land": 94290,
+   "neighborhood": "South Boston",
+   "address": "75 Ellery Street Street",
+   "db_bpda_gsf": 388200,
+   "db_total_gsf": 1386500
+  },
+  "366": {
+   "name": "Back Bay/South End Gateway Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/back-bay-south-end-gateway-project",
+   "gfa": 1453000,
+   "land": 0,
+   "neighborhood": "Back Bay",
+   "address": "145 and 165 Dartmouth Street",
+   "db_bpda_gsf": 1453000,
+   "db_total_gsf": 1371480
+  },
+  "333": {
+   "name": "Suffolk Downs Phase 5",
+   "url": "https://www.bostonplans.org/projects/development-projects/suffolk-downs-phase-5",
+   "gfa": 1363000,
+   "land": 736164,
+   "neighborhood": "East Boston",
+   "address": "525 McClellan Highway",
+   "db_bpda_gsf": 1363000,
+   "db_total_gsf": 1363000
+  },
+  "334": {
+   "name": "Suffolk Downs Phase 1",
+   "url": "https://www.bostonplans.org/projects/development-projects/suffolk-downs-phase-1",
+   "gfa": 1338000,
+   "land": 949529,
+   "neighborhood": "East Boston",
+   "address": "525 McClellan Highway",
+   "db_bpda_gsf": 1338000,
+   "db_total_gsf": 1338000
+  },
+  "287": {
+   "name": "323-365 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/323-365-dorchester-avenue",
+   "gfa": 1073000,
+   "land": 235426,
+   "neighborhood": "South Boston",
+   "address": "323-365 Dorchester Avenue",
+   "db_bpda_gsf": 1073000,
+   "db_total_gsf": 1147000
+  },
+  "53": {
+   "name": "244-284 A Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/244-284-a-street",
+   "gfa": 1098292,
+   "land": 149126,
+   "neighborhood": "South Boston Waterfront",
+   "address": "244-284 A Street",
+   "db_bpda_gsf": 1098292,
+   "db_total_gsf": 1098292
+  },
+  "163": {
+   "name": "Harvard Enterprise Research Campus (ERC) Phase B",
+   "url": "https://www.bostonplans.org/projects/development-projects/harvard-enterprise-research-campus-phase-b",
+   "gfa": 1040000,
+   "land": 0,
+   "neighborhood": "Allston",
+   "address": "100 Western Avenue",
+   "db_bpda_gsf": 1040000,
+   "db_total_gsf": 1040000
+  },
+  "343": {
+   "name": "Harbor Garage Redevelopment",
+   "url": "https://www.bostonplans.org/projects/development-projects/harbor-garage-redevelopment",
+   "gfa": 864600,
+   "land": 57300,
+   "neighborhood": "Downtown",
+   "address": "70 East India Row",
+   "db_bpda_gsf": 864600,
+   "db_total_gsf": 864600
+  },
+  "175": {
+   "name": "South Boston Innovation Campus",
+   "url": "https://www.bostonplans.org/projects/development-projects/south-boston-innovation-campus",
+   "gfa": 837000,
+   "land": 41931,
+   "neighborhood": "South Boston Waterfront",
+   "address": "2 Harbor Street",
+   "db_bpda_gsf": 837000,
+   "db_total_gsf": 837000
+  },
+  "247": {
+   "name": "176 Lincoln Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/176-lincoln-street",
+   "gfa": 790000,
+   "land": 229982,
+   "neighborhood": "Brighton",
+   "address": "176 Lincoln Street",
+   "db_bpda_gsf": 790000,
+   "db_total_gsf": 808000
+  },
+  "174": {
+   "name": "66 Cambridge Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/66-cambridge-street",
+   "gfa": 812000,
+   "land": 175980,
+   "neighborhood": "Charlestown",
+   "address": "60-66 Cambridge Street",
+   "db_bpda_gsf": 812000,
+   "db_total_gsf": 802000
+  },
+  "69": {
+   "name": "Austin Street Lots Redevelopment",
+   "url": "https://www.bostonplans.org/projects/development-projects/austin-street-lots-redevelopment",
+   "gfa": 126000,
+   "land": 53959,
+   "neighborhood": "Charlestown",
+   "address": "100-168 New Rutherford Avenue",
+   "db_bpda_gsf": 126000,
+   "db_total_gsf": 790000
+  },
+  "275": {
+   "name": "Seaport Square - Block L3 & L6",
+   "url": "https://www.bostonplans.org/projects/development-projects/seaport-square-block-l3-l6",
+   "gfa": 780000,
+   "land": 0,
+   "neighborhood": "South Boston Waterfront",
+   "address": "1 Boston Wharf Road",
+   "db_bpda_gsf": 780000,
+   "db_total_gsf": 780000
+  },
+  "267": {
+   "name": "776 Summer Street - Phase 1",
+   "url": "https://www.bostonplans.org/projects/development-projects/776-summer-street-phase-1",
+   "gfa": 746000,
+   "land": 0,
+   "neighborhood": "South Boston",
+   "address": "776 Summer Street",
+   "db_bpda_gsf": 746000,
+   "db_total_gsf": 754500
+  },
+  "203": {
+   "name": "40 Roland Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/40-roland-street",
+   "gfa": 753783,
+   "land": 186818,
+   "neighborhood": "Charlestown",
+   "address": "40 Roland Street",
+   "db_bpda_gsf": 753783,
+   "db_total_gsf": 753783
+  },
+  "252": {
+   "name": "Parcel X (310 Northern Avenue)",
+   "url": "https://www.bostonplans.org/projects/development-projects/parcel-x-310-northern-avenue",
+   "gfa": 764260,
+   "land": 185501,
+   "neighborhood": "South Boston Waterfront",
+   "address": "310 Northern Avenue",
+   "db_bpda_gsf": 764260,
+   "db_total_gsf": 742000
+  },
+  "246": {
+   "name": "1170-1190 Soldiers Field Road (abandoned)",
+   "url": "https://www.bostonplans.org/projects/development-projects/1170-soldiers-field-road",
+   "gfa": 810000,
+   "land": 273446,
+   "neighborhood": "Allston",
+   "address": "1170-1190 Soldiers Field Road",
+   "db_bpda_gsf": 810000,
+   "db_total_gsf": 700000
+  },
+  "363": {
+   "name": "1000 Boylston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1000-boylston-street",
+   "gfa": 439500,
+   "land": 40955,
+   "neighborhood": "Back Bay",
+   "address": "1000 Boylston Street",
+   "db_bpda_gsf": 439500,
+   "db_total_gsf": 689000
+  },
+  "353": {
+   "name": "201 Stuart Street-Motor Mart Garage",
+   "url": "https://www.bostonplans.org/projects/development-projects/motor-mart-garage",
+   "gfa": 731000,
+   "land": 52323,
+   "neighborhood": "Downtown",
+   "address": "201 Stuart Street",
+   "db_bpda_gsf": 731000,
+   "db_total_gsf": 685000
+  },
+  "228": {
+   "name": "88 Black Falcon Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/88-black-falcon-avenue",
+   "gfa": 571500,
+   "land": 458725,
+   "neighborhood": "South Boston Waterfront",
+   "address": "88 Black Falcon Avenue",
+   "db_bpda_gsf": 571500,
+   "db_total_gsf": 684450
+  },
+  "243": {
+   "name": "1234-1240 Soldiers Field Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/1234-1240-soldiers-field-road",
+   "gfa": 655000,
+   "land": 136917,
+   "neighborhood": "Allston",
+   "address": "1234-1240 Soldiers Field Road",
+   "db_bpda_gsf": 655000,
+   "db_total_gsf": 655000
+  },
+  "276": {
+   "name": "Seaport Square - Block G",
+   "url": "https://www.bostonplans.org/projects/development-projects/seaport-square-block-g",
+   "gfa": 650000,
+   "land": 50000,
+   "neighborhood": "South Boston Waterfront",
+   "address": "120 Seaport Blvd",
+   "db_bpda_gsf": 650000,
+   "db_total_gsf": 650000
+  },
+  "150": {
+   "name": "500 Huntington Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/wentworth-500-huntington-avenue",
+   "gfa": 640000,
+   "land": 132129,
+   "neighborhood": "Mission Hill",
+   "address": "500 Huntington Avenue",
+   "db_bpda_gsf": 640000,
+   "db_total_gsf": 640000
+  },
+  "89": {
+   "name": "35-75 Morrissey Boulevard Phase 1 (75 Morrissey)",
+   "url": "https://www.bostonplans.org/projects/development-projects/35-75-morrissey-boulevard-phase-1",
+   "gfa": 613320,
+   "land": 0,
+   "neighborhood": "Dorchester",
+   "address": "35-75 Morrissey Blvd",
+   "db_bpda_gsf": 613320,
+   "db_total_gsf": 613320
+  },
+  "266": {
+   "name": "Seaport Circle Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/seaport-circle-project",
+   "gfa": 611300,
+   "land": 109771,
+   "neighborhood": "South Boston Waterfront",
+   "address": "701 Congress Street",
+   "db_bpda_gsf": 611300,
+   "db_total_gsf": 602200
+  },
+  "187": {
+   "name": "1033-1055 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1033-1055-washington-street",
+   "gfa": 588000,
+   "land": 0,
+   "neighborhood": "South End",
+   "address": "1033-1055 Washington Street",
+   "db_bpda_gsf": 588000,
+   "db_total_gsf": 588000
+  },
+  "183": {
+   "name": "1400 Boylston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1400-boylston-street",
+   "gfa": 553000,
+   "land": 104440,
+   "neighborhood": "Fenway",
+   "address": "1400 Boylston Street",
+   "db_bpda_gsf": 553000,
+   "db_total_gsf": 553000
+  },
+  "128": {
+   "name": "17 Bradston Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/17-bradston-street",
+   "gfa": 268852,
+   "land": 50282,
+   "neighborhood": "South End",
+   "address": "17 Bradston Street",
+   "db_bpda_gsf": 268852,
+   "db_total_gsf": 551200
+  },
+  "146": {
+   "name": "Faneuil Gardens Phase 1",
+   "url": "https://www.bostonplans.org/projects/development-projects/faneuil-gardens",
+   "gfa": 141950,
+   "land": 98500,
+   "neighborhood": "Brighton",
+   "address": "89 Faneuil Street",
+   "db_bpda_gsf": 141950,
+   "db_total_gsf": 547200
+  },
+  "328": {
+   "name": "Dock Square Garage",
+   "url": "https://www.bostonplans.org/projects/development-projects/dock-square-garage",
+   "gfa": 456000,
+   "land": 51035,
+   "neighborhood": "Downtown",
+   "address": "20 Clinton Street",
+   "db_bpda_gsf": 456000,
+   "db_total_gsf": 535000
+  },
+  "369": {
+   "name": "Seaport Square - Block D",
+   "url": "https://www.bostonplans.org/projects/development-projects/seaport-square-block-d",
+   "gfa": 499400,
+   "land": 39893,
+   "neighborhood": "South Boston Waterfront",
+   "address": "88 Seaport Blvd",
+   "db_bpda_gsf": 499400,
+   "db_total_gsf": 499400
+  },
+  "66": {
+   "name": "One Mystic Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/one-mystic-avenue",
+   "gfa": 289344,
+   "land": 60089,
+   "neighborhood": "Charlestown",
+   "address": "1 Mystic Avenue",
+   "db_bpda_gsf": 289344,
+   "db_total_gsf": 478880
+  },
+  "314": {
+   "name": "Bremen & Orleans Development",
+   "url": "https://www.bostonplans.org/projects/development-projects/bremen-orleans-development",
+   "gfa": 463900,
+   "land": 139802,
+   "neighborhood": "East Boston",
+   "address": "97-135B Bremen Street",
+   "db_bpda_gsf": 463900,
+   "db_total_gsf": 462900
+  },
+  "240": {
+   "name": "645 Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/645-beacon-street",
+   "gfa": 461300,
+   "land": 47251,
+   "neighborhood": "Fenway",
+   "address": "645-651 Beacon Street",
+   "db_bpda_gsf": 461300,
+   "db_total_gsf": 461300
+  },
+  "167": {
+   "name": "232 A Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/232-a-street",
+   "gfa": 324315,
+   "land": 103465,
+   "neighborhood": "South Boston Waterfront",
+   "address": "232 A Street",
+   "db_bpda_gsf": 324315,
+   "db_total_gsf": 455000
+  },
+  "304": {
+   "name": "Jan Karski Way Extension Project",
+   "url": "https://www.bostonplans.org/projects/development-projects/jan-karski-way-extension",
+   "gfa": 317664,
+   "land": 169158,
+   "neighborhood": "Dorchester",
+   "address": "173 Boston Street",
+   "db_bpda_gsf": 317664,
+   "db_total_gsf": 446112
+  },
+  "346": {
+   "name": "Allston Yards Building C",
+   "url": "https://www.bostonplans.org/projects/development-projects/allston-yards-building-c",
+   "gfa": 430000,
+   "land": 52700,
+   "neighborhood": "Allston",
+   "address": "60 Everett Street",
+   "db_bpda_gsf": 430000,
+   "db_total_gsf": 430000
+  },
+  "258": {
+   "name": "Parcel 13",
+   "url": "https://www.bostonplans.org/projects/development-projects/parcel-13",
+   "gfa": 424400,
+   "land": 52787,
+   "neighborhood": "Back Bay",
+   "address": "975 Boylston Street",
+   "db_bpda_gsf": 424400,
+   "db_total_gsf": 424400
+  },
+  "119": {
+   "name": "60 Kilmarnock Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/60-80-kilmarnock-street",
+   "gfa": 429700,
+   "land": 74263,
+   "neighborhood": "Fenway",
+   "address": "60-80 Kilmarnock Street",
+   "db_bpda_gsf": 429700,
+   "db_total_gsf": 420800
+  },
+  "241": {
+   "name": "11-21 Bromfield Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/11-21-bromfield-street",
+   "gfa": 0,
+   "land": 23744,
+   "neighborhood": "Downtown",
+   "address": "11-21 Bromfield Street",
+   "db_bpda_gsf": 0,
+   "db_total_gsf": 410700
+  },
+  "295": {
+   "name": "Government Center Garage (East Parcel)",
+   "url": "https://www.bostonplans.org/projects/development-projects/government-center-garage-phase-3",
+   "gfa": 410000,
+   "land": 209949,
+   "neighborhood": "Downtown",
+   "address": "50 New Sudbury Street",
+   "db_bpda_gsf": 410000,
+   "db_total_gsf": 410000
+  },
+  "231": {
+   "name": "155 North Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/155-north-beacon-street",
+   "gfa": 400526,
+   "land": 135716,
+   "neighborhood": "Brighton",
+   "address": "155 North Beacon Street",
+   "db_bpda_gsf": 400526,
+   "db_total_gsf": 409395
+  },
+  "29": {
+   "name": "45 Townsend Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/45-townsend-street",
+   "gfa": 179667,
+   "land": 211277,
+   "neighborhood": "Roxbury",
+   "address": "45-47 Townsend Street",
+   "db_bpda_gsf": 179667,
+   "db_total_gsf": 400000
+  },
+  "303": {
+   "name": "819 Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/819-beacon-street",
+   "gfa": 280900,
+   "land": 70226,
+   "neighborhood": "Fenway",
+   "address": "819 Beacon Street",
+   "db_bpda_gsf": 280900,
+   "db_total_gsf": 398000
+  },
+  "156": {
+   "name": "Olmsted Village",
+   "url": "https://www.bostonplans.org/projects/development-projects/olmsted-village",
+   "gfa": 348100,
+   "land": 0,
+   "neighborhood": "Mattapan",
+   "address": "Lot 2A-3-2 Harvard Street",
+   "db_bpda_gsf": 348100,
+   "db_total_gsf": 393000
+  },
+  "210": {
+   "name": "Nubian Square Ascends",
+   "url": "https://www.bostonplans.org/projects/development-projects/nubian-square-ascends",
+   "gfa": 365475,
+   "land": 87879,
+   "neighborhood": "Roxbury",
+   "address": "2164 Washington Street",
+   "db_bpda_gsf": 365475,
+   "db_total_gsf": 365475
+  },
+  "182": {
+   "name": "495 Dorchester Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/495-dorchester-avenue",
+   "gfa": 309604,
+   "land": 53971,
+   "neighborhood": "South Boston",
+   "address": "495 South Boston Avenue",
+   "db_bpda_gsf": 309604,
+   "db_total_gsf": 358258
+  },
+  "339": {
+   "name": "Allston Green",
+   "url": "https://www.bostonplans.org/projects/development-projects/allston-green",
+   "gfa": 259000,
+   "land": 79391,
+   "neighborhood": "Allston",
+   "address": "20 Linden Street",
+   "db_bpda_gsf": 259000,
+   "db_total_gsf": 356000
+  },
+  "315": {
+   "name": "220 Huntington Avenue",
+   "url": "https://www.bostonplans.org/projects/development-projects/220-huntington-avenue",
+   "gfa": 351000,
+   "land": 66660,
+   "neighborhood": "Back Bay",
+   "address": "220 Huntington Avenue",
+   "db_bpda_gsf": 351000,
+   "db_total_gsf": 349000
+  },
+  "238": {
+   "name": "Residences at Readville Station",
+   "url": "https://www.bostonplans.org/projects/development-projects/residences-at-readville-station",
+   "gfa": 316315,
+   "land": 119034,
+   "neighborhood": "Hyde Park",
+   "address": "1717-1725 Hyde Park Avenue",
+   "db_bpda_gsf": 316315,
+   "db_total_gsf": 348395
+  },
+  "17": {
+   "name": "Drexel Village",
+   "url": "https://www.bostonplans.org/projects/development-projects/drexel-village",
+   "gfa": 271133,
+   "land": 110400,
+   "neighborhood": "Roxbury",
+   "address": "175 Ruggles Street",
+   "db_bpda_gsf": 271133,
+   "db_total_gsf": 346022
+  },
+  "64": {
+   "name": "990 American Legion Highway",
+   "url": "https://www.bostonplans.org/projects/development-projects/990-american-legion-highway",
+   "gfa": 341576,
+   "land": 615526,
+   "neighborhood": "Hyde Park",
+   "address": "990 American Legion Highway",
+   "db_bpda_gsf": 341576,
+   "db_total_gsf": 345000
+  },
+  "358": {
+   "name": "10 Stack Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/10-stack-street",
+   "gfa": 350300,
+   "land": 75000,
+   "neighborhood": "Charlestown",
+   "address": "10 Stack Street",
+   "db_bpda_gsf": 350300,
+   "db_total_gsf": 343800
+  },
+  "122": {
+   "name": "83 Leo M. Birmingham Parkway",
+   "url": "https://www.bostonplans.org/projects/development-projects/83-leo-m-birmingham-parkway",
+   "gfa": 308133,
+   "land": 88583,
+   "neighborhood": "Brighton",
+   "address": "83 Leo M. Birmingham Parkway",
+   "db_bpda_gsf": 308133,
+   "db_total_gsf": 341500
+  },
+  "345": {
+   "name": "Allston Yards Building D",
+   "url": "https://www.bostonplans.org/projects/development-projects/allston-yards-building-d",
+   "gfa": 336000,
+   "land": 54900,
+   "neighborhood": "Allston",
+   "address": "60 Everett Street",
+   "db_bpda_gsf": 336000,
+   "db_total_gsf": 336000
+  },
+  "164": {
+   "name": "22-24 Pratt Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/22-24-pratt-street",
+   "gfa": 304000,
+   "land": 96445,
+   "neighborhood": "Allston",
+   "address": "22-24 Pratt Street",
+   "db_bpda_gsf": 304000,
+   "db_total_gsf": 311000
+  },
+  "261": {
+   "name": "41 Berkeley Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/41-berkeley-street",
+   "gfa": 266650,
+   "land": 53426,
+   "neighborhood": "South End",
+   "address": "41 Berkeley Street",
+   "db_bpda_gsf": 266650,
+   "db_total_gsf": 311000
+  },
+  "102": {
+   "name": "262 St. Botolph Street Multipurpose Athletic Facility",
+   "url": "https://www.bostonplans.org/projects/development-projects/northeastern-university-matthews-arena-project",
+   "gfa": 310000,
+   "land": 97969,
+   "neighborhood": "Fenway",
+   "address": "262 St. Botolph Street",
+   "db_bpda_gsf": 310000,
+   "db_total_gsf": 310000
+  },
+  "237": {
+   "name": "18-22 Arboretum Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/18-22-arboretum-road",
+   "gfa": 248450,
+   "land": 99660,
+   "neighborhood": "Roslindale",
+   "address": "18-22 Arboretum Road",
+   "db_bpda_gsf": 248450,
+   "db_total_gsf": 295020
+  },
+  "375": {
+   "name": "22 Boston Wharf Road",
+   "url": "https://www.bostonplans.org/projects/development-projects/22-boston-wharf-road",
+   "gfa": 289290,
+   "land": 30893,
+   "neighborhood": "South Boston Waterfront",
+   "address": "22 Boston Wharf Road",
+   "db_bpda_gsf": 235483,
+   "db_total_gsf": 292000
+  },
+  "362": {
+   "name": "Rio Grande",
+   "url": "https://www.bostonplans.org/projects/development-projects/rio-grande",
+   "gfa": 293193,
+   "land": 34000,
+   "neighborhood": "Roxbury",
+   "address": "2343-2345 Washington Street",
+   "db_bpda_gsf": 293193,
+   "db_total_gsf": 285253
+  },
+  "326": {
+   "name": "135 Dudley Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/135-dudley-street",
+   "gfa": 289073,
+   "land": 69835,
+   "neighborhood": "Roxbury",
+   "address": "135 Dudley Street",
+   "db_bpda_gsf": 289073,
+   "db_total_gsf": 282382
+  },
+  "190": {
+   "name": "103 North Beacon Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/103-north-beacon-street",
+   "gfa": 245000,
+   "land": 67586,
+   "neighborhood": "Allston",
+   "address": "103 North Beacon Street",
+   "db_bpda_gsf": 245000,
+   "db_total_gsf": 265000
+  },
+  "126": {
+   "name": "250 Everett Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/250-everett-street",
+   "gfa": 256250,
+   "land": 79114,
+   "neighborhood": "Brighton",
+   "address": "250 Everett Street",
+   "db_bpda_gsf": 256250,
+   "db_total_gsf": 256250
+  },
+  "154": {
+   "name": "2 Charlesgate West",
+   "url": "https://www.bostonplans.org/projects/development-projects/2-charlesgate-west",
+   "gfa": 285000,
+   "land": 20344,
+   "neighborhood": "Fenway",
+   "address": "2 Charlesgate West Street",
+   "db_bpda_gsf": 285000,
+   "db_total_gsf": 254000
+  },
+  "239": {
+   "name": "3390 Washington Street (BMS Paper)",
+   "url": "https://www.bostonplans.org/projects/development-projects/3390-washington-street",
+   "gfa": 129525,
+   "land": 88525,
+   "neighborhood": "Jamaica Plain",
+   "address": "3390 Washington Street",
+   "db_bpda_gsf": 129525,
+   "db_total_gsf": 253993
+  },
+  "213": {
+   "name": "15 Washington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/15-washington-street",
+   "gfa": 341911,
+   "land": 99787,
+   "neighborhood": "Brighton",
+   "address": "15-35 Washington Street",
+   "db_bpda_gsf": 341911,
+   "db_total_gsf": 253288
+  },
+  "219": {
+   "name": "1141 Bennington Street",
+   "url": "https://www.bostonplans.org/projects/development-projects/1141-bennington-street",
+   "gfa": 199016,
+   "land": 81231,
+   "neighborhood": "East Boston",
+   "address": "1141 Bennington Street",
+   "db_bpda_gsf": 199016,
+   "db_total_gsf": 250664
+  },
+  "292": {
+   "name": "Fenway Corners (North)",
+   "url": "https://www.bostonplans.org/projects/development-projects/fenway-corners-north",
+   "gfa": 250000,
+   "land": 43671,
+   "neighborhood": "Fenway",
+   "address": "55 Lansdowne Street",
+   "db_bpda_gsf": 250000,
+   "db_total_gsf": 250000
+  }
+ },
+ "failed": []
+}

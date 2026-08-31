@@ -439,6 +439,10 @@ def upsert_project(session, index_data: dict, detail_data: dict, sire_data: dict
     project.status = detail_data.get("current_status") or index_data.get("status")
     project.description = detail_data.get("description")
     project.bpda_gsf = detail_data.get("bpda_gsf")
+    # Parsed since day one at the "land sq" branch above and then dropped on the
+    # floor -- there was no column to put it in and no assignment here. 71 of the
+    # 78 Boston pages above 250,000 GSF publish it.
+    project.land_sq_ft = detail_data.get("land_sqft")
     project.project_scale = detail_data.get("project_scale")
     project.sire_id = sire_data.get("sire_id") or project.sire_id
     project.skip_reason = skip_reason
