@@ -70,6 +70,30 @@ def geocode_address(client: httpx.Client, address: str, city: str = "Boston") ->
 
 # ── Project data from research ─────────────────────────────────────────────
 
+# A HAND-ENTERED ROW MAY NOT ASSERT CONSTRUCTION WITHOUT A SOURCE.
+#
+# Nine entries in this file carried a literal "status": "Under Construction"
+# with nothing behind it. 380 Stuart Street was one of them: Skanska pulled a
+# $362.8M permit in December 2024, told the Globe it had no start date, and had
+# neither anchor tenant nor financing a year later -- while this file asserted
+# the building was going up.
+#
+# These two statuses are claims about physical work and need a citation. Any
+# other status is a claim about a filing or a board action, which the row's own
+# provenance already covers.
+SOURCED_STATUSES = {"Under Construction", "Complete"}
+
+
+def _checked_status(data):
+    """Return the status, or None where it is an unsourced construction claim."""
+    st = data.get("status")
+    if st in SOURCED_STATUSES and not data.get("status_source"):
+        log.warning("  STATUS DROPPED: %s claims '%s' with no status_source",
+                    data.get("name"), st)
+        return None
+    return st
+
+
 PROJECTS = [
     # 1 — Woburn, outside BPDA
     {
@@ -77,7 +101,8 @@ PROJECTS = [
         "address": "316 New Boston St",
         "city": "Woburn",
         "neighborhood": None,
-        "status": "Under Construction",
+        "status": None,   # was a hardcoded "Under Construction" with no source
+        "status_source": None,
         "developer": "Fairfield Residential",
         "developer_canonical": "Fairfield Residential",
         "asset_class": "Residential",
@@ -98,7 +123,8 @@ PROJECTS = [
         "address": "525 William F McClellan Hwy",
         "city": "Revere",
         "neighborhood": None,
-        "status": "Under Construction",
+        "status": None,   # was a hardcoded "Under Construction" with no source
+        "status_source": None,
         "developer": "HYM Investment Group",
         "developer_canonical": "HYM Investment Group",
         "asset_class": "Mixed-Use",
@@ -119,7 +145,8 @@ PROJECTS = [
         "address": "355 Bennington St",
         "city": "Boston",
         "neighborhood": "East Boston",
-        "status": "Under Construction",
+        "status": None,   # was a hardcoded "Under Construction" with no source
+        "status_source": None,
         "developer": "Redgate Capital Partners",
         "developer_canonical": "Redgate Capital Partners",
         "asset_class": "Residential",
@@ -140,7 +167,8 @@ PROJECTS = [
         "address": "2 O'Brien Hwy",
         "city": "Cambridge",
         "neighborhood": None,
-        "status": "Under Construction",
+        "status": None,   # was a hardcoded "Under Construction" with no source
+        "status_source": None,
         "developer": "DivcoWest",
         "developer_canonical": "DivcoWest",
         "asset_class": "Mixed-Use",
@@ -182,7 +210,8 @@ PROJECTS = [
         "address": "41 LaGrange St",
         "city": "Boston",
         "neighborhood": "Chinatown",
-        "status": "Under Construction",
+        "status": None,   # was a hardcoded "Under Construction" with no source
+        "status_source": None,
         "developer": "Planning Office for Urban Affairs",
         "developer_canonical": "Planning Office for Urban Affairs",
         "asset_class": "Residential",
@@ -224,7 +253,8 @@ PROJECTS = [
         "address": "840 Columbus Ave",
         "city": "Boston",
         "neighborhood": "Roxbury",
-        "status": "Under Construction",
+        "status": None,   # was a hardcoded "Under Construction" with no source
+        "status_source": None,
         "developer": "Northeastern University",
         "developer_canonical": "Northeastern University",
         "asset_class": "Mixed-Use",
@@ -266,7 +296,8 @@ PROJECTS = [
         "address": "55 India St",
         "city": "Boston",
         "neighborhood": "Financial District",
-        "status": "Under Construction",
+        "status": None,   # was a hardcoded "Under Construction" with no source
+        "status_source": None,
         "developer": "Boston Residential Group",
         "developer_canonical": "Boston Residential Group",
         "asset_class": "Residential",
@@ -287,7 +318,8 @@ PROJECTS = [
         "address": "55 Bunker Hill St",
         "city": "Boston",
         "neighborhood": "Charlestown",
-        "status": "Under Construction",
+        "status": None,   # was a hardcoded "Under Construction" with no source
+        "status_source": None,
         "developer": "Leggat McCall Properties / Boston Housing Authority",
         "developer_canonical": "Leggat McCall Properties",
         "asset_class": "Residential",
@@ -329,7 +361,8 @@ PROJECTS = [
         "address": "1 Harbor Shore Dr",
         "city": "Boston",
         "neighborhood": "South Boston Waterfront",
-        "status": "Under Construction",
+        "status": None,   # was a hardcoded "Under Construction" with no source
+        "status_source": None,
         "developer": "The Fallon Company",
         "developer_canonical": "The Fallon Company",
         "asset_class": "Residential",
@@ -431,7 +464,7 @@ def run():
                         address=data["address"],
                         city=city,
                         neighborhood=data.get("neighborhood"),
-                        status=data.get("status"),
+                        status=_checked_status(data),
                         developer=data.get("developer"),
                         developer_canonical=data.get("developer_canonical"),
                         asset_class=data.get("asset_class"),

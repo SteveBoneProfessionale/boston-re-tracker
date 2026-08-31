@@ -1,0 +1,706 @@
+{
+ "385": {
+  "name": "380 Stuart Street",
+  "addr": "380 Stuart St",
+  "gsf": 625000,
+  "status": "Permitted - Not Started",
+  "stage": "Permitted - Not Started",
+  "verdict": "no permit found",
+  "why": "no permit at this exact street number",
+  "n_exact": 0,
+  "addresses": [],
+  "permits": []
+ },
+ "358": {
+  "name": "10 Stack Street",
+  "addr": "10 Stack Street",
+  "gsf": 343800,
+  "status": "Under Construction",
+  "stage": "Under Construction",
+  "verdict": "Under Construction",
+  "why": "3 trade permit(s) after the erect permit: ELECTRICAL",
+  "n_exact": 11,
+  "addresses": [
+   "10 Stack ST"
+  ],
+  "permits": [
+   {
+    "n": "SF1003012",
+    "w": "OTHER",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2019-09-23"
+   },
+   {
+    "n": "ERT1017169",
+    "w": "ERECT",
+    "t": "Erect/New Construction",
+    "s": "Open",
+    "d": "2020-08-06"
+   },
+   {
+    "n": "E1380369",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2022-08-29"
+   },
+   {
+    "n": "SF1631676",
+    "w": "SPCEVE",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2024-07-26"
+   },
+   {
+    "n": "SF1631682",
+    "w": "SPCEVE",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2024-07-26"
+   },
+   {
+    "n": "E1650838",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2024-09-17"
+   },
+   {
+    "n": "ETS1655760",
+    "w": "GEN",
+    "t": "Electrical Temporary Service",
+    "s": "Open",
+    "d": "2024-09-25"
+   },
+   {
+    "n": "E1674138",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2024-12-02"
+   },
+   {
+    "n": "SF1731157",
+    "w": "RAZE",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2025-06-06"
+   },
+   {
+    "n": "E1847220",
+    "w": "GEN",
+    "t": "Electrical Permit",
+    "s": "Closed",
+    "d": "2026-05-11"
+   },
+   {
+    "n": "ETS1860813",
+    "w": "GEN",
+    "t": "Electrical Temporary Service",
+    "s": "Open",
+    "d": "2026-06-12"
+   }
+  ]
+ },
+ "126": {
+  "name": "250 Everett Street",
+  "addr": "250 Everett Street",
+  "gsf": 256250,
+  "status": "Under Construction",
+  "stage": "Under Construction",
+  "verdict": "Under Construction",
+  "why": "8 trade permit(s) after the erect permit: ELECTRICAL, FA, PLUMBING, TMPSER",
+  "n_exact": 12,
+  "addresses": [
+   "250 Everett ST"
+  ],
+  "permits": [
+   {
+    "n": "E403930",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2014-10-27"
+   },
+   {
+    "n": "EFA502819",
+    "w": "FA",
+    "t": "Electrical Fire Alarms",
+    "s": "Open",
+    "d": "2015-08-13"
+   },
+   {
+    "n": "E758672",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2017-09-27"
+   },
+   {
+    "n": "SF784064",
+    "w": "ROOF",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2017-12-07"
+   },
+   {
+    "n": "EFA908584",
+    "w": "FA",
+    "t": "Electrical Fire Alarms",
+    "s": "Closed",
+    "d": "2019-01-02"
+   },
+   {
+    "n": "ALT913131",
+    "w": "FA",
+    "t": "Long Form/Alteration Permit",
+    "s": "Open",
+    "d": "2019-04-05"
+   },
+   {
+    "n": "SF1828044",
+    "w": "RAZE",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2026-03-16"
+   },
+   {
+    "n": "SF1838132",
+    "w": "OTHER",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2026-04-10"
+   },
+   {
+    "n": "ERT1800416",
+    "w": "ERECT",
+    "t": "Erect/New Construction",
+    "s": "Open",
+    "d": "2026-06-02"
+   },
+   {
+    "n": "PL1864246",
+    "w": "PLUMBING",
+    "t": "Plumbing Permit",
+    "s": "Open",
+    "d": "2026-06-25"
+   },
+   {
+    "n": "E1851945",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2026-06-26"
+   },
+   {
+    "n": "ETS1851951",
+    "w": "TMPSER",
+    "t": "Electrical Temporary Service",
+    "s": "Open",
+    "d": "2026-06-26"
+   }
+  ]
+ },
+ "225": {
+  "name": "1270 Commonwealth Avenue",
+  "addr": "1270 Commonwealth Avenue",
+  "gsf": 189000,
+  "status": "Under Construction",
+  "stage": "Under Construction",
+  "verdict": "Under Construction",
+  "why": "6 trade permit(s) after the erect permit: ELECTRICAL, FA, INTREN, PLUMBING, SPRINK",
+  "n_exact": 7,
+  "addresses": [
+   "1270 Commonwealth AV"
+  ],
+  "permits": [
+   {
+    "n": "PL758539",
+    "w": "PLUMBING",
+    "t": "Plumbing Permit",
+    "s": "Open",
+    "d": "2017-09-20"
+   },
+   {
+    "n": "E766566",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2017-10-19"
+   },
+   {
+    "n": "EFA777534",
+    "w": "FA",
+    "t": "Electrical Fire Alarms",
+    "s": "Open",
+    "d": "2017-11-17"
+   },
+   {
+    "n": "ALT785423",
+    "w": "INTREN",
+    "t": "Long Form/Alteration Permit",
+    "s": "Open",
+    "d": "2018-10-04"
+   },
+   {
+    "n": "E931749",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Closed",
+    "d": "2019-03-18"
+   },
+   {
+    "n": "SF929536",
+    "w": "SPRINK",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2019-04-24"
+   },
+   {
+    "n": "SF990525",
+    "w": "SITE",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2019-08-16"
+   }
+  ]
+ },
+ "329": {
+  "name": "14 Gardner Street",
+  "addr": "14 Gardner Street",
+  "gsf": 41981,
+  "status": "Board Approved",
+  "stage": "Under Construction",
+  "verdict": "no erect permit",
+  "why": "1 permits but none is Erect/New Construction",
+  "n_exact": 1,
+  "addresses": [
+   "14 Gardner ST"
+  ],
+  "permits": [
+   {
+    "n": "SF1397933",
+    "w": "EXTREN",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2022-10-12"
+   }
+  ]
+ },
+ "350": {
+  "name": "706 Dudley Street",
+  "addr": "706 Dudley Street",
+  "gsf": 36799,
+  "status": "Under Review",
+  "stage": "Under Construction",
+  "verdict": "Permitted - Not Started",
+  "why": "erect permit only; no trade permit and no CO at this address",
+  "n_exact": 1,
+  "addresses": [
+   "706 Dudley ST"
+  ],
+  "permits": [
+   {
+    "n": "ERT1390586",
+    "w": "ERECT",
+    "t": "Erect/New Construction",
+    "s": "Open",
+    "d": "2023-10-26"
+   }
+  ]
+ },
+ "390": {
+  "name": "55 India Street",
+  "addr": "55 India St",
+  "gsf": 35000,
+  "status": "Under Construction",
+  "stage": "Under Construction",
+  "verdict": "no permit found",
+  "why": "no permit at this exact street number",
+  "n_exact": 0,
+  "addresses": [],
+  "permits": []
+ },
+ "106": {
+  "name": "279 Maverick Street",
+  "addr": "279 Maverick Street",
+  "gsf": 34000,
+  "status": "Under Construction",
+  "stage": "Under Construction",
+  "verdict": "no permit found",
+  "why": "no permit at this exact street number",
+  "n_exact": 0,
+  "addresses": [],
+  "permits": []
+ },
+ "307": {
+  "name": "363 E Street",
+  "addr": "363 E Street",
+  "gsf": 26647,
+  "status": "Board Approved",
+  "stage": "Under Construction",
+  "verdict": "Under Construction",
+  "why": "4 trade permit(s) after the erect permit: ELECTRICAL, FA, LVOLT, PLUMBING",
+  "n_exact": 6,
+  "addresses": [
+   "363 E ST"
+  ],
+  "permits": [
+   {
+    "n": "FND1717080",
+    "w": "ERECT",
+    "t": "Foundation Permit",
+    "s": "Open",
+    "d": "2025-06-02"
+   },
+   {
+    "n": "PL1809773",
+    "w": "PLUMBING",
+    "t": "Plumbing Permit",
+    "s": "Open",
+    "d": "2026-01-07"
+   },
+   {
+    "n": "ELV1825389",
+    "w": "LVOLT",
+    "t": "Electrical Low Voltage",
+    "s": "Open",
+    "d": "2026-03-10"
+   },
+   {
+    "n": "EFA1825394",
+    "w": "FA",
+    "t": "Electrical Fire Alarms",
+    "s": "Open",
+    "d": "2026-03-10"
+   },
+   {
+    "n": "E1825393",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2026-03-10"
+   },
+   {
+    "n": "ERT1511422",
+    "w": "ERECT",
+    "t": "Erect/New Construction",
+    "s": "Open",
+    "d": "2026-03-18"
+   }
+  ]
+ },
+ "299": {
+  "name": "226 Magnolia St",
+  "addr": "226 Magnolia Street",
+  "gsf": 18655,
+  "status": "Board Approved",
+  "stage": "Under Construction",
+  "verdict": "Under Construction",
+  "why": "5 trade permit(s) after the erect permit: ELECTRICAL, FA, LVOLT, PLUMBING",
+  "n_exact": 7,
+  "addresses": [
+   "226 Magnolia ST"
+  ],
+  "permits": [
+   {
+    "n": "SF1733404",
+    "w": "EXTDEM",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2025-08-27"
+   },
+   {
+    "n": "ERT1670323",
+    "w": "ERECT",
+    "t": "Erect/New Construction",
+    "s": "Open",
+    "d": "2025-12-12"
+   },
+   {
+    "n": "E1835333",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2026-04-03"
+   },
+   {
+    "n": "EFA1835362",
+    "w": "FA",
+    "t": "Electrical Fire Alarms",
+    "s": "Open",
+    "d": "2026-04-03"
+   },
+   {
+    "n": "PL1839935",
+    "w": "PLUMBING",
+    "t": "Plumbing Permit",
+    "s": "Open",
+    "d": "2026-04-16"
+   },
+   {
+    "n": "ELV1840326",
+    "w": "LVOLT",
+    "t": "Electrical Low Voltage",
+    "s": "Open",
+    "d": "2026-06-30"
+   },
+   {
+    "n": "EFA1881133",
+    "w": "FA",
+    "t": "Electrical Fire Alarms",
+    "s": "Open",
+    "d": "2026-08-03"
+   }
+  ]
+ },
+ "114": {
+  "name": "259 Allandale Street",
+  "addr": "259 Allandale Street",
+  "gsf": 10600,
+  "status": "Board Approved",
+  "stage": "Under Construction",
+  "verdict": "Complete",
+  "why": "Certificate of Occupancy COO1344375 issued 2023-01-23",
+  "n_exact": 20,
+  "addresses": [
+   "259 Allandale ST"
+  ],
+  "permits": [
+   {
+    "n": "G77972",
+    "w": "GAS",
+    "t": "Gas Permit",
+    "s": "Open",
+    "d": "2011-05-20"
+   },
+   {
+    "n": "G104020",
+    "w": "GAS",
+    "t": "Gas Permit",
+    "s": "Closed",
+    "d": "2011-11-07"
+   },
+   {
+    "n": "G367952",
+    "w": "GAS",
+    "t": "Gas Permit",
+    "s": "Closed",
+    "d": "2014-06-13"
+   },
+   {
+    "n": "PL367953",
+    "w": "PLUMBING",
+    "t": "Plumbing Permit",
+    "s": "Closed",
+    "d": "2014-06-13"
+   },
+   {
+    "n": "ERT762505",
+    "w": "ERECT",
+    "t": "Erect/New Construction",
+    "s": "Open",
+    "d": "2018-11-19"
+   },
+   {
+    "n": "PL930096",
+    "w": "PLUMBING",
+    "t": "Plumbing Permit",
+    "s": "Closed",
+    "d": "2019-03-12"
+   },
+   {
+    "n": "G930082",
+    "w": "GAS",
+    "t": "Gas Permit",
+    "s": "Closed",
+    "d": "2019-03-12"
+   },
+   {
+    "n": "PL931489",
+    "w": "PLUMBING",
+    "t": "Plumbing Permit",
+    "s": "Open",
+    "d": "2019-03-14"
+   },
+   {
+    "n": "E928519",
+    "w": "SRVCHG",
+    "t": "Electrical Permit",
+    "s": "Closed",
+    "d": "2019-03-15"
+   },
+   {
+    "n": "E933205",
+    "w": "SOL",
+    "t": "Electrical Permit",
+    "s": "Closed",
+    "d": "2019-03-20"
+   },
+   {
+    "n": "EFA945733",
+    "w": "FA",
+    "t": "Electrical Fire Alarms",
+    "s": "Open",
+    "d": "2019-04-25"
+   },
+   {
+    "n": "E970885",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2019-07-02"
+   },
+   {
+    "n": "G992095",
+    "w": "GAS",
+    "t": "Gas Permit",
+    "s": "Open",
+    "d": "2019-08-22"
+   },
+   {
+    "n": "ALT1242205",
+    "w": "CHGOCC",
+    "t": "Long Form/Alteration Permit",
+    "s": "Open",
+    "d": "2022-01-20"
+   },
+   {
+    "n": "COO1344375",
+    "w": "CHGOCC",
+    "t": "Certificate of Occupancy",
+    "s": "Closed",
+    "d": "2023-01-23"
+   },
+   {
+    "n": "SF1671176",
+    "w": "OTHER",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2024-11-14"
+   },
+   {
+    "n": "SF1709032",
+    "w": "EXTDEM",
+    "t": "Short Form Bldg Permit",
+    "s": "Closed",
+    "d": "2025-05-15"
+   },
+   {
+    "n": "E1825452",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2026-03-06"
+   },
+   {
+    "n": "E1857367",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2026-06-04"
+   },
+   {
+    "n": "ETS1845827",
+    "w": "ELECTRICAL",
+    "t": "Electrical Temporary Service",
+    "s": "Closed",
+    "d": "2026-06-04"
+   }
+  ]
+ },
+ "111": {
+  "name": "1318 River Street",
+  "addr": "1318 River Street",
+  "gsf": null,
+  "status": "Under Construction",
+  "stage": "Under Construction",
+  "verdict": "Under Construction",
+  "why": "4 trade permit(s) after the erect permit: ELECTRICAL, LVOLT",
+  "n_exact": 6,
+  "addresses": [
+   "1318 River ST"
+  ],
+  "permits": [
+   {
+    "n": "E85308",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2011-07-12"
+   },
+   {
+    "n": "ELV223510",
+    "w": "LVOLT",
+    "t": "Electrical Low Voltage",
+    "s": "Open",
+    "d": "2013-03-21"
+   },
+   {
+    "n": "E374031",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Closed",
+    "d": "2014-06-17"
+   },
+   {
+    "n": "E720962",
+    "w": "ELECTRICAL",
+    "t": "Electrical Permit",
+    "s": "Open",
+    "d": "2017-06-16"
+   },
+   {
+    "n": "ALT1316466",
+    "w": "SD",
+    "t": "Long Form/Alteration Permit",
+    "s": "Open",
+    "d": "2024-09-20"
+   },
+   {
+    "n": "SF1657923",
+    "w": "RAZE",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2025-07-10"
+   }
+  ]
+ },
+ "165": {
+  "name": "3458 Washington Street",
+  "addr": "3458 Washington Street",
+  "gsf": null,
+  "status": "Under Construction",
+  "stage": "Under Construction",
+  "verdict": "Permitted - Not Started",
+  "why": "erect permit only; no trade permit and no CO at this address",
+  "n_exact": 3,
+  "addresses": [
+   "3458 Washington ST"
+  ],
+  "permits": [
+   {
+    "n": "SF1812178",
+    "w": "RAZE",
+    "t": "Short Form Bldg Permit",
+    "s": "Open",
+    "d": "2026-04-08"
+   },
+   {
+    "n": "FND1869084",
+    "w": "ERECT",
+    "t": "Foundation Permit",
+    "s": "Open",
+    "d": "2026-07-09"
+   },
+   {
+    "n": "ERT1682848",
+    "w": "ERECT",
+    "t": "Erect/New Construction",
+    "s": "Open",
+    "d": "2026-07-16"
+   }
+  ]
+ }
+}

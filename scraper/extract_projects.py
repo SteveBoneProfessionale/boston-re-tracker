@@ -51,7 +51,9 @@ Return a single valid JSON object with exactly these keys. Use null for any fiel
 {
   "developer": "applicant / developer company name",
   "asset_class": "one of: Residential, Office, Mixed-Use, Hotel, Lab/Research, Institutional, Industrial, Retail, Parking, Other",
-  "total_gsf": integer gross square feet of entire project,
+  "total_gsf": integer gross square feet of THE BUILDING OR PARCEL AT THE ADDRESS NAMED IN THE USER MESSAGE, or null,
+  "total_gsf_scope": "one of: building, phase, master_plan, unclear — what the number above actually measures",
+  "phase_or_master_gsf": integer gross square feet of the larger phase or master plan if the document states one, else null,
   "residential_units": integer number of residential units,
   "commercial_gsf": integer square feet of commercial/office/retail space,
   "building_height_ft": numeric height in feet,
@@ -62,6 +64,33 @@ Return a single valid JSON object with exactly these keys. Use null for any fiel
   "expected_delivery": "anticipated completion/delivery year or quarter, e.g. '2027' or '2026 Q3'",
   "description": "2-3 sentence factual summary: what is being built, where, and key program elements"
 }
+
+SQUARE FOOTAGE IS THE FIELD THIS EXTRACTION GETS WRONG, so read this twice.
+
+A single filing very often covers a PHASE or a whole MASTER PLAN containing
+several buildings, while the row being extracted is ONE address inside it. The
+question you are answering is always "how big is the building at the address in
+the user message", never "how big is everything this document describes".
+
+  - If the document gives a figure for that specific building or parcel, put it
+    in total_gsf and set total_gsf_scope to "building".
+  - If the document gives ONLY a phase total or a master-plan total covering
+    several buildings, DO NOT put it in total_gsf. Set total_gsf to null, set
+    total_gsf_scope to "phase" or "master_plan", and put the larger figure in
+    phase_or_master_gsf. A null with the right scope is correct and useful; a
+    phase total presented as a building is the specific error this instruction
+    exists to prevent.
+  - If you cannot tell which it is, set total_gsf to null and total_gsf_scope
+    to "unclear". Do not guess.
+
+Worked example. A board memo describes a 1,386,500 sf first phase comprising
+five buildings at 505 Dorchester Ave, 65 Ellery St and 75 Ellery St, and states
+no per-building size. Extracting for "65 Ellery Street" you return
+total_gsf = null, total_gsf_scope = "phase", phase_or_master_gsf = 1386500.
+You do NOT return total_gsf = 1386500.
+
+Never add up unit counts, acreage, floor plates or FAR to reach a square
+footage. Report only what the document states.
 
 Return only the JSON object — no prose, no markdown fences."""
 
@@ -226,7 +255,28 @@ def run_extraction(limit: int | None = None, reprocess: bool = False):
                     )
                     proj.developer_canonical = canonical if is_real_company(canonical) else None
                 proj.asset_class = data.get("asset_class")
-                proj.total_gsf = _to_int(data.get("total_gsf"))
+
+                # THE SCOPE IS ENFORCED HERE, NOT JUST ASKED FOR. A building
+                # figure is the only thing allowed into total_gsf. A phase or
+                # master-plan total goes to master_plan_total_gsf and total_gsf
+                # is LEFT ALONE rather than overwritten, because the BPDA page
+                # figure already on the row is better than a phase total.
+                #
+                # This is what previously produced 1,386,500 on three separate
+                # On the Dot parcels, and 790,000 on one building of the Austin
+                # Street redevelopment.
+                scope = (data.get("total_gsf_scope") or "unclear").strip().lower()
+                bldg = _to_int(data.get("total_gsf"))
+                larger = _to_int(data.get("phase_or_master_gsf"))
+                if scope == "building" and bldg:
+                    proj.total_gsf = bldg
+                    proj.total_gsf_source = "filing"
+                else:
+                    log.warning("  GSF NOT WRITTEN: scope=%s building=%s larger=%s "
+                                "-- leaving total_gsf at %s", scope, bldg, larger,
+                                proj.total_gsf)
+                if larger and scope in ("phase", "master_plan"):
+                    proj.master_plan_total_gsf = larger
                 proj.residential_units = _to_int(data.get("residential_units"))
                 proj.commercial_gsf = _to_int(data.get("commercial_gsf"))
                 proj.building_height_ft = _to_float(data.get("building_height_ft"))
