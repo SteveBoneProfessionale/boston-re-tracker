@@ -1,0 +1,164 @@
+[
+ {"id": 1070, "name": "Waldorf Astoria Hotel & Residences Miami",
+  "values": {"residential_units": 387, "hotel_rooms": 205, "height_ft": 1049, "stories": 100},
+  "sources": {"_default": {"name": "Florida YIMBY, 27 Aug 2026", "date": "2026-08-27",
+    "url": "https://floridayimby.com/2026/08/waldorf-astoria-hotel-residences-miami-begins-ninth-and-final-cube-as-supertall-nears-topping-out.html"}},
+  "notes": "Corroborated by Florida YIMBY of 25 Feb 2026. The 1,049 ft is the tower height as reported, with no roof-versus-spire or above-ground-versus-sea-level basis stated. IMPORTANT: the FAA tower-crane permits at this site, at 1,255, 1,214 and 1,225 ft above ground, are CRANE heights rather than the building's and were excluded — this is the project the FAA calibration pass would have written 395 ft onto from a 2018 survey of the demolished building.",
+  "quotes": {
+    "residential_units": "Waldorf Astoria Hotel & Residences Miami broke ground in 2022 and will comprise 387 private condominium residences and 205 guest rooms, marking the first introduction of the Waldorf Astoria brand to the Miami market, with BAMO handling interior design.",
+    "hotel_rooms": "Waldorf Astoria Hotel & Residences Miami broke ground in 2022 and will comprise 387 private condominium residences and 205 guest rooms, marking the first introduction of the Waldorf Astoria brand to the Miami market, with BAMO handling interior design.",
+    "height_ft": "At 1,049 feet, or about 320 meters, the completed tower will surpass the 300-meter threshold for supertall status, making it the first supertall skyscraper in Florida.",
+    "stories": "Construction has begun on the ninth and final cube of Waldorf Astoria Hotel & Residences Miami, bringing the 100-story supertall into the final major stage of its vertical rise at 300 Biscayne Boulevard in Downtown Miami."}},
+
+ {"id": 1374, "name": "130 Biscayne Boulevard",
+  "values": {"residential_units": 414, "hotel_rooms": 144, "height_ft": 955, "stories": 87},
+  "sources": {"_default": {"name": "Florida YIMBY, 10 Dec 2025", "date": "2025-12-10",
+    "url": "https://floridayimby.com/2025/12/plans-filed-for-955-foot-tall-tower-at-130-biscayne-boulevard-in-downtown-miami.html"}},
+  "notes": "All figures are from plans filed with Miami-Dade County in December 2025, and the status is Planning, so every one of them is proposed rather than built. The article's 1,667,604 sq ft matches this row's floor area exactly, which confirms it describes the same filing. The 955 ft has no stated roof-versus-spire or above-ground basis. This is the second project the FAA calibration would have mis-filled, at 362 ft from a 2017 survey.",
+  "quotes": {
+    "residential_units": "Levels 31 through the crown will contain 414 condominium residences, including one, two, and three bedroom layouts and penthouse units.",
+    "hotel_rooms": "Below the residential floors, levels 19 through 30 will accommodate a 144 room hotel program.",
+    "height_ft": "At 955 feet, the tower falls just 29 feet short of the 300 meter international supertall threshold, but would nonetheless surpass the height of every completed building in Miami today.",
+    "stories": "The 87 story tower is planned to yield 1,667,604 square feet and is organized into several program zones."}},
+
+ {"id": 1180, "name": "The Residences at Mandarin Oriental, Miami — South Tower",
+  "values": {"residential_units": 228, "height_ft": 856, "stories": 66},
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 6 Oct 2026", "date": "2026-10-06",
+      "url": "https://floridayimby.com/2026/10/swire-properties-breaks-ground-on-the-residences-at-mandarin-oriental-miami-on-brickell-key.html"},
+    "height_ft": {"name": "FAA Determination of No Hazard to Air Navigation, Aeronautical Study No. 2026-ASO-7021-OE, sponsor SWIRE 50A DEVELOPMENT", "date": "2026-09-29",
+      "url": "https://oeaaa.faa.gov/oeaaa/asn-display/asn-case-display-page.html?asn=2026-ASO-7021-OE"}},
+  "notes": "WHICH TOWER THIS ROW IS, RESOLVED: 1 Island Drive is the SOUTH TOWER. Four links of primary record, each verified independently. City of Miami master permit BD23028760001B001 has delivery address 1 ISLAND DR, folio 0142070030020 and 1,351,367 sq ft — exactly this row's floor area — with work items reading MULTI-FAMILY (CONDO) only, issued 16 Jul 2026. That folio is 750 Claughton Island Dr, legal Brickell Key on Claughton Island Tr K, 2.419 acres. FAA determination 2026-ASO-7021-OE for Building Tower 1 gives four corner points at 856 ft above ground. A ray-casting point-in-polygon test placed all four of those corners inside folio 0142070030020 and none inside the other parcel, and Tower 1's footprint centroid is about 140 m SOUTH of Tower 2's, which is what makes Tower 1 the South Tower. HEIGHT BASIS: 856 ft is above ground level per the letter's own glossary; the 861 to 865 ft above-sea-level values are excluded. The four points are footprint corners rather than a spire. The press design height is 850 ft, 6 ft lower and with no stated basis. SUPERSEDED: the 2022 FAA filings for this tower, cases 2022-ASO-46369 to -46372-OE, were over-filed placeholders at 1,040 to 1,044 ft. HOTEL KEYS ARE ZERO HERE but are not recorded as a stated zero, because the only sentence that establishes it is about the North Tower rather than this one: the source assigns all 121 keys there. Nothing was inferred from permit use codes — the parcel geometry is what carries the identification.",
+  "quotes": {
+    "residential_units": "The South Tower will contain 228 private residences with interiors by Tristan Auer.",
+    "height_ft": "The proposed building project consists of four points at height of 852 and 856 feet AGL, 861 and 865 feet AMSL.",
+    "stories": "Designed by Kohn Pedersen Fox, the project comprises a 66-story South Tower and a 33-story North Tower, with previously reported heights of 850 and 426 feet, respectively."}},
+
+ {"id": 1179, "name": "The Residences at Mandarin Oriental, Miami — North Tower",
+  "values": {"hotel_rooms": 121, "height_ft": 446, "stories": 33},
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 6 Oct 2026", "date": "2026-10-06",
+      "url": "https://floridayimby.com/2026/10/swire-properties-breaks-ground-on-the-residences-at-mandarin-oriental-miami-on-brickell-key.html"},
+    "height_ft": {"name": "FAA Determination of No Hazard to Air Navigation, Aeronautical Study No. 2026-ASO-7022-OE, sponsor SWIRE 50A DEVELOPMENT", "date": "2026-08-25",
+      "url": "https://oeaaa.faa.gov/oeaaa/asn-display/asn-case-display-page.html?asn=2026-ASO-7022-OE"}},
+  "notes": "WHICH TOWER THIS ROW IS, RESOLVED: 2 Island Drive is the NORTH TOWER, the hotel tower. The chain, verified independently: City of Miami permit BD23028759001B001 has delivery address 2 ISLAND DR, folio 0142070030010 and 1,061,231 sq ft — exactly this row's floor area — issued 19 Aug 2026; that folio is 500 Brickell Key Dr, legal Tr J, 2.76 acres, DOR use HOTEL OR MOTEL, 20 floors, built 2000, which is the former Mandarin Oriental hotel parcel, and every demolition permit for the April 2026 implosion sits at 2 Island Dr, matching press that the implosion cleared 500 Brickell Key Drive; FAA determination 2026-ASO-7022-OE for Building Tower 2 gives four corners at 446 ft above ground, and the point-in-polygon test placed all four inside folio 0142070030010. RESIDENTIAL UNITS DELIBERATELY NOT RECORDED: the source prints 70 private residences and 28 turnkey Hotel Collection residences as separate components with no combined residential total, so they are not summed to 98. HEIGHT BASIS: 446 ft is above ground level; the 455 to 470 ft above-sea-level values are excluded. The press design height is 426 ft, 20 ft lower, with no stated basis. The permit's use codes agree that the North Tower is the hotel but were not relied on.",
+  "quotes": {
+    "hotel_rooms": "The North Tower will house 70 private residences with interiors by Laura Gonzalez, 28 turnkey Hotel Collection residences, and a 121-room Mandarin Oriental hotel planned as the brand's North American flagship.",
+    "height_ft": "Label Latitude Longitude SE DET AGL AMSL Tower 2 NW Pt 25-45-56.66N 80-11-07.43W 17 Ft 446 Ft 463 Ft Tower 2 NE Pt 25-45-56.20N 80-11-05.74W 9 Ft 446 Ft 455 Ft Tower 2 SE Pt 25-45-55.03N 80-11-06.12W 24 Ft 446 Ft 470 Ft Tower 2 SW Pt 25-45-55.40N 80-11-07.96W 11 Ft 446 Ft 457 Ft",
+    "stories": "Designed by Kohn Pedersen Fox, the project comprises a 66-story South Tower and a 33-story North Tower, with previously reported heights of 850 and 426 feet, respectively."}},
+
+ {"id": 1208, "name": "1401 Brickell by Santander",
+  "values": {"residential_units": 0, "height_ft": 765, "stories": 50},
+  "sources": {
+    "residential_units": {"name": "Florida YIMBY, 20 Aug 2025", "date": "2025-08-20",
+      "url": "https://floridayimby.com/2025/08/site-work-permit-issued-for-santander-tower-at-1401-brickell-avenue.html"},
+    "height_ft": {"name": "Florida YIMBY, 17 Apr 2025", "date": "2025-04-17",
+      "url": "https://floridayimby.com/2025/04/demolition-progresses-at-1401-brickell-avenue-future-site-of-41-story-santander-tower-in-miamis-financial-district.html"},
+    "stories": {"name": "Florida YIMBY, 9 Apr 2026", "date": "2026-04-09",
+      "url": "https://floridayimby.com/2026/04/50-story-1401-brickell-by-santander-breaks-ground-in-miami.html"}},
+  "notes": "NO RESIDENTIAL COMPONENT, recorded as a stated zero rather than left blank. Full programme enumerations in Florida YIMBY and Bisnow list office, retail, restaurant, fitness, amenity and parking only, and no article in any acceptable source mentions residences. HEIGHT BASIS: 765 ft is explicitly above ground, the 778 ft above sea level being excluded. A separate sentence reads 765 feet to the roof, or 784 feet including its lightning rod — the 784 ft is REJECTED and 765 ft is the roof. CAVEAT: 765 ft was published in April and August 2025 when the tower was described as 41 storeys, and the April 2026 groundbreaking describes 50 storeys without restating a height, so the figure may be superseded. Superseded storey counts: 40 in 2024, 41 in 2025.",
+  "quotes": {
+    "residential_units": "Plans call for approximately 635,000 square feet of office space, 60,000 square feet of retail, 50,000 square feet of restaurant space, and 20,000 square feet of fitness facilities, along with 1,496 parking spaces.",
+    "height_ft": "The new tower, rising 765 feet above ground (778 feet above sea level), represents a significant architectural and engineering addition to Miami's Financial District.",
+    "stories": "Santander has broken ground on 1401 Brickell by Santander, a 50-story mixed-use tower in Miami's Financial District."}},
+
+ {"id": 963, "name": "830 Brickell",
+  "values": {"residential_units": 0, "height_ft": 724, "stories": 57},
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 4 Dec 2025", "date": "2025-12-04",
+      "url": "https://floridayimby.com/2025/12/cain-and-oko-group-secure-630-million-refinancing-for-830-brickell.html"},
+    "height_ft": {"name": "Florida YIMBY, 30 Aug 2022", "date": "2022-08-30",
+      "url": "https://floridayimby.com/2022/08/winston-strawn-baker-mckenzie-sign-leases-at-oko-group-and-cain-internationals-55-story-830-brickell-office-tower.html"}},
+  "notes": "NO RESIDENTIAL COMPONENT, recorded as a stated zero. Described consistently across Florida YIMBY, Bisnow and Commercial Observer as a stand-alone Class A and A-plus office tower with street-level retail, with no residential units in any article. STOREYS: 57 per the most recent coverage; the 55 used in 2022 and 2023 is superseded, and the two counts may reflect different floor-numbering conventions rather than a design change. The 724 ft dates from 2022, has no stated roof-versus-spire or above-ground basis, and was not restated alongside the 57-storey figure.",
+  "quotes": {
+    "residential_units": "Designed by Adrian Smith + Gordon Gill Architecture and completed in 2023, 830 Brickell is the first stand-alone Class A+ office building delivered in Brickell in more than ten years.",
+    "height_ft": "The 724-foot-tall tower, developed in partnership by OKO Group and Cain International, is nearing completion in Miami's Brickell Financial District and is expected to be fully leased ahead of its delivery in late 2022.",
+    "stories": "Cain and OKO Group have secured a $630 million refinancing for 830 Brickell, a 57-story Class A office tower at the heart of Miami's Brickell Financial District."}},
+
+ {"id": 995, "name": "Natiivo Miami",
+  "values": {"residential_units": 448, "hotel_rooms": 240, "height_ft": 588, "stories": 51},
+  "sources": {"_default": {"name": "Florida YIMBY, 17 Nov 2022", "date": "2022-11-17",
+    "url": "https://floridayimby.com/2022/11/natiivo-tops-out-51-story-pinnacle-at-601-northeast-1st-avenue-in-downtown-miami.html"}},
+  "notes": "CAUTION ON THE 448. An earlier Florida YIMBY piece of 14 Apr 2021 breaks the programme down differently — the residential portion divided between 100 hotel rooms and 140 hotel-condos under the Gale Hotel & Residences brand, then another 448 condos — so 448 may count only the non-hotel-branded condominiums and EXCLUDE 140 Gale-branded hotel-condos. No source prints a combined residential total, so nothing was summed, and 448 is recorded because the most recent article states it outright as the building's residential condominium count. The 240-room hotel figure is the 2022 source's own and is not an addition of the 2021 article's 100 plus 140. The 588 ft has no stated roof-versus-spire or above-ground basis.",
+  "quotes": {
+    "residential_units": "Upon completion, the building will have 448 residential condominium units and a 125,000-square-foot office component.",
+    "hotel_rooms": "The building will also house a 240-room hotel, Gale Port Miami, which will feature expertly designed hotel suites, perfect for extended stays and families.",
+    "height_ft": "It's a milestone in the completion of the 588-foot-tall luxury residential/hotel tower, which is set to open in late 2023.",
+    "stories": "On November 11, Sixth Street Miami Partners LLC and KAST Construction celebrated the topping off of Natiivo (601 Miami), a 51-story mixed-use building located at 601 Northeast 1st Avenue in Downtown Miami."}},
+
+ {"id": 976, "name": "Okan Tower",
+  "values": {"hotel_rooms": 316, "height_ft": 902, "stories": 72},
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 22 Apr 2026", "date": "2026-04-22",
+      "url": "https://floridayimby.com/2026/04/construction-reaches-50th-floor-on-okan-tower-at-555-north-miami-avenue-in-downtown-miami.html"},
+    "height_ft": {"name": "Florida YIMBY, 31 Jul 2025, on the master construction permit issued by the City of Miami", "date": "2025-07-31",
+      "url": "https://floridayimby.com/2025/07/master-permit-issued-for-70-story-okan-tower-in-downtown-miami.html"}},
+  "notes": "RESIDENTIAL UNITS DELIBERATELY NOT RECORDED. The programme is published as two separate residential components — 236 condo-hotel residences managed by Hilton and 163 Sky Residences — and no acceptable source prints a combined total, so they are not summed to 399. Note that the condo-hotel units are for-sale residences on floors 36 to 50 rather than hotel keys; the 316 Hilton keys are separate and are what the hotel field holds. HEIGHT: 902 ft per the July 2025 master-permit article, against 903 ft used in January 2026 — a 1 ft discrepancy recorded here. No roof-versus-spire or above-ground basis is stated. STOREYS CONFLICT WITHIN ONE OUTLET: 70 storeys in the July 2025 master-permit piece and again in March 2026, against 72 in January and April 2026. The most recent figure is recorded, but treat it as uncertain.",
+  "quotes": {
+    "hotel_rooms": "Once complete, Okan Tower will contain a 316-key Hilton Miami Bayfront Hotel, 236 condo-hotel residences managed by Hilton Hotels & Resorts, 163 Sky Residences, and approximately 64,000 square feet of Class A office space.",
+    "height_ft": "Upon completion, the tower will rise 902 feet, making it one of the tallest buildings on the Miami skyline.",
+    "stories": "Developed by Okan Group and designed by Behar Font & Partners, the tower is now at roughly 75 percent structural completion, with 22 floors remaining to reach its full height of 72 stories."}},
+
+ {"id": 1162, "name": "The St. Regis Residences, Miami",
+  "values": {"residential_units": 152, "height_ft": 632, "stories": 47},
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 10 Jul 2025", "date": "2025-07-10",
+      "url": "https://floridayimby.com/2025/07/archaeological-discovery-surfaces-at-1809-brickell-avenue-during-construction-of-st-regis-residences.html"},
+    "residential_units": {"name": "Florida YIMBY, 23 Nov 2024", "date": "2024-11-23",
+      "url": "https://floridayimby.com/2024/11/the-st-regis-residences-miami-now-under-construction-at-1809-brickell-avenue.html"}},
+  "notes": "The 152 is corroborated by Florida YIMBY of 7 Sep 2024. SUPERSEDED: 50 storeys in both 2024 articles, now 47 per July 2025, and a vague 2022 line saying the east tower alone will offer close to 150 residences. The 632 ft has no stated roof-versus-spire or above-ground basis. Despite the St. Regis brand this is an all-residential condominium with no hotel component reported.",
+  "quotes": {
+    "residential_units": "The development features 152 bespoke residences, including penthouses, sky villas, and two stand-alone garden villas.",
+    "height_ft": "The tower is planned to rise 47 stories and reach a height of 632 feet.",
+    "stories": "The tower is planned to rise 47 stories and reach a height of 632 feet."}},
+
+ {"id": 1035, "name": "The Wynwood Plaza — office tower", "values": {"stories": 12},
+  "sources": {"_default": {"name": "Florida YIMBY, 18 Sep 2023", "date": "2023-09-18",
+    "url": "https://floridayimby.com/2023/09/12-story-class-aaa-office-tower-tops-off-at-the-wynwood-plaza-in-miami.html"}},
+  "notes": "THIS ROW IS THE OFFICE TOWER AND HAS NO RESIDENTIAL COMPONENT. It is not recorded as a stated zero, because the only sentence available is about the OTHER building: The Wynwood Plaza is two separate buildings, a 266,000 sq ft, 12-storey Class AAA office tower and a SEPARATE 509-unit residential building, both rising 12 storeys. The 509 units must NOT be attached to this row, and if the tracker has no row for the residential building that is a separate gap worth opening. FLAG: this row's 704,291 sq ft far exceeds the office tower's published 266,000 sq ft, so the floor area may describe more than the office building. HEIGHT IN FEET NOT FOUND in any acceptable source.",
+  "quotes": {"stories": "L&L Holding Company and Oak Row Equities, along with project partner Shorenstein Properties and co-investor Claure Group, have topped out of the 12-story, 266,000-square-foot, Class AAA boutique office tower at The Wynwood Plaza, a one-million-square-foot mixed-use development designed by Gensler under construction located at 95 Northwest 29th Street in Miami's Wynwood Arts District."}},
+
+ {"id": 1126, "name": "Excel Miami",
+  "values": {"residential_units": 427, "height_ft": 275, "stories": 24},
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 5 Jul 2026", "date": "2026-07-05",
+      "url": "https://floridayimby.com/2026/07/nations-tallest-mural-completed-on-24-story-excel-miami-in-downtown-miami.html"},
+    "height_ft": {"name": "Florida YIMBY, 11 Apr 2025", "date": "2025-04-11",
+      "url": "https://floridayimby.com/2025/04/construction-rises-on-excel-miami-at-1550-ne-miami-place-in-miamis-arts-entertainment-district.html"}},
+  "notes": "The 427 units are stated consistently from the December 2024 groundbreaking through July 2026, and the height sentence's 335,264 sq ft matches this row's floor area exactly, which confirms it describes this building. WARNING: the July 2026 article contains a figure of 245 feet along the south elevation — that is the MURAL's height, not the building's, and must not be used. The 275 ft has no stated roof-versus-spire or above-ground basis. This is the third project the FAA calibration pass would have mis-filled, at 414 ft from a 2019 survey against the published 275.",
+  "quotes": {
+    "residential_units": "Located around the corner from the Metromover's School Board station, Excel Miami will deliver 427 rental residences, street-level retail, and amenity spaces within a transit-accessible section of downtown Miami.",
+    "height_ft": "Designed by Arquitectonica, with LEO A DALY serving as the architect-of-record and developed by Clearline Real Estate with Shawmut Design and Construction as the general contractor, the 275-foot-tall structure is expected to yield an estimated 335,264 square feet of space, including 262,747 square feet of residential space spread across 427 rental apartments and a parking podium spanning four stories topped with amenities.",
+    "stories": "The nation's tallest mural has been completed on Excel Miami, a 24-story residential tower at 1550 NE Miami Place in Miami's Arts & Entertainment District."}},
+
+ {"id": 1212, "name": "Dulce Vida Apartments",
+  "values": {"residential_units": 227, "height_ft": 80, "stories": 8},
+  "sources": {"_default": {"name": "Florida YIMBY, 29 Dec 2025", "date": "2025-12-29",
+    "url": "https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html"}},
+  "notes": "The 227 supersedes the 200 rental units reported at unveiling in July 2023. The same article gives the mix as 70 studios, 128 one-bedroom and 29 two-bedroom, which are components only — the 227 is the source's own stated total rather than arithmetic. The height is stated as approximately 80 feet, given as building height, with no roof-versus-spire or above-ground basis. Corroborated by Commercial Observer and The Real Deal of December 2025 on the $54m Citibank loan. A Live Local Act project on a Miami-Dade County-owned library site.",
+  "quotes": {
+    "residential_units": "Dulce Vida will deliver a total of 227 residential units comprised of studio, one-bedroom, and two-bedroom layouts.",
+    "height_ft": "The eight-story building will rise approximately 80 feet in height.",
+    "stories": "Plans are advancing for Dulce Vida, an eight-story mixed-income residential development in Allapattah, following the closing of a $54 million construction loan."}},
+
+ {"id": 966, "name": "Una Residences",
+  "values": {"residential_units": 129, "height_ft": 579, "stories": 47},
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 26 Feb 2026", "date": "2026-02-26",
+      "url": "https://floridayimby.com/2026/02/oko-group-and-cain-receive-tco-for-47-story-una-residences-at-175-se-25th-road-in-brickell.html"},
+    "height_ft": {"name": "Florida YIMBY, 17 Apr 2024", "date": "2024-04-17",
+      "url": "https://floridayimby.com/2024/04/una-residences-tops-off-at-175-northeast-25th-road-in-brickell-miami.html"}},
+  "notes": "THE UNIT COUNT CHANGED LATE — 129, not 135. The as-built figure at temporary certificate of occupancy in February 2026 is 129 condominium residences, and the April 2024 topping-off article's 135 is SUPERSEDED. Note that the superseded 135 appears in the very sentence used here for the 579 ft height, so the height quote carries a unit figure that must be ignored. HEIGHT: 579 ft from April 2024 supersedes 613 ft from the 2021 pre-construction article; no roof-versus-spire or above-ground basis is stated.",
+  "quotes": {
+    "residential_units": "Rising along the South Brickell shoreline, the tower introduces 129 condominium residences to a stretch of waterfront that has not seen a newly delivered condominium project in more than a decade.",
+    "height_ft": "This 579-foot-tall building, designed by the internationally recognized architectural firm Adrian Smith + Gordon Gill (AS+GG) with Revuelta Architecture International as the architect of record, features 135 spacious condominiums offering unobstructed views of the Atlantic Ocean, Key Biscayne, and the Downtown Miami skyline.",
+    "stories": "Construction has reached completion and a Temporary Certificate of Occupancy has been issued for Una Residences, a 47-story waterfront condominium tower at 175 SE 25th Road in Miami's Brickell neighborhood."}},
+
+ {"id": 1232, "name": "Sweetbird North", "values": {"residential_units": 0, "stories": 8},
+  "sources": {"_default": {"name": "Florida YIMBY, 4 Oct 2026", "date": "2026-10-04",
+    "url": "https://floridayimby.com/2026/10/sweetbird-north-breaks-ground-at-95-northeast-40th-street-in-miamis-design-district.html"}},
+  "notes": "NO RESIDENTIAL COMPONENT, recorded as a stated zero, and a NEW finding rather than a confirmation: this row was not flagged as office anywhere. Sweetbird North is an eight-storey office-and-retail building of roughly 120,500 sq ft, with more than 92,000 sq ft of office and about 22,500 sq ft of retail, office floors 3 to 5 pre-leased to Atria Health and Research Institute. FLAG: the article's roughly 120,500 sq ft differs from this row's 115,821 sq ft. HEIGHT IN FEET NOT FOUND — it broke ground on 30 September 2026, so little detail is published yet.",
+  "quotes": {
+    "residential_units": "Developed by Miami Design District Associates in partnership with Raycliff Capital and designed by Snøhetta, the approximately 120,500-square-foot project will contain more than 92,000 square feet of office space and approximately 22,500 square feet of retail.",
+    "stories": "Ground has broken on Sweetbird North, an eight-story office and retail development at 95 Northeast 40th Street in Miami's Design District."}}
+]

@@ -42,6 +42,7 @@ from db.database import get_session, init_db       # noqa: E402
 from db.models import Project, ExtractionSource    # noqa: E402
 
 COLUMNS = {
+    "name": "name",
     "developer": "developer",
     "architect": "architect",
     "contractor": "general_contractor",
@@ -82,6 +83,23 @@ WRONG_ARCHITECT_ROLE = re.compile(
 
 SEA_LEVEL = re.compile(r"above sea level|sea level|AMSL", re.I)
 
+# Words that mean a quoted programme DOES contain dwellings, or lodging. A
+# stated zero is a real finding -- an office tower genuinely has no residences,
+# and leaving the field blank makes that read as unresearched -- but no source
+# ever writes the digit 0, so the figure itself cannot be checked against the
+# sentence the way every other number is. What can be checked is the sentence:
+# a programme enumeration that lists office, retail, restaurant and parking and
+# names no dwelling establishes the zero. One that mentions residences does
+# not, and is usually a sentence about the OTHER building on the site -- which
+# is exactly how the Wynwood Plaza office row would have been given the
+# residential building's 509 apartments.
+DWELLINGS = re.compile(
+    r"residen|apartment|condo|dwelling|home\b|homes\b|unit\b|units\b|"
+    r"multifamily|multi-family|townhouse|penthouse|villa", re.I)
+LODGING = re.compile(r"hotel|hospitality|\bkeys?\b|\broom\b|\brooms\b|lodging|"
+                     r"guestroom|guest room", re.I)
+ZERO_CHECKABLE = {"residential_units": DWELLINGS, "hotel_rooms": LODGING}
+
 _WORD = re.compile(r"[A-Za-z0-9]+")
 
 # Storey counts are usually written out, not in digits.
@@ -91,6 +109,30 @@ WORD_NUMBERS = {
     13: "thirteen", 14: "fourteen", 15: "fifteen", 16: "sixteen",
     17: "seventeen", 18: "eighteen", 19: "nineteen", 20: "twenty",
 }
+
+
+# An above-ground idiom applied to the figure itself. An FAA letter is quoted
+# as "a 440-foot-tall structure, or 451 feet above sea level", which states both
+# numbers and says which is which -- so requiring the literal words "above
+# ground" rejected correctly-quoted above-ground heights. The figure must carry
+# the idiom AND the sea-level number must be a different one; if the quoted
+# figure is the number attached to "above sea level", it is still refused.
+def _above_ground(n, q):
+    near = (rf"(?<!\d){n:,}(?!\d)|(?<!\d){n}(?!\d)")
+    idiom = re.compile(
+        rf"(?:{near})[- ]?(?:foot|feet|ft)?[- ]?(?:tall|high|above ground|above grade)|"
+        # "856 feet AGL" is the FAA's own way of saying above ground level, and
+        # it is the most explicit form of the statement this guard looks for.
+        rf"(?:{near})\s*(?:foot|feet|ft)\.?\s*AGL\b|"
+        rf"(?:rise|rises|rising|reaching|stands?|top(?:s|ping)? out at)[^.]{{0,20}}(?:{near})",
+        re.I)
+    if not idiom.search(q):
+        return False
+    # The sea-level clause must be about some other figure.
+    for m in re.finditer(r"([\d,]+)\s*(?:feet|ft\.?)?\s*above (?:mean )?sea level", q, re.I):
+        if int(m.group(1).replace(",", "")) == n:
+            return False
+    return True
 
 
 def _tokens(value: str):
@@ -112,6 +154,17 @@ def check(field, value, quote, url):
     q = str(quote)
 
     if field in NUMERIC:
+        if int(float(value)) == 0:
+            # A stated zero: the quote must be a programme enumeration that
+            # names no use of this kind. See DWELLINGS above.
+            pat = ZERO_CHECKABLE.get(field)
+            if pat is None:
+                return "a zero is only a meaningful finding for units or keys"
+            hit = pat.search(q)
+            if hit:
+                return (f"quote mentions {hit.group(0)!r}, so it does not establish "
+                        f"that this building has none")
+            return ""
         # The figure itself must appear in the sentence -- as digits, with or
         # without a thousands separator, or spelled out. Storey counts are
         # routinely written as words ("the six-story medical center", "nine
@@ -123,11 +176,19 @@ def check(field, value, quote, url):
             forms.append(rf"\b{WORD_NUMBERS[n]}\b")
         if not any(re.search(f, q, re.I) for f in forms):
             return f"the figure {value} does not appear in the quoted sentence"
-        if field == "height_ft" and SEA_LEVEL.search(q) and "above ground" not in q.lower():
+        if field == "height_ft" and SEA_LEVEL.search(q) and not _above_ground(n, q):
             return "quote mentions sea level; above-ground height not distinguishable"
         return ""
 
     toks = _tokens(value)
+    if field == "name":
+        # A project name must be recognisable in the sentence that names it.
+        # Half its distinctive words is the bar rather than one, because a
+        # single shared word ("Miami", "Residences") is in half the market.
+        hits = sum(1 for t in toks if re.search(rf"\b{re.escape(t)}", q, re.I))
+        if toks and hits < max(1, len(toks) // 2):
+            return f"the quoted sentence does not clearly name {value!r}"
+        return ""
     if toks and not any(re.search(rf"\b{re.escape(t)}", q, re.I) for t in toks):
         return f"none of the distinctive words in {value!r} appear in the quoted sentence"
 
@@ -141,6 +202,17 @@ def check(field, value, quote, url):
         if not re.search(r"designed by|architect of record|is the architect", head, re.I):
             return "quote names the firm in a landscape or interiors role"
     return ""
+
+
+def _source_for(sources, field):
+    """The source for a field, falling back to the finding's `_default`.
+
+    Most findings rest on one article that states several of the fields, and
+    repeating the same URL under eight keys made the files long enough that a
+    mismatched URL would be easy to miss. A `_default` entry covers every field
+    with no entry of its own; a per-field entry always wins.
+    """
+    return sources.get(field) or sources.get("_default") or {}
 
 
 def apply(path, dry_run=False, verbose=True):
@@ -157,14 +229,38 @@ def apply(path, dry_run=False, verbose=True):
             if row is None:
                 report.append(("MISSING ROW", item.get("name"), "", "no project with that id"))
                 continue
-            values = item.get("values") or {}
+            values = dict(item.get("values") or {})
             sources = item.get("sources") or {}
             quotes = item.get("quotes") or {}
+
+            # A NAME is the most valuable thing research can return for a row
+            # the permit feed knows only as an address, so it is applied like
+            # any other value -- with a source and a quote, and only onto a row
+            # that is still carrying its address as its name.
+            new_name = item.get("name")
+            if new_name and row.name == row.address:
+                name_src = _source_for(sources, "name")
+                why = check("name", new_name, quotes.get("name"),
+                            name_src.get("url"))
+                if why and why != "empty":
+                    rejected += 1
+                    report.append(("REJECTED", row.name, "name", why))
+                elif not why:
+                    src = name_src
+                    report.append(("NAMED", row.address, "name", new_name))
+                    if not dry_run:
+                        row.name = new_name
+                        db.flush()
+                        db.add(ExtractionSource(
+                            project_id=row.id, field_name="name",
+                            field_value=new_name, filing_name=src.get("name") or "",
+                            filing_date=src.get("date") or "", pdf_url=src["url"]))
+                    stored += 1
             for field, value in values.items():
                 if field not in COLUMNS:
                     report.append(("UNKNOWN FIELD", row.name, field, "not a storable field"))
                     continue
-                src = sources.get(field) or {}
+                src = _source_for(sources, field)
                 why = check(field, value, quotes.get(field), src.get("url"))
                 if why == "empty":
                     continue

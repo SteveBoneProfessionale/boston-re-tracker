@@ -1,0 +1,84 @@
+[
+ {"id": 1362, "name": "2001 North Flagler Drive", "values": {"residential_units": 90, "stories": 27},
+  "sources": {
+    "residential_units": {"name": "City of West Palm Beach Planning Board agenda, meeting of 19 May 2026, Case No. 2025 SP-25100073", "date": "2026-05-19",
+      "url": "https://www.wpb.org/files/assets/city/v/1/development-services/documents/planning-board/2026-pb-agendas/pb-agenda-2026.5.19-updated.pdf"},
+    "stories": {"name": "Florida YIMBY, 29 Jan 2026", "date": "2026-01-29",
+      "url": "https://floridayimby.com/2026/01/developers-propose-luxury-27-story-for-2001-n-flagler-dr-west-palm-beach-fl.html"}},
+  "notes": "UNIT COUNT NOW RECORDED, replacing the earlier deliberate blank. A government primary record states a single total, so the no-arithmetic rule no longer forces a blank: the City counts 90 dwelling units total for the whole Level III Special Review on a roughly 0.78-acre tract. That means Florida YIMBY's 90 condos and eight lower-level townhouses is most likely that outlet's own gloss rather than two additive components, and must NOT be read as 98. Corroborated by The Real Deal of 27 Oct 2025 — a five-story parking podium and a 22-story tower with 90 units — and by the City's PPRC pre-application agenda, case FSPR 25-05 of 22 Jan 2026. HEIGHT POSITIVELY ABSENT rather than merely unsearched: the extracted agenda text contains no instance of feet, height or stor. The only foot figures in existence are a 195 ft height bonus requested against a 111 ft base cap, and summing those would be arithmetic. TRAP: searches readily return 306 feet and 27 stories for this address; that belongs to Shorecrest at 1901 North Flagler Drive, a different Related tower that is also 27 storeys, also on North Flagler and also uses 195 ft of bonus height. It must not be assigned here.",
+  "quotes": {
+    "residential_units": "A request by Brian Seymour, Esq. and John Roach, AICP of Gunster Law, on behalf of 2001 N Flagler Drive Owner LLC, for the approval of a Level III Special Review with variances from the City's Zoning and Land Development Regulations, to construct a 90-unit multifamily residential development within the Currie Mixed-Use District - Core I (CMUD Core-I) Sub-district.",
+    "stories": "The proposed tower would measure 27 stories and comprise just over 480,000 square feet of new construction."}},
+
+ {"id": 1010, "name": "Fourteen Allapattah Residences", "values": {"residential_units": 237, "height_ft": 135, "stories": 14},
+  "sources": {
+    "residential_units": {"name": "The Real Deal, 23 Dec 2024", "date": "2024-12-23",
+      "url": "https://therealdeal.com/miami/2024/12/23/starwood-provides-64m-refi-for-neology-allapattah-project/"},
+    "height_ft": {"name": "FAA Obstruction Evaluation / Airport Airspace Analysis, Aeronautical Study No. 2021-ASO-13085-OE, Allapattah 14, Determined - No Hazard", "date": "2021-07-18",
+      "url": "https://oeaaa.faa.gov/oeaaa/oe3a-external-api/downloadArchives.do?fname=Part77ASO2021List.gzip"},
+    "stories": {"name": "Florida YIMBY, 1 Dec 2023", "date": "2023-12-01",
+      "url": "https://floridayimby.com/2023/12/fourteen-allapattah-residences-tops-off-at-1470-nw-36th-street-miami-florida.html"}},
+  "notes": "HEIGHT 135 FT IS ABOVE GROUND LEVEL. The FAA Part 77 ASO 2021 archive record's height fields are AGL 135, site elevation 9, AMSL 144, so 135 is the above-ground figure and the 144 is excluded. Identity confirmed two independent ways: the filing's coordinates reverse-geocode against Miami-Dade's own parcel layer to folio 0131260380680, this row's exact address; and the filing's legal description of lots 3 to 7, block 4, Beverly Heights, plat book 6 page 164 matches that parcel's recorded legal exactly. The sponsor field reads Neology Life Development Group, the project's developer, and date built is 16 Oct 2023. MEASUREMENT CAVEAT: the structure type is BUILDING with no marking or lighting and no spire, so this is not rejectable as a spire height — but the proposal description reads only New Construction, so the record does not state what the 135 ft is measured to, and an FAA AGL is overall structure height and can include a parapet or a stair or lift overrun. The figure is for the 14-storey tower only; the five-storey building has no FAA case. The 237 units now come first-hand from The Real Deal and Commercial Observer rather than resting on a secondhand attribution. Both of those outlets call the project Fourteen Main Street Residences. STOREY CAVEAT: two buildings, 14 storeys plus five, so a single value is lossy.",
+  "quotes": {
+    "residential_units": "Fourteen Main Street Residences consists of a 14-story tower and a five-story lowrise building with a combined 237 apartments and roughly 6,000 square feet of ground-floor retail space.",
+    "height_ft": "2021-ASO-13085-OE,,Determined - No Hazard,No Hazard,2021-04-14,2021-04-14,2021-07-18,2023-01-18,25.80921944,-80.22136944,4D,None,,Allapattah 14,Miami,Miami-Dade,86,FL,MIAMI,20215,303.7,,New Construction,...,BUILDING,135,,135,9,144,,144,Neology Life Development Group,Neology Life Development Group",
+    "stories": "Upon completion, the community will offer two buildings: one tower measuring 14 stories and another building measuring five stories."}},
+
+ {"id": 1057, "name": "Amara Wynwood", "values": {"residential_units": 210, "height_ft": 92, "stories": 8},
+  "sources": {
+    "residential_units": {"name": "Florida YIMBY, 23 May 2025", "date": "2025-05-23",
+      "url": "https://floridayimby.com/2025/05/amara-wynwood-receives-tco-welcomes-residents-to-new-multifamily-development-at-45-ne-27th-street-in-miami.html"},
+    "height_ft": {"name": "Florida YIMBY, 3 Sep 2021", "date": "2021-09-03",
+      "url": "https://floridayimby.com/2021/09/chicago-based-fifield-realty-corp-submits-plans-for-210-unit-wynwood-station-at-45-northeast-27th-street.html"},
+    "stories": {"name": "Florida YIMBY, 23 May 2025", "date": "2025-05-23",
+      "url": "https://floridayimby.com/2025/05/amara-wynwood-receives-tco-welcomes-residents-to-new-multifamily-development-at-45-ne-27th-street-in-miami.html"}},
+  "notes": "HEIGHT 92 FT, with three caveats. It is from the plans-filed stage under the project's former name, Wynwood Station, but the building delivered at the planned eight storeys so the figure carried through. A decorative clock tower was added to the design about two months later and required a height waiver, with no figure ever published — so 92 ft is the building and excludes the clock tower, which is the correct basis in any case. And no source labels 92 ft above ground versus above sea level, though it is phrased as the development rising 92 feet, which reads as above grade. The 210 units are corroborated by The Real Deal and Commercial Observer of 24 Mar 2023 and are stable across the rename. SQ FT CONFLICT to log: the 2021 plans describe 331,846 sq ft against the 358,576 stored.",
+  "quotes": {
+    "residential_units": "Amara Wynwood offers 210 luxury rental apartments across a mix of studio, one-, and two-bedroom layouts, ranging from 467 to 1,206 square feet.",
+    "height_ft": "The development is planned to rise 92-feet spanning 8 floors at 45 Northeast 27th Street, nestled in between North Miami Avenue and Brightline train tracks with frontage on Northeast 28th Street to the north.",
+    "stories": "A Temporary Certificate of Occupancy (TCO) has been issued for Amara Wynwood, an eight-story mixed-use development located at 45 NE 27th Street in Miami's Wynwood neighborhood."}},
+
+ {"id": 1157, "name": "ENSO", "values": {"residential_units": 85, "stories": 8},
+  "sources": {
+    "residential_units": {"name": "FAA Obstruction Evaluation / Airport Airspace Analysis, Aeronautical Study No. 2024-ASO-13085-OE, Coral Grove Building Closest Point to Runway, Determined - No Hazard", "date": "2024-07-16",
+      "url": "https://oeaaa.faa.gov/oeaaa/oe3a-external-api/downloadArchives.do?fname=Part77ASO2024List.gzip"},
+    "stories": {"name": "Florida YIMBY, 26 Mar 2025", "date": "2025-03-26",
+      "url": "https://floridayimby.com/2025/03/construction-to-start-on-enso-at-3025-sw-3rd-ave-miami-fl.html"}},
+  "notes": "A HEIGHT EXISTS AND IS DELIBERATELY REJECTED. FAA case 2024-ASO-12708-OE, Coral Grove Building, determined 16 Jul 2024, gives AGL 113, site elevation 12, AMSL 125, and its own proposal description reads: a proposed 8 story high-rise multifamily building with rooftop amenity area, maximum height of the building is 113 feet above existing grade elevation of 12 feet, the elevator enclosure being the highest point on roof level. The source therefore identifies the 113 ft top as a mechanical penthouse rather than the roof slab, which is the case the rule says to reject — recorded here because it is a closer call than a spire, since the same record calls 113 ft the maximum height of the building. A second FAA point for the same building reads 109 ft AGL but is defined by position, the closest point to the runway, rather than by building element, so it is not a roof height either, and interpolating between the two would be arithmetic. No clean roof-slab figure exists in any acceptable source. The 85 units now carry a government corroboration: the FAA filing itself states an 85 unit apartment building, and its sponsor fields read Empira Group and ERIUS Prop Co 1, LLC, the latter matching this row's owner of record. The 79-unit figure remains superseded, belonging to the 2021 Ambienta Brickell plan.",
+  "quotes": {
+    "residential_units": "Closest point to the runway for the proposed 8-story  85 unit apartment building.",
+    "stories": "The community is now named ENSO, and while it'll still measure eight stories, it'll instead offer 85 residences and ground-floor retail."}},
+
+ {"id": 1024, "name": "Forma Miami", "values": {"residential_units": 588, "height_ft": 428, "stories": 39},
+  "sources": {
+    "residential_units": {"name": "Florida YIMBY, 10 Apr 2025", "date": "2025-04-10",
+      "url": "https://floridayimby.com/2025/04/yimby-scopes-views-of-forma-miami-at-2900-biscayne-boulevard-in-edgewater.html"},
+    "height_ft": {"name": "Florida YIMBY, 1 Jun 2022", "date": "2022-06-01",
+      "url": "https://floridayimby.com/2022/06/faa-permits-filed-for-three-tower-cranes-at-the-site-of-39-story-nema-miami-in-edgewater.html"},
+    "stories": {"name": "Florida YIMBY, 10 Apr 2025", "date": "2025-04-10",
+      "url": "https://floridayimby.com/2025/04/yimby-scopes-views-of-forma-miami-at-2900-biscayne-boulevard-in-edgewater.html"}},
+  "notes": "Values unchanged; corroboration and one conflict added. The 428 ft traces back to 2022 and is stated of the tower itself rather than of the cranes that are the article's subject; there is still no above-ground versus above-sea-level label in any source, and it is never described as a spire. The 588 units are corroborated four times: Florida YIMBY of 10 Apr 2025, 10 Mar 2024 and 22 May 2021 under the project's former name NEMA Miami, and The Real Deal of 15 Oct 2025. CONFLICT: The Real Deal of 15 Oct 2025 calls it the 40-story Forma, while Florida YIMBY says 39 storeys in four separate articles, so 39 is retained as the better supported figure and the alternative 40 is logged here.",
+  "quotes": {
+    "residential_units": "building rises approximately 428 feet and encompasses over 940,000 square feet of space, including 588 rental units and 50,812 square feet of ground-floor retail.",
+    "height_ft": "These tower cranes would assist in the vertical construction stages of the 428-foot-tall tower.",
+    "stories": "Construction is complete and leasing is underway on Forma Miami, a 39-story residential tower located at 2900 Biscayne Boulevard in the Edgewater neighborhood of Miami."}},
+
+ {"id": 1030, "name": "Wynwood Works", "values": {"residential_units": 120, "stories": 12},
+  "sources": {"_default": {"name": "The Real Deal, 15 Jun 2023", "date": "2023-06-15",
+    "url": "https://therealdeal.com/miami/2023/06/15/udonis-haslem-partners-score-dev-site-for-wynwood-affordable-rentals/"}},
+  "notes": "Source upgraded, value unchanged. The 120 is now attributed on the record by the developer himself rather than resting on 2021 design-review coverage or a passing mention in an article about another project, and is corroborated by Florida YIMBY of 4 Jul and 10 Jun 2021. HEIGHT NOT FOUND, and the avenues are now exhausted: the only FAA filing at this address is a tower crane at 199 ft AGL, which is not a building height, and there is no FAA case for the building itself. The City of Miami legislative portal does carry Wynwood Works, but the one promising attachment, the Wynwood Works application and letter, is a scanned image PDF with no extractable text — that scan is the likeliest home of a height-to-upper-roof-slab figure for anyone opening it by hand. SQ FT CONFLICT: Florida YIMBY calls this a 179,105-square-foot mixed-use development against the roughly 265,000 sq ft stored, a gap large enough to be worth checking independently of the unit count.",
+  "quotes": {
+    "residential_units": "Coral Gables-based Magellan Housing and Haslem plan the 12-story Wynwood Works building with 120 units, Nick Inamdar, principal at Magellan, told The Real Deal.",
+    "stories": "Coral Gables-based Magellan Housing and Haslem plan the 12-story Wynwood Works building with 120 units, Nick Inamdar, principal at Magellan, told The Real Deal."}},
+
+ {"id": 1211, "name": "Metro 2 at Edgewater",
+  "values": {"residential_units": 103, "hotel_rooms": 60, "height_ft": 320, "stories": 28},
+  "sources": {"_default": {"name": "Florida YIMBY, 16 Apr 2024", "date": "2024-04-16",
+    "url": "https://floridayimby.com/2024/04/plans-filed-for-28-story-mixed-use-tower-at-3055-northeast-4th-avenue-in-edgewater-miami.html"}},
+  "notes": "Values unchanged; both split figures are now independently corroborated, which matters because this row carried a live confusion risk. The Real Deal of 16 Apr 2024 confirms the split in a separate outlet — a 28-story mixed-use building with 103 rentals, and 60 hotel keys on floors eight through 14. That independently rules out the 279-unit figure, which belongs to Metro 1, the adjacent completed tower at 452 NE 31st Street and the subject of The Real Deal's Oct 2025 refinancing story. The 320 ft is to the upper roof slab; the 335 ft in the same sentence is rejected as being to the highest decorative screen. No newer filing or coverage changes any field.",
+  "quotes": {
+    "residential_units": "Residential space is a significant component, featuring 103 multi-family dwelling units ranging from 748 square-foot one-bedroom apartments to more spacious 1,374 square-foot three-bedroom units located on the seventh and fifteenth to twenty-eighth floors.",
+    "hotel_rooms": "The middle segment of the building, levels eight through fourteen, will house 60 lodging units, adding to the area's accommodation offerings.",
+    "height_ft": "The proposed building is set to rise 320 feet to the upper roof slab or 335 feet, including the highest decorative screen.",
+    "stories": "Plans have been submitted for a 28-story mixed-use building at 3055 Northeast 4th Avenue in Edgewater, Miami."}}
+]

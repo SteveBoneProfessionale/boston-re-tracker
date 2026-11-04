@@ -298,6 +298,32 @@ def in_window(rec) -> tuple[bool, str]:
     return False, f"permit_{status.lower() or 'unknown'}"
 
 
+# ── stage corrections found by hand ─────────────────────────────────────
+# `stage_of` reads the permit record and nothing else, which is right for 313
+# Miami rows and wrong for a handful where evidence OUTSIDE the permit feed
+# contradicts it. An issued building permit is the brief's test for Under
+# Construction, but a permit issued years ago that has never had an inspection
+# finalled, on a parcel the County still assesses as vacant land with year
+# built 0, is not a building going up -- it is an entitlement someone is
+# holding. Recording it as Under Construction is the Rhode Island error in the
+# other direction: a pipeline inflated by projects that never started.
+#
+# Pinned by folio rather than inferred, because the condition that justifies
+# each one was checked by hand against the County record. Each entry carries
+# the stage, the basis string stored as evidence, and why.
+STAGE_REVIEW = {
+    "0141380510260": {
+        "stage": sc.STAGE_PERMITTING,
+        "basis": "permit_issued_never_started",
+        "why": ("Building permit BD18003273001B001 was issued on 6 March 2020 and is "
+                "still Active with no finalised inspections six years later, and "
+                "Miami-Dade assesses folio 01-4138-051-0260 as vacant land with year "
+                "built 0. A 287,323 sq ft hotel has not been built here, so the row is "
+                "Permitting -- a permit on file -- rather than Under Construction."),
+    },
+}
+
+
 # ── stage ───────────────────────────────────────────────────────────────
 def stage_of(rec) -> tuple[str, str, str, dt.date | None]:
     """(stage, completion_stage, basis, date) from the permit record alone.
@@ -571,6 +597,10 @@ def _upsert(db, proj, nbhd, owners, prior_completions=None) -> bool:
         db.add(row)
 
     stage, completion_stage, basis, completion_date = stage_of(main)
+    fix = STAGE_REVIEW.get(folio)
+    if fix:
+        stage, completion_stage, basis = fix["stage"], "", fix["basis"]
+        completion_date = None
     lat, lon = main.get("Latitude"), main.get("Longitude")
     uses = main.get("_uses") or []
 

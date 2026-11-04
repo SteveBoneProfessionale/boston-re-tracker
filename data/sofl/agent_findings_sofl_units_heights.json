@@ -1,0 +1,168 @@
+[
+ {"id": 1341, "name": "1030 6th Street", "values": {"residential_units": 72},
+  "sources": {"_default": {"name": "City of Miami Beach Civic Access portal, Live Local Act plan record LLA26-0007 (FKA PB26-0837)", "date": "2026-03-30",
+    "url": "https://energovcss.miamibeachfl.gov/EnerGovProd/SelfService/#/plan/b0b26cd2-986f-4315-bcb6-5313b9b5adc7"}},
+  "notes": "One of the three Live Local applications that defeated the earlier pass. Recovered from the EnerGov plan record itself (api/energov/plans/b0b26cd2-986f-4315-bcb6-5313b9b5adc7 with tenantId:3 and tenantName:miamibeachflprod2), not from any hosted PDF — the city page links only the portal. Status Under Review, applied 2026-03-30, district CPS-2. Elderly (age-restricted) workforce housing with ground-floor retail. No height in feet anywhere in the record.",
+  "quotes": {"residential_units": "Five-story, 72-unit elderly workforce housing building with ground-floor retail at 1030 6th Street, Miami Beach, pursuant to the Live Local Act.  (FKA: PB26-0837)."}},
+
+ {"id": 1341, "name": "1030 6th Street", "values": {"stories": 5},
+  "sources": {"_default": {"name": "City of Miami Beach Civic Access portal, Live Local Act plan record LLA26-0007 (FKA PB26-0837)", "date": "2026-03-30",
+    "url": "https://energovcss.miamibeachfl.gov/EnerGovProd/SelfService/#/plan/b0b26cd2-986f-4315-bcb6-5313b9b5adc7"}},
+  "quotes": {"stories": "Five-story, 72-unit elderly workforce housing building with ground-floor retail at 1030 6th Street, Miami Beach, pursuant to the Live Local Act.  (FKA: PB26-0837)."}},
+
+ {"id": 1327, "name": "1101 71st Street", "values": {"residential_units": 98},
+  "sources": {"_default": {"name": "Florida YIMBY", "date": "2025-11-24",
+    "url": "https://floridayimby.com/2025/11/developer-proposes-affordable-housing-development-for-1101-71st-st-miami-beach-fl-33141.html"}},
+  "notes": "HEIGHT REJECTED: the same article says the building would measure no more than 235 feet high, which is a stated maximum rather than a height, so no height is recorded. Developer Jerika Properties; Live Local Act; replaces a shuttered Chase bank. The article states no storey count, so no storey cross-check was possible.",
+  "quotes": {"residential_units": "Jerika Properties wants to proceed with a 98-unit community that would offer housing to tenants earning up to 80 percent of the area median income (AMI)."}},
+
+ {"id": 1317, "name": "Grand Hyatt Miami Beach Convention Center Hotel", "values": {"hotel_rooms": 800},
+  "sources": {"_default": {"name": "Florida YIMBY", "date": "2026-07-30",
+    "url": "https://floridayimby.com/2026/07/construction-tops-out-on-17-story-grand-hyatt-miami-beach-convention-center-hotel.html"}},
+  "notes": "Hotel keys recorded as hotel rooms, not as residential units. The 17 storeys in the same article match the tracker. No height in feet published.",
+  "quotes": {"hotel_rooms": "Designed by Bernardo Fort-Brescia of Arquitectonica and developed by Terra and Turnberry, the project will yield an 800-room luxury hotel with 110,000 square feet of meeting and ballroom space, 17,000 square feet of ground-floor retail, and a direct connection to the Miami Beach Convention Center."}},
+
+ {"id": 1321, "name": "Casa Cipriani Miami Beach", "values": {"hotel_rooms": 36},
+  "sources": {"_default": {"name": "Florida YIMBY", "date": "2026-04-14",
+    "url": "https://floridayimby.com/2026/04/19-story-casa-cipriani-proposed-for-3611-collins-ave-miami-beach-florida.html"}},
+  "notes": "The 23 residential units already stored are corroborated by this sentence; the remaining 36 of the 59 units are hotel keys and are recorded as hotel rooms. The 19 storeys in the same sentence match the tracker. No height in feet.",
+  "quotes": {"hotel_rooms": "The proposed Casa Cipriani would measure 19 stories above grade and feature 59 units: 23 condos and 36 hotel keys."}},
+
+ {"id": 1287, "name": "Doral International Towers (Trump)", "values": {"height_ft": 210},
+  "sources": {"_default": {"name": "City of Doral, City Council Memo — Doral International Towers Site Plan (file 25-5998)", "date": "2025-01-15",
+    "url": "https://legistar1.granicus.com/Doral/attachments/17444729-ac80-4b15-b728-8e6b39a1ca42.docx"}},
+  "notes": "From the Development Standards for the DMU District table in the city staff memo; the two columns are permitted and provided, so provided is 20 stories at 210 ft. The 20 storeys match the tracker exactly. The same memo corroborates the 1,498 residential units already stored, and makes clear the 470 hotel units are existing rather than new. Quote whitespace normalised from the DOCX.",
+  "quotes": {"height_ft": "The required/proposed development standards are listed in the following table: Development Standards for the DMU District Provided Maximum Floor area ratio (FAR) 0.5 Ground Floor / 0.25 Additional floors 0.28 Ground Floor / 0.14 Additional floors Maximum height 8 stories 20 stories - 210 ft Minimum lot area 1 acre 52.04 Acre"}},
+
+ {"id": 1297, "name": "Hyatt Hotel", "values": {"height_ft": 78.5, "hotel_rooms": 124, "stories": 6},
+  "sources": {"_default": {"name": "City of Doral, City Council Memo — Hyatt House Site Plan (file 24-5841)", "date": "2024-09-11",
+    "url": "https://legistar1.granicus.com/Doral/attachments/0463c3d7-7714-49fe-b586-0f926cde2ea4.docx"}},
+  "notes": "The memo's address, 10234 NW 19 Street, matches the tracker exactly. The 78.5 ft is the PROPOSED height; the parenthetical 80 feet max in the same sentence is the zoning cap and was not used. Keys recorded as hotel rooms. Quote whitespace normalised from the DOCX.",
+  "quotes": {
+    "height_ft": "The Applicant proposes a 6 story, 89,101 square-foot hotel with an approximate FAR of 0.25, a proposed maximum building height of 78.5 feet (80 feet max), and a landscaped open space comprising of 15.7% of the total lot area.",
+    "stories": "The Applicant proposes a 6 story, 89,101 square-foot hotel with an approximate FAR of 0.25, a proposed maximum building height of 78.5 feet (80 feet max), and a landscaped open space comprising of 15.7% of the total lot area.",
+    "hotel_rooms": "The Applicant is proposing a new 6-story, 89,101 square-foot Hyatt House hotel consisting of 124 hotel rooms, over 8,700 square feet of open area, featuring amenities such as a pool, breakfast buffet, lounge and fitness center, including retail space with a restaurant and pub."}},
+
+ {"id": 1301, "name": "Doral Inn / IMF Doral Residential Conversion Live Local", "values": {"residential_units": 112},
+  "sources": {"_default": {"name": "City of Doral, City Council Memo — IMF Doral LLC Parking Variance (file 25-6153, hearing 25-05-DOR-02)", "date": "2025-05-14",
+    "url": "https://legistar1.granicus.com/Doral/attachments/de115cc9-a484-4294-a018-0172c501c502.docx"}},
+  "notes": "Conversion of an existing 1988 extended-stay hotel at 1212 NW 82nd Avenue into age-restricted multifamily apartments under the Live Local Act; the floor plans stay largely unchanged, so the 112 existing keys become 112 apartments. The memo states the figure directly as the project's unit count for parking purposes, and separately itemises the existing stock as 52 one-bedroom units plus 60 studios. Florida YIMBY of 30 Oct 2025 independently calls it a 112-key hospitality property. No height in feet: the existing two- and three-storey buildings keep their exteriors. Quote whitespace normalised from the DOCX.",
+  "quotes": {"residential_units": "Consequently, this development does not fall near a major transit stop and is required to provide 1.35 parking spaces per unit for age-restricted multi-family housing for individuals aged 55 and older, as specified in Section 77-139. With 112 units, the total parking requirement comes to 151.2 spaces."}},
+
+ {"id": 1306, "name": "Prime Square Doral", "values": {"height_ft": 51.67, "stories": 3},
+  "sources": {"_default": {"name": "City of Doral, City Council Memo — Prime Square Site Plan (file 25-6428)", "date": "2025-12-10",
+    "url": "https://legistar1.granicus.com/Doral/attachments/83ae3e80-4346-47a1-b6ae-42d2f6cb0280.docx"}},
+  "notes": "The source states 51 feet 8 inches to the top of parapet; 51.67 is that same figure in decimal feet, not a derived number. A parapet is the top of the building, not a spire or a mechanical feature. NO RESIDENTIAL UNITS: Prime Square Doral is a commercial condominium — Florida YIMBY of 19 Sep 2026 describes a 58,000-square-foot commercial condominium development of roughly 40,000 sq ft retail and restaurant and 18,000 sq ft office — and the city memo's parking table covers only retail, restaurant and office. No source states a unit count, so the field is left empty rather than set to zero. The permitted six-storey figure in the same memo is a zoning cap and was not used.",
+  "quotes": {
+    "height_ft": "The maximum permitted building height within the Corridor Commercial (CC) District is a six-story building. The proposed three-story building with a proposed height of 51'-8'' (to top of parapet) complies with this regulation.",
+    "stories": "The maximum permitted building height within the Corridor Commercial (CC) District is a six-story building. The proposed three-story building with a proposed height of 51'-8'' (to top of parapet) complies with this regulation."}},
+
+ {"id": 1269, "name": "Legacy at Doral (EWE Warehouse)", "values": {"height_ft": 62.33},
+  "sources": {"_default": {"name": "City of Doral, Planning and Zoning Staff Report — EWE Warehouse (Legacy at Doral) Site Plan (file 22-4925)", "date": "2023-03-22",
+    "url": "https://legistar1.granicus.com/Doral/attachments/c51f5a33-07be-4e99-b320-9285e7aae638.docx"}},
+  "notes": "62.33 ft is 62 feet 4 inches in decimal feet. This is the building's own peak height and not a cap: the cap in the same passage is the right-of-way width of 85 feet on NW 82 Avenue, and the Development Standards table lists 62 feet 4 inches in the Provided column against a Maximum height standard of R-O-W Width. CAVEAT: this is the original 2023 site plan and a later site-plan modification for Legacy at Doral exists in local press, so the figure could have moved. The staff report gives no storey count. Quote whitespace normalised from the DOCX.",
+  "quotes": {"height_ft": "The building height is limited to the width of the public-right-of-way (85 feet) fronting the subject property (NW 82 Avenue). The Applicant is proposing a maximum building height of sixty-two (62) feet and four (4) inches."}},
+
+ {"id": 1283, "name": "SmartStop Expansion", "values": {"height_ft": 35},
+  "sources": {"_default": {"name": "City of Doral, Planning and Zoning Staff Report — SmartStop Storage Site Plan (file 24-5616)", "date": "2024-04-24",
+    "url": "https://legistar1.granicus.com/Doral/attachments/2829720f-e54c-4aaa-970a-a271aeaf53a0.docx"}},
+  "notes": "The staff report's address, 10451 Northwest 33 Street, matches the tracker exactly, and the applicant is SST II 10451 NW 33rd ST LLC. Self-storage, so no residential component. Quote whitespace normalised from the DOCX.",
+  "quotes": {"height_ft": "... a proposed maximum building height of thirty-five (35) feet, and a landscaped open space comprising of 15% of the total lot area (±27,305 square feet)"}},
+
+ {"id": 1298, "name": "Subaru", "values": {"height_ft": 30},
+  "sources": {"_default": {"name": "City of Doral, City Council Memo — Subaru Dealership Site Plan (file 24-5896)", "date": "2024-10-09",
+    "url": "https://legistar1.granicus.com/Doral/attachments/01557810-8aa4-4fa2-ae4c-749f539dc840.docx"}},
+  "notes": "The memo's address, 9300 NW 13th Street, matches the tracker exactly. An auto dealership, so no residential component. Quote whitespace normalised from the DOCX.",
+  "quotes": {"height_ft": "The Applicant proposes a new ±53,481 square foot building with a proposed maximum building height of thirty (30) feet, a proposed building coverage of fourteen percent (14%) whereas fifty percent (50%) is required, and a landscaped open space comprising of thirty-two percent of the total lot area"}},
+
+ {"id": 1274, "name": "Collection Suites", "values": {"height_ft": 26, "stories": 1},
+  "sources": {"_default": {"name": "City of Doral, City Council Memo — Collection Suites II Site Plan (file 25-6025)", "date": "2025-01-27",
+    "url": "https://legistar1.granicus.com/Doral/attachments/7b900e07-2cd5-46d4-b889-427b4320c21f.docx"}},
+  "notes": "The memo's address, 6010 Northwest 102 Avenue, matches the tracker exactly. NAME CHECK WANTED: the city matter is titled Collection Suites II while this row is Collection Suites — same address, so treated as the same project, but worth confirming. Enclosed car-storage suites, so no residential component. Quote whitespace normalised from the DOCX.",
+  "quotes": {
+    "height_ft": "The development will consist of a one-story (26 feet in height) storage building with mezzanines as well as a central showroom/clubhouse building and separate manager's office structure",
+    "stories": "The development will consist of a one-story (26 feet in height) storage building with mezzanines as well as a central showroom/clubhouse building and separate manager's office structure"}},
+
+ {"id": 1289, "name": "Bridge Point Doral 826", "values": {"height_ft": 50},
+  "sources": {"_default": {"name": "City of Doral, City Council Memo — BP Doral 826 FL, LLC Site Plan (file 25-6304)", "date": "2025-09-10",
+    "url": "https://legistar1.granicus.com/Doral/attachments/63bcd132-e4bb-4d4b-af7b-56bcc62393d0.docx"}},
+  "notes": "The memo's address, 7705-7775-7785 NW 48th Street, contains the tracker's 7775 NW 48 St. Industrial, so no residential component. The 70 ft right-of-way width in the same sentence is the zoning cap, not the building. Quote whitespace normalised from the DOCX.",
+  "quotes": {"height_ft": "The proposed building height of 50' feet complies with this regulation, as NW 79th Avenue—serving as the ROW—has an approximate width of 70' feet"}},
+
+ {"id": 1271, "name": "Doral Marketplace (Bridge Point Retail)", "values": {"height_ft": 32},
+  "sources": {"_default": {"name": "City of Doral, City Council Memo — Doral Marketplace Site Plan (file 24-5707)", "date": "2024-06-12",
+    "url": "https://legistar1.granicus.com/Doral/attachments/074bf25a-f211-4a29-942c-c6b1a782e73f.docx"}},
+  "notes": "ADDRESS CAUTION: this row holds no address, and the city memo places the project at the southwest corner of NW 41st Street and NW 107th Avenue — the match rests on the project name alone. The 32 ft is the tallest element the source names, the grocery anchor; the smaller retail buildings are stated at 24 ft in the same sentence. Retail, so no residential component. Quote whitespace normalised from the DOCX.",
+  "quotes": {"height_ft": "... a proposed maximum building height of thirty-two (32) feet for the major tenant grocery store and twenty-four (24) feet for the retail buildings, and a landscaped open space comprising of 19 percent of the total lot area"}},
+
+ {"id": 1234, "name": "The Aurelian", "values": {"height_ft": 130},
+  "sources": {"_default": {"name": "City of Coral Gables, Planning and Zoning Board Staff Report — Regency on the Park Planned Area Development (file 18-7445)", "date": "2018-06-13",
+    "url": "https://coralgables.legistar1.com/coralgables/attachments/0dde20d3-4318-4b69-996b-08ee5ad5029e.pdf"}},
+  "notes": "Storey cross-check PASSES: 12 stories in the same sentence, matching the tracker, and the unit check passes too — 152 residential plus 8 live/work is the 160 already stored. The descriptive sentence was used rather than the same report's cap-phrased condition of a maximum habitable building height of 130 feet. The entitlement was adopted as signed Ordinance 2018-29 on 28 Aug 2018 and no newer city height approval exists for this site through Nov 2026. NAME AND ADDRESS CAUTION: the city records call the site 912, and 912/918, E Ponce de Leon Blvd and the project Regency on the Park, while the city's own 2025 public-art resolution refers to the Aurelian development project at 912 E Ponce de Leon Blvd — this row holds 921 E Ponce de Leon Blvd.",
+  "quotes": {"height_ft": "The proposed building is 130 feet tall and 12 stories high."}},
+
+ {"id": 1240, "name": "The George Residences", "values": {"height_ft": 43.5, "stories": 3},
+  "sources": {"_default": {"name": "City of Coral Gables, Planning and Zoning Board Staff Report — The George (file 24-7521)", "date": "2024-06-12",
+    "url": "https://coralgables.legistar1.com/coralgables/attachments/fa4d6f75-51b7-4629-8966-1fa00ce287c1.pdf"}},
+  "notes": "43.5 ft is 43 feet 6 inches in decimal feet. The report's 13 units match the tracker exactly. Its data table lists the proposal at 43 feet 6 inches over 3 stories against a permitted 150 feet over 13 stories — the 150 ft is the cap and was not used. Adopted as signed Resolution 2024-154 on 9 Jul 2024. A later variance at 717/741 Valencia, file 26-2183 approved 26 Oct 2026, concerns an interior side setback rather than height.",
+  "quotes": {
+    "height_ft": "\"The George\" is a 13-unit townhouse development that proposes the following: 13 townhouse units, including 3 bedrooms and 1 guest room; Height of 43'-6\" (3 stories)",
+    "stories": "\"The George\" is a 13-unit townhouse development that proposes the following: 13 townhouse units, including 3 bedrooms and 1 guest room; Height of 43'-6\" (3 stories)"}},
+
+ {"id": 1248, "name": "Ponce 8", "values": {"height_ft": 175},
+  "sources": {"_default": {"name": "City of Coral Gables, City Commission Exhibit C — Ponce 8 presentation, zoning table (file 26-1562)", "date": "2026-06-02",
+    "url": "https://coralgables.legistar1.com/coralgables/attachments/d57287b0-4b12-4bcf-bc6a-5718ba5c1658.pdf"}},
+  "notes": "175 feet to top of building is the PROPOSED height; the 190 feet 6 inches in the same table is the maximum allowed with the Mediterranean bonus and was rejected as a cap. Storey cross-check PASSES at 16 stories, matching the tracker, and the city table's 200 units sits against the 201 stored. Corroborated by the Board of Architects submittal zoning data sheet dated 29 Apr 2026 (https://coralgables.legistar1.com/coralgables/attachments/030b3b40-060c-4c69-a0f5-f5963322ecf7.pdf), whose maximum-building-height block reads allowed 190 feet 6 inches top of building against provided 175 feet. SUPERSEDES earlier reporting of 195 feet to top of parapet, or 155 feet to the 16th-floor roof, from the Aug 2025 scheme.",
+  "quotes": {"height_ft": "175'-0\" / 16 stories (w/. Med Bonus) [Proposed] ... 190'-6\" / 16 stories (w/. Med Bonus) [Current/Allowed/Required] ... Building height"}},
+
+ {"id": 1250, "name": "Via Veneto", "values": {"height_ft": 40},
+  "sources": {"_default": {"name": "City of Coral Gables, Planning and Zoning Staff Report — 915 Palermo Avenue Height Variance, VARI-25-05-0021, Board of Adjustment (file 25-9128)", "date": "2025-07-07",
+    "url": "https://coralgables.legistar1.com/coralgables/attachments/c6ead0cd-b2b0-4744-b271-5ef9629dfdeb.pdf"}},
+  "notes": "The 10 townhouse units match the tracker exactly, and the 3 storeys already stored are consistent with a 40 ft townhouse. The 35 ft and 45 ft also in this document are the zoning caps for the south and north sides, not the building. Staff recommended approval and the Board of Architects approved the proposal on 24 Apr 2025.",
+  "quotes": {"height_ft": "The property owner, Calta Venetian, LLC, seeks to redevelop the site by proposing 10 townhouses with parking garages in each unit. The proposed height is 40 feet on all sides, making the height consistent on both ends."}},
+
+ {"id": 1359, "name": "Palm Beach Atlantic University residence hall", "values": {"height_ft": 300},
+  "sources": {"_default": {"name": "City of West Palm Beach, City Commission Agenda — staff background for Resolution No. 74-25", "date": "2025-04-14",
+    "url": "https://www.wpb.org/files/assets/city/v/1/city-clerk/documents/agendas/2025-agendas/2025-final-city-commission-agendas/04_14_25_final-city-commission-agenda.pdf"}},
+  "notes": "Storey cross-check PASSES: 25 stories in the same sentence, matching the tracker. The 300 ft is the dormitory; the 127 ft in the same sentence is the separate parking garage. Still current — the 29 Sep 2025 City Commission agenda confirms approval of a new 300-foot-tall student dormitory building, and the later amendment reduced only the garage, from 11 levels at 127 ft to 8.5 levels at 106.01 ft. The separate maximum-building-height-to-300-feet-north-of-Acacia-Road language in the same packet is a zoning cap and was not relied on.",
+  "quotes": {"height_ft": "The site plan for the proposed development of the 25-story (300-foot tall) dormitory building and 11-level (127-foot tall) parking garage shows two separate buildings separated by a 24-foot-wide private service alley."}},
+
+ {"id": 1369, "name": "Deco Northwood", "values": {"height_ft": 84},
+  "sources": {"_default": {"name": "City of West Palm Beach, City Commission Agenda — background for Resolution No. 228-25", "date": "2025-10-27",
+    "url": "https://www.wpb.org/files/assets/city/v/2/city-clerk/documents/agendas/2025-pass-fail-agendas-pfa/2025-10-oct-pfa/pf-city-commission-agenda_10_27_25.pdf"}},
+  "notes": "Storey cross-check PASSES: the same staff section states an eight-story multi-family development with 40% workforce housing consisting of a total of 167 residential units, and both figures match the tracker. The 88 ft allowable in Table XVII-1 referenced in the same sentence is a cap and was not used. STATUS: the City Commission DENIED this application on 27 Oct 2025, so 84 ft is the height of the denied scheme; the status is corrected to Dead on that basis.",
+  "quotes": {"height_ft": "According to the Justification Statement, the height of the building will be 84 feet in height, which is four (4) feet below the allowable height provided in Table XVII-1 for affordable and workforce housing."}},
+
+ {"id": 1353, "name": "South Flagler House", "values": {"height_ft": 373},
+  "sources": {"_default": {"name": "Florida YIMBY", "date": "2022-05-31",
+    "url": "https://floridayimby.com/2022/05/frisbie-group-and-hines-officially-launch-sales-for-south-flagler-house-in-west-palm-beach.html"}},
+  "notes": "Storey cross-check PASSES: 28 stories in the same sentence, matching the tracker. Top off is the roof, not a spire, and the figure originates in FAA approvals. SUPERSEDES Florida YIMBY of 28 Sep 2021, which reported 379-foot-tall structures for the earlier 27-storey Flagler Towers scheme at 1315 S Flagler Dr.",
+  "quotes": {"height_ft": "According to those FAA approvals, the 28-story towers are planned to top off at 373-feet."}},
+
+ {"id": 1360, "name": "The Nora Hotel", "values": {"hotel_rooms": 201},
+  "sources": {"_default": {"name": "Florida YIMBY", "date": "2024-11-28",
+    "url": "https://floridayimby.com/2024/11/the-nora-hotel-breaks-ground-at-1021-north-railroad-avenue-in-west-palm-beachs-nora-district.html"}},
+  "notes": "Keys recorded as hotel rooms, not as residential units. Storey cross-check PASSES: the same article's second mention has the 215,000-square-foot hotel rising five stories with 201 guest rooms and a parking garage, and the 5 storeys match the tracker. No height in feet published. This 201 is also the room count the off-list opening coverage reports, which corroborates the opening signal already noted against this row.",
+  "quotes": {"hotel_rooms": "Construction has officially begun on The Nora Hotel, a 201-key boutique hotel set to anchor the transformative Nora District in West Palm Beach at 1021 North Railroad Avenue."}},
+
+ {"id": 1362, "name": "2001 North Flagler Drive", "values": {}, "sources": {},
+  "notes": "UNIT COUNT WITHHELD ON PURPOSE. Florida YIMBY of 29 Jan 2026 gives components with no total — 90 condos, with the average unit spanning 3,382 square feet, and eight lower-level townhouses — and these are not summed to 98. The same article's 27 stories and just over 480,000 square feet match the tracker. West Palm Beach 2026 Planning Board and PPRC notices separately describe a Level III Special Review for a 90-unit multifamily residential development in the CMUD Core-I subdistrict on a roughly 0.78-acre site at this address, which would make 90 the city's own figure, but that text could not be pinned to a specific dated agenda URL with a clean verbatim line, so it is not recorded as a value. No height in feet from any acceptable source."},
+
+ {"id": 1349, "name": "Alba Palm Beach", "values": {}, "sources": {},
+  "notes": "HEIGHT CONFLICT UNRESOLVED, so no height is recorded. Florida YIMBY of 8 Aug 2024 says the 262-foot-tall structure will offer 55 residences — the 55 units match the tracker but the sentence carries no storey count. Against that, the more recent primary government record, the City of West Palm Beach City Commission staff reports of 29 Sep and 27 Oct 2025 on the North Flagler Drive Study, gives Alba at 235 feet in height and 21 stories. The city's 235 ft comes paired with 21 storeys, which does not match the 22 stored, so it fails the current-scheme storey check; and the press 262 ft has no storey count to check against. The likeliest reading is that 235 is the entitled height and 262 the as-built architectural top. A Downtown Action Committee approval document or an as-built certificate would settle it."},
+
+ {"id": 1235, "name": "Ponce Park", "values": {}, "sources": {},
+  "notes": "HEIGHT FOUND BUT WITHHELD ON A STOREY MISMATCH. City of Coral Gables PZB Staff Report, Ponce Park Residences, file 23-6708 of 13 Dec 2023 (https://coralgables.legistar1.com/coralgables/attachments/862a4686-fdcf-43aa-925d-1e36caaaaf5e.pdf) states the proposed building is 115 feet 8 inches to the roof deck with a 20-foot pool cabana — 115.67 ft to the roof deck, the cabana being a rooftop feature and rejected. But the same report's data table reads 9 stories and 57 residential units against the 11 storeys and 58 units stored, so the figure may belong to a superseded scheme or the city may be counting residential floors only. Signed Resolution 2024-107 restates it as a cap, and the two later amendments, Res. 2025-463 and Res. 2026-1777 of June 2026, change only Ponce Circle Park cost and timing conditions rather than height. Resolve the storey discrepancy and 115.67 becomes usable."},
+
+ {"id": 1236, "name": "Cora Merrick Park", "values": {}, "sources": {},
+  "notes": "HEIGHT FOUND BUT WITHHELD ON A STOREY MISMATCH. City of Coral Gables PZB Staff Report, 4241 Aurora, file 23-6279 of 21 Sep 2023 (https://coralgables.legistar1.com/coralgables/attachments/42f4d46e-7800-4a50-9654-8f516fb4102e.pdf) states building height is 12 stories at 137.5 feet to the top of the roof, and its public notice repeats that the proposed building is 137.5 feet tall. The measurement basis is sound, but it comes with 12 stories and 80 residential units against the 13 storeys and 74 units stored, and Cora Merrick Park is a redesign of the approved 4241 Aurora scheme, so 137.5 ft is probably superseded. Signed Resolution 2023-315 phrases it as a cap, and there is no later site-plan amendment in Legistar."},
+
+ {"id": 1238, "name": "Regency Parc", "values": {}, "sources": {},
+  "notes": "HEIGHT FOUND BUT WITHHELD ON A STOREY MISMATCH. City of Coral Gables Planning and Zoning Staff Report, Regency Tower, files 22-3727 and 22-3729 of 9 Mar 2022 (https://coralgables.legistar1.com/coralgables/attachments/f7884e7a-f30f-4d4e-a919-69020aaca756.pdf) states the proposed building height is 18 stories at 204 feet 8 inches to the top of roof, 239 feet 8 inches to the top of ornamental tower. The 239 feet 8 inches is REJECTED as a measurement to an ornamental tower rather than the roof. The 204 feet 8 inches is a genuine roof height and is carried into signed Ordinance 2022-32 and Resolution 2022-170 of 28 Jun 2022, but it comes with 18 storeys against the 20 stored, which Florida YIMBY also reports as 20. The 2024 and April 2026 amendments cover public-art escrow and a temporary CO and restate no height, so 204 feet 8 inches is the standing approved roof height and becomes usable once the 18-versus-20 storey question is settled."},
+
+ {"id": 1338, "name": "810 Alton Road", "values": {}, "sources": {},
+  "notes": "POSSIBLE DUPLICATE TO CHECK. The city's Live Local Act Applications Under Review page links this address to portal plan 402d8ac6-2064-4e37-b47f-cbb3e6756f26, which is LLA26-0002 (FKA PB24-0688), applied 10 Jun 2024, Under Review, district CD-2. That record's description carries no units, storeys or height — but its MainAddress is 824 ALTON RD, not 810. The tracker carries 824 Alton Road separately with 149 units over 39 storeys, so this row and that one may be the same assemblage under two addresses, or the city may have mis-filed the link. The record's 11 attachments are listed but are not downloadable anonymously."},
+
+ {"id": 1340, "name": "709 Alton Road", "values": {}, "sources": {},
+  "notes": "THE CITY'S OWN LINK FOR THIS ADDRESS IS WRONG, now confirmed. It points at plan a357c9b0-…, which the portal API resolves to LLA26-0010, a 20-story, 34 unit Live Local Act project (FKA PB26-0820) whose MainAddress is 1920 ALTON RD — that is a different project, already carried separately. This address's real plan is LLA26-0009 (FKA PB26-0836) and it could not be reached: the plan API needs a GUID, case-number lookups return an empty shell, and the search and address endpoints return HTTP 500 to anonymous callers. A corrected city link or that GUID would most likely yield the unit count at once, since the sibling records' descriptions carry it. Incidental finding to check: the portal gives 1920 Alton as 34 units where the tracker holds 35."}
+]

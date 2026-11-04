@@ -542,6 +542,175 @@ tile comes back at 12KB against 2KB over open water. This affects every market,
 not just South Florida — Boston, Cambridge and Rhode Island were showing the
 same watermark.
 
+## Height and unit count: a fourth pass (4 November 2026)
+
+These two fields were the thinnest in the market — 49 heights and 114 unit
+counts out of 452 — and three research agents were run against them in
+parallel. The result is **82 heights and 153 unit counts**, plus 160 storey
+counts and 15 hotel-key counts, and 20 projects that the permit feed knew only
+by address now carry their name.
+
+Named: 38 West Eleventh Residences, both E11EVEN towers, both 222 Namdar
+towers, 600 Miami Worldcenter, Flow House, Miami World Tower 1, 501 First
+Residences, District 225, Four Seasons Private Residences Coconut Grove,
+Society Wynwood, River District 14, The Crosby, 2000 Wynwood, Uni Tower,
+NoMad Residences Wynwood, Wynwood Diamedix and Wynwood Works.
+
+### The reporting change that matters more than the counts
+
+A blank meant two unrelated things and rendered identically, which made 161
+correct blanks look like 161 holes. A warehouse has no residential units; that
+is not a gap in the research. So the detail panel and the sample document now
+print one of three things and never an empty space:
+
+    not found        researched and not published by any acceptable source
+    none             a stated zero, e.g. an office tower with no residences
+    not applicable   the asset class has no dwellings in it
+
+The honest denominator for a unit count is the 367 rows that can have dwellings
+in them, not 452. Where a height in feet is unpublished the panel now names the
+storey count as the scale that IS known, rather than leaving two blanks beside
+each other. `south_florida_sample.md` gained a coverage table with those split
+denominators and a programme table listing all 135 projects of 100-plus units,
+100-plus keys or 200-plus feet in one place.
+
+A **stated zero** is a real finding and it needed its own check, because no
+source ever writes the digit 0. The validator's rule for every other number —
+the figure must appear in the quoted sentence — cannot work here, so what is
+checked instead is the sentence: a programme enumeration that lists office,
+retail, restaurant and parking and names no dwelling establishes the zero, and
+one that mentions residences does not. That is not a formality. The Wynwood
+Plaza office row would otherwise have been given the 509 apartments of the
+*separate residential building* on the same site, because the only sentence
+available says both in one breath. The check rejected it, the row keeps no
+zero, and the reason is in its notes.
+
+### Four heights found and refused
+
+- **ENSO, 113 ft.** The FAA record states it and names an elevator enclosure as
+  the highest point on the roof. A mechanical overrun is not the roof slab. The
+  closest call in the batch, since the same record calls it "maximum height of
+  the building"; the figure is in the notes for anyone who wants to override.
+- **Mandarin Oriental North Tower, 446 ft.** Sound figure, unquotable. FAA case
+  2026-ASO-7022-OE states it only in a coordinate table whose AGL/AMSL split
+  lives in a column header, so no figure can be tied to a basis. Its companion
+  case 7021 for the South Tower carries the prose sentence and that tower's 856
+  ft **is** stored. Checked rather than assumed: one extractor over both
+  letters found the six prose patterns present in 7021 return zero hits in
+  7022, because 7022 is a four-page letter with no additional-information page.
+  The press alternative, 426 ft, would have passed validation — it mentions no
+  sea level at all — and was refused on judgement: a design figure of unknown
+  basis in a field that means feet above ground is worse than an empty cell.
+- **1101 71st Street, 235 ft** and **824 Alton Road, "more than 500 feet"** —
+  a zoning cap and a non-figure.
+- **Regency Parc 239'-8", Ocean Terrace 270 ft, Ponce Park's cabana** — all
+  measured to an ornamental tower, a mechanical feature or a rooftop addition.
+
+Three Coral Gables roof heights were found, are real, and are **withheld**:
+Ponce Park 115'-8", Cora Merrick Park 137.5', Regency Parc 204'-8". Each
+arrived with a storey count that disagrees with the tracker — 9 against 11, 12
+against 13, 18 against 20 — which means the figure may belong to a superseded
+scheme. They sit in notes with the document references, usable the moment the
+storey question is settled.
+
+### Two new government veins
+
+- **Miami Beach EnerGov is readable anonymously after all.** `GET
+  /energovprod/selfservice/api/energov/plans/{guid}` with headers `tenantId: 3`
+  and `tenantName: miamibeachflprod2` returns the plan record including a
+  free-text description, which for several Live Local applications carries the
+  storey and unit count. This cracked 1030 6th Street (72 units, 5 storeys),
+  one of three applications that had defeated two earlier passes. Attachments
+  can be listed but not downloaded anonymously, so plan sheets stay out of
+  reach.
+- **Doral and Coral Gables both run Legistar**, and
+  `webapi.legistar.com/v1/{doral|coralgables}/matters` plus
+  `/matters/{id}/attachments` is open. The Doral council memo carries a
+  Development Standards table stating proposed height in feet, which produced
+  six Doral heights and the IMF Doral unit count. The vein is confined to
+  projects that went to Council: eight Doral matters have memos with no height
+  in feet at all, and six projects have no site-plan matter in Legistar.
+
+**Add the Downtown Action Committee to the skip list** alongside the West Palm
+Beach Planning Board. Most downtown WPB projects — CityPlace, Banyan Tree, 534
+Datura, Alida, The Berkeley, Mr. C — are approved at the DAC rather than the
+City Commission, and DAC agendas carry no heights. Figures for those exist only
+on off-list broker and blog sites, and the CityPlace ones carry storey counts
+that disagree with the tracker.
+
+### Three status corrections
+
+- **1129 SW 3 Ave** was Under Construction on `permit_active` alone. The
+  building permit issued 6 March 2020 is still Active with no finalised
+  inspections six years on, and Miami-Dade assesses the folio as vacant land
+  with year built 0. A 287,323 sq ft hotel has not been built there, so it is
+  now **Permitting** — a permit on file. This is the Rhode Island error in the
+  other direction: not finished buildings left in the pipeline, but a pipeline
+  inflated by projects that never started. Pinned by folio in
+  `scraper/sofl_miami.py::STAGE_REVIEW` so a re-ingest keeps it, with the basis
+  stored as `permit_issued_never_started`.
+- **Deco Northwood** is **Dead** — the City Commission denied the application
+  on 27 October 2025. Recorded through the existing denied field rather than as
+  a sixth stage, so the row keeps the stage it died at, and corrected in
+  `data/sofl/west_palm_beach.json` so it survives a re-ingest. The 167 units,
+  eight storeys and 84 ft are kept as the record of what was refused.
+- **720 SW 7 Ave** was already Complete on a certificate of occupancy dated 26
+  March 2026, and the research corroborated it independently: the building is
+  the automotive showroom at 701 SW 8th Street, which the County records as
+  built 2025. No change, note added.
+
+### Two identities resolved by geometry
+
+The Mandarin Oriental rows arrived from the permit feed as "1 Island Drive" and
+"2 Island Drive", which does not say which tower is which. Settled four ways:
+each permit's floor area matches its row exactly; each folio's recorded address
+and legal description identify the parcel; the FAA footprint corners of each
+tower, ray-cast against the parcel polygons, fall inside the folio its permit
+names and none fall inside the other; and Tower 1's centroid sits about 140 m
+south of Tower 2's. **1 Island Drive is the South Tower** (228 residences, 856
+ft, 66 storeys); **2 Island Drive is the North Tower** (121 hotel keys, 33
+storeys). Permit use codes agree but were not relied on. Both rows are renamed
+accordingly.
+
+### Conflicts logged rather than silently resolved
+
+Forma Miami 39 against 40 storeys; Okan Tower 70 against 72, and 902 against
+903 ft; 830 Brickell 55 against 57; 1401 Brickell's 765 ft published when the
+tower was 41 storeys and never restated at 50; Alba Palm Beach 262 ft in the
+press against the City's 235 ft paired with a storey count that fails the
+check; Wynwood Works 179,105 against ~265,000 sq ft; Amara Wynwood 331,846
+against 358,576; and Natiivo's 448 units, which may exclude 140 Gale-branded
+hotel-condos because no source prints a combined total.
+
+### A bug worth recording
+
+The validator's `\b` word boundaries reached the file as literal `\x08`
+backspace characters, silently breaking three regex alternations — including
+the one that recognises `856 feet AGL`. It presented as a correct-looking
+rejection, which is the worst kind: the guard appeared to be working. Found by
+printing the raw bytes of the function after the regex passed standalone and
+failed inside the module. All sources are now scanned for control characters,
+and the thirteen guard cases are exercised directly rather than inferred from
+whether a findings file applied cleanly.
+
+### Still not found
+
+- **Heights, four Miami rows**: Wynwood Plaza office tower, Sweetbird North,
+  Wynwood Works, 2001 N Flagler. The last two are now a *confirmed* absence
+  rather than an unsearched gap — no FAA case for either building, and no
+  instance of "feet", "height" or "stor" anywhere in the WPB agenda text.
+- **Miami Beach heights, twenty-one rows.** The Live Local administrative
+  orders simply do not state heights, and the Design Review Board staff reports
+  sit behind a Laserfiche repository that redirects every anonymous search.
+- **709 Alton Road.** The city's own link for this address is wrong, now
+  confirmed: it resolves to the 1920 Alton Road record. Its real plan is
+  LLA26-0009 and the portal's search and address endpoints return HTTP 500 to
+  anonymous callers.
+- **810 Alton Road may be a duplicate of 824 Alton Road** — the city links 810
+  to a plan record whose own MainAddress is 824. Flagged in notes, not merged.
+- **The Wynwood Plaza residential building** has no row at all. Its office
+  tower does. That is a genuine gap worth opening.
+
 ## Known gaps
 
 - **40 of 452 projects have no coordinates** and so do not appear on the map:
@@ -554,5 +723,15 @@ same watermark.
   of the largest projects by floor area now carry both, and 27 of the top 30.
 - **West Palm Beach PPRC agendas are reachable but unread** — see the West Palm
   Beach section.
-- **The Nora Hotel** needs its status re-checked; its last acceptable-source
-  report is eighteen months old.
+- **The Nora Hotel** needs its status re-checked by hand. At least six outlets
+  report it opened to guests on 19 October 2026 with 201 rooms, and the room
+  count is now stored from an acceptable source — but none of the outlets
+  carrying the opening is on the acceptable list, and the one that is, the South
+  Florida Business Journal, refuses both the search crawler and a direct fetch.
+  Florida YIMBY has published nothing since the May 2025 topping-off. The row
+  stays Under Construction and the signal is in its notes.
+- **Height in feet is 82 of 452 and will not get much past that** from press
+  sources. The two bulk routes were tried and measured: the FAA Digital Obstacle
+  File at a 53 per cent hit rate (rejected, see `scraper/sofl_faa_heights.py`),
+  and the city council memo vein, which works but only for projects that reached
+  a Council agenda. Storey counts stand at 160 and are the usable proxy.

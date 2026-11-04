@@ -769,6 +769,27 @@ def _lifecycle_bar(status: str) -> str:
     )
 
 
+# Asset classes with no dwellings in them. A blank unit count on a warehouse
+# is not a gap in the research -- there is nothing to count -- and showing it
+# the same way as a genuinely unknown figure makes 85 correct blanks look like
+# 85 holes. Institutional and Other are deliberately NOT here: a dormitory is
+# institutional and does have units, so those stay "not published" rather than
+# claiming the field does not apply.
+NO_DWELLINGS = {"Retail", "Office", "Industrial", "Parking", "Lab"}
+
+
+def _absent(reason: str) -> str:
+    """An em dash plus why, for a field with no value.
+
+    `_kv` drops an empty field from the panel entirely, which is right for a
+    field that is merely irrelevant and wrong for height and unit count -- the
+    two the pipeline is read for. An omitted row cannot be told apart from one
+    that was never researched, so these two always print, and print which kind
+    of blank they are.
+    """
+    return (f'<span style="color:{_MUTED}">&mdash; {reason}</span>')
+
+
 def _kv(label: str, value) -> str:
     if not value or (isinstance(value, float) and value != value):
         return ""
@@ -913,7 +934,26 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
         gsf_str = (f'{_sm["mark"]} {gsf_str}<br><span style="color:{_sm["color"]};'
                    f'font-size:9px;letter-spacing:0.08em">{_sm["label"].upper()}</span>')
     units = p.get("residential_units")
+    # A STATED zero is not an absent value. An office tower really does have no
+    # residences, and a source that enumerates its whole programme establishes
+    # that -- so it prints as "none", on the record, rather than falling into
+    # the not-published branch below and reading as a gap in the research.
+    _zero_units = pd.notna(units) and int(units) == 0
     units_str = f"{int(units):,}" if pd.notna(units) and units else None
+    if _zero_units:
+        units_str = _absent("none; no residential component")
+    _keys = p.get("hotel_rooms")
+    _has_keys = pd.notna(_keys) and _keys
+    if pd.notna(_keys) and int(_keys) == 0:
+        _has_keys = False
+    if not units_str:
+        _ac = p.get("asset_class") or ""
+        if _ac in NO_DWELLINGS:
+            units_str = _absent("no residential component")
+        elif _ac == "Hotel" and _has_keys:
+            units_str = _absent("hotel keys only")
+        else:
+            units_str = _absent("not published")
     # Unit-count confidence lost its column in the screener; it has not lost
     # its meaning. 34 units at 1077 Westminster looked exactly like a verified
     # figure until the final plan said 41, so the caveat follows the number
@@ -925,9 +965,19 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
     cgsf = p.get("commercial_gsf")
     cgsf_str = f"{int(cgsf):,} SF" if pd.notna(cgsf) and cgsf else None
     ht = p.get("building_height_ft")
-    ht_str = f"{ht:.0f} FT" if pd.notna(ht) and ht else None
+    ht_str = f"{ht:,.0f} FT" if pd.notna(ht) and ht else None
     stories = p.get("num_stories")
     stories_str = f"{int(stories)}" if pd.notna(stories) and stories else None
+    # Height in feet is the thinnest field in South Florida by a wide margin,
+    # because the press prints storeys and prints feet only at a board
+    # approval. Where only the storey count exists it is named as the scale
+    # that IS known, rather than leaving the reader to notice the storeys line
+    # two rows down.
+    if not ht_str:
+        ht_str = _absent(f"not published; {stories_str} storeys known"
+                         if stories_str else "not published")
+    if not stories_str:
+        stories_str = _absent("not published")
     parking = p.get("parking_spaces")
     parking_str = f"{int(parking):,}" if pd.notna(parking) and parking else None
 
@@ -977,6 +1027,10 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
             _kv("ASSET CLASS",      ac_str) +
             _kv("TOTAL SF",         gsf_str) +
             _kv("RESIDENTIAL UNITS", units_str) +
+            # Keys sit beside units because they answer the same question
+            # about a hotel that units answer about a tower, and a reader
+            # looking for the programme looks here.
+            _kv("HOTEL KEYS",       f"{int(_keys):,}" if _has_keys else None) +
             _kv("COMMERCIAL SF",    cgsf_str) +
             _kv("PARKING SPACES",   parking_str),
             unsafe_allow_html=True,
@@ -1013,7 +1067,6 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
         affordable_str = "TBD" if p.get("affordable_units_tbd") else (
             f'{int(p["affordable_units"]):,}' if pd.notna(p.get("affordable_units")) and p.get("affordable_units") else None
         )
-        hotel_str = f'{int(p["hotel_rooms"]):,}' if pd.notna(p.get("hotel_rooms")) and p.get("hotel_rooms") else None
 
         st.markdown('<div style="height:4px"></div>', unsafe_allow_html=True)
         cc1, cc2, cc3 = st.columns(3)
@@ -1042,7 +1095,9 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
                 for b in permits["building_permits"]
             ) or None
             st.markdown(
-                _kv("HOTEL ROOMS",     hotel_str) +
+                # Hotel keys now print beside the residential unit count in
+                # the main panel for every market, so they are not repeated
+                # here.
                 _kv("SPECIAL PERMIT",  special_str) +
                 _kv("BUILDING PERMIT", building_str),
                 unsafe_allow_html=True,
