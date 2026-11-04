@@ -77,6 +77,28 @@ class Project(Base):
     permit_url = Column(String)
     permit_cost = Column(Integer)
     general_contractor = Column(String)
+
+    # --- South Florida identity and capital stack ---
+    # The parcel identifier is the project key in South Florida: Miami-Dade
+    # publishes a 13-digit folio and Palm Beach County a 17-digit PCN, both of
+    # which appear on the permit, the Notice of Commencement and the agenda
+    # item, whereas the address string does not ("1420 S MIAMI AV" vs
+    # "1428 S Miami Ave" vs "Cipriani Residences"). Dedupe keys on this.
+    #
+    # A development site is routinely assembled from several parcels, so the
+    # folio carried HERE is the one on the main building permit (or the Notice
+    # of Commencement where there is no permit yet) and every other folio for
+    # the same site goes in parcel_id_aliases, comma-joined. The alias column
+    # is what stops the same tower entering twice under two of its own lots.
+    parcel_id = Column(String)
+    parcel_id_aliases = Column(String)
+    # The CONSTRUCTION lender, named in a recorded Notice of Commencement or
+    # in a dated loan announcement. Blank is the expected state before a
+    # construction start -- an acquisition loan is a different instrument and
+    # does not belong here. Kept apart from equity_partner for the same reason
+    # architect is kept apart from attorney: without its own column the name
+    # drifts into whichever capital field is nearest.
+    lender = Column(String)
     completion_stage = Column(String)        # "Complete" | "Under Construction"
     completion_basis = Column(String)        # permit_final | permit_active | co_issued | news_confirmed | human_set
     completion_evidence = Column(Text)

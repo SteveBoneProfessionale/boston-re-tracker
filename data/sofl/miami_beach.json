@@ -1,0 +1,669 @@
+[
+ {
+  "name": "1250 West Avenue",
+  "address": "1250 West Ave",
+  "status": "Approved",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "28-storey, 330 ft waterfront condominium with 106 residences of 1,692 to 5,066 sq ft, replacing the 15-storey, 238-unit Bay Garden Manor condominium built in 1964. Under the overlay zoning agreement the team must complete its portion of the Baywalk and redevelop the Bikini Hostel property at 1247 West Avenue into a city park.",
+  "notes": "Design Review Board approved unanimously in May 2026 and a $507m TYKO Capital construction loan closed in October 2026, with sales expected to begin in 2027; no source reports a construction start, so the stage is Approved. An earlier JDS Development Group scheme for 29 storeys and 100 condos is superseded.",
+  "values": {
+    "developer": "Terra; RG Development Group; GV Development; LORE Development",
+    "architect": "ODP Architecture and Design",
+    "lender": "TYKO Capital",
+    "residential_units": 106,
+    "stories": 28,
+    "height_ft": 330,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 21 Oct 2026", "date": "2026-10-21", "url": "https://floridayimby.com/2026/10/terra-and-partners-secure-507-million-construction-loan-for-28-story-condominium-at-1250-west-avenue-in-miami-beach.html"},
+    "architect": {"name": "Florida YIMBY, 17 May 2026", "date": "2026-05-17", "url": "https://floridayimby.com/2026/05/40002.html"},
+    "height_ft": {"name": "Florida YIMBY, 17 May 2026", "date": "2026-05-17", "url": "https://floridayimby.com/2026/05/40002.html"}
+  }
+ },
+ {
+  "name": "The Alton",
+  "address": "1656-1680 Alton Rd",
+  "alt_addresses": ["1677 West Ave"],
+  "status": "Planning",
+  "filing_type": "Planning Board rezoning",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "14-storey mixed-use building on a 1.38-acre assemblage with 142 apartments, 45,313 sq ft of retail on the bottom two levels and 51,194 sq ft of office space over five storeys, with 367 parking spaces.",
+  "notes": "Unit count revised from 184 residences to 142 apartments; the November 2026 figure is stored under the conflict rule. A separate, earlier six-storey SHVO office scheme designed by Foster + Partners with Kobi Karp was approved for this site in 2023 and never built; it is superseded and not recorded as its own project.",
+  "values": {
+    "developer": "Infinity Collective",
+    "architect": "PBDW Architects",
+    "residential_units": 142,
+    "stories": 14,
+    "parking_spaces": 367,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 3 Nov 2026", "date": "2026-11-03", "url": "https://floridayimby.com/2026/11/14-story-tower-proposed-for-1-38-acre-site-at-1680-alton-road-miami-beach-florida-33139.html"},
+    "parking_spaces": {"name": "Florida YIMBY, 21 Mar 2026", "date": "2026-03-21", "url": "https://floridayimby.com/2026/03/miami-beach-planning-board-to-review-rezoning-plans-for-project-located-at-1677-west-ave-miami-beach-florida.html"}
+  }
+ },
+ {
+  "name": "29 Indian Creek",
+  "address": "2901 Indian Creek Dr",
+  "status": "Under Construction",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Broke ground November 2025; reported under construction October 2026",
+    "url": "https://floridayimby.com/2026/10/trinity-southern-secures-19-5-million-construction-loan-for-29-indian-creek-in-miami-beach.html"},
+  "description": "Boutique residential development of 16 residences, comprising 14 condominiums and two townhomes.",
+  "notes": "Unit count published as 22 residences (20 condominiums and two townhomes) in November 2025 and as 16 (14 and two) in October 2026; the later figure is stored. JMH Development is named as a partner to Trinity Southern.",
+  "values": {
+    "developer": "Trinity Southern",
+    "architect": "Urban Robot",
+    "lender": "S3 Capital",
+    "residential_units": 16,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 15 Oct 2026", "date": "2026-10-15", "url": "https://floridayimby.com/2026/10/trinity-southern-secures-19-5-million-construction-loan-for-29-indian-creek-in-miami-beach.html"}
+  }
+ },
+ {
+  "name": "824 Alton Road",
+  "address": "824 Alton Rd",
+  "status": "Planning",
+  "filing_type": "Live Local Act application",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "31-storey tower with 120 residences, 48 of them workforce housing, replacing a parking lot. At least 40 per cent of the residences must be workforce housing at or below 120 per cent of area median income to qualify under the Live Local Act.",
+  "notes": "Plans were revised in October 2026; that report restates the original 31-storey, 120-residence programme and does not publish revised figures, so the original programme is stored.",
+  "values": {
+    "developer": "Crescent Heights",
+    "architect": "RSP Architects",
+    "residential_units": 120,
+    "stories": 31,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 9 Oct 2025", "date": "2025-10-09", "url": "https://floridayimby.com/2025/10/31-story-tower-with-workforce-housing-proposed-for-824-alton-rd-miami-beach-fl.html"},
+    "architect": {"name": "Florida YIMBY, 4 Oct 2026", "date": "2026-10-04", "url": "https://floridayimby.com/2026/10/developer-revises-plans-for-workforce-housing-high-rise-at-824-alton-road-miami-florida.html"}
+  }
+ },
+ {
+  "name": "Reserve at One Sunset",
+  "address": "1920 Alton Rd",
+  "status": "Planning",
+  "filing_type": "Live Local Act application LLA26-0010 (formerly PB26-0820)",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "20-storey building with 35 luxury units, including workforce housing units used to obtain relief from height limits under the Live Local Act.",
+  "notes": "The coverage describes the sponsor only as a New York-based developer and names no entity, so developer is not found. The City lists the application as under review.",
+  "values": {
+    "architect": "ODP Architecture",
+    "residential_units": 35,
+    "stories": 20,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 28 Sep 2026", "date": "2026-09-28", "url": "https://floridayimby.com/2026/09/new-york-based-developer-plans-20-story-reserve-at-one-sunset-for.html"}
+  }
+ },
+ {
+  "name": "1575 Alton Road",
+  "address": "1575 Alton Rd",
+  "status": "Planning",
+  "filing_type": "Live Local Act administrative approval",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "43-storey mixed-use residential tower rising approximately 557 ft with 163 residential units, commercial space, resident amenities and structured parking. Filed for administrative approval under the Live Local Act through ARRP Miami IV, LLC.",
+  "values": {
+    "developer": "Crescent Heights",
+    "architect": "RSP Architects",
+    "owner_or_agency": "ARRP Miami IV, LLC",
+    "residential_units": 163,
+    "stories": 43,
+    "height_ft": 557,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 21 Sep 2026", "date": "2026-09-21", "url": "https://floridayimby.com/2026/09/42111.html"}
+  }
+ },
+ {
+  "name": "1501 Collins Avenue",
+  "address": "1501 Collins Ave",
+  "status": "Planning",
+  "filing_type": "Live Local Act application LLA-0004 (formerly PB-25-0800)",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Restoration of the 1939 art deco hotel and a 25-storey tower of 487,633 sq ft built-up area, replacing 1990s dining space with 124 residences, fifty of them workforce housing, plus hotel keys.",
+  "values": {
+    "developer": "Pebb Capital; Maxwell Real Estate Group; GFO Investments",
+    "architect": "AS+GG",
+    "residential_units": 124,
+    "stories": 25,
+    "total_gsf": 487633,
+    "asset_class": "Mixed-Use"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 20 Sep 2026", "date": "2026-09-20", "url": "https://floridayimby.com/2026/09/developers-seek-to-restore-historic-hotel-and-build-25-story-tower-at-1501-collins-avenue-miami-beach-florida.html"}
+  }
+ },
+ {
+  "name": "7410 Collins Avenue",
+  "address": "7410 Collins Ave",
+  "status": "Approved",
+  "filing_type": "Live Local Act application PB26-0814",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "11-storey, 122 ft mixed-use development in North Beach with 50 rental residences, 8,535 sq ft of ground-floor retail and 25 parking spaces. The City approved the application under the Live Local Act on 2 September 2026.",
+  "values": {
+    "developer": "Abraham Bergman; Opal Realty NY; The Scharf Group",
+    "architect": "Urban Robot",
+    "owner_or_agency": "BH Collins LLC",
+    "residential_units": 50,
+    "stories": 11,
+    "height_ft": 122,
+    "commercial_gsf": 8535,
+    "parking_spaces": 25,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 6 Sep 2026", "date": "2026-09-06", "url": "https://floridayimby.com/2026/09/11-story-mixed-use-development-approved-at-7410-collins-avenue-in-miami-beach.html"}
+  }
+ },
+ {
+  "name": "7200 Collins",
+  "address": "7200 Collins Ave",
+  "alt_addresses": ["7111 Harding Ave"],
+  "status": "Under Construction",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Groundbreaking held 11 March 2026; foundation work reported under way September 2026",
+    "url": "https://floridayimby.com/2026/09/foundation-work-underway-at-7200-collins-in-north-beach-miami-beach.html"},
+  "description": "12-storey, 222-unit luxury condominium of 274,150 sq ft in North Beach on a 0.57-acre site acquired for $17.33m in 2021. 96 per cent of units were under contract by July 2026.",
+  "values": {
+    "developer": "Northlink Capital",
+    "architect": "Revuelta Architecture International",
+    "contractor": "Ortega Construction Company",
+    "lender": "Deutsche Bank",
+    "residential_units": 222,
+    "stories": 12,
+    "total_gsf": 274150,
+    "asset_class": "Condo"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 2 Sep 2026", "date": "2026-09-02", "url": "https://floridayimby.com/2026/09/foundation-work-underway-at-7200-collins-in-north-beach-miami-beach.html"},
+    "contractor": {"name": "Florida YIMBY, 21 Mar 2026", "date": "2026-03-21", "url": "https://floridayimby.com/2026/03/groundbreaking-held-for-12-story-222-unit-7200-collins-in-miami-beach.html"}
+  }
+ },
+ {
+  "name": "Grand Hyatt Miami Beach Convention Center Hotel",
+  "address": "1701 Convention Center Dr",
+  "status": "Under Construction",
+  "filing_type": "City Commission / referendum-approved ground lease",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Construction topped out, reported 30 July 2026",
+    "url": "https://floridayimby.com/2026/07/construction-tops-out-on-17-story-grand-hyatt-miami-beach-convention-center-hotel.html"},
+  "description": "17-storey, 800-room hotel with 110,000 sq ft of meeting and ballroom space, 17,000 sq ft of ground-floor retail and a direct connection to the Miami Beach Convention Center.",
+  "values": {
+    "developer": "Terra; Turnberry",
+    "architect": "Arquitectonica",
+    "contractor": "Balfour Beatty",
+    "hotel_rooms": 800,
+    "stories": 17,
+    "commercial_gsf": 17000,
+    "asset_class": "Hotel"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 30 Jul 2026", "date": "2026-07-30", "url": "https://floridayimby.com/2026/07/construction-tops-out-on-17-story-grand-hyatt-miami-beach-convention-center-hotel.html"}
+  }
+ },
+ {
+  "name": "PALMA Miami Beach Residences",
+  "address": "600 71st St",
+  "status": "Under Construction",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Ceremonial groundbreaking 16 December 2025; foundation work reported under way June 2026",
+    "url": "https://floridayimby.com/2026/06/foundation-work-underway-for-palma-miami-beach-at-600-71st-street-in-north-beach.html"},
+  "description": "14-storey, 127,600 sq ft condominium in North Beach with 121 condominium units, ground-floor retail and a structured parking garage. Completion expected late 2027.",
+  "values": {
+    "developer": "Lefferts",
+    "architect": "Built Form",
+    "contractor": "KAST Construction",
+    "residential_units": 121,
+    "stories": 14,
+    "total_gsf": 127600,
+    "asset_class": "Condo"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 29 Jun 2026", "date": "2026-06-29", "url": "https://floridayimby.com/2026/06/foundation-work-underway-for-palma-miami-beach-at-600-71st-street-in-north-beach.html"},
+    "total_gsf": {"name": "Florida YIMBY, 24 Dec 2025", "date": "2025-12-24", "url": "https://floridayimby.com/2025/12/ground-breaks-on-14-story-palma-miami-beach-residences-at-600-71st-street-in-north-beach.html"}
+  }
+ },
+ {
+  "name": "NoBe PARC Miami Beach",
+  "address": "7140 Abbott Ave",
+  "status": "Planning",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "15-storey building with 232 condominiums, planned for 2028 completion.",
+  "values": {
+    "developer": "Robert Finvarb Cos.",
+    "architect": "Arquitectonica & The Architects Group",
+    "residential_units": 232,
+    "stories": 15,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 29 May 2026", "date": "2026-05-29", "url": "https://floridayimby.com/2026/05/15-story-nobe-parc-miami-beach-planned-for-2028-completion-at-7140-abbott-ave-miami-beach-florida.html"}
+  }
+ },
+ {
+  "name": "1826 Collins Avenue",
+  "address": "1826 Collins Ave",
+  "status": "Approved",
+  "filing_type": "Live Local Act application PB24-0714",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "15-storey, 213 ft mixed-use development with 29 residential units including 12 workforce housing apartments, pursued under the Live Local Act. Billed as Miami Beach's first affordable housing venture under the act. The Planning Board approved a conditional use permit for its mechanical parking system in May 2026.",
+  "notes": "On the City's list of approved Live Local Act applications. The ownership is described as an entity tied to Crescent Heights' Russell Galbut and Lefferts' Mendy Chudaitov; no single developer entity is named, so both sponsors are recorded.",
+  "values": {
+    "developer": "Crescent Heights (Russell Galbut); Lefferts (Mendy Chudaitov)",
+    "architect": "Built Form Architecture",
+    "residential_units": 29,
+    "stories": 15,
+    "height_ft": 213,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 11 May 2026", "date": "2026-05-11", "url": "https://floridayimby.com/2026/05/planning-board-approves-mechanical-parking-system-for-1826-collins-amid-neighbor-opposition-in-miami-beach.html"}
+  }
+ },
+ {
+  "name": "Casa Cipriani Miami Beach",
+  "address": "3611 Collins Ave",
+  "status": "Planning",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "19-storey hotel and condominium of 59 units: 23 condominiums and 36 hotel keys, costing more than $100m to complete. The second Cipriani-branded project in Miami-Dade County.",
+  "notes": "BH3 Management provided $55.5m in financing; the coverage does not describe it as construction financing, so it is not recorded as the construction lender.",
+  "values": {
+    "developer": "13th Floor Investments; Midtown Equities",
+    "residential_units": 23,
+    "hotel_rooms": 36,
+    "stories": 19,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 14 Apr 2026", "date": "2026-04-14", "url": "https://floridayimby.com/2026/04/19-story-casa-cipriani-proposed-for-3611-collins-ave-miami-beach-florida.html"}
+  }
+ },
+ {
+  "name": "Ella Miami Beach",
+  "address": "6940 Abbott Ave",
+  "status": "Under Construction",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Construction started in 2025 and the building was two weeks from topping out when reported in March 2026",
+    "url": "https://floridayimby.com/2026/03/ella-miami-beach-to-top-out-in-two-weeks-at-6940-abbott-ave-miami-beach-florida.html"},
+  "description": "Ten-storey condominium of 103 units, 70 per cent pre-sold at the time of reporting.",
+  "values": {
+    "developer": "Constellation Group; The Boschetti Group; Vietmar",
+    "architect": "Arquitectonica",
+    "contractor": "Ortega Construction Co.",
+    "residential_units": 103,
+    "stories": 10,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 13 Mar 2026", "date": "2026-03-13", "url": "https://floridayimby.com/2026/03/ella-miami-beach-to-top-out-in-two-weeks-at-6940-abbott-ave-miami-beach-florida.html"}
+  }
+ },
+ {
+  "name": "The Perigon Miami Beach",
+  "address": "5333 Collins Ave",
+  "status": "Under Construction",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Topped out at its full 17-storey height, reported 6 March 2026",
+    "url": "https://floridayimby.com/2026/03/the-perigon-miami-beach-tops-out-at-5333-collins-avenue-in-mid-beach.html"},
+  "description": "17-storey oceanfront luxury condominium tower in Mid-Beach, developed in joint venture with a controlled affiliate of Starwood Capital Group.",
+  "notes": "No unit count is stated in the coverage read for this run, so residential units is not found.",
+  "values": {
+    "developer": "Mast Capital; Starwood Capital Group",
+    "architect": "OMA",
+    "contractor": "Moss Construction",
+    "stories": 17,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 6 Mar 2026", "date": "2026-03-06", "url": "https://floridayimby.com/2026/03/the-perigon-miami-beach-tops-out-at-5333-collins-avenue-in-mid-beach.html"}
+  }
+ },
+ {
+  "name": "71 NoBe",
+  "address": "400 71st St",
+  "status": "Approved",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Mixed-use development in North Beach planned for 2027 completion, financed with a $94m construction loan secured in January 2026.",
+  "notes": "The $94m facility is described as a construction loan but the lender is not named. A loan closing is not a construction start and no source reports one, so the stage is Approved. No unit count or storey count is published.",
+  "values": {
+    "developer": "Pacific Star Capital",
+    "owner_or_agency": "North Beach Town Center Development LLC",
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 7 Jan 2026", "date": "2026-01-07", "url": "https://floridayimby.com/2026/01/mixed-use-71-nobe-planned-for-2027-completion-at-400-71st-st-miami-beach-florida.html"}
+  }
+ },
+ {
+  "name": "Ocean Terrace",
+  "address": "7450 Ocean Terrace",
+  "status": "Approved",
+  "filing_type": "Historic Preservation Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "20-storey oceanfront mixed-use development on the Collins Avenue corridor between 74th and 75th Streets in North Beach, with 76 units: 52 private residences and 24 hotel suites.",
+  "notes": "Construction was set to start in 2026 as reported in November 2025 and no source reports a start, so the stage is Approved. The coverage names no developer entity. Interiors are by Robert A.M. Stern Architects.",
+  "values": {
+    "architect": "Revuelta Architecture International",
+    "residential_units": 52,
+    "hotel_rooms": 24,
+    "stories": 20,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 28 Nov 2025", "date": "2025-11-28", "url": "https://floridayimby.com/2025/11/20-story-ocean-terrace-to-break-ground-next-year-at-7450-ocean-terrace-miami-beach-florida.html"},
+    "residential_units": {"name": "Florida YIMBY, 7 Jan 2026", "date": "2026-01-07", "url": "https://floridayimby.com/2026/01/mixed-use-71-nobe-planned-for-2027-completion-at-400-71st-st-miami-beach-florida.html"},
+    "hotel_rooms": {"name": "Florida YIMBY, 7 Jan 2026", "date": "2026-01-07", "url": "https://floridayimby.com/2026/01/mixed-use-71-nobe-planned-for-2027-completion-at-400-71st-st-miami-beach-florida.html"}
+  }
+ },
+ {
+  "name": "AVARA Residences",
+  "address": "3900 Alton Rd",
+  "status": "Complete",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "leasing_active", "basis": "leasing_active", "date": "2025-12",
+    "note": "Debuted with 178 rental homes, reported 6 December 2025",
+    "url": "https://floridayimby.com/2025/12/avara-residences-debut-at-3900-alton-road-with-178-rental-homes-in-miami-beach.html"},
+  "description": "Eight-storey development with 178 rental homes at the entrance to Miami Beach.",
+  "values": {
+    "developer": "Mast Capital; Rockpoint",
+    "architect": "Arquitectonica",
+    "residential_units": 178,
+    "stories": 8,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 6 Dec 2025", "date": "2025-12-06", "url": "https://floridayimby.com/2025/12/avara-residences-debut-at-3900-alton-road-with-178-rental-homes-in-miami-beach.html"}
+  }
+ },
+ {
+  "name": "1101 71st Street",
+  "address": "1101 71st St",
+  "status": "Planning",
+  "filing_type": "Live Local Act application",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Affordable housing development of close to 116,000 sq ft of new construction, replacing a shuttered Chase bank, seeking incentives under the Live Local Act.",
+  "notes": "The coverage states the building would measure no more than 235 ft, which is a cap rather than a stated height, so height is not stored. No unit count is published.",
+  "values": {
+    "developer": "Jerika Properties",
+    "total_gsf": 116000,
+    "asset_class": "Residential"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 24 Nov 2025", "date": "2025-11-24", "url": "https://floridayimby.com/2025/11/developer-proposes-affordable-housing-development-for-1101-71st-st-miami-beach-fl-33141.html"}
+  }
+ },
+ {
+  "name": "Shore Club Private Collection",
+  "address": "1901 Collins Ave",
+  "status": "Under Construction",
+  "filing_type": "Historic Preservation Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Concrete foundation pour completed, reported 20 November 2025",
+    "url": "https://floridayimby.com/2025/11/shore-club-private-collection-completes-concrete-pour-at-1901-collins-avenue-in-miami-beach.html"},
+  "description": "49 residences across three buildings on a three-acre site, including a 20-storey tower.",
+  "values": {
+    "developer": "Witkoff Group; Monroe Capital",
+    "architect": "Robert A.M. Stern Architects",
+    "residential_units": 49,
+    "stories": 20,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 20 Nov 2025", "date": "2025-11-20", "url": "https://floridayimby.com/2025/11/shore-club-private-collection-completes-concrete-pour-at-1901-collins-avenue-in-miami-beach.html"}
+  }
+ },
+ {
+  "name": "72 Carlyle",
+  "address": "7130 Carlyle Ave",
+  "alt_addresses": ["600 72nd St"],
+  "status": "Planning",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "134 luxury homes across 7130 Carlyle Avenue and 600 72nd Street, following the developer's completion of 72 Park across the street.",
+  "notes": "The coverage states '70 stories above grade', which is irreconcilable with a North Beach site of this scale and is not stored.",
+  "values": {
+    "developer": "Lefferts",
+    "architect": "Piero Lissoni",
+    "residential_units": 134,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 20 Sep 2025", "date": "2025-09-20", "url": "https://floridayimby.com/2025/09/72-carlyle-to-comprise-134-luxury-homes-at-7130-carlyle-ave-and-600-72nd-street-miami-beach-florida.html"}
+  }
+ },
+ {
+  "name": "6985 Collins Avenue",
+  "address": "6985 Collins Ave",
+  "status": "Planning",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "17-storey tower of 37 condominiums replacing two hotels built in the 1930s and 1950s, on part of a 1.1-acre site bought for $24m in 2023.",
+  "notes": "The coverage names no developer entity and no architect.",
+  "values": {
+    "residential_units": 37,
+    "stories": 17,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 31 Aug 2025", "date": "2025-08-31", "url": "https://floridayimby.com/2025/08/developers-seek-approval-for-17-story-condo-at-6985-collins-ave-miami-florida.html"}
+  }
+ },
+ {
+  "name": "6945 Abbott Avenue hotel",
+  "address": "6945 Abbott Ave",
+  "status": "Planning",
+  "filing_type": "Design Review Board",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Six-storey, 90 ft hotel of 48 rooms of about 300 sq ft each, replacing the three-star M Hotel built in 1980.",
+  "values": {
+    "developer": "Abbott M 6945",
+    "architect": "M77R Architecture",
+    "hotel_rooms": 48,
+    "stories": 6,
+    "height_ft": 90,
+    "asset_class": "Hotel"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 6 Oct 2025", "date": "2025-10-06", "url": "https://floridayimby.com/2025/10/48-room-hotel-proposed-for-6945-abbott-ave-miami-beach-fl.html"}
+  }
+ },
+ {
+  "name": "RIVANI Miami Beach expansion",
+  "address": "1691 Michigan Ave",
+  "status": "Planning",
+  "filing_type": "Planning Board / ground lease amendment",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A $50m vertical expansion of the RIVANI office redevelopment, adding approximately 36,000 sq ft of office space, a 6,000 sq ft restaurant and three rooftop padel courts, with the ground lease extended. The City Commission approved the lease amendment on first reading in June 2026; the extension was to go to a November referendum.",
+  "values": {
+    "developer": "Robert Rivani",
+    "architect": "Rockwell Group",
+    "commercial_gsf": 42000,
+    "asset_class": "Office"
+  },
+  "notes": "Commercial floor area is the sum the coverage states as approximately 36,000 sq ft of office plus a 6,000 sq ft restaurant.",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 28 Jun 2026", "date": "2026-06-28", "url": "https://floridayimby.com/2026/06/lease-amendment-advances-50-million-expansion-of-the-rivani-in-miami-beach.html"},
+    "architect": {"name": "Florida YIMBY, 15 Nov 2025", "date": "2025-11-15", "url": "https://floridayimby.com/2025/11/the-h-wood-group-to-open-hidden-cocktail-bar-within-rivani-miami-beach.html"}
+  }
+ },
+ {
+  "name": "1940 Park Avenue workforce housing",
+  "address": "1940 Park Ave",
+  "status": "Planning",
+  "filing_type": "Live Local Act application",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A workforce housing development replacing a shuttered hotel, proposed by an affiliate of The Peebles Corp.",
+  "notes": "No unit count, floor area, storey count or architect is published for this proposal, so those fields are not found.",
+  "values": {
+    "developer": "The Peebles Corp.",
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 30 Jun 2026", "date": "2026-06-30", "url": "https://floridayimby.com/2026/06/shuttered-hotel-could-be-replaced-with-workforce-housing-at-1940-park-ave-miami-beach-florida.html"}
+  }
+ },
+ {
+  "name": "Southgate Towers Live Local redevelopment",
+  "address": "910 West Ave",
+  "status": "Planning",
+  "dead": "Denied",
+  "filing_type": "Live Local Act application",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A pair of 38-storey towers proposed to replace the two 14-storey, 495-unit Southgate Towers apartment buildings. The City determined the site is ineligible under the Live Local Act because it sits in a residentially zoned district; the determination was issued by Planning Director Deborah Tackett on 30 October 2026.",
+  "notes": "Dead, recorded under the existing Denied status. The 495 units are the EXISTING buildings, not the proposal, so no unit count is stored for the new scheme. The applicant is Southgate Towers LLC; the property is Blackstone-owned.",
+  "values": {
+    "owner_or_agency": "Southgate Towers LLC",
+    "stories": 38,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "The Real Deal, 30 Oct 2026", "date": "2026-10-30", "url": "https://therealdeal.com/miami/2026/10/30/miami-beach-axes-38-story-live-local-act-project-over-zoning/"}
+  }
+ },
+ {
+  "name": "1960 Normandy Drive",
+  "address": "1960 Normandy Dr",
+  "status": "Approved",
+  "filing_type": "Live Local Act application PB24-0716",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A Live Local Act development approved by the City of Miami Beach on a vacant site in Normandy Isles, listed as application PB24-0716.",
+  "notes": "The City publishes the approval and the application number on its Approved Live Local Act Applications page but links the development order through the EnerGov self-service portal, which refused automated requests on two attempts. No acceptable source states the unit count, storey count, height, developer or architect, so all of those are not found.",
+  "values": {"asset_class": "Residential"},
+  "sources": {
+    "_default": {"name": "City of Miami Beach, Approved Live Local Act Applications", "url": "https://www.miamibeachfl.gov/city-hall/planning/approved-live-local-act-applications/"}
+  }
+ },
+ {
+  "name": "663 Alton Road",
+  "address": "663 Alton Rd",
+  "status": "Approved",
+  "filing_type": "Live Local Act application PB24-0683",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A Live Local Act development approved by the City of Miami Beach, listed as application PB24-0683.",
+  "notes": "Programme fields are not found: the City's page gives the address, the application number and the approval only, and the development order sits behind the EnerGov portal, which refused automated requests.",
+  "values": {"asset_class": "Residential"},
+  "sources": {
+    "_default": {"name": "City of Miami Beach, Approved Live Local Act Applications", "url": "https://www.miamibeachfl.gov/city-hall/planning/approved-live-local-act-applications/"}
+  }
+ },
+ {
+  "name": "7401-7425 Harding Avenue",
+  "address": "7401-7425 Harding Ave",
+  "status": "Approved",
+  "filing_type": "Live Local Act application PB24-0694",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A Live Local Act development approved by the City of Miami Beach, listed as application PB24-0694.",
+  "notes": "Programme fields are not found, for the same reason as the other approved Live Local applications: the City publishes only the address, application number and approval.",
+  "values": {"asset_class": "Residential"},
+  "sources": {
+    "_default": {"name": "City of Miami Beach, Approved Live Local Act Applications", "url": "https://www.miamibeachfl.gov/city-hall/planning/approved-live-local-act-applications/"}
+  }
+ },
+ {
+  "name": "810 Alton Road",
+  "address": "810 Alton Rd",
+  "status": "Planning",
+  "filing_type": "Live Local Act application LLA26-0002 (formerly PB24-0688)",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A Live Local Act application under review by the City of Miami Beach.",
+  "notes": "Programme fields are not found; the City's under-review page publishes only the address and application number.",
+  "values": {"asset_class": "Residential"},
+  "sources": {
+    "_default": {"name": "City of Miami Beach, Live Local Act Applications Under Review", "url": "https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/"}
+  }
+ },
+ {
+  "name": "42 Collins Avenue",
+  "address": "42 Collins Ave",
+  "status": "Planning",
+  "filing_type": "Live Local Act application PB24-0689",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A Live Local Act application under review by the City of Miami Beach.",
+  "notes": "Programme fields are not found; the City's under-review page publishes only the address and application number.",
+  "values": {"asset_class": "Residential"},
+  "sources": {
+    "_default": {"name": "City of Miami Beach, Live Local Act Applications Under Review", "url": "https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/"}
+  }
+ },
+ {
+  "name": "709 Alton Road",
+  "address": "709 Alton Rd",
+  "status": "Planning",
+  "filing_type": "Live Local Act application LLA26-0009 (formerly PB26-0836)",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A Live Local Act application under review by the City of Miami Beach.",
+  "notes": "Programme fields are not found; the City's under-review page publishes only the address and application number.",
+  "values": {"asset_class": "Residential"},
+  "sources": {
+    "_default": {"name": "City of Miami Beach, Live Local Act Applications Under Review", "url": "https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/"}
+  }
+ },
+ {
+  "name": "1030 6th Street",
+  "address": "1030 6 St",
+  "status": "Planning",
+  "filing_type": "Live Local Act application LLA26-0007 (formerly PB26-0837)",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A Live Local Act application under review by the City of Miami Beach.",
+  "notes": "Programme fields are not found; the City's under-review page publishes only the address and application number.",
+  "values": {"asset_class": "Residential"},
+  "sources": {
+    "_default": {"name": "City of Miami Beach, Live Local Act Applications Under Review", "url": "https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/"}
+  }
+ },
+ {
+  "name": "425 Ocean Drive",
+  "address": "425 Ocean Dr",
+  "status": "Planning",
+  "filing_type": "Live Local Act application LLA26-0006",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A Live Local Act application under review by the City of Miami Beach.",
+  "notes": "Programme fields are not found; the City's under-review page publishes only the address and application number.",
+  "values": {"asset_class": "Residential"},
+  "sources": {
+    "_default": {"name": "City of Miami Beach, Live Local Act Applications Under Review", "url": "https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/"}
+  }
+ },
+ {
+  "name": "The Ritz-Carlton Residences, South Beach",
+  "address": "Lincoln Road, 100-300 blocks, Miami Beach",
+  "status": "Planning",
+  "tests": {"changes_building": true, "commercial": true, "has_program": false},
+  "notes": "Kept so the exclusion is visible: the coverage read for this run names the sponsor (Sobe Sky Development, a partnership of Flag Luxury Group, Ben-Josef Group and Lionstone Development), the architect (Kobi Karp Architecture) and a $61.2m predevelopment loan from BHI, but states no unit count, floor area or storey count and gives no street address to key the project on. It fails test 3 and is dropped at intake."
+ },
+ {
+  "name": "Fontainebleau Miami Beach outdoor amenity redevelopment",
+  "address": "4441 Collins Ave",
+  "status": "Planning",
+  "tests": {"changes_building": false, "commercial": true, "has_program": true},
+  "notes": "Kept so the exclusion is visible: the application expressly does not expand the hotel's footprint, alter its massing or increase density, so it changes no building and fails test 1."
+ }
+]

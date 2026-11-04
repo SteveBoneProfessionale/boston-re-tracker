@@ -42,3 +42,9 @@ data/acquisitions.db-journal
 data/acquisitions.db-wal
 data/acquisitions.db-shm
 data/acquisitions.db.tmp
+
+# South Florida: the rejected-permit dump is a 19 MB debug artefact listing
+# every City of Miami permit row the three tests dropped. Rebuildable by
+# re-running scraper/sofl_miami.py; the counts and the reasons that matter are
+# summarised in south_florida_log.md.
+data/sofl_miami_rejected.json

@@ -118,7 +118,10 @@ def render(df: pd.DataFrame, stats: dict):
             f'plans on the same site are excluded from the totals and charts below. '
             f'Check "Include competing/conditional plans" above to include them.'
         )
-    st.caption(f'BOSTON {stats["total_boston"]:,}  ·  CAMBRIDGE {stats["total_cambridge"]:,}')
+    # Names whatever is in scope rather than two fixed cities. Scoped to one
+    # city the line is that city; across the whole tracker it is the markets.
+    _mix = stats.get("by_city" if city_f != "All" else "by_market") or {}
+    st.caption("  ·  ".join(f"{k.upper()} {v:,}" for k, v in _mix.items()))
 
     # Apply the same exclusion to every chart below, not just the KPI tiles --
     # summary_stats() computed its own totals from a local copy before this

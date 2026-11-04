@@ -309,9 +309,12 @@ def main():
         # Pipeline, consistent with the overview tile and the table default.
         # stats["total"] counts delivered and dead rows too.
         st.metric("PIPELINE PROJECTS", stats["pipeline_projects"])
+        # Every market, not just the first two. The line named Boston and
+        # Cambridge only, which read as the whole tracker while omitting
+        # Rhode Island entirely.
         st.caption(
-            f"BOSTON {stats['total_boston']:,}  ·  CAMBRIDGE {stats['total_cambridge']:,}"
-            f"  ·  {stats['delivered_projects']} delivered, excluded from these totals")
+            "  ·  ".join(f"{m.upper()} {n:,}" for m, n in (stats.get("by_market") or {}).items())
+            + f"  ·  {stats['delivered_projects']} delivered, excluded from these totals")
         st.divider()
         st.metric("UNITS", f"{stats['total_units']:,}")
         st.metric("PIPELINE SF", f"{stats['total_gsf']/1e6:.1f}M")

@@ -1,0 +1,677 @@
+[
+ {
+  "name": "10 CityPlace",
+  "address": "CityPlace district, Downtown West Palm Beach",
+  "status": "Under Construction",
+  "filing_type": "Downtown Action Committee / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Risen to approximately six storeys above grade, reported 2 August 2026",
+    "url": "https://floridayimby.com/2026/08/construction-progresses-on-10-and-15-cityplace-in-downtown-west-palm-beach.html"},
+  "description": "470,000 sq ft office tower at the centre of the CityPlace district, with architecture and interiors by Kohn Pedersen Fox. Expected completion 2027. Funded within a $772m construction financing package covering 10 and 15 CityPlace.",
+  "notes": "No street address is published for the individual tower, so the project is recorded at the district and carries no parcel control number. The $772m facility was led by Ares Real Estate funds with Monarch Alternative Capital and HPS Investment Partners participating, and covers both 10 and 15 CityPlace.",
+  "values": {
+    "developer": "Related Ross",
+    "architect": "Kohn Pedersen Fox",
+    "lender": "Ares Real Estate; Monarch Alternative Capital; HPS Investment Partners",
+    "total_gsf": 470000,
+    "asset_class": "Office"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 2 Aug 2026", "date": "2026-08-02", "url": "https://floridayimby.com/2026/08/construction-progresses-on-10-and-15-cityplace-in-downtown-west-palm-beach.html"},
+    "lender": {"name": "Florida YIMBY, 21 Dec 2025", "date": "2025-12-21", "url": "https://floridayimby.com/2025/12/related-ross-secures-record-772m-construction-loan-for-10-and-15-cityplace-in-downtown-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "15 CityPlace",
+  "address": "CityPlace district, Downtown West Palm Beach",
+  "status": "Under Construction",
+  "filing_type": "Downtown Action Committee / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Roughly seven storeys above grade, reported 2 August 2026",
+    "url": "https://floridayimby.com/2026/08/construction-progresses-on-10-and-15-cityplace-in-downtown-west-palm-beach.html"},
+  "description": "25-storey, 490,000 sq ft office tower adjacent to 10 CityPlace, designed by Arquitectonica with interiors by Fogarty Finger. Expected completion 2027.",
+  "notes": "No street address is published for the individual tower, so the project is recorded at the district and carries no parcel control number. It shares the $772m construction facility with 10 CityPlace.",
+  "values": {
+    "developer": "Related Ross",
+    "architect": "Arquitectonica",
+    "lender": "Ares Real Estate; Monarch Alternative Capital; HPS Investment Partners",
+    "total_gsf": 490000,
+    "stories": 25,
+    "asset_class": "Office"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 2 Aug 2026", "date": "2026-08-02", "url": "https://floridayimby.com/2026/08/construction-progresses-on-10-and-15-cityplace-in-downtown-west-palm-beach.html"},
+    "lender": {"name": "Florida YIMBY, 21 Dec 2025", "date": "2025-12-21", "url": "https://floridayimby.com/2025/12/related-ross-secures-record-772m-construction-loan-for-10-and-15-cityplace-in-downtown-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "Shorecrest",
+  "address": "1865 N Flagler Dr",
+  "alt_addresses": ["1901 N Flagler Dr"],
+  "status": "Under Construction",
+  "filing_type": "Planning Board site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Described as currently under construction in reporting of 21 August 2026",
+    "url": "https://floridayimby.com/2026/08/plans-filed-for-25-story-residences-at-464-fern-street-in-downtown-west-palm-beach.html"},
+  "description": "28-storey waterfront condominium tower on the Intracoastal Waterway just north of downtown, with 98 condominium residences and interiors by Rottet Studio.",
+  "notes": "The project is reported at both 1865 and 1901 North Flagler Drive; the county parcel record for 1865 N Flagler Dr is owned by 1901 N FLAGLER LLC, which confirms they are one site. The 306 ft height was published in December 2025 alongside a 27-storey programme, while February 2026 states 28 storeys and 98 residences; the later storey count and unit count are stored and the only published height is kept with that caveat. Earlier iterations ranged between 140 and 199 units.",
+  "values": {
+    "developer": "Related Ross",
+    "architect": "Roger Ferris + Partners",
+    "lender": "GoldenTree Asset Management",
+    "residential_units": 98,
+    "stories": 28,
+    "height_ft": 306,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 19 Feb 2026", "date": "2026-02-19", "url": "https://floridayimby.com/2026/02/157-million-construction-loan-secured-for-shorecrest-at-1865-north-flagler-drive-in-west-palm-beach.html"},
+    "height_ft": {"name": "Florida YIMBY, 31 Dec 2025", "date": "2025-12-31", "url": "https://floridayimby.com/2025/12/planning-board-approves-306-foot-27-story-shorecrest-tower-at-1901-north-flagler-drive-in-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "Residences at 464 Fern Street",
+  "address": "464 Fern St",
+  "status": "Planning",
+  "filing_type": "Site plan filing",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "25-storey residential tower of approximately 316 ft in Downtown West Palm Beach with 194 residences, 4,343 sq ft of commercial space and 486 parking spaces.",
+  "notes": "Plans were filed in August 2026; a site-plan filing is not a building permit application, so the stage is Planning rather than Permitting.",
+  "values": {
+    "developer": "Related Ross",
+    "architect": "Roger Ferris + Partners",
+    "residential_units": 194,
+    "stories": 25,
+    "height_ft": 316,
+    "commercial_gsf": 4343,
+    "parking_spaces": 486,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 21 Aug 2026", "date": "2026-08-21", "url": "https://floridayimby.com/2026/08/plans-filed-for-25-story-residences-at-464-fern-street-in-downtown-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "Banyan Tree Residences West Palm Beach",
+  "address": "400 Hibiscus St",
+  "alt_addresses": ["635 S Dixie Hwy"],
+  "status": "Approved",
+  "filing_type": "Downtown Action Committee",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "25-storey residential development with 88 condominium residences, interiors by Yabu Pushelberg and landscape architecture by Enea Landscape Architecture. One block from CityPlace and two from the Intracoastal Waterway. Unanimously approved by the Downtown Action Committee in August 2026.",
+  "notes": "OMA (Jason Long) is the design architect and Corwil Architects is the architect of record, so Corwil is stored and OMA recorded here, per the field rule. The storey count was published as 24 and 28 in March 2026 and as 25 in August 2026; the later figure is stored. The project is reported at 400 Hibiscus Street and at 635 South Dixie Highway with the same 88-residence, Mast Capital/Curated JCZM programme, which is one corner site under two frontages.",
+  "values": {
+    "developer": "Mast Capital; Curated JCZM Development",
+    "architect": "Corwil Architects",
+    "residential_units": 88,
+    "stories": 25,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 19 Aug 2026", "date": "2026-08-19", "url": "https://floridayimby.com/2026/08/banyan-tree-residences-west-palm-beach-secures-unanimous-downtown-action-committee-approval.html"},
+    "architect": {"name": "Florida YIMBY, 22 Mar 2026", "date": "2026-03-22", "url": "https://floridayimby.com/2026/03/developers-propose-28-story-mixed-use-tower-for-400-hibiscus-street-west-palm-beach-florida.html"}
+  }
+ },
+ {
+  "name": "Mr. C Hotel & Residences West Palm Beach",
+  "address": "320 Lakeview Ave",
+  "status": "Under Construction",
+  "filing_type": "Downtown Action Committee / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Podium construction continuing with tower crane in place, reported 3 August 2026",
+    "url": "https://floridayimby.com/2026/08/construction-progresses-on-27-story-mr-c-hotel-residences-west-palm-beach.html"},
+  "description": "27-storey mixed-use tower in Downtown West Palm Beach yielding 110 hotel suites and 146 branded residences, with interiors by Meyer Davis. Broke ground in 2025.",
+  "values": {
+    "developer": "Terra; Sympatico Real Estate",
+    "architect": "Arquitectonica",
+    "contractor": "KAST Construction",
+    "lender": "TYKO Capital",
+    "residential_units": 146,
+    "hotel_rooms": 110,
+    "stories": 27,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 3 Aug 2026", "date": "2026-08-03", "url": "https://floridayimby.com/2026/08/construction-progresses-on-27-story-mr-c-hotel-residences-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "Alba Palm Beach",
+  "address": "4714 N Flagler Dr",
+  "status": "Complete",
+  "filing_type": "Planning Board site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "sales_closing", "basis": "news_confirmed", "date": "2026-06",
+    "note": "Photographs of the completed tower, residences and amenity spaces published 22 June 2026; the Palm Beach County parcel record for 4714 N Flagler Dr now carries individual condominium units conveyed to separate owners, which is the closing of sales",
+    "url": "https://floridayimby.com/2026/06/new-photos-showcase-completed-alba-palm-beach-at-4714-n-flagler-drive-in-west-palm-beach.html"},
+  "description": "22-storey waterfront condominium on the Intracoastal Waterway in the Northwood neighbourhood with 55 residences. Topped off May 2025; both tower cranes removed by July 2025.",
+  "notes": "Completion rests on two things rather than a certificate of occupancy: the June 2026 report of the finished building, and the county parcel record, which now holds separate per-unit parcel control numbers with individual owners at this address. The City of West Palm Beach permit portal is a session-driven application that refused automated requests, so no certificate of occupancy was read directly.",
+  "values": {
+    "developer": "BGI Companies; Blue Road",
+    "architect": "Spina O'Rourke + Partners",
+    "contractor": "Moss Construction",
+    "residential_units": 55,
+    "stories": 22,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 22 Jun 2026", "date": "2026-06-22", "url": "https://floridayimby.com/2026/06/new-photos-showcase-completed-alba-palm-beach-at-4714-n-flagler-drive-in-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "120 South Dixie Highway",
+  "address": "120 S Dixie Hwy",
+  "status": "Planning",
+  "filing_type": "Live Local Act application",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "25-storey mixed-income tower of 399 apartments, about 160 of them for households at or below 120 per cent of area median income, with roughly 7,550 sq ft of retail and 236 parking spaces. Studio to three-bedroom units of 505 to 1,320 sq ft; workforce units on floors two to four and six to eleven, market-rate above. A prefabricated mass timber system would make it the tallest wood-framed building in Florida. Incorporates an abandoned fire station into the main floor.",
+  "notes": "Unit count conflict settled: 399 units, stated by Florida YIMBY and The Real Deal in May 2026. A 366-unit figure circulated earlier and is superseded. Nexus Systems is named on the development team for the mass timber system.",
+  "values": {
+    "developer": "Jeff Greene",
+    "architect": "Carlo Ratti Associati",
+    "residential_units": 399,
+    "stories": 25,
+    "commercial_gsf": 7550,
+    "parking_spaces": 236,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 28 May 2026", "date": "2026-05-28", "url": "https://floridayimby.com/2026/05/25-story-mixed-use-tower-to-feature-workforce-housing-at-120-s-dixie-hwy-west-palm-beach-fl.html"},
+    "developer": {"name": "The Real Deal, 28 May 2026", "date": "2026-05-28", "url": "https://therealdeal.com/miami/2026/05/28/jeff-greene-plans-live-local-act-project-in-west-palm-beach/"}
+  }
+ },
+ {
+  "name": "2085 North Flagler Drive",
+  "address": "2085 N Flagler Dr",
+  "status": "Planning",
+  "filing_type": "Site plan filing",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Two 31-storey towers requiring close to 440,000 sq ft of new construction on a 1.55-acre site.",
+  "notes": "The site was under contract from its owner, 2111 Flagler LLC, at the time of reporting. No unit count or architect is published.",
+  "values": {
+    "developer": "Terra; BH Group",
+    "owner_or_agency": "2111 Flagler LLC",
+    "stories": 31,
+    "total_gsf": 440000,
+    "asset_class": "Residential"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 19 Jun 2026", "date": "2026-06-19", "url": "https://floridayimby.com/2026/06/developers-plan-two-31-story-towers-for-2085-n-flagler-dr-west-palm-beach-fl.html"}
+  }
+ },
+ {
+  "name": "The Ritz-Carlton Residences, West Palm Beach",
+  "address": "1717 N Flagler Dr",
+  "status": "Under Construction",
+  "filing_type": "Planning Board site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Ground broken, reported 24 February 2026",
+    "url": "https://floridayimby.com/2026/02/related-group-and-bh-group-break-ground-on-the-ritz-carlton-residences-west-palm-beach.html"},
+  "description": "27-storey waterfront condominium tower in the North Flagler District, developed in partnership with Marriott International, with interiors by Rockwell Group and landscape design by Naturalficial. 138 residences averaging approximately 2,500 sq ft.",
+  "notes": "Storey count published as 26 in October 2025 and 27 in February 2026; the later figure is stored. The 138-residence figure comes from a multi-project round-up where attribution is by paragraph, so it is less firmly attributed than the rest of this record. A $600m Bank OZK construction loan reported in the same round-up is attributed in its own headline to South Flagler House, not to this project, so no lender is recorded here.",
+  "values": {
+    "developer": "Related Group; BH Group",
+    "architect": "Arquitectonica",
+    "residential_units": 138,
+    "stories": 27,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 24 Feb 2026", "date": "2026-02-24", "url": "https://floridayimby.com/2026/02/related-group-and-bh-group-break-ground-on-the-ritz-carlton-residences-west-palm-beach.html"},
+    "residential_units": {"name": "Florida YIMBY, 20 Oct 2025", "date": "2025-10-20", "url": "https://floridayimby.com/2025/10/wave-of-new-residential-development-takes-shape-across-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "South Flagler House",
+  "address": "1355 S Flagler Dr",
+  "status": "Under Construction",
+  "filing_type": "Planning Board site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Topped out at 28 storeys, reported 22 November 2025",
+    "url": "https://floridayimby.com/2025/11/south-flagler-house-tops-out-at-1355-south-flagler-drive-in-west-palm-beach.html"},
+  "description": "Two limestone-clad towers rising 28 storeys with 108 residences. Reinforced Structures, Inc. handled shell operations.",
+  "notes": "The 108-residence figure comes from a multi-project round-up where attribution is by paragraph order, so it is less firmly attributed than the rest of this record.",
+  "values": {
+    "developer": "Related Ross",
+    "architect": "Robert A.M. Stern Architects",
+    "contractor": "Coastal Construction",
+    "lender": "Bank OZK",
+    "residential_units": 108,
+    "stories": 28,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 22 Nov 2025", "date": "2025-11-22", "url": "https://floridayimby.com/2025/11/south-flagler-house-tops-out-at-1355-south-flagler-drive-in-west-palm-beach.html"},
+    "residential_units": {"name": "Florida YIMBY, 20 Oct 2025", "date": "2025-10-20", "url": "https://floridayimby.com/2025/10/wave-of-new-residential-development-takes-shape-across-west-palm-beach.html"},
+    "lender": {"name": "Florida YIMBY, 12 Jun 2025", "date": "2025-06-12", "url": "https://floridayimby.com/2025/06/600-million-in-construction-financing-secured-for-south-flagler-house-in-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "Olara",
+  "address": "1919 N Flagler Dr",
+  "status": "Under Construction",
+  "filing_type": "Planning Board site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Vertical construction commenced, with work under way on the 100,000 sq ft podium level, reported 12 December 2025",
+    "url": "https://floridayimby.com/2025/12/olara-commences-vertical-construction-at-1919-north-flagler-drive-in-west-palm-beach.html"},
+  "description": "Waterfront residential development with 275 residences, more than 80,000 sq ft of resort-style amenities and a private marina. Scheduled for completion in 2028.",
+  "notes": "No architect, contractor, lender, storey count or height is published in the coverage read for this run.",
+  "values": {
+    "developer": "Savanna",
+    "residential_units": 275,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 12 Dec 2025", "date": "2025-12-12", "url": "https://floridayimby.com/2025/12/olara-commences-vertical-construction-at-1919-north-flagler-drive-in-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "The Berkeley Palm Beach",
+  "address": "550 S Australian Ave",
+  "alt_addresses": ["500 S Australian Ave"],
+  "status": "Under Construction",
+  "filing_type": "Downtown Action Committee / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Construction officially broken ground, reported 7 July 2026",
+    "url": "https://floridayimby.com/2026/07/the-berkeley-palm-beach-breaks-ground-at-550-south-australian-avenue-in-west-palm-beach.html"},
+  "description": "25-storey residential tower overlooking Clear Lake with 193 condominium residences including four penthouses.",
+  "notes": "JVP Management provided a $62.5m pre-construction loan in September 2025. A pre-construction loan is not a construction loan, so no lender is recorded. The project is reported at both 500 and 550 South Australian Avenue.",
+  "values": {
+    "developer": "Al Adelson",
+    "architect": "Arquitectonica",
+    "contractor": "John Moriarty & Associates",
+    "residential_units": 193,
+    "stories": 25,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 7 Jul 2026", "date": "2026-07-07", "url": "https://floridayimby.com/2026/07/the-berkeley-palm-beach-breaks-ground-at-550-south-australian-avenue-in-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "Alida Residences and Tribute Portfolio by Marriott Hotel",
+  "address": "Adjacent to the Brightline station, Downtown West Palm Beach",
+  "status": "Under Construction",
+  "filing_type": "Downtown Action Committee / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Officially broke ground at a ceremony on 17 July 2026",
+    "url": "https://floridayimby.com/2026/07/construction-begins-on-alida-residences-and-tribute-portfolio-by-marriott-hotel-in-downtown-west-palm-beach.html"},
+  "description": "Approximately 350,000 sq ft transit-oriented development combining Alida Residences and a Tribute Portfolio by Marriott hotel, directly adjacent to the city's Brightline station, with interior design and branding by EoA Group.",
+  "notes": "No street address is published, so the project is recorded by its location and carries no parcel control number. FrontRange Capital Partners is the capital and investment partner rather than the construction lender, so no lender is recorded. No unit or room count is published.",
+  "values": {
+    "developer": "LD&D; IGEQ",
+    "architect": "Corwil Architects",
+    "total_gsf": 350000,
+    "asset_class": "Mixed-Use"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 19 Jul 2026", "date": "2026-07-19", "url": "https://floridayimby.com/2026/07/construction-begins-on-alida-residences-and-tribute-portfolio-by-marriott-hotel-in-downtown-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "The Mandarin Oriental Residences, West Palm Beach",
+  "address": "5400 N Flagler Dr",
+  "status": "Approved",
+  "filing_type": "Planning Board site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "31-storey luxury condominium tower on the Intracoastal Waterway with 87 residences priced from approximately $3.5m, on a 2.46-acre site in Pinewood Park bounded by the Intracoastal to the east and 54th Street to the north, replacing a 72-unit low-rise completed in 1966. Approved by the West Palm Beach Planning Board in August 2025. Groundbreaking estimated 2027, completion 2029 to 2031.",
+  "notes": "Unit count published as 97 residences in August 2025 and 87 in March and May 2026; the later figure is stored. Safdie Architects and Spina O'Rourke + Partners are both named on the architecture and the sources do not say which is architect of record; Safdie is stored and Spina O'Rourke recorded here.",
+  "values": {
+    "developer": "Great Gulf",
+    "architect": "Safdie Architects",
+    "residential_units": 87,
+    "stories": 31,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 18 May 2026", "date": "2026-05-18", "url": "https://floridayimby.com/2026/05/first-interior-renderings-revealed-for-mandarin-oriental-residences-west-palm-beach.html"},
+    "stories": {"name": "Florida YIMBY, 1 Mar 2026", "date": "2026-03-01", "url": "https://floridayimby.com/2026/03/the-mandarin-oriental-residences-west-palm-beach-planned-for-2031-completion-at-5400-n-flagler-dr-west-palm-beach-fl.html"}
+  }
+ },
+ {
+  "name": "The Sound Apartments",
+  "address": "8111 S Dixie Hwy",
+  "status": "Under Construction",
+  "filing_type": "Planning Board site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Construction nearing completion, reported 4 March 2026; topped out July 2025",
+    "url": "https://floridayimby.com/2026/03/construction-nears-completion-on-the-sound-apartments-at-8111-south-dixie-highway-in-west-palm-beach.html"},
+  "description": "Eight-storey mixed-use residential development with 358 residential units including 90 workforce housing apartments, and 4,000 sq ft of divisible retail space.",
+  "notes": "The most recent dated source says construction is nearing completion, not complete, so the stage is Under Construction; no source states a certificate of occupancy or the start of leasing.",
+  "values": {
+    "developer": "Woodfield Development; Flagler Realty & Development Inc.",
+    "architect": "Spina O'Rourke + Partners",
+    "contractor": "Verdex Construction",
+    "residential_units": 358,
+    "stories": 8,
+    "commercial_gsf": 4000,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 4 Mar 2026", "date": "2026-03-04", "url": "https://floridayimby.com/2026/03/construction-nears-completion-on-the-sound-apartments-at-8111-south-dixie-highway-in-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "Palm Beach Atlantic University residence hall",
+  "address": "1200 S Dixie Hwy",
+  "status": "Under Construction",
+  "filing_type": "Downtown Action Committee / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Officially broke ground, reported 11 October 2025",
+    "url": "https://floridayimby.com/2025/10/palm-beach-atlantic-university-and-gilbane-break-ground-on-25-story-residence-hall-in-west-palm-beach.html"},
+  "description": "25-storey residence hall of 358,400 sq ft with 990 student beds across 275 units in two-, three- and four-bedroom configurations, plus an 11-storey parking garage of 906 spaces fronting South Dixie Highway. A $240m mixed-use student housing project with JPMorgan as underwriter and Provident Group as conduit borrower.",
+  "notes": "Stored as Institutional: a university residence hall delivered with the university as sponsor, not a rental or for-sale residential business. Gilbane is overseeing design, construction and financing, so it is recorded as developer and no separate construction lender is named.",
+  "values": {
+    "developer": "Gilbane Development Co.; Palm Beach Atlantic University",
+    "architect": "CUBE 3",
+    "residential_units": 275,
+    "stories": 25,
+    "total_gsf": 358400,
+    "parking_spaces": 906,
+    "asset_class": "Institutional"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 11 Oct 2025", "date": "2025-10-11", "url": "https://floridayimby.com/2025/10/palm-beach-atlantic-university-and-gilbane-break-ground-on-25-story-residence-hall-in-west-palm-beach.html"},
+    "total_gsf": {"name": "Florida YIMBY, 12 Aug 2024", "date": "2024-08-12", "url": "https://floridayimby.com/2024/08/25-story-dormitory-proposed-by-palm-beach-atlantic-university-at-1200-s-dixie-highway-in-west-palm-beach.html"},
+    "parking_spaces": {"name": "Florida YIMBY, 12 Aug 2024", "date": "2024-08-12", "url": "https://floridayimby.com/2024/08/25-story-dormitory-proposed-by-palm-beach-atlantic-university-at-1200-s-dixie-highway-in-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "The Nora Hotel",
+  "address": "1021 N Railroad Ave",
+  "status": "Under Construction",
+  "filing_type": "Downtown Action Committee / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Construction topped off, reported 7 May 2025; broke ground November 2024",
+    "url": "https://floridayimby.com/2025/05/construction-tops-off-on-the-nora-hotel-in-west-palm-beachs.html"},
+  "description": "Five-storey, 215,000 sq ft hotel with 201 guest rooms and a parking garage in the NORA District, with interiors by Gachot Studios. BD Hotels' first new construction outside New York City.",
+  "notes": "Checked for completion before recording Under Construction: the most recent dated source on the acceptable list is the May 2025 topping-off, and no source states a certificate of occupancy or an opening, so the stage is Under Construction. Given the elapsed time this is a record to re-check.",
+  "values": {
+    "developer": "BD Hotels; Wheelock Street Capital; NDT Development; Place Projects",
+    "architect": "Stantec",
+    "lender": "Metropolitan Commercial Bank",
+    "hotel_rooms": 201,
+    "stories": 5,
+    "total_gsf": 215000,
+    "asset_class": "Hotel"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 28 Nov 2024", "date": "2024-11-28", "url": "https://floridayimby.com/2024/11/the-nora-hotel-breaks-ground-at-1021-north-railroad-avenue-in-west-palm-beachs-nora-district.html"},
+    "lender": {"name": "Florida YIMBY, 20 Oct 2024", "date": "2024-10-20", "url": "https://floridayimby.com/2024/10/75m-construction-loan-secured-for-201-room-hotel-in-west-palm-beachs-nora-district.html"}
+  }
+ },
+ {
+  "name": "534 Datura",
+  "address": "534 Datura St",
+  "status": "Planning",
+  "filing_type": "Live Local Act / workforce housing application",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "25-storey workforce housing tower with 261 residences, 40 per cent of them designated workforce housing.",
+  "notes": "The coverage describes the applicants only as two developers and names neither, so developer is not found.",
+  "values": {
+    "architect": "IMC Architecture",
+    "residential_units": 261,
+    "stories": 25,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 11 Sep 2026", "date": "2026-09-11", "url": "https://floridayimby.com/2026/09/two-developers-plan-25-story-534-datura-for-534-datura-st-west-palm-beach-fl.html"}
+  }
+ },
+ {
+  "name": "2001 North Flagler Drive",
+  "address": "2001 N Flagler Dr",
+  "status": "Planning",
+  "filing_type": "Site plan filing",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "27-storey luxury tower of just over 480,000 sq ft of new construction.",
+  "notes": "The coverage names no developer entity and no unit count.",
+  "values": {
+    "architect": "Arquitectonica",
+    "stories": 27,
+    "total_gsf": 480000,
+    "asset_class": "Residential"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 29 Jan 2026", "date": "2026-01-29", "url": "https://floridayimby.com/2026/01/developers-propose-luxury-27-story-for-2001-n-flagler-dr-west-palm-beach-fl.html"}
+  }
+ },
+ {
+  "name": "Edgeworth",
+  "address": "1155 S Flagler Dr",
+  "status": "Planning",
+  "filing_type": "Site plan filing",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Two 28-storey towers with a total of 168 residences, nine of them penthouses. Sales led by Corcoran Sunshine Marketing Group.",
+  "notes": "The March 2026 report's headline says 164 units and its text says 168; the text figure is stored and the headline figure noted.",
+  "values": {
+    "developer": "Related Ross",
+    "architect": "Kohn Pedersen Fox",
+    "residential_units": 168,
+    "stories": 28,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 20 Mar 2026", "date": "2026-03-20", "url": "https://floridayimby.com/2026/03/two-tower-164-unit-edgeworth-slated-for-1155-south-flagler-drive-west-palm-beach-florida.html"}
+  }
+ },
+ {
+  "name": "209 North Sapodilla Avenue",
+  "address": "209 N Sapodilla Ave",
+  "status": "Planning",
+  "filing_type": "Plans and Plats Review Committee",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A two-building affordable housing development of 164 units in seven storeys on a 1.7-acre site, with units reserved for tenants earning 30, 50, 60 or 80 per cent of area median income.",
+  "notes": "Plans were revised in July 2026; that report restates the approved 164-unit, seven-storey programme.",
+  "values": {
+    "developer": "Related Ross",
+    "architect": "MSA Architects",
+    "residential_units": 164,
+    "stories": 7,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 22 Jul 2026", "date": "2026-07-22", "url": "https://floridayimby.com/2026/07/related-ross-revises-plans-for-affordable-housing-venture-at-209-n-sapodilla-ave-west-palm-beach-fl.html"}
+  }
+ },
+ {
+  "name": "501 Monceaux Road",
+  "address": "501 Monceaux Rd",
+  "status": "Planning",
+  "filing_type": "Plans and Plats Review Committee",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "An eight-storey mixed-use development of 350 apartments with retail, reviewed by the West Palm Beach Plans and Plats Review Committee in May 2026.",
+  "notes": "No architect is named in the coverage.",
+  "values": {
+    "developer": "Pebb Capital",
+    "residential_units": 350,
+    "stories": 8,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 15 May 2026", "date": "2026-05-15", "url": "https://floridayimby.com/2026/05/pebb-capital-proposes-eight-story-mixed-use-venture-for-501-monceaux-road-west-palm-beach-florida.html"}
+  }
+ },
+ {
+  "name": "611 27th Street",
+  "address": "611 27th St",
+  "status": "Planning",
+  "filing_type": "Site plan filing",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A seven-storey affordable housing project of 151 apartments.",
+  "notes": "No architect is named in the coverage.",
+  "values": {
+    "developer": "Procida Development Group; Tré Bél Housing Group",
+    "residential_units": 151,
+    "stories": 7,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 22 Apr 2026", "date": "2026-04-22", "url": "https://floridayimby.com/2026/04/seven-story-affordable-housing-project-proposed-for-611-27th-street-west-palm-beach-florida.html"}
+  }
+ },
+ {
+  "name": "Soleste Palm Station",
+  "address": "520 N Rosemary Ave",
+  "status": "Under Construction",
+  "filing_type": "Downtown Action Committee / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Described as under construction in reporting of 12 May 2026 on its second phase",
+    "url": "https://floridayimby.com/2026/05/15-story-soleste-palm-station-two-proposed-for-411-w-railroad-ave-west-palm-beach-fl.html"},
+  "description": "Eight-storey first phase of 321 units, planned for 2026 completion.",
+  "notes": "No architect, contractor or lender is published for the first phase in the coverage read for this run.",
+  "values": {
+    "developer": "Estate Cos.",
+    "residential_units": 321,
+    "stories": 8,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 31 Jul 2024", "date": "2024-07-31", "url": "https://floridayimby.com/2024/07/321-unit-soleste-palm-station-planned-for-2026-completion-at-520-n-rosemary-avenue-west-palm-beach-fl.html"},
+    "stories": {"name": "Florida YIMBY, 12 May 2026", "date": "2026-05-12", "url": "https://floridayimby.com/2026/05/15-story-soleste-palm-station-two-proposed-for-411-w-railroad-ave-west-palm-beach-fl.html"}
+  }
+ },
+ {
+  "name": "Soleste Palm Station Two",
+  "address": "411 W Railroad Ave",
+  "status": "Planning",
+  "filing_type": "Site plan filing",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "15-storey second phase of 310 apartments, taller than the eight-storey first phase with about the same unit count.",
+  "notes": "Civil engineer is filled because the coverage names the full consultant team, which is the only circumstance in which that field is filled for this market.",
+  "values": {
+    "developer": "Estate Cos.",
+    "architect": "BC Architects",
+    "civil_engineer": "Craven Thompson & Associates",
+    "residential_units": 310,
+    "stories": 15,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 12 May 2026", "date": "2026-05-12", "url": "https://floridayimby.com/2026/05/15-story-soleste-palm-station-two-proposed-for-411-w-railroad-ave-west-palm-beach-fl.html"}
+  }
+ },
+ {
+  "name": "Deco Northwood",
+  "address": "2900 Broadway",
+  "status": "Planning",
+  "filing_type": "Live Local Act application",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "An eight-storey building of 167 units, 40 per cent of them workforce housing, in an art deco style, proposed under the Live Local Act.",
+  "notes": "The coverage names neither the developer nor the architect.",
+  "values": {
+    "residential_units": 167,
+    "stories": 8,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 9 Oct 2025", "date": "2025-10-09", "url": "https://floridayimby.com/2025/10/deco-northwood-proposed-for-2900-broadway-west-palm-beach-florida.html"}
+  }
+ },
+ {
+  "name": "Rybovich Marina redevelopment",
+  "address": "Rybovich Marina, North Flagler Drive, West Palm Beach",
+  "status": "Approved",
+  "filing_type": "Planning Board / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A $2bn marina redevelopment allowing 660 residential units across four towers, with office, commercial and recreational space. The first phase, approved in September 2025, is two multifamily towers totalling 259 units; the taller of the pair will rise 36 storeys and reach 461 ft, becoming the tallest building in West Palm Beach.",
+  "notes": "No street address is published, so the project is recorded by its location and carries no parcel control number. The stored unit count is the approved overall programme of 660 units; the approved first phase is 259 of them.",
+  "values": {
+    "developer": "Huizenga Family; Integra Investments",
+    "architect": "Kohn Pedersen Fox",
+    "residential_units": 660,
+    "stories": 36,
+    "height_ft": 461,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 24 Sep 2025", "date": "2025-09-24", "url": "https://floridayimby.com/2025/09/huizenga-family-and-integra-investments-advance-updated-plans-for-2-billion-rybovich-marina-redevelopment-in-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "Cox Science Center Hall of Science expansion",
+  "address": "Cox Science Center, West Palm Beach",
+  "status": "Approved",
+  "filing_type": "Site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "An 86,000 sq ft Hall of Science expansion at the Cox Science Center, including an aquarium tank with a single acrylic viewing window of approximately 14 ft by 24 ft weighing roughly 20,000 pounds.",
+  "notes": "No street address is published in the coverage, so the project is recorded by its location and carries no parcel control number. Skanska was selected as builder in December 2025; selection of a builder is not a construction start, so the stage is Approved.",
+  "values": {
+    "architect": "PBK",
+    "contractor": "Skanska",
+    "total_gsf": 86000,
+    "asset_class": "Institutional"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 26 Dec 2025", "date": "2025-12-26", "url": "https://floridayimby.com/2025/12/skanska-selected-to-build-86000-square-foot-hall-of-science-expansion-at-cox-science-center-in-west-palm-beach.html"}
+  }
+ },
+ {
+  "name": "Porsche Design Concours (Palm Beach Auto Haus)",
+  "address": "2500 N Florida Mango Rd",
+  "status": "Planning",
+  "filing_type": "Site plan filing",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "An automotive-focused development of 22 privately owned automobile studios of 2,700 to 6,000 sq ft and a membership-based clubhouse, with recreational, hospitality and wellness amenities, designed in collaboration with Porsche Design.",
+  "notes": "Stored as Other: a commercial automobile-studio condominium is none of the tracker's named classes. No construction commencement date or general contractor has been announced. The $6.3m Belmont Bank & Trust loan supported the August 2026 land acquisition and is not a construction loan.",
+  "values": {
+    "developer": "Newgard Development Group",
+    "architect": "Urban Robot Associates",
+    "owner_or_agency": "PB Vaults Development LLC",
+    "asset_class": "Other"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 13 Oct 2026", "date": "2026-10-13", "url": "https://floridayimby.com/2026/10/newgard-development-group-and-porsche-design-unveil-porsche-design-concours-in-west-palm-beach.html"},
+    "owner_or_agency": {"name": "Florida YIMBY, 27 May 2026", "date": "2026-05-27", "url": "https://floridayimby.com/2026/05/auto-condo-palm-beach-auto-haus-planned-for-2500-n-florida-mango-rd-west-palm-beach-fl.html"}
+  }
+ },
+ {
+  "name": "The District at Northwood",
+  "address": "2501 Pinewood Ave",
+  "status": "Under Construction",
+  "tests": {"changes_building": true, "commercial": true, "has_program": false},
+  "notes": "Kept so the exclusion is visible: the coverage names Kobi Karp as architect and a Q4 2026 completion but states no unit count, floor area, storey count or building description, so it fails test 3 and is dropped at intake."
+ },
+ {
+  "name": "The Club at Ibis campus transformation",
+  "address": "The Club at Ibis, West Palm Beach",
+  "status": "Under Construction",
+  "tests": {"changes_building": true, "commercial": true, "has_program": false},
+  "notes": "Kept so the exclusion is visible: a phased private-club renovation programme whose stated scope is bocce and basketball courts, a fitness centre renovation and a new casual restaurant, with no floor area or building programme published. Fails test 3."
+ },
+ {
+  "name": "The Estates at Nomar",
+  "address": "Nomar, West Palm Beach",
+  "status": "Under Construction",
+  "tests": {"changes_building": true, "commercial": false, "has_program": true},
+  "notes": "Kept so the exclusion is visible: 100 luxury single-family homes, which is one-to-four-family housing and fails test 2."
+ },
+ {
+  "name": "The Domaine at SoSo",
+  "address": "SoSo, West Palm Beach",
+  "status": "Approved",
+  "tests": {"changes_building": true, "commercial": false, "has_program": true},
+  "notes": "Kept so the exclusion is visible: a Pulte Homes boutique townhome community of three-bedroom homes with two- or three-car garages and no stated unit count, which reads as for-sale single-family product and fails test 2."
+ }
+]

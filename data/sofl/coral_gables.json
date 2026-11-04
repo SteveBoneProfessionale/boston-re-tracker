@@ -1,0 +1,462 @@
+[
+ {
+  "name": "The Aurelian",
+  "address": "921 E Ponce de Leon Blvd",
+  "alt_addresses": ["912 E Ponce de Leon Blvd", "114 Calabria Ave"],
+  "status": "Under Construction",
+  "filing_type": "Development Review Committee / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Reported under construction, with vertical construction started, August and October 2026",
+    "url": "https://floridayimby.com/2026/10/empira-group-secures-81-million-construction-loan-for-the-aurelian-in-coral-gables.html"},
+  "description": "12-storey Class A multifamily rental building of approximately 324,000 sq ft with 160 residences and no ground-floor retail.",
+  "notes": "Unit count published as 161 in August 2026 and 160 in October 2026; the later figure is stored under the conflict rule. The $81m construction facility is reported without naming the lender, so lender is not found.",
+  "values": {
+    "developer": "Empira Group",
+    "architect": "Behar Font & Partners",
+    "contractor": "Ortega Construction",
+    "residential_units": 160,
+    "stories": 12,
+    "total_gsf": 324000,
+    "asset_class": "Residential"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 18 Oct 2026", "date": "2026-10-18", "url": "https://floridayimby.com/2026/10/empira-group-secures-81-million-construction-loan-for-the-aurelian-in-coral-gables.html"},
+    "architect": {"name": "Florida YIMBY, 13 Aug 2026", "date": "2026-08-13", "url": "https://floridayimby.com/2026/08/the-aurelian-planned-to-feature-161-high-end-residences-at-921-east-ponce-de-leon-boulevard-coral-gables-florida.html"},
+    "contractor": {"name": "Florida YIMBY, 13 Aug 2026", "date": "2026-08-13", "url": "https://floridayimby.com/2026/08/the-aurelian-planned-to-feature-161-high-end-residences-at-921-east-ponce-de-leon-boulevard-coral-gables-florida.html"},
+    "residential_units": {"name": "Florida YIMBY, 18 Oct 2026", "date": "2026-10-18", "url": "https://floridayimby.com/2026/10/empira-group-secures-81-million-construction-loan-for-the-aurelian-in-coral-gables.html"},
+    "stories": {"name": "Florida YIMBY, 18 Oct 2026", "date": "2026-10-18", "url": "https://floridayimby.com/2026/10/empira-group-secures-81-million-construction-loan-for-the-aurelian-in-coral-gables.html"},
+    "total_gsf": {"name": "Florida YIMBY, 13 Aug 2026", "date": "2026-08-13", "url": "https://floridayimby.com/2026/08/the-aurelian-planned-to-feature-161-high-end-residences-at-921-east-ponce-de-leon-boulevard-coral-gables-florida.html"},
+    "asset_class": {"name": "Florida YIMBY, 18 Oct 2026", "date": "2026-10-18", "url": "https://floridayimby.com/2026/10/empira-group-secures-81-million-construction-loan-for-the-aurelian-in-coral-gables.html"}
+  }
+ },
+ {
+  "name": "Ponce Park",
+  "address": "3000 Ponce de Leon Blvd",
+  "status": "Under Construction",
+  "filing_type": "City Commission site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Broke ground December 2025; reported under construction August 2026",
+    "url": "https://floridayimby.com/2026/08/new-amenity-renderings-revealed-for-ponce-park-at-3000-ponce-de-leon-boulevard-in-coral-gables.html"},
+  "description": "11-storey mixed-use condominium with 58 residences over 22,000 sq ft of ground-floor retail. Completion anticipated early 2028.",
+  "notes": "John Cunningham is named as designer alongside Zyscovich Architects; Zyscovich is the architecture firm the coverage names for the project and is stored as architect.",
+  "values": {
+    "developer": "The Allen Morris Co.",
+    "architect": "Zyscovich Architects",
+    "contractor": "KAST Construction",
+    "lender": "Bank OZK",
+    "residential_units": 58,
+    "stories": 11,
+    "commercial_gsf": 22000,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 20 Dec 2025", "date": "2025-12-20", "url": "https://floridayimby.com/2025/12/construction-starts-on-ponce-park-at-3000-ponce-de-leon-blvd-coral-gables-florida.html"},
+    "architect": {"name": "Florida YIMBY, 20 Dec 2025", "date": "2025-12-20", "url": "https://floridayimby.com/2025/12/construction-starts-on-ponce-park-at-3000-ponce-de-leon-blvd-coral-gables-florida.html"},
+    "contractor": {"name": "Florida YIMBY, 14 Aug 2026", "date": "2026-08-14", "url": "https://floridayimby.com/2026/08/new-amenity-renderings-revealed-for-ponce-park-at-3000-ponce-de-leon-boulevard-in-coral-gables.html"},
+    "lender": {"name": "Florida YIMBY, 24 Jan 2026", "date": "2026-01-24", "url": "https://floridayimby.com/2026/01/allen-morris-co-secures-132-5-million-construction-loan-from-bank-ozk-for-ponce-park-in-coral-gables.html"},
+    "residential_units": {"name": "Florida YIMBY, 14 Aug 2026", "date": "2026-08-14", "url": "https://floridayimby.com/2026/08/new-amenity-renderings-revealed-for-ponce-park-at-3000-ponce-de-leon-boulevard-in-coral-gables.html"},
+    "stories": {"name": "Florida YIMBY, 14 Aug 2026", "date": "2026-08-14", "url": "https://floridayimby.com/2026/08/new-amenity-renderings-revealed-for-ponce-park-at-3000-ponce-de-leon-boulevard-in-coral-gables.html"},
+    "commercial_gsf": {"name": "Florida YIMBY, 14 Aug 2026", "date": "2026-08-14", "url": "https://floridayimby.com/2026/08/new-amenity-renderings-revealed-for-ponce-park-at-3000-ponce-de-leon-boulevard-in-coral-gables.html"},
+    "asset_class": {"name": "Florida YIMBY, 14 Aug 2026", "date": "2026-08-14", "url": "https://floridayimby.com/2026/08/new-amenity-renderings-revealed-for-ponce-park-at-3000-ponce-de-leon-boulevard-in-coral-gables.html"}
+  }
+ },
+ {
+  "name": "Cora Merrick Park",
+  "address": "4241 Aurora St",
+  "status": "Under Construction",
+  "filing_type": "City Commission site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Reported currently under construction, June 2026; site was vacant before groundbreaking",
+    "url": "https://floridayimby.com/2026/06/construction-loan-secured-for-cora-merrick-park-at-4241-aurora-street-in-coral-gables.html"},
+  "description": "13-storey mixed-use condominium with 74 residences plus retail and office space, in the Merrick Park district. Completion set for 2028.",
+  "notes": "The $67.5m construction loan is reported without naming the lender, so lender is not found.",
+  "values": {
+    "developer": "Constellation Group; The Boschetti Group",
+    "architect": "Arquitectonica",
+    "contractor": "Winmar Construction",
+    "residential_units": 74,
+    "stories": 13,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 10 Jun 2026", "date": "2026-06-10", "url": "https://floridayimby.com/2026/06/construction-loan-secured-for-cora-merrick-park-at-4241-aurora-street-in-coral-gables.html"},
+    "architect": {"name": "Florida YIMBY, 10 Jun 2026", "date": "2026-06-10", "url": "https://floridayimby.com/2026/06/construction-loan-secured-for-cora-merrick-park-at-4241-aurora-street-in-coral-gables.html"},
+    "contractor": {"name": "Florida YIMBY, 10 Jun 2026", "date": "2026-06-10", "url": "https://floridayimby.com/2026/06/construction-loan-secured-for-cora-merrick-park-at-4241-aurora-street-in-coral-gables.html"},
+    "residential_units": {"name": "Florida YIMBY, 10 Jun 2026", "date": "2026-06-10", "url": "https://floridayimby.com/2026/06/construction-loan-secured-for-cora-merrick-park-at-4241-aurora-street-in-coral-gables.html"},
+    "stories": {"name": "Florida YIMBY, 24 Apr 2026", "date": "2026-04-24", "url": "https://floridayimby.com/2026/04/cora-merrick-park-set-for-2028-completion-at-4241-aurora-st-coral-gables-fl.html"},
+    "asset_class": {"name": "Florida YIMBY, 10 Jun 2026", "date": "2026-06-10", "url": "https://floridayimby.com/2026/06/construction-loan-secured-for-cora-merrick-park-at-4241-aurora-street-in-coral-gables.html"}
+  }
+ },
+ {
+  "name": "Alhambra Parc",
+  "address": "33 Alhambra Circle",
+  "status": "Approved",
+  "filing_type": "City Commission site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Mixed-use development with 74 residences, 13,000 sq ft of office space and nearly 18,000 sq ft of ground-floor retail in downtown Coral Gables.",
+  "notes": "74 residences per June 2026, 78 per September 2025; the later figure is stored under the conflict rule. A $100m construction loan closed in June 2026 but the lender is not named and a loan closing is not itself a construction start, so the stage stays Approved.",
+  "values": {
+    "developer": "MG Developer; Vertical Developments",
+    "architect": "Bellin & Pratt Architects",
+    "residential_units": 74,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 6 Jun 2026", "date": "2026-06-06", "url": "https://floridayimby.com/2026/06/100-million-construction-loan-secured-for-alhambra-parc-at-33-alhambra-circle-in-coral-gables.html"},
+    "architect": {"name": "Florida YIMBY, 6 Jun 2026", "date": "2026-06-06", "url": "https://floridayimby.com/2026/06/100-million-construction-loan-secured-for-alhambra-parc-at-33-alhambra-circle-in-coral-gables.html"},
+    "residential_units": {"name": "Florida YIMBY, 6 Jun 2026", "date": "2026-06-06", "url": "https://floridayimby.com/2026/06/100-million-construction-loan-secured-for-alhambra-parc-at-33-alhambra-circle-in-coral-gables.html"},
+    "asset_class": {"name": "Florida YIMBY, 6 Jun 2026", "date": "2026-06-06", "url": "https://floridayimby.com/2026/06/100-million-construction-loan-secured-for-alhambra-parc-at-33-alhambra-circle-in-coral-gables.html"}
+  }
+ },
+ {
+  "name": "Regency Parc",
+  "address": "2601 Salzedo St",
+  "status": "Complete",
+  "filing_type": "City Commission site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_complete", "basis": "news_confirmed", "date": "2026-06",
+    "note": "Began welcoming its first residents, reported 2 June 2026",
+    "url": "https://floridayimby.com/2026/06/regency-parc-begins-welcoming-first-residents-in-downtown-coral-gables.html"},
+  "description": "20-storey residential tower with 126 residences of approximately 1,700 sq ft and upwards, in downtown Coral Gables.",
+  "notes": "The coverage does not state whether the residences are rental or for sale, so the project is stored under Residential rather than assigned to Condo on an assumption.",
+  "values": {
+    "developer": "Codina Partners",
+    "architect": "Nichols Architects",
+    "residential_units": 126,
+    "stories": 20,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 2 Jun 2026", "date": "2026-06-02", "url": "https://floridayimby.com/2026/06/regency-parc-begins-welcoming-first-residents-in-downtown-coral-gables.html"},
+    "architect": {"name": "Florida YIMBY, 2 Jun 2026", "date": "2026-06-02", "url": "https://floridayimby.com/2026/06/regency-parc-begins-welcoming-first-residents-in-downtown-coral-gables.html"},
+    "residential_units": {"name": "Florida YIMBY, 2 Jun 2026", "date": "2026-06-02", "url": "https://floridayimby.com/2026/06/regency-parc-begins-welcoming-first-residents-in-downtown-coral-gables.html"},
+    "stories": {"name": "Florida YIMBY, 2 Jun 2026", "date": "2026-06-02", "url": "https://floridayimby.com/2026/06/regency-parc-begins-welcoming-first-residents-in-downtown-coral-gables.html"},
+    "asset_class": {"name": "Florida YIMBY, 2 Jun 2026", "date": "2026-06-02", "url": "https://floridayimby.com/2026/06/regency-parc-begins-welcoming-first-residents-in-downtown-coral-gables.html"}
+  }
+ },
+ {
+  "name": "Seventeen Gables Residences",
+  "address": "1715 Douglas Rd",
+  "status": "Under Construction",
+  "filing_type": "City Commission site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Groundbreaking ceremony marking the formal start of construction, reported 6 May 2026",
+    "url": "https://floridayimby.com/2026/05/seventeen-gables-residences-breaks-ground-at-1715-douglas-road-in-coral-gables.html"},
+  "description": "Eight-storey, 117-unit condominium on the Douglas Road corridor near the Coral Gables commercial core.",
+  "notes": "Two architects are named across the coverage: Caymares Martin A&E Design (February 2026) and Asprea Studio, described in May 2026 as design architect and interior designer. Caymares Martin A&E Design is stored as the architect of record and Asprea Studio recorded here as design architect, per the field rule.",
+  "values": {
+    "developer": "BAM Development; Ascendra Capital",
+    "architect": "Caymares Martin A&E Design",
+    "lender": "Dwight Mortgage Trust",
+    "residential_units": 117,
+    "stories": 8,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 6 May 2026", "date": "2026-05-06", "url": "https://floridayimby.com/2026/05/seventeen-gables-residences-breaks-ground-at-1715-douglas-road-in-coral-gables.html"},
+    "architect": {"name": "Florida YIMBY, 12 Feb 2026", "date": "2026-02-12", "url": "https://floridayimby.com/2026/02/seventeen-gables-condominium-secures-60-million-construction-loan-set-for-immediate-construction-at-1715-douglas-road-in-coral-gables.html"},
+    "lender": {"name": "Florida YIMBY, 6 May 2026", "date": "2026-05-06", "url": "https://floridayimby.com/2026/05/seventeen-gables-residences-breaks-ground-at-1715-douglas-road-in-coral-gables.html"},
+    "residential_units": {"name": "Florida YIMBY, 6 May 2026", "date": "2026-05-06", "url": "https://floridayimby.com/2026/05/seventeen-gables-residences-breaks-ground-at-1715-douglas-road-in-coral-gables.html"},
+    "stories": {"name": "Florida YIMBY, 6 May 2026", "date": "2026-05-06", "url": "https://floridayimby.com/2026/05/seventeen-gables-residences-breaks-ground-at-1715-douglas-road-in-coral-gables.html"},
+    "asset_class": {"name": "Florida YIMBY, 12 Feb 2026", "date": "2026-02-12", "url": "https://floridayimby.com/2026/02/seventeen-gables-condominium-secures-60-million-construction-loan-set-for-immediate-construction-at-1715-douglas-road-in-coral-gables.html"}
+  }
+ },
+ {
+  "name": "The George Residences",
+  "address": "717 Valencia Ave",
+  "status": "Under Construction",
+  "filing_type": "City Commission site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Work officially begun, reported 5 November 2025",
+    "url": "https://floridayimby.com/2025/11/mg-developer-breaks-ground-on-the-george-residences-the-final-development-in-coral-gables-biltmore-square.html"},
+  "description": "13 ultra-luxury townhomes, the final phase of the Biltmore Square community.",
+  "notes": "A 13-unit for-sale townhome development, so in scope as multifamily of five or more units rather than as one-to-four-family housing.",
+  "values": {
+    "developer": "MG Developer",
+    "architect": "De la Guardia Victoria Architects & Urbanists",
+    "lender": "Pine Bay Capital",
+    "residential_units": 13,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 5 Nov 2025", "date": "2025-11-05", "url": "https://floridayimby.com/2025/11/mg-developer-breaks-ground-on-the-george-residences-the-final-development-in-coral-gables-biltmore-square.html"},
+    "architect": {"name": "Florida YIMBY, 20 Jul 2025", "date": "2025-07-20", "url": "https://floridayimby.com/2025/07/mg-developer-secures-41-million-construction-loan-for-the-george-residences-in-coral-gables.html"},
+    "lender": {"name": "Florida YIMBY, 20 Jul 2025", "date": "2025-07-20", "url": "https://floridayimby.com/2025/07/mg-developer-secures-41-million-construction-loan-for-the-george-residences-in-coral-gables.html"},
+    "residential_units": {"name": "Florida YIMBY, 20 Jul 2025", "date": "2025-07-20", "url": "https://floridayimby.com/2025/07/mg-developer-secures-41-million-construction-loan-for-the-george-residences-in-coral-gables.html"},
+    "asset_class": {"name": "Florida YIMBY, 20 Jul 2025", "date": "2025-07-20", "url": "https://floridayimby.com/2025/07/mg-developer-secures-41-million-construction-loan-for-the-george-residences-in-coral-gables.html"}
+  }
+ },
+ {
+  "name": "Cassia",
+  "address": "4011 Salzedo Ave",
+  "status": "Under Construction",
+  "filing_type": "City Commission site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Reported construction underway, 12 March 2025",
+    "url": "https://floridayimby.com/2025/03/construction-underway-at-cassia-a-12-story-condominium-in-coral-gables-merrick-park-district.html"},
+  "description": "12-storey condominium with 174 fully furnished residences in the Merrick Park district.",
+  "notes": "Behar Font & Partners is named as design architect and no architect of record is named. The most recent dated source found in this run is the March 2025 construction report; no source states completion, so the stage is Under Construction rather than Complete.",
+  "values": {
+    "developer": "Alta Developers",
+    "architect": "Behar Font & Partners",
+    "residential_units": 174,
+    "stories": 12,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 12 Mar 2025", "date": "2025-03-12", "url": "https://floridayimby.com/2025/03/construction-underway-at-cassia-a-12-story-condominium-in-coral-gables-merrick-park-district.html"},
+    "architect": {"name": "Florida YIMBY, 12 Mar 2025", "date": "2025-03-12", "url": "https://floridayimby.com/2025/03/construction-underway-at-cassia-a-12-story-condominium-in-coral-gables-merrick-park-district.html"},
+    "residential_units": {"name": "Florida YIMBY, 12 Mar 2025", "date": "2025-03-12", "url": "https://floridayimby.com/2025/03/construction-underway-at-cassia-a-12-story-condominium-in-coral-gables-merrick-park-district.html"},
+    "stories": {"name": "Florida YIMBY, 12 Mar 2025", "date": "2025-03-12", "url": "https://floridayimby.com/2025/03/construction-underway-at-cassia-a-12-story-condominium-in-coral-gables-merrick-park-district.html"},
+    "asset_class": {"name": "Florida YIMBY, 12 Mar 2025", "date": "2025-03-12", "url": "https://floridayimby.com/2025/03/construction-underway-at-cassia-a-12-story-condominium-in-coral-gables-merrick-park-district.html"}
+  }
+ },
+ {
+  "name": "Gables Village (University of Miami Housing Phase 3)",
+  "address": "1201 Stanford Dr",
+  "alt_addresses": ["1101 Stanford Dr"],
+  "status": "Approved",
+  "filing_type": "Campus Master Plan Amendment / Development Review Committee",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Two university residential colleges replacing the Mahoney-Pearson Residential Colleges, with 1,458 student beds across 429 units. Parapet heights of approximately 131 ft and 141 ft.",
+  "notes": "Stored as Institutional because it is university-owned on-campus housing delivered under a Campus Master Plan Amendment, not a rental or for-sale residential business. The taller of the two parapet heights is stored. Langan is named as civil engineer in the project team, which is why that field is filled here and left blank elsewhere.",
+  "values": {
+    "developer": "University of Miami",
+    "architect": "Arquitectonica",
+    "civil_engineer": "Langan",
+    "residential_units": 429,
+    "height_ft": 141,
+    "asset_class": "Institutional"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 30 Nov 2025", "date": "2025-11-30", "url": "https://floridayimby.com/2025/11/gables-village-phase-3-of-the-university-of-miamis-housing-facilities-strategic-plan-to-replace-mahoney-pearson-residential-college-in-coral-gables.html"},
+    "architect": {"name": "Florida YIMBY, 30 Nov 2025", "date": "2025-11-30", "url": "https://floridayimby.com/2025/11/gables-village-phase-3-of-the-university-of-miamis-housing-facilities-strategic-plan-to-replace-mahoney-pearson-residential-college-in-coral-gables.html"},
+    "civil_engineer": {"name": "Florida YIMBY, 30 Nov 2025", "date": "2025-11-30", "url": "https://floridayimby.com/2025/11/gables-village-phase-3-of-the-university-of-miamis-housing-facilities-strategic-plan-to-replace-mahoney-pearson-residential-college-in-coral-gables.html"},
+    "residential_units": {"name": "Florida YIMBY, 30 Nov 2025", "date": "2025-11-30", "url": "https://floridayimby.com/2025/11/gables-village-phase-3-of-the-university-of-miamis-housing-facilities-strategic-plan-to-replace-mahoney-pearson-residential-college-in-coral-gables.html"},
+    "height_ft": {"name": "Florida YIMBY, 30 Nov 2025", "date": "2025-11-30", "url": "https://floridayimby.com/2025/11/gables-village-phase-3-of-the-university-of-miamis-housing-facilities-strategic-plan-to-replace-mahoney-pearson-residential-college-in-coral-gables.html"},
+    "asset_class": {"name": "Florida YIMBY, 30 Nov 2025", "date": "2025-11-30", "url": "https://floridayimby.com/2025/11/gables-village-phase-3-of-the-university-of-miamis-housing-facilities-strategic-plan-to-replace-mahoney-pearson-residential-college-in-coral-gables.html"}
+  }
+ },
+ {
+  "name": "The Mark",
+  "address": "1250 S Dixie Hwy",
+  "status": "Approved",
+  "filing_type": "City Commission site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Two eight-storey towers, 105 ft tall, with 393 residential units, 17,000 sq ft of retail along US-1 and Mariposa Avenue, and a 670-space internalised garage. Floor-area ratio 3.46 against a maximum of 3.5. Site plan and alley vacation approved 4-1 on 14 April 2026, conditional on withdrawal of a pending county rapid-transit-zone application.",
+  "notes": "The applicant of record is LCD Acquisitions LLC. Coverage outside the acceptable-source list attributes the project to Landmark Properties; no acceptable source confirms that, and Sunbiz refuses automated requests, so the developer is not found and the LLC is kept as owner of record per the field rule.",
+  "values": {
+    "owner_or_agency": "LCD Acquisitions LLC",
+    "architect": "Behar Font and Partners",
+    "residential_units": 393,
+    "stories": 8,
+    "height_ft": 105,
+    "commercial_gsf": 17000,
+    "parking_spaces": 670,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "owner_or_agency": {"name": "Coral Gables Gazette, April 2026", "url": "https://gables-gazette.com/commission-approves-new-u-s-1-project-and-expands-rtz-overlay-in-4-1-votes/"},
+    "architect": {"name": "Coral Gables Gazette, April 2026", "url": "https://gables-gazette.com/commission-approves-new-u-s-1-project-and-expands-rtz-overlay-in-4-1-votes/"},
+    "residential_units": {"name": "Coral Gables Gazette, April 2026", "url": "https://gables-gazette.com/commission-approves-new-u-s-1-project-and-expands-rtz-overlay-in-4-1-votes/"},
+    "stories": {"name": "Coral Gables Gazette, April 2026", "url": "https://gables-gazette.com/commission-approves-new-u-s-1-project-and-expands-rtz-overlay-in-4-1-votes/"},
+    "height_ft": {"name": "Coral Gables Gazette, April 2026", "url": "https://gables-gazette.com/commission-approves-new-u-s-1-project-and-expands-rtz-overlay-in-4-1-votes/"},
+    "commercial_gsf": {"name": "Coral Gables Gazette, April 2026", "url": "https://gables-gazette.com/commission-approves-new-u-s-1-project-and-expands-rtz-overlay-in-4-1-votes/"},
+    "parking_spaces": {"name": "Coral Gables Gazette, April 2026", "url": "https://gables-gazette.com/commission-approves-new-u-s-1-project-and-expands-rtz-overlay-in-4-1-votes/"},
+    "asset_class": {"name": "Coral Gables Gazette, April 2026", "url": "https://gables-gazette.com/commission-approves-new-u-s-1-project-and-expands-rtz-overlay-in-4-1-votes/"}
+  }
+ },
+ {
+  "name": "2501 Galiano Street",
+  "address": "2501 Galiano St",
+  "status": "Planning",
+  "filing_type": "Development Review Committee",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "13-storey mixed-use building of 98,335 sq ft of new construction with 93 units (85 condominiums and eight lodging units), reaching 177 ft at its tallest point, replacing a closed Truist bank on a 22,500 sq ft site.",
+  "notes": "The applicant is 2501 Galiano Street Holdings LLC and no source names a party behind it. Sunbiz refuses automated requests, so the chain stops at the LLC: developer is not found and the LLC is kept as owner of record.",
+  "values": {
+    "owner_or_agency": "2501 Galiano Street Holdings LLC",
+    "architect": "Bermello Ajamil Partners",
+    "residential_units": 93,
+    "stories": 13,
+    "height_ft": 177,
+    "total_gsf": 98335,
+    "asset_class": "Mixed-Use"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "owner_or_agency": {"name": "Florida YIMBY, 23 Oct 2024", "date": "2024-10-23", "url": "https://floridayimby.com/2024/10/13-story-traditional-condo-could-replace-closed-truist-bank-at-2501-galiano-st-coral-gables-fl.html"},
+    "architect": {"name": "Florida YIMBY, 23 Oct 2024", "date": "2024-10-23", "url": "https://floridayimby.com/2024/10/13-story-traditional-condo-could-replace-closed-truist-bank-at-2501-galiano-st-coral-gables-fl.html"},
+    "residential_units": {"name": "Florida YIMBY, 23 Oct 2024", "date": "2024-10-23", "url": "https://floridayimby.com/2024/10/13-story-traditional-condo-could-replace-closed-truist-bank-at-2501-galiano-st-coral-gables-fl.html"},
+    "stories": {"name": "Florida YIMBY, 23 Oct 2024", "date": "2024-10-23", "url": "https://floridayimby.com/2024/10/13-story-traditional-condo-could-replace-closed-truist-bank-at-2501-galiano-st-coral-gables-fl.html"},
+    "height_ft": {"name": "Florida YIMBY, 23 Oct 2024", "date": "2024-10-23", "url": "https://floridayimby.com/2024/10/13-story-traditional-condo-could-replace-closed-truist-bank-at-2501-galiano-st-coral-gables-fl.html"},
+    "total_gsf": {"name": "Florida YIMBY, 23 Oct 2024", "date": "2024-10-23", "url": "https://floridayimby.com/2024/10/13-story-traditional-condo-could-replace-closed-truist-bank-at-2501-galiano-st-coral-gables-fl.html"},
+    "asset_class": {"name": "Florida YIMBY, 23 Oct 2024", "date": "2024-10-23", "url": "https://floridayimby.com/2024/10/13-story-traditional-condo-could-replace-closed-truist-bank-at-2501-galiano-st-coral-gables-fl.html"}
+  }
+ },
+ {
+  "name": "Alexan Crafts",
+  "address": "300 Catalonia Ave",
+  "alt_addresses": ["Salzedo St between Catalonia Ave and Malaga Ave"],
+  "status": "Approved",
+  "filing_type": "Development Review Committee / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Seven-storey mixed-use building rising to 77 ft in the Crafts District, with 263 rental apartments, 22 live-work units, 364 parking spaces and 29,450 sq ft of open space, on the west side of Salzedo Street between Catalonia and Malaga Avenues.",
+  "notes": "Stage is Approved because no source on the acceptable list carries a dated construction report for this project. Sources outside that list report exterior walls reaching the seventh floor during 2025, which would make it Under Construction; that has not been written because the brief restricts sources to government records, the named city pages and the named trade press.",
+  "values": {
+    "developer": "Trammell Crow Residential",
+    "architect": "Corwil Architects",
+    "residential_units": 263,
+    "stories": 7,
+    "height_ft": 77,
+    "parking_spaces": 364,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 2 Jun 2021", "date": "2021-06-02", "url": "https://floridayimby.com/2021/06/2255.html"},
+    "architect": {"name": "Florida YIMBY, 2 Jun 2021", "date": "2021-06-02", "url": "https://floridayimby.com/2021/06/2255.html"},
+    "residential_units": {"name": "Florida YIMBY, 2 Jun 2021", "date": "2021-06-02", "url": "https://floridayimby.com/2021/06/2255.html"},
+    "stories": {"name": "Florida YIMBY, 2 Jun 2021", "date": "2021-06-02", "url": "https://floridayimby.com/2021/06/2255.html"},
+    "height_ft": {"name": "Florida YIMBY, 2 Jun 2021", "date": "2021-06-02", "url": "https://floridayimby.com/2021/06/2255.html"},
+    "parking_spaces": {"name": "Florida YIMBY, 2 Jun 2021", "date": "2021-06-02", "url": "https://floridayimby.com/2021/06/2255.html"},
+    "asset_class": {"name": "Florida YIMBY, 2 Jun 2021", "date": "2021-06-02", "url": "https://floridayimby.com/2021/06/2255.html"}
+  }
+ },
+ {
+  "name": "Crystal Residences",
+  "address": "110 Phoenetia Ave",
+  "status": "Planning",
+  "filing_type": "Rezoning application",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Nine-storey, 226,193 sq ft mixed-use building with 184 residences, incorporating the Crystal Academy autism therapy centre in approximately 10,000 sq ft, on a 1.47-acre site proposed for rezoning to mixed use / commercial mid-rise intensity.",
+  "values": {
+    "developer": "Fifield Cos.",
+    "architect": "Corwil Architects",
+    "residential_units": 184,
+    "stories": 9,
+    "total_gsf": 226193,
+    "asset_class": "Mixed-Use"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 16 Jun 2026", "date": "2026-06-16", "url": "https://floridayimby.com/2026/06/fifield-cos-seeks-rezoning-approval-for-crystal-residences-at-110-phoenetia-ave-coral-gables-fl.html"},
+    "architect": {"name": "Florida YIMBY, 16 Jun 2026", "date": "2026-06-16", "url": "https://floridayimby.com/2026/06/fifield-cos-seeks-rezoning-approval-for-crystal-residences-at-110-phoenetia-ave-coral-gables-fl.html"},
+    "residential_units": {"name": "Florida YIMBY, 16 Jun 2026", "date": "2026-06-16", "url": "https://floridayimby.com/2026/06/fifield-cos-seeks-rezoning-approval-for-crystal-residences-at-110-phoenetia-ave-coral-gables-fl.html"},
+    "stories": {"name": "Florida YIMBY, 16 Jun 2026", "date": "2026-06-16", "url": "https://floridayimby.com/2026/06/fifield-cos-seeks-rezoning-approval-for-crystal-residences-at-110-phoenetia-ave-coral-gables-fl.html"},
+    "total_gsf": {"name": "Florida YIMBY, 16 Jun 2026", "date": "2026-06-16", "url": "https://floridayimby.com/2026/06/fifield-cos-seeks-rezoning-approval-for-crystal-residences-at-110-phoenetia-ave-coral-gables-fl.html"},
+    "asset_class": {"name": "Florida YIMBY, 16 Jun 2026", "date": "2026-06-16", "url": "https://floridayimby.com/2026/06/fifield-cos-seeks-rezoning-approval-for-crystal-residences-at-110-phoenetia-ave-coral-gables-fl.html"}
+  }
+ },
+ {
+  "name": "300 Malaga",
+  "address": "300 Malaga Ave",
+  "status": "Planning",
+  "filing_type": "Development Review Committee",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Four-storey boutique condominium of 25 units, 56 ft above grade, replacing three single-family homes.",
+  "notes": "No architect is named in the coverage; the article describes the design's inspiration but not the firm, so architect is not found.",
+  "values": {
+    "developer": "Roger Development Group",
+    "residential_units": 25,
+    "stories": 4,
+    "height_ft": 56,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 18 May 2026", "date": "2026-05-18", "url": "https://floridayimby.com/2026/05/25-unit-300-malaga-proposed-for-300-malaga-avenue-coral-gables-florida.html"},
+    "residential_units": {"name": "Florida YIMBY, 18 May 2026", "date": "2026-05-18", "url": "https://floridayimby.com/2026/05/25-unit-300-malaga-proposed-for-300-malaga-avenue-coral-gables-florida.html"},
+    "stories": {"name": "Florida YIMBY, 18 May 2026", "date": "2026-05-18", "url": "https://floridayimby.com/2026/05/25-unit-300-malaga-proposed-for-300-malaga-avenue-coral-gables-florida.html"},
+    "height_ft": {"name": "Florida YIMBY, 18 May 2026", "date": "2026-05-18", "url": "https://floridayimby.com/2026/05/25-unit-300-malaga-proposed-for-300-malaga-avenue-coral-gables-florida.html"},
+    "asset_class": {"name": "Florida YIMBY, 18 May 2026", "date": "2026-05-18", "url": "https://floridayimby.com/2026/05/25-unit-300-malaga-proposed-for-300-malaga-avenue-coral-gables-florida.html"}
+  }
+ },
+ {
+  "name": "Ponce 8",
+  "address": "3850 SW 8th St",
+  "status": "Planning",
+  "filing_type": "Live Local Act / site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "16-storey mixed-use building with 201 apartments, 40 per cent of them designated affordable to qualify for Live Local Act incentives, plus commercial space.",
+  "values": {
+    "developer": "Shoma Group",
+    "architect": "PPK Architects",
+    "residential_units": 201,
+    "stories": 16,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 15 Aug 2025", "date": "2025-08-15", "url": "https://floridayimby.com/2025/08/shoma-group-proposes-ponce-8-for-3850-sw-8th-st-coral-gables-fl.html"},
+    "architect": {"name": "Florida YIMBY, 15 Aug 2025", "date": "2025-08-15", "url": "https://floridayimby.com/2025/08/shoma-group-proposes-ponce-8-for-3850-sw-8th-st-coral-gables-fl.html"},
+    "residential_units": {"name": "Florida YIMBY, 15 Aug 2025", "date": "2025-08-15", "url": "https://floridayimby.com/2025/08/shoma-group-proposes-ponce-8-for-3850-sw-8th-st-coral-gables-fl.html"},
+    "stories": {"name": "Florida YIMBY, 15 Aug 2025", "date": "2025-08-15", "url": "https://floridayimby.com/2025/08/shoma-group-proposes-ponce-8-for-3850-sw-8th-st-coral-gables-fl.html"},
+    "asset_class": {"name": "Florida YIMBY, 15 Aug 2025", "date": "2025-08-15", "url": "https://floridayimby.com/2025/08/shoma-group-proposes-ponce-8-for-3850-sw-8th-st-coral-gables-fl.html"}
+  }
+ },
+ {
+  "name": "6100 Caballero Boulevard",
+  "address": "6100 Caballero Blvd",
+  "status": "Planning",
+  "filing_type": "Development Review Committee",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Two buildings of nine and 13 storeys offering 251 luxury units in total; the project is unnamed in the coverage.",
+  "notes": "Portuondo Perotti Architects and Arquitectonica are both named as architects and the source does not say which is architect of record; Portuondo Perotti is stored and Arquitectonica recorded here. The taller of the two buildings is stored for storeys.",
+  "values": {
+    "developer": "Fortune International Group",
+    "architect": "Portuondo Perotti Architects",
+    "residential_units": 251,
+    "stories": 13,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 12 Jun 2025", "date": "2025-06-12", "url": "https://floridayimby.com/2025/06/two-tower-development-planned-for-6100-caballero-blvd-coral-gables-florida.html"},
+    "architect": {"name": "Florida YIMBY, 12 Jun 2025", "date": "2025-06-12", "url": "https://floridayimby.com/2025/06/two-tower-development-planned-for-6100-caballero-blvd-coral-gables-florida.html"},
+    "residential_units": {"name": "Florida YIMBY, 12 Jun 2025", "date": "2025-06-12", "url": "https://floridayimby.com/2025/06/two-tower-development-planned-for-6100-caballero-blvd-coral-gables-florida.html"},
+    "stories": {"name": "Florida YIMBY, 12 Jun 2025", "date": "2025-06-12", "url": "https://floridayimby.com/2025/06/two-tower-development-planned-for-6100-caballero-blvd-coral-gables-florida.html"},
+    "asset_class": {"name": "Florida YIMBY, 12 Jun 2025", "date": "2025-06-12", "url": "https://floridayimby.com/2025/06/two-tower-development-planned-for-6100-caballero-blvd-coral-gables-florida.html"}
+  }
+ },
+ {
+  "name": "Via Veneto",
+  "address": "915 Palermo Ave",
+  "status": "Approved",
+  "filing_type": "City Commission site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Ten three-storey townhome residences replacing a low-rise 32-unit apartment building.",
+  "notes": "The January 2025 report says construction was to start that spring, which is a forecast and not a construction start, so the stage is Approved. The same report contains a '28 stories above grade' sentence that contradicts the project's own description of ten three-storey residences; it is not stored. The $30m construction loan is reported without naming the lender.",
+  "values": {
+    "developer": "The Calta Group",
+    "architect": "Locus Architecture",
+    "residential_units": 10,
+    "stories": 3,
+    "asset_class": "Condo"
+  },
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 18 Jan 2025", "date": "2025-01-18", "url": "https://floridayimby.com/2025/01/via-veneto-to-start-construction-this-spring-at-915-palermo-ave-coral-gables-fl.html"},
+    "architect": {"name": "Florida YIMBY, 18 Jan 2025", "date": "2025-01-18", "url": "https://floridayimby.com/2025/01/via-veneto-to-start-construction-this-spring-at-915-palermo-ave-coral-gables-fl.html"},
+    "residential_units": {"name": "Florida YIMBY, 18 Jan 2025", "date": "2025-01-18", "url": "https://floridayimby.com/2025/01/via-veneto-to-start-construction-this-spring-at-915-palermo-ave-coral-gables-fl.html"},
+    "stories": {"name": "Florida YIMBY, 18 Jan 2025", "date": "2025-01-18", "url": "https://floridayimby.com/2025/01/via-veneto-to-start-construction-this-spring-at-915-palermo-ave-coral-gables-fl.html"},
+    "asset_class": {"name": "Florida YIMBY, 18 Jan 2025", "date": "2025-01-18", "url": "https://floridayimby.com/2025/01/via-veneto-to-start-construction-this-spring-at-915-palermo-ave-coral-gables-fl.html"}
+  }
+ },
+ {
+  "name": "Ponce Circle Park redesign",
+  "address": "Ponce Circle Park, Coral Gables",
+  "status": "Approved",
+  "tests": {"changes_building": false, "commercial": true, "has_program": true},
+  "notes": "Kept in the record file so the exclusion is visible rather than silent: a $10m park redesign creates no building, so it fails test 1 and is dropped at intake."
+ },
+ {
+  "name": "2020 Ponce office leases",
+  "address": "2020 Ponce de Leon Blvd",
+  "status": "Complete",
+  "tests": {"changes_building": false, "commercial": true, "has_program": true},
+  "notes": "Kept so the exclusion is visible: new leases in a standing 14-storey office condominium tower are not construction, so this fails test 1 and is dropped at intake."
+ }
+]

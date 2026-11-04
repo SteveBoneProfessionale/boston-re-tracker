@@ -194,6 +194,31 @@ MARKETS: dict[str, dict] = {
     "Woburn": {"market": "Massachusetts", "stage_map": STAGE_MAP_BOSTON, "review_scale_vocab": None},
 }
 
+# South Florida records the canonical stage directly, and this map is the
+# identity. That is a deliberate exception to the pattern above, not an
+# oversight: Boston and Cambridge each have ONE source with ONE status
+# vocabulary to translate, whereas a South Florida project's stage is
+# established from whichever source actually knows -- a building permit's
+# status, a board's recorded action, a recorded Notice of Commencement, a
+# certificate of occupancy, or a dated construction report. There is no single
+# native vocabulary to preserve, so inventing one would mean mapping five
+# unrelated vocabularies into a sixth fake one and translating that.
+#
+# What a status rests on is therefore recorded as evidence rather than as
+# wording: completion_basis for a delivery, and a source URL per field in
+# extraction_sources. The one rule enforced at intake is the brief's: a
+# planning document can establish Planning, Permitting or Approved and NEVER
+# Under Construction or Complete, which need a permit, a Notice of
+# Commencement, a certificate, or dated construction press.
+SOFL_STAGE_MAP = {s: s for s in STAGE_ORDER}
+
+for _sofl_city in ("Miami", "Miami Beach", "West Palm Beach", "Coral Gables", "Doral"):
+    MARKETS[_sofl_city] = {
+        "market": "South Florida",
+        "stage_map": SOFL_STAGE_MAP,
+        "review_scale_vocab": None,     # no Article 80 / RIGL 45-23 equivalent
+    }
+
 # Rhode Island municipalities share one vocabulary and one constraint.
 #
 # reachable_stages makes Under Construction and Complete STRUCTURALLY
@@ -457,9 +482,18 @@ for _entry in MARKETS.values():
 # source's own wording is kept verbatim in `asset_class_raw`, so a fold stays
 # recoverable and the detail view can still show what the filing actually said.
 ASSET_CLASSES = [
-    "Residential", "Mixed-Use", "Office", "Lab/Research", "Retail",
+    "Residential", "Condo", "Mixed-Use", "Office", "Lab/Research", "Retail",
     "Hotel", "Industrial", "Institutional", "Parking", "Other",
 ]
+
+# "Residential" means multifamily RENTAL and "Condo" means for-sale. They are
+# separate values rather than one residential bucket because in South Florida
+# they are different businesses with different capital, and the sources say
+# which: Miami's permit feed states MULTI-FAMILY (RENTAL) or MULTI-FAMILY
+# (CONDO) as a work item. No existing Boston, Cambridge or Rhode Island row is
+# reclassified -- those markets' sources do not make the distinction, so their
+# rows stay "Residential" and splitting them would be a claim the sources
+# never made.
 
 # Non-canonical values seen in existing data -> canonical. Applied at ingestion
 # for every market, and by scraper/fold_asset_class.py to existing records.
@@ -667,6 +701,11 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 "landscape_architect": p.landscape_architect or "",
                 "contractor": p.general_contractor or "",
                 "attorney": p.attorney or "",
+                # The construction lender, and the parcel identity the South
+                # Florida dedupe keys on. Blank for every other market.
+                "lender": p.lender or "",
+                "parcel_id": p.parcel_id or "",
+                "parcel_id_aliases": p.parcel_id_aliases or "",
                 # DELIVERY, as two separate claims. Real dates so the
                 # screener can sort them chronologically, the precision of
                 # the period each source actually named, and -- for a
@@ -1020,8 +1059,19 @@ def summary_stats(df: pd.DataFrame, include_conditional: bool = False) -> dict:
     stage_counts = {s: int((stage_scope["stage"] == s).sum()) for s in STAGE_ORDER}
     excluded_from_stages = n_conditional if (not include_conditional and has_conditional_col) else 0
 
+    # Counts per market and per city, so the header line names whatever is
+    # actually in scope. It used to be two hardcoded keys for Boston and
+    # Cambridge, which read as the whole tracker and silently omitted Rhode
+    # Island's 414 rows -- and would have omitted South Florida too.
+    by_market = (df.groupby("market").size().sort_values(ascending=False).to_dict()
+                 if "market" in df.columns and len(df) else {})
+    by_city = (df.groupby("city").size().sort_values(ascending=False).to_dict()
+               if "city" in df.columns and len(df) else {})
+
     return {
         "total": len(df),
+        "by_market": by_market,
+        "by_city": by_city,
         "total_boston": int((df["city"] == "Boston").sum()),
         "total_cambridge": int((df["city"] == "Cambridge").sum()),
         "large": (df["project_scale"] == "Large Project").sum(),

@@ -1,0 +1,407 @@
+[
+ {
+  "name": "Waldorf Astoria Hotel & Residences Miami",
+  "match_address": "249 NE 3 ST",
+  "alt_addresses": [
+   "300 Biscayne Blvd"
+  ],
+  "notes": "Height conflict settled: 1,049 ft is stated by Florida YIMBY in February 2026 and again in August 2026, and is stored; a 1,041 ft figure circulated earlier and is superseded. The 1,255 ft in the November 2024 FAA filing is the requested crane height above ground, not the building, and is not stored. No unit count is published in the coverage read for this run.",
+  "values": {
+   "developer": "Property Markets Group; Greybrook Realty Partners; Mohari Hospitality; S2 Development; Hilton",
+   "architect": "Sieger Suarez Architects",
+   "lender": "Bank OZK; Related Fund Management",
+   "height_ft": 1049,
+   "stories": 100
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 27 Aug 2026",
+    "date": "2026-08-27",
+    "url": "https://floridayimby.com/2026/08/waldorf-astoria-hotel-residences-miami-begins-ninth-and-final-cube-as-supertall-nears-topping-out.html"
+   }
+  }
+ },
+ {
+  "name": "Aria Reserve Miami — South Tower",
+  "match_address": "700 NE 24 ST",
+  "notes": "One of twin 62-storey towers rising 649 ft along Biscayne Bay; the two towers yield 782 condominiums combined, and no per-tower unit count is published, so units are not found for this row. The North Tower is recorded separately at 725 NE 24 St. Melo Group builds through its in-house contractor, Melo Contractors Corp, which is also the contractor on the City's permit.",
+  "values": {
+   "developer": "Melo Group",
+   "architect": "Arquitectonica",
+   "height_ft": 649,
+   "stories": 62
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 19 Dec 2021",
+    "date": "2021-12-19",
+    "url": "https://floridayimby.com/2021/12/construction-advances-on-aria-reserve-sales-center-permits-initiated-for-649-foot-tall-south-tower-in-edgewater-miami.html"
+   }
+  }
+ },
+ {
+  "name": "Aria Reserve Miami — North Tower",
+  "match_address": "725 NE 24 ST",
+  "notes": "The second of the twin 62-storey Aria Reserve towers; the 782-condominium figure covers both towers, so no unit count is stored for this row. Melo Group is also serving as general contractor through its in-house construction arm.",
+  "values": {
+   "developer": "Melo Group",
+   "architect": "Arquitectonica",
+   "stories": 62
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 6 Apr 2026",
+    "date": "2026-04-06",
+    "url": "https://floridayimby.com/2026/04/aria-reserve-north-tower-nearly-complete-at-700-ne-24th-street-in-edgewater-miami.html"
+   }
+  }
+ },
+ {
+  "name": "Cipriani Residences Miami",
+  "match_address": "1420 S MIAMI AV",
+  "notes": "Height: the tower is reported as expected to reach approximately 950 ft on completion (April 2026), having reached 872 ft at that date; an approximately 940 ft figure was published in October 2025. The 950 ft completion figure is stored as the building height under the conflict rule and the measured 872 ft is noted here. Interiors by 1508 London; structural engineering by Thornton Tomasetti.",
+  "values": {
+   "developer": "Mast Capital",
+   "architect": "Arquitectonica",
+   "residential_units": 397,
+   "height_ft": 950,
+   "stories": 80
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 21 Apr 2026",
+    "date": "2026-04-21",
+    "url": "https://floridayimby.com/2026/04/cipriani-residences-miami-reaches-872-feet-becomes-miamis-tallest-residential-tower.html"
+   },
+   "residential_units": {
+    "name": "Florida YIMBY, 24 Oct 2025",
+    "date": "2025-10-24",
+    "url": "https://floridayimby.com/2025/10/cipriani-residences-miami-reaches-halfway-mark-as-80-story-tower-rises-over-brickell.html"
+   }
+  }
+ },
+ {
+  "name": "Baccarat Residences Miami",
+  "match_address": "99 SE 5 ST",
+  "notes": "Height is 848 ft above ground; the same filing gives 852 ft above sea level, which is not the figure stored. Expected completion early 2028.",
+  "values": {
+   "developer": "Related Group; GTIS Partners",
+   "architect": "Arquitectonica",
+   "residential_units": 355,
+   "height_ft": 848,
+   "stories": 75
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 21 Jul 2024",
+    "date": "2024-07-21",
+    "url": "https://floridayimby.com/2024/07/master-building-permit-issued-for-75-story-baccarat-residences-miami.html"
+   }
+  }
+ },
+ {
+  "name": "The St. Regis Residences, Miami",
+  "match_address": "1809 BRICKELL AV",
+  "notes": "The coverage read for this run names the architect and the 50-storey height but no developer entity and no unit count, so those are not found; the permit owner of record is held in the owner field.",
+  "values": {
+   "architect": "Robert A.M. Stern Architects",
+   "stories": 50
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 23 Nov 2024",
+    "date": "2024-11-23",
+    "url": "https://floridayimby.com/2024/11/the-st-regis-residences-miami-now-under-construction-at-1809-brickell-avenue.html"
+   }
+  }
+ },
+ {
+  "name": "Casa Bella Residences by B&B Italia",
+  "match_address": "1400 BISCAYNE BLVD",
+  "notes": "Completed and opened in October 2026, which agrees with the certificate of occupancy on the City's permit record. Interiors by Piero Lissoni of Lissoni New York; landscape design by Enzo Enea.",
+  "values": {
+   "developer": "Related Group; Alta Developers",
+   "architect": "Arquitectonica",
+   "lender": "Cain International",
+   "residential_units": 319,
+   "height_ft": 650,
+   "stories": 56
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 7 Oct 2026",
+    "date": "2026-10-07",
+    "url": "https://floridayimby.com/2026/10/casa-bella-residences-opens-at-1400-biscayne-boulevard-in-downtown-miami.html"
+   }
+  }
+ },
+ {
+  "name": "2600 Biscayne",
+  "match_address": "2626 BISCAYNE BLVD",
+  "alt_addresses": [
+   "246 NE 26 TER"
+  ],
+  "notes": "A 41-storey mixed-use tower of more than 900,000 sq ft with approximately 160,000 sq ft of Class A office space and 400 rental apartments. The reinforced concrete superstructure topped out in September 2025. KD Construction of Florida is the shell contractor.",
+  "values": {
+   "developer": "Oak Row Equities",
+   "architect": "Arquitectonica",
+   "residential_units": 400,
+   "commercial_gsf": 160000,
+   "height_ft": 521,
+   "stories": 41
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 27 Mar 2026",
+    "date": "2026-03-27",
+    "url": "https://floridayimby.com/2026/03/exterior-work-progresses-on-41-story-2600-biscayne-in-edgewater-miami.html"
+   }
+  }
+ },
+ {
+  "name": "The River District — Phase 1",
+  "match_address": "275 SW 6 ST",
+  "alt_addresses": [
+   "501 W 3 AV"
+  ],
+  "notes": "The first phase of The River District (also known as Miami River), a 4-million-sq-ft master-planned mixed-use development. Tekton Construction handled shell construction.",
+  "values": {
+   "developer": "Chetrit Group",
+   "architect": "Kobi Karp Architecture & Interior Design",
+   "residential_units": 632,
+   "height_ft": 640,
+   "stories": 54
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 27 Mar 2025",
+    "date": "2025-03-27",
+    "url": "https://floridayimby.com/2025/03/yimby-scopes-aerial-views-of-nearly-complete-54-story-tower-first-phase-of-miami-river-mega-project-in-brickell.html"
+   }
+  }
+ },
+ {
+  "name": "Residences in the Grove",
+  "match_address": "2835 TIGERTAIL AV",
+  "notes": "The 2023 coverage describes a five-storey, 148-unit building, which does not reconcile with the 448,000 sq ft and $165m on the City's building permit, so no storey count or height is stored from it. The $43.2m 2023 facility was a refinancing loan funding demolition and site work, not construction financing, so no lender is recorded.",
+  "values": {
+   "developer": "Terra; AB Asset Management",
+   "architect": "Arquitectonica",
+   "residential_units": 148
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 2 Mar 2023",
+    "date": "2023-03-02",
+    "url": "https://floridayimby.com/2023/03/developers-secure-43-2-million-refinancing-loan-for-residential-development-at-2835-tigertail-avenue-in-coconut-grove-miami.html"
+   }
+  }
+ },
+ {
+  "name": "Villa Miami",
+  "match_address": "710 NE 29 ST",
+  "notes": "Topped out October 2026. Developed with Major Food Group as partner; interiors by Vicky Charles of Charles & Co.",
+  "values": {
+   "developer": "Terra; One Thousand Group",
+   "architect": "ODP Architecture & Design",
+   "residential_units": 70,
+   "height_ft": 650,
+   "stories": 56
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 28 Oct 2026",
+    "date": "2026-10-28",
+    "url": "https://floridayimby.com/2026/10/villa-miami-stands-topped-out-at-710-ne-29th-street-in-edgewater.html"
+   }
+  }
+ },
+ {
+  "name": "FIVESIXTY Waterfront Residences + Club",
+  "match_address": "560 NE 34 ST",
+  "notes": "A 38-storey luxury rental tower nearing completion. The September 2024 financing comprised $172m of senior construction financing from affiliates of Apollo Global Management plus $56m of preferred equity from Sixth Street; Apollo is recorded as the construction lender and Sixth Street is the preferred equity and so not recorded there.",
+  "values": {
+   "developer": "Aimco",
+   "architect": "Stantec",
+   "lender": "Apollo Global Management",
+   "residential_units": 114,
+   "height_ft": 497,
+   "stories": 38
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 19 Oct 2026",
+    "date": "2026-10-19",
+    "url": "https://floridayimby.com/2026/10/aimco-and-serhant-unveil-fivesixty-waterfront-residences-club-in-edgewater-miami.html"
+   }
+  }
+ },
+ {
+  "name": "Missoni Baia",
+  "match_address": "700 NE 26 TER",
+  "notes": "Asymptote Architecture is the design architect and Revuelta Architecture International the architect of record, so Revuelta is stored and Asymptote recorded here, per the field rule. Civic Construction served as construction manager and Desimone as structural engineer. The 700 Edgewater Development LLC partnership is OKO Group, Cain International and OB Group.",
+  "values": {
+   "developer": "OKO Group; Cain International; OB Group",
+   "architect": "Revuelta Architecture International",
+   "residential_units": 249,
+   "height_ft": 649,
+   "stories": 57
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 3 May 2021",
+    "date": "2021-05-03",
+    "url": "https://floridayimby.com/2021/05/missoni-baias-glass-curtain-wall-continues-ascent-in-edgewater-miami.html"
+   }
+  }
+ },
+ {
+  "name": "2900 Terrace",
+  "match_address": "401 NE 29 ST",
+  "notes": "Topped out August 2026, nearly three months ahead of schedule. The $210.5m construction financing secured in 2025 is reported without naming the lender, so lender is not found.",
+  "values": {
+   "developer": "Oak Row Equities; LNDMRK Development",
+   "architect": "Arquitectonica",
+   "residential_units": 324,
+   "commercial_gsf": 15536,
+   "parking_spaces": 504,
+   "height_ft": 362,
+   "stories": 32
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 31 Aug 2026",
+    "date": "2026-08-31",
+    "url": "https://floridayimby.com/2026/08/2900-terrace-tops-out-nearly-three-months-ahead-of-schedule-in-edgewater-miami.html"
+   }
+  }
+ },
+ {
+  "name": "The Wynwood Plaza — office tower",
+  "match_address": "95 NW 29 ST",
+  "notes": "The 12-storey, 266,000 sq ft Class AAA office component of The Wynwood Plaza, a one-million-sq-ft mixed-use development. Shorenstein Properties is a project partner and Claure Group a co-investor. The coverage read for this run names no architect. Tekton Construction is the shell contractor.",
+  "values": {
+   "developer": "L&L Holding Company; Oak Row Equities",
+   "commercial_gsf": 266000,
+   "stories": 12
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 18 Sep 2023",
+    "date": "2023-09-18",
+    "url": "https://floridayimby.com/2023/09/12-story-class-aaa-office-tower-tops-off-at-the-wynwood-plaza-in-miami.html"
+   }
+  }
+ },
+ {
+  "name": "JEM Miami Worldcenter",
+  "match_address": "175 NE 10 ST",
+  "alt_addresses": [
+   "1016 NE 2 AV"
+  ],
+  "notes": "A 67-storey mixed-use residential tower of an estimated 741,252 sq ft, permitted under 175 Northeast 10th Street and occupying a full-block site. The condominium component, marketed as JEM Private Residences, begins on the 43rd floor with 273 units. The $465m construction financing secured in 2025 is reported without naming the lender.",
+  "values": {
+   "developer": "Naftali Group",
+   "architect": "Arquitectonica",
+   "residential_units": 273,
+   "height_ft": 700,
+   "stories": 67
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 22 Mar 2026",
+    "date": "2026-03-22",
+    "url": "https://floridayimby.com/2026/03/vertical-construction-moving-along-at-jem-miami-worldcenter-in-downtown-miami.html"
+   }
+  }
+ },
+ {
+  "name": "Midtown 7",
+  "match_address": "3001 NE 1 AV",
+  "notes": "Height is the FAA determination of 352 ft above ground; the same letter gives 367 ft above sea level, which is not the figure stored. The developer is PPF AMLI 3001 NE 1st Avenue, LLC, an affiliate of AMLI Residential.",
+  "values": {
+   "developer": "AMLI Residential",
+   "architect": "Arquitectonica",
+   "residential_units": 389,
+   "commercial_gsf": 28000,
+   "parking_spaces": 501,
+   "height_ft": 352,
+   "stories": 31
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 4 Jun 2024",
+    "date": "2024-06-04",
+    "url": "https://floridayimby.com/2024/06/31-story-midtown-7-gets-faa-approval-to-rise-352-feet-above-ground-in-midtown-miami.html"
+   }
+  }
+ },
+ {
+  "name": "Mohawk at Wynwood",
+  "match_address": "50 NE 29 ST",
+  "alt_addresses": [
+   "56 NE 29 ST"
+  ],
+  "notes": "12- and eight-storey residential towers around an open-air pedestrian paseo connecting Northeast 28th and 29th Streets. The January 2026 capital stack was $150m in total, led by $124.2m of C-PACE financing from Nuveen Green Capital with a $25m senior secured loan from ABANCA USA; both are recorded as construction lenders. Interiors by RADYCA.",
+  "values": {
+   "developer": "Rilea Group",
+   "architect": "Deforma Studio",
+   "lender": "Nuveen Green Capital; ABANCA USA",
+   "residential_units": 300,
+   "commercial_gsf": 29118,
+   "stories": 12
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 27 Sep 2026",
+    "date": "2026-09-27",
+    "url": "https://floridayimby.com/2026/09/rilea-group-breaks-ground-on-mohawk-at-wynwood-at-50-ne-29th-street-in-miami.html"
+   },
+   "lender": {
+    "name": "Florida YIMBY, 3 Jan 2026",
+    "date": "2026-01-03",
+    "url": "https://floridayimby.com/2026/01/rilea-group-secures-150m-construction-financing-for-mohawk-at-wynwood-at-50-ne-29th-street-in-miami.html"
+   }
+  }
+ },
+ {
+  "name": "Dulce Vida Apartments",
+  "match_address": "1785 NW 35 ST",
+  "notes": "Named from the owner of record on the City's own building permit, DULCE VIDA APARTMENTS LLC. No acceptable source publishes a unit count, height, developer or architect for this project, so those are not found; the contractor, permitted area, cost and status come from the City's permit record.",
+  "values": {},
+  "sources": {
+   "_default": {
+    "name": "City of Miami building permit record",
+    "url": "https://datahub-miamigis.opendata.arcgis.com/datasets/building-permits-since-2014"
+   }
+  }
+ },
+ {
+  "name": "The Rider Residences",
+  "match_parcel": "0131250040240",
+  "alt_addresses": [
+   "94 NE 29 St"
+  ],
+  "notes": "The City's address of record is 100 NE 29 St and the marketed address is 94 NE 29th Street; the county parcel record for 94 NE 29 St returns this same folio, owned by WYNWOOD RIDER LLC, which is what ties them together. The contractor on the City's permit, Beauchamp Construction, agrees with the press. Topped off September 2026; vertical construction began March 2026. Interiors by RADYCA.",
+  "values": {
+   "developer": "Ciprés; Rilea Group",
+   "architect": "Deforma Studio",
+   "lender": "Banco Inbursa",
+   "residential_units": 152,
+   "commercial_gsf": 11000,
+   "stories": 12
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 15 Sep 2026",
+    "date": "2026-09-15",
+    "url": "https://floridayimby.com/2026/09/the-rider-residences-tops-off-at-94-ne-29th-street-in-miami.html"
+   },
+   "lender": {
+    "name": "Florida YIMBY, 5 Mar 2026",
+    "date": "2026-03-05",
+    "url": "https://floridayimby.com/2026/03/vertical-construction-begins-on-the-rider-residences-at-94-ne-29th-street-in-miami.html"
+   }
+  }
+ }
+]

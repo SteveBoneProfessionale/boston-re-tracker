@@ -1,0 +1,184 @@
+[
+ {
+  "name": "Sevilla at Downtown Doral",
+  "address": "8301 NW 53 St",
+  "parcel_id": "3530220070350",
+  "status": "Under Construction",
+  "filing_type": "City of Doral site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Topped off, completing vertical construction, reported 1 March 2026",
+    "url": "https://floridayimby.com/2026/03/codina-partners-tops-out-7-story-405-unit-sevilla-at-downtown-doral.html"},
+  "description": "Seven-storey rental building with a central garage on a 4.2-acre parcel within the 250-acre Downtown Doral community, at the corner of NW 53rd Street and NW 52nd Terrace. Delivered in two phases.",
+  "notes": "Unit count: the City's own site-plan record states 412 multifamily units and Florida YIMBY stated 412 in June 2024 and July 2025, then 405 on topping off in March 2026. The City record carries no date, so the most recent dated report wins and 405 is stored; 412 is the earlier figure.",
+  "values": {
+    "developer": "Codina Partners",
+    "architect": "MSA Architects",
+    "contractor": "ANF Group",
+    "lender": "Regions Bank; Ocean Bank",
+    "residential_units": 405,
+    "stories": 7,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 1 Mar 2026", "date": "2026-03-01", "url": "https://floridayimby.com/2026/03/codina-partners-tops-out-7-story-405-unit-sevilla-at-downtown-doral.html"},
+    "contractor": {"name": "Florida YIMBY, 20 Jul 2025", "date": "2025-07-20", "url": "https://floridayimby.com/2025/07/general-contractor-named-for-sevilla-at-downtown-doral.html"},
+    "lender": {"name": "Florida YIMBY, 8 Jul 2025", "date": "2025-07-08", "url": "https://floridayimby.com/2025/07/codina-partners-breaks-ground-on-sevilla-at-downtown-doral-secures-100-million-construction-loan.html"},
+    "asset_class": {"name": "City of Doral Development Projects layer", "url": "https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/"}
+  }
+ },
+ {
+  "name": "The Oasis at Doral",
+  "address": "4090 NW 97 Ave",
+  "parcel_id": "3530291070010",
+  "parcel_id_aliases": ["3530291070020", "3530291070030"],
+  "alt_addresses": ["9100 NW 41 St", "9850 NW 41 St"],
+  "status": "Approved",
+  "filing_type": "Live Local Act administrative site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Mixed-use residential development of up to 623 units and approximately 301,591 sq ft of commercial and retail space, including 262,816 sq ft of existing office space. First phase of 229 apartments and about 64,000 sq ft of retail. At least 40 per cent of units designated workforce housing. The first project in Doral approved under the Live Local Act.",
+  "notes": "A $58m construction loan closed in March 2026 but the lender is not named, and a loan closing is not a construction start, so the stage stays Approved. The buildings were originally proposed at 10 and 12 storeys; no current storey count is stated.",
+  "values": {
+    "developer": "Doral Costa Capital LLC (Apollo Cos.; Triarch Capital Group)",
+    "architect": "Arquitectonica",
+    "residential_units": 623,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 30 Mar 2026", "date": "2026-03-30", "url": "https://floridayimby.com/2026/03/developers-secure-construction-loan-for-the-oasis-at-doral-at-4090-n-w-97th-ave-doral-florida.html"},
+    "residential_units": {"name": "City of Doral Development Projects layer", "url": "https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/"},
+    "asset_class": {"name": "City of Doral Development Projects layer", "url": "https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/"}
+  }
+ },
+ {
+  "name": "Hazel Doral (ZOM / Westside Live Local Act)",
+  "address": "8300 NW 33 St",
+  "parcel_id": "3530270530010",
+  "parcel_id_aliases": ["3530270580010"],
+  "alt_addresses": ["8200 NW 33 St"],
+  "status": "Under Construction",
+  "filing_type": "Live Local Act site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "stage_evidence": {"kind": "press_construction", "basis": "news_confirmed",
+    "note": "Construction started, reported 7 February 2026",
+    "url": "https://floridayimby.com/2026/02/construction-starts-on-hazel-doral-at-8300-northwest-33rd-street-doral-florida.html"},
+  "description": "Horizontal mixed-use project of 380 dwelling units in seven storeys with approximately 106,849 sq ft of office space.",
+  "notes": "The City lists this as \"ZOM / Westside Live Local Act\"; the press name is Hazel Doral. Unit count agrees across both sources at 380.",
+  "values": {
+    "developer": "ZOM Living; Ascentris",
+    "architect": "MSA Architects",
+    "contractor": "Verdex Construction",
+    "lender": "PNC Bank",
+    "residential_units": 380,
+    "stories": 7,
+    "commercial_gsf": 106849,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 7 Feb 2026", "date": "2026-02-07", "url": "https://floridayimby.com/2026/02/construction-starts-on-hazel-doral-at-8300-northwest-33rd-street-doral-florida.html"},
+    "commercial_gsf": {"name": "City of Doral Development Projects layer", "url": "https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/"},
+    "asset_class": {"name": "City of Doral Development Projects layer", "url": "https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/"}
+  }
+ },
+ {
+  "name": "Doral Parc (Midtown Doral Phases IV, V and VI)",
+  "address": "East side of NW 107 Ave between NW 86 St and NW 90 St",
+  "parcel_id": "3530080000041",
+  "parcel_id_aliases": ["3530080000048", "3530080000051"],
+  "status": "Approved",
+  "filing_type": "City of Doral site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "552 units in three 10-storey buildings with 22,740 sq ft of retail space in two new parking garages. Phase 4 has 146 units, Phase 5 has 203 units with 11,370 sq ft of commercial use, and Phase 6 has 203 units with 11,370 sq ft of commercial use.",
+  "notes": "A joint venture between MG Developer and Ernesto De Lucas. Approved by the City of Doral in August 2024; no source states a construction start, so the stage is Approved.",
+  "values": {
+    "developer": "MG Developer",
+    "architect": "Pascual Perez Kiliddjian & Starr",
+    "residential_units": 552,
+    "stories": 10,
+    "commercial_gsf": 22740,
+    "asset_class": "Mixed-Use"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 24 Aug 2024", "date": "2024-08-24", "url": "https://floridayimby.com/2024/08/doral-approves-mixed-use-development-with-552-units-and-retail-space-at-midtown-doral-in-miami.html"},
+    "asset_class": {"name": "City of Doral Development Projects layer", "url": "https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/"}
+  }
+ },
+ {
+  "name": "Miami International Mall redevelopment",
+  "address": "1603 NW 107 Ave",
+  "status": "Planning",
+  "filing_type": "City of Doral Council review",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A three-phase redevelopment of the closed JCPenney and Sears boxes at Miami International Mall with close to 900 residential units in buildings of five and six storeys above grade.",
+  "notes": "Reviewed by the Doral City Council in June 2026; no approval is recorded in the City's Development Projects layer, so the stage is Planning. The unit count is published as approximately 900 and is stored as such.",
+  "values": {
+    "developer": "Greystar",
+    "architect": "MSA Architects",
+    "residential_units": 900,
+    "stories": 6,
+    "asset_class": "Residential"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 9 Jun 2026", "date": "2026-06-09", "url": "https://floridayimby.com/2026/06/greystar-proposes-about-900-units-at-miami-international-mall-site-at-1603-n-w-107th-ave-doral-florida.html"}
+  }
+ },
+ {
+  "name": "Prime Square Doral",
+  "address": "7200 NW 102 Ave",
+  "status": "Permitting",
+  "filing_type": "Miami-Dade Plat Committee / final permitting",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "A 58,000 sq ft commercial condominium of three buildings on a 3.25-acre property near NW 74th Street and NW 102nd Avenue, with approximately 40,000 sq ft of retail and restaurant space and 18,000 sq ft of office space. Construction expected to begin in the first quarter of 2027.",
+  "notes": "Stage is Permitting: the project is described as approaching final permitting, and Miami-Dade County's Plat Committee approved a resubmission in January 2026. Civil engineer is filled because the article names the full design team, which is the only circumstance in which that field is filled for this market.",
+  "values": {
+    "developer": "Rieber Developments; Berca Development Group",
+    "architect": "PPK Architect",
+    "contractor": "Vandrak Construction",
+    "civil_engineer": "Fortin, Leavy, Skiles",
+    "total_gsf": 58000,
+    "asset_class": "Mixed-Use"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 19 Sep 2026", "date": "2026-09-19", "url": "https://floridayimby.com/2026/09/pre-construction-begins-on-prime-square-doral-at-7200-nw-102nd-avenue-in-doral.html"}
+  }
+ },
+ {
+  "name": "Bridge Point Doral 826",
+  "address": "7775 NW 48 St",
+  "parcel_id": "3530220200010",
+  "parcel_id_aliases": ["3530220080010"],
+  "alt_addresses": ["7705 NW 48 St", "7785 NW 48 St"],
+  "status": "Approved",
+  "filing_type": "City of Doral site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "Site plan for two warehouse buildings, planned for completion in 2027.",
+  "notes": "The City's record states the programme as two warehouse buildings without a floor area, and the press coverage states no area for this project either, so square footage is not found.",
+  "values": {
+    "developer": "Bridge Industrial",
+    "asset_class": "Industrial"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 16 Dec 2025", "date": "2025-12-16", "url": "https://floridayimby.com/2025/12/bridge-point-doral-826-planned-for-2027-completion-at-7775-nw-48th-st-doral-florida.html"},
+    "asset_class": {"name": "City of Doral Development Projects layer", "url": "https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/"}
+  }
+ },
+ {
+  "name": "Hotel at NW 53 Terrace and Paseo Boulevard",
+  "address": "NW 53 Ter and Paseo Blvd, Doral",
+  "status": "Planning",
+  "filing_type": "City of Doral site plan",
+  "tests": {"changes_building": true, "commercial": true, "has_program": true},
+  "description": "An eight-storey hotel of 168 rooms proposed at NW 53rd Terrace and Paseo Boulevard.",
+  "notes": "The coverage describes the applicants only as a partnership between a US and an India-based developer and names neither, so developer is not found.",
+  "values": {
+    "architect": "Arquitectonica",
+    "hotel_rooms": 168,
+    "stories": 8,
+    "asset_class": "Hotel"
+  },
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 5 Jul 2026", "date": "2026-07-05", "url": "https://floridayimby.com/2026/07/partnership-plans-eight-story-hotel-for-northwest-53rd-terrace-and-paseo-boulevard-doral-florida.html"}
+  }
+ }
+]

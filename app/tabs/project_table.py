@@ -676,6 +676,23 @@ def render(df: pd.DataFrame):
         _detail_panel(filtered.iloc[idx], df)
 
 
+def _parcel_detail(p) -> str | None:
+    """The parcel the project is keyed on, plus the rest of an assembled site.
+
+    The aliases are shown rather than kept internal because they are the
+    answer to "why is this one row and not three" -- a reader looking at a
+    tower that occupies four lots needs to see the other three accounted for.
+    """
+    pid = (p.get("parcel_id") or "").strip()
+    if not pid:
+        return None
+    aliases = [a.strip() for a in (p.get("parcel_id_aliases") or "").split(",") if a.strip()]
+    if not aliases:
+        return pid
+    return (f'{pid}<br><span style="color:{_MUTED};font-size:9px">'
+            f'+{len(aliases)} more parcel(s): {", ".join(aliases)}</span>')
+
+
 def _delivered_detail(p) -> str | None:
     """The actual completion date, with what established it."""
     d = format_delivery_date(p.get("delivered_date"), p.get("delivered_precision"))
@@ -829,9 +846,13 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
             unsafe_allow_html=True,
         )
 
-    # Lifecycle bar (Boston's Article 80 phase sequence -- doesn't apply to
-    # Cambridge's different permitting tracks, so show the normalized stage instead)
-    if is_cambridge:
+    # Lifecycle bar (Boston's Article 80 phase sequence). It is drawn only for
+    # a status that is actually a point on that sequence -- Cambridge's
+    # permitting tracks and South Florida's evidence-driven stages are not, and
+    # drawing their status onto Article 80's five phases would place every one
+    # of them at phase zero. Keyed on the vocabulary rather than on the city,
+    # so the next market added gets the right panel without another branch.
+    if p["status"] not in LIFECYCLE_IDX:
         stage = p.get("stage") or "—"
         stage_color = STAGE_COLORS.get(stage, _MUTED)
         st.markdown(
@@ -935,8 +956,13 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
             # work -- a public agency or passive landowner.
             _kv("OWNER / AGENCY",   p.get("owner_or_agency")) +
             _kv("EQUITY PARTNER",   p.get("equity_partner")) +
+            # The construction lender. Absent before a construction start by
+            # nature, which is why it sits with the capital fields rather
+            # than with the design team.
+            _kv("LENDER",           p.get("lender")) +
             _kv("ARCHITECT",        p.get("architect")) +
-            _kv("CIVIL ENGINEER",   p.get("civil_engineer")),
+            _kv("CIVIL ENGINEER",   p.get("civil_engineer")) +
+            _kv("GENERAL CONTRACTOR", p.get("contractor")),
             unsafe_allow_html=True,
         )
     # Canonical class, with the source's own classification alongside it when
@@ -967,6 +993,10 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
             _kv("HEIGHT",           ht_str) +
             _kv("STORIES",          stories_str) +
             _kv("REVIEW SCALE",     scale_str) +
+            # Parcel identity -- the folio (Miami-Dade) or PCN (Palm Beach)
+            # the dedupe keys on, with the other parcels of an assembled site
+            # beside it.
+            _kv("PARCEL ID",        _parcel_detail(p)) +
             _kv("DELIVERED",        _delivered_detail(p)) +
             _kv("TARGET",           _target_detail(p)) +
             _kv("FILING TYPE",      (p.get("processed_filing_type") or "").upper() or None),

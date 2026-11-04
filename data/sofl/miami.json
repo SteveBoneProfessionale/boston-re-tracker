@@ -1,0 +1,116 @@
+[
+ {
+  "name": "619 Brickell Avenue",
+  "address": "619 Brickell Ave",
+  "status": "Planning",
+  "filing_type": "Urban Development Review Board",
+  "tests": {
+   "changes_building": true,
+   "commercial": true,
+   "has_program": true
+  },
+  "description": "An approximately 886 ft, 75-storey mixed-use tower with 321 residential units, ground-floor commercial space, new church facilities, a publicly accessible baywalk, a waterfront restaurant and residential amenities. Scheduled for Urban Development Review Board review on 15 July 2026.",
+  "notes": "Foster + Partners is the design architect and Sieger Suarez Architects the architect of record, so Sieger Suarez is stored and Foster + Partners recorded here, per the field rule. The applicant entity is 13K-BP Brickell Owner, LLC.",
+  "values": {
+   "developer": "13th Floor Investments; Key International",
+   "architect": "Sieger Suarez Architects",
+   "owner_or_agency": "13K-BP Brickell Owner, LLC",
+   "residential_units": 321,
+   "height_ft": 886,
+   "stories": 75,
+   "asset_class": "Mixed-Use"
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 13 Jul 2026",
+    "date": "2026-07-13",
+    "url": "https://floridayimby.com/2026/07/foster-partners-designed-75-story-tower-at-619-brickell-avenue-scheduled-for-udrb-review.html"
+   }
+  }
+ },
+ {
+  "name": "130 Biscayne Boulevard",
+  "address": "130 Biscayne Blvd",
+  "alt_addresses": [
+   "146 Biscayne Blvd",
+   "141 NE 3 Ave"
+  ],
+  "status": "Planning",
+  "filing_type": "Plans filed with Miami-Dade County",
+  "tests": {
+   "changes_building": true,
+   "commercial": true,
+   "has_program": true
+  },
+  "description": "An 87-storey, 955 ft mixed-use tower of 1,667,604 sq ft organised into residential, hospitality and commercial programme zones, across 130 and 146 Biscayne Boulevard and 141 NE 3rd Avenue. At 955 ft it would stand taller than every completed building in Miami.",
+  "notes": "Foster + Partners is the design architect and Revuelta Architecture the architect of record, so Revuelta is stored and Foster + Partners recorded here, per the field rule. No unit count is published.",
+  "values": {
+   "developer": "RFR Realty",
+   "architect": "Revuelta Architecture",
+   "total_gsf": 1667604,
+   "height_ft": 955,
+   "stories": 87,
+   "asset_class": "Mixed-Use"
+  },
+  "total_gsf_source": "web",
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 10 Dec 2025",
+    "date": "2025-12-10",
+    "url": "https://floridayimby.com/2025/12/plans-filed-for-955-foot-tall-tower-at-130-biscayne-boulevard-in-downtown-miami.html"
+   }
+  }
+ },
+ {
+  "name": "LILLI",
+  "address": "717 NE 27 St",
+  "status": "Planning",
+  "filing_type": "Urban Development Review Board",
+  "tests": {
+   "changes_building": true,
+   "commercial": true,
+   "has_program": true
+  },
+  "description": "A 53-storey condominium tower in Edgewater, scheduled for Urban Development Review Board review in July 2026.",
+  "notes": "No unit count, height, architect or contractor is published in the coverage read for this run, so those are not found.",
+  "values": {
+   "developer": "OKO Group",
+   "stories": 53,
+   "asset_class": "Condo"
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 13 May 2026",
+    "date": "2026-05-13",
+    "url": "https://floridayimby.com/2026/05/oko-group-reveals-plans-for-53-story-lilli-condominium-tower-at-717-ne-27th-street-in-edgewater-miami.html"
+   }
+  }
+ },
+ {
+  "name": "75 Broadway",
+  "address": "75 Broadway, Brickell, Miami",
+  "status": "Planning",
+  "filing_type": "Site plan / condominium filing",
+  "tests": {
+   "changes_building": true,
+   "commercial": true,
+   "has_program": true
+  },
+  "description": "A 52-storey residential tower along Broadway Road in Brickell with 106 residences, comprising 99 standard residences and seven penthouses, with views toward Simpson Park and Biscayne Bay. At launch the construction documents were complete, government approvals secured, key construction agreements negotiated and condominium documents filed.",
+  "notes": "No street number is published for the site beyond the project's own name, so the address is recorded as given and no folio is attached.",
+  "values": {
+   "developer": "Ytech",
+   "architect": "Kohn Pedersen Fox",
+   "residential_units": 106,
+   "stories": 52,
+   "asset_class": "Condo"
+  },
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 4 Nov 2026",
+    "date": "2026-11-04",
+    "url": "https://floridayimby.com/2026/11/ytech-unveils-52-story-75-broadway-residential-tower-in-brickell.html"
+   }
+  }
+ }
+]
