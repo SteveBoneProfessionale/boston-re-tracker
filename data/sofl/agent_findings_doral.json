@@ -1,0 +1,88 @@
+[
+ {"id": 1273, "name": "Midtown PUD Phase II Modification",
+  "values": {"developer": "Century Homebuilders; Mattoni Group; Conconcreto",
+             "contractor": "Conconcreto", "lender": "Pacific Western Bank"},
+  "sources": {
+    "developer": {"name": "The Real Deal, 13 Apr 2022", "date": "2022-04-13",
+                  "url": "https://therealdeal.com/miami/2022/04/13/midtown-doral-scores-67m-construction-loan-for-apartment-development/"},
+    "contractor": {"name": "The Real Deal, 13 Apr 2022", "date": "2022-04-13",
+                   "url": "https://therealdeal.com/miami/2022/04/13/midtown-doral-scores-67m-construction-loan-for-apartment-development/"},
+    "lender": {"name": "The Real Deal, 13 Apr 2022", "date": "2022-04-13",
+               "url": "https://therealdeal.com/miami/2022/04/13/midtown-doral-scores-67m-construction-loan-for-apartment-development/"}},
+  "notes": "The sponsor group, contractor and construction lender come from April 2022 coverage of a $66.8m Pacific Western Bank construction loan for a pair of six-storey buildings totalling 326 units on this site. That is a SUB-PHASE of the programme this row holds: the City's record is the modified Phase II of 734 dwelling units with a 58,052 sq ft clubhouse. The team is recorded because it is a project-level fact about the same PUD phase on the same corner; the storey count from that article is NOT recorded, because six storeys describes those two buildings and not the 734-unit programme. An earlier two-phase total of 675 units is superseded by the 734 in the City's modification.",
+  "quotes": {
+    "developer": "Sergio Pino's Coral Gables-based Century Homebuilders is partnering with Ricardo Caporal's Mattoni Group and Colombian construction giant Conconcreto to build a pair of six-story buildings with a total of 326 units.",
+    "contractor": "Conconcreto is both an investment partner and the general contractor in the apartment project, Pino said.",
+    "lender": "Pacific Western Bank provided the construction financing."}},
+
+ {"id": 1275, "name": "University of Miami UHealth",
+  "values": {"developer": "Codina Partners", "architect": "Arcadis",
+             "contractor": "Robins & Morton", "stories": 6},
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 18 Feb 2023", "date": "2023-02-18",
+                  "url": "https://floridayimby.com/2023/02/uhealth-has-plans-for-a-new-medical-facility-at-8375-northwest-53rd-terrace-doral-florida.html"},
+    "architect": {"name": "Florida YIMBY, 21 Dec 2024", "date": "2024-12-21",
+                  "url": "https://floridayimby.com/2024/12/uhealth-doral-opens-160000-square-foot-medical-center-in-downtown-doral.html"},
+    "contractor": {"name": "Florida YIMBY, 21 Dec 2024", "date": "2024-12-21",
+                   "url": "https://floridayimby.com/2024/12/uhealth-doral-opens-160000-square-foot-medical-center-in-downtown-doral.html"},
+    "stories": {"name": "Florida YIMBY, 21 Dec 2024", "date": "2024-12-21",
+                "url": "https://floridayimby.com/2024/12/uhealth-doral-opens-160000-square-foot-medical-center-in-downtown-doral.html"}},
+  "notes": "The University of Miami Health System owns the venture. The developer attribution is weaker than the rest of this row: the source states the role plainly but prints the firm as 'Codina Partners Corporate Headquarters', which reads as a mangled field; Codina Partners is independently the master developer of the surrounding Downtown Doral, and the name is stored in its clean form. The six storeys are the medical building; a separate seven-storey parking garage is not counted. An earlier 150,000 sq ft figure is superseded by the 160,000 sq ft the City's record also carries.",
+  "quotes": {
+    "developer": "As noted, the University of Miami Health System owns the venture. Codina Partners Corporate Headquarters is the developer. Robins & Morton Group is the general contractor.",
+    "architect": "Robins & Morton served as the project's general contractor, with Arcadis as the architect.",
+    "contractor": "Robins & Morton served as the project's general contractor, with Arcadis as the architect.",
+    "stories": "the six-story, 160,000-square-foot medical center at 8375 NW 53rd Terrace"}},
+
+ {"id": 1252, "name": "5250 Condo Tower Phase 2",
+  "values": {"developer": "Codina Partners", "lender": "Wells Fargo", "stories": 20},
+  "sources": {
+    "developer": {"name": "Bisnow, 21 Jan 2025", "date": "2025-01-21",
+                  "url": "https://www.bisnow.com/news/south-florida/multifamily/codina-partners-secures-full-ownership-of-palma-tower-one-in-downtown-doral-with-124m-refinancing-deal-127632"},
+    "lender": {"name": "Bisnow, 21 Jan 2025", "date": "2025-01-21",
+               "url": "https://www.bisnow.com/news/south-florida/multifamily/codina-partners-secures-full-ownership-of-palma-tower-one-in-downtown-doral-with-124m-refinancing-deal-127632"},
+    "stories": {"name": "The Real Deal, 21 Jan 2025", "date": "2025-01-21",
+                "url": "https://therealdeal.com/miami/2025/01/21/codina-nabs-doral-rentals-refi-buys-out-partner-invesco/"}},
+  "notes": "Now named Palma Tower Two; the City's '5250' is the original marketing name of the FIRST tower, which is a different building at 5250 NW 84th Avenue. Identity confirmed on a triple match of address, unit count and storey count: 5225 NW 85th Avenue, 228 units, 20 storeys. The $55.7m Wells Fargo facility is explicitly a construction loan; the separate $124m January 2025 deal is a REFINANCING from Guardian Life c/o HPS Investment Partners and is deliberately not recorded as the lender. Bisnow misstates this tower's address as 5250 NW 84th Avenue, which is the other tower; The Real Deal of the same date has it right.",
+  "quotes": {
+    "developer": "That 228-unit apartment complex was completed by Codina Partners in 2023 following a $55.7M construction loan from Wells Fargo, the SFBJ reported.",
+    "lender": "That 228-unit apartment complex was completed by Codina Partners in 2023 following a $55.7M construction loan from Wells Fargo, the SFBJ reported.",
+    "stories": "the 20-story, 228-unit Palma Tower Two at 5225 Northwest 85th Avenue in Doral"}},
+
+ {"id": 1303, "name": "MDPLS Doral Branch Library",
+  "values": {"contractor": "Lee Construction Group, Inc."},
+  "sources": {
+    "contractor": {"name": "Miami-Dade County legislative item 212405, adopted 19 Oct 2021",
+                   "date": "2021-10-19",
+                   "url": "https://www.miamidade.gov/govaction/matter.asp?file=true&fileAnalysis=false&matter=212405&yearFolder=Y2021"}},
+  "notes": "A government record: a design-build contract award of $11,209,560.50, lowest responsive of 14 bids. The architect is deliberately not recorded — Ferguson Glasgow Schuster Soto appears in the county record only as a bare entry under a SUBCONSULTANTS heading with no role stated, and the design credit exists only on the firm's own website, which is not an acceptable source. The county record describes a two-storey building while the City's record and the 2023 county press release say three.",
+  "quotes": {
+    "contractor": "the Board hereby approves the award of a contract to Lee Construction Group, Inc. to provide design-build services"}},
+
+ {"id": 1294, "name": "PDC Doral Panattoni Development",
+  "values": {"developer": "Panattoni Development"},
+  "sources": {
+    "developer": {"name": "The Real Deal, 29 Aug 2024", "date": "2024-08-29",
+                  "url": "https://therealdeal.com/miami/2024/08/29/panattoni-pays-30m-for-former-miami-herald-doral-building/"}},
+  "notes": "The site is the former Miami Herald and El Nuevo Herald headquarters at 3511 NW 91st Avenue. DEAD: The Real Deal reported on 4 June 2025 that Panattoni abandoned the redevelopment and sold the nine-acre site at a loss for $25.9m to an Ares Management-affiliated trust, having begun demolishing the 158,268 sq ft building in April. Verified by reading that article directly. The City of Doral's layer still carries the approval, which stands as a matter of record; the project does not.",
+  "quotes": {
+    "developer": "Panattoni plans to redevelop the building into a spec industrial project, a press release states."}},
+
+ {"id": 1257, "name": "MG3 Doral School",
+  "values": {"developer": "MG3 Group"},
+  "sources": {
+    "developer": {"name": "The Real Deal, 7 Aug 2025", "date": "2025-08-07",
+                  "url": "https://therealdeal.com/miami/2025/08/07/mg3-sells-miami-dade-charter-school-buildings-for-91m/"}},
+  "notes": "The role is stated as an action — the firm converted the building into a charter school — rather than with the label 'developer'; it is recorded because converting a building IS the development act, and a second Real Deal article of 14 May 2021 independently has MG3 buying 3500 NW 89th Court. Ownership has since changed: BridgePrep Academy, the former tenant, bought the building from MG3 for $44.9m in August 2025 within a $172.4m portfolio purchase. The converted building is reported at 122,663 sq ft against the City's 135,302 sq ft, which may include additions.",
+  "quotes": {
+    "developer": "In 2020, MG3 acquired the 6-acre Doral property for $11.6 million. The firm converted an existing 122,663-square-foot building completed in 2013 into a charter school."}},
+
+ {"id": 1296, "name": "The Oasis at Doral",
+  "values": {"stories": 9},
+  "sources": {
+    "stories": {"name": "Florida YIMBY, 30 Mar 2026", "date": "2026-03-30",
+                "url": "https://floridayimby.com/2026/03/developers-secure-construction-loan-for-the-oasis-at-doral-at-4090-n-w-97th-ave-doral-florida.html"}},
+  "notes": "The lender is deliberately not recorded: the source confirms a $58m construction loan but names no lender, and the only outlet naming City National Bank of Florida is not on the acceptable list. The site also carries 9800 and 9850 NW 41st Street.",
+  "quotes": {
+    "stories": "The venture is set to measure nine stories above grade and feature residences, retail, and restaurant space in multiple phases."}}
+]

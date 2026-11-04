@@ -1,0 +1,493 @@
+[
+ {
+  "id": 1310,
+  "name": "29 Indian Creek",
+  "values": {
+   "contractor": "Trinity Southern"
+  },
+  "sources": {
+   "contractor": {
+    "name": "Florida YIMBY, 12 Nov 2025",
+    "date": "2025-11-12",
+    "url": "https://floridayimby.com/2025/11/29-indian-creek-breaks-ground-at-2901-indian-creek-drive-in-miami-beach.html"
+   }
+  },
+  "notes": "Trinity Southern is developer-builder rather than a third-party contractor. A different firm was named general contractor in 2023, but that was the superseded 11-residence scheme led by a different sponsor.",
+  "quotes": {
+   "contractor": "Developed and built by Trinity Southern, 29 Indian Creek embodies a cohesive, modern vision inspired by Miami Beach's distinctive Art Deco heritage."
+  }
+ },
+ {
+  "id": 1311,
+  "name": "824 Alton Road",
+  "values": {
+   "residential_units": 149,
+   "stories": 39
+  },
+  "overwrite": [
+   "residential_units",
+   "stories"
+  ],
+  "sources": {
+   "stories": {
+    "name": "Florida YIMBY, 4 Oct 2026",
+    "date": "2026-10-04",
+    "url": "https://floridayimby.com/2026/10/developer-revises-plans-for-workforce-housing-high-rise-at-824-alton-road-miami-florida.html"
+   },
+   "residential_units": {
+    "name": "Florida YIMBY, 4 Oct 2026",
+    "date": "2026-10-04",
+    "url": "https://floridayimby.com/2026/10/developer-revises-plans-for-workforce-housing-high-rise-at-824-alton-road-miami-florida.html"
+   }
+  },
+  "notes": "SUPERSEDES the 31 storeys and 120 residences previously stored, which came from the October 2025 filing at 404 ft. The revision is 72 workforce plus 77 market-rate units. Height is not recorded: the revision is described only as more than 500 ft above grade, which is not a figure.",
+  "quotes": {
+   "stories": "Updated plans for 824 Alton call for a 39-story tower soaring more than 500 feet above grade.",
+   "residential_units": "Additionally, there would be 149 residences: 72 workforce housing units and 77 market-rate residences."
+  }
+ },
+ {
+  "id": 1312,
+  "name": "Reserve at One Sunset",
+  "values": {
+   "developer": "Turnbridge Equities"
+  },
+  "sources": {
+   "developer": {
+    "name": "Florida YIMBY, 28 Sep 2026",
+    "date": "2026-09-28",
+    "url": "https://floridayimby.com/2026/09/new-york-based-developer-plans-20-story-reserve-at-one-sunset-for.html"
+   }
+  },
+  "notes": "This closes the gap the row was recorded with, where the sponsor was described only as a New York-based developer. The 2022 coverage of this address belongs to a different, abandoned office scheme and nothing is taken from it.",
+  "quotes": {
+   "developer": "Turnbridge Equities is the developer."
+  }
+ },
+ {
+  "id": 1313,
+  "name": "1575 Alton Road",
+  "values": {
+   "residential_units": 63,
+   "stories": 19
+  },
+  "overwrite": [
+   "residential_units",
+   "stories"
+  ],
+  "sources": {
+   "stories": {
+    "name": "The Real Deal, 13 Oct 2026",
+    "date": "2026-10-13",
+    "url": "https://therealdeal.com/miami/2026/10/13/russell-galbut-nixes-live-local-act-miami-beach-projects/"
+   },
+   "residential_units": {
+    "name": "The Real Deal, 13 Oct 2026",
+    "date": "2026-10-13",
+    "url": "https://therealdeal.com/miami/2026/10/13/russell-galbut-nixes-live-local-act-miami-beach-projects/"
+   }
+  },
+  "notes": "SUPERSEDES the 43 storeys and 163 units previously stored. The 557 ft height stored with that scheme is also superseded and no height has been published for the reduced 19-storey scheme, so the stored figure should be read as belonging to the withdrawn design. The reduction came as the sponsor scrapped three Live Local applications; the same reduced figures are repeated in later coverage.",
+  "quotes": {
+   "stories": "Galbut said that last week he reduced this project to 19 stories and 63 units.",
+   "residential_units": "Galbut said that last week he reduced this project to 19 stories and 63 units."
+  }
+ },
+ {
+  "id": 1314,
+  "name": "1501 Collins Avenue",
+  "values": {
+   "height_ft": 325
+  },
+  "sources": {
+   "height_ft": {
+    "name": "Florida YIMBY, 20 Sep 2026",
+    "date": "2026-09-20",
+    "url": "https://floridayimby.com/2026/09/developers-seek-to-restore-historic-hotel-and-build-25-story-tower-at-1501-collins-avenue-miami-beach-florida.html"
+   }
+  },
+  "notes": "Feet above grade for the 25-storey tower, consistent with the floor area and unit count already stored. The sponsor sued the City in January 2026 alleging it blocked the redevelopment; the application remains on the under-review list.",
+  "quotes": {
+   "height_ft": "Additional features of the 325-foot-high tower include 42 hotel rooms."
+  }
+ },
+ {
+  "id": 1317,
+  "name": "Grand Hyatt Miami Beach Convention Center Hotel",
+  "values": {
+   "lender": "Tyko Capital"
+  },
+  "sources": {
+   "lender": {
+    "name": "Commercial Observer, 11 Apr 2025",
+    "date": "2025-04-11",
+    "url": "https://commercialobserver.com/2025/04/terra-turnberry-miami-beach-convention-center-hotel-grand-hyatt/"
+   }
+  },
+  "notes": "A $392m construction loan arranged by Eastdil Secured. The separate $75m Miami Beach Redevelopment Agency grant is not debt. A civil engineer is named only in 2022 coverage, in the same sentence as a general contractor who was later replaced, so it is not recorded.",
+  "quotes": {
+   "lender": "The joint venture between Terra and Turnberry scored a $392 million construction loan from Tyko Capital for the Grand Hyatt Miami Beach, an 800-room, 17-story property adjacent to the Miami Beach Convention Center."
+  }
+ },
+ {
+  "id": 1321,
+  "name": "Casa Cipriani Miami Beach",
+  "values": {
+   "architect": "Brandon Haw Architecture; Revuelta Architecture International"
+  },
+  "sources": {
+   "architect": {
+    "name": "Commercial Observer, 24 Mar 2025",
+    "date": "2025-03-24",
+    "url": "https://commercialobserver.com/2025/03/13th-floor-casa-cipriani-miami-beach-midtown/"
+   }
+  },
+  "notes": "Both firms carry the 'designed by' role and no source says which is architect of record, so both are stored rather than guessing. The $55.5m from BH3 Management is described only as financing with no loan type, and the project is pre-construction, so it is not recorded as a construction lender.",
+  "quotes": {
+   "architect": "The project, designed by Brandon Haw Architecture and Revuelta Architecture International, will also house a jazz club, a restaurant, a garden bar, and of course a private club."
+  }
+ },
+ {
+  "id": 1322,
+  "name": "Ella Miami Beach",
+  "values": {
+   "lender": "Amerant Bank",
+   "civil_engineer": "Biscayne Engineering",
+   "height_ft": 130
+  },
+  "sources": {
+   "lender": {
+    "name": "Commercial Observer, 25 Mar 2025",
+    "date": "2025-03-25",
+    "url": "https://commercialobserver.com/2025/03/constellation-boschetti-ella-amerant-finance-miami-florida/"
+   },
+   "civil_engineer": {
+    "name": "Florida YIMBY, 24 Feb 2023",
+    "date": "2023-02-24",
+    "url": "https://floridayimby.com/2023/02/developers-seek-design-review-approval-for-proposed-10-story-mixed-use-building-at-6940-abbott-avenue-in-miami-beach.html"
+   },
+   "height_ft": {
+    "name": "Florida YIMBY, 24 Feb 2023",
+    "date": "2023-02-24",
+    "url": "https://floridayimby.com/2023/02/developers-seek-design-review-approval-for-proposed-10-story-mixed-use-building-at-6940-abbott-avenue-in-miami-beach.html"
+   }
+  },
+  "notes": "A $42.3m three-year floating-rate construction loan brokered by Berkadia. The 130 ft height and the civil engineer both come from the 2023 design-review submittal, which described 96 units against the 103 built; the storey count is unchanged across all coverage, which is why the height is carried forward, but neither figure has been restated since 2023.",
+  "quotes": {
+   "lender": "A venture led by Constellation Group and The Boschetti Group nabbed a $42.3 million construction loan from Amerant Bank for a boutique condo building in Miami Beach.",
+   "civil_engineer": "Designed by Arquitectonica with Biscayne Engineering as the land surveyor and civil engineer, the 130-foot-tall structure would yield 134,573 gross square feet of space",
+   "height_ft": "Designed by Arquitectonica with Biscayne Engineering as the land surveyor and civil engineer, the 130-foot-tall structure would yield 134,573 gross square feet of space"
+  }
+ },
+ {
+  "id": 1323,
+  "name": "The Perigon Miami Beach",
+  "values": {
+   "architect": "ODP Architecture & Design",
+   "lender": "Eldridge Real Estate Credit",
+   "residential_units": 73
+  },
+  "overwrite": [
+   "architect"
+  ],
+  "sources": {
+   "architect": {
+    "name": "Florida YIMBY, 4 Apr 2024",
+    "date": "2024-04-04",
+    "url": "https://floridayimby.com/2024/04/developers-break-ground-on-17-story-the-perigon-at-5333-collins-avenue-in-miami-beach.html"
+   },
+   "lender": {
+    "name": "The Real Deal, 17 Jan 2025",
+    "date": "2025-01-17",
+    "url": "https://therealdeal.com/miami/2025/01/17/mast-capital-starwood-get-390m-loan-for-miami-beach-condos/"
+   },
+   "residential_units": {
+    "name": "The Real Deal, 17 Jan 2025",
+    "date": "2025-01-17",
+    "url": "https://therealdeal.com/miami/2025/01/17/mast-capital-starwood-get-390m-loan-for-miami-beach-condos/"
+   }
+  },
+  "notes": "ARCHITECT CORRECTED: OMA was stored, but OMA is the design architect and ODP Architecture & Design is the architect of record, which is what the field rule asks for. A $390m construction loan. Malcolm Drilling was the foundation contractor, not the general contractor.",
+  "quotes": {
+   "architect": "Designed by the globally acclaimed architecture firm OMA with ODP Architecture & Design as the architect of record and boasting interiors by Tara Bernerd & Partners, this building will feature 73 private residences.",
+   "lender": "Mast Capital and Starwood Capital Group secured construction financing for their oceanfront luxury condo project in Miami Beach. The joint venture closed on a $390 million loan from Eldridge Real Estate Credit for the Perigon.",
+   "residential_units": "The Perigon, a 17-story, 73-unit building that's under construction at 5333 Collins Avenue, is expected to be completed"
+  }
+ },
+ {
+  "id": 1324,
+  "name": "71 NoBe",
+  "values": {
+   "residential_units": 277
+  },
+  "sources": {
+   "residential_units": {
+    "name": "Florida YIMBY, 7 Jan 2026",
+    "date": "2026-01-07",
+    "url": "https://floridayimby.com/2026/01/mixed-use-71-nobe-planned-for-2027-completion-at-400-71st-st-miami-beach-florida.html"
+   }
+  },
+  "notes": "The $94m construction loan is reported but its lender is named nowhere, so the field stays empty. Over 30,000 sq ft of retail is also planned.",
+  "quotes": {
+   "residential_units": "The 277 luxury apartments will include one-bedroom and two-bedroom units, and future residents would have access to various on-site amenities."
+  }
+ },
+ {
+  "id": 1325,
+  "name": "Ocean Terrace",
+  "values": {
+   "developer": "Witkoff Group; Ocean Terrace Holdings"
+  },
+  "sources": {
+   "developer": {
+    "name": "Florida YIMBY, 28 Nov 2025",
+    "date": "2025-11-28",
+    "url": "https://floridayimby.com/2025/11/20-story-ocean-terrace-to-break-ground-next-year-at-7450-ocean-terrace-miami-beach-florida.html"
+   }
+  },
+  "notes": "This closes the gap the row was recorded with. Height is deliberately not recorded: the only figure, 270 ft, is measured to the top of a mechanical feature and belongs to a 2021 scheme of 75 units, against the current 52 residences plus 24 resort residences. R.J. Heisenbottle Architects handles preservation of the historic Broadmoor and Ocean Surf; Robert A.M. Stern is the interior designer here, not the architect.",
+  "quotes": {
+   "developer": "Witkoff Group and Ocean Terrace Holdings are the two developers."
+  }
+ },
+ {
+  "id": 1326,
+  "name": "AVARA Residences",
+  "values": {
+   "contractor": "Kaufman Lynn Construction",
+   "lender": "PNC Bank"
+  },
+  "sources": {
+   "contractor": {
+    "name": "Florida YIMBY, 15 Mar 2023",
+    "date": "2023-03-15",
+    "url": "https://floridayimby.com/2023/03/178-unit-residential-project-at-3900-alton-road-set-for-completion-in-fall-2024.html"
+   },
+   "lender": {
+    "name": "Florida YIMBY, 15 Mar 2023",
+    "date": "2023-03-15",
+    "url": "https://floridayimby.com/2023/03/178-unit-residential-project-at-3900-alton-road-set-for-completion-in-fall-2024.html"
+   }
+  },
+  "notes": "A $64m construction loan closed in November 2022; the contractor's role is restated at topping-off. The project was called 3900 Alton Road before delivery.",
+  "quotes": {
+   "contractor": "Kaufman Lynn Construction is the general contractor, and AKO Plumbing Corp is the plumbing contractor.",
+   "lender": "In November 2022, Mast Capital and Rockpoint Group secured a substantial $64 million construction loan from PNC Bank."
+  }
+ },
+ {
+  "id": 1328,
+  "name": "Shore Club Private Collection",
+  "values": {
+   "contractor": "Coastal Construction",
+   "lender": "JPMorgan Chase"
+  },
+  "sources": {
+   "contractor": {
+    "name": "Florida YIMBY, 20 Nov 2025",
+    "date": "2025-11-20",
+    "url": "https://floridayimby.com/2025/11/shore-club-private-collection-completes-concrete-pour-at-1901-collins-avenue-in-miami-beach.html"
+   },
+   "lender": {
+    "name": "Commercial Observer, 20 Jul 2023",
+    "date": "2023-07-20",
+    "url": "https://commercialobserver.com/2023/07/witkoff-monroe-capital-shore-club-jp-morgan/"
+   }
+  },
+  "notes": "A $430m construction loan arranged by Lotus Capital Partners. Height is deliberately not recorded: the only figure, 200 ft, appears in an article that calls the tower 18 storeys while later coverage says 20, so it belongs to a superseded design. The 49 residences span three components including the restored 1939 Cromwell House.",
+  "quotes": {
+   "contractor": "The project is designed by Robert A. M. Stern Architects and is being built by Coastal Construction.",
+   "lender": "Witkoff Group and Monroe Capital scored one of South Florida's biggest construction loans ever: $430 million for a luxury condo development on Miami Beach's Collins Avenue. The financing from JPMorgan Chase will go toward the Shore Club Private Collection"
+  }
+ },
+ {
+  "id": 1329,
+  "name": "72 Carlyle",
+  "values": {
+   "stories": 20
+  },
+  "sources": {
+   "stories": {
+    "name": "The Real Deal, 18 Aug 2026",
+    "date": "2026-08-18",
+    "url": "https://therealdeal.com/miami/2026/08/18/map-residential-development-booming-in-miamis-north-beach/"
+   }
+  },
+  "notes": "This replaces nothing — the row deliberately held no storey count because the only published figure, 70 storeys, is plainly a typo for a North Beach building. Construction had not started as of August 2026, with completion slated for late 2028. One source credits Piero Lissoni as architect and another credits him only with the amenity design; no architect of record has been published.",
+  "quotes": {
+   "stories": "600 72nd Street | 72 Carlyle | Lefferts is developing 72 Carlyle, a 20-story residential tower overlooking Miami Beach."
+  }
+ },
+ {
+  "id": 1330,
+  "name": "6985 Collins Avenue",
+  "values": {
+   "developer": "The Kolter Group; BH Group"
+  },
+  "sources": {
+   "developer": {
+    "name": "The Real Deal, 10 Jul 2026",
+    "date": "2026-07-10",
+    "url": "https://therealdeal.com/miami/2026/07/10/kolter-pays-18-1-million-for-north-beach-condos/"
+   }
+  },
+  "notes": "Corroborated by Florida YIMBY, which names the applicant entity BHK Crystal Beach LLC as an affiliate of both firms — an entity match rather than an inference from an LLC name. The row's owner of record is a different entity, which is worth a title check. The site assembles the Crystal Beach Suites and the condemned Normandy Plaza Hotel. No architect is named; a rendering credit carries no role.",
+  "quotes": {
+   "developer": "Kolter and BH unveiled redevelopment plans for the two hotels before Miami Beach's Historic Preservation Board last September."
+  }
+ },
+ {
+  "id": 1333,
+  "name": "1940 Park Avenue workforce housing",
+  "values": {
+   "architect": "Brooks + Scarpa Architects",
+   "residential_units": 105,
+   "stories": 6
+  },
+  "sources": {
+   "architect": {
+    "name": "The Real Deal, 16 Jun 2026",
+    "date": "2026-06-16",
+    "url": "https://therealdeal.com/miami/2026/06/16/housing-coming-for-historic-miami-beach-site-city-condemned/"
+   },
+   "stories": {
+    "name": "The Real Deal, 16 Jun 2026",
+    "date": "2026-06-16",
+    "url": "https://therealdeal.com/miami/2026/06/16/housing-coming-for-historic-miami-beach-site-city-condemned/"
+   },
+   "residential_units": {
+    "name": "The Real Deal, 16 Jun 2026",
+    "date": "2026-06-16",
+    "url": "https://therealdeal.com/miami/2026/06/16/housing-coming-for-historic-miami-beach-site-city-condemned/"
+   }
+  },
+  "notes": "DEVELOPER CONFLICT LEFT UNRESOLVED: The Real Deal of 16 June 2026 attributes the project to Legacy Real Estate Development and records that the City selected Legacy and Urban American in 2024, with Urban American no longer involved; Florida YIMBY two weeks later says an affiliate of The Peebles Corp. and names 1940 Barclay Partners LLC. The stored value follows the later source under the conflict rule, but Legacy Real Estate Development is the more specific attribution and this is flagged for a human call. The site is City-owned, 1.6 acres, replacing the condemned Barclay Hotel: 54 studios, 39 one-bed, 12 two-bed, 1,000 sq ft of retail, 78,700 sq ft.",
+  "quotes": {
+   "architect": "Brooks + Scarpa Architects is designing the project, which would rise six stories and encompass 78,700 square feet.",
+   "stories": "Brooks + Scarpa Architects is designing the project, which would rise six stories and encompass 78,700 square feet.",
+   "residential_units": "The developer's LLC requested a zoning change to build 105 residential units while preserving portions of the historic Barclay building, which has sat empty for years."
+  }
+ },
+ {
+  "id": 1334,
+  "name": "Southgate Towers Live Local redevelopment",
+  "values": {
+   "architect": "Arquitectonica",
+   "residential_units": 442
+  },
+  "sources": {
+   "architect": {
+    "name": "The Real Deal, 30 Oct 2026",
+    "date": "2026-10-30",
+    "url": "https://therealdeal.com/miami/2026/10/30/miami-beach-axes-38-story-live-local-act-project-over-zoning/"
+   },
+   "residential_units": {
+    "name": "The Real Deal, 30 Oct 2026",
+    "date": "2026-10-30",
+    "url": "https://therealdeal.com/miami/2026/10/30/miami-beach-axes-38-story-live-local-act-project-over-zoning/"
+   }
+  },
+  "notes": "This corrects the row's earlier note that no unit count was published for the proposal: 442 units, being 264 condominiums and 178 apartments at workforce rents, replacing two existing 14-storey buildings of 495 units. The denial is appealable to the city board of adjustment. Blackstone Real Estate took the owner private in 2024.",
+  "quotes": {
+   "architect": "The proposed redevelopment, designed by Arquitectonica, called for 442 units, consisting of 264 condos and 178 apartments at workforce rents.",
+   "residential_units": "The proposed redevelopment, designed by Arquitectonica, called for 442 units, consisting of 264 condos and 178 apartments at workforce rents."
+  }
+ },
+ {
+  "id": 1335,
+  "name": "1960 Normandy Drive",
+  "values": {
+   "stories": 7
+  },
+  "sources": {
+   "stories": {
+    "name": "City of Miami Beach Planning Department, signed Administrative Order, Live Local Act Development Application PB24-0716, 23 Dec 2025",
+    "date": "2025-12-23",
+    "url": "https://www.miamibeachfl.gov/wp-content/uploads/2025/12/1960-Normandy-Approved-Live-Local-Act-Order.pdf"
+   }
+  },
+  "notes": "From the signed development order itself, which the City publishes as a plain PDF rather than behind its permit portal — this corrects the row's earlier note that the order was unreachable. The applicant of record is Jakeal LLC, a role the order states as applicant rather than developer, so developer stays empty. Folio 02-3210-011-0370; at least 40 per cent of rental units affordable for 30 years. Unit count, height and architect sit on scanned plan sheets appended to the order and are not machine-readable. No trade press covers this address at all.",
+  "quotes": {
+   "stories": "A. The proposed project consists of the construction of a seven-story mixed-use building containing multifamily rental housing units, at least 40 percent of which are affordable"
+  }
+ },
+ {
+  "id": 1336,
+  "name": "663 Alton Road",
+  "values": {
+   "stories": 16
+  },
+  "sources": {
+   "stories": {
+    "name": "City of Miami Beach Planning Department, signed Administrative Order, Live Local Act Development Application PB24-0683, 9 Jun 2026",
+    "date": "2026-06-09",
+    "url": "https://www.miamibeachfl.gov/wp-content/uploads/2026/06/PB24-0683-663-Alton-Rd-SIGNED-ORDER.pdf"
+   }
+  },
+  "notes": "From the signed development order. The applicant of record is South Beach Heights II, LLC, stated as applicant rather than developer. Folios 02-4203-009-8540 and -8530, zoned CD-2; residential rental with at least 40 per cent affordable plus office at levels 1, 5 and 6. An off-list outlet reports 79 all-workforce units at 239 ft by a named sponsor and architect; none of that is corroborated by an acceptable source and none of it is stored.",
+  "quotes": {
+   "stories": "A. The proposed project consists of the construction of a sixteen-story mixed-use building containing multifamily rental housing units, at least 40 percent of which are affordable, and office space at levels 1 (ground-floor), 5 and 6"
+  }
+ },
+ {
+  "id": 1337,
+  "name": "7401-7425 Harding Avenue",
+  "values": {
+   "stories": 21
+  },
+  "sources": {
+   "stories": {
+    "name": "City of Miami Beach Planning Department, signed Administrative Order, Live Local Act Development Application PB24-0694",
+    "date": "2026-10-01",
+    "url": "https://www.miamibeachfl.gov/wp-content/uploads/2026/10/PB24-0694-7401-7425-Harding-Av-SIGNED-ORDER-2.pdf"
+   }
+  },
+  "notes": "From the signed development order. A strong developer lead is deliberately NOT stored: the order names BH Collins LLC as applicant and owner of record, which is the identical entity named in trade press as the ownership vehicle for the 7410 Collins Avenue project one block away, developed by Abraham Bergman with Opal Realty NY and The Scharf Group. That is an exact entity match rather than an LLC-name guess, but the order assigns only the applicant role, so it is left for a human to confirm. Four parcels at 7401, 7409, 7417 and 7425 Harding Avenue. This scheme supersedes an earlier five-storey, 18-townhome proposal.",
+  "quotes": {
+   "stories": "A. The proposed project consists of the construction of a twenty-one- (21-) story mixed use building containing multifamily rental housing units, at least 40 percent of which are affordable"
+  }
+ },
+ {
+  "id": 1339,
+  "name": "42 Collins Avenue",
+  "values": {
+   "architect": "Built Form"
+  },
+  "sources": {
+   "architect": {
+    "name": "City of Miami Beach Planning Department, Land Use Board Hearing Application PB24-0689, executed 7 Aug 2024",
+    "date": "2024-08-07",
+    "url": "https://www.miamibeachfl.gov/wp-content/uploads/2026/07/PB24-0689-Application-42-Collins-Ave.pdf"
+   }
+  },
+  "notes": "From the City's own application form: the 'party responsible for project design' block names Robert Bistry of Built Form with the Architect box ticked rather than Contractor, Landscape Architect or Engineer — the same firm already recorded as architect at 1826 Collins Avenue. The owner and applicant is 42 Collins Avenue LLC, an owner role only, so developer stays empty. The floor-area fields on the form were left blank and the plan sheets are scanned, so storeys, units and height are unavailable. The site previously held a four-storey nursing centre.",
+  "quotes": {
+   "architect": "Party responsible for project design. Architect: Robert Bistry, 935 W Chestnut Street #520, Chicago IL, BBistry@built-form.net"
+  }
+ },
+ {
+  "id": 1342,
+  "name": "425 Ocean Drive",
+  "values": {
+   "developer": "Allied Partners",
+   "stories": 38
+  },
+  "sources": {
+   "developer": {
+    "name": "The Real Deal, 16 Sep 2026",
+    "date": "2026-09-16",
+    "url": "https://therealdeal.com/miami/2026/09/16/historic-savoy-hotel-slated-for-demo-resi-tower-planned/"
+   },
+   "stories": {
+    "name": "The Real Deal, 16 Sep 2026",
+    "date": "2026-09-16",
+    "url": "https://therealdeal.com/miami/2026/09/16/historic-savoy-hotel-slated-for-demo-resi-tower-planned/"
+   }
+  },
+  "notes": "Residential units are deliberately NOT stored: the source states 90 condominiums and 60 workforce rental apartments separately and prints no total, so 150 would be a figure of mine rather than the source's. Allied Partners owns the Savoy Hotel & Beach Club at 425 and 455 Ocean Drive. The proposal relies on both the Live Local Act and the Resilience and Safe Structures Act, partly preserving the 1937 Savoy and demolishing the 1941 Arlington. No architect is named by any acceptable source.",
+  "quotes": {
+   "developer": "Allied Partners wants to develop the project with a hotel, 90 condo units and 60 workforce rental apartments on the site of the Savoy Hotel at 425 Ocean Drive.",
+   "stories": "A slice of historic Art Deco architecture in Miami Beach's South of Fifth neighborhood is slated for replacement with a 38-story residential tower under a pair of controversial state laws."
+  }
+ }
+]

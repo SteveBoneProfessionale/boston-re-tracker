@@ -1,0 +1,196 @@
+[
+ {"id": 1234, "name": "The Aurelian", "values": {"lender": "Pearlmark"},
+  "sources": {"lender": {"name": "Florida YIMBY, 18 Oct 2026", "date": "2026-10-18",
+    "url": "https://floridayimby.com/2026/10/empira-group-secures-81-million-construction-loan-for-the-aurelian-in-coral-gables.html"}},
+  "notes": "Identity confirmed across the two addresses this project is reported at by matching developer, architect, contractor, storey count and the 324,000 sq ft figure already on the row.",
+  "quotes": {"lender": "Empira Group has secured $81 million in construction financing for The Aurelian, a 12-story, 160-unit multifamily development under construction at 114 Calabria Avenue in Coral Gables, Florida. The loan was provided by Pearlmark."}},
+
+ {"id": 1246, "name": "Crystal Residences", "values": {"height_ft": 93},
+  "sources": {"height_ft": {"name": "Coral Gables Gazette, 14 Jun 2026", "date": "2026-06-14",
+    "url": "https://gables-gazette.com/after-years-of-appeals-crystal-residences-reaches-the-zoning-stage/"}},
+  "notes": "93 ft is the height sought in the planned-area-development request for the current nine-storey scheme, which matches the storey count on the row. A superseded 83 ft figure belongs to an earlier 177-unit scheme by a different sponsor.",
+  "quotes": {"height_ft": "The project sought PAD flexibility to allow nine stories at 93 feet."}},
+
+ {"id": 1236, "name": "Cora Merrick Park", "values": {"lender": "BHI"},
+  "sources": {"lender": {"name": "Florida YIMBY, 10 Jun 2026", "date": "2026-06-10",
+    "url": "https://floridayimby.com/2026/06/construction-loan-secured-for-cora-merrick-park-at-4241-aurora-street-in-coral-gables.html"}},
+  "notes": "Berkadia arranged the loan and BHI provided it. Height is deliberately not recorded: the only published figure, 137.5 ft, describes a superseded eight-storey-over-three scheme, and the current design is 13 storeys.",
+  "quotes": {"lender": "Constellation Group and The Boschetti Group have secured a $67.5 million construction loan for Cora Merrick Park, a 13-story mixed-use condominium development currently under construction at 4241 Aurora Street in Coral Gables. BHI provided the financing, which was arranged by a Berkadia Miami team."}},
+
+ {"id": 1237, "name": "Alhambra Parc", "values": {"lender": "Benmark Capital", "height_ft": 104},
+  "sources": {
+    "lender": {"name": "Florida YIMBY, 6 Jun 2026", "date": "2026-06-06",
+      "url": "https://floridayimby.com/2026/06/100-million-construction-loan-secured-for-alhambra-parc-at-33-alhambra-circle-in-coral-gables.html"},
+    "height_ft": {"name": "Florida YIMBY, 18 May 2024", "date": "2024-05-18",
+      "url": "https://floridayimby.com/2024/05/plans-filed-for-8-story-mediterranean-style-mixed-use-development-at-33-alhambra-circle-in-coral-gables.html"}},
+  "notes": "The height comes from the 2024 plan filing, which describes an eight-storey, 78-unit scheme. The 2026 coverage revises the unit count to 74 but still describes an eight-storey building and restates no height, so the figure is carried forward on an unchanged massing. Berkadia arranged the loan and Benmark Capital provided it.",
+  "quotes": {
+    "lender": "MG Developer and Vertical Developments have secured a $100 million construction loan for Alhambra Parc, a mixed-use development planned at 33 Alhambra Circle in Coral Gables. The loan was provided by Benmark Capital.",
+    "height_ft": "The proposed 104-foot-tall structure would yield a total floor area ratio of 170,694 square feet, comprising 78 residential units, 28,400 square feet of commercial space, and 151 parking spaces."}},
+
+ {"id": 1238, "name": "Regency Parc", "values": {"lender": "Goldman Sachs"},
+  "sources": {"lender": {"name": "Commercial Observer, 15 Nov 2023", "date": "2023-11-15",
+    "url": "https://commercialobserver.com/2023/11/codina-goldman-sachs-coral-gables/"}},
+  "notes": "The loan predates the final design: the 2023 coverage describes an 18-storey, 124-unit building at this address while the delivered tower is 20 storeys with 126 residences. Same address and same developer, so it is the same project at an earlier design stage.",
+  "quotes": {"lender": "Codina Partners has landed $115 million from Goldman Sachs to build a luxury rental project in Coral Gables, Fla."}},
+
+ {"id": 1241, "name": "Cassia", "values": {"lender": "JVP Management"},
+  "sources": {"lender": {"name": "Bisnow South Florida Deal Sheet, 2 Jun 2025", "date": "2025-06-02",
+    "url": "https://www.bisnow.com/news/south-florida/deal-sheet/this-weeks-south-florida-deal-sheet-alta-developers-land-94m-construction-loan-for-luxury-condo-is-coral-gables-129620"}},
+  "notes": "JLL arranged the financing. The construction character of the facility comes from the same item's own headline, quoted alongside the sentence naming the lender.",
+  "quotes": {"lender": "Alta Developers Land $94M Construction Loan For Luxury Condo In Coral Gables. JVP Management provided the loan"}},
+
+ {"id": 1243, "name": "The Mark", "values": {"developer": "Landmark Properties"},
+  "sources": {"developer": {"name": "Coral Gables Gazette, 9 Apr 2026", "date": "2026-04-09",
+    "url": "https://gables-gazette.com/editorial-the-alley-at-1250-south-dixie/"}},
+  "notes": "This closes the gap the row was first recorded with. The Gazette's news coverage of the April 2026 site-plan approval names only the applicant of record, LCD Acquisitions LLC; its editorial on the same project names the developer firm, and the Gazette is on the acceptable-source list. The 105 ft height already on the row matches the Gazette's approval story; a superseded 97 ft appears in its May 2025 city-review list.",
+  "quotes": {"developer": "Landmark Properties has proposed The Mark, a mixed-use development of two eight-story towers with 393 residential units."}},
+
+ {"id": 1247, "name": "300 Malaga", "values": {"architect": "Nichols Architects"},
+  "sources": {"architect": {"name": "Florida YIMBY, 18 May 2026", "date": "2026-05-18",
+    "url": "https://floridayimby.com/2026/05/25-unit-300-malaga-proposed-for-300-malaga-avenue-coral-gables-florida.html"}},
+  "notes": "No design/record distinction is drawn, so this is stored as the architect.",
+  "quotes": {"architect": "Nichols Architects designed 300 Malaga."}},
+
+ {"id": 1249, "name": "6100 Caballero Boulevard", "values": {"height_ft": 140},
+  "sources": {"height_ft": {"name": "Coral Gables Gazette, 15 May 2025", "date": "2025-05-15",
+    "url": "https://gables-gazette.com/18-development-projects-under-city-review-in-coral-gables/"}},
+  "notes": "The source gives a range across the two buildings rather than one number; 140 ft is the taller, which is the 13-storey building already stored, and the nine-storey building is 97 ft. The 251-unit figure in the same entry matches the current scheme, confirming this is not the superseded earlier proposal.",
+  "quotes": {"height_ft": "251 residential units and 1,500 square feet of commercial space. Height ranges from 97 to 140 feet."}},
+
+ {"id": 1250, "name": "Via Veneto", "values": {"lender": "Banesco USA"},
+  "sources": {"lender": {"name": "Commercial Observer, 7 Jan 2025", "date": "2025-01-07",
+    "url": "https://commercialobserver.com/2025/01/calta-via-veneto-banesco-coral-gables/"}},
+  "notes": "Florida YIMBY corroborates with the full bank name in February 2025.",
+  "quotes": {"lender": "The Calta Group obtained a $30 million construction loan from Banesco for a luxury townhome development in Coral Gables, Fla."}},
+
+ {"id": 1375, "name": "LILLI",
+  "values": {"architect": "ODP Architecture & Design", "civil_engineer": "Langan",
+             "residential_units": 117},
+  "sources": {
+    "architect": {"name": "Florida YIMBY, 12 Jul 2026", "date": "2026-07-12",
+      "url": "https://floridayimby.com/2026/07/53-story-lilli-scheduled-for-urban-development-review-board-at-717-ne-27th-street-in-edgewater-miami.html"},
+    "civil_engineer": {"name": "Florida YIMBY, 12 Jul 2026", "date": "2026-07-12",
+      "url": "https://floridayimby.com/2026/07/53-story-lilli-scheduled-for-urban-development-review-board-at-717-ne-27th-street-in-edgewater-miami.html"},
+    "residential_units": {"name": "Florida YIMBY, 13 May 2026", "date": "2026-05-13",
+      "url": "https://floridayimby.com/2026/05/oko-group-reveals-plans-for-53-story-condo-tower-lilli-at-717-ne-27th-street-in-edgewater-miami.html"}},
+  "notes": "Adrian Smith + Gordon Gill Architecture is the design architect and also does the interiors; ODP Architecture & Design is the architect of record and is therefore the stored value. Thornton Tomasetti is structural engineer, MG Engineering MEP, SWA landscape architect for the tower and Habitat LC landscape architect of record. Height is deliberately not recorded: a 649 ft FAA filing that matches this address belongs to a joint OKO Group and Cain International project, and LILLI is OKO Group alone.",
+  "quotes": {
+    "architect": "Developed by OKO Group, the project is designed by Adrian Smith + Gordon Gill Architecture, with ODP Architecture & Design serving as architect of record.",
+    "civil_engineer": "The broader project team includes Thornton Tomasetti as structural engineer, MG Engineering D.P.C. as MEP engineer, Langan as civil engineer, SWA as landscape architect for the tower",
+    "residential_units": "Developed by OKO Group, the project is designed by Adrian Smith + Gordon Gill Architecture and will yield 117 condominium residences overlooking Biscayne Bay."}},
+
+ {"id": 1208, "name": "1401 Brickell by Santander", "values": {"height_ft": 765},
+  "sources": {"height_ft": {"name": "Florida YIMBY, 17 Apr 2025", "date": "2025-04-17",
+    "url": "https://floridayimby.com/2025/04/demolition-progresses-at-1401-brickell-avenue-future-site-of-41-story-santander-tower-in-miamis-financial-district.html"}},
+  "notes": "765 ft is the above-ground figure; the same sentence gives 778 ft above sea level, which is not used. A later report gives 765 ft to the roof and 784 ft including a lightning rod; the roof height is the one stored.",
+  "quotes": {"height_ft": "The new tower, rising 765 feet above ground (778 feet above sea level), represents a significant architectural and engineering addition to Miami's Financial District."}},
+
+ {"id": 1081, "name": "Cipriani Residences Miami",
+  "values": {"lender": "Banco Inbursa; Ascendant Capital Partners"},
+  "sources": {"lender": {"name": "Commercial Observer, 6 Feb 2024", "date": "2024-02-06",
+    "url": "https://commercialobserver.com/2024/02/cipriani-residences-miami-mast-capital/"}},
+  "notes": "Newmark arranged the loan. Identity confirmed against the row's address, developer and storey count.",
+  "quotes": {"lender": "Mast Capital Lands Record $600M Construction Loan for Cipriani Condo in Miami. The financing package includes $350 million from Banco Inbursa and $250 million from Ascendant Capital Partners."}},
+
+ {"id": 963, "name": "830 Brickell", "values": {"lender": "MSD Partners", "height_ft": 724},
+  "sources": {
+    "lender": {"name": "Commercial Observer, 31 Jul 2023", "date": "2023-07-31",
+      "url": "https://commercialobserver.com/2023/07/830-brickell-oko-group-cain-international-michael-dell-msd-partners/"},
+    "height_ft": {"name": "Florida YIMBY, 29 Jul 2024", "date": "2024-07-29",
+      "url": "https://floridayimby.com/2024/07/830-brickell-in-miami-lands-565-million-in-financing-ahead-of-completion.html"}},
+  "notes": "This supersedes the row's earlier note that no lender could be recorded. MSD Partners provided the original 2019 construction loan, later modified upward; the $565m TYKO facility is permanent financing that paid that construction loan off, and the $630m Goldman Sachs and J.P. Morgan package is a refinancing — neither is the construction lender.",
+  "quotes": {
+    "lender": "Back in 2019, the joint venture scored a $300 million construction loan from Michael Dell's MSD Partners to build the 57-story office story in the heart of Miami's financial district.",
+    "height_ft": "this fully leased 724-foot-tall tower is the first stand-alone Class A+ office building in Brickell in over a decade."}},
+
+ {"id": 974, "name": "2600 Biscayne", "values": {"lender": "Bank OZK"},
+  "sources": {"lender": {"name": "Florida YIMBY, 23 Apr 2024", "date": "2024-04-23",
+    "url": "https://floridayimby.com/2024/04/oak-row-equities-officially-breaks-ground-on-2600-biscayne-boulevard-in-edgewater-miami.html"}},
+  "notes": "The recurring '135 feet above ground' figure in this project's coverage is where the residential portion begins, not a building height, and is not used.",
+  "quotes": {"lender": "The project has successfully pre-leased half of its commercial space and has obtained a construction loan of $181 million from Bank OZK."}},
+
+ {"id": 1162, "name": "The St. Regis Residences, Miami", "values": {"lender": "TYKO Capital"},
+  "sources": {"lender": {"name": "Florida YIMBY, 7 Sep 2024", "date": "2024-09-07",
+    "url": "https://floridayimby.com/2024/09/developers-secure-527m-financing-for-st-regis-residences-miami-in-south-brickell.html"}},
+  "notes": "Corroborated by Bisnow, which reports TYKO Capital, backed by Elliott Investment Management, provided the construction debt.",
+  "quotes": {"lender": "The loan, provided by TYKO Capital, marks one of the largest residential construction loans in South Florida's history."}},
+
+ {"id": 1133, "name": "The Residences at 1428 Brickell",
+  "values": {"lender": "J.P. Morgan; Sculptor Real Estate", "height_ft": 861},
+  "sources": {
+    "lender": {"name": "Florida YIMBY, 4 Nov 2025", "date": "2025-11-04",
+      "url": "https://floridayimby.com/2025/11/ytech-secures-565-million-in-construction-financing-for-the-residences-at-1428-brickell.html"},
+    "height_ft": {"name": "Florida YIMBY, 28 Sep 2025", "date": "2025-09-28",
+      "url": "https://floridayimby.com/2025/09/foundation-pour-completed-for-the-residences-at-1428-brickell-in-miami.html"}},
+  "notes": "This resolves the row's earlier note that the lender's name was cut off in the sentence read. J.P. Morgan is senior lender and Sculptor Real Estate junior lender; JLL arranged it. The 861 ft is a stated full height, not an FAA pair.",
+  "quotes": {
+    "lender": "Ytech has secured $565 million in construction financing for The Residences at 1428 Brickell. Morgan is serving as the senior lender, with Sculptor Real Estate as the junior lender.",
+    "height_ft": "Standing 861 feet once built, The Residences at 1428 Brickell will introduce a new landmark silhouette to the Miami skyline."}},
+
+ {"id": 1182, "name": "JEM Miami Worldcenter", "values": {"lender": "BHI (Bank Hapoalim)"},
+  "sources": {"lender": {"name": "Commercial Observer, 25 Nov 2025", "date": "2025-11-25",
+    "url": "https://commercialobserver.com/2025/11/miami-florida-naftali-jem-condo-multifamily-nuveen-construction-finance/"}},
+  "notes": "Only the $230m BHI tranche is recorded. The other $235m of the $465m package is C-PACE debt from Nuveen Green Capital, which is not a construction lender under the field rule.",
+  "quotes": {"lender": "The new $465 million financing includes $235 million in C-PACE debt from Nuveen Green Capital, and $230 million in traditional construction loans from Bank Hapoalim (BHI)."}},
+
+ {"id": 1063, "name": "Baccarat Residences Miami", "values": {"lender": "Bank OZK"},
+  "sources": {"lender": {"name": "Commercial Observer, 29 Mar 2024", "date": "2024-03-29",
+    "url": "https://commercialobserver.com/2024/03/related-group-baccarat-residences-brickell-bank-ozk/"}},
+  "notes": "Identity confirmed against the row's address, developers, storey count and unit count.",
+  "quotes": {"lender": "Related Group and GTIS Partners scored $328 million from Bank OZK to build the uber-luxury Baccarat Residences in Miami's Brickell district."}},
+
+ {"id": 1107, "name": "LOFTY Brickell (One Brickell Riverfront)",
+  "values": {"lender": "Carlyle Group", "civil_engineer": "Kimley-Horn"},
+  "sources": {
+    "lender": {"name": "Commercial Observer, 1 Oct 2025", "date": "2025-10-01",
+      "url": "https://commercialobserver.com/2025/10/carlyle-miami-newgard-two-roads-brickell-housing-condos/"},
+    "civil_engineer": {"name": "Florida YIMBY, 30 Mar 2025", "date": "2025-03-30",
+      "url": "https://floridayimby.com/2025/03/construction-progress-advances-on-the-standard-residences-brickell-and-lofty-brickell.html"}},
+  "notes": "The $513m package covers both towers of One Brickell Riverfront rather than this one alone. Carlyle led with about $310m of senior financing; TCG Real Estate affiliates added $60m senior and 3650 Capital a $143m mezzanine loan, and only the senior lead is stored. Height is not recorded: the coverage gives 530 and 540 ft for the pair without saying which belongs to which tower.",
+  "quotes": {
+    "lender": "Carlyle Leads $513M Construction Package for Major Miami Development. Carlyle Group provided about $310 million in senior financing",
+    "civil_engineer": "Civil engineering services are being led by Kimley-Horn."}},
+
+ {"id": 1035, "name": "The Wynwood Plaza — office tower", "values": {"lender": "Bank OZK"},
+  "sources": {"lender": {"name": "Commercial Observer, 20 Jan 2023", "date": "2023-01-20",
+    "url": "https://commercialobserver.com/2023/01/ll-oak-row-wynwood-plaza-marcelo-claure-shorenstein-properties-bank-ozk/"}},
+  "notes": "The $215m loan covers the whole one-million-sq-ft Wynwood Plaza campus — this office tower plus the residential and retail components — rather than the office building alone. Bank OZK's construction debt was later retired by a Blue Owl Capital bridge loan, which is a refinancing and is not the construction lender.",
+  "quotes": {"lender": "L&L Holding Company and Oak Row Equities secured a $215 million construction loan from Bank OZK for The Wynwood Plaza"}},
+
+ {"id": 1005, "name": "One Brickell Tower II", "values": {"lender": "Truist Bank"},
+  "sources": {"lender": {"name": "Commercial Observer, 4 Jan 2023", "date": "2023-01-04",
+    "url": "https://commercialobserver.com/2023/01/related-group-444-brickell-tower-ii-baccarat/"}},
+  "notes": "The press calls this project 444 Brickell Tower II at 444 Brickell Avenue while the City permits it at 77 SE 5th Street; the row's owner of record, 444 BRICKELL TWO LLC, its developer and its 506-unit count all match, which is what ties them together. The article's 44 storeys against the row's 47 is not changed — the row's figures come from the City permit.",
+  "quotes": {"lender": "The loan from Truist Bank will go toward building a 44-story high-rise with 506 apartments called 444 Brickell Tower II"}},
+
+ {"id": 1219, "name": "Sense 22", "values": {"lender": "S3 Capital"},
+  "sources": {"lender": {"name": "Commercial Observer, 8 Jul 2026", "date": "2026-07-08",
+    "url": "https://commercialobserver.com/2026/07/s3-capital-miami-apartments/"}},
+  "notes": "An identity trap caught here: web searches attribute this $111m S3 Capital loan to Swire's Mandarin Oriental on Brickell Key. The article names Sense 22 at 114-138 NE 22nd Street with borrower HA Emprendimientos, which matches this row's address and developer, so it is recorded here and on neither Mandarin Oriental row.",
+  "quotes": {"lender": "S3 Capital provided the loan for the 36-story Sense 22 project. The developer has secured $111 million in construction financing."}},
+
+ {"id": 976, "name": "Okan Tower", "values": {"height_ft": 902},
+  "sources": {"height_ft": {"name": "Florida YIMBY, 9 Mar 2026", "date": "2026-03-09",
+    "url": "https://floridayimby.com/2026/03/construction-nears-50-story-mark-on-okan-tower-at-555-north-miami-avenue-in-downtown-miami.html"}},
+  "notes": "902 ft is the figure in the most recent coverage and recurs consistently. A 2022 FAA filing showed a reduction to 893 ft above ground, but that was a filing rather than a determination and later coverage returns to 902. The lender is deliberately not recorded: the only reported financing is a $200m C-PACE facility from Bayview PACE, which does not meet the construction-lender rule.",
+  "quotes": {"height_ft": "the 902-foot-tall, 70-story mixed-use skyscraper underway at 555 North Miami Avenue in Downtown Miami"}},
+
+ {"id": 1150, "name": "Aria Reserve Miami — North Tower",
+  "values": {"residential_units": 391, "height_ft": 649},
+  "sources": {
+    "height_ft": {"name": "Florida YIMBY, 23 Mar 2025", "date": "2025-03-23",
+      "url": "https://floridayimby.com/2025/03/aria-reserve-north-tower-surpasses-halfway-mark-in-edgewater-miami.html"},
+    "residential_units": {"name": "Florida YIMBY, 23 Mar 2025", "date": "2025-03-23",
+      "url": "https://floridayimby.com/2025/03/aria-reserve-north-tower-surpasses-halfway-mark-in-edgewater-miami.html"}},
+  "notes": "This resolves the row's earlier note that only a combined 782-condominium figure existed for the twin towers. Caveat worth keeping: 383 in the South Tower plus 391 here is 774, not 782, so the published per-tower and combined figures do not fully reconcile.",
+  "quotes": {
+    "height_ft": "the waterfront high-rise is planned to rise 62 stories and reach approximately 649 feet, yielding 391 condominium residences.",
+    "residential_units": "the waterfront high-rise is planned to rise 62 stories and reach approximately 649 feet, yielding 391 condominium residences."}},
+
+ {"id": 1052, "name": "Aria Reserve Miami — South Tower", "values": {"residential_units": 383},
+  "sources": {"residential_units": {"name": "Florida YIMBY, 17 Nov 2021", "date": "2021-11-17",
+    "url": "https://floridayimby.com/2021/11/aria-reserve-south-tower-scheduled-for-groundbreaking-in-early-2022-after-melo-group-sells-60-of-units-in-under-6-months.html"}},
+  "notes": "Restated in December 2021 permit coverage. Caveat: 383 here plus 391 in the North Tower is 774, not the 782 combined figure published elsewhere, so the numbers do not fully reconcile.",
+  "quotes": {"residential_units": "The south tower at Aria Reserve will offer 383 residences, including flawlessly finished units with one through four-bedroom floor plans."}}
+]

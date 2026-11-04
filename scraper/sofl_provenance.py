@@ -44,7 +44,13 @@ CITIES = ("Miami", "Miami Beach", "West Palm Beach", "Coral Gables", "Doral")
 # report rather than being quietly tiered.
 GOV_MARKERS = ("City of Miami building permit", "Miami-Dade property boundary",
                "City of Doral", "City of Miami Beach", "property appraiser",
-               "neighborhoods layer")
+               "neighborhoods layer",
+               # Added once research started citing primary municipal records
+               # directly: council resolutions name the firm that prepared a
+               # plan set, and county legislative items name a contract award.
+               "Resolution", "legislative item", "Miami-Dade County",
+               "City of West Palm Beach", "City of Coral Gables", "agenda",
+               "development order", "permit record")
 PRESS_MARKERS = ("Florida YIMBY", "The Real Deal", "Coral Gables Gazette",
                  "Commercial Observer", "Bisnow", "South Florida Business Journal",
                  "ENR")

@@ -1,0 +1,112 @@
+[
+ {"id": 1261, "name": "Atrium",
+  "values": {"developer": "Terra", "architect": "RSP Architects", "contractor": "Grycon"},
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 5 Oct 2023", "date": "2023-10-05",
+                  "url": "https://floridayimby.com/2023/10/terra-completes-construction-on-78000-square-foot-retail-complex-doral-atrium.html"},
+    "architect": {"name": "Florida YIMBY, 5 Oct 2023", "date": "2023-10-05",
+                  "url": "https://floridayimby.com/2023/10/terra-completes-construction-on-78000-square-foot-retail-complex-doral-atrium.html"},
+    "contractor": {"name": "Florida YIMBY, 5 Oct 2023", "date": "2023-10-05",
+                   "url": "https://floridayimby.com/2023/10/terra-completes-construction-on-78000-square-foot-retail-complex-doral-atrium.html"}},
+  "notes": "Identity confirmed on an exact address match: 7905 and 7901 NW 36th Street and 3900 NW 79th Avenue. The source does not use the word 'developer' for Terra; it says Terra finalised construction on the project, which is the development act, and that is why it is recorded. RSP Architects is named as design architect with no separate architect of record anywhere. The City's record holds a later, larger leasable area (79,466 sq ft against the 78,000 built), so this row is a modification of the same centre.",
+  "quotes": {
+    "developer": "Terra has finalized construction on Doral Atrium, a 78,000-square-foot retail space in the City of Doral.",
+    "architect": "The design of Doral Atrium, overseen by RSP Architects, is characterized by three distinct volumes that incorporate vertical circulation nodes into rooftop parking.",
+    "contractor": "Grycon served as the general contractor, alongside C&C Concrete Pumping as the concrete contractor, and Central Concrete Supermix provided concrete building materials."}},
+
+ {"id": 1255, "name": "Doral Central Park",
+  "values": {"architect": "Bermello Ajamil & Partners", "contractor": "Kaufman Lynn Construction"},
+  "sources": {
+    "architect": {"name": "City of Doral, 28 Aug 2024", "date": "2024-08-28",
+                  "url": "https://www.cityofdoral.com/News-articles/City-of-Doral-Inaugurates-First-Half-of-Doral-Central-Park"},
+    "contractor": {"name": "City of Doral, 28 Aug 2024", "date": "2024-08-28",
+                   "url": "https://www.cityofdoral.com/News-articles/City-of-Doral-Inaugurates-First-Half-of-Doral-Central-Park"}},
+  "notes": "A government source: the City of Doral's own news page, which states both roles in one sentence. The City is the owner and sponsor, so no third-party developer exists to record. The first half of the park was inaugurated in August 2024; the project is not recorded as complete because only half was delivered.",
+  "quotes": {
+    "architect": "This great milestone was celebrated with the community, alongside project contractor, Kaufman Lynn Construction, and architect, Bermello Ajamil & Partners, and several local community leaders.",
+    "contractor": "This great milestone was celebrated with the community, alongside project contractor, Kaufman Lynn Construction, and architect, Bermello Ajamil & Partners, and several local community leaders."}},
+
+ {"id": 1260, "name": "Doral Gateway Garage",
+  "values": {"architect": "Pascual, Perez, Kiliddjian, Starr & Associates"},
+  "sources": {
+    "architect": {"name": "Florida YIMBY, 9 Oct 2024", "date": "2024-10-09",
+                  "url": "https://floridayimby.com/2024/10/banyan-street-capital-requests-modification-for-8750-n-w-36th-street-and-3787-n-w-87th-ave-doral-florida.html"}},
+  "notes": "Identity is partial: the article covers the Gateway modification at 8750 NW 36th Street, which matches the City's record exactly, and at 3787 NW 87th Avenue, where the City's record says 3750. The modification expressly includes expanding the property's parking garage, which is what this row is. No developer is recorded: the article's only ownership sentence is an acquisition by Centrum Doral Owner LLC, and Banyan Street Capital appears only as an affiliate seeking the modification, neither of which states a development role.",
+  "quotes": {
+    "architect": "Pascual, Perez, Kiliddjian, Starr & Associates is the project's architect."}},
+
+ {"id": 1264, "name": "Doral City Place 7",
+  "values": {"developer": "Lincoln Property Company", "architect": "MSA Architects",
+             "contractor": "Coastal Construction", "stories": 8},
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 19 Sep 2023", "date": "2023-09-19",
+                  "url": "https://floridayimby.com/2023/09/construction-tops-out-on-doral-city-place-7-mixed-use-project-at-8450-nw-85th-court-in-doral.html"},
+    "architect": {"name": "Florida YIMBY, 19 Sep 2023", "date": "2023-09-19",
+                  "url": "https://floridayimby.com/2023/09/construction-tops-out-on-doral-city-place-7-mixed-use-project-at-8450-nw-85th-court-in-doral.html"},
+    "contractor": {"name": "Florida YIMBY, 19 Sep 2023", "date": "2023-09-19",
+                   "url": "https://floridayimby.com/2023/09/construction-tops-out-on-doral-city-place-7-mixed-use-project-at-8450-nw-85th-court-in-doral.html"},
+    "stories": {"name": "Florida YIMBY, 19 Sep 2023", "date": "2023-09-19",
+                "url": "https://floridayimby.com/2023/09/construction-tops-out-on-doral-city-place-7-mixed-use-project-at-8450-nw-85th-court-in-doral.html"}},
+  "notes": "Identity is firm: 391 units and eight storeys match the City's record exactly, and the article body gives 3450 NW 85th Court, which also matches, though its own headline says 8450. The lender is deliberately NOT recorded: Santander Bank is named as administrative agent for a consortium of lenders, which is not the same claim as being the construction lender, and the sentence naming it does not describe the facility as construction financing. Construction topped out in September 2023. Interiors by One Line Design Studio.",
+  "quotes": {
+    "developer": "Designed by MSA Architects with interiors by One Line Design Studio and developed by Lincoln Property Company, the mixed-use development will consist of 391 apartment units within an eight-story residential tower.",
+    "architect": "Designed by MSA Architects with interiors by One Line Design Studio and developed by Lincoln Property Company, the mixed-use development will consist of 391 apartment units within an eight-story residential tower.",
+    "contractor": "Coastal Construction has topped off construction on Doral City Place 7, a state-of-the-art commercial and residential complex located at 3450 Northwest 85th Court in the City of Doral.",
+    "stories": "developed by Lincoln Property Company, the mixed-use development will consist of 391 apartment units within an eight-story residential tower"}},
+
+ {"id": 1271, "name": "Doral Marketplace (Bridge Point Retail)",
+  "values": {"developer": "SJC Ventures", "lender": "Deutsche Bank"},
+  "sources": {
+    "developer": {"name": "Commercial Observer, 31 Jul 2024", "date": "2024-07-31",
+                  "url": "https://commercialobserver.com/2024/07/deutsche-bank-whole-foods-sjc-ventures/"},
+    "lender": {"name": "Commercial Observer, 31 Jul 2024", "date": "2024-07-31",
+               "url": "https://commercialobserver.com/2024/07/deutsche-bank-whole-foods-sjc-ventures/"}},
+  "notes": "The City's record gives no address for this row, so identity rests on the programme: six buildings of roughly 86,000 to 89,000 sq ft anchored by a major grocer, at the south-west corner of NW 107th Avenue and NW 41st Street, on the parcel sold out of Bridge Industrial's holding — which is where the City's 'Bridge Point Retail' alias comes from. The anchor is Whole Foods. Nuveen Real Estate is SJC's equity partner and is not recorded as a developer. Kimley-Horn designed the site plans, which is a civil role stated without the words 'civil engineer', so it is noted rather than recorded.",
+  "quotes": {
+    "developer": "Just days after closing on the site, SJC Ventures secured $69.4 million from Deutsche Bank to build a retail center in Doral, Fla., that will be anchored by Whole Foods, according to CBRE, which represented the borrower.",
+    "lender": "Just days after closing on the site, SJC Ventures secured $69.4 million from Deutsche Bank to build a retail center in Doral, Fla., that will be anchored by Whole Foods, according to CBRE, which represented the borrower."}},
+
+ {"id": 1287, "name": "Doral International Towers (Trump)",
+  "values": {"developer": "The Trump Organization",
+             "architect": "Pascual, Perez, Kiliddjian, Starr Architects + Planners",
+             "stories": 20},
+  "sources": {
+    "developer": {"name": "Bisnow, 15 Jan 2025", "date": "2025-01-15",
+                  "url": "https://www.bisnow.com/south-florida/news/construction-development/donald-trump-doral-international-towers-gain-final-approval-127576"},
+    "architect": {"name": "Commercial Observer, 16 Jan 2025", "date": "2025-01-16",
+                  "url": "https://commercialobserver.com/2025/01/trump-organization-doral-golf-resort/"},
+    "stories": {"name": "City of Doral Resolution No. 25-36", "date": "2025-01-15",
+                "url": "https://www.cityofdoral.com/files/assets/city/v/1/city-hall/city-clerk/resolutions-archived/2025/res.-no.-25-36-doral-international-towers-site-plan.pdf"}},
+  "notes": "The architect is corroborated by the primary record: City of Doral Resolution 25-36 requires the project to be built in substantial compliance with plans prepared by Pascual Perez Kiliddjian Starr. Trump Endeavor 12 LLC is the applicant entity and is deliberately NOT used to derive the developer, which would be inferring from an LLC name; The Trump Organization is recorded on Bisnow's explicit role statement instead. The resolution carries an internal typo giving the property as 9300 NW 13th Street in one section while its title and recitals correctly say 4400 NW 87th Avenue, folio 35-3028-029-0010, which matches the City's record. Landscape plan by Landscape Design Workshop.",
+  "quotes": {
+    "developer": "The Doral City Council voted unanimously Wednesday night to approve The Trump Organization's plan to develop 1,498 units across four 20-story towers",
+    "architect": "designed by Pascual, Pérez, Kiliddjian, Starr Architects + Planners",
+    "stories": "The proposed site plan comprises of four 20-story towers with 1,498 residential units, along with 470 hotel units, and 141,694 square feet of new commercial space."}},
+
+ {"id": 1289, "name": "Bridge Point Doral 826",
+  "values": {"civil_engineer": "Langan Engineering and Environmental Services"},
+  "sources": {
+    "civil_engineer": {"name": "City of Doral Resolution No. 25-235", "date": "2025-07-01",
+                       "url": "https://www.cityofdoral.com/files/assets/city/v/2/city-hall/city-clerk/resolutions-archived/2025/res.-no.-25-235-bp-doral-826-fl-llc-site-plan.pdf"}},
+  "notes": "Civil engineer is recorded on a qualified basis: the City's resolution says the site plan set was prepared by Langan Engineering and Environmental Services and does not use the words 'civil engineer'. In Florida a site plan set is sealed by the engineer of record, and Langan is an engineering firm, which is why it is recorded here — but it is an inference about the role, not a quoted role. The applicant is BP Doral 826 FL, LLC at 7705, 7775 and 7785 NW 48th Street, two warehouses of about 284,713 sq ft on 15.7 acres. The Associated Bank facility is not recorded as the lender because the sentence naming it does not describe it as construction financing. An architect attribution to Arcadis exists in coverage that could not be fetched for a verbatim quote, and 'design firm' does not distinguish architect from engineer, so it is not recorded.",
+  "quotes": {
+    "civil_engineer": "The Project shall be built in substantial compliance with the plans entitled \"Bridge SR 826 Doral/ BP Doral Site Plan Set – Phase I\" and \"Bridge SR 826 Doral/ BP Doral Site Plan Set – Phase II\", prepared by Langan Engineering and Environmental Services, LLC, dated stamped received June 24, 2025."}},
+
+ {"id": 1290, "name": "Downtown Doral Parking Garages & Retail Expansion",
+  "values": {"developer": "Codina Partners"},
+  "sources": {
+    "developer": {"name": "Commercial Observer, 13 May 2025", "date": "2025-05-13",
+                  "url": "https://commercialobserver.com/2025/05/codina-downtown-doral-south-florida-construction-finance/"}},
+  "notes": "Codina Partners is recorded as developer because it is the sponsor of the whole 250-acre Downtown Doral master development, of which this is one of the final phases — that holds regardless of which parcel the cited loan covers. The $38.8m Ocean Bank construction loan in the same article is deliberately NOT recorded as this row's lender: the article locates its two sites at the NW 87th Avenue corners of NW 53rd Terrace and NW 53rd Street with 11,243 and 13,644 sq ft of retail, while the City's record for this row gives 8600 and 5601 NW 52nd Street with 10,967 and 13,454 sq ft. The pairing is close enough to be the same phase and not close enough to attach a specific facility to this parcel.",
+  "quotes": {
+    "developer": "Armando Codina's Codina Partners secured a $38.8 million construction loan from Ocean Bank for a retail expansion in one of the final phases of the 250-acre Downtown Doral master development, property records show."}},
+
+ {"id": 1307, "name": "Hotel at NW 53 Terrace and Paseo Boulevard",
+  "values": {"developer": "Codina Partners; MICL Global"},
+  "sources": {
+    "developer": {"name": "Florida YIMBY, 5 Jul 2026", "date": "2026-07-05",
+                  "url": "https://floridayimby.com/2026/07/partnership-plans-eight-story-hotel-for-northwest-53rd-terrace-and-paseo-boulevard-doral-florida.html"}},
+  "notes": "This fills the gap left when the project was first recorded: the article that described the applicants only as a US and an India-based partnership does name them further down. JMZ Group is the land-use agent, not a developer.",
+  "quotes": {
+    "developer": "Coral Gables-based Codina Partners and MICL Global are the two developers."}}
+]
