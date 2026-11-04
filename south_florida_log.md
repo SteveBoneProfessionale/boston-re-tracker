@@ -57,19 +57,21 @@ permitted and still not development projects.
 
 **Field fill (313 projects):** asset class 313, status 313, parcel folio 311,
 total sq ft 310, general contractor 309, neighbourhood 307, owner of record 287,
-developer 22, stories 22, architect 21, residential units 16, height 15,
-lender 5, civil engineer 0.
+named rather than addressed 65, architect 57, developer 56, stories 54,
+residential units 37, height 24, lender 7, civil engineer 0.
 
 The shape of that is the point: a building permit carries the contractor, the
 folio, the permitted area, the cost, the use, the status and the certificate of
-occupancy, and it carries **no unit count, no height, no developer and no
-architect** — there are no such fields. Those four are filled only where a
-named source states them, which in this run means the top of the pipeline by
-construction cost plus the acceptance-list projects: 20 projects researched in
-`data/sofl/miami_overlay.json`. For the remaining 291, the owner of record from
-the county parcel layer is in `owner_or_agency` (287 of them) and developer
-reads "not found", because the owner is usually a single-purpose LLC and Sunbiz
-refuses automated requests.
+occupancy, and it carries **no project name, no unit count, no height, no
+developer and no architect** — there are no such fields. Those are filled only
+where a named source states them, which after three research passes means 61
+projects researched in `data/sofl/miami_overlay.json`, weighted to the top of
+the pipeline by floor area: **all twenty of the largest Miami projects now
+carry both a developer and an architect, and 27 of the top 30.** For the
+remainder — small permit rows, mostly under 100,000 sq ft — the owner of record
+from the county parcel layer is in `owner_or_agency` (287 of them) and
+developer reads "not found", because the owner is usually a single-purpose LLC
+and Sunbiz refuses automated requests.
 
 The property appraiser is used **only** for the owner of record, never for
 units or floor area: it describes the building that is standing, which on a
@@ -488,9 +490,40 @@ Three further cases worth knowing:
   coverage is attached to none of them: that article is about an eight-storey
   administration building, and 724,470 sq ft does not reconcile with one.
 
-Still unresolved at size: 830 Brickell Plaza (1.08m sq ft), 46 NE 6 St
-(1.08m sq ft), and a developer for LOFTY Brickell (854k sq ft) — no article on
-the acceptable-source list names them.
+## Third Miami pass — the last six of the top twenty
+
+After the address pass, six of the twenty largest Miami projects still had no
+developer or architect. All six were found by searching the project NAME, which
+only became possible once the address pass had named enough of the market for
+the names to be guessable. Each now rests on a sentence that states a role —
+"developed by", "designed by", "is listed as the architect" — not on a list of
+firms. Written by `scraper/sofl_miami_batch4.py`:
+
+| project | sq ft | resolved to |
+|---|---|---|
+| Miami Freedom Park — park | 1,372,696 | Miami Freedom Park, LLC / Arquitectonica |
+| 830 Brickell Plaza | 1,082,368 | Cain; OKO Group / Adrian Smith + Gordon Gill |
+| 46 NE 6 St → **Downtown 6** | 1,081,913 | Melo Group / G3aec |
+| Natiivo Miami | 1,073,159 | Sixth Street Miami Partners / Arquitectonica |
+| Miami Freedom Park — stadium | 920,470 | Miami Freedom Park, LLC / Arquitectonica |
+| LOFTY Brickell | 853,887 | Newgard Development Group / Arquitectonica |
+
+Downtown 6 is the one worth singling out: its 2023 Urban Development Review
+Board article states 1,081,913 sq ft, which matches the City's permit figure to
+the square foot. That is what makes the identification firm rather than
+plausible, and it also supplied the height (576 ft), the commercial area and
+the parking count. Its storey count rose through the filings — 54 at approval,
+58 in 2025, 60 on topping out — and the latest is stored.
+
+Natiivo had been left deliberately blank in the second pass because the article
+read then listed seven firms as "major players" without roles. Two earlier
+articles state the roles outright, so it is now filled; the blank was the right
+call on the evidence available, and the fix was finding better evidence rather
+than relaxing the rule.
+
+Three of these required the architect-of-record rule: Downtown 6 (Melo
+Architecture designing, G3aec of record), 830 Brickell (Adrian Smith + Gordon
+Gill with Revuelta alongside) and Forma Miami from the previous pass.
 
 ## Basemap replaced (4 November 2026)
 
@@ -516,9 +549,9 @@ same watermark.
   are the projects whose address did not match the county parcel index, plus
   the seven that publish no street address at all. The table and all charts
   carry them; only the map drops them.
-- **Miami developer/architect coverage is 49 and 50 of 313** after the second
-  research pass below. The remainder are small permit rows; of the twenty
-  largest projects by floor area, fifteen now carry both.
+- **Miami developer/architect coverage is 56 and 57 of 313** after the second
+  and third research passes below. The remainder are small permit rows; all twenty
+  of the largest projects by floor area now carry both, and 27 of the top 30.
 - **West Palm Beach PPRC agendas are reachable but unread** — see the West Palm
   Beach section.
 - **The Nora Hotel** needs its status re-checked; its last acceptable-source
