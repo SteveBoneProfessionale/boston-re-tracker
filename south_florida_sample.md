@@ -66,17 +66,19 @@ Ten projects per city, drawn at random with a fixed seed so the selection is rep
 - **Sources (9 field citations, 1 distinct):**
     - City of Miami building permit BD22016256001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22016256001B001%27&outFields=*&f=pjson
 
-### 2200 BRICKELL AV
+### 2200 Brickell
 - **Address:** 2200 BRICKELL AV
 - **Parcel id:** 0141390010820
 - **Status:** Complete
 - **Asset class:** Condo   **Neighbourhood:** Miami Avenue
-- Developer: not found   |   Architect: not found   |   General contractor: Ortega Construction Company   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 358072
+- Developer: Aria Development Group; Largo; Place Projects   |   Architect: Revuelta Architecture International   |   General contractor: Ortega Construction Company   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 103   |   Height: not found   |   Stories: 5   |   Total sq ft: 358072
 - **Completion basis:** co_issued  (2026-10-22)
-- **Sources (10 field citations, 2 distinct):**
+- **Sources (14 field citations, 3 distinct):**
     - City of Miami building permit BD22029916001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22029916001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 2026-07-28 — https://floridayimby.com/2026/07/2200-brickell-receives-temporary-certificate-of-occupancy-in-miamis-brickell-neighborhood.html
     - Miami-Dade property boundary record, folio 0141390010820 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270141390010820%27&outFields=*&f=pjson
+- *Note:* Interiors by ODA. Received a temporary certificate of occupancy in July 2026.
 
 ### 725 NE 1 AV
 - **Address:** 725 NE 1 AV
@@ -90,29 +92,33 @@ Ten projects per city, drawn at random with a fixed seed so the selection is rep
     - City of Miami building permit BD23002346001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23002346001B001%27&outFields=*&f=pjson
     - Miami-Dade property boundary record, folio 0131370360014 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131370360014%27&outFields=*&f=pjson
 
-### 1 ISLAND DR
-- **Address:** 1 ISLAND DR
+### The Residences at Mandarin Oriental, Miami — tower at 1 Island Drive
+- **Address:** 1 ISLAND DR  (also 500 Brickell Key Dr, 750 Claughton Island Dr)
 - **Parcel id:** 0142070030020
 - **Status:** Under Construction
 - **Asset class:** Condo   **Neighbourhood:** not found
-- Developer: not found   |   Architect: not found   |   General contractor: Moss & Associates LLC   |   Civil engineer: not found   |   Lender: not found
+- Developer: Swire Properties   |   Architect: Kohn Pedersen Fox   |   General contractor: Moss & Associates LLC   |   Civil engineer: not found   |   Lender: not found
 - Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 1351367
 - **Completion basis:** permit_active
-- **Sources (8 field citations, 2 distinct):**
+- **Sources (10 field citations, 3 distinct):**
     - City of Miami building permit BD23028760001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23028760001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 6 Oct 2026 — https://floridayimby.com/2026/10/swire-properties-breaks-ground-on-the-residences-at-mandarin-oriental-miami-on-brickell-key.html
     - Miami-Dade property boundary record, folio 0142070030020 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270142070030020%27&outFields=*&f=pjson
+- *Note:* Part of The Residences at Mandarin Oriental, Miami, a two-tower residential and hotel development Swire Properties broke ground on in October 2026, with completion scheduled for 2030. The coverage gives the site as 500 Brickell Key Drive and 750 Claughton Island Drive and describes a 66-storey South Tower of 850 ft and a 33-storey North Tower of 426 ft, but does not say which tower corresponds to the City's 1 Island 
 
-### 1129 NW 1 CT
+### One West Twelve Residences
 - **Address:** 1129 NW 1 CT
 - **Parcel id:** 0131360091840
 - **Status:** Under Construction
 - **Asset class:** Mixed-Use   **Neighbourhood:** Southeast Overtown
-- Developer: not found   |   Architect: not found   |   General contractor: JOHN MORIARTY AND ASSOCIATES OF FLORIDA INC   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 484560
+- Developer: PMG; Lion Development Group; LNDMRK Development   |   Architect: not found   |   General contractor: JOHN MORIARTY AND ASSOCIATES OF FLORIDA INC   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 372   |   Height: not found   |   Stories: 23   |   Total sq ft: 484560
 - **Completion basis:** permit_active
-- **Sources (9 field citations, 2 distinct):**
+- **Sources (14 field citations, 3 distinct):**
     - City of Miami building permit BD24018702001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24018702001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 2024-12-20 — https://floridayimby.com/2024/12/one-west-twelve-residences-slated-for-1129-nw-1st-ct-miami-fl-33136.html
     - Miami-Dade property boundary record, folio 0131360091840 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131360091840%27&outFields=*&f=pjson
+- *Note:* Also known as ONE W12. 819 parking spaces over eight floors and 4,892 sq ft of retail.
 
 ### 1395 SW 22 ST
 - **Address:** 1395 SW 22 ST

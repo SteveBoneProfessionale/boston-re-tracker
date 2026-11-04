@@ -427,6 +427,71 @@ database turned up two things the data looked fine without:
    one rests on a single named source, so none can claim the two-independent-
    sources tier.
 
+## Second Miami research pass — the address matcher was the bottleneck
+
+The first pass searched the top 34 Miami projects by construction cost and
+reported coverage for 16 of them. That was wrong about the market, not about
+the market's coverage: the press writes about all of these buildings, and the
+matcher could not find them. It required the permit's address string to appear
+verbatim in a cue sentence, and almost no article writes an address that way.
+
+| the permit says | the press writes |
+|---|---|
+| `1401 BRICKELL AV` | "1401 Brickell" — no suffix |
+| `90 NE 11 ST` | "E11EVEN Club Residences" — a name, no address |
+| `249 NE 3 ST` | "300 Biscayne Boulevard" — the other frontage |
+| `1 ISLAND DR` | "500 Brickell Key Drive", "on Brickell Key" |
+| `555 N MIAMI AV` | "555 North Miami Avenue" — direction spelled out |
+| `46 NE 6 ST` | "Northeast 6th Street" — ordinal added |
+
+`scraper/sofl_address_match.py` now matches by pattern over the whole article:
+street number, optional direction in either spelling, street name with an
+optional ordinal. The number is anchored on both sides, so 1410 Brickell never
+matches 1401 Brickell — that would silently attach the wrong developer to a
+tower. Re-run over every Miami project of 100,000 sq ft or more that still had
+no developer, it matched 67 of 94 against 16 of 34 before.
+
+**Selection matters as much as matching.** The first version of the re-run
+took the most recent article whose body matched, and gave 1401 Brickell a
+*Mohawk at Wynwood* story that mentioned the address in passing. Candidates are
+now ranked title-match first, which puts "50-Story 1401 Brickell By Santander
+Breaks Ground In Miami" ahead of it.
+
+Results, written to `data/sofl/miami_overlay.json` by
+`scraper/sofl_miami_batch2.py` and `sofl_miami_batch3.py`:
+
+| field | before | after |
+|---|---|---|
+| developer | 22 | 49 |
+| architect | 21 | 50 |
+| storeys | 22 | 52 |
+| residential units | 16 | 35 |
+| height | 15 | 22 |
+| lender | 5 | 7 |
+| projects with a real name rather than an address | 19 | 63 |
+
+**What was deliberately not recorded.** Only values stated with a role are
+stored. Where an article lists firms together as a "development team" or
+"major players" without saying which is which, nothing is read off it — Natiivo
+Miami and Fourteen Allapattah are both in that position and say so on the row.
+Three further cases worth knowing:
+
+- *7140 NE Miami Court* is a self-storage proposal, and its article also covers
+  an unrelated three-tower, 1,292-apartment scheme. That unit count is not
+  stored here.
+- *The Residences at Mandarin Oriental, Miami* is two towers, and the coverage
+  does not say which is the City's 1 Island Drive and which 2 Island Drive. The
+  developer, architect and contractor are shared and are recorded on both; the
+  storey counts and heights are not, because assigning them would be a guess.
+- *Miami Freedom Park* has three permit rows (stadium, park, commercial). They
+  are named, but the Adler Development / Arquitectonica / Moss team from the
+  coverage is attached to none of them: that article is about an eight-storey
+  administration building, and 724,470 sq ft does not reconcile with one.
+
+Still unresolved at size: 830 Brickell Plaza (1.08m sq ft), 46 NE 6 St
+(1.08m sq ft), and a developer for LOFTY Brickell (854k sq ft) — no article on
+the acceptable-source list names them.
+
 ## Basemap replaced (4 November 2026)
 
 The map's tiles were folium's built-in `"CartoDB dark_matter"` shorthand, which
@@ -451,8 +516,9 @@ same watermark.
   are the projects whose address did not match the county parcel index, plus
   the seven that publish no street address at all. The table and all charts
   carry them; only the map drops them.
-- **Miami developer/architect coverage is 22 and 21 of 313.** Deepening it is a
-  research pass per project, not a code change.
+- **Miami developer/architect coverage is 49 and 50 of 313** after the second
+  research pass below. The remainder are small permit rows; of the twenty
+  largest projects by floor area, fifteen now carry both.
 - **West Palm Beach PPRC agendas are reachable but unread** — see the West Palm
   Beach section.
 - **The Nora Hotel** needs its status re-checked; its last acceptable-source
