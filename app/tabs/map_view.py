@@ -249,11 +249,40 @@ def render(df: pd.DataFrame):
     )
 
     # ── Map ────────────────────────────────────────────────────────
-    m = folium.Map(
-        location=[42.3277, -71.0700],
-        zoom_start=12,
-        tiles="CartoDB dark_matter",
-    )
+    # BASEMAP: Esri's Dark Gray Canvas, not Carto.
+    #
+    # This was folium's built-in "CartoDB dark_matter" shorthand, which points
+    # at basemaps.cartocdn.com. Carto now requires an API key there and -- the
+    # part that made this hard to notice -- it does NOT fail. It answers 200
+    # with a valid PNG that is the same 2,513 bytes for downtown Miami as for
+    # open ocean, because every tile is the words "API KEY REQUIRED" on a dark
+    # ground. So the map still drew, still took markers, still fit its bounds,
+    # and every tile behind the pins was a watermark.
+    #
+    # Esri's Canvas/World_Dark_Gray_Base serves the same cartography keyless,
+    # which is checkable the way Carto's no longer is: a downtown tile comes
+    # back at 12KB and an ocean tile at 2KB. Labels live in a separate
+    # transparent overlay, so both are added -- base first, then reference, so
+    # place names sit above the ground but below the markers, which Leaflet
+    # keeps in their own pane.
+    m = folium.Map(location=[42.3277, -71.0700], zoom_start=12, tiles=None)
+    folium.TileLayer(
+        tiles=("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/"
+               "World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"),
+        attr="Esri, HERE, Garmin, &copy; OpenStreetMap contributors",
+        name="Dark Gray Canvas",
+        max_zoom=16,
+        control=False,
+    ).add_to(m)
+    folium.TileLayer(
+        tiles=("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/"
+               "World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}"),
+        attr="Esri",
+        name="Place names",
+        max_zoom=16,
+        overlay=True,
+        control=False,
+    ).add_to(m)
 
     added = 0
     bounds = []
