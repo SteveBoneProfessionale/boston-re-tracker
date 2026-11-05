@@ -1,0 +1,78 @@
+[
+ {"id": 1185, "name": "Miami Freedom Park — stadium",
+  "values": {"lender": "J.P. Morgan Chase"},
+  "sources": {"lender": {"name": "Commercial Observer, 30 Apr 2025", "date": "2025-04-30",
+    "url": "https://commercialobserver.com/2025/04/lionel-messi-inter-miami-freedom-park-j-p-morgan-chase/"}},
+  "notes": "CONSTRUCTION LENDER: a five-year $450m SENIOR CONSTRUCTION LOAN for the stadium, inside a $650m package from J.P. Morgan Chase. REJECTED from the same package: the remaining $200m senior term loan and revolver, which refinances existing club debt and funds operations. ALSO REJECTED: Ares Management's $150m of 2021 and a further $75m of early-works money, both preferred equity rather than debt. The source gives the stadium address as 1400 NW 37th Avenue against this row's 1000 Stadium Dr, which are the same Miami Freedom Park site — the row's own master permit BD23030080001B001 is addressed 1000 Stadium Dr with work items including STADIUM.",
+  "quotes": {"lender": "Lionel Messi's Inter Miami CF secured a $650 million financing package from J.P. Morgan Chase to complete the construction of its soccer stadium. The financing package includes a five-year, $450 million senior construction loan for the stadium, according to a source with knowledge of the transaction."}},
+
+ {"id": 1009, "name": "Miami World Tower 1",
+  "values": {"lender": "Bank of New York Mellon"},
+  "sources": {"lender": {"name": "Commercial Observer, 29 Jun 2022", "date": "2022-06-29",
+    "url": "https://commercialobserver.com/2022/06/lalezarian-miami-worldcenter-tower-bank-of-new-york-mellon/"}},
+  "notes": "CONSTRUCTION LENDER: a $150m construction loan from Bank of New York Mellon to MWT 1 LLC, a Lalezarian Properties entity, for the Miami Worldcenter tower. One facility, no mezzanine or junior tranche reported. The lender is named in the sentence immediately before the construction-loan sentence, so both are quoted continuously. REJECTED: an earlier $23m mortgage from the same bank, which was the LAND loan. ALSO REJECTED: an alleged $181m from Bank OZK that circulates in search results — no acceptable source supports it, and Bank OZK's Worldcenter lending was to The Crosby, a different project. The source gives the address as 700 NE 1st Avenue against this row's 710 NE 1 AV, the same tower and parcel.",
+  "quotes": {"lender": "New York-based Lalezarian bought the 1.9-acre vacant parcel for $43 million in 2019 and shortly thereafter landed a $23 million mortgage from Bank of New York Mellon, per records. The lender also provided the $150 million construction loan."}},
+
+ {"id": 1202, "name": "One West Twelve Residences",
+  "values": {"lender": "Maxim Capital Group"},
+  "sources": {"lender": {"name": "Commercial Observer, 16 Dec 2025", "date": "2025-12-16",
+    "url": "https://commercialobserver.com/2025/12/pmg-one-west-twelve-residences-overtown-miami/"}},
+  "notes": "CONSTRUCTION LENDER: a $92.5m construction loan from Maxim Capital Group for the 372-unit, 23-storey Overtown condominium by PMG, Lion Development Group and LNDMRK Development. No mezzanine or junior piece reported. IDENTITY CONFIRMED THREE WAYS despite the address differing — the source gives 113 NW 11th Terrace against this row's 1129 NW 1 CT, but the row independently holds 372 units, 23 storeys and John Moriarty & Associates as contractor, all three of which the source states.",
+  "quotes": {"lender": "The construction financing from Maxim Capital Group will fund the 372-unit One West Twelve Residences."}},
+
+ {"id": 1154, "name": "Domus Brickell Park",
+  "values": {"lender": "Forman Capital"},
+  "sources": {"lender": {"name": "Florida YIMBY, Apr 2024", "date": "2024-04-01",
+    "url": "https://floridayimby.com/2024/04/forman-capital-funds-54-56-million-construction-loan-for-condominium-hotel-development-in-miamis-financial-district.html"}},
+  "notes": "CONSTRUCTION LENDER: Forman Capital, a $54.56m construction loan closed 22 March 2024. The total facility was $70m and Core Capital supplied the balance as MEZZANINE financing, which is excluded by kind, so only the senior lender is recorded. Identity confirmed by the source matching this row on all of storeys, units, project name and developer: a 12-storey, 172-unit Domus Brickell Park by North Development. REJECTED: the $220m C-PACE facility that circulates in search results, which belongs to Domus Brickell CENTRE, a different North Development project. That the $70m loan was later paid off does not change who the construction lender was.",
+  "quotes": {"lender": "Forman Capital, a private direct real estate lender based in Palm Beach County, Florida, provided a $54.56 million construction loan to the developer of a condominium-hotel project in Miami's Brickell Financial District. The 12-story, 172-unit Domus Brickell Park, designed by Zyscovich Architects with Urban Robot Associates as the interior designer, will bring a new condo-hotel brand, Domus FLATS (Flexible Apartments for Temporary Stays), to the market and fill a void for flexible ownership product."}},
+
+ {"id": 1349, "name": "Alba Palm Beach",
+  "values": {"lender": "Trez Capital"},
+  "sources": {"lender": {"name": "Commercial Observer, 22 Apr 2022", "date": "2022-04-22",
+    "url": "https://commercialobserver.com/2022/04/alba-palm-beach-bgi-companies-trez-capital/"}},
+  "notes": "CONSTRUCTION LENDER: Trez Capital, an $82m construction loan for the 22-storey, 55-unit tower at 4714 N Flagler Drive by BGI Companies and Blue Road. One facility, no mezzanine piece reported. A DELIBERATE CHOICE BETWEEN TWO FACILITIES: the later $95m from Kriss Capital of November 2023 is a REFINANCING of this construction loan, with Wexcor Capital described as arranging the refinancing, and is excluded even though Florida YIMBY's headline on it uses the words construction loan. Trez is the lender that actually funded the build.",
+  "quotes": {"lender": "BGI Companies secured $82 million to build Alba Palm Beach, according to the lender, Trez Capital."}},
+
+ {"id": 1207, "name": "7140 NE Miami Court self-storage", "values": {}, "sources": {},
+  "notes": "A CONSTRUCTION LOAN EXISTS AND IS NOT STORABLE. A $21.5m construction loan from NEW WAVE LOANS closed around 5 January 2026 for this seven-storey self-storage building by Feldman Companies, through 7200 NE Miami Court LLC. It is reported only by traded.co, a National Law Review press-release wire, einpresswire and multifamilypress, none of which is an acceptable source. Florida YIMBY covers the project twice, in January 2023 and August 2024, and never mentions financing; Commercial Observer and Bisnow have nothing. NEXT STEP: the Miami-Dade mortgage record for the parcel would be a primary source good enough to store New Wave Loans."},
+
+ {"id": 1358, "name": "The Sound Apartments", "values": {}, "sources": {},
+  "notes": "A CONSTRUCTION LOAN EXISTS AND IS NOT STORABLE. $80.6m of construction financing is reported for this Woodfield Development and Flagler Realty project at 8111 S Dixie Highway, with the leasehold mortgage provided by PNC BANK — but only via bldup, citybiz, cre-sources, multifamilybiz and yieldpro, none acceptable. Both Florida YIMBY articles were fetched, the July 2025 topping-out and the March 2026 nearing-completion piece, and neither names any lender or financing. REJECTED: Bisnow's Woodfield coverage of a $47m Northwestern Mutual construction loan, which is a DIFFERENT West Palm Beach building of 223 units later sold to Griffis Residential. NEXT STEP: a Palm Beach County mortgage record would be enough to store PNC Bank."},
+
+ {"id": 1180, "name": "The Residences at Mandarin Oriental, Miami — South Tower", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, re-confirmed on a second independent pass. Five Florida YIMBY articles were checked — the October 2026 groundbreaking, the September 2026 sitework start, a November 2024 construction timeline, the April 2026 implosion and a March 2026 penthouse-sales piece — plus Commercial Observer's August 2025 story on Swire buying the remaining Mandarin stake, and Bisnow. None names a lender, loan or financing. Swire is funding both towers from City Centre asset-sale proceeds plus buyer deposits on more than $1.7bn of presales."},
+
+ {"id": 1179, "name": "The Residences at Mandarin Oriental, Miami — North Tower", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, re-confirmed on a second independent pass. Same single financing structure as the South Tower, same sources checked, same conclusion: sponsor-funded from City Centre sale proceeds and presale deposits, with no construction debt reported."},
+
+ {"id": 1156, "name": "Midtown 7", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, re-confirmed on a second independent pass. The only financing event anywhere is the $30.5m site purchase by PPF AMLI 3001 NE 1st Avenue LLC, which is an acquisition and excluded. That PPF entity is an institutional open-end fund vehicle, consistent with an equity-funded development. Florida YIMBY's AMLI Residential category, its FAA-approval article and its 2021 site-acquisition article were all checked, as were Commercial Observer and Bisnow."},
+
+ {"id": 983, "name": "Uni Tower", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LENDER STORED. The only financing reported is roughly $61.05m arranged through HUD's Section 221(d)(4) new-construction programme, and the only named party is WALKER & DUNLOP — explicitly a broker and arranger, which must not be recorded as a lender. HUD is the mortgage insurer rather than the lender, and the reporting is self-published on the arranger's own site and a press wire, neither acceptable. Florida YIMBY, Commercial Observer and Bisnow were searched for this building specifically and none names a lender. Note that Bisnow's $190m article concerns Uni+Dos, the adjacent later phase, not this building."},
+
+ {"id": 1030, "name": "Wynwood Works", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LENDER STORED, and the capital stack explains why: this is a public-private affordable deal financed with roughly $32m of Housing Finance Authority of Miami-Dade County BONDS, on which Bank of New York Mellon acts as TRUSTEE rather than lender, plus $9.9m from the Omni CRA and $3.5m each from the City of Miami and the Wynwood BID — all public subsidy facilities, excluded by kind. A $3.5m loan from Mount Zion Baptist Church appears only in unacceptable sources. No conventional senior construction lender is named anywhere in Florida YIMBY, Commercial Observer or Bisnow."},
+
+ {"id": 1356, "name": "Alida Residences and Tribute Portfolio by Marriott Hotel", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, and positively confirmed UNFINANCED at groundbreaking rather than merely unreported: Florida YIMBY's July 2026 groundbreaking article indicates the developers had not yet secured a construction loan as of that date. REJECTED: FrontRange Capital Partners, which the coverage names as the capital and investment partner — that is equity, not a lender. Worth re-checking after mid-2027. SEPARATE GAP NOTED: this row's contractor field is empty and the groundbreaking coverage names Kast Construction, which is worth a follow-up quote."},
+
+ {"id": 971, "name": "Parkside Residences", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED. Florida YIMBY's April 2026 groundbreaking article and its October 2026 second-floor-slab piece were both checked, as were Commercial Observer and Bisnow, and none mentions a lender, loan or financing. This is the Kazakh parent BI Group's first US ground-up project and reads as parent-funded."},
+
+ {"id": 1245, "name": "Alexan Crafts", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, which is expected at this stage — the row is only Approved. Florida YIMBY's Trammell Crow Residential category, Commercial Observer, Bisnow and the Coral Gables Legistar record were all searched and no financing event exists."},
+
+ {"id": 1275, "name": "University of Miami UHealth", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED for this roughly 150,000 sq ft medical facility. TWO WRONG-PROJECT TRAPS REJECTED, both of which a name-based search surfaces: an Ocean Bank $38.8m construction loan to Codina Partners finances a Downtown Doral RETAIL EXPANSION in which UHealth is merely an 11,243 sq ft tenant; and a $100m construction loan belongs to Sevilla at Downtown Doral, a different residential building by the same sponsor. Neither finances this building."},
+
+ {"id": 1294, "name": "PDC Doral Panattoni Development", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED. The project — two roughly 77,000 sq ft Class A warehouses on the former Miami Herald headquarters site — is a joint venture between Panattoni and an Ares Real Estate fund, which is EQUITY capital rather than debt. Only the roughly $30m acquisition of the site is reported, and an acquisition is excluded. Florida YIMBY, Commercial Observer, Bisnow and the City of Doral public-hearing notice were all checked."},
+
+ {"id": 1315, "name": "7410 Collins Avenue", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, which is expected at Approved stage. REJECTED: an $11.85m facility from Benmark Capital arranged by Eastern Union, which is an ACQUISITION loan used to buy 7410 Collins Avenue together with 7400 Harding Avenue. Florida YIMBY's September 2026 article covers the 11-storey, 50-unit Live Local Act approval and names no lender."},
+
+ {"id": 1335, "name": "1960 Normandy Drive", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, and no development coverage of any kind in acceptable sources. This row has no developer named, which makes the project hard to disambiguate, and searches return only residential and commercial listing noise for the existing 1971 building at the address. The row rests on the City of Miami Beach's Live Local Act approval list and application number PB24-0716."}
+]

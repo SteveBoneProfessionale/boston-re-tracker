@@ -1,0 +1,90 @@
+[
+ {"id": 1024, "name": "Forma Miami",
+  "values": {"lender": "Blackstone Real Estate"},
+  "sources": {"lender": {"name": "Florida YIMBY, 20 Nov 2022", "date": "2022-11-20",
+    "url": "https://floridayimby.com/2022/11/construction-rises-on-first-phase-of-nema-miami-at-2900-biscayne-boulevard-in-edgewater-miami.html"}},
+  "notes": "CONSTRUCTION LENDER: a $224m facility on the project then branded Nema Miami and now Forma Miami. Commercial Observer of 4 Apr 2022 breaks the $224m into a $179m senior mortgage plus a $45m MEZZANINE loan, both from Blackstone — the mezzanine piece is excluded by kind but the senior lender is the same party, so the name stands either way. REJECTED: a $238.4m Freddie Mac lease-up facility of Oct 2025, which is a refinancing; Walker & Dunlop arranged it and is a broker.",
+  "quotes": {"lender": "Blackstone Real Estate provided the $224 million construction loan."}},
+
+ {"id": 1025, "name": "Society Wynwood",
+  "values": {"lender": "Pacific Western Bank; Square Mile Capital Management"},
+  "sources": {"lender": {"name": "Commercial Observer, 23 Aug 2021", "date": "2021-08-23",
+    "url": "https://commercialobserver.com/2021/08/pmg-greybrook-142m-society-wynwood/"}},
+  "notes": "CONSTRUCTION LENDER: one $142.3m construction facility with two co-lenders, both senior, and no mezzanine or preferred-equity piece. Corroborated by Florida YIMBY of 20 Aug 2021. THIS CORRECTS AN EARLIER DELIBERATE BLANK: the only facility previously found for this project was the $178m Ares and Monarch deal of Aug 2024, which is a REFINANCING that repaid this construction loan and was rightly refused — the actual construction loan simply had not been found. Eastdil Secured arranged the refinancing and is a broker. The sources cite 2431 NW 2nd Avenue for the same PMG and Greybrook 318-unit, ten-storey building on the block this row holds at 176 NW 25 St.",
+  "quotes": {"lender": "Property Markets Group (PMG) and Greybrook Realty Partners secured a $142.3 million construction loan for a mixed-use Wynwood project in Miami from Pacific Western Bank and Square Mile Capital Management, the developers announced."}},
+
+ {"id": 1082, "name": "Rhapsody at Rainbow Village",
+  "values": {"lender": "KeyBank Real Estate Capital; J.P. Morgan Chase"},
+  "sources": {"lender": {"name": "Commercial Observer, 11 Feb 2025", "date": "2025-02-11",
+    "url": "https://commercialobserver.com/2025/02/miami-housing-trust-htg-jp-morgan-keybank-construction/"}},
+  "notes": "CONSTRUCTION LENDERS: $109.2m of construction debt in two separate construction loans, KeyBank Real Estate Capital at $52m and J.P. Morgan Chase at $57.2m. Neither is subordinate to the other, so both are recorded. A long list of other facilities in the same capital stack is REJECTED by kind: roughly $70m of 4 per cent LIHTC equity from Raymond James, which is equity; $15m of SAIL financing, $15m from the SEOPW CRA, a $3m PHCD HOME loan and a $500k Miami-Dade grant, all public subsidy; a $3.1m PHCD seller note; $11.8m of bond reinvestment earnings; and KeyBank's separate $60.4m of PERMANENT financing. Florida YIMBY's Feb 2025 groundbreaking piece gives the $185m total cost but names no lender.",
+  "quotes": {"lender": "Housing Trust Group (HTG) broke ground on an affordable housing development in Miami's Overtown neighborhood after securing more than $109 million in construction financing, the developer announced. The construction debt includes two loans from KeyBank Real Estate Capital and J.P. Morgan Chase, which amount to $52 million and $57.2 million, respectively."}},
+
+ {"id": 1054, "name": "501 First Residences",
+  "values": {"lender": "Bank OZK"},
+  "sources": {"lender": {"name": "Florida YIMBY, 16 Jan 2023", "date": "2023-01-16",
+    "url": "https://floridayimby.com/2023/01/developers-get-building-permits-for-440-foot-tall-501-first-residences-in-downtown-miami.html"}},
+  "notes": "CONSTRUCTION LENDER: an $81m facility to Aria Development Group and Aqarat, 42 months, full-term interest-only at SOFR plus 420. A single loan with no mezzanine piece. Corroborated by Commercial Observer of 17 Nov 2022, whose headline has Bank OZK lending $81m to build the tower. Berkadia arranged it and is a broker, not a lender.",
+  "quotes": {"lender": "Bank OZK provided an $81 million loan to begin construction."}},
+
+ {"id": 1114, "name": "2200 Brickell",
+  "values": {"lender": "Bank OZK"},
+  "sources": {"lender": {"name": "Florida YIMBY, 6 Oct 2023", "date": "2023-10-06",
+    "url": "https://floridayimby.com/2023/10/developers-secure-77m-construction-loan-from-bank-ozk-for-2200-brickell.html"}},
+  "notes": "CONSTRUCTION LENDER: a $77m facility to Aria Development Group, Largo and Place Projects. A single loan with no mezzanine or preferred-equity piece. The developers repaid it in Oct 2026 after delivery, which is a payoff rather than a separate facility and does not change who the construction lender was.",
+  "quotes": {"lender": "Bank OZK provided the $77 million in construction financing."}},
+
+ {"id": 1040, "name": "Wynwood Diamedix — east building",
+  "values": {"lender": "Bank OZK"},
+  "sources": {"lender": {"name": "Bisnow, 19 Dec 2022", "date": "2022-12-19",
+    "url": "https://www.bisnow.com/news/south-florida/deal-sheet/this-weeks-south-florida-deal-sheet-116924"}},
+  "notes": "CONSTRUCTION LENDER: a single facility of about $118m, $117.1m per records, to the Related Group and Rockpoint joint venture for the two-building 304-unit project Related assembled from Diamedix Corp. No mezzanine or preferred-equity piece. ADDRESS NOTE: the source cites 2150 N Miami Ave while this row is the east building at 2115 N Miami Ave; the assemblage runs 2141 to 2115 and 2150 to 2160 North Miami Avenue and the two buildings were financed together, so the facility covers this row. The sibling row in the tracker is WNWD21, and the same facility applies to it. Florida YIMBY's groundbreaking piece of 17 Dec 2022 and its vertical-completion piece of Sept 2023 name no lender.",
+  "quotes": {"lender": "Bank OZK provided the developers with a $118M construction loan for the building"}},
+
+ {"id": 947, "name": "The Arbor Residences",
+  "values": {"lender": "Trez Capital"},
+  "sources": {"lender": {"name": "Bisnow, 3 Nov 2023", "date": "2023-11-03",
+    "url": "https://www.bisnow.com/news/south-florida/multifamily/coconut-grove-condo-project-trades-to-stave-off-foreclosure-121486"}},
+  "notes": "CONSTRUCTION LENDER: a $20.7m construction loan from Trez Capital, originated in 2019 through its Florida office Trez Forman Capital Partners, to 3034 Oak Park LLC. Established here by the FORECLOSURE ACTION rather than by a loan announcement — Trez sued as the holder of the construction loan, which is unusually direct evidence of who the construction lender was. REJECTED from the same history: Trez's $2.3m BRIDGE loan of 2017, and the later transfer of the $21m debt to Oasis Investment Trust by deed in lieu, which moves existing debt rather than creating a new construction facility.",
+  "quotes": {"lender": "Trez Capital filed an $18M foreclosure suit against 3034 Oak Park LLC and Hamann in August 2022. Trez alleged in the suit that the borrower failed to repay a $20.7M construction loan by its maturity date and failed to comply with the terms of a forbearance deal."}},
+
+ {"id": 1289, "name": "Bridge Point Doral 826",
+  "values": {"lender": "Associated Bank"},
+  "sources": {"lender": {"name": "Commercial Observer, 27 Feb 2026", "date": "2026-02-27",
+    "url": "https://commercialobserver.com/2026/02/bridge-office-industrial-doral/"}},
+  "notes": "CONSTRUCTION LENDER: a $56.7m single facility to Bridge Industrial for the two-warehouse, 268,700 sq ft office-to-industrial redevelopment of the 16-acre Corporate Park of Doral at 7775 NW 48th Street, which is this row's address. No mezzanine or preferred-equity piece. Distinct from Bridge's earlier $53m Bridge Point Flagler Station facility. Notable as the ONLY one of this batch's Approved-status projects to have closed a construction loan.",
+  "quotes": {"lender": "Bridge Industrial nabbed a $56.7 million construction loan to convert an old office property in Doral, Fla., into warehouses. Associated Bank supplied the financing, which covers a 16-acre site at 7775 Northwest 48th Street, just west of the Palmetto Expressway and northwest of Miami International Airport."}},
+
+ {"id": 1203, "name": "Miami Freedom Park — stadium parking garage", "values": {}, "sources": {},
+  "notes": "NO LENDER STORED, on the researching agent's own recommendation and mine. The Miami Freedom Park stadium is financed by a five-year $450m senior construction loan from J.P. Morgan Chase inside a $650m package, and this garage is a component of that stadium build — but no acceptable source mentions the garage, and the facility is described as being for the stadium. Attributing it to this separately-permitted building would be an inference, and the garage has its own master permit BD24019509001B001 and its own contractor, Finfrock Construction. The stadium's own row carries the J.P. Morgan facility. REJECTED from the same package: the other $200m, a senior term loan and revolver refinancing existing club debt and funding operations; and Ares Management's $150m of 2021 plus $75m of 2023, both preferred equity."},
+
+ {"id": 995, "name": "Natiivo Miami", "values": {}, "sources": {},
+  "notes": "LENDER KNOWN AND NOT STORABLE. A $213.4m construction loan from BANK OZK, originated September 2021 and paid off in August 2024, is reported for this tower — but only by The Real Deal, and therealdeal.com returns HTTP 403 to every automated fetch, so no verbatim sentence can be taken from the page. All five Florida YIMBY articles on 601 NE 1st Avenue were checked plus its Sept 2023 Gale Hotel & Residences piece, and none mentions a loan, lender or financing; no Commercial Observer or Bisnow article covers this financing. One browser visit would settle it."},
+
+ {"id": 978, "name": "Mr. C Residences Coconut Grove", "values": {}, "sources": {},
+  "notes": "LENDER KNOWN AND NOT STORABLE. A $185m construction loan from MACK REAL ESTATE CREDIT STRATEGIES of September 2019, for the project then called Bayshore Grove at 2655 S Bayshore Drive, is reported only by The Real Deal, which cannot be fetched. Florida YIMBY's April 2023 article on the address mentions no financing and there is no Commercial Observer or Bisnow coverage of the 2019 facility. REJECTED: CanAm Enterprises' $20m EB-5 redeployment investment INTO the existing Mack loan, which is a participation rather than the lender, and is self-published in any case. DO NOT CONFUSE with Mr. C Hotel & Residences WEST PALM BEACH, a different project whose lender is Tyko Capital."},
+
+ {"id": 1211, "name": "Metro 2 at Edgewater", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, and the search was unusually noisy. Florida YIMBY's April 2024 plans-filed article on 3055 NE 4th Avenue mentions no financing of any kind, and Commercial Observer and Bisnow have nothing for Metro Tower II LLC. SEVEN Edgewater construction loans surfaced and every one belongs to a different project: Madison Realty Capital's $55m of 2022 and Resident Group's $113.8m HUD refinancing of Oct 2025 both belong to the ADJACENT Metro Edgewater tower, and the Oak Row $181m and $211m, Aimco $172m, LCOR $193m, Trilogy $82m and SB Development $170m facilities are all other buildings."},
+
+ {"id": 929, "name": "Atelier Residences Miami", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED. The only facility found is a $5.5m BRIDGE loan from City First Mortgage Services closed 30 June 2026, which is excluded by kind. Florida YIMBY's Nov 2024 article on 1265 SW 22nd Street names no lender, and there is no Commercial Observer or Bisnow coverage of financing for this BLDG Ventures project."},
+
+ {"id": 1243, "name": "The Mark", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, which fits the stage: as of January 2026 Landmark Properties had refiled with Miami-Dade County after years of Coral Gables debate, so construction has not started. Florida YIMBY, Commercial Observer and Bisnow were all searched for 1250 S Dixie Highway and for Landmark Properties with no financing found. REJECTED: Landmark's $300m Landmark Sponsor Fund LP of April 2026, a corporate equity vehicle rather than a project construction loan. Do not confuse with The Mark Tampa or The Mark at Tallahassee."},
+
+ {"id": 1269, "name": "Legacy at Doral (EWE Warehouse)", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED. Approved only; the site-plan modification was approved by Doral City Council on 22 March 2023 on the application of EWE Warehouse Investments XXXII, Ltd. Florida YIMBY, Commercial Observer and Bisnow were searched for 2525 NW 82 Ave and for the project name with no result. The Doral construction loans that surface — Midtown Doral $67m, Lincoln $103m, Codina, Torchlight $238m — are all other properties."},
+
+ {"id": 1301, "name": "Doral Inn / IMF Doral Residential Conversion", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED. Approved only; IMF Doral LLC's parking variance for the proposed conversion of the 112-key Doral Inn & Suites went to a City of Doral public hearing in May 2025. REJECTED: a $15.85m senior ACQUISITION loan from W Financial of Oct 2025, excluded by kind; WD Capital Group and Ordeg Capital arranged it and are brokers."},
+
+ {"id": 1325, "name": "Ocean Terrace", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED. Approved only; Florida YIMBY of 28 Nov 2025 has the 20-storey tower breaking ground next year and refers to financing only as a multi-million-dollar refinancing that Witkoff Group joined on earlier that year. REJECTED: an $85m J.P. Morgan facility of Feb 2025, which fails on two grounds at once — it is described as a preconstruction loan and as a refinancing."},
+
+ {"id": 1347, "name": "Banyan Tree Residences West Palm Beach", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED. Approved only — the West Palm Beach Downtown Action Committee approved it unanimously in August 2026 with construction expected to begin in 2027 for 2029 delivery. Three Florida YIMBY articles, Commercial Observer's Mast Capital coverage of March and October 2026, and Bisnow were all checked and none mentions a loan or lender for 400 Hibiscus Street. Mast paid $5.2m for the site in early 2025, which is a purchase."},
+
+ {"id": 1357, "name": "The Mandarin Oriental Residences, West Palm Beach", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED. Approved only with a 2031 target completion, so no construction facility would be expected yet. Florida YIMBY's March 2026 article on 5400 N Flagler Drive, Commercial Observer and Bisnow name no lender. Great Gulf bought the three-acre site for $28.5m in 2024, which is a purchase. DO NOT CONFUSE with Penn-Florida's Residences at Mandarin Oriental in BOCA RATON, a different project by a different sponsor whose $270m construction loan closed in 2023."}
+]

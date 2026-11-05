@@ -1016,17 +1016,17 @@ only sentence available says both in one breath.
 
 ## Change log — City of Miami review (5 November 2026)
 
-248 field changes across 232 projects. Grouped by field; within a field, ordered by project id. A source of “—” means the change was derived from a record already cited on the row (the master building permit, or the permit's own work items) rather than from a new document, and the row's existing FIELD SOURCES entry still applies.
+280 field changes across 242 projects. Grouped by field; within a field, ordered by project id. A source of “—” means the change was derived from a record already cited on the row (the master building permit, or the permit's own work items) rather than from a new document, and the row's existing FIELD SOURCES entry still applies.
 
 | Field | Changes |
 | --- | --: |
 | asset_class | 226 |
-| lender | 5 |
-| name | 3 |
+| lender | 32 |
+| developer | 5 |
+| name | 4 |
 | architect | 3 |
-| developer | 2 |
+| residential_units | 3 |
 | building_height_ft | 2 |
-| residential_units | 2 |
 | num_stories | 1 |
 | parking_spaces | 1 |
 | record created | 1 |
@@ -1305,27 +1305,70 @@ Reasons:
 - **id 1368** — described as 310 apartments
 - **id 1369** — 167 units, 40 per cent of them workforce housing, proposed under the Live Local Act. the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure
 
-### lender — 5 change(s)
+### lender — 32 change(s)
 
 | id | Project | Old | New | Source |
 | --: | --- | --- | --- | --- |
+| 947 | The Arbor Residences | — | Trez Capital | [link](https://www.bisnow.com/news/south-florida/multifamily/coconut-grove-condo-project-trades-to-stave-off-foreclosure-121486) |
+| 966 | Una Residences | — | Bank OZK | [link](https://commercialobserver.com/2021/04/oko-group-cain-international-secure-128m-loan-for-miami-luxury-condo-tower/) |
+| 1009 | Miami World Tower 1 | — | Bank of New York Mellon | [link](https://commercialobserver.com/2022/06/lalezarian-miami-worldcenter-tower-bank-of-new-york-mellon/) |
+| 1010 | Fourteen Allapattah Residences | — | Churchill Real Estate | [link](https://commercialobserver.com/2022/08/neology-scores-58m-loan-for-allapattah-housing-development/) |
+| 1022 | The River District — Phase 1 | — | Madison Realty Capital | [link](https://commercialobserver.com/2024/05/madison-realty-capital-chetrit-group-galaxy/) |
+| 1024 | Forma Miami | — | Blackstone Real Estate | [link](https://floridayimby.com/2022/11/construction-rises-on-first-phase-of-nema-miami-at-2900-biscayne-boulevard-in-edgewater-miami.html) |
+| 1025 | Society Wynwood | — | Pacific Western Bank; Square Mile Capital Management | [link](https://commercialobserver.com/2021/08/pmg-greybrook-142m-society-wynwood/) |
+| 1039 | WNWD21 | — | Bank OZK | [link](https://www.bisnow.com/news/south-florida/deal-sheet/this-weeks-south-florida-deal-sheet-116924) |
+| 1040 | Wynwood Diamedix — east building | — | Bank OZK | [link](https://www.bisnow.com/news/south-florida/deal-sheet/this-weeks-south-florida-deal-sheet-116924) |
+| 1046 | District 225 | — | Madison Realty Capital | [link](https://floridayimby.com/2022/07/developers-secure-76-million-in-construction-funding-for-37-story-district-225-in-downtown-miami.html) |
+| 1054 | 501 First Residences | — | Bank OZK | [link](https://floridayimby.com/2023/01/developers-get-building-permits-for-440-foot-tall-501-first-residences-in-downtown-miami.html) |
+| 1057 | Amara Wynwood | — | CIBC Bank; Republic Bank; First Bank Chicago | [link](https://commercialobserver.com/2023/03/fifield-pgim-wynwood-station/) |
+| 1060 | Wynhouse Miami | — | JPMorgan; Canyon Partners | [link](https://commercialobserver.com/2023/07/fisher-brothers-wynwood-jpm-canyon-wd/) |
+| 1082 | Rhapsody at Rainbow Village | — | KeyBank Real Estate Capital; J.P. Morgan Chase | [link](https://commercialobserver.com/2025/02/miami-housing-trust-htg-jp-morgan-keybank-construction/) |
+| 1083 | River Rapids | — | Kayne Anderson | [link](https://commercialobserver.com/2024/05/kayne-anderson-rovr-development-river-rapids/) |
+| 1114 | 2200 Brickell | — | Bank OZK | [link](https://floridayimby.com/2023/10/developers-secure-77m-construction-loan-from-bank-ozk-for-2200-brickell.html) |
 | 1126 | Excel Miami | — | Centennial Bank; Southern Realty Trust | [link](https://floridayimby.com/2024/11/94-5m-construction-loan-secured-for-24-story-multifamily-tower-excel-miami-in-miamis-arts-entertainment-district.html) |
 | 1138 | Villa Miami | — | Tyko Capital | [link](https://floridayimby.com/2024/12/villa-miami-secures-285-million-in-financing-following-groundbreaking-in-edgewater.html) |
+| 1154 | Domus Brickell Park | — | Forman Capital | [link](https://floridayimby.com/2024/04/forman-capital-funds-54-56-million-construction-loan-for-condominium-hotel-development-in-miamis-financial-district.html) |
 | 1167 | The Perrin | — | Goldman Sachs | [link](https://floridayimby.com/2025/05/111-million-construction-loan-secured-for-26-story-multifamily-tower-the-perrin-at-244-sw-9th-street-in-brickell-miami.html) |
+| 1185 | Miami Freedom Park — stadium | — | J.P. Morgan Chase | [link](https://commercialobserver.com/2025/04/lionel-messi-inter-miami-freedom-park-j-p-morgan-chase/) |
+| 1188 | Residences in the Grove | — | Tyko Capital | [link](https://commercialobserver.com/2026/01/tyko-terra-well-coconut-grove-miami/) |
 | 1195 | 2900 Terrace | — | Bank OZK | [link](https://floridayimby.com/2025/06/210-5-million-construction-financing-secured-for-2900-terrace-in-edgewater-miami.html) |
+| 1202 | One West Twelve Residences | — | Maxim Capital Group | [link](https://commercialobserver.com/2025/12/pmg-one-west-twelve-residences-overtown-miami/) |
 | 1212 | Dulce Vida Apartments | — | Citibank | [link](https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html) |
+| 1232 | Sweetbird North | — | Crédit Agricole | [link](https://commercialobserver.com/2026/08/miami-design-district-snohetta-sweetbird-north/) |
+| 1264 | Doral City Place 7 | — | Santander Bank | [link](https://floridayimby.com/2023/09/construction-tops-out-on-doral-city-place-7-mixed-use-project-at-8450-nw-85th-court-in-doral.html) |
+| 1289 | Bridge Point Doral 826 | — | Associated Bank | [link](https://commercialobserver.com/2026/02/bridge-office-industrial-doral/) |
+| 1349 | Alba Palm Beach | — | Trez Capital | [link](https://commercialobserver.com/2022/04/alba-palm-beach-bgi-companies-trez-capital/) |
+| 1352 | The Ritz-Carlton Residences, West Palm Beach | — | Madison Realty Capital | [link](https://commercialobserver.com/2026/03/related-bh-west-palm-beach-ritz-carlton-madison-realty-flagler/) |
+| 1367 | Soleste Palm Station | — | Synovus Bank | [link](https://commercialobserver.com/2024/07/estates-cos-soleste-palm-station-synovus-bank/) |
+| 1370 | Rybovich Marina redevelopment | — | Tyko Capital | [link](https://commercialobserver.com/2026/08/tyko-integra-west-palm/) |
 
-### name — 3 change(s)
+### developer — 5 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 1004 | View 29 | — | New Urban Development | [link](https://www.bisnow.com/south-florida/news/affordable-housing/affordable-housing-project-wynwood-44m-public-construction-financing-133392) |
+| 1057 | Amara Wynwood | — | Fifield Companies; PGIM Real Estate | [link](https://commercialobserver.com/2023/03/fifield-pgim-wynwood-station/) |
+| 1083 | River Rapids | — | ROVR Development | [link](https://commercialobserver.com/2024/05/kayne-anderson-rovr-development-river-rapids/) |
+| 1212 | Dulce Vida Apartments | — | Coral Rock Development Group | [link](https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html) |
+| 1220 | Miami Civic Center | Miami Freedom Park, LLC | Adler Development | [link](https://www.miami.gov/Notices/Events-Activities/City-of-Miami-to-Celebrate-the-Topping-Out-of-the-New-Miami-Civic-Center) |
+
+Reasons:
+
+- **id 1220** — the City's own notice names Adler Development; the previous value, Miami Freedom Park LLC, is the ground lessee of the OTHER parcels
+
+### name — 4 change(s)
 
 | id | Project | Old | New | Source |
 | --: | --- | --- | --- | --- |
 | 1107 | LOFTY Brickell (One Brickell Riverfront) | LOFTY Brickell (One Brickell Riverfront) | LOFTY Brickell | [link](https://floridayimby.com/2023/12/newgard-development-group-appoints-g-t-mcdonald-enterprises-inc-as-general-contractor-for-44-story-lofty-brickell.html) |
+| 1188 | Residences in the Grove | Residences in the Grove | The WELL Coconut Grove | [link](https://commercialobserver.com/2026/01/tyko-terra-well-coconut-grove-miami/) |
 | 1203 | Miami Freedom Park — park | Miami Freedom Park — park | Miami Freedom Park — stadium parking garage | [link](https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24019509001B001%27&outFields=*&f=pjson) |
 | 1220 | Miami Freedom Park — commercial component | Miami Freedom Park — commercial component | Miami Civic Center | [link](https://www.miami.gov/Notices/Events-Activities/City-of-Miami-to-Celebrate-the-Topping-Out-of-the-New-Miami-Civic-Center) |
 
 Reasons:
 
 - **id 1107** — the parenthetical '(One Brickell Riverfront)' merged two projects into one name
+- **id 1188** — the 148-unit scheme this row was recorded with was scrapped; the same sponsors at the same address are building a redesigned 194-unit project under a new name
 - **id 1203** — the permit's work items are a parking garage and its contractor is a precast parking-structure builder; the actual park is a different permit that no row tracks
 - **id 1220** — the row's permit, address, floor area and contractor all describe the City's administration building, not Miami Freedom Park LLC's commercial space
 
@@ -1342,16 +1385,19 @@ Reasons:
 - **id 1162** — the review is right and this follows the project's existing architect-of-record rule: the source names Robert A.M. Stern Architects as the designer and Cohen Freedman Encinosa as the architect OF RECORD, and the field holds the architect of record
 - **id 1185, id 1203** — Architect CLEARED. The only source ever cited for it on this row is Florida YIMBY's coverage of the eight-storey ADMINISTRATION BUILDING, as the row's own note recorded, so Arquitectonica was this site's Civic Center architect attributed to the wrong building. No acceptable source names an architect for this structure.
 
-### developer — 2 change(s)
+### residential_units — 3 change(s)
 
 | id | Project | Old | New | Source |
 | --: | --- | --- | --- | --- |
-| 1212 | Dulce Vida Apartments | — | Coral Rock Development Group | [link](https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html) |
-| 1220 | Miami Civic Center | Miami Freedom Park, LLC | Adler Development | [link](https://www.miami.gov/Notices/Events-Activities/City-of-Miami-to-Celebrate-the-Topping-Out-of-the-New-Miami-Civic-Center) |
+| 976 | Okan Tower | — | 399 | [link](https://floridayimby.com/2026/04/construction-reaches-50th-floor-on-okan-tower-at-555-north-miami-avenue-in-downtown-miami.html) |
+| 1107 | LOFTY Brickell | 363 | 362 | [link](https://floridayimby.com/2023/12/newgard-development-group-appoints-g-t-mcdonald-enterprises-inc-as-general-contractor-for-44-story-lofty-brickell.html) |
+| 1188 | The WELL Coconut Grove | 148 | 194 | [link](https://commercialobserver.com/2026/01/tyko-terra-well-coconut-grove-miami/) |
 
 Reasons:
 
-- **id 1220** — the City's own notice names Adler Development; the previous value, Miami Freedom Park LLC, is the ground lessee of the OTHER parcels
+- **id 976** — the review's rule is to count every residential unit including condo-hotel units, so the 163 Sky Residences and the 236 condo-hotel residences are both counted; the 316 Hilton keys are not units and stay in the hotel field
+- **id 1107** — the review's 362 is confirmed by the developer's own general-contractor announcement; the stored 363 came from a two-project round-up
+- **id 1188** — 194 in the redesigned scheme, superseding the 148 of the abandoned design
 
 ### building_height_ft — 2 change(s)
 
@@ -1364,18 +1410,6 @@ Reasons:
 
 - **id 1107** — 574 ft above ground from the FAA filing, against 579 above sea level
 - **id 1144** — the review's 574 ft is confirmed: the source states 574 feet ABOVE GROUND against 587 feet above sea level, and the stored 576 matched neither
-
-### residential_units — 2 change(s)
-
-| id | Project | Old | New | Source |
-| --: | --- | --- | --- | --- |
-| 976 | Okan Tower | — | 399 | [link](https://floridayimby.com/2026/04/construction-reaches-50th-floor-on-okan-tower-at-555-north-miami-avenue-in-downtown-miami.html) |
-| 1107 | LOFTY Brickell | 363 | 362 | [link](https://floridayimby.com/2023/12/newgard-development-group-appoints-g-t-mcdonald-enterprises-inc-as-general-contractor-for-44-story-lofty-brickell.html) |
-
-Reasons:
-
-- **id 976** — the review's rule is to count every residential unit including condo-hotel units, so the 163 Sky Residences and the 236 condo-hotel residences are both counted; the 316 Hilton keys are not units and stay in the hotel field
-- **id 1107** — the review's 362 is confirmed by the developer's own general-contractor announcement; the stored 363 came from a two-project round-up
 
 ### num_stories — 1 change(s)
 

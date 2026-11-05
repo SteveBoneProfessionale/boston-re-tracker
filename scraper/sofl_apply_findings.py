@@ -64,8 +64,8 @@ NUMERIC = {"residential_units", "height_ft", "stories", "commercial_gsf",
 # do not make someone the construction lender.
 NOT_CONSTRUCTION = re.compile(
     r"refinanc|acquisition loan|acquisition financing|pre-?development loan|"
-    r"pre-?development financing|preferred equity|mezzanine|bridge loan|"
-    r"permanent financing|inventory loan", re.I)
+    r"pre-?development financing|pre-?construction loan|preferred equity|"
+    r"mezzanine|bridge loan|permanent financing|inventory loan", re.I)
 # What makes a facility construction financing. "to build" belongs here: a
 # sentence like "secured $69.4 million from Deutsche Bank to build a retail
 # center" is construction financing as plainly as one that uses the phrase,
@@ -77,10 +77,21 @@ NOT_CONSTRUCTION = re.compile(
 # that -- 222 Namdar's Phase I facility is one -- and accepting it would let
 # the NOT_CONSTRUCTION guard be talked out of a correct rejection.
 CONSTRUCTION = re.compile(
-    r"construction (?:loan|financing|facility|funding|package|debt)|"
+    # The lookbehind matters more than it looks: without it "pre-construction
+    # loan" CONTAINS "construction loan", so a predevelopment facility
+    # satisfied this pattern, cancelled its own NOT_CONSTRUCTION rejection and
+    # was stored as construction financing. The Berkeley's $62.5m JVP
+    # pre-construction loan is exactly that case, and its own lender said on
+    # the record that construction financing had not yet been arranged.
+    r"(?<!pre-)(?<!pre)construction (?:loan|financing|facility|funding|package|debt)|"
     r"c-?pace.{0,40}construction|"
     r"to (?:fund|finance|build|construct|develop)\b|"
     r"to (?:begin|commence|start)\s+construction\b|"
+    # "to facilitate the construction of apartments" says the money is for
+    # construction as plainly as the phrase "construction loan" does. Still
+    # narrow by design: facilitate, support and fund only, never "complete",
+    # which is how a bridge loan for completion and lease-up describes itself.
+    r"to (?:facilitate|support|fund)\s+(?:the\s+)?construction\b|"
     r"towards? (?:building|construct)|go toward building|"
     r"(?:loan|financing|facility)[^.]{0,60}\bto build\b|"
     r"build(?:ing)? loan", re.I)
