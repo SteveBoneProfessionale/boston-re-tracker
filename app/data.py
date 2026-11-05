@@ -482,18 +482,34 @@ for _entry in MARKETS.values():
 # source's own wording is kept verbatim in `asset_class_raw`, so a fold stays
 # recoverable and the detail view can still show what the filing actually said.
 ASSET_CLASSES = [
-    "Residential", "Condo", "Mixed-Use", "Office", "Lab/Research", "Retail",
-    "Hotel", "Industrial", "Institutional", "Parking", "Other",
+    "Multifamily Rental", "Condo", "Residential", "Mixed-Use", "Office",
+    "Lab/Research", "Retail", "Hotel", "Industrial", "Institutional",
+    "Parking", "Other",
 ]
 
-# "Residential" means multifamily RENTAL and "Condo" means for-sale. They are
-# separate values rather than one residential bucket because in South Florida
-# they are different businesses with different capital, and the sources say
-# which: Miami's permit feed states MULTI-FAMILY (RENTAL) or MULTI-FAMILY
-# (CONDO) as a work item. No existing Boston, Cambridge or Rhode Island row is
-# reclassified -- those markets' sources do not make the distinction, so their
-# rows stay "Residential" and splitting them would be a claim the sources
-# never made.
+# THREE residential values, and the difference between them is which market the
+# row came from rather than a shade of meaning.
+#
+#   Multifamily Rental   the source says rental
+#   Condo                the source says for-sale
+#   Residential          the source does not say
+#
+# Rental and for-sale are separate businesses with separate capital, and in
+# South Florida the sources state which: Miami's permit feed carries
+# MULTI-FAMILY (RENTAL) or MULTI-FAMILY (CONDO) as a work item, and the other
+# four cities' filings say so in words. So no South Florida row holds
+# "Residential" -- a blank where the record is explicit is a loss.
+#
+# Boston, Cambridge and Rhode Island DO keep "Residential", because their
+# sources do not make the distinction and splitting them would be a claim
+# those sources never made. That is why "Residential" is not folded globally
+# and why `canonical_asset_class` still accepts it.
+#
+# MIXED-USE means a real second programme, not a mixed ground floor. Retail
+# under a tower does not make the tower mixed-use -- almost every tower in
+# Miami has it, and classifying on it put 131 of 452 South Florida rows into
+# one indiscriminate bucket. See `scraper/sofl_asset_class.py` for the rule
+# that replaced it.
 
 # Non-canonical values seen in existing data -> canonical. Applied at ingestion
 # for every market, and by scraper/fold_asset_class.py to existing records.

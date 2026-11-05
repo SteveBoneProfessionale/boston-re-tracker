@@ -1,0 +1,2422 @@
+[
+ {
+  "id": 926,
+  "project": "652 NE 85 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD15003114001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 927,
+  "project": "40 SW NORTH RIVER DR",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Hotel",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD15008325001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: hotel",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 930,
+  "project": "2641 NW 24 CT",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD16014421001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 931,
+  "project": "1853 SW 7 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD16013152001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 932,
+  "project": "32 NW 14 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD16016300001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 934,
+  "project": "1635 NW 2 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD17001238001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 935,
+  "project": "1435 NW 1 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD16017609001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 937,
+  "project": "244 NW 16 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD17003951001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 938,
+  "project": "826 SW 12 CT",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD17008031001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 940,
+  "project": "7924 NE 2 AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD17010068001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 941,
+  "project": "321 NW 4 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD17010794001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 942,
+  "project": "Flow House",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD17011264001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 948,
+  "project": "1780 SW 5 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD17017808001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 949,
+  "project": "444 SW 7 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD17017066001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 952,
+  "project": "526 SW 2 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18000699001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 954,
+  "project": "30 NW 59 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18003155001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 955,
+  "project": "1542 NW 2 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18003525001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 956,
+  "project": "1552 NW 2 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18003527001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 957,
+  "project": "147 NW 59 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18005022001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 959,
+  "project": "136 NW 26 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Hotel",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18013750001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: hotel",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 960,
+  "project": "1555 SW 6 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18015131001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 961,
+  "project": "436 NE 35 TER",
+  "field": "asset_class",
+  "old": "Hotel",
+  "new": "Mixed-Use",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18016505001B001%27&outFields=*&f=pjson",
+  "why": "residential plus hotel, a real second programme",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 963,
+  "project": "830 Brickell",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Office",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18018113001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: office",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 964,
+  "project": "2320 NW 26 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18017726001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 965,
+  "project": "501 NE 61 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18018263001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 967,
+  "project": "1329 NW 3 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD19001894001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 969,
+  "project": "1241 NW 7 CT",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD19010442001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 970,
+  "project": "616 SW 7 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD19011343001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 973,
+  "project": "96 NE 65 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD19014732001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 974,
+  "project": "2600 Biscayne",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD19015454001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 977,
+  "project": "126 NW 10 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD19019225001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 978,
+  "project": "Mr. C Residences Coconut Grove",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD19021170001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 982,
+  "project": "255 NW 25 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Hotel",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20000541001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: hotel",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 983,
+  "project": "Uni Tower",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20001480001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 985,
+  "project": "200 E FLAGLER ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Office",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20006286001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: office",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 989,
+  "project": "1576 SW 2 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20007121001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 990,
+  "project": "636 SW 14 AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20007495001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 991,
+  "project": "134 NE 78 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20008873001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 992,
+  "project": "721 SW 11 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20012541001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 994,
+  "project": "1311 NW 5 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20012160001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 996,
+  "project": "5423 NE MIAMI CT",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20015180001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 997,
+  "project": "1336 SW 7 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20017558001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 998,
+  "project": "1158 NW 6 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20019487001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1000,
+  "project": "Havana Enclave",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20022201001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1001,
+  "project": "316 NW 13 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20022822001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1006,
+  "project": "1567 NW 1 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20025271001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1008,
+  "project": "1250 NW 36 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20026059001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1009,
+  "project": "Miami World Tower 1",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20025627001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1010,
+  "project": "Fourteen Allapattah Residences",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20025864001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1011,
+  "project": "1455 NW 35 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20025852001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1014,
+  "project": "650 SW 1 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20026566001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1015,
+  "project": "32 NW 77 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21001538001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1017,
+  "project": "3728 NW 19 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21010115001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1019,
+  "project": "1254 SW 2 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21011921001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1021,
+  "project": "1120 NW 29 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21011526001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1022,
+  "project": "The River District — Phase 1",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21011106001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1024,
+  "project": "Forma Miami",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21013681001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1025,
+  "project": "Society Wynwood",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21013237001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1026,
+  "project": "8106 NE 1 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21015455001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1027,
+  "project": "3702 NW 23 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21015486001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1028,
+  "project": "Modera Riverside",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21017039001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1030,
+  "project": "Wynwood Works",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21019028001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1031,
+  "project": "845 SW 8 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21019029001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1032,
+  "project": "1620 NW 18 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21018721001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1035,
+  "project": "The Wynwood Plaza — office tower",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21020944001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1036,
+  "project": "530 SW 11 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21021076001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1038,
+  "project": "1559 NW 15 STRD",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21022333001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1039,
+  "project": "WNWD21",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21022699001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1040,
+  "project": "Wynwood Diamedix — east building",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21022867001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1041,
+  "project": "610 NW 10 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21023937001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1043,
+  "project": "1601 SW 3 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21025333001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1044,
+  "project": "760 NW 21 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Industrial",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21025539001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: industrial",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1045,
+  "project": "91 NW 27 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21025466001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1046,
+  "project": "District 225",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21026999001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1048,
+  "project": "E11EVEN Club Hotel & Residences Miami",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21028574001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1049,
+  "project": "151 NE 82 TER",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21028818001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1051,
+  "project": "1441 NW 62 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24027528001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1052,
+  "project": "Aria Reserve Miami — South Tower",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21029545001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1053,
+  "project": "2320 NW 8 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21029666001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1054,
+  "project": "501 First Residences",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21030000001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1056,
+  "project": "3335 THOMAS AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22000893001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1057,
+  "project": "Amara Wynwood",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22002454001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1058,
+  "project": "1037 NW 2 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22003173001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1060,
+  "project": "Wynhouse Miami",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22004896001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1061,
+  "project": "84 SW 28 RD",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22005460001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1063,
+  "project": "Baccarat Residences Miami",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22006164001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1064,
+  "project": "3513 NW 5 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22006454001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1065,
+  "project": "3505 NW 5 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22006557001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1066,
+  "project": "1715 SW 37 AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22006533001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1068,
+  "project": "1163 NW 8 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22007817001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1069,
+  "project": "1547 NW 2 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22007931001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1071,
+  "project": "3069 PLAZA ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22008155001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1072,
+  "project": "1376 SW 4 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22008412001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1075,
+  "project": "169 NE 53 ST",
+  "field": "asset_class",
+  "old": "Hotel",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22009300001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1076,
+  "project": "1526 NW 2 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22009892001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1077,
+  "project": "1165 NW 8 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22010223001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1078,
+  "project": "244 NW 34 TER",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22009899001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1080,
+  "project": "1601 NW 15 STRD",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22010354001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1081,
+  "project": "Cipriani Residences Miami",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22010804001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1082,
+  "project": "Rhapsody at Rainbow Village",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22011051001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1083,
+  "project": "River Rapids",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22011628001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1084,
+  "project": "7522 NE 3 PL",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22011133001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1085,
+  "project": "351 NE 77 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22011135001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1086,
+  "project": "2815 SW 27 TER",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22012897001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1087,
+  "project": "2915 NW 36 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Industrial",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22013217001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: industrial",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1088,
+  "project": "222 Namdar Towers — Phase I",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22014447001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1090,
+  "project": "2267 NW 36 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22016256001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1094,
+  "project": "2241 NW 7 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22018087001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1096,
+  "project": "The Crosby Miami Worldcenter",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22018410001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1099,
+  "project": "NoMad Residences Wynwood",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22021700001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1101,
+  "project": "1190 NW 8 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22022324001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1102,
+  "project": "Casa Bella Residences by B&B Italia",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22023542001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1106,
+  "project": "3422 NW 5 AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22024640001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1107,
+  "project": "LOFTY Brickell (One Brickell Riverfront)",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22025768001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1109,
+  "project": "758 NW 2 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22026231001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1111,
+  "project": "843 NW 12 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22029203001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1113,
+  "project": "E11EVEN Club Residences Beyond",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22028869001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1115,
+  "project": "Mohawk at Wynwood",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22029540001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1116,
+  "project": "420 NE 72 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22029810001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1117,
+  "project": "90 NE 32 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22029468001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1118,
+  "project": "153 NW 25 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Office",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22030684001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: office",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1119,
+  "project": "2000 Wynwood",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22030590001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1120,
+  "project": "FIVESIXTY Waterfront Residences + Club",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22030713001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1121,
+  "project": "2521 NW 35 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23000854001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1124,
+  "project": "1698 NW 3 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23002556001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1125,
+  "project": "1900 SW 25 TER",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23001621001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1126,
+  "project": "Excel Miami",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23003086001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1128,
+  "project": "1500 NW NORTH RIVER DR",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23003373001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1129,
+  "project": "3631 NW 24 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23002744001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1132,
+  "project": "3332 NW 5 AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23004323001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1133,
+  "project": "The Residences at 1428 Brickell",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23005637001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1134,
+  "project": "304 NW 32 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23007807001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1137,
+  "project": "408 NW 32 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23008839001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1138,
+  "project": "Villa Miami",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23009076001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1139,
+  "project": "234 NW 34 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23010055001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1142,
+  "project": "8251 NE 1 PL",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23010452001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1144,
+  "project": "Downtown 6",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23010187001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1145,
+  "project": "97 NE 53 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23011035001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1147,
+  "project": "319 NW 35 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23012087001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1149,
+  "project": "1130 SW 22 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Hotel",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23012479001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: hotel",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1151,
+  "project": "1700 NW 33 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23013852001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1152,
+  "project": "4301 NW 7 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23013350001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1153,
+  "project": "600 Miami Worldcenter",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23015044001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1154,
+  "project": "Domus Brickell Park",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Hotel",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23016208001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: hotel",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1156,
+  "project": "Midtown 7",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23016341001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1157,
+  "project": "ENSO",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23016524001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1158,
+  "project": "154 SW 17 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23017192001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1159,
+  "project": "355 NW 31 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23017446001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1160,
+  "project": "455 SW 16 AV",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23017963001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1164,
+  "project": "33 NW 34 TER",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23020481001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1165,
+  "project": "78 NW 32 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23020494001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1167,
+  "project": "The Perrin",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23020012001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1168,
+  "project": "The Rider Residences",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23020919001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1169,
+  "project": "3407 ELIZABETH ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23021508001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1171,
+  "project": "3600 NE 1 AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23023663001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1173,
+  "project": "3021 NW 21 CT",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23024351001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1175,
+  "project": "River District 14",
+  "field": "asset_class",
+  "old": "Hotel",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23026274001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1176,
+  "project": "7101 BISCAYNE BLVD",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23027473001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1177,
+  "project": "222 Namdar Towers — Phase II",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23028187001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1178,
+  "project": "7950 NE 3 AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23028583001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1181,
+  "project": "3495 GRAND AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Office",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23029093001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: office",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1187,
+  "project": "5215 W FLAGLER ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23029763001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1188,
+  "project": "Residences in the Grove",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23029961001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1190,
+  "project": "84 NW 34 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23030081001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1192,
+  "project": "1480 NW 8 AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Office",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24002248001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: office",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1193,
+  "project": "38 West Eleventh Residences Miami",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24003027001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1194,
+  "project": "1900 SW 3 AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24008946001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1195,
+  "project": "2900 Terrace",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24009935001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1196,
+  "project": "259 NW 33 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24012391001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1197,
+  "project": "315 NW 32 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24015181001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1198,
+  "project": "2150 NW MIAMI CT",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Office",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24015343001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: office",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1202,
+  "project": "One West Twelve Residences",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24018702001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1206,
+  "project": "711 N MIAMI AV",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Office",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24024688001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: office",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1207,
+  "project": "7140 NE Miami Court self-storage",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Industrial",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24025336001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: industrial",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1208,
+  "project": "1401 Brickell by Santander",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Office",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24024742001B001%27&outFields=*&f=pjson",
+  "why": "pinned: 1401 Brickell by Santander has no residential component at all. Its master permit names office, retail, restaurant and recreation, so the automatic rule already yields Office; pinned because the review called it out and the value should not drift.",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1209,
+  "project": "112 NW 33 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24027589001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1210,
+  "project": "71 NW 33 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24027590001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1211,
+  "project": "Metro 2 at Edgewater",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24027768001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1212,
+  "project": "Dulce Vida Apartments",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25000255001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1214,
+  "project": "251 NW 33 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25001185001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1218,
+  "project": "1201 NW 63 ST",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25005139001B001%27&outFields=*&f=pjson",
+  "why": "residential with an office token only; the permit feed cannot tell a leasing office or bank branch from an office programme, so this stays residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1219,
+  "project": "Sense 22",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25007343001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1221,
+  "project": "1310 NW 1 PL",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25008427001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1223,
+  "project": "UniDos",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25010853001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1224,
+  "project": "1750 NW 15 STRD",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25011839001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1225,
+  "project": "320 NW 32 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25012513001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1228,
+  "project": "3121 MUNDY ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25021447001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1231,
+  "project": "400 NW 32 ST",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25026376001B001%27&outFields=*&f=pjson",
+  "why": "residential only",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1232,
+  "project": "Sweetbird North",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Office",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25028023001B001%27&outFields=*&f=pjson",
+  "why": "single major programme: office",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1234,
+  "project": "The Aurelian",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/10/empira-group-secures-81-million-construction-loan-for-the-aurelian-in-coral-gables.html",
+  "why": "described as a Class A multifamily rental building of 160 residences with no ground-floor retail, so there is not even a minor second use",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1235,
+  "project": "Ponce Park",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://floridayimby.com/2025/12/construction-starts-on-ponce-park-at-3000-ponce-de-leon-blvd-coral-gables-florida.html",
+  "why": "a mixed-use condominium of 58 residences over 22,000 sq ft of ground-floor retail; retail under a tower is not a second programme",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1244,
+  "project": "2501 Galiano Street",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Condo",
+  "source": "https://floridayimby.com/2024/10/13-story-traditional-condo-could-replace-closed-truist-bank-at-2501-galiano-st-coral-gables-fl.html",
+  "why": "93 units of which 85 are condominiums and eight are lodging units; eight keys out of 93 units is not a second programme, so the dominant use is for-sale residential",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1245,
+  "project": "Alexan Crafts",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2021/06/2255.html",
+  "why": "263 rental apartments and 22 live-work units over retail",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1248,
+  "project": "Ponce 8",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2025/08/shoma-group-proposes-ponce-8-for-3850-sw-8th-st-coral-gables-fl.html",
+  "why": "201 apartments, 40 per cent of them affordable to qualify for Live Local Act incentives, plus commercial space",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1290,
+  "project": "Downtown Doral Parking Garages & Retail Expansion",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Parking",
+  "source": "https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/",
+  "why": "no residential component at all: two parking garage expansions adding 487 spaces, with 10,967 sq ft of retail. The garages are the project -- they are its name -- so parking is the dominant use and the retail the minor one, which is the reverse of the order that holds for a Miami tower",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1288,
+  "project": "Sevilla at Downtown Doral",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/03/codina-partners-tops-out-7-story-405-unit-sevilla-at-downtown-doral.html",
+  "why": "described as a seven-storey rental building with a central garage, delivered in two phases, within the Downtown Doral community",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1301,
+  "project": "Doral Inn/ IMF Doral Residential Conversion Live L",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/",
+  "why": "a conversion of an existing hotel to multifamily residential for people aged 55 and up; age-restricted multifamily of this kind is rental, and the City's own parking calculation treats it as age-restricted multi-family housing under its rental standard",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1306,
+  "project": "Prime Square Doral",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Retail",
+  "source": "https://floridayimby.com/2026/09/pre-construction-begins-on-prime-square-doral-at-7200-nw-102nd-avenue-in-doral.html",
+  "why": "no residential component: a 58,000 sq ft commercial condominium of which approximately 40,000 sq ft is retail and restaurant and 18,000 sq ft office, so retail is the dominant use",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1311,
+  "project": "824 Alton Road",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2025/10/31-story-tower-with-workforce-housing-proposed-for-824-alton-rd-miami-beach-fl.html",
+  "why": "the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1312,
+  "project": "Reserve at One Sunset",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/09/new-york-based-developer-plans-20-story-reserve-at-one-sunset-for.html",
+  "why": "the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1313,
+  "project": "1575 Alton Road",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/09/42111.html",
+  "why": "the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure. Its commercial space is retail and not a second programme",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1315,
+  "project": "7410 Collins Avenue",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/09/11-story-mixed-use-development-approved-at-7410-collins-avenue-in-miami-beach.html",
+  "why": "50 rental residences over 8,535 sq ft of ground-floor retail, and the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1320,
+  "project": "1826 Collins Avenue",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/05/planning-board-approves-mechanical-parking-system-for-1826-collins-amid-neighbor-opposition-in-miami-beach.html",
+  "why": "29 residential units including 12 workforce housing apartments, and the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1326,
+  "project": "AVARA Residences",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2025/12/avara-residences-debut-at-3900-alton-road-with-178-rental-homes-in-miami-beach.html",
+  "why": "described as 178 rental homes",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1327,
+  "project": "1101 71st Street",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2025/11/developer-proposes-affordable-housing-development-for-1101-71st-st-miami-beach-fl-33141.html",
+  "why": "an affordable housing development, and the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1333,
+  "project": "1940 Park Avenue workforce housing",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/06/shuttered-hotel-could-be-replaced-with-workforce-housing-at-1940-park-ave-miami-beach-florida.html",
+  "why": "a workforce housing development, and the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1334,
+  "project": "Southgate Towers Live Local redevelopment",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://therealdeal.com/miami/2026/10/30/miami-beach-axes-38-story-live-local-act-project-over-zoning/",
+  "why": "the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure. It replaces two 14-storey, 495-unit apartment buildings",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1335,
+  "project": "1960 Normandy Drive",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://www.miamibeachfl.gov/city-hall/planning/approved-live-local-act-applications/",
+  "why": "the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1336,
+  "project": "663 Alton Road",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://www.miamibeachfl.gov/city-hall/planning/approved-live-local-act-applications/",
+  "why": "the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1337,
+  "project": "7401-7425 Harding Avenue",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://www.miamibeachfl.gov/city-hall/planning/approved-live-local-act-applications/",
+  "why": "the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1338,
+  "project": "810 Alton Road",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/",
+  "why": "the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1339,
+  "project": "42 Collins Avenue",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/",
+  "why": "the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1340,
+  "project": "709 Alton Road",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/",
+  "why": "the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1341,
+  "project": "1030 6th Street",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/",
+  "why": "the City's plan record describes 72 elderly workforce housing units with ground-floor retail, and the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1342,
+  "project": "425 Ocean Drive",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Mixed-Use",
+  "source": "https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/",
+  "why": "90 condominiums AND 60 workforce rental apartments, which is both tenures in one project -- the brief's own test for a real second programme",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1350,
+  "project": "120 South Dixie Highway",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://therealdeal.com/miami/2026/05/28/jeff-greene-plans-live-local-act-project-in-west-palm-beach/",
+  "why": "399 mixed-income apartments with roughly 7,550 sq ft of retail; about 160 of the apartments are for households at or below 120 per cent of AMI",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1351,
+  "project": "2085 North Flagler Drive",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Condo",
+  "source": "https://floridayimby.com/2026/06/developers-plan-two-31-story-towers-for-2085-n-flagler-dr-west-palm-beach-fl.html",
+  "why": "the City's coverage states the plans call for 281 condos",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1358,
+  "project": "The Sound Apartments",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/03/construction-nears-completion-on-the-sound-apartments-at-8111-south-dixie-highway-in-west-palm-beach.html",
+  "why": "358 residential units including 90 workforce housing apartments, with 4,000 sq ft of divisible retail",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1361,
+  "project": "534 Datura",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/09/two-developers-plan-25-story-534-datura-for-534-datura-st-west-palm-beach-fl.html",
+  "why": "a workforce housing tower of 261 residences, 40 per cent of them designated workforce housing",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1362,
+  "project": "2001 North Flagler Drive",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Condo",
+  "source": "https://floridayimby.com/2026/01/developers-propose-luxury-27-story-for-2001-n-flagler-dr-west-palm-beach-fl.html",
+  "why": "the coverage describes 90 condos with an average unit of 3,382 sq ft, and eight lower-level townhouses",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1364,
+  "project": "209 North Sapodilla Avenue",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/07/related-ross-revises-plans-for-affordable-housing-venture-at-209-n-sapodilla-ave-west-palm-beach-fl.html",
+  "why": "a two-building affordable housing development with units reserved for tenants earning 30, 50, 60 or 80 per cent of AMI, which are rental tiers",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1365,
+  "project": "501 Monceaux Road",
+  "field": "asset_class",
+  "old": "Mixed-Use",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/05/pebb-capital-proposes-eight-story-mixed-use-venture-for-501-monceaux-road-west-palm-beach-florida.html",
+  "why": "350 apartments with retail",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1366,
+  "project": "611 27th Street",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/04/seven-story-affordable-housing-project-proposed-for-611-27th-street-west-palm-beach-florida.html",
+  "why": "a seven-storey affordable housing project of 151 apartments",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1368,
+  "project": "Soleste Palm Station Two",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2026/05/15-story-soleste-palm-station-two-proposed-for-411-w-railroad-ave-west-palm-beach-fl.html",
+  "why": "described as 310 apartments",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1369,
+  "project": "Deco Northwood",
+  "field": "asset_class",
+  "old": "Residential",
+  "new": "Multifamily Rental",
+  "source": "https://floridayimby.com/2025/10/deco-northwood-proposed-for-2900-broadway-west-palm-beach-florida.html",
+  "why": "167 units, 40 per cent of them workforce housing, proposed under the Live Local Act. the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure",
+  "at": "2026-11-04"
+ },
+ {
+  "id": 1220,
+  "project": "Miami Freedom Park — commercial component",
+  "field": "name",
+  "old": "Miami Freedom Park — commercial component",
+  "new": "Miami Civic Center",
+  "source": "https://www.miami.gov/Notices/Events-Activities/City-of-Miami-to-Celebrate-the-Topping-Out-of-the-New-Miami-Civic-Center",
+  "why": "the row's permit, address, floor area and contractor all describe the City's administration building, not Miami Freedom Park LLC's commercial space",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1220,
+  "project": "Miami Civic Center",
+  "field": "developer",
+  "old": "Miami Freedom Park, LLC",
+  "new": "Adler Development",
+  "source": "https://www.miami.gov/Notices/Events-Activities/City-of-Miami-to-Celebrate-the-Topping-Out-of-the-New-Miami-Civic-Center",
+  "why": "the City's own notice names Adler Development; the previous value, Miami Freedom Park LLC, is the ground lessee of the OTHER parcels",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1220,
+  "project": "Miami Civic Center",
+  "field": "num_stories",
+  "old": "—",
+  "new": "8",
+  "source": "https://www.miami.gov/My-Government/Departments/Department-of-Real-Estate-Asset-Management-DREAM/New-City-of-Miami-Administration-Building",
+  "why": "the City's project page and Florida YIMBY both say eight storeys",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1220,
+  "project": "Miami Civic Center",
+  "field": "parking_spaces",
+  "old": "—",
+  "new": "889",
+  "source": "https://floridayimby.com/2025/01/city-of-miami-to-break-ground-on-eight-story-administration-building-at-miami-freedom-park.html",
+  "why": "an attached garage for 889 vehicles; the City's page says up to 900, and the specific figure is stored",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1203,
+  "project": "Miami Freedom Park — park",
+  "field": "name",
+  "old": "Miami Freedom Park — park",
+  "new": "Miami Freedom Park — stadium parking garage",
+  "source": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD24019509001B001%27&outFields=*&f=pjson",
+  "why": "the permit's work items are a parking garage and its contractor is a precast parking-structure builder; the actual park is a different permit that no row tracks",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1185,
+  "project": "Miami Freedom Park — stadium",
+  "field": "architect",
+  "old": "Arquitectonica",
+  "new": "—",
+  "source": "https://floridayimby.com/2025/01/city-of-miami-to-break-ground-on-eight-story-administration-building-at-miami-freedom-park.html",
+  "why": "Architect CLEARED. The only source ever cited for it on this row is Florida YIMBY's coverage of the eight-storey ADMINISTRATION BUILDING, as the row's own note recorded, so Arquitectonica was this site's Civic Center architect attributed to the wrong building. No acceptable source names an architect for this structure.",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1203,
+  "project": "Miami Freedom Park — stadium parking garage",
+  "field": "architect",
+  "old": "Arquitectonica",
+  "new": "—",
+  "source": "https://floridayimby.com/2025/01/city-of-miami-to-break-ground-on-eight-story-administration-building-at-miami-freedom-park.html",
+  "why": "Architect CLEARED. The only source ever cited for it on this row is Florida YIMBY's coverage of the eight-storey ADMINISTRATION BUILDING, as the row's own note recorded, so Arquitectonica was this site's Civic Center architect attributed to the wrong building. No acceptable source names an architect for this structure.",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1185,
+  "project": "Miami Freedom Park — stadium",
+  "field": "asset_class",
+  "old": "Retail",
+  "new": "Other",
+  "source": "",
+  "why": "a stadium is not retail: the permit's work items are STADIUM plus RECREATIONAL ESTABLISHMENT plus a retail token for the concourse retail, and the retail token is what had classified it",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1377,
+  "project": "Miami Freedom Park — One Heron (Phase 1 office)",
+  "field": "record created",
+  "old": "—",
+  "new": "Miami Freedom Park — One Heron (Phase 1 office)",
+  "source": "https://therealdeal.com/miami/2026/04/10/miami-freedom-park-retail-construction-kicks-off/",
+  "why": "split out of the row that is now Miami Civic Center, which held this project's name and developer against the Civic Center's permit, address, floor area and contractor",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1144,
+  "project": "Downtown 6",
+  "field": "building_height_ft",
+  "old": "576",
+  "new": "574",
+  "source": "https://floridayimby.com/2025/04/vertical-construction-underway-on-58-story-downtown-6th-in-miami.html",
+  "why": "the review's 574 ft is confirmed: the source states 574 feet ABOVE GROUND against 587 feet above sea level, and the stored 576 matched neither",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1107,
+  "project": "LOFTY Brickell (One Brickell Riverfront)",
+  "field": "name",
+  "old": "LOFTY Brickell (One Brickell Riverfront)",
+  "new": "LOFTY Brickell",
+  "source": "https://floridayimby.com/2023/12/newgard-development-group-appoints-g-t-mcdonald-enterprises-inc-as-general-contractor-for-44-story-lofty-brickell.html",
+  "why": "the parenthetical '(One Brickell Riverfront)' merged two projects into one name",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1107,
+  "project": "LOFTY Brickell",
+  "field": "residential_units",
+  "old": "363",
+  "new": "362",
+  "source": "https://floridayimby.com/2023/12/newgard-development-group-appoints-g-t-mcdonald-enterprises-inc-as-general-contractor-for-44-story-lofty-brickell.html",
+  "why": "the review's 362 is confirmed by the developer's own general-contractor announcement; the stored 363 came from a two-project round-up",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1107,
+  "project": "LOFTY Brickell",
+  "field": "building_height_ft",
+  "old": "—",
+  "new": "574",
+  "source": "https://floridayimby.com/2022/07/faa-permits-filed-for-44-story-lofty-brickell-tower-at-99-sw-7th-street-in-miami-170-million-construction-loan-secured.html",
+  "why": "574 ft above ground from the FAA filing, against 579 above sea level",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1107,
+  "project": "LOFTY Brickell",
+  "field": "general_contractor",
+  "old": "GT CONSTRUCTION & DEVELOPMENT INC",
+  "new": "G.T. McDonald Enterprises, Inc.",
+  "source": "https://floridayimby.com/2023/12/newgard-development-group-appoints-g-t-mcdonald-enterprises-inc-as-general-contractor-for-44-story-lofty-brickell.html",
+  "why": "the review's G.T. McDonald Enterprises is confirmed by a dedicated announcement of the appointment. The master permit on this row names GT Construction & Development Inc, but that permit belongs to a DIFFERENT tower — see the note",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1162,
+  "project": "The St. Regis Residences, Miami",
+  "field": "architect",
+  "old": "Robert A.M. Stern Architects",
+  "new": "Cohen Freedman Encinosa & Associates Architects",
+  "source": "https://floridayimby.com/2023/06/developers-seek-udrb-approval-for-48-story-st-regis-residences-miami.html",
+  "why": "the review is right and this follows the project's existing architect-of-record rule: the source names Robert A.M. Stern Architects as the designer and Cohen Freedman Encinosa as the architect OF RECORD, and the field holds the architect of record",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 976,
+  "project": "Okan Tower",
+  "field": "residential_units",
+  "old": "—",
+  "new": "399",
+  "source": "https://floridayimby.com/2026/04/construction-reaches-50th-floor-on-okan-tower-at-555-north-miami-avenue-in-downtown-miami.html",
+  "why": "the review's rule is to count every residential unit including condo-hotel units, so the 163 Sky Residences and the 236 condo-hotel residences are both counted; the 316 Hilton keys are not units and stay in the hotel field",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1180,
+  "project": "The Residences at Mandarin Oriental, Miami — South Tower",
+  "field": "neighborhood",
+  "old": "—",
+  "new": "Brickell Key",
+  "source": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270142070030020%27&outFields=*&f=pjson",
+  "why": "the tower sits on Brickell Key, folio 0142070030020, and its sibling North Tower on the same island already carried the value; the field was blank",
+  "at": "2026-11-05"
+ }
+]

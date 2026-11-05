@@ -40,6 +40,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from db.database import get_session, init_db       # noqa: E402
 from db.models import Project, ExtractionSource    # noqa: E402
+from scraper import sofl_changelog as clog         # noqa: E402
 
 COLUMNS = {
     "name": "name",
@@ -69,10 +70,17 @@ NOT_CONSTRUCTION = re.compile(
 # sentence like "secured $69.4 million from Deutsche Bank to build a retail
 # center" is construction financing as plainly as one that uses the phrase,
 # and requiring the literal words rejected several correctly-quoted findings.
+#
+# "to begin construction" is here for the same reason and is deliberately
+# narrow: begin, commence and start only. "to COMPLETE construction" is NOT
+# accepted, because a bridge loan for completion and lease-up says exactly
+# that -- 222 Namdar's Phase I facility is one -- and accepting it would let
+# the NOT_CONSTRUCTION guard be talked out of a correct rejection.
 CONSTRUCTION = re.compile(
     r"construction (?:loan|financing|facility|funding|package|debt)|"
     r"c-?pace.{0,40}construction|"
     r"to (?:fund|finance|build|construct|develop)\b|"
+    r"to (?:begin|commence|start)\s+construction\b|"
     r"towards? (?:building|construct)|go toward building|"
     r"(?:loan|financing|facility)[^.]{0,60}\bto build\b|"
     r"build(?:ing)? loan", re.I)
@@ -124,12 +132,18 @@ def _above_ground(n, q):
         # "856 feet AGL" is the FAA's own way of saying above ground level, and
         # it is the most explicit form of the statement this guard looks for.
         rf"(?:{near})\s*(?:foot|feet|ft)\.?\s*AGL\b|"
-        rf"(?:rise|rises|rising|reaching|stands?|top(?:s|ping)? out at)[^.]{{0,20}}(?:{near})",
+        # "top off at 574-feet" and "tops out at", both common in FAA coverage.
+        rf"(?:rise|rises|rising|reaching|stands?|"
+        rf"top(?:s|ped|ping)?\s+(?:off|out)\s+at)[^.]{{0,20}}(?:{near})",
         re.I)
     if not idiom.search(q):
         return False
-    # The sea-level clause must be about some other figure.
-    for m in re.finditer(r"([\d,]+)\s*(?:feet|ft\.?)?\s*above (?:mean )?sea level", q, re.I):
+    # The sea-level clause must be about some other figure. The separator is
+    # [-\s]* rather than \s* because the same sources write "579-feet above
+    # sea level" with a hyphen, and missing that would let an AMSL figure
+    # through as though no sea-level clause mentioned it.
+    for m in re.finditer(r"([\d,]+)[-\s]*(?:feet|ft\.?)?[-\s]*above (?:mean )?sea level",
+                         q, re.I):
         if int(m.group(1).replace(",", "")) == n:
             return False
     return True
@@ -143,7 +157,7 @@ def _tokens(value: str):
             if len(w) > 2 and w.lower() not in stop]
 
 
-def check(field, value, quote, url):
+def check(field, value, quote, url, addends=None):
     """"" if the finding may be stored, else why it may not."""
     if value in (None, "", "not found"):
         return "empty"
@@ -165,12 +179,30 @@ def check(field, value, quote, url):
                 return (f"quote mentions {hit.group(0)!r}, so it does not establish "
                         f"that this building has none")
             return ""
+        n = int(float(value))
+        if addends:
+            # A DECLARED SUM. The review's rule is to count every residential
+            # unit including condo-hotel units, and sources routinely print the
+            # components without a total -- "236 condo-hotel residences ... 163
+            # Sky Residences" and no 399 anywhere. Refusing the total made the
+            # field blank on exactly the towers it matters most for; accepting
+            # a bare total would be the arithmetic this validator exists to
+            # stop. So the addends are declared, EACH must appear in the quote,
+            # and they must actually add up to the value. The sum is then the
+            # source's own figures and only the addition is mine.
+            if sum(addends) != n:
+                return (f"declared components {addends} total {sum(addends)}, "
+                        f"not {n}")
+            missing = [a for a in addends
+                       if not re.search(rf"(?<!\d){a:,}(?!\d)|(?<!\d){a}(?!\d)", q)]
+            if missing:
+                return f"component figure(s) {missing} do not appear in the quoted sentence"
+            return ""
         # The figure itself must appear in the sentence -- as digits, with or
         # without a thousands separator, or spelled out. Storey counts are
         # routinely written as words ("the six-story medical center", "nine
         # stories above grade"), and requiring digits rejected those as
         # invented when they were quoted correctly.
-        n = int(float(value))
         forms = [rf"(?<!\d){n:,}(?!\d)", rf"(?<!\d){n}(?!\d)"]
         if n in WORD_NUMBERS:
             forms.append(rf"\b{WORD_NUMBERS[n]}\b")
@@ -223,6 +255,9 @@ def apply(path, dry_run=False, verbose=True):
     db = get_session()
     stored = rejected = 0
     report = []
+    # Every value this writes is recorded in the review's change log, so the
+    # log cannot drift from the database.
+    entries = clog.load()
     try:
         for item in findings:
             row = db.get(Project, int(item["id"]))
@@ -261,7 +296,8 @@ def apply(path, dry_run=False, verbose=True):
                     report.append(("UNKNOWN FIELD", row.name, field, "not a storable field"))
                     continue
                 src = _source_for(sources, field)
-                why = check(field, value, quotes.get(field), src.get("url"))
+                why = check(field, value, quotes.get(field), src.get("url"),
+                            (item.get("sum_of") or {}).get(field))
                 if why == "empty":
                     continue
                 if why:
@@ -282,6 +318,10 @@ def apply(path, dry_run=False, verbose=True):
                         continue
                     report.append(("SUPERSEDED", row.name, field,
                                    f"{existing!r} -> {value!r}"))
+                clog.record(entries, row.id, row.name, COLUMNS[field],
+                            existing, value, src.get("url") or "",
+                            item.get("why", {}).get(field, "") if isinstance(
+                                item.get("why"), dict) else "")
                 if not dry_run:
                     setattr(row, COLUMNS[field], value)
                     db.flush()
@@ -304,6 +344,8 @@ def apply(path, dry_run=False, verbose=True):
             db.commit()
     finally:
         db.close()
+    if not dry_run:
+        clog.save(entries)
 
     if verbose:
         for kind, name, field, detail in report:

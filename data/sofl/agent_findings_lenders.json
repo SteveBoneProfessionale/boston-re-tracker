@@ -1,0 +1,88 @@
+[
+ {"id": 1070, "name": "Waldorf Astoria Hotel & Residences Miami",
+  "values": {"lender": "Bank OZK; Related Fund Management"},
+  "sources": {"lender": {"name": "Commercial Observer, 14 Jun 2024", "date": "2024-06-14",
+    "url": "https://commercialobserver.com/2024/06/pmg-waldorf-astoria-hotel-residences-miami-bank-ozk/"}},
+  "notes": "CONSTRUCTION LENDER: both parties retained on one $668m facility, the largest residential condominium construction loan in Florida history. The source gives the split — $425m from Bank OZK as the sole senior secured lender, with Related Fund Management funding the remaining balance — which implies Related's roughly $243m is subordinate, but NO acceptable source labels it mezzanine or preferred equity, and Florida YIMBY of 21 Jul 2025 describes the whole facility as a $668 million construction loan from Bank OZK and Related Fund Management. Treated as one construction facility with senior and subordinate tranches. Borrower is a PMG-led joint venture with Greybrook.",
+  "quotes": {"lender": "Here comes another record South Florida construction loan: A PMG-led joint venture scored $668 million from Bank OZK and Related Fund Management to complete the Waldorf Astoria Hotel & Residences Miami, which could become one of the tallest U.S. buildings south of New York."}},
+
+ {"id": 1133, "name": "The Residences at 1428 Brickell",
+  "values": {"lender": "J.P. Morgan; Sculptor Real Estate"},
+  "sources": {"lender": {"name": "Bisnow, 3 Nov 2025", "date": "2025-11-03",
+    "url": "https://www.bisnow.com/news/south-florida/deal-sheet/ytech-secures-565m-construction-loan-for-brickell-condo-project-the-south-florida-deal-sheet-131687"}},
+  "notes": "CONSTRUCTION LENDER: one $565m construction facility with senior and junior tranches, NOT a senior loan plus a separate mezzanine loan — Florida YIMBY of 4 Nov 2025 states that J.P. Morgan is serving as the senior lender with Sculptor Real Estate as the junior lender, and Bisnow says the two combined to provide the single construction loan. So both are recorded. Bisnow styles the senior lender JPMorgan Chase while Florida YIMBY and The Real Deal use J.P. Morgan. REJECTED on this project: a $78m Linkvest Capital facility of March 2024, which was a refinancing of the $20m acquisition loan during pre-construction.",
+  "quotes": {"lender": "JPMorgan Chase and Sculptor Real Estate have combined to provide a $565M construction loan to Ytech for the 70-story Residences at 1428 Brickell tower, the developer announced Monday."}},
+
+ {"id": 1193, "name": "38 West Eleventh Residences Miami",
+  "values": {"lender": "GoldenTree Asset Management"},
+  "sources": {"lender": {"name": "Commercial Observer, 1 Apr 2025", "date": "2025-04-01",
+    "url": "https://commercialobserver.com/2025/04/pmg-goldentree-e11even-miami-construction-financing/"}},
+  "notes": "Confirmed as already recorded. A $215m single senior construction loan with no mezzanine or other tranche reported. Borrower is PMG with Lion Development Group and Marc Roberts Companies.",
+  "quotes": {"lender": "PMG and some of the owners of the E11even nightclub have landed a $215 million construction loan from GoldenTree Asset Management for yet another condo tower near Downtown Miami after nearly selling out the planned units."}},
+
+ {"id": 1153, "name": "600 Miami Worldcenter",
+  "values": {"lender": "Banco Inbursa"},
+  "sources": {"lender": {"name": "Florida YIMBY, 8 Apr 2026", "date": "2026-04-08",
+    "url": "https://floridayimby.com/2026/04/glass-installation-and-exterior-finishing-progress-on-600-miami-worldcenter-in-downtown-miami.html"}},
+  "notes": "Confirmed as already recorded. A $95m construction loan, sole lender, no mezzanine piece. The original announcement is Commercial Observer of 5 Feb 2024. Newmark was the broker and is not a lender.",
+  "quotes": {"lender": "Banco Inbursa provided the $95 million construction loan for the project."}},
+
+ {"id": 1219, "name": "Sense 22",
+  "values": {"lender": "S3 Capital"},
+  "sources": {"lender": {"name": "Commercial Observer, 8 Jul 2026", "date": "2026-07-08",
+    "url": "https://commercialobserver.com/2026/07/s3-capital-miami-apartments/"}},
+  "notes": "CONSTRUCTION LENDER: a $111m three-year construction loan to HA Emprendimientos for the 36-storey, 328-unit tower at 114-138 NE 22nd Street, Edgewater. REJECTED on this project: an earlier land-and-predevelopment mortgage on the same site, which is excluded by kind and names no lender in any case. IMPORTANT: this is the loan that search engines misattribute to the Mandarin Oriental towers — see the note on those rows.",
+  "quotes": {"lender": "Argentine developer HA Emprendimientos has sealed $111 million of construction financing to build a luxury multifamily tower in Miami, Commercial Observer has learned. S3 Capital provided the loan for the 36-story Sense 22 project in Miami's Edgewater neighborhood."}},
+
+ {"id": 1081, "name": "Cipriani Residences Miami",
+  "values": {"lender": "Banco Inbursa; Ascendant Capital Partners"},
+  "sources": {"lender": {"name": "Florida YIMBY, 9 Feb 2024", "date": "2024-02-09",
+    "url": "https://floridayimby.com/2024/02/record-breaking-600-million-loan-secured-for-80-story-cipriani-residences-miami-ahead-of-groundbreaking.html"}},
+  "notes": "CONSTRUCTION LENDER: both parties sit on the same $600m senior construction facility, split $350m from Banco Inbursa and $250m from Ascendant Capital Partners, so both are recorded. No mezzanine or preferred-equity piece is reported. Borrower is Mast Capital.",
+  "quotes": {"lender": "The developer has secured a record-breaking construction loan of $600 million from Mexico's Banco Inbursa and Ascendant Capital Partners, the largest amount ever obtained for a single-tower residential construction in Florida."}},
+
+ {"id": 1107, "name": "LOFTY Brickell (One Brickell Riverfront)", "values": {}, "sources": {},
+  "notes": "LENDER LEFT AS STORED (Carlyle Group), and the reason is that this row turns out to describe TWO projects. Its master permit BD22025768001B001 is at 600 SW 1 AV, folio 102051790010, NEW CONSTRUCTION, 853,887 sq ft, $156,263,351, contractor GT Construction & Development Inc, ISSUED 18 SEPTEMBER 2025, with work items DOCK, MULTI-FAMILY (CONDO), GENERAL OFFICE, GENERAL RETAIL, CONDO HOTEL and PARKING GARAGE. There is no NEW CONSTRUCTION master permit at 99 SW 7 ST at all. A permit issued in September 2025 cannot be the tower whose $170m construction loan from 3650 REIT closed in July 2022, so the permit, address, floor area and contractor on this row describe the later One Brickell Riverfront tower, while the 363 units and 44 storeys stored against it are sourced to an article about the LOFTY Brickell tower. The stored Carlyle Group lender is consistent with the permit rather than the units: it comes from Commercial Observer of 1 Oct 2025 on the Newgard and Two Roads Brickell financing, weeks after this permit issued. So the $170m 3650 REIT facility is NOT recorded here — it belongs to the LOFTY tower, which may need a record of its own. Note also that Florida YIMBY called the October 2025 package's $370m senior piece an undisclosed private lender while Commercial Observer names Carlyle Group; Commercial Observer is the more specific acceptable source and is what the row holds. Its $143m companion piece is a mezzanine loan from 3650 Capital and is excluded by kind."},
+
+ {"id": 1162, "name": "The St. Regis Residences, Miami",
+  "values": {"lender": "Tyko Capital"},
+  "sources": {"lender": {"name": "Commercial Observer, 5 Sep 2024", "date": "2024-09-05",
+    "url": "https://commercialobserver.com/2024/09/related-group-integra-st-regis-miami/"}},
+  "notes": "CONSTRUCTION LENDER: a $527m senior construction loan, among the largest residential construction loans in South Florida history, to Related Group and Integra Investments. Reported as a single facility with no senior/junior split and no mezzanine or preferred-equity piece. Corroborated by Florida YIMBY of 7 Sep 2024, which styles the lender TYKO Capital. Tyko Capital is backed by Elliott Investment Management.",
+  "quotes": {"lender": "The construction loan from Tyko Capital will cover a 50-story development housing 152 units at 1809 Brickell Avenue, facing Biscayne Bay."}},
+
+ {"id": 1177, "name": "222 Namdar Towers — Phase II",
+  "values": {"lender": "SCALE Lending"},
+  "sources": {"lender": {"name": "Florida YIMBY, 20 Mar 2026", "date": "2026-03-20",
+    "url": "https://floridayimby.com/2026/03/vertical-construction-begins-on-phase-ii-of-downtown-miamis-222-namdar-towers.html"}},
+  "notes": "CONSTRUCTION LENDER, and NOT Phase I's facility copied across — that was the specific question. In late 2025 Namdar Group took a $460m package from SCALE Lending split evenly between the phases, and the two halves are DIFFERENT INSTRUMENTS: Phase I's $230m is a bridge loan for completion and lease-up, which is excluded by kind, while Phase II's $230m is explicitly a construction loan. So SCALE is the Phase II construction lender on the strength of the 2025 facility. Bisnow of 4 Nov 2025 confirms the tranche addresses, Phase I at 55 NE 2nd Street and Phase II at 50 NE 3rd Street. ALSO REJECTED: SCALE's 2022 facility on this phase, which was a $172m site acquisition and development loan within a $195m cross-collateralised package, plus a $23m land loan.",
+  "quotes": {"lender": "The development is backed by substantial funding from SCALE Lending, the debt financing arm of Slate Property Group. In late 2025, Namdar Group secured a $460 million financing package split evenly between the two phases. This included a $230 million bridge loan allocated toward the completion and lease-up of Phase I, as well as a separate $230 million construction loan for Phase II."}},
+
+ {"id": 1182, "name": "JEM Miami Worldcenter",
+  "values": {"lender": "Bank Hapoalim (BHI)"},
+  "sources": {"lender": {"name": "Florida YIMBY, 26 Nov 2025", "date": "2025-11-26",
+    "url": "https://floridayimby.com/2025/11/naftali-group-secures-465-million-in-construction-financing-for-jem-private-residences.html"}},
+  "notes": "CONSTRUCTION LENDER: the $465m package is TWO facilities, not one — $235m of C-PACE from Nuveen Green Capital plus $230m of traditional construction loans from BHI. Only BHI is recorded, because the same article has Nuveen's own chief executive describing the C-PACE as working in combination with BHI's SENIOR CONSTRUCTION LOAN, which identifies which facility is the construction loan. REJECTED on this project: the $235m Nuveen C-PACE as a separate facility; a $35m BHI predevelopment loan of Aug 2024; and a $40m Nuveen C-PACE of Jan 2025, superseded by the November package. Borrower is Naftali Group.",
+  "quotes": {"lender": "Nuveen Green Capital (NGC), a leader in sustainable commercial real estate financing solutions and an affiliate of Nuveen, provided $235 million in C-PACE financing, while Bank Hapoalim (BHI) supplied an additional $230 million in traditional construction loans."}},
+
+ {"id": 976, "name": "Okan Tower", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LENDER RECORDED, and this was a judgement call worth stating. The only construction-side facility that exists for this tower is a $200m C-PACE loan from Bayview PACE, the Bayview Commercial Mortgage Finance programme, closed January 2026. Commercial Observer calls it outright the first construction financing for the project, which would pass the test. It is refused because C-PACE is not the construction lender: Florida YIMBY describes the same facility as supporting qualifying energy efficiency, water conservation, building envelope and resiliency components and completing the capital stack. Recording Bayview as the lender for a 72-storey tower would tell a reader that Bayview is financing the building, which is not what the facility does. No conventional senior construction loan for Okan Tower exists in any acceptable source, which implies the vertical work through 2022 to 2025 was equity-funded. The figure and the reasoning are kept here so the call can be reversed by anyone who disagrees."},
+
+ {"id": 1144, "name": "Downtown 6", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, and no facility of any kind. The project is Melo Group's 58- to 60-storey, 824-unit rental tower at 46 NE 6th Street, through affiliate 6 Plaza II LLC — it is NOT a Miami Worldcenter project. Florida YIMBY has four articles on it, covering the plan filing, the UDRB approval, the start of vertical construction and the topping out, and none mentions a loan, a lender or financing; The Real Deal, Commercial Observer and Bisnow carry no financing coverage. This is consistent with Melo Group's documented pattern of equity-building its downtown rental towers and refinancing after stabilisation, but no source states that for this project either way."},
+
+ {"id": 1156, "name": "Midtown 7", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED, and no facility of any kind. The developer entity on the FAA letter is PPF AMLI 3001 NE 1st Avenue, LLC, a PPF and PGIM open-end fund vehicle with AMLI Residential, which is consistent with fund equity rather than announced third-party construction debt. Florida YIMBY has exactly three articles — site acquisition, redesign and FAA height approval — and none mentions a loan. The only money figure in the record is the $30.5m site purchase price, which is an equity acquisition and not a loan. REJECTED: a $45m Bank OZK construction loan that surfaces in searches belongs to The Standard Residences, Midtown Miami, a different project by Rosso Development, and has since been repaid."},
+
+ {"id": 1179, "name": "The Residences at Mandarin Oriental, Miami — North Tower", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED for either Mandarin Oriental tower. All Florida YIMBY coverage was checked including the October 2026 groundbreaking, the September 2026 sitework start and the April 2026 implosion pieces, plus The Real Deal, Commercial Observer and Bisnow: the groundbreaking article contains no sentence about financing, loans or lenders at all, only more than $1.7bn in presales. Funding appears to be Swire sponsor equity plus buyer deposits, and Swire has been selling other Miami assets with proceeds stated as helping fund this project. A FALSE POSITIVE TO AVOID: search engines repeatedly assert a $111m construction loan from S3 Capital for this project, citing a Real Deal permits round-up. That is wrong — the S3 loan is Sense 22's, borrower HA Emprendimientos. The round-up headline covers the Mandarin Oriental AND a separate Live Local high-rise, and summarisers merge the two items. The only Mandarin figure in it is a $240m construction PERMIT valuation, which is not a loan."},
+
+ {"id": 1180, "name": "The Residences at Mandarin Oriental, Miami — South Tower", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED. Same research and the same S3 Capital false positive as the North Tower — the $111m loan that searches attach to this project is Sense 22's, not this one."},
+
+ {"id": 1208, "name": "1401 Brickell by Santander", "values": {}, "sources": {},
+  "notes": "NO CONSTRUCTION LOAN REPORTED in any acceptable source. Banco Santander owns the site and is building for its own occupancy, so the project appears to be balance-sheet funded with no third-party construction lender. Florida YIMBY's groundbreaking article and site-work permit article carry no financing detail, and neither does The Real Deal, Commercial Observer or Bisnow coverage across 2024 to 2026. The only money publicly attached is equity and incentive rather than debt: a $6m State of Florida High-Impact Sector Performance Grant against a $630m Santander capital-investment commitment. A FALSE POSITIVE TO AVOID: searches surface a $65m Banco Santander loan on a Brickell site, which is Claudio Fischer's different parcel with Santander as the LENDER, not a loan on this project."},
+
+ {"id": 1223, "name": "UniDos", "values": {}, "sources": {},
+  "notes": "NO QUALIFYING CONSTRUCTION LENDER. A facility does exist but the reporting neither establishes it as construction financing nor names an originating lender. Bisnow of 3 Mar 2026 says only that the $190m project is supported by a $130m loan from the U.S. Department of Housing and Urban Development, a $27m grant and $15m in tax increment financing from the Omni Community Redevelopment Agency, and separately that the HUD loan has a finalising target date in April with construction work to start soon after. Neither sentence says the facility IS construction financing. It is very likely a HUD 221(d)(4) construction-to-permanent insured loan originated through a HUD-approved lender, but no acceptable source names that lender or characterises the debt as construction financing. The grant and the tax increment financing are not loans. REJECTED: a $61m Walker & Dunlop-arranged facility that surfaces in searches belongs to the adjoining earlier Uni Tower phase."}
+]

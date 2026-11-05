@@ -8,12 +8,12 @@ A blank is one of three things and is never printed as an empty space: **not fou
 
 | City | Projects | Units known | of residential-bearing | Height in feet | Storeys | Hotel keys |
 | --- | --: | --: | --: | --: | --: | --: |
-| Miami | 313 | 75 | 75 of 262 | 46 | 77 | 6 |
+| Miami | 314 | 76 | 76 of 251 | 47 | 78 | 6 |
 | Miami Beach | 35 | 25 | 25 of 34 | 7 | 28 | 4 |
 | West Palm Beach | 30 | 25 | 25 of 28 | 8 | 27 | 3 |
 | Coral Gables | 17 | 17 | 17 of 17 | 12 | 15 | 0 |
-| Doral | 57 | 11 | 11 of 26 | 9 | 13 | 2 |
-| **All five** | **452** | **153** | **153 of 367** | **82** | **160** | **15** |
+| Doral | 57 | 11 | 11 of 24 | 9 | 13 | 2 |
+| **All five** | **453** | **154** | **154 of 354** | **83** | **161** | **15** |
 
 Height in feet is the thinnest field in this market and will stay that way: the trade press prints storey counts and prints feet only when a project reaches a board approval that states one. Where feet are unpublished the storey count usually is not, which is why both columns are shown. The FAA Digital Obstacle File was calibrated as a bulk source for the missing feet and REJECTED at a 53 per cent hit rate — see scraper/sofl_faa_heights.py; it would have written 395 ft onto the 1,049 ft Waldorf Astoria, that being a 2018 survey of the building demolished to make room for it.
 
@@ -25,102 +25,102 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 | --- | --- | --- | --- | --: | --: | --: | --: |
 | Waldorf Astoria Hotel & Residences Miami | Miami | Under Construction | Mixed-Use | 387 | 205 | 1,049 ft | 100 |
 | 130 Biscayne Boulevard | Miami | Planning | Mixed-Use | 414 | 144 | 955 ft | 87 |
-| Cipriani Residences Miami | Miami | Under Construction | Mixed-Use | 397 | — | 950 ft | 80 |
-| Okan Tower | Miami | Under Construction | Mixed-Use | — | 316 | 902 ft | 72 |
+| Cipriani Residences Miami | Miami | Under Construction | Condo | 397 | — | 950 ft | 80 |
+| Okan Tower | Miami | Under Construction | Mixed-Use | 399 | 316 | 902 ft | 72 |
 | 619 Brickell Avenue | Miami | Planning | Mixed-Use | 321 | — | 886 ft | 75 |
-| The Residences at 1428 Brickell | Miami | Under Construction | Mixed-Use | 195 | — | 861 ft | 70 |
+| The Residences at 1428 Brickell | Miami | Under Construction | Condo | 195 | — | 861 ft | 70 |
 | The Residences at Mandarin Oriental, Miami — South Tower | Miami | Under Construction | Condo | 228 | — | 856 ft | 66 |
-| Baccarat Residences Miami | Miami | Under Construction | Mixed-Use | 355 | — | 848 ft | 75 |
-| 1401 Brickell by Santander | Miami | Under Construction | Mixed-Use | none | — | 765 ft | 50 |
-| 830 Brickell | Miami | Complete | Mixed-Use | none | — | 724 ft | 57 |
-| E11EVEN Club Residences Beyond | Miami | Under Construction | Mixed-Use | 550 | — | 700 ft | 65 |
-| E11EVEN Club Hotel & Residences Miami | Miami | Complete | Mixed-Use | 457 | — | 700 ft | 65 |
+| Baccarat Residences Miami | Miami | Under Construction | Condo | 355 | — | 848 ft | 75 |
+| 1401 Brickell by Santander | Miami | Under Construction | Office | none | — | 765 ft | 50 |
+| 830 Brickell | Miami | Complete | Office | none | — | 724 ft | 57 |
+| E11EVEN Club Residences Beyond | Miami | Under Construction | Condo | 550 | — | 700 ft | 65 |
+| E11EVEN Club Hotel & Residences Miami | Miami | Complete | Condo | 457 | — | 700 ft | 65 |
 | JEM Miami Worldcenter | Miami | Under Construction | Mixed-Use | 273 | — | 700 ft | 67 |
-| Casa Bella Residences by B&B Italia | Miami | Complete | Mixed-Use | 319 | — | 650 ft | 56 |
-| Villa Miami | Miami | Under Construction | Mixed-Use | 70 | — | 650 ft | 56 |
+| Casa Bella Residences by B&B Italia | Miami | Complete | Condo | 319 | — | 650 ft | 56 |
+| Villa Miami | Miami | Under Construction | Condo | 70 | — | 650 ft | 56 |
 | Aria Reserve Miami — North Tower | Miami | Complete | Condo | 391 | — | 649 ft | 62 |
-| Aria Reserve Miami — South Tower | Miami | Complete | Mixed-Use | 383 | — | 649 ft | 62 |
+| Aria Reserve Miami — South Tower | Miami | Complete | Condo | 383 | — | 649 ft | 62 |
 | Missoni Baia | Miami | Complete | Condo | 249 | — | 649 ft | 57 |
-| The River District — Phase 1 | Miami | Complete | Mixed-Use | 632 | — | 640 ft | 54 |
+| The River District — Phase 1 | Miami | Complete | Multifamily Rental | 632 | — | 640 ft | 54 |
 | The St. Regis Residences, Miami | Miami | Under Construction | Condo | 152 | — | 632 ft | 47 |
 | Natiivo Miami | Miami | Complete | Mixed-Use | 448 | 240 | 588 ft | 51 |
-| Miami World Tower 1 | Miami | Complete | Mixed-Use | 560 | — | 579 ft | 53 |
+| Miami World Tower 1 | Miami | Complete | Multifamily Rental | 560 | — | 579 ft | 53 |
 | Una Residences | Miami | Complete | Condo | 129 | — | 579 ft | 47 |
-| Downtown 6 | Miami | Under Construction | Mixed-Use | 824 | — | 576 ft | 60 |
-| 1575 Alton Road | Miami Beach | Planning | Mixed-Use | 63 | — | 557 ft | 19 |
-| 2600 Biscayne | Miami | Complete | Mixed-Use | 400 | — | 521 ft | 41 |
-| FIVESIXTY Waterfront Residences + Club | Miami | Under Construction | Mixed-Use | 114 | — | 497 ft | 38 |
-| 38 West Eleventh Residences Miami | Miami | Under Construction | Mixed-Use | 659 | — | 482 ft | 44 |
+| Downtown 6 | Miami | Under Construction | Multifamily Rental | 824 | — | 574 ft | 60 |
+| LOFTY Brickell | Miami | Under Construction | Condo | 362 | — | 574 ft | 44 |
+| 1575 Alton Road | Miami Beach | Planning | Multifamily Rental | 63 | — | 557 ft | 19 |
+| 2600 Biscayne | Miami | Complete | Condo | 400 | — | 521 ft | 41 |
+| FIVESIXTY Waterfront Residences + Club | Miami | Under Construction | Multifamily Rental | 114 | — | 497 ft | 38 |
+| 38 West Eleventh Residences Miami | Miami | Under Construction | Condo | 659 | — | 482 ft | 44 |
 | One Brickell Tower II | Miami | Complete | Condo | 506 | — | 478 ft | 47 |
 | Rybovich Marina redevelopment | West Palm Beach | Approved | Mixed-Use | 660 | — | 461 ft | 36 |
-| 222 Namdar Towers — Phase I | Miami | Complete | Mixed-Use | 680 | — | 450 ft | 43 |
-| 501 First Residences | Miami | Complete | Mixed-Use | 476 | — | 440 ft | 40 |
-| Forma Miami | Miami | Complete | Mixed-Use | 588 | — | 428 ft | 39 |
-| Flow House | Miami | Complete | Mixed-Use | 466 | — | 413 ft | 40 |
-| Modera Riverside | Miami | Complete | Mixed-Use | 428 | — | 410 ft | 36 |
-| District 225 | Miami | Complete | Mixed-Use | 343 | — | 394 ft | 37 |
-| Sense 22 | Miami | Under Construction | Residential | 328 | — | 381 ft | 36 |
+| 222 Namdar Towers — Phase I | Miami | Complete | Multifamily Rental | 680 | — | 450 ft | 43 |
+| 501 First Residences | Miami | Complete | Condo | 476 | — | 440 ft | 40 |
+| Forma Miami | Miami | Complete | Condo | 588 | — | 428 ft | 39 |
+| Flow House | Miami | Complete | Multifamily Rental | 466 | — | 413 ft | 40 |
+| Modera Riverside | Miami | Complete | Multifamily Rental | 428 | — | 410 ft | 36 |
+| District 225 | Miami | Complete | Condo | 343 | — | 394 ft | 37 |
+| Sense 22 | Miami | Under Construction | Multifamily Rental | 328 | — | 381 ft | 36 |
 | The Mandarin Oriental Residences, West Palm Beach | West Palm Beach | Approved | Condo | 87 | — | 380 ft | 31 |
-| The Crosby Miami Worldcenter | Miami | Complete | Mixed-Use | 450 | — | 376 ft | 33 |
+| The Crosby Miami Worldcenter | Miami | Complete | Condo | 450 | — | 376 ft | 33 |
 | South Flagler House | West Palm Beach | Under Construction | Condo | 105 | — | 373 ft | 28 |
-| 2900 Terrace | Miami | Under Construction | Mixed-Use | 324 | — | 362 ft | 32 |
-| Midtown 7 | Miami | Under Construction | Mixed-Use | 389 | — | 352 ft | 31 |
-| 600 Miami Worldcenter | Miami | Under Construction | Mixed-Use | 606 | — | 330 ft | 32 |
+| 2900 Terrace | Miami | Under Construction | Multifamily Rental | 324 | — | 362 ft | 32 |
+| Midtown 7 | Miami | Under Construction | Multifamily Rental | 389 | — | 352 ft | 31 |
+| 600 Miami Worldcenter | Miami | Under Construction | Condo | 606 | — | 330 ft | 32 |
 | 1250 West Avenue | Miami Beach | Approved | Condo | 106 | — | 330 ft | 28 |
 | Olara | West Palm Beach | Under Construction | Condo | 275 | — | 329 ft | 26 |
 | 1501 Collins Avenue | Miami Beach | Planning | Mixed-Use | 124 | — | 325 ft | 25 |
-| Metro 2 at Edgewater | Miami | Under Construction | Mixed-Use | 103 | 60 | 320 ft | 28 |
+| Metro 2 at Edgewater | Miami | Under Construction | Multifamily Rental | 103 | 60 | 320 ft | 28 |
 | Residences at 464 Fern Street | West Palm Beach | Planning | Residential | 194 | — | 316 ft | 25 |
-| The Perrin | Miami | Under Construction | Mixed-Use | 310 | — | 313 ft | 26 |
+| The Perrin | Miami | Under Construction | Multifamily Rental | 310 | — | 313 ft | 26 |
 | Shorecrest | West Palm Beach | Under Construction | Condo | 98 | — | 306 ft | 28 |
 | Palm Beach Atlantic University residence hall | West Palm Beach | Under Construction | Institutional | 275 | — | 300 ft | 25 |
-| Excel Miami | Miami | Under Construction | Residential | 427 | — | 275 ft | 24 |
-| 1826 Collins Avenue | Miami Beach | Approved | Mixed-Use | 29 | — | 213 ft | 15 |
+| Excel Miami | Miami | Under Construction | Multifamily Rental | 427 | — | 275 ft | 24 |
+| 1826 Collins Avenue | Miami Beach | Approved | Multifamily Rental | 29 | — | 213 ft | 15 |
 | Doral International Towers (Trump) | Doral | Approved | Mixed-Use | 1,498 | — | 210 ft | 20 |
-| River District 14 | Miami | Under Construction | Hotel | 283 | — | 180 ft | 16 |
-| Ponce 8 | Coral Gables | Planning | Mixed-Use | 201 | — | 175 ft | 16 |
+| River District 14 | Miami | Under Construction | Condo | 283 | — | 180 ft | 16 |
+| Ponce 8 | Coral Gables | Planning | Multifamily Rental | 201 | — | 175 ft | 16 |
 | Gables Village (University of Miami Housing Phase 3) | Coral Gables | Approved | Institutional | 429 | — | 141 ft | — |
 | 6100 Caballero Boulevard | Coral Gables | Planning | Residential | 251 | — | 140 ft | 13 |
-| Fourteen Allapattah Residences | Miami | Complete | Mixed-Use | 237 | — | 135 ft | 14 |
-| The Aurelian | Coral Gables | Under Construction | Residential | 160 | — | 130 ft | 12 |
+| Fourteen Allapattah Residences | Miami | Complete | Multifamily Rental | 237 | — | 135 ft | 14 |
+| The Aurelian | Coral Gables | Under Construction | Multifamily Rental | 160 | — | 130 ft | 12 |
 | Ella Miami Beach | Miami Beach | Under Construction | Condo | 103 | — | 130 ft | 10 |
 | The Mark | Coral Gables | Approved | Mixed-Use | 393 | — | 105 ft | 8 |
 | Crystal Residences | Coral Gables | Planning | Mixed-Use | 184 | — | 93 ft | 9 |
-| Amara Wynwood | Miami | Complete | Mixed-Use | 210 | — | 92 ft | 8 |
-| Deco Northwood | West Palm Beach | Planning | Residential | 167 | — | 84 ft | 8 |
-| Dulce Vida Apartments | Miami | Under Construction | Residential | 227 | — | 80 ft | 8 |
+| Amara Wynwood | Miami | Complete | Multifamily Rental | 210 | — | 92 ft | 8 |
+| Deco Northwood | West Palm Beach | Planning | Multifamily Rental | 167 | — | 84 ft | 8 |
+| Dulce Vida Apartments | Miami | Under Construction | Multifamily Rental | 227 | — | 80 ft | 8 |
 | Hyatt Hotel | Doral | Approved | Hotel | — | 124 | 78.50 ft | 6 |
-| Alexan Crafts | Coral Gables | Approved | Mixed-Use | 263 | — | 77 ft | 7 |
+| Alexan Crafts | Coral Gables | Approved | Multifamily Rental | 263 | — | 77 ft | 7 |
 | Legacy at Doral (EWE Warehouse) | Doral | Approved | Residential | 185 | — | 62.33 ft | — |
 | Miami International Mall redevelopment | Doral | Planning | Residential | 900 | — | — | 6 |
 | Midtown PUD Phase II Modification | Doral | Approved | Mixed-Use | 734 | — | — | — |
-| 222 Namdar Towers — Phase II | Miami | Under Construction | Mixed-Use | 714 | — | — | 43 |
+| 222 Namdar Towers — Phase II | Miami | Under Construction | Multifamily Rental | 714 | — | — | 43 |
 | The Oasis at Doral | Doral | Approved | Mixed-Use | 623 | — | — | 9 |
-| River Rapids | Miami | Complete | Residential | 593 | — | — | 12 |
+| River Rapids | Miami | Complete | Multifamily Rental | 593 | — | — | 12 |
 | Doral Parc (Midtown Doral Phases IV, V and VI) | Doral | Approved | Mixed-Use | 552 | — | — | 10 |
-| Southgate Towers Live Local redevelopment | Miami Beach | Planning | Residential | 442 | — | — | 38 |
-| Sevilla at Downtown Doral | Doral | Under Construction | Residential | 405 | — | — | 7 |
-| 120 South Dixie Highway | West Palm Beach | Planning | Mixed-Use | 399 | — | — | 25 |
-| UniDos | Miami | Under Construction | Mixed-Use | 398 | — | — | 31 |
+| Southgate Towers Live Local redevelopment | Miami Beach | Planning | Multifamily Rental | 442 | — | — | 38 |
+| Sevilla at Downtown Doral | Doral | Under Construction | Multifamily Rental | 405 | — | — | 7 |
+| 120 South Dixie Highway | West Palm Beach | Planning | Multifamily Rental | 399 | — | — | 25 |
+| UniDos | Miami | Under Construction | Multifamily Rental | 398 | — | — | 31 |
 | Doral City Place 7 | Doral | Approved | Residential | 391 | — | — | 8 |
 | Hazel Doral (ZOM / Westside Live Local Act) | Doral | Under Construction | Mixed-Use | 380 | — | — | 7 |
-| One West Twelve Residences | Miami | Under Construction | Mixed-Use | 372 | — | — | 23 |
-| LOFTY Brickell (One Brickell Riverfront) | Miami | Under Construction | Mixed-Use | 363 | — | — | 44 |
-| The Sound Apartments | West Palm Beach | Under Construction | Mixed-Use | 358 | — | — | 8 |
-| 501 Monceaux Road | West Palm Beach | Planning | Mixed-Use | 350 | — | — | 8 |
-| NoMad Residences Wynwood | Miami | Complete | Mixed-Use | 329 | — | — | 9 |
+| One West Twelve Residences | Miami | Under Construction | Condo | 372 | — | — | 23 |
+| The Sound Apartments | West Palm Beach | Under Construction | Multifamily Rental | 358 | — | — | 8 |
+| 501 Monceaux Road | West Palm Beach | Planning | Multifamily Rental | 350 | — | — | 8 |
+| NoMad Residences Wynwood | Miami | Complete | Condo | 329 | — | — | 9 |
 | Soleste Palm Station | West Palm Beach | Under Construction | Residential | 321 | — | — | 8 |
-| Society Wynwood | Miami | Complete | Mixed-Use | 318 | — | — | 10 |
-| Rhapsody at Rainbow Village | Miami | Under Construction | Mixed-Use | 310 | — | — | — |
-| 2000 Wynwood | Miami | Under Construction | Mixed-Use | 310 | — | — | 12 |
-| Soleste Palm Station Two | West Palm Beach | Planning | Residential | 310 | — | — | 15 |
-| Wynhouse Miami | Miami | Complete | Mixed-Use | 308 | — | — | 8 |
-| WNWD21 | Miami | Complete | Mixed-Use | 304 | — | — | 12 |
-| Mohawk at Wynwood | Miami | Under Construction | Mixed-Use | 300 | — | — | 12 |
-| 2085 North Flagler Drive | West Palm Beach | Planning | Residential | 281 | — | — | 31 |
+| Society Wynwood | Miami | Complete | Multifamily Rental | 318 | — | — | 10 |
+| Rhapsody at Rainbow Village | Miami | Under Construction | Multifamily Rental | 310 | — | — | — |
+| 2000 Wynwood | Miami | Under Construction | Multifamily Rental | 310 | — | — | 12 |
+| Soleste Palm Station Two | West Palm Beach | Planning | Multifamily Rental | 310 | — | — | 15 |
+| Wynhouse Miami | Miami | Complete | Multifamily Rental | 308 | — | — | 8 |
+| WNWD21 | Miami | Complete | Multifamily Rental | 304 | — | — | 12 |
+| Mohawk at Wynwood | Miami | Under Construction | Multifamily Rental | 300 | — | — | 12 |
+| 2085 North Flagler Drive | West Palm Beach | Planning | Condo | 281 | — | — | 31 |
 | 71 NoBe | Miami Beach | Approved | Mixed-Use | 277 | — | — | — |
-| 534 Datura | West Palm Beach | Planning | Residential | 261 | — | — | 25 |
-| Uni Tower | Miami | Complete | Mixed-Use | 252 | — | — | 29 |
+| 534 Datura | West Palm Beach | Planning | Multifamily Rental | 261 | — | — | 25 |
+| Uni Tower | Miami | Complete | Multifamily Rental | 252 | — | — | 29 |
 | NoBe PARC Miami Beach | Miami Beach | Planning | Condo | 232 | — | — | 15 |
 | 5250 Condo Tower Phase 2 | Doral | Approved | Condo | 228 | — | — | 20 |
 | 7200 Collins | Miami Beach | Under Construction | Condo | 222 | — | — | 12 |
@@ -128,31 +128,31 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 | 208 NE 78 ST | Miami | Under Construction | Condo | 191 | — | — | 12 |
 | Parkside Residences | Miami | Under Construction | Mixed-Use | 187 | — | — | 8 |
 | Alida Residences and Tribute Portfolio by Marriott Hotel | West Palm Beach | Under Construction | Mixed-Use | 181 | 112 | — | 21 |
-| Havana Enclave | Miami | Under Construction | Mixed-Use | 179 | — | — | — |
-| AVARA Residences | Miami Beach | Complete | Residential | 178 | — | — | 8 |
+| Havana Enclave | Miami | Under Construction | Multifamily Rental | 179 | — | — | — |
+| AVARA Residences | Miami Beach | Complete | Multifamily Rental | 178 | — | — | 8 |
 | Cassia | Coral Gables | Under Construction | Condo | 174 | — | — | 12 |
-| Domus Brickell Park | Miami | Complete | Mixed-Use | 171 | — | — | 12 |
+| Domus Brickell Park | Miami | Complete | Hotel | 171 | — | — | 12 |
 | Edgeworth | West Palm Beach | Planning | Condo | 168 | — | — | 28 |
-| 209 North Sapodilla Avenue | West Palm Beach | Planning | Residential | 164 | — | — | 7 |
-| The Rider Residences | Miami | Under Construction | Mixed-Use | 152 | — | — | 12 |
-| 611 27th Street | West Palm Beach | Planning | Residential | 151 | — | — | 7 |
-| 824 Alton Road | Miami Beach | Planning | Residential | 149 | — | — | 39 |
+| 209 North Sapodilla Avenue | West Palm Beach | Planning | Multifamily Rental | 164 | — | — | 7 |
+| The Rider Residences | Miami | Under Construction | Condo | 152 | — | — | 12 |
+| 611 27th Street | West Palm Beach | Planning | Multifamily Rental | 151 | — | — | 7 |
+| 824 Alton Road | Miami Beach | Planning | Multifamily Rental | 149 | — | — | 39 |
 | Atelier Residences Miami | Miami | Under Construction | Hotel | 148 | — | — | 10 |
-| Residences in the Grove | Miami | Under Construction | Mixed-Use | 148 | — | — | — |
+| Residences in the Grove | Miami | Under Construction | Condo | 148 | — | — | — |
 | Mr. C Hotel & Residences West Palm Beach | West Palm Beach | Under Construction | Mixed-Use | 146 | 110 | — | 27 |
 | The Alton | Miami Beach | Planning | Mixed-Use | 142 | — | — | 14 |
 | The Ritz-Carlton Residences, West Palm Beach | West Palm Beach | Under Construction | Condo | 138 | — | — | 27 |
 | 72 Carlyle | Miami Beach | Planning | Condo | 134 | — | — | 20 |
 | Regency Parc | Coral Gables | Complete | Residential | 126 | — | — | 20 |
 | PALMA Miami Beach Residences | Miami Beach | Under Construction | Condo | 121 | — | — | 14 |
-| Wynwood Works | Miami | Complete | Residential | 120 | — | — | 12 |
+| Wynwood Works | Miami | Complete | Multifamily Rental | 120 | — | — | 12 |
 | Seventeen Gables Residences | Coral Gables | Under Construction | Condo | 117 | — | — | 8 |
 | LILLI | Miami | Planning | Condo | 117 | — | — | 53 |
 | View 29 | Miami | Under Construction | Mixed-Use | 116 | — | — | 12 |
-| Mr. C Residences Coconut Grove | Miami | Complete | Mixed-Use | 112 | — | — | 21 |
-| Doral Inn/ IMF Doral Residential Conversion Live L | Doral | Approved | Residential | 112 | — | — | — |
+| Mr. C Residences Coconut Grove | Miami | Complete | Condo | 112 | — | — | 21 |
+| Doral Inn/ IMF Doral Residential Conversion Live L | Doral | Approved | Multifamily Rental | 112 | — | — | — |
 | 75 Broadway | Miami | Planning | Condo | 106 | — | — | 52 |
-| 1940 Park Avenue workforce housing | Miami Beach | Planning | Residential | 105 | — | — | 6 |
+| 1940 Park Avenue workforce housing | Miami Beach | Planning | Multifamily Rental | 105 | — | — | 6 |
 | 2200 Brickell | Miami | Complete | Condo | 103 | — | — | 5 |
 | The Residences at Mandarin Oriental, Miami — North Tower | Miami | Under Construction | Mixed-Use | — | 121 | — | 33 |
 | Hotel at NW 53 Terrace and Paseo Boulevard | Doral | Planning | Hotel | — | 168 | — | 8 |
@@ -161,7 +161,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 
 ## Random sample by city
 
-## Miami — random 10 of 313
+## Miami — random 10 of 314
 
 ### 123 NW 14 ST
 - **Address:** 123 NW 14 ST
@@ -179,7 +179,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 1336 SW 7 ST
 - **Parcel id:** 0141020066420
 - **Status:** Under Construction
-- **Asset class:** Residential   **Neighbourhood:** Latin Quarter
+- **Asset class:** Multifamily Rental   **Neighbourhood:** Latin Quarter
 - Developer: not found   |   Architect: not found   |   General contractor: RH BUILDER LLC   |   Civil engineer: not found   |   Lender: not found
 - Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 13,618
 - **Completion basis:** permit_active
@@ -191,7 +191,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 1526 NW 2 ST
 - **Parcel id:** 0141020058700
 - **Status:** Under Construction
-- **Asset class:** Residential   **Neighbourhood:** Orange Bowl
+- **Asset class:** Multifamily Rental   **Neighbourhood:** Orange Bowl
 - Developer: not found   |   Architect: not found   |   General contractor: FERROM5 General Contractors  INC.   |   Civil engineer: not found   |   Lender: not found
 - Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 14,589
 - **Completion basis:** permit_active
@@ -276,7 +276,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 845 SW 8 ST
 - **Parcel id:** 0141380032361
 - **Status:** Under Construction
-- **Asset class:** Residential   **Neighbourhood:** East Little Havana
+- **Asset class:** Multifamily Rental   **Neighbourhood:** East Little Havana
 - Developer: not found   |   Architect: not found   |   General contractor: MANAGEMENT & CONSULTING INC   |   Civil engineer: not found   |   Lender: not found
 - Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 149,431
 - **Completion basis:** permit_active
@@ -290,7 +290,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 1030 6 St
 - **Parcel id:** 0242030097860
 - **Status:** Planning
-- **Asset class:** Residential   **Neighbourhood:** FlamingoLummus
+- **Asset class:** Multifamily Rental   **Neighbourhood:** FlamingoLummus
 - Developer: not found   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 72   |   Height: not found (5 storeys known)   |   Stories: 5   |   Total sq ft: not found
 - **Sources (5 field citations, 4 distinct):**
@@ -304,7 +304,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 1101 71st St
 - **Parcel id:** not found
 - **Status:** Planning
-- **Asset class:** Residential   **Neighbourhood:** not found
+- **Asset class:** Multifamily Rental   **Neighbourhood:** not found
 - Developer: Jerika Properties   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 98   |   Height: not found   |   Stories: not found   |   Total sq ft: 116,000
 - **Sources (4 field citations, 1 distinct):**
@@ -315,7 +315,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 1826 Collins Ave
 - **Parcel id:** 0232340190050
 - **Status:** Approved
-- **Asset class:** Mixed-Use   **Neighbourhood:** CityCenter
+- **Asset class:** Multifamily Rental   **Neighbourhood:** CityCenter
 - Developer: Crescent Heights (Russell Galbut); Lefferts (Mendy Chudaitov)   |   Architect: Built Form Architecture   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 29   |   Height: 213 ft   |   Stories: 15   |   Total sq ft: not found
 - **Sources (8 field citations, 3 distinct):**
@@ -328,7 +328,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 1940 Park Ave
 - **Parcel id:** 0232340160110
 - **Status:** Planning
-- **Asset class:** Residential   **Neighbourhood:** CityCenter
+- **Asset class:** Multifamily Rental   **Neighbourhood:** CityCenter
 - Developer: The Peebles Corp.   |   Architect: Brooks + Scarpa Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 105   |   Height: not found (6 storeys known)   |   Stories: 6   |   Total sq ft: not found
 - **Sources (7 field citations, 4 distinct):**
@@ -365,7 +365,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 824 Alton Rd
 - **Parcel id:** 0242030010530
 - **Status:** Planning
-- **Asset class:** Residential   **Neighbourhood:** FlamingoLummus
+- **Asset class:** Multifamily Rental   **Neighbourhood:** FlamingoLummus
 - Developer: Crescent Heights   |   Architect: RSP Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 149   |   Height: not found (39 storeys known)   |   Stories: 39   |   Total sq ft: not found
 - **Sources (7 field citations, 4 distinct):**
@@ -379,7 +379,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 3900 Alton Rd
 - **Parcel id:** 0232220460010
 - **Status:** Complete
-- **Asset class:** Residential   **Neighbourhood:** BayShore
+- **Asset class:** Multifamily Rental   **Neighbourhood:** BayShore
 - Developer: Mast Capital; Rockpoint   |   Architect: Arquitectonica   |   General contractor: Kaufman Lynn Construction   |   Civil engineer: not found   |   Lender: PNC Bank
 - Residential units: 178   |   Height: not found (8 storeys known)   |   Stories: 8   |   Total sq ft: not found
 - **Completion basis:** leasing_active  (2025-12)
@@ -425,7 +425,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 2001 N Flagler Dr
 - **Parcel id:** 74434310190060110
 - **Status:** Planning
-- **Asset class:** Residential   **Neighbourhood:** not found
+- **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: Related Group; BH Group   |   Architect: Arquitectonica   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 90   |   Height: not found (27 storeys known)   |   Stories: 27   |   Total sq ft: 480,000
 - **Sources (7 field citations, 3 distinct):**
@@ -438,7 +438,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 2085 N Flagler Dr
 - **Parcel id:** 74434310190060070
 - **Status:** Planning
-- **Asset class:** Residential   **Neighbourhood:** not found
+- **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: Terra; BH Group   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 281   |   Height: not found (31 storeys known)   |   Stories: 31   |   Total sq ft: 440,000
 - **Sources (6 field citations, 1 distinct):**
@@ -449,7 +449,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 209 N Sapodilla Ave
 - **Parcel id:** 74434321010380010
 - **Status:** Planning
-- **Asset class:** Residential   **Neighbourhood:** NORTHWEST RESIDENTS IN ACTION
+- **Asset class:** Multifamily Rental   **Neighbourhood:** NORTHWEST RESIDENTS IN ACTION
 - Developer: Related Ross   |   Architect: MSA Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 164   |   Height: not found (7 storeys known)   |   Stories: 7   |   Total sq ft: not found
 - **Sources (7 field citations, 3 distinct):**
@@ -485,7 +485,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 2900 Broadway
 - **Parcel id:** 74434309050210100
 - **Status:** Planning — **Denied** (dead)
-- **Asset class:** Residential   **Neighbourhood:** not found
+- **Asset class:** Multifamily Rental   **Neighbourhood:** not found
 - Developer: The Prime Company   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 167   |   Height: 84 ft   |   Stories: 8   |   Total sq ft: not found
 - **Sources (7 field citations, 3 distinct):**
@@ -535,7 +535,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 8111 S Dixie Hwy
 - **Parcel id:** 74434416400020000
 - **Status:** Under Construction
-- **Asset class:** Mixed-Use   **Neighbourhood:** SOUTH END NEIGHBORHOOD ASSOCIATION
+- **Asset class:** Multifamily Rental   **Neighbourhood:** SOUTH END NEIGHBORHOOD ASSOCIATION
 - Developer: Woodfield Development; Flagler Realty & Development Inc.   |   Architect: Spina O'Rourke + Partners   |   General contractor: Verdex Construction   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 358   |   Height: not found (8 storeys known)   |   Stories: 8   |   Total sq ft: not found
 - **Completion basis:** news_confirmed
@@ -551,7 +551,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 2501 Galiano St
 - **Parcel id:** 0341170051020
 - **Status:** Planning
-- **Asset class:** Mixed-Use   **Neighbourhood:** not found
+- **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: not found   |   Architect: Bermello Ajamil Partners   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 93   |   Height: 177 ft   |   Stories: 13   |   Total sq ft: 98,335
 - **Sources (7 field citations, 1 distinct):**
@@ -614,7 +614,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 3000 Ponce de Leon Blvd
 - **Parcel id:** 0341170057170
 - **Status:** Under Construction
-- **Asset class:** Mixed-Use   **Neighbourhood:** not found
+- **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: The Allen Morris Co.   |   Architect: Zyscovich Architects   |   General contractor: KAST Construction   |   Civil engineer: not found   |   Lender: Bank OZK
 - Residential units: 58   |   Height: not found (11 storeys known)   |   Stories: 11   |   Total sq ft: not found
 - **Completion basis:** news_confirmed
@@ -766,9 +766,9 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Address:** 7200 NW 102 Ave
 - **Parcel id:** not found
 - **Status:** Permitting
-- **Asset class:** Mixed-Use   **Neighbourhood:** not found
+- **Asset class:** Retail   **Neighbourhood:** not found
 - Developer: Rieber Developments; Berca Development Group   |   Architect: PPK Architect   |   General contractor: Vandrak Construction   |   Civil engineer: Fortin, Leavy, Skiles   |   Lender: not found
-- Residential units: not found   |   Height: 51.67 ft   |   Stories: 3   |   Total sq ft: 58,000
+- Residential units: not applicable   |   Height: 51.67 ft   |   Stories: 3   |   Total sq ft: 58,000
 - **Sources (8 field citations, 2 distinct):**
     - Florida YIMBY, 19 Sep 2026 — https://floridayimby.com/2026/09/pre-construction-begins-on-prime-square-doral-at-7200-nw-102nd-avenue-in-doral.html
     - City of Doral, City Council Memo — Prime Square Site Plan (file 25-6428) — https://legistar1.granicus.com/Doral/attachments/83ae3e80-4346-47a1-b6ae-42d2f6cb0280.docx
