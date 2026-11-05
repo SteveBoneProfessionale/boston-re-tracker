@@ -173,6 +173,54 @@ def main():
         w(f"| {r['address']} | {r['city']} | ${r['price']:,} | "
           f"{r['asset_class']} | {proj} |")
 
+    w("\n## Sponsor resolution\n")
+    res_b = one("select count(*) from transactions where " + LIVE +
+                " and coalesce(buyer_canonical,'') <> ''")
+    res_s = one("select count(*) from transactions where " + LIVE +
+                " and coalesce(seller_canonical,'') <> ''")
+    w(f"| Side | Resolved to a firm | Entity of record | Rows |")
+    w("|---|---:|---:|---:|")
+    w(f"| Buyer | {res_b} | {live - res_b} | {live} |")
+    w(f"| Seller | {res_s} | {live - res_s} | {live} |")
+    w("\nA resolution needs either a trade-press article about THIS deal, or "
+      "two independent signals that agree — a registered manager, a c/o on "
+      "the deed, a chain of managers followed up to an operating company. One "
+      "clue alone never resolves, and an entity that does not resolve keeps "
+      "its own name and is marked as the entity of record.\n")
+
+    w("\n### Top buyers by deal count, grouped by firm\n")
+    w("A firm that bought through several single-purpose vehicles counts "
+      "once, with all its deals.\n")
+    w("| Firm | Deals | Volume |")
+    w("|---|---:|---:|")
+    for r in q("select buyer_canonical f, count(*) n, sum(price) v "
+               "from transactions where " + LIVE +
+               " and coalesce(buyer_canonical,'') <> '' "
+               "group by f order by n desc, v desc limit 10"):
+        w(f"| {r['f']} | {r['n']} | ${r['v']:,} |")
+
+    w("\n### Ten resolutions, with their sources\n")
+    w("Seeded, so this is a checkable sample rather than a chosen one.\n")
+    res = [dict(r) for r in q(
+        "select address, city, price, buyer, buyer_canonical, "
+        "buyer_resolution_basis, buyer_resolution_url, seller, "
+        "seller_canonical, seller_resolution_basis, seller_resolution_url "
+        "from transactions where " + LIVE +
+        " and (coalesce(buyer_canonical,'') <> '' or "
+        "coalesce(seller_canonical,'') <> '')")]
+    flat = []
+    for r in res:
+        for side in ("buyer", "seller"):
+            if (r.get(f"{side}_canonical") or "").strip():
+                flat.append((side, r))
+    rng2 = random.Random(SEED)
+    for n, (side, r) in enumerate(rng2.sample(flat, min(10, len(flat))), 1):
+        w(f"**{n}. {r[side + '_canonical']}** — {side} of {r['address']}, "
+          f"{r['city']}, ${r['price']:,}  ")
+        w(f"entity of record: `{r[side] or '(none published)'}`  ")
+        w(f"basis: {r[side + '_resolution_basis']}  ")
+        w(f"source: {r[side + '_resolution_url']}\n")
+
     w("\n## Random sample of ten\n")
     w(f"Seeded ({SEED}), so the sample is reproducible and checkable rather "
       f"than chosen.\n")

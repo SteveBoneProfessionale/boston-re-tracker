@@ -7,7 +7,8 @@ here, so it is handled first and explicitly:
     Miami, 2026, at or above $5M:  513 parcel rows  ->  189 deeds
 
 The price is repeated IN FULL on every parcel a deed touches. One deed in that
-set -- Brookfield's sale of the Mr. C condo-hotel at 3000 Florida Avenue --
+set -- Brookfield's sale of the Mayfair House Hotel & Garden at 3000 Florida
+Avenue, Coconut Grove --
 covers 185 separate folios, each carrying $69,400,000. Treating rows as deals
 would report that one transaction as $12.8 BILLION of volume. So a deed is
 grouped once, its price taken once, and its parcels' areas, units and land
@@ -25,7 +26,8 @@ where a code alone cannot decide:
    residential condos and 179 condo-hotel units cleared $5M in these four
    Miami-Dade cities this year, and every one is a home or a hotel room, not an
    acquisition. But when ONE DEED takes five or more at once, a building has
-   changed hands -- the Mr. C sale is exactly that, and so is El Ad buying 25
+   changed hands -- the Mayfair House sale is exactly that, and so is El Ad
+   buying 25
    units at 3265 Virginia Street for $45.5M. So the bulk test is on the deed,
    not the parcel, and BULK_MIN records where the line sits.
 

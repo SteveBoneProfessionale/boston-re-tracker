@@ -120,7 +120,13 @@ def _widths(display: pd.DataFrame) -> dict:
     out = {}
     for col in display.columns:
         render = _CELL.get(col, str)
-        longest = max((_text_px(render(v)) for v in display[col]), default=0.0)
+        # A two-line cell is as wide as its WIDEST LINE, not as wide as both
+        # lines joined -- measuring the joined string would roughly double the
+        # party columns and push the price off the screen.
+        def _widest(v, _r=render):
+            return max((_text_px(part) for part in str(_r(v)).splitlines() or [""]),
+                       default=0.0)
+        longest = max((_widest(v) for v in display[col]), default=0.0)
         header = _text_px(col) + _HEADER_ICON
         out[col] = max(_MIN, math.ceil(max(longest, header) + _CELL_PAD + _SLACK))
     return out
@@ -134,6 +140,14 @@ RESOLUTION_MARK = {
     "pattern_matched":    ("◈", "from the entity's naming convention"),
     "web_corroborated":   ("◇", "from a named publication"),
     "human_set":          ("✎", "set by hand"),
+    # The two bases the South Florida work produces. press_reported shares the
+    # ◇ of web_corroborated because it IS that -- a named publication -- and a
+    # separate glyph for the same kind of evidence would imply a distinction
+    # that is not there. two_signals takes ◈ because, like a naming
+    # convention, it is an inference from records rather than a report of the
+    # deal.
+    "press_reported":     ("◇", "named by trade press reporting this deal"),
+    "two_signals":        ("◈", "two independent registry signals agree"),
 }
 
 # The party named on the instrument, where no sponsor has been resolved behind
@@ -147,6 +161,14 @@ RECORD_MARK = ("○", "the entity on the instrument; no sponsor resolved")
 # Trimmed here and verbatim on the row detail, which is where a name gets
 # compared against a registry character by character.
 _ENTITY_MAX = 34
+
+
+# Rendered as two lines in one cell: the firm, then the entity the deed names.
+# Streamlit's grid wraps a cell's text when the row is tall enough, so TABLE_ROW_H
+# below is what makes the second line appear rather than being clipped. If a
+# build ever collapses the newline the cell degrades to "Firm  Entity" on one
+# line, which is still both facts in the right order.
+_ENTITY_LINE = "\n"
 
 
 def _sponsor_cell(canon, conf, record=None) -> str:
@@ -166,14 +188,21 @@ def _sponsor_cell(canon, conf, record=None) -> str:
     Withholding a name the record states is not caution, it is discarding the
     evidence -- so the name is shown, marked ○ to say exactly what it is.
     """
+    entity = ""
+    if record and record == record and str(record).strip():
+        entity = str(record).strip()
+        if len(entity) > _ENTITY_MAX:
+            entity = entity[:_ENTITY_MAX - 1].rstrip(" ,&") + "…"
+
     if canon and canon == canon and str(canon).strip():
         mark = RESOLUTION_MARK.get(conf, ("·", "unknown basis"))[0]
-        return f"{mark} {canon}"
-    if record and record == record and str(record).strip():
-        name = str(record).strip()
-        if len(name) > _ENTITY_MAX:
-            name = name[:_ENTITY_MAX - 1].rstrip(" ,&") + "…"
-        return f"{RECORD_MARK[0]} {name}"
+        head = f"{mark} {canon}"
+        # THE FIRM FIRST, THE VEHICLE UNDER IT. Both are kept because they are
+        # different facts: the firm is who did the deal, the entity is what the
+        # instrument says, and a reader checking a registry needs the second.
+        return f"{head}{_ENTITY_LINE}{entity}" if entity else head
+    if entity:
+        return f"{RECORD_MARK[0]} {entity}"
     return ""
 
 
@@ -204,7 +233,13 @@ def _rankings(f: pd.DataFrame):
         v_affil = float(pd.to_numeric(f.loc[affiliated, "price"],
                                       errors="coerce").fillna(0).sum())
         sub = f[(canon.fillna("") != "") & (~affiliated)].copy()
-        sub["_who"] = sub[f"{side}_canonical"]
+        # GROUPED BY THE FIRM, NOT BY THE VEHICLE. This is already what the
+        # canonical column gives: a firm that bought through five different
+        # single-purpose LLCs carries the same canonical name on all five, so
+        # it ranks once with five deals rather than five times with one each.
+        # Cortland selling both Portofino buildings through WPB MULTIFAMILY
+        # OWNER I and II is the case in this data.
+        sub["_who"] = sub[f"{side}_canonical"].astype(str).str.strip()
         n_res = len(sub)
         vol_res = float(pd.to_numeric(sub["price"], errors="coerce").fillna(0).sum())
         vol_all = float(pd.to_numeric(f["price"], errors="coerce").fillna(0).sum())
@@ -810,8 +845,10 @@ def render(projects=None):
     f = f.sort_values("price", ascending=False, na_position="last")
     disp = _build_display(f)
     w = _widths(disp)
+    # Two-line party cells need the room; see _sponsor_cell.
     event = st.dataframe(
-        disp, use_container_width=True, hide_index=True, height=420,
+        disp, use_container_width=True, hide_index=True, height=560,
+        row_height=46,
         on_select="rerun", selection_mode="single-row", key="acq_table",
         column_config={
             "ADDRESS": st.column_config.TextColumn(

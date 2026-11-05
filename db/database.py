@@ -263,6 +263,15 @@ def init_db():
     # Boston and Cambridge row, where the derivation is correct and remains in
     # use -- so this is an override, not a replacement.
     _add_column_if_missing("transactions", "asset_class", "VARCHAR")
+
+    # WHERE A SPONSOR RESOLUTION CAME FROM. The basis columns say HOW a firm
+    # was identified -- "The Real Deal on this deal", "deed_co and sunbiz_mgr
+    # agree" -- but a reader cannot check a claim they cannot open. These hold
+    # the article or register page behind each name, so every resolution is
+    # one click from its evidence. Null where the party is still the entity of
+    # record, which is most of them.
+    _add_column_if_missing("transactions", "buyer_resolution_url", "TEXT")
+    _add_column_if_missing("transactions", "seller_resolution_url", "TEXT")
     print(f"Database ready at {DB_PATH}")
 
 
