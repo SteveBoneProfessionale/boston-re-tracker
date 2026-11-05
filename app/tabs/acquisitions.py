@@ -121,7 +121,7 @@ def _widths(display: pd.DataFrame) -> dict:
     for col in display.columns:
         render = _CELL.get(col, str)
         # Measured per LINE. Cells are single-line today -- Streamlit's grid
-        # collapses newlines, see _ENTITY_LINE -- but measuring the widest line
+        # collapses newlines -- but measuring the widest line
         # rather than the whole string keeps the sizing correct if that ever
         # changes, and costs nothing now.
         def _widest(v, _r=render):
@@ -184,11 +184,21 @@ _ENTITY_MAX = 34
 # row_height=60 holding "Firm Name Here\nENTITY LLC 123" drew "Firm Name Here
 # ENTITY LLC 123" on one line.
 #
-# So the brief's hierarchy is carried by ORDER instead of typography: the firm
-# first, a separator, then the entity of record. Both facts stay on the row,
-# the firm reads first, and the row detail carries the entity verbatim and
-# untrimmed for anyone checking it against a registry.
-_ENTITY_LINE = "   ·   "
+# ONE NAME PER CELL: THE BEST ONE THERE IS. These columns briefly carried both
+# the firm and the vehicle -- "Ken Griffin / Goldman Properties · 545 WYN OWNER
+# LLC & C/O GOLDMAN P…". On one line that vehicle was clutter: the same fact
+# restated in a form nobody reads a market by, pushing the real name rightwards
+# and doubling the width of the two widest columns.
+#
+# So the cell shows the firm where one is established, the managing person
+# where no firm is but the register names one, and otherwise the entity itself
+# -- which is NOT always a shell. "Ultimate Equity", "Vilarino Property Group"
+# and "Design District Development Partners" are operating companies named on
+# their own deeds; dropping every LLC outright would delete those.
+#
+# The vehicle is not lost. The row detail prints grantor and grantee verbatim
+# and untrimmed, which is where a name is compared against a registry character
+# by character, and the only place it is actually useful.
 
 
 def _sponsor_cell(canon, conf, record=None) -> str:
@@ -208,23 +218,19 @@ def _sponsor_cell(canon, conf, record=None) -> str:
     Withholding a name the record states is not caution, it is discarding the
     evidence -- so the name is shown, marked ○ to say exactly what it is.
     """
-    entity = ""
+    if canon and canon == canon and str(canon).strip():
+        # "Principal:" stays on the label. The ◉ says it in a glyph, but a
+        # person's name sitting in a column of firms is otherwise read as a
+        # firm, and the word is what stops that.
+        if conf == "principal_named":
+            return f"{PRINCIPAL_MARK[0]} Principal: {str(canon).strip()}"
+        mark = RESOLUTION_MARK.get(conf, ("·", "unknown basis"))[0]
+        return f"{mark} {str(canon).strip()}"
+
     if record and record == record and str(record).strip():
         entity = str(record).strip()
         if len(entity) > _ENTITY_MAX:
             entity = entity[:_ENTITY_MAX - 1].rstrip(" ,&") + "…"
-
-    if canon and canon == canon and str(canon).strip():
-        if conf == "principal_named":
-            head = f"{PRINCIPAL_MARK[0]} Principal: {canon}"
-        else:
-            mark = RESOLUTION_MARK.get(conf, ("·", "unknown basis"))[0]
-            head = f"{mark} {canon}"
-        # THE FIRM FIRST, THE VEHICLE UNDER IT. Both are kept because they are
-        # different facts: the firm is who did the deal, the entity is what the
-        # instrument says, and a reader checking a registry needs the second.
-        return f"{head}{_ENTITY_LINE}{entity}" if entity else head
-    if entity:
         return f"{RECORD_MARK[0]} {entity}"
     return ""
 
@@ -262,18 +268,15 @@ def _rankings(f: pd.DataFrame):
         # it ranks once with five deals rather than five times with one each.
         # Cortland selling both Portofino buildings through WPB MULTIFAMILY
         # OWNER I and II is the case in this data.
-        # A PRINCIPAL IS LABELLED IN THE RANKING TOO. Grouping by the canonical
-        # column already does what the brief asks -- a firm that bought through
-        # five vehicles ranks once with five deals, and a principal only
-        # appears where no firm was established -- but an unlabelled person
-        # sitting among firms would read as one. The confidence column says
-        # which it is, so the label carries it.
-        _conf = sub.get(f"{side}_confidence")
-        sub["_who"] = [
-            (f"Principal: {str(w).strip()}"
-             if str(c) == "principal_named" else str(w).strip())
-            for w, c in zip(sub[f"{side}_canonical"],
-                            _conf if _conf is not None else [""] * len(sub))]
+        # GROUPED ON THE BARE NAME, deliberately not on the name plus its
+        # basis. Moishe Mana reaches this table both ways -- named by The Real
+        # Deal on two deals and found in the register as the managing person
+        # of a third -- and labelling the principal rows "Principal: Moishe
+        # Mana" split one buyer into two entries three rows apart. The same
+        # person is the same buyer however his name was established, so the
+        # grouping ignores the basis and the TABLE keeps the ◉ that says which
+        # rows were which.
+        sub["_who"] = sub[f"{side}_canonical"].astype(str).str.strip()
         n_res = len(sub)
         vol_res = float(pd.to_numeric(sub["price"], errors="coerce").fillna(0).sum())
         vol_all = float(pd.to_numeric(f["price"], errors="coerce").fillna(0).sum())
