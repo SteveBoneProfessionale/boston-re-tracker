@@ -88,13 +88,13 @@ The medians mix no bases: a Land row divides by LAND area and every other class 
 |---|---|---:|---|---|
 | 417 S Dixie Hwy + 10 more parcels | West Palm Beach | $55,000,000 | Office | Residences at 464 Fern Street |
 | 1865 N Flagler Dr + 1 more parcel | West Palm Beach | $32,000,000 | Land | Shorecrest |
-| 710 Ne 1 Ave | Miami | $26,581,900 | Land | 711 N MIAMI AV |
-| 8300 Nw 33 St | Doral | $26,250,000 | Office | Hazel Doral (ZOM / Westside Live Local Act) |
+| 710 NE 1st Ave | Miami | $26,581,900 | Land | 711 N MIAMI AV |
+| 8300 NW 33rd St | Doral | $26,250,000 | Office | Hazel Doral (ZOM / Westside Live Local Act) |
 | 110 Phoenetia Ave | Coral Gables | $16,000,000 | Office | Crystal Residences |
 | 411 W Railroad Ave + 1 more parcel | West Palm Beach | $13,000,000 | Land | Soleste Palm Station Two |
-| 84 Sw 28 Rd + 1 more parcel | Miami | $11,000,000 | Land | 84 SW 28 RD |
-| 10003 Nw 41 St | Doral | $8,762,200 | Retail | Mission BBQ |
-| 8705 Nw 35 Ln | Doral | $5,500,000 | Retail | Chick-Fil-A East |
+| 84 SW 28th Rd + 1 more parcel | Miami | $11,000,000 | Land | 84 SW 28 RD |
+| 10003 NW 41st St | Doral | $8,762,200 | Retail | Mission BBQ |
+| 8705 NW 35th Ln | Doral | $5,500,000 | Retail | Chick-Fil-A East |
 
 ## Sponsor resolution
 
@@ -132,32 +132,32 @@ entity of record: `ATLANTIC GATEWAY LLC`
 basis: Commercial Observer on this deal: “Azora Private purchased the seven-story property at 3480 Main Highway.”  
 source: https://commercialobserver.com/2026/02/torose-sabal-azora-3480-main-highway-miami-coconut-grove/
 
-**2. Ultimate Equity** — seller of 2401 Nw 6 Ave + 8 more parcels, Miami, $54,000,000  
+**2. Ultimate Equity** — seller of 2401 NW 6th Ave + 8 more parcels, Miami, $54,000,000  
 entity of record: `ULTIMATE EQUITY INC`  
 basis: Commercial Observer on this deal: “The seller was Ultimate Equity, managed by David Sedaghati of Miami-based Ultimate Shoes.”  
 source: https://commercialobserver.com/2026/03/miami-wynwood-gary-krat-ultimate-shoes-david-sedaghati-gary-krat/
 
-**3. Steven Perricone** — seller of 1700 Sw 3 Ave, Miami, $5,200,000  
+**3. Steven Perricone** — seller of 1700 SW 3rd Ave, Miami, $5,200,000  
 entity of record: `CORAL WAY PARTNERS LLC`  
 basis: Florida Division of Corporations lists MGR for CORAL WAY PARTNERS LLC; natural person, not the registered agent  
 source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=DocumentNumber&directionType=Initial&searchNameOrder=L18000155531
 
-**4. Wharton Properties / Pebb Capital / Lane Capital Partners** — buyer of 112 Ne 41 St, Miami, $72,500,000  
+**4. Wharton Properties / Pebb Capital / Lane Capital Partners** — buyer of 112 NE 41st St, Miami, $72,500,000  
 entity of record: `41ST MIAMI DD PROPCO LLC`  
 basis: The Real Deal on this deal: “A joint venture including Jeff Sutton's Wharton Properties, Pebb Capital, and Lane Capital Partners acquired a fully leased mixed-use building for $72.5 million.”  
 source: https://therealdeal.com/miami/2026/01/27/pebb-jeff-sutton-lane-capital-buy-design-district-building/
 
-**5. Chaim Hyman & Karina Hyman & Abraham Stein** — seller of 4510 Ne 2 Ave, Miami, $6,515,000  
+**5. Chaim Hyman & Karina Hyman & Abraham Stein** — seller of 4510 NE 2nd Ave, Miami, $6,515,000  
 entity of record: `SLH INVESTMENTS LLC`  
 basis: Florida Division of Corporations lists MGRM for SLH INVESTMENTS LLC; natural person, not the registered agent  
 source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=DocumentNumber&directionType=Initial&searchNameOrder=L08000064191
 
-**6. Canero** — seller of 3265 Virginia St 17 + 24 more parcels, Miami, $45,500,000  
+**6. Canero** — seller of 3265 Virginia St + 24 more parcels, Miami, $45,500,000  
 entity of record: `WNG MIAMI LLC`  
 basis: Commercial Observer on this deal: “Canero flips condo in Miami's Coconut Grove to El-Ad for $46M.”  
 source: https://commercialobserver.com/2026/05/chateau-grove-condominium-el-ad-national-canero-miami-coconut-grove/
 
-**7. Jacobo Azout** — seller of 9901 Nw 41 St, Doral, $6,408,200  
+**7. Jacobo Azout** — seller of 9901 NW 41st St, Doral, $6,408,200  
 entity of record: `ADAR DORAL 9901 LLC`  
 basis: Florida Division of Corporations lists MGR for ADAR DORAL 9901 LLC; natural person, not the registered agent  
 source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=DocumentNumber&directionType=Initial&searchNameOrder=L21000259015
@@ -167,12 +167,12 @@ entity of record: `PM FLORIDA MASTER LP`
 basis: The Real Deal on this deal: “Activate Hospitality sold the 11-story, 200-key Delta Hotels by Marriott West Palm Beach to an affiliate of Toronto-based Palm Holdings, led by Sheetal Kapoor.”  
 source: https://therealdeal.com/miami/2026/01/30/activate-hospitality-sells-renovated-west-palm-beach-hotel/
 
-**9. Samuel Grossman** — seller of 1720 Nw 95 Ave, Doral, $5,100,000  
+**9. Samuel Grossman** — seller of 1720 NW 95th Ave, Doral, $5,100,000  
 entity of record: `SS LOWREY PROPERTY INVESTMENTS & LLC`  
 basis: Florida Division of Corporations lists MBR for SS LOWREY PROPERTY INVESTMENTS, LLC; natural person, not the registered agent  
 source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=DocumentNumber&directionType=Initial&searchNameOrder=L19000136827
 
-**10. Felipe R Onetto & Juan Ignacio Montes Labarca** — buyer of 4001 Salzedo St 300, Coral Gables, $6,000,000  
+**10. Felipe R Onetto & Juan Ignacio Montes Labarca** — buyer of 4001 Salzedo St, Coral Gables, $6,000,000  
 entity of record: `ALTA DEVELOPERS OFFICE LLC`  
 basis: Florida Division of Corporations lists AP for ALTA DEVELOPERS OFFICE LLC; natural person, not the registered agent  
 source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=DocumentNumber&directionType=Initial&searchNameOrder=L26000049973
@@ -182,13 +182,13 @@ source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?i
 
 Seeded (20261105), so the sample is reproducible and checkable rather than chosen.
 
-**1. 155 Ne 78 St - Miami**  
+**1. 155 NE 78th St - Miami**  
 2026-04-08 · $27,000,000 · Multifamily · `MULTI FAMILY (10+ UNITS) (0303)`  
 seller LAFAYETTE SQUARE II LTD & C/O GATEHOUSE MANAGEMENT -> buyer GH LAFAYETTE PLAZA L P  
 building 203,531 sf · land 48,402 sf · units 136 · $133 per building SF · $198,529 per unit  
 deed 35443/2339 · prior sale none recorded · change not comparable
 
-**2. 1720 Nw 95 Ave - Doral**  
+**2. 1720 NW 95th Ave - Doral**  
 2026-02-11 · $5,100,000 · Industrial · `INDUSTRIAL (4837)`  
 seller SS LOWREY PROPERTY INVESTMENTS & LLC -> buyer HUH INTERNATIONAL PROPERTY & MIAMI LLC  
 building 17,079 sf · land 42,500 sf · units - · $299 per building SF · -  
@@ -200,25 +200,25 @@ seller GC 269 MIRACLE LLC -> buyer 23RD STREET HOLDINGS INC
 building 4,770 sf · land 5,600 sf · units - · $1,247 per building SF · -  
 deed 35432/1129 · prior sale 2016-05-20 $100 · change not comparable
 
-**4. 1700 Sw 3 Ave - Miami**  
+**4. 1700 SW 3rd Ave - Miami**  
 2026-02-18 · $5,200,000 · Retail · `COMMERCIAL - RESTAURANT (2111)`  
 seller CORAL WAY PARTNERS LLC -> buyer OFCP 25 LLC  
 building 5,229 sf · land 11,746 sf · units - · $994 per building SF · -  
 deed 35183/0547 · prior sale 2018-08-21 $3,050,000 · change +70.5%
 
-**5. 43 Nw 23 St - Miami**  
+**5. 43 NW 23rd St - Miami**  
 2026-06-11 · $25,732,500 · Retail · `COMMERCIAL - RETAIL (1111)`  
 seller RJR ML LLC & RJR REALTY LLC -> buyer T WYNWOOD JUNGLE NRTP FL LLC & T WYNWOOD JUNGLE NRTW FL LLC  
 building 30,051 sf · land 30,250 sf · units - · $856 per building SF · -  
 deed 35387/4022 · prior sale 2021-06-06 $13,250,000 · change +94.2%
 
-**6. 4510 Ne 2 Ave - Miami**  
+**6. 4510 NE 2nd Ave - Miami**  
 2026-04-09 · $6,515,000 · Land · `VACANT - COMMERCIAL (1081)`  
 seller SLH INVESTMENTS LLC -> buyer 4510 NE 2ND AVENUE PARTNERS LLC  
 building 0 sf · land 16,726 sf · units - · $390 per land SF · -  
 deed 35268/0938 · prior sale 2012-05-31 $1,600,000 · change +307.2%
 
-**7. Folio 01-3230-107-0010 - Miami**  
+**7. Omni - Boulevard (folio 01-3230-107-0010) - Miami**  
 2026-07-15 · $39,436,700 · Land · `VACANT - COMMERCIAL (1081)`  
 seller TF SECOND AND 23RD LLC -> buyer TF EDGEWATER BISCAYNE LLC  
 building 0 sf · land 71,644 sf · units - · $550 per land SF · -  
@@ -230,13 +230,13 @@ seller DANIEL ROBERT J & JESSIE TRUST -> buyer PB VAULTS DEVELOPMENT LLC
 building 29,790 sf · land 112,720 sf · units - · $352 per building SF · -  
 deed 36718/00061 · prior sale 2021-06-25 $3,470,000 · change +202.6%
 
-**9. 9901 Nw 41 St - Doral**  
+**9. 9901 NW 41st St - Doral**  
 2026-06-04 · $6,408,200 · Retail · `COMMERCIAL - RETAIL (1111)`  
 seller ADAR DORAL 9901 LLC -> buyer WALRUS CAPITAL LLC  
 building 10,988 sf · land 66,514 sf · units - · $583 per building SF · -  
 deed 35364/4658 · prior sale 2021-08-11 $6,000,000 · change +6.8%
 
-**10. 120 Ne 23 St + 2 more parcels - Miami**  
+**10. 120 NE 23rd St + 2 more parcels - Miami**  
 2026-08-13 · $6,100,000 · Parking · `COMMERCIAL - OTHER (2865)`  
 seller TBD HEATHER LLC -> buyer 100 NE 23RD STREET REALTY LLC  
 building 4,782 sf · land 22,140 sf · units 3 · $1,276 per building SF · -  

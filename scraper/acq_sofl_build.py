@@ -323,14 +323,64 @@ def _names(*parts):
     return " & ".join(uniq) or None
 
 
+def _street(raw):
+    """A county address line, written the way a person writes an address.
+
+    Three things the county's form gets wrong for a reader, all fixed here by
+    the SAME formatter the Projects tab uses, so one address reads identically
+    in both places:
+
+    1. DIRECTIONALS AND ORDINALS. "545 NW 26 ST" is not a street anyone names.
+       Plain .title() made it "545 Nw 26 St" -- the compass point lower-cased
+       into a word and the street left as a bare number. title_case(address=
+       True) gives "545 NW 26th St", because it knows NW is an abbreviation and
+       that a bare number before a street type is an ordinal.
+
+    2. A UNIT NUMBER IS NOT PART OF THE STREET. The appraiser appends the
+       unit to the line -- "3265 VIRGINIA ST 17", "14 NE 1 AVE 100H", "3000
+       FLORIDA AVE HOTEL" -- and on a deed covering 25 or 185 units naming one
+       of them is worse than naming none. Everything after the LAST street-type
+       token is dropped, which removes the unit without touching an address
+       whose street type is genuinely final.
+
+    3. Only the street line is kept; city, state and ZIP repeat the CITY column.
+    """
+    from app.detail_bits import _STREET_TYPE, title_case
+
+    line = str(raw or "").split(",")[0].strip()
+    if not line:
+        return ""
+    tokens = line.split()
+    types = [i for i, t in enumerate(tokens)
+             if t.strip(".,").upper() in _STREET_TYPE]
+    if types and types[-1] < len(tokens) - 1:
+        tokens = tokens[:types[-1] + 1]
+    return title_case(" ".join(tokens), address=True)
+
+
 def _address(deed):
     """One address for the deed: the largest parcel's, plus a parcel count."""
     parcels = deed["parcels"]
     best = max(parcels, key=lambda p: (p["building_sf"], p["land_sf"]))
-    addr = (best.get("address") or "").strip()
+    addr = _street(best.get("address"))
     if not addr:
-        addr = next((p["address"] for p in parcels if p.get("address")), "") or ""
-    addr = addr.split(",")[0].strip().title() or f"Folio {best['id_fmt']}"
+        addr = next((_street(p.get("address")) for p in parcels
+                     if _street(p.get("address"))), "")
+
+    if not addr:
+        # THREE DEEDS IN THIS WINDOW HAVE NO ADDRESS ON ANY PARCEL -- vacant
+        # land the county has never assigned a number to. A bare folio is
+        # accurate and unreadable, so the neighbourhood leads and the folio
+        # follows it: "Downtown North (folio 01-3137-036-0060)" says where the
+        # thing is, which is what the column is for, while keeping the
+        # identifier that makes it checkable.
+        hood = next((p.get("neighborhood") for p in parcels
+                     if p.get("neighborhood")), "")
+        from app.detail_bits import title_case
+        hood = title_case(hood) if hood else ""
+        addr = (f"{hood} (folio {best['id_fmt']})" if hood
+                else f"Folio {best['id_fmt']}")
+
     if len(parcels) > 1:
         addr = f"{addr} + {len(parcels) - 1} more parcel" + \
                ("s" if len(parcels) > 2 else "")
