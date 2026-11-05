@@ -136,12 +136,45 @@ RESOLUTION_MARK = {
     "human_set":          ("✎", "set by hand"),
 }
 
+# The party named on the instrument, where no sponsor has been resolved behind
+# it. Deliberately the faintest mark in the set: it is a real name from a real
+# record, and it is NOT a firm.
+RECORD_MARK = ("○", "the entity on the instrument; no sponsor resolved")
 
-def _sponsor_cell(canon, conf) -> str:
-    if not canon or canon != canon:
-        return ""
-    mark = RESOLUTION_MARK.get(conf, ("·", "unknown basis"))[0]
-    return f"{mark} {canon}"
+# Entity names run long -- "LAFAYETTE SQUARE II LTD & C/O GATEHOUSE MANAGEMENT"
+# is 49 characters -- and the column sizer measures the longest cell, so
+# untrimmed names would widen SELLER and BUYER until PRICE left the screen.
+# Trimmed here and verbatim on the row detail, which is where a name gets
+# compared against a registry character by character.
+_ENTITY_MAX = 34
+
+
+def _sponsor_cell(canon, conf, record=None) -> str:
+    """The party on this side of the deal, and how firmly it is known.
+
+    A RESOLVED SPONSOR WINS; THE RECORD ENTITY IS THE FALLBACK, NOT A BLANK.
+    This column used to show the canonical name or nothing at all, on the
+    reasoning that an unresolved single-purpose vehicle is not a firm and
+    should not pretend to be one. That reasoning is right and it is kept -- the
+    marks still separate a resolved sponsor from an entity of record, and
+    Most Active Buyers still ranks canonical names only.
+
+    What it got wrong is the blank. 606 of 899 live rows name a buyer on the
+    instrument and showed an empty cell, and 655 do on the sell side: two
+    thirds of the table, every South Florida row among them, where the deed
+    plainly says BSREP III COCONUT GROVE LLC sold to DEAN MCG PROPCO LLC.
+    Withholding a name the record states is not caution, it is discarding the
+    evidence -- so the name is shown, marked ○ to say exactly what it is.
+    """
+    if canon and canon == canon and str(canon).strip():
+        mark = RESOLUTION_MARK.get(conf, ("·", "unknown basis"))[0]
+        return f"{mark} {canon}"
+    if record and record == record and str(record).strip():
+        name = str(record).strip()
+        if len(name) > _ENTITY_MAX:
+            name = name[:_ENTITY_MAX - 1].rstrip(" ,&") + "…"
+        return f"{RECORD_MARK[0]} {name}"
+    return ""
 
 
 def _rankings(f: pd.DataFrame):
@@ -482,12 +515,14 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
         # against, what a licensed feed would reconcile to, and what every
         # resolution layer runs on. They stay visible on the row detail so any
         # row can still be traced back to the record.
-        "SELLER":   [_sponsor_cell(cn, cf) for cn, cf in
+        "SELLER":   [_sponsor_cell(cn, cf, rec) for cn, cf, rec in
                      zip(d.get("seller_canonical", pd.Series(dtype=object)),
-                         d.get("seller_confidence", pd.Series(dtype=object)))],
-        "BUYER":    [_sponsor_cell(cn, cf) for cn, cf in
+                         d.get("seller_confidence", pd.Series(dtype=object)),
+                         d.get("seller", pd.Series(dtype=object)))],
+        "BUYER":    [_sponsor_cell(cn, cf, rec) for cn, cf, rec in
                      zip(d.get("buyer_canonical", pd.Series(dtype=object)),
-                         d.get("buyer_confidence", pd.Series(dtype=object)))],
+                         d.get("buyer_confidence", pd.Series(dtype=object)),
+                         d.get("buyer", pd.Series(dtype=object)))],
         "PRICE":    pd.to_numeric(d["price"], errors="coerce"),
         "SF":       sf,
         "ASSET":    _asset_series(d),
@@ -759,14 +794,19 @@ def render(projects=None):
         f'${vol/1e9:.2f}B</span> PAID'
         + "".join(f'&nbsp;&nbsp;·&nbsp;&nbsp;<span style="color:{c}">{m}</span>&nbsp;{lbl}'
                   for m, lbl, c in TYPE_MARK.values())
+        # The party marks belong beside the type marks: both are read off the
+        # face of the table and neither is guessable from the glyph alone.
+        + f'&nbsp;&nbsp;·&nbsp;&nbsp;<span style="color:#22c55e">▣◈◇✎</span>'
+          f'&nbsp;RESOLVED SPONSOR'
+          f'&nbsp;&nbsp;·&nbsp;&nbsp;<span style="color:{_MUTED}">○</span>'
+          f'&nbsp;ENTITY OF RECORD'
         + '</p>', unsafe_allow_html=True)
 
     # ── Table ───────────────────────────────────────────────────────
     _section("TRANSACTIONS")
-    # DEFAULT SORT IS PRICE DESCENDING. Most rows are blank on buyer and seller,
-    # and the named ones cluster at the top of the market, so sorting by price
-    # puts the usable data on the first screen instead of whatever order the
-    # loader happened to write.
+    # DEFAULT SORT IS PRICE DESCENDING. Resolved sponsors cluster at the top of
+    # the market, so sorting by price puts the most fully attributed rows on the
+    # first screen instead of whatever order the loader happened to write.
     f = f.sort_values("price", ascending=False, na_position="last")
     disp = _build_display(f)
     w = _widths(disp)
@@ -834,16 +874,21 @@ def render(projects=None):
                      "never the whole-asset value."),
             "BUYER":   st.column_config.TextColumn(
                 width=w["BUYER"],
-                help="The RESOLVED SPONSOR, not the record entity. Blank means "
-                     "the single-purpose vehicle on the deed has not been "
-                     "resolved to a firm — a blank is the honest answer, not a "
-                     "missing value. The record entity is stored verbatim and "
-                     "shown on the row detail."),
+                help="Who bought it. A mark says how firmly that is known: "
+                     "▣ ◈ ◇ ✎ are a RESOLVED SPONSOR — the firm behind the "
+                     "vehicle — and ○ is the entity named on the instrument "
+                     "itself, with no sponsor resolved behind it. An ○ name is "
+                     "a real party from a real record, but it is not a firm, "
+                     "and Most Active Buyers counts only the resolved ones. "
+                     "Long names are trimmed here and verbatim on the row "
+                     "detail. Blank means the record names no grantee."),
             "SELLER":  st.column_config.TextColumn(
                 width=w["SELLER"],
-                help="The RESOLVED SPONSOR, not the record entity. Blank means "
-                     "unresolved. The grantor of record is stored verbatim and "
-                     "shown on the row detail."),
+                help="Who sold it, on the same scale as BUYER: ▣ ◈ ◇ ✎ a "
+                     "resolved sponsor, ○ the grantor named on the instrument "
+                     "with no sponsor resolved behind it. Blank means the "
+                     "record names no grantor — which on a Palm Beach row is "
+                     "literal, since that county publishes none."),
             "ASSET":   st.column_config.TextColumn(
                 width=w["ASSET"],
                 help="Normalised to one taxonomy across both cities. Boston "
