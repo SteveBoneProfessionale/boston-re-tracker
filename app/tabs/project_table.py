@@ -93,6 +93,37 @@ LIFECYCLE_IDX = {
 _BAD_DEVS = {"Unknown - review needed", "Unknown", "UNKNOWN",
              "Zoning Petitions for Text Amendments", ""}
 
+# What an empty cell says, matching the detail panel word for word.
+NOT_FOUND = "Not found"
+_NOT_FOUND_CSS = "color:#4b5563"
+
+
+def _style_blanks(display: pd.DataFrame):
+    """A Styler that writes "Not found" into empty cells and mutes them.
+
+    A Styler rather than string columns, because the three numeric columns have
+    to STAY numeric: the screener sorts SF, UNITS and HEIGHT by magnitude, and
+    a column of formatted strings sorts "9,925" above "1,234,567". `na_rep`
+    puts the words in without touching the underlying values, so the sort is
+    unaffected.
+
+    Streamlit gives column_config precedence over a Styler for text and number
+    FORMATTING, so the three numeric columns deliberately carry no `format=` in
+    their config -- their comma grouping is applied here instead, alongside the
+    na_rep that config cannot express.
+    """
+    def _is_blank(v):
+        if v is None or v is pd.NaT:
+            return True
+        if isinstance(v, float) and v != v:
+            return True
+        return str(v).strip() in ("", "None", "nan", NOT_FOUND)
+
+    return (display.style
+            .format({"SF": "{:,.0f}", "UNITS": "{:,.0f}", "HEIGHT": "{:,.0f} ft"},
+                    na_rep=NOT_FOUND)
+            .map(lambda v: _NOT_FOUND_CSS if _is_blank(v) else ""))
+
 
 def _section(label: str):
     st.markdown(
@@ -242,7 +273,13 @@ def _column_widths(display: pd.DataFrame) -> dict[str, int]:
     widths = {}
     for col in display.columns:
         render_cell = _CELL_TEXT.get(col, str)
-        longest = max((_text_px(render_cell(v)) for v in display[col]), default=0.0)
+        # A null measures as "nan" but RENDERS as "Not found", so it is
+        # measured as what the reader actually sees.
+        def _shown(v, _r=render_cell):
+            if v is None or v is pd.NaT or (isinstance(v, float) and v != v):
+                return NOT_FOUND
+            return _r(v)
+        longest = max((_text_px(_shown(v)) for v in display[col]), default=0.0)
         header = _text_px(col) + _HEADER_ICON
         widths[col] = max(_MIN_COL_PX, math.ceil(max(longest, header) + _CELL_PAD + _SLACK_PX))
     return widths
@@ -349,6 +386,16 @@ def _build_display(filtered: pd.DataFrame) -> pd.DataFrame:
     # at its true precision beside the vintage.
     display["delivered_fmt"] = pd.to_datetime(display["delivered_date"], errors="coerce")
     display["target_fmt"] = pd.to_datetime(display["target_date"], errors="coerce")
+    # An empty text cell renders as a blank, which reads as "nothing here" when
+    # what it means is "no source states one" -- the same distinction the detail
+    # panel draws. Said in words, and muted by the Styler below so it never
+    # reads as a value.
+    for _blank in ("neighborhood", "asset_class"):
+        display[_blank] = [
+            NOT_FOUND if (v is None or str(v).strip() in ("", "None", "nan")) else v
+            for v in display[_blank]
+        ]
+
     display = display[[
         "name", "developer_canonical", "architect", "civil_engineer", "contractor",
         "neighborhood", "city",
@@ -573,6 +620,20 @@ def render(df: pd.DataFrame):
             mask = mask | filtered["alt_addresses"].str.lower().str.contains(q, na=False)
         filtered = filtered[mask]
 
+    # ── Default order: biggest first ───────────────────────────────
+    # Sorted HERE, on `filtered`, rather than on the display frame, because the
+    # detail panel resolves a click as filtered.iloc[idx] -- sorting only the
+    # display frame would open the wrong project. Sorting before the count and
+    # the export means the CSV comes out in the same order the screener shows.
+    #
+    # na_position="last" is the point: a project with no stated size is not a
+    # small project, and floating it to the top of a table sorted by size would
+    # say it was. kind="stable" keeps the previous ordering as the tie-break,
+    # so rows of equal size do not shuffle between reruns.
+    if "total_gsf" in filtered.columns:
+        filtered = filtered.sort_values(
+            "total_gsf", ascending=False, na_position="last", kind="stable")
+
     cnt_col, exp_col = st.columns([5, 1])
     cnt_col.markdown(
         f'<p style="font-family:{_UI};font-size:10px;color:{_MUTED};margin:4px 0 8px">'
@@ -600,7 +661,7 @@ def render(df: pd.DataFrame):
     widths = _column_widths(display)
 
     selection = st.dataframe(
-        display,
+        _style_blanks(display),
         use_container_width=True,
         hide_index=True,
         height=400,
@@ -615,10 +676,16 @@ def render(df: pd.DataFrame):
             # Numeric so it sorts by magnitude; the comma is display only.
             # Blanks sort to the end rather than being coerced to zero, which
             # would rank an unknown size alongside a genuine nothing.
+            # The arrow says the table opens sorted on this column. Streamlit
+            # exposes no way to set a grid's sort indicator, and no way to
+            # learn that the reader has since clicked another header -- so the
+            # arrow marks the STARTING order, which is what it is for.
             "SF":     st.column_config.NumberColumn(
-                width=widths["SF"], format="%,d",
-                help="Gross square feet, as stated by the source. Sorts by "
-                     "magnitude; blank means no source states one."),
+                "SF ↓", width=widths["SF"],
+                help="Gross square feet, as stated by the source. The table "
+                     "opens sorted by this column, largest first, with "
+                     "unknown sizes last — an unstated size is not a small "
+                     "project. Click any header to re-sort."),
             "ARCHITECT": st.column_config.TextColumn(
                 width=widths["ARCHITECT"],
                 help="Architecture practice where one is named, otherwise the "
@@ -639,10 +706,12 @@ def render(df: pd.DataFrame):
             "CITY":   st.column_config.TextColumn(width=widths["CITY"]),
             "TYPE":   st.column_config.TextColumn(width=widths["TYPE"]),
             "STATUS": st.column_config.TextColumn(width=widths["STATUS"]),
-            "UNITS":  st.column_config.NumberColumn(width=widths["UNITS"], format="%d"),
-            "HEIGHT": st.column_config.NumberColumn(width=widths["HEIGHT"], format="%d ft"),
+            # No format= on either: column_config formatting would override the
+            # Styler, taking the "Not found" with it.
+            "UNITS":  st.column_config.NumberColumn(width=widths["UNITS"]),
+            "HEIGHT": st.column_config.NumberColumn(width=widths["HEIGHT"]),
             "DELIVERED": st.column_config.DateColumn(
-                width=widths["DELIVERED"], format="YYYY-MM-DD",
+                width=widths["DELIVERED"], format="MMM D, YYYY",
                 help="When the building was actually finished. Blank means it "
                      "has not delivered, or that it has and no source states "
                      "the date — the detail panel says which. Click the header "
@@ -651,7 +720,7 @@ def render(df: pd.DataFrame):
                      "first day of that period; the detail panel prints it at "
                      "its true precision."),
             "TARGET": st.column_config.DateColumn(
-                width=widths["TARGET"], format="YYYY-MM-DD",
+                width=widths["TARGET"], format="MMM D, YYYY",
                 help="Forecast completion, and only ever a forecast: it goes "
                      "blank the moment a project delivers, so nothing in this "
                      "column can be mistaken for something that happened. "
