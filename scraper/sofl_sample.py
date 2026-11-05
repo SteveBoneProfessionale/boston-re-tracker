@@ -45,7 +45,19 @@ SEED = 20260301
 # a dormitory is institutional and does have units.
 NO_DWELLINGS = {"Retail", "Office", "Industrial", "Parking", "Lab"}
 
-FIELDS = ("id, name, address, parcel_id, parcel_id_aliases, status, "
+# The size floor the app applies by default, kept in step with
+# app/data.py::SIZE_FLOOR_UNITS / SIZE_FLOOR_GSF. Coverage figures are quoted
+# ABOVE the floor because that is the population the view describes: the City
+# of Miami permit feed's long tail of sub-25,000 sq ft buildings dragged every
+# percentage down without being gaps, since nobody publishes a lender or a
+# height for them and they have no project name to search.
+FLOOR_SQL = "(coalesce(residential_units,0) >= 50 or coalesce(total_gsf,0) >= 50000)"
+
+# How an empty lender is labelled. See scraper/sofl_lender_status.py.
+LENDER_LABEL = {"no_loan_reported": "no construction loan reported",
+                "lender_unnamed": "loan reported, lender not named"}
+
+FIELDS = ("id, name, address, parcel_id, parcel_id_aliases, status, lender_status, "
           "project_status_filing, asset_class, neighborhood, developer, "
           "architect, general_contractor, civil_engineer, lender, "
           "residential_units, hotel_rooms, building_height_ft, num_stories, "
@@ -103,24 +115,31 @@ def _coverage(con):
     for a unit count is the rows that can have dwellings in them.
     """
     out = ["## Coverage", "",
+           "Counted ABOVE THE SIZE FLOOR — projects with 50 or more residential units "
+           "or 50,000 or more square feet, which is what the app shows by default. "
+           "The rows below the floor are still in the database and one toggle away; "
+           "they are left out here because the City of Miami permit feed catalogues "
+           "every permit in the city, and its tail of small buildings has no published "
+           "lender, height or project name to find.", "",
            "| City | Projects | Units known | of residential-bearing | Height in feet | "
-           "Storeys | Hotel keys |",
-           "| --- | --: | --: | --: | --: | --: | --: |"]
-    tot = [0, 0, 0, 0, 0, 0]
+           "Storeys | Hotel keys | Lender |",
+           "| --- | --: | --: | --: | --: | --: | --: | --: |"]
+    tot = [0, 0, 0, 0, 0, 0, 0]
     for city in CITIES:
         r = con.execute(
             "select count(*), sum(residential_units is not null), "
             "sum(coalesce(asset_class,'') not in ('Retail','Office','Industrial',"
             "'Parking','Lab')), sum(building_height_ft is not null), "
-            "sum(num_stories is not null), sum(hotel_rooms is not null) "
-            "from projects where city=?", (city,)).fetchone()
+            "sum(num_stories is not null), sum(hotel_rooms is not null), "
+            "sum(lender is not null) "
+            f"from projects where city=? and {FLOOR_SQL}", (city,)).fetchone()
         vals = [v or 0 for v in r]
         tot = [t + v for t, v in zip(tot, vals)]
         out.append(f"| {city} | {vals[0]:,} | {vals[1]:,} | {vals[1]:,} of {vals[2]:,} | "
-                   f"{vals[3]:,} | {vals[4]:,} | {vals[5]:,} |")
+                   f"{vals[3]:,} | {vals[4]:,} | {vals[5]:,} | {vals[6]:,} |")
     out.append(f"| **All five** | **{tot[0]:,}** | **{tot[1]:,}** | "
                f"**{tot[1]:,} of {tot[2]:,}** | **{tot[3]:,}** | **{tot[4]:,}** | "
-               f"**{tot[5]:,}** |")
+               f"**{tot[5]:,}** | **{tot[6]:,}** |")
     out += ["",
             "Height in feet is the thinnest field in this market and will stay that way: "
             "the trade press prints storey counts and prints feet only when a project "
@@ -197,7 +216,8 @@ def build(verbose=True):
 
     for city in CITIES:
         rows = con.execute(
-            f"select {FIELDS} from projects where city=? order by id", (city,)).fetchall()
+            f"select {FIELDS} from projects where city=? and {FLOOR_SQL} order by id",
+            (city,)).fetchall()
         picked = sorted(random.Random(SEED).sample(
             list(rows), min(PER_CITY, len(rows))), key=lambda r: r["name"] or "")
         out += [f"## {city} — random {len(picked)} of {len(rows)}", ""]
@@ -229,6 +249,9 @@ def build(verbose=True):
                      f"Stories: {_num(r['num_stories']) or 'not found'}",
                      f"Total sq ft: {_num(r['total_gsf']) or 'not found'}"]
             out.append("- " + "   |   ".join(prog))
+            lend = r["lender"] if r["lender"] else LENDER_LABEL.get(
+                (r["lender_status"] or "").strip(), "not found")
+            out.append(f"- **Construction lender:** {lend}")
             if r["completion_basis"]:
                 when = f"  ({r['completion_date']})" if r["completion_date"] else ""
                 out.append(f"- **Completion basis:** {r['completion_basis']}{when}")

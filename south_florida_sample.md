@@ -6,14 +6,16 @@ A blank is one of three things and is never printed as an empty space: **not fou
 
 ## Coverage
 
-| City | Projects | Units known | of residential-bearing | Height in feet | Storeys | Hotel keys |
-| --- | --: | --: | --: | --: | --: | --: |
-| Miami | 314 | 76 | 76 of 251 | 47 | 78 | 6 |
-| Miami Beach | 35 | 25 | 25 of 34 | 7 | 28 | 4 |
-| West Palm Beach | 30 | 25 | 25 of 28 | 8 | 27 | 3 |
-| Coral Gables | 17 | 17 | 17 of 17 | 12 | 15 | 0 |
-| Doral | 57 | 11 | 11 of 24 | 9 | 13 | 2 |
-| **All five** | **453** | **154** | **154 of 354** | **83** | **161** | **15** |
+Counted ABOVE THE SIZE FLOOR — projects with 50 or more residential units or 50,000 or more square feet, which is what the app shows by default. The rows below the floor are still in the database and one toggle away; they are left out here because the City of Miami permit feed catalogues every permit in the city, and its tail of small buildings has no published lender, height or project name to find.
+
+| City | Projects | Units known | of residential-bearing | Height in feet | Storeys | Hotel keys | Lender |
+| --- | --: | --: | --: | --: | --: | --: | --: |
+| Miami | 133 | 76 | 76 of 115 | 47 | 78 | 6 | 56 |
+| Miami Beach | 19 | 19 | 19 of 19 | 5 | 17 | 1 | 5 |
+| West Palm Beach | 29 | 25 | 25 of 27 | 8 | 27 | 3 | 11 |
+| Coral Gables | 14 | 14 | 14 of 14 | 9 | 12 | 0 | 7 |
+| Doral | 12 | 11 | 11 of 11 | 3 | 9 | 0 | 5 |
+| **All five** | **207** | **145** | **145 of 186** | **72** | **143** | **10** | **84** |
 
 Height in feet is the thinnest field in this market and will stay that way: the trade press prints storey counts and prints feet only when a project reaches a board approval that states one. Where feet are unpublished the storey count usually is not, which is why both columns are shown. The FAA Digital Obstacle File was calibrated as a bulk source for the missing feet and REJECTED at a 53 per cent hit rate — see scraper/sofl_faa_heights.py; it would have written 395 ft onto the 1,049 ft Waldorf Astoria, that being a 2018 survey of the building demolished to make room for it.
 
@@ -161,130 +163,157 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 
 ## Random sample by city
 
-## Miami — random 10 of 314
+## Miami — random 10 of 133
 
-### 123 NW 14 ST
-- **Address:** 123 NW 14 ST
-- **Parcel id:** 0131250481790
+### 1129 SW 3 AV
+- **Address:** 1129 SW 3 AV
+- **Parcel id:** 0141380510260
+- **Status:** Permitting
+- **Asset class:** Hotel   **Neighbourhood:** West Brickell
+- Developer: not found   |   Architect: not found   |   General contractor: KAST CONSTRUCTION COMPANY LLC   |   Civil engineer: not found   |   Lender: not found
+- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 287,323
+- **Construction lender:** not found
+- **Completion basis:** permit_issued_never_started
+- **Sources (9 field citations, 3 distinct):**
+    - City of Miami building permit BD18003273001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18003273001B001%27&outFields=*&f=pjson
+    - Miami-Dade property boundary record, folio 0141380510260 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270141380510260%27&outFields=*&f=pjson
+    - Miami-Dade property record, folio 01-4138-051-0260 (vacant land, year built 0), against City of Miami permit BD18003273001B001 Active since 2020-03-06 — https://www.miamidade.gov/Apps/PA/propertysearch/#/report/detail/0141380510260
+- *Note:* Building permit BD18003273001B001 was issued on 6 March 2020 and is still Active with no finalised inspections six years later, and Miami-Dade assesses folio 01-4138-051-0260 as vacant land with year built 0. A 287,323 sq ft hotel has not been built here, so the row is Permitting -- a permit on file -- rather than Under Construction.
+
+### 1698 NW 3 AV
+- **Address:** 1698 NW 3 AV
+- **Parcel id:** 0131360640020
 - **Status:** Complete
-- **Asset class:** Mixed-Use   **Neighbourhood:** Northeast Overtown
-- Developer: not found   |   Architect: not found   |   General contractor: Amit Construction  LLC.   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 7,360
-- **Completion basis:** co_issued  (2025-12-02)
+- **Asset class:** Multifamily Rental   **Neighbourhood:** Town Park
+- Developer: not found   |   Architect: not found   |   General contractor: BDI CONSTRUCTION COMPANY   |   Civil engineer: not found   |   Lender: not found
+- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 61,939
+- **Construction lender:** not found
+- **Completion basis:** co_issued  (2026-09-24)
 - **Sources (10 field citations, 2 distinct):**
-    - City of Miami building permit BD22003174001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22003174001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0131250481790 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131250481790%27&outFields=*&f=pjson
+    - City of Miami building permit BD23002556001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23002556001B001%27&outFields=*&f=pjson
+    - Miami-Dade property boundary record, folio 0131360640020 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131360640020%27&outFields=*&f=pjson
 
-### 1336 SW 7 ST
-- **Address:** 1336 SW 7 ST
-- **Parcel id:** 0141020066420
+### 255 SW 9 ST
+- **Address:** 255 SW 9 ST
+- **Parcel id:** 0102050801110
 - **Status:** Under Construction
-- **Asset class:** Multifamily Rental   **Neighbourhood:** Latin Quarter
-- Developer: not found   |   Architect: not found   |   General contractor: RH BUILDER LLC   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 13,618
+- **Asset class:** Mixed-Use   **Neighbourhood:** West Brickell
+- Developer: not found   |   Architect: not found   |   General contractor: HABITAT DEVELOPMENT  LLC   |   Civil engineer: not found   |   Lender: not found
+- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 115,334
+- **Construction lender:** not found
 - **Completion basis:** permit_active
 - **Sources (9 field citations, 2 distinct):**
-    - City of Miami building permit BD20017558001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20017558001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0141020066420 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270141020066420%27&outFields=*&f=pjson
+    - City of Miami building permit BD21007347001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21007347001B001%27&outFields=*&f=pjson
+    - Miami-Dade property boundary record, folio 0102050801110 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270102050801110%27&outFields=*&f=pjson
 
-### 1526 NW 2 ST
-- **Address:** 1526 NW 2 ST
-- **Parcel id:** 0141020058700
-- **Status:** Under Construction
-- **Asset class:** Multifamily Rental   **Neighbourhood:** Orange Bowl
-- Developer: not found   |   Architect: not found   |   General contractor: FERROM5 General Contractors  INC.   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 14,589
-- **Completion basis:** permit_active
-- **Sources (9 field citations, 2 distinct):**
-    - City of Miami building permit BD22009892001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22009892001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0141020058700 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270141020058700%27&outFields=*&f=pjson
-
-### 1548 BRICKELL AV
-- **Address:** 1548 BRICKELL AV
-- **Parcel id:** 0141390010250
-- **Status:** Under Construction
-- **Asset class:** Office   **Neighbourhood:** Miami Avenue
-- Developer: not found   |   Architect: not found   |   General contractor: ADF USA INC.   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not applicable   |   Height: not found   |   Stories: not found   |   Total sq ft: 19,783
-- **Completion basis:** permit_active
-- **Sources (9 field citations, 2 distinct):**
-    - City of Miami building permit BD26001424001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD26001424001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0141390010250 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270141390010250%27&outFields=*&f=pjson
-
-### 2545 NW 20 ST
-- **Address:** 2545 NW 20 ST
-- **Parcel id:** 0131270460470
-- **Status:** Under Construction
-- **Asset class:** Industrial   **Neighbourhood:** Allapattah Industrial District
-- Developer: not found   |   Architect: not found   |   General contractor: Brickell Group Construction LLC   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not applicable   |   Height: not found   |   Stories: not found   |   Total sq ft: 42,125
-- **Completion basis:** permit_active
-- **Sources (9 field citations, 2 distinct):**
-    - City of Miami building permit BD23000864001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23000864001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0131270460470 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131270460470%27&outFields=*&f=pjson
-- *Note:* Earlier completed building permit(s) on this parcel, outside the 2025-26 loading window: BD17018177001B001 (CO 2022-02-04, 130,697 sq ft). This may be the building being replaced, an earlier phase, or evidence that the site is already built out -- it is not treated as a completion of this project.
-
-### 3000 ELIZABETH ST
-- **Address:** 3000 ELIZABETH ST
-- **Parcel id:** 0141210010150
-- **Status:** Under Construction
-- **Asset class:** Condo   **Neighbourhood:** Bird Grove West
-- Developer: not found   |   Architect: not found   |   General contractor: Nandez D&D  LLC   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 8,000
-- **Completion basis:** permit_active
-- **Sources (9 field citations, 2 distinct):**
-    - City of Miami building permit BD17008194001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD17008194001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0141210010150 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270141210010150%27&outFields=*&f=pjson
-
-### 500 NE 1 AV
-- **Address:** 500 NE 1 AV
-- **Parcel id:** 0101060301010
+### 610 NW 10 ST
+- **Address:** 610 NW 10 ST
+- **Parcel id:** 0101010102030
 - **Status:** Complete
-- **Asset class:** Institutional   **Neighbourhood:** Parkwest
-- Developer: not found   |   Architect: not found   |   General contractor: T&G CONSTRUCTORS   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 37,809
-- **Completion basis:** co_issued  (2025-07-16)
+- **Asset class:** Multifamily Rental   **Neighbourhood:** Culmer
+- Developer: not found   |   Architect: not found   |   General contractor: ATLANTIC PACIFIC COMMUNITY BUILDERS LLC   |   Civil engineer: not found   |   Lender: not found
+- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 124,749
+- **Construction lender:** not found
+- **Completion basis:** co_issued  (2026-08-27)
 - **Sources (10 field citations, 2 distinct):**
-    - City of Miami building permit BD19022167001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD19022167001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0101060301010 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270101060301010%27&outFields=*&f=pjson
+    - City of Miami building permit BD21023937001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21023937001B001%27&outFields=*&f=pjson
+    - Miami-Dade property boundary record, folio 0101010102030 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270101010102030%27&outFields=*&f=pjson
 
-### 637 SW 10 ST
-- **Address:** 637 SW 10 ST
-- **Parcel id:** 0102060501120
+### 758 NW 2 ST
+- **Address:** 758 NW 2 ST
+- **Parcel id:** 0102000701090
 - **Status:** Under Construction
-- **Asset class:** Condo   **Neighbourhood:** East Little Havana
-- Developer: not found   |   Architect: not found   |   General contractor: BERNAL CONSTRUCTION CORP   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 15,128
+- **Asset class:** Condo   **Neighbourhood:** Little Managua
+- Developer: not found   |   Architect: not found   |   General contractor: FORTH BUILDING  LLC   |   Civil engineer: not found   |   Lender: not found
+- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 80,454
+- **Construction lender:** not found
 - **Completion basis:** permit_active
 - **Sources (9 field citations, 2 distinct):**
-    - City of Miami building permit BD23024970001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23024970001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0102060501120 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270102060501120%27&outFields=*&f=pjson
+    - City of Miami building permit BD22026231001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22026231001B001%27&outFields=*&f=pjson
+    - Miami-Dade property boundary record, folio 0102000701090 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270102000701090%27&outFields=*&f=pjson
 
-### 6601 NE MIAMI PL
-- **Address:** 6601 NE MIAMI PL
-- **Parcel id:** 0131130190030
+### Cipriani Residences Miami
+- **Address:** 1420 S MIAMI AV
+- **Parcel id:** 0102090601040
 - **Status:** Under Construction
-- **Asset class:** Condo   **Neighbourhood:** Lemon City/Little Haiti
-- Developer: not found   |   Architect: not found   |   General contractor: EDGE CONSTRUCTION USA  INC.   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 19,778
+- **Asset class:** Condo   **Neighbourhood:** Brickell Village
+- Developer: Mast Capital   |   Architect: Arquitectonica   |   General contractor: Moss & Associates LLC   |   Civil engineer: not found   |   Lender: Banco Inbursa; Ascendant Capital Partners
+- Residential units: 397   |   Height: 950 ft   |   Stories: 80   |   Total sq ft: 1,250,643
+- **Construction lender:** Banco Inbursa; Ascendant Capital Partners
 - **Completion basis:** permit_active
-- **Sources (9 field citations, 2 distinct):**
-    - City of Miami building permit BD20023346001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD20023346001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0131130190030 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131130190030%27&outFields=*&f=pjson
+- **Sources (15 field citations, 5 distinct):**
+    - City of Miami building permit BD22010804001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22010804001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 21 Apr 2026 — https://floridayimby.com/2026/04/cipriani-residences-miami-reaches-872-feet-becomes-miamis-tallest-residential-tower.html
+    - Commercial Observer, 6 Feb 2024 — https://commercialobserver.com/2024/02/cipriani-residences-miami-mast-capital/
+    - Miami-Dade property boundary record, folio 0102090601040 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270102090601040%27&outFields=*&f=pjson
+    - Florida YIMBY, 24 Oct 2025 — https://floridayimby.com/2025/10/cipriani-residences-miami-reaches-halfway-mark-as-80-story-tower-rises-over-brickell.html
+- *Note:* Height: the tower is reported as expected to reach approximately 950 ft on completion (April 2026), having reached 872 ft at that date; an approximately 940 ft figure was published in October 2025. The 950 ft completion figure is stored as the building height under the conflict rule and the measured 872 ft is noted here. Interiors by 1508 London; structural engineering by Thornton Tomasetti. Newmark arranged the loan. Identity confirmed against the row's address, developer and storey count. CONSTRUCTION LENDER: both parties sit on the same $600m senior construction facility, split $350m from Banco Inbursa and $250m from Ascendant Capital Partners, so both are recorded. No mezzanine or preferred-equity piece is reported. Borrower is Mast Capital.
 
-### 845 SW 8 ST
-- **Address:** 845 SW 8 ST
-- **Parcel id:** 0141380032361
+### Rhapsody at Rainbow Village
+- **Address:** 2000 NW 3 AV
+- **Parcel id:** 0131250630020
 - **Status:** Under Construction
-- **Asset class:** Multifamily Rental   **Neighbourhood:** East Little Havana
-- Developer: not found   |   Architect: not found   |   General contractor: MANAGEMENT & CONSULTING INC   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 149,431
+- **Asset class:** Multifamily Rental   **Neighbourhood:** Rainbow Village
+- Developer: Housing Trust Group   |   Architect: not found   |   General contractor: ANF GROUP INC   |   Civil engineer: not found   |   Lender: KeyBank Real Estate Capital; J.P. Morgan Chase
+- Residential units: 310   |   Height: not found   |   Stories: not found   |   Total sq ft: 501,584
+- **Construction lender:** KeyBank Real Estate Capital; J.P. Morgan Chase
 - **Completion basis:** permit_active
-- **Sources (9 field citations, 2 distinct):**
-    - City of Miami building permit BD21019029001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21019029001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0141380032361 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270141380032361%27&outFields=*&f=pjson
+- **Sources (12 field citations, 4 distinct):**
+    - City of Miami building permit BD22011051001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22011051001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 2025-09-14 — https://floridayimby.com/2025/09/rhapsody-at-rainbow-village-tops-out-at-2000-nw-3rd-avenue-in-overtown-miami.html
+    - Commercial Observer, 11 Feb 2025 — https://commercialobserver.com/2025/02/miami-housing-trust-htg-jp-morgan-keybank-construction/
+    - Miami-Dade property boundary record, folio 0131250630020 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131250630020%27&outFields=*&f=pjson
+- *Note:* A $185m affordable housing community in Overtown with nearly 12,000 sq ft of retail. CONSTRUCTION LENDERS: $109.2m of construction debt in two separate construction loans, KeyBank Real Estate Capital at $52m and J.P. Morgan Chase at $57.2m. Neither is subordinate to the other, so both are recorded. A long list of other facilities in the same capital stack is REJECTED by kind: roughly $70m of 4 per cent LIHTC equity from Raymond James, which is equity; $15m of SAIL financing, $15m from the SEOPW CRA, a $3m PHCD HOME loan and a $500k Miami-Dade grant, all public subsidy; a $3.1m PHCD seller note; $11.8m of bond reinvestment earnings; and KeyBank's separate $60.4m of PERMANENT financing. Florida YIMBY's Feb 2025 groundbreaking piece gives the $185m total cost but names no lender.
 
-## Miami Beach — random 10 of 35
+### River District 14
+- **Address:** 1428 NW 14 AV
+- **Parcel id:** 0131350100570
+- **Status:** Under Construction
+- **Asset class:** Condo   **Neighbourhood:** Civic Center
+- Developer: Alta Development   |   Architect: Behar Font & Partners   |   General contractor: JAXI BUILDERS INC   |   Civil engineer: not found   |   Lender: Forman Capital
+- Residential units: 283   |   Height: 180 ft   |   Stories: 16   |   Total sq ft: 459,623
+- **Construction lender:** Forman Capital
+- **Completion basis:** permit_active
+- **Sources (16 field citations, 4 distinct):**
+    - City of Miami building permit BD23026274001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23026274001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 16 Apr 2023 — https://floridayimby.com/2023/04/alta-development-proposes-16-story-short-term-rental-condo-project-at-1418-nw-14th-avenue-in-allapattah-miami.html
+    - Florida YIMBY, 22 Sep 2024 — https://floridayimby.com/2024/09/77-8-million-loan-secured-for-short-term-rental-condominium-project-in-miamis-river-district.html
+    - Miami-Dade property boundary record, folio 0131350100570 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131350100570%27&outFields=*&f=pjson
+- *Note:* Identity confirmed by the source giving this permit's exact address and by the county owner matching the project's branding. The 180 ft is a stated structure height, not a sea-level figure. The permit's 459,623 sq ft exceeds the 414,102 sq ft proposal, and the permit figure is the later government one and is kept.
+
+### Sense 22
+- **Address:** 114 NE 22 ST
+- **Parcel id:** 0131250140080
+- **Status:** Under Construction
+- **Asset class:** Multifamily Rental   **Neighbourhood:** Edgewater
+- Developer: HA Emprendimientos   |   Architect: Anillo Toledo Lopez Architecture   |   General contractor: GRYCON  LLC   |   Civil engineer: not found   |   Lender: S3 Capital
+- Residential units: 328   |   Height: 381 ft   |   Stories: 36   |   Total sq ft: 502,266
+- **Construction lender:** S3 Capital
+- **Completion basis:** permit_active
+- **Sources (15 field citations, 4 distinct):**
+    - City of Miami building permit BD25007343001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD25007343001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 2025-05-20 — https://floridayimby.com/2025/05/plans-submitted-for-381-foot-tall-sense-22-at-114-ne-22nd-street-in-edgewater-miami.html
+    - Commercial Observer, 8 Jul 2026 — https://commercialobserver.com/2026/07/s3-capital-miami-apartments/
+    - Miami-Dade property boundary record, folio 0131250140080 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131250140080%27&outFields=*&f=pjson
+- *Note:* New Sense, LLC is an affiliate of Argentina-based HA Emprendimientos, which is stored as the developer; the LLC is the owner of record. 132 of the 328 units are affordable rental housing under the Live Local Act. An identity trap caught here: web searches attribute this $111m S3 Capital loan to Swire's Mandarin Oriental on Brickell Key. The article names Sense 22 at 114-138 NE 22nd Street with borrower HA Emprendimientos, which matches this row's address and developer, so it is recorded here and on neither Mandarin Oriental row. CONSTRUCTION LENDER: a $111m three-year construction loan to HA Emprendimientos for the 36-storey, 328-unit tower at 114-138 NE 22nd Street, Edgewater. REJECTED on this project: an earlier land-and-predevelopment mortgage on the same site, which is excluded by kind and names no lender in any case. IMPORTANT: this is the loan that search engines misattribute to the Mandarin Oriental towers — see the note on those rows.
+
+### WNWD21
+- **Address:** 2150 N MIAMI AV
+- **Parcel id:** 0131250480290
+- **Status:** Complete
+- **Asset class:** Multifamily Rental   **Neighbourhood:** Wynwood Industrial District
+- Developer: Related Group; Rockpoint   |   Architect: Cohen Freedman Encinosa & Associates   |   General contractor: BEAUCHAMP CONSTRUCTION CO.  INC.   |   Civil engineer: not found   |   Lender: Bank OZK
+- Residential units: 304   |   Height: not found (12 storeys known)   |   Stories: 12   |   Total sq ft: 211,052
+- **Construction lender:** Bank OZK
+- **Completion basis:** co_issued  (2025-03-11)
+- **Sources (15 field citations, 4 distinct):**
+    - City of Miami building permit BD21022699001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21022699001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 2022-12-17 — https://floridayimby.com/2022/12/developers-break-ground-on-wnwd21-at-2150-n-miami-avenue-in-wynwood-miami.html
+    - Bisnow, 19 Dec 2022 — https://www.bisnow.com/news/south-florida/deal-sheet/this-weeks-south-florida-deal-sheet-116924
+    - Miami-Dade property boundary record, folio 0131250480290 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131250480290%27&outFields=*&f=pjson
+- *Note:* A two-towered development with over 18,000 sq ft of retail. Interiors by ID & Design International. CONSTRUCTION LENDER: about $118m, reported as $117.1m in some accounts, a single facility to the Related Group and Rockpoint joint venture with no mezzanine or preferred-equity piece. The Bisnow entry cites 2150 N Miami Ave, which is this row's address. THE SAME FACILITY COVERS THE SIBLING ROW, Wynwood Diamedix — east building at 2115 N Miami Ave: the two buildings are one financed assemblage running 2141 to 2115 and 2150 to 2160 North Miami Avenue, and both rows carry this lender. REJECTED: a $58m facility of 2017 belonging to Wynwood 25, a different Related project, and a $136m refinancing of 2020.
+
+## Miami Beach — random 10 of 19
 
 ### 1030 6th Street
 - **Address:** 1030 6 St
@@ -293,6 +322,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Multifamily Rental   **Neighbourhood:** FlamingoLummus
 - Developer: not found   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 72   |   Height: not found (5 storeys known)   |   Stories: 5   |   Total sq ft: not found
+- **Construction lender:** not found
 - **Sources (5 field citations, 4 distinct):**
     - City of Miami Beach, Live Local Act Applications Under Review — https://www.miamibeachfl.gov/city-hall/planning/live-local-act-applications-under-review/
     - Miami Beach neighborhoods layer — https://gis.miamibeachfl.gov/public/rest/services/gc/gc_Cadastral/MapServer/12
@@ -300,55 +330,32 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
     - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
 - *Note:* Programme fields are not found; the City's under-review page publishes only the address and application number. One of the three Live Local applications that defeated the earlier pass. Recovered from the EnerGov plan record itself (api/energov/plans/b0b26cd2-986f-4315-bcb6-5313b9b5adc7 with tenantId:3 and tenantName:miamibeachflprod2), not from any hosted PDF — the city page links only the portal. Status Under Review, applied 2026-03-30, district CPS-2. Elderly (age-restricted) workforce housing with ground-floor retail. No height in feet anywhere in the record.
 
-### 1101 71st Street
-- **Address:** 1101 71st St
+### 1250 West Avenue
+- **Address:** 1250 West Ave
 - **Parcel id:** not found
-- **Status:** Planning
-- **Asset class:** Multifamily Rental   **Neighbourhood:** not found
-- Developer: Jerika Properties   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: 98   |   Height: not found   |   Stories: not found   |   Total sq ft: 116,000
-- **Sources (4 field citations, 1 distinct):**
-    - Florida YIMBY, 24 Nov 2025 — https://floridayimby.com/2025/11/developer-proposes-affordable-housing-development-for-1101-71st-st-miami-beach-fl-33141.html
-- *Note:* The coverage states the building would measure no more than 235 ft, which is a cap rather than a stated height, so height is not stored. No unit count is published. HEIGHT REJECTED: the same article says the building would measure no more than 235 feet high, which is a stated maximum rather than a height, so no height is recorded. Developer Jerika Properties; Live Local Act; replaces a shuttered Chase bank. The article states no storey count, so no storey cross-check was possible.
-
-### 1826 Collins Avenue
-- **Address:** 1826 Collins Ave
-- **Parcel id:** 0232340190050
 - **Status:** Approved
-- **Asset class:** Multifamily Rental   **Neighbourhood:** CityCenter
-- Developer: Crescent Heights (Russell Galbut); Lefferts (Mendy Chudaitov)   |   Architect: Built Form Architecture   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: 29   |   Height: 213 ft   |   Stories: 15   |   Total sq ft: not found
-- **Sources (8 field citations, 3 distinct):**
-    - Florida YIMBY, 11 May 2026 — https://floridayimby.com/2026/05/planning-board-approves-mechanical-parking-system-for-1826-collins-amid-neighbor-opposition-in-miami-beach.html
-    - Miami Beach neighborhoods layer — https://gis.miamibeachfl.gov/public/rest/services/gc/gc_Cadastral/MapServer/12
-    - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
-- *Note:* On the City's list of approved Live Local Act applications. The ownership is described as an entity tied to Crescent Heights' Russell Galbut and Lefferts' Mendy Chudaitov; no single developer entity is named, so both sponsors are recorded. NO CONSTRUCTION LOAN REPORTED. The project is only approved — the Miami Beach Planning Board cleared its mechanical parking system in May 2026 and the Live Local Act entitlement is still being litigated by neighbours. REJECTED: Crescent Heights' other facilities that searches surface, being the $345m 500 Alton construction loan, the $224m Edgewater loan, the $238m Forma refinancing and a $41m citizenM loan, all different projects.
+- **Asset class:** Condo   **Neighbourhood:** not found
+- Developer: Terra; RG Development Group; GV Development; LORE Development   |   Architect: ODP Architecture and Design   |   General contractor: not found   |   Civil engineer: not found   |   Lender: TYKO Capital
+- Residential units: 106   |   Height: 330 ft   |   Stories: 28   |   Total sq ft: not found
+- **Construction lender:** TYKO Capital
+- **Sources (7 field citations, 2 distinct):**
+    - Florida YIMBY, 17 May 2026 — https://floridayimby.com/2026/05/40002.html
+    - Florida YIMBY, 21 Oct 2026 — https://floridayimby.com/2026/10/terra-and-partners-secure-507-million-construction-loan-for-28-story-condominium-at-1250-west-avenue-in-miami-beach.html
+- *Note:* Design Review Board approved unanimously in May 2026 and a $507m TYKO Capital construction loan closed in October 2026, with sales expected to begin in 2027; no source reports a construction start, so the stage is Approved. An earlier JDS Development Group scheme for 29 storeys and 100 condos is superseded.
 
-### 1940 Park Avenue workforce housing
-- **Address:** 1940 Park Ave
-- **Parcel id:** 0232340160110
+### 1501 Collins Avenue
+- **Address:** 1501 Collins Ave
+- **Parcel id:** 0232341630001
 - **Status:** Planning
-- **Asset class:** Multifamily Rental   **Neighbourhood:** CityCenter
-- Developer: The Peebles Corp.   |   Architect: Brooks + Scarpa Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: 105   |   Height: not found (6 storeys known)   |   Stories: 6   |   Total sq ft: not found
-- **Sources (7 field citations, 4 distinct):**
-    - The Real Deal, 16 Jun 2026 — https://therealdeal.com/miami/2026/06/16/housing-coming-for-historic-miami-beach-site-city-condemned/
-    - Florida YIMBY, 30 Jun 2026 — https://floridayimby.com/2026/06/shuttered-hotel-could-be-replaced-with-workforce-housing-at-1940-park-ave-miami-beach-florida.html
+- **Asset class:** Mixed-Use   **Neighbourhood:** CityCenter
+- Developer: Pebb Capital; Maxwell Real Estate Group; GFO Investments   |   Architect: AS+GG   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 124   |   Height: 325 ft   |   Stories: 25   |   Total sq ft: 487,633
+- **Construction lender:** not found
+- **Sources (9 field citations, 3 distinct):**
+    - Florida YIMBY, 20 Sep 2026 — https://floridayimby.com/2026/09/developers-seek-to-restore-historic-hotel-and-build-25-story-tower-at-1501-collins-avenue-miami-beach-florida.html
     - Miami Beach neighborhoods layer — https://gis.miamibeachfl.gov/public/rest/services/gc/gc_Cadastral/MapServer/12
     - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
-- *Note:* No unit count, floor area, storey count or architect is published for this proposal, so those fields are not found. DEVELOPER CONFLICT LEFT UNRESOLVED: The Real Deal of 16 June 2026 attributes the project to Legacy Real Estate Development and records that the City selected Legacy and Urban American in 2024, with Urban American no longer involved; Florida YIMBY two weeks later says an affiliate of The Peebles Corp. and names 1940 Barclay Partners LLC. The stored value follows the later source under the conflict rule, but Legacy Real Estate Development is the more specific attribution and this is flagged for a human call. The site is City-owned, 1.6 acres, replacing the condemned Barclay Hotel: 54 studios, 39 one-bed, 12 two-bed, 1,000 sq ft of retail, 78,700 sq ft.
-
-### 6945 Abbott Avenue hotel
-- **Address:** 6945 Abbott Ave
-- **Parcel id:** 0232110010290
-- **Status:** Planning
-- **Asset class:** Hotel   **Neighbourhood:** NorthShore
-- Developer: Abbott M 6945   |   Architect: M77R Architecture   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Hotel keys: 48   |   Height: 90 ft   |   Stories: 6   |   Total sq ft: not found
-- **Sources (8 field citations, 3 distinct):**
-    - Florida YIMBY, 6 Oct 2025 — https://floridayimby.com/2025/10/48-room-hotel-proposed-for-6945-abbott-ave-miami-beach-fl.html
-    - Miami Beach neighborhoods layer — https://gis.miamibeachfl.gov/public/rest/services/gc/gc_Cadastral/MapServer/12
-    - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
+- *Note:* Feet above grade for the 25-storey tower, consistent with the floor area and unit count already stored. The sponsor sued the City in January 2026 alleging it blocked the redevelopment; the application remains on the under-review list.
 
 ### 71 NoBe
 - **Address:** 400 71st St
@@ -357,69 +364,94 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Mixed-Use   **Neighbourhood:** not found
 - Developer: Pacific Star Capital   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 277   |   Height: not found   |   Stories: not found   |   Total sq ft: not found
+- **Construction lender:** loan reported, lender not named
 - **Sources (4 field citations, 1 distinct):**
     - Florida YIMBY, 7 Jan 2026 — https://floridayimby.com/2026/01/mixed-use-71-nobe-planned-for-2027-completion-at-400-71st-st-miami-beach-florida.html
-- *Note:* The $94m facility is described as a construction loan but the lender is not named. A loan closing is not a construction start and no source reports one, so the stage is Approved. No unit count or storey count is published. The $94m construction loan is reported but its lender is named nowhere, so the field stays empty. Over 30,000 sq ft of retail is also planned. CONSTRUCTION LOAN CONFIRMED, LENDER NOT NAMED ANYWHERE ACCEPTABLE. Florida YIMBY of 7 Jan 2026 states that an affiliate of Pacific Star Capital has secured a $94 million construction loan for the project, and the article was fetched in full: the lender is simply not identified in it. No Commercial Observer, Bisnow or Real Deal article names it either. This is the cleanest example in the pass of a facility that exists, is unambiguously construction financing, and has no attributable lender. REJECTED: a $98m loan of 2022 to the Galbut family and Matis Cohen, a different North Beach project. NEXT STEP: Miami-Dade official records for a construction mortgage at 400 71st Street.
+- *Note:* The $94m facility is described as a construction loan but the lender is not named. A loan closing is not a construction start and no source reports one, so the stage is Approved. No unit count or storey count is published. The $94m construction loan is reported but its lender is named nowhere, so the field stays empty. Over 30,000 sq ft of retail is also planned. CONSTRUCTION LOAN CONFIRMED, LENDER NOT NAMED ANYWHERE ACCEPTABLE. Florida YIMBY of 7 Jan 2026 states that an affiliate of Pacific Star Capital has secured a $94 million construction loan for the project, and the article was fetched in full: the lender is simply not identified in it. No Commercial Observer, Bisnow or Real Deal article names it either. This is the cleanest example in the pass of a facility that exists, is unambiguously construction financing, and has no attributable lender. REJECTED: a $98m loan of 2022 to the Galbut family and Matis Cohen, a different North Beach project. NEXT STEP: Miami-Dade official records for a construction mortgage at 400 71st Street. LENDER NOT NAMED. Facility: $94m construction loan, reported Jan 2026. Reported as not named by any source. The cleanest case of the eight: Florida YIMBY states that an affiliate of Pacific Star Capital secured a $94 million construction loan, and the article was fetched in full -- the lender is simply not identified in it. No Commercial Observer, Bisnow or Real Deal article names it either.
 
-### 824 Alton Road
-- **Address:** 824 Alton Rd
-- **Parcel id:** 0242030010530
-- **Status:** Planning
-- **Asset class:** Multifamily Rental   **Neighbourhood:** FlamingoLummus
-- Developer: Crescent Heights   |   Architect: RSP Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: 149   |   Height: not found (39 storeys known)   |   Stories: 39   |   Total sq ft: not found
-- **Sources (7 field citations, 4 distinct):**
-    - Florida YIMBY, 4 Oct 2026 — https://floridayimby.com/2026/10/developer-revises-plans-for-workforce-housing-high-rise-at-824-alton-road-miami-florida.html
-    - Florida YIMBY, 9 Oct 2025 — https://floridayimby.com/2025/10/31-story-tower-with-workforce-housing-proposed-for-824-alton-rd-miami-beach-fl.html
-    - Miami Beach neighborhoods layer — https://gis.miamibeachfl.gov/public/rest/services/gc/gc_Cadastral/MapServer/12
-    - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
-- *Note:* Plans were revised in October 2026; that report restates the original 31-storey, 120-residence programme and does not publish revised figures, so the original programme is stored. SUPERSEDES the 31 storeys and 120 residences previously stored, which came from the October 2025 filing at 404 ft. The revision is 72 workforce plus 77 market-rate units. Height is not recorded: the revision is described only as more than 500 ft above grade, which is not a figure.
-
-### AVARA Residences
-- **Address:** 3900 Alton Rd
-- **Parcel id:** 0232220460010
-- **Status:** Complete
-- **Asset class:** Multifamily Rental   **Neighbourhood:** BayShore
-- Developer: Mast Capital; Rockpoint   |   Architect: Arquitectonica   |   General contractor: Kaufman Lynn Construction   |   Civil engineer: not found   |   Lender: PNC Bank
-- Residential units: 178   |   Height: not found (8 storeys known)   |   Stories: 8   |   Total sq ft: not found
-- **Completion basis:** leasing_active  (2025-12)
-- **Sources (9 field citations, 4 distinct):**
-    - Florida YIMBY, 6 Dec 2025 — https://floridayimby.com/2025/12/avara-residences-debut-at-3900-alton-road-with-178-rental-homes-in-miami-beach.html
-    - Florida YIMBY, 15 Mar 2023 — https://floridayimby.com/2023/03/178-unit-residential-project-at-3900-alton-road-set-for-completion-in-fall-2024.html
-    - Miami Beach neighborhoods layer — https://gis.miamibeachfl.gov/public/rest/services/gc/gc_Cadastral/MapServer/12
-    - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
-- *Note:* A $64m construction loan closed in November 2022; the contractor's role is restated at topping-off. The project was called 3900 Alton Road before delivery.
-
-### Grand Hyatt Miami Beach Convention Center Hotel
-- **Address:** 1701 Convention Center Dr
+### 7200 Collins
+- **Address:** 7200 Collins Ave
 - **Parcel id:** not found
 - **Status:** Under Construction
-- **Asset class:** Hotel   **Neighbourhood:** not found
-- Developer: Terra; Turnberry   |   Architect: Arquitectonica   |   General contractor: Balfour Beatty   |   Civil engineer: not found   |   Lender: Tyko Capital
-- Residential units: not found   |   Hotel keys: 800   |   Height: not found (17 storeys known)   |   Stories: 17   |   Total sq ft: not found
+- **Asset class:** Condo   **Neighbourhood:** not found
+- Developer: Northlink Capital   |   Architect: Revuelta Architecture International   |   General contractor: Ortega Construction Company   |   Civil engineer: not found   |   Lender: Deutsche Bank
+- Residential units: 222   |   Height: not found (12 storeys known)   |   Stories: 12   |   Total sq ft: 274,150
+- **Construction lender:** Deutsche Bank
 - **Completion basis:** news_confirmed
 - **Sources (8 field citations, 2 distinct):**
-    - Florida YIMBY, 30 Jul 2026 — https://floridayimby.com/2026/07/construction-tops-out-on-17-story-grand-hyatt-miami-beach-convention-center-hotel.html
-    - Commercial Observer, 11 Apr 2025 — https://commercialobserver.com/2025/04/terra-turnberry-miami-beach-convention-center-hotel-grand-hyatt/
-- *Note:* A $392m construction loan arranged by Eastdil Secured. The separate $75m Miami Beach Redevelopment Agency grant is not debt. A civil engineer is named only in 2022 coverage, in the same sentence as a general contractor who was later replaced, so it is not recorded. Hotel keys recorded as hotel rooms, not as residential units. The 17 storeys in the same article match the tracker. No height in feet published.
+    - Florida YIMBY, 2 Sep 2026 — https://floridayimby.com/2026/09/foundation-work-underway-at-7200-collins-in-north-beach-miami-beach.html
+    - Florida YIMBY, 21 Mar 2026 — https://floridayimby.com/2026/03/groundbreaking-held-for-12-story-222-unit-7200-collins-in-miami-beach.html
 
-### The Perigon Miami Beach
-- **Address:** 5333 Collins Ave
-- **Parcel id:** 0232140010220
+### Ella Miami Beach
+- **Address:** 6940 Abbott Ave
+- **Parcel id:** 0232110010590
 - **Status:** Under Construction
-- **Asset class:** Condo   **Neighbourhood:** OceanFront
-- Developer: Mast Capital; Starwood Capital Group   |   Architect: ODP Architecture & Design   |   General contractor: Moss Construction   |   Civil engineer: not found   |   Lender: Eldridge Real Estate Credit
-- Residential units: 73   |   Height: not found (17 storeys known)   |   Stories: 17   |   Total sq ft: not found
+- **Asset class:** Condo   **Neighbourhood:** NorthShore
+- Developer: Constellation Group; The Boschetti Group; Vietmar   |   Architect: Arquitectonica   |   General contractor: Ortega Construction Co.   |   Civil engineer: Biscayne Engineering   |   Lender: Amerant Bank
+- Residential units: 103   |   Height: 130 ft   |   Stories: 10   |   Total sq ft: not found
+- **Construction lender:** Amerant Bank
 - **Completion basis:** news_confirmed
-- **Sources (9 field citations, 5 distinct):**
-    - Florida YIMBY, 4 Apr 2024 — https://floridayimby.com/2024/04/developers-break-ground-on-17-story-the-perigon-at-5333-collins-avenue-in-miami-beach.html
-    - Florida YIMBY, 6 Mar 2026 — https://floridayimby.com/2026/03/the-perigon-miami-beach-tops-out-at-5333-collins-avenue-in-mid-beach.html
-    - The Real Deal, 17 Jan 2025 — https://therealdeal.com/miami/2025/01/17/mast-capital-starwood-get-390m-loan-for-miami-beach-condos/
+- **Sources (11 field citations, 5 distinct):**
+    - Florida YIMBY, 13 Mar 2026 — https://floridayimby.com/2026/03/ella-miami-beach-to-top-out-in-two-weeks-at-6940-abbott-ave-miami-beach-florida.html
+    - Florida YIMBY, 24 Feb 2023 — https://floridayimby.com/2023/02/developers-seek-design-review-approval-for-proposed-10-story-mixed-use-building-at-6940-abbott-avenue-in-miami-beach.html
+    - Commercial Observer, 25 Mar 2025 — https://commercialobserver.com/2025/03/constellation-boschetti-ella-amerant-finance-miami-florida/
     - Miami Beach neighborhoods layer — https://gis.miamibeachfl.gov/public/rest/services/gc/gc_Cadastral/MapServer/12
     - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
-- *Note:* No unit count is stated in the coverage read for this run, so residential units is not found. ARCHITECT CORRECTED: OMA was stored, but OMA is the design architect and ODP Architecture & Design is the architect of record, which is what the field rule asks for. A $390m construction loan. Malcolm Drilling was the foundation contractor, not the general contractor.
+- *Note:* A $42.3m three-year floating-rate construction loan brokered by Berkadia. The 130 ft height and the civil engineer both come from the 2023 design-review submittal, which described 96 units against the 103 built; the storey count is unchanged across all coverage, which is why the height is carried forward, but neither figure has been restated since 2023.
 
-## West Palm Beach — random 10 of 30
+### NoBe PARC Miami Beach
+- **Address:** 7140 Abbott Ave
+- **Parcel id:** 0232110020470
+- **Status:** Planning
+- **Asset class:** Condo   **Neighbourhood:** NorthShore
+- Developer: Robert Finvarb Cos.   |   Architect: Arquitectonica & The Architects Group   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 232   |   Height: not found (15 storeys known)   |   Stories: 15   |   Total sq ft: not found
+- **Construction lender:** not found
+- **Sources (7 field citations, 3 distinct):**
+    - Florida YIMBY, 29 May 2026 — https://floridayimby.com/2026/05/15-story-nobe-parc-miami-beach-planned-for-2028-completion-at-7140-abbott-ave-miami-beach-florida.html
+    - Miami Beach neighborhoods layer — https://gis.miamibeachfl.gov/public/rest/services/gc/gc_Cadastral/MapServer/12
+    - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
+
+### PALMA Miami Beach Residences
+- **Address:** 600 71st St
+- **Parcel id:** not found
+- **Status:** Under Construction
+- **Asset class:** Condo   **Neighbourhood:** not found
+- Developer: Lefferts   |   Architect: Built Form   |   General contractor: KAST Construction   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 121   |   Height: not found (14 storeys known)   |   Stories: 14   |   Total sq ft: 127,600
+- **Construction lender:** not found
+- **Completion basis:** news_confirmed
+- **Sources (7 field citations, 2 distinct):**
+    - Florida YIMBY, 29 Jun 2026 — https://floridayimby.com/2026/06/foundation-work-underway-for-palma-miami-beach-at-600-71st-street-in-north-beach.html
+    - Florida YIMBY, 24 Dec 2025 — https://floridayimby.com/2025/12/ground-breaks-on-14-story-palma-miami-beach-residences-at-600-71st-street-in-north-beach.html
+- *Note:* NO CONSTRUCTION LOAN REPORTED. The project broke ground on 16 December 2025 and foundation work is under way, but neither Florida YIMBY article — the December 2025 groundbreaking or the June 2026 foundation piece — mentions any loan, lender or financing, and the groundbreaking article was fetched to confirm. Bisnow's deal-sheet coverage of the groundbreaking also carries none. Consistent with a heavily pre-sold condominium, roughly half sold at groundbreaking, funded on deposits and sponsor equity. REJECTED: Lefferts' $97.5m Ocean Bank facility for 72 Park and a $42.3m loan for Ella Miami Beach, both different projects.
+
+### Southgate Towers Live Local redevelopment
+- **Address:** 910 West Ave
+- **Parcel id:** not found
+- **Status:** Planning — **Denied** (dead)
+- **Asset class:** Multifamily Rental   **Neighbourhood:** not found
+- Developer: not found   |   Architect: Arquitectonica   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 442   |   Height: not found (38 storeys known)   |   Stories: 38   |   Total sq ft: not found
+- **Construction lender:** not found
+- **Sources (5 field citations, 1 distinct):**
+    - The Real Deal, 30 Oct 2026 — https://therealdeal.com/miami/2026/10/30/miami-beach-axes-38-story-live-local-act-project-over-zoning/
+- *Note:* Dead, recorded under the existing Denied status. The 495 units are the EXISTING buildings, not the proposal, so no unit count is stored for the new scheme. The applicant is Southgate Towers LLC; the property is Blackstone-owned. This corrects the row's earlier note that no unit count was published for the proposal: 442 units, being 264 condominiums and 178 apartments at workforce rents, replacing two existing 14-storey buildings of 495 units. The denial is appealable to the city board of adjustment. Blackstone Real Estate took the owner private in 2024.
+
+### The Alton
+- **Address:** 1656-1680 Alton Rd
+- **Parcel id:** not found
+- **Status:** Planning
+- **Asset class:** Mixed-Use   **Neighbourhood:** not found
+- Developer: Infinity Collective   |   Architect: PBDW Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 142   |   Height: not found (14 storeys known)   |   Stories: 14   |   Total sq ft: not found
+- **Construction lender:** not found
+- **Sources (6 field citations, 2 distinct):**
+    - Florida YIMBY, 3 Nov 2026 — https://floridayimby.com/2026/11/14-story-tower-proposed-for-1-38-acre-site-at-1680-alton-road-miami-beach-florida-33139.html
+    - Florida YIMBY, 21 Mar 2026 — https://floridayimby.com/2026/03/miami-beach-planning-board-to-review-rezoning-plans-for-project-located-at-1677-west-ave-miami-beach-florida.html
+- *Note:* Unit count revised from 184 residences to 142 apartments; the November 2026 figure is stored under the conflict rule. A separate, earlier six-storey SHVO office scheme designed by Foster + Partners with Kobi Karp was approved for this site in 2023 and never built; it is superseded and not recorded as its own project.
+
+## West Palm Beach — random 10 of 29
 
 ### 2001 North Flagler Drive
 - **Address:** 2001 N Flagler Dr
@@ -428,6 +460,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: Related Group; BH Group   |   Architect: Arquitectonica   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 90   |   Height: not found (27 storeys known)   |   Stories: 27   |   Total sq ft: 480,000
+- **Construction lender:** not found
 - **Sources (7 field citations, 3 distinct):**
     - Florida YIMBY, 29 Jan 2026 — https://floridayimby.com/2026/01/developers-propose-luxury-27-story-for-2001-n-flagler-dr-west-palm-beach-fl.html
     - Palm Beach County property appraiser parcel record — https://services1.arcgis.com/ZWOoUZbtaYePLlPw/arcgis/rest/services/Parcels_and_Property_Details_WebMercator/FeatureServer/0
@@ -441,6 +474,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: Terra; BH Group   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 281   |   Height: not found (31 storeys known)   |   Stories: 31   |   Total sq ft: 440,000
+- **Construction lender:** not found
 - **Sources (6 field citations, 1 distinct):**
     - Florida YIMBY, 19 Jun 2026 — https://floridayimby.com/2026/06/developers-plan-two-31-story-towers-for-2085-n-flagler-dr-west-palm-beach-fl.html
 - *Note:* The site was under contract from its owner, 2111 Flagler LLC, at the time of reporting. No unit count or architect is published. The same article contains a sentence naming two further partners on a Terra project, but that paragraph is about a different scheme in Miami Beach, so those firms are not added here. This address is a distinct project from 1919, 2001 and 1865/1901 North Flagler.
@@ -452,6 +486,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Multifamily Rental   **Neighbourhood:** NORTHWEST RESIDENTS IN ACTION
 - Developer: Related Ross   |   Architect: MSA Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 164   |   Height: not found (7 storeys known)   |   Stories: 7   |   Total sq ft: not found
+- **Construction lender:** not found
 - **Sources (7 field citations, 3 distinct):**
     - Florida YIMBY, 22 Jul 2026 — https://floridayimby.com/2026/07/related-ross-revises-plans-for-affordable-housing-venture-at-209-n-sapodilla-ave-west-palm-beach-fl.html
     - West Palm Beach neighborhoods layer — https://wpbgisportal.wpb.org/server/rest/services/MayorOffice/WPB_Neighborhoods/FeatureServer/0
@@ -465,21 +500,11 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: Mast Capital; Curated JCZM Development   |   Architect: Corwil Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 88   |   Height: not found (25 storeys known)   |   Stories: 25   |   Total sq ft: not found
+- **Construction lender:** not found
 - **Sources (5 field citations, 2 distinct):**
     - Florida YIMBY, 22 Mar 2026 — https://floridayimby.com/2026/03/developers-propose-28-story-mixed-use-tower-for-400-hibiscus-street-west-palm-beach-florida.html
     - Florida YIMBY, 19 Aug 2026 — https://floridayimby.com/2026/08/banyan-tree-residences-west-palm-beach-secures-unanimous-downtown-action-committee-approval.html
 - *Note:* OMA (Jason Long) is the design architect and Corwil Architects is the architect of record, so Corwil is stored and OMA recorded here, per the field rule. The storey count was published as 24 and 28 in March 2026 and as 25 in August 2026; the later figure is stored. The project is reported at 400 Hibiscus Street and at 635 South Dixie Highway with the same 88-residence, Mast Capital/Curated JCZM programme, which is one corner site under two frontages. NO CONSTRUCTION LOAN REPORTED. Approved only — the West Palm Beach Downtown Action Committee approved it unanimously in August 2026 with construction expected to begin in 2027 for 2029 delivery. Three Florida YIMBY articles, Commercial Observer's Mast Capital coverage of March and October 2026, and Bisnow were all checked and none mentions a loan or lender for 400 Hibiscus Street. Mast paid $5.2m for the site in early 2025, which is a purchase.
-
-### Cox Science Center Hall of Science expansion
-- **Address:** Cox Science Center, West Palm Beach
-- **Parcel id:** not found
-- **Status:** Approved
-- **Asset class:** Institutional   **Neighbourhood:** not found
-- Developer: not found   |   Architect: PBK   |   General contractor: Skanska   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 86,000
-- **Sources (4 field citations, 1 distinct):**
-    - Florida YIMBY, 26 Dec 2025 — https://floridayimby.com/2025/12/skanska-selected-to-build-86000-square-foot-hall-of-science-expansion-at-cox-science-center-in-west-palm-beach.html
-- *Note:* No street address is published in the coverage, so the project is recorded by its location and carries no parcel control number. Skanska was selected as builder in December 2025; selection of a builder is not a construction start, so the stage is Approved. NO CONSTRUCTION LOAN — the project is philanthropically funded. The $150m expansion is paid for by grants and donations including $20m from Wendy and Howard Cox, $8m from Ken Griffin and $5m gifts from Leonard Lauder and the David H. Koch Foundation. Grants are an excluded facility type and no debt facility exists. Skanska's role is an $83m construction contract as general contractor, not financing.
 
 ### Deco Northwood
 - **Address:** 2900 Broadway
@@ -488,6 +513,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Multifamily Rental   **Neighbourhood:** not found
 - Developer: The Prime Company   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 167   |   Height: 84 ft   |   Stories: 8   |   Total sq ft: not found
+- **Construction lender:** not found
 - **Sources (7 field citations, 3 distinct):**
     - Florida YIMBY, 9 Oct 2025 — https://floridayimby.com/2025/10/deco-northwood-proposed-for-2900-broadway-west-palm-beach-florida.html
     - City of West Palm Beach, City Commission Agenda — background for Resolution No. 228-25 — https://www.wpb.org/files/assets/city/v/2/city-clerk/documents/agendas/2025-pass-fail-agendas-pfa/2025-10-oct-pfa/pf-city-commission-agenda_10_27_25.pdf
@@ -501,9 +527,24 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: Related Ross   |   Architect: Kohn Pedersen Fox   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 168   |   Height: not found (28 storeys known)   |   Stories: 28   |   Total sq ft: not found
+- **Construction lender:** not found
 - **Sources (5 field citations, 1 distinct):**
     - Florida YIMBY, 20 Mar 2026 — https://floridayimby.com/2026/03/two-tower-164-unit-edgeworth-slated-for-1155-south-flagler-drive-west-palm-beach-florida.html
 - *Note:* The March 2026 report's headline says 164 units and its text says 168; the text figure is stored and the headline figure noted.
+
+### Soleste Palm Station Two
+- **Address:** 411 W Railroad Ave
+- **Parcel id:** 74434321060270010
+- **Status:** Planning
+- **Asset class:** Multifamily Rental   **Neighbourhood:** NORTHWEST RESIDENTS IN ACTION
+- Developer: Estate Cos.   |   Architect: BC Architects   |   General contractor: not found   |   Civil engineer: Craven Thompson & Associates   |   Lender: not found
+- Residential units: 310   |   Height: not found (15 storeys known)   |   Stories: 15   |   Total sq ft: not found
+- **Construction lender:** not found
+- **Sources (8 field citations, 3 distinct):**
+    - Florida YIMBY, 12 May 2026 — https://floridayimby.com/2026/05/15-story-soleste-palm-station-two-proposed-for-411-w-railroad-ave-west-palm-beach-fl.html
+    - West Palm Beach neighborhoods layer — https://wpbgisportal.wpb.org/server/rest/services/MayorOffice/WPB_Neighborhoods/FeatureServer/0
+    - Palm Beach County property appraiser parcel record — https://services1.arcgis.com/ZWOoUZbtaYePLlPw/arcgis/rest/services/Parcels_and_Property_Details_WebMercator/FeatureServer/0
+- *Note:* Civil engineer is filled because the coverage names the full consultant team, which is the only circumstance in which that field is filled for this market.
 
 ### The Berkeley Palm Beach
 - **Address:** 550 S Australian Ave
@@ -512,11 +553,13 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: Al Adelson   |   Architect: Arquitectonica   |   General contractor: John Moriarty & Associates   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 193   |   Height: not found (25 storeys known)   |   Stories: 25   |   Total sq ft: not found
+- **Construction lender:** no construction loan reported
 - **Completion basis:** news_confirmed
-- **Sources (7 field citations, 2 distinct):**
+- **Sources (8 field citations, 3 distinct):**
     - Florida YIMBY, 7 Jul 2026 — https://floridayimby.com/2026/07/the-berkeley-palm-beach-breaks-ground-at-550-south-australian-avenue-in-west-palm-beach.html
+    - financing structure documented; see notes — https://floridayimby.com/2025/09/the-berkeley-palm-beach-secures-62-5-million-pre-construction-loan-from-jvp-management-in-downtown-west-palm-beach.html
     - Palm Beach County property appraiser parcel record — https://services1.arcgis.com/ZWOoUZbtaYePLlPw/arcgis/rest/services/Parcels_and_Property_Details_WebMercator/FeatureServer/0
-- *Note:* JVP Management provided a $62.5m pre-construction loan in September 2025. A pre-construction loan is not a construction loan, so no lender is recorded. The project is reported at both 500 and 550 South Australian Avenue. NO SENIOR CONSTRUCTION LOAN REPORTED YET, with direct evidence of its absence. Florida YIMBY of September 2025 reports $62.5m from JVP Management explicitly as a PRE-CONSTRUCTION loan, and quotes JVP saying the facility will support the project through its predevelopment phase and that it hopes to provide the construction financing in 2026 — which is a lender stating on the record that no construction facility existed. ALSO REJECTED: a $30m facility from Windsor Private Capital that property records style a construction loan, which is a site-level mortgage on the 1.92-acre parcel and is superseded five months later by the larger predevelopment loan, so it cannot be the senior construction loan for a 25-storey, 193-unit tower. The July 2026 groundbreaking article carries no financing content. JVP Management is the likely construction lender if and when it closes.
+- *Note:* JVP Management provided a $62.5m pre-construction loan in September 2025. A pre-construction loan is not a construction loan, so no lender is recorded. The project is reported at both 500 and 550 South Australian Avenue. NO SENIOR CONSTRUCTION LOAN REPORTED YET, with direct evidence of its absence. Florida YIMBY of September 2025 reports $62.5m from JVP Management explicitly as a PRE-CONSTRUCTION loan, and quotes JVP saying the facility will support the project through its predevelopment phase and that it hopes to provide the construction financing in 2026 — which is a lender stating on the record that no construction facility existed. ALSO REJECTED: a $30m facility from Windsor Private Capital that property records style a construction loan, which is a site-level mortgage on the 1.92-acre parcel and is superseded five months later by the larger predevelopment loan, so it cannot be the senior construction loan for a 25-storey, 193-unit tower. The July 2026 groundbreaking article carries no financing content. JVP Management is the likely construction lender if and when it closes. FINANCING: A lender said on the record that no construction facility existed: Florida YIMBY of September 2025 reports $62.5m from JVP Management explicitly as a PRE-construction loan, and quotes JVP saying the facility will support the project through its predevelopment phase and that it hopes to provide the construction financing in 2026. A $30m Windsor Private Capital facility that property records style a construction loan is a site-level mortgage on the 1.92-acre parcel, superseded five months later by that larger predevelopment loan.
 
 ### The Ritz-Carlton Residences, West Palm Beach
 - **Address:** 1717 N Flagler Dr
@@ -525,6 +568,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: Related Group; BH Group   |   Architect: Arquitectonica   |   General contractor: not found   |   Civil engineer: not found   |   Lender: Madison Realty Capital
 - Residential units: 138   |   Height: not found (27 storeys known)   |   Stories: 27   |   Total sq ft: not found
+- **Construction lender:** Madison Realty Capital
 - **Completion basis:** news_confirmed
 - **Sources (6 field citations, 3 distinct):**
     - Florida YIMBY, 24 Feb 2026 — https://floridayimby.com/2026/02/related-group-and-bh-group-break-ground-on-the-ritz-carlton-residences-west-palm-beach.html
@@ -539,37 +583,15 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Multifamily Rental   **Neighbourhood:** SOUTH END NEIGHBORHOOD ASSOCIATION
 - Developer: Woodfield Development; Flagler Realty & Development Inc.   |   Architect: Spina O'Rourke + Partners   |   General contractor: Verdex Construction   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 358   |   Height: not found (8 storeys known)   |   Stories: 8   |   Total sq ft: not found
+- **Construction lender:** loan reported, lender not named
 - **Completion basis:** news_confirmed
 - **Sources (9 field citations, 3 distinct):**
     - Florida YIMBY, 4 Mar 2026 — https://floridayimby.com/2026/03/construction-nears-completion-on-the-sound-apartments-at-8111-south-dixie-highway-in-west-palm-beach.html
     - West Palm Beach neighborhoods layer — https://wpbgisportal.wpb.org/server/rest/services/MayorOffice/WPB_Neighborhoods/FeatureServer/0
     - Palm Beach County property appraiser parcel record — https://services1.arcgis.com/ZWOoUZbtaYePLlPw/arcgis/rest/services/Parcels_and_Property_Details_WebMercator/FeatureServer/0
-- *Note:* The most recent dated source says construction is nearing completion, not complete, so the stage is Under Construction; no source states a certificate of occupancy or the start of leasing. A CONSTRUCTION LOAN EXISTS AND IS NOT STORABLE. $80.6m of construction financing is reported for this Woodfield Development and Flagler Realty project at 8111 S Dixie Highway, with the leasehold mortgage provided by PNC BANK — but only via bldup, citybiz, cre-sources, multifamilybiz and yieldpro, none acceptable. Both Florida YIMBY articles were fetched, the July 2025 topping-out and the March 2026 nearing-completion piece, and neither names any lender or financing. REJECTED: Bisnow's Woodfield coverage of a $47m Northwestern Mutual construction loan, which is a DIFFERENT West Palm Beach building of 223 units later sold to Griffis Residential. NEXT STEP: a Palm Beach County mortgage record would be enough to store PNC Bank.
+- *Note:* The most recent dated source says construction is nearing completion, not complete, so the stage is Under Construction; no source states a certificate of occupancy or the start of leasing. A CONSTRUCTION LOAN EXISTS AND IS NOT STORABLE. $80.6m of construction financing is reported for this Woodfield Development and Flagler Realty project at 8111 S Dixie Highway, with the leasehold mortgage provided by PNC BANK — but only via bldup, citybiz, cre-sources, multifamilybiz and yieldpro, none acceptable. Both Florida YIMBY articles were fetched, the July 2025 topping-out and the March 2026 nearing-completion piece, and neither names any lender or financing. REJECTED: Bisnow's Woodfield coverage of a $47m Northwestern Mutual construction loan, which is a DIFFERENT West Palm Beach building of 223 units later sold to Griffis Residential. NEXT STEP: a Palm Beach County mortgage record would be enough to store PNC Bank. LENDER NOT NAMED. Facility: $80.6m construction financing, as a leasehold mortgage. Reported as PNC Bank. Named only by bldup, citybiz, cre-sources, multifamilybiz and yieldpro. Both Florida YIMBY articles were fetched, the July 2025 topping-out and the March 2026 nearing-completion piece, and neither names any lender.
 
-## Coral Gables — random 10 of 17
-
-### 2501 Galiano Street
-- **Address:** 2501 Galiano St
-- **Parcel id:** 0341170051020
-- **Status:** Planning
-- **Asset class:** Condo   **Neighbourhood:** not found
-- Developer: not found   |   Architect: Bermello Ajamil Partners   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: 93   |   Height: 177 ft   |   Stories: 13   |   Total sq ft: 98,335
-- **Sources (7 field citations, 1 distinct):**
-    - Florida YIMBY, 23 Oct 2024 — https://floridayimby.com/2024/10/13-story-traditional-condo-could-replace-closed-truist-bank-at-2501-galiano-st-coral-gables-fl.html
-- *Note:* The applicant is 2501 Galiano Street Holdings LLC and no source names a party behind it. Sunbiz refuses automated requests, so the chain stops at the LLC: developer is not found and the LLC is kept as owner of record.
-
-### 300 Malaga
-- **Address:** 300 Malaga Ave
-- **Parcel id:** 0341170058270
-- **Status:** Planning
-- **Asset class:** Condo   **Neighbourhood:** not found
-- Developer: Roger Development Group   |   Architect: Nichols Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: 25   |   Height: 56 ft   |   Stories: 4   |   Total sq ft: not found
-- **Sources (7 field citations, 2 distinct):**
-    - Florida YIMBY, 18 May 2026 — https://floridayimby.com/2026/05/25-unit-300-malaga-proposed-for-300-malaga-avenue-coral-gables-florida.html
-    - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
-- *Note:* No architect is named in the coverage; the article describes the design's inspiration but not the firm, so architect is not found. No design/record distinction is drawn, so this is stored as the architect.
+## Coral Gables — random 10 of 14
 
 ### 6100 Caballero Boulevard
 - **Address:** 6100 Caballero Blvd
@@ -578,11 +600,24 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Residential   **Neighbourhood:** not found
 - Developer: Fortune International Group   |   Architect: Portuondo Perotti Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 251   |   Height: 140 ft   |   Stories: 13   |   Total sq ft: not found
+- **Construction lender:** not found
 - **Sources (7 field citations, 3 distinct):**
     - Florida YIMBY, 12 Jun 2025 — https://floridayimby.com/2025/06/two-tower-development-planned-for-6100-caballero-blvd-coral-gables-florida.html
     - Coral Gables Gazette, 15 May 2025 — https://gables-gazette.com/18-development-projects-under-city-review-in-coral-gables/
     - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
 - *Note:* Portuondo Perotti Architects and Arquitectonica are both named as architects and the source does not say which is architect of record; Portuondo Perotti is stored and Arquitectonica recorded here. The taller of the two buildings is stored for storeys. The source gives a range across the two buildings rather than one number; 140 ft is the taller, which is the 13-storey building already stored, and the nine-storey building is 97 ft. The 251-unit figure in the same entry matches the current scheme, confirming this is not the superseded earlier proposal.
+
+### Alexan Crafts
+- **Address:** 300 Catalonia Ave
+- **Parcel id:** not found
+- **Status:** Approved
+- **Asset class:** Multifamily Rental   **Neighbourhood:** not found
+- Developer: Trammell Crow Residential   |   Architect: Corwil Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 263   |   Height: 77 ft   |   Stories: 7   |   Total sq ft: not found
+- **Construction lender:** not found
+- **Sources (7 field citations, 1 distinct):**
+    - Florida YIMBY, 2 Jun 2021 — https://floridayimby.com/2021/06/2255.html
+- *Note:* Stage is Approved because no source on the acceptable list carries a dated construction report for this project. Sources outside that list report exterior walls reaching the seventh floor during 2025, which would make it Under Construction; that has not been written because the brief restricts sources to government records, the named city pages and the named trade press. NO CONSTRUCTION LOAN REPORTED, which is expected at this stage — the row is only Approved. Florida YIMBY's Trammell Crow Residential category, Commercial Observer, Bisnow and the Coral Gables Legistar record were all searched and no financing event exists.
 
 ### Cassia
 - **Address:** 4011 Salzedo Ave
@@ -591,6 +626,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Condo   **Neighbourhood:** not found
 - Developer: Alta Developers   |   Architect: Behar Font & Partners   |   General contractor: not found   |   Civil engineer: not found   |   Lender: JVP Management
 - Residential units: 174   |   Height: not found (12 storeys known)   |   Stories: 12   |   Total sq ft: not found
+- **Construction lender:** JVP Management
 - **Completion basis:** news_confirmed
 - **Sources (6 field citations, 2 distinct):**
     - Florida YIMBY, 12 Mar 2025 — https://floridayimby.com/2025/03/construction-underway-at-cassia-a-12-story-condominium-in-coral-gables-merrick-park-district.html
@@ -604,6 +640,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Mixed-Use   **Neighbourhood:** not found
 - Developer: Constellation Group; The Boschetti Group   |   Architect: Arquitectonica   |   General contractor: Winmar Construction   |   Civil engineer: not found   |   Lender: BHI
 - Residential units: 74   |   Height: not found (13 storeys known)   |   Stories: 13   |   Total sq ft: not found
+- **Construction lender:** BHI
 - **Completion basis:** news_confirmed
 - **Sources (8 field citations, 3 distinct):**
     - Florida YIMBY, 10 Jun 2026 — https://floridayimby.com/2026/06/construction-loan-secured-for-cora-merrick-park-at-4241-aurora-street-in-coral-gables.html
@@ -611,20 +648,32 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
     - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
 - *Note:* The $67.5m construction loan is reported without naming the lender, so lender is not found. Berkadia arranged the loan and BHI provided it. Height is deliberately not recorded: the only published figure, 137.5 ft, describes a superseded eight-storey-over-three scheme, and the current design is 13 storeys. HEIGHT FOUND BUT WITHHELD ON A STOREY MISMATCH. City of Coral Gables PZB Staff Report, 4241 Aurora, file 23-6279 of 21 Sep 2023 (https://coralgables.legistar1.com/coralgables/attachments/42f4d46e-7800-4a50-9654-8f516fb4102e.pdf) states building height is 12 stories at 137.5 feet to the top of the roof, and its public notice repeats that the proposed building is 137.5 feet tall. The measurement basis is sound, but it comes with 12 stories and 80 residential units against the 13 storeys and 74 units stored, and Cora Merrick Park is a redesign of the approved 4241 Aurora scheme, so 137.5 ft is probably superseded. Signed Resolution 2023-315 phrases it as a cap, and there is no later site-plan amendment in Legistar.
 
-### Ponce Park
-- **Address:** 3000 Ponce de Leon Blvd
-- **Parcel id:** 0341170057170
-- **Status:** Under Construction
-- **Asset class:** Condo   **Neighbourhood:** not found
-- Developer: The Allen Morris Co.   |   Architect: Zyscovich Architects   |   General contractor: KAST Construction   |   Civil engineer: not found   |   Lender: Bank OZK
-- Residential units: 58   |   Height: not found (11 storeys known)   |   Stories: 11   |   Total sq ft: not found
-- **Completion basis:** news_confirmed
-- **Sources (9 field citations, 4 distinct):**
-    - Florida YIMBY, 20 Dec 2025 — https://floridayimby.com/2025/12/construction-starts-on-ponce-park-at-3000-ponce-de-leon-blvd-coral-gables-florida.html
-    - Florida YIMBY, 14 Aug 2026 — https://floridayimby.com/2026/08/new-amenity-renderings-revealed-for-ponce-park-at-3000-ponce-de-leon-boulevard-in-coral-gables.html
-    - Florida YIMBY, 24 Jan 2026 — https://floridayimby.com/2026/01/allen-morris-co-secures-132-5-million-construction-loan-from-bank-ozk-for-ponce-park-in-coral-gables.html
+### Crystal Residences
+- **Address:** 110 Phoenetia Ave
+- **Parcel id:** 0341080091840
+- **Status:** Planning
+- **Asset class:** Mixed-Use   **Neighbourhood:** not found
+- Developer: Fifield Cos.   |   Architect: Corwil Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 184   |   Height: 93 ft   |   Stories: 9   |   Total sq ft: 226,193
+- **Construction lender:** not found
+- **Sources (8 field citations, 3 distinct):**
+    - Florida YIMBY, 16 Jun 2026 — https://floridayimby.com/2026/06/fifield-cos-seeks-rezoning-approval-for-crystal-residences-at-110-phoenetia-ave-coral-gables-fl.html
+    - Coral Gables Gazette, 14 Jun 2026 — https://gables-gazette.com/after-years-of-appeals-crystal-residences-reaches-the-zoning-stage/
     - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
-- *Note:* John Cunningham is named as designer alongside Zyscovich Architects; Zyscovich is the architecture firm the coverage names for the project and is stored as architect. HEIGHT FOUND BUT WITHHELD ON A STOREY MISMATCH. City of Coral Gables PZB Staff Report, Ponce Park Residences, file 23-6708 of 13 Dec 2023 (https://coralgables.legistar1.com/coralgables/attachments/862a4686-fdcf-43aa-925d-1e36caaaaf5e.pdf) states the proposed building is 115 feet 8 inches to the roof deck with a 20-foot pool cabana — 115.67 ft to the roof deck, the cabana being a rooftop feature and rejected. But the same report's data table reads 9 stories and 57 residential units against the 11 storeys and 58 units stored, so the figure may belong to a superseded scheme or the city may be counting residential floors only. Signed Resolution 2024-107 restates it as a cap, and the two later amendments, Res. 2025-463 and Res. 2026-1777 of June 2026, change only Ponce Circle Park cost and timing conditions rather than height. Resolve the storey discrepancy and 115.67 becomes usable.
+- *Note:* 93 ft is the height sought in the planned-area-development request for the current nine-storey scheme, which matches the storey count on the row. A superseded 83 ft figure belongs to an earlier 177-unit scheme by a different sponsor.
+
+### Gables Village (University of Miami Housing Phase 3)
+- **Address:** 1201 Stanford Dr
+- **Parcel id:** not found
+- **Status:** Approved
+- **Asset class:** Institutional   **Neighbourhood:** not found
+- Developer: University of Miami   |   Architect: Arquitectonica   |   General contractor: not found   |   Civil engineer: Langan   |   Lender: not found
+- Residential units: 429   |   Height: 141 ft   |   Stories: not found   |   Total sq ft: not found
+- **Construction lender:** no construction loan reported
+- **Sources (7 field citations, 2 distinct):**
+    - Florida YIMBY, 30 Nov 2025 — https://floridayimby.com/2025/11/gables-village-phase-3-of-the-university-of-miamis-housing-facilities-strategic-plan-to-replace-mahoney-pearson-residential-college-in-coral-gables.html
+    - financing structure documented; see notes — https://www.miamidade.gov/govaction/legistarfiles/Matters/Y2024/241790.pdf
+- *Note:* Stored as Institutional because it is university-owned on-campus housing delivered under a Campus Master Plan Amendment, not a rental or for-sale residential business. The taller of the two parapet heights is stored. Langan is named as civil engineer in the project team, which is why that field is filled here and left blank elsewhere. NO CONSTRUCTION LOAN REPORTED. The project is funded through the Miami-Dade County Educational Facilities Authority, which approved up to $500m of tax-exempt revenue bonds on behalf of the University of Miami to finance and refinance capital improvements across its campuses — a conduit bond programme rather than a project construction loan, with no construction lender named anywhere. Florida YIMBY's Nov 2025 article, Commercial Observer, Bisnow, the county bond application and the Board of County Commissioners legislative file were all checked. Demolition is set for summer 2026 with construction immediately after, so a facility may yet be reported. FINANCING: Funded through the Miami-Dade County Educational Facilities Authority, which approved up to $500m of tax-exempt revenue bonds on behalf of the University of Miami to finance and refinance capital improvements across its campuses. That is a conduit bond programme rather than a project construction loan. Demolition is set for summer 2026 with construction immediately after, so a facility may yet be reported.
 
 ### Regency Parc
 - **Address:** 2601 Salzedo St
@@ -633,6 +682,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Residential   **Neighbourhood:** not found
 - Developer: Codina Partners   |   Architect: Nichols Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: Goldman Sachs
 - Residential units: 126   |   Height: not found (20 storeys known)   |   Stories: 20   |   Total sq ft: not found
+- **Construction lender:** Goldman Sachs
 - **Completion basis:** news_confirmed  (2026-06)
 - **Sources (7 field citations, 3 distinct):**
     - Florida YIMBY, 2 Jun 2026 — https://floridayimby.com/2026/06/regency-parc-begins-welcoming-first-residents-in-downtown-coral-gables.html
@@ -640,20 +690,34 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
     - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
 - *Note:* The coverage does not state whether the residences are rental or for sale, so the project is stored under Residential rather than assigned to Condo on an assumption. The loan predates the final design: the 2023 coverage describes an 18-storey, 124-unit building at this address while the delivered tower is 20 storeys with 126 residences. Same address and same developer, so it is the same project at an earlier design stage. HEIGHT FOUND BUT WITHHELD ON A STOREY MISMATCH. City of Coral Gables Planning and Zoning Staff Report, Regency Tower, files 22-3727 and 22-3729 of 9 Mar 2022 (https://coralgables.legistar1.com/coralgables/attachments/f7884e7a-f30f-4d4e-a919-69020aaca756.pdf) states the proposed building height is 18 stories at 204 feet 8 inches to the top of roof, 239 feet 8 inches to the top of ornamental tower. The 239 feet 8 inches is REJECTED as a measurement to an ornamental tower rather than the roof. The 204 feet 8 inches is a genuine roof height and is carried into signed Ordinance 2022-32 and Resolution 2022-170 of 28 Jun 2022, but it comes with 18 storeys against the 20 stored, which Florida YIMBY also reports as 20. The 2024 and April 2026 amendments cover public-art escrow and a temporary CO and restate no height, so 204 feet 8 inches is the standing approved roof height and becomes usable once the 18-versus-20 storey question is settled.
 
-### The George Residences
-- **Address:** 717 Valencia Ave
-- **Parcel id:** 0341170081800
+### Seventeen Gables Residences
+- **Address:** 1715 Douglas Rd
+- **Parcel id:** not found
 - **Status:** Under Construction
 - **Asset class:** Condo   **Neighbourhood:** not found
-- Developer: MG Developer   |   Architect: De la Guardia Victoria Architects & Urbanists   |   General contractor: not found   |   Civil engineer: not found   |   Lender: Pine Bay Capital
-- Residential units: 13   |   Height: 43.50 ft   |   Stories: 3   |   Total sq ft: not found
+- Developer: BAM Development; Ascendra Capital   |   Architect: Caymares Martin A&E Design   |   General contractor: not found   |   Civil engineer: not found   |   Lender: Dwight Mortgage Trust
+- Residential units: 117   |   Height: not found (8 storeys known)   |   Stories: 8   |   Total sq ft: not found
+- **Construction lender:** Dwight Mortgage Trust
 - **Completion basis:** news_confirmed
-- **Sources (8 field citations, 4 distinct):**
-    - Florida YIMBY, 20 Jul 2025 — https://floridayimby.com/2025/07/mg-developer-secures-41-million-construction-loan-for-the-george-residences-in-coral-gables.html
-    - City of Coral Gables, Planning and Zoning Board Staff Report — The George (file 24-7521) — https://coralgables.legistar1.com/coralgables/attachments/fa4d6f75-51b7-4629-8966-1fa00ce287c1.pdf
-    - Florida YIMBY, 5 Nov 2025 — https://floridayimby.com/2025/11/mg-developer-breaks-ground-on-the-george-residences-the-final-development-in-coral-gables-biltmore-square.html
-    - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
-- *Note:* A 13-unit for-sale townhome development, so in scope as multifamily of five or more units rather than as one-to-four-family housing. 43.5 ft is 43 feet 6 inches in decimal feet. The report's 13 units match the tracker exactly. Its data table lists the proposal at 43 feet 6 inches over 3 stories against a permitted 150 feet over 13 stories — the 150 ft is the cap and was not used. Adopted as signed Resolution 2024-154 on 9 Jul 2024. A later variance at 717/741 Valencia, file 26-2183 approved 26 Oct 2026, concerns an interior side setback rather than height.
+- **Sources (6 field citations, 2 distinct):**
+    - Florida YIMBY, 12 Feb 2026 — https://floridayimby.com/2026/02/seventeen-gables-condominium-secures-60-million-construction-loan-set-for-immediate-construction-at-1715-douglas-road-in-coral-gables.html
+    - Florida YIMBY, 6 May 2026 — https://floridayimby.com/2026/05/seventeen-gables-residences-breaks-ground-at-1715-douglas-road-in-coral-gables.html
+- *Note:* Two architects are named across the coverage: Caymares Martin A&E Design (February 2026) and Asprea Studio, described in May 2026 as design architect and interior designer. Caymares Martin A&E Design is stored as the architect of record and Asprea Studio recorded here as design architect, per the field rule.
+
+### The Aurelian
+- **Address:** 921 E Ponce de Leon Blvd
+- **Parcel id:** not found
+- **Status:** Under Construction
+- **Asset class:** Multifamily Rental   **Neighbourhood:** not found
+- Developer: Empira Group   |   Architect: Behar Font & Partners   |   General contractor: Ortega Construction   |   Civil engineer: not found   |   Lender: Pearlmark
+- Residential units: 160   |   Height: 130 ft   |   Stories: 12   |   Total sq ft: 324,000
+- **Construction lender:** Pearlmark
+- **Completion basis:** news_confirmed
+- **Sources (9 field citations, 3 distinct):**
+    - Florida YIMBY, 13 Aug 2026 — https://floridayimby.com/2026/08/the-aurelian-planned-to-feature-161-high-end-residences-at-921-east-ponce-de-leon-boulevard-coral-gables-florida.html
+    - Florida YIMBY, 18 Oct 2026 — https://floridayimby.com/2026/10/empira-group-secures-81-million-construction-loan-for-the-aurelian-in-coral-gables.html
+    - City of Coral Gables, Planning and Zoning Board Staff Report — Regency on the Park Planned Area Development (file 18-7445) — https://coralgables.legistar1.com/coralgables/attachments/0dde20d3-4318-4b69-996b-08ee5ad5029e.pdf
+- *Note:* Unit count published as 161 in August 2026 and 160 in October 2026; the later figure is stored under the conflict rule. The $81m construction facility is reported without naming the lender, so lender is not found. Identity confirmed across the two addresses this project is reported at by matching developer, architect, contractor, storey count and the 324,000 sq ft figure already on the row. Storey cross-check PASSES: 12 stories in the same sentence, matching the tracker, and the unit check passes too — 152 residential plus 8 live/work is the 160 already stored. The descriptive sentence was used rather than the same report's cap-phrased condition of a maximum habitable building height of 130 feet. The entitlement was adopted as signed Ordinance 2018-29 on 28 Aug 2018 and no newer city height approval exists for this site through Nov 2026. NAME AND ADDRESS CAUTION: the city records call the site 912, and 912/918, E Ponce de Leon Blvd and the project Regency on the Park, while the city's own 2025 public-art resolution refers to the Aurelian development project at 912 E Ponce de Leon Blvd — this row holds 921 E Ponce de Leon Blvd.
 
 ### The Mark
 - **Address:** 1250 S Dixie Hwy
@@ -662,83 +726,84 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Mixed-Use   **Neighbourhood:** not found
 - Developer: Landmark Properties   |   Architect: Behar Font and Partners   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 393   |   Height: 105 ft   |   Stories: 8   |   Total sq ft: not found
+- **Construction lender:** not found
 - **Sources (9 field citations, 2 distinct):**
     - Coral Gables Gazette, April 2026 — https://gables-gazette.com/commission-approves-new-u-s-1-project-and-expands-rtz-overlay-in-4-1-votes/
     - Coral Gables Gazette, 9 Apr 2026 — https://gables-gazette.com/editorial-the-alley-at-1250-south-dixie/
 - *Note:* The applicant of record is LCD Acquisitions LLC. Coverage outside the acceptable-source list attributes the project to Landmark Properties; no acceptable source confirms that, and Sunbiz refuses automated requests, so the developer is not found and the LLC is kept as owner of record per the field rule. This closes the gap the row was first recorded with. The Gazette's news coverage of the April 2026 site-plan approval names only the applicant of record, LCD Acquisitions LLC; its editorial on the same project names the developer firm, and the Gazette is on the acceptable-source list. The 105 ft height already on the row matches the Gazette's approval story; a superseded 97 ft appears in its May 2025 city-review list. NO CONSTRUCTION LOAN REPORTED, which fits the stage: as of January 2026 Landmark Properties had refiled with Miami-Dade County after years of Coral Gables debate, so construction has not started. Florida YIMBY, Commercial Observer and Bisnow were all searched for 1250 S Dixie Highway and for Landmark Properties with no financing found. REJECTED: Landmark's $300m Landmark Sponsor Fund LP of April 2026, a corporate equity vehicle rather than a project construction loan. Do not confuse with The Mark Tampa or The Mark at Tallahassee.
 
-### Via Veneto
-- **Address:** 915 Palermo Ave
-- **Parcel id:** 0341180110010
+## Doral — random 10 of 12
+
+### 5250 Condo Tower Phase 2
+- **Address:** 5225 NW 85 AVE
+- **Parcel id:** 3530220360098
 - **Status:** Approved
 - **Asset class:** Condo   **Neighbourhood:** not found
-- Developer: The Calta Group   |   Architect: Locus Architecture   |   General contractor: not found   |   Civil engineer: not found   |   Lender: Banesco USA
-- Residential units: 10   |   Height: 40 ft   |   Stories: 3   |   Total sq ft: not found
-- **Sources (8 field citations, 4 distinct):**
-    - Florida YIMBY, 18 Jan 2025 — https://floridayimby.com/2025/01/via-veneto-to-start-construction-this-spring-at-915-palermo-ave-coral-gables-fl.html
-    - City of Coral Gables, Planning and Zoning Staff Report — 915 Palermo Avenue Height Variance, VARI-25-05-0021, Board of Adjustment (file 25-9128) — https://coralgables.legistar1.com/coralgables/attachments/c6ead0cd-b2b0-4744-b271-5ef9629dfdeb.pdf
-    - Commercial Observer, 7 Jan 2025 — https://commercialobserver.com/2025/01/calta-via-veneto-banesco-coral-gables/
-    - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
-- *Note:* The January 2025 report says construction was to start that spring, which is a forecast and not a construction start, so the stage is Approved. The same report contains a '28 stories above grade' sentence that contradicts the project's own description of ten three-storey residences; it is not stored. The $30m construction loan is reported without naming the lender. Florida YIMBY corroborates with the full bank name in February 2025. The 10 townhouse units match the tracker exactly, and the 3 storeys already stored are consistent with a 40 ft townhouse. The 35 ft and 45 ft also in this document are the zoning caps for the south and north sides, not the building. Staff recommended approval and the Board of Architects approved the proposal on 24 Apr 2025.
-
-## Doral — random 10 of 57
-
-### Bridge Point Doral 826
-- **Address:** 7775 NW 48 St
-- **Parcel id:** 3530220200010  (also 3530220080010)
-- **Status:** Approved
-- **Asset class:** Industrial   **Neighbourhood:** not found
-- Developer: Bridge Industrial   |   Architect: not found   |   General contractor: not found   |   Civil engineer: Langan Engineering and Environmental Services   |   Lender: Associated Bank
-- Residential units: not applicable   |   Height: 50 ft   |   Stories: not found   |   Total sq ft: not found
-- **Sources (5 field citations, 5 distinct):**
+- Developer: Codina Partners   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: Wells Fargo
+- Residential units: 228   |   Height: not found (20 storeys known)   |   Stories: 20   |   Total sq ft: not found
+- **Construction lender:** Wells Fargo
+- **Completion basis:** news_confirmed  (2023)
+- **Sources (8 field citations, 3 distinct):**
     - City of Doral Development Projects layer — https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/
-    - City of Doral, City Council Memo — BP Doral 826 FL, LLC Site Plan (file 25-6304) — https://legistar1.granicus.com/Doral/attachments/63bcd132-e4bb-4d4b-af7b-56bcc62393d0.docx
-    - City of Doral Resolution No. 25-235 — https://www.cityofdoral.com/files/assets/city/v/2/city-hall/city-clerk/resolutions-archived/2025/res.-no.-25-235-bp-doral-826-fl-llc-site-plan.pdf
-    - Florida YIMBY, 16 Dec 2025 — https://floridayimby.com/2025/12/bridge-point-doral-826-planned-for-2027-completion-at-7775-nw-48th-st-doral-florida.html
-    - Commercial Observer, 27 Feb 2026 — https://commercialobserver.com/2026/02/bridge-office-industrial-doral/
-- *Note:* The City's record states the programme as two warehouse buildings without a floor area, and the press coverage states no area for this project either, so square footage is not found. Civil engineer is recorded on a qualified basis: the City's resolution says the site plan set was prepared by Langan Engineering and Environmental Services and does not use the words 'civil engineer'. In Florida a site plan set is sealed by the engineer of record, and Langan is an engineering firm, which is why it is recorded here — but it is an inference about the role, not a quoted role. The applicant is BP Doral 826 FL, LLC at 7705, 7775 and 7785 NW 48th Street, two warehouses of about 284,713 sq ft on 15.7 acres. The Associated Bank facility is not recorded as the lender because the sentence naming it does not describe it as construction financing. An architect attribution to Arcadis exists in coverage that could not be fetched for a verbatim quote, and 'design firm' does not distinguish architect from engineer, so it is not recorded. The memo's address, 7705-7775-7785 NW 48th Street, contains the tracker's 7775 NW 48 St. Industrial, so no residential component. The 70 ft right-of-way width in the same sentence is the zoning cap, not the building. Quote whitespace normalised from the DOCX. CONSTRUCTION LENDER: a $56.7m single facility to Bridge Industrial for the two-warehouse, 268,700 sq ft office-to-industrial redevelopment of the 16-acre Corporate Park of Doral at 7775 NW 48th Street, which is this row's address. No mezzanine or preferred-equity piece. Distinct from Bridge's earlier $53m Bridge Point Flagler Station facility. Notable as the ONLY one of this batch's Approved-status projects to have closed a construction loan.
+    - Bisnow, 21 Jan 2025 — https://www.bisnow.com/news/south-florida/multifamily/codina-partners-secures-full-ownership-of-palma-tower-one-in-downtown-doral-with-124m-refinancing-deal-127632
+    - The Real Deal, 21 Jan 2025 — https://therealdeal.com/miami/2025/01/21/codina-nabs-doral-rentals-refi-buys-out-partner-invesco/
+- *Note:* Now named Palma Tower Two; the City's '5250' is the original marketing name of the FIRST tower, which is a different building at 5250 NW 84th Avenue. Identity confirmed on a triple match of address, unit count and storey count: 5225 NW 85th Avenue, 228 units, 20 storeys. The $55.7m Wells Fargo facility is explicitly a construction loan; the separate $124m January 2025 deal is a REFINANCING from Guardian Life c/o HPS Investment Partners and is deliberately not recorded as the lender. Bisnow misstates this tower's address as 5250 NW 84th Avenue, which is the other tower; The Real Deal of the same date has it right. COMPLETE: delivered in 2023 as Palma Tower Two, and let as rentals rather than sold as condominiums despite the City's 'Condo Tower' naming. Predates the 2025-26 loading window; corrected rather than removed for the same reason.
 
-### Chick-Fil-A East
-- **Address:** 8705 NW 35 LN
-- **Parcel id:** 3530280180010
+### Doral Inn/ IMF Doral Residential Conversion Live L
+- **Address:** 1212 NW 82 AVE
+- **Parcel id:** 3530340470001
 - **Status:** Approved
-- **Asset class:** Retail   **Neighbourhood:** not found
+- **Asset class:** Multifamily Rental   **Neighbourhood:** not found
 - Developer: not found   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not applicable   |   Height: not found   |   Stories: not found   |   Total sq ft: not found
-- **Sources (4 field citations, 1 distinct):**
-    - City of Doral Development Projects layer — https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/
-
-### Doral Gateway Garage
-- **Address:** 8750 NW 36 ST & 3750 NW 87 AVE
-- **Parcel id:** 3530280100020  (also 3530280100030)
-- **Status:** Approved
-- **Asset class:** Parking   **Neighbourhood:** not found
-- Developer: not found   |   Architect: Pascual, Perez, Kiliddjian, Starr & Associates   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not applicable   |   Height: not found   |   Stories: not found   |   Total sq ft: not found
+- Residential units: 112   |   Height: not found   |   Stories: not found   |   Total sq ft: not found
+- **Construction lender:** not found
 - **Sources (5 field citations, 2 distinct):**
     - City of Doral Development Projects layer — https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/
-    - Florida YIMBY, 9 Oct 2024 — https://floridayimby.com/2024/10/banyan-street-capital-requests-modification-for-8750-n-w-36th-street-and-3787-n-w-87th-ave-doral-florida.html
-- *Note:* Identity is partial: the article covers the Gateway modification at 8750 NW 36th Street, which matches the City's record exactly, and at 3787 NW 87th Avenue, where the City's record says 3750. The modification expressly includes expanding the property's parking garage, which is what this row is. No developer is recorded: the article's only ownership sentence is an acquisition by Centrum Doral Owner LLC, and Banyan Street Capital appears only as an affiliate seeking the modification, neither of which states a development role.
+    - City of Doral, City Council Memo — IMF Doral LLC Parking Variance (file 25-6153, hearing 25-05-DOR-02) — https://legistar1.granicus.com/Doral/attachments/de115cc9-a484-4294-a018-0172c501c502.docx
+- *Note:* Conversion of an existing 1988 extended-stay hotel at 1212 NW 82nd Avenue into age-restricted multifamily apartments under the Live Local Act; the floor plans stay largely unchanged, so the 112 existing keys become 112 apartments. The memo states the figure directly as the project's unit count for parking purposes, and separately itemises the existing stock as 52 one-bedroom units plus 60 studios. Florida YIMBY of 30 Oct 2025 independently calls it a 112-key hospitality property. No height in feet: the existing two- and three-storey buildings keep their exteriors. Quote whitespace normalised from the DOCX. NO CONSTRUCTION LOAN REPORTED. Approved only; IMF Doral LLC's parking variance for the proposed conversion of the 112-key Doral Inn & Suites went to a City of Doral public hearing in May 2025. REJECTED: a $15.85m senior ACQUISITION loan from W Financial of Oct 2025, excluded by kind; WD Capital Group and Ordeg Capital arranged it and are brokers.
 
-### Doral Square Expansion
-- **Address:** N/A
-- **Parcel id:** 3530270010243  (also 3530270010245)
+### Doral International Towers (Trump)
+- **Address:** 4400 NW 87 AVE
+- **Parcel id:** 3530210010010
 - **Status:** Approved
-- **Asset class:** Retail   **Neighbourhood:** not found
-- Developer: not found   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not applicable   |   Height: not found   |   Stories: not found   |   Total sq ft: not found
-- **Sources (4 field citations, 1 distinct):**
+- **Asset class:** Mixed-Use   **Neighbourhood:** not found
+- Developer: The Trump Organization   |   Architect: Pascual, Perez, Kiliddjian, Starr Architects + Planners   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 1,498   |   Height: 210 ft   |   Stories: 20   |   Total sq ft: not found
+- **Construction lender:** not found
+- **Sources (9 field citations, 5 distinct):**
     - City of Doral Development Projects layer — https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/
+    - Commercial Observer, 16 Jan 2025 — https://commercialobserver.com/2025/01/trump-organization-doral-golf-resort/
+    - City of Doral, City Council Memo — Doral International Towers Site Plan (file 25-5998) — https://legistar1.granicus.com/Doral/attachments/17444729-ac80-4b15-b728-8e6b39a1ca42.docx
+    - Bisnow, 15 Jan 2025 — https://www.bisnow.com/south-florida/news/construction-development/donald-trump-doral-international-towers-gain-final-approval-127576
+    - City of Doral Resolution No. 25-36 — https://www.cityofdoral.com/files/assets/city/v/1/city-hall/city-clerk/resolutions-archived/2025/res.-no.-25-36-doral-international-towers-site-plan.pdf
+- *Note:* The architect is corroborated by the primary record: City of Doral Resolution 25-36 requires the project to be built in substantial compliance with plans prepared by Pascual Perez Kiliddjian Starr. Trump Endeavor 12 LLC is the applicant entity and is deliberately NOT used to derive the developer, which would be inferring from an LLC name; The Trump Organization is recorded on Bisnow's explicit role statement instead. The resolution carries an internal typo giving the property as 9300 NW 13th Street in one section while its title and recitals correctly say 4400 NW 87th Avenue, folio 35-3028-029-0010, which matches the City's record. Landscape plan by Landscape Design Workshop. From the Development Standards for the DMU District table in the city staff memo; the two columns are permitted and provided, so provided is 20 stories at 210 ft. The 20 storeys match the tracker exactly. The same memo corroborates the 1,498 residential units already stored, and makes clear the 470 hotel units are existing rather than new. Quote whitespace normalised from the DOCX. NO CONSTRUCTION LOAN REPORTED. The project received final Doral City Council approval in January 2025 but has not broken ground. REJECTED: a $125m Axos Financial loan that appears in searches, which refinances the existing Trump National Doral resort rather than funding the towers.
 
-### Flightway Ten
-- **Address:** 6175 NW 102 AVE
-- **Parcel id:** 3530170010610
+### Doral Parc (Midtown Doral Phases IV, V and VI)
+- **Address:** East side of NW 107 Ave between NW 86 St and NW 90 St
+- **Parcel id:** 3530080000041  (also 3530080000048,3530080000051)
 - **Status:** Approved
-- **Asset class:** Industrial   **Neighbourhood:** not found
-- Developer: not found   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not applicable   |   Height: not found   |   Stories: not found   |   Total sq ft: not found
-- **Sources (4 field citations, 1 distinct):**
+- **Asset class:** Mixed-Use   **Neighbourhood:** not found
+- Developer: MG Developer   |   Architect: Pascual Perez Kiliddjian & Starr   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 552   |   Height: not found (10 storeys known)   |   Stories: 10   |   Total sq ft: not found
+- **Construction lender:** not found
+- **Sources (6 field citations, 2 distinct):**
+    - Florida YIMBY, 24 Aug 2024 — https://floridayimby.com/2024/08/doral-approves-mixed-use-development-with-552-units-and-retail-space-at-midtown-doral-in-miami.html
     - City of Doral Development Projects layer — https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/
+- *Note:* A joint venture between MG Developer and Ernesto De Lucas. Approved by the City of Doral in August 2024; no source states a construction start, so the stage is Approved. NO CONSTRUCTION LOAN REPORTED, with strong negative evidence: the project is approved but, per October 2026 reporting on MG Developer's debt troubles, planned and NOT under construction. The only capital at the project is excluded by type — about $2.2m of preferred equity from two Area Capital entities and about $2.25m of small loans from S.I. Munich, both in default. REJECTED: the $66.8m Pacific Western Bank construction loan that searches surface, which belongs to an EARLIER Midtown Doral phase with different sponsors in 2022, and a $105m Slate Property Group and Carlyle package belonging to a different MG project.
+
+### Hazel Doral (ZOM / Westside Live Local Act)
+- **Address:** 8300 NW 33 St
+- **Parcel id:** 3530270530010  (also 3530270580010)
+- **Status:** Under Construction
+- **Asset class:** Mixed-Use   **Neighbourhood:** not found
+- Developer: ZOM Living; Ascentris   |   Architect: MSA Architects   |   General contractor: Verdex Construction   |   Civil engineer: not found   |   Lender: PNC Bank
+- Residential units: 380   |   Height: not found (7 storeys known)   |   Stories: 7   |   Total sq ft: not found
+- **Construction lender:** PNC Bank
+- **Completion basis:** news_confirmed
+- **Sources (8 field citations, 2 distinct):**
+    - Florida YIMBY, 7 Feb 2026 — https://floridayimby.com/2026/02/construction-starts-on-hazel-doral-at-8300-northwest-33rd-street-doral-florida.html
+    - City of Doral Development Projects layer — https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/
+- *Note:* The City lists this as "ZOM / Westside Live Local Act"; the press name is Hazel Doral. Unit count agrees across both sources at 380.
 
 ### Legacy at Doral (EWE Warehouse)
 - **Address:** 2525 NW 82 AVE
@@ -747,22 +812,37 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Residential   **Neighbourhood:** not found
 - Developer: not found   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
 - Residential units: 185   |   Height: 62.33 ft   |   Stories: not found   |   Total sq ft: not found
+- **Construction lender:** not found
 - **Sources (6 field citations, 2 distinct):**
     - City of Doral Development Projects layer — https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/
     - City of Doral, Planning and Zoning Staff Report — EWE Warehouse (Legacy at Doral) Site Plan (file 22-4925) — https://legistar1.granicus.com/Doral/attachments/c51f5a33-07be-4e99-b320-9285e7aae638.docx
 - *Note:* 62.33 ft is 62 feet 4 inches in decimal feet. This is the building's own peak height and not a cap: the cap in the same passage is the right-of-way width of 85 feet on NW 82 Avenue, and the Development Standards table lists 62 feet 4 inches in the Provided column against a Maximum height standard of R-O-W Width. CAVEAT: this is the original 2023 site plan and a later site-plan modification for Legacy at Doral exists in local press, so the figure could have moved. The staff report gives no storey count. Quote whitespace normalised from the DOCX. NO CONSTRUCTION LOAN REPORTED. Approved only; the site-plan modification was approved by Doral City Council on 22 March 2023 on the application of EWE Warehouse Investments XXXII, Ltd. Florida YIMBY, Commercial Observer and Bisnow were searched for 2525 NW 82 Ave and for the project name with no result. The Doral construction loans that surface — Midtown Doral $67m, Lincoln $103m, Codina, Torchlight $238m — are all other properties.
 
-### MDPLS Doral Branch Library
-- **Address:** 5360 NW 84 AVE
-- **Parcel id:** 3530220500010
+### Miami International Mall redevelopment
+- **Address:** 1603 NW 107 Ave
+- **Parcel id:** 3530320080140
+- **Status:** Planning
+- **Asset class:** Residential   **Neighbourhood:** not found
+- Developer: Greystar   |   Architect: MSA Architects   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 900   |   Height: not found (6 storeys known)   |   Stories: 6   |   Total sq ft: not found
+- **Construction lender:** not found
+- **Sources (6 field citations, 2 distinct):**
+    - Florida YIMBY, 9 Jun 2026 — https://floridayimby.com/2026/06/greystar-proposes-about-900-units-at-miami-international-mall-site-at-1603-n-w-107th-ave-doral-florida.html
+    - Miami-Dade property appraiser parcel record — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0
+- *Note:* Reviewed by the Doral City Council in June 2026; no approval is recorded in the City's Development Projects layer, so the stage is Planning. The unit count is published as approximately 900 and is stored as such.
+
+### Midtown PUD Phase II Modification
+- **Address:** Generally located at the SE and NE corner of SW 82 Street and NW 107 Avenue
+- **Parcel id:** 3530080000033  (also 3530080000038,3530080000036)
 - **Status:** Approved
-- **Asset class:** Institutional   **Neighbourhood:** not found
-- Developer: not found   |   Architect: not found   |   General contractor: Lee Construction Group, Inc.   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: not found
-- **Sources (5 field citations, 2 distinct):**
+- **Asset class:** Mixed-Use   **Neighbourhood:** not found
+- Developer: Century Homebuilders; Mattoni Group; Conconcreto   |   Architect: not found   |   General contractor: Conconcreto   |   Civil engineer: not found   |   Lender: Pacific Western Bank
+- Residential units: 734   |   Height: not found   |   Stories: not found   |   Total sq ft: not found
+- **Construction lender:** Pacific Western Bank
+- **Sources (8 field citations, 2 distinct):**
     - City of Doral Development Projects layer — https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/
-    - Miami-Dade County legislative item 212405, adopted 19 Oct 2021 — https://www.miamidade.gov/govaction/matter.asp?file=true&fileAnalysis=false&matter=212405&yearFolder=Y2021
-- *Note:* A government record: a design-build contract award of $11,209,560.50, lowest responsive of 14 bids. The architect is deliberately not recorded — Ferguson Glasgow Schuster Soto appears in the county record only as a bare entry under a SUBCONSULTANTS heading with no role stated, and the design credit exists only on the firm's own website, which is not an acceptable source. The county record describes a two-storey building while the City's record and the 2023 county press release say three.
+    - The Real Deal, 13 Apr 2022 — https://therealdeal.com/miami/2022/04/13/midtown-doral-scores-67m-construction-loan-for-apartment-development/
+- *Note:* The sponsor group, contractor and construction lender come from April 2022 coverage of a $66.8m Pacific Western Bank construction loan for a pair of six-storey buildings totalling 326 units on this site. That is a SUB-PHASE of the programme this row holds: the City's record is the modified Phase II of 734 dwelling units with a 58,052 sq ft clubhouse. The team is recorded because it is a project-level fact about the same PUD phase on the same corner; the storey count from that article is NOT recorded, because six storeys describes those two buildings and not the 734-unit programme. An earlier two-phase total of 675 units is superseded by the 734 in the City's modification.
 
 ### Prime Square Doral
 - **Address:** 7200 NW 102 Ave
@@ -771,31 +851,23 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Asset class:** Retail   **Neighbourhood:** not found
 - Developer: Rieber Developments; Berca Development Group   |   Architect: PPK Architect   |   General contractor: Vandrak Construction   |   Civil engineer: Fortin, Leavy, Skiles   |   Lender: not found
 - Residential units: not applicable   |   Height: 51.67 ft   |   Stories: 3   |   Total sq ft: 58,000
+- **Construction lender:** not found
 - **Sources (8 field citations, 2 distinct):**
     - Florida YIMBY, 19 Sep 2026 — https://floridayimby.com/2026/09/pre-construction-begins-on-prime-square-doral-at-7200-nw-102nd-avenue-in-doral.html
     - City of Doral, City Council Memo — Prime Square Site Plan (file 25-6428) — https://legistar1.granicus.com/Doral/attachments/83ae3e80-4346-47a1-b6ae-42d2f6cb0280.docx
 - *Note:* Stage is Permitting: the project is described as approaching final permitting, and Miami-Dade County's Plat Committee approved a resubmission in January 2026. Civil engineer is filled because the article names the full design team, which is the only circumstance in which that field is filled for this market. The source states 51 feet 8 inches to the top of parapet; 51.67 is that same figure in decimal feet, not a derived number. A parapet is the top of the building, not a spire or a mechanical feature. NO RESIDENTIAL UNITS: Prime Square Doral is a commercial condominium — Florida YIMBY of 19 Sep 2026 describes a 58,000-square-foot commercial condominium development of roughly 40,000 sq ft retail and restaurant and 18,000 sq ft office — and the city memo's parking table covers only retail, restaurant and office. No source states a unit count, so the field is left empty rather than set to zero. The permitted six-storey figure in the same memo is a zoning cap and was not used.
 
-### Shoppes @ 97
-- **Address:** 9690 NW 58 ST
-- **Parcel id:** 3530210220010
-- **Status:** Approved
-- **Asset class:** Retail   **Neighbourhood:** not found
-- Developer: not found   |   Architect: not found   |   General contractor: not found   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not applicable   |   Height: not found   |   Stories: not found   |   Total sq ft: not found
-- **Sources (4 field citations, 1 distinct):**
-    - City of Doral Development Projects layer — https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/
-
-### University of Miami UHealth
-- **Address:** 8375 NW 53 TER
-- **Parcel id:** 3530220320050  (also 3530220320062)
-- **Status:** Approved
-- **Asset class:** Institutional   **Neighbourhood:** not found
-- Developer: Codina Partners   |   Architect: Arcadis   |   General contractor: Robins & Morton   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found (6 storeys known)   |   Stories: 6   |   Total sq ft: not found
-- **Completion basis:** news_confirmed  (2024-11)
-- **Sources (8 field citations, 3 distinct):**
-    - City of Doral Development Projects layer — https://experience.arcgis.com/experience/f53641e40f6b40d88fa7721bf5ca38cb/
-    - Florida YIMBY, 21 Dec 2024 — https://floridayimby.com/2024/12/uhealth-doral-opens-160000-square-foot-medical-center-in-downtown-doral.html
-    - Florida YIMBY, 18 Feb 2023 — https://floridayimby.com/2023/02/uhealth-has-plans-for-a-new-medical-facility-at-8375-northwest-53rd-terrace-doral-florida.html
-- *Note:* The University of Miami Health System owns the venture. The developer attribution is weaker than the rest of this row: the source states the role plainly but prints the firm as 'Codina Partners Corporate Headquarters', which reads as a mangled field; Codina Partners is independently the master developer of the surrounding Downtown Doral, and the name is stored in its clean form. The six storeys are the medical building; a separate seven-storey parking garage is not counted. An earlier 150,000 sq ft figure is superseded by the 160,000 sq ft the City's record also carries. COMPLETE: opened with a ribbon-cutting on 21 November 2024. The City's layer carries it as Approved because that layer records approvals, not deliveries. This predates the 2025-26 loading window, so it would not have been loaded as a completion had the City's record said so; it is corrected rather than removed, because leaving a finished building in the pipeline is the worse error. NO CONSTRUCTION LOAN REPORTED for this roughly 150,000 sq ft medical facility. TWO WRONG-PROJECT TRAPS REJECTED, both of which a name-based search surfaces: an Ocean Bank $38.8m construction loan to Codina Partners finances a Downtown Doral RETAIL EXPANSION in which UHealth is merely an 11,243 sq ft tenant; and a $100m construction loan belongs to Sevilla at Downtown Doral, a different residential building by the same sponsor. Neither finances this building.
+### Sevilla at Downtown Doral
+- **Address:** 8301 NW 53 St
+- **Parcel id:** 3530220070350
+- **Status:** Under Construction
+- **Asset class:** Multifamily Rental   **Neighbourhood:** not found
+- Developer: Codina Partners   |   Architect: MSA Architects   |   General contractor: ANF Group   |   Civil engineer: not found   |   Lender: Regions Bank; Ocean Bank
+- Residential units: 405   |   Height: not found (7 storeys known)   |   Stories: 7   |   Total sq ft: not found
+- **Construction lender:** Regions Bank; Ocean Bank
+- **Completion basis:** news_confirmed
+- **Sources (7 field citations, 3 distinct):**
+    - Florida YIMBY, 1 Mar 2026 — https://floridayimby.com/2026/03/codina-partners-tops-out-7-story-405-unit-sevilla-at-downtown-doral.html
+    - Florida YIMBY, 20 Jul 2025 — https://floridayimby.com/2025/07/general-contractor-named-for-sevilla-at-downtown-doral.html
+    - Florida YIMBY, 8 Jul 2025 — https://floridayimby.com/2025/07/codina-partners-breaks-ground-on-sevilla-at-downtown-doral-secures-100-million-construction-loan.html
+- *Note:* Unit count: the City's own site-plan record states 412 multifamily units and Florida YIMBY stated 412 in June 2024 and July 2025, then 405 on topping off in March 2026. The City record carries no date, so the most recent dated report wins and 405 is stored; 412 is the earlier figure.

@@ -1016,12 +1016,13 @@ only sentence available says both in one breath.
 
 ## Change log — City of Miami review (5 November 2026)
 
-280 field changes across 242 projects. Grouped by field; within a field, ordered by project id. A source of “—” means the change was derived from a record already cited on the row (the master building permit, or the permit's own work items) rather than from a new document, and the row's existing FIELD SOURCES entry still applies.
+298 field changes across 251 projects. Grouped by field; within a field, ordered by project id. A source of “—” means the change was derived from a record already cited on the row (the master building permit, or the permit's own work items) rather than from a new document, and the row's existing FIELD SOURCES entry still applies.
 
 | Field | Changes |
 | --- | --: |
 | asset_class | 226 |
 | lender | 32 |
+| lender_status | 18 |
 | developer | 5 |
 | name | 4 |
 | architect | 3 |
@@ -1341,6 +1342,34 @@ Reasons:
 | 1352 | The Ritz-Carlton Residences, West Palm Beach | — | Madison Realty Capital | [link](https://commercialobserver.com/2026/03/related-bh-west-palm-beach-ritz-carlton-madison-realty-flagler/) |
 | 1367 | Soleste Palm Station | — | Synovus Bank | [link](https://commercialobserver.com/2024/07/estates-cos-soleste-palm-station-synovus-bank/) |
 | 1370 | Rybovich Marina redevelopment | — | Tyko Capital | [link](https://commercialobserver.com/2026/08/tyko-integra-west-palm/) |
+
+### lender_status — 18 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 928 | Missoni Baia | — | lender_unnamed | [link](https://therealdeal.com/miami/2019/11/01/vlad-doronin-partners-score-243m-loan-for-edgewater-tower/) |
+| 976 | Okan Tower | — | no_loan_reported | [link](https://commercialobserver.com/2026/01/okan-tower-downtown-miami/) |
+| 978 | Mr. C Residences Coconut Grove | — | lender_unnamed | [link](https://therealdeal.com/miami/2019/09/26/terra-closes-on-185m-construction-loan-for-latest-coconut-grove-project/) |
+| 995 | Natiivo Miami | — | lender_unnamed | [link](https://therealdeal.com/miami/2024/08/20/galbuts-pay-off-213m-construction-loan-for-miami-tower/) |
+| 1004 | View 29 | — | no_loan_reported | [link](https://www.bisnow.com/south-florida/news/affordable-housing/affordable-housing-project-wynwood-44m-public-construction-financing-133392) |
+| 1028 | Modera Riverside | — | lender_unnamed | — |
+| 1207 | 7140 NE Miami Court self-storage | — | lender_unnamed | — |
+| 1208 | 1401 Brickell by Santander | — | no_loan_reported | [link](https://floridayimby.com/2026/04/50-story-1401-brickell-by-santander-breaks-ground-in-miami.html) |
+| 1220 | Miami Civic Center | — | no_loan_reported | [link](https://www.miami.gov/My-Government/Departments/Department-of-Real-Estate-Asset-Management-DREAM/New-City-of-Miami-Administration-Building) |
+| 1223 | UniDos | — | no_loan_reported | [link](https://www.bisnow.com/news/south-florida/affordable-housing/nr-investments-groundbreaking-190-units-133494) |
+| 1242 | Gables Village (University of Miami Housing Phase 3) | — | no_loan_reported | [link](https://www.miamidade.gov/govaction/legistarfiles/Matters/Y2024/241790.pdf) |
+| 1296 | The Oasis at Doral | — | lender_unnamed | [link](https://floridayimby.com/2026/03/developers-secure-construction-loan-for-the-oasis-at-doral-at-4090-n-w-97th-ave-doral-florida.html) |
+| 1324 | 71 NoBe | — | lender_unnamed | [link](https://floridayimby.com/2026/01/mixed-use-71-nobe-planned-for-2027-completion-at-400-71st-st-miami-beach-florida.html) |
+| 1355 | The Berkeley Palm Beach | — | no_loan_reported | [link](https://floridayimby.com/2025/09/the-berkeley-palm-beach-secures-62-5-million-pre-construction-loan-from-jvp-management-in-downtown-west-palm-beach.html) |
+| 1356 | Alida Residences and Tribute Portfolio by Marriott Hotel | — | no_loan_reported | [link](https://floridayimby.com/2026/07/construction-begins-on-alida-residences-and-tribute-portfolio-by-marriott-hotel-in-downtown-west-palm-beach.html) |
+| 1358 | The Sound Apartments | — | lender_unnamed | — |
+| 1359 | Palm Beach Atlantic University residence hall | — | no_loan_reported | [link](https://commercialobserver.com/2025/06/palm-beach-atlantic-university-bond-dorm-student-housing-gilbane-florida/) |
+| 1371 | Cox Science Center Hall of Science expansion | — | no_loan_reported | — |
+
+Reasons:
+
+- **8 rows** — a construction loan is documented but no acceptable source names the lender
+- **10 rows** — a source documents how the project is financed, so the empty lender is a finding rather than a gap
 
 ### developer — 5 change(s)
 

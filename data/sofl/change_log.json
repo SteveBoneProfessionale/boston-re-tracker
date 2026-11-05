@@ -2798,5 +2798,185 @@
   "source": "https://www.bisnow.com/south-florida/news/affordable-housing/affordable-housing-project-wynwood-44m-public-construction-financing-133392",
   "why": "",
   "at": "2026-11-05"
+ },
+ {
+  "id": 1359,
+  "project": "Palm Beach Atlantic University residence hall",
+  "field": "lender_status",
+  "old": "—",
+  "new": "no_loan_reported",
+  "source": "https://commercialobserver.com/2025/06/palm-beach-atlantic-university-bond-dorm-student-housing-gilbane-florida/",
+  "why": "a source documents how the project is financed, so the empty lender is a finding rather than a gap",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1242,
+  "project": "Gables Village (University of Miami Housing Phase 3)",
+  "field": "lender_status",
+  "old": "—",
+  "new": "no_loan_reported",
+  "source": "https://www.miamidade.gov/govaction/legistarfiles/Matters/Y2024/241790.pdf",
+  "why": "a source documents how the project is financed, so the empty lender is a finding rather than a gap",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1004,
+  "project": "View 29",
+  "field": "lender_status",
+  "old": "—",
+  "new": "no_loan_reported",
+  "source": "https://www.bisnow.com/south-florida/news/affordable-housing/affordable-housing-project-wynwood-44m-public-construction-financing-133392",
+  "why": "a source documents how the project is financed, so the empty lender is a finding rather than a gap",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1223,
+  "project": "UniDos",
+  "field": "lender_status",
+  "old": "—",
+  "new": "no_loan_reported",
+  "source": "https://www.bisnow.com/news/south-florida/affordable-housing/nr-investments-groundbreaking-190-units-133494",
+  "why": "a source documents how the project is financed, so the empty lender is a finding rather than a gap",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 976,
+  "project": "Okan Tower",
+  "field": "lender_status",
+  "old": "—",
+  "new": "no_loan_reported",
+  "source": "https://commercialobserver.com/2026/01/okan-tower-downtown-miami/",
+  "why": "a source documents how the project is financed, so the empty lender is a finding rather than a gap",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1208,
+  "project": "1401 Brickell by Santander",
+  "field": "lender_status",
+  "old": "—",
+  "new": "no_loan_reported",
+  "source": "https://floridayimby.com/2026/04/50-story-1401-brickell-by-santander-breaks-ground-in-miami.html",
+  "why": "a source documents how the project is financed, so the empty lender is a finding rather than a gap",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1220,
+  "project": "Miami Civic Center",
+  "field": "lender_status",
+  "old": "—",
+  "new": "no_loan_reported",
+  "source": "https://www.miami.gov/My-Government/Departments/Department-of-Real-Estate-Asset-Management-DREAM/New-City-of-Miami-Administration-Building",
+  "why": "a source documents how the project is financed, so the empty lender is a finding rather than a gap",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1356,
+  "project": "Alida Residences and Tribute Portfolio by Marriott Hotel",
+  "field": "lender_status",
+  "old": "—",
+  "new": "no_loan_reported",
+  "source": "https://floridayimby.com/2026/07/construction-begins-on-alida-residences-and-tribute-portfolio-by-marriott-hotel-in-downtown-west-palm-beach.html",
+  "why": "a source documents how the project is financed, so the empty lender is a finding rather than a gap",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1355,
+  "project": "The Berkeley Palm Beach",
+  "field": "lender_status",
+  "old": "—",
+  "new": "no_loan_reported",
+  "source": "https://floridayimby.com/2025/09/the-berkeley-palm-beach-secures-62-5-million-pre-construction-loan-from-jvp-management-in-downtown-west-palm-beach.html",
+  "why": "a source documents how the project is financed, so the empty lender is a finding rather than a gap",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1371,
+  "project": "Cox Science Center Hall of Science expansion",
+  "field": "lender_status",
+  "old": "—",
+  "new": "no_loan_reported",
+  "source": "",
+  "why": "a source documents how the project is financed, so the empty lender is a finding rather than a gap",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 928,
+  "project": "Missoni Baia",
+  "field": "lender_status",
+  "old": "—",
+  "new": "lender_unnamed",
+  "source": "https://therealdeal.com/miami/2019/11/01/vlad-doronin-partners-score-243m-loan-for-edgewater-tower/",
+  "why": "a construction loan is documented but no acceptable source names the lender",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 995,
+  "project": "Natiivo Miami",
+  "field": "lender_status",
+  "old": "—",
+  "new": "lender_unnamed",
+  "source": "https://therealdeal.com/miami/2024/08/20/galbuts-pay-off-213m-construction-loan-for-miami-tower/",
+  "why": "a construction loan is documented but no acceptable source names the lender",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1028,
+  "project": "Modera Riverside",
+  "field": "lender_status",
+  "old": "—",
+  "new": "lender_unnamed",
+  "source": "",
+  "why": "a construction loan is documented but no acceptable source names the lender",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1358,
+  "project": "The Sound Apartments",
+  "field": "lender_status",
+  "old": "—",
+  "new": "lender_unnamed",
+  "source": "",
+  "why": "a construction loan is documented but no acceptable source names the lender",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1324,
+  "project": "71 NoBe",
+  "field": "lender_status",
+  "old": "—",
+  "new": "lender_unnamed",
+  "source": "https://floridayimby.com/2026/01/mixed-use-71-nobe-planned-for-2027-completion-at-400-71st-st-miami-beach-florida.html",
+  "why": "a construction loan is documented but no acceptable source names the lender",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1296,
+  "project": "The Oasis at Doral",
+  "field": "lender_status",
+  "old": "—",
+  "new": "lender_unnamed",
+  "source": "https://floridayimby.com/2026/03/developers-secure-construction-loan-for-the-oasis-at-doral-at-4090-n-w-97th-ave-doral-florida.html",
+  "why": "a construction loan is documented but no acceptable source names the lender",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 978,
+  "project": "Mr. C Residences Coconut Grove",
+  "field": "lender_status",
+  "old": "—",
+  "new": "lender_unnamed",
+  "source": "https://therealdeal.com/miami/2019/09/26/terra-closes-on-185m-construction-loan-for-latest-coconut-grove-project/",
+  "why": "a construction loan is documented but no acceptable source names the lender",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1207,
+  "project": "7140 NE Miami Court self-storage",
+  "field": "lender_status",
+  "old": "—",
+  "new": "lender_unnamed",
+  "source": "",
+  "why": "a construction loan is documented but no acceptable source names the lender",
+  "at": "2026-11-05"
  }
 ]

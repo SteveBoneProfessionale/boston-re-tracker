@@ -99,6 +99,22 @@ class Project(Base):
     # architect is kept apart from attorney: without its own column the name
     # drifts into whichever capital field is nearest.
     lender = Column(String)
+    # WHY A BLANK LENDER NEEDS A SECOND FIELD. An empty lender means two
+    # unrelated things and they must not render alike:
+    #
+    #   "no_loan_reported"  a source documents how the project IS financed --
+    #                       sponsor equity, presales, conduit bonds, a grant,
+    #                       an owner-occupier building for itself -- or a source
+    #                       states outright that no construction loan has been
+    #                       secured. The absence is a FINDING.
+    #   NULL                nothing was found. The absence is a GAP.
+    #
+    # "Reported" is doing real work in that label. No news of a loan is not
+    # proof there is no loan: Melo Group's towers show no facility in any
+    # outlet and that is consistent with self-funding, but no source says so,
+    # so those rows stay NULL rather than claiming an equity structure nobody
+    # published.
+    lender_status = Column(String)
     completion_stage = Column(String)        # "Complete" | "Under Construction"
     completion_basis = Column(String)        # permit_final | permit_active | co_issued | news_confirmed | human_set
     completion_evidence = Column(Text)

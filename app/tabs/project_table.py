@@ -778,6 +778,32 @@ def _lifecycle_bar(status: str) -> str:
 NO_DWELLINGS = {"Retail", "Office", "Industrial", "Parking", "Lab"}
 
 
+def _lender_detail(p) -> str:
+    """The construction lender, or which KIND of blank the field is.
+
+    Three blanks, and conflating them is what made lender coverage look like a
+    research failure when most of it was not one:
+
+        No construction loan reported   a source documents how the project is
+                                        financed -- sponsor equity, presales,
+                                        conduit bonds, an owner-occupier
+                                        building for itself
+        lender not named                a construction loan IS documented and
+                                        no acceptable source says who made it
+        not found                       nothing was found
+
+    "Reported" is deliberate. No news of a loan is not proof there is no loan.
+    """
+    if p.get("lender"):
+        return p["lender"]
+    status = (p.get("lender_status") or "").strip()
+    if status == "no_loan_reported":
+        return _absent("no construction loan reported")
+    if status == "lender_unnamed":
+        return _absent("a construction loan is reported; no source names the lender")
+    return _absent("not found")
+
+
 def _absent(reason: str) -> str:
     """An em dash plus why, for a field with no value.
 
@@ -1009,7 +1035,7 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
             # The construction lender. Absent before a construction start by
             # nature, which is why it sits with the capital fields rather
             # than with the design team.
-            _kv("LENDER",           p.get("lender")) +
+            _kv("LENDER",           _lender_detail(p)) +
             _kv("ARCHITECT",        p.get("architect")) +
             _kv("CIVIL ENGINEER",   p.get("civil_engineer")) +
             _kv("GENERAL CONTRACTOR", p.get("contractor")),

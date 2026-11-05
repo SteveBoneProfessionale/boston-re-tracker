@@ -613,6 +613,56 @@ def review_scale_vocab(cities) -> list[str]:
     return out
 
 
+# ── size floor ──────────────────────────────────────────────────────────
+# Miami's rows come from the City's building-permit feed, which catalogues
+# EVERY permit in the city -- so the long tail is real buildings that no
+# publication will ever write about: 100 of them under 25,000 sq ft, named only
+# by their street address because a permit record has no project-name field.
+# They dragged every coverage figure down without being gaps: a 10,000 sq ft
+# infill building financed by a community bank has no reported lender because
+# there is nothing to report.
+#
+# So the default view is projects of real size. Nothing is deleted and nothing
+# is excluded -- `apply_size_floor` is a VIEW filter, the whole table is one
+# toggle away, and the database is untouched.
+#
+# Either test passes a project, because the two markets measure differently:
+# a condominium tower states units and a warehouse states floor area.
+SIZE_FLOOR_UNITS = 50
+SIZE_FLOOR_GSF = 50_000
+
+# WHAT THIS HIDES, measured rather than assumed, because a floor set for one
+# market's problem is applied to all of them:
+#
+#     Miami         58 per cent below the floor   <- the permit-feed tail
+#     Doral         79 per cent
+#     Providence    84 per cent                   <- NOT a permit-feed tail
+#     Warwick       90 per cent
+#     Boston        44 per cent
+#
+# Rhode Island and Boston are the uncomfortable part. Their rows come from
+# curated development pipelines rather than a permit feed, so their small
+# projects ARE the pipeline -- in Warwick a 30,000 sq ft building is a real
+# scheme, not noise. The floor is still applied market-wide because that is
+# what the view was asked for and because a market-dependent default would
+# surprise anyone comparing two markets side by side. If it should be narrowed
+# to South Florida, the change is one condition in `clears_size_floor`.
+
+
+def clears_size_floor(df: pd.DataFrame) -> "pd.Series":
+    """True for rows of real size: 50+ dwellings OR 50,000+ sq ft."""
+    units = pd.to_numeric(df.get("residential_units"), errors="coerce").fillna(0)
+    gsf = pd.to_numeric(df.get("total_gsf"), errors="coerce").fillna(0)
+    return (units >= SIZE_FLOOR_UNITS) | (gsf >= SIZE_FLOOR_GSF)
+
+
+def apply_size_floor(df: pd.DataFrame, show_all: bool = False) -> pd.DataFrame:
+    """The frame the app shows by default, or the whole frame when show_all."""
+    if show_all or df.empty:
+        return df
+    return df[clears_size_floor(df)].copy()
+
+
 @st.cache_data(ttl=300)
 def load_projects(include_excluded: bool = False) -> pd.DataFrame:
     session = get_session()
@@ -720,6 +770,9 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 # The construction lender, and the parcel identity the South
                 # Florida dedupe keys on. Blank for every other market.
                 "lender": p.lender or "",
+                # Which KIND of blank an empty lender is: see
+                # scraper/sofl_lender_status.py.
+                "lender_status": p.lender_status or "",
                 "parcel_id": p.parcel_id or "",
                 "parcel_id_aliases": p.parcel_id_aliases or "",
                 # DELIVERY, as two separate claims. Real dates so the

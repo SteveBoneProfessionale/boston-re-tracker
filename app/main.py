@@ -8,7 +8,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from db.database import init_db
-from app.data import load_projects, load_news, summary_stats
+from app.data import (load_projects, load_news, summary_stats,
+                      apply_size_floor, SIZE_FLOOR_UNITS, SIZE_FLOOR_GSF)
 from app.tabs import overview, project_table, map_view, news, acquisitions
 
 init_db()
@@ -279,10 +280,39 @@ def main():
 
     _start_news_scheduler()   # no-op after first call; idempotent via cache_resource
 
-    df = load_projects()
+    all_df = load_projects()
+
+    # The size floor is applied HERE rather than inside each tab, so the table,
+    # the charts, the map and the coverage figures all describe the same set of
+    # projects. Computing stats on the full frame and rendering the table on a
+    # filtered one is how a dashboard starts contradicting itself.
+    show_all = st.session_state.get("show_all_sizes", False)
+    df = apply_size_floor(all_df, show_all)
     stats = summary_stats(df)
 
     _render_header()
+
+    # The toggle, with the hidden count next to it: a default that quietly
+    # drops half the rows has to say so on the same line as the switch.
+    n_hidden = len(all_df) - len(df)
+    tog, note = st.columns([1, 5])
+    tog.toggle(
+        "Show all sizes", key="show_all_sizes",
+        help=(f"Off by default: the view shows projects with "
+              f"{SIZE_FLOOR_UNITS}+ residential units or "
+              f"{SIZE_FLOOR_GSF:,}+ sq ft. Nothing is deleted — the rest of the "
+              f"database is one click away."))
+    note.markdown(
+        '<p style="font-family:Inter,-apple-system,Segoe UI,Roboto,sans-serif;'
+        'font-size:10px;color:#64748b;margin:10px 0 0">'
+        + (f'showing all <span style="color:#e2e8f0;font-weight:700">'
+           f'{len(all_df):,}</span> projects'
+           if show_all else
+           f'<span style="color:#e2e8f0;font-weight:700">{len(df):,}</span> of '
+           f'{len(all_df):,} projects &nbsp;·&nbsp; '
+           f'<span style="color:#e2e8f0;font-weight:700">{n_hidden:,}</span> below the '
+           f'{SIZE_FLOOR_UNITS}-unit / {SIZE_FLOOR_GSF:,}-sq-ft floor and not shown')
+        + '</p>', unsafe_allow_html=True)
 
     tab1, tab2, tab3, tab4, tab5 = st.tabs(
         ["OVERVIEW", "PROJECTS", "MAP", "NEWS", "ACQUISITIONS"])
