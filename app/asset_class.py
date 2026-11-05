@@ -248,12 +248,71 @@ JUDGMENTS = {
 }
 
 
+# ── Florida, which states a code rather than a label ────────────────────────
+#
+# A FOURTH VOCABULARY, and the only one that is a real classification system
+# rather than a municipality's house style. Miami-Dade and Palm Beach both
+# publish the Florida Department of Revenue land-use code -- four digits whose
+# leading two are the statutory class -- so South Florida rows carry their use
+# as "COMMERCIAL - OFFICE (1813)" or "WAREH/DIST TERM (4800)". Both of those
+# are DOR class 18 and 48, office and warehouse, and the English beside the
+# code is just each county's own phrasing of it.
+#
+# Mapping on the CODE rather than the label is what makes five cities under two
+# appraisers comparable with each other and with Boston. Enumerating the labels
+# instead would need an entry per county per phrasing -- the same 39 values that
+# arrived unmapped the first time this ran, where 15 of them are simply
+# "retail" written three ways.
+#
+# Keyed on the two-digit class. A class absent here stays unmapped and renders
+# with its own code and a warning, exactly as an unmapped assessor string does.
+# The entertainment and recreation classes (31-38) are deliberately absent:
+# theatres, bowling alleys, race tracks and golf courses belong to none of these
+# ten categories and no honest default exists.
+DOR_CATEGORY = {
+    "00": LAND,          "03": MULTIFAMILY,  "04": MULTIFAMILY,
+    "05": MULTIFAMILY,   "06": MULTIFAMILY,  "08": MULTIFAMILY,
+    "10": LAND,          "11": RETAIL,       "12": MIXED,
+    "13": RETAIL,        "14": RETAIL,       "15": RETAIL,
+    "16": RETAIL,        "17": OFFICE,       "18": OFFICE,
+    "19": OFFICE,        "21": RETAIL,       "22": RETAIL,
+    "23": OFFICE,        "24": OFFICE,       "25": INDUSTRIAL,
+    "26": RETAIL,        "27": RETAIL,       "28": PARKING,
+    "29": RETAIL,        "39": HOTEL,        "40": LAND,
+    "41": INDUSTRIAL,    "42": INDUSTRIAL,   "43": INDUSTRIAL,
+    "44": INDUSTRIAL,    "45": INDUSTRIAL,   "46": INDUSTRIAL,
+    "47": INDUSTRIAL,    "48": INDUSTRIAL,   "49": INDUSTRIAL,
+    "01": None, "02": None, "07": None, "09": None,
+    "71": INSTITUTIONAL, "72": INSTITUTIONAL, "73": INSTITUTIONAL,
+    "74": INSTITUTIONAL, "75": INSTITUTIONAL, "76": INSTITUTIONAL,
+    "77": INSTITUTIONAL, "78": INSTITUTIONAL, "79": INSTITUTIONAL,
+}
+
+# "COMMERCIAL - OFFICE (1813)" -> "1813". FOUR digits, which is what separates a
+# Florida DOR code from a Massachusetts state class code: Boston writes three
+# ("Ret/Whsl/Service (320)"). MAP is consulted first regardless, so an exact
+# label match always wins and this path only ever sees values MAP does not hold.
+_DOR_SUFFIX = __import__("re").compile(r"\((\d{4})\)\s*$")
+
+
+def dor_category(raw):
+    """Category from a trailing four-digit Florida DOR code, or None."""
+    m = _DOR_SUFFIX.search(str(raw or ""))
+    if not m:
+        return None
+    return DOR_CATEGORY.get(m.group(1)[:2])
+
+
 def classify(raw):
     """Return the taxonomy category, or None where the code does not map."""
     if raw is None:
         return None
-    return MAP.get(str(raw).strip())
+    text = str(raw).strip()
+    if text in MAP:
+        return MAP[text]
+    return dor_category(text)
 
 
 def is_unmapped(raw):
-    return raw is not None and str(raw).strip() not in MAP
+    return (raw is not None and str(raw).strip() not in MAP
+            and dor_category(raw) is None)

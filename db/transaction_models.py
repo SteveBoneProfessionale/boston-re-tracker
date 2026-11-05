@@ -114,6 +114,10 @@ class Transaction(Base):
 
     # ── the property ────────────────────────────────────────────────
     property_type = Column(String)         # from the assessment file, not the deed
+    # Normalised class, set ONLY where it cannot be derived from property_type
+    # -- a multi-parcel assembly, where the code describes what still stands
+    # and the deed bought a development site. See db/database.py.
+    asset_class = Column(String)
     building_sf = Column(Integer)
     unit_count = Column(Integer)
     land_sf = Column(Integer)

@@ -60,6 +60,23 @@ SOURCE_MARK = {
     "suffolk_registry":  ("▥", "DEED",  "#22c55e"),
     "press":             ("◇", "PRESS", "#F5821E"),
     "broker_release":    ("◇", "PRESS", "#F5821E"),
+    # The two Florida county appraisers. Marked as records rather than
+    # assessments because, unlike the Cambridge feed, they state the recorded
+    # instrument, its book and page, and the county's own arm's-length
+    # determination -- so they CAN testify to arm's length, which is the whole
+    # reason the South Florida rows carry a qualification reason and the
+    # Massachusetts assessment rows cannot.
+    "miamidade_pa":      ("▥", "DEED",  "#22c55e"),
+    "pbcpao":            ("▥", "DEED",  "#22c55e"),
+}
+
+# Which cities belong to which market. Coverage is a per-market fact -- one
+# market has a county deed spine and the other has an active bot block -- so a
+# single note covering both would have to be false about one of them.
+MARKETS = {
+    "Massachusetts": ("Boston", "Cambridge"),
+    "South Florida": ("Miami", "Miami Beach", "Coral Gables", "Doral",
+                      "West Palm Beach"),
 }
 
 # Same sizing arithmetic as the screener: 14px cells, 8px padding each side,
@@ -177,14 +194,22 @@ def _rankings(f: pd.DataFrame):
             f'({vol_res/vol_all*100 if vol_all else 0:.0f}% of dollars). '
             f'Rows whose {side} is still a single-purpose entity are EXCLUDED, '
             f'not bucketed as "other", so this ranks the firms it can name and '
-            f'understates everyone. A further {n_affil} rows worth '
+            f'understates everyone. That is why the percentage is low: every '
+            f'South Florida row is a county deed naming a single-purpose LLC, '
+            f'and the sponsor behind it is not in the public record, so those '
+            f'rows can never enter the numerator while their dollars sit in the '
+            f'denominator. This ranking is Massachusetts in practice. '
+            f'A further {n_affil} rows worth '
             f'${v_affil/1e9:.2f}B are excluded as INTRA-SPONSOR CONVEYANCES — the '
             f'same firm on both sides, which is restructuring, not acquisition.<br>'
-            f'<b style="color:#e2e8f0">DATE COVERAGE</b> {span}. Only {recent} of '
-            f'these {n_res} rows are dated 2023 or later — the assessment spines '
-            f'stop in 2022 (Boston) and 2025 (Cambridge), so this is a '
+            f'<b style="color:#e2e8f0">DATE COVERAGE</b> {span}, across the '
+            f'{n_res} RESOLVED rows only. Just {recent} of them are dated 2023 '
+            f'or later — the Massachusetts assessment spines stop in 2022 '
+            f'(Boston) and 2025 (Cambridge) — so this is a '
             f'<b style="color:#e2e8f0">HISTORICAL</b> ranking and must not be read '
-            f'as current market share.</div>', unsafe_allow_html=True)
+            f'as current market share. The South Florida rows are current to '
+            f'2026 but unresolvable, so they do not correct it.</div>',
+            unsafe_allow_html=True)
 
         agg = (sub.groupby("_who")
                   .agg(deals=("id", "count"),
@@ -218,8 +243,15 @@ def _section(label: str):
         f'margin:16px 0 8px 0">{label}</p>', unsafe_allow_html=True)
 
 
-def _asset_cell(raw) -> str:
+def _asset_cell(raw, stored=None) -> str:
     """Normalised asset class, or the raw code behind a warning mark.
+
+    A STORED CLASS WINS OVER THE DERIVATION. Deriving from the assessor's code
+    is right everywhere except a multi-parcel assembly, where the code describes
+    whatever still stands on the largest parcel and the deed bought a
+    development site -- the Shorecrest row is recorded RELIGIOUS (7100) and is
+    Land. Those rows carry the decided class, and nothing else does, so this
+    stays a derivation with an override rather than two competing sources.
 
     An unmapped code is shown AS ITSELF with a ⚠, never bucketed into "Other".
     Four codes are in that state -- Cell Carrier, Com Billboard, Comm Condo and
@@ -228,12 +260,134 @@ def _asset_cell(raw) -> str:
     what the assessor wrote.
     """
     from app.asset_class import classify
+    if stored is not None and stored == stored and str(stored).strip():
+        return str(stored).strip()
     cat = classify(raw)
     if cat:
         return cat
     if raw is None or raw != raw or not str(raw).strip():
         return ""
     return f"⚠ {raw}"
+
+
+def _coverage_note(df: pd.DataFrame) -> None:
+    """What this table can and cannot see, stated market by market.
+
+    COVERAGE IS NOT ONE FACT HERE, and a single note would have to be false
+    about one market. Massachusetts has no reachable deed registry, so its 2026
+    rows are press and SEC filings -- the top of the market, not the market.
+    South Florida has the opposite shape: two county property appraisers publish
+    every recorded sale with its book, page and arm's-length determination, so
+    coverage there is the registry's own and effectively complete at the floor.
+
+    Writing "there is no deed feed" across both, which is what this note used to
+    do, would now be flatly wrong about 135 county-record rows.
+
+    Every number is derived from the rows present rather than written in, so the
+    note cannot drift away from the data behind it.
+    """
+    blocks = []
+    for market, cities in MARKETS.items():
+        sub = df[df["city"].isin(cities)]
+        if sub.empty:
+            continue
+        sd = pd.to_datetime(sub["sale_date"], errors="coerce")
+        y26 = sub[sd.dt.year == 2026]
+        n_part = int(sub["transaction_type"]
+                     .isin(["partial_interest", "entity_level"]).sum())
+        span = (f"{sd.min():%b %Y} to {sd.max():%b %Y}" if sd.notna().any()
+                else "n/a")
+
+        if market == "Massachusetts":
+            blocks.append(
+                f'<b style="color:#e2e8f0">MASSACHUSETTS — there is no deed '
+                f'feed.</b> masslandrecords sits behind an active bot block on '
+                f'both Suffolk and Middlesex South, so the registry spine that '
+                f'would make asset-sale coverage near-complete does not exist '
+                f'here. Cambridge\'s assessment file carries no sale later than '
+                f'6 August 2025 and zero 2026 sales, and Boston\'s state parcel '
+                f'layer stops in October 2022, so neither can fill the gap. '
+                f'2026 is therefore press- and SEC-sourced only — {len(y26)} '
+                f'transactions, {int(y26["price"].notna().sum())} with a stated '
+                f'price. Trade press reports large and newsworthy deals and does '
+                f'not cover the $2–20M range systematically, so that count is a '
+                f'floor and the dollar total understates volume by an unknown '
+                f'amount. ◇ PRESS rows carry that limit; ▣ SEC rows come from '
+                f'audited disposition schedules and are exact. {span}.')
+        else:
+            # No quarantine count here on purpose: load_transactions filters
+            # disqualified rows out before the tab sees them, so a count taken
+            # from this frame is always zero and would read as "none were
+            # disqualified" when 24 were. The note says so in words instead.
+            with_prior = int(sub["basis_change_pct"].notna().sum())
+            # "%-d" is not a portable strftime directive -- it is a glibc
+            # extension and raises on Windows -- so the day is formatted by
+            # hand rather than by the platform.
+            _m = sd.max()
+            latest = (f"{_m.day} {_m:%B %Y}" if pd.notna(_m) else "unknown")
+            blocks.append(
+                f'<b style="color:#e2e8f0">SOUTH FLORIDA — the registry IS the '
+                f'spine.</b> Every row is a recorded deed from the Miami-Dade or '
+                f'Palm Beach County Property Appraiser, carrying its book and '
+                f'page and the county\'s own arm\'s-length determination. '
+                f'{len(sub)} transactions at or above the $5M floor, {span}. '
+                f'Sales the county itself disqualified — affiliated parties, '
+                f'government transfers, non-market financing — are dropped '
+                f'before this table loads, so none of them reach any total '
+                f'here; they stay in the database with the county\'s reason. '
+                f'Coverage at the floor is the registry\'s own, so the count is '
+                f'not a floor the way the Massachusetts one is.<br>'
+                f'<b style="color:#e2e8f0">BUT IT STOPS SHORT OF TODAY.</b> The '
+                f'latest recorded sale here is {latest}'
+                f' — and it is the same day in BOTH counties, which two '
+                f'independent appraisers would not arrive at by coincidence. A '
+                f'deed takes weeks to record and longer to reach a sales file, '
+                f'so the last two months shown are incomplete rather than '
+                f'quiet, and the weeks after that date are not covered at all. '
+                f'Do not read the tail of the monthly chart as a slowdown.<br>'
+                f'<b style="color:#e2e8f0">One deed is one deal.</b> The '
+                f'appraisers publish parcels, and a deed\'s full price repeats on '
+                f'every parcel it touches — one Coconut Grove condo-hotel sale '
+                f'spans 185 folios at $69.4M each. Rows here are grouped to the '
+                f'instrument, so a multi-parcel deal counts once and its areas '
+                f'are summed; the address says how many parcels it covered.<br>'
+                f'<b style="color:#e2e8f0">Buyers and sellers are entities, not '
+                f'sponsors.</b> Almost every party is a single-purpose LLC formed '
+                f'for the trade, and the sponsor behind it is generally not in '
+                f'the public record — so names are given exactly as the deed '
+                f'states them and the canonical columns are left empty rather '
+                f'than guessed. Partial stakes are absent for the same reason: '
+                f'neither county publishes a conveyed percentage, and '
+                f'{n_part} are recorded.<br>'
+                f'<b style="color:#e2e8f0">A change in basis needs two '
+                f'comparable sales.</b> {with_prior} of {len(sub)} rows carry '
+                f'one. The rest state the prior sale but withhold the '
+                f'percentage, because the earlier sale was disqualified, '
+                f'recorded no price, bought land the building now standing '
+                f'postdates, or covered a different set of parcels. The row '
+                f'detail names which.')
+
+    if not blocks:
+        return
+    st.markdown(
+        f'<div style="font-family:{_UI};font-size:10px;line-height:1.6;'
+        f'color:{_MUTED};border-left:2px solid {_ORANGE};padding:8px 12px;'
+        f'margin:10px 0;background:{_BG2}">'
+        f'<b style="color:#e2e8f0">COVERAGE — READ THIS BEFORE ANY TOTAL</b>'
+        f'<br>' + '<br><br>'.join(blocks) + '</div>', unsafe_allow_html=True)
+
+
+def _asset_series(frame):
+    """The asset class of every row in a frame, honouring the stored override.
+
+    Exists so that no call site can read the derivation alone and quietly
+    disagree with the rest of the tab -- which is what happened when five
+    assembly rows classified one way in the database and another in the table.
+    """
+    stored = frame.get("asset_class")
+    if stored is None:
+        return [_asset_cell(v) for v in frame["property_type"]]
+    return [_asset_cell(v, sv) for v, sv in zip(frame["property_type"], stored)]
 
 
 def _build_display(df: pd.DataFrame) -> pd.DataFrame:
@@ -271,6 +425,19 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
     broken = sf.notna() & (sf <= 1)
     sf = sf.mask(broken)
     psf = psf.mask(broken)
+
+    # A LAND SALE HAS NO BUILDING, AND ITS $/SF IS ON LAND AREA. Land trades on
+    # dollars per land foot, so that quotient is the right one -- but with the
+    # SF column reading building area only, a land row showed an empty SF beside
+    # a populated $/SF and the arithmetic looked broken. The land area goes in
+    # the column so the division is legible, and _psf_basis below labels which
+    # measure each row used, because a land foot and a building foot are not
+    # comparable and must never be read as though they were.
+    land = pd.to_numeric(d.get("land_sf", pd.Series(index=d.index, dtype=float)),
+                         errors="coerce")
+    on_land = sf.isna() & land.notna() & (land > 1)
+    sf = sf.where(~on_land, land)
+    d["_psf_basis"] = ["land SF" if b else "building SF" for b in on_land]
 
     # THE SAME DEFECT ONE STEP SUBTLER. psf_unreliable marks the rows where the
     # recorded area is the PARCEL's and not the asset's, so the quotient
@@ -323,7 +490,7 @@ def _build_display(df: pd.DataFrame) -> pd.DataFrame:
                          d.get("buyer_confidence", pd.Series(dtype=object)))],
         "PRICE":    pd.to_numeric(d["price"], errors="coerce"),
         "SF":       sf,
-        "ASSET":    [_asset_cell(v) for v in d["property_type"]],
+        "ASSET":    _asset_series(d),
         # Derived and secondary measures, then the filter dimensions.
         "$/SF":     psf,
         "UNITS":    pd.to_numeric(d["unit_count"], errors="coerce"),
@@ -408,7 +575,33 @@ def _row_detail(f: pd.DataFrame, event):
                    "class stays traceable.")
         pct = r.get("pct_acquired")
         iv = r.get("implied_valuation")
+        # WHICH AREA THE $/SF USED. Dollars per land foot and dollars per
+        # building foot are different measures, and the table shows them in one
+        # column, so the row has to say which it is. Derived rather than stored:
+        # a row whose price_per_sf is populated while building_sf is not can
+        # only have divided by land area.
+        bsf = pd.to_numeric(pd.Series([r.get("building_sf")]),
+                            errors="coerce").iloc[0]
+        lsf = pd.to_numeric(pd.Series([r.get("land_sf")]),
+                            errors="coerce").iloc[0]
+        has_psf = pd.to_numeric(pd.Series([r.get("price_per_sf")]),
+                                errors="coerce").iloc[0]
+        if not (has_psf == has_psf and has_psf):
+            basis = "—"
+        elif not (bsf == bsf and bsf and bsf > 1):
+            basis = f"land SF ({lsf:,.0f})" if lsf == lsf and lsf else "land SF"
+        else:
+            basis = f"building SF ({bsf:,.0f})"
+
+        ppu = r.get("price_per_unit")
+        unit_basis = "—"
+        if ppu == ppu and ppu:
+            cls = _asset_cell(r.get("property_type"), r.get("asset_class"))
+            unit_basis = "per key" if cls == "Hotel" else "per unit"
+
         _fixed([("raw type", r.get("property_type") or "—"),
+                ("$/SF on", basis),
+                ("$/unit is", unit_basis),
                 ("stake", f"{pct:.0f}%" if pct == pct and pct else "—"),
                 ("implied", f"${iv:,.0f}" if iv == iv and iv else "—"),
                 ("source", f"{r.get('source') or '—'}  "
@@ -426,6 +619,20 @@ def _row_detail(f: pd.DataFrame, event):
     ):
         if r.get(flag):
             st.warning(msg)
+    # A withheld percentage says so in its own line. Buried in the notes
+    # paragraph it reads as commentary; on its own it reads as the refusal it is.
+    _prior_px = pd.to_numeric(pd.Series([r.get("prior_sale_price")]),
+                              errors="coerce").iloc[0]
+    _chg = pd.to_numeric(pd.Series([r.get("basis_change_pct")]),
+                         errors="coerce").iloc[0]
+    if _prior_px == _prior_px and _prior_px and not (_chg == _chg):
+        import re as _re
+        _why = _re.search(r"Change in basis withheld: ([^.]+)\.",
+                          str(r.get("notes") or ""))
+        st.caption("CHANGE % — NOT COMPARABLE"
+                   + (f". {_why.group(1)}." if _why else
+                      ". The two sales did not buy the same property."))
+
     if r.get("price_caveat"):
         st.caption(f"PRICE CAVEAT — {r['price_caveat']}")
     if r.get("notes"):
@@ -471,36 +678,7 @@ def render(projects=None):
         return
 
     # ── Coverage, stated before any total is shown ──────────────────
-    n_part = df["transaction_type"].isin(["partial_interest", "entity_level"]).sum()
-    y26 = df[pd.to_datetime(df["sale_date"], errors="coerce").dt.year == 2026]
-    n26 = len(y26)
-    n26_priced = int(y26["price"].notna().sum())
-    st.markdown(
-        f'<div style="font-family:{_UI};font-size:10px;line-height:1.6;color:{_MUTED};'
-        f'border-left:2px solid {_ORANGE};padding:8px 12px;margin:10px 0;background:{_BG2}">'
-        f'<b style="color:#e2e8f0">COVERAGE — READ THIS BEFORE ANY TOTAL</b><br>'
-        f'<b style="color:#e2e8f0">There is no deed feed.</b> masslandrecords sits behind an '
-        f'active bot block on both Suffolk and Middlesex South, so the registry spine that '
-        f'would make asset-sale coverage near-complete does not exist here. Cambridge\'s '
-        f'assessment file carries no sale later than 6 August 2025 and zero 2026 sales, so it '
-        f'cannot fill the gap either.<br>'
-        f'<b style="color:#e2e8f0">2026 is therefore press- and SEC-sourced only</b> — '
-        f'{n26} transactions, {n26_priced} with a stated price. That is the top of the market, '
-        f'not the market. Trade press reports large and newsworthy deals; it does not report '
-        f'the $2–20M range systematically, so the count is a floor and the dollar total '
-        f'understates volume by an unknown amount. Rows marked ◇ PRESS carry that limit; '
-        f'▣ SEC rows come from audited disposition schedules and are exact.<br>'
-        f'<b style="color:#e2e8f0">The window is 2025 onward, and 2025 has ONE row.</b> '
-        f'847 Massachusetts Avenue, Cambridge, $3.4M. That is not a filter artefact: the '
-        f'Cambridge source contains exactly one commercial sale at or above the $2M floor for '
-        f'the whole of 2025, and Boston\'s state parcel layer stops in October 2022. So this '
-        f'table is effectively an eight-month view of 2026, and any per-SF or per-unit '
-        f'comparison has no historical baseline behind it inside this window.<br>'
-        f'<b style="color:#e2e8f0">A partial interest leaves no deed at all.</b> A '
-        f'Massachusetts nominee trust can move beneficial interests with title unchanged, so '
-        f'no registry would surface it even with full access. {n_part} such transactions are '
-        f'tracked — a floor, and one that a licensed feed would not raise.'
-        f'</div>', unsafe_allow_html=True)
+    _coverage_note(df)
 
     # ── Filters ─────────────────────────────────────────────────────
     _section("FILTER")
@@ -515,7 +693,7 @@ def render(projects=None):
     # Filters on the NORMALISED class, not the raw code. Ten options instead of
     # 115, and "Office" now means the same thing in both cities.
     from app.asset_class import CATEGORIES
-    present = {_asset_cell(v) for v in df["property_type"].dropna().unique()}
+    present = set(_asset_series(df)) - {""}
     assets = (["All"] + [c for c in CATEGORIES if c in present]
               + sorted(x for x in present if x.startswith("⚠")))
     asset = c3.selectbox("ASSET CLASS", assets, key="acq_asset")
@@ -553,7 +731,7 @@ def render(projects=None):
     if ttype != "All":
         f = f[f["transaction_type"] == ttype]
     if asset != "All":
-        f = f[[_asset_cell(v) == asset for v in f["property_type"]]]
+        f = f[[c == asset for c in _asset_series(f)]]
     if sub_sel != "All":
         f = f[f.get("submarket", pd.Series(index=f.index, dtype=object)) == sub_sel]
     if both:
@@ -618,17 +796,28 @@ def render(projects=None):
             "PRIOR PRICE": st.column_config.NumberColumn(
                 width=w["PRIOR PRICE"], format="$%,d",
                 help="What the seller paid for the same asset, where a prior "
-                     "trade has been established. 11 rows carry one."),
+                     "trade is established. On South Florida rows this is the "
+                     "parcel's own recorded sale history from the county."),
             "PRIOR DATE": st.column_config.DateColumn(
                 width=w["PRIOR DATE"], format="YYYY-MM-DD",
                 help="When the prior trade closed. CHANGE % is meaningless "
                      "without it — a 71% fall over three years and over "
                      "fifteen are different events."),
+            # A PRIOR PRICE WITH NO CHANGE % IS A REFUSAL, NOT A GAP. The
+            # percentage is withheld whenever the two sales did not buy the same
+            # thing, and the conditions are named here because a blank cell
+            # otherwise reads as missing data. The row detail states which
+            # condition applied.
             "CHANGE %": st.column_config.NumberColumn(
                 width=w["CHANGE %"], format="%.1f%%",
                 help="Change against the seller's own basis. 18 Tremont Street "
                      "at −71.3% and 1 Hampshire Street at −62.5% are the "
-                     "repricing of Boston office in the open."),
+                     "repricing of Boston office in the open. BLANK BESIDE A "
+                     "PRIOR PRICE MEANS NOT COMPARABLE, not unknown: the "
+                     "earlier sale was disqualified by the county, recorded no "
+                     "price, bought land that the building now standing "
+                     "postdates, or covered a different set of parcels. Open "
+                     "the row to see which."),
             "SRC":     st.column_config.TextColumn(
                 width=w["SRC"],
                 help="Where the row came from. ▣ SEC an audited 10-Q disposition "
@@ -663,9 +852,19 @@ def render(projects=None):
                      "A ⚠ means the assessor's code does not map to any class "
                      "and is shown raw rather than bucketed as Other. The "
                      "original code is on the row detail."),
-            "SF":      st.column_config.NumberColumn(width=w["SF"], format="%,d"),
+            "SF":      st.column_config.NumberColumn(
+                width=w["SF"], format="%,d",
+                help="Building area, except on a land sale, where there is no "
+                     "building and the figure is LAND area. The row detail "
+                     "names which measure the row used."),
             "UNITS":   st.column_config.NumberColumn(width=w["UNITS"], format="%d"),
-            "$/SF":    st.column_config.NumberColumn(width=w["$/SF"], format="$%,d"),
+            "$/SF":    st.column_config.NumberColumn(
+                width=w["$/SF"], format="$%,d",
+                help="Price divided by the SF in the column to the left — "
+                     "building area on a building, land area on a land sale. "
+                     "Dollars per land foot and dollars per building foot are "
+                     "not comparable measures; the row detail says which "
+                     "applies."),
             "$/UNIT":  st.column_config.NumberColumn(width=w["$/UNIT"], format="$%,d"),
         })
 
@@ -688,6 +887,6 @@ def render(projects=None):
         pps = f.dropna(subset=["price_per_sf"]).copy()
         pps = pps[pd.to_numeric(pps["building_sf"], errors="coerce").fillna(0) > 1]
         if not pps.empty:
-            pps["_cls"] = [_asset_cell(v) for v in pps["property_type"]]
+            pps["_cls"] = _asset_series(pps)
             st.bar_chart(pps.groupby("_cls")["price_per_sf"].median()
                             .sort_values(ascending=False).head(12), height=200)

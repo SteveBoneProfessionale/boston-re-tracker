@@ -248,6 +248,21 @@ def init_db():
     # has no locatable point, which is a portfolio address or a press row the
     # City's address file does not carry.
     _add_column_if_missing("transactions", "submarket", "VARCHAR")
+
+    # THE NORMALISED ASSET CLASS, WHERE IT CANNOT BE DERIVED FROM THE RAW CODE.
+    # Everywhere else the display layer maps `property_type` to the taxonomy and
+    # that is the single source of truth. It breaks on one shape: a South
+    # Florida deed that ASSEMBLES several parcels, where the thing bought is a
+    # development site but the assessor's code describes whatever still stands
+    # on the largest parcel. The Shorecrest site in West Palm Beach is recorded
+    # RELIGIOUS (7100) -- a church, bought to be demolished for a tower. Mapping
+    # the code gives Institutional; the deed bought Land.
+    #
+    # Rather than fabricate a code to make the derivation come out right, the
+    # decided class is stored and the raw code is left untouched. Null on every
+    # Boston and Cambridge row, where the derivation is correct and remains in
+    # use -- so this is an override, not a replacement.
+    _add_column_if_missing("transactions", "asset_class", "VARCHAR")
     print(f"Database ready at {DB_PATH}")
 
 
