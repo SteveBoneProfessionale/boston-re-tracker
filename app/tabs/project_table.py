@@ -1063,6 +1063,10 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
 
     # ── 4. Two equal cards: the team, and the site ──────────────────
     _dev_name = title_case(p.get("developer_canonical") or p.get("developer") or "")
+    # Kept as its own name because the DEVELOPER SOURCES expander further down
+    # keys on it. Losing this definition in the panel rewrite is what raised a
+    # NameError on every project click.
+    _method = resolution_method(p.get("developer_resolution_method", ""))
     _conf = p.get("developer_confidence") or developer_confidence(
         p.get("developer_resolution_method", ""), _dev_name or "")
     if _dev_name:
