@@ -2418,5 +2418,65 @@
   "source": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270142070030020%27&outFields=*&f=pjson",
   "why": "the tower sits on Brickell Key, folio 0142070030020, and its sibling North Tower on the same island already carried the value; the field was blank",
   "at": "2026-11-05"
+ },
+ {
+  "id": 1167,
+  "project": "The Perrin",
+  "field": "lender",
+  "old": "—",
+  "new": "Goldman Sachs",
+  "source": "https://floridayimby.com/2025/05/111-million-construction-loan-secured-for-26-story-multifamily-tower-the-perrin-at-244-sw-9th-street-in-brickell-miami.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1212,
+  "project": "Dulce Vida Apartments",
+  "field": "lender",
+  "old": "—",
+  "new": "Citibank",
+  "source": "https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1212,
+  "project": "Dulce Vida Apartments",
+  "field": "developer",
+  "old": "—",
+  "new": "Coral Rock Development Group",
+  "source": "https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1138,
+  "project": "Villa Miami",
+  "field": "lender",
+  "old": "—",
+  "new": "Tyko Capital",
+  "source": "https://floridayimby.com/2024/12/villa-miami-secures-285-million-in-financing-following-groundbreaking-in-edgewater.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1126,
+  "project": "Excel Miami",
+  "field": "lender",
+  "old": "—",
+  "new": "Centennial Bank; Southern Realty Trust",
+  "source": "https://floridayimby.com/2024/11/94-5m-construction-loan-secured-for-24-story-multifamily-tower-excel-miami-in-miamis-arts-entertainment-district.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1195,
+  "project": "2900 Terrace",
+  "field": "lender",
+  "old": "—",
+  "new": "Bank OZK",
+  "source": "https://floridayimby.com/2025/06/210-5-million-construction-financing-secured-for-2900-terrace-in-edgewater-miami.html",
+  "why": "",
+  "at": "2026-11-05"
  }
 ]

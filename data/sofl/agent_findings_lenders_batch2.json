@@ -1,0 +1,41 @@
+[
+ {"id": 1167, "name": "The Perrin",
+  "values": {"lender": "Goldman Sachs"},
+  "sources": {"lender": {"name": "Florida YIMBY, 22 May 2025", "date": "2025-05-22",
+    "url": "https://floridayimby.com/2025/05/111-million-construction-loan-secured-for-26-story-multifamily-tower-the-perrin-at-244-sw-9th-street-in-brickell-miami.html"}},
+  "notes": "CONSTRUCTION LENDER: $111.25m of construction financing for the 310-unit tower at 244 SW 9th Street, Brickell. A single facility with no senior/junior split and no mezzanine piece reported. Newmark arranged the financing and is a broker, not a lender. Corroborated by Commercial Observer and Bisnow of the same week, both of which put the figure at $111.3m.",
+  "quotes": {"lender": "The Empira Group has secured $111.25 million in construction financing for THE PERRIN, a 310-unit Class A multifamily development planned for 244 Southwest 9th Street in Miami's Brickell neighborhood. The loan was provided by Goldman Sachs"}},
+
+ {"id": 1212, "name": "Dulce Vida Apartments",
+  "values": {"lender": "Citibank", "developer": "Coral Rock Development Group"},
+  "sources": {"_default": {"name": "Florida YIMBY, 29 Dec 2025", "date": "2025-12-29",
+    "url": "https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html"}},
+  "notes": "CONSTRUCTION LENDER: a $54m construction loan from Citibank. NOT recorded as part of the lender field: a further $15m loan from the City of Miami through its Forever Affordable Housing Bond programme, which is a public subsidy facility rather than the construction lender. DEVELOPER ALSO FILLED — the field was empty and the same article names Coral Rock Development Group, which closes a gap rather than correcting a value. Corroborated by Commercial Observer of December 2025, whose headline attributes the $54m to Coral Rock and Citibank. A Live Local Act project on a Miami-Dade County-owned library site at 1785 NW 35th Street.",
+  "quotes": {
+    "lender": "Plans are advancing for Dulce Vida, an eight-story mixed-income residential development in Allapattah, following the closing of a $54 million construction loan. The financing was provided by Citibank and is complemented by an additional $15 million loan from the City of Miami through its Forever Affordable Housing Bond program.",
+    "developer": "The project, developed by Coral Rock Development and designed by Behar Font, is one of the neighborhood's first residential proposals enabled under Florida's Live Local Act and is targeting a groundbreaking in early 2026."}},
+
+ {"id": 1138, "name": "Villa Miami",
+  "values": {"lender": "Tyko Capital"},
+  "sources": {"lender": {"name": "Florida YIMBY, Dec 2024", "date": "2024-12-01",
+    "url": "https://floridayimby.com/2024/12/villa-miami-secures-285-million-in-financing-following-groundbreaking-in-edgewater.html"}},
+  "notes": "CONSTRUCTION LENDER: a $285m construction loan for the 650 ft Major Food Group-branded tower at 710 NE 29th Street. One facility, no mezzanine piece reported. Tyko Capital is backed by Elliott Investment Management, and is the same lender recorded on The St. Regis Residences. Walker & Dunlop arranged the financing and is a broker, not a lender. Corroborated by Commercial Observer of December 2024.",
+  "quotes": {"lender": "Terra and One Thousand Group have secured a $285 million construction loan for Villa Miami, a 650-foot-tall waterfront condominium set to rise in Miami's East Edgewater neighborhood. Designed by ODP Architects, the tower will feature a distinctive copper-colored exoskeleton and mark the first residential project branded by Major Food Group (MFG). Construction commenced earlier this month, with completion anticipated in late 2027. TYKO Capital, backed by Elliott Investment Management and led by Adi Chugh, provided the financing."}},
+
+ {"id": 1126, "name": "Excel Miami",
+  "values": {"lender": "Centennial Bank; Southern Realty Trust"},
+  "sources": {"lender": {"name": "Florida YIMBY, Nov 2024", "date": "2024-11-01",
+    "url": "https://floridayimby.com/2024/11/94-5m-construction-loan-secured-for-24-story-multifamily-tower-excel-miami-in-miamis-arts-entertainment-district.html"}},
+  "notes": "CONSTRUCTION LENDER: $94.5m of construction financing in two tranches of ONE facility — a $68.5m senior loan from Centennial Bank and a $26m subordinate loan from an affiliate of Southern Realty Trust. Both are recorded, on the same reasoning already applied to the Waldorf Astoria and 1428 Brickell: the source calls the subordinate piece a subordinate loan within the construction financing and does NOT call it mezzanine or preferred equity, so it is not excluded by kind. Centennial Bank is the senior lender and is named first. Corroborated by Commercial Observer of November 2024, which puts the package at $95m and leads with Centennial Bank.",
+  "quotes": {"lender": "The project has secured $94.5 million in construction financing, comprising a $68.5 million senior loan from Centennial Bank, facilitated by Jay Brito, and a $26 million subordinate loan originated and agented by an affiliate of Southern Realty Trust Inc. (SRT)."}},
+
+ {"id": 1195, "name": "2900 Terrace",
+  "values": {"lender": "Bank OZK"},
+  "sources": {"lender": {"name": "Florida YIMBY, Jun 2025", "date": "2025-06-01",
+    "url": "https://floridayimby.com/2025/06/210-5-million-construction-financing-secured-for-2900-terrace-in-edgewater-miami.html"}},
+  "notes": "CONSTRUCTION LENDER: Bank OZK alone, on the $142.5m SENIOR loan within a $210.5m package. The $68m companion piece from Canyon Partners Real Estate is explicitly a MEZZANINE loan and is excluded by kind, which is why only one of the two parties is recorded here — the opposite call from Excel Miami, where the second tranche is called subordinate rather than mezzanine. JLL Capital Markets arranged the debt and is a broker, not a lender. Corroborated by Bisnow, which puts the figure at $211m.",
+  "quotes": {"lender": "Oak Row Equities has closed on $210.5 million in construction financing for 2900 Terrace, a luxury multifamily tower in Miami's Edgewater neighborhood. The financing package comprises a $142.5 million senior loan from Bank OZK and a $68 million mezzanine loan from Canyon Partners Real Estate LLC."}},
+
+ {"id": 928, "name": "Missoni Baia", "values": {}, "sources": {},
+  "notes": "LENDER FOUND BUT NOT STORABLE, and the reason is a sourcing limit rather than a doubt about the fact. A $243.3m construction loan for this tower closed in November 2019 and the lender is reported as Security Benefit Life Insurance Corporation, with OKO Group, OB Group and Cain International as borrowers. The only outlet carrying the lender's name is The Real Deal, and therealdeal.com returns HTTP 403 to every automated fetch, so no verbatim sentence can be taken from the page. The three fetchable acceptable outlets — Florida YIMBY, Commercial Observer and Bisnow — all report the $243.3m facility but none names the lender. Storing the name from a search-engine summary of a page that cannot be opened is exactly the failure that produced the S3 Capital misattribution on the Mandarin Oriental rows, so the field stays empty and the finding is recorded here. One browser visit to the November 2019 Real Deal article would settle it."}
+]

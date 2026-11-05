@@ -1016,16 +1016,17 @@ only sentence available says both in one breath.
 
 ## Change log — City of Miami review (5 November 2026)
 
-242 field changes across 232 projects. Grouped by field; within a field, ordered by project id. A source of “—” means the change was derived from a record already cited on the row (the master building permit, or the permit's own work items) rather than from a new document, and the row's existing FIELD SOURCES entry still applies.
+248 field changes across 232 projects. Grouped by field; within a field, ordered by project id. A source of “—” means the change was derived from a record already cited on the row (the master building permit, or the permit's own work items) rather than from a new document, and the row's existing FIELD SOURCES entry still applies.
 
 | Field | Changes |
 | --- | --: |
 | asset_class | 226 |
+| lender | 5 |
 | name | 3 |
 | architect | 3 |
+| developer | 2 |
 | building_height_ft | 2 |
 | residential_units | 2 |
-| developer | 1 |
 | num_stories | 1 |
 | parking_spaces | 1 |
 | record created | 1 |
@@ -1304,6 +1305,16 @@ Reasons:
 - **id 1368** — described as 310 apartments
 - **id 1369** — 167 units, 40 per cent of them workforce housing, proposed under the Live Local Act. the project is a Live Local Act application, and the Act (ss. 125.01055(7) and 166.04151(7), Fla. Stat.) grants its relief only to developments reserving at least 40 per cent of residential units as RENTAL units affordable at or below 120 per cent of AMI, so what it applied under establishes the tenure
 
+### lender — 5 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 1126 | Excel Miami | — | Centennial Bank; Southern Realty Trust | [link](https://floridayimby.com/2024/11/94-5m-construction-loan-secured-for-24-story-multifamily-tower-excel-miami-in-miamis-arts-entertainment-district.html) |
+| 1138 | Villa Miami | — | Tyko Capital | [link](https://floridayimby.com/2024/12/villa-miami-secures-285-million-in-financing-following-groundbreaking-in-edgewater.html) |
+| 1167 | The Perrin | — | Goldman Sachs | [link](https://floridayimby.com/2025/05/111-million-construction-loan-secured-for-26-story-multifamily-tower-the-perrin-at-244-sw-9th-street-in-brickell-miami.html) |
+| 1195 | 2900 Terrace | — | Bank OZK | [link](https://floridayimby.com/2025/06/210-5-million-construction-financing-secured-for-2900-terrace-in-edgewater-miami.html) |
+| 1212 | Dulce Vida Apartments | — | Citibank | [link](https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html) |
+
 ### name — 3 change(s)
 
 | id | Project | Old | New | Source |
@@ -1331,6 +1342,17 @@ Reasons:
 - **id 1162** — the review is right and this follows the project's existing architect-of-record rule: the source names Robert A.M. Stern Architects as the designer and Cohen Freedman Encinosa as the architect OF RECORD, and the field holds the architect of record
 - **id 1185, id 1203** — Architect CLEARED. The only source ever cited for it on this row is Florida YIMBY's coverage of the eight-storey ADMINISTRATION BUILDING, as the row's own note recorded, so Arquitectonica was this site's Civic Center architect attributed to the wrong building. No acceptable source names an architect for this structure.
 
+### developer — 2 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 1212 | Dulce Vida Apartments | — | Coral Rock Development Group | [link](https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html) |
+| 1220 | Miami Civic Center | Miami Freedom Park, LLC | Adler Development | [link](https://www.miami.gov/Notices/Events-Activities/City-of-Miami-to-Celebrate-the-Topping-Out-of-the-New-Miami-Civic-Center) |
+
+Reasons:
+
+- **id 1220** — the City's own notice names Adler Development; the previous value, Miami Freedom Park LLC, is the ground lessee of the OTHER parcels
+
 ### building_height_ft — 2 change(s)
 
 | id | Project | Old | New | Source |
@@ -1354,16 +1376,6 @@ Reasons:
 
 - **id 976** — the review's rule is to count every residential unit including condo-hotel units, so the 163 Sky Residences and the 236 condo-hotel residences are both counted; the 316 Hilton keys are not units and stay in the hotel field
 - **id 1107** — the review's 362 is confirmed by the developer's own general-contractor announcement; the stored 363 came from a two-project round-up
-
-### developer — 1 change(s)
-
-| id | Project | Old | New | Source |
-| --: | --- | --- | --- | --- |
-| 1220 | Miami Civic Center | Miami Freedom Park, LLC | Adler Development | [link](https://www.miami.gov/Notices/Events-Activities/City-of-Miami-to-Celebrate-the-Topping-Out-of-the-New-Miami-Civic-Center) |
-
-Reasons:
-
-- **id 1220** — the City's own notice names Adler Development; the previous value, Miami Freedom Park LLC, is the ground lessee of the OTHER parcels
 
 ### num_stories — 1 change(s)
 
