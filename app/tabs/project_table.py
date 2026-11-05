@@ -15,6 +15,9 @@ from app.data import (
     city_options, keep_city_selectable,
     FIELD_TIERS, load_field_tiers, mark_team_value, format_delivery_date,
 )
+from app.detail_bits import (title_case, programme_chips, summary_line,
+                             confidence_dot, source_label, addresses,
+                             money_millions, clean)
 from scraper.normalize_developer import is_real_company
 
 # One sentence, reused by all three team columns, so the reader learns the
@@ -74,7 +77,11 @@ STATUS_DOT = {
     "Letter of Intent":   "○",
     "Under Construction": "◆",
 }
-LIFECYCLE_STAGES = ["LOI", "UNDER REVIEW", "BOARD APPROVED", "UNDER CONST.", "COMPLETE"]
+# "Filed", not "LOI": a letter of intent is a private document between a
+# developer and an agency and never appears in a public record. What the
+# pipeline actually observes at this stage is a filing.
+LIFECYCLE_STAGES = ["FILED", "UNDER REVIEW", "BOARD APPROVED",
+                    "UNDER CONST.", "COMPLETE"]
 LIFECYCLE_IDX = {
     "Letter of Intent":   0,
     "Under Review":       1,
@@ -801,7 +808,10 @@ def _lender_detail(p) -> str:
         return _absent("no construction loan reported")
     if status == "lender_unnamed":
         return _absent("a construction loan is reported; no source names the lender")
-    return _absent("not found")
+    # Nothing known: return None so the card renders its own "Not found",
+    # keeping every empty row in the panel identical. The two labels above are
+    # findings and deliberately look different from an empty field.
+    return None
 
 
 def _absent(reason: str) -> str:
@@ -828,6 +838,96 @@ def _kv(label: str, value) -> str:
     )
 
 
+
+# ── panel building blocks ───────────────────────────────────────────────
+# Every tile and every card row renders at the same size whether or not it has
+# a value, so two panels side by side have the same shape and a reader learns
+# where to look once. A missing value reads "Not found" in muted text and is
+# never hidden, because a hidden row cannot be told apart from a field that
+# does not apply to this project.
+_NOT_FOUND = '<span style="color:#4b5563">Not found</span>'
+
+
+def _tile(label: str, value) -> str:
+    """One of the six key-number tiles. Flexes, so it wraps on a narrow screen."""
+    shown = clean(value) or _NOT_FOUND
+    return (
+        f'<div style="flex:1 1 150px;min-width:118px;background:{_BG2};'
+        f'border:1px solid {_BORDER};padding:10px 12px;box-sizing:border-box">'
+        f'<div style="font-family:{_UI};font-size:8.5px;font-weight:700;'
+        f'letter-spacing:0.12em;color:{_MUTED};text-transform:uppercase;'
+        f'margin-bottom:5px;white-space:nowrap">{label}</div>'
+        f'<div style="font-family:{_UI};font-size:15px;font-weight:600;'
+        f'color:#e2e8f0;line-height:1.25">{shown}</div></div>'
+    )
+
+
+def _card(title: str, rows) -> str:
+    """A titled card of label/value rows. Every row renders, empty or not."""
+    body = ""
+    for label, value in rows:
+        # clean() turns a pipeline placeholder -- "not_yet_selected", "TBD",
+        # "Unknown - review needed" -- into an empty field, so a value nobody
+        # has chosen yet reads the same as one nobody has found.
+        shown = clean(value) or _NOT_FOUND
+        body += (
+            f'<div style="display:flex;gap:10px;padding:7px 0;'
+            f'border-bottom:1px solid rgba(30,37,48,0.75)">'
+            f'<div style="flex:0 0 128px;font-family:{_UI};font-size:8.5px;'
+            f'font-weight:700;letter-spacing:0.12em;color:{_MUTED};'
+            f'text-transform:uppercase;padding-top:3px">{label}</div>'
+            f'<div style="flex:1;font-family:{_UI};font-size:12.5px;'
+            f'color:#e2e8f0;line-height:1.5;word-break:break-word">{shown}</div>'
+            f'</div>'
+        )
+    return (
+        f'<div style="background:{_BG2};border:1px solid {_BORDER};'
+        f'padding:12px 14px 8px;height:100%;box-sizing:border-box">'
+        f'<div style="font-family:{_UI};font-size:9px;font-weight:700;'
+        f'letter-spacing:0.16em;color:{_ORANGE};text-transform:uppercase;'
+        f'margin-bottom:4px">{title}</div>{body}</div>'
+    )
+
+
+def _badge(text: str, color: str, outlined: bool = False) -> str:
+    border = color if outlined else _BORDER
+    return (f'<span style="font-family:{_UI};font-size:9px;font-weight:700;'
+            f'letter-spacing:0.1em;color:{color};border:1px solid {border};'
+            f'padding:3px 8px;text-transform:uppercase;white-space:nowrap">'
+            f'{text}</span>')
+
+
+def _chip(text: str) -> str:
+    return (f'<span style="font-family:{_UI};font-size:10px;color:#cbd5e1;'
+            f'background:rgba(138,155,176,0.10);border:1px solid {_BORDER};'
+            f'padding:4px 10px;border-radius:11px;white-space:nowrap">{text}</span>')
+
+
+def _num(p, key):
+    """An int from a possibly-missing, possibly-NaN field."""
+    v = p.get(key)
+    try:
+        if v is None or v != v:
+            return None
+        return int(float(v))
+    except (TypeError, ValueError):
+        return None
+
+
+def _display_name(p) -> str:
+    """The project name, cased for reading.
+
+    A permit-derived row that research has not yet named carries its street
+    address as its name, so it gets the same treatment an address gets:
+    "2961 BIRD AV" reads "2961 Bird Ave". A real project name is left exactly
+    as it was recorded.
+    """
+    name = str(p.get("name") or "")
+    if name and name == str(p.get("address") or ""):
+        return title_case(name, address=True)
+    return name
+
+
 def _detail_panel(p: pd.Series, df: pd.DataFrame):
     st.markdown('<div style="height:6px"></div>', unsafe_allow_html=True)
 
@@ -835,24 +935,31 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
     status_color = STATUS_COLORS.get(p["status"]) or STAGE_COLORS.get(p.get("stage"), _MUTED)
     status_short = STATUS_SHORT.get(p["status"], p["status"])
 
-    # Header
+    # ── 1. Header: name, badges, one plain-English line ─────────────
+    _badges = [_badge(status_short, status_color, outlined=True)]
+    if p.get("asset_class"):
+        _badges.append(_badge(p["asset_class"], "#cbd5e1"))
+    if p.get("neighborhood"):
+        _badges.append(_badge(p["neighborhood"], _MUTED))
+    if p.get("city"):
+        _badges.append(_badge(p["city"], _MUTED))
+
     st.markdown(
-        f'<div style="border-left:3px solid {_ORANGE};padding:12px 16px 10px;'
-        f'background:{_BG2};border-top:1px solid {_BORDER};border-right:1px solid {_BORDER};'
-        f'border-bottom:1px solid {_BORDER};margin-bottom:0">'
+        f'<div style="border-left:3px solid {_ORANGE};padding:12px 16px 12px;'
+        f'background:{_BG2};border-top:1px solid {_BORDER};'
+        f'border-right:1px solid {_BORDER};border-bottom:1px solid {_BORDER}">'
         f'<div style="font-family:{_UI};font-size:9px;font-weight:700;'
-        f'letter-spacing:0.14em;color:{_MUTED};text-transform:uppercase;margin-bottom:6px">'
-        f'PROJECT DETAIL</div>'
-        f'<div style="font-family:Inter,sans-serif;font-size:1.1rem;font-weight:700;'
-        f'color:#ffffff;margin-bottom:8px;line-height:1.3">{p["name"]}</div>'
-        f'<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">'
-        f'<span style="font-family:{_UI};font-size:9px;font-weight:700;'
-        f'letter-spacing:0.1em;color:{status_color};border:1px solid {status_color};'
-        f'padding:3px 8px">{status_short}</span>'
-        f'<span style="font-family:{_UI};font-size:9px;color:{_MUTED}">'
-        f'{p["neighborhood"]}</span>'
-        f'{"&nbsp;·&nbsp;<span style=\"font-family:" + _UI + ";font-size:9px;color:" + _MUTED + "\">" + p["city"] + "</span>" if p.get("city") and p["city"] != "Boston" else ""}'
-        f'</div>'
+        f'letter-spacing:0.14em;color:{_MUTED};text-transform:uppercase;'
+        f'margin-bottom:6px">PROJECT DETAIL</div>'
+        f'<div style="font-family:Inter,sans-serif;font-size:1.15rem;'
+        f'font-weight:700;color:#ffffff;margin-bottom:9px;line-height:1.3">'
+        f'{_display_name(p)}</div>'
+        f'<div style="display:flex;gap:7px;align-items:center;flex-wrap:wrap;'
+        f'margin-bottom:9px">{"".join(_badges)}</div>'
+        # Built from the structured fields, never from the permit text, so it
+        # says the same kind of thing on every row in every market.
+        f'<div style="font-family:Inter,sans-serif;font-size:12.5px;'
+        f'color:#cbd5e1;line-height:1.5">{summary_line(p)}</div>'
         f'</div>',
         unsafe_allow_html=True,
     )
@@ -915,173 +1022,116 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
     else:
         st.markdown(_lifecycle_bar(p["status"]), unsafe_allow_html=True)
 
-    # Description
-    if p.get("description"):
+    # ── 2. Pipeline bar ─────────────────────────────────────────────
+    if p["status"] not in LIFECYCLE_IDX:
+        stage = p.get("stage") or "—"
+        stage_color = STAGE_COLORS.get(stage, _MUTED)
         st.markdown(
-            f'<div style="font-family:Inter,sans-serif;font-size:13px;color:{_MUTED};'
-            f'line-height:1.6;padding:12px 16px;background:{_BG2};border:1px solid {_BORDER};'
-            f'margin-bottom:14px">{p["description"]}</div>',
+            f'<div style="margin:12px 0 14px;padding:10px 16px;background:{_BG2};'
+            f'border:1px solid {_BORDER};font-family:{_UI};font-size:10px;'
+            f'display:flex;align-items:center;gap:10px;flex-wrap:wrap">'
+            f'<span style="color:{_MUTED};letter-spacing:0.1em">STAGE</span>'
+            f'<span style="color:{stage_color};font-weight:700;'
+            f'letter-spacing:0.08em">{stage.upper()}</span>'
+            f'<span style="color:{_MUTED}">(native status: {p["status"]})</span>'
+            f'</div>',
             unsafe_allow_html=True,
         )
+    else:
+        st.markdown(_lifecycle_bar(p["status"]), unsafe_allow_html=True)
 
-    # Cambridge Notes / Parking Notes (distinct from Description -- these are
-    # the CDD's own free-text caveats: amendment history, stale-figure flags,
-    # shared-parking arrangements, etc.)
-    if is_cambridge and (p.get("notes") or p.get("parking_notes")):
-        notes_html = ""
-        if p.get("notes"):
-            notes_html += (
-                f'<div style="margin-bottom:8px"><span style="color:{_MUTED};'
-                f'font-weight:700;letter-spacing:0.1em">NOTES: </span>{p["notes"]}</div>'
-            )
-        if p.get("parking_notes"):
-            notes_html += (
-                f'<div><span style="color:{_MUTED};font-weight:700;letter-spacing:0.1em">'
-                f'PARKING NOTES: </span>{p["parking_notes"]}</div>'
-            )
-        st.markdown(
-            f'<div style="font-family:Inter,sans-serif;font-size:12px;color:#e2e8f0;'
-            f'line-height:1.6;padding:12px 16px;background:{_BG2};border-left:3px solid {_MUTED};'
-            f'border-top:1px solid {_BORDER};border-right:1px solid {_BORDER};'
-            f'border-bottom:1px solid {_BORDER};margin-bottom:14px">{notes_html}</div>',
-            unsafe_allow_html=True,
-        )
+    # ── 3. Key numbers: six tiles, always six ───────────────────────
+    _ht = p.get("building_height_ft")
+    _stories = _num(p, "num_stories")
+    _units = _num(p, "residential_units")
+    _keys = _num(p, "hotel_rooms")
+    _gsf = _num(p, "total_gsf")
+    _cost = p.get("permit_cost")
 
-    # Two-column key-value
-    col1, col2, col3 = st.columns(3)
+    st.markdown(
+        f'<div style="display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 12px">'
+        + _tile("Height", f"{_ht:,.0f} ft" if pd.notna(_ht) and _ht else None)
+        + _tile("Stories", f"{_stories:,}" if _stories else None)
+        + _tile("Residential units",
+                ("None" if _units == 0 else f"{_units:,}") if _units is not None else None)
+        + _tile("Hotel keys", f"{_keys:,}" if _keys else None)
+        + _tile("Total SF", f"{_gsf:,}" if _gsf else None)
+        + _tile("Construction cost", money_millions(_cost) or None)
+        + '</div>',
+        unsafe_allow_html=True,
+    )
 
-    gsf = p.get("total_gsf")
-    gsf_str = f"{int(gsf):,} SF" if pd.notna(gsf) and gsf else None
-    # Provenance on the figure itself. A square footage a reporter published
-    # and one the filing stated are different kinds of fact.
-    _sf_src = p.get("total_gsf_source") or ""
-    if gsf_str and _sf_src in SF_SOURCES and _sf_src != "filing":
-        _sm = SF_SOURCES[_sf_src]
-        gsf_str = (f'{_sm["mark"]} {gsf_str}<br><span style="color:{_sm["color"]};'
-                   f'font-size:9px;letter-spacing:0.08em">{_sm["label"].upper()}</span>')
-    units = p.get("residential_units")
-    # A STATED zero is not an absent value. An office tower really does have no
-    # residences, and a source that enumerates its whole programme establishes
-    # that -- so it prints as "none", on the record, rather than falling into
-    # the not-published branch below and reading as a gap in the research.
-    _zero_units = pd.notna(units) and int(units) == 0
-    units_str = f"{int(units):,}" if pd.notna(units) and units else None
-    if _zero_units:
-        units_str = _absent("none; no residential component")
-    _keys = p.get("hotel_rooms")
-    _has_keys = pd.notna(_keys) and _keys
-    if pd.notna(_keys) and int(_keys) == 0:
-        _has_keys = False
-    if not units_str:
-        _ac = p.get("asset_class") or ""
-        if _ac in NO_DWELLINGS:
-            units_str = _absent("no residential component")
-        elif _ac == "Hotel" and _has_keys:
-            units_str = _absent("hotel keys only")
-        else:
-            units_str = _absent("not published")
-    # Unit-count confidence lost its column in the screener; it has not lost
-    # its meaning. 34 units at 1077 Westminster looked exactly like a verified
-    # figure until the final plan said 41, so the caveat follows the number
-    # here instead of riding beside it in a two-character column.
-    _uconf = UNITS_CONFIDENCE.get(p.get("units_confidence") or "")
-    if units_str and _uconf and _uconf.get("label"):
-        units_str += (f'<br><span style="color:{_MUTED};font-size:9px;'
-                      f'letter-spacing:0.08em">{_uconf["label"].upper()}</span>')
-    cgsf = p.get("commercial_gsf")
-    cgsf_str = f"{int(cgsf):,} SF" if pd.notna(cgsf) and cgsf else None
-    ht = p.get("building_height_ft")
-    ht_str = f"{ht:,.0f} FT" if pd.notna(ht) and ht else None
-    stories = p.get("num_stories")
-    stories_str = f"{int(stories)}" if pd.notna(stories) and stories else None
-    # Height in feet is the thinnest field in South Florida by a wide margin,
-    # because the press prints storeys and prints feet only at a board
-    # approval. Where only the storey count exists it is named as the scale
-    # that IS known, rather than leaving the reader to notice the storeys line
-    # two rows down.
-    if not ht_str:
-        ht_str = _absent(f"not published; {stories_str} storeys known"
-                         if stories_str else "not published")
-    if not stories_str:
-        stories_str = _absent("not published")
-    parking = p.get("parking_spaces")
-    parking_str = f"{int(parking):,}" if pd.notna(parking) and parking else None
-
-    # Developer with its provenance, and every corroborating source, so an
-    # inferred name can be clicked through and checked from the detail view.
-    _dev_name = p.get("developer_canonical") or p.get("developer")
-    _method = resolution_method(p.get("developer_resolution_method", ""))
-    # Confidence is shown for ALL four states, not only the inferred ones. A
-    # document-only name with no badge reads as verified, and document-only is
-    # most of the Rhode Island data.
+    # ── 4. Two equal cards: the team, and the site ──────────────────
+    _dev_name = title_case(p.get("developer_canonical") or p.get("developer") or "")
     _conf = p.get("developer_confidence") or developer_confidence(
         p.get("developer_resolution_method", ""), _dev_name or "")
-    if _dev_name and _conf in DEVELOPER_CONFIDENCE:
-        _cm = DEVELOPER_CONFIDENCE[_conf]
-        _raw = p.get("developer_resolution_method") or ""
-        _detail = f" · {_raw}" if _raw and _raw != _conf else ""
-        _dev_name = (f'{_cm["mark"]} {_dev_name}<br>'
-                     f'<span style="color:{_cm["color"]};font-size:9px;'
-                     f'letter-spacing:0.08em">{_cm["label"].upper()}{_detail.upper()}</span>')
+    if _dev_name:
+        _dev_name = (confidence_dot(_conf, p.get("developer_resolution_method", ""))
+                     + _dev_name)
 
-    with col1:
+    _addr, _permit_addr = addresses(p)
+    _zoning = p.get("zoning_district_raw") or p.get("zoning_raw") or None
+    _delivery = _delivered_detail(p) or _target_detail(p) or None
+
+    c1, c2 = st.columns(2)
+    c1.markdown(_card("Project team", [
+        ("Developer", _dev_name),
+        ("Owner entity", title_case(p.get("owner_or_agency") or "")),
+        ("Architect", title_case(p.get("architect") or "")),
+        ("General contractor", title_case(p.get("contractor") or "")),
+        ("Civil engineer", title_case(p.get("civil_engineer") or "")),
+        ("Lender", _lender_detail(p)),
+    ]), unsafe_allow_html=True)
+    c2.markdown(_card("Site", [
+        ("Address", _addr),
+        ("Permit address", _permit_addr),
+        ("Neighborhood", p.get("neighborhood")),
+        ("Parcel ID", _parcel_detail(p)),
+        ("Zoning", _zoning),
+        ("Expected delivery", _delivery),
+    ]), unsafe_allow_html=True)
+
+    # ── 5. Programme chips ──────────────────────────────────────────
+    # The permit's work-item list, made readable. The asset class is a badge
+    # in the header and is NOT repeated with its raw use list beside it, which
+    # is what made the old panel unreadable.
+    _chips = programme_chips(p.get("asset_class_raw"))
+    if _chips:
         st.markdown(
-            _kv("ADDRESS",          p.get("address")) +
-            _kv("DEVELOPER",        _dev_name) +
-            # Shown only when the applicant is not the party executing the
-            # work -- a public agency or passive landowner.
-            _kv("OWNER / AGENCY",   p.get("owner_or_agency")) +
-            _kv("EQUITY PARTNER",   p.get("equity_partner")) +
-            # The construction lender. Absent before a construction start by
-            # nature, which is why it sits with the capital fields rather
-            # than with the design team.
-            _kv("LENDER",           _lender_detail(p)) +
-            _kv("ARCHITECT",        p.get("architect")) +
-            _kv("CIVIL ENGINEER",   p.get("civil_engineer")) +
-            _kv("GENERAL CONTRACTOR", p.get("contractor")),
+            f'<div style="margin:12px 0 4px;font-family:{_UI};font-size:9px;'
+            f'font-weight:700;letter-spacing:0.16em;color:{_MUTED};'
+            f'text-transform:uppercase">Program</div>'
+            f'<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px">'
+            + "".join(_chip(c) for c in _chips) + '</div>',
             unsafe_allow_html=True,
         )
-    # Canonical class, with the source's own classification alongside it when
-    # it was folded (e.g. Cambridge's "Fire Department" -> "Institutional").
-    ac_str = p.get("asset_class") or None
-    raw_ac = p.get("asset_class_raw")
-    if ac_str and raw_ac and raw_ac != ac_str:
-        ac_str = f'{ac_str} <span style="color:{_MUTED}">({raw_ac})</span>'
 
-    with col2:
-        st.markdown(
-            _kv("ASSET CLASS",      ac_str) +
-            _kv("TOTAL SF",         gsf_str) +
-            _kv("RESIDENTIAL UNITS", units_str) +
-            # Keys sit beside units because they answer the same question
-            # about a hotel that units answer about a tower, and a reader
-            # looking for the programme looks here.
-            _kv("HOTEL KEYS",       f"{int(_keys):,}" if _has_keys else None) +
-            _kv("COMMERCIAL SF",    cgsf_str) +
-            _kv("PARKING SPACES",   parking_str),
-            unsafe_allow_html=True,
-        )
-    # Normalized scale, with the source's verbatim wording alongside it when it
-    # differs -- same split as stage vs. native status.
-    scale_str = p.get("review_scale") or None
-    raw_scale = p.get("review_scale_raw")
-    if scale_str and raw_scale and raw_scale != scale_str:
-        scale_str = f'{scale_str} <span style="color:{_MUTED}">({raw_scale})</span>'
+    # ── 6. The raw permit text, collapsed; its only appearance ──────
+    if p.get("description"):
+        with st.expander("PERMIT DETAILS"):
+            st.caption("The filing's own wording, unedited.")
+            st.markdown(
+                f'<div style="font-family:Inter,sans-serif;font-size:12.5px;'
+                f'color:{_MUTED};line-height:1.6">{p["description"]}</div>',
+                unsafe_allow_html=True,
+            )
 
-    with col3:
-        st.markdown(
-            _kv("HEIGHT",           ht_str) +
-            _kv("STORIES",          stories_str) +
-            _kv("REVIEW SCALE",     scale_str) +
-            # Parcel identity -- the folio (Miami-Dade) or PCN (Palm Beach)
-            # the dedupe keys on, with the other parcels of an assembled site
-            # beside it.
-            _kv("PARCEL ID",        _parcel_detail(p)) +
-            _kv("DELIVERED",        _delivered_detail(p)) +
-            _kv("TARGET",           _target_detail(p)) +
-            _kv("FILING TYPE",      (p.get("processed_filing_type") or "").upper() or None),
-            unsafe_allow_html=True,
-        )
+    # Notes are the researcher's caveats and belong with the project, not
+    # buried with the permit text. Shown for every market, not just Cambridge.
+    _notes_html = ""
+    if p.get("notes"):
+        _notes_html += f'<div style="margin-bottom:8px">{p["notes"]}</div>'
+    if p.get("parking_notes"):
+        _notes_html += (f'<div><span style="color:{_MUTED};font-weight:700;'
+                        f'letter-spacing:0.1em">PARKING: </span>'
+                        f'{p["parking_notes"]}</div>')
+    if _notes_html:
+        with st.expander("NOTES"):
+            st.markdown(
+                f'<div style="font-family:Inter,sans-serif;font-size:12.5px;'
+                f'color:#cbd5e1;line-height:1.6">{_notes_html}</div>',
+                unsafe_allow_html=True,
+            )
 
     # Cambridge Development Log fields
     if is_cambridge:
@@ -1184,8 +1234,14 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
 
     # Links
     lc1, lc2, _ = st.columns([1, 1, 4])
-    if p.get("bpda_url") and not str(p["bpda_url"]).startswith("manual:"):
-        lc1.link_button("BPDA PAGE ↗", p["bpda_url"])
+    # Labelled by market. "BPDA PAGE" is the Boston agency, and printing it on
+    # a Miami permit record told the reader the source was something it was
+    # not. A South Florida row's bpda_url is its own sofl:// key rather than a
+    # web page, so the permit URL is the link that actually opens.
+    _src_url = p.get("permit_url") or p.get("bpda_url") or ""
+    if _src_url and not str(_src_url).startswith(("manual:", "sofl://")):
+        lc1.link_button(f"{source_label(p.get('city') or '', _src_url).upper()} ↗",
+                        _src_url)
     elif is_cambridge:
         lc1.link_button("SEARCH SPECIAL PERMITS ↗", "https://www.cambridgema.gov/specialpermits")
     if p.get("processed_filing_url"):

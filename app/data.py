@@ -822,6 +822,13 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 "hotel_rooms": p.hotel_rooms,
                 "neighborhood_id": p.neighborhood_id,
                 "zoning_raw": p.zoning_raw or "",
+                # South Florida carries its zoning in the district field and
+                # its construction cost, permit number and permit URL on the
+                # master building permit. The detail panel shows all four.
+                "zoning_district_raw": p.zoning_district_raw or "",
+                "permit_cost": p.permit_cost,
+                "permit_number": p.permit_number or "",
+                "permit_url": p.permit_url or "",
                 "notes": p.notes or "",
                 "parking_notes": p.parking_notes or "",
                 "parent_project_id": p.parent_project_id,

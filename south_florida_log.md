@@ -1016,7 +1016,7 @@ only sentence available says both in one breath.
 
 ## Change log — City of Miami review (5 November 2026)
 
-364 field changes across 258 projects. Grouped by field; within a field, ordered by project id. A source of “—” means the change was derived from a record already cited on the row (the master building permit, or the permit's own work items) rather than from a new document, and the row's existing FIELD SOURCES entry still applies.
+379 field changes across 263 projects. Grouped by field; within a field, ordered by project id. A source of “—” means the change was derived from a record already cited on the row (the master building permit, or the permit's own work items) rather than from a new document, and the row's existing FIELD SOURCES entry still applies.
 
 | Field | Changes |
 | --- | --: |
@@ -1026,6 +1026,7 @@ only sentence available says both in one breath.
 | residential_units | 20 |
 | num_stories | 18 |
 | lender_status | 18 |
+| developer_resolution_method | 15 |
 | architect | 14 |
 | name | 4 |
 | building_height_ft | 3 |
@@ -1462,6 +1463,31 @@ Reasons:
 
 - **8 rows** — a construction loan is documented but no acceptable source names the lender
 - **10 rows** — a source documents how the project is financed, so the empty lender is a finding rather than a gap
+
+### developer_resolution_method — 15 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 961 | Vida Edgewater Residences | web_low_confidence | web_corroborated | — |
+| 1004 | View 29 | web_low_confidence | web_corroborated | — |
+| 1022 | The River District — Phase 1 | web_low_confidence | web_corroborated | — |
+| 1055 | Kenneth C. Griffin Cancer Research Building | web_low_confidence | web_corroborated | — |
+| 1070 | Waldorf Astoria Hotel & Residences Miami | web_low_confidence | web_corroborated | — |
+| 1133 | The Residences at 1428 Brickell | web_low_confidence | web_corroborated | — |
+| 1154 | Domus Brickell Park | web_low_confidence | web_corroborated | — |
+| 1156 | Midtown 7 | web_low_confidence | web_corroborated | — |
+| 1178 | Little River Plaza | web_low_confidence | web_corroborated | — |
+| 1179 | The Residences at Mandarin Oriental, Miami — North Tower | web_low_confidence | web_corroborated | — |
+| 1180 | The Residences at Mandarin Oriental, Miami — South Tower | web_low_confidence | web_corroborated | — |
+| 1211 | Metro 2 at Edgewater | web_low_confidence | web_corroborated | — |
+| 1250 | Via Veneto | web_low_confidence | web_corroborated | — |
+| 1331 | 6945 Abbott Avenue hotel | web_low_confidence | web_corroborated | — |
+| 1332 | RIVANI Miami Beach expansion | web_low_confidence | web_corroborated | — |
+
+Reasons:
+
+- **13 rows** — the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence
+- **id 1022, id 1070** — the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by initials, so the name is confirmed rather than low-confidence
 
 ### architect — 14 change(s)
 

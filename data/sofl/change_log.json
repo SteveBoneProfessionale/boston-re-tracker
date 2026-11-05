@@ -3638,5 +3638,155 @@
   "source": "",
   "why": "duplicate of the City of Miami permit row for the same building",
   "at": "2026-11-05"
+ },
+ {
+  "id": 961,
+  "project": "Vida Edgewater Residences",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1004,
+  "project": "View 29",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1022,
+  "project": "The River District — Phase 1",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by initials, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1055,
+  "project": "Kenneth C. Griffin Cancer Research Building",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1070,
+  "project": "Waldorf Astoria Hotel & Residences Miami",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by initials, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1133,
+  "project": "The Residences at 1428 Brickell",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1154,
+  "project": "Domus Brickell Park",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1156,
+  "project": "Midtown 7",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1178,
+  "project": "Little River Plaza",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1179,
+  "project": "The Residences at Mandarin Oriental, Miami — North Tower",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1180,
+  "project": "The Residences at Mandarin Oriental, Miami — South Tower",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1211,
+  "project": "Metro 2 at Edgewater",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1250,
+  "project": "Via Veneto",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1331,
+  "project": "6945 Abbott Avenue hotel",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1332,
+  "project": "RIVANI Miami Beach expansion",
+  "field": "developer_resolution_method",
+  "old": "web_low_confidence",
+  "new": "web_corroborated",
+  "source": "",
+  "why": "the developer is cited to an acceptable outlet AND the County's owner of record corroborates it by token, so the name is confirmed rather than low-confidence",
+  "at": "2026-11-05"
  }
 ]
