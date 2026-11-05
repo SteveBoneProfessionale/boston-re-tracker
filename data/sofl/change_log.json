@@ -2978,5 +2978,665 @@
   "source": "",
   "why": "a construction loan is documented but no acceptable source names the lender",
   "at": "2026-11-05"
+ },
+ {
+  "id": 1142,
+  "project": "Citadelle Village",
+  "field": "num_stories",
+  "old": "—",
+  "new": "10",
+  "source": "https://floridayimby.com/2026/05/construction-starts-on-96-unit-citadelle-village-at-181-ne-82nd-st-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1142,
+  "project": "Citadelle Village",
+  "field": "residential_units",
+  "old": "—",
+  "new": "96",
+  "source": "https://floridayimby.com/2026/05/construction-starts-on-96-unit-citadelle-village-at-181-ne-82nd-st-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1142,
+  "project": "Citadelle Village",
+  "field": "developer",
+  "old": "—",
+  "new": "Haitian American Community Development Corporation",
+  "source": "https://floridayimby.com/2026/05/construction-starts-on-96-unit-citadelle-village-at-181-ne-82nd-st-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1066,
+  "project": "Seventeen Gables Residences",
+  "field": "residential_units",
+  "old": "—",
+  "new": "117",
+  "source": "https://commercialobserver.com/2026/02/bam-coral-gables-1715-douglas/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1066,
+  "project": "Seventeen Gables Residences",
+  "field": "num_stories",
+  "old": "—",
+  "new": "8",
+  "source": "https://commercialobserver.com/2026/02/bam-coral-gables-1715-douglas/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1031,
+  "project": "Essence Miami",
+  "field": "residential_units",
+  "old": "—",
+  "new": "88",
+  "source": "https://www.miami.gov/Housing-Assistance/Housing-Assistance/Affordable-Rental-Units",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1008,
+  "project": "The Ambar",
+  "field": "residential_units",
+  "old": "—",
+  "new": "105",
+  "source": "https://www.floridahousing.org/docs/default-source/data-docs-and-reports/boardpackages/2021/september-10/consent-items.pdf?sfvrsn=e787f77b_2",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1218,
+  "project": "Liberty Square Block 8",
+  "field": "num_stories",
+  "old": "—",
+  "new": "7",
+  "source": "https://www.miamidade.gov/resources/legal-ads/2025/2025-07-07-public-notice-request-for-release-of-funds-liberty-sq-block-8.pdf",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1218,
+  "project": "Liberty Square Block 8",
+  "field": "residential_units",
+  "old": "—",
+  "new": "132",
+  "source": "https://www.miamidade.gov/resources/legal-ads/2025/2025-07-07-public-notice-request-for-release-of-funds-liberty-sq-block-8.pdf",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1216,
+  "project": "Opus Coconut Grove",
+  "field": "residential_units",
+  "old": "—",
+  "new": "14",
+  "source": "https://commercialobserver.com/2025/08/meta-development-miami-coconut-grove-arixa-capital-opus/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1216,
+  "project": "Opus Coconut Grove",
+  "field": "num_stories",
+  "old": "—",
+  "new": "6",
+  "source": "https://commercialobserver.com/2025/08/meta-development-miami-coconut-grove-arixa-capital-opus/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1216,
+  "project": "Opus Coconut Grove",
+  "field": "developer",
+  "old": "—",
+  "new": "META Development",
+  "source": "https://floridayimby.com/2026/04/meta-development-breaks-ground-on-opus-coconut-grove-at-3137-sw-27th-avenue-in-miami.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1216,
+  "project": "Opus Coconut Grove",
+  "field": "architect",
+  "old": "—",
+  "new": "Kobi Karp",
+  "source": "https://floridayimby.com/2026/04/meta-development-breaks-ground-on-opus-coconut-grove-at-3137-sw-27th-avenue-in-miami.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1171,
+  "project": "Cassi",
+  "field": "residential_units",
+  "old": "—",
+  "new": "107",
+  "source": "https://commercialobserver.com/2025/06/miami-design-district-cassi-dacra/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1171,
+  "project": "Cassi",
+  "field": "developer",
+  "old": "—",
+  "new": "Miami Design District Associates; Hunter Pasteur; The Forbes Company",
+  "source": "https://commercialobserver.com/2025/06/miami-design-district-cassi-dacra/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1178,
+  "project": "Little River Plaza",
+  "field": "residential_units",
+  "old": "—",
+  "new": "250",
+  "source": "https://floridayimby.com/2026/01/little-river-plaza-breaks-ground-at-7952-ne-3rd-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1178,
+  "project": "Little River Plaza",
+  "field": "num_stories",
+  "old": "—",
+  "new": "12",
+  "source": "https://floridayimby.com/2026/01/little-river-plaza-breaks-ground-at-7952-ne-3rd-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1178,
+  "project": "Little River Plaza",
+  "field": "developer",
+  "old": "—",
+  "new": "Healthy Housing Foundation (AIDS Healthcare Foundation)",
+  "source": "https://floridayimby.com/2026/01/little-river-plaza-breaks-ground-at-7952-ne-3rd-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1178,
+  "project": "Little River Plaza",
+  "field": "architect",
+  "old": "—",
+  "new": "Glavovic Studio",
+  "source": "https://floridayimby.com/2026/01/little-river-plaza-breaks-ground-at-7952-ne-3rd-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 961,
+  "project": "Vida Edgewater Residences",
+  "field": "developer",
+  "old": "—",
+  "new": "Urbana Bueno; Urbana Holdings",
+  "source": "https://commercialobserver.com/2024/09/peachtree-group-39m-miami-condo-development/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 982,
+  "project": "Moxy Wynwood",
+  "field": "num_stories",
+  "old": "—",
+  "new": "12",
+  "source": "https://floridayimby.com/2022/11/construction-continues-on-moxy-wynwood-in-miamis-booming-wynwood-arts-district.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 982,
+  "project": "Moxy Wynwood",
+  "field": "hotel_rooms",
+  "old": "—",
+  "new": "120",
+  "source": "https://floridayimby.com/2022/11/construction-continues-on-moxy-wynwood-in-miamis-booming-wynwood-arts-district.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 982,
+  "project": "Moxy Wynwood",
+  "field": "developer",
+  "old": "—",
+  "new": "Dolphin Capital Partners; Baywood Hotels",
+  "source": "https://floridayimby.com/2022/11/construction-continues-on-moxy-wynwood-in-miamis-booming-wynwood-arts-district.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 982,
+  "project": "Moxy Wynwood",
+  "field": "architect",
+  "old": "—",
+  "new": "Kobi Karp Architecture & Interior Design",
+  "source": "https://floridayimby.com/2022/11/construction-continues-on-moxy-wynwood-in-miamis-booming-wynwood-arts-district.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1158,
+  "project": "Brisas del Sol",
+  "field": "residential_units",
+  "old": "—",
+  "new": "110",
+  "source": "https://www.miami.gov/Notices/News-Notices/The-City-of-Miami-celebrates-the-grand-opening-of-Brisas-del-Sol-a-new-affordable-rental-development-in-Little-Havana",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1158,
+  "project": "Brisas del Sol",
+  "field": "num_stories",
+  "old": "—",
+  "new": "8",
+  "source": "https://www.miami.gov/Notices/News-Notices/The-City-of-Miami-celebrates-the-grand-opening-of-Brisas-del-Sol-a-new-affordable-rental-development-in-Little-Havana",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1158,
+  "project": "Brisas del Sol",
+  "field": "developer",
+  "old": "—",
+  "new": "Related Urban Development Group",
+  "source": "https://www.miami.gov/Notices/News-Notices/The-City-of-Miami-celebrates-the-grand-opening-of-Brisas-del-Sol-a-new-affordable-rental-development-in-Little-Havana",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1169,
+  "project": "Elemi at Grove Village — Phase Two",
+  "field": "residential_units",
+  "old": "—",
+  "new": "27",
+  "source": "https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1169,
+  "project": "Elemi at Grove Village — Phase Two",
+  "field": "num_stories",
+  "old": "—",
+  "new": "5",
+  "source": "https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1169,
+  "project": "Elemi at Grove Village — Phase Two",
+  "field": "building_height_ft",
+  "old": "—",
+  "new": "60",
+  "source": "https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1169,
+  "project": "Elemi at Grove Village — Phase Two",
+  "field": "developer",
+  "old": "—",
+  "new": "Silver Bluff Development; Abbhi Capital",
+  "source": "https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1169,
+  "project": "Elemi at Grove Village — Phase Two",
+  "field": "architect",
+  "old": "—",
+  "new": "Arquitectonica",
+  "source": "https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1056,
+  "project": "Elemi at Grove Village — Phase One",
+  "field": "residential_units",
+  "old": "—",
+  "new": "46",
+  "source": "https://floridayimby.com/2023/06/construction-starts-on-elemi-at-grove-village-at-3363-thomas-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1056,
+  "project": "Elemi at Grove Village — Phase One",
+  "field": "num_stories",
+  "old": "—",
+  "new": "5",
+  "source": "https://floridayimby.com/2023/06/construction-starts-on-elemi-at-grove-village-at-3363-thomas-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1056,
+  "project": "Elemi at Grove Village — Phase One",
+  "field": "developer",
+  "old": "—",
+  "new": "Silver Bluff Development; Abbhi Capital",
+  "source": "https://floridayimby.com/2023/06/construction-starts-on-elemi-at-grove-village-at-3363-thomas-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1056,
+  "project": "Elemi at Grove Village — Phase One",
+  "field": "architect",
+  "old": "—",
+  "new": "Arquitectonica",
+  "source": "https://floridayimby.com/2023/06/construction-starts-on-elemi-at-grove-village-at-3363-thomas-avenue-miami-florida.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1124,
+  "project": "Courtside Apartments II",
+  "field": "num_stories",
+  "old": "—",
+  "new": "5",
+  "source": "https://floridayimby.com/2026/10/housing-trust-group-and-am-affordable-housing-celebrate-opening-of-58-million-courtside-apartments-ii-in-overtown-miami.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1124,
+  "project": "Courtside Apartments II",
+  "field": "developer",
+  "old": "—",
+  "new": "Housing Trust Group; AM Affordable Housing",
+  "source": "https://floridayimby.com/2026/10/housing-trust-group-and-am-affordable-housing-celebrate-opening-of-58-million-courtside-apartments-ii-in-overtown-miami.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1124,
+  "project": "Courtside Apartments II",
+  "field": "architect",
+  "old": "—",
+  "new": "Corwil Architects",
+  "source": "https://floridayimby.com/2026/10/housing-trust-group-and-am-affordable-housing-celebrate-opening-of-58-million-courtside-apartments-ii-in-overtown-miami.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1055,
+  "project": "Kenneth C. Griffin Cancer Research Building",
+  "field": "num_stories",
+  "old": "—",
+  "new": "12",
+  "source": "https://commercialobserver.com/2024/03/ken-griffin-citadel-university-of-miami/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1055,
+  "project": "Kenneth C. Griffin Cancer Research Building",
+  "field": "architect",
+  "old": "—",
+  "new": "HOK",
+  "source": "https://commercialobserver.com/2024/03/ken-griffin-citadel-university-of-miami/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1055,
+  "project": "Kenneth C. Griffin Cancer Research Building",
+  "field": "developer",
+  "old": "—",
+  "new": "University of Miami Miller School of Medicine",
+  "source": "https://commercialobserver.com/2024/03/ken-griffin-citadel-university-of-miami/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1117,
+  "project": "The Standard Residences Midtown Miami",
+  "field": "num_stories",
+  "old": "—",
+  "new": "12",
+  "source": "https://floridayimby.com/2022/12/construction-permits-filed-for-the-standard-residences-in-midtown-miami.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1117,
+  "project": "The Standard Residences Midtown Miami",
+  "field": "residential_units",
+  "old": "—",
+  "new": "228",
+  "source": "https://floridayimby.com/2022/12/construction-permits-filed-for-the-standard-residences-in-midtown-miami.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1117,
+  "project": "The Standard Residences Midtown Miami",
+  "field": "developer",
+  "old": "—",
+  "new": "Rosso Development",
+  "source": "https://floridayimby.com/2022/12/construction-permits-filed-for-the-standard-residences-in-midtown-miami.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1007,
+  "project": "The Villages Apartments Phase II",
+  "field": "residential_units",
+  "old": "—",
+  "new": "120",
+  "source": "https://www.miamidade.gov/govaction/legistarfiles/Matters/Y2025/251160.pdf",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1041,
+  "project": "Culmer Place",
+  "field": "num_stories",
+  "old": "—",
+  "new": "7",
+  "source": "https://floridayimby.com/2024/04/atlantic-pacific-cos-breaks-ground-on-culmer-place-at-800-n-w-fifth-ave-miami-fl.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1041,
+  "project": "Culmer Place",
+  "field": "residential_units",
+  "old": "—",
+  "new": "239",
+  "source": "https://floridayimby.com/2024/04/atlantic-pacific-cos-breaks-ground-on-culmer-place-at-800-n-w-fifth-ave-miami-fl.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1041,
+  "project": "Culmer Place",
+  "field": "developer",
+  "old": "—",
+  "new": "Atlantic Pacific Cos.",
+  "source": "https://floridayimby.com/2024/04/atlantic-pacific-cos-breaks-ground-on-culmer-place-at-800-n-w-fifth-ave-miami-fl.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1041,
+  "project": "Culmer Place",
+  "field": "architect",
+  "old": "—",
+  "new": "Corwil Architects",
+  "source": "https://floridayimby.com/2024/04/atlantic-pacific-cos-breaks-ground-on-culmer-place-at-800-n-w-fifth-ave-miami-fl.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1224,
+  "project": "The Triangle",
+  "field": "num_stories",
+  "old": "—",
+  "new": "8",
+  "source": "https://floridayimby.com/2026/09/construction-underway-on-odp-designed-the-triangle-in-miamis-health-district.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1224,
+  "project": "The Triangle",
+  "field": "residential_units",
+  "old": "—",
+  "new": "112",
+  "source": "https://floridayimby.com/2026/09/construction-underway-on-odp-designed-the-triangle-in-miamis-health-district.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1224,
+  "project": "The Triangle",
+  "field": "developer",
+  "old": "—",
+  "new": "DFRE",
+  "source": "https://floridayimby.com/2026/09/construction-underway-on-odp-designed-the-triangle-in-miamis-health-district.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1224,
+  "project": "The Triangle",
+  "field": "architect",
+  "old": "—",
+  "new": "ODP Architecture & Design",
+  "source": "https://floridayimby.com/2026/09/construction-underway-on-odp-designed-the-triangle-in-miamis-health-district.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1186,
+  "project": "Visions at Brickell Station",
+  "field": "num_stories",
+  "old": "—",
+  "new": "8",
+  "source": "https://floridayimby.com/2025/06/construction-starts-on-visions-at-brickell-station-at-1120-sw-3rd-avenue-miami-fl-33130.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1186,
+  "project": "Visions at Brickell Station",
+  "field": "residential_units",
+  "old": "—",
+  "new": "110",
+  "source": "https://floridayimby.com/2025/06/construction-starts-on-visions-at-brickell-station-at-1120-sw-3rd-avenue-miami-fl-33130.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1186,
+  "project": "Visions at Brickell Station",
+  "field": "developer",
+  "old": "—",
+  "new": "Urban Network Capital Group",
+  "source": "https://floridayimby.com/2025/06/construction-starts-on-visions-at-brickell-station-at-1120-sw-3rd-avenue-miami-fl-33130.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1186,
+  "project": "Visions at Brickell Station",
+  "field": "architect",
+  "old": "—",
+  "new": "DTI Architects",
+  "source": "https://floridayimby.com/2025/06/construction-starts-on-visions-at-brickell-station-at-1120-sw-3rd-avenue-miami-fl-33130.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1090,
+  "project": "Alto Tower",
+  "field": "residential_units",
+  "old": "—",
+  "new": "84",
+  "source": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1748459795566512",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1090,
+  "project": "Alto Tower",
+  "field": "developer",
+  "old": "—",
+  "new": "Blue Sky Communities",
+  "source": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1748459795566512",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1130,
+  "project": "Lotus House Children's Village",
+  "field": "num_stories",
+  "old": "—",
+  "new": "5",
+  "source": "https://floridayimby.com/2023/04/miamis-lotus-house-breaks-ground-on-childrens-village-in-overtown-miami.html",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1105,
+  "project": "Beacon Office Building",
+  "field": "num_stories",
+  "old": "—",
+  "new": "5",
+  "source": "https://commercialobserver.com/2025/01/vizcaya-capital-coconut-grove-miami/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1105,
+  "project": "Beacon Office Building",
+  "field": "commercial_gsf",
+  "old": "—",
+  "new": "34,856",
+  "source": "https://commercialobserver.com/2025/01/vizcaya-capital-coconut-grove-miami/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1105,
+  "project": "Beacon Office Building",
+  "field": "developer",
+  "old": "—",
+  "new": "Vizcaya Capital",
+  "source": "https://commercialobserver.com/2025/01/vizcaya-capital-coconut-grove-miami/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1105,
+  "project": "Beacon Office Building",
+  "field": "architect",
+  "old": "—",
+  "new": "Arquitectonica",
+  "source": "https://commercialobserver.com/2025/01/vizcaya-capital-coconut-grove-miami/",
+  "why": "",
+  "at": "2026-11-05"
+ },
+ {
+  "id": 1239,
+  "project": "Seventeen Gables Residences",
+  "field": "excluded",
+  "old": "0",
+  "new": "1",
+  "source": "",
+  "why": "duplicate of the City of Miami permit row for the same building",
+  "at": "2026-11-05"
  }
 ]

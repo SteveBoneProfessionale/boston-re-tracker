@@ -1,0 +1,114 @@
+[
+ {"id": 1142, "name": "Citadelle Village",
+  "values": {"name": "Citadelle Village", "stories": 10, "residential_units": 96,
+             "developer": "Haitian American Community Development Corporation"},
+  "overwrite": ["name"],
+  "sources": {"_default": {"name": "Florida YIMBY, 22 May 2026", "date": "2026-05-22",
+    "url": "https://floridayimby.com/2026/05/construction-starts-on-96-unit-citadelle-village-at-181-ne-82nd-st-miami-florida.html"}},
+  "notes": "NAMED. Identified by an exact address match on the county parcel plus owner of record: the headline address is 181 NE 82nd St, and the county's record for this row's folio 0131120080660 gives TRUE_SITE_ADDR as 181 NE 82 ST with owner LITTLE HAITI HOUSING ASSOCIATION INC — so the permitted frontage at 8251 NE 1 PL and the published 181 NE 82 ST are one parcel. Little Haiti Housing Association now trades as the Haitian American Community Development Corporation, the sponsor the article names.",
+  "quotes": {
+    "name": "Citadelle Village is set to measure 10 stories above grade and feature 96 apartments, along with some commercial and office space.",
+    "stories": "Citadelle Village is set to measure 10 stories above grade and feature 96 apartments, along with some commercial and office space.",
+    "residential_units": "Citadelle Village is set to measure 10 stories above grade and feature 96 apartments, along with some commercial and office space.",
+    "developer": "Aside from the residences, Citadelle Village will host 1,177 square feet of commercial space and 4,000 square feet of office space reserved for the Haitian American Community Development Corporation."}},
+
+ {"id": 1066, "name": "Seventeen Gables Residences",
+  "values": {"name": "Seventeen Gables Residences", "residential_units": 117, "stories": 8},
+  "overwrite": ["name"],
+  "sources": {"_default": {"name": "Commercial Observer, 9 Feb 2026", "date": "2026-02-09",
+    "url": "https://commercialobserver.com/2026/02/bam-coral-gables-1715-douglas/"}},
+  "notes": "NAMED, AND IT RESOLVED A DUPLICATE. SW 37th Avenue IS Douglas Road, so this permit row at 1715 SW 37 AV and the separately-ingested Coral Gables row at 1715 Douglas Rd are the same building — both Under Construction, both condominium, both 117 units over eight storeys. This row is kept as canonical because it carries the City of Miami master building permit, the folio, the contractor and the floor area, and because the City of Miami issuing the permit means the parcel is in Miami rather than Coral Gables; the Coral Gables row is retired as a duplicate rather than deleted. The source styles it Seventeen Gables Condominium; the tracker's existing marketed form, Seventeen Gables Residences, is kept. DEVELOPER NOT STORED: the research named Bam Development and Ascendra Capital but supplied no sourced sentence for it. A January 2026 account of the same deal gave 120 units against this article's 117, and the quoted sentence is the later one.",
+  "quotes": {
+    "name": "The eight-story development, called Seventeen Gables Condominium, will house 117 condos, according to a representative for the developers.",
+    "residential_units": "The eight-story development, called Seventeen Gables Condominium, will house 117 condos, according to a representative for the developers.",
+    "stories": "The eight-story development, called Seventeen Gables Condominium, will house 117 condos, according to a representative for the developers."}},
+
+ {"id": 1053, "name": "Miami Stadium Apartments",
+  "values": {"name": "Miami Stadium Apartments"}, "overwrite": ["name"],
+  "sources": {"_default": {"name": "Miami-Dade County Public Housing and Community Development leasing flyer, 19 Aug 2024", "date": "2024-08-19",
+    "url": "https://www.miamidade.gov/housing/library/flyers/2024-08-19-stadium-tower-flyer-eng.pdf"}},
+  "notes": "NAMED from a county government record whose heading pairs the name directly with this row's address. Owner of record for folio 0131260770020 is STADIUM TOWER APARTMENTS LLC, which corroborates. THREE SPELLINGS ARE IN CIRCULATION and the county flyer's is stored: the flyer heads it MIAMI STADIUM APARTMENTS, the City of Miami's affordable-rental directory lists Miami Stadium Tower Apartments at 149 units opening late 2024, and the leasing site uses Stadium Tower Apartments. The 149 units are consistent with a 165,521 sq ft building.",
+  "quotes": {"name": "MIAMI STADIUM APARTMENTS 2320 NW 8 AVE, MIAMI, FL 33127"}},
+
+ {"id": 1031, "name": "Essence Miami",
+  "values": {"name": "Essence Miami", "residential_units": 88}, "overwrite": ["name"],
+  "sources": {"_default": {"name": "City of Miami, Affordable Rental Units directory, accessed 5 Nov 2026", "date": "2026-11-05",
+    "url": "https://www.miami.gov/Housing-Assistance/Housing-Assistance/Affordable-Rental-Units"}},
+  "notes": "NAMED from a City of Miami record, on an exact address match plus owner of record: the directory lists the sponsor as 8th Street Properties LLC and the Property Appraiser's owner for folio 0141380032361 is 8 ST PROPERTIES LLC, the same entity. 88 family and workforce units with construction under way in 2026, which matches this row's Under Construction status. FORMAT NOTE: the quoted text is a table row on that page rather than prose, and the separators are column breaks.",
+  "quotes": {
+    "name": "8th Street Properties LLC | Essence Miami | 845 SW 8 St. | 88 units | Family/Workforce | Construction under way in 2026.",
+    "residential_units": "8th Street Properties LLC | Essence Miami | 845 SW 8 St. | 88 units | Family/Workforce | Construction under way in 2026."}},
+
+ {"id": 1008, "name": "The Ambar",
+  "values": {"name": "The Ambar", "residential_units": 105}, "overwrite": ["name"],
+  "sources": {"_default": {"name": "Florida Housing Finance Corporation, Board Meeting Consent Items, 10 Sep 2021, In Re: Ambar Riverview, Ltd., FHFC Case No. 2021-064VW", "date": "2021-09-10",
+    "url": "https://www.floridahousing.org/docs/default-source/data-docs-and-reports/boardpackages/2021/september-10/consent-items.pdf?sfvrsn=e787f77b_2"}},
+  "notes": "NAMED, AND THIS ONE IS WEAKER THAN THE OTHERS — flagged. The tie rests on owner of record ALONE, not on an address: the Property Appraiser's owner for folio 0131260390190 is AMBAR RIVERVIEW LTD, and this is Ambar Riverview, Ltd.'s own petition to Florida Housing for a 105-unit development it names The Ambar, in Miami-Dade County, developed by Ambar3 LLC. The record does not state a street address. This row's 141,637 sq ft and 2025-26 completion fit an elderly high-rise of that size. Florida Housing Finance Corporation is a state body and its board records were treated as a primary government source.",
+  "quotes": {
+    "name": "Petitioner successfully applied for competitive housing credits in RFA 2018-111 to assist in the construction of an 105-unit family, affordable housing development named The Ambar located in Miami-Dade County, Florida (the \"Development\").",
+    "residential_units": "Petitioner successfully applied for competitive housing credits in RFA 2018-111 to assist in the construction of an 105-unit family, affordable housing development named The Ambar located in Miami-Dade County, Florida (the \"Development\")."}},
+
+ {"id": 1218, "name": "Liberty Square Block 8",
+  "values": {"name": "Liberty Square Block 8", "stories": 7, "residential_units": 132},
+  "overwrite": ["name"],
+  "sources": {"_default": {"name": "Miami-Dade County Department of Housing and Community Development, Combined Notice of Finding of No Significant Impact and Notice of Intent to Request Release of Funds, 17 Jun 2025", "date": "2025-06-17",
+    "url": "https://www.miamidade.gov/resources/legal-ads/2025/2025-07-07-public-notice-request-for-release-of-funds-liberty-sq-block-8.pdf"}},
+  "notes": "THE STRONGEST MATCH IN THE BATCH: the county notice states the location as 1201 NW 63rd Street and the site folio as 01-3114-002-0010, which are this row's address AND its stored folio exactly. Seven storeys and 132 elderly units with a ground-floor medical facility, agency Liberty Square Elderly LLC; this row's contractor is Related Urban Construction, Related Urban being the county's partner on the Liberty Square redevelopment. NAME CHOICE: the county's own groundbreaking release of 13 Feb 2026 calls the same building Liberty Square for the Elderly. The folio-matched record's project title is stored.",
+  "quotes": {
+    "name": "Liberty Square Block 8: The purpose of the Liberty Square Block 8 project is to redevelop the vacant public housing site and create new affordable housing.",
+    "stories": "The new development will consist of a seven-story building with 132 elderly units with a medical facility on the ground floor.",
+    "residential_units": "The new development will consist of a seven-story building with 132 elderly units with a medical facility on the ground floor."}},
+
+ {"id": 1016, "name": "Smart Brickell",
+  "values": {"name": "Smart Brickell"}, "overwrite": ["name"],
+  "sources": {"_default": {"name": "Florida YIMBY, 9 May 2021", "date": "2021-05-09",
+    "url": "https://floridayimby.com/2021/05/tower-ones-superstructure-reaches-parapet-at-smart-brickell-in-miami.html"}},
+  "notes": "NAMED. Identified by the same article naming this row's address as one of the project's identical towers, plus the contractor: this row's HABITAT DEVELOPMENT LLC is the construction arm of developer Habitat Group, and the owner of record is 255 BRICKELL INVESTMENT LLC. QUOTE CAVEAT: no single sentence in an acceptable source carries both the name and the 255 address — the quoted sentence names the project and the address tie is the sentence above it in the same article. THE TOWER NUMBER IS DELIBERATELY NOT ASSERTED: Commercial Observer of 16 May 2025 places phases one and two at 239 and 258 SW Ninth Street, which conflicts with Florida YIMBY's 255, so calling this Tower Two would be a guess even though the project is certain.",
+  "quotes": {"name": "Eventually, the entire site will feature three 25-story towers that'll complete the Smart Brickell project."}},
+
+ {"id": 1216, "name": "Opus Coconut Grove",
+  "values": {"name": "Opus Coconut Grove", "residential_units": 14, "stories": 6,
+             "developer": "META Development", "architect": "Kobi Karp"},
+  "overwrite": ["name"],
+  "sources": {
+    "_default": {"name": "Florida YIMBY, 15 Apr 2026", "date": "2026-04-15",
+      "url": "https://floridayimby.com/2026/04/meta-development-breaks-ground-on-opus-coconut-grove-at-3137-sw-27th-avenue-in-miami.html"},
+    "residential_units": {"name": "Commercial Observer, 14 Aug 2025", "date": "2025-08-14",
+      "url": "https://commercialobserver.com/2025/08/meta-development-miami-coconut-grove-arixa-capital-opus/"},
+    "stories": {"name": "Commercial Observer, 14 Aug 2025", "date": "2025-08-14",
+      "url": "https://commercialobserver.com/2025/08/meta-development-miami-coconut-grove-arixa-capital-opus/"}},
+  "notes": "NAMED. Commercial Observer gives this row's exact address — a 14-unit, six-storey development at 3127 Southwest 27th Avenue — while Florida YIMBY carries the fuller marketed name and addresses it 3137 SW 27th Avenue, one lot along the same assemblage, with the same unit count, storey count, developer and architect. So the name comes from Florida YIMBY and the address confirmation from Commercial Observer. This row's parcel_id is a REFERENCE folio in the county layer, so there is no owner of record to check against.",
+  "quotes": {
+    "name": "META Development Breaks Ground on OPUS Coconut Grove at 3137 SW 27th Avenue in Miami",
+    "developer": "META Development Breaks Ground on OPUS Coconut Grove at 3137 SW 27th Avenue in Miami",
+    "architect": "Designed by Kobi Karp, OPUS Coconut Grove will rise six stories.",
+    "residential_units": "The construction financing from Arixa Capital covers Opus, a 14-unit, six-story development at 3127 Southwest 27th Avenue.",
+    "stories": "The construction financing from Arixa Capital covers Opus, a 14-unit, six-story development at 3127 Southwest 27th Avenue."}},
+
+ {"id": 1191, "values": {}, "sources": {},
+  "notes": "NO NAME, AND THE PRESS SAYS SO EXPLICITLY — Florida YIMBY's piece of 27 Jun 2025 is headlined 'Construction Starts on Unnamed 12-Story Venture at 7737 NE 2nd Ave'. That is this row: 191 rental units, 350,000 sq ft, 12 storeys, CEDARst Companies, ODP Architecture and Design, and Hogan Brothers as general contractor — every one matching, including the contractor off the master permit. 7737 NE 2nd Ave is the NE 2nd Avenue frontage of the same corner site, and the City feed holds no permits at all under that address. Re-check when the building starts leasing."},
+
+ {"id": 1140, "values": {}, "sources": {},
+  "notes": "NO NAME EXISTS FOR THIS BUILDING, and what it is is now certain: the nine-storey, roughly 136 ft parking garage with 1,642 sq ft of ground-floor retail that serves Villa Miami across the street, ODP-designed and Moss-built. Identified by exact address in Florida YIMBY of 3 May 2023, by the contractor matching the tower's builder, and by owner of record 710 EDGE PROPERTY LLC — 710 Edge being the tower's earlier name. VILLA MIAMI WAS DELIBERATELY NOT USED as the name: that belongs to the tower, which the permit feed carries separately at 710 NE 29 ST, so naming the garage after it would read as a duplicate. A parent-child link is the right way to connect them, not the name field."},
+
+ {"id": 1206, "values": {}, "sources": {},
+  "notes": "NO NAME; the building has only a master-plan block label. It is the unfinished three-storey retail-and-office building on Block E at Miami Worldcenter — owner of record MWC BLOCK E OWNER LLC at site address 710 NE 1 AVE, and this row's 63,315 sq ft matches the reported 60,000 to 65,000. Commercial Observer of 3 Jun 2026 describes the parcel rather than a named project, and Bisnow calls it an unfinished three-storey retail and office building bought by Vertical Real Estate with Gustavo Agostini for $26.6m and financed with $28m from BridgeInvest. The architect's own portfolio titles it Miami Worldcenter Block E Retail, but a block letter is a designation rather than a marketed name, so the address stands. Florida YIMBY's Block E coverage is about Lalezarian's four-tower Miami World Towers on the same block, a different building."},
+
+ {"id": 953, "values": {}, "sources": {},
+  "notes": "NO NAME FROM AN ACCEPTABLE SOURCE, though the project is well documented: a 30-storey, 340 ft, 353-key dual-brand Hilton — 211 Embassy Suites keys plus 142 Home2 keys — for US Hospitality Group, architect Idea Architecture, reviewed by the City's Urban Development Review Board in February 2017, with a utilities agreement in 2018 and a tree permit in November 2019, all of which fits this row's 2018 master permit, KAST Construction and 287,323 sq ft. Every source carrying a name is off-limits. Note also that Embassy Suites and Home2 Suites are Hilton flags rather than a development name. THE ONE PLACE LEFT WORTH LOOKING is the February 2017 UDRB agenda item itself, which would be acceptable and could not be retrieved."},
+
+ {"id": 1111, "values": {}, "sources": {},
+  "notes": "NO NAME FROM AN ACCEPTABLE SOURCE. The developer's own site markets a 79-unit rental here as Highland Park Residences and traded.co records the June 2025 sale of the entitled site for $5.6m with permits for a 73,000 sq ft, 79-unit project — both excluded source types, and neither figure matches this row's 128,352 sq ft permit, so the name would not be safe on that evidence. Owner of record is SPHERE PROPERTIES HIGHLAND PARK OWNER LLC, consistent but an entity name. IMPORTANT TRAP: 'Highland Park Miami' in Florida YIMBY, The Real Deal and Commercial Observer is a DIFFERENT and much larger project — Black Salmon and Allen Morris's seven-acre Health District campus at 800 NW 14th Street. It must not be attached to this row."},
+
+ {"id": 1109, "values": {}, "sources": {},
+  "notes": "NO STORABLE NAME. The project is Botanic Residences, an eight-storey, 51-unit short-term-rental condominium at 758 NW 2nd Street by Forth Development, architect Carl Levin Architect + Design, with a $17m Arixa Capital construction loan. Corroboration is strong — this row's contractor FORTH BUILDING LLC matches Forth Development and the owner of record is 752 AND 758 NW 2 ST LLC — but the only outlet carrying it is The Real Deal, which returns HTTP 403 to every automated fetch, and Florida YIMBY, Commercial Observer and Bisnow have nothing for this address. One browser visit would settle it."},
+
+ {"id": 1094, "values": {}, "sources": {},
+  "notes": "NO NAME FROM AN ACCEPTABLE SOURCE. The project appears to be marketed as Banes Apartments: traded.co records a $14.65m Dade County Federal Credit Union construction loan to 2241 Banes LLC, and a subcontractor's project page uses the same name. Owner of record for folio 0131340410340 is 2241 BANES LLC, so the name plainly derives from the ownership entity — but traded.co and vendor pages are both excluded, Florida YIMBY returns nothing for the address, and The Real Deal, Commercial Observer and Bisnow have no coverage. The site is also absent from the City's affordable-rental directory, so it reads as market-rate."},
+
+ {"id": 1205, "values": {}, "sources": {},
+  "notes": "NO NAME FROM AN ACCEPTABLE SOURCE. Owner of record for folio 0141090051700 is HABITUS CORAL GATE RFII B LLC and the architect's portfolio lists an in-progress project it calls Habitus Coral Gate — but that is a marketing page, and the label reads as the ownership entity plus the neighbourhood rather than a marketed building name. Florida YIMBY returns nothing for 1546 SW 27th Avenue, and Commercial Observer, Bisnow and The Real Deal have no coverage."},
+
+ {"id": 1181, "values": {}, "sources": {},
+  "notes": "NO NAME FROM AN ACCEPTABLE SOURCE, and the best lead is itself just an address. Owner of record for folio 0141210073570 is GROVE NASSAU 2 LLC care of SABAL HILL LLC, and that folio is only a 4,500 sq ft lot, so this row's 74,090 sq ft building spans an assemblage. The likely project is the four-storey, roughly 80,000 sq ft Class A office building on Grand Avenue by Silver Bluff Development and Abbhi Capital, designed by Arquitectonica and marketed as 3443 Grand with a retail component branded Nassau, which would explain the Grove Nassau entity; this row's contractor Moss & Associates is that team's builder elsewhere. But every source for it is excluded. Abbhi's Grove Village Bimini Block project was checked and ruled out — its filing lists 3520 to 3574 Grand Avenue and not 3495. Note that 3443 Grand would buy nothing over the address anyway."}
+]

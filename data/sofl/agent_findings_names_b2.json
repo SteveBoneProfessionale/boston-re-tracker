@@ -1,0 +1,321 @@
+[
+ {
+  "id": 1171,
+  "name": "Cassi",
+  "values": {
+   "name": "Cassi",
+   "residential_units": 107,
+   "developer": "Miami Design District Associates; Hunter Pasteur; The Forbes Company"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "Commercial Observer, 18 Jun 2025",
+    "date": "2025-06-18",
+    "url": "https://commercialobserver.com/2025/06/miami-design-district-cassi-dacra/"
+   }
+  },
+  "notes": "NAMED, which closes a gap an earlier pass left open with exactly this project — it had been identified as Cassi on a county plat chain alone and the name was deliberately withheld for want of a citable source. This is that source. Identified by owner of record plus a same-site address on this row's own folio: folio 0131240000020 has since been replatted and the county now shows 91 NE 36 ST owned by DESIGN DISTRICT ASSOC LLC and 93 NE 36 ST owned by PRINZ CORNER LLC, the two DACRA affiliates named as developers. The row's folio also carries a demolition permit issued at 93 NE 36 ST at the identical latitude and longitude as the 3600 NE 1 AV new-construction permit — the NE 36th Street and NE 1st Avenue corner, published as 91-93 NE 36th Street. Also known by its planning name Tower 91; Cassi is the marketed name used from mid-2025, which is when this master permit issued. The contractor test was not used: this row's GT Construction & Development differs from the site-work contractor named in press, which is a different permit.",
+  "quotes": {
+   "name": "Amerant Bank and Bank Hapoalim's U.S branch, called BHI, provided $125 million to finance the construction of Cassi, a 107-unit multifamily tower at 91 Northeast 36th Street, just south of the Miami Design District and Interstate 195.",
+   "residential_units": "Amerant Bank and Bank Hapoalim's U.S branch, called BHI, provided $125 million to finance the construction of Cassi, a 107-unit multifamily tower at 91 Northeast 36th Street, just south of the Miami Design District and Interstate 195.",
+   "developer": "The development team for Cassi consists of the Miami Design District Associates, Michigan-based Hunter Pasteur, and Palm Beach Gardens-based The Forbes Company."
+  }
+ },
+ {
+  "id": 1178,
+  "name": "Little River Plaza",
+  "values": {
+   "name": "Little River Plaza",
+   "residential_units": 250,
+   "stories": 12,
+   "developer": "Healthy Housing Foundation (AIDS Healthcare Foundation)",
+   "architect": "Glavovic Studio"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 25 Jan 2026",
+    "date": "2026-01-25",
+    "url": "https://floridayimby.com/2026/01/little-river-plaza-breaks-ground-at-7952-ne-3rd-avenue-miami-florida.html"
+   }
+  },
+  "notes": "NAMED on a near-exact address — 7952 NE 3rd Avenue against the permit's 7950 NE 3 AV, the same parcel — plus two further signals: the contractor the article names, Gomez Construction Company, is exactly this row's contractor, and the county's owner of record for folio 0132070200300 is AIDS HEALTHCARE FOUNDATION INC, the parent of the Healthy Housing Foundation named as developer. The sponsor bought the 0.97-acre site for $6m in 2022, consistent with the article. 250 affordable units for households at or below 50 per cent of area median income.",
+  "quotes": {
+   "name": "'Little River Plaza' Breaks Ground at 7952 NE 3rd Avenue, Miami, Florida",
+   "residential_units": "Upon completion, Little River Plaza will feature 250 affordable housing units for residents earning up to 50 percent of Miami's area median income.",
+   "stories": "Our report shared that the Healthy Housing Foundation had proposed a 12-story community in Miami's Little River neighborhood.",
+   "developer": "The Healthy Housing Foundation, a subsidiary of the AIDS Healthcare Foundation (AHF), is the developer.",
+   "architect": "Image by Glavovic Studio The Healthy Housing Foundation, a subsidiary of the AIDS Healthcare Foundation (AHF), is the developer."
+  }
+ },
+ {
+  "id": 1051,
+  "name": "Liberty Square Phase V",
+  "values": {
+   "name": "Liberty Square Phase V"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "Miami-Dade County news release, 13 Feb 2026",
+    "date": "2026-02-13",
+    "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1769630319087631"
+   }
+  },
+  "notes": "NAMED on an exact address in a county primary record — 1441 NW 62nd Street — plus the contractor: this row's contractor is RELATED URBAN CONSTRUCTION LLC and Related Urban Development Group is the county's named development partner. WHICH OF TWO BUILDINGS THIS IS, and the reasoning matters: the release covers two buildings groundbroken together at that address, Phase V with 408 family units and ground-floor retail, and Liberty Square for the Elderly with 132 units and a clinic. Phase V is assigned here because the 1441 NW 62 ST master permit carries a RETAIL work item, matching Phase V's ground-floor retail restoring the historic business corridor, while the sibling permit at 1401 NW 62 ST on the same folio is multifamily-only and carries a stationary generator, the hallmark of Florida senior housing — so 1401 is the Elderly building, which the tracker holds separately as Liberty Square Block 8. Phase V spans more than this one 159,313 sq ft building, so this row is one building within the named phase. The whole 57-acre site shares folio 0131140090010. DEVELOPER NOT STORED: the county release names Related Urban Development Group as the development partner, but no single sentence in it both names the firm and describes this building, and the validator correctly refused a value whose quote does not contain it.",
+  "quotes": {
+   "name": "Hawkins What: Groundbreaking of Liberty Square Phase V and Liberty Square for the Elderly When: February 27, 2026 - 10:00 a.m."
+  }
+ },
+ {
+  "id": 961,
+  "name": "Vida Edgewater Residences",
+  "values": {
+   "name": "Vida Edgewater Residences",
+   "developer": "Urbana Bueno; Urbana Holdings"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "Commercial Observer, 25 Sep 2024",
+    "date": "2024-09-25",
+    "url": "https://commercialobserver.com/2024/09/peachtree-group-39m-miami-condo-development/"
+   }
+  },
+  "notes": "NAMED on owner of record plus the parcel's own county site address: folio 0132300050030 is owned by URBANA BUENO LAND LLC care of Urbana Investments, with county site address 410 NE 35 TER — exactly the development-site address in the article — and Urbana Bueno is the borrower the article names. The published 410 NE 35th Terrace and the permitted 436 NE 35 TER are the same assemblage, bought for $14m in 2023 per both the county record and the article. Second signal: the permit's work items are 26 OR MORE LODGING UNITS plus APARTMENT HOTEL, matching a nine-storey condominium whose buyers may let short-term. UNIT COUNT NOT STORED: Commercial Observer reports 138 and The Real Deal 121, and the conflict is unresolved.",
+  "quotes": {
+   "name": "Peachtree Group provided the 30-month, floating-rate, first-mortgage loan on Urbana Bueno's planned 138-unit Vida Edgewater Residences, slated for completion in 2026.",
+   "developer": "The borrower, an affiliate of Urbana Holdings, acquired the development site for the $100 million condo project at 410 NE 35th Terrace in early 2023 for $14 million."
+  }
+ },
+ {
+  "id": 1011,
+  "name": "Fourteen Main Street Residences — low-rise building",
+  "values": {
+   "name": "Fourteen Main Street Residences — low-rise building"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "Commercial Observer, 27 Dec 2024",
+    "date": "2024-12-27",
+    "url": "https://commercialobserver.com/2024/12/miami-allapattah-neology-starwood-fourteen-main-street-residences/"
+   }
+  },
+  "notes": "NAMED, AND IT IS THE SECOND BUILDING OF A PROJECT THE TRACKER ALREADY HOLDS — which is why the name carries a qualifier rather than duplicating the sibling row. The article describes a two-property complex with a 14-storey building and another five storeys tall, together 237 units. The county shows TCG ALLAPATTAH 14 LLC care of Neology Life Development owning exactly two folios: 1470 NW 36 ST with 180 units over 14 storeys, which is the tracker's Fourteen Allapattah Residences row, and this row's folio at 1455 NW 35 ST with 57 units. 180 plus 57 is the article's 237. Both master permits name the same contractor, JAXI Builders, matching this row. So this is the five-storey low-rise component, its through-block site fronting NW 35th Street while the project is published under the NW 36th Street frontage. UNITS NOT STORED: the 237 is the two-building total and this building's 57 comes from the county assessment rather than the article. DEVELOPER NOT STORED: the quoted sentence calls Neology 'the Miami-based developer' without naming it, so the validator refused it. The sibling row for the 14-storey building already carries Neology Development Group, and this is the same project.",
+  "quotes": {
+   "name": "Fourteen Main Street Residences will mark Neology's third project in Allapattah, an industrial neighborhood west of Miami's buzzy Wynwood area."
+  }
+ },
+ {
+  "id": 982,
+  "name": "Moxy Wynwood",
+  "values": {
+   "name": "Moxy Wynwood",
+   "stories": 12,
+   "hotel_rooms": 120,
+   "developer": "Dolphin Capital Partners; Baywood Hotels",
+   "architect": "Kobi Karp Architecture & Interior Design"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 23 Nov 2022",
+    "date": "2022-11-23",
+    "url": "https://floridayimby.com/2022/11/construction-continues-on-moxy-wynwood-in-miamis-booming-wynwood-arts-district.html"
+   }
+  },
+  "notes": "NAMED on an exact address match in the quoted sentence, reinforced by the contractor — the article names Craft Construction Company LLC, exactly this row's contractor — and by the permit's work items, a restaurant for 50 or more occupants plus 26 or more lodging units, matching a 120-key hotel with ground-floor restaurants. The second Moxy for Marriott's brand in Miami-Dade County.",
+  "quotes": {
+   "name": "YIMBY recently checked in on the progress of the Moxy Wynwood under construction at 255 Northwest 25th Street in Wynwood, Miami.",
+   "stories": "Craft Construction Company LLC is serving as the general contractor for the 12-story structure, alongside JGR Construction, Inc. as the structural contractor.",
+   "hotel_rooms": "The 120-room boutique hotel, the second for Marriot's Moxy Hotels brand in Miami-Dade County, is designed by Kobi Karp Architecture & Interior Design Inc. and is being developed by a 50/50 joint venture partnership between real estate investment firm Dolphin Capital Partners and hotel development and management company Baywood Hotels under the Wynwood Hospitality Holdings LLC.",
+   "developer": "The 120-room boutique hotel, the second for Marriot's Moxy Hotels brand in Miami-Dade County, is designed by Kobi Karp Architecture & Interior Design Inc. and is being developed by a 50/50 joint venture partnership between real estate investment firm Dolphin Capital Partners and hotel development and management company Baywood Hotels under the Wynwood Hospitality Holdings LLC.",
+   "architect": "The 120-room boutique hotel, the second for Marriot's Moxy Hotels brand in Miami-Dade County, is designed by Kobi Karp Architecture & Interior Design Inc. and is being developed by a 50/50 joint venture partnership between real estate investment firm Dolphin Capital Partners and hotel development and management company Baywood Hotels under the Wynwood Hospitality Holdings LLC."
+  }
+ },
+ {
+  "id": 1158,
+  "name": "Brisas del Sol",
+  "values": {
+   "name": "Brisas del Sol",
+   "residential_units": 110,
+   "stories": 8,
+   "developer": "Related Urban Development Group"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "City of Miami news notice, grand opening 16 Mar 2026",
+    "date": "2026-03-16",
+    "url": "https://www.miami.gov/Notices/News-Notices/The-City-of-Miami-celebrates-the-grand-opening-of-Brisas-del-Sol-a-new-affordable-rental-development-in-Little-Havana"
+   }
+  },
+  "notes": "NAMED on an exact address match in a City of Miami record plus the contractor: the notice puts the second, eight-storey building of 110 units at 154 SW 17 Avenue, this row's address exactly, and names Related Urban Development Group as developer while this row's contractor is RELATED URBAN CONSTRUCTION LLC. Third signal: the county's owner of record for folio 0141030740010 is the Miami-Dade Housing Agency, consistent with a Related Urban redevelopment of county public-housing land. THE UNIT COUNT IS THIS BUILDING'S, not the project's: Brisas del Sol is a two-building, 146-unit development and the other building, 36 units at 455 SW 16 Avenue, is separate. This row's certificate date of 14 April 2026 sits just after the March grand opening.",
+  "quotes": {
+   "name": "City of Miami Mayor Eileen Higgins will join City Commissioner Rolando Escalona of District Three and the City's Department of Housing and Community Development, along with Miami-Dade County officials and project developer Related Urban Development Group, to celebrate the grand opening of the Brisas del Sol affordable rental development in Little Havana on Monday, March 16, 2026, at 9:30 a.m.",
+   "residential_units": "The second, eight-story building is located at 154 SW 17 Avenue and features 110 units, with a majority of those units offering one-bedroom, one-bathroom floor plans.",
+   "stories": "The second, eight-story building is located at 154 SW 17 Avenue and features 110 units, with a majority of those units offering one-bedroom, one-bathroom floor plans.",
+   "developer": "City of Miami Mayor Eileen Higgins will join City Commissioner Rolando Escalona of District Three and the City's Department of Housing and Community Development, along with Miami-Dade County officials and project developer Related Urban Development Group, to celebrate the grand opening of the Brisas del Sol affordable rental development in Little Havana on Monday, March 16, 2026, at 9:30 a.m."
+  }
+ },
+ {
+  "id": 1169,
+  "name": "Elemi at Grove Village — Phase Two",
+  "values": {
+   "name": "Elemi at Grove Village — Phase Two",
+   "residential_units": 27,
+   "stories": 5,
+   "height_ft": 60,
+   "developer": "Silver Bluff Development; Abbhi Capital",
+   "architect": "Arquitectonica"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 28 Apr 2026",
+    "date": "2026-04-28",
+    "url": "https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html"
+   }
+  },
+  "notes": "NAMED on the folio's own county site address plus the contractor plus owner of record. Folio 0141210074610 has county site address 3384 GRAND AVE, exactly the published address, and is owned by GROVE ABACO QOZB LLC, which also owns the adjoining 3354 and 3364 Grand Avenue parcels — consistent with the 93,010 sq ft permit — and 3335 Thomas Avenue, which is the completed Phase One and a separate row in the tracker. The permitted 3407 Elizabeth St is the Elizabeth Street frontage of the same Grand Avenue corner site. Second and third signals: the article's contractor is Moss Construction, matching this row, and this is the only new-construction permit on that folio. The 60 ft is stated as the highest point.",
+  "quotes": {
+   "name": "At its highest point, Elemi at Grove Village Phase Two would measure 60 feet.",
+   "height_ft": "At its highest point, Elemi at Grove Village Phase Two would measure 60 feet.",
+   "residential_units": "The 27-unit expansion will be located at 3384 Grand Avenue, Miami, Florida, 33133, in Miami-Dade County.",
+   "stories": "The luxury five-story development will bring 27 residences to the area; specifically, each home will comprise two floors, featuring an array of one-bedroom to three-bedroom floorplans.",
+   "developer": "Silver Bluff Development and Abbhi Capital are the developers.",
+   "architect": "Moss Construction is the general contractor, and Arquitectonica is the architect."
+  }
+ },
+ {
+  "id": 1056,
+  "name": "Elemi at Grove Village — Phase One",
+  "values": {
+   "name": "Elemi at Grove Village — Phase One",
+   "residential_units": 46,
+   "stories": 5,
+   "developer": "Silver Bluff Development; Abbhi Capital",
+   "architect": "Arquitectonica"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 13 Jun 2023",
+    "date": "2023-06-13",
+    "url": "https://floridayimby.com/2023/06/construction-starts-on-elemi-at-grove-village-at-3363-thomas-avenue-miami-florida.html"
+   }
+  },
+  "notes": "NAMED on a near-address on the same parcel — published 3363 Thomas Avenue against the permitted 3335 THOMAS AV, one parcel on the same block — plus two further signals: the article's contractor, Moss & Associates, is exactly this row's contractor, and its 46 apartments in a five-storey building match the county record for folio 0141210120130 exactly, at 46 units, 95,635 sq ft and year built 2025 against this row's certificate date of 28 April 2025. Owner of record GROVE ABACO QOZB LLC also owns the Grand Avenue parcels of Phase Two, which is a separate row. The qualifier is added to the name because the tracker now holds both phases and the source names this one without a phase number.",
+  "quotes": {
+   "name": "Elemi at Grove Village's address is 3363 Thomas Avenue, Miami, Florida, 33133, in Miami-Dade County.",
+   "residential_units": "The five-story building will offer 46 apartments, ranging from 965 square feet to 1,535 square feet.",
+   "stories": "The five-story building will offer 46 apartments, ranging from 965 square feet to 1,535 square feet.",
+   "developer": "Silver Bluff and Abbhi Capital Group as the developers.",
+   "architect": "Moss & Associates is the general contractor and Arquitectonica is the architect."
+  }
+ },
+ {
+  "id": 925,
+  "name": "Miami Entertainment Complex",
+  "values": {
+   "name": "Miami Entertainment Complex"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "City of Miami Office of the Independent Auditor General, Audit of the Omni Community Redevelopment Agency, 19 May 2023",
+    "date": "2023-05-19",
+    "url": "https://www.miami.gov/files/sharedassets/public/v/1/internal-audits/reports/2022-2023/audit-of-omni-cra-final.pdf"
+   }
+  },
+  "notes": "NAMED on an exact address in a City of Miami primary record plus owner of record: the audit records the Omni CRA buying and leasing the Miami Entertainment Complex at 50 NW 14th Street, and the county's owner for folio 0131360090420 is the Omni Redevelopment District Community Redevelopment Agency with DOR class TOURIST ATTRACTION OR EXHIBIT. The same audit records $3m of construction cost increases there, consistent with this row's $14m, 80,000 sq ft addition-and-remodelling permit. Also referred to in press as the Florida Film and Television Center and operated as EUE/Screen Gems Studios Miami; the name stored is the one the City's own records use.",
+  "quotes": {
+   "name": "During our audit, we found that the Omni CRA purchased and leased real property, including the Miami Entertainment Complex (MEC) located at 50 NW 14th Street, Miami, FL."
+  }
+ },
+ {
+  "id": 1124,
+  "name": "Courtside Apartments II",
+  "values": {
+   "name": "Courtside Apartments II",
+   "stories": 5,
+   "developer": "Housing Trust Group; AM Affordable Housing",
+   "architect": "Corwil Architects"
+  },
+  "overwrite": [
+   "name"
+  ],
+  "sources": {
+   "_default": {
+    "name": "Florida YIMBY, 20 Oct 2026",
+    "date": "2026-10-20",
+    "url": "https://floridayimby.com/2026/10/housing-trust-group-and-am-affordable-housing-celebrate-opening-of-58-million-courtside-apartments-ii-in-overtown-miami.html"
+   }
+  },
+  "notes": "NAMED on an exact address match plus the contractor: the article gives the project's addresses as 1698 NW 3rd Avenue and 1501 NW 4th Avenue, the first being this row's exactly, and names BDI Construction as general contractor, matching this row. Third signal: the county's owner of record for folio 0131360640020 is Miami-Dade County Human Services, consistent with a county-land affordable development with Alonzo Mourning's AM Affordable Housing, and this row's certificate date of 24 September 2026 sits just before the October opening. UNITS NOT STORED: the 120 are split across the two buildings and no source gives this building's share.",
+  "quotes": {
+   "name": "Courtside Apartments II, a $58 million affordable housing development in Miami's historic Overtown neighborhood. Designed by Corwil Architects, the project comprises two five-story residential buildings containing 120 income-restricted apartments at 1698 NW 3rd Avenue and 1501 NW 4th Avenue. BDI Construction served as the general contractor.",
+   "stories": "Courtside Apartments II, a $58 million affordable housing development in Miami's historic Overtown neighborhood. Designed by Corwil Architects, the project comprises two five-story residential buildings containing 120 income-restricted apartments at 1698 NW 3rd Avenue and 1501 NW 4th Avenue.",
+   "developer": "Housing Trust Group (HTG) and AM Affordable Housing, a nonprofit founded by NBA Hall of Famer Alonzo Mourning, have celebrated the grand opening of Courtside Apartments II.",
+   "architect": "Designed by Corwil Architects, the project comprises two five-story residential buildings containing 120 income-restricted apartments at 1698 NW 3rd Avenue and 1501 NW 4th Avenue."
+  }
+ },
+ {
+  "id": 1152,
+  "values": {},
+  "sources": {},
+  "notes": "NO NAME FROM AN ACCEPTABLE SOURCE. The project is a six-storey, roughly 162-unit market-rate rental with ground-floor retail by Rilea Group on a 1.5-acre Flagami site held by ATLANTIC VOYAGER LLC, FAA height-restricted by proximity to the airport. A 2022 Real Deal piece confirms the site and programme but names the LANDOWNER rather than the building, and the marketed names Voyager Residences and Atlantic Voyager appear only on the contractor's own project page and on listing sites, all excluded."
+ },
+ {
+  "id": 1192,
+  "values": {},
+  "sources": {},
+  "notes": "NO NAME FROM AN ACCEPTABLE SOURCE, and this is the closest call of the fifty. The project is almost certainly 800 Medical Tower — a 14-storey, roughly 170,000 sq ft speculative medical-office building at the NW 8th Avenue and NW 15th Street corner — because the county's owner of record for folio 0131350600020 is 800 MEDICAL TOWER LLC at site address 800 NW 15 ST, and this row's contractor Apollo Construction Company is the affiliate Apollo Cos. develops through. It is NOT stored for the same reason Habitus Coral Gate and MLAB International were not: an LLC name is not a project name, and no document names the DEVELOPMENT. The only write-ups are a trade directory and the developer's own page, both excluded. THE BEST CANDIDATE OF THE UNNAMED ROWS FOR A HUMAN CALL."
+ },
+ {
+  "id": 1151,
+  "values": {},
+  "sources": {},
+  "notes": "NO NAME FROM AN ACCEPTABLE SOURCE. A seven- to eight-storey Allapattah building of multifamily rental over medical and dental office with a multi-level garage, 136,728 sq ft and $17m, on a 24,289 sq ft lot bought for $3.5m in 2022 by 1700 QOZB ALLAPATTAH LLC. Zero coverage in any acceptable outlet, and the leasing name 33 Living appears only on a listing site. The nearby named Allapattah projects were all checked and ruled out: Dulce Vida, Eco Landing, The Pattah, Anatomia and Fourteen Main Street Residences are different sites."
+ },
+ {
+  "id": 943,
+  "values": {},
+  "sources": {},
+  "notes": "NO NAME, AND NONE EXISTS. Folio 0131350060140 is owned by SROA SUNNYBROOK LLC with DOR class WAREHOUSE TERMINAL OR STORAGE, 117,394 sq ft built 2021; the permit work item is COMMERCIAL STORAGE AND WAREHOUSING and the contractor is DeAngelis Diamond. It is an eight-storey self-storage building operated under the Storage Rentals of America brand — a facility rather than a named development. The only coverage is a 2018 construction-loan brief that gives it no project name."
+ },
+ {
+  "id": 1184,
+  "values": {},
+  "sources": {},
+  "notes": "NO NAME. Florida YIMBY including its own site search, Commercial Observer, Bisnow, The Real Deal and the City's records were all searched for 727 NW 3 St and for folio 0141380441150's owner NEW ALMASA CORP, which bought the 15,000 sq ft site for $2.515m in July 2023. An 84,676 sq ft condominium on a Miami River-adjacent lot, built by American Concrete Shell, with no coverage anywhere and likely no marketed name yet. The only nearby hits on NW 3rd Street are the Rio Vista Apartments, different sites."
+ },
+ {
+  "id": 1149,
+  "values": {},
+  "sources": {},
+  "notes": "NO NAME. Searched for 1130 SW 22 St and for the Coral Way form of the address, since SW 22nd Street is Coral Way, and for folio 0141390070770's owner METRO VISCAYA LLC, which bought the site for $1.5m in 2016. A small 69,551 sq ft hotel on a 5,850 sq ft Coral Way lot in The Roads: 26 or more lodging units over a multi-level garage with ground-floor retail and a pool deck, $12.6m, contractor Building Block Realty. The permit only issued in 2026 and there is no press coverage at all."
+ }
+]

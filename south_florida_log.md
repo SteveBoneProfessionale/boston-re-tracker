@@ -1016,23 +1016,26 @@ only sentence available says both in one breath.
 
 ## Change log — City of Miami review (5 November 2026)
 
-298 field changes across 251 projects. Grouped by field; within a field, ordered by project id. A source of “—” means the change was derived from a record already cited on the row (the master building permit, or the permit's own work items) rather than from a new document, and the row's existing FIELD SOURCES entry still applies.
+364 field changes across 258 projects. Grouped by field; within a field, ordered by project id. A source of “—” means the change was derived from a record already cited on the row (the master building permit, or the permit's own work items) rather than from a new document, and the row's existing FIELD SOURCES entry still applies.
 
 | Field | Changes |
 | --- | --: |
 | asset_class | 226 |
 | lender | 32 |
+| developer | 22 |
+| residential_units | 20 |
+| num_stories | 18 |
 | lender_status | 18 |
-| developer | 5 |
+| architect | 14 |
 | name | 4 |
-| architect | 3 |
-| residential_units | 3 |
-| building_height_ft | 2 |
-| num_stories | 1 |
+| building_height_ft | 3 |
 | parking_spaces | 1 |
 | record created | 1 |
 | general_contractor | 1 |
 | neighborhood | 1 |
+| hotel_rooms | 1 |
+| commercial_gsf | 1 |
+| excluded | 1 |
 
 
 ### asset_class — 226 change(s)
@@ -1343,6 +1346,95 @@ Reasons:
 | 1367 | Soleste Palm Station | — | Synovus Bank | [link](https://commercialobserver.com/2024/07/estates-cos-soleste-palm-station-synovus-bank/) |
 | 1370 | Rybovich Marina redevelopment | — | Tyko Capital | [link](https://commercialobserver.com/2026/08/tyko-integra-west-palm/) |
 
+### developer — 22 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 961 | Vida Edgewater Residences | — | Urbana Bueno; Urbana Holdings | [link](https://commercialobserver.com/2024/09/peachtree-group-39m-miami-condo-development/) |
+| 982 | Moxy Wynwood | — | Dolphin Capital Partners; Baywood Hotels | [link](https://floridayimby.com/2022/11/construction-continues-on-moxy-wynwood-in-miamis-booming-wynwood-arts-district.html) |
+| 1004 | View 29 | — | New Urban Development | [link](https://www.bisnow.com/south-florida/news/affordable-housing/affordable-housing-project-wynwood-44m-public-construction-financing-133392) |
+| 1041 | Culmer Place | — | Atlantic Pacific Cos. | [link](https://floridayimby.com/2024/04/atlantic-pacific-cos-breaks-ground-on-culmer-place-at-800-n-w-fifth-ave-miami-fl.html) |
+| 1055 | Kenneth C. Griffin Cancer Research Building | — | University of Miami Miller School of Medicine | [link](https://commercialobserver.com/2024/03/ken-griffin-citadel-university-of-miami/) |
+| 1056 | Elemi at Grove Village — Phase One | — | Silver Bluff Development; Abbhi Capital | [link](https://floridayimby.com/2023/06/construction-starts-on-elemi-at-grove-village-at-3363-thomas-avenue-miami-florida.html) |
+| 1057 | Amara Wynwood | — | Fifield Companies; PGIM Real Estate | [link](https://commercialobserver.com/2023/03/fifield-pgim-wynwood-station/) |
+| 1083 | River Rapids | — | ROVR Development | [link](https://commercialobserver.com/2024/05/kayne-anderson-rovr-development-river-rapids/) |
+| 1090 | Alto Tower | — | Blue Sky Communities | [link](https://www.miamidade.gov/global/release.page?Mduid_release=rel1748459795566512) |
+| 1105 | Beacon Office Building | — | Vizcaya Capital | [link](https://commercialobserver.com/2025/01/vizcaya-capital-coconut-grove-miami/) |
+| 1117 | The Standard Residences Midtown Miami | — | Rosso Development | [link](https://floridayimby.com/2022/12/construction-permits-filed-for-the-standard-residences-in-midtown-miami.html) |
+| 1124 | Courtside Apartments II | — | Housing Trust Group; AM Affordable Housing | [link](https://floridayimby.com/2026/10/housing-trust-group-and-am-affordable-housing-celebrate-opening-of-58-million-courtside-apartments-ii-in-overtown-miami.html) |
+| 1142 | Citadelle Village | — | Haitian American Community Development Corporation | [link](https://floridayimby.com/2026/05/construction-starts-on-96-unit-citadelle-village-at-181-ne-82nd-st-miami-florida.html) |
+| 1158 | Brisas del Sol | — | Related Urban Development Group | [link](https://www.miami.gov/Notices/News-Notices/The-City-of-Miami-celebrates-the-grand-opening-of-Brisas-del-Sol-a-new-affordable-rental-development-in-Little-Havana) |
+| 1169 | Elemi at Grove Village — Phase Two | — | Silver Bluff Development; Abbhi Capital | [link](https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html) |
+| 1171 | Cassi | — | Miami Design District Associates; Hunter Pasteur; The Forbes Company | [link](https://commercialobserver.com/2025/06/miami-design-district-cassi-dacra/) |
+| 1178 | Little River Plaza | — | Healthy Housing Foundation (AIDS Healthcare Foundation) | [link](https://floridayimby.com/2026/01/little-river-plaza-breaks-ground-at-7952-ne-3rd-avenue-miami-florida.html) |
+| 1186 | Visions at Brickell Station | — | Urban Network Capital Group | [link](https://floridayimby.com/2025/06/construction-starts-on-visions-at-brickell-station-at-1120-sw-3rd-avenue-miami-fl-33130.html) |
+| 1212 | Dulce Vida Apartments | — | Coral Rock Development Group | [link](https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html) |
+| 1216 | Opus Coconut Grove | — | META Development | [link](https://floridayimby.com/2026/04/meta-development-breaks-ground-on-opus-coconut-grove-at-3137-sw-27th-avenue-in-miami.html) |
+| 1220 | Miami Civic Center | Miami Freedom Park, LLC | Adler Development | [link](https://www.miami.gov/Notices/Events-Activities/City-of-Miami-to-Celebrate-the-Topping-Out-of-the-New-Miami-Civic-Center) |
+| 1224 | The Triangle | — | DFRE | [link](https://floridayimby.com/2026/09/construction-underway-on-odp-designed-the-triangle-in-miamis-health-district.html) |
+
+Reasons:
+
+- **id 1220** — the City's own notice names Adler Development; the previous value, Miami Freedom Park LLC, is the ground lessee of the OTHER parcels
+
+### residential_units — 20 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 976 | Okan Tower | — | 399 | [link](https://floridayimby.com/2026/04/construction-reaches-50th-floor-on-okan-tower-at-555-north-miami-avenue-in-downtown-miami.html) |
+| 1007 | The Villages Apartments Phase II | — | 120 | [link](https://www.miamidade.gov/govaction/legistarfiles/Matters/Y2025/251160.pdf) |
+| 1008 | The Ambar | — | 105 | [link](https://www.floridahousing.org/docs/default-source/data-docs-and-reports/boardpackages/2021/september-10/consent-items.pdf?sfvrsn=e787f77b_2) |
+| 1031 | Essence Miami | — | 88 | [link](https://www.miami.gov/Housing-Assistance/Housing-Assistance/Affordable-Rental-Units) |
+| 1041 | Culmer Place | — | 239 | [link](https://floridayimby.com/2024/04/atlantic-pacific-cos-breaks-ground-on-culmer-place-at-800-n-w-fifth-ave-miami-fl.html) |
+| 1056 | Elemi at Grove Village — Phase One | — | 46 | [link](https://floridayimby.com/2023/06/construction-starts-on-elemi-at-grove-village-at-3363-thomas-avenue-miami-florida.html) |
+| 1066 | Seventeen Gables Residences | — | 117 | [link](https://commercialobserver.com/2026/02/bam-coral-gables-1715-douglas/) |
+| 1090 | Alto Tower | — | 84 | [link](https://www.miamidade.gov/global/release.page?Mduid_release=rel1748459795566512) |
+| 1107 | LOFTY Brickell | 363 | 362 | [link](https://floridayimby.com/2023/12/newgard-development-group-appoints-g-t-mcdonald-enterprises-inc-as-general-contractor-for-44-story-lofty-brickell.html) |
+| 1117 | The Standard Residences Midtown Miami | — | 228 | [link](https://floridayimby.com/2022/12/construction-permits-filed-for-the-standard-residences-in-midtown-miami.html) |
+| 1142 | Citadelle Village | — | 96 | [link](https://floridayimby.com/2026/05/construction-starts-on-96-unit-citadelle-village-at-181-ne-82nd-st-miami-florida.html) |
+| 1158 | Brisas del Sol | — | 110 | [link](https://www.miami.gov/Notices/News-Notices/The-City-of-Miami-celebrates-the-grand-opening-of-Brisas-del-Sol-a-new-affordable-rental-development-in-Little-Havana) |
+| 1169 | Elemi at Grove Village — Phase Two | — | 27 | [link](https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html) |
+| 1171 | Cassi | — | 107 | [link](https://commercialobserver.com/2025/06/miami-design-district-cassi-dacra/) |
+| 1178 | Little River Plaza | — | 250 | [link](https://floridayimby.com/2026/01/little-river-plaza-breaks-ground-at-7952-ne-3rd-avenue-miami-florida.html) |
+| 1186 | Visions at Brickell Station | — | 110 | [link](https://floridayimby.com/2025/06/construction-starts-on-visions-at-brickell-station-at-1120-sw-3rd-avenue-miami-fl-33130.html) |
+| 1188 | The WELL Coconut Grove | 148 | 194 | [link](https://commercialobserver.com/2026/01/tyko-terra-well-coconut-grove-miami/) |
+| 1216 | Opus Coconut Grove | — | 14 | [link](https://commercialobserver.com/2025/08/meta-development-miami-coconut-grove-arixa-capital-opus/) |
+| 1218 | Liberty Square Block 8 | — | 132 | [link](https://www.miamidade.gov/resources/legal-ads/2025/2025-07-07-public-notice-request-for-release-of-funds-liberty-sq-block-8.pdf) |
+| 1224 | The Triangle | — | 112 | [link](https://floridayimby.com/2026/09/construction-underway-on-odp-designed-the-triangle-in-miamis-health-district.html) |
+
+Reasons:
+
+- **id 976** — the review's rule is to count every residential unit including condo-hotel units, so the 163 Sky Residences and the 236 condo-hotel residences are both counted; the 316 Hilton keys are not units and stay in the hotel field
+- **id 1107** — the review's 362 is confirmed by the developer's own general-contractor announcement; the stored 363 came from a two-project round-up
+- **id 1188** — 194 in the redesigned scheme, superseding the 148 of the abandoned design
+
+### num_stories — 18 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 982 | Moxy Wynwood | — | 12 | [link](https://floridayimby.com/2022/11/construction-continues-on-moxy-wynwood-in-miamis-booming-wynwood-arts-district.html) |
+| 1041 | Culmer Place | — | 7 | [link](https://floridayimby.com/2024/04/atlantic-pacific-cos-breaks-ground-on-culmer-place-at-800-n-w-fifth-ave-miami-fl.html) |
+| 1055 | Kenneth C. Griffin Cancer Research Building | — | 12 | [link](https://commercialobserver.com/2024/03/ken-griffin-citadel-university-of-miami/) |
+| 1056 | Elemi at Grove Village — Phase One | — | 5 | [link](https://floridayimby.com/2023/06/construction-starts-on-elemi-at-grove-village-at-3363-thomas-avenue-miami-florida.html) |
+| 1066 | Seventeen Gables Residences | — | 8 | [link](https://commercialobserver.com/2026/02/bam-coral-gables-1715-douglas/) |
+| 1105 | Beacon Office Building | — | 5 | [link](https://commercialobserver.com/2025/01/vizcaya-capital-coconut-grove-miami/) |
+| 1117 | The Standard Residences Midtown Miami | — | 12 | [link](https://floridayimby.com/2022/12/construction-permits-filed-for-the-standard-residences-in-midtown-miami.html) |
+| 1124 | Courtside Apartments II | — | 5 | [link](https://floridayimby.com/2026/10/housing-trust-group-and-am-affordable-housing-celebrate-opening-of-58-million-courtside-apartments-ii-in-overtown-miami.html) |
+| 1130 | Lotus House Children's Village | — | 5 | [link](https://floridayimby.com/2023/04/miamis-lotus-house-breaks-ground-on-childrens-village-in-overtown-miami.html) |
+| 1142 | Citadelle Village | — | 10 | [link](https://floridayimby.com/2026/05/construction-starts-on-96-unit-citadelle-village-at-181-ne-82nd-st-miami-florida.html) |
+| 1158 | Brisas del Sol | — | 8 | [link](https://www.miami.gov/Notices/News-Notices/The-City-of-Miami-celebrates-the-grand-opening-of-Brisas-del-Sol-a-new-affordable-rental-development-in-Little-Havana) |
+| 1169 | Elemi at Grove Village — Phase Two | — | 5 | [link](https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html) |
+| 1178 | Little River Plaza | — | 12 | [link](https://floridayimby.com/2026/01/little-river-plaza-breaks-ground-at-7952-ne-3rd-avenue-miami-florida.html) |
+| 1186 | Visions at Brickell Station | — | 8 | [link](https://floridayimby.com/2025/06/construction-starts-on-visions-at-brickell-station-at-1120-sw-3rd-avenue-miami-fl-33130.html) |
+| 1216 | Opus Coconut Grove | — | 6 | [link](https://commercialobserver.com/2025/08/meta-development-miami-coconut-grove-arixa-capital-opus/) |
+| 1218 | Liberty Square Block 8 | — | 7 | [link](https://www.miamidade.gov/resources/legal-ads/2025/2025-07-07-public-notice-request-for-release-of-funds-liberty-sq-block-8.pdf) |
+| 1220 | Miami Civic Center | — | 8 | [link](https://www.miami.gov/My-Government/Departments/Department-of-Real-Estate-Asset-Management-DREAM/New-City-of-Miami-Administration-Building) |
+| 1224 | The Triangle | — | 8 | [link](https://floridayimby.com/2026/09/construction-underway-on-odp-designed-the-triangle-in-miamis-health-district.html) |
+
+Reasons:
+
+- **id 1220** — the City's project page and Florida YIMBY both say eight storeys
+
 ### lender_status — 18 change(s)
 
 | id | Project | Old | New | Source |
@@ -1371,19 +1463,29 @@ Reasons:
 - **8 rows** — a construction loan is documented but no acceptable source names the lender
 - **10 rows** — a source documents how the project is financed, so the empty lender is a finding rather than a gap
 
-### developer — 5 change(s)
+### architect — 14 change(s)
 
 | id | Project | Old | New | Source |
 | --: | --- | --- | --- | --- |
-| 1004 | View 29 | — | New Urban Development | [link](https://www.bisnow.com/south-florida/news/affordable-housing/affordable-housing-project-wynwood-44m-public-construction-financing-133392) |
-| 1057 | Amara Wynwood | — | Fifield Companies; PGIM Real Estate | [link](https://commercialobserver.com/2023/03/fifield-pgim-wynwood-station/) |
-| 1083 | River Rapids | — | ROVR Development | [link](https://commercialobserver.com/2024/05/kayne-anderson-rovr-development-river-rapids/) |
-| 1212 | Dulce Vida Apartments | — | Coral Rock Development Group | [link](https://floridayimby.com/2025/12/dulce-vida-advances-toward-groundbreaking-following-35-million-financing.html) |
-| 1220 | Miami Civic Center | Miami Freedom Park, LLC | Adler Development | [link](https://www.miami.gov/Notices/Events-Activities/City-of-Miami-to-Celebrate-the-Topping-Out-of-the-New-Miami-Civic-Center) |
+| 982 | Moxy Wynwood | — | Kobi Karp Architecture & Interior Design | [link](https://floridayimby.com/2022/11/construction-continues-on-moxy-wynwood-in-miamis-booming-wynwood-arts-district.html) |
+| 1041 | Culmer Place | — | Corwil Architects | [link](https://floridayimby.com/2024/04/atlantic-pacific-cos-breaks-ground-on-culmer-place-at-800-n-w-fifth-ave-miami-fl.html) |
+| 1055 | Kenneth C. Griffin Cancer Research Building | — | HOK | [link](https://commercialobserver.com/2024/03/ken-griffin-citadel-university-of-miami/) |
+| 1056 | Elemi at Grove Village — Phase One | — | Arquitectonica | [link](https://floridayimby.com/2023/06/construction-starts-on-elemi-at-grove-village-at-3363-thomas-avenue-miami-florida.html) |
+| 1105 | Beacon Office Building | — | Arquitectonica | [link](https://commercialobserver.com/2025/01/vizcaya-capital-coconut-grove-miami/) |
+| 1124 | Courtside Apartments II | — | Corwil Architects | [link](https://floridayimby.com/2026/10/housing-trust-group-and-am-affordable-housing-celebrate-opening-of-58-million-courtside-apartments-ii-in-overtown-miami.html) |
+| 1162 | The St. Regis Residences, Miami | Robert A.M. Stern Architects | Cohen Freedman Encinosa & Associates Architects | [link](https://floridayimby.com/2023/06/developers-seek-udrb-approval-for-48-story-st-regis-residences-miami.html) |
+| 1169 | Elemi at Grove Village — Phase Two | — | Arquitectonica | [link](https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html) |
+| 1178 | Little River Plaza | — | Glavovic Studio | [link](https://floridayimby.com/2026/01/little-river-plaza-breaks-ground-at-7952-ne-3rd-avenue-miami-florida.html) |
+| 1185 | Miami Freedom Park — stadium | Arquitectonica | — | [link](https://floridayimby.com/2025/01/city-of-miami-to-break-ground-on-eight-story-administration-building-at-miami-freedom-park.html) |
+| 1186 | Visions at Brickell Station | — | DTI Architects | [link](https://floridayimby.com/2025/06/construction-starts-on-visions-at-brickell-station-at-1120-sw-3rd-avenue-miami-fl-33130.html) |
+| 1203 | Miami Freedom Park — stadium parking garage | Arquitectonica | — | [link](https://floridayimby.com/2025/01/city-of-miami-to-break-ground-on-eight-story-administration-building-at-miami-freedom-park.html) |
+| 1216 | Opus Coconut Grove | — | Kobi Karp | [link](https://floridayimby.com/2026/04/meta-development-breaks-ground-on-opus-coconut-grove-at-3137-sw-27th-avenue-in-miami.html) |
+| 1224 | The Triangle | — | ODP Architecture & Design | [link](https://floridayimby.com/2026/09/construction-underway-on-odp-designed-the-triangle-in-miamis-health-district.html) |
 
 Reasons:
 
-- **id 1220** — the City's own notice names Adler Development; the previous value, Miami Freedom Park LLC, is the ground lessee of the OTHER parcels
+- **id 1162** — the review is right and this follows the project's existing architect-of-record rule: the source names Robert A.M. Stern Architects as the designer and Cohen Freedman Encinosa as the architect OF RECORD, and the field holds the architect of record
+- **id 1185, id 1203** — Architect CLEARED. The only source ever cited for it on this row is Florida YIMBY's coverage of the eight-storey ADMINISTRATION BUILDING, as the row's own note recorded, so Arquitectonica was this site's Civic Center architect attributed to the wrong building. No acceptable source names an architect for this structure.
 
 ### name — 4 change(s)
 
@@ -1401,54 +1503,18 @@ Reasons:
 - **id 1203** — the permit's work items are a parking garage and its contractor is a precast parking-structure builder; the actual park is a different permit that no row tracks
 - **id 1220** — the row's permit, address, floor area and contractor all describe the City's administration building, not Miami Freedom Park LLC's commercial space
 
-### architect — 3 change(s)
-
-| id | Project | Old | New | Source |
-| --: | --- | --- | --- | --- |
-| 1162 | The St. Regis Residences, Miami | Robert A.M. Stern Architects | Cohen Freedman Encinosa & Associates Architects | [link](https://floridayimby.com/2023/06/developers-seek-udrb-approval-for-48-story-st-regis-residences-miami.html) |
-| 1185 | Miami Freedom Park — stadium | Arquitectonica | — | [link](https://floridayimby.com/2025/01/city-of-miami-to-break-ground-on-eight-story-administration-building-at-miami-freedom-park.html) |
-| 1203 | Miami Freedom Park — stadium parking garage | Arquitectonica | — | [link](https://floridayimby.com/2025/01/city-of-miami-to-break-ground-on-eight-story-administration-building-at-miami-freedom-park.html) |
-
-Reasons:
-
-- **id 1162** — the review is right and this follows the project's existing architect-of-record rule: the source names Robert A.M. Stern Architects as the designer and Cohen Freedman Encinosa as the architect OF RECORD, and the field holds the architect of record
-- **id 1185, id 1203** — Architect CLEARED. The only source ever cited for it on this row is Florida YIMBY's coverage of the eight-storey ADMINISTRATION BUILDING, as the row's own note recorded, so Arquitectonica was this site's Civic Center architect attributed to the wrong building. No acceptable source names an architect for this structure.
-
-### residential_units — 3 change(s)
-
-| id | Project | Old | New | Source |
-| --: | --- | --- | --- | --- |
-| 976 | Okan Tower | — | 399 | [link](https://floridayimby.com/2026/04/construction-reaches-50th-floor-on-okan-tower-at-555-north-miami-avenue-in-downtown-miami.html) |
-| 1107 | LOFTY Brickell | 363 | 362 | [link](https://floridayimby.com/2023/12/newgard-development-group-appoints-g-t-mcdonald-enterprises-inc-as-general-contractor-for-44-story-lofty-brickell.html) |
-| 1188 | The WELL Coconut Grove | 148 | 194 | [link](https://commercialobserver.com/2026/01/tyko-terra-well-coconut-grove-miami/) |
-
-Reasons:
-
-- **id 976** — the review's rule is to count every residential unit including condo-hotel units, so the 163 Sky Residences and the 236 condo-hotel residences are both counted; the 316 Hilton keys are not units and stay in the hotel field
-- **id 1107** — the review's 362 is confirmed by the developer's own general-contractor announcement; the stored 363 came from a two-project round-up
-- **id 1188** — 194 in the redesigned scheme, superseding the 148 of the abandoned design
-
-### building_height_ft — 2 change(s)
+### building_height_ft — 3 change(s)
 
 | id | Project | Old | New | Source |
 | --: | --- | --- | --- | --- |
 | 1107 | LOFTY Brickell | — | 574 | [link](https://floridayimby.com/2022/07/faa-permits-filed-for-44-story-lofty-brickell-tower-at-99-sw-7th-street-in-miami-170-million-construction-loan-secured.html) |
 | 1144 | Downtown 6 | 576 | 574 | [link](https://floridayimby.com/2025/04/vertical-construction-underway-on-58-story-downtown-6th-in-miami.html) |
+| 1169 | Elemi at Grove Village — Phase Two | — | 60 | [link](https://floridayimby.com/2026/04/elemi-at-grove-village-phase-two-goes-vertical-at-3384-grand-avenue-miami-florida.html) |
 
 Reasons:
 
 - **id 1107** — 574 ft above ground from the FAA filing, against 579 above sea level
 - **id 1144** — the review's 574 ft is confirmed: the source states 574 feet ABOVE GROUND against 587 feet above sea level, and the stored 576 matched neither
-
-### num_stories — 1 change(s)
-
-| id | Project | Old | New | Source |
-| --: | --- | --- | --- | --- |
-| 1220 | Miami Civic Center | — | 8 | [link](https://www.miami.gov/My-Government/Departments/Department-of-Real-Estate-Asset-Management-DREAM/New-City-of-Miami-Administration-Building) |
-
-Reasons:
-
-- **id 1220** — the City's project page and Florida YIMBY both say eight storeys
 
 ### parking_spaces — 1 change(s)
 
@@ -1489,3 +1555,25 @@ Reasons:
 Reasons:
 
 - **id 1180** — the tower sits on Brickell Key, folio 0142070030020, and its sibling North Tower on the same island already carried the value; the field was blank
+
+### hotel_rooms — 1 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 982 | Moxy Wynwood | — | 120 | [link](https://floridayimby.com/2022/11/construction-continues-on-moxy-wynwood-in-miamis-booming-wynwood-arts-district.html) |
+
+### commercial_gsf — 1 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 1105 | Beacon Office Building | — | 34,856 | [link](https://commercialobserver.com/2025/01/vizcaya-capital-coconut-grove-miami/) |
+
+### excluded — 1 change(s)
+
+| id | Project | Old | New | Source |
+| --: | --- | --- | --- | --- |
+| 1239 | Seventeen Gables Residences | 0 | 1 | — |
+
+Reasons:
+
+- **id 1239** — duplicate of the City of Miami permit row for the same building

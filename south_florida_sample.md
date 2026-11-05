@@ -10,16 +10,16 @@ Counted ABOVE THE SIZE FLOOR — projects with 50 or more residential units or 5
 
 | City | Projects | Units known | of residential-bearing | Height in feet | Storeys | Hotel keys | Lender |
 | --- | --: | --: | --: | --: | --: | --: | --: |
-| Miami | 133 | 76 | 76 of 115 | 47 | 78 | 6 | 56 |
+| Miami | 133 | 93 | 93 of 115 | 48 | 95 | 7 | 56 |
 | Miami Beach | 19 | 19 | 19 of 19 | 5 | 17 | 1 | 5 |
 | West Palm Beach | 29 | 25 | 25 of 27 | 8 | 27 | 3 | 11 |
 | Coral Gables | 14 | 14 | 14 of 14 | 9 | 12 | 0 | 7 |
 | Doral | 12 | 11 | 11 of 11 | 3 | 9 | 0 | 5 |
-| **All five** | **207** | **145** | **145 of 186** | **72** | **143** | **10** | **84** |
+| **All five** | **207** | **162** | **162 of 186** | **73** | **160** | **11** | **84** |
 
 Height in feet is the thinnest field in this market and will stay that way: the trade press prints storey counts and prints feet only when a project reaches a board approval that states one. Where feet are unpublished the storey count usually is not, which is why both columns are shown. The FAA Digital Obstacle File was calibrated as a bulk source for the missing feet and REJECTED at a 53 per cent hit rate — see scraper/sofl_faa_heights.py; it would have written 395 ft onto the 1,049 ft Waldorf Astoria, that being a 2018 survey of the building demolished to make room for it.
 
-## Programme — the 135 largest projects
+## Programme — the 147 largest projects
 
 Every project with 100 or more dwellings, 100 or more hotel keys, or a published height of 200 feet or more. Ordered by height, then by unit count, so the rows with no published height fall to the bottom.
 
@@ -123,7 +123,10 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 | 71 NoBe | Miami Beach | Approved | Mixed-Use | 277 | — | — | — |
 | 534 Datura | West Palm Beach | Planning | Multifamily Rental | 261 | — | — | 25 |
 | Uni Tower | Miami | Complete | Multifamily Rental | 252 | — | — | 29 |
+| Little River Plaza | Miami | Under Construction | Multifamily Rental | 250 | — | — | 12 |
+| Culmer Place | Miami | Complete | Multifamily Rental | 239 | — | — | 7 |
 | NoBe PARC Miami Beach | Miami Beach | Planning | Condo | 232 | — | — | 15 |
+| The Standard Residences Midtown Miami | Miami | Complete | Condo | 228 | — | — | 12 |
 | 5250 Condo Tower Phase 2 | Doral | Approved | Condo | 228 | — | — | 20 |
 | 7200 Collins | Miami Beach | Under Construction | Condo | 222 | — | — | 12 |
 | The WELL Coconut Grove | Miami | Under Construction | Condo | 194 | — | — | — |
@@ -145,17 +148,26 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 | The Alton | Miami Beach | Planning | Mixed-Use | 142 | — | — | 14 |
 | The Ritz-Carlton Residences, West Palm Beach | West Palm Beach | Under Construction | Condo | 138 | — | — | 27 |
 | 72 Carlyle | Miami Beach | Planning | Condo | 134 | — | — | 20 |
+| Liberty Square Block 8 | Miami | Under Construction | Multifamily Rental | 132 | — | — | 7 |
 | Regency Parc | Coral Gables | Complete | Residential | 126 | — | — | 20 |
 | PALMA Miami Beach Residences | Miami Beach | Under Construction | Condo | 121 | — | — | 14 |
+| The Villages Apartments Phase II | Miami | Complete | Condo | 120 | — | — | — |
 | Wynwood Works | Miami | Complete | Multifamily Rental | 120 | — | — | 12 |
+| Seventeen Gables Residences | Miami | Under Construction | Condo | 117 | — | — | 8 |
 | Seventeen Gables Residences | Coral Gables | Under Construction | Condo | 117 | — | — | 8 |
 | LILLI | Miami | Planning | Condo | 117 | — | — | 53 |
 | View 29 | Miami | Under Construction | Mixed-Use | 116 | — | — | 12 |
 | Mr. C Residences Coconut Grove | Miami | Complete | Condo | 112 | — | — | 21 |
+| The Triangle | Miami | Under Construction | Multifamily Rental | 112 | — | — | 8 |
 | Doral Inn/ IMF Doral Residential Conversion Live L | Doral | Approved | Multifamily Rental | 112 | — | — | — |
+| Brisas del Sol | Miami | Complete | Multifamily Rental | 110 | — | — | 8 |
+| Visions at Brickell Station | Miami | Under Construction | Hotel | 110 | — | — | 8 |
+| Cassi | Miami | Under Construction | Multifamily Rental | 107 | — | — | — |
 | 75 Broadway | Miami | Planning | Condo | 106 | — | — | 52 |
+| The Ambar | Miami | Complete | Multifamily Rental | 105 | — | — | — |
 | 1940 Park Avenue workforce housing | Miami Beach | Planning | Multifamily Rental | 105 | — | — | 6 |
 | 2200 Brickell | Miami | Complete | Condo | 103 | — | — | 5 |
+| Moxy Wynwood | Miami | Complete | Hotel | — | 120 | — | 12 |
 | The Residences at Mandarin Oriental, Miami — North Tower | Miami | Under Construction | Mixed-Use | — | 121 | — | 33 |
 | Hotel at NW 53 Terrace and Paseo Boulevard | Doral | Planning | Hotel | — | 168 | — | 8 |
 | Grand Hyatt Miami Beach Convention Center Hotel | Miami Beach | Under Construction | Hotel | — | 800 | — | 17 |
@@ -178,46 +190,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
     - City of Miami building permit BD18003273001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD18003273001B001%27&outFields=*&f=pjson
     - Miami-Dade property boundary record, folio 0141380510260 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270141380510260%27&outFields=*&f=pjson
     - Miami-Dade property record, folio 01-4138-051-0260 (vacant land, year built 0), against City of Miami permit BD18003273001B001 Active since 2020-03-06 — https://www.miamidade.gov/Apps/PA/propertysearch/#/report/detail/0141380510260
-- *Note:* Building permit BD18003273001B001 was issued on 6 March 2020 and is still Active with no finalised inspections six years later, and Miami-Dade assesses folio 01-4138-051-0260 as vacant land with year built 0. A 287,323 sq ft hotel has not been built here, so the row is Permitting -- a permit on file -- rather than Under Construction.
-
-### 1698 NW 3 AV
-- **Address:** 1698 NW 3 AV
-- **Parcel id:** 0131360640020
-- **Status:** Complete
-- **Asset class:** Multifamily Rental   **Neighbourhood:** Town Park
-- Developer: not found   |   Architect: not found   |   General contractor: BDI CONSTRUCTION COMPANY   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 61,939
-- **Construction lender:** not found
-- **Completion basis:** co_issued  (2026-09-24)
-- **Sources (10 field citations, 2 distinct):**
-    - City of Miami building permit BD23002556001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23002556001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0131360640020 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131360640020%27&outFields=*&f=pjson
-
-### 255 SW 9 ST
-- **Address:** 255 SW 9 ST
-- **Parcel id:** 0102050801110
-- **Status:** Under Construction
-- **Asset class:** Mixed-Use   **Neighbourhood:** West Brickell
-- Developer: not found   |   Architect: not found   |   General contractor: HABITAT DEVELOPMENT  LLC   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 115,334
-- **Construction lender:** not found
-- **Completion basis:** permit_active
-- **Sources (9 field citations, 2 distinct):**
-    - City of Miami building permit BD21007347001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21007347001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0102050801110 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270102050801110%27&outFields=*&f=pjson
-
-### 610 NW 10 ST
-- **Address:** 610 NW 10 ST
-- **Parcel id:** 0101010102030
-- **Status:** Complete
-- **Asset class:** Multifamily Rental   **Neighbourhood:** Culmer
-- Developer: not found   |   Architect: not found   |   General contractor: ATLANTIC PACIFIC COMMUNITY BUILDERS LLC   |   Civil engineer: not found   |   Lender: not found
-- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 124,749
-- **Construction lender:** not found
-- **Completion basis:** co_issued  (2026-08-27)
-- **Sources (10 field citations, 2 distinct):**
-    - City of Miami building permit BD21023937001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21023937001B001%27&outFields=*&f=pjson
-    - Miami-Dade property boundary record, folio 0101010102030 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270101010102030%27&outFields=*&f=pjson
+- *Note:* Building permit BD18003273001B001 was issued on 6 March 2020 and is still Active with no finalised inspections six years later, and Miami-Dade assesses folio 01-4138-051-0260 as vacant land with year built 0. A 287,323 sq ft hotel has not been built here, so the row is Permitting -- a permit on file -- rather than Under Construction. NO NAME FROM AN ACCEPTABLE SOURCE, though the project is well documented: a 30-storey, 340 ft, 353-key dual-brand Hilton — 211 Embassy Suites keys plus 142 Home2 keys — for US Hospitality Group, architect Idea Architecture, reviewed by the City's Urban Development Review Board in February 2017, with a utilities agreement in 2018 and a tree permit in November 2019, all of which fits this row's 2018 master permit, KAST Construction and 287,323 sq ft. Every source carrying a name is off-limits. Note also that Embassy Suites and Home2 Suites are Hilton flags rather than a development name. THE ONE PLACE LEFT WORTH LOOKING is the February 2017 UDRB agenda item itself, which would be acceptable and could not be retrieved.
 
 ### 758 NW 2 ST
 - **Address:** 758 NW 2 ST
@@ -231,6 +204,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Sources (9 field citations, 2 distinct):**
     - City of Miami building permit BD22026231001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD22026231001B001%27&outFields=*&f=pjson
     - Miami-Dade property boundary record, folio 0102000701090 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270102000701090%27&outFields=*&f=pjson
+- *Note:* NO STORABLE NAME. The project is Botanic Residences, an eight-storey, 51-unit short-term-rental condominium at 758 NW 2nd Street by Forth Development, architect Carl Levin Architect + Design, with a $17m Arixa Capital construction loan. Corroboration is strong — this row's contractor FORTH BUILDING LLC matches Forth Development and the owner of record is 752 AND 758 NW 2 ST LLC — but the only outlet carrying it is The Real Deal, which returns HTTP 403 to every automated fetch, and Florida YIMBY, Commercial Observer and Bisnow have nothing for this address. One browser visit would settle it.
 
 ### Cipriani Residences Miami
 - **Address:** 1420 S MIAMI AV
@@ -248,6 +222,36 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
     - Miami-Dade property boundary record, folio 0102090601040 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270102090601040%27&outFields=*&f=pjson
     - Florida YIMBY, 24 Oct 2025 — https://floridayimby.com/2025/10/cipriani-residences-miami-reaches-halfway-mark-as-80-story-tower-rises-over-brickell.html
 - *Note:* Height: the tower is reported as expected to reach approximately 950 ft on completion (April 2026), having reached 872 ft at that date; an approximately 940 ft figure was published in October 2025. The 950 ft completion figure is stored as the building height under the conflict rule and the measured 872 ft is noted here. Interiors by 1508 London; structural engineering by Thornton Tomasetti. Newmark arranged the loan. Identity confirmed against the row's address, developer and storey count. CONSTRUCTION LENDER: both parties sit on the same $600m senior construction facility, split $350m from Banco Inbursa and $250m from Ascendant Capital Partners, so both are recorded. No mezzanine or preferred-equity piece is reported. Borrower is Mast Capital.
+
+### Courtside Apartments II
+- **Address:** 1698 NW 3 AV
+- **Parcel id:** 0131360640020
+- **Status:** Complete
+- **Asset class:** Multifamily Rental   **Neighbourhood:** Town Park
+- Developer: Housing Trust Group; AM Affordable Housing   |   Architect: Corwil Architects   |   General contractor: BDI CONSTRUCTION COMPANY   |   Civil engineer: not found   |   Lender: not found
+- Residential units: not found   |   Height: not found (5 storeys known)   |   Stories: 5   |   Total sq ft: 61,939
+- **Construction lender:** not found
+- **Completion basis:** co_issued  (2026-09-24)
+- **Sources (14 field citations, 3 distinct):**
+    - City of Miami building permit BD23002556001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD23002556001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 20 Oct 2026 — https://floridayimby.com/2026/10/housing-trust-group-and-am-affordable-housing-celebrate-opening-of-58-million-courtside-apartments-ii-in-overtown-miami.html
+    - Miami-Dade property boundary record, folio 0131360640020 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131360640020%27&outFields=*&f=pjson
+- *Note:* NAMED on an exact address match plus the contractor: the article gives the project's addresses as 1698 NW 3rd Avenue and 1501 NW 4th Avenue, the first being this row's exactly, and names BDI Construction as general contractor, matching this row. Third signal: the county's owner of record for folio 0131360640020 is Miami-Dade County Human Services, consistent with a county-land affordable development with Alonzo Mourning's AM Affordable Housing, and this row's certificate date of 24 September 2026 sits just before the October opening. UNITS NOT STORED: the 120 are split across the two buildings and no source gives this building's share.
+
+### Culmer Place
+- **Address:** 610 NW 10 ST
+- **Parcel id:** 0101010102030
+- **Status:** Complete
+- **Asset class:** Multifamily Rental   **Neighbourhood:** Culmer
+- Developer: Atlantic Pacific Cos.   |   Architect: Corwil Architects   |   General contractor: ATLANTIC PACIFIC COMMUNITY BUILDERS LLC   |   Civil engineer: not found   |   Lender: not found
+- Residential units: 239   |   Height: not found (7 storeys known)   |   Stories: 7   |   Total sq ft: 124,749
+- **Construction lender:** not found
+- **Completion basis:** co_issued  (2026-08-27)
+- **Sources (15 field citations, 3 distinct):**
+    - City of Miami building permit BD21023937001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21023937001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 23 Apr 2024 — https://floridayimby.com/2024/04/atlantic-pacific-cos-breaks-ground-on-culmer-place-at-800-n-w-fifth-ave-miami-fl.html
+    - Miami-Dade property boundary record, folio 0101010102030 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270101010102030%27&outFields=*&f=pjson
+- *Note:* NAMED on a parcel match plus a contractor match, two signals because the published address is the site's other frontage. The source places Culmer Place at 800 NW Fifth Ave and the county gives TRUE_SITE_ADDR 800 NW 5 AVE for this row's exact folio 0101010102030 — the Culmer superblock, of which 610 NW 10 ST is the permit frontage. Second signal: the source names Atlantic Pacific Cos. as both developer and general contractor and this row's master permit contractor is ATLANTIC PACIFIC COMMUNITY BUILDERS LLC. Owner of record is the Miami-Dade Housing Agency, consistent with a public-housing redevelopment. TWO NAMES EXIST FOR ONE PROJECT: the county's HCD report calls the same 239-unit scheme Culmer Apartments, after the entity Culmer Apartments Ltd, so Culmer Place is the marketed name and Culmer Apartments the funding-record one. The source describes two seven-storey buildings and this row's permit is the larger of two 2021 masters on the folio.
 
 ### Rhapsody at Rainbow Village
 - **Address:** 2000 NW 3 AV
@@ -296,6 +300,21 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
     - Commercial Observer, 8 Jul 2026 — https://commercialobserver.com/2026/07/s3-capital-miami-apartments/
     - Miami-Dade property boundary record, folio 0131250140080 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270131250140080%27&outFields=*&f=pjson
 - *Note:* New Sense, LLC is an affiliate of Argentina-based HA Emprendimientos, which is stored as the developer; the LLC is the owner of record. 132 of the 328 units are affordable rental housing under the Live Local Act. An identity trap caught here: web searches attribute this $111m S3 Capital loan to Swire's Mandarin Oriental on Brickell Key. The article names Sense 22 at 114-138 NE 22nd Street with borrower HA Emprendimientos, which matches this row's address and developer, so it is recorded here and on neither Mandarin Oriental row. CONSTRUCTION LENDER: a $111m three-year construction loan to HA Emprendimientos for the 36-storey, 328-unit tower at 114-138 NE 22nd Street, Edgewater. REJECTED on this project: an earlier land-and-predevelopment mortgage on the same site, which is excluded by kind and names no lender in any case. IMPORTANT: this is the loan that search engines misattribute to the Mandarin Oriental towers — see the note on those rows.
+
+### Smart Brickell
+- **Address:** 255 SW 9 ST
+- **Parcel id:** 0102050801110
+- **Status:** Under Construction
+- **Asset class:** Mixed-Use   **Neighbourhood:** West Brickell
+- Developer: not found   |   Architect: not found   |   General contractor: HABITAT DEVELOPMENT  LLC   |   Civil engineer: not found   |   Lender: not found
+- Residential units: not found   |   Height: not found   |   Stories: not found   |   Total sq ft: 115,334
+- **Construction lender:** not found
+- **Completion basis:** permit_active
+- **Sources (10 field citations, 3 distinct):**
+    - City of Miami building permit BD21007347001B001 — https://services1.arcgis.com/CvuPhqcTQpZPT9qY/arcgis/rest/services/Building_Permits_Since_2014/FeatureServer/0/query?where=PermitNumber%3D%27BD21007347001B001%27&outFields=*&f=pjson
+    - Florida YIMBY, 9 May 2021 — https://floridayimby.com/2021/05/tower-ones-superstructure-reaches-parapet-at-smart-brickell-in-miami.html
+    - Miami-Dade property boundary record, folio 0102050801110 — https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaParcelView_gdb/FeatureServer/0/query?where=FOLIO%3D%270102050801110%27&outFields=*&f=pjson
+- *Note:* NAMED. Identified by the same article naming this row's address as one of the project's identical towers, plus the contractor: this row's HABITAT DEVELOPMENT LLC is the construction arm of developer Habitat Group, and the owner of record is 255 BRICKELL INVESTMENT LLC. QUOTE CAVEAT: no single sentence in an acceptable source carries both the name and the 255 address — the quoted sentence names the project and the address tie is the sentence above it in the same article. THE TOWER NUMBER IS DELIBERATELY NOT ASSERTED: Commercial Observer of 16 May 2025 places phases one and two at 239 and 258 SW Ninth Street, which conflicts with Florida YIMBY's 255, so calling this Tower Two would be a guess even though the project is certain.
 
 ### WNWD21
 - **Address:** 2150 N MIAMI AV
@@ -702,7 +721,7 @@ Every project with 100 or more dwellings, 100 or more hotel keys, or a published
 - **Sources (6 field citations, 2 distinct):**
     - Florida YIMBY, 12 Feb 2026 — https://floridayimby.com/2026/02/seventeen-gables-condominium-secures-60-million-construction-loan-set-for-immediate-construction-at-1715-douglas-road-in-coral-gables.html
     - Florida YIMBY, 6 May 2026 — https://floridayimby.com/2026/05/seventeen-gables-residences-breaks-ground-at-1715-douglas-road-in-coral-gables.html
-- *Note:* Two architects are named across the coverage: Caymares Martin A&E Design (February 2026) and Asprea Studio, described in May 2026 as design architect and interior designer. Caymares Martin A&E Design is stored as the architect of record and Asprea Studio recorded here as design architect, per the field rule.
+- *Note:* Two architects are named across the coverage: Caymares Martin A&E Design (February 2026) and Asprea Studio, described in May 2026 as design architect and interior designer. Caymares Martin A&E Design is stored as the architect of record and Asprea Studio recorded here as design architect, per the field rule. RETIRED AS A DUPLICATE, not deleted. This row and the City of Miami permit row at 1715 SW 37 AV are the same building: SW 37th Avenue IS Douglas Road, and both are Under Construction condominiums of 117 units over eight storeys. The permit row is kept as canonical because it carries the master building permit, the folio, the contractor and the floor area, and because the City of Miami issuing the permit means the parcel is in Miami rather than Coral Gables — this row's Coral Gables placement came from the marketing address. The row is excluded from the view rather than removed so the duplicate stays visible to anyone auditing the Coral Gables ingest, which is where it came from.
 
 ### The Aurelian
 - **Address:** 921 E Ponce de Leon Blvd
