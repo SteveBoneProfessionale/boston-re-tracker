@@ -441,3 +441,134 @@ def money_millions(value) -> str:
         m = n / 1_000_000
         return f"${m:,.0f}M" if m >= 10 else f"${m:,.1f}M"
     return f"${n:,.0f}"
+
+
+# ── permit record ───────────────────────────────────────────────────────
+_MONTH = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def fmt_date(value) -> str:
+    """'2026-01-05' -> 'Jan 5, 2026'. Anything unparseable comes back as-is."""
+    text = str(value or "").strip()
+    if len(text) < 10:
+        return text
+    try:
+        y, m, d = int(text[:4]), int(text[5:7]), int(text[8:10])
+        return f"{_MONTH[m - 1]} {d}, {y}"
+    except (ValueError, IndexError):
+        return text
+
+
+def fmt_money(value) -> str:
+    try:
+        n = float(value)
+    except (TypeError, ValueError):
+        return ""
+    if n != n or n <= 0:
+        return ""
+    return f"${n:,.0f}"
+
+
+def fmt_int(value, suffix="") -> str:
+    try:
+        n = float(value)
+    except (TypeError, ValueError):
+        return ""
+    if n != n or n <= 0:
+        return ""
+    return f"{n:,.0f}{suffix}"
+
+
+# Certificate codes as the City writes them.
+# Short enough for a label column, and the code is what the City uses.
+_CERT = {"CO": "CO date", "CC": "CC date", "TCO": "TCO date", "TCC": "TCC date"}
+
+
+def permit_rows(p) -> list:
+    """(label, value) rows for the permit table, in reading order.
+
+    Built entirely from stored fields -- opening a panel makes no network
+    call. System columns the feed carries (ObjectId, GlobalID and the rest)
+    are not stored and so cannot leak in.
+    """
+    cert = (p.get("permit_certificate_code") or "").strip().upper()
+    cert_label = _CERT.get(cert, cert)
+    cert_date = fmt_date(p.get("permit_certificate_date"))
+    rows = [
+        ("Permit number", p.get("permit_number")),
+        ("Process number", p.get("permit_process_number")),
+        ("Permit type", title_case(p.get("permit_scope") or "")
+         or p.get("filing_type")),
+        ("Work description", ", ".join(programme_chips(p.get("asset_class_raw")))),
+        ("Status", p.get("permit_status")),
+        ("Application date", fmt_date(p.get("permit_application_date"))),
+        ("Issue date", fmt_date(p.get("permit_issued_date"))),
+        ("Contractor", title_case(p.get("contractor") or "")),
+        ("Square feet", fmt_int(p.get("permit_gsf") or p.get("total_gsf"), " sq ft")),
+        ("Construction cost", fmt_money(p.get("permit_cost"))),
+        ("Folio", p.get("parcel_id")),
+    ]
+    if p.get("permit_final_date"):
+        rows.append(("Final date", fmt_date(p.get("permit_final_date"))))
+    if cert:
+        rows.append((cert_label, cert_date or "issued, date not recorded"))
+    return rows
+
+
+# ── public lookup pages ─────────────────────────────────────────────────
+# Where a PERSON goes to see this record. Deliberately separate from the
+# machine endpoint the data came from: an ArcGIS FeatureServer query returns
+# raw JSON, which is the feed, not a page.
+#
+# TESTED, November 2026:
+#   City of Miami iBuild requires an account -- apps.miami.gov/ibuildportal
+#   serves a sign-in form with no guest search -- so there is NO direct
+#   per-permit link and the lookup page is the honest destination. It searches
+#   by process number, permit number or folio, which is why both identifiers
+#   are offered for copying beside it.
+#
+#   Miami-Dade Property Appraiser's deep link does NOT resolve. Loading
+#   apps.miamidadepa.gov/propertysearch/#/report/detail/<folio> in a browser
+#   renders the generic search page with an empty address box, not the
+#   property. Its search has a FOLIO tab, so the search page plus a copyable
+#   folio is what works.
+PERMIT_LOOKUP = {
+    "Miami": ("Look up on City of Miami iBuild",
+              "https://miami.gov/Permits-Construction/Permitting-Resources/"
+              "View-Permit-HistoryPermit-Search"),
+    "Miami Beach": ("Miami Beach permit search",
+                    "https://energovcss.miamibeachfl.gov/EnerGovProd/SelfService/#/search"),
+    "Doral": ("City of Doral permit search",
+              "https://www.cityofdoral.com/building-department/"),
+    "Coral Gables": ("Coral Gables permit search",
+                     "https://www.coralgables.com/building"),
+    "West Palm Beach": ("West Palm Beach permit search",
+                        "https://www.wpb.org/government/development-services"),
+}
+
+PROPERTY_LOOKUP = {
+    "Miami-Dade": ("Property record",
+                   "https://apps.miamidadepa.gov/propertysearch/"),
+    "Palm Beach": ("Property record", "https://pbcpao.gov/Property/Search"),
+}
+
+_COUNTY = {"Miami": "Miami-Dade", "Miami Beach": "Miami-Dade",
+           "Doral": "Miami-Dade", "Coral Gables": "Miami-Dade",
+           "West Palm Beach": "Palm Beach"}
+
+
+def property_lookup(city: str):
+    """(label, url) for the county property appraiser, or None."""
+    return PROPERTY_LOOKUP.get(_COUNTY.get(city or "", ""))
+
+
+def is_data_endpoint(url: str) -> bool:
+    """True when a URL serves data to a machine rather than a page to a person."""
+    u = str(url or "").lower()
+    if not u:
+        return False
+    return (("arcgis.com" in u and "/query?" in u)
+            or "f=pjson" in u or "f=json" in u
+            or u.endswith(".json")
+            or "/resource/" in u and ".json" in u)

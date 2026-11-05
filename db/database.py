@@ -23,6 +23,10 @@ def init_db():
     """Create all tables if they don't exist, and apply any pending column additions."""
     Base.metadata.create_all(bind=engine)
     # Add columns introduced after initial schema (SQLite has no ALTER TABLE ADD COLUMN IF NOT EXISTS)
+    for _c in ("permit_process_number", "permit_scope", "permit_status",
+               "permit_application_date", "permit_final_date",
+               "permit_certificate_code", "permit_certificate_date"):
+        _add_column_if_missing("projects", _c, "VARCHAR")
     _add_column_if_missing("projects", "lender_status", "VARCHAR")
     _add_column_if_missing("projects", "sire_id", "VARCHAR")
     _add_column_if_missing("projects", "developer_canonical", "VARCHAR")

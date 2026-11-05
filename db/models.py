@@ -76,6 +76,18 @@ class Project(Base):
     permit_issued_date = Column(String)
     permit_url = Column(String)
     permit_cost = Column(Integer)
+    # Facts the detail panel's permit table shows. Fetched once by
+    # scraper/sofl_permit_detail.py rather than called live when a panel is
+    # opened: a permit record does not change between page views, and a panel
+    # that makes a network request per click is slow and fails when the City's
+    # service is down.
+    permit_process_number = Column(String)   # the permit number minus its trade suffix
+    permit_scope = Column(String)            # NEW CONSTRUCTION / ADDITION AND REMODELING
+    permit_status = Column(String)           # Active / Final / Hold / Expired / Revoked
+    permit_application_date = Column(String)
+    permit_final_date = Column(String)       # set only when the City finalled it
+    permit_certificate_code = Column(String)  # CO / CC / TCO / TCC
+    permit_certificate_date = Column(String)
     general_contractor = Column(String)
 
     # --- South Florida identity and capital stack ---

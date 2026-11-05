@@ -845,6 +845,17 @@ def load_projects(include_excluded: bool = False) -> pd.DataFrame:
                 "permit_cost": p.permit_cost,
                 "permit_number": p.permit_number or "",
                 "permit_url": p.permit_url or "",
+                # The permit record the detail panel renders in place of a
+                # link to the City's raw JSON feed.
+                "permit_process_number": p.permit_process_number or "",
+                "permit_scope": p.permit_scope or "",
+                "permit_status": p.permit_status or "",
+                "permit_application_date": p.permit_application_date or "",
+                "permit_issued_date": p.permit_issued_date or "",
+                "permit_final_date": p.permit_final_date or "",
+                "permit_certificate_code": p.permit_certificate_code or "",
+                "permit_certificate_date": p.permit_certificate_date or "",
+                "permit_gsf": p.permit_gsf,
                 "notes": p.notes or "",
                 "parking_notes": p.parking_notes or "",
                 "parent_project_id": p.parent_project_id,

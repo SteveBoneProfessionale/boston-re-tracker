@@ -17,7 +17,8 @@ from app.data import (
 )
 from app.detail_bits import (title_case, programme_chips, summary_line,
                              confidence_dot, source_label, addresses,
-                             money_millions, clean)
+                             money_millions, clean, permit_rows, fmt_date,
+                             PERMIT_LOOKUP, property_lookup, is_data_endpoint)
 from scraper.normalize_developer import is_real_company
 
 # One sentence, reused by all three team columns, so the reader learns the
@@ -1111,14 +1112,37 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
         )
 
     # ── 6. The raw permit text, collapsed; its only appearance ──────
-    if p.get("description"):
+    _prows = [(lab, val) for lab, val in permit_rows(p) if clean(val)]
+    if _prows or p.get("description"):
         with st.expander("PERMIT DETAILS"):
-            st.caption("The filing's own wording, unedited.")
-            st.markdown(
-                f'<div style="font-family:Inter,sans-serif;font-size:12.5px;'
-                f'color:{_MUTED};line-height:1.6">{p["description"]}</div>',
-                unsafe_allow_html=True,
-            )
+            if _prows:
+                # The record itself, rendered here rather than linked to as
+                # raw JSON. Built from stored fields, so opening this makes no
+                # network call and nothing can be missing because a service is
+                # down.
+                st.markdown(
+                    f'<div style="border:1px solid {_BORDER};background:{_BG2}">'
+                    + "".join(
+                        f'<div style="display:flex;gap:12px;padding:7px 14px;'
+                        f'border-bottom:1px solid rgba(30,37,48,0.75)">'
+                        f'<div style="flex:0 0 170px;font-family:{_UI};font-size:8.5px;'
+                        f'font-weight:700;letter-spacing:0.12em;color:{_MUTED};'
+                        f'text-transform:uppercase;padding-top:3px">{lab}</div>'
+                        f'<div style="flex:1;font-family:{_UI};font-size:12.5px;'
+                        f'color:#e2e8f0;line-height:1.5">{val}</div></div>'
+                        for lab, val in _prows)
+                    + '</div>',
+                    unsafe_allow_html=True,
+                )
+            if p.get("description"):
+                st.markdown(
+                    f'<div style="font-family:{_UI};font-size:8.5px;font-weight:700;'
+                    f'letter-spacing:0.12em;color:{_MUTED};text-transform:uppercase;'
+                    f'margin:14px 0 6px">Full permit description</div>'
+                    f'<div style="font-family:Inter,sans-serif;font-size:12.5px;'
+                    f'color:{_MUTED};line-height:1.6">{p["description"]}</div>',
+                    unsafe_allow_html=True,
+                )
 
     # Notes are the researcher's caveats and belong with the project, not
     # buried with the permit text. Shown for every market, not just Cambridge.
@@ -1237,20 +1261,46 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
             )
 
     # Links
-    lc1, lc2, _ = st.columns([1, 1, 4])
-    # Labelled by market. "BPDA PAGE" is the Boston agency, and printing it on
-    # a Miami permit record told the reader the source was something it was
-    # not. A South Florida row's bpda_url is its own sofl:// key rather than a
-    # web page, so the permit URL is the link that actually opens.
+    # A button must open a PAGE FOR A PERSON. The row's own source URL is
+    # sometimes the machine endpoint the data came from -- Miami's 309 permit
+    # URLs are ArcGIS FeatureServer queries that render as raw JSON -- so any
+    # data endpoint is dropped in favour of the agency's public lookup page,
+    # and the record itself is shown in PERMIT DETAILS above instead.
+    _city = p.get("city") or ""
     _src_url = p.get("permit_url") or p.get("bpda_url") or ""
-    if _src_url and not str(_src_url).startswith(("manual:", "sofl://")):
-        lc1.link_button(f"{source_label(p.get('city') or '', _src_url).upper()} ↗",
-                        _src_url)
+    if is_data_endpoint(_src_url) or str(_src_url).startswith(("manual:", "sofl://")):
+        _src_url = ""
+
+    _lookup = PERMIT_LOOKUP.get(_city)
+    _prop = property_lookup(_city)
+    lc1, lc2, lc3, _ = st.columns([1.2, 1, 1, 2.8])
+    if _src_url:
+        lc1.link_button(f"{source_label(_city, _src_url).upper()} ↗", _src_url)
+    elif _lookup:
+        lc1.link_button(f"{_lookup[0].upper()} ↗", _lookup[1])
     elif is_cambridge:
         lc1.link_button("SEARCH SPECIAL PERMITS ↗", "https://www.cambridgema.gov/specialpermits")
+    if _prop and p.get("parcel_id"):
+        lc2.link_button(f"{_prop[0].upper()} ↗", _prop[1])
     if p.get("processed_filing_url"):
-        lc2.link_button(f"SOURCE {(p.get('processed_filing_type') or 'PDF').upper()} ↗",
+        lc3.link_button(f"SOURCE {(p.get('processed_filing_type') or 'PDF').upper()} ↗",
                         p["processed_filing_url"])
+
+    # Both lookup pages search by an identifier rather than accepting a deep
+    # link -- iBuild needs an account and the Property Appraiser's folio route
+    # does not resolve -- so the identifiers sit beside the buttons with
+    # st.code's own copy control.
+    if _lookup or _prop:
+        _ids = [(lab, val) for lab, val in
+                (("Process number", p.get("permit_process_number")),
+                 ("Permit number", p.get("permit_number")),
+                 ("Folio", p.get("parcel_id"))) if clean(val)]
+        if _ids:
+            st.caption("iBuild searches by process or permit number; the Property "
+                       "Appraiser searches by folio. Copy either here.")
+            for col, (lab, val) in zip(st.columns(len(_ids)), _ids):
+                col.caption(lab)
+                col.code(str(val), language=None)
 
     # Filings
     filings_df = load_filings(int(p["id"]))
