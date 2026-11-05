@@ -218,7 +218,7 @@ seller SLH INVESTMENTS LLC -> buyer 4510 NE 2ND AVENUE PARTNERS LLC
 building 0 sf · land 16,726 sf · units - · $390 per land SF · -  
 deed 35268/0938 · prior sale 2012-05-31 $1,600,000 · change +307.2%
 
-**7. Omni - Boulevard (folio 01-3230-107-0010) - Miami**  
+**7. Vacant land, Omni-Boulevard - Miami**  
 2026-07-15 · $39,436,700 · Land · `VACANT - COMMERCIAL (1081)`  
 seller TF SECOND AND 23RD LLC -> buyer TF EDGEWATER BISCAYNE LLC  
 building 0 sf · land 71,644 sf · units - · $550 per land SF · -  

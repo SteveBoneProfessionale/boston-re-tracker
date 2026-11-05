@@ -55,6 +55,7 @@ import argparse
 import collections
 import datetime as dt
 import os
+import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -358,6 +359,54 @@ def _street(raw):
     return title_case(" ".join(tokens), address=True)
 
 
+def _place(raw):
+    """A county neighbourhood name, trimmed to something a person would say.
+
+    The appraiser's neighbourhood field is a surveyor's description rather
+    than a name -- "Lincoln Rd-Washington Ave to Alton Rd-Front" marks out a
+    block face. Everything from " to " onward is the far boundary, which says
+    nothing about where the parcel is, so it goes.
+    """
+    from app.detail_bits import title_case
+
+    text = " ".join(str(raw or "").split())
+    text = re.split(r"\s+to\s+", text, maxsplit=1, flags=re.I)[0]
+    text = re.sub(r"\s*-\s*", "-", text).strip(" -,")
+    if not text or text.upper() == "UNCLASSIFIED NEIGHBORHOOD":
+        return ""
+    return title_case(text)
+
+
+# A valuation block face, not a market area: "41 St Nw-Doral-(826) To
+# Trnpk-Front", "2Nd Ave Ne-54 St To Ne Design Blvd-Back". The appraiser's
+# NeighborhoodDescription mixes real neighbourhood names with these survey
+# strings, which describe the stretch of street a parcel is valued against.
+_BLOCK_FACE = re.compile(r"-(front|back|other)$|\bto\b", re.I)
+
+
+def _submarket(raw):
+    """The neighbourhood, but only when it is a PLACE and not a block face.
+
+    SUBMARKET claims to be a market area -- the column help says BPDA
+    neighbourhood in Boston, CDD neighbourhood in Cambridge. Miami-Dade's
+    equivalent field is a VALUATION neighbourhood, and most of its values are
+    a surveyor's description of a stretch of street rather than anywhere a
+    person would name. Printing "8 St Sw-37 Ave To 76 Ct-Front" under that
+    header asserts something false about what the column holds.
+
+    So the named ones are kept -- Downtown North, Miami CBD, Wynwood -- and the
+    block faces are left EMPTY, which says "no submarket recorded" instead of
+    dressing a survey line up as one.
+    """
+    # TESTED ON THE RAW VALUE, not on the cleaned one. _place trims everything
+    # from " to " onward, which is exactly the half that identifies a block
+    # face -- so cleaning first destroys the evidence and "41 St Nw-Doral-(826)
+    # To Trnpk-Front" sails through as "41 St Nw-Doral-(826)".
+    if not str(raw or "").strip() or _BLOCK_FACE.search(str(raw)):
+        return None
+    return _place(raw) or None
+
+
 def _address(deed):
     """One address for the deed: the largest parcel's, plus a parcel count."""
     parcels = deed["parcels"]
@@ -368,18 +417,20 @@ def _address(deed):
                      if _street(p.get("address"))), "")
 
     if not addr:
-        # THREE DEEDS IN THIS WINDOW HAVE NO ADDRESS ON ANY PARCEL -- vacant
-        # land the county has never assigned a number to. A bare folio is
-        # accurate and unreadable, so the neighbourhood leads and the folio
-        # follows it: "Downtown North (folio 01-3137-036-0060)" says where the
-        # thing is, which is what the column is for, while keeping the
-        # identifier that makes it checkable.
-        hood = next((p.get("neighborhood") for p in parcels
-                     if p.get("neighborhood")), "")
-        from app.detail_bits import title_case
-        hood = title_case(hood) if hood else ""
-        addr = (f"{hood} (folio {best['id_fmt']})" if hood
-                else f"Folio {best['id_fmt']}")
+        # THREE DEEDS IN THIS WINDOW HAVE NO ADDRESS ANYWHERE. Not missing from
+        # the sales feed -- absent from the property record too: the county's
+        # SiteAddress for these folios is an empty string, because they are
+        # vacant parcels it has never assigned a number to.
+        #
+        # A FOLIO IS NOT AN ADDRESS. It is Miami-Dade's parcel identifier, the
+        # local equivalent of an APN, and printing "01-3137-036-0060" in a
+        # column of street addresses asks the reader to decode a filing system
+        # to learn where a building is. The neighbourhood answers the question
+        # the column is actually asking, and the folio keeps its own home in
+        # parcel_id, which the row detail prints under "parcel".
+        hood = _place(next((p.get("neighborhood") for p in parcels
+                            if p.get("neighborhood")), ""))
+        addr = f"Vacant land, {hood}" if hood else "Vacant land, address not assigned"
 
     if len(parcels) > 1:
         addr = f"{addr} + {len(parcels) - 1} more parcel" + \
@@ -523,7 +574,7 @@ def _row(deed, cat, label, reason, verbose=True):
                         else "Palm Beach County Property Appraiser"),
         "source_date": deed["date"].isoformat(),
         "confidence": "primary_record",
-        "submarket": (big.get("neighborhood") or "").title() or None,
+        "submarket": _submarket(big.get("neighborhood")),
         "notes": " ".join(notes),
         "_asset_class": cat,
         "_parcels": n,

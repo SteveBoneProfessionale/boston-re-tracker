@@ -23,6 +23,8 @@ _KEEP_UPPER = {
     "LLC", "L.L.C.", "LP", "L.P.", "LLP", "PA", "PLLC", "NV", "SA", "AG",
     # directionals and street abbreviations that are read as letters
     "NE", "NW", "SE", "SW", "N", "S", "E", "W",
+    # district acronyms that appear in neighbourhood names
+    "CBD", "MIA",
     # roman numerals up to a sensible depth
     "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X",
     # the ones that would look silly lowercased
