@@ -215,7 +215,15 @@ def programme_chips(raw) -> list[str]:
             label = title_case(token.split(":")[0].split("/")[0].strip())
         if label and label not in chips:
             chips.append(label)
-    return chips
+    # Ordered the way a person describes a building -- what it IS first, then
+    # what is in its base. The permit lists work items in filing order, which
+    # put "Spa/Salon" ahead of "Condo" on the Waldorf.
+    rank = {c: i for i, c in enumerate(_LEAD_ORDER + _TAIL_ORDER)}
+    return sorted(chips, key=lambda c: rank.get(c, len(rank)))
+
+
+# _LEAD_ORDER and _TAIL_ORDER are defined below, after the chip table; the
+# sort above runs at call time, so the forward reference is fine.
 
 
 # ── one-line summary ────────────────────────────────────────────────────

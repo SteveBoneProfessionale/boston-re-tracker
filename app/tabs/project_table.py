@@ -12,7 +12,7 @@ from app.data import (
     RESOLUTION_METHODS, resolution_method, shows_provenance_badge, METHOD_ORDER,
     DEVELOPER_CONFIDENCE, developer_confidence, SF_SOURCES, ARCHITECT_SOURCES,
     load_field_citations, RI_SF_NOTE, RI_SF_NOTE_TITLE, UNITS_CONFIDENCE,
-    city_options, keep_city_selectable,
+    city_options, keep_city_selectable, uses_lifecycle_bar,
     FIELD_TIERS, load_field_tiers, mark_team_value, format_delivery_date,
 )
 from app.detail_bits import (title_case, programme_chips, summary_line,
@@ -1006,7 +1006,7 @@ def _detail_panel(p: pd.Series, df: pd.DataFrame):
     # drawing their status onto Article 80's five phases would place every one
     # of them at phase zero. Keyed on the vocabulary rather than on the city,
     # so the next market added gets the right panel without another branch.
-    if p["status"] not in LIFECYCLE_IDX:
+    if not (uses_lifecycle_bar(p.get("city")) and p["status"] in LIFECYCLE_IDX):
         stage = p.get("stage") or "—"
         stage_color = STAGE_COLORS.get(stage, _MUTED)
         st.markdown(

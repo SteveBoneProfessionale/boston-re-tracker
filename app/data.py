@@ -542,6 +542,22 @@ def canonical_asset_class(raw: str | None) -> str | None:
     return v if v in ASSET_CLASSES else None
 
 
+# The lifecycle bar draws Boston's Article 80 phase sequence. A status string
+# is NOT enough to decide whether to draw it: "Under Construction" is shared
+# vocabulary, so keying on the status alone drew the bar for 176 Miami rows and
+# lit "Under Review" and "Board Approved" green on every one of them -- phases
+# Miami has no equivalent of and which were never observed. The row's own
+# market decides instead, by asking whether its status vocabulary IS that
+# sequence.
+_ARTICLE_80 = {"Letter of Intent", "Under Review", "Board Approved"}
+
+
+def uses_lifecycle_bar(city: str) -> bool:
+    """True only for a market whose own stage vocabulary is Article 80's."""
+    stage_map = MARKETS.get(city or "", _DEFAULT_MARKET).get("stage_map") or {}
+    return _ARTICLE_80.issubset(set(stage_map))
+
+
 def market_of(city: str) -> str:
     """Market (state-level grouping) a municipality belongs to."""
     return MARKETS.get(city, _DEFAULT_MARKET)["market"]
