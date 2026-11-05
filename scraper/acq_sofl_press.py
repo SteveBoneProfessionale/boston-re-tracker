@@ -134,10 +134,16 @@ PRESS = {
     },
 
     # ── Mayfair House Hotel & Garden, Coconut Grove. $69,400,000, 26 May ──
-    # The deed records $69.4M for the real property; the press reports $110M
-    # for the whole transaction including the hotel business and its FF&E.
-    # Only the recorded consideration belongs in `price`, so the two figures
-    # are not in conflict -- they measure different things.
+    # TWO FIGURES, BOTH SOURCED, MEASURING DIFFERENT THINGS. The deed records
+    # $69,400,000 and that is what `price` holds, because `price` is the
+    # recorded consideration. Commercial Observer reports the hotel trading
+    # "for roughly $110 million, according to a representative for Brookfield",
+    # and the same article says the deed figure "likely only included the value
+    # of the real estate and excluded the property's furniture and operating
+    # assets". So the larger number is the going concern -- real estate plus
+    # FF&E plus the operating business -- attributed to the seller's own
+    # spokesman, not an independent valuation. Neither contradicts the other
+    # and the attribution is named rather than left as "the press reports".
     "DEAN MCG PROPCO LLC": {
         "firm": "Elliott Investment Management / Lifestyle Hospitality Capital",
         "url": "https://commercialobserver.com/2026/06/paul-singers-elliott-management-miami-coconut-grove-mayfair-house-hotel-garden/",
@@ -372,6 +378,44 @@ PRESS = {
         "quote": "The buildings at 380 and 320 Northwest 26th Street in "
                  "Wynwood were sold for $24.5 million... the buyer was a "
                  "company linked to developer and investor Moishe Mana.",
+    },
+    # ── Lafayette Plaza and Emerald Terrace, buyer side. 8 April 2026 ───
+    # RESOLVED ON RE-EXAMINATION. Two objections stood against naming Starwood
+    # and both have now failed.
+    #
+    # THE DATE. The deeds state 8 April while Commercial Observer dates the
+    # sales to mid-August. Miami-Dade book numbers rise monotonically with
+    # RECORDING, and these are book 35443 -- between a deed recorded 12 August
+    # and one recorded 13 August elsewhere in this same dataset. So 8 April is
+    # the execution date and the instrument reached the register in August,
+    # exactly when the article says. The gap was never a contradiction.
+    #
+    # THE NAME. "GH" reads as Gatehouse, which is the seller. The Florida
+    # register says otherwise: GH LAFAYETTE PLAZA, L.P. and GH EMERALD
+    # TERRACE, L.P. are foreign limited partnerships filed the same day,
+    # 20 November 2025, both with their principal address at 591 West Putnam
+    # Avenue, Greenwich, Connecticut -- Starwood Capital Group's headquarters
+    # -- and each with a general partner, GH <NAME> GP, L.L.C., at that same
+    # address. A seller does not register the buying vehicle at the buyer's
+    # head office.
+    "GH LAFAYETTE PLAZA L P": {
+        "firm": "Starwood Asset Management",
+        "url": "https://commercialobserver.com/2026/08/barry-sternlicht-starwood-miami-dade-affordable-housing-lafayette-emerald-terrace/",
+        "outlet": "Commercial Observer",
+        "quote": "Barry Sternlicht's Starwood Asset Management bought the "
+                 "Lafayette housing complex in Miami's Little River "
+                 "neighborhood for $27 million from the Gatehouse Group; the "
+                 "Florida register puts the buying partnership's principal "
+                 "address at Starwood Capital's Greenwich headquarters.",
+    },
+    "GH EMERALD TERRACE L P": {
+        "firm": "Starwood Asset Management",
+        "url": "https://commercialobserver.com/2026/08/barry-sternlicht-starwood-miami-dade-affordable-housing-lafayette-emerald-terrace/",
+        "outlet": "Commercial Observer",
+        "quote": "Starwood Asset Management bought Emerald Terrace for $24.6 "
+                 "million from the Gatehouse Group; the Florida register puts "
+                 "the buying partnership at 591 West Putnam Avenue, "
+                 "Greenwich, Starwood Capital's headquarters.",
     },
 }
 

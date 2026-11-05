@@ -205,6 +205,50 @@ def _corporate_managers(record):
     return out
 
 
+SUNBIZ_DOC = ("https://search.sunbiz.org/Inquiry/CorporationSearch/"
+              "SearchResultDetail?inquirytype=DocumentNumber&directionType="
+              "Initial&searchNameOrder={doc}")
+
+
+def _record_for(entity, sunbiz):
+    """The register record for a deed entity, under whichever name holds it.
+
+    Tries the county's full grantee string first, then each registered name
+    inside it -- see base_names on why the two differ and why searching the
+    whole mailing line finds nothing.
+    """
+    rec = sunbiz.get(entity)
+    if rec and not rec.get("_error"):
+        return rec
+    for base in base_names(entity):
+        rec = sunbiz.get(base)
+        if rec and not rec.get("_error"):
+            return rec
+    from scraper import acq_sofl_sunbiz_bulk as BULK
+    bulk = _bulk_index()
+    for key in [entity] + base_names(entity):
+        rec = bulk.get(BULK.norm(key))
+        if rec:
+            return rec
+    return None
+
+
+_BULK = None
+
+
+def _bulk_index():
+    """The bulk-data index, loaded once."""
+    global _BULK
+    if _BULK is None:
+        path = os.path.join(ROOT, "data", "cache", "sunbiz_bulk_index.json")
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as fh:
+                _BULK = json.load(fh)
+        else:
+            _BULK = {}
+    return _BULK
+
+
 def signals(entity, sunbiz, depth=CHAIN_DEPTH):
     """Every independent clue about the firm behind one deed entity.
 
@@ -218,23 +262,8 @@ def signals(entity, sunbiz, depth=CHAIN_DEPTH):
     if co and not _is_shell(co, entity):
         out.append(("deed_co", co))
 
-    # The register knows the entity by its own name, not by the county's
-    # mailing line -- see base_names. Try the harvested record first, then each
-    # base name, falling back to a cached register lookup so that an entity
-    # already on disk resolves even while the register is refusing new traffic.
-    rec = sunbiz.get(entity)
-    if not rec or rec.get("_error"):
-        for base in base_names(entity):
-            rec = sunbiz.get(base)
-            if rec and not rec.get("_error"):
-                break
-            try:
-                rec = SB.lookup(base)
-            except Exception:                        # noqa: BLE001
-                rec = None
-            if rec:
-                break
-    if not rec or rec.get("_error"):
+    rec = _record_for(entity, sunbiz)
+    if not rec:
         return out
 
     for name in _sunbiz_co(rec):
@@ -264,8 +293,86 @@ def signals(entity, sunbiz, depth=CHAIN_DEPTH):
     return out
 
 
+def principal(entity, sunbiz):
+    """A natural person who MANAGES the entity, where no firm is found.
+
+    The brief's rule, and the two halves of it matter equally. Only officers
+    whose recorded TYPE is "P" -- a natural person, as against "C" for a
+    corporation -- and whose TITLE is a managing one can appear. A registered
+    agent cannot: it lives in its own field of the record and nothing here
+    reads that field, so a law firm, an agent service or CT Corporation is
+    structurally incapable of being printed as somebody's principal.
+
+    Several managers are kept and joined, because an LLC with two managing
+    members has two principals and naming one would be a choice the record
+    does not make.
+    """
+    rec = _record_for(entity, sunbiz)
+    if not rec:
+        return None
+    people = [p for p in (rec.get("persons") or [])
+              if p.get("is_person") and p.get("is_manager") and p.get("name")]
+    if not people:
+        return None
+    names = []
+    for p in people:
+        name = tidy_person(p["name"])
+        if name and name not in names:
+            names.append(name)
+    if not names:
+        return None
+    titles = ", ".join(sorted({p["title"] for p in people if p.get("title")}))
+    return (" & ".join(names[:3]), "principal_named",
+            f"Florida Division of Corporations lists {titles or 'a manager'} "
+            f"for {rec.get('name') or entity}; natural person, not the "
+            f"registered agent",
+            rec.get("sunbiz_url") or SUNBIZ_DOC.format(
+                doc=rec.get("document_number", "")))
+
+
+def tidy_person(name):
+    """A person's name as a person would write it.
+
+    TWO SOURCES, TWO SHAPES. The website writes "SREBNICK, SCOTT" with a
+    comma. The bulk file has no comma at all: it pads the surname into a fixed
+    column and follows it with the forename, so the field arrives as
+    "RHODES              STEVE". Splitting on a run of two or more spaces
+    recovers the parts, and the surname is always first in both forms.
+
+    Without this the table printed "Grossman Samuel" and "Katz Raanan" --
+    names that read as surnames twice over and would be wrong if anyone
+    searched them.
+    """
+    text = str(name or "").strip()
+    if "," in text:
+        last, _, first = text.partition(",")
+        text = f"{first.strip()} {last.strip()}"
+    else:
+        parts = [p for p in re.split(r"\s{2,}", text) if p.strip()]
+        if len(parts) >= 2:
+            text = " ".join(parts[1:] + [parts[0]])
+    text = re.sub(r"\s+", " ", text).strip()
+    parts = []
+    for word in text.split():
+        if len(word) <= 3 and word.isupper() and word.rstrip(".") in (
+                "JR", "SR", "II", "III", "IV", "MD", "PA"):
+            parts.append(word.title())
+        else:
+            parts.append(word.capitalize() if word.isupper() or word.islower()
+                         else word)
+    return " ".join(parts).strip()
+
+
 def resolve(entity, sunbiz):
-    """(firm, confidence, basis, url) for one deed entity, or None."""
+    """(name, confidence, basis, url) for one deed entity, or None.
+
+    A FIRM ALWAYS BEATS A PRINCIPAL. The order here is the brief's: a press
+    report of the deal, then two agreeing signals, and only when neither
+    produces a company does a managing person stand in for it. A principal is
+    a different kind of answer -- who runs the vehicle, not who the vehicle
+    belongs to -- so it carries its own confidence and its own marker rather
+    than passing as a resolved sponsor.
+    """
     press = PRESS.lookup(entity)
     if press:
         return (press["firm"], "press_reported",
@@ -294,6 +401,11 @@ def resolve(entity, sunbiz):
                     f"{src_a} says {name_a!r} and {src_b} says {name_b!r}",
                     rec.get("sunbiz_url"))
     return None
+
+
+def resolve_or_principal(entity, sunbiz):
+    """A firm if one can be established, else a managing person, else None."""
+    return resolve(entity, sunbiz) or principal(entity, sunbiz)
 
 
 def tidy(name):
@@ -341,7 +453,7 @@ def main():
         for side in ("buyer", "seller"):
             name = (r[side] or "").strip()
             if name and name not in out:
-                out[name] = resolve(name, sunbiz)
+                out[name] = resolve_or_principal(name, sunbiz)
 
     hit = {k: v for k, v in out.items() if v}
     print(f"{len(out)} entities, {len(hit)} resolved, {len(out) - len(hit)} "

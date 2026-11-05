@@ -120,9 +120,10 @@ def _widths(display: pd.DataFrame) -> dict:
     out = {}
     for col in display.columns:
         render = _CELL.get(col, str)
-        # A two-line cell is as wide as its WIDEST LINE, not as wide as both
-        # lines joined -- measuring the joined string would roughly double the
-        # party columns and push the price off the screen.
+        # Measured per LINE. Cells are single-line today -- Streamlit's grid
+        # collapses newlines, see _ENTITY_LINE -- but measuring the widest line
+        # rather than the whole string keeps the sizing correct if that ever
+        # changes, and costs nothing now.
         def _widest(v, _r=render):
             return max((_text_px(part) for part in str(_r(v)).splitlines() or [""]),
                        default=0.0)
@@ -150,6 +151,16 @@ RESOLUTION_MARK = {
     "two_signals":        ("◈", "two independent registry signals agree"),
 }
 
+# A PRINCIPAL IS NOT A SPONSOR, so it is kept out of RESOLUTION_MARK entirely
+# rather than given another glyph beside the firms. It answers a different
+# question: not which company owns the asset, but which natural person the
+# state register names as running the vehicle that holds it. Those people come
+# only from the manager and member fields -- never a registered agent, an
+# attorney or an agent service, which sit in a different field of the record
+# that nothing here reads.
+PRINCIPAL_MARK = ("◉", "a natural person the register names as manager or "
+                       "member; no firm established")
+
 # The party named on the instrument, where no sponsor has been resolved behind
 # it. Deliberately the faintest mark in the set: it is a real name from a real
 # record, and it is NOT a firm.
@@ -163,12 +174,21 @@ RECORD_MARK = ("○", "the entity on the instrument; no sponsor resolved")
 _ENTITY_MAX = 34
 
 
-# Rendered as two lines in one cell: the firm, then the entity the deed names.
-# Streamlit's grid wraps a cell's text when the row is tall enough, so TABLE_ROW_H
-# below is what makes the second line appear rather than being clipped. If a
-# build ever collapses the newline the cell degrades to "Firm  Entity" on one
-# line, which is still both facts in the right order.
-_ENTITY_LINE = "\n"
+# STREAMLIT'S GRID CANNOT PUT TWO LINES IN A CELL, so the entity follows the
+# firm after a separator rather than sitting under it.
+#
+# Tested, not assumed. st.dataframe draws through a CANVAS grid rather than the
+# DOM, so no CSS reaches a cell and nothing can vary size or colour within one;
+# a newline in the value is collapsed to a space; and row_height, which looks
+# like it should make text wrap, does not bring it back -- a two-row probe at
+# row_height=60 holding "Firm Name Here\nENTITY LLC 123" drew "Firm Name Here
+# ENTITY LLC 123" on one line.
+#
+# So the brief's hierarchy is carried by ORDER instead of typography: the firm
+# first, a separator, then the entity of record. Both facts stay on the row,
+# the firm reads first, and the row detail carries the entity verbatim and
+# untrimmed for anyone checking it against a registry.
+_ENTITY_LINE = "   ·   "
 
 
 def _sponsor_cell(canon, conf, record=None) -> str:
@@ -195,8 +215,11 @@ def _sponsor_cell(canon, conf, record=None) -> str:
             entity = entity[:_ENTITY_MAX - 1].rstrip(" ,&") + "…"
 
     if canon and canon == canon and str(canon).strip():
-        mark = RESOLUTION_MARK.get(conf, ("·", "unknown basis"))[0]
-        head = f"{mark} {canon}"
+        if conf == "principal_named":
+            head = f"{PRINCIPAL_MARK[0]} Principal: {canon}"
+        else:
+            mark = RESOLUTION_MARK.get(conf, ("·", "unknown basis"))[0]
+            head = f"{mark} {canon}"
         # THE FIRM FIRST, THE VEHICLE UNDER IT. Both are kept because they are
         # different facts: the firm is who did the deal, the entity is what the
         # instrument says, and a reader checking a registry needs the second.
@@ -239,7 +262,18 @@ def _rankings(f: pd.DataFrame):
         # it ranks once with five deals rather than five times with one each.
         # Cortland selling both Portofino buildings through WPB MULTIFAMILY
         # OWNER I and II is the case in this data.
-        sub["_who"] = sub[f"{side}_canonical"].astype(str).str.strip()
+        # A PRINCIPAL IS LABELLED IN THE RANKING TOO. Grouping by the canonical
+        # column already does what the brief asks -- a firm that bought through
+        # five vehicles ranks once with five deals, and a principal only
+        # appears where no firm was established -- but an unlabelled person
+        # sitting among firms would read as one. The confidence column says
+        # which it is, so the label carries it.
+        _conf = sub.get(f"{side}_confidence")
+        sub["_who"] = [
+            (f"Principal: {str(w).strip()}"
+             if str(c) == "principal_named" else str(w).strip())
+            for w, c in zip(sub[f"{side}_canonical"],
+                            _conf if _conf is not None else [""] * len(sub))]
         n_res = len(sub)
         vol_res = float(pd.to_numeric(sub["price"], errors="coerce").fillna(0).sum())
         vol_all = float(pd.to_numeric(f["price"], errors="coerce").fillna(0).sum())
@@ -833,6 +867,8 @@ def render(projects=None):
         # face of the table and neither is guessable from the glyph alone.
         + f'&nbsp;&nbsp;·&nbsp;&nbsp;<span style="color:#22c55e">▣◈◇✎</span>'
           f'&nbsp;RESOLVED SPONSOR'
+          f'&nbsp;&nbsp;·&nbsp;&nbsp;<span style="color:#38bdf8">◉</span>'
+          f'&nbsp;PRINCIPAL'
           f'&nbsp;&nbsp;·&nbsp;&nbsp;<span style="color:{_MUTED}">○</span>'
           f'&nbsp;ENTITY OF RECORD'
         + '</p>', unsafe_allow_html=True)
@@ -845,10 +881,8 @@ def render(projects=None):
     f = f.sort_values("price", ascending=False, na_position="last")
     disp = _build_display(f)
     w = _widths(disp)
-    # Two-line party cells need the room; see _sponsor_cell.
     event = st.dataframe(
         disp, use_container_width=True, hide_index=True, height=560,
-        row_height=46,
         on_select="rerun", selection_mode="single-row", key="acq_table",
         column_config={
             "ADDRESS": st.column_config.TextColumn(

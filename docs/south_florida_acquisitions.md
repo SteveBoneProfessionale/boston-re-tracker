@@ -100,8 +100,8 @@ The medians mix no bases: a Land row divides by LAND area and every other class 
 
 | Side | Resolved to a firm | Entity of record | Rows |
 |---|---:|---:|---:|
-| Buyer | 20 | 86 | 106 |
-| Seller | 19 | 87 | 106 |
+| Buyer | 46 | 60 | 106 |
+| Seller | 37 | 69 | 106 |
 
 A resolution needs either a trade-press article about THIS deal, or two independent signals that agree — a registered manager, a c/o on the deed, a chain of managers followed up to an operating company. One clue alone never resolves, and an entity that does not resolve keeps its own name and is marked as the entity of record.
 
@@ -112,8 +112,9 @@ A firm that bought through several single-purpose vehicles counts once, with all
 
 | Firm | Deals | Volume |
 |---|---:|---:|
+| Moishe Mana | 3 | $141,831,200 |
 | Fairfield Residential | 2 | $208,000,000 |
-| Moishe Mana | 2 | $134,481,200 |
+| Starwood Asset Management | 2 | $51,600,000 |
 | Kolter Group / BH Group | 2 | $40,350,000 |
 | Ken Griffin / Goldman Properties | 1 | $181,000,000 |
 | Intalex Capital / Itero Investments / Greenwall Capital | 1 | $97,800,000 |
@@ -121,61 +122,60 @@ A firm that bought through several single-purpose vehicles counts once, with all
 | Wharton Properties / Pebb Capital / Lane Capital Partners | 1 | $72,500,000 |
 | Elliott Investment Management / Lifestyle Hospitality Capital | 1 | $69,400,000 |
 | Azora | 1 | $61,000,000 |
-| GK Real Estate | 1 | $54,000,000 |
 
 ### Ten resolutions, with their sources
 
 Seeded, so this is a checkable sample rather than a chosen one.
 
-**1. Intalex Capital / Itero Investments / Greenwall Capital** — buyer of 2501 Ponce De Leon Blvd + 2 more parcels, Coral Gables, $97,800,000  
-entity of record: `PONCE CORAL GABLES LLC`  
-basis: Commercial Observer on this deal: “Intalex Capital, Itero Investments and Greenwall Capital were the buyers.”  
-source: https://commercialobserver.com/2026/07/pgim-coral-gables-ponce/
+**1. Azora** — buyer of 3480 Main Hwy, Miami, $61,000,000  
+entity of record: `ATLANTIC GATEWAY LLC`  
+basis: Commercial Observer on this deal: “Azora Private purchased the seven-story property at 3480 Main Highway.”  
+source: https://commercialobserver.com/2026/02/torose-sabal-azora-3480-main-highway-miami-coconut-grove/
 
-**2. PGIM** — seller of 2501 Ponce De Leon Blvd + 2 more parcels, Coral Gables, $97,800,000  
-entity of record: `PRISA PONCE DE LEON LLC`  
-basis: The Real Deal on this deal: “PGIM sold the Ponce office complex in Coral Gables for $97.8 million.”  
-source: https://therealdeal.com/miami/2026/07/06/pgim-sells-coral-gables-office-building-for-98-million/
-
-**3. Fairfield Residential** — buyer of 4600 Portofino Way, West Palm Beach, $100,000,000  
-entity of record: `FAIRFIELD PORTOFINO PLACE II LLC`  
-basis: Bisnow on this deal: “California-based Fairfield Residential paid $208M for the 812-unit Portofino Place East and West apartment complexes.”  
-source: https://www.bisnow.com/news/south-florida/deal-sheet/cortland-fairfield-residential-portofino-place
-
-**4. Gatehouse Group** — seller of 155 Ne 78 St, Miami, $27,000,000  
-entity of record: `LAFAYETTE SQUARE II LTD & C/O GATEHOUSE MANAGEMENT`  
-basis: Commercial Observer on this deal: “Mansfield, Mass.-based Gatehouse Group developed and sold these four properties.”  
-source: https://commercialobserver.com/2026/08/barry-sternlicht-starwood-miami-dade-affordable-housing-lafayette-emerald-terrace/
-
-**5. Kasumigaseki Capital** — buyer of Folio 01-3137-036-0060, Miami, $88,750,000  
-entity of record: `KASUMIGASEKI FLORIDA LLC & C/O KASUMIGASEKI CAPITAL CO LTD`  
-basis: Bisnow on this deal: “Tokyo-based Kasumigaseki Capital closed on a 1.4-acre parcel at Miami Worldcenter, acquiring the Block C site for $88.75 million.”  
-source: https://www.bisnow.com/south-florida/news/land/miami-worldcenter-development-site-hits-the-market-135209
-
-**6. Flow** — seller of 710 Ne 1 Ave, Miami, $26,581,900  
-entity of record: `MWC BLOCK E LLC`  
-basis: The Real Deal on this deal: “An affiliate of Adam Neumann's Flow sold an unfinished three-story retail and office building at Miami Worldcenter for $26.6 million.”  
-source: https://therealdeal.com/miami/2026/06/03/flow-affiliate-sells-miami-worldcenter-building/
-
-**7. Ultimate Equity** — seller of 2401 Nw 6 Ave + 8 more parcels, Miami, $54,000,000  
+**2. Ultimate Equity** — seller of 2401 Nw 6 Ave + 8 more parcels, Miami, $54,000,000  
 entity of record: `ULTIMATE EQUITY INC`  
 basis: Commercial Observer on this deal: “The seller was Ultimate Equity, managed by David Sedaghati of Miami-based Ultimate Shoes.”  
 source: https://commercialobserver.com/2026/03/miami-wynwood-gary-krat-ultimate-shoes-david-sedaghati-gary-krat/
 
-**8. Moishe Mana** — buyer of 380 Nw 26 St + 1 more parcel, Miami, $24,481,200  
-entity of record: `320 NW 26 STREET REALTY LLC`  
-basis: The Real Deal on this deal: “The buildings at 380 and 320 Northwest 26th Street in Wynwood were sold for $24.5 million... the buyer was a company linked to developer and investor Moishe Mana.”  
-source: https://therealdeal.com/miami/2026/07/21/south-florida-top-real-estate-deals-july-20-2026/
+**3. Steven Perricone** — seller of 1700 Sw 3 Ave, Miami, $5,200,000  
+entity of record: `CORAL WAY PARTNERS LLC`  
+basis: Florida Division of Corporations lists MGR for CORAL WAY PARTNERS LLC; natural person, not the registered agent  
+source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=DocumentNumber&directionType=Initial&searchNameOrder=L18000155531
 
-**9. Tabani Group** — buyer of 43 Nw 23 St, Miami, $25,732,500  
-entity of record: `T WYNWOOD JUNGLE NRTP FL LLC & T WYNWOOD JUNGLE NRTW FL LLC`  
-basis: The Real Deal on this deal: “Tabani Group, a Dallas-based investment firm, is the buyer that dropped $25.7 million for the Wynwood Jungle.”  
-source: https://therealdeal.com/miami/2026/07/09/tabani-group-is-the-buyer-of-rivanis-wynwood-jungle/
+**4. Wharton Properties / Pebb Capital / Lane Capital Partners** — buyer of 112 Ne 41 St, Miami, $72,500,000  
+entity of record: `41ST MIAMI DD PROPCO LLC`  
+basis: The Real Deal on this deal: “A joint venture including Jeff Sutton's Wharton Properties, Pebb Capital, and Lane Capital Partners acquired a fully leased mixed-use building for $72.5 million.”  
+source: https://therealdeal.com/miami/2026/01/27/pebb-jeff-sutton-lane-capital-buy-design-district-building/
 
-**10. Canero** — seller of 3265 Virginia St 17 + 24 more parcels, Miami, $45,500,000  
+**5. Chaim Hyman & Karina Hyman & Abraham Stein** — seller of 4510 Ne 2 Ave, Miami, $6,515,000  
+entity of record: `SLH INVESTMENTS LLC`  
+basis: Florida Division of Corporations lists MGRM for SLH INVESTMENTS LLC; natural person, not the registered agent  
+source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=DocumentNumber&directionType=Initial&searchNameOrder=L08000064191
+
+**6. Canero** — seller of 3265 Virginia St 17 + 24 more parcels, Miami, $45,500,000  
 entity of record: `WNG MIAMI LLC`  
 basis: Commercial Observer on this deal: “Canero flips condo in Miami's Coconut Grove to El-Ad for $46M.”  
 source: https://commercialobserver.com/2026/05/chateau-grove-condominium-el-ad-national-canero-miami-coconut-grove/
+
+**7. Jacobo Azout** — seller of 9901 Nw 41 St, Doral, $6,408,200  
+entity of record: `ADAR DORAL 9901 LLC`  
+basis: Florida Division of Corporations lists MGR for ADAR DORAL 9901 LLC; natural person, not the registered agent  
+source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=DocumentNumber&directionType=Initial&searchNameOrder=L21000259015
+
+**8. Palm Holdings** — buyer of 1301 Belvedere Rd, West Palm Beach, $23,750,000  
+entity of record: `PM FLORIDA MASTER LP`  
+basis: The Real Deal on this deal: “Activate Hospitality sold the 11-story, 200-key Delta Hotels by Marriott West Palm Beach to an affiliate of Toronto-based Palm Holdings, led by Sheetal Kapoor.”  
+source: https://therealdeal.com/miami/2026/01/30/activate-hospitality-sells-renovated-west-palm-beach-hotel/
+
+**9. Samuel Grossman** — seller of 1720 Nw 95 Ave, Doral, $5,100,000  
+entity of record: `SS LOWREY PROPERTY INVESTMENTS & LLC`  
+basis: Florida Division of Corporations lists MBR for SS LOWREY PROPERTY INVESTMENTS, LLC; natural person, not the registered agent  
+source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=DocumentNumber&directionType=Initial&searchNameOrder=L19000136827
+
+**10. Felipe R Onetto & Juan Ignacio Montes Labarca** — buyer of 4001 Salzedo St 300, Coral Gables, $6,000,000  
+entity of record: `ALTA DEVELOPERS OFFICE LLC`  
+basis: Florida Division of Corporations lists AP for ALTA DEVELOPERS OFFICE LLC; natural person, not the registered agent  
+source: https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=DocumentNumber&directionType=Initial&searchNameOrder=L26000049973
 
 
 ## Random sample of ten
