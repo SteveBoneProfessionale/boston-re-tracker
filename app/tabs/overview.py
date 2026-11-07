@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 from app.data import (
     summary_stats, STAGE_COLORS, STAGE_ORDER,
     REVIEW_SCALE_COLORS, review_scale_vocab,
-    RESOLUTION_METHODS, resolution_method, METHOD_ORDER, city_options, keep_city_selectable,
+    RESOLUTION_METHODS, resolution_method, city_options, keep_city_selectable,
 )
 
 _BG      = "#0d0f12"
@@ -333,64 +333,34 @@ T.forEach(t=>{{
             x_max_n = dev_counts["n"].max() * 1.45
             order = dev_counts["developer_canonical"].tolist()
 
-            # Split each developer's bar by how the name was resolved, so an
-            # inferred name never looks like a verified one. Hatched segments
-            # are web-corroborated; solid are registry-confirmed.
+            # One solid bar per developer. Resolution tier is deliberately not
+            # drawn here: it stays in the data, the caption below and the
+            # project detail view.
             dev_df = dev_df.copy()
             dev_df["_method"] = dev_df["developer_resolution_method"].apply(resolution_method)
             dev_df["_label"] = dev_df["developer_canonical"].apply(
                 lambda x: (x[:21] + "…") if len(x) > 23 else x
             )
-            by_method = (
+            totals = (
                 dev_df[dev_df["_label"].isin(order)]
-                .groupby(["_label", "_method"]).size().reset_index(name="n")
+                .groupby("_label").size().reset_index(name="n")
             )
 
-            fig_dev = go.Figure()
-            for method in METHOD_ORDER:
-                seg = by_method[by_method["_method"] == method]
-                if seg.empty:
-                    continue
-                meta = RESOLUTION_METHODS[method]
-                fill = _ORANGE if meta["verified"] else "#8A6A3F"
-                fig_dev.add_trace(go.Bar(
-                    x=seg["n"], y=seg["_label"],
-                    orientation="h",
-                    name=meta["label"],
-                    marker=dict(
-                        color=fill,
-                        # A background-colored edge keeps stacked tiers distinct,
-                        # since the inferred ones share a fill.
-                        line=dict(width=1, color=_BG),
-                        # fillmode defaults to "replace", which spends
-                        # marker.color on the pattern and leaves the background
-                        # transparent. With an explicit fgcolor that drops the
-                        # fill entirely, so the bar is only dark hatch lines.
-                        pattern=dict(shape=meta["pattern"], fgcolor="#1b1e26",
-                                     bgcolor=fill, fillmode="overlay", size=5),
-                    ),
-                    cliponaxis=False,
-                    hovertemplate="%{y}: %{x} project(s) — " + meta["label"] + "<extra></extra>",
-                ))
-            # Each bar's total at its tip. Segments split by evidence tier, so
-            # the count can't be read off any single segment.
-            totals = by_method.groupby("_label")["n"].sum().reset_index()
-            fig_dev.add_trace(go.Scatter(
+            fig_dev = go.Figure(go.Bar(
                 x=totals["n"], y=totals["_label"],
-                mode="text", text=totals["n"].map(lambda n: f" {n}"),
-                textposition="middle right",
+                orientation="h",
+                marker=dict(color=_ORANGE, line_width=0),
+                text=totals["n"], textposition="outside",
                 textfont=dict(family=_UI, size=10, color="#e2e8f0"),
-                hoverinfo="skip", showlegend=False, cliponaxis=False,
+                cliponaxis=False,
+                hovertemplate="%{y}: %{x} project(s)<extra></extra>",
             ))
             n_inferred = int(dev_df["_method"].map(
                 lambda m: not RESOLUTION_METHODS[m]["verified"]).sum())
             fig_dev.update_layout(
                 **_chart_base(450),
                 margin=_M_AXIS,
-                barmode="stack",
-                showlegend=bool(n_inferred),
-                legend=dict(orientation="h", yanchor="bottom", y=1.0, x=0,
-                            font=dict(family=_UI, size=9, color=_MUTED)),
+                showlegend=False,
                 xaxis=_xaxis("NUMBER OF PROJECTS", dtick=1, x_range=[0, x_max_n]),
                 yaxis=dict(**_yaxis(), categoryorder="array", categoryarray=order),
             )
@@ -398,7 +368,7 @@ T.forEach(t=>{{
             if n_inferred:
                 st.caption(
                     f"{n_inferred} project(s) have a developer inferred from press coverage "
-                    f"(hatched) rather than confirmed against the corporate registry (solid). "
+                    f"rather than confirmed against the corporate registry. "
                     f"Source links are on each project's detail view."
                 )
         else:
