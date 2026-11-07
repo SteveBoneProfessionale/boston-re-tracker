@@ -168,14 +168,14 @@ def render(df: pd.DataFrame, stats: dict):
 body{{background:{_BG};overflow:hidden}}
 .grid{{
   display:grid;
-  grid-template-columns:repeat(8,1fr);
+  grid-template-columns:repeat({len(tiles)},minmax(0,1fr));
   gap:1px;
   background:{_BORDER};
   border:1px solid {_BORDER};
 }}
 .tile{{
   background:{_BG};
-  padding:15px 16px 13px;
+  padding:15px 10px 13px;
   position:relative;
   overflow:hidden;
 }}
@@ -189,7 +189,7 @@ body{{background:{_BG};overflow:hidden}}
 .lbl{{
   font-family:'Inter',-apple-system,'Segoe UI',sans-serif;
   font-size:8px;font-weight:700;
-  letter-spacing:0.14em;
+  letter-spacing:0.1em;
   color:{_MUTED};
   text-transform:uppercase;
   margin-bottom:9px;
@@ -197,10 +197,20 @@ body{{background:{_BG};overflow:hidden}}
 }}
 .val{{
   font-family:'Inter',-apple-system,'Segoe UI',sans-serif;
-  font-size:1.75rem;font-weight:700;
+  font-size:min(1.75rem,2.1vw);font-weight:700;
   color:#fff;line-height:1;white-space:nowrap;
 }}
-.sfx{{color:var(--c);font-size:0.95rem;margin-left:3px;font-weight:600}}
+.sfx{{color:var(--c);font-size:0.55em;margin-left:3px;font-weight:600}}
+/* The tile count varies by selection, so the row is sized from it above.
+   Too narrow for one row of labels, it breaks into two. */
+@media (max-width:1100px){{
+  .grid{{grid-template-columns:repeat({(len(tiles) + 1) // 2},minmax(0,1fr))}}
+  .val{{font-size:1.5rem}}
+}}
+@media (min-width:1101px) and (max-width:1240px){{
+  .tile{{padding-left:8px;padding-right:6px}}
+  .lbl{{letter-spacing:0.05em}}
+}}
 </style>
 </head><body>
 <div class="grid" id="g"></div>
@@ -216,6 +226,12 @@ function anim(el,raw,big,dur){{
   }})(s);
 }}
 const g=document.getElementById('g');
+// The frame takes its height from the tiles, so a second row is shown rather
+// than cut off. 17px is the gap the fixed height left under the row.
+function fit(){{
+  if(window.frameElement)window.frameElement.style.height=(g.offsetHeight+17)+'px';
+}}
+new ResizeObserver(fit).observe(g);
 T.forEach(t=>{{
   const d=document.createElement('div');
   d.className='tile';
@@ -336,19 +352,38 @@ T.forEach(t=>{{
                 if seg.empty:
                     continue
                 meta = RESOLUTION_METHODS[method]
+                fill = _ORANGE if meta["verified"] else "#8A6A3F"
                 fig_dev.add_trace(go.Bar(
                     x=seg["n"], y=seg["_label"],
                     orientation="h",
                     name=meta["label"],
                     marker=dict(
-                        color=_ORANGE if meta["verified"] else "#8A6A3F",
-                        line_width=0,
-                        pattern=dict(shape=meta["pattern"], fgcolor="#1b1e26", size=5),
+                        color=fill,
+                        # A background-colored edge keeps stacked tiers distinct,
+                        # since the inferred ones share a fill.
+                        line=dict(width=1, color=_BG),
+                        # fillmode defaults to "replace", which spends
+                        # marker.color on the pattern and leaves the background
+                        # transparent. With an explicit fgcolor that drops the
+                        # fill entirely, so the bar is only dark hatch lines.
+                        pattern=dict(shape=meta["pattern"], fgcolor="#1b1e26",
+                                     bgcolor=fill, fillmode="overlay", size=5),
                     ),
                     cliponaxis=False,
                     hovertemplate="%{y}: %{x} project(s) — " + meta["label"] + "<extra></extra>",
                 ))
-            n_inferred = int((dev_df["_method"] == "web_corroborated").sum())
+            # Each bar's total at its tip. Segments split by evidence tier, so
+            # the count can't be read off any single segment.
+            totals = by_method.groupby("_label")["n"].sum().reset_index()
+            fig_dev.add_trace(go.Scatter(
+                x=totals["n"], y=totals["_label"],
+                mode="text", text=totals["n"].map(lambda n: f" {n}"),
+                textposition="middle right",
+                textfont=dict(family=_UI, size=10, color="#e2e8f0"),
+                hoverinfo="skip", showlegend=False, cliponaxis=False,
+            ))
+            n_inferred = int(dev_df["_method"].map(
+                lambda m: not RESOLUTION_METHODS[m]["verified"]).sum())
             fig_dev.update_layout(
                 **_chart_base(450),
                 margin=_M_AXIS,
